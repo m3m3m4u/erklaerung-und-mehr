@@ -52,3 +52,9 @@ next-env.d.ts
 *.sqlite3
 *.db
 /vorlagen/
+
+# Temp tools
+rclone*
+/scripts/start_upload_loop.bat
+/scripts/upload_ftp.mjs
+/scripts/upload_to_hetzner.ps1

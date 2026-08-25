@@ -89,11 +89,13 @@ a:hover {
 }
 
 /* ==========================================================================
-   Header
+   Header & Mega Menu
    ========================================================================== */
 .main-header {
   background: var(--bg-white);
   border-bottom: 2px solid var(--green-primary);
+  position: relative;
+  z-index: 100;
 }
 
 .header-inner {
@@ -110,20 +112,28 @@ a:hover {
 .brand {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 14px;
 }
 
-.brand-logo {
-  width: 42px;
-  height: 42px;
-  background: var(--green-primary);
-  color: #ffffff;
-  font-weight: bold;
-  font-size: 18px;
+.brand-logo-wrapper {
+  width: 52px;
+  height: 52px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 4px;
+  flex-shrink: 0;
+}
+
+.brand-favicon {
+  width: 52px;
+  height: 52px;
+  object-fit: contain;
+  border-radius: 50%;
+  transition: transform 0.2s ease;
+}
+
+.brand:hover .brand-favicon {
+  transform: rotate(6deg) scale(1.05);
 }
 
 .site-title {
@@ -155,17 +165,63 @@ a:hover {
   color: var(--text-color);
   border-radius: 4px;
   cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  transition: background-color 0.15s ease, color 0.15s ease;
 }
 
 .nav-btn:hover {
   background: var(--green-light);
   color: var(--green-dark);
+  text-decoration: none;
 }
 
 .nav-btn.active {
   background: var(--green-light);
   color: var(--green-dark);
   border-color: var(--green-border);
+}
+
+.nav-btn-primary-text {
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: var(--green-dark);
+}
+
+.themen-menu-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.themen-toggle-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: var(--green-dark);
+}
+
+.themen-toggle-btn .themen-icon-bars {
+  color: var(--green-dark);
+  flex-shrink: 0;
+}
+
+.themen-toggle-btn .themen-icon-arrow {
+  color: var(--green-dark);
+  flex-shrink: 0;
+  transition: transform 0.2s ease;
+}
+
+.themen-toggle-btn .arrow-rotated {
+  transform: rotate(180deg);
+}
+
+.themen-toggle-btn.themen-open {
+  background: var(--green-light);
+  color: var(--green-dark);
 }
 
 .nav-external {
@@ -176,10 +232,113 @@ a:hover {
   font-weight: 600;
   border-radius: 4px;
   text-decoration: none !important;
+  transition: background-color 0.15s ease;
 }
 
 .nav-external:hover {
   background: var(--green-dark);
+}
+
+/* ==========================================================================
+   Mega Dropdown Menu
+   ========================================================================== */
+.mega-menu-container {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background: var(--bg-white);
+  border-top: 1px solid var(--border-light);
+  border-bottom: 3px solid var(--green-primary);
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.1), 0 4px 12px rgba(0, 0, 0, 0.04);
+  z-index: 1000;
+  animation: megaMenuFadeIn 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes megaMenuFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.mega-menu-inner {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 28px 20px 36px 20px;
+}
+
+.mega-menu-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px 48px;
+}
+
+.mega-menu-column {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+.mega-menu-category {
+  display: flex;
+  flex-direction: column;
+}
+
+.mega-category-title {
+  font-size: 17px;
+  font-weight: 700;
+  color: #6e9438;
+  margin-bottom: 10px;
+  letter-spacing: 0.2px;
+}
+
+.mega-category-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.mega-category-link {
+  display: inline-block;
+  color: #555b4f;
+  font-size: 14.5px;
+  line-height: 1.45;
+  text-decoration: none;
+  padding: 2px 0;
+  transition: color 0.15s ease, transform 0.15s ease;
+}
+
+.mega-category-link:hover {
+  color: var(--green-primary);
+  text-decoration: none;
+  transform: translateX(4px);
+}
+
+@media (max-width: 860px) {
+  .mega-menu-container {
+    max-height: 75vh;
+    overflow-y: auto;
+  }
+  .mega-menu-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px 32px;
+  }
+}
+
+@media (max-width: 580px) {
+  .mega-menu-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
 }
 
 /* ==========================================================================
@@ -220,16 +379,28 @@ a:hover {
   }
 }
 
-.kopernikus-img {
+.kopernikus-img-wrapper {
   width: 220px;
   min-width: 220px;
   height: 140px;
+  border-radius: 6px;
+  overflow: hidden;
+  position: relative;
+  background: var(--green-light);
+}
+
+.kopernikus-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 @media (max-width: 640px) {
-  .kopernikus-img {
+  .kopernikus-img-wrapper {
     width: 100%;
     min-width: 100%;
+    height: 180px;
   }
 }
 
@@ -253,10 +424,24 @@ a:hover {
   }
 }
 
-.eduki-img {
+.eduki-img-wrapper {
   width: 180px;
   min-width: 180px;
   height: 80px;
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative;
+  background: #f8fafc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.eduki-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
 }
 
 .eduki-text-block .signature {
@@ -284,9 +469,21 @@ a:hover {
   padding: 16px;
 }
 
-.felzmann-img {
-  height: 90px;
+.felzmann-img-wrapper {
+  width: 100%;
+  height: 100px;
   margin-bottom: 10px;
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative;
+  background: #f1f5f9;
+}
+
+.felzmann-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 .side-card h3 {
@@ -316,43 +513,84 @@ a:hover {
 }
 
 /* ==========================================================================
-   Banners (Sections 2 & 3: Lernarena & KI-Schulgenie)
+   Banners (Sections 2 & 3: Lernarena & KI-Schulgenie nebeneinander)
    ========================================================================== */
-.banner-section {
+.banners-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-bottom: 24px;
+}
+
+@media (max-width: 860px) {
+  .banners-row {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+}
+
+.banner-card {
   background: var(--bg-white);
   border: 1px solid var(--border-light);
-  border-radius: 4px;
+  border-radius: 6px;
   padding: 16px 20px;
-  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
 }
 
 .banner-inner {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 18px;
+  width: 100%;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 480px) {
   .banner-inner {
     flex-direction: column;
     align-items: flex-start;
   }
 }
 
+.banner-img-wrapper {
+  width: 85px;
+  min-width: 85px;
+  height: 85px;
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
 .banner-img {
-  width: 140px;
-  min-width: 140px;
-  height: 75px;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  display: block;
 }
 
-.banner-inner h3 {
-  font-size: 17px;
+.banner-text {
+  flex: 1;
+}
+
+.banner-text h3 {
+  font-size: 15px;
   margin-bottom: 4px;
+  line-height: 1.35;
 }
 
-.banner-inner p {
-  font-size: 14px;
-  margin-bottom: 6px;
+.banner-text p {
+  font-size: 13px;
+  margin-bottom: 8px;
+  line-height: 1.4;
+  color: var(--text-color);
 }
 
 /* ==========================================================================
@@ -389,21 +627,91 @@ a:hover {
   gap: 16px;
 }
 
+/* Fach- und Themen-Buttons (WordPress Button-Stil) */
+.buttons-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 18px;
+}
+
+.subject-button-tile {
+  display: block;
+  text-decoration: none !important;
+  border-radius: 8px;
+  position: relative;
+  transition: transform 0.25s cubic-bezier(0.2, 0.8, 0.2, 1), filter 0.25s ease, opacity 0.25s ease;
+  line-height: 0;
+  filter: grayscale(100%);
+  opacity: 0.85;
+}
+
+.subject-button-tile:hover {
+  filter: grayscale(0%) drop-shadow(0 8px 18px rgba(0, 0, 0, 0.12));
+  opacity: 1;
+  transform: rotate(-2.5deg) translateY(-6px) scale(1.04);
+  z-index: 10;
+}
+
+.subject-button-tile:nth-child(even):hover {
+  transform: rotate(2deg) translateY(-6px) scale(1.04);
+}
+
+.subject-button-img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 2;
+  object-fit: contain;
+  display: block;
+}
+
+@media (max-width: 600px) {
+  .buttons-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+}
+
+@media (max-width: 380px) {
+  .buttons-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 .tile-card {
   background: var(--bg-white);
   border: 1px solid var(--border-light);
-  border-radius: 4px;
+  border-radius: 6px;
   padding: 12px;
-  transition: border-color 0.2s ease;
+  transition: all 0.2s ease;
+  overflow: hidden;
 }
 
 .tile-card:hover {
   border-color: var(--green-primary);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+.tile-img-wrapper {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  height: auto;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative;
+  background: #f1f5f9;
 }
 
 .tile-img {
-  height: 120px;
-  margin-bottom: 8px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.tile-card:hover .tile-img {
+  transform: scale(1.04);
 }
 
 .tile-title {
@@ -425,14 +733,34 @@ a:hover {
 .partner-card {
   background: var(--bg-white);
   border: 1px solid var(--border-light);
-  border-radius: 4px;
+  border-radius: 6px;
   padding: 16px;
   text-align: center;
+  transition: border-color 0.2s ease;
+}
+
+.partner-card:hover {
+  border-color: var(--green-primary);
+}
+
+.partner-logo-wrapper {
+  width: 100%;
+  height: 80px;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 4px;
 }
 
 .partner-logo {
-  height: 80px;
-  margin-bottom: 10px;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  display: block;
 }
 
 .partner-card h4 {
@@ -719,6 +1047,33 @@ a:hover {
   align-items: center;
   flex-wrap: wrap;
   gap: 12px;
+}
+
+.footer-social-links {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-social-links .social-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-light);
+  padding: 5px 10px;
+  border-radius: var(--radius-sm);
+  color: var(--text-main);
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 500;
+  transition: all 0.15s ease;
+}
+
+.footer-social-links .social-btn:hover {
+  background: var(--green-light);
+  border-color: var(--green-primary);
+  color: var(--green-dark);
 }
 
 .footer-links {
