@@ -39,3 +39,16 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# H5P Content
+/public/h5p-content/
+/public/h5p-libraries/
+/exports/
+/html/
+
+# Databases
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+/vorlagen/
