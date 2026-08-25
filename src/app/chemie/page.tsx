@@ -112,7 +112,7 @@ export default function ChemieOverviewPage() {
                 transition: 'all 0.15s ease',
               }}
             >
-              Alle Bereiche ({allTopics.length})
+              Alle Bereiche
             </button>
             {chemieCategories.map((cat) => {
               const count = allTopics.filter((t) => t.category === cat).length;
@@ -136,7 +136,7 @@ export default function ChemieOverviewPage() {
                     transition: 'all 0.15s ease',
                   }}
                 >
-                  {cat} ({count})
+                  {cat}
                 </button>
               );
             })}
@@ -169,12 +169,7 @@ export default function ChemieOverviewPage() {
 
             return (
               <section key={categoryName} className="math-category-section">
-                <h2 className="math-category-title">
-                  {categoryName}{' '}
-                  <span style={{ fontSize: '14px', fontWeight: 'normal', color: 'var(--text-muted)' }}>
-                    ({categoryTopics.length} {categoryTopics.length === 1 ? 'Thema' : 'Themen'})
-                  </span>
-                </h2>
+                <h2 className="math-category-title">{categoryName}</h2>
                 <div className="math-grid">
                   {categoryTopics.map((topic) => (
                     <Link

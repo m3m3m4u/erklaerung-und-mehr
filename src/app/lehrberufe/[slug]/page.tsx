@@ -60,7 +60,7 @@ export default function LehrberufeDetailPage({
         {/* Key Rules & Summary Box */}
         {topic.keyPoints.length > 0 && (
           <div className="topic-rules-card">
-            <h2>Wichtige Grundlagen, Regeln & Merksätze</h2>
+            <h2>Wichtige Grundlagen, Gesetze und Merksätze</h2>
             <ul className="topic-rules-list">
               {topic.keyPoints.map((point, i) => (
                 <li key={i}><MathText text={point} /></li>
@@ -91,58 +91,45 @@ export default function LehrberufeDetailPage({
           )}
 
           {scoreNotification && (
-            <div className="score-badge-live">
-              <span>🎯 {scoreNotification}</span>
-            </div>
+            <div className="score-status">{scoreNotification}</div>
           )}
 
           {currentExercise ? (
-            <div className="h5p-player-container">
-              <div className="h5p-card-header">
-                <h3>{currentExercise.title}</h3>
-                <span className="h5p-id-tag">ID #{currentExercise.id}</span>
-              </div>
+            <div className="exercise-player-wrapper">
               <H5PPlayer
-                key={`${currentExercise.folder}-${activeExerciseIndex}`}
-                h5pJsonPath={currentExercise.folder}
+                key={currentExercise.folder}
+                h5pJsonPath={`/h5p-content/${currentExercise.folder}`}
                 title={currentExercise.title}
                 onXAPIStatement={handleXAPI}
               />
             </div>
           ) : (
-            <div className="no-exercises-card">
-              <p>Für dieses Thema sind noch keine interaktiven Übungen hinterlegt.</p>
+            <div className="info-box-section">
+              <p>Für dieses Thema sind derzeit noch keine H5P-Übungen hinterlegt.</p>
             </div>
           )}
         </section>
 
-        {/* Material & Eduki Section */}
+        {/* Worksheets & Eduki Link */}
         {topic.worksheetLink && (
-          <div className="eduki-box-card">
-            <div className="eduki-box-content">
-              <h3>Passendes Unterrichtsmaterial & Arbeitsblätter</h3>
-              <p>
-                Unterstütze deinen Berufswahlprozess mit Arbeitsblättern, Tests und Vorlagen zu <strong>{topic.title}</strong> auf Eduki.
-              </p>
-            </div>
+          <section className="info-box-section" style={{ marginTop: '40px' }}>
+            <h3>Passende Arbeitsblätter & Kopiervorlagen</h3>
+            <p>
+              Möchtest du das Thema <strong>{topic.title}</strong> zusätzlich im Unterricht oder zu Hause auf Papier vertiefen? Auf EDUKI findest du passende Arbeitsblätter und Kopiervorlagen zum Download.
+            </p>
             <a
               href={topic.worksheetLink}
               target="_blank"
               rel="noopener noreferrer"
-              className="eduki-cta-btn"
+              className="button-link"
+              style={{ marginTop: '6px' }}
             >
-              <span>Arbeitsblätter auf Eduki ansehen</span>
-              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2">
-                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
-                <polyline points="15 3 21 3 21 9" />
-                <line x1="10" y1="14" x2="21" y2="3" />
-              </svg>
+              Arbeitsblätter zu {topic.title} auf EDUKI ➔
             </a>
-          </div>
+          </section>
         )}
       </main>
 
-      {/* Footer */}
       <Footer activePath="/lehrberufe" />
     </div>
   );
