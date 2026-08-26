@@ -649,7 +649,7 @@ export default function DashboardPage() {
             Wähle die Anzahl (1 bis 30) und trage die Klasse ein (z. B. 4A, 3B oder Mathe-Gruppe 1). Jeder Account erhält automatisch einen zufälligen 5-stelligen Code.
           </p>
           <form onSubmit={handleAddStudents} className="dashboard-add-form" style={{ alignItems: 'flex-end', gap: 12 }}>
-            <div>
+            <div style={{ flex: '1 1 180px', minWidth: 140 }}>
               <label htmlFor="student-class" style={{ display: 'block', fontSize: 13, fontWeight: 600, color: 'var(--text-color)', marginBottom: 4 }}>
                 Klasse / Gruppe
               </label>
@@ -660,7 +660,7 @@ export default function DashboardPage() {
                 placeholder="z. B. 4A oder 3B"
                 value={classNameInput}
                 onChange={(e) => setClassNameInput(e.target.value)}
-                style={{ width: 180 }}
+                style={{ width: '100%', maxWidth: 220 }}
                 list="existing-classes-list"
               />
               <datalist id="existing-classes-list">
@@ -670,7 +670,7 @@ export default function DashboardPage() {
               </datalist>
             </div>
 
-            <div>
+            <div style={{ minWidth: 80 }}>
               <label htmlFor="student-count" style={{ display: 'block', fontSize: 13, fontWeight: 600, color: 'var(--text-color)', marginBottom: 4 }}>
                 Anzahl (max. 30)
               </label>
@@ -686,7 +686,7 @@ export default function DashboardPage() {
               />
             </div>
 
-            <div style={{ display: 'flex', gap: 6 }}>
+            <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap' }}>
               {[5, 10, 15, 20, 25, 30].map((n) => (
                 <button
                   key={n}
