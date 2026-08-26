@@ -59,7 +59,7 @@ export const ethikTopics: Record<string, EthikTopic> = {
   },
   "selbstbestimmung-freiheit-und-sinn": {
     "slug": "selbstbestimmung-freiheit-und-sinn",
-    "title": "Selbstbestimmung, Freiheit & Der Sinn des Lebens",
+    "title": "Selbstbestimmung, Freiheit & der Sinn des Lebens",
     "category": "Grundlagen & Ethische Theorien",
     "shortDesc": "Grenzen setzen, Nein sagen, Freier Wille versus Determinismus, Selbstverantwortung und Sinnfindung.",
     "longDesc": "Wer bin ich, und wie möchte ich mein Leben gestalten? Selbstbestimmung bedeutet, eigene Werte zu finden, Grenzen zu setzen und Verantwortung für die eigenen Entscheidungen zu übernehmen.",

@@ -165,7 +165,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
       },
       {
         "id": "724",
-        "title": "studypoint - Pyramide",
+        "title": "Studypoint - Pyramide",
         "folder": "studypoint-pyramide-724"
       },
       {
@@ -938,12 +938,12 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
       },
       {
         "id": "3104",
-        "title": "Der Roman Die Heimsuchung von Jenny Erpenbck",
+        "title": "Der Roman die Heimsuchung von Jenny Erpenbck",
         "folder": "der-roman-die-heimsuchung-von-jenny-erpenbck-3104"
       },
       {
         "id": "3108",
-        "title": "Der Roman Die Heimsuchung von Jenny Erpenbck - 1952 - Anfangsphase der DDR",
+        "title": "Der Roman die Heimsuchung von Jenny Erpenbck - 1952 - Anfangsphase der DDR",
         "folder": "der-roman-die-heimsuchung-von-jenny-erpenbck-1952-anfangsphase-der-ddr-3108"
       },
       {
@@ -953,7 +953,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
       },
       {
         "id": "3147",
-        "title": "Die Kraft der Kompromisse - Wie man gemeinsam Lösungen findet",
+        "title": "Die Kraft der Kompromisse - wie man gemeinsam Lösungen findet",
         "folder": "die-kraft-der-kompromisse-wie-man-gemeinsam-losungen-findet-3147"
       },
       {
@@ -963,7 +963,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
       },
       {
         "id": "3470",
-        "title": "Günther Grass - Die Blechtrommel (Lernsong)",
+        "title": "Günther Grass - die Blechtrommel (Lernsong)",
         "folder": "gunther-grass-die-blechtrommel-3470"
       },
       {
@@ -1391,7 +1391,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
   },
   "staedte-und-die-hanse": {
     "slug": "staedte-und-die-hanse",
-    "title": "Mittelalterliche Städte & Die Hanse",
+    "title": "Mittelalterliche Städte & die Hanse",
     "category": "Das Mittelalter",
     "shortDesc": "'Stadtluft macht frei', Marktrechte, Zünfte der Handwerker, Fugger und der mächtige Hansebund.",
     "longDesc": "Eine Augsburger Familie prägte über Generationen hinweg die europäische Wirtschafts- und Politikgeschichte. Diese Familie ist bekannt als die Fugger. Der Grundstein für den Aufstieg der Fugger wurde im 14. Jahrhundert durch Hans Fugger gelegt, der in Augsburg einen Textilhandel gründete. Dabei bauten seine Nachkommen das Geschäft kontinuierlich aus und weiteten es auf ganz Europa aus. Besonders Jakob Fugger, genannt „der Reiche“, spielte eine entscheidende Rolle. Aufgrund seiner geschickten Geschäftspraktiken im Bergbau, Münzhandel und Bankwesen, insbesondere mit der katholischen Kirche, mehrte sich das Familienvermögen enorm.",
@@ -1516,7 +1516,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
   },
   "schwarzer-tod-die-pest": {
     "slug": "schwarzer-tod-die-pest",
-    "title": "Der Schwarze Tod: Die Pest im Mittelalter",
+    "title": "Der Schwarze Tod: die Pest im Mittelalter",
     "category": "Das Mittelalter",
     "shortDesc": "Die Pestepidemie ab 1347, Ursachen, Geißelzüge, Judenpogrome und die tiefgreifenden Folgen für Europa.",
     "longDesc": "Die Lebensbedingungen der Bauern im 16. Jahrhundert waren hart. Hohe Abgaben, Hungersnöte und politische Machtlosigkeit führten zu wachsender Unzufriedenheit. Schließlich erhoben sich die Bauern gegen die Adligen und Geistlichen, um für mehr Rechte und bessere Lebensbedingungen zu kämpfen. Doch ihr Aufstand wurde blutig niedergeschlagen, und die Folgen prägten die Gesellschaft noch lange. Nach der Pest wuchs die Bevölkerung, doch die Ernteerträge blieben gering. Missernten und hohe Steuern trieben viele Bauern in die Armut. Obwohl sie den Großteil der Gesellschaft bildeten, hatten sie keinerlei politische Mitsprache. Gleichzeitig gab ihnen Martin Luthers Schrift „Von der Freyheith eines Christenmenschen“ Hoffnung. Sie deuteten seine Worte als Aufruf zur Befreiung und forderten Veränderungen. Erste Versammlungen führten 1524 zur Formulierung der 12 Artikel, die grundlegende Rechte verlangten. Doch die Adligen reagierten mit Gewalt, wodurch sich der Konflikt zuspitzte.",
@@ -1919,7 +1919,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
   },
   "absolutismus-und-ludwig-xiv": {
     "slug": "absolutismus-und-ludwig-xiv",
-    "title": "Absolutismus & Der Sonnenkönig Ludwig XIV.",
+    "title": "Absolutismus & der Sonnenkönig Ludwig XIV.",
     "category": "Frühe Neuzeit & Revolutionen",
     "shortDesc": "'L'État, c'est moi', Schloss Versailles, die 5 Säulen der Macht, Merkantilismus und Hofleben.",
     "longDesc": "Hast du dich schon einmal gefragt, wie Könige früher regiert haben? Besonders ein König, der als \"Sonnenkönig\" bekannt wurde, hat durch den Absolutismus Geschichte geschrieben. Wenn du mehr über diese faszinierende Epoche erfahren möchtest, bist du hier genau richtig! Der Absolutismus ist eine der spannendsten Zeiten der Geschichte. Stell dir vor: Ein einziger Mensch hält die gesamte Macht in seinen Händen. Genau so war es im Absolutismus. Wir werfen einen Blick auf Ludwig XIV., den berühmtesten Vertreter des Absolutismus, der als Inbegriff eines absoluten Herrschers gilt. Seine Entscheidungen und Bauwerke wie das prachtvolle Schloss Versailles prägen bis heute unser Bild vom Absolutismus. Das bedeutet, dass der König uneingeschränkte Macht hat. Er konnte Gesetze erlassen und das Land regieren, ohne andere um Zustimmung bitten zu müssen. Der Absolutismus war die Regierungsform, die vor allem in Frankreich unter Ludwig XIV. zur Perfektion gebracht wurde. Ludwig XIV., bekannt als der Sonnenkönig, war der mächtigste König seiner Zeit und ein Symbol für den Absolutismus. Er regierte Frankreich mit absoluter Macht und setzte Maßstäbe für diese Regierungsform. Ludwig XIV. ließ beeindruckende Bauwerke errichten, darunter das weltberühmte Schloss Versailles. Seine Politik und Entscheidungen stärkten die königliche Macht und etablierten den Absolutismus als prägende Epoche der französischen Geschichte.",
@@ -1979,7 +1979,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
   },
   "aufklaerung-und-franzoesische-revolution": {
     "slug": "aufklaerung-und-franzoesische-revolution",
-    "title": "Aufklärung & Die Französische Revolution 1789",
+    "title": "Aufklärung & die Französische Revolution 1789",
     "category": "Frühe Neuzeit & Revolutionen",
     "shortDesc": "Kant, Gewaltenteilung (Montesquieu), Sturm auf die Bastille, Erklärung der Menschenrechte und Jakobinerherrschaft.",
     "longDesc": "Die Französische Revolution war ein einschneidendes Ereignis in der europäischen Geschichte, das Frankreich und die Welt nachhaltig veränderte. Dieses Video fasst die wichtigsten Ereignisse zusammen. Vor der Revolution existierte in Frankreich eine Ständegesellschaft. Dabei mussten der dritte Stand, bestehend aus Bürgern, Bauern und Arbeitern, alle Steuern bezahlen, während der Klerus und der Adel privilegiert waren. Aufgrund dieser Ungerechtigkeit und wirtschaftlicher Not kam es zu Aufständen und Plünderungen. Schließlich mündeten diese Unruhen 1789 im Sturm auf die Bastille, dem Staatsgefängnis, was als Beginn der Revolution gilt.",
@@ -2119,7 +2119,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
   },
   "napoleon-bonaparte-und-wiener-kongress": {
     "slug": "napoleon-bonaparte-und-wiener-kongress",
-    "title": "Napoleon Bonaparte & Der Wiener Kongress",
+    "title": "Napoleon Bonaparte & der Wiener Kongress",
     "category": "Frühe Neuzeit & Revolutionen",
     "shortDesc": "Kaiserkrönung, Code Civil, Russlandfeldzug 1812, Schlacht bei Waterloo und Wiener Kongress 1815.",
     "longDesc": "Napoleon Bonaparte zählt zu den bekanntesten Persönlichkeiten der europäischen Geschichte. Seine Laufbahn vom korsischen Jungen zum mächtigen Kaiser faszinierte nicht nur seine Zeitgenossen, sondern wirkt bis heute nach. Doch hinter dem Mythos steckt eine komplexe Geschichte voller Erfolge, Niederlagen und Reformen. Napoleon Bonaparte wurde 1769 auf Korsika geboren und entschied sich früh für eine militärische Karriere. Während der Französischen Revolution kämpfte er für die neuen Ideale und gewann schnell an Einfluss. 1799 riss er durch einen Putsch die Macht an sich und ernannte sich wenige Jahre später zum Kaiser. Napoleon Bonaparte wollte Europa neu ordnen und kämpfte in zahlreichen Koalitionskriegen gegen andere Großmächte. Seine Reformen, insbesondere der „Code Civil“, schufen neue rechtliche Strukturen, die in vielen Ländern bis heute Bestand haben. Obwohl seine Herrschaft mit der Niederlage bei Waterloo endete, prägte er Politik und Gesellschaft nachhaltig.",
@@ -2189,7 +2189,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
   },
   "industrielle-revolution-und-soziale-frage": {
     "slug": "industrielle-revolution-und-soziale-frage",
-    "title": "Industrielle Revolution & Die Soziale Frage",
+    "title": "Industrielle Revolution & die Soziale Frage",
     "category": "19. Jahrhundert & Deutsches Kaiserreich",
     "shortDesc": "Dampfmaschine, Fabrikarbeit, Landflucht, Kinderarbeit, Karl Marx, Arbeiterbewegung und Sozialgesetzgebung.",
     "longDesc": "Die Industrielle Revolution war eine Epoche tiefgreifender Veränderungen, die das Leben der Menschen und die Gesellschaft nachhaltig prägte. Die Industrielle Revolution begann im späten 18. Jahrhundert in Großbritannien und breitete sich im Laufe des 19. Jahrhunderts auf andere Teile Europas und die Welt aus. Dabei kennzeichnete sie der Übergang von einer Agrar- zur Industriegesellschaft. Aufgrund neuer Erfindungen und Technologien, insbesondere im Bereich der Textilindustrie und der Dampfmaschine, veränderte sich die Produktion grundlegend. Zudem trugen Faktoren wie Bevölkerungswachstum, verbesserte Agrarmethoden und der Zugang zu Rohstoffen aus den Kolonien zur Industrialisierung bei.",
@@ -2306,7 +2306,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
       },
       {
         "id": "5501",
-        "title": "Industrialisierung - Der Weg von der Agrar- zur Industriegesellschaft",
+        "title": "Industrialisierung - der Weg von der Agrar- zur Industriegesellschaft",
         "folder": "industrialisierung-der-weg-von-der-agrar-zur-industriegesellschaft-5501"
       },
       {
@@ -2319,7 +2319,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
   },
   "vormaerz-und-revolution-1848": {
     "slug": "vormaerz-und-revolution-1848",
-    "title": "Vormärz & Die Revolution von 1848/49",
+    "title": "Vormärz & die Revolution von 1848/49",
     "category": "19. Jahrhundert & Deutsches Kaiserreich",
     "shortDesc": "Hambacher Fest, Märzrevolution 1848, Nationalversammlung in der Frankfurter Paulskirche und Grundrechte.",
     "longDesc": "Im 19. Jahrhundert veränderte sich in Deutschland vieles. Zuerst lebten die Menschen in einem lockeren Staatenbund. Doch bald wuchs der Wunsch nach einem gemeinsamen Land. Vor allem Bürger und Studenten hofften auf einen Nationalstaat. Es folgten wichtige politische Umbrüche, Kriege und schließlich die Gründung des Deutschen Kaiserreichs. Der Deutsche Bund entstand beim Wiener Kongress. Dabei schlossen sich 39 Staaten locker zusammen. Allerdings wollten viele Menschen ein einheitliches Deutschland. Deshalb kam es 1848 zu Protesten und zur Nationalversammlung in Frankfurt. Diese scheiterte jedoch. Österreich und Preußen stritten weiter um die Führung. Erst Otto von Bismarck brachte Bewegung. Er wurde 1862 Reichskanzler. Danach gewann Preußen den Krieg gegen Österreich. Darauf gründete sich der Norddeutsche Bund. Wenig später führte Bismarck auch einen Krieg gegen Frankreich. Sogar Paris wurde belagert. Damit war der Weg zur Kaiserkrönung frei. 1871 wurde Wilhelm I. in Versailles zum Kaiser gekrönt.",
@@ -2375,7 +2375,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
   },
   "otto-von-bismarck-und-deutsches-kaiserreich": {
     "slug": "otto-von-bismarck-und-deutsches-kaiserreich",
-    "title": "Otto von Bismarck & Das Deutsche Kaiserreich",
+    "title": "Otto von Bismarck & das Deutsche Kaiserreich",
     "category": "19. Jahrhundert & Deutsches Kaiserreich",
     "shortDesc": "Reichsgründung 1871 in Versailles, 'Eiserner Kanzler', Bündnissystem, Kulturkampf, Sozialistengesetze und Imperialismus.",
     "longDesc": "Der Imperialismus beschreibt das Streben von Staaten nach weltweiter Macht und politischem Einfluss. Insbesondere im Zeitraum von 1492 (Entdeckung Amerikas) bis nach dem Zweiten Weltkrieg teilten europäische Mächte große Teile der Welt unter sich auf und beuteten diese aus. Verschiedene Faktoren befeuerten den Imperialismus. Zum einen benötigten die Industriestaaten Europas billige Rohstoffe für ihre wachsende Produktion. Zum anderen suchten sie nach neuen Absatzmärkten für ihre produzierten Güter. Darüber hinaus spielten machtpolitische Überlegungen und der Glaube an die eigene kulturelle Überlegenheit eine bedeutende Rolle.",
@@ -2802,7 +2802,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
       },
       {
         "id": "2894",
-        "title": "BDM und HJ - Die Jugend im Nationalsozialismus",
+        "title": "BDM und HJ - die Jugend im Nationalsozialismus",
         "folder": "bdm-und-hj-die-jugend-im-nationalsozialismus-2894"
       },
       {
@@ -2870,7 +2870,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
   },
   "der-holocaust-und-die-judenverfolgung": {
     "slug": "der-holocaust-und-die-judenverfolgung",
-    "title": "Der Holocaust & Die Verfolgung der Juden",
+    "title": "Der Holocaust & die Verfolgung der Juden",
     "category": "Nationalsozialismus & Zweiter Weltkrieg",
     "shortDesc": "Nürnberger Gesetze 1935, Novemberpogrome 1938, Wannsee-Konferenz, Deportationen und Vernichtungslager (Auschwitz).",
     "longDesc": "Der Holocaust zählt zu den dunkelsten Kapiteln der Menschheitsgeschichte. Nationalsozialisten verfolgten jüdische Menschen systematisch, entrechteten sie und ermordeten Millionen. Diese beispiellose Gewalt entwickelte sich über Jahre hinweg und führte zu unermesslichem Leid. Bis heute bleibt das Gedenken daran von großer Bedeutung. Nach der Machtübernahme 1933 begannen die Nationalsozialisten damit, jüdische Menschen auszugrenzen. Antisemitische Gesetze nahmen ihnen zunächst viele Rechte, während Propaganda gezielt Hass schürte. Schon bald zerstörten Pogrome jüdische Geschäfte und Synagogen, sodass viele fliehen mussten. Trotzdem fanden nicht alle einen sicheren Zufluchtsort. Während des Krieges verschleppten die Nationalsozialisten Millionen in Ghettos, wo Hunger und Krankheiten zum Alltag gehörten. Danach folgte die Deportation in Konzentrations- und Vernichtungslager. Dort zwang man sie zur Arbeit oder trieb sie direkt in die Gaskammern.",
@@ -2962,7 +2962,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
       },
       {
         "id": "697",
-        "title": "studypoint - multiple choice - Zweiter Weltkrieg",
+        "title": "Studypoint - multiple choice - Zweiter Weltkrieg",
         "folder": "studypoint-multiple-choice-zweiter-weltkrieg-697"
       },
       {

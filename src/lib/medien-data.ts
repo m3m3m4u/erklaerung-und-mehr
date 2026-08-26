@@ -51,7 +51,7 @@ export const medienTopics: Record<string, MedienTopic> = {
       },
       {
         "id": "2606",
-        "title": "Filmgeschichte und -analyse",
+        "title": "Filmgeschichte und -Analyse",
         "folder": "filmgeschichte-und-analyse-2606"
       },
       {

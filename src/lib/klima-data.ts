@@ -35,7 +35,7 @@ export const klimaTopics: Record<string, KlimaTopic> = {
       { id: "4504", title: "Wenn die Erde bebt – Warum sie wackelt", folder: "wenn-die-erde-bebt-warum-sie-wackelt-6-4504" },
       { id: "4479", title: "Global Goal 4 - Gute Bildung – Wissen für jede Lebensreise", folder: "global-goal-4-gute-bildung-wissen-fur-jede-lebensreise-4479" },
       { id: "4480", title: "Global Goal 5 - Gleichstellung leben – Frauenrechte für alle sichern", folder: "global-goal-5-gleichstellung-leben-frauenrechte-fur-alle-sichern-4480" },
-      { id: "4501", title: "Global Goal 6: Sauberes Wasser – Für Gesundheit und Nachhaltigkeit", folder: "wenn-die-erde-bebt-warum-sie-wackelt-3-4501" },
+      { id: "4501", title: "Global Goal 6: Sauberes Wasser – für Gesundheit und Nachhaltigkeit", folder: "wenn-die-erde-bebt-warum-sie-wackelt-3-4501" },
       { id: "4481", title: "Global Goal 7 - Saubere Energie – Erneuerbar für unsere Zukunft", folder: "global-goal-7-saubere-energie-erneuerbar-fur-unsere-zukunft-4481" },
       { id: "4482", title: "Global Goal 8 - Gute Arbeit – Wachstum und faire Chancen", folder: "global-goal-8-gute-arbeit-wachstum-und-faire-chancen-4482" },
       { id: "4483", title: "Global Goal 9 - Innovation leben – Industrie und Technik fördern", folder: "global-goal-9-innovation-leben-industrie-und-technik-fordern-4483" },

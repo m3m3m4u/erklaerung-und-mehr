@@ -37,12 +37,12 @@ export const chemieTopics: Record<string, ChemieTopic> = {
     "exercises": [
       {
         "id": "280",
-        "title": "Aufbau Der Materie",
+        "title": "Aufbau der Materie",
         "folder": "aufbau-der-materie-280"
       },
       {
         "id": "281",
-        "title": "Das Periodensystem Der Elemente",
+        "title": "Das Periodensystem der Elemente",
         "folder": "das-periodensystem-der-elemente-281"
       },
       {
@@ -75,27 +75,27 @@ export const chemieTopics: Record<string, ChemieTopic> = {
     "exercises": [
       {
         "id": "5244",
-        "title": "Ausbreitung Von Schall Schallwellen",
+        "title": "Ausbreitung von Schall Schallwellen",
         "folder": "ausbreitung-von-schall-schallwellen-5244"
       },
       {
         "id": "5245",
-        "title": "Ausbreitung Von Schall Schallwellen",
+        "title": "Ausbreitung von Schall Schallwellen",
         "folder": "ausbreitung-von-schall-schallwellen-2-5245"
       },
       {
         "id": "5246",
-        "title": "Batterien Und Akkumulatoren",
+        "title": "Batterien und Akkumulatoren",
         "folder": "batterien-und-akkumulatoren-5246"
       },
       {
         "id": "5247",
-        "title": "Bildentstehung Bei Linsen",
+        "title": "Bildentstehung bei Linsen",
         "folder": "bildentstehung-bei-linsen-5247"
       },
       {
         "id": "5248",
-        "title": "Brechung Von Licht",
+        "title": "Brechung von Licht",
         "folder": "brechung-von-licht-5248"
       },
       {
@@ -202,12 +202,12 @@ export const chemieTopics: Record<string, ChemieTopic> = {
       },
       {
         "id": "5275",
-        "title": "Die Anomalie Des Wassers",
+        "title": "Die Anomalie des Wassers",
         "folder": "die-anomalie-des-wassers-5275"
       },
       {
         "id": "5276",
-        "title": "Die Entdeckung Der Planetenbewegungen",
+        "title": "Die Entdeckung der Planetenbewegungen",
         "folder": "die-entdeckung-der-planetenbewegungen-5276"
       },
       {
@@ -342,12 +342,12 @@ export const chemieTopics: Record<string, ChemieTopic> = {
       },
       {
         "id": "280",
-        "title": "Aufbau Der Materie",
+        "title": "Aufbau der Materie",
         "folder": "aufbau-der-materie-280"
       },
       {
         "id": "281",
-        "title": "Das Periodensystem Der Elemente",
+        "title": "Das Periodensystem der Elemente",
         "folder": "das-periodensystem-der-elemente-281"
       }
     ],

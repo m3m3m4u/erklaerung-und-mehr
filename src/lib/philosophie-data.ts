@@ -25,7 +25,7 @@ export const philosophieCategories: string[] = [
 export const philosophieTopics: Record<string, PhilosophieTopic> = {
   "sokrates-und-die-sokratische-methode": {
     "slug": "sokrates-und-die-sokratische-methode",
-    "title": "Sokrates & Die Sokratische Methode",
+    "title": "Sokrates & die Sokratische Methode",
     "category": "Antike Philosophie & Große Denker",
     "shortDesc": "'Ich weiß, dass ich nichts weiß', Mäeutik (Hebammenkunst), philosophischer Dialog und der Prozess/Tod des Sokrates.",
     "longDesc": "Sokrates (469–399 v. Chr.) gilt als Urvater der abendländischen Philosophie. Er hinterließ keine eigenen Schriften, sondern befragte die Bürger Athens auf den Marktplätzen, um scheinbares Scheinwissen zu entlarven und tieferes philosophisches Verstehen zu wecken.",
@@ -118,7 +118,7 @@ export const philosophieTopics: Record<string, PhilosophieTopic> = {
   },
   "immanuel-kant-und-die-aufklaerung": {
     "slug": "immanuel-kant-und-die-aufklaerung",
-    "title": "Immanuel Kant & Die Aufklärung",
+    "title": "Immanuel Kant & die Aufklärung",
     "category": "Erkenntnistheorie, Anthropologie & Existenz",
     "shortDesc": "'Habe Mut, dich deines eigenen Verstandes zu bedienen!', Kategorischer Imperativ, Pflichtethik und Kritik der reinen Vernunft.",
     "longDesc": "Immanuel Kant (1724–1804) revolutionierte die Philosophie durch seine Erkenntniskritik und seine Pflichtethik. Mit der Definition der Aufklärung als 'Ausgang des Menschen aus seiner selbstverschuldeten Unmündigkeit' prägte er das moderne Denken.",
@@ -136,7 +136,7 @@ export const philosophieTopics: Record<string, PhilosophieTopic> = {
       },
       {
         "id": "immanuel-kant-2-3966",
-        "title": "Immanuel Kant – Der Kategorische Imperativ",
+        "title": "Immanuel Kant – der Kategorische Imperativ",
         "folder": "immanuel-kant-2-3966"
       },
       {

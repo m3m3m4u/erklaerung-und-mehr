@@ -354,7 +354,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
       },
       {
         "id": "4509",
-        "title": "Anna Seghers – Das siebte Kreuz",
+        "title": "Anna Seghers – das siebte Kreuz",
         "folder": "anna-seghers-das-siebte-kreuz-2-4509"
       },
       {
@@ -374,7 +374,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
       },
       {
         "id": "4513",
-        "title": "Bertolt Brecht - Die Dreigroschenoper",
+        "title": "Bertolt Brecht - die Dreigroschenoper",
         "folder": "bertolt-brecht-die-dreigroschenoper-2-4513"
       },
       {
@@ -394,7 +394,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
       },
       {
         "id": "4517",
-        "title": "Carl Sternheim - Der Snob",
+        "title": "Carl Sternheim - der Snob",
         "folder": "carl-sternheim-der-snob-2-4517"
       },
       {
@@ -404,17 +404,17 @@ export const deutschTopics: Record<string, DeutschTopic> = {
       },
       {
         "id": "4520",
-        "title": "E.T.A. Hoffmann - Der Sandmann",
+        "title": "E.T.A. Hoffmann - der Sandmann",
         "folder": "e-t-a-hoffmann-der-sandmann-3-4520"
       },
       {
         "id": "4519",
-        "title": "E. T. A. Hoffmann - Die Elixiere des Teufels",
+        "title": "E. T. A. Hoffmann - die Elixiere des Teufels",
         "folder": "e-t-a-hoffmann-die-elixiere-des-teufels-3-4519"
       },
       {
         "id": "4521",
-        "title": "Ferdinand Raimund - Der Alpenkönig und der Menschenfeind",
+        "title": "Ferdinand Raimund - der Alpenkönig und der Menschenfeind",
         "folder": "ferdinand-raimund-der-alpenkonig-und-der-menschenfeind-2-4521"
       },
       {
@@ -424,17 +424,17 @@ export const deutschTopics: Record<string, DeutschTopic> = {
       },
       {
         "id": "4523",
-        "title": "Franz Kafka - Der Prozess",
+        "title": "Franz Kafka - der Prozess",
         "folder": "franz-kafka-der-prozess-3-4523"
       },
       {
         "id": "4524",
-        "title": "Friedrich Dürrenmatt - Der Besuch der alten Dame",
+        "title": "Friedrich Dürrenmatt - der Besuch der alten Dame",
         "folder": "friedrich-durrenmatt-der-besuch-der-alten-dame-3-4524"
       },
       {
         "id": "4525",
-        "title": "Friedrich Dürrenmatt - Die Physiker",
+        "title": "Friedrich Dürrenmatt - die Physiker",
         "folder": "friedrich-durrenmatt-die-physiker-3-4525"
       },
       {
@@ -444,7 +444,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
       },
       {
         "id": "4527",
-        "title": "Friedrich Schiller - Die Räuber",
+        "title": "Friedrich Schiller - die Räuber",
         "folder": "friedrich-schiller-die-rauber-3-4527"
       },
       {
@@ -484,17 +484,17 @@ export const deutschTopics: Record<string, DeutschTopic> = {
       },
       {
         "id": "4536",
-        "title": "Gerhart Hauptmann - Die Ratten",
+        "title": "Gerhart Hauptmann - die Ratten",
         "folder": "gerhart-hauptmann-die-ratten-2-4536"
       },
       {
         "id": "4537",
-        "title": "Gerhart Hauptmann - Vor Sonnenuntergang",
+        "title": "Gerhart Hauptmann - vor Sonnenuntergang",
         "folder": "gerhart-hauptmann-vor-sonnenuntergang-2-4537"
       },
       {
         "id": "4538",
-        "title": "Gotfried Keller – Der grüne Heinrich",
+        "title": "Gotfried Keller – der grüne Heinrich",
         "folder": "gotfried-keller-der-grune-heinrich-2-4538"
       },
       {
@@ -514,17 +514,17 @@ export const deutschTopics: Record<string, DeutschTopic> = {
       },
       {
         "id": "4541",
-        "title": "Günther Grass - Die Blechtrommel",
+        "title": "Günther Grass - die Blechtrommel",
         "folder": "gunther-grass-die-blechtrommel-2-4541"
       },
       {
         "id": "4542",
-        "title": "Heimito von Doderer – Die Strudlhofstiege",
+        "title": "Heimito von Doderer – die Strudlhofstiege",
         "folder": "heimito-von-doderer-die-strudlhofstiege-2-4542"
       },
       {
         "id": "4543",
-        "title": "Heiner Müller - Der Auftrag",
+        "title": "Heiner Müller - der Auftrag",
         "folder": "heiner-muller-der-auftrag-2-4543"
       },
       {
@@ -534,12 +534,12 @@ export const deutschTopics: Record<string, DeutschTopic> = {
       },
       {
         "id": "4545",
-        "title": "Heinrich von Kleist - Das Käthchen von Heilbronn",
+        "title": "Heinrich von Kleist - das Käthchen von Heilbronn",
         "folder": "heinrich-von-kleist-das-kathchen-von-heilbronn-2-4545"
       },
       {
         "id": "4546",
-        "title": "Heinrich von Kleist - Der zerbrochne Krug",
+        "title": "Heinrich von Kleist - der zerbrochne Krug",
         "folder": "heinrich-von-kleist-der-zerbrochne-krug-2-4546"
       },
       {
@@ -554,27 +554,27 @@ export const deutschTopics: Record<string, DeutschTopic> = {
       },
       {
         "id": "4549",
-        "title": "Hugo von Hofmannsthal - Der Schwierige",
+        "title": "Hugo von Hofmannsthal - der Schwierige",
         "folder": "hugo-von-hofmannsthal-der-schwierige-2-4549"
       },
       {
         "id": "4550",
-        "title": "Hugo von Hofmannsthal - Der Tor und der Tod",
+        "title": "Hugo von Hofmannsthal - der Tor und der Tod",
         "folder": "hugo-von-hofmannsthal-der-tor-und-der-tod-2-4550"
       },
       {
         "id": "4556",
-        "title": "Johann Nestroy - Der Talisman",
+        "title": "Johann Nestroy - der Talisman",
         "folder": "johann-nestroy-der-talisman-2-4556"
       },
       {
         "id": "4551",
-        "title": "J.W. Goethe - Die Leiden des jungen Werther",
+        "title": "J.W. Goethe - die Leiden des jungen Werther",
         "folder": "j-w-goethe-die-leiden-des-jungen-werther-3-4551"
       },
       {
         "id": "4552",
-        "title": "J.W. Goethe – Die Wahlverwandtschaften",
+        "title": "J.W. Goethe – die Wahlverwandtschaften",
         "folder": "j-w-goethe-die-wahlverwandtschaften-2-4552"
       },
       {
@@ -624,22 +624,22 @@ export const deutschTopics: Record<string, DeutschTopic> = {
       },
       {
         "id": "4563",
-        "title": "Peter Hacks - Ein Gespräch im Hause Stein",
+        "title": "Peter Hacks - ein Gespräch im Hause Stein",
         "folder": "peter-hacks-ein-gesprach-im-hause-stein-2-4563"
       },
       {
         "id": "4564",
-        "title": "Peter Weiss - Die Verfolgung und Ermordung Jean Paul Marats",
+        "title": "Peter Weiss - die Verfolgung und Ermordung Jean Paul Marats",
         "folder": "peter-weiss-die-verfolgung-und-ermordung-jean-paul-marats-2-4564"
       },
       {
         "id": "4565",
-        "title": "Robert Musil – Die Verwirrungen des Zöglings Törleß",
+        "title": "Robert Musil – die Verwirrungen des Zöglings Törleß",
         "folder": "robert-musil-die-verwirrungen-des-zoglings-torlees-2-4565"
       },
       {
         "id": "4566",
-        "title": "Robert Seethaler - Der Trafikant",
+        "title": "Robert Seethaler - der Trafikant",
         "folder": "robert-seethaler-der-trafikant-2-4566"
       },
       {
@@ -654,7 +654,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
       },
       {
         "id": "4569",
-        "title": "Thomas Bernhard - Die Macht der Gewohnheit",
+        "title": "Thomas Bernhard - die Macht der Gewohnheit",
         "folder": "thomas-bernhard-die-macht-der-gewohnheit-2-4569"
       },
       {
@@ -669,7 +669,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
       },
       {
         "id": "4572",
-        "title": "Thomas Mann - Der Zauberberg",
+        "title": "Thomas Mann - der Zauberberg",
         "folder": "thomas-mann-der-zauberberg-2-4572"
       },
       {
@@ -840,7 +840,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
     "exercises": [
       {
         "id": "3104",
-        "title": "Der Roman Die Heimsuchung von Jenny Erpenbck",
+        "title": "Der Roman die Heimsuchung von Jenny Erpenbck",
         "folder": "der-roman-die-heimsuchung-von-jenny-erpenbck-3104"
       },
       {
@@ -860,7 +860,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
       },
       {
         "id": "3108",
-        "title": "Der Roman Die Heimsuchung von Jenny Erpenbck - 1952 - Anfangsphase der DDR",
+        "title": "Der Roman die Heimsuchung von Jenny Erpenbck - 1952 - Anfangsphase der DDR",
         "folder": "der-roman-die-heimsuchung-von-jenny-erpenbck-1952-anfangsphase-der-ddr-3108"
       },
       {

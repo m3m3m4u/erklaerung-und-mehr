@@ -187,7 +187,7 @@ export const psychologieTopics: Record<string, PsychologieTopic> = {
   },
   "persoenlichkeitspsychologie-und-humanismus": {
     "slug": "persoenlichkeitspsychologie-und-humanismus",
-    "title": "Persönlichkeitspsychologie & Humanistische Ansätze",
+    "title": "Persönlichkeitspsychologie & humanistische Ansätze",
     "category": "Psychoanalyse, Persönlichkeit & Entwicklung",
     "shortDesc": "Big Five Persönlichkeitsmerkmale (OCEAN), Humanistische Psychologie (Carl Rogers, Maslow), Selbstkonzept und Geschlechterforschung.",
     "longDesc": "Was macht die Einzigartigkeit eines Individuums aus? Die Persönlichkeitspsychologie beschreibt zeitlich stabile Verhaltens- und Erlebensmuster von Menschen.",

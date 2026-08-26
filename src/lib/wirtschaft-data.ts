@@ -1182,7 +1182,7 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
       },
       {
         "id": "die-matrixorganisation-vor-und-nachteile",
-        "title": "Die Matrixorganisation Vor- und Nachteile",
+        "title": "Die Matrixorganisation vor- und Nachteile",
         "folder": "die-matrixorganisation-vor-und-nachteile"
       },
       {

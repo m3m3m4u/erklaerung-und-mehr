@@ -42,7 +42,7 @@ export const sozialesLernenTopics: Record<string, SozialesLernenTopic> = {
       },
       { id: "3137", title: "Wie du deine Wut zähmen kannst - Strategien für den Alltag", folder: "wie-du-deine-wut-zahmen-kannst-strategien-fur-den-alltag-3137" },
       { id: "3138", title: "Traurigkeit annehmen - Wege, um mit schweren Zeiten umzugehen", folder: "traurigkeit-annehmen-wege-um-mit-schweren-zeiten-umzugehen-3138" },
-      { id: "3139", title: "Freude teilen - Die Bedeutung von positiven Emotionen im Leben", folder: "freude-teilen-die-bedeutung-von-positiven-emotionen-im-leben-3139" },
+      { id: "3139", title: "Freude teilen - die Bedeutung von positiven Emotionen im Leben", folder: "freude-teilen-die-bedeutung-von-positiven-emotionen-im-leben-3139" },
       {
         "id": "5743",
         "title": "Angst und Phobien verstehen",

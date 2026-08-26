@@ -42,12 +42,12 @@ export const physikTopics: Record<string, PhysikTopic> = {
       { id: "269", title: "Einführung und Teilbereiche", folder: "einfuhrung-und-teilbereiche-2-269" },
       {
         "id": "280",
-        "title": "Aufbau Der Materie",
+        "title": "Aufbau der Materie",
         "folder": "aufbau-der-materie-280"
       },
       {
         "id": "281",
-        "title": "Das Periodensystem Der Elemente",
+        "title": "Das Periodensystem der Elemente",
         "folder": "das-periodensystem-der-elemente-281"
       },
       {
@@ -94,7 +94,7 @@ export const physikTopics: Record<string, PhysikTopic> = {
       },
       {
         "id": "5315",
-        "title": "Rolle Flaschenzug Und Wellenrad",
+        "title": "Rolle Flaschenzug und Wellenrad",
         "folder": "rolle-flaschenzug-und-wellenrad-5315"
       },
       {
@@ -232,7 +232,7 @@ export const physikTopics: Record<string, PhysikTopic> = {
     "exercises": [
       {
         "id": "2253",
-        "title": "Die Ausbreitung Von Licht",
+        "title": "Die Ausbreitung von Licht",
         "folder": "die-ausbreitung-von-licht-2253"
       },
       {
@@ -252,7 +252,7 @@ export const physikTopics: Record<string, PhysikTopic> = {
       },
       {
         "id": "2258",
-        "title": "Additive Und Subtraktive Farbmischung",
+        "title": "Additive und Subtraktive Farbmischung",
         "folder": "additive-und-subtraktive-farbmischung-2258"
       },
       {
@@ -273,17 +273,17 @@ export const physikTopics: Record<string, PhysikTopic> = {
       },
       {
         "id": "2263",
-        "title": "Mikroskop Und Teleskop",
+        "title": "Mikroskop und Teleskop",
         "folder": "mikroskop-und-teleskop-2263"
       },
       {
         "id": "2264",
-        "title": "So Funktioniert Ein Beamer",
+        "title": "So Funktioniert ein Beamer",
         "folder": "so-funktioniert-ein-beamer-2264"
       },
       {
         "id": "2265",
-        "title": "So Funktioniert Ein Fotoapparat",
+        "title": "So Funktioniert ein Fotoapparat",
         "folder": "so-funktioniert-ein-fotoapparat-2265"
       }
     ],
@@ -315,7 +315,7 @@ export const physikTopics: Record<string, PhysikTopic> = {
       },
       {
         "id": "5254",
-        "title": "Das Magnetfeld Der Erde",
+        "title": "Das Magnetfeld der Erde",
         "folder": "das-magnetfeld-der-erde-5254"
       },
       { id: "5261", title: "Der Faraday'sche Käfig", folder: "der-faraday-039-sche-kafig-5261" }
@@ -375,7 +375,7 @@ export const physikTopics: Record<string, PhysikTopic> = {
       },
       {
         "id": "5298",
-        "title": "Induktion Durch Bewegung",
+        "title": "Induktion durch Bewegung",
         "folder": "induktion-durch-bewegung-5298"
       },
       {
@@ -475,7 +475,7 @@ export const physikTopics: Record<string, PhysikTopic> = {
       },
       {
         "id": "5321",
-        "title": "Bertragung Elektrischer Energie",
+        "title": "Übertragung Elektrischer Energie",
         "folder": "bertragung-elektrischer-energie-5321"
       },
       {
@@ -531,7 +531,7 @@ export const physikTopics: Record<string, PhysikTopic> = {
       },
       {
         "id": "2273",
-        "title": "Gefahr Von Kernkraftwerken",
+        "title": "Gefahr von Kernkraftwerken",
         "folder": "gefahr-von-kernkraftwerken-2273"
       }
     ],
@@ -622,7 +622,7 @@ export const physikTopics: Record<string, PhysikTopic> = {
       },
       {
         "id": "2253",
-        "title": "Die Ausbreitung Von Licht",
+        "title": "Die Ausbreitung von Licht",
         "folder": "die-ausbreitung-von-licht-2253"
       },
       { id: "276", title: "Wärme und Temperatur", folder: "fest-flussig-und-gasformig-276" }

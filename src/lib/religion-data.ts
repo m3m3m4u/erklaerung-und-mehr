@@ -79,8 +79,8 @@ export const religionTopics: Record<string, ReligionTopic> = {
       "Jenseitsvorstellungen im Vergleich: Himmel, Auferstehung der Toten (Christentum/Islam) vs. Reinkarnation/Wiedergeburt (Hinduismus/Buddhismus)"
     ],
     "exercises": [
-      { id: "2419", title: "Jesu letzte Tage auf Erden - Das letzte Abendmahl und die Verhaftung", folder: "jesu-letzte-tage-auf-erden-das-letzte-abendmahl-und-die-verhaftung-2419" },
-      { id: "2420", title: "Kreuzigung und Passion - Das Opfer aus Liebe", folder: "kreuzigung-und-passion-das-opfer-aus-liebe-2420" },
+      { id: "2419", title: "Jesu letzte Tage auf Erden - das letzte Abendmahl und die Verhaftung", folder: "jesu-letzte-tage-auf-erden-das-letzte-abendmahl-und-die-verhaftung-2419" },
+      { id: "2420", title: "Kreuzigung und Passion - das Opfer aus Liebe", folder: "kreuzigung-und-passion-das-opfer-aus-liebe-2420" },
       { id: "2421", title: "Der Kreuzweg - Jesu Opfer für die Menschheit", folder: "der-kreuzweg-jesu-opfer-fur-die-menschheit-2421" },
       { id: "2422", title: "Auferstehung und Himmelfahrt - Überwindung des Todes", folder: "auferstehung-und-himmelfahrt-berwindung-des-todes-2422" },
       { id: "2423", title: "Der Glaube als Quelle von Trost und Hoffnung", folder: "der-glaube-als-quelle-von-trost-und-hoffnung-2423" }
@@ -102,7 +102,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
     ],
     "exercises": [
       { id: "2451", title: "Nächstenliebe in der Praxis", folder: "nachstenliebe-in-der-praxis-2451" },
-      { id: "2452", title: "Glaube im Alltag - Die Bedeutung von Religion", folder: "glaube-im-alltag-die-bedeutung-von-religion-2452" },
+      { id: "2452", title: "Glaube im Alltag - die Bedeutung von Religion", folder: "glaube-im-alltag-die-bedeutung-von-religion-2452" },
       { id: "2453", title: "Glaube im Alltag", folder: "glaube-im-alltag-2453" },
       {
         "id": "2454",

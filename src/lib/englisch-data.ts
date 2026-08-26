@@ -67,7 +67,7 @@ export const englischTopics: Record<string, EnglischTopic> = {
       },
       {
         "id": "360",
-        "title": "Will-future und going-to-future",
+        "title": "Will-Future und going-to-Future",
         "folder": "will-future-und-going-to-future-360"
       },
       {
@@ -77,7 +77,7 @@ export const englischTopics: Record<string, EnglischTopic> = {
       },
       {
         "id": "396",
-        "title": "Revision: Forms of be (simple present and simple past)",
+        "title": "Revision: Forms of be (Simple present and simple past)",
         "folder": "revision-forms-of-be-simple-present-and-simple-past-396"
       }
     ],
@@ -105,7 +105,7 @@ export const englischTopics: Record<string, EnglischTopic> = {
       },
       {
         "id": "410",
-        "title": "will future oder going-to-future",
+        "title": "Will future oder going-to-Future",
         "folder": "will-future-oder-going-to-future-410"
       },
       {
@@ -164,7 +164,7 @@ export const englischTopics: Record<string, EnglischTopic> = {
       },
       {
         "id": "371",
-        "title": "A or An - der unbestimmte Artikel",
+        "title": "A or an - der unbestimmte Artikel",
         "folder": "a-or-an-der-unbestimmte-artikel-2-371"
       },
       {
@@ -184,12 +184,12 @@ export const englischTopics: Record<string, EnglischTopic> = {
       },
       {
         "id": "402",
-        "title": "some - any - a lot of - much - many",
+        "title": "Some - any - a lot of - much - many",
         "folder": "some-any-a-lot-of-much-many-402"
       },
       {
         "id": "401",
-        "title": "since - for - ago",
+        "title": "Since - for - ago",
         "folder": "since-for-ago-401"
       }
     ],
@@ -212,9 +212,9 @@ export const englischTopics: Record<string, EnglischTopic> = {
     ],
     "exercises": [
       {
-        "id": "406",
-        "title": "What's the time? - Die Uhrzeit (ohne Hörübung)",
-        "folder": "what-039-s-the-time-die-uhrzeit-ohne-horubung-406"
+        "id": "1039",
+        "title": "What's the time? - die Uhrzeit (ohne Hörübung)",
+        "folder": "what-s-the-time-die-uhrzeit-ohne-horubung-1039"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Telling+the+Time+English&t=468"

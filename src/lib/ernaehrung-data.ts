@@ -211,7 +211,7 @@ export const ernaehrungTopics: Record<string, ErnaehrungTopic> = {
     "exercises": [
       {
         "id": "lebensmittelallergien-und-unvertraglichkeiten-2669",
-        "title": "Lebensmittelallergien und -unverträglichkeiten",
+        "title": "Lebensmittelallergien und -Unverträglichkeiten",
         "folder": "lebensmittelallergien-und-unvertraglichkeiten-2669"
       },
       {
@@ -244,7 +244,7 @@ export const ernaehrungTopics: Record<string, ErnaehrungTopic> = {
   },
   "verdauungstrakt-und-stoffwechsel": {
     "slug": "verdauungstrakt-und-stoffwechsel",
-    "title": "Verdauungssystem: Vom Mund bis zur Nährstoffaufnahme",
+    "title": "Verdauungssystem: vom Mund bis zur Nährstoffaufnahme",
     "category": "Ernährung",
     "shortDesc": "Verdauungsorgane: Mundhöhle, Speiseröhre, Magen, Dünndarm, Dickdarm, Bauchspeicheldrüse, Verdauungsenzyme und Resorption.",
     "longDesc": "Die Verdauung zerlegt die mit der Nahrung aufgenommenen Makronährstoffe mechanisch und chemisch in ihre kleinsten Grundbausteine, damit sie über die Dünndarmschleimhaut ins Blut und in die Körperzellen aufgenommen werden können.",

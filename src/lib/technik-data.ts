@@ -61,7 +61,7 @@ export const technikTopics: Record<string, TechnikTopic> = {
       },
       {
         "id": "699",
-        "title": "studypoint - wörter markieren - Metalle",
+        "title": "Studypoint - wörter markieren - Metalle",
         "folder": "studypoint-worter-markieren-metalle-699"
       }
     ],

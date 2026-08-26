@@ -329,7 +329,7 @@ export const musikTopics: Record<string, MusikTopic> = {
       },
       {
         "id": "764",
-        "title": "Antonio Vivaldi – Die vier Jahreszeiten",
+        "title": "Antonio Vivaldi – die vier Jahreszeiten",
         "folder": "antonio-vivaldi-764"
       },
       {
@@ -739,7 +739,7 @@ export const musikTopics: Record<string, MusikTopic> = {
     "exercises": [
       {
         "id": "832",
-        "title": "The Beatles – Die Fab Four aus Liverpool",
+        "title": "The Beatles – die Fab Four aus Liverpool",
         "folder": "the-beatles-832"
       }
     ],
@@ -760,7 +760,7 @@ export const musikTopics: Record<string, MusikTopic> = {
     "exercises": [
       {
         "id": "845",
-        "title": "Elvis Presley – Der King of Rock 'n' Roll",
+        "title": "Elvis Presley – der King of Rock 'n' Roll",
         "folder": "elvis-presley-845"
       }
     ],

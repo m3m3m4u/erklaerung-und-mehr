@@ -37,7 +37,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "exercises": [
       {
         "id": "414",
-        "title": "Bundesländer Und Wichtige Städte Österreichs",
+        "title": "Bundesländer und Wichtige Städte Österreichs",
         "folder": "bundeslander-und-wichtige-stadte-sterreichs-414"
       },
       {
@@ -47,7 +47,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "489",
-        "title": "Alpen Und Karpatenvorland",
+        "title": "Alpen und Karpatenvorland",
         "folder": "alpen-und-karpatenvorland-489"
       },
       {
@@ -57,28 +57,28 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "491",
-        "title": "Granit Und Gneishochland",
+        "title": "Granit und Gneishochland",
         "folder": "granit-und-gneishochland-491"
       },
       { id: "492", title: "Vorland im Osten und Südosten", folder: "vorland-im-osten-und-sudosten-492" },
       {
         "id": "493",
-        "title": "Gebirge In Österreich",
+        "title": "Gebirge in Österreich",
         "folder": "gebirge-in-sterreich-493"
       },
       {
         "id": "494",
-        "title": "Wirtschaft In Österreich",
+        "title": "Wirtschaft in Österreich",
         "folder": "wirtschaft-in-sterreich-494"
       },
       {
         "id": "495",
-        "title": "Gewässer In Österreich",
+        "title": "Gewässer in Österreich",
         "folder": "gewasser-in-sterreich-495"
       },
       {
         "id": "498",
-        "title": "Klima Und Wetter Österreichs",
+        "title": "Klima und Wetter Österreichs",
         "folder": "klima-und-wetter-sterreichs-2-498"
       },
       {
@@ -89,12 +89,12 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       { id: "1199", title: "Nationalparks in Österreich", folder: "test-5-1199" },
       {
         "id": "2061",
-        "title": "Bevölkerungsentwicklung In Österreich",
+        "title": "Bevölkerungsentwicklung in Österreich",
         "folder": "bevolkerungsentwicklung-in-sterreich-2061"
       },
       {
         "id": "2062",
-        "title": "Österreich Als Transitland",
+        "title": "Österreich als Transitland",
         "folder": "sterreich-als-transitland-2062"
       },
       { id: "2063", title: "Industrieräume in Österreihch", folder: "industrieraume-in-sterreihch-2063" }
@@ -115,7 +115,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "exercises": [
       {
         "id": "310",
-        "title": "Geographie Deutschlands Gebirge Seen Flüsse Inseln Und Halbinseln",
+        "title": "Geographie Deutschlands Gebirge Seen Flüsse Inseln und Halbinseln",
         "folder": "geographie-deutschlands-gebirge-seen-flusse-inseln-und-halbinseln-310"
       },
       {
@@ -130,7 +130,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "2059",
-        "title": "Bevölkerungsentwicklung In Deutschland",
+        "title": "Bevölkerungsentwicklung in Deutschland",
         "folder": "bevolkerungsentwicklung-in-deutschland-2059"
       },
       { id: "2060", title: "Industrieräume in Deutschland", folder: "industrieraume-in-deutschland-2060" }
@@ -139,7 +139,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
   },
   "europa-und-die-eu": {
     "slug": "europa-und-die-eu",
-    "title": "Europa & Die Europäische Union",
+    "title": "Europa & die Europäische Union",
     "category": "Europa & Die EU",
     "shortDesc": "Topographie Europas, Regionen, Mitgliedsstaaten der EU, Organe, Binnenmarkt und Eurozone.",
     "longDesc": "Europa bildet den westlichen Teil des eurasischen Kontinents. Die Europäische Union (EU) ist ein einzigartiger wirtschaftlicher und politischer Staatenverbund von derzeit 27 Mitgliedsländern.",
@@ -171,12 +171,12 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "308",
-        "title": "Entwicklung Der Eu",
+        "title": "Entwicklung der EU",
         "folder": "entwicklung-der-eu-308"
       },
       {
         "id": "309",
-        "title": "Aufgaben Und Organe Der Eu",
+        "title": "Aufgaben und Organe der EU",
         "folder": "aufgaben-und-organe-der-eu-309"
       },
       {
@@ -191,7 +191,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "3492",
-        "title": "Das Eu Parlament",
+        "title": "Das EU Parlament",
         "folder": "das-eu-parlament-3492"
       },
       {
@@ -206,7 +206,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "3477",
-        "title": "Arbeit Des Europäischen Parlaments",
+        "title": "Arbeit des Europäischen Parlaments",
         "folder": "arbeit-des-europaischen-parlaments-3477"
       },
       {
@@ -292,7 +292,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "1573",
-        "title": "Bosnien Und Herzegowina",
+        "title": "Bosnien und Herzegowina",
         "folder": "bosnien-und-herzegowina-1573"
       },
       {
@@ -491,7 +491,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "exercises": [
       {
         "id": "757",
-        "title": "Klima Und Wetter",
+        "title": "Klima und Wetter",
         "folder": "klima-und-wetter-757"
       },
       {
@@ -561,12 +561,12 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "2075",
-        "title": "Der Gold Von Mexiko",
+        "title": "Der Gold von Mexiko",
         "folder": "der-gold-von-mexiko-2075"
       },
       {
         "id": "2017",
-        "title": "Das Gradnetz Der Erde",
+        "title": "Das Gradnetz der Erde",
         "folder": "das-gradnetz-der-erde-2017"
       },
       {
@@ -596,7 +596,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "2028",
-        "title": "Laubwald Nadelwald Und Mischwald",
+        "title": "Laubwald Nadelwald und Mischwald",
         "folder": "laubwald-nadelwald-und-mischwald-2028"
       },
       {
@@ -970,7 +970,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "616",
-        "title": "Israel Und Palästina",
+        "title": "Israel und Palästina",
         "folder": "israel-und-palastina-616"
       },
       {
@@ -1120,7 +1120,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "1922",
-        "title": "Vereinigte Staaten Von Amerika",
+        "title": "Vereinigte Staaten von Amerika",
         "folder": "vereinigte-staaten-von-amerika-1922"
       },
       {

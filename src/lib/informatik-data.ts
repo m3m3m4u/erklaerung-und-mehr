@@ -50,7 +50,7 @@ export const informatikTopics: Record<string, InformatikTopic> = {
     "exercises": [
       {
         "id": "306",
-        "title": "Grundlagen Der Informatik Hardware",
+        "title": "Grundlagen der Informatik Hardware",
         "folder": "grundlagen-der-informatik-hardware-306"
       },
       {
@@ -65,7 +65,7 @@ export const informatikTopics: Record<string, InformatikTopic> = {
       },
       {
         "id": "1233",
-        "title": "Cpu",
+        "title": "CPU",
         "folder": "cpu-1233"
       },
       {
@@ -112,12 +112,12 @@ export const informatikTopics: Record<string, InformatikTopic> = {
     "exercises": [
       {
         "id": "354",
-        "title": "Geschichte Des Computers",
+        "title": "Geschichte des Computers",
         "folder": "geschichte-des-computers-354"
       },
       {
         "id": "306",
-        "title": "Grundlagen Der Informatik Hardware",
+        "title": "Grundlagen der Informatik Hardware",
         "folder": "grundlagen-der-informatik-hardware-306"
       },
       {
@@ -192,7 +192,7 @@ export const informatikTopics: Record<string, InformatikTopic> = {
     "exercises": [
       {
         "id": "312",
-        "title": "Grundlagen Der Informatik Software",
+        "title": "Grundlagen der Informatik Software",
         "folder": "grundlagen-der-informatik-software-312"
       },
       {
@@ -387,7 +387,7 @@ export const informatikTopics: Record<string, InformatikTopic> = {
       },
       {
         "id": "475",
-        "title": "Suchen Und Finden Im Internet",
+        "title": "Suchen und Finden im Internet",
         "folder": "suchen-und-finden-im-internet-475"
       },
       {
@@ -420,7 +420,7 @@ export const informatikTopics: Record<string, InformatikTopic> = {
     "exercises": [
       {
         "id": "474",
-        "title": "Sicherheit Im Umgang Mit Dem Computer",
+        "title": "Sicherheit im Umgang mit dem Computer",
         "folder": "sicherheit-im-umgang-mit-dem-computer-474"
       },
       {
@@ -543,7 +543,7 @@ export const informatikTopics: Record<string, InformatikTopic> = {
       },
       {
         "id": "678",
-        "title": "Computer Und Gesundheit",
+        "title": "Computer und Gesundheit",
         "folder": "computer-und-gesundheit-2-678"
       }
     ],
@@ -613,12 +613,12 @@ export const informatikTopics: Record<string, InformatikTopic> = {
     "exercises": [
       {
         "id": "303",
-        "title": "Algorithmen Und Programmiersprachen",
+        "title": "Algorithmen und Programmiersprachen",
         "folder": "algorithmen-und-programmiersprachen-303"
       },
       {
         "id": "3124",
-        "title": "Bilder Und Videos Mit Html",
+        "title": "Bilder und Videos mit HTML",
         "folder": "bilder-und-videos-mit-html-3124"
       }
     ],
@@ -641,7 +641,7 @@ export const informatikTopics: Record<string, InformatikTopic> = {
     "exercises": [
       {
         "id": "3124",
-        "title": "Bilder Und Videos Mit Html",
+        "title": "Bilder und Videos mit HTML",
         "folder": "bilder-und-videos-mit-html-3124"
       },
       { id: "468", title: "Datenträger", folder: "datentrager-468" }
@@ -662,22 +662,22 @@ export const informatikTopics: Record<string, InformatikTopic> = {
     "exercises": [
       {
         "id": "354",
-        "title": "Geschichte Des Computers",
+        "title": "Geschichte des Computers",
         "folder": "geschichte-des-computers-354"
       },
       {
         "id": "306",
-        "title": "Grundlagen Der Informatik Hardware",
+        "title": "Grundlagen der Informatik Hardware",
         "folder": "grundlagen-der-informatik-hardware-306"
       },
       {
         "id": "312",
-        "title": "Grundlagen Der Informatik Software",
+        "title": "Grundlagen der Informatik Software",
         "folder": "grundlagen-der-informatik-software-312"
       },
       {
         "id": "303",
-        "title": "Algorithmen Und Programmiersprachen",
+        "title": "Algorithmen und Programmiersprachen",
         "folder": "algorithmen-und-programmiersprachen-303"
       },
       { id: "468", title: "Datenträger", folder: "datentrager-468" },
@@ -688,22 +688,22 @@ export const informatikTopics: Record<string, InformatikTopic> = {
       },
       {
         "id": "474",
-        "title": "Sicherheit Im Umgang Mit Dem Computer",
+        "title": "Sicherheit im Umgang mit dem Computer",
         "folder": "sicherheit-im-umgang-mit-dem-computer-474"
       },
       {
         "id": "285",
-        "title": "Die Geschichte Des Internets Interaktives Video",
+        "title": "Die Geschichte des Internets Interaktives Video",
         "folder": "die-geschichte-des-internets-interaktives-video-285"
       },
       {
         "id": "286",
-        "title": "Geschichte Des Internets Zeitleiste",
+        "title": "Geschichte des Internets Zeitleiste",
         "folder": "geschichte-des-internets-zeitleiste-286"
       },
       {
         "id": "288",
-        "title": "Zusatzaufgaben Zur Geschichte Des Internets",
+        "title": "Zusatzaufgaben zur Geschichte des Internets",
         "folder": "zusatzaufgaben-zur-geschichte-des-internets-288"
       },
       {
@@ -718,7 +718,7 @@ export const informatikTopics: Record<string, InformatikTopic> = {
       },
       {
         "id": "475",
-        "title": "Suchen Und Finden Im Internet",
+        "title": "Suchen und Finden im Internet",
         "folder": "suchen-und-finden-im-internet-475"
       },
       {
@@ -748,7 +748,7 @@ export const informatikTopics: Record<string, InformatikTopic> = {
     "exercises": [
       {
         "id": "474",
-        "title": "Sicherheit Im Umgang Mit Dem Computer",
+        "title": "Sicherheit im Umgang mit dem Computer",
         "folder": "sicherheit-im-umgang-mit-dem-computer-474"
       },
       {
@@ -758,7 +758,7 @@ export const informatikTopics: Record<string, InformatikTopic> = {
       },
       {
         "id": "306",
-        "title": "Grundlagen Der Informatik Hardware",
+        "title": "Grundlagen der Informatik Hardware",
         "folder": "grundlagen-der-informatik-hardware-306"
       },
       {
@@ -789,52 +789,52 @@ export const informatikTopics: Record<string, InformatikTopic> = {
       { id: "969", title: "MS Word - Menüs und Schaltflächen", folder: "ms-word-menus-und-schaltflachen-969" },
       {
         "id": "970",
-        "title": "Ms Word Speichern Rückgängig Machen Markieren",
+        "title": "MS Word speichern Rückgängig Machen Markieren",
         "folder": "ms-word-speichern-ruckgangig-machen-markieren-970"
       },
       {
         "id": "971",
-        "title": "Ms Word Kopieren Ausschneiden Einfügen",
+        "title": "MS Word kopieren ausschneiden einfügen",
         "folder": "ms-word-kopieren-ausschneiden-einfugen-971"
       },
       {
         "id": "972",
-        "title": "Ms Word Texte Überarbeiten Und Überprüfen",
+        "title": "MS Word Texte überarbeiten und überprüfen",
         "folder": "ms-word-texte-uberarbeiten-und-uberprufen-972"
       },
       {
         "id": "973",
-        "title": "Ms Word Zeichen Formatieren",
+        "title": "MS Word Zeichen formatieren",
         "folder": "ms-word-zeichen-formatieren-973"
       },
       {
         "id": "974",
-        "title": "Ms Word Absätze Formatieren",
+        "title": "MS Word Absätze formatieren",
         "folder": "ms-word-absatze-formatieren-974"
       },
       {
         "id": "975",
-        "title": "Ms Word Seiten Formatieren",
+        "title": "MS Word Seiten formatieren",
         "folder": "ms-word-seiten-formatieren-975"
       },
       {
         "id": "976",
-        "title": "Ms Word Bilder Einfügen",
+        "title": "MS Word Bilder einfügen",
         "folder": "ms-word-bilder-einfugen-976"
       },
       {
         "id": "977",
-        "title": "Ms Word Tabstopps",
+        "title": "MS Word Tabstopps",
         "folder": "ms-word-tabstopps-977"
       },
       {
         "id": "978",
-        "title": "Ms Word Tabellen",
+        "title": "MS Word Tabellen",
         "folder": "ms-word-tabellen-978"
       },
       {
         "id": "979",
-        "title": "Ms Word Symbole Und Sonderzeichen",
+        "title": "MS Word Symbole und Sonderzeichen",
         "folder": "ms-word-symbole-und-sonderzeichen-979"
       },
       {
@@ -846,7 +846,7 @@ export const informatikTopics: Record<string, InformatikTopic> = {
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=word&t=3752",
     "attachments": [
       {
-        "title": "Vorlage: Kopieren, Ausschneiden & Einfügen",
+        "title": "Vorlage: kopieren, ausschneiden & einfügen",
         "filename": "Vorlage-Uebung-kopieren-Word.docx",
         "exerciseId": "971"
       },

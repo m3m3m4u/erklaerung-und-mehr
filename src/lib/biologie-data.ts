@@ -136,7 +136,7 @@ export const biologieTopics: Record<string, BiologieTopic> = {
       },
       {
         "id": "2116",
-        "title": "Das Lymphsystem - Lymphknoten und -gefäße",
+        "title": "Das Lymphsystem - Lymphknoten und -Gefäße",
         "folder": "das-menschliche-gebiss-zahne-und-funktion-2116"
       }
     ],
@@ -225,7 +225,7 @@ export const biologieTopics: Record<string, BiologieTopic> = {
       },
       {
         "id": "2104",
-        "title": "Die Zunge - Geschmacksinn und -knospen",
+        "title": "Die Zunge - Geschmacksinn und -Knospen",
         "folder": "das-periphere-nervensystem-und-reflexe-2104"
       }
     ],
@@ -297,7 +297,7 @@ export const biologieTopics: Record<string, BiologieTopic> = {
       },
       {
         "id": "2169",
-        "title": "T-Zellen und B-Zellen - Die Abwehrspezialisten",
+        "title": "T-Zellen und B-Zellen - die Abwehrspezialisten",
         "folder": "t-zellen-und-b-zellen-die-abwehrspezialisten-2169"
       }
     ],
@@ -359,7 +359,7 @@ export const biologieTopics: Record<string, BiologieTopic> = {
       },
       {
         "id": "2096",
-        "title": "Geschlechtsbestimmung - Wie es funktioniert",
+        "title": "Geschlechtsbestimmung - wie es funktioniert",
         "folder": "geschlechtsorgane-und-fortpflanzung-2096"
       },
       {
@@ -518,7 +518,7 @@ export const biologieTopics: Record<string, BiologieTopic> = {
       },
       {
         "id": "2227",
-        "title": "Transpiration - Der Wassertransport in Pflanzen",
+        "title": "Transpiration - der Wassertransport in Pflanzen",
         "folder": "transpiration-der-wassertransport-in-pflanzen-2227"
       },
       {
@@ -579,22 +579,22 @@ export const biologieTopics: Record<string, BiologieTopic> = {
       },
       {
         "id": "2190",
-        "title": "Die Eiche - Ein Baum mit Geschichte",
+        "title": "Die Eiche - ein Baum mit Geschichte",
         "folder": "die-eiche-ein-baum-mit-geschichte-2190"
       },
       {
         "id": "2191",
-        "title": "Nadelbäume - Von Fichte bis Kiefer",
+        "title": "Nadelbäume - von Fichte bis Kiefer",
         "folder": "nadelbaume-von-fichte-bis-kiefer-2191"
       },
       {
         "id": "2192",
-        "title": "Die Kiefer - Ein Nadelbaum und seine Nutzung",
+        "title": "Die Kiefer - ein Nadelbaum und seine Nutzung",
         "folder": "die-kiefer-ein-nadelbaum-und-seine-nutzung-2192"
       },
       {
         "id": "2193",
-        "title": "Der Apfelbaum - Von der Blüte zur Frucht",
+        "title": "Der Apfelbaum - von der Blüte zur Frucht",
         "folder": "der-apfelbaum-von-der-blute-zur-frucht-2193"
       },
       {
@@ -620,12 +620,12 @@ export const biologieTopics: Record<string, BiologieTopic> = {
     "exercises": [
       {
         "id": "2194",
-        "title": "Die Zwiebel - Mehr als ein Gewürz",
+        "title": "Die Zwiebel - mehr als ein Gewürz",
         "folder": "die-zwiebel-mehr-als-ein-gewurz-2194"
       },
       {
         "id": "2195",
-        "title": "Die Kartoffel - Eine wichtige Nutzpflanze",
+        "title": "Die Kartoffel - eine wichtige Nutzpflanze",
         "folder": "die-kartoffel-eine-wichtige-nutzpflanze-2195"
       },
       {
@@ -635,7 +635,7 @@ export const biologieTopics: Record<string, BiologieTopic> = {
       },
       {
         "id": "2197",
-        "title": "Die Weinrebe - Von Trauben zu Wein",
+        "title": "Die Weinrebe - von Trauben zu Wein",
         "folder": "die-weinrebe-von-trauben-zu-wein-2197"
       },
       {
@@ -655,7 +655,7 @@ export const biologieTopics: Record<string, BiologieTopic> = {
       },
       {
         "id": "2202",
-        "title": "Die Kokospalme - Ein tropischer Alleskönner",
+        "title": "Die Kokospalme - ein tropischer Alleskönner",
         "folder": "die-kokospalme-ein-tropischer-alleskonner-2202"
       },
       {
@@ -665,7 +665,7 @@ export const biologieTopics: Record<string, BiologieTopic> = {
       },
       {
         "id": "2204",
-        "title": "Die Bananenstaude - Mehr als nur eine Frucht",
+        "title": "Die Bananenstaude - mehr als nur eine Frucht",
         "folder": "die-bananenstaude-mehr-als-nur-eine-frucht-2204"
       },
       {
@@ -702,7 +702,7 @@ export const biologieTopics: Record<string, BiologieTopic> = {
       },
       {
         "id": "2206",
-        "title": "Der Ginkgo - Ein lebendes Fossil",
+        "title": "Der Ginkgo - ein lebendes Fossil",
         "folder": "der-ginkgo-ein-lebendes-fossil-2206"
       },
       {
@@ -717,7 +717,7 @@ export const biologieTopics: Record<string, BiologieTopic> = {
       },
       {
         "id": "2210",
-        "title": "Rosen - Mehr als nur schöne Blumen",
+        "title": "Rosen - mehr als nur schöne Blumen",
         "folder": "rosen-mehr-als-nur-schone-blumen-2210"
       },
       {
@@ -747,7 +747,7 @@ export const biologieTopics: Record<string, BiologieTopic> = {
       },
       {
         "id": "2217",
-        "title": "Der Farn - Ein Überlebenskünstler der Wälder",
+        "title": "Der Farn - ein Überlebenskünstler der Wälder",
         "folder": "der-farn-ein-berlebenskunstler-der-walder-2217"
       },
       {
@@ -1186,7 +1186,7 @@ export const biologieTopics: Record<string, BiologieTopic> = {
       },
       {
         "id": "2165",
-        "title": "DNA-Replikation - Kopieren der Erbinformation",
+        "title": "DNA-Replikation - kopieren der Erbinformation",
         "folder": "dna-replikation-kopieren-der-erbinformation-2165"
       },
       {
@@ -1201,7 +1201,7 @@ export const biologieTopics: Record<string, BiologieTopic> = {
       },
       {
         "id": "2170",
-        "title": "Genexpression - Wie Gene aktiviert werden",
+        "title": "Genexpression - wie Gene aktiviert werden",
         "folder": "genexpression-wie-gene-aktiviert-werden-2170"
       },
       {

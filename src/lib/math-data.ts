@@ -784,7 +784,7 @@ export const mathTopics: Record<string, MathTopic> = {
       },
       {
         "id": "662",
-        "title": "kurs Winkel schätzen",
+        "title": "Kurs Winkel schätzen",
         "folder": "kurs-winkel-schatzen-662"
       },
       {
@@ -1045,7 +1045,7 @@ export const mathTopics: Record<string, MathTopic> = {
     "exercises": [
       {
         "id": "262",
-        "title": "Uhrzeit (halbe Stunden)",
+        "title": "Uhrzeit (Halbe Stunden)",
         "folder": "uhrzeit-viertelstunden-262"
       },
       {
@@ -1055,7 +1055,7 @@ export const mathTopics: Record<string, MathTopic> = {
       },
       {
         "id": "264",
-        "title": "Uhrzeit (ganze Stunden)",
+        "title": "Uhrzeit (Ganze Stunden)",
         "folder": "koordinatensystem-positiver-bereich-264"
       }
     ],
