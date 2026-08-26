@@ -3,8 +3,9 @@
 import React, { useState, useRef, useEffect } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-
 import Image from 'next/image';
+import LoginButton from './LoginButton';
+
 
 interface HeaderProps {
   activeTab?: 'home' | 'h5p-hub';
@@ -224,6 +225,8 @@ export default function Header({ activeTab, onTabChange, activePath }: HeaderPro
           >
             Eduki Materialien
           </a>
+
+          <LoginButton />
         </nav>
       </div>
 

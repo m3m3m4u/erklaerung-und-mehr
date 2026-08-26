@@ -22,19 +22,10 @@ export default function DeutschDetailPage({
   }
 
   const [activeExerciseIndex, setActiveExerciseIndex] = useState(0);
-  const [scoreNotification, setScoreNotification] = useState<string | null>(null);
-
+  
   const currentExercise = topic.exercises[activeExerciseIndex];
 
-  const handleXAPI = (statement: XAPIStatement) => {
-    if (statement.result?.score) {
-      const { raw, max } = statement.result.score;
-      setScoreNotification(
-        `Ergebnis: ${raw ?? 0} von ${max ?? 0} Punkten erreicht!`
-      );
-    }
-  };
-
+  
   return (
     <div className="site-wrapper">
       <Header activePath="/deutsch" />
@@ -80,8 +71,7 @@ export default function DeutschDetailPage({
                   key={ex.id}
                   onClick={() => {
                     setActiveExerciseIndex(idx);
-                    setScoreNotification(null);
-                  }}
+                    }}
                   className={`exercise-tab-btn ${activeExerciseIndex === idx ? 'active' : ''}`}
                 >
                   {idx + 1}. {ex.title}
@@ -90,17 +80,17 @@ export default function DeutschDetailPage({
             </div>
           )}
 
-          {scoreNotification && (
-            <div className="score-status">{scoreNotification}</div>
-          )}
-
+          
           {currentExercise ? (
             <div className="exercise-player-wrapper">
               <H5PPlayer
                 key={currentExercise.folder}
                 h5pJsonPath={`/h5p-content/${currentExercise.folder}`}
                 title={currentExercise.title}
-                onXAPIStatement={handleXAPI}
+                courseId={topic.slug}
+                courseTitle={topic.title}
+                totalExercises={topic.exercises.length}
+                exerciseId={currentExercise.folder}
               />
             </div>
           ) : (

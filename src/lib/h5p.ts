@@ -1,6 +1,7 @@
 import AdmZip from 'adm-zip';
 import path from 'path';
 import fs from 'fs/promises';
+import fsSync from 'fs';
 import { getDatabase } from './mongodb';
 
 export interface H5PMetadata {
@@ -21,6 +22,54 @@ export interface H5PRecord {
   metadata?: H5PMetadata;
   createdAt: string;
   filename: string;
+}
+
+export async function extractLibrariesFromZip(zip: AdmZip): Promise<void> {
+  try {
+    const entries = zip.getEntries();
+    const h5pLibDir = path.join(process.cwd(), 'public', 'h5p-libraries');
+    if (!fsSync.existsSync(h5pLibDir)) {
+      await fs.mkdir(h5pLibDir, { recursive: true });
+    }
+
+    const candidatePrefixes = new Map<string, Array<AdmZip.IZipEntry>>();
+    for (const entry of entries) {
+      if (entry.entryName.includes('/')) {
+        const prefix = entry.entryName.split('/')[0];
+        if (prefix === 'content' || prefix === '_MACOSX') continue;
+        if (!candidatePrefixes.has(prefix)) {
+          candidatePrefixes.set(prefix, []);
+        }
+        candidatePrefixes.get(prefix)!.push(entry);
+      }
+    }
+
+    for (const [prefix, pEntries] of candidatePrefixes.entries()) {
+      const libJsonEntry = pEntries.find((e) => e.entryName === `${prefix}/library.json`);
+      if (libJsonEntry) {
+        try {
+          const lData = JSON.parse(libJsonEntry.getData().toString('utf8'));
+          if (lData.machineName && lData.majorVersion !== undefined && lData.minorVersion !== undefined) {
+            const standardFolderName = `${lData.machineName}-${lData.majorVersion}.${lData.minorVersion}`;
+            const destFolder = path.join(h5pLibDir, standardFolderName);
+            if (!fsSync.existsSync(destFolder)) {
+              await fs.mkdir(destFolder, { recursive: true });
+              for (const pe of pEntries) {
+                if (pe.isDirectory) continue;
+                const relPathInside = pe.entryName.slice(prefix.length + 1);
+                if (!relPathInside) continue;
+                const destFile = path.join(destFolder, relPathInside);
+                await fs.mkdir(path.dirname(destFile), { recursive: true });
+                await fs.writeFile(destFile, pe.getData());
+              }
+            }
+          }
+        } catch {}
+      }
+    }
+  } catch (err) {
+    console.warn('Error extracting libraries from zip:', err);
+  }
 }
 
 export async function extractAndSaveH5P(
@@ -60,6 +109,9 @@ export async function extractAndSaveH5P(
 
   // Extract all files
   zip.extractAllTo(targetDir, true);
+
+  // Extract bundled libraries to public/h5p-libraries
+  await extractLibrariesFromZip(zip);
 
   // Apply compatibility patches for older H5P libraries (e.g. YouTube API changes)
   await applyH5PCompatibilityPatches(targetDir);

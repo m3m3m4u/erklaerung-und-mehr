@@ -1603,3 +1603,491 @@ a:hover {
   border-radius: 4px;
   padding: 16px;
 }
+
+/* ==========================================================================
+   Login System
+   ========================================================================== */
+
+/* ----- Header Login Button ----- */
+.login-header-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  background: var(--green-primary);
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.18s;
+  margin-left: 12px;
+}
+.login-header-btn:hover {
+  background: var(--green-dark);
+}
+
+/* ----- Logged-in User Badge ----- */
+.login-user-wrapper {
+  position: relative;
+  margin-left: 12px;
+}
+.login-user-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 12px;
+  background: var(--green-light);
+  border: 1px solid var(--green-border);
+  border-radius: 20px;
+  font-family: var(--font-family);
+  font-size: 13px;
+  color: var(--green-dark);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.18s;
+  max-width: 220px;
+}
+.login-user-btn:hover {
+  background: var(--green-border);
+}
+.login-user-avatar { font-size: 16px; }
+.login-user-label {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 140px;
+}
+
+.login-user-menu {
+  position: absolute;
+  right: 0;
+  top: calc(100% + 6px);
+  background: var(--bg-white);
+  border: 1px solid var(--border-light);
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+  min-width: 200px;
+  z-index: 200;
+  overflow: hidden;
+}
+.login-user-menu-item {
+  display: block;
+  width: 100%;
+  padding: 12px 16px;
+  font-family: var(--font-family);
+  font-size: 14px;
+  color: var(--text-color);
+  text-decoration: none;
+  background: none;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.login-user-menu-item:hover {
+  background: var(--green-light);
+  text-decoration: none;
+}
+.login-user-menu-logout {
+  color: #c62828;
+  border-top: 1px solid var(--border-light);
+}
+
+/* ----- Modal Overlay ----- */
+.login-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.45);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  animation: fadeIn 0.15s ease;
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.login-modal {
+  background: var(--bg-white);
+  border-radius: 12px;
+  box-shadow: 0 8px 40px rgba(0,0,0,0.18);
+  width: 100%;
+  max-width: 420px;
+  position: relative;
+  animation: slideUp 0.2s ease;
+}
+@keyframes slideUp {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+.login-modal-close {
+  position: absolute;
+  top: 14px;
+  right: 16px;
+  background: none;
+  border: none;
+  font-size: 18px;
+  color: var(--text-muted);
+  cursor: pointer;
+  line-height: 1;
+  padding: 2px 6px;
+  border-radius: 4px;
+  transition: color 0.15s, background 0.15s;
+}
+.login-modal-close:hover {
+  color: var(--text-color);
+  background: var(--green-light);
+}
+
+.login-modal-body {
+  padding: 32px 28px;
+}
+
+.login-modal-title {
+  font-size: 20px;
+  color: var(--green-dark);
+  margin-bottom: 6px;
+}
+.login-modal-subtitle {
+  font-size: 14px;
+  color: var(--text-muted);
+  margin-bottom: 24px;
+}
+
+/* ----- Role Selection ----- */
+.login-role-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.login-role-btn {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 16px 20px;
+  border: 2px solid var(--green-border);
+  border-radius: 10px;
+  background: var(--green-light);
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--green-dark);
+  cursor: pointer;
+  transition: border-color 0.18s, background 0.18s;
+  text-align: left;
+}
+.login-role-btn:hover {
+  border-color: var(--green-primary);
+  background: #e8f3d6;
+}
+.login-role-icon { font-size: 26px; }
+
+/* ----- Forms ----- */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.login-label {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-color);
+}
+.login-hint {
+  font-weight: 400;
+  color: var(--text-muted);
+}
+.login-input {
+  padding: 9px 12px;
+  border: 1px solid var(--green-border);
+  border-radius: 6px;
+  font-family: var(--font-family);
+  font-size: 15px;
+  color: var(--text-color);
+  background: var(--bg-white);
+  transition: border-color 0.18s, box-shadow 0.18s;
+  width: 100%;
+}
+.login-input:focus {
+  outline: none;
+  border-color: var(--green-primary);
+  box-shadow: 0 0 0 3px rgba(148, 187, 62, 0.18);
+}
+.login-code-input {
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  text-align: center;
+}
+.login-error {
+  color: #c62828;
+  font-size: 13px;
+  background: #fdecea;
+  border-radius: 6px;
+  padding: 8px 12px;
+  margin: 0;
+}
+.login-submit-btn {
+  padding: 10px 20px;
+  background: var(--green-primary);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-family: var(--font-family);
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.18s;
+  margin-top: 4px;
+}
+.login-submit-btn:hover:not(:disabled) {
+  background: var(--green-dark);
+}
+.login-submit-btn:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+.login-switch-text {
+  margin-top: 16px;
+  font-size: 13px;
+  color: var(--text-muted);
+  text-align: center;
+}
+.login-link-btn {
+  background: none;
+  border: none;
+  color: var(--green-dark);
+  font-family: var(--font-family);
+  font-size: 13px;
+  cursor: pointer;
+  text-decoration: underline;
+  padding: 0;
+}
+.login-link-btn:hover { color: var(--green-primary); }
+.login-back-btn {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-family: var(--font-family);
+  font-size: 13px;
+  cursor: pointer;
+  padding: 0;
+  margin-bottom: 16px;
+  display: block;
+}
+.login-back-btn:hover { color: var(--text-color); }
+
+/* ==========================================================================
+   Dashboard
+   ========================================================================== */
+
+.dashboard-section {
+  background: var(--bg-white);
+  border: 1px solid var(--border-light);
+  border-radius: 8px;
+  padding: 24px;
+  margin-bottom: 24px;
+}
+.dashboard-section h2 {
+  margin-bottom: 16px;
+}
+
+.dashboard-add-form {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+.dashboard-add-btn {
+  padding: 9px 18px;
+  background: var(--green-primary);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.18s;
+}
+.dashboard-add-btn:hover:not(:disabled) { background: var(--green-dark); }
+.dashboard-add-btn:disabled { opacity: 0.55; cursor: not-allowed; }
+
+.dashboard-student-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.dashboard-student-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 16px;
+  background: var(--green-light);
+  border: 1px solid var(--green-border);
+  border-radius: 6px;
+}
+.dashboard-student-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.dashboard-student-code {
+  font-family: monospace;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: var(--green-dark);
+  background: var(--bg-white);
+  border: 1px solid var(--green-border);
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+.dashboard-student-name {
+  font-size: 14px;
+  color: var(--text-muted);
+}
+.dashboard-delete-btn {
+  background: none;
+  border: none;
+  color: #c62828;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: background 0.15s;
+}
+.dashboard-delete-btn:hover { background: #fdecea; }
+
+/* Progress Table */
+.dashboard-progress-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+.dashboard-progress-table th {
+  background: var(--green-light);
+  color: var(--green-dark);
+  font-weight: 600;
+  padding: 8px 12px;
+  border: 1px solid var(--green-border);
+  text-align: center;
+  white-space: nowrap;
+  max-width: 160px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.dashboard-progress-table td {
+  padding: 8px 12px;
+  border: 1px solid var(--border-light);
+  vertical-align: middle;
+}
+.dashboard-table-student {
+  white-space: nowrap;
+}
+.dashboard-score-cell {
+  text-align: center;
+}
+.dashboard-score-badge {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 12px;
+  font-weight: 700;
+  font-size: 13px;
+}
+.dashboard-score-empty {
+  color: var(--text-muted);
+}
+
+.dashboard-back-link {
+  color: var(--green-dark);
+  font-size: 14px;
+  text-decoration: none;
+}
+.dashboard-back-link:hover {
+  color: var(--green-primary);
+  text-decoration: underline;
+}
+
+/* ==========================================================================
+   Admin Dashboard
+   ========================================================================== */
+
+.admin-teacher-card {
+  border-left: 4px solid var(--green-primary);
+}
+
+.admin-teacher-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.admin-teacher-email {
+  font-weight: 700;
+  font-size: 15px;
+  color: var(--green-dark);
+}
+
+.admin-reset-row {
+  margin-bottom: 12px;
+}
+
+.admin-reset-form {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.admin-action-btn {
+  background: var(--green-light);
+  border: 1px solid var(--green-border);
+  color: var(--green-dark);
+  border-radius: 6px;
+  padding: 5px 12px;
+  font-family: var(--font-family);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+  white-space: nowrap;
+}
+.admin-action-btn:hover {
+  background: var(--green-border);
+  border-color: var(--green-primary);
+}
+
+.admin-students-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  border-top: 1px solid var(--border-light);
+  padding-top: 12px;
+  margin-top: 4px;
+}
+
+.admin-student-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 10px;
+  background: var(--bg-body);
+  border-radius: 6px;
+  border: 1px solid var(--border-light);
+}

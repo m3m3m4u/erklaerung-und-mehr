@@ -2,7 +2,7 @@ import AdmZip from 'adm-zip';
 import path from 'path';
 import fs from 'fs/promises';
 import fsSync from 'fs';
-import { applyH5PCompatibilityPatches } from './h5p';
+import { applyH5PCompatibilityPatches, extractLibrariesFromZip } from './h5p';
 import h5pMappingsData from './h5p-mappings.json';
 
 export interface ResolvedH5P {
@@ -108,6 +108,55 @@ export async function resolveH5P(rawQuery: string): Promise<ResolvedH5P> {
   }
 
   if (!relPath) {
+    const directSlug = slugify(query);
+    const directDir = path.join(process.cwd(), 'public', 'h5p-content', directSlug);
+    const directH5PJson = path.join(directDir, 'h5p.json');
+    if (fsSync.existsSync(directH5PJson)) {
+      let title = directSlug.replace(/[_–—\-]+/g, ' ');
+      try {
+        const jsonContent = await fs.readFile(directH5PJson, 'utf8');
+        const meta = JSON.parse(jsonContent);
+        if (meta.title) title = meta.title;
+      } catch {}
+      return {
+        found: true,
+        id: resolvedId,
+        title,
+        slug: directSlug,
+        contentPath: `/h5p-content/${directSlug}`,
+      };
+    }
+
+    // If numeric query, look for matching folder ending in -ID (e.g. /2078 -> ...-2078)
+    if (/^\d+$/.test(query)) {
+      const h5pContentDir = path.join(process.cwd(), 'public', 'h5p-content');
+      if (fsSync.existsSync(h5pContentDir)) {
+        try {
+          const folders = fsSync.readdirSync(h5pContentDir);
+          const matched = folders.find((f) => f === query || f.endsWith(`-${query}`));
+          if (matched) {
+            const dir = path.join(h5pContentDir, matched);
+            const jsonPath = path.join(dir, 'h5p.json');
+            if (fsSync.existsSync(jsonPath)) {
+              let title = matched.replace(/[_–—\-]+/g, ' ');
+              try {
+                const jsonContent = await fs.readFile(jsonPath, 'utf8');
+                const meta = JSON.parse(jsonContent);
+                if (meta.title) title = meta.title;
+              } catch {}
+              return {
+                found: true,
+                id: query,
+                title,
+                slug: matched,
+                contentPath: `/h5p-content/${matched}`,
+              };
+            }
+          }
+        } catch {}
+      }
+    }
+
     return { found: false };
   }
 
@@ -128,6 +177,7 @@ export async function resolveH5P(rawQuery: string): Promise<ResolvedH5P> {
       await fs.mkdir(publicDir, { recursive: true });
       const zip = new AdmZip(fullSourcePath);
       zip.extractAllTo(publicDir, true);
+      await extractLibrariesFromZip(zip);
       await applyH5PCompatibilityPatches(publicDir);
     }
 
