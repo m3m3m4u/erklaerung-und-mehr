@@ -4,6 +4,12 @@ export interface H5PExercise {
   folder: string;
 }
 
+export interface TopicAttachment {
+  title: string;
+  filename: string;
+  exerciseId?: string;
+}
+
 export interface InformatikTopic {
   slug: string;
   title: string;
@@ -13,6 +19,7 @@ export interface InformatikTopic {
   keyPoints: string[];
   exercises: H5PExercise[];
   worksheetLink?: string;
+  attachments?: TopicAttachment[];
 }
 
 export const informatikCategories = [
@@ -860,6 +867,53 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "folder": "textverarbeitungsprogramme-1320"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=word&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=word&t=3752",
+    "attachments": [
+      {
+        "title": "Vorlage: Kopieren, Ausschneiden & Einfügen",
+        "filename": "Vorlage-Uebung-kopieren-Word.docx",
+        "exerciseId": "971"
+      },
+      {
+        "title": "Vorlage: Texte überarbeiten und überprüfen",
+        "filename": "Vorlage-Ueberpruefen-von-Texten.docx",
+        "exerciseId": "972"
+      },
+      {
+        "title": "Übungsdatei: Zeichen formatieren",
+        "filename": "Uebung-Formatierung.docx",
+        "exerciseId": "973"
+      },
+      {
+        "title": "Vorlage: Absätze formatieren",
+        "filename": "Vorlage-Absatzformatierung-Word.docx",
+        "exerciseId": "974"
+      },
+      {
+        "title": "Auftragsblatt: Absatzformatierung",
+        "filename": "Auftrag-Absatzformatierung.docx",
+        "exerciseId": "974"
+      },
+      {
+        "title": "Vorlage: Seiten formatieren",
+        "filename": "Vorlage-Seitenformatierungen-Word.docx",
+        "exerciseId": "975"
+      },
+      {
+        "title": "Lösungsdatei: Seitenformatierungen",
+        "filename": "Loesung-Seitenformatierungen.docx",
+        "exerciseId": "975"
+      },
+      {
+        "title": "Aufgabe: Bilder einfügen",
+        "filename": "Aufgabe-Bilder-einfuegen.docx",
+        "exerciseId": "976"
+      },
+      {
+        "title": "Beispieldatei: Tabellen-Vorlage",
+        "filename": "Beispiel-Tabellen-Vorlage.docx",
+        "exerciseId": "978"
+      }
+    ]
   }
 };

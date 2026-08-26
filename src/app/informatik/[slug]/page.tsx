@@ -100,9 +100,62 @@ export default function InformatikDetailPage({
           )}
         </section>
 
+        {/* Word-Vorlagen & Begleitdateien (.docx) */}
+        {topic.attachments && topic.attachments.length > 0 && (
+          <section className="info-box-section" style={{ marginTop: '32px', background: 'var(--bg-white)', border: '1.5px solid var(--green-primary)' }}>
+            <h3 style={{ marginBottom: 6 }}>Übungsdateien &amp; Vorlagen (.docx) zum Download</h3>
+            <p style={{ color: 'var(--text-muted)', fontSize: 13, marginBottom: 14 }}>
+              Lade dir die passenden Word-Dateien für die praktischen Übungen herunter:
+            </p>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: 10 }}>
+              {topic.attachments.map((att, idx) => (
+                <a
+                  key={idx}
+                  href={`/${att.filename}`}
+                  download={att.filename}
+                  style={{
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'space-between',
+                    gap: 12,
+                    padding: '10px 14px',
+                    background: '#f8fafc',
+                    border: '1px solid var(--border-light)',
+                    borderRadius: 6,
+                    textDecoration: 'none',
+                    transition: 'border-color 0.15s, background 0.15s',
+                  }}
+                >
+                  <div style={{ minWidth: 0, flex: 1 }}>
+                    <div style={{ fontSize: 13, fontWeight: 600, color: 'var(--green-dark)' }}>
+                      {att.title}
+                    </div>
+                    <div style={{ fontSize: 11, color: 'var(--text-muted)', fontFamily: 'monospace', marginTop: 2 }}>
+                      {att.filename}
+                    </div>
+                  </div>
+                  <span
+                    style={{
+                      fontSize: 12,
+                      fontWeight: 600,
+                      color: '#ffffff',
+                      background: 'var(--green-primary)',
+                      padding: '4px 10px',
+                      borderRadius: 4,
+                      whiteSpace: 'nowrap',
+                    }}
+                  >
+                    Download
+                  </span>
+                </a>
+              ))}
+            </div>
+          </section>
+        )}
+
         {/* Worksheets & Eduki Link */}
         {topic.worksheetLink && (
-          <section className="info-box-section" style={{ marginTop: '40px' }}>
+          <section className="info-box-section" style={{ marginTop: '32px' }}>
             <h3>Passende Arbeitsblätter & Kopiervorlagen</h3>
             <p>
               Möchtest du das Thema <strong>{topic.title}</strong> zusätzlich im Unterricht oder zu Hause auf Papier vertiefen? Auf EDUKI findest du passende Arbeitsblätter und Kopiervorlagen zum Download.
