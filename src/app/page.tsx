@@ -144,7 +144,7 @@ export default function Home() {
                     rel="noopener noreferrer"
                     className="button-link"
                   >
-                    Zum Angebot
+                    Mehr erfahren
                   </a>
                 </div>
               </aside>
@@ -225,7 +225,7 @@ export default function Home() {
               </div>
             </section>
 
-            {/* Info-Banner über den Fächern (Weißes Layout) */}
+            {/* Info-Banner über den Fächern (Weißes Layout mit 2-zeiligem Neu-Symbol) */}
             <div
               style={{
                 marginTop: 32,
@@ -236,25 +236,32 @@ export default function Home() {
                 borderRadius: 6,
                 padding: '16px 20px',
                 boxShadow: '0 1px 4px rgba(0, 0, 0, 0.04)',
+                display: 'flex',
+                alignItems: 'center',
+                gap: 16,
               }}
             >
+              <div
+                style={{
+                  background: 'var(--green-primary)',
+                  color: '#ffffff',
+                  fontSize: 14,
+                  fontWeight: 700,
+                  textTransform: 'uppercase',
+                  letterSpacing: '0.8px',
+                  padding: '8px 14px',
+                  borderRadius: 6,
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  alignSelf: 'stretch',
+                  minWidth: 54,
+                  flexShrink: 0,
+                }}
+              >
+                Neu
+              </div>
               <div style={{ fontSize: 14, color: 'var(--text-color)', lineHeight: 1.55 }}>
-                <span
-                  style={{
-                    background: 'var(--green-primary)',
-                    color: '#ffffff',
-                    fontSize: 11,
-                    fontWeight: 700,
-                    textTransform: 'uppercase',
-                    letterSpacing: '0.6px',
-                    padding: '2px 8px',
-                    borderRadius: 4,
-                    marginRight: 10,
-                    display: 'inline-block',
-                  }}
-                >
-                  Neu
-                </span>
                 <strong>Neues Layout &amp; schnellere Ladezeiten:</strong> Lehrpersonen können Ergebnisse von Schülern einfach und datenschutzkonform nachverfolgen sowie Aufgaben den Lernenden zuordnen.
               </div>
             </div>
