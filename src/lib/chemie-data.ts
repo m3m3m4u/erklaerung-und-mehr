@@ -50,11 +50,7 @@ export const chemieTopics: Record<string, ChemieTopic> = {
         "title": "Atombindungen",
         "folder": "atombindungen-282"
       },
-      {
-        "id": "276",
-        "title": "Fest, flüssig und gasförmig",
-        "folder": "fest-flussig-und-gasformig-276"
-      },
+      { id: "276", title: "Wärme und Temperatur", folder: "fest-flussig-und-gasformig-276" },
       {
         "id": "277",
         "title": "Fest, flüssig und gasförmig",
@@ -239,11 +235,7 @@ export const chemieTopics: Record<string, ChemieTopic> = {
         "title": "Die Lichtgeschwindigkeit",
         "folder": "die-lichtgeschwindigkeit-5282"
       },
-      {
-        "id": "5283",
-        "title": "Die Rontgenstrahlung",
-        "folder": "die-rontgenstrahlung-5283"
-      },
+      { id: "5283", title: "Die Röntgenstrahlung", folder: "die-rontgenstrahlung-5283" },
       {
         "id": "5284",
         "title": "Die Sonne",
@@ -276,16 +268,8 @@ export const chemieTopics: Record<string, ChemieTopic> = {
       "Neutralisation: Säure + Base ➔ Salz + Wasser (z. B. \\(\\text{HCl} + \\text{NaOH} \\rightarrow \\text{NaCl} + \\text{H}_2\\text{O}\\))"
     ],
     "exercises": [
-      {
-        "id": "273",
-        "title": "Kraft",
-        "folder": "kraft-273"
-      },
-      {
-        "id": "274",
-        "title": "Arbeit Energie Und Leistung",
-        "folder": "arbeit-energie-und-leistung-274"
-      }
+      { id: "273", title: "Trägheit", folder: "kraft-273" },
+      { id: "274", title: "Kraft", folder: "arbeit-energie-und-leistung-274" }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=chemische+reaktionen&t=3752"
   },

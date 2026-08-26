@@ -36,21 +36,9 @@ export const ethikTopics: Record<string, EthikTopic> = {
       "Moralische Dilemmata: Situationen, in denen zwei moralische Pflichten unauflösbar miteinander in Konflikt stehen"
     ],
     "exercises": [
-      {
-        "id": "2837",
-        "title": "Grundlagen der Ethik – Begriffe und Konzepte",
-        "folder": "grundlagen-der-ethik-2837"
-      },
-      {
-        "id": "2861",
-        "title": "Theorien der Ethik im Vergleich",
-        "folder": "theorien-der-ethik-2861"
-      },
-      {
-        "id": "2838",
-        "title": "Ethische Dilemmata lösen",
-        "folder": "ethische-dilemmata-2838"
-      },
+      { id: "2837", title: "Definition von Ethik und Moral", folder: "definition-von-ethik-und-moral-2837" },
+      { id: "2861", title: "Menschenrechte und ihre Bedeutung", folder: "menschenrechte-und-ihre-bedeutung-2861" },
+      { id: "2838", title: "Die Bedeutung von Empathie", folder: "die-bedeutung-von-empathie-2838" },
       {
         "id": "4459",
         "title": "Tugendethik in der Praxis",
@@ -114,11 +102,7 @@ export const ethikTopics: Record<string, EthikTopic> = {
       "Trauerbewältigung: Die verschiedenen Phasen der Trauer verstehen und Betroffenen beistehen"
     ],
     "exercises": [
-      {
-        "id": "2849",
-        "title": "Medizin und Ethik – Einführung",
-        "folder": "medizin-und-ethik-2849"
-      },
+      { id: "2849", title: "Ethische Fragen in der Medizin", folder: "ethische-fragen-in-der-medizin-2849" },
       {
         "id": "2842",
         "title": "Ethik in der künstlichen Fortpflanzung",
@@ -165,26 +149,14 @@ export const ethikTopics: Record<string, EthikTopic> = {
       "Konsum- & Umweltethik: Verantwortung für die globale Schöpfung, Fair Trade, Lieferkettensorgfalt und Müllvermeidung"
     ],
     "exercises": [
-      {
-        "id": "2836",
-        "title": "Technologie und Ethik im digitalen Zeitalter",
-        "folder": "technologie-und-ethik-2836"
-      },
+      { id: "2836", title: "Automatisierung und Arbeitsplatzverlust", folder: "automatisierung-und-arbeitsplatzverlust-2836" },
       {
         "id": "2860",
         "title": "Medienethik und Fake News",
         "folder": "medienethik-und-fake-news-2860"
       },
-      {
-        "id": "4427",
-        "title": "Medien und digitale Ethik",
-        "folder": "medien-und-digitale-ethik-4427"
-      },
-      {
-        "id": "4452",
-        "title": "Konsum, Wissenschaft und Tierethik",
-        "folder": "konsum-wissenschaft-und-tierethik-4452"
-      },
+      { id: "4427", title: "Die Macht der Bilder in den Medien", folder: "die-macht-der-bilder-in-den-medien-4427" },
+      { id: "4452", title: "Nachhaltiger Konsum und bewusster Konsum", folder: "nachhaltiger-konsum-und-bewusster-konsum-4452" },
       {
         "id": "2841",
         "title": "Ethik im Sport: Doping und Fair Play",
@@ -227,11 +199,7 @@ export const ethikTopics: Record<string, EthikTopic> = {
         "title": "Die Bedeutung von Versöhnung",
         "folder": "die-bedeutung-von-versohnung-4425"
       },
-      {
-        "id": "4464",
-        "title": "Vergebung und Versöhnung",
-        "folder": "vergebung-und-vesohnung-4464"
-      },
+      { id: "4464", title: "Vergebung und Vesöhnung", folder: "vergebung-und-vesohnung-4464" },
       {
         "id": "4455",
         "title": "Schuld und Strafe",
@@ -242,11 +210,7 @@ export const ethikTopics: Record<string, EthikTopic> = {
         "title": "Globale Ungleichheit und Armut",
         "folder": "globale-ungleichheit-und-armut-4439"
       },
-      {
-        "id": "4428",
-        "title": "Die Verantwortung wohlhabender Länder",
-        "folder": "die-verantwortung-der-reichen-lander-4428"
-      },
+      { id: "4428", title: "Die Verantwortung der reichen Länder", folder: "die-verantwortung-der-reichen-lander-4428" },
       {
         "id": "4470",
         "title": "Wege zur Bekämpfung der Armut",

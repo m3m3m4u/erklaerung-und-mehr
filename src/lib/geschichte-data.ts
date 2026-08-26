@@ -313,11 +313,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "title": "Griechenland",
         "folder": "griechenland-1656"
       },
-      {
-        "id": "2436",
-        "title": "Das Kreuz ist eines der bekanntesten Symbole des christlichen Glaubens. Es steht für die Kreuzigung und Auferstehung Jesu Christi. In der Kunst wird es oft als Altarschmuck, in Gemälden oder als Skulptur dargestellt. Verschiedene Formen wie das lateinische Kreuz und das griechische Kreuz haben unterschiedliche Bedeutungen.",
-        "folder": "christliche-kunst-und-symbole-2436"
-      },
+      { id: "2436", title: "Christliche Kunst und Symbole", folder: "christliche-kunst-und-symbole-2436" },
       {
         "id": "2903",
         "title": "Das Königreich Griechenland",
@@ -643,11 +639,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "title": "Die elektromagnetische Induktion",
         "folder": "die-elektromagnetische-induktion-2242"
       },
-      {
-        "id": "2243",
-        "title": "Die elektromagnetische Kraft",
-        "folder": "die-elektromagnetischeh-kraft-2243"
-      },
+      { id: "2243", title: "Die elektromagnetischeh Kraft", folder: "die-elektromagnetischeh-kraft-2243" },
       {
         "id": "2244",
         "title": "Der Gleichstrommotor",
@@ -748,11 +740,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "title": "Literaturepoche Neuromatik",
         "folder": "literaturepoche-neuromatik-2383"
       },
-      {
-        "id": "2435",
-        "title": "Die Konstantinische Wende im Jahr 313 markiert den Übergang des Christentums von einer verfolgten zu einer akzeptierten Religion im Römischen Reich. Der römische Kaiser Konstantin und Kaiser Licinius erließen das Toleranzedikt von Mailand, das die Religionsfreiheit gewährleistete. Dadurch gewann das Christentum an Bedeutung und Einfluss.",
-        "folder": "konzile-und-meilensteine-des-glaubens-2435"
-      },
+      { id: "2435", title: "Konzile und Meilensteine des Glaubens", folder: "konzile-und-meilensteine-des-glaubens-2435" },
       {
         "id": "2497",
         "title": "Wie funktioniert ein Barometer",
@@ -1845,11 +1833,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "title": "Die Gegenreformation",
         "folder": "die-gegenreformation-2334"
       },
-      {
-        "id": "2464",
-        "title": "Der Jesuitenorden erhielt 1540 die offizielle Anerkennung des Papstes. Ignatius wurde der erste Generalobere des Ordens. Die rasche Ausbreitung des Ordens führte zu seiner Beteiligung an der Gegenreformation, einem Versuch, die katholische Kirche zu reformieren und zu stärken.",
-        "folder": "ignatius-von-loyola-2464"
-      },
+      { id: "2464", title: "Ignatius von Loyola", folder: "ignatius-von-loyola-2464" },
       {
         "id": "2891",
         "title": "Aufstieg Österreichs zur Großmacht",
@@ -2380,11 +2364,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "title": "Der deutsche Bund",
         "folder": "arbeitslosigkeit-nach-dem-ersten-weltkrieg-7-3076"
       },
-      {
-        "id": "495",
-        "title": "Das Jahr 1848",
-        "folder": "gewasser-in-sterreich-495"
-      },
+      { id: "495", title: "Gewässer in Österreich", folder: "gewasser-in-sterreich-495" },
       {
         "id": "4956",
         "title": "Das Jahr 1848",
@@ -3240,11 +3220,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "title": "Graf Stauffenberg und das Attentat vom 20. Juli 1944",
         "folder": "graf-stauffenberg-und-das-attentat-3007"
       },
-      {
-        "id": "3322",
-        "title": "Widerstand im Nationalsozialismus",
-        "folder": "widerstand-ns-3322"
-      }
+      { id: "3322", title: "Widerstand NS", folder: "widerstand-ns-3322" }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Widerstand%20im%20Nationalsozialismus+geschichte&t=3752"
   },
@@ -3435,11 +3411,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "title": "Die Berliner Mauer (1961–1989)",
         "folder": "die-berliner-mauer-2940"
       },
-      {
-        "id": "3109",
-        "title": "Der Bau der Berliner Mauer 1961",
-        "folder": "die-heimsuchung-1961-62-bau-der-berliner-mauer-3109"
-      },
+      { id: "3109", title: "Die Heimsuchung - 1961-62 - Bau der Berliner Mauer", folder: "die-heimsuchung-1961-62-bau-der-berliner-mauer-3109" },
       {
         "id": "2979",
         "title": "Die Stasi – Ministerium für Staatssicherheit",
@@ -3460,11 +3432,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "title": "Erich Honecker",
         "folder": "erich-honecker-2998"
       },
-      {
-        "id": "3060",
-        "title": "Schule und Bildung in der DDR",
-        "folder": "schule-in-der-ddr-3060"
-      },
+      { id: "3060", title: "Schule in der DDR", folder: "schule-in-der-ddr-3060" },
       {
         "id": "3092",
         "title": "Das Wirtschaftssystem der DDR (Planwirtschaft)",
@@ -3475,11 +3443,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "title": "Die Gründung der DDR 1949",
         "folder": "die-grundung-der-ddr-3114"
       },
-      {
-        "id": "3128",
-        "title": "Opposition und Bürgerrechtsbewegung in der DDR",
-        "folder": "opposition-und-widerstand-in-der-ddr-3128"
-      },
+      { id: "3128", title: "Opposition und Widerstand in der DDR", folder: "opposition-und-widerstand-in-der-ddr-3128" },
       {
         "id": "3130",
         "title": "Jugend in der DDR",

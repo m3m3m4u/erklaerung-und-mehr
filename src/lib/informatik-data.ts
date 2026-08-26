@@ -162,11 +162,7 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "title": "Das Betriebssystem \"Android\"",
         "folder": "das-betriebssystem-quot-android-quot-1363"
       },
-      {
-        "id": "1959",
-        "title": "Algerien",
-        "folder": "algerien-7-1959"
-      },
+      { id: "1959", title: "MS-DOS", folder: "algerien-7-1959" },
       {
         "id": "463",
         "title": "Betriebssysteme",
@@ -240,11 +236,7 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "title": "Tabellenkalkulationen",
         "folder": "tabellenkalkulationen-1319"
       },
-      {
-        "id": "1305",
-        "title": "Prasentationsprogramme",
-        "folder": "prasentationsprogramme-1305"
-      },
+      { id: "1305", title: "Präsentationsprogramme", folder: "prasentationsprogramme-1305" },
       {
         "id": "1236",
         "title": "Datenbankprogramme",
@@ -272,11 +264,7 @@ export const informatikTopics: Record<string, InformatikTopic> = {
       "Suchmaschinen: Webcrawler durchsuchen das Netz und indexieren Seiten; Suchoperatoren (z. B. Anführungszeichen \"...\") verfeinern Treffer"
     ],
     "exercises": [
-      {
-        "id": "468",
-        "title": "Datentrager",
-        "folder": "datentrager-468"
-      },
+      { id: "468", title: "Datenträger", folder: "datentrager-468" },
       {
         "id": "470",
         "title": "Netzwerke",
@@ -656,11 +644,7 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "title": "Bilder Und Videos Mit Html",
         "folder": "bilder-und-videos-mit-html-3124"
       },
-      {
-        "id": "468",
-        "title": "Datentrager",
-        "folder": "datentrager-468"
-      }
+      { id: "468", title: "Datenträger", folder: "datentrager-468" }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=html&t=896"
   },
@@ -696,11 +680,7 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "title": "Algorithmen Und Programmiersprachen",
         "folder": "algorithmen-und-programmiersprachen-303"
       },
-      {
-        "id": "468",
-        "title": "Datentrager",
-        "folder": "datentrager-468"
-      },
+      { id: "468", title: "Datenträger", folder: "datentrager-468" },
       {
         "id": "470",
         "title": "Netzwerke",
@@ -806,11 +786,7 @@ export const informatikTopics: Record<string, InformatikTopic> = {
       "Tabstopps: Linksbündige, rechtsbündige, zentrierte und Dezimal-Tabstopps für saubere Textausrichtung"
     ],
     "exercises": [
-      {
-        "id": "969",
-        "title": "Ms Word Menus Und Schaltflachen",
-        "folder": "ms-word-menus-und-schaltflachen-969"
-      },
+      { id: "969", title: "MS Word - Menüs und Schaltflächen", folder: "ms-word-menus-und-schaltflachen-969" },
       {
         "id": "970",
         "title": "Ms Word Speichern Rückgängig Machen Markieren",

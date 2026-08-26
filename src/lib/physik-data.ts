@@ -39,11 +39,7 @@ export const physikTopics: Record<string, PhysikTopic> = {
       "Messgenauigkeit & Einheiten: SI-Basiseinheiten (Meter, Kilogramm, Sekunde, Ampere, Kelvin, Mol, Candela)"
     ],
     "exercises": [
-      {
-        "id": "269",
-        "title": "Einfuhrung Und Teilbereiche 2",
-        "folder": "einfuhrung-und-teilbereiche-2-269"
-      },
+      { id: "269", title: "Einführung und Teilbereiche", folder: "einfuhrung-und-teilbereiche-2-269" },
       {
         "id": "280",
         "title": "Aufbau Der Materie",
@@ -77,26 +73,10 @@ export const physikTopics: Record<string, PhysikTopic> = {
       "Archimedisches Prinzip: Der Auftrieb eines Körpers im Wasser entspricht der Gewichtskraft des verdrängten Wassers"
     ],
     "exercises": [
-      {
-        "id": "272",
-        "title": "Tragheit",
-        "folder": "tragheit-272"
-      },
-      {
-        "id": "273",
-        "title": "Kraft",
-        "folder": "kraft-273"
-      },
-      {
-        "id": "274",
-        "title": "Arbeit Energie Und Leistung",
-        "folder": "arbeit-energie-und-leistung-274"
-      },
-      {
-        "id": "275",
-        "title": "Warme Und Temperatur",
-        "folder": "warme-und-temperatur-275"
-      },
+      { id: "272", title: "Geschwindigkeit", folder: "tragheit-272" },
+      { id: "273", title: "Trägheit", folder: "kraft-273" },
+      { id: "274", title: "Kraft", folder: "arbeit-energie-und-leistung-274" },
+      { id: "275", title: "Arbeit, Energie und Leistung", folder: "warme-und-temperatur-275" },
       {
         "id": "278",
         "title": "Druck",
@@ -149,16 +129,8 @@ export const physikTopics: Record<string, PhysikTopic> = {
       "Impulserhaltungssatz: In einem abgeschlossenen System bleibt die Summe aller Impulse konstant (Grundlage des Raketenantriebs)"
     ],
     "exercises": [
-      {
-        "id": "272",
-        "title": "Tragheit",
-        "folder": "tragheit-272"
-      },
-      {
-        "id": "274",
-        "title": "Arbeit Energie Und Leistung",
-        "folder": "arbeit-energie-und-leistung-274"
-      },
+      { id: "272", title: "Geschwindigkeit", folder: "tragheit-272" },
+      { id: "274", title: "Kraft", folder: "arbeit-energie-und-leistung-274" },
       {
         "id": "5271",
         "title": "Der Schwerpunkt",
@@ -186,11 +158,7 @@ export const physikTopics: Record<string, PhysikTopic> = {
       "Wärmekraftmaschinen: 4-Takt-Ottomotor, Dieselmotor und Dampfturbinen wandeln Verbrennungswärme in Bewegung um"
     ],
     "exercises": [
-      {
-        "id": "276",
-        "title": "Fest, flüssig und gasförmig",
-        "folder": "fest-flussig-und-gasformig-276"
-      },
+      { id: "276", title: "Wärme und Temperatur", folder: "fest-flussig-und-gasformig-276" },
       {
         "id": "277",
         "title": "Fest, flüssig und gasförmig",
@@ -243,11 +211,7 @@ export const physikTopics: Record<string, PhysikTopic> = {
       "Lautstärke & Schalldruckpegel: Gemessen in Dezibel (dB); logarithmische Skala (+10 dB entspricht einer Verdopplung der wahrgenommenen Lautstärke)"
     ],
     "exercises": [
-      {
-        "id": "271",
-        "title": "Geschwindigkeit",
-        "folder": "geschwindigkeit-271"
-      }
+      { id: "271", title: "Akustik", folder: "geschwindigkeit-271" }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=akustik&t=3752"
   },
@@ -296,11 +260,7 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "title": "Das Reflexionsgesetz",
         "folder": "das-reflexionsgesetz-2259"
       },
-      {
-        "id": "2260",
-        "title": "Ebene Spiegel Hohlspiegel Und Wolbspiegel",
-        "folder": "ebene-spiegel-hohlspiegel-und-wolbspiegel-2260"
-      },
+      { id: "2260", title: "Ebene Spiegel, Hohlspiegel und Wölbspiegel", folder: "ebene-spiegel-hohlspiegel-und-wolbspiegel-2260" },
       {
         "id": "2261",
         "title": "Die Lupe",
@@ -358,11 +318,7 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "title": "Das Magnetfeld Der Erde",
         "folder": "das-magnetfeld-der-erde-5254"
       },
-      {
-        "id": "5261",
-        "title": "Der Faraday sche Kafig",
-        "folder": "der-faraday-039-sche-kafig-5261"
-      }
+      { id: "5261", title: "Der Faraday'sche Käfig", folder: "der-faraday-039-sche-kafig-5261" }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=magnetismus&t=3752"
   },
@@ -391,11 +347,7 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "title": "Die Elektromagnetische Induktion",
         "folder": "die-elektromagnetische-induktion-2242"
       },
-      {
-        "id": "2243",
-        "title": "Die Elektromagnetische Kraft",
-        "folder": "die-elektromagnetischeh-kraft-2243"
-      },
+      { id: "2243", title: "Die elektromagnetischeh Kraft", folder: "die-elektromagnetischeh-kraft-2243" },
       {
         "id": "2244",
         "title": "Der Gleichstrommotor",
@@ -484,11 +436,7 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "title": "Der Generator",
         "folder": "der-generator-2247"
       },
-      {
-        "id": "5326",
-        "title": "Warmekraftwerke",
-        "folder": "warmekraftwerke-5326"
-      },
+      { id: "5326", title: "Wärmekraftwerke", folder: "warmekraftwerke-5326" },
       {
         "id": "5302",
         "title": "Laufwasserkraftwerke",
@@ -558,16 +506,8 @@ export const physikTopics: Record<string, PhysikTopic> = {
       "Kernfusion: Verschmelzung leichter Kerne (z. B. Wasserstoffisotope Deuterium und Tritium zu Helium) – Energiequelle der Sonne und aller Sterne"
     ],
     "exercises": [
-      {
-        "id": "2267",
-        "title": "Die Entdeckung Der Radioaktivitat",
-        "folder": "die-entdeckung-der-radioaktivitat-2267"
-      },
-      {
-        "id": "2268",
-        "title": "Naturliche Und Kunstliche Radioaktivitat",
-        "folder": "naturliche-und-kunstliche-radioaktivitat-2268"
-      },
+      { id: "2267", title: "Die Entdeckung der Radioaktivität", folder: "die-entdeckung-der-radioaktivitat-2267" },
+      { id: "2268", title: "Natürliche und künstliche Radioaktivität", folder: "naturliche-und-kunstliche-radioaktivitat-2268" },
       {
         "id": "2269",
         "title": "Nachweis Radioaktiver Strahlung",
@@ -578,11 +518,7 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "title": "Radioaktiver Zerfall",
         "folder": "radioaktiver-zerfall-2270"
       },
-      {
-        "id": "2271",
-        "title": "Rontgen",
-        "folder": "rontgen-2271"
-      },
+      { id: "2271", title: "Röntgen", folder: "rontgen-2271" },
       {
         "id": "2272",
         "title": "Strahlentherapie",
@@ -614,11 +550,7 @@ export const physikTopics: Record<string, PhysikTopic> = {
       "Geostationäre Umlaufbahn: Satelliten in ca. 35.786 km Höhe drehen sich synchron mit der Erde und stehen scheinbar fest über einem Punkt"
     ],
     "exercises": [
-      {
-        "id": "2267",
-        "title": "Die Entdeckung Der Radioaktivitat",
-        "folder": "die-entdeckung-der-radioaktivitat-2267"
-      },
+      { id: "2267", title: "Die Entdeckung der Radioaktivität", folder: "die-entdeckung-der-radioaktivitat-2267" },
       {
         "id": "2269",
         "title": "Nachweis Radioaktiver Strahlung",
@@ -682,11 +614,7 @@ export const physikTopics: Record<string, PhysikTopic> = {
       "Ideal zur spielerischen Wiederholung vor Tests oder für Partnerarbeit"
     ],
     "exercises": [
-      {
-        "id": "272",
-        "title": "Tragheit",
-        "folder": "tragheit-272"
-      },
+      { id: "272", title: "Geschwindigkeit", folder: "tragheit-272" },
       {
         "id": "2241",
         "title": "Der Elektromagnet",
@@ -697,11 +625,7 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "title": "Die Ausbreitung Von Licht",
         "folder": "die-ausbreitung-von-licht-2253"
       },
-      {
-        "id": "276",
-        "title": "Fest, flüssig und gasförmig",
-        "folder": "fest-flussig-und-gasformig-276"
-      }
+      { id: "276", title: "Wärme und Temperatur", folder: "fest-flussig-und-gasformig-276" }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=escape+room+physik&t=3752"
   }

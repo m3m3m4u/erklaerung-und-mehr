@@ -235,481 +235,105 @@ export const kunstTopics: Record<string, KunstTopic> = {
       "Bildanalyse: Motive, Bildaufbau, Farbkomposition, Lichtführung und historische Bedeutung"
     ],
     "exercises": [
-      {
-        "id": "4708",
-        "title": "Ekstase der heiligen Teresa (1652)",
-        "folder": "ekstase-der-heiligen-teresa-gian-lorenzo-bernini-1652-4708"
-      },
-      {
-        "id": "4683",
-        "title": "Der Garten der Lüste (1500)",
-        "folder": "der-garten-der-luste-hieronymus-bosch-1500-4683"
-      },
-      {
-        "id": "4750",
-        "title": "Venus und Mars (1480)",
-        "folder": "venus-und-mars-sandro-botticelli-1480-4750"
-      },
-      {
-        "id": "4718",
-        "title": "La Primavera (1482)",
-        "folder": "la-primavera-sandro-botticelli-1482-4718"
-      },
-      {
-        "id": "4699",
-        "title": "Die Geburt der Venus (1486)",
-        "folder": "die-geburt-der-venus-sandro-botticelli-1486-4699"
-      },
-      {
-        "id": "4691",
-        "title": "Der Triumph des Todes (1562)",
-        "folder": "der-triumph-des-todes-pieter-bruegel-der-ltere-1562-4691"
-      },
-      {
-        "id": "4747",
-        "title": "The Card Players (1892)",
-        "folder": "the-card-players-paul-cezanne-1892-4747"
-      },
-      {
-        "id": "4760",
-        "title": "Die großen Badenden (1898)",
-        "folder": "die-groesen-badenden-paul-cezanne-1898-4760"
-      },
+      { id: "4708", title: "Ekstase der heiligen Teresa - Gian Lorenzo Bernini (1652)", folder: "ekstase-der-heiligen-teresa-gian-lorenzo-bernini-1652-4708" },
+      { id: "4683", title: "Der Garten der Lüste - Hieronymus Bosch (1500)", folder: "der-garten-der-luste-hieronymus-bosch-1500-4683" },
+      { id: "4750", title: "Venus und Mars - Sandro Botticelli (1480)", folder: "venus-und-mars-sandro-botticelli-1480-4750" },
+      { id: "4718", title: "La Primavera - Sandro Botticelli (1482)", folder: "la-primavera-sandro-botticelli-1482-4718" },
+      { id: "4699", title: "Die Geburt der Venus - Sandro Botticelli (1486)", folder: "die-geburt-der-venus-sandro-botticelli-1486-4699" },
+      { id: "4691", title: "Der Triumph des Todes - Pieter Bruegel der Ältere (1562)", folder: "der-triumph-des-todes-pieter-bruegel-der-ltere-1562-4691" },
+      { id: "4747", title: "The Card Players - Paul Cézanne (1892)", folder: "the-card-players-paul-cezanne-1892-4747" },
+      { id: "4760", title: "Die großen Badenden - Paul Cézanne (1898)", folder: "die-groesen-badenden-paul-cezanne-1898-4760" },
       {
         "id": "4712",
         "title": "I and the Village",
         "folder": "i-and-the-village-marc-chagall-1911-4712"
       },
-      {
-        "id": "4666",
-        "title": "Anbetung der Könige (1481)",
-        "folder": "anbetung-der-konige-leonardo-da-vinci-1481-4666"
-      },
-      {
-        "id": "4724",
-        "title": "Madonna Litta (1490)",
-        "folder": "madonna-litta-leonardo-da-vinci-1490-4724"
-      },
-      {
-        "id": "4754",
-        "title": "Vitruvianischer Mensch (1490)",
-        "folder": "vitruvianischer-mensch-leonardo-da-vinci-1490-4754"
-      },
-      {
-        "id": "4676",
-        "title": "Das letzte Abendmahl (1498)",
-        "folder": "das-letzte-abendmahl-leonardo-da-vinci-1498-4676"
-      },
-      {
-        "id": "4694",
-        "title": "Die Beständigkeit der Erinnerung (1931)",
-        "folder": "die-bestandigkeit-der-erinnerung-salvador-dali-1931-4694"
-      },
-      {
-        "id": "4686",
-        "title": "Der Schwur der Horatier (1784)",
-        "folder": "der-schwur-der-horatier-jacques-louis-david-1784-4686"
-      },
-      {
-        "id": "4690",
-        "title": "Der Tod des Sokrates (1787)",
-        "folder": "der-tod-des-sokrates-jacques-louis-david-1787-4690"
-      },
-      {
-        "id": "4689",
-        "title": "Der Tod des Marat (1793)",
-        "folder": "der-tod-des-marat-jacques-louis-david-1793-4689"
-      },
-      {
-        "id": "4701",
-        "title": "Die Krönung Napoleons (1807)",
-        "folder": "die-kronung-napoleons-jacques-louis-david-1807-4701"
-      },
-      {
-        "id": "4746",
-        "title": "Tanzende Ballerinnen (1874)",
-        "folder": "tanzende-ballerinnen-edgar-degas-1874-4746"
-      },
-      {
-        "id": "4717",
-        "title": "L’Absinthe (1876)",
-        "folder": "l-absinthe-edgar-degas-1876-4717"
-      },
-      {
-        "id": "4698",
-        "title": "Die Freiheit führt das Volk (1830)",
-        "folder": "die-freiheit-fuhrt-das-volk-eugene-delacroix-1830-4698"
-      },
-      {
-        "id": "4729",
-        "title": "Nude Descending a Staircase, No. 2 (1912)",
-        "folder": "nude-descending-a-staircase-no-2-marcel-duchamp-1912-4729"
-      },
-      {
-        "id": "4709",
-        "title": "Fountain (1917)",
-        "folder": "fountain-marcel-duchamp-1917-4709"
-      },
-      {
-        "id": "4722",
-        "title": "LHOOQ (1919)",
-        "folder": "lhooq-marcel-duchamp-1919-4722"
-      },
-      {
-        "id": "4741",
-        "title": "Selbstbildnis als Künstler (1498)",
-        "folder": "selbstbildnis-als-kunstler-albrecht-durer-1498-4741"
-      },
-      {
-        "id": "4748",
-        "title": "The Swing (1767)",
-        "folder": "the-swing-jean-honore-fragonard-1767-4748"
-      },
-      {
-        "id": "4726",
-        "title": "Mönch am Meer (1808)",
-        "folder": "monch-am-meer-caspar-david-friedrich-1808-4726"
-      },
-      {
-        "id": "4755",
-        "title": "Wanderer über dem Nebelmeer (1818)",
-        "folder": "wanderer-uber-dem-nebelmeer-caspar-david-friedrich-1818-4755"
-      },
-      {
-        "id": "4673",
-        "title": "Das Eismeer (1823)",
-        "folder": "das-eismeer-caspar-david-friedrich-1823-4673"
-      },
-      {
-        "id": "4753",
-        "title": "Vision nach der Predigt (1888)",
-        "folder": "vision-nach-der-predigt-paul-gauguin-1888-4753"
-      },
-      {
-        "id": "4714",
-        "title": "Judith und Holofernes (1612)",
-        "folder": "judith-und-holofernes-artemisia-gentileschi-1612-4714"
-      },
-      {
-        "id": "4674",
-        "title": "Das Floß der Medusa (1819)",
-        "folder": "das-floes-der-medusa-theodore-gericault-1819-4674"
-      },
-      {
-        "id": "4737",
-        "title": "Schlafende Venus (1510)",
-        "folder": "schlafende-venus-giorgione-1510-4737"
-      },
-      {
-        "id": "4679",
-        "title": "Der 3. Mai 1808 (1814)",
-        "folder": "der-3-mai-1808-francisco-goya-1814-4679"
-      },
-      {
-        "id": "4735",
-        "title": "Saturn verschlingt seinen Sohn (1819)",
-        "folder": "saturn-verschlingt-seinen-sohn-francisco-goya-1819-4735"
-      },
-      {
-        "id": "4700",
-        "title": "Die große Welle vor Kanagawa (1831)",
-        "folder": "die-groese-welle-vor-kanagawa-katsushika-hokusai-1831-4700"
-      },
-      {
-        "id": "4706",
-        "title": "Die zwei Fridas (1939)",
-        "folder": "die-zwei-fridas-frida-kahlo-1939-4706"
-      },
-      {
-        "id": "4715",
-        "title": "Komposition VII (1913)",
-        "folder": "komposition-vii-wassily-kandinsky-1913-4715"
-      },
-      {
-        "id": "4716",
-        "title": "Komposition VIII (1923)",
-        "folder": "komposition-viii-wassily-kandinsky-1923-4716"
-      },
-      {
-        "id": "4743",
-        "title": "Selbstbildnis mit Zauberhut (1913)",
-        "folder": "selbstbildnis-mit-zauberhut-ernst-ludwig-kirchner-1913-4743"
-      },
-      {
-        "id": "4684",
-        "title": "Der Kuss (1907)",
-        "folder": "der-kuss-gustav-klimt-1907-4684"
-      },
-      {
-        "id": "4732",
-        "title": "Porträt der Adele Bloch-Bauer I (1907)",
-        "folder": "portrat-der-adele-bloch-bauer-i-gustav-klimt-1907-4732"
-      },
-      {
-        "id": "4719",
-        "title": "La trahison des images (1929)",
-        "folder": "la-trahison-des-images-rene-magritte-1929-4719"
-      },
-      {
-        "id": "4710",
-        "title": "Frühstück im Grünen (1863)",
-        "folder": "fruhstuck-im-grunen-douard-manet-1863-4710"
-      },
-      {
-        "id": "4730",
-        "title": "Olympia (1863)",
-        "folder": "olympia-douard-manet-1863-4730"
-      },
-      {
-        "id": "4681",
-        "title": "Der blaue Reiter (1911)",
-        "folder": "der-blaue-reiter-franz-marc-1911-4681"
-      },
-      {
-        "id": "4671",
-        "title": "Blue Nude (1907)",
-        "folder": "blue-nude-henri-matisse-1907-4671"
-      },
-      {
-        "id": "4688",
-        "title": "Der Tanz(1910)",
-        "folder": "der-tanz-henri-matisse-1910-4688"
-      },
-      {
-        "id": "4731",
-        "title": "Pietà (1499)",
-        "folder": "pieta-michelangelo-1499-4731"
-      },
-      {
-        "id": "4678",
-        "title": "David (1504)",
-        "folder": "david-michelangelo-1504-4678"
-      },
-      {
-        "id": "4697",
-        "title": "Die Erschaffung Adams (1504)",
-        "folder": "die-erschaffung-adams-michelangelo-1512-4697"
-      },
-      {
-        "id": "4757",
-        "title": "Das Jüngste Gericht (1541)",
-        "folder": "das-jungste-gericht-michelangelo-1541-4757"
-      },
-      {
-        "id": "4756",
-        "title": "Ophelia (1851)",
-        "folder": "a-sunday-afternoon-on-the-island-of-la-grande-jatte-georges-seurat-1887-4756"
-      },
-      {
-        "id": "4713",
-        "title": "Impression, Sonnenaufgang (1872)",
-        "folder": "impression-sonnenaufgang-claude-monet-1872-4713"
-      },
-      {
-        "id": "4738",
-        "title": "Seerosen (1906)",
-        "folder": "seerosen-claude-monet-1906-4738"
-      },
-      {
-        "id": "4685",
-        "title": "Der Schrei (1892)",
-        "folder": "der-schrei-edvard-munch-1893-4685"
-      },
-      {
-        "id": "4707",
-        "title": "Diskuswerfer (ca. 450 v. Chr.)",
-        "folder": "diskuswerfer-myron-ca-450-v-chr-4707"
-      },
-      {
-        "id": "4725",
-        "title": "Madonna mit dem langen Hals (1534)",
-        "folder": "madonna-mit-dem-langen-hals-parmigianino-1534-4725"
-      },
-      {
-        "id": "4680",
-        "title": "Der alte Gitarrist (1903)",
-        "folder": "der-alte-gitarrist-pablo-picasso-1903-4680"
-      },
-      {
-        "id": "4758",
-        "title": "Das Mädchen von Avignon (1907)",
-        "folder": "das-madchen-von-avignon-pablo-picasso-1907-4758"
-      },
-      {
-        "id": "4705",
-        "title": "Die weinende Frau (1937)",
-        "folder": "die-weinende-frau-pablo-picasso-1937-4705"
-      },
-      {
-        "id": "4711",
-        "title": "Guernica (1937)",
-        "folder": "guernica-pablo-picasso-1937-4711"
-      },
-      {
-        "id": "4703",
-        "title": "Die Schule von Athen (1511)",
-        "folder": "die-schule-von-athen-raffael-1511-4703"
-      },
-      {
-        "id": "4744",
-        "title": "Sixtinische Madonna (1512)",
-        "folder": "sixtinische-madonna-raffael-1512-4744"
-      },
-      {
-        "id": "4749",
-        "title": "Triumph der Galatea (1512)",
-        "folder": "triumph-der-galatea-raffael-1512-4749"
-      },
-      {
-        "id": "4723",
-        "title": "Madonna della Seggiola (1559)",
-        "folder": "madonna-della-seggiola-raffael-1559-4723"
-      },
-      {
-        "id": "4759",
-        "title": "Die Anatomie des Dr. Tulp (1632)",
-        "folder": "die-anatomie-des-dr-tulp-rembrandt-1633-4759"
-      },
-      {
-        "id": "4702",
-        "title": "Die Nachtwache (1642)",
-        "folder": "die-nachtwache-rembrandt-1642-4702"
-      },
-      {
-        "id": "4739",
-        "title": "Selbstbildnis (1660)",
-        "folder": "selbstbildnis-rembrandt-1660-4739"
-      },
-      {
-        "id": "4669",
-        "title": "Bal du moulin de la Galette (1876)",
-        "folder": "bal-du-moulin-de-la-galette-pierre-auguste-renoir-1876-4669"
-      },
-      {
-        "id": "4695",
-        "title": "Die Bürger von Calais (1889)",
-        "folder": "die-burger-von-calais-auguste-rodin-1889-4695"
-      },
-      {
-        "id": "4682",
-        "title": "Der Denker (1902)",
-        "folder": "der-denker-auguste-rodin-1902-4682"
-      },
-      {
-        "id": "4696",
-        "title": "Die drei Grazien (1635)",
-        "folder": "die-drei-grazien-peter-paul-rubens-1635-4696"
-      },
-      {
-        "id": "4742",
-        "title": "Selbstbildnis mit Strohhut (1912)",
-        "folder": "selbstbildnis-mit-strohhut-egon-schiele-1912-4742"
-      },
-      {
-        "id": "4670",
-        "title": "Bathers at Asnières (1884)",
-        "folder": "bathers-at-asnieres-georges-seurat-1884-4670"
-      },
-      {
-        "id": "4668",
-        "title": "Bacchus und Ariadne (1523)",
-        "folder": "bacchus-und-ariadne-tizian-1523-4668"
-      },
-      {
-        "id": "4752",
-        "title": "Venus von Urbino (1538)",
-        "folder": "venus-von-urbino-tizian-1538-4752"
-      },
-      {
-        "id": "4736",
-        "title": "Schiffbruch (1835)",
-        "folder": "schiffbruch-j-m-w-turner-1835-4736"
-      },
-      {
-        "id": "4675",
-        "title": "Das kämpfende Temeraire (1839)",
-        "folder": "das-kampfende-temeraire-j-m-w-turner-1839-4675"
-      },
-      {
-        "id": "4693",
-        "title": "Die Arnolfini-Hochzeit (1434)",
-        "folder": "die-arnolfini-hochzeit-jan-van-eyck-1434-4693"
-      },
-      {
-        "id": "4672",
-        "title": "Caféterrasse bei Nacht (1888)",
-        "folder": "cafeterrasse-bei-nacht-vincent-van-gogh-1888-4672"
-      },
-      {
-        "id": "4745",
-        "title": "Sternennacht über der Rhône (1888)",
-        "folder": "sternennacht-uber-der-rhone-vincent-van-gogh-1888-4745"
-      },
-      {
-        "id": "4704",
-        "title": "Die Sternennacht (1889)",
-        "folder": "die-sternennacht-vincent-van-gogh-1889-4704"
-      },
-      {
-        "id": "4740",
-        "title": "Selbstbildnis (1889)",
-        "folder": "selbstbildnis-vincent-van-gogh-1889-4740"
-      },
-      {
-        "id": "4727",
-        "title": "Mühle in Auvers (1890)",
-        "folder": "muhle-in-auvers-vincent-van-gogh-1890-4727"
-      },
-      {
-        "id": "4733",
-        "title": "Porträt des Dr. Gachet (1890)",
-        "folder": "portrat-des-dr-gachet-vincent-van-gogh-1890-4733"
-      },
-      {
-        "id": "4721",
-        "title": "Las Meninas (1656)",
-        "folder": "las-meninas-diego-velazquez-1656-4721"
-      },
-      {
-        "id": "4667",
-        "title": "Ansicht von Delft (1660)",
-        "folder": "ansicht-von-delft-johannes-vermeer-1660-4667"
-      },
-      {
-        "id": "4677",
-        "title": "Das Mädchen mit dem Perlenohrring (1665)",
-        "folder": "das-madchen-mit-dem-perlenohrring-johannes-vermeer-1665-4677"
-      },
-      {
-        "id": "4665",
-        "title": "Amerikanische Gotik (1930)",
-        "folder": "amerikanische-gotik-grant-wood-1930-4665"
-      },
-      {
-        "id": "4751",
-        "title": "Venus von Milo (100 v. Chr.)",
-        "folder": "venus-von-milo-unbekannter-kunstler-100-v-chr-4751"
-      },
-      {
-        "id": "4734",
-        "title": "Reiterstandbild des Marcus Aurelius (175)",
-        "folder": "reiterstandbild-des-marcus-aurelius-unbekannter-kunstler-175-4734"
-      },
-      {
-        "id": "4720",
-        "title": "Laokoon und seine Söhne (60)",
-        "folder": "laokoon-und-seine-sohne-unbekannter-kunstler-60-4720"
-      },
-      {
-        "id": "4728",
-        "title": "Nike von Samothrake (ca. 190 v. Chr.)",
-        "folder": "nike-von-samothrake-unbekannter-kunstler-ca-190-v-chr-4728"
-      },
-      {
-        "id": "4687",
-        "title": "Der sterbende Gallier (ca. 230 v. Chr.)",
-        "folder": "der-sterbende-gallier-unbekannter-kunstler-ca-230-v-chr-4687"
-      }
+      { id: "4666", title: "Anbetung der Könige - Leonardo da Vinci (1481)", folder: "anbetung-der-konige-leonardo-da-vinci-1481-4666" },
+      { id: "4724", title: "Madonna Litta - Leonardo da Vinci (1490)", folder: "madonna-litta-leonardo-da-vinci-1490-4724" },
+      { id: "4754", title: "Vitruvianischer Mensch - Leonardo da Vinci (1490)", folder: "vitruvianischer-mensch-leonardo-da-vinci-1490-4754" },
+      { id: "4676", title: "Das letzte Abendmahl - Leonardo da Vinci (1498)", folder: "das-letzte-abendmahl-leonardo-da-vinci-1498-4676" },
+      { id: "4694", title: "Die Beständigkeit der Erinnerung - Salvador Dalí (1931)", folder: "die-bestandigkeit-der-erinnerung-salvador-dali-1931-4694" },
+      { id: "4686", title: "Der Schwur der Horatier - Jacques-Louis David (1784)", folder: "der-schwur-der-horatier-jacques-louis-david-1784-4686" },
+      { id: "4690", title: "Der Tod des Sokrates - Jacques-Louis David (1787)", folder: "der-tod-des-sokrates-jacques-louis-david-1787-4690" },
+      { id: "4689", title: "Der Tod des Marat - Jacques-Louis David (1793)", folder: "der-tod-des-marat-jacques-louis-david-1793-4689" },
+      { id: "4701", title: "Die Krönung Napoleons - Jacques-Louis David (1807)", folder: "die-kronung-napoleons-jacques-louis-david-1807-4701" },
+      { id: "4746", title: "Tanzende Ballerinnen - Edgar Degas (1874)", folder: "tanzende-ballerinnen-edgar-degas-1874-4746" },
+      { id: "4717", title: "L’Absinthe - Edgar Degas (1876)", folder: "l-absinthe-edgar-degas-1876-4717" },
+      { id: "4698", title: "Die Freiheit führt das Volk - Eugène Delacroix (1830)", folder: "die-freiheit-fuhrt-das-volk-eugene-delacroix-1830-4698" },
+      { id: "4729", title: "Nude Descending a Staircase, No. 2 - Marcel Duchamp (1912)", folder: "nude-descending-a-staircase-no-2-marcel-duchamp-1912-4729" },
+      { id: "4709", title: "Fountain - Marcel Duchamp (1917)", folder: "fountain-marcel-duchamp-1917-4709" },
+      { id: "4722", title: "LHOOQ - Marcel Duchamp (1919)", folder: "lhooq-marcel-duchamp-1919-4722" },
+      { id: "4741", title: "Selbstbildnis als Künstler - Albrecht Dürer (1498)", folder: "selbstbildnis-als-kunstler-albrecht-durer-1498-4741" },
+      { id: "4748", title: "The Swing - Jean-Honoré Fragonard (1767)", folder: "the-swing-jean-honore-fragonard-1767-4748" },
+      { id: "4726", title: "Mönch am Meer - Caspar David Friedrich (1808)", folder: "monch-am-meer-caspar-david-friedrich-1808-4726" },
+      { id: "4755", title: "Wanderer über dem Nebelmeer - Caspar David Friedrich (1818)", folder: "wanderer-uber-dem-nebelmeer-caspar-david-friedrich-1818-4755" },
+      { id: "4673", title: "Das Eismeer - Caspar David Friedrich (1823)", folder: "das-eismeer-caspar-david-friedrich-1823-4673" },
+      { id: "4753", title: "Vision nach der Predigt - Paul Gauguin (1888)", folder: "vision-nach-der-predigt-paul-gauguin-1888-4753" },
+      { id: "4714", title: "Judith und Holofernes - Artemisia Gentileschi (1612)", folder: "judith-und-holofernes-artemisia-gentileschi-1612-4714" },
+      { id: "4674", title: "Das Floß der Medusa - Théodore Géricault (1819)", folder: "das-floes-der-medusa-theodore-gericault-1819-4674" },
+      { id: "4737", title: "Schlafende Venus - Giorgione (1510)", folder: "schlafende-venus-giorgione-1510-4737" },
+      { id: "4679", title: "Der 3. Mai 1808 - Francisco Goya (1814)", folder: "der-3-mai-1808-francisco-goya-1814-4679" },
+      { id: "4735", title: "Saturn verschlingt seinen Sohn - Francisco Goya (1819)", folder: "saturn-verschlingt-seinen-sohn-francisco-goya-1819-4735" },
+      { id: "4700", title: "Die große Welle vor Kanagawa - Katsushika Hokusai (1831)", folder: "die-groese-welle-vor-kanagawa-katsushika-hokusai-1831-4700" },
+      { id: "4706", title: "Die zwei Fridas - Frida Kahlo (1939)", folder: "die-zwei-fridas-frida-kahlo-1939-4706" },
+      { id: "4715", title: "Komposition VII - Wassily Kandinsky (1913)", folder: "komposition-vii-wassily-kandinsky-1913-4715" },
+      { id: "4716", title: "Komposition VIII - Wassily Kandinsky (1923)", folder: "komposition-viii-wassily-kandinsky-1923-4716" },
+      { id: "4743", title: "Selbstbildnis mit Zauberhut - Ernst Ludwig Kirchner (1913)", folder: "selbstbildnis-mit-zauberhut-ernst-ludwig-kirchner-1913-4743" },
+      { id: "4684", title: "Der Kuss - Gustav Klimt (1907)", folder: "der-kuss-gustav-klimt-1907-4684" },
+      { id: "4732", title: "Porträt der Adele Bloch-Bauer I - Gustav Klimt (1907)", folder: "portrat-der-adele-bloch-bauer-i-gustav-klimt-1907-4732" },
+      { id: "4719", title: "La trahison des images - René Magritte (1929)", folder: "la-trahison-des-images-rene-magritte-1929-4719" },
+      { id: "4710", title: "Frühstück im Grünen - Édouard Manet (1863)", folder: "fruhstuck-im-grunen-douard-manet-1863-4710" },
+      { id: "4730", title: "Olympia - Édouard Manet (1863)", folder: "olympia-douard-manet-1863-4730" },
+      { id: "4681", title: "Der Blaue Reiter - Franz Marc (1911)", folder: "der-blaue-reiter-franz-marc-1911-4681" },
+      { id: "4671", title: "Blue Nude - Henri Matisse (1907)", folder: "blue-nude-henri-matisse-1907-4671" },
+      { id: "4688", title: "Der Tanz - Henri Matisse (1910)", folder: "der-tanz-henri-matisse-1910-4688" },
+      { id: "4731", title: "Pietà - Michelangelo (1499)", folder: "pieta-michelangelo-1499-4731" },
+      { id: "4678", title: "David - Michelangelo (1504)", folder: "david-michelangelo-1504-4678" },
+      { id: "4697", title: "Die Erschaffung Adams - Michelangelo (1512)", folder: "die-erschaffung-adams-michelangelo-1512-4697" },
+      { id: "4757", title: "Das Jüngste Gericht - Michelangelo (1541)", folder: "das-jungste-gericht-michelangelo-1541-4757" },
+      { id: "4756", title: "Ophelia - John Everett Millais (1851)", folder: "a-sunday-afternoon-on-the-island-of-la-grande-jatte-georges-seurat-1887-4756" },
+      { id: "4713", title: "Impression, Sonnenaufgang - Claude Monet (1872)", folder: "impression-sonnenaufgang-claude-monet-1872-4713" },
+      { id: "4738", title: "Seerosen - Claude Monet (1906)", folder: "seerosen-claude-monet-1906-4738" },
+      { id: "4685", title: "Der Schrei - Edvard Munch (1893)", folder: "der-schrei-edvard-munch-1893-4685" },
+      { id: "4707", title: "Diskuswerfer - Myron (ca. 450 v. Chr.)", folder: "diskuswerfer-myron-ca-450-v-chr-4707" },
+      { id: "4725", title: "Madonna mit dem langen Hals - Parmigianino (1534)", folder: "madonna-mit-dem-langen-hals-parmigianino-1534-4725" },
+      { id: "4680", title: "Der alte Gitarrist - Pablo Picasso (1903)", folder: "der-alte-gitarrist-pablo-picasso-1903-4680" },
+      { id: "4758", title: "Das Mädchen von Avignon - Pablo Picasso (1907)", folder: "das-madchen-von-avignon-pablo-picasso-1907-4758" },
+      { id: "4705", title: "Die weinende Frau - Pablo Picasso (1937)", folder: "die-weinende-frau-pablo-picasso-1937-4705" },
+      { id: "4711", title: "Guernica - Pablo Picasso (1937)", folder: "guernica-pablo-picasso-1937-4711" },
+      { id: "4703", title: "Die Schule von Athen - Raffael (1511)", folder: "die-schule-von-athen-raffael-1511-4703" },
+      { id: "4744", title: "Sixtinische Madonna - Raffael (1512)", folder: "sixtinische-madonna-raffael-1512-4744" },
+      { id: "4749", title: "Triumph der Galatea - Raffael (1512)", folder: "triumph-der-galatea-raffael-1512-4749" },
+      { id: "4723", title: "Madonna della Seggiola - Raffael (1559)", folder: "madonna-della-seggiola-raffael-1559-4723" },
+      { id: "4759", title: "Die Anatomie des Dr. Tulp - Rembrandt (1632)", folder: "die-anatomie-des-dr-tulp-rembrandt-1633-4759" },
+      { id: "4702", title: "Die Nachtwache - Rembrandt (1642)", folder: "die-nachtwache-rembrandt-1642-4702" },
+      { id: "4739", title: "Selbstbildnis - Rembrandt (1660)", folder: "selbstbildnis-rembrandt-1660-4739" },
+      { id: "4669", title: "Bal du moulin de la Galette - Pierre-Auguste Renoir (1876)", folder: "bal-du-moulin-de-la-galette-pierre-auguste-renoir-1876-4669" },
+      { id: "4695", title: "Die Bürger von Calais - Auguste Rodin (1889)", folder: "die-burger-von-calais-auguste-rodin-1889-4695" },
+      { id: "4682", title: "Der Denker - Auguste Rodin (1902)", folder: "der-denker-auguste-rodin-1902-4682" },
+      { id: "4696", title: "Die drei Grazien - Peter Paul Rubens (1635)", folder: "die-drei-grazien-peter-paul-rubens-1635-4696" },
+      { id: "4742", title: "Selbstbildnis mit Strohhut - Egon Schiele (1912)", folder: "selbstbildnis-mit-strohhut-egon-schiele-1912-4742" },
+      { id: "4670", title: "Bathers at Asnières - Georges Seurat (1884)", folder: "bathers-at-asnieres-georges-seurat-1884-4670" },
+      { id: "4668", title: "Bacchus und Ariadne - Tizian (1523)", folder: "bacchus-und-ariadne-tizian-1523-4668" },
+      { id: "4752", title: "Venus von Urbino - Tizian (1538)", folder: "venus-von-urbino-tizian-1538-4752" },
+      { id: "4736", title: "Schiffbruch - J.M.W. Turner (1835)", folder: "schiffbruch-j-m-w-turner-1835-4736" },
+      { id: "4675", title: "Das kämpfende Temeraire - J.M.W. Turner (1839)", folder: "das-kampfende-temeraire-j-m-w-turner-1839-4675" },
+      { id: "4693", title: "Die Arnolfini-Hochzeit - Jan van Eyck (1434)", folder: "die-arnolfini-hochzeit-jan-van-eyck-1434-4693" },
+      { id: "4672", title: "Caféterrasse bei Nacht - Vincent van Gogh (1888)", folder: "cafeterrasse-bei-nacht-vincent-van-gogh-1888-4672" },
+      { id: "4745", title: "Sternennacht über der Rhône - Vincent van Gogh (1888)", folder: "sternennacht-uber-der-rhone-vincent-van-gogh-1888-4745" },
+      { id: "4704", title: "Die Sternennacht - Vincent van Gogh (1889)", folder: "die-sternennacht-vincent-van-gogh-1889-4704" },
+      { id: "4740", title: "Selbstbildnis - Vincent van Gogh (1889)", folder: "selbstbildnis-vincent-van-gogh-1889-4740" },
+      { id: "4727", title: "Mühle in Auvers - Vincent van Gogh (1890)", folder: "muhle-in-auvers-vincent-van-gogh-1890-4727" },
+      { id: "4733", title: "Porträt des Dr. Gachet - Vincent van Gogh (1890)", folder: "portrat-des-dr-gachet-vincent-van-gogh-1890-4733" },
+      { id: "4721", title: "Las Meninas - Diego Velázquez (1656)", folder: "las-meninas-diego-velazquez-1656-4721" },
+      { id: "4667", title: "Ansicht von Delft - Johannes Vermeer (1660)", folder: "ansicht-von-delft-johannes-vermeer-1660-4667" },
+      { id: "4677", title: "Das Mädchen mit dem Perlenohrring - Johannes Vermeer (1665)", folder: "das-madchen-mit-dem-perlenohrring-johannes-vermeer-1665-4677" },
+      { id: "4665", title: "Amerikanische Gotik - Grant Wood (1930)", folder: "amerikanische-gotik-grant-wood-1930-4665" },
+      { id: "4751", title: "Venus von Milo - Unbekannter Künstler (100 v. Chr.)", folder: "venus-von-milo-unbekannter-kunstler-100-v-chr-4751" },
+      { id: "4734", title: "Reiterstandbild des Marcus Aurelius - Unbekannter Künstler (175)", folder: "reiterstandbild-des-marcus-aurelius-unbekannter-kunstler-175-4734" },
+      { id: "4720", title: "Laokoon und seine Söhne - Unbekannter Künstler (60)", folder: "laokoon-und-seine-sohne-unbekannter-kunstler-60-4720" },
+      { id: "4728", title: "Nike von Samothrake - Unbekannter Künstler (ca. 190 v. Chr.)", folder: "nike-von-samothrake-unbekannter-kunstler-ca-190-v-chr-4728" },
+      { id: "4687", title: "Der sterbende Gallier - Unbekannter Künstler (ca. 230 v. Chr.)", folder: "der-sterbende-gallier-unbekannter-kunstler-ca-230-v-chr-4687" }
     ]
   },
   "die-epochen-der-kunst": {
@@ -746,11 +370,7 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "title": "Klassizismus",
         "folder": "die-kunstepoche-klassizismus-4774"
       },
-      {
-        "id": "4786",
-        "title": "Romatik",
-        "folder": "die-kunstepoche-romantik-4786"
-      },
+      { id: "4786", title: "Die Kunstepoche Romantik", folder: "die-kunstepoche-romantik-4786" },
       {
         "id": "4783",
         "title": "Realismus",

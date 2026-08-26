@@ -36,36 +36,12 @@ export const religionTopics: Record<string, ReligionTopic> = {
       "Gemeinsamkeiten: Die 'Goldene Regel' des respektvollen Umgangs miteinander findet sich in allen Weltreligionen"
     ],
     "exercises": [
-      {
-        "id": "818",
-        "title": "Judentum – Grundlagen und Traditionen",
-        "folder": "judentum-818"
-      },
-      {
-        "id": "819",
-        "title": "Christentum – Entstehung und Botschaft",
-        "folder": "christentum-819"
-      },
-      {
-        "id": "820",
-        "title": "Islam – Glaube und Praxis",
-        "folder": "islam-820"
-      },
-      {
-        "id": "821",
-        "title": "Buddhismus – Der Weg der Erleuchtung",
-        "folder": "buddhismus-821"
-      },
-      {
-        "id": "822",
-        "title": "Hinduismus – Vielfalt und Götterwelt",
-        "folder": "hinduismus-822"
-      },
-      {
-        "id": "5515",
-        "title": "Religionen und ihre weltweite Verteilung",
-        "folder": "religion-und-ihre-geographische-verteilung-konflikte-und-verstandigung-5515"
-      }
+      { id: "818", title: "Das Christentum", folder: "das-christentum-818" },
+      { id: "819", title: "Das Judentum", folder: "das-judentum-819" },
+      { id: "820", title: "Der Hinduismus", folder: "der-hinduismus-820" },
+      { id: "821", title: "Der Islam", folder: "der-islam-821" },
+      { id: "822", title: "Der Buddhismus", folder: "der-buddhismus-822" },
+      { id: "5515", title: "Religion und ihre geographische Verteilung - Konflikte und Verständigung", folder: "religion-und-ihre-geographische-verteilung-konflikte-und-verstandigung-5515" }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Weltreligionen+Religion&t=3752"
   },
@@ -82,31 +58,11 @@ export const religionTopics: Record<string, ReligionTopic> = {
       "Bibelübersetzungen: Martin Luthers Übersetzung ins Deutsche (1522/1534) prägte Sprache und Bildung nachhaltig"
     ],
     "exercises": [
-      {
-        "id": "2392",
-        "title": "Die Bibel – Aufbau und Entstehung (Teil 1)",
-        "folder": "die-bibel-2392"
-      },
-      {
-        "id": "2393",
-        "title": "Die Bibel – Altes Testament (Teil 2)",
-        "folder": "die-bibel-2-2393"
-      },
-      {
-        "id": "2394",
-        "title": "Die Bibel – Neues Testament und Evangelien (Teil 3)",
-        "folder": "die-bibel-3-2394"
-      },
-      {
-        "id": "2395",
-        "title": "Die Bibel – Gleichnisse und Botschaften (Teil 4)",
-        "folder": "die-bibel-4-2395"
-      },
-      {
-        "id": "2396",
-        "title": "Die Bibel – Vertiefung und Reflexion (Teil 5)",
-        "folder": "die-bibel-5-2396"
-      }
+      { id: "2392", title: "Die Bibel entdecken - Aufbau und Struktur", folder: "die-bibel-entdecken-aufbau-und-struktur-2392" },
+      { id: "2393", title: "Die Vielfalt der Bibel", folder: "die-vielfalt-der-bibel-2393" },
+      { id: "2394", title: "Die Weisheit der Sprüche und Psalmen", folder: "die-weisheit-der-spruche-und-psalmen-2394" },
+      { id: "2395", title: "Biblische Geschichten - Schlüsselereignisse im Alten Testament", folder: "biblische-geschichten-schlusselereignisse-im-alten-testament-2395" },
+      { id: "2396", title: "Die Propheten des Alten Testaments", folder: "die-propheten-des-alten-testaments-2396" }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Bibel+Altes+Neues+Testament&t=3752"
   },
@@ -123,31 +79,11 @@ export const religionTopics: Record<string, ReligionTopic> = {
       "Jenseitsvorstellungen im Vergleich: Himmel, Auferstehung der Toten (Christentum/Islam) vs. Reinkarnation/Wiedergeburt (Hinduismus/Buddhismus)"
     ],
     "exercises": [
-      {
-        "id": "2419",
-        "title": "Tod und Auferstehung – Grundlagen (Teil 1)",
-        "folder": "tod-und-auferstehung-2419"
-      },
-      {
-        "id": "2420",
-        "title": "Tod und Auferstehung – Karwoche und Ostern (Teil 2)",
-        "folder": "tod-und-auferstehung-2-2420"
-      },
-      {
-        "id": "2421",
-        "title": "Tod und Auferstehung – Rituale und Begräbnis (Teil 3)",
-        "folder": "tod-und-auferstehung-3-2421"
-      },
-      {
-        "id": "2422",
-        "title": "Tod und Auferstehung – Hoffnung und Glaube (Teil 4)",
-        "folder": "tod-und-auferstehung-4-2422"
-      },
-      {
-        "id": "2423",
-        "title": "Tod und Auferstehung – Vertiefung (Teil 5)",
-        "folder": "tod-und-auferstehung-5-2423"
-      }
+      { id: "2419", title: "Jesu letzte Tage auf Erden - Das letzte Abendmahl und die Verhaftung", folder: "jesu-letzte-tage-auf-erden-das-letzte-abendmahl-und-die-verhaftung-2419" },
+      { id: "2420", title: "Kreuzigung und Passion - Das Opfer aus Liebe", folder: "kreuzigung-und-passion-das-opfer-aus-liebe-2420" },
+      { id: "2421", title: "Der Kreuzweg - Jesu Opfer für die Menschheit", folder: "der-kreuzweg-jesu-opfer-fur-die-menschheit-2421" },
+      { id: "2422", title: "Auferstehung und Himmelfahrt - Überwindung des Todes", folder: "auferstehung-und-himmelfahrt-berwindung-des-todes-2422" },
+      { id: "2423", title: "Der Glaube als Quelle von Trost und Hoffnung", folder: "der-glaube-als-quelle-von-trost-und-hoffnung-2423" }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Auferstehung+Ostern+Tod+Trauer&t=3752"
   },
@@ -165,36 +101,16 @@ export const religionTopics: Record<string, ReligionTopic> = {
       "Interreligiöser Dialog: Respektvoller Austausch zwischen Angehörigen verschiedener Religionen zur Förderung des Friedens"
     ],
     "exercises": [
-      {
-        "id": "2451",
-        "title": "Religion im Alltag – Gebet und Gemeinschaft (Teil 1)",
-        "folder": "religion-im-alltag-2451"
-      },
-      {
-        "id": "2452",
-        "title": "Religion im Alltag – Sakramente und Feste (Teil 2)",
-        "folder": "religion-im-alltag-2-2452"
-      },
-      {
-        "id": "2453",
-        "title": "Religion im Alltag – Kirche und Engagement (Teil 3)",
-        "folder": "religion-im-alltag-3-2453"
-      },
+      { id: "2451", title: "Nächstenliebe in der Praxis", folder: "nachstenliebe-in-der-praxis-2451" },
+      { id: "2452", title: "Glaube im Alltag - Die Bedeutung von Religion", folder: "glaube-im-alltag-die-bedeutung-von-religion-2452" },
+      { id: "2453", title: "Glaube im Alltag", folder: "glaube-im-alltag-2453" },
       {
         "id": "2454",
         "title": "Glaube und Ethik im Berufsleben",
         "folder": "glaube-und-ethik-im-berufsleben-2454"
       },
-      {
-        "id": "2455",
-        "title": "Religion im Alltag – Zusammenleben und Werte (Teil 5)",
-        "folder": "religion-im-alltag-5-2455"
-      },
-      {
-        "id": "3514",
-        "title": "Kirche und Religion in Deutschland",
-        "folder": "kirche-und-religion-in-deutschland-3514"
-      }
+      { id: "2455", title: "Religion in der modernen Welt", folder: "religion-in-der-modernen-welt-2455" },
+      { id: "3514", title: "Die katholische Kirche in Deutschland", folder: "die-katholische-kirche-in-deutschland-3514" }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Religion+Alltag+Kirche&t=3752"
   }

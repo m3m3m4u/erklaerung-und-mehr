@@ -60,11 +60,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "title": "Granit Und Gneishochland",
         "folder": "granit-und-gneishochland-491"
       },
-      {
-        "id": "492",
-        "title": "Vorland Im Osten Und Sudosten",
-        "folder": "vorland-im-osten-und-sudosten-492"
-      },
+      { id: "492", title: "Vorland im Osten und Südosten", folder: "vorland-im-osten-und-sudosten-492" },
       {
         "id": "493",
         "title": "Gebirge In Österreich",
@@ -90,11 +86,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "title": "Bevölkerung Österreichs",
         "folder": "bevolkerung-sterreichs-2-499"
       },
-      {
-        "id": "1199",
-        "title": "Test",
-        "folder": "test-5-1199"
-      },
+      { id: "1199", title: "Nationalparks in Österreich", folder: "test-5-1199" },
       {
         "id": "2061",
         "title": "Bevölkerungsentwicklung In Österreich",
@@ -105,11 +97,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "title": "Österreich Als Transitland",
         "folder": "sterreich-als-transitland-2062"
       },
-      {
-        "id": "2063",
-        "title": "Industrieraume In Sterreihch",
-        "folder": "industrieraume-in-sterreihch-2063"
-      }
+      { id: "2063", title: "Industrieräume in Österreihch", folder: "industrieraume-in-sterreihch-2063" }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=geographie+oesterreich&t=3752"
   },
@@ -145,11 +133,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "title": "Bevölkerungsentwicklung In Deutschland",
         "folder": "bevolkerungsentwicklung-in-deutschland-2059"
       },
-      {
-        "id": "2060",
-        "title": "Industrieraume In Deutschland",
-        "folder": "industrieraume-in-deutschland-2060"
-      }
+      { id: "2060", title: "Industrieräume in Deutschland", folder: "industrieraume-in-deutschland-2060" }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=geographie+deutschland&t=3752"
   },
@@ -316,11 +300,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "title": "Bulgarien",
         "folder": "bulgarien-1585"
       },
-      {
-        "id": "1127",
-        "title": "Danemark",
-        "folder": "danemark-2-1127"
-      },
+      { id: "1127", title: "Dänemark", folder: "danemark-2-1127" },
       {
         "id": "1609",
         "title": "Deutschland",
@@ -431,11 +411,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "title": "Portugal",
         "folder": "portugal-1969"
       },
-      {
-        "id": "1955",
-        "title": "Algerien",
-        "folder": "algerien-3-1955"
-      },
+      { id: "1955", title: "Rumänien", folder: "algerien-3-1955" },
       {
         "id": "1937",
         "title": "Weißrussland",
@@ -461,11 +437,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "title": "Serbien",
         "folder": "serbien-1860"
       },
-      {
-        "id": "1963",
-        "title": "Test",
-        "folder": "test-8-1963"
-      },
+      { id: "1963", title: "Slowakei", folder: "test-8-1963" },
       {
         "id": "1869",
         "title": "Slowenien",
@@ -642,11 +614,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "title": "Savanne",
         "folder": "savanne-2032"
       },
-      {
-        "id": "2033",
-        "title": "Kaltewusten",
-        "folder": "kaltewusten-2033"
-      },
+      { id: "2033", title: "Kältewüsten", folder: "kaltewusten-2033" },
       {
         "id": "2034",
         "title": "Die Oase",
@@ -683,11 +651,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "title": "Sambia",
         "folder": "sambia-1844"
       },
-      {
-        "id": "1976",
-        "title": "Sao Tome Und Principe",
-        "folder": "sao-tome-und-principe-1976"
-      },
+      { id: "1976", title: "São Tomé und Príncipe", folder: "sao-tome-und-principe-1976" },
       {
         "id": "1859",
         "title": "Senegal",
@@ -735,7 +699,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "1540",
-        "title": "Quatorialguinea",
+        "title": "Äquatorialguinea",
         "folder": "quatorialguinea-1540"
       },
       {
@@ -753,11 +717,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "title": "Burundi",
         "folder": "burundi-1589"
       },
-      {
-        "id": "1971",
-        "title": "Cote D ' Ivoire Elfenbeinkuste",
-        "folder": "cote-d-039-ivoire-elfenbeinkuste-1971"
-      },
+      { id: "1971", title: "Côte d'Ivoire (Elfenbeinküste)", folder: "cote-d-039-ivoire-elfenbeinkuste-1971" },
       {
         "id": "1613",
         "title": "Dschibuti",

@@ -38,21 +38,13 @@ export const musikTopics: Record<string, MusikTopic> = {
       "Schlagzeugnotation: Rhythmische Notierung für Bassdrum, Snare, Hi-Hat, Tom-Toms und Becken"
     ],
     "exercises": [
-      {
-        "id": "239",
-        "title": "Tonhöhe und Notennamen im Violinschlüssel",
-        "folder": "bungen-und-erklarvideo-zu-tonhohe-und-notennamen-239"
-      },
+      { id: "239", title: "Übungen und Erklärvideo zu Tonhöhe und Notennamen", folder: "bungen-und-erklarvideo-zu-tonhohe-und-notennamen-239" },
       {
         "id": "253",
         "title": "Notenwerte und Pausen",
         "folder": "notenwerte-und-pausen-2-253"
       },
-      {
-        "id": "254",
-        "title": "Vorzeichen und Halbtöne",
-        "folder": "vorzeichen-halbtone-erklarung-und-bungen-254"
-      },
+      { id: "254", title: "Vorzeichen (Halbtöne) - Erklärung und Übungen", folder: "vorzeichen-halbtone-erklarung-und-bungen-254" },
       {
         "id": "255",
         "title": "Die Töne am Klavier (Klaviatur)",
@@ -63,11 +55,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "title": "Der Bassschlüssel",
         "folder": "der-bassschlussel-343"
       },
-      {
-        "id": "342",
-        "title": "Das Schlagzeug und die Schlagzeugnotation",
-        "folder": "das-schlagzeug-die-schlagzeugnotation-342"
-      }
+      { id: "342", title: "Das Schlagzeug / die Schlagzeugnotation", folder: "das-schlagzeug-die-schlagzeugnotation-342" }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Noten+lesen+Musiktheorie&t=1251"
   },
@@ -375,11 +363,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "title": "Ludwig van Beethoven – Leben und Schaffen",
         "folder": "ludwig-van-beethoven-2-753"
       },
-      {
-        "id": "756",
-        "title": "Joseph Haydn – Vater der Klassik",
-        "folder": "josef-haydn-3-756"
-      },
+      { id: "756", title: "Josef Haydn", folder: "josef-haydn-3-756" },
       {
         "id": "1111",
         "title": "Antonio Salieri",
@@ -588,11 +572,7 @@ export const musikTopics: Record<string, MusikTopic> = {
       "Jim Jacobs & Warren Casey: 'Grease' – das Rock 'n' Roll Kultmusical"
     ],
     "exercises": [
-      {
-        "id": "519",
-        "title": "Musicals – Geschichte, Bühnenshows und Hits",
-        "folder": "das-musical-519"
-      }
+      { id: "519", title: "Das Musical", folder: "das-musical-519" }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Musicals+Musikunterricht&t=1251"
   },
@@ -713,11 +693,10 @@ export const musikTopics: Record<string, MusikTopic> = {
       "Charlie Parker: 'Bird' – legendärer Altsaxophonist und Vater des Bebop"
     ],
     "exercises": [
-      {
-        "id": "4114",
-        "title": "Louis Armstrong und die Jazzlegenden",
-        "folder": "geschichte-des-jazz-507"
-      }
+      { id: "507", title: "Geschichte des Jazz", folder: "geschichte-des-jazz-507" },
+      { id: "1265", title: "Gypsy Jazz", folder: "gypsy-jazz-1265" },
+      { id: "1200", title: "Acid Jazz", folder: "acid-jazz-1200" },
+      { id: "3205", title: "Escape Room: Rock, Pop und Jazz", folder: "escape-room-quot-rock-pop-und-jazz-quot-3205" }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Jazzmusiker+Biografien&t=1251"
   },
@@ -735,41 +714,13 @@ export const musikTopics: Record<string, MusikTopic> = {
       "1990er bis heute: Grunge, Britpop, Hip-Hop, Pop-Superstars und digitale Produktion"
     ],
     "exercises": [
-      {
-        "id": "508",
-        "title": "Rock und Pop: Die 1950er Jahre",
-        "folder": "rock-und-pop-teil-1-508"
-      },
-      {
-        "id": "509",
-        "title": "Rock und Pop: Die 1960er Jahre",
-        "folder": "rock-und-pop-teil-2-509"
-      },
-      {
-        "id": "510",
-        "title": "Rock und Pop: Die 1970er Jahre",
-        "folder": "rock-und-pop-teil-3-510"
-      },
-      {
-        "id": "511",
-        "title": "Rock und Pop: Die 1980er Jahre",
-        "folder": "rock-und-pop-teil-4-511"
-      },
-      {
-        "id": "430",
-        "title": "Rock- und Popstile: Teil 1",
-        "folder": "geschichte-der-rockmusik-teil-1-1950-bis-1966-430"
-      },
-      {
-        "id": "431",
-        "title": "Rock- und Popstile: Teil 2",
-        "folder": "geschichte-der-rockmusik-teil-2-1966-bis-1976-431"
-      },
-      {
-        "id": "432",
-        "title": "Rock- und Popstile: Teil 3",
-        "folder": "geschichte-der-rockmusik-teil-3-1976-bis-1990-432"
-      }
+      { id: "508", title: "Rock und Pop - Teil 1", folder: "rock-und-pop-teil-1-508" },
+      { id: "509", title: "Rock und Pop - Teil 2", folder: "rock-und-pop-teil-2-509" },
+      { id: "510", title: "Rock und Pop - Teil 3", folder: "rock-und-pop-teil-3-510" },
+      { id: "511", title: "Rock und Pop - Teil 4", folder: "rock-und-pop-teil-4-511" },
+      { id: "430", title: "Geschichte der Rockmusik - Teil 1 (1950 bis 1966)", folder: "geschichte-der-rockmusik-teil-1-1950-bis-1966-430" },
+      { id: "431", title: "Geschichte der Rockmusik - Teil 2 (1966 bis 1976)", folder: "geschichte-der-rockmusik-teil-2-1966-bis-1976-431" },
+      { id: "432", title: "Geschichte der Rockmusik - Teil 3 (1976 bis 1990)", folder: "geschichte-der-rockmusik-teil-3-1976-bis-1990-432" }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Rock+und+Pop+Musikunterricht&t=1251"
   },
