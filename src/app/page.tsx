@@ -225,8 +225,41 @@ export default function Home() {
               </div>
             </section>
 
+            {/* Info-Banner über den Fächern */}
+            <div
+              style={{
+                marginTop: 32,
+                marginBottom: 8,
+                background: '#f0f7eb',
+                border: '1px solid #c8e4b6',
+                borderLeft: '4px solid var(--green-primary)',
+                borderRadius: 8,
+                padding: '14px 18px',
+              }}
+            >
+              <div style={{ fontSize: 14, color: 'var(--text-color)', lineHeight: 1.5 }}>
+                <span
+                  style={{
+                    background: 'var(--green-primary)',
+                    color: '#ffffff',
+                    fontSize: 11,
+                    fontWeight: 700,
+                    textTransform: 'uppercase',
+                    letterSpacing: '0.6px',
+                    padding: '2px 8px',
+                    borderRadius: 4,
+                    marginRight: 10,
+                    display: 'inline-block',
+                  }}
+                >
+                  Neu
+                </span>
+                <strong>Neues Layout &amp; schnellere Ladezeiten:</strong> Lehrpersonen können Ergebnisse von Schülern einfach und datenschutzkonform nachverfolgen.
+              </div>
+            </div>
+
             {/* 4. Themen und Lernfächer */}
-            <section className="section-block">
+            <section className="section-block" style={{ marginTop: 24 }}>
               <h2 className="section-main-heading">Themen und Lernfächer</h2>
 
               {subjectCategories.map((cat, idx) => (
