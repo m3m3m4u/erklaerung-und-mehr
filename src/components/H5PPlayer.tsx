@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useEffect, useRef, useState } from 'react';
+import TeacherExerciseAssigner from './TeacherExerciseAssigner';
 
 export interface XAPIStatement {
   actor?: { name?: string; mbox?: string };
@@ -407,6 +408,10 @@ export default function H5PPlayer({
 
   return (
     <div className="h5p-player-card">
+      <TeacherExerciseAssigner
+        exerciseId={exerciseId || h5pJsonPath}
+        exerciseTitle={title}
+      />
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: 8, marginBottom: title ? 8 : 0 }}>
         {title && <h2 className="h5p-title" style={{ margin: 0 }}>{title}</h2>}
         {hasSavedState && (

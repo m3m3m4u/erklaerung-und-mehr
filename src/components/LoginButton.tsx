@@ -100,20 +100,43 @@ export default function LoginButton() {
       </button>
 
       {menuOpen && (
-        <div className="login-user-menu">
-          {user.role === 'admin' ? (
+        <div className="login-user-menu" style={{ minWidth: 240, padding: '6px 0', border: '1.5px solid var(--green-primary)' }}>
+          {/* User profile header */}
+          <div style={{ padding: '10px 16px 8px', borderBottom: '1px solid var(--border-light)' }}>
+            <div style={{ fontSize: 13, fontWeight: 700, color: 'var(--green-dark)', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
+              {user.email || user.code || 'Angemeldet'}
+            </div>
+            <div style={{ fontSize: 11, color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: '0.4px', marginTop: 2 }}>
+              {user.role === 'teacher' ? 'Lehrperson' : user.role === 'admin' ? 'Administrator' : 'Schüler-Konto'}
+            </div>
+          </div>
+
+          {/* Role-specific menu items */}
+          {user.role === 'admin' && (
             <Link href="/admin" className="login-user-menu-item" onClick={() => setMenuOpen(false)}>
               Admin-Bereich
             </Link>
-          ) : user.role === 'teacher' ? (
-            <Link href="/dashboard" className="login-user-menu-item" onClick={() => setMenuOpen(false)}>
-              Mein Dashboard
-            </Link>
-          ) : (
-            <Link href="/mein-fortschritt" className="login-user-menu-item" onClick={() => setMenuOpen(false)}>
-              Mein Fortschritt
-            </Link>
           )}
+
+          {user.role === 'teacher' && (
+            <>
+              <Link href="/dashboard" className="login-user-menu-item" onClick={() => setMenuOpen(false)}>
+                Mein Dashboard &amp; Klassen
+              </Link>
+            </>
+          )}
+
+          {user.role === 'student' && (
+            <>
+              <Link href="/mein-fortschritt" className="login-user-menu-item" onClick={() => setMenuOpen(false)}>
+                Mein Fortschritt &amp; Aufgaben
+              </Link>
+              <Link href="/" className="login-user-menu-item" onClick={() => setMenuOpen(false)}>
+                Zu den Themen &amp; Fächern
+              </Link>
+            </>
+          )}
+
           <button className="login-user-menu-item login-user-menu-logout" onClick={handleLogout}>
             Abmelden
           </button>

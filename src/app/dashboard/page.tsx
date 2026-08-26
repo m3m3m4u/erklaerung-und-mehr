@@ -734,6 +734,190 @@ export default function DashboardPage() {
           </div>
         )}
 
+        {/* KPI Statistics Summary Bar */}
+        <div
+          style={{
+            display: 'grid',
+            gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))',
+            gap: 14,
+            marginBottom: 24,
+          }}
+        >
+          <div
+            style={{
+              background: 'var(--bg-white)',
+              border: '1.5px solid var(--green-primary)',
+              borderRadius: 8,
+              padding: '16px 18px',
+              boxShadow: '0 1px 3px rgba(0, 0, 0, 0.04)',
+            }}
+          >
+            <div style={{ fontSize: 11, color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: '0.5px', marginBottom: 4 }}>
+              Klassen
+            </div>
+            <div style={{ fontSize: 24, fontWeight: 700, color: 'var(--green-dark)' }}>
+              {existingClasses.length}
+            </div>
+            <div style={{ fontSize: 12, color: 'var(--text-muted)', marginTop: 2 }}>
+              angelegt
+            </div>
+          </div>
+
+          <div
+            style={{
+              background: 'var(--bg-white)',
+              border: '1.5px solid var(--green-primary)',
+              borderRadius: 8,
+              padding: '16px 18px',
+              boxShadow: '0 1px 3px rgba(0, 0, 0, 0.04)',
+            }}
+          >
+            <div style={{ fontSize: 11, color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: '0.5px', marginBottom: 4 }}>
+              Schüler-Accounts
+            </div>
+            <div style={{ fontSize: 24, fontWeight: 700, color: 'var(--green-dark)' }}>
+              {students.length}
+            </div>
+            <div style={{ fontSize: 12, color: 'var(--text-muted)', marginTop: 2 }}>
+              aktiv
+            </div>
+          </div>
+
+          <div
+            style={{
+              background: 'var(--bg-white)',
+              border: '1.5px solid var(--green-primary)',
+              borderRadius: 8,
+              padding: '16px 18px',
+              boxShadow: '0 1px 3px rgba(0, 0, 0, 0.04)',
+            }}
+          >
+            <div style={{ fontSize: 11, color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: '0.5px', marginBottom: 4 }}>
+              Zugewiesene Übungen
+            </div>
+            <div style={{ fontSize: 24, fontWeight: 700, color: 'var(--green-dark)' }}>
+              {Array.from(new Set(Object.values(assignmentsByClass).flat())).length}
+            </div>
+            <div style={{ fontSize: 12, color: 'var(--text-muted)', marginTop: 2 }}>
+              im Einsatz
+            </div>
+          </div>
+
+          <div
+            style={{
+              background: 'var(--bg-white)',
+              border: '1.5px solid var(--green-primary)',
+              borderRadius: 8,
+              padding: '16px 18px',
+              boxShadow: '0 1px 3px rgba(0, 0, 0, 0.04)',
+            }}
+          >
+            <div style={{ fontSize: 11, color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: '0.5px', marginBottom: 4 }}>
+              Erledigte Aufgaben
+            </div>
+            <div style={{ fontSize: 24, fontWeight: 700, color: 'var(--green-dark)' }}>
+              {progress.length}
+            </div>
+            <div style={{ fontSize: 12, color: 'var(--text-muted)', marginTop: 2 }}>
+              {progress.length > 0
+                ? `Ø Score: ${Math.round(progress.reduce((sum, p) => sum + (p.score || 0), 0) / progress.length)} %`
+                : 'Noch keine'}
+            </div>
+          </div>
+        </div>
+
+        {/* Quick Classes Overview Grid (if classes exist) */}
+        {existingClasses.length > 0 && (
+          <section className="dashboard-section" style={{ marginBottom: 24 }}>
+            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: 10, marginBottom: 14 }}>
+              <h2 style={{ margin: 0, fontSize: 18 }}>Meine Klassen ({existingClasses.length})</h2>
+              <span style={{ fontSize: 13, color: 'var(--text-muted)' }}>
+                Klicke auf eine Klasse für Details oder weise direkt Übungen zu.
+              </span>
+            </div>
+
+            <div
+              style={{
+                display: 'grid',
+                gridTemplateColumns: 'repeat(auto-fill, minmax(240px, 1fr))',
+                gap: 12,
+              }}
+            >
+              {existingClasses.map((cls) => {
+                const clsStudents = students.filter((s) => (s.className || 'Ohne Klasse') === cls);
+                const assignedIds = assignmentsByClass[cls] || [];
+                const isSelected = selectedClassFilter === cls;
+
+                return (
+                  <div
+                    key={cls}
+                    style={{
+                      background: isSelected ? '#f0f7eb' : 'var(--bg-white)',
+                      border: `1.5px solid ${isSelected ? 'var(--green-primary)' : 'var(--border-light)'}`,
+                      borderRadius: 8,
+                      padding: '14px 16px',
+                      display: 'flex',
+                      flexDirection: 'column',
+                      justifyContent: 'space-between',
+                      gap: 12,
+                    }}
+                  >
+                    <div>
+                      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 6 }}>
+                        <strong style={{ fontSize: 16, color: 'var(--green-dark)' }}>
+                          Klasse {cls}
+                        </strong>
+                        <span
+                          style={{
+                            fontSize: 11,
+                            background: 'var(--green-light)',
+                            color: 'var(--green-dark)',
+                            padding: '2px 7px',
+                            borderRadius: 4,
+                            fontWeight: 700,
+                          }}
+                        >
+                          {clsStudents.length} Schüler
+                        </span>
+                      </div>
+                      <div style={{ fontSize: 13, color: 'var(--text-muted)' }}>
+                        {assignedIds.length > 0
+                          ? `${assignedIds.length} Übung(en) zugewiesen`
+                          : 'Noch keine Übungen zugewiesen'}
+                      </div>
+                    </div>
+
+                    <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap' }}>
+                      <button
+                        type="button"
+                        onClick={() => setSelectedClassFilter(cls)}
+                        className="admin-action-btn"
+                        style={{
+                          fontSize: 12,
+                          padding: '4px 8px',
+                          background: isSelected ? 'var(--green-primary)' : 'var(--green-light)',
+                          color: isSelected ? '#ffffff' : 'var(--green-dark)',
+                          flex: 1,
+                        }}
+                      >
+                        {isSelected ? 'Ausgewählt' : 'Anzeigen'}
+                      </button>
+                      <button
+                        type="button"
+                        onClick={() => openAssignmentModal(cls)}
+                        className="admin-action-btn"
+                        style={{ fontSize: 12, padding: '4px 8px', flex: 1 }}
+                      >
+                        Übungen
+                      </button>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </section>
+        )}
+
         {/* Add students by count and class */}
         <section className="dashboard-section">
           <h2>Schüleraccounts anlegen</h2>
