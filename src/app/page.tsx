@@ -260,8 +260,19 @@ export default function Home() {
               >
                 Neu
               </div>
-              <div style={{ fontSize: 14, color: 'var(--text-color)', lineHeight: 1.55 }}>
-                <strong>Neues Layout &amp; schnellere Ladezeiten:</strong> Lehrpersonen können Ergebnisse von Schülern einfach und datenschutzkonform nachverfolgen sowie Aufgaben den Lernenden zuordnen.
+              <div style={{ fontSize: 14, color: 'var(--text-color)', lineHeight: 1.55, flex: 1 }}>
+                <div>
+                  <strong>Neues Layout &amp; schnellere Ladezeiten:</strong> Lehrpersonen können Ergebnisse von Schülern einfach und datenschutzkonform nachverfolgen sowie Aufgaben den Lernenden zuordnen.
+                </div>
+                <div style={{ fontSize: 13, color: 'var(--text-muted)', marginTop: 4 }}>
+                  Fehlt etwas? Hast du einen Fehler gefunden?{' '}
+                  <a
+                    href="mailto:m3m3m4u@gmail.com?subject=Feedback%20zu%20Erkl%C3%A4rung%20und%20mehr"
+                    style={{ color: 'var(--green-dark)', fontWeight: 600, textDecoration: 'underline' }}
+                  >
+                    Schreib uns eine E-Mail
+                  </a>
+                </div>
               </div>
             </div>
 
