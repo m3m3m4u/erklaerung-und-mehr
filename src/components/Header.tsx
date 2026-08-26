@@ -66,13 +66,6 @@ const megaMenuColumns: MenuColumn[] = [
           { title: 'Bedeutende Persönlichkeiten', href: '/wichtige-persoenlichkeiten-der-geschichte' },
         ],
       },
-      {
-        title: 'Kunst',
-        items: [
-          { title: 'Musik', href: '/musik' },
-          { title: 'Kunst & Künstler', href: '/kunst-und-kuenstler' },
-        ],
-      },
     ],
   },
   {
@@ -91,6 +84,13 @@ const megaMenuColumns: MenuColumn[] = [
         items: [
           { title: 'Deutsch', href: '/deutsch' },
           { title: 'Englisch', href: '/englisch' },
+        ],
+      },
+      {
+        title: 'Kunst',
+        items: [
+          { title: 'Musik', href: '/musik' },
+          { title: 'Kunst & Künstler', href: '/kunst-und-kuenstler' },
         ],
       },
     ],
