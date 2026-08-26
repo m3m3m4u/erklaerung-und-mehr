@@ -118,7 +118,13 @@ a:hover {
   display: flex;
   align-items: center;
   gap: 13px;
-  text-decoration: none;
+  text-decoration: none !important;
+}
+
+.brand-link:hover,
+.brand-link:focus,
+.brand-link:active {
+  text-decoration: none !important;
 }
 
 .brand-logo-wrapper {
@@ -157,10 +163,12 @@ a:hover {
   line-height: 1.15;
   letter-spacing: -0.2px;
   transition: color 0.15s ease;
+  text-decoration: none !important;
 }
 
 .brand-link:hover .site-title {
   color: var(--green-hover);
+  text-decoration: none !important;
 }
 
 .site-subtitle {
@@ -169,6 +177,11 @@ a:hover {
   color: var(--text-muted);
   letter-spacing: 0.2px;
   line-height: 1.2;
+  text-decoration: none !important;
+}
+
+.brand-link:hover .site-subtitle {
+  text-decoration: none !important;
 }
 
 .site-nav {
