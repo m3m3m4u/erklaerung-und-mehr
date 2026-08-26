@@ -13,6 +13,7 @@
    - Strukturierte Fachbereiche & Themen (z. B. Physik, Musik, Chemie, Geographie, Geschichte, Religion, Informatik, Schlagzeug/Drums).
    - Saubere Inhaltsseiten mit Texten, Erklärungen und integrierten interaktiven H5P-Übungen.
    - Eigenes H5P-Management mit MongoDB.
-3. **Medien & Vorlagen**:
-   - WordPress-SQL-Dump liegt in `vorlagen/mysqlsvr83_world4you_com.sql`.
-   - Benötigte Medien (Bilder, Audios, PDFs) kommen aus `wp-content/uploads/`.
+3. **Medien & Vorlagen (Verbindliche Datenquelle)**:
+   - **SQL-Datenbank**: `vorlagen/mysqlsvr83_world4you_com.sql`.
+   - **Regel**: Fachinhalte, Kategorien, Themen, Texte und H5P-Zuordnungen werden **immer** direkt aus dieser SQL-Datenbank extrahiert (`wp_terms`, `wp_term_taxonomy`, `wp_term_relationships`, `wp_posts`), außer der Nutzer gibt ausdrücklich etwas anderes vor.
+   - Benötigte Medien (Bilder, Audios, PDFs) kommen aus `wp-content/uploads/` bzw. `bilder/`.

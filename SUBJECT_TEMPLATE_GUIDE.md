@@ -4,6 +4,15 @@ Dieses Dokument definiert den verbindlichen Standard für den Aufbau, die Datens
 
 ---
 
+## 0. Verbindliche Datenquelle: SQL-Datenbank (`vorlagen/mysqlsvr83_world4you_com.sql`)
+
+> [!IMPORTANT]
+> **VERBINDLICHE REGEL**: Inhalte, Kategorien, Themen, Texte, Merksätze und H5P-Zuordnungen für Fächer MÜSSEN IMMER direkt aus der SQL-Datenbank der alten Website (`vorlagen/mysqlsvr83_world4you_com.sql`) aus den WordPress-Tabellen `wp_terms`, `wp_term_taxonomy`, `wp_term_relationships` und `wp_posts` bezogen werden, außer der Benutzer gibt ausdrücklich etwas anderes vor!
+> - Keine unscharfe Volltextsuche über alle H5Ps (Gefahr von falschen Fächern wie Mathe/Musik in Geschichte).
+> - Immer die exakten Post-IDs, Slugs, Beitragstexte, Listenelemente (`<li>`) und `[h5p id="..."]`-Verknüpfungen der entsprechenden Fachkategorie aus der SQL-Datenbank extrahieren.
+
+---
+
 ## 1. Datenstruktur (`src/lib/[fach]-data.ts`)
 
 Jedes Fach besitzt eine eigene Datendatei in `src/lib/` mit folgender TypeScript-Schnittstelle:

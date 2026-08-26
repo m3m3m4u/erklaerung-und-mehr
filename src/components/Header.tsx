@@ -91,8 +91,6 @@ const megaMenuColumns: MenuColumn[] = [
         items: [
           { title: 'Deutsch', href: '/deutsch' },
           { title: 'Englisch', href: '/englisch' },
-          { title: 'Französisch', href: '/franzoesisch' },
-          { title: 'Spanisch', href: '/spanisch' },
         ],
       },
     ],
@@ -157,19 +155,20 @@ export default function Header({ activeTab, onTabChange, activePath }: HeaderPro
     <header className="main-header" onMouseLeave={handleMouseLeave}>
       <div className="header-inner">
         <div className="brand">
-          <Link href="/" style={{ textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '12px' }}>
+          <Link href="/" className="brand-link">
             <div className="brand-logo-wrapper">
               <Image
                 src="/images/favicon.png"
                 alt="Erklärung und mehr"
-                width={52}
-                height={52}
+                width={48}
+                height={48}
                 className="brand-favicon"
                 priority
               />
             </div>
             <div className="brand-titles">
               <span className="site-title">Erklärung und mehr</span>
+              <span className="site-subtitle">Erklärvideos &amp; Onlineübungen</span>
             </div>
           </Link>
         </div>

@@ -1,25 +1,14 @@
 'use client';
 
-import React, { useState } from 'react';
+import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { politikTopics } from '@/lib/politik-data';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 export default function PolitikOverviewPage() {
   const allTopics = Object.values(politikTopics);
-  const [searchQuery, setSearchQuery] = useState<string>('');
-
-  const filteredTopics = allTopics.filter((topic) => {
-    const matchesSearch =
-      searchQuery.trim() === '' ||
-      topic.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      topic.shortDesc.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      topic.keyPoints.some((kp) =>
-        kp.toLowerCase().includes(searchQuery.toLowerCase())
-      );
-    return matchesSearch;
-  });
 
   return (
     <div className="site-wrapper">
@@ -38,73 +27,25 @@ export default function PolitikOverviewPage() {
               Mit anschaulichen Erklärungen, Merksätzen und interaktiven H5P-Übungsmodulen.
             </p>
           </div>
-          <div className="image-placeholder math-mascot">
-            <span>[Politik Lernmaskottchen]</span>
+          <div className="math-mascot">
+            <Image
+              src="/images/kopernikus-daumen.png"
+              alt="Kopernikus Maskottchen"
+              width={100}
+              height={130}
+              className="math-mascot-img"
+              priority
+            />
           </div>
         </section>
 
-        {/* Search Bar */}
-        <section
-          style={{
-            background: 'var(--bg-white)',
-            border: '1px solid var(--border-light)',
-            borderRadius: '4px',
-            padding: '16px 20px',
-            marginBottom: '24px',
-            display: 'flex',
-            alignItems: 'center',
-            gap: '12px',
-          }}
-        >
-          <input
-            type="text"
-            placeholder="🔍 Thema suchen..."
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-            style={{
-              flex: '1 1 300px',
-              padding: '10px 14px',
-              borderRadius: '4px',
-              border: '1px solid var(--border-light)',
-              fontSize: '14px',
-              outline: 'none',
-            }}
-          />
-          {searchQuery && (
-            <button
-              onClick={() => setSearchQuery('')}
-              style={{
-                padding: '8px 14px',
-                background: '#f1f1f1',
-                border: '1px solid var(--border-light)',
-                borderRadius: '4px',
-                cursor: 'pointer',
-                fontSize: '13px',
-              }}
-            >
-              Suche löschen
-            </button>
-          )}
-        </section>
+        
 
         {/* Direct Topics Grid */}
-        {filteredTopics.length === 0 ? (
-          <div className="info-box-section" style={{ textAlign: 'center', padding: '40px 20px' }}>
-            <p style={{ fontSize: '16px', color: 'var(--text-muted)' }}>
-              Keine Themen gefunden für deine Suche &ldquo;{searchQuery}&rdquo;.
-            </p>
-            <button
-              onClick={() => setSearchQuery('')}
-              className="button-link"
-              style={{ marginTop: '12px' }}
-            >
-              Alle Themen anzeigen
-            </button>
-          </div>
-        ) : (
+        {
           <section className="math-category-section">
             <div className="math-grid">
-              {filteredTopics.map((topic) => (
+              {allTopics.map((topic) => (
                 <Link
                   key={topic.slug}
                   href={`/politik-und-gesellschaft/${topic.slug}`}
@@ -127,7 +68,7 @@ export default function PolitikOverviewPage() {
               ))}
             </div>
           </section>
-        )}
+        }
 
         {/* Eduki Material Box */}
         <section className="info-box-section" style={{ marginTop: '40px' }}>

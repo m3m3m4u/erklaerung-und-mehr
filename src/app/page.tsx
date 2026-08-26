@@ -74,25 +74,10 @@ const subjectCategories: CategorySection[] = [
     items: [
       { title: 'Deutsch', image: '/images/deutsch.png', link: '/deutsch' },
       { title: 'Englisch', image: '/images/englisch.png', link: '/englisch' },
-      { title: 'Französisch', image: '/images/franzoesisch.png', link: '/franzoesisch' },
-      { title: 'Spanisch', image: '/images/spanisch.png', link: '/spanisch' },
     ],
   },
 ];
 
-const newsAndTopics: TopicItem[] = [
-  { title: 'Aktuelle Themen', image: '/images/aktuellethemen.png', link: '/aktuelle-themen' },
-  { title: 'Bundestagswahl', image: '/images/bundestagswahl.png', link: '/bundestagswahl' },
-  { title: 'Kleinste Staaten', image: '/images/kleinste.png', link: '/kleinste-staaten' },
-  { title: 'Tools für Lehrpersonen', image: '/images/tools.png', link: '/tools-fuer-lehrpersonen' },
-  { title: 'Downloadbereich', image: '/images/download.png', link: '/download' },
-  { title: 'Newsletter Anmeldung', image: '/images/newsletter.png', link: '/newsletter-anmeldung' },
-  { title: 'Kahoot Quizze', image: '/images/kahoot.png', link: '/kahoot' },
-  { title: 'QR-Codes im Unterricht', image: '/images/qr.png', link: '/qr-codes' },
-  { title: 'Die Jahre 1500 - 2022', image: '/images/diejahre.png', link: '/die-jahre-1500-2022' },
-  { title: 'Werde Geschichte-Nerd', image: '/images/geschichtenerd.png', link: '/werde-geschichte-nerd' },
-  { title: 'German Text Analyzer', image: '/images/analyzer.png', link: '/german-text-analyzer' },
-];
 
 export default function Home() {
   const [activeTab, setActiveTab] = useState<'home' | 'h5p-hub'>('home');
@@ -205,10 +190,8 @@ export default function Home() {
 
               <div className="banner-card">
                 <div className="banner-inner">
-                  <a
-                    href="https://kischulgenie.com/erklaerungundmehr?via=eum"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                  <Link
+                    href="/kischulgenie"
                     className="banner-img-wrapper"
                   >
                     <Image
@@ -218,20 +201,25 @@ export default function Home() {
                       height={60}
                       className="banner-img"
                     />
-                  </a>
+                  </Link>
                   <div className="banner-text">
-                    <h3>Erstelle tolles Material mit KI-Schulgenie und spare Zeit!</h3>
+                    <h3>
+                      <Link href="/kischulgenie" style={{ textDecoration: 'none', color: 'inherit' }}>
+                        Erstelle tolles Material mit KI-Schulgenie und spare Zeit!
+                      </Link>
+                    </h3>
                     <p>
                       Spare 10 % mit dem Gutscheincode <strong>&quot;erklaerung10&quot;</strong>.
                     </p>
-                    <a
-                      href="https://kischulgenie.com/erklaerungundmehr?via=eum"
-                      target="_blank"
-                      rel="noopener noreferrer"
+                    <p style={{ fontSize: '11px', color: 'var(--text-muted)', margin: '4px 0 10px 0' }}>
+                      (Kooperationspartner / Affiliate-Link)
+                    </p>
+                    <Link
+                      href="/kischulgenie"
                       className="button-link"
                     >
                       Mehr erfahren
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -267,29 +255,6 @@ export default function Home() {
               ))}
             </section>
 
-            {/* 5. Neuigkeiten und aktuelle Themen */}
-            <section className="section-block">
-              <h2 className="section-main-heading">Neuigkeiten und aktuelle Themen</h2>
-              <div className="buttons-grid">
-                {newsAndTopics.map((item, i) => (
-                  <Link
-                    key={i}
-                    href={item.link}
-                    className="subject-button-tile"
-                    title={item.title}
-                  >
-                    <Image
-                      src={item.image}
-                      alt={item.title}
-                      width={300}
-                      height={200}
-                      className="subject-button-img"
-                      unoptimized
-                    />
-                  </Link>
-                ))}
-              </div>
-            </section>
           </>
         ) : (
           /* H5P Hub & Upload (Separater Reiter) */
