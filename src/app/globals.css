@@ -1731,7 +1731,10 @@ a:hover {
   border-radius: 12px;
   box-shadow: 0 8px 40px rgba(0,0,0,0.18);
   width: 100%;
-  max-width: 420px;
+  max-width: 440px;
+  max-height: 90vh;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
   position: relative;
   animation: slideUp 0.2s ease;
 }
@@ -2103,3 +2106,91 @@ a:hover {
   border-radius: 6px;
   border: 1px solid var(--border-light);
 }
+
+/* ==========================================================================
+   Responsive Optimizations for iPad & Smartphones
+   ========================================================================== */
+
+/* Tablet & iPad (<= 1024px) */
+@media (max-width: 1024px) {
+  .content-container {
+    padding: 20px 16px 50px 16px;
+  }
+
+  .topic-rules-card,
+  .info-box-section {
+    padding: 16px 18px;
+  }
+}
+
+/* Tablets portrait & large smartphones (<= 768px) */
+@media (max-width: 768px) {
+  .main-header .header-inner {
+    padding: 10px 14px;
+    gap: 10px;
+  }
+
+  .site-nav {
+    gap: 6px;
+    flex-wrap: wrap;
+  }
+
+  .nav-external {
+    font-size: 13px;
+    padding: 6px 10px;
+  }
+
+  .login-header-btn,
+  .login-user-wrapper {
+    margin-left: 0;
+  }
+
+  .exercise-player-wrapper {
+    padding: 10px 8px;
+  }
+
+  .h5p-embed-target iframe {
+    max-width: 100% !important;
+  }
+
+  .dashboard-section {
+    padding: 16px;
+  }
+}
+
+/* Smartphones (<= 480px) */
+@media (max-width: 480px) {
+  .content-container {
+    padding: 14px 10px 36px 10px;
+  }
+
+  .brand-titles .site-title {
+    font-size: 17px;
+  }
+
+  .brand-titles .site-subtitle {
+    font-size: 10.5px;
+  }
+
+  .login-modal {
+    padding: 4px;
+    border-radius: 8px;
+  }
+
+  .login-modal-body {
+    padding: 24px 16px 18px;
+  }
+
+  .login-input {
+    font-size: 14px;
+  }
+
+  .topic-main-title {
+    font-size: 20px;
+  }
+
+  .section-main-heading {
+    font-size: 19px;
+  }
+}
+
