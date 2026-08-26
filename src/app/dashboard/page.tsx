@@ -55,6 +55,17 @@ export default function DashboardPage() {
   const [passwordError, setPasswordError] = useState('');
   const [passwordLoading, setPasswordLoading] = useState(false);
 
+  // Assignment state
+  const [showAssignmentModal, setShowAssignmentModal] = useState(false);
+  const [assignmentTargetClass, setAssignmentTargetClass] = useState('');
+  const [selectedH5pIds, setSelectedH5pIds] = useState<Set<string>>(new Set());
+  const [catalog, setCatalog] = useState<{ id: string; title: string; subject: string; subjectSlug: string; topicTitle: string; topicSlug: string; url: string }[]>([]);
+  const [catalogLoading, setCatalogLoading] = useState(false);
+  const [assignmentSearch, setAssignmentSearch] = useState('');
+  const [assignmentSubjectFilter, setAssignmentSubjectFilter] = useState('all');
+  const [assignmentSaving, setAssignmentSaving] = useState(false);
+  const [assignmentsByClass, setAssignmentsByClass] = useState<Record<string, string[]>>({});
+
   // Confirmation overlay modal state
   const [confirmModal, setConfirmModal] = useState<{
     isOpen: boolean;
@@ -95,8 +106,25 @@ export default function DashboardPage() {
       ]);
       const studentsData = await studentsRes.json();
       const progressData = await progressRes.json();
-      setStudents(studentsData.students || []);
+      const loadedStudents: Student[] = studentsData.students || [];
+      setStudents(loadedStudents);
       setProgress(progressData.progress || []);
+
+      // Load assignments for all classes
+      const distinctClasses = Array.from(new Set(loadedStudents.map((s) => s.className || 'Ohne Klasse')));
+      const assignMap: Record<string, string[]> = {};
+      await Promise.all(
+        distinctClasses.map(async (cls) => {
+          try {
+            const res = await fetch(`/api/teacher/assignments?className=${encodeURIComponent(cls)}`);
+            const d = await res.json();
+            assignMap[cls] = d.h5pIds || [];
+          } catch {
+            assignMap[cls] = [];
+          }
+        })
+      );
+      setAssignmentsByClass(assignMap);
     } catch {
       setError('Fehler beim Laden der Daten.');
     } finally {
@@ -107,6 +135,70 @@ export default function DashboardPage() {
   useEffect(() => {
     loadData();
   }, [loadData]);
+
+  // Load catalog eagerly or when needed
+  const ensureCatalog = async () => {
+    if (catalog.length > 0) return catalog;
+    setCatalogLoading(true);
+    try {
+      const res = await fetch('/api/h5p/catalog');
+      const data = await res.json();
+      const list = data.exercises || [];
+      setCatalog(list);
+      return list;
+    } catch {
+      setError('Fehler beim Laden des Übungskatalogs.');
+      return [];
+    } finally {
+      setCatalogLoading(false);
+    }
+  };
+
+  const openAssignmentModal = async (targetClass: string) => {
+    setAssignmentTargetClass(targetClass);
+    setAssignmentSearch('');
+    setAssignmentSubjectFilter('all');
+    setShowAssignmentModal(true);
+    await ensureCatalog();
+
+    try {
+      const res = await fetch(`/api/teacher/assignments?className=${encodeURIComponent(targetClass)}`);
+      const data = await res.json();
+      const ids: string[] = data.h5pIds || [];
+      setSelectedH5pIds(new Set(ids));
+    } catch {
+      setSelectedH5pIds(new Set(assignmentsByClass[targetClass] || []));
+    }
+  };
+
+  const handleSaveAssignments = async () => {
+    setAssignmentSaving(true);
+    setError('');
+    try {
+      const ids = Array.from(selectedH5pIds);
+      const res = await fetch('/api/teacher/assignments', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          className: assignmentTargetClass,
+          h5pIds: ids,
+        }),
+      });
+      const data = await res.json();
+      if (!res.ok) {
+        setError(data.error || 'Fehler beim Speichern der Übungszuordnung.');
+      } else {
+        setAssignmentsByClass((prev) => ({ ...prev, [assignmentTargetClass]: ids }));
+        setSuccessMsg(`Übungsaufträge für Klasse „${assignmentTargetClass}“ gespeichert (${ids.length} Übungen).`);
+        setTimeout(() => setSuccessMsg(''), 4000);
+        setShowAssignmentModal(false);
+      }
+    } catch {
+      setError('Netzwerkfehler beim Speichern.');
+    } finally {
+      setAssignmentSaving(false);
+    }
+  };
 
   // Collect distinct existing classes
   const existingClasses = Array.from(
@@ -755,22 +847,101 @@ export default function DashboardPage() {
             </div>
 
             {selectedClassFilter !== 'all' && (
+              <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
+                <button
+                  type="button"
+                  onClick={() => openAssignmentModal(selectedClassFilter)}
+                  className="admin-action-btn"
+                  style={{
+                    fontSize: 13,
+                    padding: '6px 14px',
+                    background: (assignmentsByClass[selectedClassFilter] || []).length > 0 ? 'var(--green-primary)' : 'var(--green-light)',
+                    color: (assignmentsByClass[selectedClassFilter] || []).length > 0 ? '#ffffff' : 'var(--green-dark)',
+                    borderColor: 'var(--green-primary)',
+                    fontWeight: 600,
+                  }}
+                >
+                  Übungen zuweisen ({(assignmentsByClass[selectedClassFilter] || []).length})
+                </button>
+                <button
+                  type="button"
+                  onClick={() => promptDeleteClass(selectedClassFilter)}
+                  className="dashboard-delete-btn"
+                  style={{
+                    fontSize: 13,
+                    padding: '6px 12px',
+                    border: '1px solid #f5c2c7',
+                    background: '#fff5f5',
+                    borderRadius: 6,
+                    fontWeight: 600,
+                  }}
+                  title={`Gesamte Klasse „${selectedClassFilter}“ und alle Schüleraccounts darin löschen`}
+                >
+                  Klasse „{selectedClassFilter}“ komplett löschen
+                </button>
+              </div>
+            )}
+          </div>
+        )}
+
+        {/* Assigned Exercises for Selected Class */}
+        {selectedClassFilter !== 'all' && (
+          <div
+            style={{
+              background: (assignmentsByClass[selectedClassFilter] || []).length > 0 ? '#f0f7eb' : '#f8fafc',
+              border: `1px solid ${(assignmentsByClass[selectedClassFilter] || []).length > 0 ? '#c8e4b6' : 'var(--border-light)'}`,
+              borderRadius: 8,
+              padding: '14px 18px',
+              marginBottom: 16,
+            }}
+          >
+            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: 10, marginBottom: (assignmentsByClass[selectedClassFilter] || []).length > 0 ? 10 : 0 }}>
+              <div>
+                <strong style={{ fontSize: 14, color: 'var(--green-dark)' }}>
+                  Zugewiesene Übungen für Klasse „{selectedClassFilter}“:
+                </strong>{' '}
+                <span style={{ fontSize: 13, color: 'var(--text-muted)' }}>
+                  {(assignmentsByClass[selectedClassFilter] || []).length === 0
+                    ? 'Noch keine Übungen zugewiesen. Schüler sehen auf „Mein Fortschritt“ die von dir zugeordneten Aufgaben.'
+                    : `${(assignmentsByClass[selectedClassFilter] || []).length} Übung(en) ausgewählt`}
+                </span>
+              </div>
               <button
                 type="button"
-                onClick={() => promptDeleteClass(selectedClassFilter)}
-                className="dashboard-delete-btn"
-                style={{
-                  fontSize: 13,
-                  padding: '6px 12px',
-                  border: '1px solid #f5c2c7',
-                  background: '#fff5f5',
-                  borderRadius: 6,
-                  fontWeight: 600,
-                }}
-                title={`Gesamte Klasse „${selectedClassFilter}“ und alle Schüleraccounts darin löschen`}
+                className="admin-action-btn"
+                onClick={() => openAssignmentModal(selectedClassFilter)}
+                style={{ fontSize: 12, padding: '4px 12px' }}
               >
-                Klasse „{selectedClassFilter}“ komplett löschen
+                {(assignmentsByClass[selectedClassFilter] || []).length > 0 ? 'Zuordnung bearbeiten' : 'Jetzt Übungen auswählen'}
               </button>
+            </div>
+
+            {(assignmentsByClass[selectedClassFilter] || []).length > 0 && (
+              <div style={{ display: 'flex', flexWrap: 'wrap', gap: 6 }}>
+                {(assignmentsByClass[selectedClassFilter] || []).map((id) => {
+                  const ex = catalog.find((c) => c.id === id);
+                  return (
+                    <span
+                      key={id}
+                      style={{
+                        fontSize: 12,
+                        background: '#ffffff',
+                        border: '1px solid #c8e4b6',
+                        color: 'var(--green-dark)',
+                        padding: '3px 8px',
+                        borderRadius: 4,
+                        fontWeight: 600,
+                        display: 'inline-flex',
+                        alignItems: 'center',
+                        gap: 4,
+                      }}
+                    >
+                      <span style={{ fontSize: 10, color: 'var(--text-muted)' }}>{ex?.subject || 'ID:'}</span>
+                      <span>{ex?.title || id}</span>
+                    </span>
+                  );
+                })}
+              </div>
             )}
           </div>
         )}
@@ -1121,6 +1292,227 @@ export default function DashboardPage() {
                     </button>
                   </div>
                 </form>
+              </div>
+            </div>
+          </div>
+        )}
+
+        {/* Assignment Selection Modal Overlay */}
+        {showAssignmentModal && (
+          <div
+            className="login-modal-overlay"
+            onClick={() => {
+              if (!assignmentSaving) setShowAssignmentModal(false);
+            }}
+            style={{ zIndex: 9999 }}
+          >
+            <div
+              className="login-modal"
+              style={{ maxWidth: 680, maxHeight: '90vh', display: 'flex', flexDirection: 'column' }}
+              onClick={(e) => e.stopPropagation()}
+              role="dialog"
+              aria-modal="true"
+            >
+              <button
+                className="login-modal-close"
+                onClick={() => {
+                  if (!assignmentSaving) setShowAssignmentModal(false);
+                }}
+                aria-label="Schließen"
+                disabled={assignmentSaving}
+              >
+                &times;
+              </button>
+
+              <div className="login-modal-body" style={{ padding: '24px 24px 20px', display: 'flex', flexDirection: 'column', overflow: 'hidden', height: '100%' }}>
+                <h2 className="login-modal-title" style={{ fontSize: 19, marginBottom: 4 }}>
+                  Übungen zuweisen für Klasse „{assignmentTargetClass}“
+                </h2>
+                <p className="login-modal-subtitle" style={{ fontSize: 13, marginBottom: 14 }}>
+                  Wähle die Übungen aus, die Schüler:innen dieser Klasse bearbeiten sollen.
+                </p>
+
+                {/* Filter controls */}
+                <div style={{ display: 'flex', gap: 10, flexWrap: 'wrap', marginBottom: 12 }}>
+                  <input
+                    type="text"
+                    className="login-input"
+                    placeholder="Übung oder Thema suchen..."
+                    value={assignmentSearch}
+                    onChange={(e) => setAssignmentSearch(e.target.value)}
+                    style={{ flex: 1, minWidth: 160 }}
+                  />
+                  <select
+                    className="login-input"
+                    value={assignmentSubjectFilter}
+                    onChange={(e) => setAssignmentSubjectFilter(e.target.value)}
+                    style={{ width: 'auto', minWidth: 150 }}
+                  >
+                    <option value="all">Alle Fächer</option>
+                    {Array.from(new Set(catalog.map((c) => c.subject))).sort().map((subj) => (
+                      <option key={subj} value={subj}>{subj}</option>
+                    ))}
+                  </select>
+                </div>
+
+                {/* Quick actions & stats */}
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: 8, marginBottom: 10, fontSize: 12 }}>
+                  <span style={{ fontWeight: 600, color: 'var(--green-dark)' }}>
+                    {selectedH5pIds.size} Übung(en) ausgewählt
+                  </span>
+                  <div style={{ display: 'flex', gap: 8 }}>
+                    <button
+                      type="button"
+                      className="admin-action-btn"
+                      style={{ fontSize: 11, padding: '3px 8px' }}
+                      onClick={() => {
+                        const filtered = catalog.filter((c) => {
+                          const matchesSearch =
+                            !assignmentSearch.trim() ||
+                            c.title.toLowerCase().includes(assignmentSearch.toLowerCase()) ||
+                            c.subject.toLowerCase().includes(assignmentSearch.toLowerCase()) ||
+                            c.topicTitle.toLowerCase().includes(assignmentSearch.toLowerCase());
+                          const matchesSubject =
+                            assignmentSubjectFilter === 'all' || c.subject === assignmentSubjectFilter;
+                          return matchesSearch && matchesSubject;
+                        });
+                        const next = new Set(selectedH5pIds);
+                        filtered.forEach((f) => next.add(f.id));
+                        setSelectedH5pIds(next);
+                      }}
+                    >
+                      Gefilterte auswählen
+                    </button>
+                    <button
+                      type="button"
+                      className="admin-action-btn"
+                      style={{ fontSize: 11, padding: '3px 8px' }}
+                      onClick={() => setSelectedH5pIds(new Set())}
+                    >
+                      Alle abwählen
+                    </button>
+                  </div>
+                </div>
+
+                {/* Exercises scrollable list */}
+                {catalogLoading ? (
+                  <p style={{ color: 'var(--text-muted)', padding: '24px 0', textAlign: 'center', fontSize: 14 }}>
+                    Übungen werden geladen...
+                  </p>
+                ) : (
+                  <div
+                    style={{
+                      maxHeight: 320,
+                      overflowY: 'auto',
+                      border: '1px solid var(--border-light)',
+                      borderRadius: 6,
+                      padding: 8,
+                      display: 'flex',
+                      flexDirection: 'column',
+                      gap: 4,
+                      background: 'var(--bg-white)',
+                    }}
+                  >
+                    {catalog
+                      .filter((c) => {
+                        const matchesSearch =
+                          !assignmentSearch.trim() ||
+                          c.title.toLowerCase().includes(assignmentSearch.toLowerCase()) ||
+                          c.subject.toLowerCase().includes(assignmentSearch.toLowerCase()) ||
+                          c.topicTitle.toLowerCase().includes(assignmentSearch.toLowerCase());
+                        const matchesSubject =
+                          assignmentSubjectFilter === 'all' || c.subject === assignmentSubjectFilter;
+                        return matchesSearch && matchesSubject;
+                      })
+                      .map((ex) => {
+                        const isChecked = selectedH5pIds.has(ex.id);
+                        return (
+                          <label
+                            key={ex.id}
+                            style={{
+                              display: 'flex',
+                              alignItems: 'center',
+                              gap: 10,
+                              padding: '7px 10px',
+                              borderRadius: 4,
+                              background: isChecked ? '#f0f7eb' : 'transparent',
+                              cursor: 'pointer',
+                              fontSize: 13,
+                              userSelect: 'none',
+                              transition: 'background 0.12s',
+                            }}
+                          >
+                            <input
+                              type="checkbox"
+                              checked={isChecked}
+                              onChange={(e) => {
+                                const next = new Set(selectedH5pIds);
+                                if (e.target.checked) next.add(ex.id);
+                                else next.delete(ex.id);
+                                setSelectedH5pIds(next);
+                              }}
+                              style={{ cursor: 'pointer', width: 16, height: 16 }}
+                            />
+                            <span
+                              style={{
+                                fontSize: 11,
+                                background: 'var(--green-light)',
+                                color: 'var(--green-dark)',
+                                padding: '1px 6px',
+                                borderRadius: 3,
+                                fontWeight: 600,
+                                whiteSpace: 'nowrap',
+                              }}
+                            >
+                              {ex.subject}
+                            </span>
+                            <span
+                              style={{
+                                fontWeight: isChecked ? 600 : 400,
+                                flex: 1,
+                                color: isChecked ? 'var(--green-dark)' : 'inherit',
+                              }}
+                            >
+                              {ex.title}
+                            </span>
+                            {ex.topicTitle && (
+                              <span
+                                style={{
+                                  fontSize: 11,
+                                  color: 'var(--text-muted)',
+                                  whiteSpace: 'nowrap',
+                                }}
+                              >
+                                {ex.topicTitle}
+                              </span>
+                            )}
+                          </label>
+                        );
+                      })}
+                  </div>
+                )}
+
+                {/* Modal footer actions */}
+                <div style={{ display: 'flex', gap: 10, justifyContent: 'flex-end', marginTop: 16 }}>
+                  <button
+                    type="button"
+                    className="admin-action-btn"
+                    onClick={() => setShowAssignmentModal(false)}
+                    disabled={assignmentSaving}
+                    style={{ padding: '8px 16px', fontSize: 13 }}
+                  >
+                    Abbrechen
+                  </button>
+                  <button
+                    type="button"
+                    className="dashboard-add-btn"
+                    onClick={handleSaveAssignments}
+                    disabled={assignmentSaving}
+                    style={{ padding: '8px 18px', fontSize: 13 }}
+                  >
+                    {assignmentSaving ? 'Wird gespeichert...' : 'Zuordnung speichern'}
+                  </button>
+                </div>
               </div>
             </div>
           </div>
