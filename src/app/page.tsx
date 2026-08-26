@@ -225,19 +225,20 @@ export default function Home() {
               </div>
             </section>
 
-            {/* Info-Banner über den Fächern */}
+            {/* Info-Banner über den Fächern (Weißes Layout) */}
             <div
               style={{
                 marginTop: 32,
                 marginBottom: 8,
-                background: '#f0f7eb',
-                border: '1px solid #c8e4b6',
+                background: 'var(--bg-white)',
+                border: '1px solid var(--border-light)',
                 borderLeft: '4px solid var(--green-primary)',
-                borderRadius: 8,
-                padding: '14px 18px',
+                borderRadius: 6,
+                padding: '16px 20px',
+                boxShadow: '0 1px 4px rgba(0, 0, 0, 0.04)',
               }}
             >
-              <div style={{ fontSize: 14, color: 'var(--text-color)', lineHeight: 1.5 }}>
+              <div style={{ fontSize: 14, color: 'var(--text-color)', lineHeight: 1.55 }}>
                 <span
                   style={{
                     background: 'var(--green-primary)',
@@ -254,7 +255,7 @@ export default function Home() {
                 >
                   Neu
                 </span>
-                <strong>Neues Layout &amp; schnellere Ladezeiten:</strong> Lehrpersonen können Ergebnisse von Schülern einfach und datenschutzkonform nachverfolgen.
+                <strong>Neues Layout &amp; schnellere Ladezeiten:</strong> Lehrpersonen können Ergebnisse von Schülern einfach und datenschutzkonform nachverfolgen sowie Aufgaben den Lernenden zuordnen.
               </div>
             </div>
 
