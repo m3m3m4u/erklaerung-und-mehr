@@ -709,16 +709,21 @@ a:hover {
   display: block;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .buttons-grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 8px;
   }
-}
 
-@media (max-width: 380px) {
-  .buttons-grid {
-    grid-template-columns: 1fr;
+  .subject-button-tile {
+    filter: grayscale(0%);
+    opacity: 1;
+    border-radius: 6px;
+  }
+
+  .subject-button-tile:hover,
+  .subject-button-tile:nth-child(even):hover {
+    transform: translateY(-2px) scale(1.02);
   }
 }
 
