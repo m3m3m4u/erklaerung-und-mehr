@@ -55,6 +55,13 @@ export default function DashboardPage() {
   const [passwordError, setPasswordError] = useState('');
   const [passwordLoading, setPasswordLoading] = useState(false);
 
+  // Rename class state
+  const [showRenameModal, setShowRenameModal] = useState(false);
+  const [renameTargetClass, setRenameTargetClass] = useState('');
+  const [newClassNameInput, setNewClassNameInput] = useState('');
+  const [renameLoading, setRenameLoading] = useState(false);
+  const [renameError, setRenameError] = useState('');
+
   // Assignment state
   const [showAssignmentModal, setShowAssignmentModal] = useState(false);
   const [assignmentTargetClass, setAssignmentTargetClass] = useState('');
@@ -308,6 +315,55 @@ export default function DashboardPage() {
         }
       },
     });
+  };
+
+  const openRenameModal = (targetClass: string) => {
+    setRenameTargetClass(targetClass);
+    setNewClassNameInput(targetClass);
+    setRenameError('');
+    setShowRenameModal(true);
+  };
+
+  const handleRenameClass = async (e: React.FormEvent) => {
+    e.preventDefault();
+    const cleanNewName = newClassNameInput.trim();
+    if (!cleanNewName) {
+      setRenameError('Bitte gib einen neuen Klassennamen ein.');
+      return;
+    }
+    if (cleanNewName === renameTargetClass) {
+      setRenameError('Der neue Name muss sich vom bisherigen unterscheiden.');
+      return;
+    }
+
+    setRenameLoading(true);
+    setRenameError('');
+    try {
+      const res = await fetch('/api/teacher/classes', {
+        method: 'PATCH',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          oldClassName: renameTargetClass,
+          newClassName: cleanNewName,
+        }),
+      });
+      const data = await res.json();
+      if (!res.ok) {
+        setRenameError(data.error || 'Fehler beim Umbenennen der Klasse.');
+      } else {
+        setSuccessMsg(`Klasse „${renameTargetClass}“ wurde erfolgreich in „${cleanNewName}“ umbenannt.`);
+        setTimeout(() => setSuccessMsg(''), 4000);
+        setShowRenameModal(false);
+        if (selectedClassFilter === renameTargetClass) {
+          setSelectedClassFilter(cleanNewName);
+        }
+        await loadData();
+      }
+    } catch {
+      setRenameError('Netzwerkfehler beim Umbenennen.');
+    } finally {
+      setRenameLoading(false);
+    }
   };
 
   const handleChangePassword = async (e: React.FormEvent) => {
@@ -910,6 +966,15 @@ export default function DashboardPage() {
                       >
                         Übungen
                       </button>
+                      <button
+                        type="button"
+                        onClick={() => openRenameModal(cls)}
+                        className="admin-action-btn"
+                        style={{ fontSize: 12, padding: '4px 8px' }}
+                        title={`Klasse „${cls}“ umbenennen`}
+                      >
+                        Umbenennen
+                      </button>
                     </div>
                   </div>
                 );
@@ -1046,6 +1111,19 @@ export default function DashboardPage() {
                   }}
                 >
                   Übungen zuweisen ({(assignmentsByClass[selectedClassFilter] || []).length})
+                </button>
+                <button
+                  type="button"
+                  onClick={() => openRenameModal(selectedClassFilter)}
+                  className="admin-action-btn"
+                  style={{
+                    fontSize: 13,
+                    padding: '6px 12px',
+                    fontWeight: 600,
+                  }}
+                  title={`Klasse „${selectedClassFilter}“ umbenennen`}
+                >
+                  Klasse umbenennen
                 </button>
                 <button
                   type="button"
@@ -1697,6 +1775,89 @@ export default function DashboardPage() {
                     {assignmentSaving ? 'Wird gespeichert...' : 'Zuordnung speichern'}
                   </button>
                 </div>
+              </div>
+            </div>
+          </div>
+        )}
+
+        {/* Rename Class Modal Overlay */}
+        {showRenameModal && (
+          <div
+            className="login-modal-overlay"
+            onClick={() => {
+              if (!renameLoading) setShowRenameModal(false);
+            }}
+            style={{ zIndex: 9999 }}
+          >
+            <div
+              className="login-modal"
+              style={{ maxWidth: 440 }}
+              onClick={(e) => e.stopPropagation()}
+              role="dialog"
+              aria-modal="true"
+            >
+              <button
+                className="login-modal-close"
+                onClick={() => {
+                  if (!renameLoading) setShowRenameModal(false);
+                }}
+                aria-label="Schließen"
+                disabled={renameLoading}
+              >
+                &times;
+              </button>
+
+              <div className="login-modal-body" style={{ padding: '28px 24px 22px' }}>
+                <h2 className="login-modal-title" style={{ fontSize: 19, marginBottom: 4 }}>
+                  Klasse umbenennen
+                </h2>
+                <p className="login-modal-subtitle" style={{ fontSize: 13, marginBottom: 16 }}>
+                  Bisheriger Name: <strong style={{ color: 'var(--green-dark)' }}>{renameTargetClass}</strong>
+                </p>
+
+                {renameError && (
+                  <p className="login-error" style={{ marginBottom: 14 }}>{renameError}</p>
+                )}
+
+                <form onSubmit={handleRenameClass}>
+                  <div style={{ marginBottom: 18 }}>
+                    <label style={{ display: 'block', fontSize: 13, fontWeight: 600, color: 'var(--text-color)', marginBottom: 6 }}>
+                      Neuer Klassenname
+                    </label>
+                    <input
+                      type="text"
+                      className="login-input"
+                      value={newClassNameInput}
+                      onChange={(e) => setNewClassNameInput(e.target.value)}
+                      placeholder="z. B. 4B oder Gruppe 2"
+                      required
+                      autoFocus
+                    />
+                    <span style={{ fontSize: 12, color: 'var(--text-muted)', marginTop: 4, display: 'block' }}>
+                      Alle Schüleraccounts und zugewiesenen Übungen dieser Klasse werden automatisch aktualisiert.
+                    </span>
+                  </div>
+
+                  <div style={{ display: 'flex', gap: 10, justifyContent: 'flex-end' }}>
+                    <button
+                      type="button"
+                      className="admin-action-btn"
+                      onClick={() => setShowRenameModal(false)}
+                      disabled={renameLoading}
+                      style={{ padding: '8px 16px', fontSize: 13 }}
+                    >
+                      Abbrechen
+                    </button>
+                    <button
+                      type="submit"
+                      className="dashboard-add-btn"
+                      disabled={renameLoading}
+                      style={{ padding: '8px 18px', fontSize: 13 }}
+                    >
+                      {renameLoading ? 'Wird gespeichert...' : 'Umbenennen'}
+                    </button>
+                  </div>
+                </form>
               </div>
             </div>
           </div>
