@@ -225,14 +225,13 @@ export default function Home() {
               </div>
             </section>
 
-            {/* Info-Banner über den Fächern (Weißes Layout mit 2-zeiligem Neu-Symbol) */}
+            {/* Info-Banner über den Fächern (Weißes Layout mit 2-zeiligem Neu-Symbol und grünem Rahmen) */}
             <div
               style={{
                 marginTop: 32,
                 marginBottom: 8,
                 background: 'var(--bg-white)',
-                border: '1px solid var(--border-light)',
-                borderLeft: '4px solid var(--green-primary)',
+                border: '1.5px solid var(--green-primary)',
                 borderRadius: 6,
                 padding: '16px 20px',
                 boxShadow: '0 1px 4px rgba(0, 0, 0, 0.04)',
