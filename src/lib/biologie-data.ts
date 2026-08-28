@@ -39,7 +39,7 @@ export const biologieTopics: Record<string, BiologieTopic> = {
       {
         "id": "2105",
         "title": "Die Nase - Aufbau und Sinus",
-        "folder": "die-sinnesorgane-des-menschen-2105"
+        "folder": "die-nase-aufbau-und-sinus-2105"
       },
       {
         "id": "2106",
@@ -49,16 +49,21 @@ export const biologieTopics: Record<string, BiologieTopic> = {
       {
         "id": "2107",
         "title": "Das Ohr - Trommelfell und Gehörknöchelchen",
+        "folder": "das-ohr-trommelfell-und-gehorknochelchen-2107"
+      },
+      {
+        "id": "2107",
+        "title": "Das Auge - Aufbau und Sehprozess",
         "folder": "das-auge-aufbau-und-sehprozess-2107"
       },
       {
         "id": "2108",
-        "title": "Der Aufbau des menschlichen Herzens",
+        "title": "Nase und Zunge - Geruchs- und Geschmackssinn",
         "folder": "nase-und-zunge-geruchs-und-geschmackssinn-2108"
       },
       {
         "id": "2109",
-        "title": "Die Rolle der weißen Blutkörperchen",
+        "title": "Die Haut - Schichten und Funktionen",
         "folder": "die-haut-schichten-und-funktionen-2109"
       },
       {
@@ -84,13 +89,18 @@ export const biologieTopics: Record<string, BiologieTopic> = {
     ],
     "exercises": [
       {
+        "id": "2108",
+        "title": "Der Aufbau des menschlichen Herzens",
+        "folder": "der-aufbau-des-menschlichen-herzens-2108"
+      },
+      {
         "id": "2110",
         "title": "Der Blutkreislauf - Arterien und Venen",
         "folder": "der-blutkreislauf-arterien-und-venen-2110"
       },
       {
         "id": "2126",
-        "title": "Immunsystem - Leukozyten und Antikörper",
+        "title": "Blutbestandteile und Blutgruppen",
         "folder": "blutbestandteile-und-blutgruppen-2126"
       }
     ],

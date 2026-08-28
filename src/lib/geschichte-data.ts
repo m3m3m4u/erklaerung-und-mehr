@@ -111,78 +111,16 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
     "title": "Das alte Ägypten & Frühe Hochkulturen",
     "category": "Ur- & Frühgeschichte & Antike",
     "shortDesc": "Pharaonen als Gottkönige, Pyramidenbau, Nil als Lebensader, Hieroglyphen und die Reiche Mesopotamiens.",
-    "longDesc": "Der Konflikt zwischen Israel und Palästina dauert bereits seit Jahrzehnten an. Immer wieder eskaliert die Lage, wobei historische, politische und religiöse Ursachen eine friedliche Lösung erschweren. Trotz zahlreicher Verhandlungen bleibt die Region von Spannungen, Gewalt und ungelösten Fragen geprägt. Die Geschichte des Konflikts reicht weit zurück, denn bereits im 6. Jahrhundert vor Christus wurden Juden von den Babyloniern vertrieben. Dadurch begann die jüdische Diaspora, sodass viele Juden jahrhundertelang ohne eigenen Staat lebten. Aufgrund von Diskriminierung und Verfolgung erstarkte im 19. Jahrhundert der Zionismus, der wiederum die Rückkehr nach Palästina forderte. Während des Zweiten Weltkriegs flohen viele Juden dorthin, weshalb es vermehrt zu Spannungen mit der arabischen Bevölkerung kam. Schließlich wurde 1948 der Staat Israel gegründet, wodurch sich der Konflikt weiter verschärfte. Danach folgten mehrere Kriege, beispielsweise der Sechs-Tage-Krieg 1967, sodass die geopolitische Lage bis heute komplex bleibt.",
+    "longDesc": "Das antike Ägypten zählt zu den faszinierendsten frühen Hochkulturen der Menschheitsgeschichte. Entlang des Nils entwickelte sich eine hochentwickelte Zivilisation, die von Pharaonen als göttlichen Herrschern regiert wurde. Der jährliche Nilüberlauf sorgte für fruchtbares Schwemmland und bildete das wirtschaftliche Fundament des Reiches. Mit monumentalen Bauwerken wie den Pyramiden von Gizeh, der Entwicklung der Hieroglyphenschrift, ausgefeilter Verwaltung, Astronomie und ausgeprägtem Totenkult (Mumifizierung) prägte Ägypten über drei Jahrtausende hinweg die Antike – parallel zu den mesopotamischen Hochkulturen der Sumerer, Babylonier und Assyrer.",
     "keyPoints": [
-      "Entstehung des Zionismus, wodurch die Forderung nach einem jüdischen Staat lauter wurde",
-      "Gründung Israels 1948, sodass es zur Teilung des Landes kam",
-      "Mehrere Kriege zwischen Israel und arabischen Staaten, wodurch Gebietsansprüche neu verhandelt wurden",
-      "Rolle der PLO, da sie die Interessen der Palästinenser vertritt",
-      "Einfluss internationaler Akteure, weshalb eine Lösung kompliziert bleibt",
-      "Flüchtlingsfrage, weil viele Palästinenser vertrieben wurden",
-      "Aktuelle Spannungen, da es immer wieder zu Anschlägen und militärischen Auseinandersetzungen kommt",
-      "Zukunftsperspektiven, wobei verschiedene Lösungsansätze diskutiert werden"
+      "Der Nil als Lebensader: Jährliche Nilschwemme ermöglichte ertragreiche Landwirtschaft und Städtebildung",
+      "Pharaonen als gottgleiche Herrscher: Vereinigung von politischer, militärischer und religiöser Macht",
+      "Monumentalarchitektur & Totenkult: Pyramidenbau als monumentale Königsgräber und Glaube an ein Weiterleben im Jenseits",
+      "Schrift & Verwaltung: Hieroglyphen für Tempelinschriften und hieratische/demotische Schrift auf Papyrus",
+      "Gesellschaftsstruktur: Strenge Hierarchie vom Pharao über Wesire, Priester, Schreiber und Handwerker bis zu Bauern",
+      "Parallele Hochkulturen in Mesopotamien: Sumerer (Keilschrift, Zikkurate), Babylonier (Kodex Hammurapi) und Assyrer"
     ],
     "exercises": [
-      {
-        "id": "57",
-        "title": "Eigenschaften der Pyramide",
-        "folder": "eigenschaften-der-pyramide-57"
-      },
-      {
-        "id": "58",
-        "title": "Volumen der Pyramide",
-        "folder": "volumen-der-pyramide-58"
-      },
-      {
-        "id": "59",
-        "title": "Oberfläche der Pyramide",
-        "folder": "oberflache-der-pyramide-59"
-      },
-      {
-        "id": "98",
-        "title": "Pyramide und Satz von Pythagoras",
-        "folder": "pyramide-und-satz-von-pythagoras-98"
-      },
-      {
-        "id": "99",
-        "title": "Oberfläche der Pyramide",
-        "folder": "oberflache-der-pyramide-2-99"
-      },
-      {
-        "id": "100",
-        "title": "Oberfläche der Pyramide",
-        "folder": "oberflache-der-pyramide-3-100"
-      },
-      {
-        "id": "384",
-        "title": "Pyramide",
-        "folder": "pyramide-384"
-      },
-      {
-        "id": "616",
-        "title": "Israel und Palästina",
-        "folder": "israel-und-palastina-616"
-      },
-      {
-        "id": "724",
-        "title": "Studypoint - Pyramide",
-        "folder": "studypoint-pyramide-724"
-      },
-      {
-        "id": "819",
-        "title": "Das Judentum",
-        "folder": "das-judentum-819"
-      },
-      {
-        "id": "849",
-        "title": "Das Judentum",
-        "folder": "das-judentum-2-849"
-      },
-      {
-        "id": "900",
-        "title": "Die Ernährungspyramide",
-        "folder": "die-ernahrungspyramide-900"
-      },
       {
         "id": "1524",
         "title": "Ägypten",
@@ -194,19 +132,9 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "babylonien-2295"
       },
       {
-        "id": "2317",
-        "title": "Der Arabische Frühling",
-        "folder": "der-arabische-fruhling-2317"
-      },
-      {
         "id": "2401",
         "title": "Mose und der Auszug aus Ägypten",
         "folder": "mose-und-der-auszug-aus-gypten-2401"
-      },
-      {
-        "id": "2947",
-        "title": "Die Erde - eine Scheibe oder eine Kugel",
-        "folder": "die-erde-eine-scheibe-oder-eine-kugel-2947"
       },
       {
         "id": "2960",
@@ -281,16 +209,14 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
     "title": "Antikes Griechenland & Attische Demokratie",
     "category": "Ur- & Frühgeschichte & Antike",
     "shortDesc": "Polis-System, Wiege der Demokratie in Athen, Sparta, Alexander der Große, Olympische Spiele und Perserkriege.",
-    "longDesc": "Hier findest du ein Erklärvideo sowie Übungen zu Hermes! Hermes ist in der griechischen Mythologie der Götterbote und eine der vielseitigsten Gottheiten des Olymps. Er ist der Sohn von Zeus und der Nymphe Maia und gilt als Schutzpatron der Reisenden, Händler und Diebe. Neben seiner Rolle als Bote ist Hermes auch der Gott der Weisheit und des Wissens, und er half den Menschen, die Schrift und die Mathematik zu erlernen. Er ist bekannt für seine Schnelligkeit und seine Fähigkeit, zwischen der Welt der Götter und der Welt der Menschen zu vermitteln. Hermes wird oft mit einem geflügelten Helm und geflügelten Sandalen dargestellt, die ihm bei seinen schnellen Reisen helfen. In der römischen Mythologie wird er als Merkur bezeichnet und hat ähnliche Attribute und Funktionen. Hermes ist ein Gott der Griechischen Mythologie. Er kann dem Schulfach Geschichte oder dem Fach Religion zugeordnet werden. Weitere bekannte griechische Götter sind Zeus, Hera, Poseidon, Athena und Aphrodite.",
+    "longDesc": "Das antike Griechenland gilt als Wiege der europäischen Kultur, Philosophie, Wissenschaft und Demokratie. Geteilt in unabhängige Stadtstaaten (Poleis) wie das demokratische Athen und das militärisch organisierte Sparta, einte die Griechen die gemeinsame Sprache, Religion und Kultur. Meilensteine wie die Abwehr der Perserkriege, das Goldene Zeitalter des Perikles, der verheerende Peloponnesische Krieg und die weitreichenden Eroberungen Alexanders des Großen prägten die hellenistische Welt.",
     "keyPoints": [
-      "Pella: Pella war sein Geburtsort. Denn diese Stadt war die Hauptstadt Makedoniens.",
-      "Aristoteles: Aristoteles war Alexanders Lehrer. Außerdem vermittelte er ihm Wissen in verschiedenen Bereichen.",
-      "Schlacht am Granikos: Die Schlacht am Granikos war eine bedeutende Schlacht gegen die Perser. Denn dieser Sieg war ein wichtiger Schritt auf seinem Eroberungszug.",
-      "Schlacht bei Issos: Auch die Schlacht bei Issos war ein entscheidender Sieg gegen die Perser. Außerdem festigte dieser Sieg Alexanders Ruf als Feldherr.",
-      "Belagerung von Tyros: Die Belagerung von Tyros war eine schwierige militärische Operation. Denn Alexander ließ extra einen Damm bauen, um die Stadt einzunehmen.",
-      "Alexandria: Er gründete mehrere Städte, darunter Alexandria in Ägypten. Dadurch verbreitete sich die griechische Kultur im eroberten Gebiet.",
-      "Feldzug nach Indien: Alexander führte sein Heer bis nach Indien. Allerdings kehrte er aufgrund der Erschöpfung seiner Truppen um.",
-      "Otto I.: Otto I. war der erste König Griechenlands. Denn er kam aus Bayern."
+      "Polis-System: Unabhängige Stadtstaaten mit unterschiedlichen Verfassungen (Demokratie in Athen, Oligarchie in Sparta)",
+      "Attische Demokratie: Direkte Volksherrschaft männlicher Vollbürger (Volksversammlung, Rat der 500, Scherbengericht)",
+      "Perserkriege (490–479 v. Chr.): Marathon, Thermopylen und Seeschlacht von Salamis sicherten die griechische Unabhängigkeit",
+      "Kulturelle Blüte: Philosophie (Sokrates, Platon, Aristoteles), Theater (Tragödie & Komödie), Olympische Spiele und Mythologie",
+      "Peloponnesischer Krieg (431–404 v. Chr.): Konflikt zwischen Athener Seebund und Peloponnesischem Bund um Sparta",
+      "Alexander der Große & Hellenismus: Makedonischer Eroberungszug bis nach Ägypten und Indien; Verschmelzung von griechischer und orientalischer Kultur"
     ],
     "exercises": [
       {
@@ -307,22 +233,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "1323",
         "title": "Trojaner",
         "folder": "trojaner-1323"
-      },
-      {
-        "id": "1656",
-        "title": "Griechenland",
-        "folder": "griechenland-1656"
-      },
-      { id: "2436", title: "Christliche Kunst und Symbole", folder: "christliche-kunst-und-symbole-2436" },
-      {
-        "id": "2903",
-        "title": "Das Königreich Griechenland",
-        "folder": "das-konigreich-griechenland-2903"
-      },
-      {
-        "id": "2907",
-        "title": "Das Perserreich",
-        "folder": "das-perserreich-2907"
       },
       {
         "id": "1212",
@@ -422,142 +332,21 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
     "title": "Das Römische Reich: Republik & Kaiserzeit",
     "category": "Ur- & Frühgeschichte & Antike",
     "shortDesc": "Vom Stadtstaat zum Weltreich, Senat und Volk (SPQR), Julius Caesar, Kaiser Augustus, Legionen und Römisches Recht.",
-    "longDesc": "Das Christentum zählt zu den größten Weltreligionen und ist auf fast allen Kontinenten verbreitet. Seine Geschichte reicht weit zurück, denn bereits vor über 2000 Jahren begannen die ersten Anhänger, den Glauben an Jesus Christus weiterzugeben. Bis heute prägt das Christentum nicht nur religiöse Traditionen, sondern auch Kunst, Kultur und gesellschaftliche Werte. Jesus Christus gilt als Begründer des Christentums, da er mit seinen Lehren viele Menschen beeinflusste. Er lebte damals im Gebiet der Juden und wurde von seinen Anhängern als Sohn Gottes verehrt. Seine Botschaft wurde weitergegeben, sodass sich die neue Glaubensrichtung schnell ausbreiten konnte. Schließlich wurde das Christentum im Römischen Reich zur Staatsreligion erklärt. Dadurch gewann es zunehmend an Bedeutung und erreichte viele Regionen weltweit. Heute gibt es mehrere christliche Kirchen, darunter die römisch-katholische, die orthodoxe sowie die evangelische Kirche. Obwohl sie sich in manchen Aspekten unterscheiden, teilen sie denselben Glauben an Jesus Christus.",
+    "longDesc": "Das Römische Reich entwickelte sich von einer kleinen Siedlung am Tiber über die Römische Republik bis hin zu einem antiken Weltreich rund um das gesamte Mittelmeer (Mare Nostrum). Die Epoche der Republik war geprägt vom Machtkampf zwischen Patriziern und Plebejern, der Entstehung des Senats und der Ämterlaufbahn (Cursus Honorum). Nach Bürgerkriegen und der Diktatur Caesars begründete Kaiser Augustus 27 v. Chr. das Prinzipat (Kaiserzeit). Unter der 'Pax Romana' erlebte das Reich eine wirtschaftliche und kulturelle Blütezeit, gesichert durch disziplinierte Legionen, ausgefeiltes Straßennetz, Ingenieurbaukunst (Aquädukte, Kolosseum) und das Römische Recht, dessen Grundsätze bis heute fortwirken.",
     "keyPoints": [
-      "Die Bibel besteht aus dem Alten und dem Neuen Testament",
-      "Die Dreifaltigkeit umfasst Gott, Jesus und den Heiligen Geist",
-      "Weihnachten feiert die Geburt Jesu, während Ostern die Auferstehung würdigt",
-      "Die Kirche spaltete sich in verschiedene Strömungen mit eigenen Traditionen",
-      "Christliche Werte beeinflussen seit Jahrhunderten Ethik, Kultur und Gesellschaft",
-      "geboren 1918 in Hamburg",
-      "Studium der Staats- und Volkswirtschaft nach dem Krieg",
-      "Eintritt in die SPD im Jahr 1946"
+      "Gründungsmythen & Königszeit: Romulus und Remus (753 v. Chr.), Vertreibung des letzten Königs Tarquinius Superbus",
+      "Römische Republik (SPQR): Senat, Konsuln, Volkstribune und die Zwölftafelgesetze als Rechtsgrundlage",
+      "Expansion & Punische Kriege: Konflikte gegen Karthago (Hannibal) sicherten Rom die Vormachtstellung im Mittelmeerraum",
+      "Krise der Republik & Cäsar: Bürgerkriege, Triumvirat, Ernennung Caesars zum Diktator auf Lebenszeit und seine Ermordung 44 v. Chr.",
+      "Kaiserzeit unter Augustus: Begründung des Prinzipats (27 v. Chr.), Pax Romana, monumentale Bauprogramme und Verwaltung",
+      "Militär, Infrastruktur & Recht: Legionen, Grenzwälle (Limes), befestigte Straßen, Aquädukte und Kodifikation des Römischen Rechts",
+      "Spätantike & Teilung: Reichsteilung 395 n. Chr. in West- und Ostrom sowie Fall Westroms 476 n. Chr."
     ],
     "exercises": [
-      {
-        "id": "68",
-        "title": "Romantik",
-        "folder": "romantik-68"
-      },
-      {
-        "id": "71",
-        "title": "(13a) Musik in der Romantik",
-        "folder": "13a-musik-in-der-romantik-71"
-      },
-      {
-        "id": "170",
-        "title": "Römische Zahlen einfach",
-        "folder": "romische-zahlen-einfach-2-170"
-      },
-      {
-        "id": "171",
-        "title": "Römische Zahlen mittel",
-        "folder": "romische-zahlen-mittel-171"
-      },
-      {
-        "id": "172",
-        "title": "Römische Zahlen schwer",
-        "folder": "romische-zahlen-schwer-172"
-      },
-      {
-        "id": "173",
-        "title": "Römische Zahlen schwer",
-        "folder": "romische-zahlen-schwer-2-173"
-      },
-      {
-        "id": "292",
-        "title": "Römische Zahlen (Erklärvideo und Übungen)",
-        "folder": "romische-zahlen-erklarvideo-und-bungen-292"
-      },
-      {
-        "id": "297",
-        "title": "Renaissance - Barock - Klassik - Romantik",
-        "folder": "renaissance-barock-klassik-romantik-297"
-      },
-      {
-        "id": "299",
-        "title": "Der Stromkreis",
-        "folder": "der-stromkreis-299"
-      },
-      {
-        "id": "300",
-        "title": "Spannung, Stromstärke und Widerstand",
-        "folder": "spannung-stromstarke-und-widerstand-300"
-      },
-      {
-        "id": "316",
-        "title": "Wechselstrom, Gleichstrom und Stromrichtung",
-        "folder": "wechselstrom-gleichstrom-und-stromrichtung-316"
-      },
-      {
-        "id": "332",
-        "title": "Richtiger Umgang mit elektrischem Strom",
-        "folder": "richtiger-umgang-mit-elektrischem-strom-332"
-      },
-      {
-        "id": "341",
-        "title": "Licht, Wärme und Kraft aus elektrischem Strom",
-        "folder": "licht-warme-und-kraft-aus-elektrischem-strom-341"
-      },
-      {
-        "id": "505",
-        "title": "Musikgeschichte - Romantik",
-        "folder": "musikgeschichte-romantik-505"
-      },
-      {
-        "id": "624",
-        "title": "Römische Zahlen",
-        "folder": "romische-zahlen-624"
-      },
-      {
-        "id": "636",
-        "title": "Music from the Stone Age to Antiquity",
-        "folder": "music-from-the-stone-age-to-antiquity-636"
-      },
-      {
-        "id": "641",
-        "title": "Music of the Romantic Period",
-        "folder": "music-of-the-romantic-period-641"
-      },
-      {
-        "id": "818",
-        "title": "Das Christentum",
-        "folder": "das-christentum-818"
-      },
-      {
-        "id": "848",
-        "title": "Das Christentum",
-        "folder": "das-christentum-2-848"
-      },
-      {
-        "id": "890",
-        "title": "Helmut Schmidt",
-        "folder": "helmut-schmidt-890"
-      },
       {
         "id": "892",
         "title": "Karthago",
         "folder": "karthago-892"
-      },
-      {
-        "id": "1036",
-        "title": "Die Flüchtlingskrise",
-        "folder": "die-fluchtlingskrise-1036"
-      },
-      {
-        "id": "1169",
-        "title": "Chrom",
-        "folder": "chrom-1169"
-      },
-      {
-        "id": "1178",
-        "title": "Brom",
-        "folder": "brom-1178"
-      },
-      {
-        "id": "1263",
-        "title": "Google Chrome",
-        "folder": "google-chrome-1263"
       },
       {
         "id": "1364",
@@ -585,14 +374,14 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "fall-des-westromischen-reiches-1371"
       },
       {
-        "id": "1406",
-        "title": "Römische Literatur",
-        "folder": "romische-literatur-1406"
-      },
-      {
         "id": "1395",
         "title": "Pompeji und das römische Alltagsleben",
         "folder": "pompeji-und-das-romische-alltagsleben-1395"
+      },
+      {
+        "id": "1406",
+        "title": "Römische Literatur",
+        "folder": "romische-literatur-1406"
       },
       {
         "id": "1407",
@@ -605,85 +394,9 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "rom-1833"
       },
       {
-        "id": "2020",
-        "title": "Der Golfstrom",
-        "folder": "der-golfstrom-2020"
-      },
-      {
-        "id": "2097",
-        "title": "Geschlechtschromosomen - XX und XY",
-        "folder": "geschlechtschromosomen-xx-und-xy-2097"
-      },
-      {
-        "id": "2107",
-        "title": "Das Ohr - Trommelfell und Gehörknöchelchen",
-        "folder": "das-ohr-trommelfell-und-gehorknochelchen-2107"
-      },
-      {
-        "id": "2167",
-        "title": "Die Rolle der Chromosomen",
-        "folder": "die-rolle-der-chromosomen-2167"
-      },
-      {
-        "id": "2239",
-        "title": "Das Stromnetz",
-        "folder": "das-stromnetz-2239"
-      },
-      {
-        "id": "2241",
-        "title": "Der Elektromagnet",
-        "folder": "der-elektromagnet-2241"
-      },
-      {
-        "id": "2242",
-        "title": "Die elektromagnetische Induktion",
-        "folder": "die-elektromagnetische-induktion-2242"
-      },
-      { id: "2243", title: "Die elektromagnetischeh Kraft", folder: "die-elektromagnetischeh-kraft-2243" },
-      {
-        "id": "2244",
-        "title": "Der Gleichstrommotor",
-        "folder": "der-gleichstrommotor-2244"
-      },
-      {
-        "id": "2246",
-        "title": "Der Wechselstrommotor",
-        "folder": "der-wechselstrommotor-2246"
-      },
-      {
-        "id": "2248",
-        "title": "Die elektromagnetische Datenspeicherung",
-        "folder": "die-elektromagnetische-datenspeicherung-2248"
-      },
-      {
-        "id": "2292",
-        "title": "Andrew Jackson",
-        "folder": "andrew-jackson-der-siebte-prasident-der-usa-2292"
-      },
-      {
-        "id": "2296",
-        "title": "Barack Obama",
-        "folder": "barack-obama-2296"
-      },
-      {
-        "id": "2298",
-        "title": "Bertha von Suttner",
-        "folder": "bertha-von-suttner-2298"
-      },
-      {
-        "id": "2307",
-        "title": "Das Heilige Römische Reich",
-        "folder": "das-heilige-romische-reich-2307"
-      },
-      {
-        "id": "2308",
-        "title": "Das Jahr ohne Sommer",
-        "folder": "das-jahr-ohne-sommer-2308"
-      },
-      {
-        "id": "2319",
-        "title": "Der Englische Bürgerkrieg",
-        "folder": "der-englische-burgerkrieg-2319"
+        "id": "2323",
+        "title": "Der Limes",
+        "folder": "der-limes-2323"
       },
       {
         "id": "2333",
@@ -691,140 +404,9 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "die-gallier-2333"
       },
       {
-        "id": "2339",
-        "title": "Die Goldene Bulle",
-        "folder": "die-goldene-bulle-2339"
-      },
-      {
-        "id": "2342",
-        "title": "Die Inquisition",
-        "folder": "die-inquisition-2342"
-      },
-      {
-        "id": "2343",
-        "title": "Die Julirevolution",
-        "folder": "die-julirevolution-2343"
-      },
-      {
-        "id": "2346",
-        "title": "Die Leibeigenschaft",
-        "folder": "die-leibeigenschaft-2346"
-      },
-      {
         "id": "2351",
         "title": "Die Punischen Kriege",
         "folder": "die-nuklearkatastrophe-von-tschernobyl-5-2351"
-      },
-      {
-        "id": "2352",
-        "title": "Die russische Revolution",
-        "folder": "die-nuklearkatastrophe-von-tschernobyl-6-2352"
-      },
-      {
-        "id": "2357",
-        "title": "Geschichte des Strafrechts",
-        "folder": "die-nuklearkatastrophe-von-tschernobyl-11-2357"
-      },
-      {
-        "id": "2361",
-        "title": "Vielvölkerstaat Österreich",
-        "folder": "vielvolkerstaat-sterreich-2361"
-      },
-      {
-        "id": "2374",
-        "title": "Literaturepoche Romantik",
-        "folder": "literaturepoche-romantik-2374"
-      },
-      {
-        "id": "2383",
-        "title": "Literaturepoche Neuromatik",
-        "folder": "literaturepoche-neuromatik-2383"
-      },
-      { id: "2435", title: "Konzile und Meilensteine des Glaubens", folder: "konzile-und-meilensteine-des-glaubens-2435" },
-      {
-        "id": "2497",
-        "title": "Wie funktioniert ein Barometer",
-        "folder": "wie-funktioniert-ein-barometer-2497"
-      },
-      {
-        "id": "2562",
-        "title": "Wie funktioniert ein Spektrometer",
-        "folder": "wie-funktioniert-ein-spektrometer-2562"
-      },
-      {
-        "id": "2650",
-        "title": "Die Ottonen",
-        "folder": "buddhismus-in-der-modernen-welt-31-2650"
-      },
-      {
-        "id": "2685",
-        "title": "Monochromatische Kunst",
-        "folder": "monochromatische-kunst-2685"
-      },
-      {
-        "id": "2819",
-        "title": "Die Rettung der Andromeda von Pierre Mignard (1679)",
-        "folder": "die-rettung-der-andromeda-von-pierre-mignard-1679-2819"
-      },
-      {
-        "id": "2908",
-        "title": "Das russische Zarenreich",
-        "folder": "das-russische-zarenreich-2908"
-      },
-      {
-        "id": "2923",
-        "title": "Der Panslawismus",
-        "folder": "der-panslawismus-2923"
-      },
-      {
-        "id": "2954",
-        "title": "Die Geschichte der Schweiz",
-        "folder": "die-geschichte-der-schweiz-2954"
-      },
-      {
-        "id": "2966",
-        "title": "Die nationale Einigung Italiens",
-        "folder": "die-nationale-einigung-italiens-2966"
-      },
-      {
-        "id": "2989",
-        "title": "Die Völkerwanderung",
-        "folder": "die-volkerwanderung-2989"
-      },
-      {
-        "id": "3009",
-        "title": "Heinrich VIII. und die anglikanische Kirche",
-        "folder": "heinrich-viii-und-die-anglikanische-kirche-3009"
-      },
-      {
-        "id": "3013",
-        "title": "John F. Kennedy",
-        "folder": "john-f-kennedy-3013"
-      },
-      {
-        "id": "3025",
-        "title": "Karl V.",
-        "folder": "karl-v-3025"
-      },
-      {
-        "id": "3054",
-        "title": "Richard Nixon und die Watergate-Affaire",
-        "folder": "richard-nixon-und-die-watergateaffaire-3054"
-      },
-      {
-        "id": "3112",
-        "title": "Romanik und Gotik",
-        "folder": "romanik-und-gotik-3112"
-      },
-      {
-        "id": "3156",
-        "title": "Die Alemannen",
-        "folder": "die-alemannen-3156"
-      },
-      {
-        "id": "3161",
-        "title": "Die Franken",
-        "folder": "die-franken-3161"
       },
       {
         "id": "3162",
@@ -832,59 +414,9 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "die-germanen-und-die-romer-3162"
       },
       {
-        "id": "3163",
-        "title": "Die Goten",
-        "folder": "die-goten-3163"
-      },
-      {
-        "id": "3168",
-        "title": "Die Markomannen",
-        "folder": "die-markomannen-3168"
-      },
-      {
-        "id": "3172",
-        "title": "Die Vandalen (germanischer Stamm)",
-        "folder": "die-vandalen-germanischer-stamm-3172"
-      },
-      {
         "id": "3173",
         "title": "Die Varusschlacht",
         "folder": "die-varusschlacht-3173"
-      },
-      {
-        "id": "3175",
-        "title": "Geschichte der Eisenbahn",
-        "folder": "geschichte-der-eisenbahn-3175"
-      },
-      {
-        "id": "3188",
-        "title": "Escape Room \"Der elektrische Strom\"",
-        "folder": "escape-room-quot-der-elektrische-strom-quot-3188"
-      },
-      {
-        "id": "3189",
-        "title": "Escape Room \"Strom im Alltag\"",
-        "folder": "escape-room-quot-strom-im-alltag-quot-3189"
-      },
-      {
-        "id": "3216",
-        "title": "Escape Room \"Komponisten der Romantik 2\"",
-        "folder": "escape-room-quot-komponisten-der-romantik-2-quot-3216"
-      },
-      {
-        "id": "3217",
-        "title": "Escape Room \"Komponisten der Romantik 1\"",
-        "folder": "escape-room-quot-komponisten-der-romantik-1-quot-3217"
-      },
-      {
-        "id": "3218",
-        "title": "Escape Room \"Deutsche Komponisten der Romantik\"",
-        "folder": "escape-room-quot-deutsche-komponisten-der-romantik-quot-3218"
-      },
-      {
-        "id": "3219",
-        "title": "Escape Room \"Österreichische Komponisten der Romantik\"",
-        "folder": "escape-room-quot-sterreichische-komponisten-der-romantik-quot-3219"
       },
       {
         "id": "3369",
@@ -907,71 +439,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "geschichte-und-politik-im-antiken-rom-3372"
       },
       {
-        "id": "2341",
-        "title": "Die Hunnen",
-        "folder": "die-hunnen-2341"
-      },
-      {
-        "id": "3122",
-        "title": "Ostarrichi – Geburtsstunde Österreichs",
-        "folder": "ostarrichi-geburtsstunde-sterreichs-3122"
-      },
-      {
-        "id": "2323",
-        "title": "Der Limes",
-        "folder": "der-limes-2323"
-      },
-      {
-        "id": "2354",
-        "title": "Die Seidenstraße",
-        "folder": "die-nuklearkatastrophe-von-tschernobyl-8-2354"
-      },
-      {
-        "id": "2336",
-        "title": "Die Germanen",
-        "folder": "die-germanen-2336"
-      },
-      {
-        "id": "3084",
-        "title": "Das Frühmittelalter",
-        "folder": "das-fruhmittelalter-3084"
-      },
-      {
-        "id": "3104",
-        "title": "Der Roman die Heimsuchung von Jenny Erpenbck",
-        "folder": "der-roman-die-heimsuchung-von-jenny-erpenbck-3104"
-      },
-      {
-        "id": "3108",
-        "title": "Der Roman die Heimsuchung von Jenny Erpenbck - 1952 - Anfangsphase der DDR",
-        "folder": "der-roman-die-heimsuchung-von-jenny-erpenbck-1952-anfangsphase-der-ddr-3108"
-      },
-      {
-        "id": "3115",
-        "title": "Die Karolinger",
-        "folder": "die-karolinger-3115"
-      },
-      {
-        "id": "3147",
-        "title": "Die Kraft der Kompromisse - wie man gemeinsam Lösungen findet",
-        "folder": "die-kraft-der-kompromisse-wie-man-gemeinsam-losungen-findet-3147"
-      },
-      {
-        "id": "3467",
-        "title": "William Shakespeare – Romeo und Julia (Lernsong)",
-        "folder": "william-shakespeare-romeo-und-julia-3467"
-      },
-      {
-        "id": "3470",
-        "title": "Günther Grass - die Blechtrommel (Lernsong)",
-        "folder": "gunther-grass-die-blechtrommel-3470"
-      },
-      {
-        "id": "3832",
-        "title": "Erwin Rommel",
-        "folder": "erwin-rommel-3832"
-      },
-      {
         "id": "3929",
         "title": "Hannibal",
         "folder": "hannibal-3929"
@@ -987,89 +454,14 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "julius-caesar-4364"
       },
       {
-        "id": "4375",
-        "title": "Kevin Systrom",
-        "folder": "kevin-systrom-4375"
-      },
-      {
-        "id": "4573",
-        "title": "William Shakespeare – Romeo und Julia",
-        "folder": "william-shakespeare-romeo-und-julia-2-4573"
-      },
-      {
-        "id": "4642",
-        "title": "Literaturepoche Romantik",
-        "folder": "literaturepoche-romantik-2-4642"
-      },
-      {
-        "id": "4786",
-        "title": "Die Kunstepoche Romantik",
-        "folder": "die-kunstepoche-romantik-4786"
-      },
-      {
-        "id": "5210",
-        "title": "Prometheus von Johann Wolfgang von Goethe",
-        "folder": "prometheus-von-johann-wolfgang-von-goethe-5210"
-      },
-      {
-        "id": "5251",
-        "title": "Das elektromagnetische Spektrum",
-        "folder": "das-elektromagnetische-spektrum-5251"
-      },
-      {
-        "id": "5259",
-        "title": "Der Elektromagnet",
-        "folder": "der-elektromagnet-2-5259"
-      },
-      {
-        "id": "5260",
-        "title": "Der Elektromotor",
-        "folder": "der-elektromotor-5260"
-      },
-      {
-        "id": "5288",
-        "title": "Drehstrom",
-        "folder": "drehstrom-5288"
-      },
-      {
-        "id": "5291",
-        "title": "Elektromagnetische Wellen",
-        "folder": "elektromagnetische-wellen-5291"
-      },
-      {
-        "id": "5294",
-        "title": "Generatoren - stromerzeugende Maschinen",
-        "folder": "generatoren-stromerzeugende-maschinen-5294"
-      },
-      {
         "id": "5395",
         "title": "Geschichte des Römischen Reiches",
         "folder": "geschichte-des-romischen-reiches-5395"
       },
       {
         "id": "5403",
-        "title": "Was wäre, wenn das Römische Reich immer noch existieren würde …",
+        "title": "Was wäre, wenn das Römische Reich nie gefallen wäre –",
         "folder": "was-ware-wenn-das-romische-reich-immer-noch-existieren-wurde-5403"
-      },
-      {
-        "id": "5485",
-        "title": "Elektromobilität im Aufschwung - Chancen und Grenzen",
-        "folder": "elektromobilitat-im-aufschwung-chancen-und-grenzen-5485"
-      },
-      {
-        "id": "6100",
-        "title": "Rom",
-        "folder": "rom-2-6100"
-      },
-      {
-        "id": "6580",
-        "title": "Der Vatikan und die römische Kurie",
-        "folder": "der-vatikan-und-die-romische-kurie-6580"
-      },
-      {
-        "id": "6617",
-        "title": "Die römische Kurie - Aufbau und Funktion",
-        "folder": "die-romische-kurie-aufbau-und-funktion-6617"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Das%20R%C3%B6mische%20Reich%3A%20Republik%20%26%20Kaiserzeit+geschichte&t=3752"
@@ -1114,277 +506,35 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
     "title": "Rittertum, Burgen & Ritterausbildung",
     "category": "Das Mittelalter",
     "shortDesc": "Vom Pagen zum Ritter mit Schwertleite, ritterliche Tugenden, Burgenbau, Belagerung und Turniere.",
-    "longDesc": "Der Amerikanische Bürgerkrieg veränderte die Vereinigten Staaten für immer. Dabei ging es nicht nur um die Sklaverei, sondern auch um wirtschaftliche und politische Spannungen zwischen Nord- und Südstaaten. Schließlich führte der Konflikt zu einem der verlustreichsten Kriege des Landes. Doch welche Ursachen spielten eine Rolle, und welche Folgen hatte der Krieg für die Gesellschaft? Der Amerikanische Bürgerkrieg begann 1861, nachdem die Südstaaten die Union verließen. Denn sie fürchteten, dass die Abschaffung der Sklaverei ihre Wirtschaft ruinieren würde. Zudem bestanden große Unterschiede zwischen Nord und Süd, da die Nordstaaten auf Industrie setzten, während die Südstaaten stark von der Plantagenwirtschaft abhingen. Außerdem führten Schutzzölle, die die Nordstaaten forderten, zu Konflikten, weil die Südstaaten lieber freien Handel betrieben. Nachdem Abraham Lincoln Präsident wurde, gründeten die Südstaaten die Konföderation unter Jefferson Davis. Dadurch eskalierten die Spannungen weiter, sodass es schließlich zum Krieg kam. Der Konflikt begann mit dem Angriff auf Fort Sumter. Obwohl die Südstaaten anfangs Erfolge erzielten, konnten die Nordstaaten durch wirtschaftliche Stärke und bessere Strategie den Krieg für sich entscheiden.",
+    "longDesc": "Das Rittertum bildete den kriegerischen und gesellschaftlichen Kern des mittelalterlichen Adels. Der Weg zum Ritter war lang und streng geregelt: Vom siebenjährigen Pagen über den vierzehnjährigen Knappen bis zur feierlichen Schwertleite mit Ritterschlag. Burgen dienten als wehrhafte Verteidigungsanlagen, Wohnsitz des Adels und Verwaltungszentren. Ritterliche Tugenden wie Tapferkeit, Treue, Minne und Frömmigkeit prägten das ritterliche Selbstverständnis, das sich auch in Turnieren und Ritterorden widerspiegelte.",
     "keyPoints": [
-      "Sezession der Südstaaten nach Lincolns Wahl",
-      "Eskalation der Spannungen durch politische Differenzen",
-      "Beginn des Krieges mit dem Angriff auf Fort Sumter",
-      "Wirtschaftliche Blockade der Südstaaten durch die Union",
-      "Entscheidende Schlachten wie Gettysburg und Antietam",
-      "Kapitulation der Südstaaten 1865 nach schweren Verlusten",
-      "Abschaffung der Sklaverei und Stärkung der Bundesregierung",
-      "Langfristige soziale und wirtschaftliche Auswirkungen auf die USA"
+      "Stufen der Ritterausbildung: Page (ab 7 Jahren, Erziehung bei Hofe) ➔ Knappe (ab 14 Jahren, Waffen- und Reitdienst) ➔ Ritter (ab 21 Jahren)",
+      "Die Schwertleite & der Ritterschlag: Feierliche Zeremonie mit Waffenübergabe, Treueeid und Einsegnung durch die Kirche",
+      "Ritterliche Tugenden (Codex): Tapferkeit (strenuitas), Treue (triuwe), Mäßigung (maeze), Freigiebigkeit (milte) und Minne",
+      "Burgenbau & Wehrarchitektur: Bergfried als letzter Rückzugsort, Wehrmauern, Burggraben, Zugbrücke, Palas (Wohngebäude) und Kemenate",
+      "Turniere & Waffenschau: Lanzengang (Tjost) und Massenkampf (Buhurt) als Training für den Ernstfall und gesellschaftliches Spektakel",
+      "Ritterorden im Mittelalter: Geistliche Ritterorden wie Templer, Johanniter und Deutscher Orden während der Kreuzzüge"
     ],
     "exercises": [
-      {
-        "id": "479",
-        "title": "Salzburg",
-        "folder": "salzburg-479"
-      },
-      {
-        "id": "484",
-        "title": "Burgenland",
-        "folder": "burgenland-484"
-      },
-      {
-        "id": "743",
-        "title": "Der amerikanische Bürgerkrieg",
-        "folder": "der-amerikanische-burgerkrieg-743"
-      },
-      {
-        "id": "882",
-        "title": "Angela Merkel",
-        "folder": "angela-merkel-882"
-      },
-      {
-        "id": "960",
-        "title": "Brandenburg",
-        "folder": "brandenburg-960"
-      },
-      {
-        "id": "965",
-        "title": "Mecklenburg-Vorpommern",
-        "folder": "mecklenburg-vorpommern-965"
-      },
-      {
-        "id": "1021",
-        "title": "Brandenburg",
-        "folder": "brandenburg-2-1021"
-      },
-      {
-        "id": "1048",
-        "title": "Mecklenburg-Vorpommern",
-        "folder": "mecklenburg-vorpommern-2-1048"
-      },
-      {
-        "id": "1053",
-        "title": "Hamburg",
-        "folder": "hamburg-1053"
-      },
-      {
-        "id": "1435",
-        "title": "Klosterneuburg",
-        "folder": "klosterneuburg-1435"
-      },
-      {
-        "id": "1448",
-        "title": "Salzburg",
-        "folder": "salzburg-2-1448"
-      },
-      {
-        "id": "1493",
-        "title": "Freiburg im Breisgau",
-        "folder": "freiburg-im-breisgau-1493"
-      },
-      {
-        "id": "1494",
-        "title": "Magdeburg",
-        "folder": "magdeburg-1494"
-      },
-      {
-        "id": "1503",
-        "title": "Augsburg",
-        "folder": "augsburg-1503"
-      },
-      {
-        "id": "1511",
-        "title": "Duisburg",
-        "folder": "duisburg-1511"
-      },
-      {
-        "id": "1545",
-        "title": "Aschaffenburg",
-        "folder": "aschaffenburg-1545"
-      },
-      {
-        "id": "1599",
-        "title": "Cloppenburg",
-        "folder": "cloppenburg-1599"
-      },
-      {
-        "id": "1615",
-        "title": "Duisburg",
-        "folder": "duisburg-2-1615"
-      },
-      {
-        "id": "1619",
-        "title": "Edinburgh",
-        "folder": "edinburgh-1619"
-      },
-      {
-        "id": "1633",
-        "title": "Flensburg",
-        "folder": "flensburg-1633"
-      },
-      {
-        "id": "1637",
-        "title": "Freiburg",
-        "folder": "freiburg-1637"
-      },
-      {
-        "id": "1742",
-        "title": "Limburg an der Lahn",
-        "folder": "limburg-an-der-lahn-1742"
-      },
-      {
-        "id": "1758",
-        "title": "Klosterneuburg",
-        "folder": "klosterneuburg-2-1758"
-      },
-      {
-        "id": "1766",
-        "title": "Marburg",
-        "folder": "marburg-1766"
-      },
-      {
-        "id": "1849",
-        "title": "Sankt Petersburg",
-        "folder": "sankt-petersburg-1849"
-      },
-      {
-        "id": "1864",
-        "title": "Siegburg",
-        "folder": "siegburg-1864"
-      },
-      {
-        "id": "2313",
-        "title": "Aufstieg der Habsburger",
-        "folder": "aufstieg-der-habsburger-2313"
-      },
-      {
-        "id": "2885",
-        "title": "Abraham Lincoln",
-        "folder": "abraham-lincoln-2885"
-      },
-      {
-        "id": "2909",
-        "title": "Das Weltreich von Karl V.",
-        "folder": "das-weltreich-von-karl-v-2909"
-      },
-      {
-        "id": "2912",
-        "title": "Der Augsburger Religionsfriede",
-        "folder": "der-augsburger-religionsfriede-2912"
-      },
-      {
-        "id": "2959",
-        "title": "Die Heiratspolitik der Habsburger",
-        "folder": "die-heiratspolitik-der-habsburger-2959"
-      },
-      {
-        "id": "2992",
-        "title": "Die WHO",
-        "folder": "die-who-2992"
-      },
-      {
-        "id": "3018",
-        "title": "Kaiser Josef II. und seine Reformen",
-        "folder": "kaiser-josef-ii-und-seine-reformen-3018"
-      },
-      {
-        "id": "3019",
-        "title": "Kaiser Karl I. von Österreich-Ungarn",
-        "folder": "kaiser-karl-i-von-sterreich-ungarn-3019"
-      },
-      {
-        "id": "3022",
-        "title": "Kaiserin Maria Theresia",
-        "folder": "kaiserin-maria-theresia-3022"
-      },
-      {
-        "id": "3028",
-        "title": "Kämpfe von Schattendorf",
-        "folder": "kampfe-von-schattendorf-3028"
-      },
-      {
-        "id": "3048",
-        "title": "Paul von Hindenburg",
-        "folder": "paul-von-hindenburg-3048"
-      },
       {
         "id": "3055",
         "title": "Ritter und Burgen im Mittelalter",
         "folder": "ritter-und-burgen-im-mittelalter-3055"
       },
       {
-        "id": "3159",
-        "title": "Die Burgunden",
-        "folder": "die-burgunden-3159"
+        "id": "3031",
+        "title": "Lehenswesen und Grundherrschaft im Mittelalter",
+        "folder": "lehenswesen-und-grundherrschaft-im-mittelalter-3031"
       },
       {
-        "id": "3312",
-        "title": "Die Habsburger",
-        "folder": "die-habsburger-3312"
+        "id": "3335",
+        "title": "Adelsgeschlechter im Mittelalter",
+        "folder": "adelsgeschlechter-im-mittelalter-3335"
       },
       {
-        "id": "3085",
-        "title": "Das Hochmittelalter",
-        "folder": "das-hochmittelalter-3085"
-      },
-      {
-        "id": "3070",
-        "title": "Zerfall der Habsburgmonarchie",
-        "folder": "zerfall-der-habsburgmonarchie-3070"
-      },
-      {
-        "id": "3072",
-        "title": "Wien zur Zeit der Monarchie",
-        "folder": "arbeitslosigkeit-nach-dem-ersten-weltkrieg-3-3072"
-      },
-      {
-        "id": "5665",
-        "title": "Die Festung Hohensalzburg",
-        "folder": "die-festung-hohensalzburg-5665"
-      },
-      {
-        "id": "5667",
-        "title": "Die Geschichte des Burgenlandes",
-        "folder": "die-geschichte-des-burgenlandes-5667"
-      },
-      {
-        "id": "5671",
-        "title": "Die Geschichte Salzburgs",
-        "folder": "die-geschichte-salzburgs-5671"
-      },
-      {
-        "id": "5675",
-        "title": "Die Hofburg",
-        "folder": "die-hofburg-5675"
-      },
-      {
-        "id": "5690",
-        "title": "Die Schattenburg",
-        "folder": "die-schattenburg-5690"
-      },
-      {
-        "id": "5720",
-        "title": "Salzburg (Stadt)",
-        "folder": "salzburg-stadt-5720"
-      },
-      {
-        "id": "5721",
-        "title": "Salzburg und ihre Salzbergwerke",
-        "folder": "salzburg-und-ihre-salzbergwerke-5721"
-      },
-      {
-        "id": "6008",
-        "title": "Hamburg",
-        "folder": "hamburg-3-6008"
-      },
-      {
-        "id": "6031",
-        "title": "Johannesburg",
-        "folder": "johannesburg-6031"
+        "id": "3333",
+        "title": "Gesellschaft im Mittelalter",
+        "folder": "gesellschaft-im-mittelalter-3333"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Rittertum%2C%20Burgen%20%26%20Ritterausbildung+geschichte&t=3752"
@@ -1921,33 +1071,20 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
     "slug": "absolutismus-und-ludwig-xiv",
     "title": "Absolutismus & der Sonnenkönig Ludwig XIV.",
     "category": "Frühe Neuzeit & Revolutionen",
-    "shortDesc": "'L'État, c'est moi', Schloss Versailles, die 5 Säulen der Macht, Merkantilismus und Hofleben.",
-    "longDesc": "Hast du dich schon einmal gefragt, wie Könige früher regiert haben? Besonders ein König, der als \"Sonnenkönig\" bekannt wurde, hat durch den Absolutismus Geschichte geschrieben. Wenn du mehr über diese faszinierende Epoche erfahren möchtest, bist du hier genau richtig! Der Absolutismus ist eine der spannendsten Zeiten der Geschichte. Stell dir vor: Ein einziger Mensch hält die gesamte Macht in seinen Händen. Genau so war es im Absolutismus. Wir werfen einen Blick auf Ludwig XIV., den berühmtesten Vertreter des Absolutismus, der als Inbegriff eines absoluten Herrschers gilt. Seine Entscheidungen und Bauwerke wie das prachtvolle Schloss Versailles prägen bis heute unser Bild vom Absolutismus. Das bedeutet, dass der König uneingeschränkte Macht hat. Er konnte Gesetze erlassen und das Land regieren, ohne andere um Zustimmung bitten zu müssen. Der Absolutismus war die Regierungsform, die vor allem in Frankreich unter Ludwig XIV. zur Perfektion gebracht wurde. Ludwig XIV., bekannt als der Sonnenkönig, war der mächtigste König seiner Zeit und ein Symbol für den Absolutismus. Er regierte Frankreich mit absoluter Macht und setzte Maßstäbe für diese Regierungsform. Ludwig XIV. ließ beeindruckende Bauwerke errichten, darunter das weltberühmte Schloss Versailles. Seine Politik und Entscheidungen stärkten die königliche Macht und etablierten den Absolutismus als prägende Epoche der französischen Geschichte.",
+    "shortDesc": "L\'État, c\'est moi! – Schloss Versailles, Hofhaltung, stehendes Heer, Staatsverwaltung und Merkantilismus.",
+    "longDesc": "Der Absolutismus war eine Epoche königlicher Alleinherrschaft in Europa im 17. und 18. Jahrhundert, deren berühmtester Vertreter König Ludwig XIV. von Frankreich (der 'Sonnenkönig', Regierungszeit 1643–1715) war. Nach dem Leitsatz 'L\'État, c\'est moi' (Der Staat bin ich) konzentrierte der König die gesamte legislative, exekutive und judikative Macht auf seine Person. Gestützt auf ein stehendes Heer, eine loyale Beamtenschaft, die katholische Staatskirche und das Wirtschaftssystem des Merkantilismus nach Jean-Baptiste Colbert wurde das prunkvolle Schloss Versailles zum strahlenden Zentrum europäischer Macht.",
     "keyPoints": [
-      "Einführung von Schutzzöllen zur Begrenzung des Imports",
-      "Ausbau von Manufakturen durch staatliche Förderung",
-      "Nutzung billiger Rohstoffe aus den Kolonien",
-      "Export eigener Produkte zur Gewinnsteigerung",
-      "Kontrolle der Märkte durch staatliche Vorgaben",
-      "Rückgang der Abhängigkeit von ausländischer Ware",
-      "Stärkung der nationalen Wirtschaft durch klare Ziele",
-      "Verbindung zwischen politischer Macht und Wirtschaft"
+      "Fünf Säulen der absolutistischen Herrschaft: 1. Stehendes Heer, 2. Staatsverwaltung mit Beamten, 3. Hofstaat in Versailles, 4. Staatsreligion (Katholizismus), 5. Merkantilismus",
+      "Schloss Versailles: Politisches Zentrum und goldener Käfig für den Adel, um dessen Entmachtung und ständige Kontrolle zu sichern",
+      "Wirtschaftssystem Merkantilismus (Colbert): Maximierung von Exporten (Fertigwaren) und Minimierung von Importen (Zölle), Manufakturen und Rohstoffgewinnung in Kolonien",
+      "Ständegesellschaft im Absolutismus: Klerus (1. Stand) und Adel (2. Stand) genossen Steuerprivilegien; Bürger und Bauern (3. Stand, über 95 %) trugen die gesamte Steuerlast",
+      "Kriege & Staatsverschuldung: Expansionskriege und prunkvolle Hofhaltung führten Frankreich in eine schwere Finanzkrise, die später die Revolution 1789 auslöste"
     ],
     "exercises": [
       {
         "id": "611",
         "title": "Absolutismus",
         "folder": "absolutismus-611"
-      },
-      {
-        "id": "744",
-        "title": "Der Merkantilismus",
-        "folder": "der-merkantilismus-744"
-      },
-      {
-        "id": "2340",
-        "title": "Die Hugenotten",
-        "folder": "die-hugenotten-2340"
       },
       {
         "id": "2904",
@@ -1965,17 +1102,12 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "die-geselllschaft-im-absolutismus-2956"
       },
       {
-        "id": "3020",
-        "title": "Kaiser Wilhelm I.",
-        "folder": "kaiser-wilhelm-i-3020"
-      },
-      {
         "id": "3374",
         "title": "Absolutismus",
         "folder": "absolutismus-2-3374"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Absolutismus%20%26%20Der%20Sonnenk%C3%B6nig%20Ludwig%20XIV.+geschichte&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Absolutismus%20Ludwig%20XIV+geschichte&t=3752"
   },
   "aufklaerung-und-franzoesische-revolution": {
     "slug": "aufklaerung-und-franzoesische-revolution",
@@ -2364,7 +1496,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "title": "Der deutsche Bund",
         "folder": "arbeitslosigkeit-nach-dem-ersten-weltkrieg-7-3076"
       },
-      { id: "495", title: "Gewässer in Österreich", folder: "gewasser-in-sterreich-495" },
       {
         "id": "4956",
         "title": "Das Jahr 1848",
@@ -2376,34 +1507,21 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
   "otto-von-bismarck-und-deutsches-kaiserreich": {
     "slug": "otto-von-bismarck-und-deutsches-kaiserreich",
     "title": "Otto von Bismarck & das Deutsche Kaiserreich",
-    "category": "19. Jahrhundert & Deutsches Kaiserreich",
-    "shortDesc": "Reichsgründung 1871 in Versailles, 'Eiserner Kanzler', Bündnissystem, Kulturkampf, Sozialistengesetze und Imperialismus.",
-    "longDesc": "Der Imperialismus beschreibt das Streben von Staaten nach weltweiter Macht und politischem Einfluss. Insbesondere im Zeitraum von 1492 (Entdeckung Amerikas) bis nach dem Zweiten Weltkrieg teilten europäische Mächte große Teile der Welt unter sich auf und beuteten diese aus. Verschiedene Faktoren befeuerten den Imperialismus. Zum einen benötigten die Industriestaaten Europas billige Rohstoffe für ihre wachsende Produktion. Zum anderen suchten sie nach neuen Absatzmärkten für ihre produzierten Güter. Darüber hinaus spielten machtpolitische Überlegungen und der Glaube an die eigene kulturelle Überlegenheit eine bedeutende Rolle.",
+    "category": "19. Jahrhundert & Industrialisierung",
+    "shortDesc": "Reichsgründung 1871 in Versailles, drei Einigungskriege, Bismarcks Bündnissystem, Kulturkampf und Sozialistengesetze.",
+    "longDesc": "Otto von Bismarck (1815–1898) war als preußischer Ministerpräsident und erster Reichskanzler die dominierende politische Gestalt bei der Gründung des Deutschen Kaiserreichs 1871. Durch die drei 'Einigungskriege' (1864 gegen Dänemark, 1866 gegen Österreich, 1870/71 gegen Frankreich) setzte er die kleindeutsche Lösung unter preußischer Führung durch. Seine Innenpolitik war geprägt vom Kampf gegen Katholiken (Kulturkampf) und Sozialdemokraten (Sozialistengesetze), flankiert durch die weltweit erste staatliche Sozialgesetzgebung. Außenpolitisch sicherte er den Frieden in Europa durch ein komplexes Bündnissystem zur Isolation Frankreichs.",
     "keyPoints": [
-      "Ausbeutung und Unterdrückung: Die europäischen Kolonialherren beuteten die Ressourcen und Arbeitskraft der indigenen Bevölkerung in den Kolonien rücksichtslos aus. Oftmals wurden die Einheimischen wie Sklaven behandelt und ihrer Rechte beraubt.",
-      "Missionierung und „Zivilisierung“: Außerdem versuchten die Europäer, die kolonisierten Völker zum Christentum zu bekehren und ihre vermeintlich „unzivilisierten“ Lebensweisen zu „verbessern“.",
-      "Territoriale Aufteilung: Schließlich teilten die europäischen Mächte die Welt unter sich auf, wobei Spanien, England und Frankreich die größten Kolonialreiche besaßen.",
-      "Gründung des Kaisertums Österreich 1804",
-      "Kriege gegen Napoleon mit Gebietsverlusten",
-      "Vielvölkerstaat mit häufigen Aufständen",
-      "Revolution von 1848 und ihre Folgen",
-      "Bildung der Doppelmonarchie 1867"
+      "Die drei Einigungskriege: Deutsch-Dänischer Krieg 1864, Deutscher Krieg 1866 (Sieg über Österreich) und Deutsch-Französischer Krieg 1870/71",
+      "Kaiserproklamation von Versailles (18. Januar 1871): Ausrufung Wilhelms I. zum deutschen Kaiser im Spiegelsaal von Versailles",
+      "Reichsverfassung 1871: Preußische Hegemonie, starker Reichskanzler und konstitutionelle Monarchie mit Reichstag",
+      "Bismarcks Bündnissystem: Außenpolitische Absicherung des Status quo und Isolation Frankreichs (Dreikaiserabkommen, Zweibund, Rückversicherungsvertrag)",
+      "Innenpolitik & Gesetze: Kulturkampf gegen das Zentrum, Sozialistengesetz gegen die Arbeiterbewegung und Einführung der bahnbrechenden Sozialversicherung (Kranken-, Unfall- und Rentenversicherung)"
     ],
     "exercises": [
       {
-        "id": "346",
-        "title": "Imperialismus",
-        "folder": "imperialismus-346"
-      },
-      {
-        "id": "350",
-        "title": "Das österreichische Kaiserreich",
-        "folder": "das-osterreichische-kaiserreich-2-350"
-      },
-      {
-        "id": "886",
-        "title": "Deutsche Kolonien",
-        "folder": "deutsche-kolonien-886"
+        "id": "348",
+        "title": "Deutschland im 19. Jahrhundert - deutscher Bund und Kaiserreich",
+        "folder": "deutschland-im-19-jahrhundert-deutscher-bund-und-kaiserreich-348"
       },
       {
         "id": "2328",
@@ -2411,19 +1529,14 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "die-auesenpolitik-des-deutschen-kaiserreichs-2328"
       },
       {
-        "id": "2943",
-        "title": "Die Doppelmonarchie Österreich-Ungarn",
-        "folder": "die-doppelmonarchie-sterreich-ungarn-2943"
+        "id": "2337",
+        "title": "Die Gesellschaft im deutschen Kaiserreich",
+        "folder": "die-gesellschaft-im-deutschen-kaiserreich-2337"
       },
       {
-        "id": "2996",
-        "title": "Elisabeth von Österreich-Ungarn",
-        "folder": "elisabeth-von-sterreich-ungarn-2996"
-      },
-      {
-        "id": "3021",
-        "title": "Kaiser Wilhelm II.",
-        "folder": "kaiser-wilhelm-ii-3021"
+        "id": "2900",
+        "title": "Das deutsche Kaiserreich",
+        "folder": "das-deutsche-kaiserreich-2900"
       },
       {
         "id": "3045",
@@ -2436,24 +1549,19 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "otto-von-bismarck-und-das-reich-3263"
       },
       {
-        "id": "3264",
-        "title": "Kolonialisierung und Imperialismus",
-        "folder": "kolonialisierung-und-imperialismus-3264"
+        "id": "3323",
+        "title": "Vom Deutschen Bund zum Kaiserreich",
+        "folder": "vom-deutschen-bund-zum-kaiserreich-3323"
       },
       {
-        "id": "3347",
-        "title": "Imperialismus",
-        "folder": "imperialismus-2-3347"
+        "id": "3324",
+        "title": "Politik des deutschen Kaiserreichs",
+        "folder": "politik-des-deutschen-kaiserreichs-3324"
       },
       {
-        "id": "4152",
-        "title": "Otto von Bismarck",
-        "folder": "otto-von-bismarck-2-4152"
-      },
-      {
-        "id": "5334",
-        "title": "Das Österreichische Kaiserreich",
-        "folder": "das-sterreichische-kaiserreich-5334"
+        "id": "4979",
+        "title": "1871",
+        "folder": "1871-4979"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Otto%20von%20Bismarck%20%26%20Das%20Deutsche%20Kaiserreich+geschichte&t=3752"
@@ -3197,17 +2305,15 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
     "slug": "widerstand-im-nationalsozialismus",
     "title": "Widerstand im Nationalsozialismus",
     "category": "Nationalsozialismus & Zweiter Weltkrieg",
-    "shortDesc": "Die Weiße Rose (Geschwister Scholl), Stauffenberg-Attentat vom 20. Juli 1944, Edelweißpiraten und kirchlicher Widerstand.",
-    "longDesc": "Die Geschichte Südafrikas ist geprägt von dunklen Kapiteln – eines davon ist die Apartheid. Jahrzehntelang bestimmten strenge Trennungsgesetze das Leben der Menschen. Dabei entstand ein System, das viele Ungerechtigkeiten festigte und tiefgreifende Spuren hinterließ. Die Apartheid in Südafrika war ein politisches System, das Menschen anhand ihrer Hautfarbe voneinander trennte. Dabei entstanden unterschiedliche Lebenswelten für Schwarze und Weiße. Schulen, Krankenhäuser oder Verkehrsmittel – alles war strikt nach Hautfarbe geregelt. Die Lebensbedingungen der schwarzen Bevölkerung waren dadurch massiv eingeschränkt. Der Begriff „Apartheid“ stammt aus dem Afrikaans und bedeutet „Getrenntheit“. Frederik Willem de Klerk und Nelson Mandela spielten später zentrale Rollen im Übergang zur Demokratie. Auch wenn die Apartheid offiziell endete, spüren viele Menschen die Folgen bis heute.",
+    "shortDesc": "Die Weiße Rose (Geschwister Scholl), Stauffenberg-Attentat vom 20. Juli 1944, Edelweißpiraten und Kreisauer Kreis.",
+    "longDesc": "Trotz massiven Terrors, Gestapo-Überwachung und Todesstrafen leisteten mutige Menschen im nationalsozialistischen Deutschland Widerstand gegen das Terrorregime Hitlers. Der Widerstand reichte von Flugblattaktionen junger Studenten (Die Weiße Rose um Sophie und Hans Scholl) über jugendliche Gegenbewegungen (Edelweißpiraten, Swing-Jugend), bürgerlich-intellektuelle Kreise (Kreisauer Kreis) bis hin zum militärischen Attentatsversuch am 20. Juli 1944 durch Claus Schenk Graf von Stauffenberg ('Operation Walküre').",
     "keyPoints": [
-      "Apartheid bedeutete die strikte Trennung nach Hautfarbe",
-      "Schwarze Menschen lebten oft in sogenannten „Homelands“",
-      "Öffentliche Einrichtungen waren nach Rassen getrennt",
-      "Die Einrichtungen für Weiße waren meist deutlich besser",
-      "Viele wehrten sich mit Streiks und Demonstrationen",
-      "Nelson Mandela wurde Symbolfigur des Widerstands",
-      "Internationale Sanktionen trafen das Apartheid-Regime",
-      "1994 wurde Mandela zum Präsidenten gewählt"
+      "Die Weiße Rose (München 1942/43): Flugblattaktionen gegen Krieg und Massenmord durch Sophie Scholl, Hans Scholl, Christoph Probst, Alexander Schmorell, Willi Graf und Prof. Kurt Huber",
+      "Attentat vom 20. Juli 1944: Bombenattentat im Führerhauptquartier 'Wolfsschanze' und geplanter Staatsstreich ('Operation Walküre') durch Graf von Stauffenberg und zivile Mitverschwörer",
+      "Jugendopposition: Edelweißpiraten und Swing-Jugend als unangepasste Protestbewegungen gegen Hitlerjugend und Drill",
+      "Kreisauer Kreis um Helmuth James Graf von Moltke: Ausarbeitung einer demokratischen, christlich-humanistischen Nachkriegsordnung",
+      "Kirchlicher Widerstand: Bekennende Kirche (Dietrich Bonhoeffer, Martin Niemöller) und katholische Proteste (Bischof von Galen gegen Euthanasie)",
+      "Rettungswiderstand & Stille Helden: Verstecken und Rettung verfolgter jüdischer Mitbürger unter Einsatz des eigenen Lebens"
     ],
     "exercises": [
       {
@@ -3220,7 +2326,11 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "title": "Graf Stauffenberg und das Attentat vom 20. Juli 1944",
         "folder": "graf-stauffenberg-und-das-attentat-3007"
       },
-      { id: "3322", title: "Widerstand NS", folder: "widerstand-ns-3322" }
+      {
+        "id": "3322",
+        "title": "Widerstand im Nationalsozialismus",
+        "folder": "widerstand-ns-3322"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Widerstand%20im%20Nationalsozialismus+geschichte&t=3752"
   },

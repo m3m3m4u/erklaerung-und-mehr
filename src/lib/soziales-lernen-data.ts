@@ -90,7 +90,7 @@ export const sozialesLernenTopics: Record<string, SozialesLernenTopic> = {
         "folder": "motivation-und-emotionale-prozesse-5847"
       },
       {
-        "id": "66287",
+        "id": "4460",
         "title": "Umgang mit Schuldgefühlen",
         "folder": "umgang-mit-schuldgefuhlen-4460"
       }

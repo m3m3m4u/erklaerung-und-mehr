@@ -28,11 +28,16 @@ export const klimaTopics: Record<string, KlimaTopic> = {
     "category": "Die 17 Nachhaltigkeitsziele (SDGs)",
     "shortDesc": "Die 17 globalen Ziele der Vereinten Nationen für eine soziale, ökologische und gerechte Zukunft bis 2030.",
     "longDesc": "Die Sustainable Development Goals (SDGs) der Vereinten Nationen sind ein weltweiter Handlungsrahmen zur Lösung der drängendsten Herausforderungen unserer Zeit: Von der Bekämpfung von Hunger und Armut über saubere Energie und faire Arbeit bis hin zu Meeresschutz und weltweitem Frieden.",
-    "keyPoints": [],
+    "keyPoints": [
+      "17 Globale Ziele der Agenda 2030: Verabschiedet 2015 von allen 193 Mitgliedsstaaten der Vereinten Nationen",
+      "Drei Dimensionen der Nachhaltigkeit: Ausgewogene Verbindung von ökologischen, ökonomischen und sozialen Zielen",
+      "Kernprinzip 'Leave no one behind': Schwächste und benachteiligte Gruppen stehen im Fokus globaler Entwicklung",
+      "Schwerpunkte Soziales & Gerechtigkeit: Beendigung von Armut (SDG 1) und Hunger (SDG 2), hochwertige Bildung (SDG 4), Geschlechtergleichstellung (SDG 5)",
+      "Planetare Grenzen & Ressourcenschutz: Saubere Energie (SDG 7), nachhaltiger Konsum (SDG 12), Klimaschutz (SDG 13) und Artenschutz an Land und im Wasser (SDG 14 & 15)"
+    ],
     "exercises": [
       { id: "4502", title: "Global Goal 1: Keine Armut – Leben in Würde sichern", folder: "wenn-die-erde-bebt-warum-sie-wackelt-4-4502" },
       { id: "4478", title: "Global Goal 2 - Kein Hunger – Ernährung sichern, Hunger stoppen", folder: "global-goal-2-kein-hunger-ernahrung-sichern-hunger-stoppen-4478" },
-      { id: "4504", title: "Wenn die Erde bebt – Warum sie wackelt", folder: "wenn-die-erde-bebt-warum-sie-wackelt-6-4504" },
       { id: "4479", title: "Global Goal 4 - Gute Bildung – Wissen für jede Lebensreise", folder: "global-goal-4-gute-bildung-wissen-fur-jede-lebensreise-4479" },
       { id: "4480", title: "Global Goal 5 - Gleichstellung leben – Frauenrechte für alle sichern", folder: "global-goal-5-gleichstellung-leben-frauenrechte-fur-alle-sichern-4480" },
       { id: "4501", title: "Global Goal 6: Sauberes Wasser – für Gesundheit und Nachhaltigkeit", folder: "wenn-die-erde-bebt-warum-sie-wackelt-3-4501" },
@@ -66,7 +71,7 @@ export const klimaTopics: Record<string, KlimaTopic> = {
     "exercises": [
       { id: "757", title: "Klima und Wetter", folder: "klima-und-wetter-757" },
       { id: "758", title: "Die polare Klimazone", folder: "die-polare-klimazone-758" },
-      { id: "759", title: "Die Gemäßigte Klimazone", folder: "gemassigte-zone-759" },
+      { id: "759", title: "Die Gemäßigte Klimazone", folder: "die-gemaesigte-klimazone-759" },
       { id: "760", title: "Die subtropische Klimazone", folder: "die-subtropische-klimazone-760" },
       { id: "761", title: "Die tropische Klimazone", folder: "die-tropische-klimazone-761" },
       { id: "1989", title: "Das alpine Klima", folder: "das-alpine-klima-1989" },

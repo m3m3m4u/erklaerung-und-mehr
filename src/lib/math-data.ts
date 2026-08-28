@@ -77,19 +77,34 @@ export const mathTopics: Record<string, MathTopic> = {
     ],
     "exercises": [
       {
-        "id": "2078",
-        "title": "Immunsystem - Aufbau und Bestandteile",
-        "folder": "immunsystem-aufbau-und-bestandteile-2078"
+        "id": "170",
+        "title": "Römische Zahlen einfach",
+        "folder": "romische-zahlen-einfach-2-170"
       },
       {
-        "id": "2079",
-        "title": "Immunsystem - Leukozyten und Antikörper",
-        "folder": "immunsystem-leukozyten-und-antikorper-2079"
+        "id": "171",
+        "title": "Römische Zahlen mittel",
+        "folder": "romische-zahlen-mittel-171"
       },
       {
-        "id": "2080",
-        "title": "Lymphsystem - Lymphflüssigkeit und Immunabwehr",
-        "folder": "lymphsystem-lymphflussigkeit-und-immunabwehr-2080"
+        "id": "172",
+        "title": "Römische Zahlen schwer",
+        "folder": "romische-zahlen-schwer-172"
+      },
+      {
+        "id": "173",
+        "title": "Römische Zahlen schwer (Teil 2)",
+        "folder": "romische-zahlen-schwer-2-173"
+      },
+      {
+        "id": "292",
+        "title": "Römische Zahlen (Erklärvideo & Übungen)",
+        "folder": "romische-zahlen-erklarvideo-und-bungen-292"
+      },
+      {
+        "id": "624",
+        "title": "Römische Zahlen",
+        "folder": "romische-zahlen-624"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=zahlenmengen&t=1118"
