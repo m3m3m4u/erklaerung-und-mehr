@@ -22,8 +22,16 @@ function verifySessionCookie(token: string): boolean {
 export function proxy(request: NextRequest) {
   const url = request.nextUrl.clone();
 
-  // H5P content rewrites (Hetzner Storage Box)
-  if (url.pathname.startsWith('/h5p-content/') || url.pathname.startsWith('/h5p-libraries/')) {
+  // WebDAV / Hetzner Storage Box rewrites (H5P, html, diagramme_en, diagramme_de, er)
+  const webdavPrefixes = [
+    '/h5p-content/',
+    '/h5p-libraries/',
+    '/html/',
+    '/diagramme_en/',
+    '/diagramme_de/',
+    '/er/',
+  ];
+  if (webdavPrefixes.some((prefix) => url.pathname.startsWith(prefix))) {
     const requestHeaders = new Headers(request.headers);
     // Basic Auth Header für Hetzner (u328723-sub9:Kreuzgasse10@)
     requestHeaders.set('Authorization', 'Basic dTMyODcyMy1zdWI5OktyZXV6Z2Fzc2UxMEA=');
@@ -56,6 +64,10 @@ export const config = {
   matcher: [
     '/h5p-content/:path*',
     '/h5p-libraries/:path*',
+    '/html/:path*',
+    '/diagramme_en/:path*',
+    '/diagramme_de/:path*',
+    '/er/:path*',
     '/dashboard/:path*',
     '/mein-fortschritt/:path*',
     '/admin/:path*',

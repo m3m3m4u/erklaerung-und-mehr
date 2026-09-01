@@ -40,11 +40,14 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# H5P Content
+# H5P Content & External Media
 /public/h5p-content/
 /public/h5p-libraries/
 /exports/
 /html/
+/diagramme_en/
+/diagramme_de/
+/er/
 
 # Databases
 *.sql
@@ -58,3 +61,4 @@ rclone*
 /scripts/start_upload_loop.bat
 /scripts/upload_ftp.mjs
 /scripts/upload_to_hetzner.ps1
+/scripts/upload_webdav.ps1
