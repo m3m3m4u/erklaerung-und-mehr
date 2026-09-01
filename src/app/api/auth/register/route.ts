@@ -41,8 +41,9 @@ export async function POST(request: Request) {
     });
 
     return Response.json({ ok: true, role: 'teacher', email: emailLower });
-  } catch (err) {
+  } catch (err: unknown) {
     console.error('Register error:', err);
-    return Response.json({ error: 'Serverfehler. Bitte erneut versuchen.' }, { status: 500 });
+    const message = err instanceof Error ? err.message : 'Serverfehler. Bitte erneut versuchen.';
+    return Response.json({ error: message }, { status: 500 });
   }
 }

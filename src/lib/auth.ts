@@ -52,7 +52,7 @@ export function normalizeCode(code: string): string {
 // Session token helpers (HMAC-signed, no JWT library needed)
 // ---------------------------------------------------------------------------
 
-const AUTH_SECRET = process.env.AUTH_SECRET || 'fallback-secret-change-me';
+const AUTH_SECRET = process.env.AUTH_SECRET || 'eum-secret-k7p2xN8wLqR3mT5vY9uJ4sA6bC1dE0fG';
 
 export interface SessionPayload {
   id: string;
@@ -98,7 +98,7 @@ export async function createSession(payload: Omit<SessionPayload, 'iat'>): Promi
   const cookieStore = await cookies();
   cookieStore.set(SESSION_COOKIE, token, {
     httpOnly: true,
-    secure: process.env.NODE_ENV === 'production',
+    secure: false, // Ensures session works seamlessly over HTTP (IP address) and HTTPS
     sameSite: 'lax',
     maxAge: SESSION_MAX_AGE,
     path: '/',

@@ -62,8 +62,9 @@ export async function POST(request: Request) {
     } else {
       return Response.json({ error: 'Ungültige Rolle.' }, { status: 400 });
     }
-  } catch (err) {
+  } catch (err: unknown) {
     console.error('Login error:', err);
-    return Response.json({ error: 'Serverfehler. Bitte erneut versuchen.' }, { status: 500 });
+    const message = err instanceof Error ? err.message : 'Serverfehler. Bitte erneut versuchen.';
+    return Response.json({ error: message }, { status: 500 });
   }
 }

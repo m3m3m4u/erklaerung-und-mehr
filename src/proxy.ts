@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
 import crypto from 'crypto';
 
-const AUTH_SECRET = process.env.AUTH_SECRET || 'fallback-secret-change-me';
+const AUTH_SECRET = process.env.AUTH_SECRET || 'eum-secret-k7p2xN8wLqR3mT5vY9uJ4sA6bC1dE0fG';
 const SESSION_COOKIE = 'eum_session';
 
 function verifySessionCookie(token: string): boolean {
