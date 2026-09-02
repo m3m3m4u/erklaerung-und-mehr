@@ -963,11 +963,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "title": "Nordkorea",
         "folder": "nordkorea-1980"
       },
-      {
-        "id": "641",
-        "title": "Music Of The Romantic Period",
-        "folder": "music-of-the-romantic-period-641"
-      },
+      
       {
         "id": "1816",
         "title": "Pakistan",

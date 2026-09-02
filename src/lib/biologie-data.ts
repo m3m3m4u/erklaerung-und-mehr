@@ -135,7 +135,7 @@ export const biologieTopics: Record<string, BiologieTopic> = {
       },
       {
         "id": "2116",
-        "title": "Das Lymphsystem - Lymphknoten und -Gefäße",
+        "title": "Das menschliche Gebiss – Zähne und Funktion",
         "folder": "das-menschliche-gebiss-zahne-und-funktion-2116"
       }
     ],
@@ -214,17 +214,17 @@ export const biologieTopics: Record<string, BiologieTopic> = {
     "exercises": [
       {
         "id": "2102",
-        "title": "Das Auge - Aufbau und Sehvorgang",
+        "title": "Das zentrale Nervensystem – Gehirn und Rückenmark",
         "folder": "das-zentrale-nervensystem-gehirn-und-ruckenmark-2102"
       },
       {
         "id": "2103",
-        "title": "Das Auge - Linse und Netzhaut",
+        "title": "Nervenzellen und Reizweiterleitung",
         "folder": "nervenzellen-und-reizweiterleitung-2103"
       },
       {
         "id": "2104",
-        "title": "Die Zunge - Geschmacksinn und -Knospen",
+        "title": "Das periphere Nervensystem und Reflexe",
         "folder": "das-periphere-nervensystem-und-reflexe-2104"
       }
     ],
@@ -266,12 +266,12 @@ export const biologieTopics: Record<string, BiologieTopic> = {
       },
       {
         "id": "2082",
-        "title": "Immunsystem und Stress",
+        "title": "Antigen-Antikörper-Reaktion",
         "folder": "antigen-antikorper-reaktion-2082"
       },
       {
         "id": "2083",
-        "title": "Das Immunsystem und Ernährung",
+        "title": "Aktive und passive Immunisierung",
         "folder": "aktive-und-passive-immunisierung-2083"
       },
       {
@@ -317,7 +317,7 @@ export const biologieTopics: Record<string, BiologieTopic> = {
     "exercises": [
       {
         "id": "2109",
-        "title": "Die Rolle der weißen Blutkörperchen",
+        "title": "Die Haut – Schichten und Funktionen",
         "folder": "die-haut-schichten-und-funktionen-2109"
       },
       {
@@ -358,32 +358,32 @@ export const biologieTopics: Record<string, BiologieTopic> = {
       },
       {
         "id": "2096",
-        "title": "Geschlechtsbestimmung - wie es funktioniert",
+        "title": "Geschlechtsorgane und Fortpflanzung",
         "folder": "geschlechtsorgane-und-fortpflanzung-2096"
       },
       {
         "id": "2097",
-        "title": "Geschlechtschromosomen - XX und XY",
+        "title": "Der Menstruationszyklus",
         "folder": "der-menstruationszyklus-2097"
       },
       {
         "id": "2098",
-        "title": "Die Haut - Schweiß- und Talgdrüsen",
+        "title": "Schwangerschaft und Fötusentwicklung",
         "folder": "schwangerschaft-und-fotusentwicklung-2098"
       },
       {
         "id": "2099",
-        "title": "Die Haut - Tastsinn und Rezeptoren",
+        "title": "Die Plazenta – Lebensader des Ungeborenen",
         "folder": "die-plazenta-lebensader-des-ungeborenen-2099"
       },
       {
         "id": "2100",
-        "title": "Haut als Barriere - Erste Verteidigungslinie",
+        "title": "Hormone – die chemischen Botenstoffe",
         "folder": "hormone-die-chemischen-botenstoffe-2100"
       },
       {
         "id": "2101",
-        "title": "Die Rolle der Schleimhäute",
+        "title": "Die Schilddrüse und Stoffwechselregulation",
         "folder": "die-schilddruse-und-stoffwechselregulation-2101"
       }
     ],
@@ -405,22 +405,22 @@ export const biologieTopics: Record<string, BiologieTopic> = {
     "exercises": [
       {
         "id": "2117",
-        "title": "Die Funktion der Lymphknoten",
+        "title": "Drogen – Arten und Wirkungen",
         "folder": "drogen-arten-und-wirkungen-2117"
       },
       {
         "id": "2118",
-        "title": "Lymphsystem - Lymphflüssigkeit und Immunabwehr",
+        "title": "Alkohol und seine Wirkung auf den Körper",
         "folder": "alkohol-und-seine-wirkung-auf-den-korper-2118"
       },
       {
         "id": "2119",
-        "title": "Das endokrine System - Hormone und Signalwege",
+        "title": "Nikotin und Rauchen – Risiken und Folgen",
         "folder": "nikotin-und-rauchen-risiken-und-folgen-2119"
       },
       {
         "id": "2120",
-        "title": "Hormonsystem - Hypophyse und Schilddrüse",
+        "title": "Cannabis – Wirkung und rechtliche Aspekte",
         "folder": "cannabis-wirkung-und-rechtliche-aspekte-2120"
       },
       {
