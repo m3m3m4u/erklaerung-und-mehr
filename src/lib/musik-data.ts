@@ -195,38 +195,38 @@ export const musikTopics: Record<string, MusikTopic> = {
     "exercises": [
       {
         "id": "500",
-        "title": "Musikgeschichte - Steinzeit bis Antike",
+        "title": "Musikgeschichte: Steinzeit bis Antike",
         "folder": "musikgeschichte-steinzeit-bis-antike-500"
       },
       {
         "id": "501",
-        "title": "Musikgeschichte - Musik im Mittelalter",
+        "title": "Musikgeschichte: Musik im Mittelalter",
         "folder": "musikgeschichte-musik-im-mittelalter-501"
       },
       {
         "id": "502",
-        "title": "Musikgeschichte - Renaissance",
+        "title": "Musikgeschichte: Renaissance",
         "folder": "musikgeschichte-renaissance-502"
       },
       {
         "id": "503",
-        "title": "Musikgeschichte - Barock",
+        "title": "Musikgeschichte: Barock",
         "folder": "musikgeschichte-barock-503"
       },
       {
         "id": "504",
-        "title": "Musikgeschichte - Klassik",
+        "title": "Musikgeschichte: Klassik",
         "folder": "musikgeschichte-klassik-504"
       },
       {
         "id": "505",
-        "title": "Musikgeschichte - Romantik",
+        "title": "Musikgeschichte: Romantik",
         "folder": "musikgeschichte-romantik-505"
       },
       {
         "id": "506",
-        "title": "Musikgeschichte - Moderne",
-        "folder": "musikgeschichte-moderne-506"
+        "title": "Musikgeschichte: 20. Jahrhundert",
+        "folder": "musikgeschichte-20-jahrhundert-506"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Musikgeschichte+Epochen&t=1251"
@@ -714,13 +714,21 @@ export const musikTopics: Record<string, MusikTopic> = {
       "1990er bis heute: Grunge, Britpop, Hip-Hop, Pop-Superstars und digitale Produktion"
     ],
     "exercises": [
-      { id: "508", title: "Rock und Pop - Teil 1", folder: "rock-und-pop-teil-1-508" },
-      { id: "509", title: "Rock und Pop - Teil 2", folder: "rock-und-pop-teil-2-509" },
-      { id: "510", title: "Rock und Pop - Teil 3", folder: "rock-und-pop-teil-3-510" },
-      { id: "511", title: "Rock und Pop - Teil 4", folder: "rock-und-pop-teil-4-511" },
-      { id: "430", title: "Geschichte der Rockmusik - Teil 1 (1950 bis 1966)", folder: "geschichte-der-rockmusik-teil-1-1950-bis-1966-430" },
-      { id: "431", title: "Geschichte der Rockmusik - Teil 2 (1966 bis 1976)", folder: "geschichte-der-rockmusik-teil-2-1966-bis-1976-431" },
-      { id: "432", title: "Geschichte der Rockmusik - Teil 3 (1976 bis 1990)", folder: "geschichte-der-rockmusik-teil-3-1976-bis-1990-432" }
+      {
+        "id": "430",
+        "title": "Geschichte der Rockmusik Teil 1 (1950–1966)",
+        "folder": "geschichte-der-rockmusik-teil-1-1950-bis-1966-430"
+      },
+      {
+        "id": "431",
+        "title": "Geschichte der Rockmusik Teil 2 (1966–1976)",
+        "folder": "geschichte-der-rockmusik-teil-2-1966-bis-1976-431"
+      },
+      {
+        "id": "432",
+        "title": "Geschichte der Rockmusik Teil 3 (1976–1990)",
+        "folder": "geschichte-der-rockmusik-teil-3-1976-bis-1990-432"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Rock+und+Pop+Musikunterricht&t=1251"
   },

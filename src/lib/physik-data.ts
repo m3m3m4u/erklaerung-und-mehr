@@ -550,16 +550,60 @@ export const physikTopics: Record<string, PhysikTopic> = {
       "Geostationäre Umlaufbahn: Satelliten in ca. 35.786 km Höhe drehen sich synchron mit der Erde und stehen scheinbar fest über einem Punkt"
     ],
     "exercises": [
-      { id: "2267", title: "Die Entdeckung der Radioaktivität", folder: "die-entdeckung-der-radioaktivitat-2267" },
       {
-        "id": "2269",
-        "title": "Nachweis Radioaktiver Strahlung",
-        "folder": "nachweis-radioaktiver-strahlung-2269"
+        "id": "2276",
+        "title": "Umlaufbahnen von Planeten und Satelliten",
+        "folder": "umlaufbahnen-von-planeten-und-satelliten-2276"
       },
       {
-        "id": "5271",
-        "title": "Der Schwerpunkt",
-        "folder": "der-schwerpunkt-5271"
+        "id": "2280",
+        "title": "Der Mond",
+        "folder": "der-mond-2280"
+      },
+      {
+        "id": "2281",
+        "title": "Der Planet Jupiter",
+        "folder": "der-planet-jupiter-2281"
+      },
+      {
+        "id": "2282",
+        "title": "Der Planet Mars",
+        "folder": "der-planet-mars-2282"
+      },
+      {
+        "id": "2283",
+        "title": "Der Planet Merkur",
+        "folder": "der-planet-merkur-2283"
+      },
+      {
+        "id": "2284",
+        "title": "Der Planet Neptun",
+        "folder": "der-planet-neptun-2284"
+      },
+      {
+        "id": "2285",
+        "title": "Der Planet Saturn",
+        "folder": "der-planet-saturn-2285"
+      },
+      {
+        "id": "2286",
+        "title": "Der Planet Uranus",
+        "folder": "der-planet-uranus-2286"
+      },
+      {
+        "id": "2287",
+        "title": "Der Planet Venus",
+        "folder": "der-planet-venus-2287"
+      },
+      {
+        "id": "2288",
+        "title": "Der Zwergplanet Pluto",
+        "folder": "der-zwergplanet-pluto-2288"
+      },
+      {
+        "id": "3155",
+        "title": "Der Urknall",
+        "folder": "der-urknall-3155"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=astronomie&t=3752"
@@ -590,14 +634,19 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "folder": "archimedes-3672"
       },
       {
-        "id": "3614",
-        "title": "Alan Turing",
-        "folder": "alan-turing-3614"
+        "id": "3971",
+        "title": "Isaac Newton",
+        "folder": "isaac-newton-3971"
       },
       {
-        "id": "3606",
-        "title": "Ada Lovelace",
-        "folder": "ada-lovelace-3606"
+        "id": "3001",
+        "title": "Galileo Galilei",
+        "folder": "galileo-galilei-3001"
+      },
+      {
+        "id": "4075",
+        "title": "Marie Curie",
+        "folder": "marie-curie-4075"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=physiker&t=3752"
