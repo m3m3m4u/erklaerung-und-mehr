@@ -49,7 +49,8 @@ export default function H5PPlayer({
   onXAPIStatement,
 }: H5PPlayerProps) {
   const containerRef = useRef<HTMLDivElement>(null);
-  const [loading, setLoading] = useState(true);
+  const isHtmlExercise = h5pJsonPath.endsWith('.html') || h5pJsonPath.startsWith('/html/') || h5pJsonPath.includes('.html');
+  const [loading, setLoading] = useState(!isHtmlExercise);
   const [error, setError] = useState<string | null>(null);
   const [hasSavedState, setHasSavedState] = useState(false);
   const [reloadKey, setReloadKey] = useState(0);
@@ -132,12 +133,18 @@ export default function H5PPlayer({
     };
 
     async function initH5P() {
-      if (!containerRef.current) return;
+      if (!containerRef.current && !isHtmlExercise) return;
       setLoading(true);
       setError(null);
 
+      // If it's a standalone HTML exercise (e.g. from /html/...), render via iframe
+      if (isHtmlExercise) {
+        setLoading(false);
+        return;
+      }
+
       // Clean container completely before initializing
-      containerRef.current.innerHTML = '';
+      if (containerRef.current) containerRef.current.innerHTML = '';
 
       try {
         // Quick verification of h5p.json availability to prevent unexpected HTML 404 json parse error
@@ -462,7 +469,35 @@ export default function H5PPlayer({
           </div>
         </div>
       )}
-      <div ref={containerRef} className="h5p-embed-target" />
+      {isHtmlExercise ? (
+        <div
+          className="h5p-html-iframe-container"
+          style={{
+            width: '100%',
+            minHeight: '700px',
+            background: '#fff',
+            borderRadius: '8px',
+            overflow: 'hidden',
+            position: 'relative',
+          }}
+        >
+          <iframe
+            src={h5pJsonPath}
+            title={title || 'H5P Interaktive Übung'}
+            style={{
+              width: '100%',
+              height: '750px',
+              minHeight: '700px',
+              border: 'none',
+              display: 'block',
+            }}
+            allow="autoplay; fullscreen; clipboard-write; encrypted-media; picture-in-picture; web-share"
+            allowFullScreen
+          />
+        </div>
+      ) : (
+        <div ref={containerRef} className="h5p-embed-target" />
+      )}
 
       {/* Restart confirmation overlay dialog */}
       {showResetModal && (

@@ -217,7 +217,31 @@ export async function resolveH5P(rawQuery: string): Promise<ResolvedH5P> {
     };
   }
 
-  // For other relative paths (e.g. html/...)
+  // For html paths (e.g. html/sport/... or html/musik/...)
+  if (relPath.startsWith('html/')) {
+    const dir = path.dirname(relPath);
+    const baseName = path.basename(relPath).replace(/\.h5p$/i, '').replace(/\.html$/i, '').trim();
+
+    // Check if direct path with spaces exists locally (or fallback to underscore format on Hetzner)
+    const directLocal = path.join(process.cwd(), dir, `${baseName}.html`);
+    let finalHtmlName = `${baseName.replace(/\s+/g, '_')}.html`;
+    if (fsSync.existsSync(directLocal)) {
+      finalHtmlName = `${baseName}.html`;
+    }
+
+    const htmlPath = `/${dir}/${finalHtmlName}`;
+
+    return {
+      found: true,
+      id: resolvedId,
+      title: formatTitle(baseName),
+      slug: slugify(baseName),
+      contentPath: htmlPath,
+      sourceFile: relPath,
+    };
+  }
+
+  // For any other relative paths
   return {
     found: true,
     id: resolvedId,
