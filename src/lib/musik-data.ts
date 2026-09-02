@@ -572,7 +572,11 @@ export const musikTopics: Record<string, MusikTopic> = {
       "Jim Jacobs & Warren Casey: 'Grease' – das Rock 'n' Roll Kultmusical"
     ],
     "exercises": [
-      { id: "519", title: "Das Musical", folder: "das-musical-519" }
+      {
+        "id": "519",
+        "title": "Das Musical – Entstehung, Broadway und Welterfolge",
+        "folder": "das-musical-519"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Musicals+Musikunterricht&t=1251"
   },
@@ -693,10 +697,21 @@ export const musikTopics: Record<string, MusikTopic> = {
       "Charlie Parker: 'Bird' – legendärer Altsaxophonist und Vater des Bebop"
     ],
     "exercises": [
-      { id: "507", title: "Geschichte des Jazz", folder: "geschichte-des-jazz-507" },
-      { id: "1265", title: "Gypsy Jazz", folder: "gypsy-jazz-1265" },
-      { id: "1200", title: "Acid Jazz", folder: "acid-jazz-1200" },
-      { id: "3205", title: "Escape Room: Rock, Pop und Jazz", folder: "escape-room-quot-rock-pop-und-jazz-quot-3205" }
+      {
+        "id": "1287",
+        "title": "Louis Armstrong",
+        "folder": "louis-armstrong-1287"
+      },
+      {
+        "id": "1291",
+        "title": "Miles Davis",
+        "folder": "miles-davis-1291"
+      },
+      {
+        "id": "1243",
+        "title": "Duke Ellington",
+        "folder": "duke-ellington-1243"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Jazzmusiker+Biografien&t=1251"
   },

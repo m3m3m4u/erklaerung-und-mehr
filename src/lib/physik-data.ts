@@ -211,7 +211,26 @@ export const physikTopics: Record<string, PhysikTopic> = {
       "Lautstärke & Schalldruckpegel: Gemessen in Dezibel (dB); logarithmische Skala (+10 dB entspricht einer Verdopplung der wahrgenommenen Lautstärke)"
     ],
     "exercises": [
-      { id: "271", title: "Akustik", folder: "geschwindigkeit-271" }
+      {
+        "id": "270",
+        "title": "Akustik Grundlagen",
+        "folder": "akustik-270"
+      },
+      {
+        "id": "5244",
+        "title": "Ausbreitung von Schall & Schallwellen",
+        "folder": "ausbreitung-von-schall-schallwellen-5244"
+      },
+      {
+        "id": "5245",
+        "title": "Schall und Frequenzen",
+        "folder": "ausbreitung-von-schall-schallwellen-2-5245"
+      },
+      {
+        "id": "5322",
+        "title": "Ultraschall in Natur und Technik",
+        "folder": "ultraschall-5322"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=akustik&t=3752"
   },
