@@ -214,14 +214,14 @@ export default function AdminPage() {
             className={`admin-tab-btn ${activeTab === 'analytics' ? 'active' : ''}`}
             onClick={() => setActiveTab('analytics')}
           >
-            📊 Website-Analytics
+            Website-Analytics
           </button>
           <button
             type="button"
             className={`admin-tab-btn ${activeTab === 'users' ? 'active' : ''}`}
             onClick={() => setActiveTab('users')}
           >
-            👥 Benutzer &amp; Klassen ({teachers.length > 0 ? teachers.length : '...'})
+            Benutzer &amp; Klassen ({teachers.length > 0 ? teachers.length : '...'})
           </button>
         </div>
 
@@ -301,7 +301,7 @@ export default function AdminPage() {
             <div className="analytics-kpi-grid">
               <div className="analytics-kpi-card">
                 <div className="analytics-kpi-label">
-                  👁️ Aufrufe gesamt
+                  Aufrufe gesamt
                 </div>
                 <div className="analytics-kpi-value">
                   {analytics?.summary.totalViews.toLocaleString('de-AT') ?? 0}
@@ -313,7 +313,7 @@ export default function AdminPage() {
 
               <div className="analytics-kpi-card">
                 <div className="analytics-kpi-label">
-                  👤 Besucher (Sitzungen)
+                  Besucher (Sitzungen)
                 </div>
                 <div className="analytics-kpi-value">
                   {analytics?.summary.uniqueVisitors.toLocaleString('de-AT') ?? 0}
@@ -325,7 +325,7 @@ export default function AdminPage() {
 
               <div className="analytics-kpi-card">
                 <div className="analytics-kpi-label">
-                  ⏱️ Ø Verweildauer
+                  Ø Verweildauer
                 </div>
                 <div className="analytics-kpi-value" style={{ fontSize: 24 }}>
                   {analytics?.summary.avgDurationFormatted || '0 Sek.'}
@@ -337,7 +337,7 @@ export default function AdminPage() {
 
               <div className="analytics-kpi-card">
                 <div className="analytics-kpi-label">
-                  🕒 Haupt-Uhrzeit
+                  Haupt-Uhrzeit
                 </div>
                 <div className="analytics-kpi-value" style={{ fontSize: 22 }}>
                   {analytics?.summary.peakHour.label || '–'}
@@ -348,12 +348,12 @@ export default function AdminPage() {
               </div>
             </div>
 
-            {/* SECTION 4: 24h-Verteilung auf den Tag */}
+            {/* SECTION: 24h-Verteilung auf den Tag */}
             <div className="analytics-section-card">
               <div className="analytics-section-header">
                 <div>
                   <h2 className="analytics-section-title">
-                    🕒 4) Verteilung auf den Tag (24-Stunden-Aktivität)
+                    Tagesverlauf (24-Stunden-Aktivität)
                   </h2>
                   <div className="analytics-section-subtitle">
                     Wann greifen Schüler:innen und Lehrpersonen auf die Lerninhalte zu?
@@ -361,7 +361,7 @@ export default function AdminPage() {
                 </div>
                 {analytics?.summary.peakHour && (
                   <span style={{ fontSize: 13, background: 'var(--green-light)', color: 'var(--green-dark)', padding: '4px 10px', borderRadius: 6, fontWeight: 600, border: '1px solid var(--green-border)' }}>
-                    ⭐ Spitzenzeit: {analytics.summary.peakHour.label}
+                    Spitzenzeit: {analytics.summary.peakHour.label}
                   </span>
                 )}
               </div>
@@ -412,12 +412,12 @@ export default function AdminPage() {
 
             {/* 2-Column Grid: Herkunft & Verweildauer */}
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(360px, 1fr))', gap: 24, marginBottom: 24 }}>
-              {/* SECTION 2: Woher kommen die Besucher (Traffic-Quellen & Referrer) */}
+              {/* SECTION: Woher kommen die Besucher (Traffic-Quellen & Referrer) */}
               <div className="analytics-section-card" style={{ marginBottom: 0 }}>
                 <div className="analytics-section-header">
                   <div>
                     <h2 className="analytics-section-title">
-                      🌐 2) Woher kommen die Besucher?
+                      Herkunft &amp; Traffic-Quellen
                     </h2>
                     <div className="analytics-section-subtitle">
                       Traffic-Quellen &amp; verweisende Webseiten / Portale
@@ -489,12 +489,12 @@ export default function AdminPage() {
                 </div>
               </div>
 
-              {/* SECTION 3: Verweildauer-Analyse */}
+              {/* SECTION: Verweildauer-Analyse */}
               <div className="analytics-section-card" style={{ marginBottom: 0 }}>
                 <div className="analytics-section-header">
                   <div>
                     <h2 className="analytics-section-title">
-                      ⏱️ 3) Verweildauer auf der Website
+                      Verweildauer auf der Website
                     </h2>
                     <div className="analytics-section-subtitle">
                       Wie lange beschäftigen sich Besucher mit den Inhalten?
@@ -556,12 +556,12 @@ export default function AdminPage() {
               </div>
             </div>
 
-            {/* SECTION 1: Anzahl Aufrufe gesamt und pro Seite */}
+            {/* SECTION: Anzahl Aufrufe gesamt und pro Seite */}
             <div className="analytics-section-card">
               <div className="analytics-section-header">
                 <div>
                   <h2 className="analytics-section-title">
-                    📄 1) Aufrufe nach Seiten (Top-Inhalte)
+                    Aufrufe nach Seiten (Top-Inhalte)
                   </h2>
                   <div className="analytics-section-subtitle">
                     Beliebteste Themen, Fächer und Seiten der Plattform

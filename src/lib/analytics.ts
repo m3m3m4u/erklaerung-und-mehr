@@ -507,28 +507,28 @@ export async function getAnalyticsReport(timeframe: Timeframe = '7d'): Promise<A
       timeRange: '08:00 – 13:00 Uhr',
       count: schoolCount,
       percentage: totalViews > 0 ? Math.round((schoolCount / totalViews) * 1000) / 10 : 0,
-      badge: '🏫 Schulunterricht',
+      badge: 'Schulunterricht',
     },
     {
       name: 'Nachmittag',
       timeRange: '13:00 – 18:00 Uhr',
       count: afternoonCount,
       percentage: totalViews > 0 ? Math.round((afternoonCount / totalViews) * 1000) / 10 : 0,
-      badge: '📚 Hausaufgaben & Lernen',
+      badge: 'Hausaufgaben & Lernen',
     },
     {
       name: 'Abend',
       timeRange: '18:00 – 23:00 Uhr',
       count: eveningCount,
       percentage: totalViews > 0 ? Math.round((eveningCount / totalViews) * 1000) / 10 : 0,
-      badge: '🌙 Freizeit & Wiederholung',
+      badge: 'Freizeit & Wiederholung',
     },
     {
       name: 'Nacht',
       timeRange: '23:00 – 08:00 Uhr',
       count: nightCount,
       percentage: totalViews > 0 ? Math.round((nightCount / totalViews) * 1000) / 10 : 0,
-      badge: '💤 Ruhezeit',
+      badge: 'Ruhezeit',
     },
   ];
 
@@ -544,9 +544,9 @@ export async function getAnalyticsReport(timeframe: Timeframe = '7d'): Promise<A
   ]).toArray();
 
   const deviceLabels: Record<string, string> = {
-    desktop: '💻 PC / Laptop',
-    mobile: '📱 Smartphone',
-    tablet: '📲 Tablet / iPad',
+    desktop: 'PC / Laptop',
+    mobile: 'Smartphone',
+    tablet: 'Tablet / iPad',
   };
 
   const devices = devicesAgg.map((d) => {
