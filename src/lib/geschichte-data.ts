@@ -1,4 +1,4 @@
-export interface H5PExercise {
+export interface GeschichteExercise {
   id: string;
   title: string;
   folder: string;
@@ -11,7 +11,7 @@ export interface GeschichteTopic {
   shortDesc: string;
   longDesc: string;
   keyPoints: string[];
-  exercises: H5PExercise[];
+  exercises: GeschichteExercise[];
   worksheetLink?: string;
 }
 
@@ -44,16 +44,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
     ],
     "exercises": [
       {
-        "id": "500",
-        "title": "Musikgeschichte - Steinzeit bis Antike",
-        "folder": "musikgeschichte-steinzeit-bis-antike-500"
-      },
-      {
-        "id": "607",
-        "title": "Musikgeschichte - Steinzeit bis Antike dsgvo",
-        "folder": "musikgeschichte-steinzeit-bis-antike-dsgvo-607"
-      },
-      {
         "id": "814",
         "title": "Geschichte Grundlagen",
         "folder": "geschichte-grundlagen-814"
@@ -84,19 +74,9 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "menschheitsentwicklung-und-steinzeit-3360"
       },
       {
-        "id": "3121",
-        "title": "Kunst in der Steinzeit",
-        "folder": "kunst-in-der-steinzeit-3121"
-      },
-      {
         "id": "2651",
         "title": "Die Hallstatt-Kultur",
         "folder": "buddhismus-in-der-modernen-welt-32-2651"
-      },
-      {
-        "id": "5223",
-        "title": "Die mykenische Kultur und das Ende der Bronzezeit in Griechenland",
-        "folder": "die-mykenische-kultur-und-das-ende-der-bronzezeit-in-griechenland-5223"
       },
       {
         "id": "5346",
@@ -122,19 +102,9 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
     ],
     "exercises": [
       {
-        "id": "1524",
-        "title": "Ägypten",
-        "folder": "gypten-1524"
-      },
-      {
         "id": "2295",
         "title": "Babylonien",
         "folder": "babylonien-2295"
-      },
-      {
-        "id": "2401",
-        "title": "Mose und der Auszug aus Ägypten",
-        "folder": "mose-und-der-auszug-aus-gypten-2401"
       },
       {
         "id": "2960",
@@ -220,9 +190,9 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
     ],
     "exercises": [
       {
-        "id": "1275",
-        "title": "Hermes",
-        "folder": "hermes-1275"
+        "id": "5223",
+        "title": "Die mykenische Kultur und das Ende der Bronzezeit in Griechenland",
+        "folder": "die-mykenische-kultur-und-das-ende-der-bronzezeit-in-griechenland-5223"
       },
       {
         "id": "881",
@@ -230,24 +200,9 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "alexander-der-groese-881"
       },
       {
-        "id": "1323",
-        "title": "Trojaner",
-        "folder": "trojaner-1323"
-      },
-      {
         "id": "1212",
         "title": "Athena",
         "folder": "athena-1212"
-      },
-      {
-        "id": "3063",
-        "title": "Umsturzversuch des Spartakusbundes",
-        "folder": "umsturzversuch-des-spartakusbundes-3063"
-      },
-      {
-        "id": "4703",
-        "title": "Die Schule von Athen - Raffael (1511)",
-        "folder": "die-schule-von-athen-raffael-1511-4703"
       },
       {
         "id": "5215",
@@ -379,19 +334,9 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "pompeji-und-das-romische-alltagsleben-1395"
       },
       {
-        "id": "1406",
-        "title": "Römische Literatur",
-        "folder": "romische-literatur-1406"
-      },
-      {
         "id": "1407",
         "title": "Römische Spiele und Unterhaltung",
         "folder": "romische-spiele-und-unterhaltung-1407"
-      },
-      {
-        "id": "1833",
-        "title": "Rom",
-        "folder": "rom-1833"
       },
       {
         "id": "2323",
@@ -632,11 +577,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "karl-der-groese-2364"
       },
       {
-        "id": "2456",
-        "title": "Papst Benedikt XVI.",
-        "folder": "papst-benedikt-xvi-2456"
-      },
-      {
         "id": "2652",
         "title": "Die Staufer",
         "folder": "buddhismus-in-der-modernen-welt-33-2652"
@@ -655,11 +595,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "5383",
         "title": "Die Kreuzzüge",
         "folder": "die-kreuzzuge-2-5383"
-      },
-      {
-        "id": "5596",
-        "title": "Das Klostertal",
-        "folder": "das-klostertal-5596"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Kirche%2C%20Kl%C3%B6ster%2C%20Kaiser%20%26%20Kreuzz%C3%BCge+geschichte&t=3752"
@@ -704,44 +639,14 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
     ],
     "exercises": [
       {
-        "id": "502",
-        "title": "Musikgeschichte - Renaissance",
-        "folder": "musikgeschichte-renaissance-502"
-      },
-      {
         "id": "612",
         "title": "Das kopernikanische Weltbild",
         "folder": "das-kopernikanische-weltbild-612"
       },
       {
-        "id": "639",
-        "title": "Music in the Renaissance",
-        "folder": "music-in-the-renaissance-639"
-      },
-      {
         "id": "2332",
         "title": "Die Erfindung des Buchdrucks",
         "folder": "die-erfindung-des-buchdrucks-2332"
-      },
-      {
-        "id": "2369",
-        "title": "Literaturepoche Renaissance",
-        "folder": "literaturepoche-renaissance-2369"
-      },
-      {
-        "id": "2797",
-        "title": "Das Abendmahl von Leonardo da Vinci (ca. 1495–1498)",
-        "folder": "das-abendmahl-von-leonardo-da-vinci-ca-1495-1498-2797"
-      },
-      {
-        "id": "2828",
-        "title": "Mona Lisa von Leonardo da Vinci (1503–1517)",
-        "folder": "mona-lisa-von-leonardo-da-vinci-1503-1517-2828"
-      },
-      {
-        "id": "2872",
-        "title": "Atheismus",
-        "folder": "atheismus-2872"
       },
       {
         "id": "2918",
@@ -782,41 +687,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "4052",
         "title": "Leonardo da Vinci",
         "folder": "leonardo-da-vinci-2-4052"
-      },
-      {
-        "id": "4637",
-        "title": "Literaturepoche Renaissance",
-        "folder": "literaturepoche-renaissance-2-4637"
-      },
-      {
-        "id": "4666",
-        "title": "Anbetung der Könige - Leonardo da Vinci (1481)",
-        "folder": "anbetung-der-konige-leonardo-da-vinci-1481-4666"
-      },
-      {
-        "id": "4676",
-        "title": "Das letzte Abendmahl - Leonardo da Vinci (1498)",
-        "folder": "das-letzte-abendmahl-leonardo-da-vinci-1498-4676"
-      },
-      {
-        "id": "4724",
-        "title": "Madonna Litta - Leonardo da Vinci (1490)",
-        "folder": "madonna-litta-leonardo-da-vinci-1490-4724"
-      },
-      {
-        "id": "4754",
-        "title": "Vitruvianischer Mensch - Leonardo da Vinci (1490)",
-        "folder": "vitruvianischer-mensch-leonardo-da-vinci-1490-4754"
-      },
-      {
-        "id": "4761",
-        "title": "Mona Lisa - Leonardo da Vinci (1503)",
-        "folder": "mona-lisa-leonardo-da-vinci-1503-4761"
-      },
-      {
-        "id": "4784",
-        "title": "Die Kunstepoche Renaissance",
-        "folder": "die-kunstepoche-renaissance-4784"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Renaissance%2C%20Humanismus%20%26%20Buchdruck+geschichte&t=3752"
@@ -914,24 +784,14 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "ferdinand-magellan-3843"
       },
       {
-        "id": "4096",
-        "title": "Maya Angelou",
-        "folder": "maya-angelou-4096"
-      },
-      {
-        "id": "4325",
-        "title": "Vladimir Mayakovsky",
-        "folder": "vladimir-mayakovsky-4325"
-      },
-      {
-        "id": "4346",
-        "title": "Wole Soyinka",
-        "folder": "wole-soyinka-4346"
-      },
-      {
         "id": "5386",
         "title": "Die Wiederentdeckung Amerikas durch Kolumbus",
         "folder": "die-wiederentdeckung-amerikas-durch-kolumbus-5386"
+      },
+      {
+        "id": "3153",
+        "title": "Der Atlantische Dreieckshandel",
+        "folder": "der-atlantische-dreieckshandel-3153"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Das%20Zeitalter%20der%20Entdeckungen%20%26%20Kolumbus+geschichte&t=3752"
@@ -978,11 +838,10 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "title": "Die Gegenreformation",
         "folder": "die-gegenreformation-2334"
       },
-      { id: "2464", title: "Ignatius von Loyola", folder: "ignatius-von-loyola-2464" },
       {
-        "id": "2891",
-        "title": "Aufstieg Österreichs zur Großmacht",
-        "folder": "aufstieg-sterreichs-zur-groesmacht-2891"
+        "id": "2464",
+        "title": "Ignatius von Loyola",
+        "folder": "ignatius-von-loyola-2464"
       },
       {
         "id": "2898",
@@ -995,44 +854,14 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "der-calvinismus-2914"
       },
       {
-        "id": "3030",
-        "title": "Königreich Sachsen",
-        "folder": "konigreich-sachsen-3030"
-      },
-      {
-        "id": "3034",
-        "title": "Martin Luther King",
-        "folder": "martin-luther-king-3034"
-      },
-      {
-        "id": "3052",
-        "title": "Rassenprobleme und Bürgerrechtskämpfe in den USA",
-        "folder": "rassenprobleme-und-burgerrechtskampfe-in-den-usa-3052"
-      },
-      {
         "id": "3354",
         "title": "Reformation und Gegenbewegungen",
         "folder": "reformation-und-gegenbewegungen-3354"
       },
       {
-        "id": "3426",
-        "title": "Friedrich Schiller - Wallenstein (Lernsong)",
-        "folder": "friedrich-schiller-wallenstein-3426"
-      },
-      {
-        "id": "4082",
-        "title": "Martin Luther King Jr.",
-        "folder": "martin-luther-king-jr-4082"
-      },
-      {
         "id": "4083",
         "title": "Martin Luther",
         "folder": "martin-luther-2-4083"
-      },
-      {
-        "id": "4531",
-        "title": "Friedrich Schiller - Wallenstein",
-        "folder": "friedrich-schiller-wallenstein-2-4531"
       },
       {
         "id": "5336",
@@ -1050,11 +879,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "was-ware-wenn-es-nie-zur-reformation-gekommen-ware-5417"
       },
       {
-        "id": "6526",
-        "title": "Der Reformationstag",
-        "folder": "der-reformationstag-6526"
-      },
-      {
         "id": "6712",
         "title": "Reformation und ihre Folgen",
         "folder": "reformation-und-ihre-folgen-6712"
@@ -1066,8 +890,8 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
     "slug": "absolutismus-und-ludwig-xiv",
     "title": "Absolutismus & der Sonnenkönig Ludwig XIV.",
     "category": "Frühe Neuzeit & Revolutionen",
-    "shortDesc": "L\'État, c\'est moi! – Schloss Versailles, Hofhaltung, stehendes Heer, Staatsverwaltung und Merkantilismus.",
-    "longDesc": "Der Absolutismus war eine Epoche königlicher Alleinherrschaft in Europa im 17. und 18. Jahrhundert, deren berühmtester Vertreter König Ludwig XIV. von Frankreich (der 'Sonnenkönig', Regierungszeit 1643–1715) war. Nach dem Leitsatz 'L\'État, c\'est moi' (Der Staat bin ich) konzentrierte der König die gesamte legislative, exekutive und judikative Macht auf seine Person. Gestützt auf ein stehendes Heer, eine loyale Beamtenschaft, die katholische Staatskirche und das Wirtschaftssystem des Merkantilismus nach Jean-Baptiste Colbert wurde das prunkvolle Schloss Versailles zum strahlenden Zentrum europäischer Macht.",
+    "shortDesc": "L'État, c'est moi! – Schloss Versailles, Hofhaltung, stehendes Heer, Staatsverwaltung und Merkantilismus.",
+    "longDesc": "Der Absolutismus war eine Epoche königlicher Alleinherrschaft in Europa im 17. und 18. Jahrhundert, deren berühmtester Vertreter König Ludwig XIV. von Frankreich (der 'Sonnenkönig', Regierungszeit 1643–1715) war. Nach dem Leitsatz 'L'État, c'est moi' (Der Staat bin ich) konzentrierte der König die gesamte legislative, exekutive und judikative Macht auf seine Person. Gestützt auf ein stehendes Heer, eine loyale Beamtenschaft, die katholische Staatskirche und das Wirtschaftssystem des Merkantilismus nach Jean-Baptiste Colbert wurde das prunkvolle Schloss Versailles zum strahlenden Zentrum europäischer Macht.",
     "keyPoints": [
       "Fünf Säulen der absolutistischen Herrschaft: 1. Stehendes Heer, 2. Staatsverwaltung mit Beamten, 3. Hofstaat in Versailles, 4. Staatsreligion (Katholizismus), 5. Merkantilismus",
       "Schloss Versailles: Politisches Zentrum und goldener Käfig für den Adel, um dessen Entmachtung und ständige Kontrolle zu sichern",
@@ -1142,26 +966,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "jean-jacques-rousseau-2363"
       },
       {
-        "id": "2371",
-        "title": "Literaturepoche Aufklärung",
-        "folder": "literaturepoche-aufklarung-2371"
-      },
-      {
-        "id": "2805",
-        "title": "Der Sturm auf die Bastille von Jean-Pierre Houël (1789)",
-        "folder": "der-sturm-auf-die-bastille-von-jean-pierre-houel-1789-2805"
-      },
-      {
-        "id": "2867",
-        "title": "Umweltaufklärung und nachhaltiger Lebensstil",
-        "folder": "umweltaufklarung-und-nachhaltiger-lebensstil-2867"
-      },
-      {
-        "id": "2946",
-        "title": "Die Entkolonialisierung in Südamerika",
-        "folder": "die-entkolonialisierung-in-sudamerika-2946"
-      },
-      {
         "id": "2948",
         "title": "Die Erklärung der Menschen- und Bürgerrechte 1789",
         "folder": "die-erklarung-der-menschen-und-burgerreichte-1789-2948"
@@ -1170,11 +974,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "2975",
         "title": "Die Schreckensherrschaft von Robespierre",
         "folder": "die-schreckensherrschaft-von-robespierre-2975"
-      },
-      {
-        "id": "2983",
-        "title": "Die Todesstrafe",
-        "folder": "die-todesstrafe-2983"
       },
       {
         "id": "3232",
@@ -1207,19 +1006,9 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "die-franzosische-revolution-und-die-folgen-3366"
       },
       {
-        "id": "3519",
-        "title": "Die Todesstrafe",
-        "folder": "die-todesstrafe-2-3519"
-      },
-      {
         "id": "3966",
         "title": "Immanuel Kant",
         "folder": "immanuel-kant-2-3966"
-      },
-      {
-        "id": "4639",
-        "title": "Literaturepoche Aufklärung",
-        "folder": "literaturepoche-aufklarung-2-4639"
       },
       {
         "id": "5342",
@@ -1287,11 +1076,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "die-volkerschlacht-von-leipzig-2988"
       },
       {
-        "id": "3029",
-        "title": "Königreich Bayern",
-        "folder": "konigreich-bayern-3029"
-      },
-      {
         "id": "3035",
         "title": "Metternich und der Vormärz in Österreich",
         "folder": "metternich-und-der-vormarz-in-sterreich-3035"
@@ -1300,11 +1084,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "4118",
         "title": "Napoleon Bonaparte",
         "folder": "napoleon-bonaparte-4118"
-      },
-      {
-        "id": "4701",
-        "title": "Die Krönung Napoleons - Jacques-Louis David (1807)",
-        "folder": "die-kronung-napoleons-jacques-louis-david-1807-4701"
       },
       {
         "id": "5421",
@@ -1362,21 +1141,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "der-fruhkapitalismus-2320"
       },
       {
-        "id": "2326",
-        "title": "Der Wilde Westen",
-        "folder": "der-wilde-westen-2326"
-      },
-      {
-        "id": "2337",
-        "title": "Die Gesellschaft im deutschen Kaiserreich",
-        "folder": "die-gesellschaft-im-deutschen-kaiserreich-2337"
-      },
-      {
-        "id": "2900",
-        "title": "Das deutsche Kaiserreich",
-        "folder": "das-deutsche-kaiserreich-2900"
-      },
-      {
         "id": "2994",
         "title": "Die Zweite Industrielle Revolution",
         "folder": "die-zweite-industrielle-revolution-2994"
@@ -1387,29 +1151,9 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "friedrich-engels-3000"
       },
       {
-        "id": "3006",
-        "title": "Gewaltherrschaft Stalins",
-        "folder": "gewaltherrschaft-stalins-3006"
-      },
-      {
-        "id": "3015",
-        "title": "Josef Stalin",
-        "folder": "josef-stalin-3015"
-      },
-      {
         "id": "3023",
         "title": "Karl Marx",
         "folder": "karl-marx-3023"
-      },
-      {
-        "id": "3071",
-        "title": "Die Geschichte Brasiliens",
-        "folder": "arbeitslosigkeit-nach-dem-ersten-weltkrieg-2-3071"
-      },
-      {
-        "id": "3153",
-        "title": "Der Atlantische Dreieckshandel",
-        "folder": "der-atlantische-dreieckshandel-3153"
       },
       {
         "id": "3367",
@@ -1467,16 +1211,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "deutschland-im-19-jahrhundert-deutscher-bund-und-kaiserreich-348"
       },
       {
-        "id": "1866",
-        "title": "Simbabwe",
-        "folder": "simbabwe-1866"
-      },
-      {
-        "id": "2376",
-        "title": "Literaturepoche Vormärz",
-        "folder": "literaturepoche-vormarz-2376"
-      },
-      {
         "id": "2941",
         "title": "Die Deutsche Nationalversammlung in Frankfurt a.M.",
         "folder": "die-deutsche-nationalversammlung-in-frankfurt-a-m-2941"
@@ -1522,16 +1256,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "2328",
         "title": "Die Außenpolitik des Deutschen Kaiserreichs",
         "folder": "die-auesenpolitik-des-deutschen-kaiserreichs-2328"
-      },
-      {
-        "id": "2337",
-        "title": "Die Gesellschaft im deutschen Kaiserreich",
-        "folder": "die-gesellschaft-im-deutschen-kaiserreich-2337"
-      },
-      {
-        "id": "2900",
-        "title": "Das deutsche Kaiserreich",
-        "folder": "das-deutsche-kaiserreich-2900"
       },
       {
         "id": "3045",
@@ -1594,11 +1318,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "der-erste-weltkrieg-ende-und-folgen-353"
       },
       {
-        "id": "2301",
-        "title": "Charles de Gaulle",
-        "folder": "charles-de-gaulle-2301"
-      },
-      {
         "id": "2302",
         "title": "Das Attentat von Sarajevo",
         "folder": "das-attentat-von-sarajevo-2302"
@@ -1637,11 +1356,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "2981",
         "title": "Die Südtirolfrage",
         "folder": "die-sudtirolfrage-2981"
-      },
-      {
-        "id": "3003",
-        "title": "Geschichte des Frauenwahlrechts",
-        "folder": "geschichte-des-frauenwahlrechts-3003"
       },
       {
         "id": "3010",
@@ -1684,24 +1398,9 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "ende-und-folgen-des-ersten-weltkriegs-3330"
       },
       {
-        "id": "3090",
-        "title": "Die Hohenzollern",
-        "folder": "die-hohenzoller-3090"
-      },
-      {
-        "id": "3091",
-        "title": "Geschichte Dänemarks",
-        "folder": "geschichte-danemarks-3091"
-      },
-      {
         "id": "3106",
         "title": "Die Heimsuchung - 1912 - Vorkriegszeit des Ersten Weltkriegs und Antisemitismus",
         "folder": "die-heimsuchung-1912-vorkriegszeit-des-ersten-weltkriegs-und-antisemitismus-3106"
-      },
-      {
-        "id": "3081",
-        "title": "Der Gemeindebau - sozialer Wohnbau in Wien",
-        "folder": "arbeitslosigkeit-nach-dem-ersten-weltkrieg-12-3081"
       },
       {
         "id": "3080",
@@ -1867,6 +1566,11 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "3325",
         "title": "Zwischenkriegszeit",
         "folder": "zwischenkriegszeit-3325"
+      },
+      {
+        "id": "3081",
+        "title": "Der Gemeindebau - sozialer Wohnbau in Wien",
+        "folder": "arbeitslosigkeit-nach-dem-ersten-weltkrieg-12-3081"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Zwischenkriegszeit%20%26%20Faschismus%20in%20Europa+geschichte&t=3752"
@@ -2069,36 +1773,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "studypoint-multiple-choice-zweiter-weltkrieg-697"
       },
       {
-        "id": "741",
-        "title": "Unabhängigkeit der Teilrepubliken Jugoslawiens",
-        "folder": "unabhangigkeit-der-teilrepubliken-jugoslawiens-741"
-      },
-      {
-        "id": "893",
-        "title": "Konrad Adenauer",
-        "folder": "konrad-adenauer-893"
-      },
-      {
-        "id": "895",
-        "title": "Willy Brandt",
-        "folder": "willy-brandt-895"
-      },
-      {
-        "id": "899",
-        "title": "Der Prager Frühling",
-        "folder": "der-prager-fruhling-899"
-      },
-      {
-        "id": "953",
-        "title": "Die UNO",
-        "folder": "die-uno-953"
-      },
-      {
-        "id": "2335",
-        "title": "Die Genfer Flüchtlingskonvention",
-        "folder": "die-genfer-fluchtlingskonvention-2335"
-      },
-      {
         "id": "2362",
         "title": "Hitlers Außenpolitik",
         "folder": "hitlers-auesenpolitik-2362"
@@ -2149,21 +1823,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "der-totale-krieg-2931"
       },
       {
-        "id": "2939",
-        "title": "Die Allgemeine Erklärung der Menschenrechte",
-        "folder": "die-allgemeine-erklarung-der-menschenrechte-2939"
-      },
-      {
-        "id": "2944",
-        "title": "Die Entkolonialisierung in Afrika",
-        "folder": "die-entkolonialisierung-in-afrika-2944"
-      },
-      {
-        "id": "2945",
-        "title": "Die Entkolonialisierung in Asien",
-        "folder": "die-entkolonialisierung-in-asien-2945"
-      },
-      {
         "id": "2949",
         "title": "Die erste Atombombe",
         "folder": "die-erste-atombombe-2949"
@@ -2179,19 +1838,9 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "die-moskauer-deklaration-und-die-konferenz-in-jalta-2965"
       },
       {
-        "id": "2986",
-        "title": "Die UNICEF",
-        "folder": "die-unicef-2986"
-      },
-      {
         "id": "2995",
         "title": "Einmarsch deutscher Truppen in Böhmen und Mähren",
         "folder": "einmarsch-deutscher-truppen-in-bohmen-und-mahren-2995"
-      },
-      {
-        "id": "3004",
-        "title": "Geschichte von Hollywood",
-        "folder": "geschichte-von-hollywood-3004"
       },
       {
         "id": "3011",
@@ -2207,11 +1856,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "3039",
         "title": "Nichtangriffspakt Hitlers mit Stalin",
         "folder": "nichtangriffspakt-hitlers-mit-stalin-3039"
-      },
-      {
-        "id": "3040",
-        "title": "Nikita Chruschtschow",
-        "folder": "nikita-chruschtschow-3040"
       },
       {
         "id": "3044",
@@ -2262,16 +1906,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "3320",
         "title": "Ende und Folgen des Zweiten Weltkriegs",
         "folder": "ende-und-folgen-des-zweiten-weltkriegs-3320"
-      },
-      {
-        "id": "3337",
-        "title": "Kriege der USA nach dem Zweiten Weltkrieg",
-        "folder": "kriege-der-usa-nach-dem-zweiten-weltkrieg-3337"
-      },
-      {
-        "id": "3077",
-        "title": "Die Berlinblockade und die Luftbrücke",
-        "folder": "arbeitslosigkeit-nach-dem-ersten-weltkrieg-8-3077"
       },
       {
         "id": "5341",
@@ -2370,6 +2004,11 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "2968",
         "title": "Die Nürnberger Prozesse",
         "folder": "die-nurnberger-prozesse-2968"
+      },
+      {
+        "id": "893",
+        "title": "Konrad Adenauer",
+        "folder": "konrad-adenauer-893"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Nachkriegszeit%2C%20Stunde%20Null%20%26%20Besatzungszonen+geschichte&t=3752"
@@ -2427,11 +2066,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "boris-jelzin-2896"
       },
       {
-        "id": "2916",
-        "title": "Der erste, zweite und dritte Golfkrieg",
-        "folder": "der-erste-zweite-und-dritte-golfkrieg-2916"
-      },
-      {
         "id": "2919",
         "title": "DIE IAEO",
         "folder": "der-iaeo-2919"
@@ -2457,16 +2091,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "die-diktatur-nikkolae-ceausescus-2942"
       },
       {
-        "id": "2962",
-        "title": "Die Krimkrise 2015",
-        "folder": "die-krimkrise-2015-2962"
-      },
-      {
-        "id": "3056",
-        "title": "Saddam Hussein",
-        "folder": "saddam-hussein-3056"
-      },
-      {
         "id": "3062",
         "title": "Studentenunruhen 1968",
         "folder": "studentenunruhen-1968-3062"
@@ -2485,6 +2109,26 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "5413",
         "title": "Was wäre, wenn die UdSSR den Kalten Krieg gewonnen hätte …",
         "folder": "was-ware-wenn-die-udssr-den-kalten-krieg-gewonnen-hatte-5413"
+      },
+      {
+        "id": "895",
+        "title": "Willy Brandt",
+        "folder": "willy-brandt-895"
+      },
+      {
+        "id": "899",
+        "title": "Der Prager Frühling",
+        "folder": "der-prager-fruhling-899"
+      },
+      {
+        "id": "3040",
+        "title": "Nikita Chruschtschow",
+        "folder": "nikita-chruschtschow-3040"
+      },
+      {
+        "id": "3077",
+        "title": "Die Berlinblockade und die Luftbrücke",
+        "folder": "arbeitslosigkeit-nach-dem-ersten-weltkrieg-8-3077"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Der%20Kalte%20Krieg%20%26%20Globale%20Konflikte+geschichte&t=3752"
@@ -2516,7 +2160,11 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "title": "Die Berliner Mauer (1961–1989)",
         "folder": "die-berliner-mauer-2940"
       },
-      { id: "3109", title: "Die Heimsuchung - 1961-62 - Bau der Berliner Mauer", folder: "die-heimsuchung-1961-62-bau-der-berliner-mauer-3109" },
+      {
+        "id": "3109",
+        "title": "Die Heimsuchung - 1961-62 - Bau der Berliner Mauer",
+        "folder": "die-heimsuchung-1961-62-bau-der-berliner-mauer-3109"
+      },
       {
         "id": "2979",
         "title": "Die Stasi – Ministerium für Staatssicherheit",
@@ -2537,7 +2185,11 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "title": "Erich Honecker",
         "folder": "erich-honecker-2998"
       },
-      { id: "3060", title: "Schule in der DDR", folder: "schule-in-der-ddr-3060" },
+      {
+        "id": "3060",
+        "title": "Schule in der DDR",
+        "folder": "schule-in-der-ddr-3060"
+      },
       {
         "id": "3092",
         "title": "Das Wirtschaftssystem der DDR (Planwirtschaft)",
@@ -2548,7 +2200,11 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "title": "Die Gründung der DDR 1949",
         "folder": "die-grundung-der-ddr-3114"
       },
-      { id: "3128", title: "Opposition und Widerstand in der DDR", folder: "opposition-und-widerstand-in-der-ddr-3128" },
+      {
+        "id": "3128",
+        "title": "Opposition und Widerstand in der DDR",
+        "folder": "opposition-und-widerstand-in-der-ddr-3128"
+      },
       {
         "id": "3130",
         "title": "Jugend in der DDR",
