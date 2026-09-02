@@ -296,6 +296,11 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "folder": "bosnien-und-herzegowina-1573"
       },
       {
+        "id": "1583",
+        "title": "Budapest",
+        "folder": "budapest-1583"
+      },
+      {
         "id": "1585",
         "title": "Bulgarien",
         "folder": "bulgarien-1585"

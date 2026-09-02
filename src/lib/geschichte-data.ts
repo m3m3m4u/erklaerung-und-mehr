@@ -666,9 +666,9 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
   },
   "schwarzer-tod-die-pest": {
     "slug": "schwarzer-tod-die-pest",
-    "title": "Der Schwarze Tod: die Pest im Mittelalter",
+    "title": "Die Deutschen Bauernkriege",
     "category": "Das Mittelalter",
-    "shortDesc": "Die Pestepidemie ab 1347, Ursachen, Geißelzüge, Judenpogrome und die tiefgreifenden Folgen für Europa.",
+    "shortDesc": "Die Lebensbedingungen der Bauern im 16. Jahrhundert, Martin Luther, die 12 Artikel von Memmingen und der Aufstand 1525.",
     "longDesc": "Die Lebensbedingungen der Bauern im 16. Jahrhundert waren hart. Hohe Abgaben, Hungersnöte und politische Machtlosigkeit führten zu wachsender Unzufriedenheit. Schließlich erhoben sich die Bauern gegen die Adligen und Geistlichen, um für mehr Rechte und bessere Lebensbedingungen zu kämpfen. Doch ihr Aufstand wurde blutig niedergeschlagen, und die Folgen prägten die Gesellschaft noch lange. Nach der Pest wuchs die Bevölkerung, doch die Ernteerträge blieben gering. Missernten und hohe Steuern trieben viele Bauern in die Armut. Obwohl sie den Großteil der Gesellschaft bildeten, hatten sie keinerlei politische Mitsprache. Gleichzeitig gab ihnen Martin Luthers Schrift „Von der Freyheith eines Christenmenschen“ Hoffnung. Sie deuteten seine Worte als Aufruf zur Befreiung und forderten Veränderungen. Erste Versammlungen führten 1524 zur Formulierung der 12 Artikel, die grundlegende Rechte verlangten. Doch die Adligen reagierten mit Gewalt, wodurch sich der Konflikt zuspitzte.",
     "keyPoints": [
       "1525 begann der bewaffnete Aufstand mit Plünderungen und Kämpfen.",
@@ -682,14 +682,9 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "823",
         "title": "Die Deutschen Bauernkriege",
         "folder": "die-deutschen-bauernkriege-823"
-      },
-      {
-        "id": "1583",
-        "title": "Budapest",
-        "folder": "budapest-1583"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Der%20Schwarze%20Tod%3A%20Die%20Pest%20im%20Mittelalter+geschichte&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Die%20Deutschen%20Bauernkriege+geschichte&t=3752"
   },
   "renaissance-humanismus-und-buchdruck": {
     "slug": "renaissance-humanismus-und-buchdruck",
