@@ -301,11 +301,20 @@ export async function getAnalyticsReport(timeframe: Timeframe = '7d'): Promise<A
 
   // 1. Live active visitors (views updated within last 5 minutes)
   const fiveMinutesAgo = new Date(Date.now() - 5 * 60 * 1000);
-  const activeNowSessions = await collection.distinct('sessionId', {
-    isAdmin: { $ne: true },
-    updatedAt: { $gte: fiveMinutesAgo },
-  });
-  const activeNow = activeNowSessions.length;
+  const activeNowAgg = await collection.aggregate([
+    {
+      $match: {
+        isAdmin: { $ne: true },
+        updatedAt: { $gte: fiveMinutesAgo },
+      },
+    },
+    {
+      $group: {
+        _id: '$sessionId',
+      },
+    },
+  ]).toArray();
+  const activeNow = activeNowAgg.length;
 
   // 2. Summary stats (Total Views, Unique Visitors, Avg Duration)
   const summaryAgg = await collection.aggregate([
