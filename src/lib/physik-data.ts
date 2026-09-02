@@ -644,9 +644,9 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "folder": "galileo-galilei-3001"
       },
       {
-        "id": "4075",
+        "id": "4076",
         "title": "Marie Curie",
-        "folder": "marie-curie-4075"
+        "folder": "marie-curie-4076"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=physiker&t=3752"

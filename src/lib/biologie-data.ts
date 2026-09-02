@@ -213,19 +213,34 @@ export const biologieTopics: Record<string, BiologieTopic> = {
     ],
     "exercises": [
       {
-        "id": "2102",
-        "title": "Das zentrale Nervensystem – Gehirn und Rückenmark",
-        "folder": "das-zentrale-nervensystem-gehirn-und-ruckenmark-2102"
+        "id": "2089",
+        "title": "Das menschliche Gehirn",
+        "folder": "das-menschliche-gehirn-2089"
       },
       {
-        "id": "2103",
-        "title": "Nervenzellen und Reizweiterleitung",
-        "folder": "nervenzellen-und-reizweiterleitung-2103"
+        "id": "2090",
+        "title": "Das Nervensystem: Gehirn und Rückenmark",
+        "folder": "das-nervensystem-gehirn-und-ruckenmark-2090"
       },
       {
-        "id": "2104",
-        "title": "Das periphere Nervensystem und Reflexe",
-        "folder": "das-periphere-nervensystem-und-reflexe-2104"
+        "id": "2091",
+        "title": "Das Nervensystem: Nervenzellen und Synapsen",
+        "folder": "das-nervensystem-nervenzellen-und-synapsen-2091"
+      },
+      {
+        "id": "2087",
+        "title": "Das menschliche Gehirn: Struktur und Funktion (Teil 1)",
+        "folder": "das-menschliche-gehirn-struktur-und-funktion-2087"
+      },
+      {
+        "id": "2088",
+        "title": "Das menschliche Gehirn: Struktur und Funktion (Teil 2)",
+        "folder": "das-menschliche-gehirn-struktur-und-funktion-2-2088"
+      },
+      {
+        "id": "2158",
+        "title": "Drogen und das Nervensystem",
+        "folder": "drogen-und-das-nervensystem-2158"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=nervensystem+und+gehirn&t=3752"
