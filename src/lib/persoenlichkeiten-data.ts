@@ -191,6 +191,11 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
     ],
     "exercises": [
       {
+        "id": "3959",
+        "title": "I.M. Pei",
+        "folder": "i-m-pei-3959"
+      },
+      {
         "id": "3645",
         "title": "Alvar Aalto",
         "folder": "alvar-aalto-3645"
@@ -3505,12 +3510,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "title": "George Washington",
         "folder": "george-washington-2-3888"
       },
-      {
-        "id": "3959",
-        "title": "I.M. Pei",
-        "folder": "i-m-pei-3959"
-      },
-      {
+            {
         "id": "4045",
         "title": "Joseph Stalin",
         "folder": "joseph-stalin-4045"
@@ -3870,12 +3870,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "title": "Zoroaster",
         "folder": "zoroaster-4354"
       },
-      {
-        "id": "4355",
-        "title": "Zoroaster",
-        "folder": "zoroaster-2-4355"
-      },
-      {
+            {
         "id": "4359",
         "title": "Billy Graham",
         "folder": "billy-graham-4359"
