@@ -68,7 +68,7 @@ export default function MathTopicDetailPage({
             <div className="exercise-tabs">
               {topic.exercises.map((ex, idx) => (
                 <button
-                  key={ex.id}
+                  key={`${ex.folder}-${idx}`}
                   onClick={() => {
                     setActiveExerciseIndex(idx);
                     }}

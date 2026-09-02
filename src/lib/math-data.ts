@@ -105,6 +105,11 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "624",
         "title": "Römische Zahlen",
         "folder": "romische-zahlen-624"
+      },
+      {
+        "id": "388",
+        "title": "Zahlenmengen",
+        "folder": "zahlenmengen-388"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=zahlenmengen&t=1118"
@@ -123,14 +128,24 @@ export const mathTopics: Record<string, MathTopic> = {
     ],
     "exercises": [
       {
-        "id": "152",
-        "title": "Gleitkommadarstellung",
-        "folder": "gleitkommadarstellung-152"
+        "id": "896",
+        "title": "Stellenwerte natürlicher Zahlen",
+        "folder": "stellenwerte-naturlicher-zahlen-896"
       },
       {
-        "id": "153",
-        "title": "KlaPuStri-Aufgaben mit Komma",
-        "folder": "klapustri-aufgaben-mit-komma-153"
+        "id": "625",
+        "title": "Runden natürlicher Zahlen",
+        "folder": "runden-naturlicher-zahlen-625"
+      },
+      {
+        "id": "627",
+        "title": "Natürliche Zahlen runden",
+        "folder": "naturliche-zahlen-runden-627"
+      },
+      {
+        "id": "291",
+        "title": "Zahlen runden (Erklärvideo und Übungen)",
+        "folder": "zahlen-runden-erklarvideo-und-bungen-291"
       },
       {
         "id": "154",
@@ -138,44 +153,19 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "klapustri-aufgaben-ohne-komma-154"
       },
       {
-        "id": "155",
-        "title": "Übungen zu Flächenmaßen",
-        "folder": "bungen-zu-flachenmaesen-155"
+        "id": "620",
+        "title": "KlaPuStri ohne Komma",
+        "folder": "klapustri-ohne-komma-620"
       },
       {
-        "id": "156",
-        "title": "Übungen zu Rechteck und Quadrat",
-        "folder": "bungen-zu-rechteck-und-quadrat-156"
+        "id": "284",
+        "title": "KlaPuStri - Erklärungen und Übungen ohne Komma",
+        "folder": "klapustri-erklarungen-und-bungen-ohne-komma-284"
       },
       {
-        "id": "157",
-        "title": "Begriffe der Grundrechnungsarten",
-        "folder": "begriffe-der-grundrechnungsarten-157"
-      },
-      {
-        "id": "158",
-        "title": "Übungen zu Flächenmaßen",
-        "folder": "bungen-zu-langenmaesen-158"
-      },
-      {
-        "id": "159",
-        "title": "Übungen zu Rechteck und Quadrat",
-        "folder": "multiplikation-von-dezimalzahlen-159"
-      },
-      {
-        "id": "617",
-        "title": "Additionen im Kopf lösen",
-        "folder": "additionen-im-kopf-losen-617"
-      },
-      {
-        "id": "618",
-        "title": "Additionen und Subtraktionen im Kopf lösen",
-        "folder": "additionen-und-subtraktionen-im-kopf-losen-618"
-      },
-      {
-        "id": "794",
-        "title": "Begriffe zuordnen",
-        "folder": "begriffe-zuordnen-794"
+        "id": "283",
+        "title": "Kopfrechnen: Multiplikation und Division mit Zehnerzahlen (ohne Komma)",
+        "folder": "kopfrechnen-multiplikation-und-division-mit-zehnerzahlen-ohne-komma-283"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=nat%C3%BCrliche+zahlen&t=1118"
@@ -225,19 +215,29 @@ export const mathTopics: Record<string, MathTopic> = {
     ],
     "exercises": [
       {
-        "id": "617",
-        "title": "Additionen im Kopf lösen",
-        "folder": "additionen-im-kopf-losen-617"
+        "id": "116",
+        "title": "Das kleine 1x1 (Rechenquiz)",
+        "folder": "gleichungen-116"
       },
       {
-        "id": "618",
-        "title": "Additionen und Subtraktionen im Kopf lösen",
-        "folder": "additionen-und-subtraktionen-im-kopf-losen-618"
+        "id": "415",
+        "title": "Das kleine 1x1 (Übungsstrecke)",
+        "folder": "das-kleine-1x1-2-415"
       },
       {
-        "id": "794",
-        "title": "Begriffe zuordnen",
-        "folder": "begriffe-zuordnen-794"
+        "id": "621",
+        "title": "Multiplikationen im Kopf lösen",
+        "folder": "multiplikationen-im-kopf-losen-621"
+      },
+      {
+        "id": "623",
+        "title": "Multiplikationen und Divisionen im Kopf lösen",
+        "folder": "multiplikationen-und-divisionen-im-kopf-losen-623"
+      },
+      {
+        "id": "283",
+        "title": "Kopfrechnen: Multiplikation und Division mit Zehnerzahlen",
+        "folder": "kopfrechnen-multiplikation-und-division-mit-zehnerzahlen-ohne-komma-283"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=einmaleins&t=1118"
@@ -260,6 +260,51 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "151",
         "title": "Addition und Subtraktion von Dezimalzahlen",
         "folder": "addition-und-subtraktion-von-dezimalzahlen-151"
+      },
+      {
+        "id": "748",
+        "title": "Dezimalzahlen addieren und subtrahieren",
+        "folder": "dezimalzahlen-addieren-und-subtrahieren-748"
+      },
+      {
+        "id": "750",
+        "title": "Dezimalzahlen multiplizieren",
+        "folder": "dezimalzahlen-multiplizieren-750"
+      },
+      {
+        "id": "749",
+        "title": "Dezimalzahlen dividieren",
+        "folder": "dezimalzahlen-dividieren-749"
+      },
+      {
+        "id": "150",
+        "title": "Division von Dezimalzahlen",
+        "folder": "division-von-dezimalzahlen-150"
+      },
+      {
+        "id": "148",
+        "title": "Kla-Pu-Stri-Aufgaben mit Dezimalzahlen",
+        "folder": "kla-pu-stri-aufgaben-mit-dezimalzahlen-148"
+      },
+      {
+        "id": "752",
+        "title": "KlaPuStri mit Dezimalzahlen",
+        "folder": "klapustri-mit-dezimalzahlen-752"
+      },
+      {
+        "id": "746",
+        "title": "Dezimalzahlen am Zahlenstrahl",
+        "folder": "dezimalzahlen-am-zahlenstrahl-746"
+      },
+      {
+        "id": "751",
+        "title": "Dezimalzahlen ordnen",
+        "folder": "dezimalzahlen-ordnen-751"
+      },
+      {
+        "id": "747",
+        "title": "Dezimalzahlen runden",
+        "folder": "dezimalzahlen-runden-2-747"
       },
       {
         "id": "38",
@@ -294,11 +339,6 @@ export const mathTopics: Record<string, MathTopic> = {
     ],
     "exercises": [
       {
-        "id": "144",
-        "title": "Der Würfel (Erklärvideo mit Fragen)",
-        "folder": "der-wurfel-erklarvideo-mit-fragen-144"
-      },
-      {
         "id": "145",
         "title": "Addieren und subtrahieren mit negativen Zahlen",
         "folder": "addieren-und-subtrahieren-mit-negativen-zahlen-145"
@@ -309,24 +349,19 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "multiplizieren-und-dividieren-mit-negativen-zahlen-146"
       },
       {
-        "id": "147",
-        "title": "Gleitkommadarstellung Zuordnungsübung",
-        "folder": "gleitkommadarstellung-zuordnungsubung-147"
+        "id": "768",
+        "title": "Negative Zahlen multiplizieren und dividieren",
+        "folder": "negative-zahlen-multiplizieren-und-dividieren-768"
       },
       {
-        "id": "148",
-        "title": "Kla-Pu-Stri-Aufgaben mit Dezimalzahlen",
-        "folder": "kla-pu-stri-aufgaben-mit-dezimalzahlen-148"
+        "id": "769",
+        "title": "Rechnen mit negativen Zahlen",
+        "folder": "rechnen-mit-negativen-zahlen-769"
       },
       {
-        "id": "149",
-        "title": "Gemischte Aufgaben mit Dezimalzahlen",
-        "folder": "gemischte-aufgaben-mit-dezimalzahlen-149"
-      },
-      {
-        "id": "150",
-        "title": "Division von Dezimalzahlen",
-        "folder": "division-von-dezimalzahlen-150"
+        "id": "770",
+        "title": "Zusammengesetzte Aufgaben mit negativen Zahlen",
+        "folder": "zusammengesetzte-aufgaben-mit-negativen-zahlen-770"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=negative+zahlen&t=1118"
@@ -358,9 +393,19 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "brucharten-bestimmen-29"
       },
       {
+        "id": "30",
+        "title": "Unechte Brüche und gemischte Zahlen",
+        "folder": "unechte-bruche-und-gemischte-zahlen-30"
+      },
+      {
         "id": "32",
         "title": "Brüche erweitern",
         "folder": "bruche-erweitern-32"
+      },
+      {
+        "id": "33",
+        "title": "Brüche kürzen",
+        "folder": "bruche-kurzen-33"
       },
       {
         "id": "34",
@@ -368,14 +413,49 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "bruche-erweitern-und-kurzen-34"
       },
       {
+        "id": "36",
+        "title": "Brüche ordnen",
+        "folder": "bruche-ordnen-36"
+      },
+      {
         "id": "41",
         "title": "Brüche addieren und subtrahieren",
         "folder": "bruche-addieren-und-subtrahieren-41"
       },
       {
+        "id": "42",
+        "title": "Brüche multiplizieren und dividieren",
+        "folder": "bruche-multiplizieren-und-dividieren-42"
+      },
+      {
+        "id": "43",
+        "title": "KlaPuStri-Aufgaben mit Brüchen",
+        "folder": "klapustri-aufgaben-mit-bruchen-43"
+      },
+      {
         "id": "38",
         "title": "Brüche und Dezimalzahlen",
         "folder": "bruche-und-dezimalzahlen-38"
+      },
+      {
+        "id": "923",
+        "title": "Bruchrechnen - Arten von Brüchen, Brüche darstellen",
+        "folder": "bruchrechnen-arten-von-bruchen-bruche-darstellen-923"
+      },
+      {
+        "id": "924",
+        "title": "Bruchrechnen - Brüche erweitern und kürzen",
+        "folder": "bruchrechnen-bruche-erweitern-und-kurzen-924"
+      },
+      {
+        "id": "925",
+        "title": "Bruchrechnen - Brüche multiplizieren und dividieren",
+        "folder": "bruchrechnen-bruche-multiplizieren-und-dividieren-925"
+      },
+      {
+        "id": "927",
+        "title": "Bruchrechnen - Additionen und Subtraktionen",
+        "folder": "bruchrechnen-additionen-und-subtraktionen-927"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=br%C3%BCche&t=1118"
@@ -397,14 +477,64 @@ export const mathTopics: Record<string, MathTopic> = {
     ],
     "exercises": [
       {
+        "id": "176",
+        "title": "Teilbarkeit",
+        "folder": "teilbarkeit-176"
+      },
+      {
+        "id": "175",
+        "title": "Teilbarkeitsregeln - richtig oder falsch?",
+        "folder": "teilbarkeit-4-175"
+      },
+      {
+        "id": "174",
+        "title": "ggT und kgV",
+        "folder": "teilbarkeitsregeln-richtig-oder-falsch-174"
+      },
+      {
         "id": "177",
         "title": "Primzahlen",
         "folder": "primzahlen-177"
       },
       {
-        "id": "178",
-        "title": "Potenzen berechnen",
-        "folder": "potenzen-berechnen-178"
+        "id": "246",
+        "title": "Gemeinsame Teiler bestimmen",
+        "folder": "gemeinsame-teiler-bestimmen-246"
+      },
+      {
+        "id": "247",
+        "title": "Größte gemeinsame Teiler bestimmen",
+        "folder": "groeste-gemeinsame-teiler-bestimmen-247"
+      },
+      {
+        "id": "169",
+        "title": "Teiler einer Zahl finden (einfach)",
+        "folder": "teiler-einer-zahl-finden-einfach-2-169"
+      },
+      {
+        "id": "168",
+        "title": "Teiler einer Zahl finden (mittel)",
+        "folder": "teiler-einer-zahl-finden-mittel-2-168"
+      },
+      {
+        "id": "167",
+        "title": "Teiler einer Zahl finden (schwer)",
+        "folder": "teiler-einer-zahl-finden-schwer-2-167"
+      },
+      {
+        "id": "872",
+        "title": "Teilbar oder nicht teilbar",
+        "folder": "teilbar-oder-nicht-teilbar-level-1-872"
+      },
+      {
+        "id": "852",
+        "title": "ggT berechnen",
+        "folder": "ggt-level-1-852"
+      },
+      {
+        "id": "855",
+        "title": "kgV berechnen",
+        "folder": "kgv-level-1-855"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=teilbarkeit&t=1118"
@@ -439,9 +569,44 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "prozentsatz-berechnen-einfach-85"
       },
       {
+        "id": "86",
+        "title": "Prozentsatz berechnen (schwierig)",
+        "folder": "prozentsatz-berechnen-schwierig-86"
+      },
+      {
         "id": "258",
         "title": "Prozentsatz berechnen (mit Brüchen)",
         "folder": "prozentsatz-berechnen-mit-bruchen-258"
+      },
+      {
+        "id": "81",
+        "title": "Prozentwert berechnen (einfach)",
+        "folder": "prozentwert-berechnen-einfach-81"
+      },
+      {
+        "id": "82",
+        "title": "Prozentwert berechnen (schwierig)",
+        "folder": "prozentwert-berechnen-schwierig-82"
+      },
+      {
+        "id": "259",
+        "title": "Prozentwert berechnen",
+        "folder": "prozentwert-berechnen-259"
+      },
+      {
+        "id": "83",
+        "title": "Grundwert berechnen (einfach)",
+        "folder": "grundwert-berechnen-einfach-83"
+      },
+      {
+        "id": "84",
+        "title": "Grundwert berechnen (schwierig)",
+        "folder": "grundwert-berechnen-schwierig-84"
+      },
+      {
+        "id": "257",
+        "title": "Grundwert berechnen",
+        "folder": "grundwert-berechnen-257"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=prozent&t=1118"
@@ -461,6 +626,11 @@ export const mathTopics: Record<string, MathTopic> = {
       "Tageszinsen (t Tage, Bankjahr mit 360 Tagen): Z = (K · p · t) / (100 · 360)"
     ],
     "exercises": [
+      {
+        "id": "439",
+        "title": "Zinsrechnung",
+        "folder": "zinsrechnung-439"
+      },
       {
         "id": "2882",
         "title": "Abzahlungsdarlehen",
@@ -490,19 +660,34 @@ export const mathTopics: Record<string, MathTopic> = {
     ],
     "exercises": [
       {
-        "id": "777",
-        "title": "Binomische Formeln",
-        "folder": "binomische-formeln-4-777"
+        "id": "389",
+        "title": "Potenzen und Quadratwurzeln",
+        "folder": "potenzen-und-quadratwurzeln-389"
       },
       {
-        "id": "94",
-        "title": "Binomische Formeln 1",
-        "folder": "binomische-formeln-1-94"
+        "id": "178",
+        "title": "Potenzen berechnen",
+        "folder": "potenzen-berechnen-178"
       },
       {
-        "id": "95",
-        "title": "Binomische Formeln",
-        "folder": "binomische-formeln-2-95"
+        "id": "90",
+        "title": "Potenzen multiplizieren und dividieren",
+        "folder": "potenzen-multiplizieren-und-dividieren-90"
+      },
+      {
+        "id": "192",
+        "title": "Wurzel ziehen",
+        "folder": "wurzel-ziehen-192"
+      },
+      {
+        "id": "193",
+        "title": "Teilweise Wurzel ziehen mit Zahlen",
+        "folder": "teilweise-wurzel-ziehen-mit-zahlen-193"
+      },
+      {
+        "id": "194",
+        "title": "Teilweise Wurzel ziehen mit Variablen",
+        "folder": "teilweise-wurzel-ziehen-mit-variablen-194"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=potenzen&t=1118"
@@ -539,7 +724,7 @@ export const mathTopics: Record<string, MathTopic> = {
       },
       {
         "id": "186",
-        "title": "Hauptstädte Europas Auswahlübung",
+        "title": "Erklärvideo Statistik (Mittelwerte und Boxplot) mit Fragen",
         "folder": "erklarvideo-statistik-mittelwerte-und-boxplot-mit-fragen-186"
       }
     ],
@@ -561,44 +746,59 @@ export const mathTopics: Record<string, MathTopic> = {
     ],
     "exercises": [
       {
-        "id": "21",
-        "title": "Übung zur Klaviatur",
-        "folder": "bung-zur-klaviatur-21"
+        "id": "778",
+        "title": "Rechteck und Quadrat - Eigenschaften und Flächeninhalt",
+        "folder": "rechteck-und-quadrat-eigenschaften-und-flacheninhalt-778"
       },
       {
-        "id": "22",
-        "title": "Schwarze Tasten am Klavier",
-        "folder": "schwarze-tasten-am-klavier-22"
+        "id": "779",
+        "title": "Rechteck und Quadrat - Flächeninhalt und Umfang",
+        "folder": "rechteck-und-quadrat-flacheninhalt-und-umfang-779"
       },
       {
-        "id": "23",
-        "title": "Klaviatur und Noten",
-        "folder": "klaviatur-und-noten-23"
+        "id": "782",
+        "title": "Rechteck und Quadrat - Flächeninhalt und Umfang (Kästchen)",
+        "folder": "rechteck-und-quadrat-flacheninhalt-und-umfang-aufgaben-mit-kastchen-782"
       },
       {
-        "id": "24",
-        "title": "Josef Haydn",
-        "folder": "josef-haydn-24"
+        "id": "781",
+        "title": "Rechteck und Quadrat - Flächeninhalt und Umfang mit Dezimalzahlen",
+        "folder": "rechteck-und-quadrat-flacheninhalt-und-umfang-mit-dezimalzahlen-781"
       },
       {
-        "id": "25",
-        "title": "Städte in Österreich",
-        "folder": "josef-haydn-2-25"
+        "id": "780",
+        "title": "Rechteck und Quadrat - Flächeninhalt und Umfang mit großen Zahlen",
+        "folder": "rechteck-und-quadrat-flacheninhalt-und-umfang-mit-groesen-zahlen-780"
       },
       {
-        "id": "26",
-        "title": "Ludwig van Beethoven",
-        "folder": "ludwig-van-beethoven-26"
+        "id": "785",
+        "title": "Rechteck und Quadrat - Umkehraufgaben",
+        "folder": "rechteck-und-quadrat-flacheninhalt-und-umfang-umkehraufgaben-785"
       },
       {
-        "id": "27",
-        "title": "Wolfgang Amadeus Mozart",
-        "folder": "wolfgang-amadeus-mozart-27"
+        "id": "787",
+        "title": "Rechteck und Quadrat - Umkehraufgaben mit Dezimalzahlen",
+        "folder": "rechteck-und-quadrat-flacheninhalt-und-umfang-umkehraufgaben-mit-dezimalzahlen-787"
       },
       {
-        "id": "180",
-        "title": "Satz von Pythagoras (am Rechteck) - Video mit Fragen",
-        "folder": "satz-von-pythagoras-am-rechteck-video-mit-fragen-180"
+        "id": "784",
+        "title": "Rechteck und Quadrat - Zusammengesetzte Figuren",
+        "folder": "rechteck-und-quadrat-flacheninhalt-und-umfang-zusammengesetzter-figuren-784"
+      },
+      {
+        "id": "783",
+        "title": "Zusammengesetzte Flächen aus Rechtecken - Fehlende Seiten berechnen",
+        "folder": "zusammengesetzte-flachen-aus-rechtecken-fehlende-seiten-berechnen-783"
+      },
+      {
+        "id": "78",
+        "title": "Flächeninhalt und Umfang - Gemischte Aufgaben",
+        "folder": "flacheninhalt-und-umfang-gemischte-aufgaben-78"
+      },
+      {
+        "id": "156",
+        "title": "Übungen zu Rechteck und Quadrat",
+        "folder": "bungen-zu-rechteck-und-quadrat-156"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=rechteck&t=1118"
@@ -619,19 +819,39 @@ export const mathTopics: Record<string, MathTopic> = {
     ],
     "exercises": [
       {
+        "id": "957",
+        "title": "Das Dreieck (Gesamtvideo)",
+        "folder": "das-dreieck-gesamtvideo-957"
+      },
+      {
+        "id": "956",
+        "title": "Arten von Dreiecken",
+        "folder": "arten-von-dreiecken-nur-video-956"
+      },
+      {
         "id": "74",
         "title": "Allgemeine Dreiecke",
         "folder": "allgemeine-dreiecke-74"
       },
       {
-        "id": "956",
-        "title": "Arten von Dreiecken (nur Video)",
-        "folder": "arten-von-dreiecken-nur-video-956"
+        "id": "73",
+        "title": "Rechtwinklige Dreiecke",
+        "folder": "rechtwinklige-dreiecke-73"
       },
       {
-        "id": "323",
-        "title": "Satz von Pythagoras - gleichschenkliges Dreieck",
-        "folder": "satz-von-pythagoras-gleichschenkliges-dreieck-323"
+        "id": "803",
+        "title": "Flächeninhalt von Dreiecken",
+        "folder": "flacheninhalt-von-dreiecken-803"
+      },
+      {
+        "id": "801",
+        "title": "Flächeninhalt allgemeiner Dreiecke",
+        "folder": "flacheninhalt-allgemeiner-dreiecke-801"
+      },
+      {
+        "id": "802",
+        "title": "Flächeninhalt rechtwinkliger Dreiecke",
+        "folder": "flacheninhalt-rechtwinkligers-dreiecke-802"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=dreiecke&t=1118"
@@ -651,9 +871,9 @@ export const mathTopics: Record<string, MathTopic> = {
     ],
     "exercises": [
       {
-        "id": "267",
-        "title": "Flächenenberechnungen (Rechteck, Quadrat, Dreieck, Parallelogramm, Trapez, Deltoid, Raute)",
-        "folder": "flachenenberechnungen-rechteck-quadrat-dreieck-parallelogramm-trapez-deltoid-raute-267"
+        "id": "807",
+        "title": "Flächeninhalt von Vierecken",
+        "folder": "flacheninhalt-von-vierecken-807"
       },
       {
         "id": "804",
@@ -671,9 +891,24 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "flacheninhalt-von-trapezen-806"
       },
       {
-        "id": "807",
-        "title": "Flächeninhalt von Vierecken",
-        "folder": "flacheninhalt-von-vierecken-807"
+        "id": "75",
+        "title": "Parallelogramm und Raute",
+        "folder": "parallelogramm-und-raute-75"
+      },
+      {
+        "id": "77",
+        "title": "Deltoid und Raute",
+        "folder": "deltoid-und-raute-77"
+      },
+      {
+        "id": "76",
+        "title": "Trapez",
+        "folder": "trapez-76"
+      },
+      {
+        "id": "267",
+        "title": "Flächenberechnungen (Vierecke und Dreiecke)",
+        "folder": "flachenenberechnungen-rechteck-quadrat-dreieck-parallelogramm-trapez-deltoid-raute-267"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=vierecke&t=1118"
@@ -722,22 +957,22 @@ export const mathTopics: Record<string, MathTopic> = {
       },
       {
         "id": "201",
-        "title": "Aufrisse",
+        "title": "Aufrisse 2",
         "folder": "aufrisse-2-201"
       },
       {
         "id": "202",
-        "title": "Aufrisse",
+        "title": "Aufrisse 3",
         "folder": "aufrisse-3-202"
       },
       {
         "id": "203",
-        "title": "Aufrisse",
+        "title": "Aufrisse 4",
         "folder": "aufrisse-4-203"
       },
       {
         "id": "204",
-        "title": "Aufrisse",
+        "title": "Aufrisse 5",
         "folder": "aufrisse-5-204"
       },
       {
@@ -769,7 +1004,7 @@ export const mathTopics: Record<string, MathTopic> = {
       },
       {
         "id": "666",
-        "title": "Spiegelungen (Achsensymmetrie)",
+        "title": "Spiegelungen (Achsensymmetrie 2)",
         "folder": "spiegelungen-achsensymmetrie-2-666"
       }
     ],
@@ -798,9 +1033,34 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "einteilung-von-winkeln-218"
       },
       {
+        "id": "217",
+        "title": "Winkelarten",
+        "folder": "winkelarten-217"
+      },
+      {
+        "id": "210",
+        "title": "Winkel messen mit dem Geodreieck",
+        "folder": "winkel-messen-mit-dem-geodreieck-210"
+      },
+      {
+        "id": "216",
+        "title": "Winkel schätzen",
+        "folder": "winkel-schatzen-216"
+      },
+      {
         "id": "662",
         "title": "Kurs Winkel schätzen",
         "folder": "kurs-winkel-schatzen-662"
+      },
+      {
+        "id": "663",
+        "title": "Winkel bis 180° messen",
+        "folder": "winkel-bis-180-messen-663"
+      },
+      {
+        "id": "664",
+        "title": "Winkel über 180° messen",
+        "folder": "winkel-uber-180-messen-664"
       },
       {
         "id": "567",
@@ -828,6 +1088,16 @@ export const mathTopics: Record<string, MathTopic> = {
       "Streckenlänge zwischen zwei Punkten: d = √((x₂ - x₁)² + (y₂ - y₁)²)"
     ],
     "exercises": [
+      {
+        "id": "265",
+        "title": "Koordinatensystem (positiver Bereich)",
+        "folder": "koordinatensystem-positiver-und-negativer-bereich-265"
+      },
+      {
+        "id": "266",
+        "title": "Koordinatensystem (positiver und negativer Bereich)",
+        "folder": "einfuhrung-und-teilbereiche-266"
+      },
       {
         "id": "289",
         "title": "Lineare Funktionen (Erklärvideo und Übungen)",
@@ -858,14 +1128,14 @@ export const mathTopics: Record<string, MathTopic> = {
     ],
     "exercises": [
       {
-        "id": "180",
-        "title": "Satz von Pythagoras (am Rechteck) - Video mit Fragen",
-        "folder": "satz-von-pythagoras-am-rechteck-video-mit-fragen-180"
-      },
-      {
         "id": "322",
         "title": "Satz von Pythagoras - rechtwinkliges Dreieck und Rechteck",
         "folder": "satz-von-pythagoras-rechtwinkliges-dreieck-und-rechteck-322"
+      },
+      {
+        "id": "180",
+        "title": "Satz von Pythagoras (am Rechteck) - Video mit Fragen",
+        "folder": "satz-von-pythagoras-am-rechteck-video-mit-fragen-180"
       },
       {
         "id": "323",
@@ -873,14 +1143,34 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "satz-von-pythagoras-gleichschenkliges-dreieck-323"
       },
       {
+        "id": "181",
+        "title": "Satz von Pythagoras (im gleichschenkligen Dreieck) - Video mit Fragen",
+        "folder": "satz-von-pythagoras-im-gleichschenkligen-dreieck-video-mit-fragen-181"
+      },
+      {
         "id": "324",
         "title": "Satz von Pythagoras - Raute",
         "folder": "satz-von-pythagoras-raute-324"
       },
       {
+        "id": "182",
+        "title": "Satz von Pythagoras (in der Raute) - Video mit Fragen",
+        "folder": "satz-von-pythagoras-in-der-raute-video-mit-fragen-182"
+      },
+      {
         "id": "325",
         "title": "Satz von Pythagoras - Deltoid",
         "folder": "satz-von-pythagoras-deltoid-325"
+      },
+      {
+        "id": "183",
+        "title": "Satz von Pythagoras (im Deltoid) - Video mit Fragen",
+        "folder": "satz-von-pythagoras-im-deltoid-video-mit-fragen-183"
+      },
+      {
+        "id": "98",
+        "title": "Pyramide und Satz von Pythagoras",
+        "folder": "pyramide-und-satz-von-pythagoras-98"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=pythagoras&t=1118"
@@ -906,9 +1196,14 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "wurfel-und-quader-382"
       },
       {
-        "id": "191",
-        "title": "Berechnungen zum Prisma (mit Umkehraufgaben)",
-        "folder": "berechnungen-zum-prisma-mit-umkehraufgaben-191"
+        "id": "144",
+        "title": "Der Würfel (Erklärvideo mit Fragen)",
+        "folder": "der-wurfel-erklarvideo-mit-fragen-144"
+      },
+      {
+        "id": "143",
+        "title": "Der Quader (Erklärvideo mit Fragen)",
+        "folder": "der-quader-erklarvideo-mit-fragen-143"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=quader&t=1118"
@@ -929,9 +1224,19 @@ export const mathTopics: Record<string, MathTopic> = {
     ],
     "exercises": [
       {
-        "id": "101",
-        "title": "Berechnungen: Volumen und Oberfläche der Pyramide mit Bildern",
-        "folder": "berechnungen-volumen-und-oberflache-der-pyramide-mit-bildern-101"
+        "id": "383",
+        "title": "Prismen",
+        "folder": "prismen-383"
+      },
+      {
+        "id": "140",
+        "title": "Eigenschaften eines Prismas (Video mit Fragen)",
+        "folder": "eigenschaften-eines-prismas-video-mit-fragen-140"
+      },
+      {
+        "id": "141",
+        "title": "Oberfläche eines Prismas (Video mit Fragen)",
+        "folder": "oberflache-eines-prismas-video-mit-fragen-141"
       },
       {
         "id": "191",
@@ -939,14 +1244,44 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "berechnungen-zum-prisma-mit-umkehraufgaben-191"
       },
       {
-        "id": "383",
-        "title": "Prismen",
-        "folder": "prismen-383"
+        "id": "189",
+        "title": "Prismen - Volumen berechnen",
+        "folder": "prismen-volumen-berechnen-189"
+      },
+      {
+        "id": "190",
+        "title": "Prismen - Oberfläche berechnen",
+        "folder": "prismen-oberflache-berechnen-190"
       },
       {
         "id": "384",
         "title": "Pyramide",
         "folder": "pyramide-384"
+      },
+      {
+        "id": "57",
+        "title": "Eigenschaften der Pyramide",
+        "folder": "eigenschaften-der-pyramide-57"
+      },
+      {
+        "id": "58",
+        "title": "Volumen der Pyramide",
+        "folder": "volumen-der-pyramide-58"
+      },
+      {
+        "id": "59",
+        "title": "Oberfläche der Pyramide",
+        "folder": "oberflache-der-pyramide-59"
+      },
+      {
+        "id": "101",
+        "title": "Berechnungen: Volumen und Oberfläche der Pyramide mit Bildern",
+        "folder": "berechnungen-volumen-und-oberflache-der-pyramide-mit-bildern-101"
+      },
+      {
+        "id": "98",
+        "title": "Pyramide und Satz von Pythagoras",
+        "folder": "pyramide-und-satz-von-pythagoras-98"
       },
       {
         "id": "385",
@@ -973,6 +1308,21 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "377",
         "title": "Längenmaße",
         "folder": "langenmaese-377"
+      },
+      {
+        "id": "45",
+        "title": "Längenmaße umwandeln (1)",
+        "folder": "langenmaese-umwandeln-1-45"
+      },
+      {
+        "id": "46",
+        "title": "Längenmaße umwandeln (2)",
+        "folder": "langenmaese-umwandeln-3-46"
+      },
+      {
+        "id": "47",
+        "title": "Längenmaße umwandeln (3)",
+        "folder": "langenmaese-umwandeln-4-47"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=l%C3%A4ngenma%C3%9Fe&t=1118"
@@ -996,6 +1346,26 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "379",
         "title": "Flächenmaße",
         "folder": "flachenmaese-379"
+      },
+      {
+        "id": "51",
+        "title": "Flächenmaße umwandeln (mm², cm², dm²)",
+        "folder": "flachenmaese-umwandeln-mm-cm-dm-51"
+      },
+      {
+        "id": "52",
+        "title": "Flächenmaße umwandeln (a, ha, km²)",
+        "folder": "flachenmaese-umwandeln-a-ha-km-52"
+      },
+      {
+        "id": "53",
+        "title": "Flächenmaße umwandeln",
+        "folder": "flachenmaese-umwandeln-53"
+      },
+      {
+        "id": "155",
+        "title": "Übungen zu Flächenmaßen",
+        "folder": "bungen-zu-flachenmaesen-155"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=fl%C3%A4chenma%C3%9Fe&t=1118"
@@ -1017,6 +1387,21 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "380",
         "title": "Raum- und Hohlmaße",
         "folder": "raum-und-hohlmaese-380"
+      },
+      {
+        "id": "54",
+        "title": "Raummaße umwandeln",
+        "folder": "raummaese-umwandeln-54"
+      },
+      {
+        "id": "55",
+        "title": "Hohlmaße umwandeln",
+        "folder": "hohlmaese-umwandeln-55"
+      },
+      {
+        "id": "56",
+        "title": "Raum- und Hohlmaße umwandeln",
+        "folder": "raum-und-hohlmaese-umwandeln-56"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=raumma%C3%9Fe&t=1118"
@@ -1040,6 +1425,21 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "378",
         "title": "Massenmaße (Gewicht)",
         "folder": "massenmaese-gewicht-378"
+      },
+      {
+        "id": "50",
+        "title": "Massenmaße umwandeln (mg, g, dag, kg, t)",
+        "folder": "massenmaese-umwandeln-mg-g-dag-kg-t-50"
+      },
+      {
+        "id": "48",
+        "title": "Massenmaße umwandeln (g, kg, t)",
+        "folder": "massenmaese-umwandeln-g-kg-t-48"
+      },
+      {
+        "id": "49",
+        "title": "Massenmaße umwandeln (g, mg)",
+        "folder": "massenmaese-umwandeln-g-mg-49"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=massenma%C3%9Fe&t=1118"
@@ -1059,19 +1459,24 @@ export const mathTopics: Record<string, MathTopic> = {
     ],
     "exercises": [
       {
+        "id": "260",
+        "title": "Uhrzeit",
+        "folder": "uhrzeit-ganze-stunden-260"
+      },
+      {
+        "id": "261",
+        "title": "Uhrzeit (ganze Stunden)",
+        "folder": "uhrzeit-halbe-stunden-261"
+      },
+      {
         "id": "262",
-        "title": "Uhrzeit (Halbe Stunden)",
+        "title": "Uhrzeit (halbe Stunden)",
         "folder": "uhrzeit-viertelstunden-262"
       },
       {
         "id": "263",
         "title": "Uhrzeit (Viertelstunden)",
         "folder": "uhrzeit-ganze-stunden-2-263"
-      },
-      {
-        "id": "264",
-        "title": "Uhrzeit (Ganze Stunden)",
-        "folder": "koordinatensystem-positiver-bereich-264"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=zeit&t=1118"
@@ -1094,6 +1499,21 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "293",
         "title": "Maßstab (Erklärvideo Übungen)",
         "folder": "maesstab-erklarvideo-bungen-293"
+      },
+      {
+        "id": "240",
+        "title": "Übungen zum Maßstab (einfach)",
+        "folder": "bungen-zum-maesstab-einfach-240"
+      },
+      {
+        "id": "241",
+        "title": "Übungen zum Maßstab (mittel)",
+        "folder": "bungen-zum-maesstab-mittel-241"
+      },
+      {
+        "id": "242",
+        "title": "Übungen zum Maßstab (schwer)",
+        "folder": "bungen-zum-maesstab-schwer-242"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=ma%C3%9Fstab&t=1118"
@@ -1181,7 +1601,7 @@ export const mathTopics: Record<string, MathTopic> = {
       },
       {
         "id": "95",
-        "title": "Binomische Formeln",
+        "title": "Binomische Formeln 2",
         "folder": "binomische-formeln-2-95"
       },
       {
@@ -1233,9 +1653,9 @@ export const mathTopics: Record<string, MathTopic> = {
     ],
     "exercises": [
       {
-        "id": "116",
-        "title": "Das kleine 1x1",
-        "folder": "gleichungen-116"
+        "id": "117",
+        "title": "Gleichungen (Rechenquiz)",
+        "folder": "lineare-funktionen-117"
       },
       {
         "id": "184",
@@ -1253,14 +1673,19 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "gleichungen-video-mit-fragen-179"
       },
       {
-        "id": "160",
-        "title": "Begriffe der Grundrechnungsarten",
-        "folder": "textgleichungen-einfach-160"
+        "id": "164",
+        "title": "Textgleichungen (einfach)",
+        "folder": "teiler-einer-zahl-finden-mittel-164"
       },
       {
-        "id": "199",
-        "title": "Umkehraufgaben zum Thema Flächeninhalt und Umfang",
-        "folder": "umkehraufgaben-zum-thema-flacheninhalt-und-umfang-199"
+        "id": "165",
+        "title": "Textgleichungen (mittel)",
+        "folder": "teiler-einer-zahl-finden-einfach-165"
+      },
+      {
+        "id": "162",
+        "title": "Textgleichungen (schwer)",
+        "folder": "textgleichungen-schwer-162"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=gleichungen&t=1118"
@@ -1308,6 +1733,11 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "245",
         "title": "Schlussrechnungen",
         "folder": "schlussrechnungen-245"
+      },
+      {
+        "id": "243",
+        "title": "Schlussrechnungen im Kopf lösen",
+        "folder": "schlussrechnungen-im-kopf-losen-243"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=schlussrechnung&t=1118"
@@ -1334,6 +1764,16 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "618",
         "title": "Additionen und Subtraktionen im Kopf lösen",
         "folder": "additionen-und-subtraktionen-im-kopf-losen-618"
+      },
+      {
+        "id": "621",
+        "title": "Multiplikationen im Kopf lösen",
+        "folder": "multiplikationen-im-kopf-losen-621"
+      },
+      {
+        "id": "623",
+        "title": "Multiplikationen und Divisionen im Kopf lösen",
+        "folder": "multiplikationen-und-divisionen-im-kopf-losen-623"
       },
       {
         "id": "794",
@@ -1365,9 +1805,9 @@ export const mathTopics: Record<string, MathTopic> = {
     ],
     "exercises": [
       {
-        "id": "3617",
-        "title": "Albert Einstein",
-        "folder": "albert-einstein-3617"
+        "id": "4178",
+        "title": "Pythagoras",
+        "folder": "pythagoras-4178"
       },
       {
         "id": "3672",
@@ -1375,29 +1815,44 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "archimedes-3672"
       },
       {
-        "id": "3631",
-        "title": "Alexander Grothendieck",
-        "folder": "alexander-grothendieck-3631"
+        "id": "3845",
+        "title": "Fibonacci",
+        "folder": "fibonacci-3845"
       },
       {
-        "id": "3655",
-        "title": "Andrew Wiles",
-        "folder": "andrew-wiles-3655"
+        "id": "3971",
+        "title": "Isaac Newton",
+        "folder": "isaac-newton-3971"
       },
       {
-        "id": "3671",
-        "title": "Apollonius of Perga",
-        "folder": "apollonius-of-perga-3671"
+        "id": "3909",
+        "title": "Gottfried Wilhelm Leibniz",
+        "folder": "gottfried-wilhelm-leibniz-3909"
       },
       {
-        "id": "3684",
-        "title": "Augustin-Louis Cauchy",
-        "folder": "augustin-louis-cauchy-3684"
+        "id": "4392",
+        "title": "Leonhard Euler",
+        "folder": "leonhard-euler-4392"
       },
       {
         "id": "3703",
         "title": "Bernhard Riemann",
         "folder": "bernhard-riemann-3703"
+      },
+      {
+        "id": "3606",
+        "title": "Ada Lovelace",
+        "folder": "ada-lovelace-3606"
+      },
+      {
+        "id": "3614",
+        "title": "Alan Turing",
+        "folder": "alan-turing-3614"
+      },
+      {
+        "id": "3617",
+        "title": "Albert Einstein",
+        "folder": "albert-einstein-3617"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=mathematik+geschichte&t=1118"
@@ -1414,6 +1869,11 @@ export const mathTopics: Record<string, MathTopic> = {
       "Kombiniere mathematische Regeln aus Geometrie, Bruchrechnen und Algebra"
     ],
     "exercises": [
+      {
+        "id": "3214",
+        "title": "Escape Room: Teilbarkeit",
+        "folder": "escape-room-quot-teilbarkeit-quot-3214"
+      },
       {
         "id": "177",
         "title": "Primzahlen",
