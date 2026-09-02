@@ -55,8 +55,6 @@ export default function H5PPlayer({
   const [error, setError] = useState<string | null>(null);
   const [hasSavedState, setHasSavedState] = useState(false);
   const [reloadKey, setReloadKey] = useState(0);
-  const [iframeHeight, setIframeHeight] = useState<number>(600);
-
   const handleIframeLoad = (e: React.SyntheticEvent<HTMLIFrameElement>) => {
     const iframe = e.currentTarget;
     try {
@@ -73,49 +71,28 @@ export default function H5PPlayer({
               padding: 0 !important;
               overflow: hidden !important;
               width: 100% !important;
+              height: 100% !important;
               background: transparent !important;
               box-sizing: border-box !important;
             }
             body > div {
               margin: 0 auto !important;
               padding: 0 !important;
+              width: 100% !important;
+              height: 100% !important;
               display: flex !important;
               justify-content: center !important;
+              align-items: center !important;
             }
             .h5p-content {
               margin: 0 auto !important;
+              width: 100% !important;
             }
             .h5p-iframe-wrapper {
               overflow: hidden !important;
             }
           `;
           doc.head.appendChild(style);
-        }
-
-        const updateHeight = () => {
-          try {
-            const contentEl =
-              doc.querySelector('.h5p-content') ||
-              doc.querySelector('.h5p-course-presentation') ||
-              doc.body;
-            const scrollH = contentEl ? contentEl.scrollHeight : doc.body.scrollHeight;
-            const offsetH = doc.body.offsetHeight;
-            const targetH = Math.max(scrollH, offsetH);
-            if (targetH > 100) {
-              setIframeHeight(targetH + 15);
-            }
-          } catch {}
-        };
-
-        updateHeight();
-        setTimeout(updateHeight, 150);
-        setTimeout(updateHeight, 400);
-        setTimeout(updateHeight, 1000);
-
-        if (iframe.contentWindow) {
-          iframe.contentWindow.addEventListener('resize', updateHeight);
-          // eslint-disable-next-line @typescript-eslint/no-explicit-any
-          (iframe.contentWindow as any)?.H5P?.externalDispatcher?.on?.('resize', updateHeight);
         }
       }
     } catch (err) {
@@ -543,6 +520,9 @@ export default function H5PPlayer({
           className="h5p-html-iframe-container"
           style={{
             width: '100%',
+            aspectRatio: '16 / 10',
+            minHeight: '480px',
+            maxHeight: '750px',
             background: '#fff',
             borderRadius: '4px',
             overflow: 'hidden',
@@ -559,8 +539,7 @@ export default function H5PPlayer({
             onLoad={handleIframeLoad}
             style={{
               width: '100%',
-              height: `${iframeHeight}px`,
-              minHeight: '520px',
+              height: '100%',
               border: 'none',
               display: 'block',
               overflow: 'hidden',
