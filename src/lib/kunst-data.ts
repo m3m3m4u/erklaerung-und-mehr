@@ -177,11 +177,6 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "id": "1382",
         "title": "Joan Miró",
         "folder": "joan-miro-1382"
-      },
-      {
-        "id": "1382",
-        "title": "Joan Miró",
-        "folder": "joan-miro-1382"
       }
     ]
   },

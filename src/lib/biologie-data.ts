@@ -53,7 +53,6 @@ export const biologieTopics: Record<string, BiologieTopic> = {
       },
       { "id": "2102", "title": "Das Auge - Aufbau und Sehvorgang", "folder": "das-auge-aufbau-und-sehvorgang-2102" },
       { "id": "2103", "title": "Das Auge - Linse und Netzhaut", "folder": "das-auge-linse-und-netzhaut-2103" },
-      { "id": "2105", "title": "Die Nase - Aufbau und Sinus", "folder": "die-nase-aufbau-und-sinus-2105" },
       { "id": "2104", "title": "Die Zunge - Geschmacksinn und -knospen", "folder": "die-zunge-geschmacksinn-und-knospen-2104" },
       { "id": "2099", "title": "Die Haut - Tastsinn und Rezeptoren", "folder": "die-haut-tastsinn-und-rezeptoren-2099" },
       { "id": "2098", "title": "Die Haut - Schweiß- und Talgdrüsen", "folder": "die-haut-schweies-und-talgdrusen-2098" },
