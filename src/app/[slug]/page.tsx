@@ -1,11 +1,12 @@
 import React from 'react';
 import Link from 'next/link';
-import { notFound } from 'next/navigation';
+import { notFound, redirect, RedirectType } from 'next/navigation';
 import type { Metadata } from 'next';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import H5PPlayer from '@/components/H5PPlayer';
 import { resolveH5P } from '@/lib/h5p-resolver';
+import { resolveLegacyRedirect } from '@/lib/redirect-resolver';
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -16,6 +17,12 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const resolved = await resolveH5P(slug);
 
   if (!resolved.found) {
+    const legacyTarget = resolveLegacyRedirect(slug);
+    if (legacyTarget) {
+      return {
+        title: 'Weiterleitung - Erklärung und mehr',
+      };
+    }
     return {
       title: 'Seite nicht gefunden - Erklärung und mehr',
     };
@@ -32,6 +39,10 @@ export default async function DynamicSlugPage({ params }: PageProps) {
   const resolved = await resolveH5P(slug);
 
   if (!resolved.found) {
+    const legacyTarget = resolveLegacyRedirect(slug);
+    if (legacyTarget && legacyTarget !== `/${slug}`) {
+      redirect(legacyTarget, RedirectType.replace);
+    }
     notFound();
   }
 

@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
 import crypto from 'crypto';
+import { resolveLegacyRedirect } from './lib/redirect-resolver';
 
 const AUTH_SECRET = process.env.AUTH_SECRET || 'eum-secret-k7p2xN8wLqR3mT5vY9uJ4sA6bC1dE0fG';
 const SESSION_COOKIE = 'eum_session';
@@ -57,19 +58,21 @@ export function proxy(request: NextRequest) {
     }
   }
 
+  // Legacy SQL Database 301 Redirects
+  const redirectTarget = resolveLegacyRedirect(url.pathname, url.searchParams);
+  if (redirectTarget) {
+    if (redirectTarget.startsWith('http://') || redirectTarget.startsWith('https://')) {
+      return NextResponse.redirect(new URL(redirectTarget), 301);
+    }
+    const targetUrl = new URL(redirectTarget, request.url);
+    return NextResponse.redirect(targetUrl, 301);
+  }
+
   return NextResponse.next();
 }
 
 export const config = {
   matcher: [
-    '/h5p-content/:path*',
-    '/h5p-libraries/:path*',
-    '/html/:path*',
-    '/diagramme_en/:path*',
-    '/diagramme_de/:path*',
-    '/er/:path*',
-    '/dashboard/:path*',
-    '/mein-fortschritt/:path*',
-    '/admin/:path*',
+    '/((?!_next/static|_next/image|favicon\\.ico|favicon\\.png|icon\\.png|apple-touch-icon\\.png|images/|api/).*)',
   ],
 };
