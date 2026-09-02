@@ -49,11 +49,80 @@ export default function H5PPlayer({
   onXAPIStatement,
 }: H5PPlayerProps) {
   const containerRef = useRef<HTMLDivElement>(null);
+  const iframeRef = useRef<HTMLIFrameElement>(null);
   const isHtmlExercise = h5pJsonPath.endsWith('.html') || h5pJsonPath.startsWith('/html/') || h5pJsonPath.includes('.html');
   const [loading, setLoading] = useState(!isHtmlExercise);
   const [error, setError] = useState<string | null>(null);
   const [hasSavedState, setHasSavedState] = useState(false);
   const [reloadKey, setReloadKey] = useState(0);
+  const [iframeHeight, setIframeHeight] = useState<number>(600);
+
+  const handleIframeLoad = (e: React.SyntheticEvent<HTMLIFrameElement>) => {
+    const iframe = e.currentTarget;
+    try {
+      const doc = iframe.contentDocument || iframe.contentWindow?.document;
+      if (doc) {
+        // Inject clean styles into iframe to remove margins and scrollbars
+        const styleId = 'eum-iframe-cleanup-style';
+        if (!doc.getElementById(styleId)) {
+          const style = doc.createElement('style');
+          style.id = styleId;
+          style.textContent = `
+            html, body {
+              margin: 0 !important;
+              padding: 0 !important;
+              overflow: hidden !important;
+              width: 100% !important;
+              background: transparent !important;
+              box-sizing: border-box !important;
+            }
+            body > div {
+              margin: 0 auto !important;
+              padding: 0 !important;
+              display: flex !important;
+              justify-content: center !important;
+            }
+            .h5p-content {
+              margin: 0 auto !important;
+            }
+            .h5p-iframe-wrapper {
+              overflow: hidden !important;
+            }
+          `;
+          doc.head.appendChild(style);
+        }
+
+        const updateHeight = () => {
+          try {
+            const contentEl =
+              doc.querySelector('.h5p-content') ||
+              doc.querySelector('.h5p-course-presentation') ||
+              doc.body;
+            const scrollH = contentEl ? contentEl.scrollHeight : doc.body.scrollHeight;
+            const offsetH = doc.body.offsetHeight;
+            const targetH = Math.max(scrollH, offsetH);
+            if (targetH > 100) {
+              setIframeHeight(targetH + 15);
+            }
+          } catch {}
+        };
+
+        updateHeight();
+        setTimeout(updateHeight, 150);
+        setTimeout(updateHeight, 400);
+        setTimeout(updateHeight, 1000);
+
+        if (iframe.contentWindow) {
+          iframe.contentWindow.addEventListener('resize', updateHeight);
+          // eslint-disable-next-line @typescript-eslint/no-explicit-any
+          (iframe.contentWindow as any)?.H5P?.externalDispatcher?.on?.('resize', updateHeight);
+        }
+      }
+    } catch (err) {
+      console.warn('Iframe style customization skipped:', err);
+    }
+    setLoading(false);
+  };
 
   // Keep latest callbacks/values in refs so changes don't re-trigger H5P reload
   const onXAPIStatementRef = useRef(onXAPIStatement);
@@ -474,22 +543,27 @@ export default function H5PPlayer({
           className="h5p-html-iframe-container"
           style={{
             width: '100%',
-            minHeight: '700px',
             background: '#fff',
-            borderRadius: '8px',
+            borderRadius: '4px',
             overflow: 'hidden',
             position: 'relative',
+            display: 'flex',
+            justifyContent: 'center',
           }}
         >
           <iframe
+            ref={iframeRef}
             src={h5pJsonPath}
             title={title || 'H5P Interaktive Übung'}
+            scrolling="no"
+            onLoad={handleIframeLoad}
             style={{
               width: '100%',
-              height: '750px',
-              minHeight: '700px',
+              height: `${iframeHeight}px`,
+              minHeight: '520px',
               border: 'none',
               display: 'block',
+              overflow: 'hidden',
             }}
             allow="autoplay; fullscreen; clipboard-write; encrypted-media; picture-in-picture; web-share"
             allowFullScreen
