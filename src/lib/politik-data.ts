@@ -41,7 +41,7 @@ export const politikTopics: Record<string, PolitikTopic> = {
       { id: "3496", title: "Demokratie & Grundwerte", folder: "demokratie-3496" },
       { id: "3504", title: "Der Rechtsstaat", folder: "der-rechtsstaat-3504" },
       { id: "3493", title: "Das Sozialstaatsprinzip", folder: "das-sozialstaatsprinzip-3493" },
-      { id: "5236", title: "Ursprünge der Demokratie", folder: "athen-und-die-attische-demokratie-in-griechenland-5236" }
+      { id: "5236", title: "Athen und die attische Demokratie in Griechenland", folder: "athen-und-die-attische-demokratie-in-griechenland-5236" }
     ],
     worksheetLink: "https://eduki.com/de/autor/1430402/about-the-world-org?query=demokratie+grundgesetz&t=3752"
   },
@@ -63,7 +63,7 @@ export const politikTopics: Record<string, PolitikTopic> = {
       { id: "3289", title: "Die Bundestagswahl & Parteien", folder: "die-bundestagswahl-2025-3289" },
       { id: "4493", title: "Kanzlerwahl in Deutschland", folder: "kanzlerwahl-in-deutschland-so-wahlt-deutschland-seinen-chef-4493" },
       { id: "3003", title: "Geschichte des Frauenwahlrechts", folder: "geschichte-des-frauenwahlrechts-3003" },
-      { id: "3515", title: "Demokratische Mitbestimmung", folder: "die-klassensprecherwahl-3515" }
+      { id: "3515", title: "Die Klassensprecherwahl", folder: "die-klassensprecherwahl-3515" }
     ],
     worksheetLink: "https://eduki.com/de/autor/1430402/about-the-world-org?query=wahlen+bundestag&t=3752"
   },
@@ -82,8 +82,8 @@ export const politikTopics: Record<string, PolitikTopic> = {
     ],
     exercises: [
       { id: "3493", title: "Das Sozialstaatsprinzip", folder: "das-sozialstaatsprinzip-3493" },
-      { id: "3504", title: "Gewaltenteilung & Institutionen", folder: "der-rechtsstaat-3504" },
-      { id: "955", title: "Verfassungsordnung", folder: "das-grundgesetz-955" }
+      { id: "3504", title: "Der Rechtsstaat", folder: "der-rechtsstaat-3504" },
+      { id: "955", title: "Das Grundgesetz", folder: "das-grundgesetz-955" }
     ],
     worksheetLink: "https://eduki.com/de/autor/1430402/about-the-world-org?query=staatsorgane&t=3752"
   },

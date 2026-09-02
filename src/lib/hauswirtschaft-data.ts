@@ -57,8 +57,8 @@ export const hauswirtschaftTopics: Record<string, HauswirtschaftTopic> = {
       "Durchgaren: Fleisch, Geflügel und Eier auf mindestens 70 °C Kerntemperatur für mindestens 2 Minuten erhitzen"
     ],
     exercises: [
-      { id: "2656", title: "Küche & Hygiene im Haushalt", folder: "energie-und-wassersparen-im-haushalt-2656" },
-      { id: "2665", title: "Lebensmittellagerung & Frische", folder: "haushaltsbuchfuhrung-und-kostenkontrolle-2665" }
+      { id: "2656", title: "Energie- und Wassersparen im Haushalt", folder: "energie-und-wassersparen-im-haushalt-2656" },
+      { id: "2665", title: "Haushaltsbuchführung und Kostenkontrolle", folder: "haushaltsbuchfuhrung-und-kostenkontrolle-2665" }
     ],
     worksheetLink: "https://eduki.com/de/autor/1430402/about-the-world-org?query=kuechenhygiene+lebensmittel&t=3752"
   },

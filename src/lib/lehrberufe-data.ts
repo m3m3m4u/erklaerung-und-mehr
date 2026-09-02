@@ -39,7 +39,7 @@ export const lehrberufeTopics: Record<string, LehrberufeTopic> = {
     exercises: [
       { id: "3478", title: "Arbeitnehmerrechte in Deutschland", folder: "arbeitnehmerrechte-in-deutschland-3478" },
       { id: "3479", title: "Arbeitsmarkt & Berufe", folder: "arbeitslosigkeit-grunde-und-folgen-3479" },
-      { id: "3476", title: "Arbeit & Gesellschaft", folder: "arbeit-der-tafel-in-deutschland-3476" }
+      { id: "3476", title: "Arbeit der Tafel in Deutschland", folder: "arbeit-der-tafel-in-deutschland-3476" }
     ],
     worksheetLink: "https://eduki.com/de/autor/1430402/about-the-world-org?query=duale+ausbildung+berufsorientierung&t=3752"
   },
@@ -57,8 +57,8 @@ export const lehrberufeTopics: Record<string, LehrberufeTopic> = {
       "Sanitär-, Heizungs- und Klimatechnik (SHK): Installation von Wärmepumpen, Solaranlagen und modernen Sanitärsystemen"
     ],
     exercises: [
-      { id: "274", title: "Arbeit, Energie und Technik", folder: "arbeit-energie-und-leistung-274" },
-      { id: "3478", title: "Berufsleben & Arbeitsrecht", folder: "arbeitnehmerrechte-in-deutschland-3478" }
+      { id: "274", title: "Kraft", folder: "arbeit-energie-und-leistung-274" },
+      { id: "3478", title: "Arbeitnehmerrechte in Deutschland", folder: "arbeitnehmerrechte-in-deutschland-3478" }
     ],
     worksheetLink: "https://eduki.com/de/autor/1430402/about-the-world-org?query=handwerk+technik+berufe&t=3752"
   },

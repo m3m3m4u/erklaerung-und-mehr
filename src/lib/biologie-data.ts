@@ -51,21 +51,12 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "title": "Das Ohr - Trommelfell und Gehörknöchelchen",
         "folder": "das-ohr-trommelfell-und-gehorknochelchen-2107"
       },
-      {
-        "id": "2107",
-        "title": "Das Auge - Aufbau und Sehprozess",
-        "folder": "das-auge-aufbau-und-sehprozess-2107"
-      },
-      {
-        "id": "2108",
-        "title": "Nase und Zunge - Geruchs- und Geschmackssinn",
-        "folder": "nase-und-zunge-geruchs-und-geschmackssinn-2108"
-      },
-      {
-        "id": "2109",
-        "title": "Die Haut - Schichten und Funktionen",
-        "folder": "die-haut-schichten-und-funktionen-2109"
-      },
+      { "id": "2102", "title": "Das Auge - Aufbau und Sehvorgang", "folder": "das-auge-aufbau-und-sehvorgang-2102" },
+      { "id": "2103", "title": "Das Auge - Linse und Netzhaut", "folder": "das-auge-linse-und-netzhaut-2103" },
+      { "id": "2105", "title": "Die Nase - Aufbau und Sinus", "folder": "die-nase-aufbau-und-sinus-2105" },
+      { "id": "2104", "title": "Die Zunge - Geschmacksinn und -knospen", "folder": "die-zunge-geschmacksinn-und-knospen-2104" },
+      { "id": "2099", "title": "Die Haut - Tastsinn und Rezeptoren", "folder": "die-haut-tastsinn-und-rezeptoren-2099" },
+      { "id": "2098", "title": "Die Haut - Schweiß- und Talgdrüsen", "folder": "die-haut-schweies-und-talgdrusen-2098" },
       {
         "id": "2232",
         "title": "Die Haut - Schutz und Sinnesorgan",
@@ -98,11 +89,9 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "title": "Der Blutkreislauf - Arterien und Venen",
         "folder": "der-blutkreislauf-arterien-und-venen-2110"
       },
-      {
-        "id": "2126",
-        "title": "Blutbestandteile und Blutgruppen",
-        "folder": "blutbestandteile-und-blutgruppen-2126"
-      }
+      { "id": "2109", "title": "Die Rolle der weißen Blutkörperchen", "folder": "die-rolle-der-weiesen-blutkorperchen-2109" },
+      { "id": "2126", "title": "Immunsystem - Leukozyten und Antikörper", "folder": "immunsystem-leukozyten-und-antikorper-2-2126" },
+      { "id": "1", "title": "Wie funktioniert die Blutgerinnung", "folder": "wie-funktioniert-die-blutgerinnung" }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=herz+und+blutkreislauf&t=3752"
   },

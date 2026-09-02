@@ -328,7 +328,7 @@ export const psychologieTopics: Record<string, PsychologieTopic> = {
       },
       {
         "id": "markenpsychologie-2726",
-        "title": "Marken- und Werbepsychologie",
+        "title": "Markenpsychologie",
         "folder": "markenpsychologie-2726"
       },
       {

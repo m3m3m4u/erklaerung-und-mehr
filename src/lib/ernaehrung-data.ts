@@ -81,7 +81,7 @@ export const ernaehrungTopics: Record<string, ErnaehrungTopic> = {
       },
       {
         "id": "fett-und-le-5162",
-        "title": "Fette und Öle",
+        "title": "Fett und Öle",
         "folder": "fett-und-le-5162"
       },
       {

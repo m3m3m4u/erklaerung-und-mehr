@@ -526,16 +526,8 @@ export const mathTopics: Record<string, MathTopic> = {
         "title": "Teilbar oder nicht teilbar",
         "folder": "teilbar-oder-nicht-teilbar-level-1-872"
       },
-      {
-        "id": "852",
-        "title": "ggT berechnen",
-        "folder": "ggt-level-1-852"
-      },
-      {
-        "id": "855",
-        "title": "kgV berechnen",
-        "folder": "kgv-level-1-855"
-      }
+      { "id": "852", "title": "ggT (Level 1)", "folder": "ggt-level-1-852" },
+      { "id": "855", "title": "kgV (Level 1)", "folder": "kgv-level-1-855" }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=teilbarkeit&t=1118"
   },
@@ -722,11 +714,9 @@ export const mathTopics: Record<string, MathTopic> = {
         "title": "Erklärvideo Statistik (Häufigkeiten und Diagramme) mit Fragen",
         "folder": "erklarvideo-statistik-haufigkeiten-und-diagramme-mit-fragen-188"
       },
-      {
-        "id": "186",
-        "title": "Erklärvideo Statistik (Mittelwerte und Boxplot) mit Fragen",
-        "folder": "erklarvideo-statistik-mittelwerte-und-boxplot-mit-fragen-186"
-      }
+      { "id": "187", "title": "Erklärvideo Statistik (Mittelwerte und Boxplot) mit Fragen", "folder": "erklarvideo-statistik-mittelwerte-und-boxplot-mit-fragen-2-187" },
+      { "id": "294", "title": "Statistik (Erklärvideo und Übungen)", "folder": "statistik-erklarvideo-und-bungen-294" },
+      { "id": "5", "title": "Video mit Fragen: Mittelwerte und Boxplot", "folder": "video-mit-fragen-mittelwerte-und-boxplot-5" }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=statistik&t=1118"
   },
@@ -907,7 +897,7 @@ export const mathTopics: Record<string, MathTopic> = {
       },
       {
         "id": "267",
-        "title": "Flächenberechnungen (Vierecke und Dreiecke)",
+        "title": "Flächenenberechnungen (Rechteck, Quadrat, Dreieck, Parallelogramm, Trapez, Deltoid, Raute)",
         "folder": "flachenenberechnungen-rechteck-quadrat-dreieck-parallelogramm-trapez-deltoid-raute-267"
       }
     ],
