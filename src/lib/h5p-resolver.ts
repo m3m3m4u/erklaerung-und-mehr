@@ -45,11 +45,23 @@ function normalize(text: string): string {
     .toLowerCase();
 }
 
+function formatTitle(raw: string): string {
+  return raw
+    .replace(/\.h5p$/i, '')
+    .replace(/-\d+$/, '')
+    .replace(/[_–—\-]+/g, ' ')
+    .trim()
+    .split(' ')
+    .filter(Boolean)
+    .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+    .join(' ');
+}
+
 export async function resolveH5P(rawQuery: string): Promise<ResolvedH5P> {
   const query = decodeURIComponent(rawQuery).trim().toLowerCase();
   let resolvedId: string = query;
 
-  // Try direct lookup in mappings
+  // 1. Try direct lookup in mappings
   let relPath: string | undefined = mappings[query];
 
   if (!relPath) {
@@ -62,7 +74,7 @@ export async function resolveH5P(rawQuery: string): Promise<ResolvedH5P> {
     relPath = mappings[slug];
   }
 
-  // If starts with h5p-
+  // 2. If starts with h5p- (e.g. /h5p-354 or /h5p-0354)
   if (!relPath && query.startsWith('h5p-')) {
     const stripped = query.replace(/^h5p-/i, '').trim();
     resolvedId = stripped;
@@ -82,7 +94,7 @@ export async function resolveH5P(rawQuery: string): Promise<ResolvedH5P> {
     }
   }
 
-  // If pure number query
+  // 3. If pure numeric query (e.g. /354 or /0354)
   if (!relPath && /^\d+$/.test(query)) {
     resolvedId = query;
     const intId = parseInt(query, 10).toString();
@@ -96,7 +108,7 @@ export async function resolveH5P(rawQuery: string): Promise<ResolvedH5P> {
       mappings[`h5p-${padded}`];
   }
 
-  // Fallback search in mappings keys
+  // 4. Fallback search in mappings keys
   if (!relPath) {
     const normQ = normalize(query);
     for (const [key, val] of Object.entries(mappings)) {
@@ -107,12 +119,13 @@ export async function resolveH5P(rawQuery: string): Promise<ResolvedH5P> {
     }
   }
 
+  // 5. If not found in mappings, try local folder fallback (for local development)
   if (!relPath) {
     const directSlug = slugify(query);
     const directDir = path.join(process.cwd(), 'public', 'h5p-content', directSlug);
     const directH5PJson = path.join(directDir, 'h5p.json');
     if (fsSync.existsSync(directH5PJson)) {
-      let title = directSlug.replace(/[_–—\-]+/g, ' ');
+      let title = formatTitle(directSlug);
       try {
         const jsonContent = await fs.readFile(directH5PJson, 'utf8');
         const meta = JSON.parse(jsonContent);
@@ -127,7 +140,7 @@ export async function resolveH5P(rawQuery: string): Promise<ResolvedH5P> {
       };
     }
 
-    // If numeric query, look for matching folder ending in -ID (e.g. /2078 -> ...-2078)
+    // If numeric query, look for matching folder ending in -ID (e.g. /354 -> ...-354)
     if (/^\d+$/.test(query)) {
       const h5pContentDir = path.join(process.cwd(), 'public', 'h5p-content');
       if (fsSync.existsSync(h5pContentDir)) {
@@ -138,7 +151,7 @@ export async function resolveH5P(rawQuery: string): Promise<ResolvedH5P> {
             const dir = path.join(h5pContentDir, matched);
             const jsonPath = path.join(dir, 'h5p.json');
             if (fsSync.existsSync(jsonPath)) {
-              let title = matched.replace(/[_–—\-]+/g, ' ');
+              let title = formatTitle(matched);
               try {
                 const jsonContent = await fs.readFile(jsonPath, 'utf8');
                 const meta = JSON.parse(jsonContent);
@@ -160,44 +173,57 @@ export async function resolveH5P(rawQuery: string): Promise<ResolvedH5P> {
     return { found: false };
   }
 
-  const fullSourcePath = path.join(process.cwd(), relPath);
-  if (!fsSync.existsSync(fullSourcePath)) {
-    return { found: false };
-  }
-
+  // 6. Resolve mapping target
   const filename = path.basename(relPath);
   const baseSlug = slugify(filename.replace(/\.h5p$/i, ''));
-  const publicDir = path.join(process.cwd(), 'public', 'h5p-content', baseSlug);
-  const h5pJsonPath = path.join(publicDir, 'h5p.json');
+  let title = formatTitle(filename);
 
-  let title = filename.replace(/\.h5p$/i, '').replace(/[_–—\-]+/g, ' ');
+  // For exports (hosted on Hetzner Storage Box):
+  if (relPath.startsWith('exports/')) {
+    const publicDir = path.join(process.cwd(), 'public', 'h5p-content', baseSlug);
+    const h5pJsonPath = path.join(publicDir, 'h5p.json');
+    const fullSourcePath = path.join(process.cwd(), relPath);
 
-  try {
-    if (!fsSync.existsSync(h5pJsonPath)) {
-      await fs.mkdir(publicDir, { recursive: true });
-      const zip = new AdmZip(fullSourcePath);
-      zip.extractAllTo(publicDir, true);
-      await extractLibrariesFromZip(zip);
-      await applyH5PCompatibilityPatches(publicDir);
-    }
+    // If running in local dev and source file exists, ensure local extraction
+    if (fsSync.existsSync(fullSourcePath)) {
+      try {
+        if (!fsSync.existsSync(h5pJsonPath)) {
+          await fs.mkdir(publicDir, { recursive: true });
+          const zip = new AdmZip(fullSourcePath);
+          zip.extractAllTo(publicDir, true);
+          await extractLibrariesFromZip(zip);
+          await applyH5PCompatibilityPatches(publicDir);
+        }
 
-    if (fsSync.existsSync(h5pJsonPath)) {
-      const jsonContent = await fs.readFile(h5pJsonPath, 'utf8');
-      const meta = JSON.parse(jsonContent);
-      if (meta.title) {
-        title = meta.title;
+        if (fsSync.existsSync(h5pJsonPath)) {
+          const jsonContent = await fs.readFile(h5pJsonPath, 'utf8');
+          const meta = JSON.parse(jsonContent);
+          if (meta.title) {
+            title = meta.title;
+          }
+        }
+      } catch (err) {
+        console.warn(`Error on-demand extracting ${relPath}:`, err);
       }
     }
-  } catch (err) {
-    console.warn(`Error on-demand extracting ${relPath}:`, err);
+
+    return {
+      found: true,
+      id: resolvedId,
+      title,
+      slug: baseSlug,
+      contentPath: `/h5p-content/${baseSlug}`,
+      sourceFile: relPath,
+    };
   }
 
+  // For other relative paths (e.g. html/...)
   return {
     found: true,
     id: resolvedId,
     title,
     slug: baseSlug,
-    contentPath: `/h5p-content/${baseSlug}`,
+    contentPath: `/${relPath.replace(/\.h5p$/i, '')}`,
     sourceFile: relPath,
   };
 }
