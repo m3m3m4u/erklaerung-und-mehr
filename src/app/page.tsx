@@ -8,75 +8,7 @@ import H5PUploader from '@/components/H5PUploader';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
-interface TopicItem {
-  title: string;
-  image: string;
-  link: string;
-}
-
-interface CategorySection {
-  category: string;
-  items: TopicItem[];
-}
-
-const subjectCategories: CategorySection[] = [
-  {
-    category: 'Naturwissenschaften',
-    items: [
-      { title: 'Chemie', image: '/images/chemie.png', link: '/chemie' },
-      { title: 'Biologie', image: '/images/biologie.png', link: '/biologie' },
-      { title: 'Geographie', image: '/images/geo.png', link: '/geographie' },
-      { title: 'Physik', image: '/images/physik.png', link: '/physik' },
-    ],
-  },
-  {
-    category: 'Sachkunde',
-    items: [
-      { title: 'Politik & Gesellschaft', image: '/images/politik.png', link: '/politik-und-gesellschaft' },
-      { title: 'Freiwillige Fahrradprüfung', image: '/images/verkehr-2.png', link: '/die-freiwillige-fahrradpruefung' },
-      { title: 'Hauswirtschaft', image: '/images/hauswirtschaft-1.png', link: '/hauswirtschaft' },
-      { title: 'Lehrberufe', image: '/images/lehrberufe.png', link: '/lehrberufe' },
-    ],
-  },
-  {
-    category: 'Mensch & Gesellschaft',
-    items: [
-      { title: 'Geschichte', image: '/images/geschichte.png', link: '/geschichte' },
-      { title: 'Wirtschaft', image: '/images/wirtschaft.png', link: '/wirtschaft' },
-      { title: 'Ernährung', image: '/images/ernaehrung.png', link: '/ernaehrung' },
-      { title: 'Philosophie', image: '/images/phil.png', link: '/philosophie' },
-      { title: 'Psychologie', image: '/images/psych.png', link: '/psychologie' },
-      { title: 'Religion', image: '/images/religion.png', link: '/religion' },
-      { title: 'Ethik', image: '/images/ethik.png', link: '/ethik' },
-      { title: 'Soziales & emotionales Lernen', image: '/images/sozialeslernen.png', link: '/soziales-und-emotionales-lernen' },
-      { title: 'Wichtige Persönlichkeiten', image: '/images/persoehnlichkeit.png', link: '/wichtige-persoenlichkeiten-der-geschichte' },
-      { title: 'Sustainable Development Goals', image: '/images/umwelt.png', link: '/sustainable-development-goals' },
-    ],
-  },
-  {
-    category: 'Kunst',
-    items: [
-      { title: 'Musik', image: '/images/musik.png', link: '/musik' },
-      { title: 'Kunst & Künstler', image: '/images/kunst-1.png', link: '/kunst-und-kuenstler' },
-    ],
-  },
-  {
-    category: 'Technik & Mathematik',
-    items: [
-      { title: 'Technik', image: '/images/technik.png', link: '/technik' },
-      { title: 'Mathematik', image: '/images/mathe.png', link: '/mathematik' },
-      { title: 'Medien & Informatik', image: '/images/informatik.png', link: '/medien-und-informatik' },
-      { title: 'Medien', image: '/images/medien.png', link: '/medien' },
-    ],
-  },
-  {
-    category: 'Sprachen',
-    items: [
-      { title: 'Deutsch', image: '/images/deutsch.png', link: '/deutsch' },
-      { title: 'Englisch', image: '/images/englisch.png', link: '/englisch' },
-    ],
-  },
-];
+import { subjectCategories } from '@/lib/subject-categories';
 
 
 export default function Home() {
