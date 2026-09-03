@@ -69,7 +69,7 @@ export default function Home() {
                     />
                   </div>
                   <h3>Digital & Kreativ von Thomas Felzmann</h3>
-                  <p>Digitale Themen für Eltern und Lehrpersonen im Videoformat.</p>
+                  <p>Digitale Themen für Eltern und Lehrpersonen.</p>
                   <a
                     href="https://shop.thomasfelzmann.at/"
                     target="_blank"
@@ -208,7 +208,38 @@ export default function Home() {
               </div>
             </div>
 
-            {/* 4. Themen und Lernfächer */}
+            {/* 4. Spenden-Banner für Server- & Betriebskosten */}
+            <section className="donation-banner" aria-label="Spende für Serverkosten">
+              <div className="donation-banner-main">
+                <div className="donation-banner-icon" aria-hidden="true">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                  </svg>
+                </div>
+                <div className="donation-banner-text">
+                  <h3>Server- &amp; Betriebskosten unterstützen</h3>
+                  <p>
+                    Erklärung und mehr ist ein kostenloses Bildungsangebot. Damit die Lernplattform weiterhin zuverlässig und werbefrei für Kinder online bleibt, freuen wir uns über jede kleine freiwillige Unterstützung für Server und Technik.
+                  </p>
+                </div>
+              </div>
+
+              <div className="donation-banner-actions">
+                <a
+                  href="https://www.paypal.com/donate/?business=m3m3m4u%40gmail.com&no_recurring=0&item_name=Unterst%C3%BCtzung+Serverkosten+Erkl%C3%A4rung+und+mehr&currency_code=EUR"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="donation-paypal-btn"
+                >
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="#002c6c" aria-hidden="true">
+                    <path d="M7.076 21.337H2.47a.641.641 0 0 1-.633-.74L4.944.901C5.026.382 5.474 0 5.998 0h7.46c2.57 0 4.578.543 5.69 1.81 1.01 1.15 1.304 2.42 1.012 4.283-.44 2.805-2.03 4.673-4.52 5.518 1.472.502 2.37 1.624 2.115 3.308-.344 2.28-2.062 3.847-4.484 4.31a10.978 10.978 0 0 1-2.083.187H8.814a.64.64 0 0 0-.633.543l-1.105 5.378zm7.394-14.887c.07-.44-.02-.74-.265-.924-.316-.24-.878-.345-1.74-.345H8.38l-1.32 8.358h2.647c2.31 0 4.093-.787 4.763-5.089z" />
+                  </svg>
+                  <span>Mit PayPal spenden</span>
+                </a>
+              </div>
+            </section>
+
+            {/* 5. Themen und Lernfächer */}
             <section className="section-block" style={{ marginTop: 24 }}>
               <h2 className="section-main-heading">Themen und Lernfächer</h2>
 

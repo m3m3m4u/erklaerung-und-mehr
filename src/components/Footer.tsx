@@ -45,6 +45,13 @@ export default function Footer({ activePath }: FooterProps) {
             Cookie-Einstellungen
           </button>
           <a
+            href="https://www.paypal.com/donate/?business=m3m3m4u%40gmail.com&no_recurring=0&item_name=Unterst%C3%BCtzung+Serverkosten+Erkl%C3%A4rung+und+mehr&currency_code=EUR"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Spenden (PayPal)
+          </a>
+          <a
             href="https://eduki.com/de/autor/1430402/about-the-world-org?query=&t=3752"
             target="_blank"
             rel="noopener noreferrer"
