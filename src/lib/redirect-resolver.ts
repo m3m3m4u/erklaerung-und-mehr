@@ -259,7 +259,7 @@ export function resolveLegacyRedirect(
     '/informationen-fuer-lehrpersonen': '/',
     '/tools-fuer-lehrpersonen': '/',
     '/kontaktiere-uns': '/impressum',
-    '/digital-kreativ-von-thomas-felzmann': 'https://shop.thomasfelzmann.at/',
+    '/digital-kreativ-von-thomas-felzmann': 'https://thomasfelzmann.at/',
     '/jr': '/musik',
     '/fl': '/musik/epochen-der-musikgeschichte',
     '/die-stimme': '/musik',

@@ -71,7 +71,7 @@ export default function Home() {
                   <h3>Digital & Kreativ von Thomas Felzmann</h3>
                   <p>Digitale Themen für Eltern und Lehrpersonen.</p>
                   <a
-                    href="https://shop.thomasfelzmann.at/"
+                    href="https://thomasfelzmann.at/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="button-link"
