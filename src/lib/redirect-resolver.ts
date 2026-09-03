@@ -102,7 +102,12 @@ export function resolveLegacyRedirect(
   }
 
   // 3. Product / Shop wildcard
-  if (normPath.startsWith('/produkt') || normPath.startsWith('/shop') || normPath.startsWith('/warenkorb') || normPath.startsWith('/kasse')) {
+  if (
+    normPath.startsWith('/produkt') ||
+    normPath.startsWith('/shop') ||
+    normPath.startsWith('/warenkorb') ||
+    normPath.startsWith('/kasse')
+  ) {
     return 'https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org';
   }
 
@@ -149,24 +154,248 @@ export function resolveLegacyRedirect(
     return '/';
   }
 
-  // 7. Encyclopedia URLs (/encyclopedia/...)
-  if (normPath.startsWith('/encyclopedia/')) {
-    const sub = normPath.replace('/encyclopedia/', '').trim();
-    const cleanSub = normalizePath(`/${sub}`);
-    if (staticRedirects[cleanSub]) {
-      return staticRedirects[cleanSub];
+  // 7. Kopernikus-Wortkiste & Enzyklopädie (/kopernikuswortkiste/..., /encyclopedia/..., /enzyklopaedie/...)
+  if (
+    normPath.startsWith('/kopernikuswortkiste') ||
+    normPath.startsWith('/encyclopedia') ||
+    normPath.startsWith('/enzyklopaedie')
+  ) {
+    const sub = normPath.replace(/^\/(?:kopernikuswortkiste|encyclopedia|enzyklopaedie)\/?/, '').trim();
+    if (!sub) {
+      return '/deutsch';
     }
+    const parts = sub.split('/').filter(Boolean);
+    const lastSlug = parts[parts.length - 1];
+    if (staticRedirects[`/${lastSlug}`]) {
+      return staticRedirects[`/${lastSlug}`];
+    }
+    if (categoryMap[lastSlug]) {
+      return categoryMap[lastSlug];
+    }
+    return '/deutsch';
+  }
+
+  // 8. Medien und Informatik (/medien-und-informatik/...)
+  if (normPath.startsWith('/medien-und-informatik')) {
+    const sub = normPath.replace(/^\/medien-und-informatik\/?/, '').trim();
+    if (!sub) {
+      return '/informatik';
+    }
+    const parts = sub.split('/').filter(Boolean);
+    const lastSlug = parts[parts.length - 1];
+    if (staticRedirects[`/${lastSlug}`]) {
+      return staticRedirects[`/${lastSlug}`];
+    }
+    if (categoryMap[lastSlug]) {
+      return categoryMap[lastSlug];
+    }
+    return `/informatik/${lastSlug}`;
+  }
+
+  // 9. Escape Rooms (/escape-rooms/...)
+  if (normPath.startsWith('/escape-rooms')) {
+    const sub = normPath.replace(/^\/escape-rooms\/?/, '').trim();
+    if (!sub) {
+      return '/';
+    }
+    const parts = sub.split('/').filter(Boolean);
+    const lastSlug = parts[parts.length - 1];
+    if (lastSlug.includes('geschichte')) return '/geschichte';
+    if (lastSlug.includes('geographie')) return '/geographie';
+    if (lastSlug.includes('mathematik') || lastSlug.includes('mathe')) return '/mathematik/escape-room-mathematik';
+    if (lastSlug.includes('physik')) return '/physik/escape-room-physik';
+    if (lastSlug.includes('chemie')) return '/chemie/escape-room-chemie';
+    if (lastSlug.includes('informatik')) return '/informatik/escape-room-informatik';
+    if (lastSlug.includes('musik')) return '/musik';
     return '/';
   }
 
-  // 8. Feed & RSS
+  // 10. Geschichte Alt-Verzeichnisse (/geschichte-neu/..., /geschichte-1789-bis-1918/..., /geschichte-3/...)
+  if (
+    normPath.startsWith('/geschichte-neu') ||
+    normPath.startsWith('/geschichte-1789-bis-1918') ||
+    normPath.startsWith('/geschichte-3')
+  ) {
+    const sub = normPath.replace(/^\/(?:geschichte-neu|geschichte-1789-bis-1918|geschichte-3)\/?/, '').trim();
+    if (sub) {
+      const parts = sub.split('/').filter(Boolean);
+      const lastSlug = parts[parts.length - 1];
+      if (staticRedirects[`/${lastSlug}`]) {
+        return staticRedirects[`/${lastSlug}`];
+      }
+      if (categoryMap[lastSlug]) {
+        return categoryMap[lastSlug];
+      }
+    }
+    return '/geschichte';
+  }
+
+  // 11. Ethik Alt-Verzeichnis (/ethik-2/...)
+  if (normPath.startsWith('/ethik-2')) {
+    const sub = normPath.replace(/^\/ethik-2\/?/, '').trim();
+    if (sub) {
+      const parts = sub.split('/').filter(Boolean);
+      const lastSlug = parts[parts.length - 1];
+      if (staticRedirects[`/${lastSlug}`]) {
+        return staticRedirects[`/${lastSlug}`];
+      }
+      if (categoryMap[lastSlug]) {
+        return categoryMap[lastSlug];
+      }
+      return `/ethik/${lastSlug}`;
+    }
+    return '/ethik';
+  }
+
+  // 12. Kunst Alt-Pfade (/kunst/...)
+  if (normPath.startsWith('/kunst/')) {
+    const sub = normPath.replace(/^\/kunst\/?/, '').trim();
+    return `/kunst-und-kuenstler/${sub}`;
+  }
+
+  // 13. Verzeichnis-Präfixe aus der alten WordPress-Installation
+  const legacyDirMap: Record<string, string> = {
+    '/themen': '/',
+    '/informationen-fuer-lehrpersonen': '/',
+    '/tools-fuer-lehrpersonen': '/',
+    '/kontaktiere-uns': '/impressum',
+    '/digital-kreativ-von-thomas-felzmann': 'https://shop.thomasfelzmann.at/',
+    '/jr': '/musik',
+    '/fl': '/musik/epochen-der-musikgeschichte',
+    '/die-stimme': '/musik',
+    '/musik-memory': '/musik',
+    '/schlagzeug-playalongs': '/musik',
+    '/drum-playalongs': '/musik',
+    '/aktuelles': '/',
+    '/kriege-und-revolutionen-uebersicht': '/geschichte',
+    '/werde-geschichte-nerd': '/geschichte',
+    '/timeline': '/geschichte',
+    '/aktuelle-themen-israel': '/geschichte',
+    '/das-roemische-reich-2': '/geschichte/das-roemische-reich-republik-und-kaiserzeit',
+    '/baustoffe': '/technik',
+    '/kraftwerke': '/physik/kraftwerke',
+    '/biochemie': '/chemie/biochemie-und-umwelt',
+    '/atomphysik': '/physik/atomphysik',
+    '/elektromagnetismus-2': '/physik/elektromagnetismus',
+    '/dynamik-impuls': '/physik/dynamik-impuls',
+    '/optik-2': '/physik/optik',
+    '/weltraum': '/physik/astronomie-und-raumfahrt',
+    '/grundlegende-chemische-reaktionen-und-prozesse': '/chemie/chemische-reaktionen',
+    '/organische-chemie-und-kohlenwasserstoffe': '/chemie/organische-chemie',
+    '/organische-verbindungen-und-ihre-anwendungen': '/chemie/organische-chemie',
+    '/umweltchemie-und-abfallmanagement': '/chemie/biochemie-und-umwelt',
+    '/wasser-und-wasserchemie': '/chemie/wasser-und-wasserchemie',
+    '/literarischer-adventskalender': '/deutsch',
+    '/german-text-analyzer': '/deutsch',
+    '/luft-und-luftverschmutzung': '/klima-und-umwelt',
+    '/landkarte-europa-staaten': '/geographie/staaten-europas',
+    '/startseite': '/',
+    '/schoen-dass-du-da-bist': '/',
+    '/erklaerung-und-mehr-herzlich-willkommen': '/',
+    '/jl-education': '/',
+    '/kahoot': '/',
+    '/snake-quiz': '/',
+    '/qr-codes': '/',
+    '/newsletter-anmeldung': '/',
+    '/newsletter-2': '/',
+    '/dezimalzahlen': '/mathematik/dezimalzahlen',
+    '/symmetrie': '/mathematik/symmetrie',
+    '/vorzeichen-2': '/mathematik/negative-zahlen',
+    '/ethische-grundlagen': '/ethik/grundlagen-und-theorien-der-ethik',
+    '/kunstepochen': '/kunst-und-kuenstler',
+    '/beruehmte-kunstwerke': '/kunst-und-kuenstler',
+    '/kreativitaet-und-fantasie': '/kunst-und-kuenstler',
+    '/arbeitsheft-digitale-grundbildung': '/informatik/arbeitsheft-digitale-grundbildung',
+    '/martina-die-kreative-code-kuenstlerin': '/informatik',
+    '/excel': '/informatik',
+    '/spanisch': '/',
+    '/franzoesisch': '/',
+    '/strateachy': '/',
+  };
+
+  for (const [dirKey, target] of Object.entries(legacyDirMap)) {
+    if (normPath === dirKey || normPath.startsWith(dirKey + '/')) {
+      const sub = normPath.slice(dirKey.length).replace(/^\/+/, '').trim();
+      if (sub) {
+        const parts = sub.split('/').filter(Boolean);
+        const lastSlug = parts[parts.length - 1];
+        if (staticRedirects[`/${lastSlug}`]) {
+          return staticRedirects[`/${lastSlug}`];
+        }
+        if (categoryMap[lastSlug]) {
+          return categoryMap[lastSlug];
+        }
+      }
+      return target;
+    }
+  }
+
+  // 14. Author, Portfolio, Book-Category & Elementor Wildcards
+  if (
+    normPath.startsWith('/author/') ||
+    normPath.startsWith('/portfolio') ||
+    normPath.startsWith('/book-category/') ||
+    normPath.startsWith('/elementor-')
+  ) {
+    return '/';
+  }
+
+  // 15. Feed & RSS
   if (normPath.endsWith('/feed') || normPath.endsWith('/rss') || normPath === '/feed' || normPath === '/rss') {
     return '/';
   }
 
-  // 9. WordPress login / admin
+  // 16. WordPress login / admin
   if (normPath === '/wp-login.php' || normPath === '/wp-admin' || normPath === '/wp-login') {
     return '/admin';
+  }
+
+  // 17. Mehrstufige alte Pfade unter bestehenden Fächern (/biologie/der-mensch/das-herz-und-der-blutkreislauf)
+  const knownSubjects = new Set([
+    'biologie',
+    'chemie',
+    'deutsch',
+    'die-freiwillige-fahrradpruefung',
+    'englisch',
+    'ernaehrung',
+    'ethik',
+    'geographie',
+    'geschichte',
+    'hauswirtschaft',
+    'informatik',
+    'kischulgenie',
+    'ki-schulgenie',
+    'klima-und-umwelt',
+    'kunst-und-kuenstler',
+    'lehrberufe',
+    'mathematik',
+    'medien',
+    'musik',
+    'philosophie',
+    'physik',
+    'politik-und-gesellschaft',
+    'psychologie',
+    'religion',
+    'soziales-und-emotionales-lernen',
+    'sustainable-development-goals',
+    'technik',
+    'wichtige-persoenlichkeiten-der-geschichte',
+    'wirtschaft',
+    'beruehmte-persoenlichkeiten',
+  ]);
+
+  const pathSegments = normPath.split('/').filter(Boolean);
+  if (pathSegments.length > 2 && knownSubjects.has(pathSegments[0])) {
+    const subject = pathSegments[0];
+    const lastSlug = pathSegments[pathSegments.length - 1];
+
+    if (staticRedirects[`/${lastSlug}`]) {
+      return staticRedirects[`/${lastSlug}`];
+    }
+    if (categoryMap[lastSlug]) {
+      return categoryMap[lastSlug];
+    }
+    return `/${subject}`;
   }
 
   return null;
