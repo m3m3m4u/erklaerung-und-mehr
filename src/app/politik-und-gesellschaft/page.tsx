@@ -1,11 +1,44 @@
-'use client';
-
+import type { Metadata } from 'next';
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { politikTopics } from '@/lib/politik-data';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+
+
+export const metadata: Metadata = {
+  title: 'Politik & Gesellschaft – Themen, Erklärungen & interaktive Übungen',
+  description:
+    'Demokratie verstehen und mitgestalten: Von den Grundrechten des Grundgesetzes und der Gewaltenteilung über das Wahlsystem bis hin zur Europäischen Union und gesellschaftlichem Zusammenhalt.',
+  alternates: {
+    canonical: '/politik-und-gesellschaft',
+  },
+  openGraph: {
+    title: 'Politik & Gesellschaft – Themen, Erklärungen & interaktive Übungen | Erklärung und mehr',
+    description:
+      'Demokratie verstehen und mitgestalten: Von den Grundrechten des Grundgesetzes und der Gewaltenteilung über das Wahlsystem bis hin zur Europäischen Union und gesellschaftlichem Zusammenhalt.',
+    url: '/politik-und-gesellschaft',
+    siteName: 'Erklärung und mehr',
+    locale: 'de_AT',
+    type: 'website',
+    images: [
+      {
+        url: '/images/klasse-1.jpg',
+        width: 800,
+        height: 480,
+        alt: 'Politik & Gesellschaft – Erklärung und mehr',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Politik & Gesellschaft – Themen, Erklärungen & interaktive Übungen | Erklärung und mehr',
+    description:
+      'Demokratie verstehen und mitgestalten: Von den Grundrechten des Grundgesetzes und der Gewaltenteilung über das Wahlsystem bis hin zur Europäischen Union und gesellschaftlichem Zusammenhalt.',
+    images: ['/images/klasse-1.jpg'],
+  },
+};
 
 export default function PolitikOverviewPage() {
   const allTopics = Object.values(politikTopics);

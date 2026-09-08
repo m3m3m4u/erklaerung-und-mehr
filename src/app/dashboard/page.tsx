@@ -983,11 +983,101 @@ export default function DashboardPage() {
           </section>
         )}
 
+        {/* Onboarding Guide for Teachers with 0 students */}
+        {students.length === 0 && (
+          <div
+            style={{
+              background: 'linear-gradient(135deg, #f0f7eb 0%, #ffffff 100%)',
+              border: '1.5px solid var(--green-primary)',
+              borderRadius: 8,
+              padding: '20px 24px',
+              marginBottom: 24,
+              boxShadow: '0 2px 8px rgba(46, 107, 14, 0.06)',
+            }}
+          >
+            <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 8, flexWrap: 'wrap' }}>
+              <span style={{ fontSize: 22 }}>💡</span>
+              <h2 style={{ fontSize: 18, margin: 0, color: 'var(--green-dark)' }}>
+                Erste Schritte: So startest du in weniger als 1 Minute
+              </h2>
+              <span
+                style={{
+                  fontSize: 11,
+                  background: 'var(--green-light)',
+                  color: 'var(--green-dark)',
+                  border: '1px solid var(--green-border)',
+                  padding: '2px 8px',
+                  borderRadius: 4,
+                  fontWeight: 700,
+                  textTransform: 'uppercase',
+                  letterSpacing: '0.4px',
+                }}
+              >
+                100 % DSGVO-konform
+              </span>
+            </div>
+            <p style={{ fontSize: 14, color: 'var(--text-color)', marginBottom: 14, lineHeight: 1.5 }}>
+              Du musst <strong>weder Schülernamen noch E-Mail-Adressen von Kindern eingeben</strong>. Die Schülerzugänge funktionieren vollständig anonym über zufällige 5-stellige Codes:
+            </p>
+            <div
+              style={{
+                display: 'grid',
+                gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))',
+                gap: 12,
+                marginBottom: 14,
+              }}
+            >
+              <div style={{ background: '#ffffff', border: '1px solid var(--green-border)', borderRadius: 6, padding: '12px 14px' }}>
+                <div style={{ fontWeight: 700, color: 'var(--green-dark)', fontSize: 13, marginBottom: 4 }}>
+                  1. Klasse &amp; Anzahl wählen
+                </div>
+                <div style={{ fontSize: 12, color: 'var(--text-muted)' }}>
+                  Gib unten deine Klasse ein (z. B. <strong>4A</strong>) und klicke auf die gewünschte Schüleranzahl (z. B. <strong>25</strong>).
+                </div>
+              </div>
+              <div style={{ background: '#ffffff', border: '1px solid var(--green-border)', borderRadius: 6, padding: '12px 14px' }}>
+                <div style={{ fontWeight: 700, color: 'var(--green-dark)', fontSize: 13, marginBottom: 4 }}>
+                  2. Codes werden generiert
+                </div>
+                <div style={{ fontSize: 12, color: 'var(--text-muted)' }}>
+                  Jeder Schüler erhält automatisch einen eindeutigen 5-stelligen Code (z. B. <code style={{ background: '#f4f8ef', padding: '1px 5px', borderRadius: 3, fontWeight: 700, color: 'var(--green-dark)' }}>A7K2M</code>).
+                </div>
+              </div>
+              <div style={{ background: '#ffffff', border: '1px solid var(--green-border)', borderRadius: 6, padding: '12px 14px' }}>
+                <div style={{ fontWeight: 700, color: 'var(--green-dark)', fontSize: 13, marginBottom: 4 }}>
+                  3. Liste drucken &amp; austeilen
+                </div>
+                <div style={{ fontSize: 12, color: 'var(--text-muted)' }}>
+                  Drucke die Liste als PDF oder Word aus. Schüler loggen sich direkt mit ihrem Code ein – ohne E-Mail oder Passwort.
+                </div>
+              </div>
+            </div>
+            <div style={{ fontSize: 12, color: 'var(--green-dark)', fontWeight: 600 }}>
+              🔒 Datensparsam &amp; rechtssicher: Die Zuordnung von Schüler zu Code bleibt allein auf deiner ausgedruckten Liste.
+            </div>
+          </div>
+        )}
+
         {/* Add students by count and class */}
         <section className="dashboard-section">
-          <h2>Schüleraccounts anlegen</h2>
+          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: 8, marginBottom: 4 }}>
+            <h2 style={{ margin: 0 }}>Schüleraccounts anlegen</h2>
+            <span
+              style={{
+                fontSize: 12,
+                background: '#f0f7eb',
+                color: 'var(--green-dark)',
+                border: '1px solid #c8e4b6',
+                borderRadius: 4,
+                padding: '3px 8px',
+                fontWeight: 600,
+              }}
+            >
+              ✓ Keine Schülernamen oder E-Mails erforderlich
+            </span>
+          </div>
           <p style={{ color: 'var(--text-muted)', fontSize: 14, marginBottom: 16 }}>
-            Wähle die Anzahl (1 bis 30) und trage die Klasse ein (z. B. 4A, 3B oder Mathe-Gruppe 1). Jeder Account erhält automatisch einen zufälligen 5-stelligen Code.
+            Trage die Klasse ein (z. B. 4A, 3B oder Mathe-Gruppe) und wähle die Anzahl. Jeder Account erhält automatisch einen 5-stelligen Code.
           </p>
           <form onSubmit={handleAddStudents} className="dashboard-add-form" style={{ alignItems: 'flex-end', gap: 12 }}>
             <div style={{ flex: '1 1 180px', minWidth: 140 }}>

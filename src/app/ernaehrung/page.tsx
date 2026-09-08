@@ -1,11 +1,44 @@
-'use client';
-
+import type { Metadata } from 'next';
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { ernaehrungTopics } from '@/lib/ernaehrung-data';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+
+
+export const metadata: Metadata = {
+  title: 'Ernährung – Themen, Erklärungen & interaktive Übungen',
+  description:
+    'Gesund und bewusst leben: Von der Ernährungspyramide und den Makro- sowie Mikronährstoffen (Kohlenhydrate, Fette, Proteine, Vitamine, Mineralstoffe) über Lebensmittelkunde und moderne Ernährungsformen bis hin zum Verdauungssystem, Allergien und Gesundheit.',
+  alternates: {
+    canonical: '/ernaehrung',
+  },
+  openGraph: {
+    title: 'Ernährung – Themen, Erklärungen & interaktive Übungen | Erklärung und mehr',
+    description:
+      'Gesund und bewusst leben: Von der Ernährungspyramide und den Makro- sowie Mikronährstoffen (Kohlenhydrate, Fette, Proteine, Vitamine, Mineralstoffe) über Lebensmittelkunde und moderne Ernährungsformen bis hin zum Verdauungssystem, Allergien und Gesundheit.',
+    url: '/ernaehrung',
+    siteName: 'Erklärung und mehr',
+    locale: 'de_AT',
+    type: 'website',
+    images: [
+      {
+        url: '/images/klasse-1.jpg',
+        width: 800,
+        height: 480,
+        alt: 'Ernährung – Erklärung und mehr',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Ernährung – Themen, Erklärungen & interaktive Übungen | Erklärung und mehr',
+    description:
+      'Gesund und bewusst leben: Von der Ernährungspyramide und den Makro- sowie Mikronährstoffen (Kohlenhydrate, Fette, Proteine, Vitamine, Mineralstoffe) über Lebensmittelkunde und moderne Ernährungsformen bis hin zum Verdauungssystem, Allergien und Gesundheit.',
+    images: ['/images/klasse-1.jpg'],
+  },
+};
 
 export default function ErnaehrungOverviewPage() {
   const allTopics = Object.values(ernaehrungTopics);

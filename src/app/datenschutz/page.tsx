@@ -4,8 +4,19 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
-  title: 'Datenschutzerklärung - Erklärung und mehr',
-  description: 'Informationen zur Verarbeitung personenbezogener Daten gemäß DSGVO.',
+  title: 'Datenschutzerklärung – Erklärung und mehr',
+  description: 'Informationen zur Verarbeitung personenbezogener Daten gemäß DSGVO auf Erklärung und mehr.',
+  alternates: {
+    canonical: '/datenschutz',
+  },
+  openGraph: {
+    title: 'Datenschutzerklärung | Erklärung und mehr',
+    description: 'Informationen zur Verarbeitung personenbezogener Daten gemäß DSGVO auf Erklärung und mehr.',
+    url: '/datenschutz',
+    siteName: 'Erklärung und mehr',
+    locale: 'de_AT',
+    type: 'website',
+  },
 };
 
 export default function DatenschutzPage() {

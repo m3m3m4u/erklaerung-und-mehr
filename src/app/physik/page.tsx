@@ -1,11 +1,44 @@
-'use client';
-
+import type { Metadata } from 'next';
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { physikTopics, physikCategories } from '@/lib/physik-data';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+
+
+export const metadata: Metadata = {
+  title: 'Physik – Themen, Erklärungen & interaktive Übungen',
+  description:
+    'Die faszinierende Welt der Naturgesetze: Entdecke die Geheimnisse von Kräften, Bewegung, Licht, Wärme, Stromkreisen, Magnetismus und Atomphysik mit anschaulichen Erklärungen und interaktiven Übungen.',
+  alternates: {
+    canonical: '/physik',
+  },
+  openGraph: {
+    title: 'Physik – Themen, Erklärungen & interaktive Übungen | Erklärung und mehr',
+    description:
+      'Die faszinierende Welt der Naturgesetze: Entdecke die Geheimnisse von Kräften, Bewegung, Licht, Wärme, Stromkreisen, Magnetismus und Atomphysik mit anschaulichen Erklärungen und interaktiven Übungen.',
+    url: '/physik',
+    siteName: 'Erklärung und mehr',
+    locale: 'de_AT',
+    type: 'website',
+    images: [
+      {
+        url: '/images/klasse-1.jpg',
+        width: 800,
+        height: 480,
+        alt: 'Physik – Erklärung und mehr',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Physik – Themen, Erklärungen & interaktive Übungen | Erklärung und mehr',
+    description:
+      'Die faszinierende Welt der Naturgesetze: Entdecke die Geheimnisse von Kräften, Bewegung, Licht, Wärme, Stromkreisen, Magnetismus und Atomphysik mit anschaulichen Erklärungen und interaktiven Übungen.',
+    images: ['/images/klasse-1.jpg'],
+  },
+};
 
 export default function PhysikOverviewPage() {
   const allTopics = Object.values(physikTopics);
@@ -52,7 +85,7 @@ export default function PhysikOverviewPage() {
             if (categoryTopics.length === 0) return null;
 
             return (
-              <section key={categoryName} className="math-category-section">
+              <section key={categoryName} id={categoryName} className="math-category-section" style={{ scrollMarginTop: 80 }}>
                 <h2 className="math-category-title">{categoryName}</h2>
                 <div className="math-grid">
                   {categoryTopics.map((topic) => (

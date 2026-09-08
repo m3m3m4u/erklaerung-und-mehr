@@ -226,7 +226,7 @@ export const musikTopics: Record<string, MusikTopic> = {
       {
         "id": "506",
         "title": "Musikgeschichte: 20. Jahrhundert",
-        "folder": "musikgeschichte-20-jahrhundert-506"
+        "folder": "musikgeschichte-moderne-506"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Musikgeschichte+Epochen&t=1251"

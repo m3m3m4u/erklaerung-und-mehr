@@ -15,6 +15,10 @@
   --bg-white: #ffffff;            /* Weiß für Boxen und Karten */
   
   --border-light: #e4e9df;        /* Neutrale Trennlinien */
+  --green-hover: #5d7d32;         /* Hover-Grün */
+  --bg-surface: #ffffff;          /* Karten- und Buttonhintergrund */
+  --radius-sm: 4px;               /* Kleine Eckenrundung */
+  --text-main: #333333;           /* Haupttextfarbe */
   
   --font-family: var(--font-questrial), "Questrial", Arial, sans-serif;
 }
@@ -356,6 +360,11 @@ a:hover {
   color: var(--green-primary);
   text-decoration: none;
   transform: translateX(4px);
+}
+
+.mega-category-link.active-link {
+  color: var(--green-dark);
+  font-weight: 700;
 }
 
 @media (max-width: 860px) {
@@ -1240,11 +1249,13 @@ a:hover {
   font-size: 13px;
   cursor: pointer;
   padding: 0;
-  text-decoration: underline;
+  text-decoration: none;
+  transition: color 0.15s ease;
 }
 
 .footer-cookie-btn:hover {
   color: var(--green-primary);
+  text-decoration: underline;
 }
 
 /* ==========================================================================
@@ -1746,10 +1757,33 @@ a:hover {
   background: var(--green-dark);
 }
 
+/* Direct role quicklink (e.g. "Mein Dashboard" for teachers) */
+.nav-direct-dashboard-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--green-primary);
+  color: #ffffff !important;
+  padding: 6px 13px;
+  border-radius: 20px;
+  font-family: var(--font-family);
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none !important;
+  box-shadow: 0 1px 3px rgba(46, 107, 14, 0.2);
+  transition: background 0.18s, transform 0.15s;
+  white-space: nowrap;
+}
+.nav-direct-dashboard-btn:hover {
+  background: var(--green-dark);
+  color: #ffffff !important;
+  transform: translateY(-1px);
+}
+
 /* ----- Logged-in User Badge ----- */
 .login-user-wrapper {
   position: relative;
-  margin-left: 12px;
+  margin-left: 0;
 }
 .login-user-btn {
   display: flex;

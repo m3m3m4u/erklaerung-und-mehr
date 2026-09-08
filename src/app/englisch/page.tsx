@@ -1,11 +1,44 @@
-'use client';
-
+import type { Metadata } from 'next';
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { englischTopics, englischCategories } from '@/lib/englisch-data';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+
+
+export const metadata: Metadata = {
+  title: 'Englisch – Themen, Erklärungen & interaktive Übungen',
+  description:
+    'My English is not the yellow from the egg? Dann bist du hier genau richtig! Verbessere deine Sprachkenntnisse mit strukturierten Grammatikregeln, allen Zeitformen (Tenses & Mixed Tenses), Passive Voice, Uhrzeit, Vokabeltraining und spannender Musikgeschichte auf Englisch.',
+  alternates: {
+    canonical: '/englisch',
+  },
+  openGraph: {
+    title: 'Englisch – Themen, Erklärungen & interaktive Übungen | Erklärung und mehr',
+    description:
+      'My English is not the yellow from the egg? Dann bist du hier genau richtig! Verbessere deine Sprachkenntnisse mit strukturierten Grammatikregeln, allen Zeitformen (Tenses & Mixed Tenses), Passive Voice, Uhrzeit, Vokabeltraining und spannender Musikgeschichte auf Englisch.',
+    url: '/englisch',
+    siteName: 'Erklärung und mehr',
+    locale: 'de_AT',
+    type: 'website',
+    images: [
+      {
+        url: '/images/klasse-1.jpg',
+        width: 800,
+        height: 480,
+        alt: 'Englisch – Erklärung und mehr',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Englisch – Themen, Erklärungen & interaktive Übungen | Erklärung und mehr',
+    description:
+      'My English is not the yellow from the egg? Dann bist du hier genau richtig! Verbessere deine Sprachkenntnisse mit strukturierten Grammatikregeln, allen Zeitformen (Tenses & Mixed Tenses), Passive Voice, Uhrzeit, Vokabeltraining und spannender Musikgeschichte auf Englisch.',
+    images: ['/images/klasse-1.jpg'],
+  },
+};
 
 export default function EnglischOverviewPage() {
   const allTopics = Object.values(englischTopics);
@@ -47,7 +80,7 @@ export default function EnglischOverviewPage() {
           if (categoryTopics.length === 0) return null;
 
           return (
-            <section key={categoryName} className="math-category-section">
+            <section key={categoryName} id={categoryName} className="math-category-section" style={{ scrollMarginTop: 80 }}>
               <h2 className="math-category-title">{categoryName}</h2>
               <div className="math-grid">
                 {categoryTopics.map((topic) => (

@@ -1,11 +1,44 @@
-'use client';
-
+import type { Metadata } from 'next';
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { psychologieTopics, psychologieCategories } from '@/lib/psychologie-data';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+
+
+export const metadata: Metadata = {
+  title: 'Psychologie – Themen, Erklärungen & interaktive Übungen',
+  description:
+    'Die Wissenschaft vom menschlichen Erleben und Verhalten: Von Neuropsychologie und Wahrnehmung über Freuds Psychoanalyse und Entwicklungsstufen (Piaget, Erikson) bis hin zu Sozialpsychologie (Milgram, Zimbardo), Kommunikation, klinischen Störungsbildern und Positiver Psychologie.',
+  alternates: {
+    canonical: '/psychologie',
+  },
+  openGraph: {
+    title: 'Psychologie – Themen, Erklärungen & interaktive Übungen | Erklärung und mehr',
+    description:
+      'Die Wissenschaft vom menschlichen Erleben und Verhalten: Von Neuropsychologie und Wahrnehmung über Freuds Psychoanalyse und Entwicklungsstufen (Piaget, Erikson) bis hin zu Sozialpsychologie (Milgram, Zimbardo), Kommunikation, klinischen Störungsbildern und Positiver Psychologie.',
+    url: '/psychologie',
+    siteName: 'Erklärung und mehr',
+    locale: 'de_AT',
+    type: 'website',
+    images: [
+      {
+        url: '/images/klasse-1.jpg',
+        width: 800,
+        height: 480,
+        alt: 'Psychologie – Erklärung und mehr',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Psychologie – Themen, Erklärungen & interaktive Übungen | Erklärung und mehr',
+    description:
+      'Die Wissenschaft vom menschlichen Erleben und Verhalten: Von Neuropsychologie und Wahrnehmung über Freuds Psychoanalyse und Entwicklungsstufen (Piaget, Erikson) bis hin zu Sozialpsychologie (Milgram, Zimbardo), Kommunikation, klinischen Störungsbildern und Positiver Psychologie.',
+    images: ['/images/klasse-1.jpg'],
+  },
+};
 
 export default function PsychologieOverviewPage() {
   const allTopics = Object.values(psychologieTopics);
@@ -50,7 +83,7 @@ export default function PsychologieOverviewPage() {
             if (categoryTopics.length === 0) return null;
 
             return (
-              <section key={categoryName} className="math-category-section">
+              <section key={categoryName} id={categoryName} className="math-category-section" style={{ scrollMarginTop: 80 }}>
                 <h2 className="math-category-title">{categoryName}</h2>
                 <div className="math-grid">
                   {categoryTopics.map((topic) => (

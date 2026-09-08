@@ -169,7 +169,7 @@ export const medienTopics: Record<string, MedienTopic> = {
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Wissenschaftskommunikation+Medien&t=1721"
   },
-  "medien-in-verschiedenen-bereichen": {
+  "medien-in-spezifischen-fachbereichen": {
     "id": 45227,
     "slug": "medien-in-spezifischen-fachbereichen",
     "title": "Medien in spezifischen Fachbereichen",
@@ -217,7 +217,7 @@ export const medienTopics: Record<string, MedienTopic> = {
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Medien+Fachbereiche&t=1721"
   },
-  "medien-in-konflikten-und-krisen": {
+  "medien-in-krisen-und-konflikten": {
     "id": 45228,
     "slug": "medien-in-krisen-und-konflikten",
     "title": "Medien in Krisen und Konflikten",

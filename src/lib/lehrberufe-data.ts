@@ -18,8 +18,7 @@ export interface LehrberufeTopic {
 export const lehrberufeCategories = [
   "Duales Ausbildungssystem",
   "Berufsfelder & Branchen",
-  "Bewerbung & Vorstellungsgespräch",
-  "Rechte & Pflichten von Azubis"
+  "Bewerbung & Vorstellungsgespräch"
 ];
 
 export const lehrberufeTopics: Record<string, LehrberufeTopic> = {

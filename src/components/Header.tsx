@@ -43,7 +43,7 @@ const megaMenuColumns: MenuColumn[] = [
         title: 'Sachkunde',
         items: [
           { title: 'Politik & Gesellschaft', href: '/politik-und-gesellschaft' },
-          { title: 'Verkehrserziehung', href: '/die-freiwillige-fahrradpruefung' },
+          { title: 'Verkehrserziehung & Fahrradprüfung', href: '/die-freiwillige-fahrradpruefung' },
           { title: 'Hauswirtschaft', href: '/hauswirtschaft' },
           { title: 'Lehrberufe', href: '/lehrberufe' },
         ],
@@ -63,8 +63,8 @@ const megaMenuColumns: MenuColumn[] = [
           { title: 'Religion', href: '/religion' },
           { title: 'Ethik', href: '/ethik' },
           { title: 'Soziales und emotionales Lernen', href: '/soziales-und-emotionales-lernen' },
-          { title: 'Klima und Umwelt', href: '/sustainable-development-goals' },
-          { title: 'Bedeutende Persönlichkeiten', href: '/wichtige-persoenlichkeiten-der-geschichte' },
+          { title: 'Klima, Umwelt & SDGs', href: '/sustainable-development-goals' },
+          { title: 'Berühmte Persönlichkeiten', href: '/wichtige-persoenlichkeiten-der-geschichte' },
         ],
       },
     ],
@@ -72,7 +72,7 @@ const megaMenuColumns: MenuColumn[] = [
   {
     categories: [
       {
-        title: 'Technik & Medien',
+        title: 'Technik & Mathematik',
         items: [
           { title: 'Technik', href: '/technik' },
           { title: 'Mathematik', href: '/mathematik' },
@@ -98,7 +98,7 @@ const megaMenuColumns: MenuColumn[] = [
   },
 ];
 
-export default function Header({ activeTab, onTabChange, activePath }: HeaderProps) {
+export default function Header({ _activeTab, _onTabChange, activePath }: HeaderProps & { _activeTab?: unknown; _onTabChange?: unknown }) {
   const [isThemenOpen, setIsThemenOpen] = useState(false);
   const pathname = usePathname();
   const currentPath = activePath || pathname || '';
@@ -106,14 +106,18 @@ export default function Header({ activeTab, onTabChange, activePath }: HeaderPro
   const triggerRef = useRef<HTMLButtonElement>(null);
   const hoverTimeoutRef = useRef<NodeJS.Timeout | null>(null);
 
-  // Close dropdown on route change
-  useEffect(() => {
-    setIsThemenOpen(false);
-  }, [pathname]);
+  // Close dropdown on route change without triggering useEffect cascading renders
+  const prevPathnameRef = useRef(pathname);
+  if (prevPathnameRef.current !== pathname) {
+    prevPathnameRef.current = pathname;
+    if (isThemenOpen) {
+      setIsThemenOpen(false);
+    }
+  }
 
-  // Click outside to close
+  // Click / touch outside to close
   useEffect(() => {
-    function handleClickOutside(event: MouseEvent) {
+    function handleClickOutside(event: MouseEvent | TouchEvent) {
       if (
         dropdownRef.current &&
         !dropdownRef.current.contains(event.target as Node) &&
@@ -131,9 +135,11 @@ export default function Header({ activeTab, onTabChange, activePath }: HeaderPro
     }
 
     document.addEventListener('mousedown', handleClickOutside);
+    document.addEventListener('touchstart', handleClickOutside);
     document.addEventListener('keydown', handleKeyDown);
     return () => {
       document.removeEventListener('mousedown', handleClickOutside);
+      document.removeEventListener('touchstart', handleClickOutside);
       document.removeEventListener('keydown', handleKeyDown);
     };
   }, []);
@@ -246,17 +252,22 @@ export default function Header({ activeTab, onTabChange, activePath }: HeaderPro
                     <div key={cat.title} className="mega-menu-category">
                       <h3 className="mega-category-title">{cat.title}</h3>
                       <ul className="mega-category-list">
-                        {cat.items.map((item) => (
-                          <li key={item.title}>
-                            <Link
-                              href={item.href}
-                              onClick={() => setIsThemenOpen(false)}
-                              className="mega-category-link"
-                            >
-                              {item.title}
-                            </Link>
-                          </li>
-                        ))}
+                        {cat.items.map((item) => {
+                          const isActive =
+                            currentPath === item.href ||
+                            (item.href !== '/' && currentPath.startsWith(item.href));
+                          return (
+                            <li key={item.title}>
+                              <Link
+                                href={item.href}
+                                onClick={() => setIsThemenOpen(false)}
+                                className={`mega-category-link ${isActive ? 'active-link' : ''}`}
+                              >
+                                {item.title}
+                              </Link>
+                            </li>
+                          );
+                        })}
                       </ul>
                     </div>
                   ))}

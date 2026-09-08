@@ -1,11 +1,44 @@
-'use client';
-
+import type { Metadata } from 'next';
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { kunstTopics, kunstCategories } from '@/lib/kunst-data';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+
+
+export const metadata: Metadata = {
+  title: 'Kunst und Künstler – Themen, Erklärungen & interaktive Übungen',
+  description:
+    'Kreativität, Epochen und Meisterwerke: Von Renaissance, Barock, Impressionismus und Moderne über berühmte Gemälde und Skulpturen bis hin zu künstlerischen Techniken, Medien, Darstellungsformen und räumlicher Wahrnehmung.',
+  alternates: {
+    canonical: '/kunst-und-kuenstler',
+  },
+  openGraph: {
+    title: 'Kunst und Künstler – Themen, Erklärungen & interaktive Übungen | Erklärung und mehr',
+    description:
+      'Kreativität, Epochen und Meisterwerke: Von Renaissance, Barock, Impressionismus und Moderne über berühmte Gemälde und Skulpturen bis hin zu künstlerischen Techniken, Medien, Darstellungsformen und räumlicher Wahrnehmung.',
+    url: '/kunst-und-kuenstler',
+    siteName: 'Erklärung und mehr',
+    locale: 'de_AT',
+    type: 'website',
+    images: [
+      {
+        url: '/images/klasse-1.jpg',
+        width: 800,
+        height: 480,
+        alt: 'Kunst und Künstler – Erklärung und mehr',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Kunst und Künstler – Themen, Erklärungen & interaktive Übungen | Erklärung und mehr',
+    description:
+      'Kreativität, Epochen und Meisterwerke: Von Renaissance, Barock, Impressionismus und Moderne über berühmte Gemälde und Skulpturen bis hin zu künstlerischen Techniken, Medien, Darstellungsformen und räumlicher Wahrnehmung.',
+    images: ['/images/klasse-1.jpg'],
+  },
+};
 
 export default function KunstOverviewPage() {
   const allTopics = Object.values(kunstTopics);
@@ -50,7 +83,7 @@ export default function KunstOverviewPage() {
             if (categoryTopics.length === 0) return null;
 
             return (
-              <section key={categoryName} className="math-category-section">
+              <section key={categoryName} id={categoryName} className="math-category-section" style={{ scrollMarginTop: 80 }}>
                 <h2 className="math-category-title">{categoryName}</h2>
                 <div className="math-grid">
                   {categoryTopics.map((topic) => (

@@ -1,11 +1,44 @@
-'use client';
-
+import type { Metadata } from 'next';
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { musikTopics, musikCategories } from '@/lib/musik-data';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+
+
+export const metadata: Metadata = {
+  title: 'Musik – Themen, Erklärungen & interaktive Übungen',
+  description:
+    'Die faszinierende Welt der Klänge: Von Musikinstrumenten und Notenlehre über die großen Epochen der Musikgeschichte und unvergessliche Meisterwerke von Bach, Mozart und Beethoven bis hin zu Opern, Musicals, Jazz, Blues, Rock und Pop.',
+  alternates: {
+    canonical: '/musik',
+  },
+  openGraph: {
+    title: 'Musik – Themen, Erklärungen & interaktive Übungen | Erklärung und mehr',
+    description:
+      'Die faszinierende Welt der Klänge: Von Musikinstrumenten und Notenlehre über die großen Epochen der Musikgeschichte und unvergessliche Meisterwerke von Bach, Mozart und Beethoven bis hin zu Opern, Musicals, Jazz, Blues, Rock und Pop.',
+    url: '/musik',
+    siteName: 'Erklärung und mehr',
+    locale: 'de_AT',
+    type: 'website',
+    images: [
+      {
+        url: '/images/klasse-1.jpg',
+        width: 800,
+        height: 480,
+        alt: 'Musik – Erklärung und mehr',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Musik – Themen, Erklärungen & interaktive Übungen | Erklärung und mehr',
+    description:
+      'Die faszinierende Welt der Klänge: Von Musikinstrumenten und Notenlehre über die großen Epochen der Musikgeschichte und unvergessliche Meisterwerke von Bach, Mozart und Beethoven bis hin zu Opern, Musicals, Jazz, Blues, Rock und Pop.',
+    images: ['/images/klasse-1.jpg'],
+  },
+};
 
 export default function MusikOverviewPage() {
   const allTopics = Object.values(musikTopics);
@@ -50,7 +83,7 @@ export default function MusikOverviewPage() {
             if (categoryTopics.length === 0) return null;
 
             return (
-              <section key={categoryName} className="math-category-section">
+              <section key={categoryName} id={categoryName} className="math-category-section" style={{ scrollMarginTop: 80 }}>
                 <h2 className="math-category-title">{categoryName}</h2>
                 <div className="math-grid">
                   {categoryTopics.map((topic) => (

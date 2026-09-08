@@ -1,11 +1,44 @@
-'use client';
-
+import type { Metadata } from 'next';
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { deutschTopics, deutschCategories } from '@/lib/deutsch-data';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+
+
+export const metadata: Metadata = {
+  title: 'Deutsch – Themen, Erklärungen & interaktive Übungen',
+  description:
+    'Sprachgewandt und literatursicher: Von den Grundregeln der deutschen Grammatik (Wortarten, Satzglieder, Kommasetzung) und den 6 Zeitformen des Verbs über die großen Epochen der Literaturgeschichte bis hin zu Meisterwerken und Tiefeninterpretationen von Goethe, Schiller, Lessing, Büchner, Kafka, Fontane, Thomas Mann und Jenny Erpenbeck.',
+  alternates: {
+    canonical: '/deutsch',
+  },
+  openGraph: {
+    title: 'Deutsch – Themen, Erklärungen & interaktive Übungen | Erklärung und mehr',
+    description:
+      'Sprachgewandt und literatursicher: Von den Grundregeln der deutschen Grammatik (Wortarten, Satzglieder, Kommasetzung) und den 6 Zeitformen des Verbs über die großen Epochen der Literaturgeschichte bis hin zu Meisterwerken und Tiefeninterpretationen von Goethe, Schiller, Lessing, Büchner, Kafka, Fontane, Thomas Mann und Jenny Erpenbeck.',
+    url: '/deutsch',
+    siteName: 'Erklärung und mehr',
+    locale: 'de_AT',
+    type: 'website',
+    images: [
+      {
+        url: '/images/klasse-1.jpg',
+        width: 800,
+        height: 480,
+        alt: 'Deutsch – Erklärung und mehr',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Deutsch – Themen, Erklärungen & interaktive Übungen | Erklärung und mehr',
+    description:
+      'Sprachgewandt und literatursicher: Von den Grundregeln der deutschen Grammatik (Wortarten, Satzglieder, Kommasetzung) und den 6 Zeitformen des Verbs über die großen Epochen der Literaturgeschichte bis hin zu Meisterwerken und Tiefeninterpretationen von Goethe, Schiller, Lessing, Büchner, Kafka, Fontane, Thomas Mann und Jenny Erpenbeck.',
+    images: ['/images/klasse-1.jpg'],
+  },
+};
 
 export default function DeutschOverviewPage() {
   const allTopics = Object.values(deutschTopics);
@@ -47,7 +80,7 @@ export default function DeutschOverviewPage() {
           if (categoryTopics.length === 0) return null;
 
           return (
-            <section key={categoryName} className="math-category-section">
+            <section key={categoryName} id={categoryName} className="math-category-section" style={{ scrollMarginTop: 80 }}>
               <h2 className="math-category-title">{categoryName}</h2>
               <div className="math-grid">
                 {categoryTopics.map((topic) => (

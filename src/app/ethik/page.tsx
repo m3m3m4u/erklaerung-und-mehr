@@ -1,11 +1,44 @@
-'use client';
-
+import type { Metadata } from 'next';
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { ethikTopics, ethikCategories } from '@/lib/ethik-data';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+
+
+export const metadata: Metadata = {
+  title: 'Ethik – Themen, Erklärungen & interaktive Übungen',
+  description:
+    'Verantwortungsvoll handeln und Werte verstehen: Von den Grundlagen und Theorien moralischen Handelns über Selbstbestimmung, Bio- und Medizinethik bis hin zu moderner Medienethik, Friedensbildung und globaler Gerechtigkeit.',
+  alternates: {
+    canonical: '/ethik',
+  },
+  openGraph: {
+    title: 'Ethik – Themen, Erklärungen & interaktive Übungen | Erklärung und mehr',
+    description:
+      'Verantwortungsvoll handeln und Werte verstehen: Von den Grundlagen und Theorien moralischen Handelns über Selbstbestimmung, Bio- und Medizinethik bis hin zu moderner Medienethik, Friedensbildung und globaler Gerechtigkeit.',
+    url: '/ethik',
+    siteName: 'Erklärung und mehr',
+    locale: 'de_AT',
+    type: 'website',
+    images: [
+      {
+        url: '/images/klasse-1.jpg',
+        width: 800,
+        height: 480,
+        alt: 'Ethik – Erklärung und mehr',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Ethik – Themen, Erklärungen & interaktive Übungen | Erklärung und mehr',
+    description:
+      'Verantwortungsvoll handeln und Werte verstehen: Von den Grundlagen und Theorien moralischen Handelns über Selbstbestimmung, Bio- und Medizinethik bis hin zu moderner Medienethik, Friedensbildung und globaler Gerechtigkeit.',
+    images: ['/images/klasse-1.jpg'],
+  },
+};
 
 export default function EthikOverviewPage() {
   const allTopics = Object.values(ethikTopics);
@@ -50,7 +83,7 @@ export default function EthikOverviewPage() {
             if (categoryTopics.length === 0) return null;
 
             return (
-              <section key={categoryName} className="math-category-section">
+              <section key={categoryName} id={categoryName} className="math-category-section" style={{ scrollMarginTop: 80 }}>
                 <h2 className="math-category-title">{categoryName}</h2>
                 <div className="math-grid">
                   {categoryTopics.map((topic) => (

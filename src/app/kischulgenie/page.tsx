@@ -1,10 +1,42 @@
-'use client';
-
+import type { Metadata } from 'next';
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+
+export const metadata: Metadata = {
+  title: 'KI-Schulgenie – KI-Tools für Lehrkräfte & Unterricht',
+  description:
+    'Entdecke KI-Schulgenie: Über 100 KI-Tools für Lehrkräfte zur schnellen und individuellen Erstellung von Arbeitsblättern, Quizzen und kompletten Unterrichtseinheiten.',
+  alternates: {
+    canonical: '/kischulgenie',
+  },
+  openGraph: {
+    title: 'KI-Schulgenie – KI-Tools für Lehrkräfte & Unterricht | Erklärung und mehr',
+    description:
+      'Über 100 KI-Tools für Lehrkräfte zur schnellen Erstellung von Arbeitsblättern, Quizzen und kompletten Unterrichtseinheiten.',
+    url: '/kischulgenie',
+    siteName: 'Erklärung und mehr',
+    locale: 'de_AT',
+    type: 'website',
+    images: [
+      {
+        url: '/images/logo-de.webp',
+        width: 300,
+        height: 180,
+        alt: 'KI-Schulgenie Logo',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'KI-Schulgenie – KI-Tools für Lehrkräfte & Unterricht',
+    description:
+      'Über 100 KI-Tools für Lehrkräfte zur schnellen Erstellung von Arbeitsblättern, Quizzen und Unterrichtsmaterialien.',
+    images: ['/images/logo-de.webp'],
+  },
+};
 
 export default function KiSchulgeniePage() {
   const partnerLink = 'https://kischulgenie.com/erklaerungundmehr?via=eum';

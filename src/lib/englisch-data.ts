@@ -256,7 +256,7 @@ export const englischTopics: Record<string, EnglischTopic> = {
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=English+Vocabulary+More&t=468"
   },
-  "musikgeschichte-englisch": {
+  "history-of-music": {
     "id": 26050,
     "slug": "history-of-music",
     "title": "History of Music (Musikgeschichte auf Englisch)",

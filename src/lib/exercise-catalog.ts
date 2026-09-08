@@ -41,7 +41,7 @@ interface TopicDataLike {
   exercises?: { id: string; title: string; folder?: string }[];
 }
 
-const allSubjectDatasets: { subject: string; subjectSlug: string; topics: Record<string, TopicDataLike> }[] = [
+export const allSubjectDatasets: { subject: string; subjectSlug: string; topics: Record<string, TopicDataLike> }[] = [
   { subject: 'Biologie', subjectSlug: 'biologie', topics: biologieTopics as Record<string, TopicDataLike> },
   { subject: 'Chemie', subjectSlug: 'chemie', topics: chemieTopics as Record<string, TopicDataLike> },
   { subject: 'Deutsch', subjectSlug: 'deutsch', topics: deutschTopics as Record<string, TopicDataLike> },

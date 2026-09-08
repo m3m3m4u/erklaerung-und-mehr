@@ -1,11 +1,44 @@
-'use client';
-
+import type { Metadata } from 'next';
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { persoenlichkeitenTopics } from '@/lib/persoenlichkeiten-data';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+
+
+export const metadata: Metadata = {
+  title: 'Berühmte Persönlichkeiten – Themen, Erklärungen & interaktive Übungen',
+  description:
+    'Menschen, die Geschichte schrieben: Von antiken Feldherren und Staatsmännern über geniale Entdecker, Wissenschaftler und IT-Pioniere bis hin zu unvergesslichen Künstlern, Schriftstellern, Philosophen, religiösen Führern und Sportlegenden.',
+  alternates: {
+    canonical: '/wichtige-persoenlichkeiten-der-geschichte',
+  },
+  openGraph: {
+    title: 'Berühmte Persönlichkeiten – Themen, Erklärungen & interaktive Übungen | Erklärung und mehr',
+    description:
+      'Menschen, die Geschichte schrieben: Von antiken Feldherren und Staatsmännern über geniale Entdecker, Wissenschaftler und IT-Pioniere bis hin zu unvergesslichen Künstlern, Schriftstellern, Philosophen, religiösen Führern und Sportlegenden.',
+    url: '/wichtige-persoenlichkeiten-der-geschichte',
+    siteName: 'Erklärung und mehr',
+    locale: 'de_AT',
+    type: 'website',
+    images: [
+      {
+        url: '/images/klasse-1.jpg',
+        width: 800,
+        height: 480,
+        alt: 'Berühmte Persönlichkeiten – Erklärung und mehr',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Berühmte Persönlichkeiten – Themen, Erklärungen & interaktive Übungen | Erklärung und mehr',
+    description:
+      'Menschen, die Geschichte schrieben: Von antiken Feldherren und Staatsmännern über geniale Entdecker, Wissenschaftler und IT-Pioniere bis hin zu unvergesslichen Künstlern, Schriftstellern, Philosophen, religiösen Führern und Sportlegenden.',
+    images: ['/images/klasse-1.jpg'],
+  },
+};
 
 export default function PersoenlichkeitenOverviewPage() {
   const allTopics = Object.values(persoenlichkeitenTopics);

@@ -1236,7 +1236,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
   "otto-von-bismarck-und-deutsches-kaiserreich": {
     "slug": "otto-von-bismarck-und-deutsches-kaiserreich",
     "title": "Otto von Bismarck & das Deutsche Kaiserreich",
-    "category": "19. Jahrhundert & Industrialisierung",
+    "category": "19. Jahrhundert & Deutsches Kaiserreich",
     "shortDesc": "Reichsgründung 1871 in Versailles, drei Einigungskriege, Bismarcks Bündnissystem, Kulturkampf und Sozialistengesetze.",
     "longDesc": "Otto von Bismarck (1815–1898) war als preußischer Ministerpräsident und erster Reichskanzler die dominierende politische Gestalt bei der Gründung des Deutschen Kaiserreichs 1871. Durch die drei 'Einigungskriege' (1864 gegen Dänemark, 1866 gegen Österreich, 1870/71 gegen Frankreich) setzte er die kleindeutsche Lösung unter preußischer Führung durch. Seine Innenpolitik war geprägt vom Kampf gegen Katholiken (Kulturkampf) und Sozialdemokraten (Sozialistengesetze), flankiert durch die weltweit erste staatliche Sozialgesetzgebung. Außenpolitisch sicherte er den Frieden in Europa durch ein komplexes Bündnissystem zur Isolation Frankreichs.",
     "keyPoints": [

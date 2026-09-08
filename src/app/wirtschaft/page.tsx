@@ -1,11 +1,44 @@
-'use client';
-
+import type { Metadata } from 'next';
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { wirtschaftTopics, wirtschaftCategories } from '@/lib/wirtschaft-data';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+
+
+export const metadata: Metadata = {
+  title: 'Wirtschaft – Themen, Erklärungen & interaktive Übungen',
+  description:
+    'Verstehe ökonomische Zusammenhänge: Von Grundlagen wie Angebot und Nachfrage über Geld, Banken und Börse, Vertragsrecht und Unternehmensformen bis hin zu Marketing, Globalisierung und dem erfolgreichen Berufsstart.',
+  alternates: {
+    canonical: '/wirtschaft',
+  },
+  openGraph: {
+    title: 'Wirtschaft – Themen, Erklärungen & interaktive Übungen | Erklärung und mehr',
+    description:
+      'Verstehe ökonomische Zusammenhänge: Von Grundlagen wie Angebot und Nachfrage über Geld, Banken und Börse, Vertragsrecht und Unternehmensformen bis hin zu Marketing, Globalisierung und dem erfolgreichen Berufsstart.',
+    url: '/wirtschaft',
+    siteName: 'Erklärung und mehr',
+    locale: 'de_AT',
+    type: 'website',
+    images: [
+      {
+        url: '/images/klasse-1.jpg',
+        width: 800,
+        height: 480,
+        alt: 'Wirtschaft – Erklärung und mehr',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Wirtschaft – Themen, Erklärungen & interaktive Übungen | Erklärung und mehr',
+    description:
+      'Verstehe ökonomische Zusammenhänge: Von Grundlagen wie Angebot und Nachfrage über Geld, Banken und Börse, Vertragsrecht und Unternehmensformen bis hin zu Marketing, Globalisierung und dem erfolgreichen Berufsstart.',
+    images: ['/images/klasse-1.jpg'],
+  },
+};
 
 export default function WirtschaftOverviewPage() {
   const allTopics = Object.values(wirtschaftTopics);
@@ -50,7 +83,7 @@ export default function WirtschaftOverviewPage() {
             if (categoryTopics.length === 0) return null;
 
             return (
-              <section key={categoryName} className="math-category-section">
+              <section key={categoryName} id={categoryName} className="math-category-section" style={{ scrollMarginTop: 80 }}>
                 <h2 className="math-category-title">{categoryName}</h2>
                 <div className="math-grid">
                   {categoryTopics.map((topic) => (

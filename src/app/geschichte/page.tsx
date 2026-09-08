@@ -1,11 +1,44 @@
-'use client';
-
+import type { Metadata } from 'next';
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { geschichteTopics, geschichteCategories } from '@/lib/geschichte-data';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+
+
+export const metadata: Metadata = {
+  title: 'Geschichte – Themen, Erklärungen & interaktive Übungen',
+  description:
+    'Reise durch die Epochen der Menschheit: Von der Steinzeit und den Hochkulturen der Antike über das Mittelalter, die Französische Revolution und das Kaiserreich bis hin zu den Weltkriegen, der NS-Diktatur, dem Kalten Krieg und der Deutschen Einheit.',
+  alternates: {
+    canonical: '/geschichte',
+  },
+  openGraph: {
+    title: 'Geschichte – Themen, Erklärungen & interaktive Übungen | Erklärung und mehr',
+    description:
+      'Reise durch die Epochen der Menschheit: Von der Steinzeit und den Hochkulturen der Antike über das Mittelalter, die Französische Revolution und das Kaiserreich bis hin zu den Weltkriegen, der NS-Diktatur, dem Kalten Krieg und der Deutschen Einheit.',
+    url: '/geschichte',
+    siteName: 'Erklärung und mehr',
+    locale: 'de_AT',
+    type: 'website',
+    images: [
+      {
+        url: '/images/klasse-1.jpg',
+        width: 800,
+        height: 480,
+        alt: 'Geschichte – Erklärung und mehr',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Geschichte – Themen, Erklärungen & interaktive Übungen | Erklärung und mehr',
+    description:
+      'Reise durch die Epochen der Menschheit: Von der Steinzeit und den Hochkulturen der Antike über das Mittelalter, die Französische Revolution und das Kaiserreich bis hin zu den Weltkriegen, der NS-Diktatur, dem Kalten Krieg und der Deutschen Einheit.',
+    images: ['/images/klasse-1.jpg'],
+  },
+};
 
 export default function GeschichteOverviewPage() {
   const allTopics = Object.values(geschichteTopics);
@@ -50,7 +83,7 @@ export default function GeschichteOverviewPage() {
             if (categoryTopics.length === 0) return null;
 
             return (
-              <section key={categoryName} className="math-category-section">
+              <section key={categoryName} id={categoryName} className="math-category-section" style={{ scrollMarginTop: 80 }}>
                 <h2 className="math-category-title">{categoryName}</h2>
                 <div className="math-grid">
                   {categoryTopics.map((topic) => (

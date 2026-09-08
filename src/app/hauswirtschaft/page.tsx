@@ -1,11 +1,44 @@
-'use client';
-
+import type { Metadata } from 'next';
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { hauswirtschaftTopics } from '@/lib/hauswirtschaft-data';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+
+
+export const metadata: Metadata = {
+  title: 'Hauswirtschaft & Alltagskompetenz – Themen, Erklärungen & interaktive Übungen',
+  description:
+    'Praktisches Wissen fürs Leben: Von der gesunden Ernährungspyramide und Küchenhygiene über die Haushaltsbudgetierung und Vermeidung von Schuldenfallen bis hin zur nachhaltigen Haushaltsführung und Textilpflege.',
+  alternates: {
+    canonical: '/hauswirtschaft',
+  },
+  openGraph: {
+    title: 'Hauswirtschaft & Alltagskompetenz – Themen, Erklärungen & interaktive Übungen | Erklärung und mehr',
+    description:
+      'Praktisches Wissen fürs Leben: Von der gesunden Ernährungspyramide und Küchenhygiene über die Haushaltsbudgetierung und Vermeidung von Schuldenfallen bis hin zur nachhaltigen Haushaltsführung und Textilpflege.',
+    url: '/hauswirtschaft',
+    siteName: 'Erklärung und mehr',
+    locale: 'de_AT',
+    type: 'website',
+    images: [
+      {
+        url: '/images/klasse-1.jpg',
+        width: 800,
+        height: 480,
+        alt: 'Hauswirtschaft & Alltagskompetenz – Erklärung und mehr',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Hauswirtschaft & Alltagskompetenz – Themen, Erklärungen & interaktive Übungen | Erklärung und mehr',
+    description:
+      'Praktisches Wissen fürs Leben: Von der gesunden Ernährungspyramide und Küchenhygiene über die Haushaltsbudgetierung und Vermeidung von Schuldenfallen bis hin zur nachhaltigen Haushaltsführung und Textilpflege.',
+    images: ['/images/klasse-1.jpg'],
+  },
+};
 
 export default function HauswirtschaftOverviewPage() {
   const allTopics = Object.values(hauswirtschaftTopics);

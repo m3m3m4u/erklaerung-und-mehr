@@ -1,11 +1,44 @@
-'use client';
-
+import type { Metadata } from 'next';
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { informatikTopics, informatikCategories } from '@/lib/informatik-data';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+
+
+export const metadata: Metadata = {
+  title: 'Informatik & Digitale Grundbildung – Themen, Erklärungen & interaktive Übungen',
+  description:
+    'Die Welt von heute ist digital – ohne IT und Internet geht nichts mehr! Hier lernst du alles über Computer-Hardware, Netzwerke, Betriebssysteme, Programmieren, Sicherheit im Netz und die Geschichte der IT.',
+  alternates: {
+    canonical: '/informatik',
+  },
+  openGraph: {
+    title: 'Informatik & Digitale Grundbildung – Themen, Erklärungen & interaktive Übungen | Erklärung und mehr',
+    description:
+      'Die Welt von heute ist digital – ohne IT und Internet geht nichts mehr! Hier lernst du alles über Computer-Hardware, Netzwerke, Betriebssysteme, Programmieren, Sicherheit im Netz und die Geschichte der IT.',
+    url: '/informatik',
+    siteName: 'Erklärung und mehr',
+    locale: 'de_AT',
+    type: 'website',
+    images: [
+      {
+        url: '/images/klasse-1.jpg',
+        width: 800,
+        height: 480,
+        alt: 'Informatik & Digitale Grundbildung – Erklärung und mehr',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Informatik & Digitale Grundbildung – Themen, Erklärungen & interaktive Übungen | Erklärung und mehr',
+    description:
+      'Die Welt von heute ist digital – ohne IT und Internet geht nichts mehr! Hier lernst du alles über Computer-Hardware, Netzwerke, Betriebssysteme, Programmieren, Sicherheit im Netz und die Geschichte der IT.',
+    images: ['/images/klasse-1.jpg'],
+  },
+};
 
 export default function InformatikOverviewPage() {
   const allTopics = Object.values(informatikTopics);
@@ -52,7 +85,7 @@ export default function InformatikOverviewPage() {
             if (categoryTopics.length === 0) return null;
 
             return (
-              <section key={categoryName} className="math-category-section">
+              <section key={categoryName} id={categoryName} className="math-category-section" style={{ scrollMarginTop: 80 }}>
                 <h2 className="math-category-title">{categoryName}</h2>
                 <div className="math-grid">
                   {categoryTopics.map((topic) => (

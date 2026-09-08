@@ -1,11 +1,44 @@
-'use client';
-
+import type { Metadata } from 'next';
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { sozialesLernenTopics, sozialesLernenCategories } from '@/lib/soziales-lernen-data';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+
+
+export const metadata: Metadata = {
+  title: 'Soziales und emotionales Lernen – Themen, Erklärungen & interaktive Übungen',
+  description:
+    'Kompetenzen fürs Leben: Man lernt nicht nur für Schulfächer, sondern für das echte Leben und das Miteinander. Hier geht es um Selbstwahrnehmung, den konstruktiven Umgang mit Wut und Trauer, Empathie, Freundschaft, Feedbackkultur, gewaltfreie Konfliktlösung, Zivilcourage gegen Mobbing und mitreißende Lernlieder.',
+  alternates: {
+    canonical: '/soziales-und-emotionales-lernen',
+  },
+  openGraph: {
+    title: 'Soziales und emotionales Lernen – Themen, Erklärungen & interaktive Übungen | Erklärung und mehr',
+    description:
+      'Kompetenzen fürs Leben: Man lernt nicht nur für Schulfächer, sondern für das echte Leben und das Miteinander. Hier geht es um Selbstwahrnehmung, den konstruktiven Umgang mit Wut und Trauer, Empathie, Freundschaft, Feedbackkultur, gewaltfreie Konfliktlösung, Zivilcourage gegen Mobbing und mitreißende Lernlieder.',
+    url: '/soziales-und-emotionales-lernen',
+    siteName: 'Erklärung und mehr',
+    locale: 'de_AT',
+    type: 'website',
+    images: [
+      {
+        url: '/images/klasse-1.jpg',
+        width: 800,
+        height: 480,
+        alt: 'Soziales und emotionales Lernen – Erklärung und mehr',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Soziales und emotionales Lernen – Themen, Erklärungen & interaktive Übungen | Erklärung und mehr',
+    description:
+      'Kompetenzen fürs Leben: Man lernt nicht nur für Schulfächer, sondern für das echte Leben und das Miteinander. Hier geht es um Selbstwahrnehmung, den konstruktiven Umgang mit Wut und Trauer, Empathie, Freundschaft, Feedbackkultur, gewaltfreie Konfliktlösung, Zivilcourage gegen Mobbing und mitreißende Lernlieder.',
+    images: ['/images/klasse-1.jpg'],
+  },
+};
 
 export default function SozialesLernenOverviewPage() {
   const allTopics = Object.values(sozialesLernenTopics);
@@ -50,7 +83,7 @@ export default function SozialesLernenOverviewPage() {
             if (categoryTopics.length === 0) return null;
 
             return (
-              <section key={categoryName} className="math-category-section">
+              <section key={categoryName} id={categoryName} className="math-category-section" style={{ scrollMarginTop: 80 }}>
                 <h2 className="math-category-title">{categoryName}</h2>
                 <div className="math-grid">
                   {categoryTopics.map((topic) => (

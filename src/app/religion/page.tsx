@@ -1,11 +1,44 @@
-'use client';
-
+import type { Metadata } from 'next';
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { religionTopics, religionCategories } from '@/lib/religion-data';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+
+
+export const metadata: Metadata = {
+  title: 'Religion – Themen, Erklärungen & interaktive Übungen',
+  description:
+    'Glaube, Traditionen und Sinnfragen: Von den fünf großen Weltreligionen (Judentum, Christentum, Islam, Hinduismus, Buddhismus) über die Bibel und biblische Schriften bis hin zu christlichen Festen, Tod, Auferstehung und gelebtem Glauben im Alltag.',
+  alternates: {
+    canonical: '/religion',
+  },
+  openGraph: {
+    title: 'Religion – Themen, Erklärungen & interaktive Übungen | Erklärung und mehr',
+    description:
+      'Glaube, Traditionen und Sinnfragen: Von den fünf großen Weltreligionen (Judentum, Christentum, Islam, Hinduismus, Buddhismus) über die Bibel und biblische Schriften bis hin zu christlichen Festen, Tod, Auferstehung und gelebtem Glauben im Alltag.',
+    url: '/religion',
+    siteName: 'Erklärung und mehr',
+    locale: 'de_AT',
+    type: 'website',
+    images: [
+      {
+        url: '/images/klasse-1.jpg',
+        width: 800,
+        height: 480,
+        alt: 'Religion – Erklärung und mehr',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Religion – Themen, Erklärungen & interaktive Übungen | Erklärung und mehr',
+    description:
+      'Glaube, Traditionen und Sinnfragen: Von den fünf großen Weltreligionen (Judentum, Christentum, Islam, Hinduismus, Buddhismus) über die Bibel und biblische Schriften bis hin zu christlichen Festen, Tod, Auferstehung und gelebtem Glauben im Alltag.',
+    images: ['/images/klasse-1.jpg'],
+  },
+};
 
 export default function ReligionOverviewPage() {
   const allTopics = Object.values(religionTopics);
@@ -50,7 +83,7 @@ export default function ReligionOverviewPage() {
             if (categoryTopics.length === 0) return null;
 
             return (
-              <section key={categoryName} className="math-category-section">
+              <section key={categoryName} id={categoryName} className="math-category-section" style={{ scrollMarginTop: 80 }}>
                 <h2 className="math-category-title">{categoryName}</h2>
                 <div className="math-grid">
                   {categoryTopics.map((topic) => (

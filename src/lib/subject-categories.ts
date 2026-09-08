@@ -50,7 +50,7 @@ export const subjectCategories: CategorySection[] = [
         keywords: ['politik', 'gesellschaft', 'demokratie', 'wahlen', 'parlament', 'staat', 'gesetze', 'bürger'],
       },
       {
-        title: 'Freiwillige Fahrradprüfung',
+        title: 'Verkehrserziehung & Fahrradprüfung',
         image: '/images/verkehr-2.png',
         link: '/die-freiwillige-fahrradpruefung',
         keywords: ['fahrrad', 'rad', 'verkehr', 'fahrradprüfung', 'verkehrszeichen', 'schilder', 'vorrang', 'helm', 'sicherheit'],
@@ -121,13 +121,13 @@ export const subjectCategories: CategorySection[] = [
         keywords: ['soziales lernen', 'gefühle', 'emotionen', 'zusammenleben', 'konflikte', 'selbstvertrauen', 'achtsamkeit'],
       },
       {
-        title: 'Wichtige Persönlichkeiten',
+        title: 'Berühmte Persönlichkeiten',
         image: '/images/persoehnlichkeit.png',
         link: '/wichtige-persoenlichkeiten-der-geschichte',
         keywords: ['persönlichkeiten', 'geschichte', 'berühmtheiten', 'forscher', 'kopernikus', 'einstein', 'erfinder'],
       },
       {
-        title: 'Sustainable Development Goals',
+        title: 'Klima, Umwelt & SDGs',
         image: '/images/umwelt.png',
         link: '/sustainable-development-goals',
         keywords: ['sdg', 'nachhaltigkeit', 'umwelt', 'klima', 'ziele', 'zukunft', 'naturschutz'],
@@ -167,9 +167,9 @@ export const subjectCategories: CategorySection[] = [
         keywords: ['mathematik', 'mathe', 'rechnen', 'geometrie', 'zahlen', 'brüche', 'terme', 'gleichungen', 'prozent', 'funktionen'],
       },
       {
-        title: 'Medien & Informatik',
+        title: 'Informatik',
         image: '/images/informatik.png',
-        link: '/medien-und-informatik',
+        link: '/informatik',
         keywords: ['informatik', 'medien', 'computer', 'internet', 'hardware', 'software', 'programmierung', 'sicherheit', 'ki'],
       },
       {

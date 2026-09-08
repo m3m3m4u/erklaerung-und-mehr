@@ -1,11 +1,44 @@
-'use client';
-
+import type { Metadata } from 'next';
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { philosophieTopics, philosophieCategories } from '@/lib/philosophie-data';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+
+
+export const metadata: Metadata = {
+  title: 'Philosophie & Ethik – Themen, Erklärungen & interaktive Übungen',
+  description:
+    'Die Kunst des Fragens und vernünftigen Denkens: Von den antiken Meistern Sokrates, Platon und Aristoteles über Kants Aufklärung und Pflichtethik bis hin zu Existenzialismus, Utilitarismus, moderner Bio- und Medienethik sowie Staatsphilosophie.',
+  alternates: {
+    canonical: '/philosophie',
+  },
+  openGraph: {
+    title: 'Philosophie & Ethik – Themen, Erklärungen & interaktive Übungen | Erklärung und mehr',
+    description:
+      'Die Kunst des Fragens und vernünftigen Denkens: Von den antiken Meistern Sokrates, Platon und Aristoteles über Kants Aufklärung und Pflichtethik bis hin zu Existenzialismus, Utilitarismus, moderner Bio- und Medienethik sowie Staatsphilosophie.',
+    url: '/philosophie',
+    siteName: 'Erklärung und mehr',
+    locale: 'de_AT',
+    type: 'website',
+    images: [
+      {
+        url: '/images/klasse-1.jpg',
+        width: 800,
+        height: 480,
+        alt: 'Philosophie & Ethik – Erklärung und mehr',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Philosophie & Ethik – Themen, Erklärungen & interaktive Übungen | Erklärung und mehr',
+    description:
+      'Die Kunst des Fragens und vernünftigen Denkens: Von den antiken Meistern Sokrates, Platon und Aristoteles über Kants Aufklärung und Pflichtethik bis hin zu Existenzialismus, Utilitarismus, moderner Bio- und Medienethik sowie Staatsphilosophie.',
+    images: ['/images/klasse-1.jpg'],
+  },
+};
 
 export default function PhilosophieOverviewPage() {
   const allTopics = Object.values(philosophieTopics);
@@ -50,7 +83,7 @@ export default function PhilosophieOverviewPage() {
             if (categoryTopics.length === 0) return null;
 
             return (
-              <section key={categoryName} className="math-category-section">
+              <section key={categoryName} id={categoryName} className="math-category-section" style={{ scrollMarginTop: 80 }}>
                 <h2 className="math-category-title">{categoryName}</h2>
                 <div className="math-grid">
                   {categoryTopics.map((topic) => (

@@ -1,11 +1,44 @@
-'use client';
-
+import type { Metadata } from 'next';
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { klimaTopics } from '@/lib/klima-data';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+
+
+export const metadata: Metadata = {
+  title: 'Klima, Umwelt & SDGs – Themen, Erklärungen & interaktive Übungen',
+  description:
+    'Gemeinsam für eine lebenswerte Zukunft: Von den 17 globalen Nachhaltigkeitszielen (Sustainable Development Goals) der Vereinten Nationen über Klimazonen und Treibhauseffekt bis hin zu Ressourcenschutz, Kreislaufwirtschaft und sauberer Energie.',
+  alternates: {
+    canonical: '/sustainable-development-goals',
+  },
+  openGraph: {
+    title: 'Klima, Umwelt & SDGs – Themen, Erklärungen & interaktive Übungen | Erklärung und mehr',
+    description:
+      'Gemeinsam für eine lebenswerte Zukunft: Von den 17 globalen Nachhaltigkeitszielen (Sustainable Development Goals) der Vereinten Nationen über Klimazonen und Treibhauseffekt bis hin zu Ressourcenschutz, Kreislaufwirtschaft und sauberer Energie.',
+    url: '/sustainable-development-goals',
+    siteName: 'Erklärung und mehr',
+    locale: 'de_AT',
+    type: 'website',
+    images: [
+      {
+        url: '/images/klasse-1.jpg',
+        width: 800,
+        height: 480,
+        alt: 'Klima, Umwelt & SDGs – Erklärung und mehr',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Klima, Umwelt & SDGs – Themen, Erklärungen & interaktive Übungen | Erklärung und mehr',
+    description:
+      'Gemeinsam für eine lebenswerte Zukunft: Von den 17 globalen Nachhaltigkeitszielen (Sustainable Development Goals) der Vereinten Nationen über Klimazonen und Treibhauseffekt bis hin zu Ressourcenschutz, Kreislaufwirtschaft und sauberer Energie.',
+    images: ['/images/klasse-1.jpg'],
+  },
+};
 
 export default function KlimaOverviewPage() {
   const allTopics = Object.values(klimaTopics);
@@ -72,7 +105,7 @@ export default function KlimaOverviewPage() {
             Zu allen 17 Nachhaltigkeitszielen (SDGs), Klimaschutzprojekten und Umweltbildungs-Themen findest du auf EDUKI passende Kopiervorlagen, Stationenarbeiten und Arbeitsblätter zum Download.
           </p>
           <a
-            href="https://eduki.com/de/1454278?"
+            href="https://eduki.com/de/material/1454278"
             target="_blank"
             rel="noopener noreferrer"
             className="button-link"

@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState, useEffect, useCallback } from 'react';
+import Link from 'next/link';
 
 interface TeacherExerciseAssignerProps {
   exerciseId: string;
@@ -250,13 +251,13 @@ export default function TeacherExerciseAssigner({
                   <p style={{ color: 'var(--text-muted)', fontSize: 13 }}>
                     Du hast aktuell noch keine Klassen angelegt.
                   </p>
-                  <a
+                  <Link
                     href="/dashboard"
                     className="button-link"
                     style={{ fontSize: 12, marginTop: 6 }}
                   >
                     Zum Dashboard &amp; Accounts anlegen
-                  </a>
+                  </Link>
                 </div>
               ) : (
                 <>

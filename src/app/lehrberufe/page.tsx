@@ -1,11 +1,44 @@
-'use client';
-
+import type { Metadata } from 'next';
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { lehrberufeTopics } from '@/lib/lehrberufe-data';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+
+
+export const metadata: Metadata = {
+  title: 'Lehrberufe & Berufsorientierung – Themen, Erklärungen & interaktive Übungen',
+  description:
+    'Finde deinen passenden Weg in die Arbeitswelt: Alles über das duale Ausbildungssystem, handwerkliche, technische, kaufmännische und soziale Berufe sowie Tipps für die perfekte Bewerbung und deine Rechte als Azubi.',
+  alternates: {
+    canonical: '/lehrberufe',
+  },
+  openGraph: {
+    title: 'Lehrberufe & Berufsorientierung – Themen, Erklärungen & interaktive Übungen | Erklärung und mehr',
+    description:
+      'Finde deinen passenden Weg in die Arbeitswelt: Alles über das duale Ausbildungssystem, handwerkliche, technische, kaufmännische und soziale Berufe sowie Tipps für die perfekte Bewerbung und deine Rechte als Azubi.',
+    url: '/lehrberufe',
+    siteName: 'Erklärung und mehr',
+    locale: 'de_AT',
+    type: 'website',
+    images: [
+      {
+        url: '/images/klasse-1.jpg',
+        width: 800,
+        height: 480,
+        alt: 'Lehrberufe & Berufsorientierung – Erklärung und mehr',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Lehrberufe & Berufsorientierung – Themen, Erklärungen & interaktive Übungen | Erklärung und mehr',
+    description:
+      'Finde deinen passenden Weg in die Arbeitswelt: Alles über das duale Ausbildungssystem, handwerkliche, technische, kaufmännische und soziale Berufe sowie Tipps für die perfekte Bewerbung und deine Rechte als Azubi.',
+    images: ['/images/klasse-1.jpg'],
+  },
+};
 
 export default function LehrberufeOverviewPage() {
   const allTopics = Object.values(lehrberufeTopics);

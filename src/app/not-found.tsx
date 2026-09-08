@@ -137,8 +137,8 @@ export default function NotFound() {
                   ) : (
                     <div className="not-found-search-empty">
                       <p>Keine direkten Treffer für &ldquo;{searchQuery}&rdquo; gefunden.</p>
-                      <Link href="/#h5p" className="not-found-search-empty-link">
-                        Stattdessen den H5P-Übungskatalog durchstöbern →
+                      <Link href="/#faecher" className="not-found-search-empty-link">
+                        Alle Fächer und interaktiven Übungen durchstöbern →
                       </Link>
                     </div>
                   )}

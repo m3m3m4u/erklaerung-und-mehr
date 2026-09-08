@@ -1,11 +1,44 @@
-'use client';
-
+import type { Metadata } from 'next';
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { biologieTopics, biologieCategories } from '@/lib/biologie-data';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+
+
+export const metadata: Metadata = {
+  title: 'Biologie – Themen, Erklärungen & interaktive Übungen',
+  description:
+    'Erforsche das Leben: Von den Bausteinen der Zelle über den menschlichen Körper, das Immunsystem und die Sinnesorgane bis hin zur faszinierenden Pflanzen-, Tier- und Genetikwelt.',
+  alternates: {
+    canonical: '/biologie',
+  },
+  openGraph: {
+    title: 'Biologie – Themen, Erklärungen & interaktive Übungen | Erklärung und mehr',
+    description:
+      'Erforsche das Leben: Von den Bausteinen der Zelle über den menschlichen Körper, das Immunsystem und die Sinnesorgane bis hin zur faszinierenden Pflanzen-, Tier- und Genetikwelt.',
+    url: '/biologie',
+    siteName: 'Erklärung und mehr',
+    locale: 'de_AT',
+    type: 'website',
+    images: [
+      {
+        url: '/images/klasse-1.jpg',
+        width: 800,
+        height: 480,
+        alt: 'Biologie – Erklärung und mehr',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Biologie – Themen, Erklärungen & interaktive Übungen | Erklärung und mehr',
+    description:
+      'Erforsche das Leben: Von den Bausteinen der Zelle über den menschlichen Körper, das Immunsystem und die Sinnesorgane bis hin zur faszinierenden Pflanzen-, Tier- und Genetikwelt.',
+    images: ['/images/klasse-1.jpg'],
+  },
+};
 
 export default function BiologieOverviewPage() {
   const allTopics = Object.values(biologieTopics);
@@ -48,7 +81,7 @@ export default function BiologieOverviewPage() {
             if (categoryTopics.length === 0) return null;
 
             return (
-              <section key={categoryName} className="math-category-section">
+              <section key={categoryName} id={categoryName} className="math-category-section" style={{ scrollMarginTop: 80 }}>
                 <h2 className="math-category-title">{categoryName}</h2>
                 <div className="math-grid">
                   {categoryTopics.map((topic) => (

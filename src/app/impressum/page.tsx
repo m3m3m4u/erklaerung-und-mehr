@@ -4,8 +4,19 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
-  title: 'Impressum - Erklärung und mehr',
-  description: 'Impressum und rechtliche Angaben gemäß § 5 ECG und Offenlegungspflicht.',
+  title: 'Impressum – Erklärung und mehr',
+  description: 'Impressum und rechtliche Angaben gemäß § 5 ECG und Offenlegungspflicht von Erklärung und mehr.',
+  alternates: {
+    canonical: '/impressum',
+  },
+  openGraph: {
+    title: 'Impressum | Erklärung und mehr',
+    description: 'Impressum und rechtliche Angaben gemäß § 5 ECG und Offenlegungspflicht von Erklärung und mehr.',
+    url: '/impressum',
+    siteName: 'Erklärung und mehr',
+    locale: 'de_AT',
+    type: 'website',
+  },
 };
 
 export default function ImpressumPage() {

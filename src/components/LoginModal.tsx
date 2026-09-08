@@ -1,6 +1,7 @@
 'use client';
 
-import React, { useState, useCallback } from 'react';
+import React, { useState, useCallback, useEffect } from 'react';
+import { useRouter } from 'next/navigation';
 
 interface User {
   id: string;
@@ -14,26 +15,34 @@ interface LoginModalProps {
   isOpen: boolean;
   onClose: () => void;
   onLoginSuccess: (user: User) => void;
+  initialStep?: 'choose' | 'teacher-login' | 'teacher-register' | 'student-login';
 }
 
 type Step = 'choose' | 'teacher-login' | 'teacher-register' | 'student-login';
 
-export default function LoginModal({ isOpen, onClose, onLoginSuccess }: LoginModalProps) {
-  const [step, setStep] = useState<Step>('choose');
+export default function LoginModal({ isOpen, onClose, onLoginSuccess, initialStep }: LoginModalProps) {
+  const router = useRouter();
+  const [step, setStep] = useState<Step>(initialStep || 'choose');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [code, setCode] = useState('');
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
 
+  useEffect(() => {
+    if (isOpen && initialStep) {
+      setStep(initialStep);
+    }
+  }, [isOpen, initialStep]);
+
   const reset = useCallback(() => {
-    setStep('choose');
+    setStep(initialStep || 'choose');
     setEmail('');
     setPassword('');
     setCode('');
     setError('');
     setLoading(false);
-  }, []);
+  }, [initialStep]);
 
   const handleClose = useCallback(() => {
     reset();
@@ -54,8 +63,14 @@ export default function LoginModal({ isOpen, onClose, onLoginSuccess }: LoginMod
       if (!res.ok) {
         setError(data.error || 'Login fehlgeschlagen.');
       } else {
-        onLoginSuccess({ id: data.id || '', role: data.role || 'teacher', email: data.email });
+        const loggedUser: User = { id: data.id || '', role: data.role || 'teacher', email: data.email };
+        onLoginSuccess(loggedUser);
         handleClose();
+        if (loggedUser.role === 'teacher') {
+          router.push('/dashboard');
+        } else if (loggedUser.role === 'admin') {
+          router.push('/admin');
+        }
       }
     } catch {
       setError('Netzwerkfehler. Bitte erneut versuchen.');
@@ -78,8 +93,11 @@ export default function LoginModal({ isOpen, onClose, onLoginSuccess }: LoginMod
       if (!res.ok) {
         setError(data.error || 'Registrierung fehlgeschlagen.');
       } else {
-        onLoginSuccess({ id: data.id || '', role: 'teacher', email: data.email });
+        const loggedUser: User = { id: data.id || '', role: 'teacher', email: data.email };
+        onLoginSuccess(loggedUser);
         handleClose();
+        // Direkte Weiterleitung ins Lehrer-Dashboard, damit Accounts direkt angelegt werden können
+        router.push('/dashboard');
       }
     } catch {
       setError('Netzwerkfehler. Bitte erneut versuchen.');
@@ -102,8 +120,10 @@ export default function LoginModal({ isOpen, onClose, onLoginSuccess }: LoginMod
       if (!res.ok) {
         setError(data.error || 'Login fehlgeschlagen.');
       } else {
-        onLoginSuccess({ id: data.id || '', role: 'student', code: data.code, name: data.name });
+        const loggedUser: User = { id: data.id || '', role: 'student', code: data.code, name: data.name };
+        onLoginSuccess(loggedUser);
         handleClose();
+        router.push('/mein-fortschritt');
       }
     } catch {
       setError('Netzwerkfehler. Bitte erneut versuchen.');
@@ -200,6 +220,23 @@ export default function LoginModal({ isOpen, onClose, onLoginSuccess }: LoginMod
               ← Zurück
             </button>
             <h2 className="login-modal-title">Lehrperson – Registrieren</h2>
+            <div
+              style={{
+                background: '#f0f7eb',
+                border: '1px solid #c8e4b6',
+                borderRadius: 6,
+                padding: '10px 14px',
+                marginBottom: 16,
+                fontSize: 13,
+                color: 'var(--green-dark)',
+                lineHeight: 1.45,
+              }}
+            >
+              <strong>🛡️ 100 % anonym &amp; DSGVO-konform:</strong>
+              <div style={{ marginTop: 2, color: 'var(--text-color)', fontSize: 12 }}>
+                Du benötigst für deine Klasse weder Namen noch E-Mails von Kindern. Deine Schüler:innen loggen sich später einfach mit einem 5-stelligen Zufallscode ein.
+              </div>
+            </div>
             <form onSubmit={handleTeacherRegister} className="login-form">
               <label className="login-label">
                 E-Mail-Adresse
