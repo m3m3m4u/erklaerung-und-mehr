@@ -115,12 +115,27 @@ export function resolveLegacyRedirect(
   const directMatch = staticRedirects[normPath];
   if (directMatch) {
     if (directMatch.startsWith('http://') || directMatch.startsWith('https://')) {
+      const sameDomainMatch = directMatch.match(/^https?:\/\/(?:www\.)?erklaerung-und-mehr\.org(\/h5p-[^/?#]+)\/?/);
+      if (sameDomainMatch) {
+        return sameDomainMatch[1];
+      }
       return directMatch;
     }
     const cleanTgt = normalizePath(directMatch);
     if (cleanTgt !== normPath) {
       return directMatch;
     }
+  }
+
+  // 2b. Pure numeric shortlinks (/1, /620, /4999, /12345, etc.)
+  if (/^\/\d+$/.test(normPath)) {
+    const cleanId = normPath.slice(1);
+    const directTarget = staticRedirects[`/${cleanId}`];
+    if (directTarget && !directTarget.includes('admin-ajax.php')) {
+      return directTarget;
+    }
+    const padded = cleanId.padStart(4, '0');
+    return `/h5p-${padded}`;
   }
 
   // 3. Product / Shop wildcard
