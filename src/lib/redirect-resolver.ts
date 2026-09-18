@@ -66,21 +66,21 @@ export function resolveLegacyRedirect(
     let h5pId: string | null = null;
 
     if (searchParams instanceof URLSearchParams) {
-      pId = searchParams.get('p');
-      pageId = searchParams.get('page_id');
-      catId = searchParams.get('cat');
-      actionVal = searchParams.get('action');
-      h5pId = searchParams.get('id');
+      pId = searchParams.get('p') || searchParams.get('P');
+      pageId = searchParams.get('page_id') || searchParams.get('PAGE_ID');
+      catId = searchParams.get('cat') || searchParams.get('CAT');
+      actionVal = (searchParams.get('action') || searchParams.get('ACTION') || '').trim().toLowerCase() || null;
+      h5pId = searchParams.get('id') || searchParams.get('ID') || searchParams.get('Id');
     } else {
-      const pVal = searchParams.p;
+      const pVal = searchParams.p || searchParams.P;
       pId = Array.isArray(pVal) ? pVal[0] : pVal || null;
-      const pageVal = searchParams.page_id;
+      const pageVal = searchParams.page_id || searchParams.PAGE_ID;
       pageId = Array.isArray(pageVal) ? pageVal[0] : pageVal || null;
-      const catVal = searchParams.cat;
+      const catVal = searchParams.cat || searchParams.CAT;
       catId = Array.isArray(catVal) ? catVal[0] : catVal || null;
-      const actVal = searchParams.action;
-      actionVal = Array.isArray(actVal) ? actVal[0] : actVal || null;
-      const idVal = searchParams.id;
+      const actVal = searchParams.action || searchParams.ACTION;
+      actionVal = (Array.isArray(actVal) ? actVal[0] : actVal || '').trim().toLowerCase() || null;
+      const idVal = searchParams.id || searchParams.ID || searchParams.Id;
       h5pId = Array.isArray(idVal) ? idVal[0] : idVal || null;
     }
 
