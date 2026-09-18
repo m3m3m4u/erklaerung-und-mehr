@@ -183,6 +183,51 @@ export async function getAllH5PContents(): Promise<H5PRecord[]> {
 export const UNIVERSAL_H5P_YOUTUBE_JS = `/** @namespace H5P */
 H5P.VideoYouTube = (function ($) {
 
+  // Robust device detection: Detects iPad on iOS 13+ (desktop mode) as well as iPhones/iPods
+  var isIOS = (typeof navigator !== 'undefined') && (
+    /iPad|iPhone|iPod/i.test(navigator.userAgent) ||
+    (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1)
+  );
+
+  /**
+   * Safe origin resolver for iframe environments (especially about:blank frames on Safari/WebKit).
+   */
+  var getSafeOrigin = function () {
+    try {
+      if (typeof window !== 'undefined') {
+        // WebKit (Safari on iPad / iOS) provides ancestorOrigins without cross-origin exceptions
+        if (window.location && window.location.ancestorOrigins && window.location.ancestorOrigins.length > 0) {
+          var anc = window.location.ancestorOrigins[0];
+          if (anc && anc !== 'null' && anc.indexOf('http') === 0) {
+            return anc;
+          }
+        }
+        // Check window.parent location if same-origin
+        if (window.parent && window.parent !== window) {
+          try {
+            if (window.parent.location && window.parent.location.origin && window.parent.location.origin !== 'null' && window.parent.location.origin.indexOf('http') === 0) {
+              return window.parent.location.origin;
+            }
+          } catch (e) {}
+        }
+        // Check document.referrer
+        if (typeof document !== 'undefined' && document.referrer) {
+          try {
+            var ref = new URL(document.referrer);
+            if (ref.origin && ref.origin !== 'null' && ref.origin.indexOf('http') === 0) {
+              return ref.origin;
+            }
+          } catch (e) {}
+        }
+        // Check current window location
+        if (window.location && window.location.origin && window.location.origin !== 'null' && window.location.origin.indexOf('http') === 0) {
+          return window.location.origin;
+        }
+      }
+    } catch (e) {}
+    return 'https://erklaerung-und-mehr.org';
+  };
+
   /**
    * YouTube video player for H5P.
    *
@@ -226,7 +271,44 @@ H5P.VideoYouTube = (function ($) {
           iframe.style.border = '0';
           iframe.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share');
           iframe.setAttribute('allowfullscreen', '1');
+          iframe.setAttribute('webkitallowfullscreen', '1');
+          iframe.setAttribute('referrerpolicy', 'strict-origin-when-cross-origin');
+          iframe.setAttribute('playsinline', '1');
+          iframe.setAttribute('webkit-playsinline', '1');
         }
+      } catch (e) {}
+    };
+
+    // Watch for dynamic DOM injection of the YouTube iframe to patch attributes instantly
+    if (typeof window !== 'undefined' && window.MutationObserver && $wrapper[0]) {
+      try {
+        var observer = new MutationObserver(function () {
+          fixIframe();
+        });
+        observer.observe($wrapper[0], { childList: true, subtree: true });
+      } catch (e) {}
+    }
+
+    var renderFallback = function (vId, errText) {
+      try {
+        if (!vId || $wrapper.find('.h5p-youtube-fallback').length > 0) return;
+        var $fb = $('<div/>', {
+          'class': 'h5p-youtube-fallback',
+          'style': 'position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; background: rgba(18, 18, 20, 0.94); color: #fff; text-align: center; padding: 24px; box-sizing: border-box; z-index: 99;'
+        });
+        $('<p/>', {
+          'style': 'margin: 0 0 16px 0; font-size: 14px; line-height: 1.5; color: #fca5a5; max-width: 480px;',
+          'text': errText
+        }).appendTo($fb);
+        var ytUrl = 'https://www.youtube.com/watch?v=' + vId;
+        $('<a/>', {
+          'href': ytUrl,
+          'target': '_blank',
+          'rel': 'noopener noreferrer',
+          'style': 'display: inline-flex; align-items: center; gap: 8px; background: #dc2626; color: #ffffff !important; padding: 10px 20px; border-radius: 8px; font-weight: 600; text-decoration: none !important; font-size: 14px; box-shadow: 0 4px 12px rgba(220,38,38,0.4);',
+          'html': '<span>Video direkt auf YouTube öffnen</span>'
+        }).appendTo($fb);
+        $wrapper.append($fb);
       } catch (e) {}
     };
 
@@ -260,13 +342,16 @@ H5P.VideoYouTube = (function ($) {
         return;
       }
 
+      var origin = getSafeOrigin();
+
       try {
         player = new YT.Player(id, {
           width: '100%',
           height: '100%',
           videoId: videoId,
+          host: 'https://www.youtube-nocookie.com',
           playerVars: {
-            origin: ORIGIN,
+            origin: origin,
             enablejsapi: 1,
             autoplay: 0,
             controls: options.controls ? 1 : 0,
@@ -288,7 +373,8 @@ H5P.VideoYouTube = (function ($) {
               self.trigger('ready');
               self.trigger('loaded');
 
-              if (!options.autoplay) {
+              // Only use toPause when not on iOS/touch, because iOS does not autoplay without gesture
+              if (!options.autoplay && !isIOS) {
                 self.toPause = true;
               }
               
@@ -325,6 +411,12 @@ H5P.VideoYouTube = (function ($) {
                 if (self.toPause) {
                   if (H5P.Video && state.data === H5P.Video.BUFFERING) {
                     delete self.toPause;
+                  } else if (state.data === H5P.Video.PLAYING) {
+                    if (!isIOS && !self.userInitiatedPlay) {
+                      self.pause();
+                    } else {
+                      delete self.toPause;
+                    }
                   } else {
                     self.pause();
                   }
@@ -351,19 +443,23 @@ H5P.VideoYouTube = (function ($) {
               var code = error ? error.data : 0;
               switch (code) {
                 case 2:
-                  message = (l10n && l10n.invalidYtId) ? l10n.invalidYtId : 'Invalid YouTube ID.';
+                  message = (l10n && l10n.invalidYtId) ? l10n.invalidYtId : 'Ungültige YouTube-Video-ID.';
                   break;
                 case 100:
-                  message = (l10n && l10n.unknownYtId) ? l10n.unknownYtId : 'Unable to find video with the given YouTube ID.';
+                  message = (l10n && l10n.unknownYtId) ? l10n.unknownYtId : 'Das YouTube-Video konnte nicht gefunden werden.';
                   break;
                 case 101:
                 case 150:
-                  message = (l10n && l10n.restrictedYt) ? l10n.restrictedYt : 'The owner of this video does not allow it to be embedded.';
+                  message = (l10n && l10n.restrictedYt) ? l10n.restrictedYt : 'Dieses Video darf nicht eingebettet abgespielt werden (Einschränkung durch YouTube oder Browser-Richtlinie).';
+                  break;
+                case 153:
+                  message = 'Fehler beim Laden des Videoplayers auf diesem Gerät (Error 153).';
                   break;
                 default:
-                  message = ((l10n && l10n.unknownError) ? l10n.unknownError : 'Unknown error') + ' ' + code;
+                  message = ((l10n && l10n.unknownError) ? l10n.unknownError : 'Fehler beim Abspielen des Videos') + ' (' + code + ')';
                   break;
               }
+              renderFallback(videoId, message);
               self.trigger('error', message);
             }
           }
@@ -374,11 +470,13 @@ H5P.VideoYouTube = (function ($) {
 
       fixIframe();
       setTimeout(fixIframe, 50);
-      setTimeout(fixIframe, 200);
+      setTimeout(fixIframe, 150);
+      setTimeout(fixIframe, 300);
       setTimeout(fixIframe, 600);
+      setTimeout(fixIframe, 1200);
     };
 
-    if (navigator.userAgent.match(/iPad|iPhone|iPod/i)) {
+    if (isIOS) {
       self.pressToPlay = true;
     } else {
       try {
@@ -431,6 +529,8 @@ H5P.VideoYouTube = (function ($) {
     };
 
     self.play = function () {
+      self.userInitiatedPlay = true;
+      delete self.toPause;
       if (!player || typeof player.playVideo !== 'function') {
         self.on('ready', self.play);
         create();
@@ -667,7 +767,7 @@ H5P.VideoYouTube = (function ($) {
       else return undefined;
     }
     url = url.trim();
-    var match = url.match(/(?:youtu\.be\/|youtube(?:-nocookie)?\.com\/(?:embed\/|v\/|watch\?(?:[^\s"\'<>]*&)?v=|shorts\/))([A-Za-z0-9_-]{11})/i);
+    var match = url.match(/(?:youtu\.be\/|youtube(?:-nocookie)?\.com\/(?:embed\/|v\/|watch\?(?:[^\s"'<>]*&)?v=|shorts\/))([A-Za-z0-9_-]{11})/i);
     if (match && match[1]) {
       return match[1];
     }
@@ -692,10 +792,10 @@ H5P.VideoYouTube = (function ($) {
       };
     } else {
       window.onYouTubeIframeAPIReady = loaded;
-      var existingScript = document.querySelector('script[src*="youtube.com/iframe_api"]');
+      var existingScript = document.querySelector('script[src*="youtube.com/iframe_api"]') || document.querySelector('script[src*="youtube-nocookie.com/iframe_api"]');
       if (!existingScript) {
         var tag = document.createElement('script');
-        tag.src = "https://www.youtube.com/iframe_api";
+        tag.src = "https://www.youtube-nocookie.com/iframe_api";
         var firstScriptTag = document.getElementsByTagName('script')[0] || document.head;
         if (firstScriptTag && firstScriptTag.parentNode) {
           firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
@@ -720,15 +820,6 @@ H5P.VideoYouTube = (function ($) {
   };
 
   var numInstances = 0;
-
-  var ORIGIN = undefined;
-  try {
-    if (typeof window !== 'undefined' && window.location && window.location.origin && window.location.origin !== 'null' && window.location.origin.indexOf('http') === 0) {
-      ORIGIN = window.location.origin;
-    } else if (typeof window !== 'undefined' && window.parent && window.parent.location && window.parent.location.origin && window.parent.location.origin !== 'null' && window.parent.location.origin.indexOf('http') === 0) {
-      ORIGIN = window.parent.location.origin;
-    }
-  } catch (e) {}
 
   return YouTube;
 })(H5P.jQuery);

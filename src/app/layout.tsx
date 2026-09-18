@@ -135,6 +135,7 @@ export default function RootLayout({
   return (
     <html lang="de" className={questrial.variable}>
       <head>
+        <meta name="referrer" content="strict-origin-when-cross-origin" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}

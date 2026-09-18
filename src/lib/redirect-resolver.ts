@@ -62,11 +62,15 @@ export function resolveLegacyRedirect(
     let pId: string | null = null;
     let pageId: string | null = null;
     let catId: string | null = null;
+    let actionVal: string | null = null;
+    let h5pId: string | null = null;
 
     if (searchParams instanceof URLSearchParams) {
       pId = searchParams.get('p');
       pageId = searchParams.get('page_id');
       catId = searchParams.get('cat');
+      actionVal = searchParams.get('action');
+      h5pId = searchParams.get('id');
     } else {
       const pVal = searchParams.p;
       pId = Array.isArray(pVal) ? pVal[0] : pVal || null;
@@ -74,6 +78,24 @@ export function resolveLegacyRedirect(
       pageId = Array.isArray(pageVal) ? pageVal[0] : pageVal || null;
       const catVal = searchParams.cat;
       catId = Array.isArray(catVal) ? catVal[0] : catVal || null;
+      const actVal = searchParams.action;
+      actionVal = Array.isArray(actVal) ? actVal[0] : actVal || null;
+      const idVal = searchParams.id;
+      h5pId = Array.isArray(idVal) ? idVal[0] : idVal || null;
+    }
+
+    // WordPress H5P embed URLs (e.g. /wp-admin/admin-ajax.php?action=h5p_embed&id=620)
+    if ((actionVal === 'h5p_embed' || normPath.includes('admin-ajax')) && h5pId) {
+      const cleanId = h5pId.trim();
+      const directTarget = staticRedirects[`/${cleanId}`];
+      if (directTarget && !directTarget.includes('admin-ajax.php')) {
+        return directTarget;
+      }
+      if (/^\d+$/.test(cleanId)) {
+        const padded = cleanId.padStart(4, '0');
+        return `/h5p-${padded}`;
+      }
+      return `/h5p-${cleanId}`;
     }
 
     const targetId = pId || pageId;
@@ -346,7 +368,13 @@ export function resolveLegacyRedirect(
   }
 
   // 16. WordPress login / admin
-  if (normPath === '/wp-login.php' || normPath === '/wp-admin' || normPath === '/wp-login') {
+  if (
+    normPath === '/wp-login.php' ||
+    normPath === '/wp-admin' ||
+    normPath === '/wp-login' ||
+    normPath.startsWith('/wp-admin') ||
+    normPath === '/admin-ajax.php'
+  ) {
     return '/admin';
   }
 

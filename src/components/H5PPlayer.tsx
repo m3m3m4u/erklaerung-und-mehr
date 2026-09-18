@@ -134,6 +134,7 @@ export default function H5PPlayer({
 
   useEffect(() => {
     let isMounted = true;
+    let iframeObserver: MutationObserver | null = null;
 
     // Helper to extract current state from iframe or window instances
     const getH5PCurrentState = (): string | null => {
@@ -246,6 +247,29 @@ export default function H5PPlayer({
           options.contentUserData = [{ state: stateStr }];
         }
 
+        const patchH5PIframe = (container: HTMLElement) => {
+          const iframes = container.querySelectorAll('iframe');
+          iframes.forEach((iframe) => {
+            iframe.setAttribute(
+              'allow',
+              'accelerometer *; autoplay *; clipboard-write *; encrypted-media *; gyroscope *; picture-in-picture *; web-share *'
+            );
+            iframe.setAttribute('allowfullscreen', 'true');
+            iframe.setAttribute('webkitallowfullscreen', 'true');
+            iframe.setAttribute('referrerpolicy', 'strict-origin-when-cross-origin');
+            iframe.setAttribute('playsinline', 'true');
+            iframe.setAttribute('webkit-playsinline', 'true');
+          });
+        };
+
+        // Watch for iframe creation to immediately grant permissions (crucial for iOS/iPad WebKit)
+        iframeObserver = new MutationObserver(() => {
+          if (containerRef.current) {
+            patchH5PIframe(containerRef.current);
+          }
+        });
+        iframeObserver.observe(containerRef.current, { childList: true, subtree: true });
+
         try {
           // eslint-disable-next-line @typescript-eslint/no-explicit-any
           await new H5P(containerRef.current, options as any);
@@ -263,6 +287,10 @@ export default function H5PPlayer({
           } else {
             throw h5pInitErr;
           }
+        }
+
+        if (containerRef.current) {
+          patchH5PIframe(containerRef.current);
         }
 
         if (!isMounted) {
@@ -442,6 +470,9 @@ export default function H5PPlayer({
 
     return () => {
       isMounted = false;
+      if (iframeObserver) {
+        iframeObserver.disconnect();
+      }
       if (containerRef.current) {
         containerRef.current.innerHTML = '';
       }

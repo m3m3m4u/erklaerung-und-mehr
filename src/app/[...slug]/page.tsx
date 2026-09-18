@@ -10,10 +10,12 @@ import { resolveLegacyRedirect } from '@/lib/redirect-resolver';
 
 interface PageProps {
   params: Promise<{ slug: string[] }>;
+  searchParams?: Promise<Record<string, string | string[] | undefined>>;
 }
 
-export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+export async function generateMetadata({ params, searchParams }: PageProps): Promise<Metadata> {
   const { slug } = await params;
+  const sp = searchParams ? await searchParams : undefined;
   const slugSegments = Array.isArray(slug) ? slug : [slug];
   const lastSlug = slugSegments[slugSegments.length - 1];
   const fullPath = slugSegments.join('/');
@@ -24,7 +26,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   }
 
   if (!resolved.found) {
-    const legacyTarget = resolveLegacyRedirect(fullPath) || resolveLegacyRedirect(lastSlug);
+    const legacyTarget = resolveLegacyRedirect(fullPath, sp) || resolveLegacyRedirect(lastSlug, sp);
     if (legacyTarget) {
       return {
         title: 'Weiterleitung - Erklärung und mehr',
@@ -70,8 +72,9 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   };
 }
 
-export default async function DynamicCatchAllPage({ params }: PageProps) {
+export default async function DynamicCatchAllPage({ params, searchParams }: PageProps) {
   const { slug } = await params;
+  const sp = searchParams ? await searchParams : undefined;
   const slugSegments = Array.isArray(slug) ? slug : [slug];
   const lastSlug = slugSegments[slugSegments.length - 1];
   const fullPath = slugSegments.join('/');
@@ -82,7 +85,7 @@ export default async function DynamicCatchAllPage({ params }: PageProps) {
   }
 
   if (!resolved.found) {
-    const legacyTarget = resolveLegacyRedirect(fullPath) || resolveLegacyRedirect(lastSlug);
+    const legacyTarget = resolveLegacyRedirect(fullPath, sp) || resolveLegacyRedirect(lastSlug, sp);
     if (legacyTarget && legacyTarget !== `/${fullPath}`) {
       redirect(legacyTarget, RedirectType.replace);
     }
