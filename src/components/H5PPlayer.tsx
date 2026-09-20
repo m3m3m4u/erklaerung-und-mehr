@@ -56,6 +56,76 @@ export default function H5PPlayer({
   const [hasSavedState, setHasSavedState] = useState(false);
   const [reloadKey, setReloadKey] = useState(0);
   const [detectedYoutubeId, setDetectedYoutubeId] = useState<string | null>(null);
+  const [isVideoSlideActive, setIsVideoSlideActive] = useState(false);
+
+  // Monitor slide changes and DOM visibility so the bottom backup appears ONLY when the slide with the video is opened
+  useEffect(() => {
+    if (!detectedYoutubeId) {
+      setIsVideoSlideActive(false);
+      return;
+    }
+
+    const checkVisibility = () => {
+      const container = containerRef.current;
+      if (!container) return;
+
+      // 1. CoursePresentation: Check if the currently active slide contains the video
+      const activeSlide = container.querySelector('.h5p-slide.h5p-current');
+      if (activeSlide) {
+        const hasVideo = !!activeSlide.querySelector('.h5p-video, .h5p-youtube, iframe[src*="youtube"]');
+        setIsVideoSlideActive(hasVideo);
+        return;
+      }
+
+      // 2. Generic check: is any video / YouTube element currently visible in the DOM?
+      const videoEls = container.querySelectorAll<HTMLElement>('.h5p-video, .h5p-youtube, iframe[src*="youtube"]');
+      let isVisible = false;
+      videoEls.forEach((el) => {
+        if (el.offsetParent !== null && (el.offsetWidth > 0 || el.offsetHeight > 0)) {
+          isVisible = true;
+        }
+      });
+
+      // 3. Standalone video exercise without slides
+      if (videoEls.length > 0 && !container.querySelector('.h5p-slide')) {
+        isVisible = true;
+      }
+
+      setIsVideoSlideActive(isVisible);
+    };
+
+    checkVisibility();
+    const interval = setInterval(checkVisibility, 350);
+
+    let observer: MutationObserver | null = null;
+    if (containerRef.current) {
+      observer = new MutationObserver(checkVisibility);
+      observer.observe(containerRef.current, {
+        attributes: true,
+        attributeFilter: ['class', 'style'],
+        subtree: true,
+      });
+    }
+
+    const handleInteraction = () => {
+      setTimeout(checkVisibility, 60);
+      setTimeout(checkVisibility, 250);
+    };
+    const currentContainer = containerRef.current;
+    if (currentContainer) {
+      currentContainer.addEventListener('click', handleInteraction);
+      currentContainer.addEventListener('keydown', handleInteraction);
+    }
+
+    return () => {
+      clearInterval(interval);
+      if (observer) observer.disconnect();
+      if (currentContainer) {
+        currentContainer.removeEventListener('click', handleInteraction);
+        currentContainer.removeEventListener('keydown', handleInteraction);
+      }
+    };
+  }, [detectedYoutubeId, reloadKey]);
 
   // Pre-load official YouTube Iframe API on window so it is available to any H5P video instance immediately
   useEffect(() => {
@@ -676,6 +746,53 @@ export default function H5PPlayer({
         </div>
       ) : (
         <div ref={containerRef} className="h5p-embed-target" />
+      )}
+
+      {/* Backup YouTube direct link underneath the exercise - shown ONLY when the slide with the video is open */}
+      {detectedYoutubeId && isVideoSlideActive && (
+        <div
+          style={{
+            marginTop: 14,
+            padding: '10px 16px',
+            background: 'rgba(239, 68, 68, 0.04)',
+            borderRadius: '8px',
+            border: '1px solid rgba(239, 68, 68, 0.16)',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'space-between',
+            flexWrap: 'wrap',
+            gap: 12,
+            fontSize: 13,
+          }}
+        >
+          <div style={{ display: 'flex', alignItems: 'center', gap: 8, color: 'var(--text-muted)' }}>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="#dc2626" style={{ flexShrink: 0 }}>
+              <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+            </svg>
+            <span>Video lädt nicht oder lieber direkt im Großformat öffnen?</span>
+          </div>
+          <a
+            href={`https://www.youtube.com/watch?v=${detectedYoutubeId}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: 6,
+              background: '#dc2626',
+              color: '#ffffff',
+              fontWeight: 600,
+              fontSize: 13,
+              padding: '6px 14px',
+              borderRadius: '6px',
+              textDecoration: 'none',
+              boxShadow: '0 2px 4px rgba(220, 38, 38, 0.25)',
+              transition: 'background 0.2s',
+            }}
+          >
+            Video direkt auf YouTube ansehen ↗
+          </a>
+        </div>
       )}
 
       {/* Restart confirmation overlay dialog */}
