@@ -552,17 +552,46 @@ export default function H5PPlayer({
       />
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: 8, marginBottom: title ? 8 : 0 }}>
         {title && <h2 className="h5p-title" style={{ margin: 0 }}>{title}</h2>}
-        {hasSavedState && (
-          <button
-            type="button"
-            onClick={() => setShowResetModal(true)}
-            className="admin-action-btn"
-            style={{ fontSize: 12, padding: '3px 8px', color: 'var(--text-muted)' }}
-            title="Eingaben löschen und Übung von vorne starten"
-          >
-            Neu starten
-          </button>
-        )}
+        <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginLeft: 'auto' }}>
+          {detectedYoutubeId && (
+            <a
+              href={`https://www.youtube.com/watch?v=${detectedYoutubeId}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="admin-action-btn"
+              style={{
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: 6,
+                fontSize: 12,
+                padding: '4px 10px',
+                color: '#dc2626',
+                borderColor: 'rgba(220, 38, 38, 0.3)',
+                textDecoration: 'none',
+                fontWeight: 500,
+                borderRadius: '6px',
+                background: 'rgba(220, 38, 38, 0.04)',
+              }}
+              title="Dieses Video direkt auf YouTube ansehen"
+            >
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="#ff0000" style={{ display: 'inline-block', verticalAlign: 'middle', flexShrink: 0 }}>
+                <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+              </svg>
+              <span>Video direkt auf YouTube ansehen ↗</span>
+            </a>
+          )}
+          {hasSavedState && (
+            <button
+              type="button"
+              onClick={() => setShowResetModal(true)}
+              className="admin-action-btn"
+              style={{ fontSize: 12, padding: '3px 8px', color: 'var(--text-muted)' }}
+              title="Eingaben löschen und Übung von vorne starten"
+            >
+              Neu starten
+            </button>
+          )}
+        </div>
       </div>
       {loading && <div className="h5p-status">Lade H5P-Modul...</div>}
       {error && (
@@ -641,8 +670,8 @@ export default function H5PPlayer({
       {detectedYoutubeId && (
         <div
           style={{
-            marginTop: 12,
-            padding: '9px 14px',
+            marginTop: 14,
+            padding: '10px 16px',
             background: 'rgba(239, 68, 68, 0.04)',
             borderRadius: '8px',
             border: '1px solid rgba(239, 68, 68, 0.16)',
@@ -650,15 +679,15 @@ export default function H5PPlayer({
             alignItems: 'center',
             justifyContent: 'space-between',
             flexWrap: 'wrap',
-            gap: 10,
+            gap: 12,
             fontSize: 13,
           }}
         >
-          <div style={{ display: 'flex', alignItems: 'center', gap: 7, color: 'var(--text-muted)' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 8, color: 'var(--text-muted)' }}>
             <svg width="18" height="18" viewBox="0 0 24 24" fill="#dc2626" style={{ flexShrink: 0 }}>
               <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
             </svg>
-            <span>Video lädt nicht oder zeigt einen Fehler?</span>
+            <span>Video lädt nicht oder lieber direkt im Vollbild öffnen?</span>
           </div>
           <a
             href={`https://www.youtube.com/watch?v=${detectedYoutubeId}`}
@@ -667,10 +696,16 @@ export default function H5PPlayer({
             style={{
               display: 'inline-flex',
               alignItems: 'center',
-              gap: 5,
-              color: '#dc2626',
+              gap: 6,
+              background: '#dc2626',
+              color: '#ffffff',
               fontWeight: 600,
+              fontSize: 13,
+              padding: '6px 14px',
+              borderRadius: '6px',
               textDecoration: 'none',
+              boxShadow: '0 2px 4px rgba(220, 38, 38, 0.25)',
+              transition: 'background 0.2s',
             }}
           >
             Video direkt auf YouTube ansehen ↗
