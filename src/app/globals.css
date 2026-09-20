@@ -1072,6 +1072,14 @@ a:hover {
   background: #ffffff;
   border: 1px solid var(--border-light);
   border-radius: 4px;
+  position: relative;
+  width: 100%;
+}
+
+.h5p-embed-target div.h5p-iframe,
+.h5p-embed-target .h5p-content {
+  width: 100% !important;
+  min-height: 480px;
 }
 
 .uploader-desc {

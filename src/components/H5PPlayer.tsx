@@ -56,6 +56,20 @@ export default function H5PPlayer({
   const [hasSavedState, setHasSavedState] = useState(false);
   const [reloadKey, setReloadKey] = useState(0);
   const [detectedYoutubeId, setDetectedYoutubeId] = useState<string | null>(null);
+
+  // Pre-load official YouTube Iframe API on window so it is available to any H5P video instance immediately
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      const win = window as any;
+      if (!win.YT && !document.querySelector('script[src*="youtube.com/iframe_api"]')) {
+        const tag = document.createElement('script');
+        tag.src = 'https://www.youtube.com/iframe_api';
+        document.head.appendChild(tag);
+      }
+    }
+  }, []);
+
   const handleIframeLoad = (e: React.SyntheticEvent<HTMLIFrameElement>) => {
     const iframe = e.currentTarget;
     try {

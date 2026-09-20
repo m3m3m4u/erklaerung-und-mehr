@@ -792,10 +792,10 @@ H5P.VideoYouTube = (function ($) {
       };
     } else {
       window.onYouTubeIframeAPIReady = loaded;
-      var existingScript = document.querySelector('script[src*="youtube.com/iframe_api"]') || document.querySelector('script[src*="youtube-nocookie.com/iframe_api"]');
+      var existingScript = document.querySelector('script[src*="youtube.com/iframe_api"]');
       if (!existingScript) {
         var tag = document.createElement('script');
-        tag.src = "https://www.youtube-nocookie.com/iframe_api";
+        tag.src = "https://www.youtube.com/iframe_api";
         var firstScriptTag = document.getElementsByTagName('script')[0] || document.head;
         if (firstScriptTag && firstScriptTag.parentNode) {
           firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
