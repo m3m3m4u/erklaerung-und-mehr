@@ -55,6 +55,7 @@ export default function H5PPlayer({
   const [error, setError] = useState<string | null>(null);
   const [hasSavedState, setHasSavedState] = useState(false);
   const [reloadKey, setReloadKey] = useState(0);
+  const [detectedYoutubeId, setDetectedYoutubeId] = useState<string | null>(null);
   const handleIframeLoad = (e: React.SyntheticEvent<HTMLIFrameElement>) => {
     const iframe = e.currentTarget;
     try {
@@ -139,19 +140,21 @@ export default function H5PPlayer({
     // Helper to extract current state from iframe or window instances
     const getH5PCurrentState = (): string | null => {
       try {
-        // 1. Try iframe instances
-        const iframe = containerRef.current?.querySelector('iframe') as HTMLIFrameElement | null;
-        // eslint-disable-next-line @typescript-eslint/no-explicit-any
-        const iframeWin = (iframe?.contentWindow || window) as any;
-        const iframeInstances = iframeWin?.H5P?.instances;
-        if (Array.isArray(iframeInstances) && iframeInstances[0]?.getCurrentState) {
-          const s = iframeInstances[0].getCurrentState();
-          if (s !== undefined && s !== null) {
-            return typeof s === 'string' ? s : JSON.stringify(s);
+        // 1. Try iframe instances if an h5p-iframe exists
+        const h5pIframe = containerRef.current?.querySelector('iframe.h5p-iframe') as HTMLIFrameElement | null;
+        if (h5pIframe) {
+          // eslint-disable-next-line @typescript-eslint/no-explicit-any
+          const iframeWin = h5pIframe.contentWindow as any;
+          const iframeInstances = iframeWin?.H5P?.instances;
+          if (Array.isArray(iframeInstances) && iframeInstances[0]?.getCurrentState) {
+            const s = iframeInstances[0].getCurrentState();
+            if (s !== undefined && s !== null) {
+              return typeof s === 'string' ? s : JSON.stringify(s);
+            }
           }
         }
 
-        // 2. Try window instances
+        // 2. Try window instances (when embedType is 'div')
         // eslint-disable-next-line @typescript-eslint/no-explicit-any
         const win = window as any;
         const winInstances = win?.H5P?.instances;
@@ -163,6 +166,8 @@ export default function H5PPlayer({
         }
 
         // 3. Try H5PIntegration contentUserData in iframe or window
+        const iframeEl = containerRef.current?.querySelector('iframe.h5p-iframe') as HTMLIFrameElement | null;
+        const iframeWin = iframeEl?.contentWindow as any;
         const contents = (iframeWin?.H5PIntegration || win?.H5PIntegration)?.contents;
         if (contents) {
           for (const key of Object.keys(contents)) {
@@ -198,6 +203,22 @@ export default function H5PPlayer({
         const checkRes = await fetch(`${h5pJsonPath}/h5p.json`);
         if (!checkRes.ok) {
           throw new Error(`H5P package not found (${checkRes.status})`);
+        }
+
+        // Check for embedded YouTube video to offer seamless backup link
+        try {
+          const contentRes = await fetch(`${h5pJsonPath}/content/content.json`);
+          if (contentRes.ok) {
+            const contentText = await contentRes.text();
+            const ytMatch = contentText.match(/(?:youtu\.be\/|youtube(?:-nocookie)?\.com\/(?:embed\/|v\/|watch\?(?:[^\s"'<>]*&)?v=|shorts\/))([A-Za-z0-9_-]{11})/i);
+            if (ytMatch && ytMatch[1] && isMounted) {
+              setDetectedYoutubeId(ytMatch[1]);
+            } else if (isMounted) {
+              setDetectedYoutubeId(null);
+            }
+          }
+        } catch {
+          if (isMounted) setDetectedYoutubeId(null);
         }
 
         // 1. Retrieve saved user state from localStorage or DB
@@ -239,6 +260,7 @@ export default function H5PPlayer({
           frameJs: '/h5p-core/frame.bundle.js',
           frameCss: '/h5p-core/styles/h5p.css',
           saveFreq: 1, // Crucial: enables previousState restoration and state tracking in H5P core
+          embedType: 'div',
         };
 
         // If a saved state exists, supply it as contentUserData so H5P restores answers
@@ -259,6 +281,16 @@ export default function H5PPlayer({
             iframe.setAttribute('referrerpolicy', 'strict-origin-when-cross-origin');
             iframe.setAttribute('playsinline', 'true');
             iframe.setAttribute('webkit-playsinline', 'true');
+
+            try {
+              const doc = iframe.contentDocument || iframe.contentWindow?.document;
+              if (doc && doc.head && !doc.querySelector('meta[name="referrer"]')) {
+                const meta = doc.createElement('meta');
+                meta.name = 'referrer';
+                meta.content = 'strict-origin-when-cross-origin';
+                doc.head.appendChild(meta);
+              }
+            } catch {}
           });
         };
 
@@ -303,14 +335,14 @@ export default function H5PPlayer({
         // Comprehensive auto-evaluation helper for restored answers
         const autoEvaluateRestoredContent = () => {
           try {
-            const iframe = containerRef.current?.querySelector('iframe') as HTMLIFrameElement | null;
-            const iframeDoc = iframe?.contentDocument || iframe?.contentWindow?.document;
+            const h5pIframe = containerRef.current?.querySelector('iframe.h5p-iframe') as HTMLIFrameElement | null;
+            const targetScope = h5pIframe?.contentDocument || containerRef.current;
             // eslint-disable-next-line @typescript-eslint/no-explicit-any
-            const iframeWin = (iframe?.contentWindow || window) as any;
+            const targetWin = (h5pIframe?.contentWindow || window) as any;
 
-            // 1. Click all elements resembling a check / überprüfen button inside the iframe DOM
-            if (iframeDoc) {
-              const allCandidates = iframeDoc.querySelectorAll<HTMLElement>(
+            // 1. Click all elements resembling a check / überprüfen button inside the target DOM
+            if (targetScope) {
+              const allCandidates = targetScope.querySelectorAll<HTMLElement>(
                 'button, [role="button"], .joubel-simple-rounded-button, .h5p-joubelui-button, .h5p-question-check-answer, .h5p-drag-check-button'
               );
 
@@ -339,7 +371,7 @@ export default function H5PPlayer({
             }
 
             // 2. Call check methods on all H5P instances & sub-instances
-            const instances = iframeWin?.H5P?.instances;
+            const instances = targetWin?.H5P?.instances;
             if (Array.isArray(instances)) {
               // eslint-disable-next-line @typescript-eslint/no-explicit-any
               const triggerInstance = (inst: any) => {
@@ -476,6 +508,14 @@ export default function H5PPlayer({
       if (containerRef.current) {
         containerRef.current.innerHTML = '';
       }
+      if (typeof window !== 'undefined') {
+        // Clean up global H5P instances when using embedType: 'div'
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        const win = window as any;
+        if (win.H5P && Array.isArray(win.H5P.instances)) {
+          win.H5P.instances = [];
+        }
+      }
     };
   }, [h5pJsonPath, reloadKey]);
 
@@ -581,6 +621,47 @@ export default function H5PPlayer({
         </div>
       ) : (
         <div ref={containerRef} className="h5p-embed-target" />
+      )}
+
+      {/* Backup YouTube direct link if exercise contains a video */}
+      {detectedYoutubeId && (
+        <div
+          style={{
+            marginTop: 12,
+            padding: '9px 14px',
+            background: 'rgba(239, 68, 68, 0.04)',
+            borderRadius: '8px',
+            border: '1px solid rgba(239, 68, 68, 0.16)',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'space-between',
+            flexWrap: 'wrap',
+            gap: 10,
+            fontSize: 13,
+          }}
+        >
+          <div style={{ display: 'flex', alignItems: 'center', gap: 7, color: 'var(--text-muted)' }}>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="#dc2626" style={{ flexShrink: 0 }}>
+              <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+            </svg>
+            <span>Video lädt nicht oder zeigt einen Fehler?</span>
+          </div>
+          <a
+            href={`https://www.youtube.com/watch?v=${detectedYoutubeId}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: 5,
+              color: '#dc2626',
+              fontWeight: 600,
+              textDecoration: 'none',
+            }}
+          >
+            Video direkt auf YouTube ansehen ↗
+          </a>
+        </div>
       )}
 
       {/* Restart confirmation overlay dialog */}
