@@ -223,8 +223,10 @@ export default function H5PPlayer({
         try {
           const contentRes = await fetch(`${h5pJsonPath}/content/content.json`);
           if (contentRes.ok) {
-            const contentText = await contentRes.text();
-            const ytMatch = contentText.match(/(?:youtu\.be\/|youtube(?:-nocookie)?\.com\/(?:embed\/|v\/|watch\?(?:[^\s"'<>]*&)?v=|shorts\/))([A-Za-z0-9_-]{11})/i);
+            const rawContent = await contentRes.text();
+            const contentText = rawContent.replace(/\\\//g, '/');
+            const ytMatch = contentText.match(/(?:youtu\.be\/|youtube(?:-nocookie)?\.com\/(?:embed\/|v\/|watch\?(?:[^\s"'<>]*&)?v=|shorts\/))([A-Za-z0-9_-]{11})/i)
+              || contentText.match(/(?:v=|\/)([A-Za-z0-9_-]{11})(?:[&?"']|$)/);
             if (ytMatch && ytMatch[1] && isMounted) {
               setDetectedYoutubeId(ytMatch[1]);
             } else if (isMounted) {
