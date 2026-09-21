@@ -57,6 +57,11 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "618",
         "title": "Additionen und Subtraktionen im Kopf lösen",
         "folder": "additionen-und-subtraktionen-im-kopf-losen-618"
+      },
+      {
+        "id": "142",
+        "title": "Volumen von Prismen (Video mit Fragen)",
+        "folder": "volumen-von-prismen-video-mit-fragen-142"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=grundrechenarten&t=1118"
@@ -320,6 +325,141 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "811",
         "title": "Überschlagsrechnungen mit Komma",
         "folder": "berschlagsrechnungen-mit-komma-811"
+      },
+      {
+        "id": "114",
+        "title": "Dezimalzahlen runden",
+        "folder": "kopfrechnen-mit-10-114"
+      },
+      {
+        "id": "149",
+        "title": "Gemischte Aufgaben mit Dezimalzahlen",
+        "folder": "gemischte-aufgaben-mit-dezimalzahlen-149"
+      },
+      {
+        "id": "163",
+        "title": "Multiplikation von Dezimalzahlen",
+        "folder": "teiler-einer-zahl-finden-schwer-163"
+      },
+      {
+        "id": "686",
+        "title": "studypoint - lückentext - dezimalzahlen",
+        "folder": "studypoint-luckentext-dezimalzahlen-686"
+      },
+      {
+        "id": "704",
+        "title": "kurs Dezimalzahlen Einführung Level 1",
+        "folder": "kurs-dezimalzahlen-einfuhrung-level-1-704"
+      },
+      {
+        "id": "705",
+        "title": "kurs Dezimalzahlen Einführung Level 2",
+        "folder": "kurs-dezimalzahlen-einfuhrung-level-2-705"
+      },
+      {
+        "id": "706",
+        "title": "kurs Dezimalzahlen Einführung Level 3",
+        "folder": "kurs-dezimalzahlen-einfuhrung-level-3-706"
+      },
+      {
+        "id": "707",
+        "title": "kurs Dezimalzahlen am Zahlenstrahl Level 1",
+        "folder": "kurs-dezimalzahlen-am-zahlenstrahl-level-1-707"
+      },
+      {
+        "id": "708",
+        "title": "kurs Dezimalzahlen am Zahlenstrahl Level 2",
+        "folder": "kurs-dezimalzahlen-am-zahlenstrahl-level-2-708"
+      },
+      {
+        "id": "709",
+        "title": "kurs Dezimalzahlen am Zahlenstrahl Level 3",
+        "folder": "kurs-dezimalzahlen-am-zahlenstrahl-level-3-709"
+      },
+      {
+        "id": "710",
+        "title": "kurs Dezimalzahlen ordnen",
+        "folder": "kurs-dezimalzahlen-ordnen-710"
+      },
+      {
+        "id": "714",
+        "title": "kurs Dezimalzahlen Stellenwerte",
+        "folder": "kurs-dezimalzahlen-stellenwerte-714"
+      },
+      {
+        "id": "715",
+        "title": "kurs Dezimalzahlen runden Level 1",
+        "folder": "kurs-dezimalzahlen-runden-level-1-715"
+      },
+      {
+        "id": "716",
+        "title": "kurs Dezimalzahlen runden Level 2",
+        "folder": "kurs-dezimalzahlen-runden-level-2-716"
+      },
+      {
+        "id": "717",
+        "title": "kurs Dezimalzahlen runden Level 3",
+        "folder": "kurs-dezimalzahlen-runden-level-3-717"
+      },
+      {
+        "id": "727",
+        "title": "kurs Dezimalzahlen addieren und subtrahieren Level 1",
+        "folder": "kurs-dezimalzahlen-addieren-und-subtrahieren-level-1-727"
+      },
+      {
+        "id": "728",
+        "title": "kurs Dezimalzahlen addieren und subtrahieren Level 2",
+        "folder": "kurs-dezimalzahlen-addieren-und-subtrahieren-level-2-728"
+      },
+      {
+        "id": "729",
+        "title": "kurs Dezimalzahlen addieren und subtrahieren Level 3",
+        "folder": "kurs-dezimalzahlen-addieren-und-subtrahieren-level-3-729"
+      },
+      {
+        "id": "730",
+        "title": "kurs Dezimalzahlen multiplizieren Level 1",
+        "folder": "kurs-dezimalzahlen-multiplizieren-level-1-730"
+      },
+      {
+        "id": "731",
+        "title": "kurs Dezimalzahlen multiplizieren Level 2",
+        "folder": "kurs-dezimalzahlen-multiplizieren-level-2-731"
+      },
+      {
+        "id": "732",
+        "title": "kurs Dezimalzahlen multiplizieren Level 3",
+        "folder": "kurs-dezimalzahlen-multiplizieren-level-3-732"
+      },
+      {
+        "id": "733",
+        "title": "kurs Dezimalzahlen dividieren Level 1",
+        "folder": "kurs-dezimalzahlen-dividieren-level-1-733"
+      },
+      {
+        "id": "734",
+        "title": "kurs Dezimalzahlen dividieren Level 2",
+        "folder": "kurs-dezimalzahlen-dividieren-level-2-734"
+      },
+      {
+        "id": "735",
+        "title": "kurs Dezimalzahlen dividieren Level 3",
+        "folder": "kurs-dezimalzahlen-dividieren-level-3-735"
+      },
+      {
+        "id": "736",
+        "title": "kurs KlaPuStri mit Dezimalzahlen Level 1",
+        "folder": "kurs-klapustri-mit-dezimalzahlen-level-1-736"
+      },
+      {
+        "id": "737",
+        "title": "kurs KlaPuStri mit Dezimalzahlen Level 2",
+        "folder": "kurs-klapustri-mit-dezimalzahlen-level-2-737"
+      },
+      {
+        "id": "738",
+        "title": "kurs KlaPuStri mit Dezimalzahlen Level 3",
+        "folder": "kurs-klapustri-mit-dezimalzahlen-level-3-738"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=dezimalzahlen&t=1118"
@@ -456,6 +596,66 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "927",
         "title": "Bruchrechnen - Additionen und Subtraktionen",
         "folder": "bruchrechnen-additionen-und-subtraktionen-927"
+      },
+      {
+        "id": "31",
+        "title": "Unechte Brüche und gemischte Zahlen (Memory)",
+        "folder": "unechte-bruche-und-gemischte-zahlen-memory-31"
+      },
+      {
+        "id": "35",
+        "title": "Brüche kürzen und erweitern (Memory)",
+        "folder": "bruche-kurzen-und-erweitern-memory-35"
+      },
+      {
+        "id": "37",
+        "title": "Gemeinsame Nenner bestimmen",
+        "folder": "gemeinsame-nenner-bestimmen-37"
+      },
+      {
+        "id": "39",
+        "title": "Brüche und Dezimalzahlen (Memory)",
+        "folder": "bruche-und-dezimalzahlen-memory-39"
+      },
+      {
+        "id": "44",
+        "title": "Brüche und Dezimalzahlen",
+        "folder": "bruche-und-dezimalzahlen-2-44"
+      },
+      {
+        "id": "386",
+        "title": "Bruchrechnen",
+        "folder": "bruchrechnen-386"
+      },
+      {
+        "id": "711",
+        "title": "kurs Brüche und Dezimalzahlen Level 2",
+        "folder": "kurs-bruche-und-dezimalzahlen-level-2-711"
+      },
+      {
+        "id": "712",
+        "title": "kurs Brüche und Dezimalzahlen Level 1",
+        "folder": "kurs-bruche-und-dezimalzahlen-level-1-712"
+      },
+      {
+        "id": "713",
+        "title": "kurs Brüche und Dezimalzahlen Level 3",
+        "folder": "kurs-bruche-und-dezimalzahlen-level-3-713"
+      },
+      {
+        "id": "725",
+        "title": "Studypoint - Bruchrechnen",
+        "folder": "studypoint-bruchrechnen-725"
+      },
+      {
+        "id": "745",
+        "title": "Brüche und Dezimalzahlen",
+        "folder": "bruche-und-dezimalzahlen-3-745"
+      },
+      {
+        "id": "926",
+        "title": "Bruchrechnen - Brüche und Dezimalzahlen",
+        "folder": "bruchrechnen-bruche-und-dezimalzahlen-926"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=br%C3%BCche&t=1118"
@@ -527,7 +727,47 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "teilbar-oder-nicht-teilbar-level-1-872"
       },
       { "id": "852", "title": "ggT (Level 1)", "folder": "ggt-level-1-852" },
-      { "id": "855", "title": "kgV (Level 1)", "folder": "kgv-level-1-855" }
+      { "id": "855", "title": "kgV (Level 1)", "folder": "kgv-level-1-855" },
+      {
+        "id": "248",
+        "title": "kleinste gemeinsame Vielfache bestimmen",
+        "folder": "kleinste-gemeinsame-vielfache-bestimmen-248"
+      },
+      {
+        "id": "860",
+        "title": "kgV, ggT, Primzahlen (Level 1)",
+        "folder": "kgv-ggt-primzahlen-level-1-860"
+      },
+      {
+        "id": "861",
+        "title": "kgV, ggT, Primzahlen (Level 2)",
+        "folder": "kgv-ggt-primzahlen-level-2-861"
+      },
+      {
+        "id": "862",
+        "title": "kgV, ggT, Primzahlen (Level 3)",
+        "folder": "kgv-ggt-primzahlen-level-3-862"
+      },
+      {
+        "id": "863",
+        "title": "Primzahlen (Level 3)",
+        "folder": "primzahlen-level-3-863"
+      },
+      {
+        "id": "864",
+        "title": "Primzahlen (Level 2)",
+        "folder": "primzahlen-level-2-864"
+      },
+      {
+        "id": "865",
+        "title": "Primzahlen (Level 1)",
+        "folder": "primzahlen-level-1-865"
+      },
+      {
+        "id": "873",
+        "title": "Vielfache natürlicher Zahlen",
+        "folder": "vielfache-naturlicher-zahlen-873"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=teilbarkeit&t=1118"
   },
@@ -599,6 +839,31 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "257",
         "title": "Grundwert berechnen",
         "folder": "grundwert-berechnen-257"
+      },
+      {
+        "id": "249",
+        "title": "Textaufgaben: Grundwert in Kopf berechnen",
+        "folder": "textaufgaben-grundwert-in-kopf-berechnen-249"
+      },
+      {
+        "id": "250",
+        "title": "Textaufgaben: Prozentsatz in Kopf berechnen",
+        "folder": "textaufgaben-prozentsatz-in-kopf-berechnen-250"
+      },
+      {
+        "id": "251",
+        "title": "Textaufgaben: Prozentwert im Kopf berechnen",
+        "folder": "textaufgaben-prozentwert-im-kopf-berechnen-251"
+      },
+      {
+        "id": "252",
+        "title": "Textaufgaben zum Prozentrechnen (Kopfrechnen)",
+        "folder": "textaufgaben-zum-prozentrechnen-kopfrechnen-252"
+      },
+      {
+        "id": "958",
+        "title": "Prozent (graphische Darstellung)",
+        "folder": "prozent-graphische-darstellung-2-958"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=prozent&t=1118"
@@ -716,7 +981,22 @@ export const mathTopics: Record<string, MathTopic> = {
       },
       { "id": "187", "title": "Erklärvideo Statistik (Mittelwerte und Boxplot) mit Fragen", "folder": "erklarvideo-statistik-mittelwerte-und-boxplot-mit-fragen-2-187" },
       { "id": "294", "title": "Statistik (Erklärvideo und Übungen)", "folder": "statistik-erklarvideo-und-bungen-294" },
-      { "id": "5", "title": "Video mit Fragen: Mittelwerte und Boxplot", "folder": "video-mit-fragen-mittelwerte-und-boxplot-5" }
+      { "id": "5", "title": "Video mit Fragen: Mittelwerte und Boxplot", "folder": "video-mit-fragen-mittelwerte-und-boxplot-5" },
+      {
+        "id": "4",
+        "title": "Häufigkeit und Diagramme: Video mit Fragen",
+        "folder": "haufigkeit-und-diagramme-video-mit-fragen-4"
+      },
+      {
+        "id": "6",
+        "title": "Rechenaufgaben zur Häufigkeit",
+        "folder": "rechenaufgaben-zur-haufigkeit-6"
+      },
+      {
+        "id": "7",
+        "title": "Fragen zu statistischen Grundbegriffen und zur Kastengrafik (Boxplot)",
+        "folder": "fragen-zu-statistischen-grundbegriffen-und-zur-kastengrafik-boxplot-7"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=statistik&t=1118"
   },
@@ -789,6 +1069,11 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "156",
         "title": "Übungen zu Rechteck und Quadrat",
         "folder": "bungen-zu-rechteck-und-quadrat-156"
+      },
+      {
+        "id": "786",
+        "title": "Rechteck und Quadrat - Flächeninhalt und Umfang - Umkehraufgaben mit großen Zahlen",
+        "folder": "rechteck-und-quadrat-flacheninhalt-und-umfang-umkehraufgaben-mit-groesen-zahlen-786"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=rechteck&t=1118"
@@ -842,6 +1127,21 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "802",
         "title": "Flächeninhalt rechtwinkliger Dreiecke",
         "folder": "flacheninhalt-rechtwinkligers-dreiecke-802"
+      },
+      {
+        "id": "1012",
+        "title": "Dreiecke LZK Mindeststandard",
+        "folder": "dreiecke-lzk-mindeststandard-1012"
+      },
+      {
+        "id": "1013",
+        "title": "Dreiecke LZK Regelstandard",
+        "folder": "dreiecke-lzk-regelstandard-1013"
+      },
+      {
+        "id": "1014",
+        "title": "Dreiecke LZK Expertenstandard",
+        "folder": "dreiecke-lzk-expertenstandard-1014"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=dreiecke&t=1118"
@@ -1061,6 +1361,11 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "381",
         "title": "Winkel",
         "folder": "winkel-381"
+      },
+      {
+        "id": "695",
+        "title": "studypoint - multiple choice - winkel",
+        "folder": "studypoint-multiple-choice-winkel-695"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=winkel&t=1118"
@@ -1277,6 +1582,16 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "385",
         "title": "Zylinder - Kegel - Kugel",
         "folder": "zylinder-kegel-kugel-385"
+      },
+      {
+        "id": "100",
+        "title": "Oberfläche der Pyramide",
+        "folder": "oberflache-der-pyramide-3-100"
+      },
+      {
+        "id": "724",
+        "title": "studypoint - Pyramide",
+        "folder": "studypoint-pyramide-724"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=prisma&t=1118"
@@ -1356,6 +1671,31 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "155",
         "title": "Übungen zu Flächenmaßen",
         "folder": "bungen-zu-flachenmaesen-155"
+      },
+      {
+        "id": "158",
+        "title": "Übungen zu Flächenmaßen",
+        "folder": "bungen-zu-langenmaesen-158"
+      },
+      {
+        "id": "199",
+        "title": "Umkehraufgaben zum Thema Flächeninhalt und Umfang",
+        "folder": "umkehraufgaben-zum-thema-flacheninhalt-und-umfang-199"
+      },
+      {
+        "id": "219",
+        "title": "Flächen erkennen",
+        "folder": "flachen-erkennen-219"
+      },
+      {
+        "id": "220",
+        "title": "Flächenformeln 1",
+        "folder": "flachenformeln-1-220"
+      },
+      {
+        "id": "221",
+        "title": "Flächenformeln 2",
+        "folder": "flachenformeln-2-221"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=fl%C3%A4chenma%C3%9Fe&t=1118"
@@ -1603,6 +1943,111 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "237",
         "title": "Binomische Formeln (Erklärvideo und Übungen)",
         "folder": "binomische-formeln-erklarvideo-und-bungen-237"
+      },
+      {
+        "id": "87",
+        "title": "Monom mal Binom",
+        "folder": "monom-mal-binom-87"
+      },
+      {
+        "id": "88",
+        "title": "Terme addieren und subtrahieren",
+        "folder": "terme-addieren-und-subtrahieren-88"
+      },
+      {
+        "id": "89",
+        "title": "Terme mit Klammern addieren und subtrahieren",
+        "folder": "terme-mit-klammern-addieren-und-subtrahieren-89"
+      },
+      {
+        "id": "91",
+        "title": "Monom mal Binom",
+        "folder": "monom-mal-binom-2-91"
+      },
+      {
+        "id": "92",
+        "title": "Herausheben gemeinsamer Faktoren",
+        "folder": "herausheben-gemeinsamer-faktoren-92"
+      },
+      {
+        "id": "97",
+        "title": "Terme multiplizieren",
+        "folder": "terme-multiplizieren-97"
+      },
+      {
+        "id": "226",
+        "title": "Was sind Terme?",
+        "folder": "was-sind-terme-226"
+      },
+      {
+        "id": "227",
+        "title": "Terme multiplizieren und dividieren (ohne Hochzahlen)",
+        "folder": "terme-multiplizieren-und-dividieren-ohne-hochzahlen-227"
+      },
+      {
+        "id": "228",
+        "title": "Gemischte Übungen zu binomischen Formeln",
+        "folder": "gemischte-bungen-zu-binomischen-formeln-228"
+      },
+      {
+        "id": "229",
+        "title": "Übungen zur dritten binomischen Formel",
+        "folder": "bungen-zur-dritten-binomischen-formel-229"
+      },
+      {
+        "id": "230",
+        "title": "Übungen zur zweiten binomischen Formel",
+        "folder": "bungen-zur-zweiten-binomischen-formel-230"
+      },
+      {
+        "id": "231",
+        "title": "Übungen zur ersten binomischen Formel",
+        "folder": "bungen-zur-ersten-binomischen-formel-231"
+      },
+      {
+        "id": "232",
+        "title": "Terme addieren und subtrahieren mit Klammern",
+        "folder": "terme-addieren-und-subtrahieren-mit-klammern-232"
+      },
+      {
+        "id": "233",
+        "title": "Terme multiplizieren (Binom mal Binom)",
+        "folder": "terme-multiplizieren-binom-mal-binom-233"
+      },
+      {
+        "id": "234",
+        "title": "Terme multiplizieren (Monom mal Binom)",
+        "folder": "terme-multiplizieren-monom-mal-binom-234"
+      },
+      {
+        "id": "374",
+        "title": "Terme mit Potenzen",
+        "folder": "terme-mit-potenzen-374"
+      },
+      {
+        "id": "392",
+        "title": "Binomische Formeln",
+        "folder": "binomische-formeln-392"
+      },
+      {
+        "id": "393",
+        "title": "Binomische Formeln",
+        "folder": "binomische-formeln-3-393"
+      },
+      {
+        "id": "690",
+        "title": "studypoint - drag the words - Terme mit Potenzen",
+        "folder": "studypoint-drag-the-words-terme-mit-potenzen-690"
+      },
+      {
+        "id": "691",
+        "title": "studypoint - single choice - binomische Formeln",
+        "folder": "studypoint-single-choice-binomische-formeln-691"
+      },
+      {
+        "id": "702",
+        "title": "studypoint - memory game - Memory mit Termen",
+        "folder": "studypoint-memory-game-memory-mit-termen-702"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=terme&t=1118"
@@ -1676,6 +2121,11 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "162",
         "title": "Textgleichungen (schwer)",
         "folder": "textgleichungen-schwer-162"
+      },
+      {
+        "id": "166",
+        "title": "Textgleichungen schwer",
+        "folder": "romische-zahlen-einfach-166"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=gleichungen&t=1118"
@@ -1703,6 +2153,16 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "290",
         "title": "Verschiedene Funktionen (Erklärvideo und Übungen)",
         "folder": "verschiedene-funktionen-erklarvideo-und-bungen-290"
+      },
+      {
+        "id": "118",
+        "title": "Lineare Funktionen",
+        "folder": "lineare-funktionen-2-118"
+      },
+      {
+        "id": "119",
+        "title": "Lineare Funktionen zuordnen",
+        "folder": "lineare-funktionen-zuordnen-119"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=funktionen&t=1118"
@@ -1774,6 +2234,16 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "457",
         "title": "Aufrisse erkennen",
         "folder": "aufrisse-erkennen-457"
+      },
+      {
+        "id": "113",
+        "title": "Zahlen runden",
+        "folder": "dezimalzahlen-runden-113"
+      },
+      {
+        "id": "115",
+        "title": "Kopfrechnen mit 10",
+        "folder": "das-kleine-1x1-115"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=kopfrechnen&t=1118"

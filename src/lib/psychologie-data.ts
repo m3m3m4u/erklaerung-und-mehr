@@ -447,4 +447,30 @@ export const psychologieTopics: Record<string, PsychologieTopic> = {
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Positive+Psychologie+Resilienz+Cyberpsychologie&t=3752"
   }
+,
+  "grundlagen-und-kommunikationstheorien": {
+    "slug": "grundlagen-und-kommunikationstheorien",
+    "title": "Grundlagen der Psychologie & Kommunikationstheorien",
+    "category": "Grundlagen, Gehirn & Wahrnehmung",
+    "shortDesc": "Einführung in die Psychologie, Kommunikationsmodelle (Schulz von Thun, Watzlawick) und Interaktion.",
+    "longDesc": "Psychologie erforscht Erleben und Verhalten des Menschen. Die Kommunikationspsychologie zeigt, wie Botschaften zwischen Sender und Empfänger übermittelt und interpretiert werden.",
+    "keyPoints": [
+      "Grundfragen der Psychologie: Verhalten, Erleben, Kognition und Emotion als Gegenstand wissenschaftlicher Forschung",
+      "Vier-Seiten-Modell (Schulz von Thun): Sachebene, Selbstkundgabe, Beziehungshinweis und Appell",
+      "Axiome von Paul Watzlawick: 'Man kann nicht nicht kommunizieren' – Inhalts- und Beziehungsaspekt jeder Äußerung"
+    ],
+    "exercises": [
+      {
+        "id": "5818",
+        "title": "Grundlagen der Psychologie",
+        "folder": "grundlagen-der-psychologie-5818"
+      },
+      {
+        "id": "5922",
+        "title": "Grundlagen der Kommunikationstheorien",
+        "folder": "grundlagen-der-kommunikationstheorien-5922"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=psychologie+kommunikation&t=3752"
+  }
 };

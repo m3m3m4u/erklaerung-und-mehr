@@ -140,4 +140,36 @@ export const klimaTopics: Record<string, KlimaTopic> = {
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=umweltschutz&t=3752"
   }
+,
+  "co2-bepreisung-und-klimaschutz": {
+    "slug": "co2-bepreisung-und-klimaschutz",
+    "title": "CO₂-Bepreisung, Klimapolitik & Bewahrung der Schöpfung",
+    "category": "Umwelt, Ökosysteme & Nachhaltigkeit",
+    "shortDesc": "Emissionshandel (EU-ETS), CO₂-Steuer, Lenkungswirkung und ethische Verantwortung für die Natur.",
+    "longDesc": "Ökonomische Instrumente zur Reduktion von Treibhausgasen sind Kern moderner Klimapolitik. Ein Preis auf Kohlenstoffdioxid schafft Anreize für saubere Technologien und Energieeffizienz.",
+    "keyPoints": [
+      "Verursacherprinzip: Wer Treibhausgase ausstößt, muss für die ökologischen Folgekosten bezahlen",
+      "Emissionsrechtehandel: 'Cap and Trade' begrenzt die Gesamtmenge der erlaubten Emissionen und lässt Zertifikate handeln",
+      "Sozialer Ausgleich: Rückverteilung der Einnahmen über Klimaprämien / Klimabonus zur Entlastung der Haushalte",
+      "Ökologische Ethik: Bewahrung der Schöpfung und generationenübergreifende Verantwortung für unseren Planeten"
+    ],
+    "exercises": [
+      {
+        "id": "6569",
+        "title": "CO₂-Bepreisung",
+        "folder": "co-bepreisung-2-6569"
+      },
+      {
+        "id": "6437",
+        "title": "Bewahrung der Schöpfung",
+        "folder": "bewahrung-der-schopfung-6437"
+      },
+      {
+        "id": "4481",
+        "title": "Global Goal 7 - Saubere Energie – Erneuerbar für unsere Zukunft",
+        "folder": "global-goal-7-saubere-energie-erneuerbar-fur-unsere-zukunft-4481"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=co2+klimaschutz&t=3752"
+  }
 };

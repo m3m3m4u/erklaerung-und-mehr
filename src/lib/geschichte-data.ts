@@ -82,6 +82,16 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "5346",
         "title": "Die Früh- und Urgeschichte",
         "folder": "die-fruh-und-urgeschichte-5346"
+      },
+      {
+        "id": "3121",
+        "title": "Kunst in der steinzeit",
+        "folder": "kunst-in-der-steinzeit-3121"
+      },
+      {
+        "id": "3359",
+        "title": "Fruhgeschichte und entwicklung der erde",
+        "folder": "fruhgeschichte-und-entwicklung-der-erde-3359"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Steinzeit%20%26%20Fr%C3%BChe%20Menschheitsentwicklung+geschichte&t=3752"
@@ -170,34 +180,105 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "5329",
         "title": "Das alte Ägypten",
         "folder": "das-alte-gypten-5329"
+      },
+      {
+        "id": "2907",
+        "title": "Das Perserreich",
+        "folder": "das-perserreich-2907"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Das%20alte%20%C3%84gypten%20%26%20Fr%C3%BChe%20Hochkulturen+geschichte&t=3752"
   },
-  "antikes-griechenland": {
-    "slug": "antikes-griechenland",
-    "title": "Antikes Griechenland & Attische Demokratie",
+  "antikes-griechenland-demokratie-und-kriege": {
+    "slug": "antikes-griechenland-demokratie-und-kriege",
+    "title": "Antikes Griechenland: Demokratie, Poleis & Kriege",
     "category": "Ur- & Frühgeschichte & Antike",
-    "shortDesc": "Polis-System, Wiege der Demokratie in Athen, Sparta, Alexander der Große, Olympische Spiele und Perserkriege.",
-    "longDesc": "Das antike Griechenland gilt als Wiege der europäischen Kultur, Philosophie, Wissenschaft und Demokratie. Geteilt in unabhängige Stadtstaaten (Poleis) wie das demokratische Athen und das militärisch organisierte Sparta, einte die Griechen die gemeinsame Sprache, Religion und Kultur. Meilensteine wie die Abwehr der Perserkriege, das Goldene Zeitalter des Perikles, der verheerende Peloponnesische Krieg und die weitreichenden Eroberungen Alexanders des Großen prägten die hellenistische Welt.",
+    "shortDesc": "Entstehung der Polis, Attische Demokratie in Athen, Kriegerstaat Sparta, Perserkriege und Peloponnesischer Krieg.",
+    "longDesc": "Die Wiege der europäischen Demokratie: Entdecke, wie in Athen die Volksherrschaft entstand, während im benachbarten Sparta eine straffe Militärgesellschaft herrschte. Erfahre mehr über die Perserkriege, den Peloponnesischen Krieg und den Siegeszug Alexanders des Großen.",
     "keyPoints": [
-      "Polis-System: Unabhängige Stadtstaaten mit unterschiedlichen Verfassungen (Demokratie in Athen, Oligarchie in Sparta)",
-      "Attische Demokratie: Direkte Volksherrschaft männlicher Vollbürger (Volksversammlung, Rat der 500, Scherbengericht)",
-      "Perserkriege (490–479 v. Chr.): Marathon, Thermopylen und Seeschlacht von Salamis sicherten die griechische Unabhängigkeit",
-      "Kulturelle Blüte: Philosophie (Sokrates, Platon, Aristoteles), Theater (Tragödie & Komödie), Olympische Spiele und Mythologie",
-      "Peloponnesischer Krieg (431–404 v. Chr.): Konflikt zwischen Athener Seebund und Peloponnesischem Bund um Sparta",
-      "Alexander der Große & Hellenismus: Makedonischer Eroberungszug bis nach Ägypten und Indien; Verschmelzung von griechischer und orientalischer Kultur"
+      "Die Polis als Stadtstaat: Unabhängige politische Einheiten mit eigenem Rechts- und Gesellschaftssystem",
+      "Attische Demokratie: Volksversammlung (Ekklesia), Scherbengericht (Ostrakismos) und Losverfahren unter Perikles",
+      "Sparta: Straffe Militärordnung, Heloten als Unfreie und Doppelherrschaft der Könige",
+      "Perserkriege (Marathon, Thermopylen, Salamis) und Peloponnesischer Bruderkrieg zwischen Athen und Sparta",
+      "Alexander der Große: Ausbreitung der griechischen Kultur bis nach Indien (Hellenismus)"
+    ],
+    "exercises": [
+      {
+        "id": "881",
+        "title": "Alexander der Große",
+        "folder": "alexander-der-groese-881"
+      },
+      {
+        "id": "5222",
+        "title": "Die Perserkriege und Griechenland",
+        "folder": "die-perserkriege-und-griechenland-5222"
+      },
+      {
+        "id": "5224",
+        "title": "Sparta und seine Gesellschaftsordnung in Griechenland",
+        "folder": "sparta-und-seine-gesellschaftsordnung-in-griechenland-5224"
+      },
+      {
+        "id": "5226",
+        "title": "Die hellenistische Periode in Griechenland",
+        "folder": "die-hellenistische-periode-in-griechenland-5226"
+      },
+      {
+        "id": "5232",
+        "title": "Der Peloponnesische Krieg in Griechenland",
+        "folder": "der-peloponnesische-krieg-in-griechenland-5232"
+      },
+      {
+        "id": "5236",
+        "title": "Athen und die attische Demokratie in Griechenland",
+        "folder": "athen-und-die-attische-demokratie-in-griechenland-5236"
+      },
+      {
+        "id": "5238",
+        "title": "Alexander der Große und seine Eroberungen aus Griechenland",
+        "folder": "alexander-der-groese-und-seine-eroberungen-aus-griechenland-5238"
+      },
+      {
+        "id": "5391",
+        "title": "Geschichte des antiken Griechenlands",
+        "folder": "geschichte-des-antiken-griechenlands-5391"
+      },
+      {
+        "id": "2903",
+        "title": "Das konigreich griechenland",
+        "folder": "das-konigreich-griechenland-2903"
+      },
+      {
+        "id": "3063",
+        "title": "Umsturzversuch des spartakusbundes",
+        "folder": "umsturzversuch-des-spartakusbundes-3063"
+      },
+      {
+        "id": "5361",
+        "title": "Die geschichte der olympischen spiele",
+        "folder": "die-geschichte-der-olympischen-spiele-5361"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Antikes+Griechenland+Demokratie&t=3752"
+  },
+  "griechische-antike-kultur-und-mythologie": {
+    "slug": "griechische-antike-kultur-und-mythologie",
+    "title": "Griechische Antike: Kultur, Mythologie & Philosophie",
+    "category": "Ur- & Frühgeschichte & Antike",
+    "shortDesc": "Götterhimmel auf dem Olymp, Philosophie von Sokrates und Platon, antikes Theater, Kunst und mykenische Kultur.",
+    "longDesc": "Kunst, Glaube und Philosophie der Antike prägen unsere Kultur bis heute: Lerne die Götter des Olymps um Zeus und Athena kennen, verstehe die Ursprünge der Olympischen Spiele, die Entstehung des Theaters und die bahnbrechenden Ideen der Philosophen.",
+    "keyPoints": [
+      "Götterwelt des Olymps: Zeus, Hera, Poseidon, Athena und das Orakel von Delphi",
+      "Olympische Spiele: Panhellenische Wettkämpfe zu Ehren der Götter und heiliger Frieden (Ekecheiria)",
+      "Philosophie & Wissenschaft: Sokrates, Platon und Aristoteles als Begründer des westlichen Denkens",
+      "Theater & Dichtung: Tragödien und Komödien (Sophokles, Euripides) sowie Homers Epen Ilias und Odyssee",
+      "Architektur & Kunst: Dorische, ionische und korinthische Säulenordnung sowie monumentale Tempel wie der Parthenon"
     ],
     "exercises": [
       {
         "id": "5223",
         "title": "Die mykenische Kultur und das Ende der Bronzezeit in Griechenland",
         "folder": "die-mykenische-kultur-und-das-ende-der-bronzezeit-in-griechenland-5223"
-      },
-      {
-        "id": "881",
-        "title": "Alexander der Große",
-        "folder": "alexander-der-groese-881"
       },
       {
         "id": "1212",
@@ -220,24 +301,9 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "kunst-und-architektur-im-antiken-griechenland-5219"
       },
       {
-        "id": "5222",
-        "title": "Die Perserkriege und Griechenland",
-        "folder": "die-perserkriege-und-griechenland-5222"
-      },
-      {
-        "id": "5224",
-        "title": "Sparta und seine Gesellschaftsordnung in Griechenland",
-        "folder": "sparta-und-seine-gesellschaftsordnung-in-griechenland-5224"
-      },
-      {
         "id": "5225",
         "title": "Die klassische Periode in Griechenland",
         "folder": "die-klassische-periode-in-griechenland-5225"
-      },
-      {
-        "id": "5226",
-        "title": "Die hellenistische Periode in Griechenland",
-        "folder": "die-hellenistische-periode-in-griechenland-5226"
       },
       {
         "id": "5227",
@@ -255,47 +321,25 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "die-archaische-periode-in-griechenland-5230"
       },
       {
-        "id": "5232",
-        "title": "Der Peloponnesische Krieg in Griechenland",
-        "folder": "der-peloponnesische-krieg-in-griechenland-5232"
-      },
-      {
-        "id": "5236",
-        "title": "Athen und die attische Demokratie in Griechenland",
-        "folder": "athen-und-die-attische-demokratie-in-griechenland-5236"
-      },
-      {
         "id": "5237",
         "title": "Alltag und Gesellschaft im antiken Griechenland",
         "folder": "alltag-und-gesellschaft-im-antiken-griechenland-5237"
-      },
-      {
-        "id": "5238",
-        "title": "Alexander der Große und seine Eroberungen aus Griechenland",
-        "folder": "alexander-der-groese-und-seine-eroberungen-aus-griechenland-5238"
-      },
-      {
-        "id": "5391",
-        "title": "Geschichte des antiken Griechenlands",
-        "folder": "geschichte-des-antiken-griechenlands-5391"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Antikes%20Griechenland%20%26%20Attische%20Demokratie+geschichte&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Griechische+Mythologie+Kultur&t=3752"
   },
-  "das-roemische-reich-republik-und-kaiserzeit": {
-    "slug": "das-roemische-reich-republik-und-kaiserzeit",
-    "title": "Das Römische Reich: Republik & Kaiserzeit",
+  "roemische-republik-und-expansion": {
+    "slug": "roemische-republik-und-expansion",
+    "title": "Die Römische Republik: Verfassung & Expansion",
     "category": "Ur- & Frühgeschichte & Antike",
-    "shortDesc": "Vom Stadtstaat zum Weltreich, Senat und Volk (SPQR), Julius Caesar, Kaiser Augustus, Legionen und Römisches Recht.",
-    "longDesc": "Das Römische Reich entwickelte sich von einer kleinen Siedlung am Tiber über die Römische Republik bis hin zu einem antiken Weltreich rund um das gesamte Mittelmeer (Mare Nostrum). Die Epoche der Republik war geprägt vom Machtkampf zwischen Patriziern und Plebejern, der Entstehung des Senats und der Ämterlaufbahn (Cursus Honorum). Nach Bürgerkriegen und der Diktatur Caesars begründete Kaiser Augustus 27 v. Chr. das Prinzipat (Kaiserzeit). Unter der 'Pax Romana' erlebte das Reich eine wirtschaftliche und kulturelle Blütezeit, gesichert durch disziplinierte Legionen, ausgefeiltes Straßennetz, Ingenieurbaukunst (Aquädukte, Kolosseum) und das Römische Recht, dessen Grundsätze bis heute fortwirken.",
+    "shortDesc": "Gründung Roms (Romulus & Remus), Patrizier und Plebejer, Senat, Punische Kriege, Hannibal und Julius Caesar.",
+    "longDesc": "Vom kleinen Bauerndorf am Tiber zur mächtigsten Republik des Mittelmeers: Lerne die Gründungslegende, die Ständekämpfe, das ausgeklügelte Verfassungssystem der Republik und die dramatische Zeit der Bürgerkriege bis zur Ermordung Caesars kennen.",
     "keyPoints": [
-      "Gründungsmythen & Königszeit: Romulus und Remus (753 v. Chr.), Vertreibung des letzten Königs Tarquinius Superbus",
-      "Römische Republik (SPQR): Senat, Konsuln, Volkstribune und die Zwölftafelgesetze als Rechtsgrundlage",
-      "Expansion & Punische Kriege: Konflikte gegen Karthago (Hannibal) sicherten Rom die Vormachtstellung im Mittelmeerraum",
-      "Krise der Republik & Cäsar: Bürgerkriege, Triumvirat, Ernennung Caesars zum Diktator auf Lebenszeit und seine Ermordung 44 v. Chr.",
-      "Kaiserzeit unter Augustus: Begründung des Prinzipats (27 v. Chr.), Pax Romana, monumentale Bauprogramme und Verwaltung",
-      "Militär, Infrastruktur & Recht: Legionen, Grenzwälle (Limes), befestigte Straßen, Aquädukte und Kodifikation des Römischen Rechts",
-      "Spätantike & Teilung: Reichsteilung 395 n. Chr. in West- und Ostrom sowie Fall Westroms 476 n. Chr."
+      "Gründungsmythos: Romulus und Remus 753 v. Chr. („Rom entstieg den Kinderschuhen“)",
+      "Verfassung der Republik: Konsuln, Senat und Volksversammlung mit striktem Kollegialitäts- und Annuitätsprinzip",
+      "Ständekämpfe: Konflikte zwischen adligen Patriziern und bürgerlichen Plebejern (Zwölftafelgesetz, Volkstribune)",
+      "Punische Kriege: Ringen gegen Karthago um die Vorherrschaft im Mittelmeer, Hannibals Alpenüberquerung",
+      "Krise der Republik: Agrarkrise, Gracchen, Triumvirate und Aufstieg und Ermordung von Julius Caesar 44 v. Chr."
     ],
     "exercises": [
       {
@@ -309,11 +353,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "das-rechtssystem-im-antiken-rom-1364"
       },
       {
-        "id": "1365",
-        "title": "Das römische Kaiserreich",
-        "folder": "das-romische-kaiserreich-1365"
-      },
-      {
         "id": "1366",
         "title": "Die Gründung Roms",
         "folder": "die-grundung-roms-1366"
@@ -324,54 +363,9 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "die-romische-republik-1368"
       },
       {
-        "id": "1371",
-        "title": "Fall des Weströmischen Reiches",
-        "folder": "fall-des-westromischen-reiches-1371"
-      },
-      {
-        "id": "1395",
-        "title": "Pompeji und das römische Alltagsleben",
-        "folder": "pompeji-und-das-romische-alltagsleben-1395"
-      },
-      {
-        "id": "1407",
-        "title": "Römische Spiele und Unterhaltung",
-        "folder": "romische-spiele-und-unterhaltung-1407"
-      },
-      {
-        "id": "2323",
-        "title": "Der Limes",
-        "folder": "der-limes-2323"
-      },
-      {
-        "id": "2333",
-        "title": "Die Gallier",
-        "folder": "die-gallier-2333"
-      },
-      {
         "id": "2351",
         "title": "Die Punischen Kriege",
         "folder": "die-nuklearkatastrophe-von-tschernobyl-5-2351"
-      },
-      {
-        "id": "3162",
-        "title": "Die Germanen und die Römer",
-        "folder": "die-germanen-und-die-romer-3162"
-      },
-      {
-        "id": "3173",
-        "title": "Die Varusschlacht",
-        "folder": "die-varusschlacht-3173"
-      },
-      {
-        "id": "3369",
-        "title": "Römisches Leben und Gesellschaft",
-        "folder": "romisches-leben-und-gesellschaft-3369"
-      },
-      {
-        "id": "3370",
-        "title": "Römische Kultur und Kunst",
-        "folder": "romische-kultur-und-kunst-3370"
       },
       {
         "id": "3371",
@@ -399,6 +393,93 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "julius-caesar-4364"
       },
       {
+        "id": "2307",
+        "title": "Das heilige romische reich",
+        "folder": "das-heilige-romische-reich-2307"
+      },
+      {
+        "id": "2374",
+        "title": "Literaturepoche romantik",
+        "folder": "literaturepoche-romantik-2374"
+      },
+      {
+        "id": "2383",
+        "title": "Literaturepoche neuromatik",
+        "folder": "literaturepoche-neuromatik-2383"
+      },
+      {
+        "id": "3470",
+        "title": "Gunther grass die blechtrommel",
+        "folder": "gunther-grass-die-blechtrommel-3470"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Roemische+Republik+Caesar&t=3752"
+  },
+  "roemische-kaiserzeit-und-alltag": {
+    "slug": "roemische-kaiserzeit-und-alltag",
+    "title": "Das Römische Kaiserreich: Alltag, Limes & Provinzen",
+    "category": "Ur- & Frühgeschichte & Antike",
+    "shortDesc": "Pax Romana, Gladiatorenspiele im Kolosseum, Pompeji, Grenzwälle am Limes, Germanen und der Fall Westroms.",
+    "longDesc": "Auf den Trümmern der Republik begründete Augustus das Prinzipat. Entdecke den Alltag im Römischen Imperium: Leben in der Großstadt Rom, Gladiatorenkämpfe, die Zerstörung von Pompeji durch den Vesuv, Grenzsicherung am Limes und den Untergang des Reiches.",
+    "keyPoints": [
+      "Das Prinzipat unter Augustus: Begründung der Kaiserzeit und Epoche des inneren Friedens (Pax Romana)",
+      "Alltag & Metropole: Leben in Insulae (Miethäusern), Aquädukte, Thermen und „Brot und Spiele“ (Panem et circenses)",
+      "Pompeji 79 n. Chr.: Verschüttung durch den Vesuv als einzigartiges archäologisches Zeitfenster in die Antike",
+      "Limes & Provinzen: Grenzbefestigungen gegen Germanen und Kelten (Varusschlacht 9 n. Chr. im Teutoburger Wald)",
+      "Spätantike & Fall Roms: Völkerwanderung, Teilung in Ost- und Westrom 395 n. Chr. und Absetzung des letzten weströmischen Kaisers 476 n. Chr."
+    ],
+    "exercises": [
+      {
+        "id": "1365",
+        "title": "Das römische Kaiserreich",
+        "folder": "das-romische-kaiserreich-1365"
+      },
+      {
+        "id": "1371",
+        "title": "Fall des Weströmischen Reiches",
+        "folder": "fall-des-westromischen-reiches-1371"
+      },
+      {
+        "id": "1395",
+        "title": "Pompeji und das römische Alltagsleben",
+        "folder": "pompeji-und-das-romische-alltagsleben-1395"
+      },
+      {
+        "id": "1407",
+        "title": "Römische Spiele und Unterhaltung",
+        "folder": "romische-spiele-und-unterhaltung-1407"
+      },
+      {
+        "id": "2323",
+        "title": "Der Limes",
+        "folder": "der-limes-2323"
+      },
+      {
+        "id": "2333",
+        "title": "Die Gallier",
+        "folder": "die-gallier-2333"
+      },
+      {
+        "id": "3162",
+        "title": "Die Germanen und die Römer",
+        "folder": "die-germanen-und-die-romer-3162"
+      },
+      {
+        "id": "3173",
+        "title": "Die Varusschlacht",
+        "folder": "die-varusschlacht-3173"
+      },
+      {
+        "id": "3369",
+        "title": "Römisches Leben und Gesellschaft",
+        "folder": "romisches-leben-und-gesellschaft-3369"
+      },
+      {
+        "id": "3370",
+        "title": "Römische Kultur und Kunst",
+        "folder": "romische-kultur-und-kunst-3370"
+      },
+      {
         "id": "5395",
         "title": "Geschichte des Römischen Reiches",
         "folder": "geschichte-des-romischen-reiches-5395"
@@ -409,7 +490,43 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "was-ware-wenn-das-romische-reich-immer-noch-existieren-wurde-5403"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Das%20R%C3%B6mische%20Reich%3A%20Republik%20%26%20Kaiserzeit+geschichte&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Roemisches+Kaiserreich+Limes&t=3752"
+  },
+  "die-kelten-in-europa": {
+    "slug": "die-kelten-in-europa",
+    "title": "Die Kelten: Kultur, Handwerk & Gesellschaft",
+    "category": "Ur- & Frühgeschichte & Antike",
+    "shortDesc": "Hallstatt- und Latènezeit, Druiden, Fürstensitze, Oppida und Salzbergbau im Alpenraum.",
+    "longDesc": "Die Kelten prägten die europäische Eisenzeit entscheidend. Von den Alpen über West- und Mitteleuropa bis nach Britannien schufen sie meisterhafte Metallkunst, befestigte Großsiedlungen (Oppida) und ein weitverzweigtes Handelsnetz.",
+    "keyPoints": [
+      "Zwei Epochen: Ältere Eisenzeit (Hallstattzeit ca. 800–450 v. Chr.) und jüngere Eisenzeit (Latènezeit ca. 450 v. Chr. bis zur Zeitenwende)",
+      "Wirtschaftszentrum Hallstatt: Unterirdischer Steinsalzbergbau schuf Reichtum und weitreichende Handelsbeziehungen",
+      "Gesellschaftsordnung: Adelige Kriegerelite, freie Bauern/Handwerker und Druiden (Priester, Richter und Gelehrte)",
+      "Städtebau: Entstehung befestigter stadtartiger Großsiedlungen (Oppida, wie Manching oder Heuneburg) ab dem 2. Jh. v. Chr."
+    ],
+    "exercises": [
+      {
+        "id": "3166",
+        "title": "Die Kelten",
+        "folder": "die-kelten-2-3166"
+      },
+      {
+        "id": "3116",
+        "title": "Die kelten",
+        "folder": "die-kelten-3116"
+      },
+      {
+        "id": "2336",
+        "title": "Die Germanen",
+        "folder": "die-germanen-2336"
+      },
+      {
+        "id": "3159",
+        "title": "Die Burgunden",
+        "folder": "die-burgunden-3159"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=kelten&t=3752"
   },
   "staendegesellschaft-und-alltag-im-mittelalter": {
     "slug": "staendegesellschaft-und-alltag-im-mittelalter",
@@ -442,6 +559,41 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "3335",
         "title": "Adelsgeschlechter im Mittelalter",
         "folder": "adelsgeschlechter-im-mittelalter-3335"
+      },
+      {
+        "id": "1088",
+        "title": "Geschichte Vorarlbergs im Mittelalter",
+        "folder": "geschichte-vorarlbergs-im-mittelalter-1088"
+      },
+      {
+        "id": "3084",
+        "title": "Das Frühmittelalter",
+        "folder": "das-fruhmittelalter-3084"
+      },
+      {
+        "id": "3085",
+        "title": "Das Hochmittelalter",
+        "folder": "das-hochmittelalter-3085"
+      },
+      {
+        "id": "3331",
+        "title": "Politik im Mittelalter",
+        "folder": "politik-im-mittelalter-3331"
+      },
+      {
+        "id": "3332",
+        "title": "Das Mittelalter im Überblick",
+        "folder": "das-mittelalter-im-berblick-3332"
+      },
+      {
+        "id": "3334",
+        "title": "Wirtschaft im Mittelalter",
+        "folder": "wirtschaft-im-mittelalterr-3334"
+      },
+      {
+        "id": "5333",
+        "title": "Das Mittelalter",
+        "folder": "das-mittelalter-5333"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=St%C3%A4ndegesellschaft%20%26%20Alltag%20im%20Mittelalter+geschichte&t=3752"
@@ -467,19 +619,14 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "ritter-und-burgen-im-mittelalter-3055"
       },
       {
-        "id": "3031",
-        "title": "Lehenswesen und Grundherrschaft im Mittelalter",
-        "folder": "lehenswesen-und-grundherrschaft-im-mittelalter-3031"
-      },
-      {
-        "id": "3335",
-        "title": "Adelsgeschlechter im Mittelalter",
-        "folder": "adelsgeschlechter-im-mittelalter-3335"
-      },
-      {
         "id": "3333",
         "title": "Gesellschaft im Mittelalter",
         "folder": "gesellschaft-im-mittelalter-3333"
+      },
+      {
+        "id": "5690",
+        "title": "Die Schattenburg",
+        "folder": "die-schattenburg-5690"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Rittertum%2C%20Burgen%20%26%20Ritterausbildung+geschichte&t=3752"
@@ -535,6 +682,11 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "5358",
         "title": "Die Geschichte der Hanse",
         "folder": "die-geschichte-der-hanse-5358"
+      },
+      {
+        "id": "5459",
+        "title": "Die Entwicklung von Städten vom antiken Zentrum bis zur Megastadt",
+        "folder": "die-entwicklung-von-stadten-vom-antiken-zentrum-bis-zur-megastadt-5459"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Mittelalterliche%20St%C3%A4dte%20%26%20Die%20Hanse+geschichte&t=3752"
@@ -595,6 +747,21 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "5383",
         "title": "Die Kreuzzüge",
         "folder": "die-kreuzzuge-2-5383"
+      },
+      {
+        "id": "6512",
+        "title": "Der papst amt bedeutung und geschichte",
+        "folder": "der-papst-amt-bedeutung-und-geschichte-6512"
+      },
+      {
+        "id": "3353",
+        "title": "Religiöse Konflikte und Machtfragen im Mittelalter",
+        "folder": "religiose-konflikte-und-machtfragen-im-mittelalter-3353"
+      },
+      {
+        "id": "6684",
+        "title": "Kirche im Mittelalter",
+        "folder": "kirche-im-mittelalter-6684"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Kirche%2C%20Kl%C3%B6ster%2C%20Kaiser%20%26%20Kreuzz%C3%BCge+geschichte&t=3752"
@@ -680,32 +847,39 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
       },
       {
         "id": "3222",
-        "title": "Escape Room \"Komponisten in Mittelalter und Renaissance\"",
+        "title": "Escape Room 'Komponisten in Mittelalter und Renaissance'",
         "folder": "escape-room-quot-komponisten-in-mittelalter-und-renaissance-quot-3222"
       },
       {
         "id": "4052",
         "title": "Leonardo da Vinci",
         "folder": "leonardo-da-vinci-2-4052"
+      },
+      {
+        "id": "2369",
+        "title": "Literaturepoche renaissance",
+        "folder": "literaturepoche-renaissance-2369"
+      },
+      {
+        "id": "3356",
+        "title": "Gesellschaftliche und soziale Umwälzungen in der frühen Neuzeit",
+        "folder": "gesellschaftliche-und-soziale-umwalzungen-in-der-fruhen-neuzeit-3356"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Renaissance%2C%20Humanismus%20%26%20Buchdruck+geschichte&t=3752"
   },
   "zeitalter-der-entdeckungen": {
     "slug": "zeitalter-der-entdeckungen",
-    "title": "Das Zeitalter der Entdeckungen & Kolumbus",
+    "title": "Das Zeitalter der Entdeckungen & Seefahrer",
     "category": "Frühe Neuzeit & Revolutionen",
-    "shortDesc": "Seeweg nach Indien, Christoph Kolumbus 1492, Magellan, Inka, Azteken, Kolonialismus und Dreieckshandel.",
-    "longDesc": "Die Entdeckung Amerikas ist ein faszinierendes und viel diskutiertes Thema. Christoph Kolumbus spielte dabei eine zentrale Rolle, aber er war bei Weitem nicht der Einzige, der diesen Kontinent \"entdeckt\" hat. Kolumbus' Reise im Jahr 1492 war der Beginn einer neuen Ära. Er suchte nach einem westlichen Seeweg nach Indien, doch stattdessen stieß er auf einen neuen Kontinent. Obwohl er selbst glaubte, in Indien gelandet zu sein, erkannte Amerigo Vespucci später, dass es sich um ein anderes Land handelte. Die \"Entdeckung\" Amerikas durch die Europäer hatte weitreichende Folgen. Sie führte zu einem Austausch von Gütern, Wissen und Kulturen, aber auch zu Konflikten und zur Ausbeutung der indigenen Bevölkerung. Die Kolonialisierung Amerikas veränderte die Welt auf dramatische Weise.",
+    "shortDesc": "Christoph Kolumbus 1492, Ferdinand Magellan, Vasco da Gama, Seewege nach Indien und Amerika vor Kolumbus.",
+    "longDesc": "Im 15. und 16. Jahrhundert veränderte sich das Weltbild der Europäer grundlegend: Mit Kompass, Astrolabium und Karavellen wagten sich wagemutige Seefahrer auf die Weltmeere. Lerne die Entdeckungsfahrten von Kolumbus, Magellan und Vasco da Gama kennen.",
     "keyPoints": [
-      "Die indigenen Völker: Amerika war bereits vor der Ankunft der Europäer von indigenen Völkern besiedelt, die eine reiche Kultur und Geschichte hatten.",
-      "Die Rolle anderer Entdecker: Neben Kolumbus gab es auch andere europäische Entdecker, die Amerika erkundeten und kartografierten.",
-      "Die langfristigen Folgen: Die Entdeckung Amerikas hatte langfristige Auswirkungen auf die Welt, sowohl positive als auch negative.",
-      "Extreme Bedingungen: Monatelange Seereisen führten zu Hunger, Krankheiten und Meutereien.",
-      "Navigationsprobleme: Ohne genaue Karten war die Orientierung oft schwierig.",
-      "Bedeutende Entdeckungen: Die Magellanstraße eröffnete neue Handelsrouten.",
-      "Langfristige Folgen: Die Weltumsegelung bestätigte, dass die Erde rund ist.",
-      "Wirtschaftlicher Einfluss: Die neuen Gewürzhandelsrouten veränderten den globalen Markt nachhaltig."
+      "Motive der Entdecker: Suche nach einem Seeweg nach Indien zur Umgehung des osmanischen Gewürzmonopols",
+      "Technische Neuerungen: Karavelle, Astrolabium, Kompass und verbesserte Kartographie",
+      "Christoph Kolumbus 1492: Landung in der Karibik im Glauben, den westlichen Seeweg nach Asien gefunden zu haben",
+      "Ferdinand Magellan: Erste Weltumsegelung (1519–1522) bewies endgültig die Kugelgestalt der Erde",
+      "Amerika vor Kolumbus: Hochkulturen der Maya, Inka und Azteken mit hochstehender Astronomie und Baukunst"
     ],
     "exercises": [
       {
@@ -724,59 +898,14 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "hochkulturen-in-amerika-891"
       },
       {
-        "id": "2293",
-        "title": "Ausbeutung Amerikas",
-        "folder": "ausbeutung-amerikas-2293"
-      },
-      {
-        "id": "2311",
-        "title": "Das portugiesische Kolonialreich",
-        "folder": "das-portugiesische-kolonialreich-2311"
-      },
-      {
-        "id": "2312",
-        "title": "Das Spanische Kolonialreich",
-        "folder": "das-spanische-kolonialreich-2312"
-      },
-      {
-        "id": "2365",
-        "title": "Kolonialpolitik in Afrika",
-        "folder": "kolonialpolitik-in-afrika-2365"
-      },
-      {
-        "id": "2899",
-        "title": "Das britische Empire",
-        "folder": "das-britische-empire-2899"
-      },
-      {
-        "id": "2932",
-        "title": "Der Transatlantische Sklavenhandel",
-        "folder": "der-transatlantische-sklavenhandel-2932"
-      },
-      {
-        "id": "2955",
-        "title": "Die Geschichte Mexikos",
-        "folder": "die-geschichte-mexikos-2955"
-      },
-      {
         "id": "2990",
         "title": "Die wahren Entdecker Amerikas",
         "folder": "die-wahren-entdecker-amerikas-2990"
       },
       {
-        "id": "3061",
-        "title": "Spanien erobert Südamerika",
-        "folder": "spanien-erobert-sudamerika-3061"
-      },
-      {
         "id": "3152",
         "title": "Amerika vor Kolumbus",
         "folder": "amerika-vor-kolumbus-3152"
-      },
-      {
-        "id": "3348",
-        "title": "Die größten Kolonialreiche",
-        "folder": "die-groesten-kolonialreiche-3348"
       },
       {
         "id": "3843",
@@ -789,12 +918,27 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "die-wiederentdeckung-amerikas-durch-kolumbus-5386"
       },
       {
-        "id": "3153",
-        "title": "Der Atlantische Dreieckshandel",
-        "folder": "der-atlantische-dreieckshandel-3153"
+        "id": "2330",
+        "title": "Die entdeckung australiens",
+        "folder": "die-entdeckung-australiens-2330"
+      },
+      {
+        "id": "3336",
+        "title": "Entdeckung und unabhangigkeit der usa",
+        "folder": "entdeckung-und-unabhangigkeit-der-usa-3336"
+      },
+      {
+        "id": "3346",
+        "title": "Entdeckungen und eroberungen in der neuzeit",
+        "folder": "entdeckungen-und-eroberungen-in-der-neuzeit-3346"
+      },
+      {
+        "id": "5276",
+        "title": "Die entdeckung der planetenbewegungen",
+        "folder": "die-entdeckung-der-planetenbewegungen-5276"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Das%20Zeitalter%20der%20Entdeckungen%20%26%20Kolumbus+geschichte&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Zeitalter+der+Entdeckungen+Kolumbus&t=3752"
   },
   "reformation-und-dreissigjaehriger-krieg": {
     "slug": "reformation-und-dreissigjaehriger-krieg",
@@ -882,6 +1026,16 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "6712",
         "title": "Reformation und ihre Folgen",
         "folder": "reformation-und-ihre-folgen-6712"
+      },
+      {
+        "id": "6526",
+        "title": "Der reformationstag",
+        "folder": "der-reformationstag-6526"
+      },
+      {
+        "id": "2912",
+        "title": "Der Augsburger Religionsfriede",
+        "folder": "der-augsburger-religionsfriede-2912"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Reformation%2C%20Glaubensspaltung%20%26%20Drei%C3%9Figj%C3%A4hriger%20Krieg+geschichte&t=3752"
@@ -924,32 +1078,29 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "3374",
         "title": "Absolutismus",
         "folder": "absolutismus-2-3374"
+      },
+      {
+        "id": "2319",
+        "title": "Der englische Bürgerkrieg",
+        "folder": "der-englische-burgerkrieg-2319"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Absolutismus%20Ludwig%20XIV+geschichte&t=3752"
   },
-  "aufklaerung-und-franzoesische-revolution": {
-    "slug": "aufklaerung-und-franzoesische-revolution",
-    "title": "Aufklärung & die Französische Revolution 1789",
+  "die-aufklaerung-ideen-und-denker": {
+    "slug": "die-aufklaerung-ideen-und-denker",
+    "title": "Die Aufklärung: Ideen, Vernunft & Philosophen",
     "category": "Frühe Neuzeit & Revolutionen",
-    "shortDesc": "Kant, Gewaltenteilung (Montesquieu), Sturm auf die Bastille, Erklärung der Menschenrechte und Jakobinerherrschaft.",
-    "longDesc": "Die Französische Revolution war ein einschneidendes Ereignis in der europäischen Geschichte, das Frankreich und die Welt nachhaltig veränderte. Dieses Video fasst die wichtigsten Ereignisse zusammen. Vor der Revolution existierte in Frankreich eine Ständegesellschaft. Dabei mussten der dritte Stand, bestehend aus Bürgern, Bauern und Arbeitern, alle Steuern bezahlen, während der Klerus und der Adel privilegiert waren. Aufgrund dieser Ungerechtigkeit und wirtschaftlicher Not kam es zu Aufständen und Plünderungen. Schließlich mündeten diese Unruhen 1789 im Sturm auf die Bastille, dem Staatsgefängnis, was als Beginn der Revolution gilt.",
+    "shortDesc": "Kant, Rousseau, Gewaltenteilung, Menschenrechte und das Zeitalter der Vernunft.",
+    "longDesc": "„Habe Mut, dich deines eigenen Verstandes zu bedienen!“ Mit diesem Leitspruch forderte Immanuel Kant die Menschen auf, Dogmen zu hinterfragen. Lerne die Denker der europäischen Aufklärung (Kant, Rousseau, Locke, Montesquieu) und ihre Ideen von Freiheit, Toleranz und Gewaltenteilung kennen.",
     "keyPoints": [
-      "Die Forderung nach Gleichheit, Freiheit und Brüderlichkeit: Die Revolutionäre forderten Gleichheit vor dem Gesetz, persönliche Freiheit und Brüderlichkeit unter allen Bürgern. Dadurch stellten sie die bestehende Ordnung radikal in Frage.",
-      "Die Entmachtung und Hinrichtung des Königs: Im Zuge der Revolution wurde der König entmachtet und später hingerichtet. Somit endete die Monarchie in Frankreich vorläufig.",
-      "Die Schreckensherrschaft und Napoleon: Nach der Hinrichtung des Königs folgte eine Phase der Schreckensherrschaft mit verschiedenen Anführern. Schließlich beendete Napoleon Bonaparte die Revolution 1799 durch einen Staatsstreich und errichtete eine neue Ordnung.",
-      "Die Betonung der Vernunft: Die Aufklärer betonten die Bedeutung der menschlichen Vernunft als wichtigstes Instrument zur Erkenntnis der Welt. Dadurch stellten sie traditionelle religiöse und politische Dogmen in Frage.",
-      "Die Forderung nach Toleranz und Menschenrechten: Die Aufklärung setzte sich für Toleranz gegenüber Andersdenkenden und für die Verwirklichung der Menschenrechte ein. Ebenso forderten sie die Trennung von Staat und Kirche.",
-      "Die Verbreitung von Wissen durch Enzyklopädien: Die Aufklärung förderte die Verbreitung von Wissen durch Enzyklopädien und andere Publikationen. Somit wurde Bildung einem breiteren Publikum zugänglich gemacht.",
-      "Der Gesellschaftsvertrag: In diesem Werk entwickelte Rousseau die Idee vom „edlen Wilden“, der frei und glücklich in der Natur lebt. Außerdem argumentierte er für einen Gesellschaftsvertrag, der den allgemeinen Willen der Bürger berücksichtigt.",
-      "Emil oder Über die Erziehung: Dieses Werk befasst sich intensiv mit der Erziehung des Menschen. Dabei betonte Rousseau die Bedeutung der natürlichen Entwicklung des Kindes und die Förderung der Selbstständigkeit."
+      "Leitgedanke: Vernunft (Rationalismus) und Erfahrung (Empirismus) als Maßstab allen Handelns",
+      "Immanuel Kant: Kritik der reinen Vernunft und der Kategorische Imperativ als moralisches Handlungsgesetz",
+      "Gewaltenteilung nach Montesquieu: Trennung in Legislative (Gesetzgebung), Exekutive (Ausführung) und Judikative (Rechtsprechung)",
+      "Gesellschaftsvertrag nach Rousseau: Volkssouveränität und Gemeinwille gegen absolute Fürstenherrschaft",
+      "Toleranz und Menschenrechte: Bekämpfung religiöser Intoleranz, Zensur und Folter"
     ],
     "exercises": [
-      {
-        "id": "328",
-        "title": "Französische Revolution",
-        "folder": "franzosische-revolution-328"
-      },
       {
         "id": "1424",
         "title": "Immanuel Kant",
@@ -966,6 +1117,43 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "jean-jacques-rousseau-2363"
       },
       {
+        "id": "3966",
+        "title": "Immanuel Kant",
+        "folder": "immanuel-kant-2-3966"
+      },
+      {
+        "id": "5342",
+        "title": "Die Aufklärung",
+        "folder": "die-aufklarung-2-5342"
+      },
+      {
+        "id": "5748",
+        "title": "Denkformen der Aufklärung",
+        "folder": "denkformen-der-aufklarung-5748"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Die+Aufklaerung+Kant+Rousseau&t=3752"
+  },
+  "die-franzoesische-revolution-1789": {
+    "slug": "die-franzoesische-revolution-1789",
+    "title": "Die Französische Revolution (1789–1799)",
+    "category": "Frühe Neuzeit & Revolutionen",
+    "shortDesc": "Sturm auf die Bastille, Menschenrechtserklärung, Guillotine, Schreckensherrschaft von Robespierre und die Jakobiner.",
+    "longDesc": "Freiheit, Gleichheit, Brüderlichkeit (Liberté, Égalité, Fraternité): 1789 stürzte das französische Volk die alte Ordnung des Ancien Régime. Erfahre alles über den Ballhausschwur, die Erklärung der Menschenrechte, die Hinrichtung Ludwigs XVI. und die Schreckensherrschaft der Jakobiner.",
+    "keyPoints": [
+      "Ursachen: Staatsbankrott Frankreichs, Missernten und krasse Ungerechtigkeit der Drei-Stände-Ordnung",
+      "Ausbruch 1789: Einberufung der Generalstände, Ballhausschwur des Dritten Standes und Sturm auf die Bastille am 14. Juli",
+      "Erklärung der Menschen- und Bürgerrechte: Gleichheit aller Bürger vor dem Gesetz, Eigentums- und Meinungsfreiheit",
+      "Radikalisierung & Jakobiner-Terror: Hinrichtung Ludwigs XVI. 1793, Schreckensherrschaft (La Terreur) unter Maximilien de Robespierre",
+      "Folgen: Ende des Feudalismus in Europa, Trennung von Staat und Kirche und Entstehung moderner Verfassungsstaaten"
+    ],
+    "exercises": [
+      {
+        "id": "328",
+        "title": "Französische Revolution",
+        "folder": "franzosische-revolution-328"
+      },
+      {
         "id": "2948",
         "title": "Die Erklärung der Menschen- und Bürgerrechte 1789",
         "folder": "die-erklarung-der-menschen-und-burgerreichte-1789-2948"
@@ -977,7 +1165,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
       },
       {
         "id": "3232",
-        "title": "Escape Room \"Robespierre und Napoleon\"",
+        "title": "Escape Room 'Robespierre und Napoleon'",
         "folder": "escape-room-quot-robespierre-und-napoleon-quot-3232"
       },
       {
@@ -1006,16 +1194,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "die-franzosische-revolution-und-die-folgen-3366"
       },
       {
-        "id": "3966",
-        "title": "Immanuel Kant",
-        "folder": "immanuel-kant-2-3966"
-      },
-      {
-        "id": "5342",
-        "title": "Die Aufklärung",
-        "folder": "die-aufklarung-2-5342"
-      },
-      {
         "id": "5345",
         "title": "Die französische Revolution, Napoleon und die Folgen",
         "folder": "die-franzosische-revolution-napoleon-und-die-folgen-5345"
@@ -1026,12 +1204,12 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "was-ware-wenn-die-franzosische-revolution-gescheitert-ware-5409"
       },
       {
-        "id": "5748",
-        "title": "Denkformen der Aufklärung",
-        "folder": "denkformen-der-aufklarung-5748"
+        "id": "701",
+        "title": "Studypoint Zusammenfassung Ablauf der Revolution",
+        "folder": "studypoint-zusammenfassung-ablauf-der-revolution-701"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Aufkl%C3%A4rung%20%26%20Die%20Franz%C3%B6sische%20Revolution%201789+geschichte&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Franzoesische+Revolution+1789&t=3752"
   },
   "napoleon-bonaparte-und-wiener-kongress": {
     "slug": "napoleon-bonaparte-und-wiener-kongress",
@@ -1092,6 +1270,178 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Napoleon%20Bonaparte%20%26%20Der%20Wiener%20Kongress+geschichte&t=3752"
+  },
+  "aufklaerung-schulpflicht-und-reformen": {
+    "slug": "aufklaerung-schulpflicht-und-reformen",
+    "title": "Aufklärung, Bildung & Schulpflicht",
+    "category": "Frühe Neuzeit & Revolutionen",
+    "shortDesc": "Maria Theresia, Josephinismus, Allgemeine Schulordnung 1774 und die Emanzipation durch Bildung.",
+    "longDesc": "Im 18. Jahrhundert erfasste der Geist der europäischen Aufklärung auch die Habsburgermonarchie. Mit der Einführung der allgemeinen Schulpflicht 1774 legte Maria Theresia den Grundstein für das moderne Bildungswesen.",
+    "keyPoints": [
+      "Allgemeine Schulordnung (1774): Einführung der 6-jährigen Schulpflicht für alle Jungen und Mädchen von 6 bis 12 Jahren",
+      "Drei Schultypen: Trivialschulen (auf dem Land), Hauptschulen (in Städten) und Normalschulen (zur Lehrerausbildung)",
+      "Leitziel der Aufklärung: 'Sapere aude!' (Habe Mut, dich deines eigenen Verstandes zu bedienen) – Überwindung von Analphabetismus und Aberglauben",
+      "Josephinismus: Kaiser Joseph II. schaffte die Leibeigenschaft ab und erließ das Toleranzpatent für Religionsfreiheit"
+    ],
+    "exercises": [
+      {
+        "id": "3160",
+        "title": "Die Einführung der Schulpflicht",
+        "folder": "die-einfuhrung-der-schulpflicht-3160"
+      },
+      {
+        "id": "3018",
+        "title": "Kaiser josef ii und seine reformen",
+        "folder": "kaiser-josef-ii-und-seine-reformen-3018"
+      },
+      {
+        "id": "3022",
+        "title": "Kaiserin maria theresia",
+        "folder": "kaiserin-maria-theresia-3022"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=schulpflicht+aufklaerung&t=3752"
+  },
+  "chronik-des-18-jahrhunderts": {
+    "slug": "chronik-des-18-jahrhunderts",
+    "title": "Chronik des 18. Jahrhunderts (1753–1785)",
+    "category": "Frühe Neuzeit & Revolutionen",
+    "shortDesc": "Jahreschronik der europäischen Aufklärung, des Siebenjährigen Krieges und der Vorboten der Moderne.",
+    "longDesc": "Die zweite Hälfte des 18. Jahrhunderts war eine Epoche tiefgreifender Umbrüche: Der Siebenjährige Krieg ordnete die Mächteverhältnisse neu, Philosophen wie Voltaire, Rousseau und Kant formulierten die Menschenrechte, und in Amerika entzündete sich der Unabhängigkeitskrieg.",
+    "keyPoints": [
+      "Siebenjähriger Krieg (1756–1763): Globaler Konflikt zwischen Preußen/Großbritannien und Österreich/Frankreich/Russland",
+      "Amerikanischer Unabhängigkeitskrieg (1775–1783): Unabhängigkeitserklärung der USA 1776 als Meilenstein moderner Demokratie",
+      "Kulturelle Blüte: Wiener Klassik (Haydn, Mozart), Aufklärungsliteratur und wissenschaftliche Enzyklopädien"
+    ],
+    "exercises": [
+      {
+        "id": "4864",
+        "title": "Das Jahr 1753 im Überblick",
+        "folder": "1753-4864"
+      },
+      {
+        "id": "4866",
+        "title": "Das Jahr 1755 im Überblick",
+        "folder": "1755-4866"
+      },
+      {
+        "id": "4868",
+        "title": "Das Jahr 1757 im Überblick",
+        "folder": "1757-4868"
+      },
+      {
+        "id": "4870",
+        "title": "Das Jahr 1759 im Überblick",
+        "folder": "1759-4870"
+      },
+      {
+        "id": "4872",
+        "title": "Das Jahr 1761 im Überblick",
+        "folder": "1761-4872"
+      },
+      {
+        "id": "4874",
+        "title": "Das Jahr 1763 im Überblick",
+        "folder": "1763-4874"
+      },
+      {
+        "id": "4876",
+        "title": "Das Jahr 1765 im Überblick",
+        "folder": "1765-4876"
+      },
+      {
+        "id": "4878",
+        "title": "Das Jahr 1767 im Überblick",
+        "folder": "1767-4878"
+      },
+      {
+        "id": "4880",
+        "title": "Das Jahr 1769 im Überblick",
+        "folder": "1769-4880"
+      },
+      {
+        "id": "4882",
+        "title": "Das Jahr 1771 im Überblick",
+        "folder": "1771-4882"
+      },
+      {
+        "id": "4884",
+        "title": "Das Jahr 1773 im Überblick",
+        "folder": "1773-4884"
+      },
+      {
+        "id": "4886",
+        "title": "Das Jahr 1775 im Überblick",
+        "folder": "1775-4886"
+      },
+      {
+        "id": "4888",
+        "title": "Das Jahr 1777 im Überblick",
+        "folder": "1777-4888"
+      },
+      {
+        "id": "4890",
+        "title": "Das Jahr 1779 im Überblick",
+        "folder": "1779-4890"
+      },
+      {
+        "id": "4892",
+        "title": "Das Jahr 1781 im Überblick",
+        "folder": "1781-4892"
+      },
+      {
+        "id": "4894",
+        "title": "Das Jahr 1783 im Überblick",
+        "folder": "1783-4894"
+      },
+      {
+        "id": "4896",
+        "title": "Das Jahr 1785 im Überblick",
+        "folder": "1785-4896"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=18+jahrhundert&t=3752"
+  },
+  "die-schweizer-eidgenossenschaft-und-bundesstaat": {
+    "slug": "die-schweizer-eidgenossenschaft-und-bundesstaat",
+    "title": "Schweizer Geschichte: Eidgenossenschaft & Bundesstaat",
+    "category": "Frühe Neuzeit & Revolutionen",
+    "shortDesc": "Vom Bundesbrief 1291 über die Helvetik und den Sonderbundskrieg zur Bundesverfassung 1848.",
+    "longDesc": "Die Entstehung der modernen Schweiz ist ein einzigartiger Prozess vom mittelalterlichen Bündnisgeflecht der Urkantone über fremde Vorherrschaft bis zum modernen Bundesstaat mit dauerhafter Neutralität.",
+    "keyPoints": [
+      "Bundesbrief von 1291: Bündnis der drei Waldstätte Uri, Schwyz und Unterwalden zur Wahrung ihres Friedens und Rechts",
+      "Alte Eidgenossenschaft: Dreizehn Alte Orte schufen ein Geflecht aus Bündnissen und Gemeinen Herrschaften",
+      "Helvetische Republik (1798–1803): Von Frankreich aufgezwungener Zentralstaat, Vorläufer moderner Bürgerrechte",
+      "Sonderbundskrieg (1847) & Bundesstaat (1848): Letzter Bürgerkrieg führte zur fortschrittlichen Bundesverfassung von 1848"
+    ],
+    "exercises": [
+      {
+        "id": "6301",
+        "title": "Der Bundesbrief von 1291",
+        "folder": "der-bundesbrief-von-1291-6301"
+      },
+      {
+        "id": "6342",
+        "title": "Die Alte Eidgenossenschaft",
+        "folder": "die-alte-eidgenossenschaft-6342"
+      },
+      {
+        "id": "6351",
+        "title": "Die Helvetische Republik",
+        "folder": "die-helvetische-republik-6351"
+      },
+      {
+        "id": "6335",
+        "title": "Der Sonderbundskrieg",
+        "folder": "der-sonderbundskrieg-6335"
+      },
+      {
+        "id": "6724",
+        "title": "Schweizer garde geschichte und aufgaben",
+        "folder": "schweizer-garde-geschichte-und-aufgaben-6724"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=schweizer+geschichte&t=3752"
   },
   "industrielle-revolution-und-soziale-frage": {
     "slug": "industrielle-revolution-und-soziale-frage",
@@ -1229,6 +1579,16 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "4956",
         "title": "Das Jahr 1848",
         "folder": "1848-4956"
+      },
+      {
+        "id": "2375",
+        "title": "Literaturepoche biedermeier",
+        "folder": "literaturepoche-biedermeier-2375"
+      },
+      {
+        "id": "2343",
+        "title": "Die Julirevolution",
+        "folder": "die-julirevolution-2343"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Vorm%C3%A4rz%20%26%20Die%20Revolution%20von%201848%2F49+geschichte&t=3752"
@@ -1247,11 +1607,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
       "Innenpolitik & Gesetze: Kulturkampf gegen das Zentrum, Sozialistengesetz gegen die Arbeiterbewegung und Einführung der bahnbrechenden Sozialversicherung (Kranken-, Unfall- und Rentenversicherung)"
     ],
     "exercises": [
-      {
-        "id": "348",
-        "title": "Deutschland im 19. Jahrhundert - deutscher Bund und Kaiserreich",
-        "folder": "deutschland-im-19-jahrhundert-deutscher-bund-und-kaiserreich-348"
-      },
       {
         "id": "2328",
         "title": "Die Außenpolitik des Deutschen Kaiserreichs",
@@ -1281,25 +1636,279 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "4979",
         "title": "1871",
         "folder": "1871-4979"
+      },
+      {
+        "id": "350",
+        "title": "Das osterreichische kaiserreich 2",
+        "folder": "das-osterreichische-kaiserreich-2-350"
+      },
+      {
+        "id": "2303",
+        "title": "Das chinesische kaiserreich",
+        "folder": "das-chinesische-kaiserreich-2303"
+      },
+      {
+        "id": "2337",
+        "title": "Die gesellschaft im deutschen kaiserreich",
+        "folder": "die-gesellschaft-im-deutschen-kaiserreich-2337"
+      },
+      {
+        "id": "2900",
+        "title": "Das deutsche kaiserreich",
+        "folder": "das-deutsche-kaiserreich-2900"
+      },
+      {
+        "id": "3020",
+        "title": "Kaiser wilhelm i",
+        "folder": "kaiser-wilhelm-i-3020"
+      },
+      {
+        "id": "3021",
+        "title": "Kaiser wilhelm ii",
+        "folder": "kaiser-wilhelm-ii-3021"
+      },
+      {
+        "id": "3313",
+        "title": "Hohepunkt und zerfall des sterreichischen kaiserreiches",
+        "folder": "hohepunkt-und-zerfall-des-sterreichischen-kaiserreiches-3313"
+      },
+      {
+        "id": "5334",
+        "title": "Das sterreichische kaiserreich",
+        "folder": "das-sterreichische-kaiserreich-5334"
+      },
+      {
+        "id": "5401",
+        "title": "Was ware wenn das deutsche kaiserreich zur demokratie reformiert worden ware",
+        "folder": "was-ware-wenn-das-deutsche-kaiserreich-zur-demokratie-reformiert-worden-ware-5401"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Otto%20von%20Bismarck%20%26%20Das%20Deutsche%20Kaiserreich+geschichte&t=3752"
   },
-  "der-erste-weltkrieg-1914-1918": {
-    "slug": "der-erste-weltkrieg-1914-1918",
-    "title": "Der Erste Weltkrieg (1914–1918)",
-    "category": "Erster Weltkrieg & Zwischenkriegszeit",
-    "shortDesc": "Attentat von Sarajevo, Julikrise, Schlieffen-Plan, Stellungskrieg bei Verdun, Materialschlachten und Versailler Vertrag.",
-    "longDesc": "Der Erste Weltkrieg war ein globaler Konflikt, der von 1914 bis 1918 dauerte und zu mehr als 17 Millionen Todesfällen führte. Er war der Auslöser für eine Reihe von weiteren Konflikten im 20. Jahrhundert, darunter der Zweite Weltkrieg und der Kalte Krieg. Die Ursachen des Ersten Weltkriegs waren komplex und vielfältig, aber einige der bedeutendsten Faktoren waren: Der Auslöser des Ersten Weltkriegs war die Ermordung des österreichischen Thronfolgers Erzherzog Franz Ferdinand und seiner Frau Sophie in Sarajevo am 28. Juni 1914. Österreich-Ungarn erließ daraufhin ein Ultimatum an Serbien, das Serbien nicht akzeptierte. Dies führte zur Kriegserklärung Österreich-Ungarns an Serbien.",
+  "kolonialismus-und-imperialismus": {
+    "slug": "kolonialismus-und-imperialismus",
+    "title": "Kolonialismus, Imperialismus & Globale Konflikte",
+    "category": "19. Jahrhundert & Deutsches Kaiserreich",
+    "shortDesc": "Britisches Empire, Kolonien in Afrika, amerikanischer Sezessionskrieg, Dreieckshandel und Apartheid.",
+    "longDesc": "Im Zeitalter des Hochimperialismus teilten die europäischen Großmächte die Welt unter sich auf. Lerne die wirtschaftliche Ausbeutung der Kolonien, den transatlantischen Sklavenhandel, das britische Empire in Indien, deutsche Kolonien in Afrika, den amerikanischen Bürgerkrieg und die Apartheid kennen.",
     "keyPoints": [
-      "Nationalismus: Viele Nationen in Europa glaubten, dass sie ein Recht auf ein eigenes Territorium und eine eigene Regierung haben. Dies führte zu Spannungen zwischen verschiedenen Gruppen, insbesondere zwischen den Deutschen und den Franzosen.",
-      "Imperialismus: Die europäischen Mächte waren bestrebt, ihre Kolonien in Afrika und Asien zu erweitern. Dies führte zu Konflikten zwischen den verschiedenen Mächten, insbesondere zwischen Großbritannien und Deutschland.",
-      "Militärismus: Die europäischen Mächte investierten massiv in ihre Armeen und Marinen. Dies führte zu einem Wettrüsten, das die Spannungen weiter verschärfte.",
-      "Allianzen: Die europäischen Mächte bildeten Allianzen, um sich gegenseitig zu schützen. Dies führte zu einem System von Bündnissen, das es schwierig machte, Konflikte zu lösen.",
-      "Kriegsbegeisterung zu Beginn, später Ernüchterung durch den Stellungskrieg",
-      "Einsatz neuer Waffen wie Panzer, Giftgas und U-Boote",
-      "Hungersnöte und wirtschaftliche Engpässe durch Ressourcenknappheit",
-      "Kriegsschauplätze nicht nur in Europa, sondern auch in Afrika und Asien"
+      "Imperialismus & Wettlauf um Afrika: Berliner Kongokampagne 1884/85 und Aufteilung des afrikanischen Kontinents",
+      "Britisches Empire: „Die Perle der Krone“ Indien und weltweites Kolonialreich der Krone",
+      "Deutsche Kolonialpolitik: Erwerb von Kolonien unter Bismarck und Wilhelm II. (Deutsch-Südwestafrika, Deutsch-Ostafrika)",
+      "Transatlantischer Dreieckshandel: Verschleppung von Millionen versklavter Menschen aus Afrika nach Amerika",
+      "Amerikanischer Bürgerkrieg (1861–1865): Sezessionskrieg zwischen Nord- und Südstaaten und Abschaffung der Sklaverei unter Lincoln",
+      "Apartheid in Südafrika: Gesetzliche Rassentrennung, Unterdrückung der schwarzen Bevölkerungsmehrheit und Nelson Mandela"
+    ],
+    "exercises": [
+      {
+        "id": "2293",
+        "title": "Ausbeutung Amerikas",
+        "folder": "ausbeutung-amerikas-2293"
+      },
+      {
+        "id": "2311",
+        "title": "Das portugiesische Kolonialreich",
+        "folder": "das-portugiesische-kolonialreich-2311"
+      },
+      {
+        "id": "2312",
+        "title": "Das Spanische Kolonialreich",
+        "folder": "das-spanische-kolonialreich-2312"
+      },
+      {
+        "id": "2365",
+        "title": "Kolonialpolitik in Afrika",
+        "folder": "kolonialpolitik-in-afrika-2365"
+      },
+      {
+        "id": "2899",
+        "title": "Das britische Empire",
+        "folder": "das-britische-empire-2899"
+      },
+      {
+        "id": "2932",
+        "title": "Der Transatlantische Sklavenhandel",
+        "folder": "der-transatlantische-sklavenhandel-2932"
+      },
+      {
+        "id": "2955",
+        "title": "Die Geschichte Mexikos",
+        "folder": "die-geschichte-mexikos-2955"
+      },
+      {
+        "id": "3061",
+        "title": "Spanien erobert Südamerika",
+        "folder": "spanien-erobert-sudamerika-3061"
+      },
+      {
+        "id": "3348",
+        "title": "Die größten Kolonialreiche",
+        "folder": "die-groesten-kolonialreiche-3348"
+      },
+      {
+        "id": "3153",
+        "title": "Der Atlantische Dreieckshandel",
+        "folder": "der-atlantische-dreieckshandel-3153"
+      },
+      {
+        "id": "743",
+        "title": "Der amerikanische Bürgerkrieg",
+        "folder": "der-amerikanische-burgerkrieg-743"
+      },
+      {
+        "id": "5335",
+        "title": "Der amerikanische Bürgerkrieg 2",
+        "folder": "der-amerikanische-burgerkrieg-2-5335"
+      },
+      {
+        "id": "824",
+        "title": "Indien als britische Kolonie",
+        "folder": "indien-als-britische-kolonie-824"
+      },
+      {
+        "id": "886",
+        "title": "Deutsche Kolonien",
+        "folder": "deutsche-kolonien-886"
+      },
+      {
+        "id": "887",
+        "title": "Die Apartheid in Südafrika",
+        "folder": "die-apartheid-887"
+      },
+      {
+        "id": "2072",
+        "title": "Die ehemaligen britischen Kolonien",
+        "folder": "die-ehemaligen-britischen-kolonien-2072"
+      },
+      {
+        "id": "2073",
+        "title": "Die ehemaligen deutschen Kolonien",
+        "folder": "die-ehemaligen-deutschen-kolonien-2073"
+      },
+      {
+        "id": "646",
+        "title": "China im 20. Jahrhundert",
+        "folder": "china-im-20-jahrhundert-646"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Kolonialismus+Imperialismus&t=3752"
+  },
+  "das-kaisertum-oesterreich-und-die-habsburger": {
+    "slug": "das-kaisertum-oesterreich-und-die-habsburger",
+    "title": "Das Kaisertum Österreich & Die Habsburgerdynastie",
+    "category": "19. Jahrhundert & Deutsches Kaiserreich",
+    "shortDesc": "Aufstieg zur Großmacht, Heiratspolitik, Franz Joseph I., Kaiserin Sisi und die Hofburg.",
+    "longDesc": "„Bella gerant alii, tu felix Austria nube“ (Kriege mögen andere führen, du glückliches Österreich heirate): Entdecke den Aufstieg des Hauses Habsburg zur europäischen Großmacht, die Gründung des Kaisertums Österreich 1804 und die Epoche von Kaiser Franz Joseph I.",
+    "keyPoints": [
+      "Habsburger Heiratspolitik: Territorialgewinne und Dynastiebildung durch geschickte Ehebündnisse quer durch Europa",
+      "Gründung des Kaisertums 1804: Franz I. begründet das österreichische Erbkaisertum als Reaktion auf Napoleons Krönung",
+      "Kaiser Franz Joseph I. (1848–1916): 68 Jahre Regentschaft, Bau der Wiener Ringstraße und Repräsentanz im Schloss Schönbrunn",
+      "Kaiserin Elisabeth („Sisi“): Legendäre Kaiserin, Reiselust und tragisches Schicksal in Genf 1898",
+      "Die Wiener Hofburg: Politisches Machtzentrum der Habsburger vom Mittelalter bis zum Ende der Monarchie"
+    ],
+    "exercises": [
+      {
+        "id": "349",
+        "title": "Das österreichische Kaiserreich",
+        "folder": "das-osterreichische-kaiserreich-349"
+      },
+      {
+        "id": "2313",
+        "title": "Aufstieg der Habsburger",
+        "folder": "aufstieg-der-habsburger-2313"
+      },
+      {
+        "id": "2891",
+        "title": "Aufstieg Österreichs zur Großmacht",
+        "folder": "aufstieg-sterreichs-zur-groesmacht-2891"
+      },
+      {
+        "id": "2959",
+        "title": "Die Heiratspolitik der Habsburger",
+        "folder": "die-heiratspolitik-der-habsburger-2959"
+      },
+      {
+        "id": "3312",
+        "title": "Die Habsburger",
+        "folder": "die-habsburger-3312"
+      },
+      {
+        "id": "5675",
+        "title": "Die Hofburg",
+        "folder": "die-hofburg-5675"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Habsburger+Kaisertum+Oesterreich&t=3752"
+  },
+  "oesterreich-ungarn-vielvoelkerstaat-und-regionalgeschichte": {
+    "slug": "oesterreich-ungarn-vielvoelkerstaat-und-regionalgeschichte",
+    "title": "Österreich-Ungarn: Vielvölkerstaat & Regionalgeschichte",
+    "category": "19. Jahrhundert & Deutsches Kaiserreich",
+    "shortDesc": "Ausgleich 1867, Doppelmonarchie, Nationalitätenkonflikte, Vorarlberger Landesgeschichte und Zerfall 1918.",
+    "longDesc": "Die österreichisch-ungarische Doppelmonarchie (k. u. k.) vereinte über ein Dutzend Nationalitäten auf ihrem Staatsgebiet. Lerne den Ausgleich mit Ungarn 1867, die regionalen Besonderheiten der Kronländer (wie Vorarlberg) und die Spannungen kennen, die 1918 zum Zerfall des Reiches führten.",
+    "keyPoints": [
+      "Der Ausgleich von 1867: Entstehung der Realunion Österreich-Ungarn mit gemeinsamen Ministerien (Äußeres, Krieg, Finanzen)",
+      "Vielvölkerstaat: Zusammenleben von Deutschen, Ungarn, Tschechen, Polen, Ukrainern, Slowaken, Kroaten, Serben, Rumänen und Italienern",
+      "Spannungsfeld Nationalismus: Wachsende Autonomiebestrebungen der slawischen Völker im Reich",
+      "Regionalgeschichte Vorarlbergs: Vom alamannischen Siedlungsraum über das Mittelalter bis zur Industrialisierung und Moderne",
+      "Zerfall der Monarchie 1918: Ende des Ersten Weltkriegs besiegelt den Untergang des Vielvölkerreiches und die Entstehung von Nationalstaaten"
+    ],
+    "exercises": [
+      {
+        "id": "2943",
+        "title": "Die doppelmonarchie sterreich ungarn",
+        "folder": "die-doppelmonarchie-sterreich-ungarn-2943"
+      },
+      {
+        "id": "1087",
+        "title": "Geschichte Vorarlbergs bis 500",
+        "folder": "geschichte-vorarlbergs-bis-500-1087"
+      },
+      {
+        "id": "1089",
+        "title": "Vorarlberg in der Neuzeit",
+        "folder": "vorarlberg-in-der-neuzeit-1089"
+      },
+      {
+        "id": "1090",
+        "title": "Geschichte Vorarlbergs ab 1900",
+        "folder": "geschichte-vorarlbergs-ab-1900-1090"
+      },
+      {
+        "id": "2360",
+        "title": "Vielvölkerstaat Österreich (1)",
+        "folder": "vielvolkerstaat-sterreich-2360"
+      },
+      {
+        "id": "2361",
+        "title": "Vielvölkerstaat Österreich (2)",
+        "folder": "vielvolkerstaat-sterreich-2361"
+      },
+      {
+        "id": "3070",
+        "title": "Zerfall der Habsburgmonarchie",
+        "folder": "zerfall-der-habsburgmonarchie-3070"
+      },
+      {
+        "id": "5402",
+        "title": "Was wäre wenn das Osmanische Reich nie zerfallen wäre",
+        "folder": "was-ware-wenn-das-osmanische-reich-nie-zerfallen-ware-5402"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Oesterreich-Ungarn+Vielvoelkerstaat&t=3752"
+  },
+  "der-erste-weltkrieg-ursachen-und-ausbruch": {
+    "slug": "der-erste-weltkrieg-ursachen-und-ausbruch",
+    "title": "Der Erste Weltkrieg: Ursachen, Bündnisse & Ausbruch",
+    "category": "Erster Weltkrieg & Zwischenkriegszeit",
+    "shortDesc": "Attentat von Sarajevo, Julikrise 1914, Wettrüsten, Bündnissysteme in Europa und Kriegsausbruch.",
+    "longDesc": "Die „Urkatastrophe des 20. Jahrhunderts“: Wie konnte aus einem regionalen Attentat auf den österreichischen Thronfolger Franz Ferdinand in Sarajevo ein globaler Flächenbrand entstehen? Lerne das Wettrüsten, die verfeindeten Bündnisblöcke und den verhängnisvollen Automatismus der Julikrise 1914 kennen.",
+    "keyPoints": [
+      "Bündnissysteme vor 1914: Dreibund (Deutschland, Österreich-Ungarn, Italien) vs. Triple Entente (Großbritannien, Frankreich, Russland)",
+      "Imperialismus & Wettrüsten: Flottenwettrüsten zwischen Deutschland und Großbritannien und Heeresvergrößerungen",
+      "Balkankrisen: Der Balkan als „Pulverfass Europas“ nach dem Zerfall des Osmanischen Reiches",
+      "Das Attentat von Sarajevo am 28. Juni 1914: Ermordung von Thronfolger Franz Ferdinand durch Gavrilo Princip",
+      "Die Julikrise 1914: Blankovollmacht des Deutschen Reiches, Ultimatum an Serbien und Kettenreaktion der Kriegserklärungen"
     ],
     "exercises": [
       {
@@ -1307,6 +1916,64 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "title": "Der Erste Weltkrieg - Gründe und Auslöser",
         "folder": "der-erste-weltkrieg-grunde-und-ausloser-351"
       },
+      {
+        "id": "2302",
+        "title": "Das Attentat von Sarajevo",
+        "folder": "das-attentat-von-sarajevo-2302"
+      },
+      {
+        "id": "3010",
+        "title": "Italien im Ersten Weltkrieg",
+        "folder": "italien-im-ersten-weltkrieg-3010"
+      },
+      {
+        "id": "3017",
+        "title": "Kaiser Franz Josef I.",
+        "folder": "kaiser-franz-josef-ii-3017"
+      },
+      {
+        "id": "3068",
+        "title": "Wladimir Iljitsch Lenin",
+        "folder": "wladimir-iljitsch-lenin-3068"
+      },
+      {
+        "id": "3304",
+        "title": "Österreich im Ersten Weltkrieg",
+        "folder": "sterreich-im-ersten-weltkrieg-3304"
+      },
+      {
+        "id": "3106",
+        "title": "Die Heimsuchung - 1912 - Vorkriegszeit des Ersten Weltkriegs und Antisemitismus",
+        "folder": "die-heimsuchung-1912-vorkriegszeit-des-ersten-weltkriegs-und-antisemitismus-3106"
+      },
+      {
+        "id": "3066",
+        "title": "Wettrüsten und Blockbildung vor dem Ersten Weltkrieg",
+        "folder": "wettrusten-und-blockbildung-vor-dem-ersten-weltkrieg-3066"
+      },
+      {
+        "id": "5406",
+        "title": "Was wäre, wenn Deutschland den Ersten Weltkrieg gewonnen hätte …",
+        "folder": "was-ware-wenn-deutschland-den-ersten-weltkrieg-gewonnen-hatte-5406"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Erster+Weltkrieg+Ursachen+1914&t=3752"
+  },
+  "der-erste-weltkrieg-verlauf-und-folgen": {
+    "slug": "der-erste-weltkrieg-verlauf-und-folgen",
+    "title": "Der Erste Weltkrieg: Materialschlachten, Epochenwende & Frieden",
+    "category": "Erster Weltkrieg & Zwischenkriegszeit",
+    "shortDesc": "Stellungskrieg an der Westfront, Verdun, Kriegseintritt der USA, Pariser Vorortverträge (Versailles, St. Germain) und Völkerbund.",
+    "longDesc": "Der erste industrialisierte Massenkrieg der Geschichte: Maschinengewehre, Giftgas, Flugzeuge und Panzer führten an der Westfront zu jahrelangem, zermürbendem Stellungskrieg. Lerne die Hölle von Verdun, den Kriegseintritt der USA 1917 und die Friedensverträge von 1919 kennen.",
+    "keyPoints": [
+      "Stellungskrieg & Grabenkrieg: Scheitern des Schlieffen-Plans und Erstarrung der Westfront in Schützengräben",
+      "Materialschlachten 1916: Unerbittliches Trommelfeuer und Massensterben vor Verdun und an der Somme",
+      "Neue Kriegswaffentechnologie: Einsatz von Giftgas, Flammenwerfern, Flugzeugen, Zeppelinen, U-Booten und Panzern",
+      "Wendejahr 1917: Oktoberrevolution und Kriegsaustritt Russlands sowie Kriegseintritt der USA",
+      "Pariser Vorortverträge: Vertrag von Versailles (Kriegsschuldartikel 231, Gebietsabtretungen) und Vertrag von St. Germain für Österreich",
+      "Völkerbund & 14-Punkte-Plan: Wilsons Vision einer kollektiven Friedensordnung und Nachkriegskrisen"
+    ],
+    "exercises": [
       {
         "id": "352",
         "title": "Der erste Weltkrieg - Verlauf",
@@ -1316,11 +1983,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "353",
         "title": "Der Erste Weltkrieg - Ende und Folgen",
         "folder": "der-erste-weltkrieg-ende-und-folgen-353"
-      },
-      {
-        "id": "2302",
-        "title": "Das Attentat von Sarajevo",
-        "folder": "das-attentat-von-sarajevo-2302"
       },
       {
         "id": "2305",
@@ -1358,34 +2020,14 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "die-sudtirolfrage-2981"
       },
       {
-        "id": "3010",
-        "title": "Italien im Ersten Weltkrieg",
-        "folder": "italien-im-ersten-weltkrieg-3010"
-      },
-      {
-        "id": "3017",
-        "title": "Kaiser Franz Josef I.",
-        "folder": "kaiser-franz-josef-ii-3017"
-      },
-      {
         "id": "3024",
         "title": "Karl Renner",
         "folder": "karl-renner-3024"
       },
       {
-        "id": "3068",
-        "title": "Wladimir Iljitsch Lenin",
-        "folder": "wladimir-iljitsch-lenin-3068"
-      },
-      {
         "id": "3171",
         "title": "Die USA im Ersten Weltkrieg",
         "folder": "die-usa-im-ersten-weltkrieg-3171"
-      },
-      {
-        "id": "3304",
-        "title": "Österreich im Ersten Weltkrieg",
-        "folder": "sterreich-im-ersten-weltkrieg-3304"
       },
       {
         "id": "3329",
@@ -1398,11 +2040,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "ende-und-folgen-des-ersten-weltkriegs-3330"
       },
       {
-        "id": "3106",
-        "title": "Die Heimsuchung - 1912 - Vorkriegszeit des Ersten Weltkriegs und Antisemitismus",
-        "folder": "die-heimsuchung-1912-vorkriegszeit-des-ersten-weltkriegs-und-antisemitismus-3106"
-      },
-      {
         "id": "3080",
         "title": "Arbeitslosigkeit nach dem Ersten Weltkrieg",
         "folder": "arbeitslosigkeit-nach-dem-ersten-weltkrieg-11-3080"
@@ -1413,27 +2050,22 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "arbeitslosigkeit-nach-dem-ersten-weltkrieg-6-3075"
       },
       {
-        "id": "3066",
-        "title": "Wettrüsten und Blockbildung vor dem Ersten Weltkrieg",
-        "folder": "wettrusten-und-blockbildung-vor-dem-ersten-weltkrieg-3066"
-      },
-      {
         "id": "5337",
         "title": "Der Erste Weltkrieg",
         "folder": "der-erste-weltkrieg-5337"
       },
       {
-        "id": "5406",
-        "title": "Was wäre, wenn Deutschland den Ersten Weltkrieg gewonnen hätte …",
-        "folder": "was-ware-wenn-deutschland-den-ersten-weltkrieg-gewonnen-hatte-5406"
-      },
-      {
         "id": "5422",
         "title": "Was wäre, wenn Österreich-Ungarn den Ersten Weltkrieg überlebt hätte …",
         "folder": "was-ware-wenn-sterreich-ungarn-den-ersten-weltkrieg-uberlebt-hatte-5422"
+      },
+      {
+        "id": "2892",
+        "title": "Ausrufung der republik sterreich 1918",
+        "folder": "ausrufung-der-republik-sterreich-1918-2892"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Der%20Erste%20Weltkrieg%20(1914%E2%80%931918)+geschichte&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Erster+Weltkrieg+Verlauf+Versailles&t=3752"
   },
   "die-weimarer-republik-1918-1933": {
     "slug": "die-weimarer-republik-1918-1933",
@@ -1481,6 +2113,11 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "3067",
         "title": "Wirtschaft der Weimarer Republik",
         "folder": "wirtschaft-der-weimarer-republik-3067"
+      },
+      {
+        "id": "3048",
+        "title": "Paul von Hindenburg",
+        "folder": "paul-von-hindenburg-3048"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Die%20Weimarer%20Republik%20%26%20Krisenjahre+geschichte&t=3752"
@@ -1574,6 +2211,32 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Zwischenkriegszeit%20%26%20Faschismus%20in%20Europa+geschichte&t=3752"
+  },
+  "weimarer-republik-und-grossstadtkrisen": {
+    "slug": "weimarer-republik-und-grossstadtkrisen",
+    "title": "Die Weimarer Republik: Großstadtleben & Wirtschaftskrisen",
+    "category": "Erster Weltkrieg & Zwischenkriegszeit",
+    "shortDesc": "Goldene Zwanziger, Inflation, Massenarbeitslosigkeit und Alfred Döblins Berlin Alexanderplatz.",
+    "longDesc": "Die erste deutsche Demokratie war geprägt vom Spannungsfeld zwischen kultureller Avantgarde der 'Goldenen Zwanziger' und tiefgreifenden sozialen Krisen wie Hyperinflation, Not und Massenarbeitslosigkeit.",
+    "keyPoints": [
+      "Großstadtleben in Berlin: Metropole der Kunst, des Kinos, Kabaretts und der neuen Medien – zugleich Schauplatz sozialer Not",
+      "Alfred Döblins 'Berlin Alexanderplatz' (1929): Meisterwerk der literarischen Moderne über das Schicksal von Franz Biberkopf im Großstadtdschungel",
+      "Weltwirtschaftskrise (1929): Zusammenbruch der New Yorker Börse (Schwarzer Freitag) löste weltweite Massenarbeitslosigkeit aus",
+      "Radikalisierung: Wirtschaftliche Verzweiflung trieb Wähler zu den extremen Rändern (KPD und NSDAP)"
+    ],
+    "exercises": [
+      {
+        "id": "4507",
+        "title": "Alfred Döblin – Berlin Alexanderplatz",
+        "folder": "alfred-doblin-berlin-alexanderplatz-2-4507"
+      },
+      {
+        "id": "3078",
+        "title": "Arbeitslosigkeit nach dem Ersten Weltkrieg",
+        "folder": "arbeitslosigkeit-nach-dem-ersten-weltkrieg-9-3078"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=weimarer+republik&t=3752"
   },
   "machtergreifung-und-ns-ideologie": {
     "slug": "machtergreifung-und-ns-ideologie",
@@ -1671,9 +2334,230 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "3610",
         "title": "Adolf Hitler",
         "folder": "adolf-hitler-2-3610"
+      },
+      {
+        "id": "2289",
+        "title": "Adolf Hitler",
+        "folder": "adolf-hitler-2289"
+      },
+      {
+        "id": "5419",
+        "title": "Was wäre wenn Hitler an der Kunstakademie angenommen worden wäre",
+        "folder": "was-ware-wenn-hitler-an-der-kunstakademie-angenommen-worden-ware-5419"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Machtergreifung%2C%20NS-Ideologie%20%26%20F%C3%BChrerstaat+geschichte&t=3752"
+  },
+  "der-zweite-weltkrieg-weg-in-den-krieg-und-blitzkriege": {
+    "slug": "der-zweite-weltkrieg-weg-in-den-krieg-und-blitzkriege",
+    "title": "Der Zweite Weltkrieg: Weg in den Krieg & Blitzkriege",
+    "category": "Nationalsozialismus & Zweiter Weltkrieg",
+    "shortDesc": "Aufrüstung, Münchner Abkommen 1938, Hitler-Stalin-Pakt, Überfall auf Polen, Westfeldzug und Luftschlacht um England.",
+    "longDesc": "Wie Hitler Europa in den Abgrund stürzte: Lerne die aggressive Außenpolitik des NS-Regimes, das Versagen der Appeasementpolitik, den Überfall auf Polen am 1. September 1939 und die Phase der scheinbar unaufhaltsamen „Blitzkriege“ kennen.",
+    "keyPoints": [
+      "Revision des Versailler Vertrages: Wiedereinführung der Wehrpflicht 1935 und Remilitarisierung des Rheinlandes",
+      "Appeasement & Münchner Abkommen 1938: Nachgiebigkeit Großbritanniens und Frankreichs und Zerschlagung der Tschechoslowakei",
+      "Hitler-Stalin-Pakt 1939: Zynischer Nichtangriffspakt mit geheimem Zusatzprotokoll zur Aufteilung Polens",
+      "Überfall auf Polen am 1. September 1939: Beginn des Zweiten Weltkriegs in Europa",
+      "Blitzkriege im Westen 1940: Besetzung Dänemarks, Norwegens, der Benelux-Staaten und Kapitulation Frankreichs",
+      "Luftschlacht um England: Erste strategische Niederlage der deutschen Luftwaffe gegen die Royal Air Force"
+    ],
+    "exercises": [
+      {
+        "id": "421",
+        "title": "Der Weg in den Zweiten Weltkrieg",
+        "folder": "der-weg-in-den-zweiten-weltkrieg-421"
+      },
+      {
+        "id": "697",
+        "title": "Studypoint - multiple choice - Zweiter Weltkrieg",
+        "folder": "studypoint-multiple-choice-zweiter-weltkrieg-697"
+      },
+      {
+        "id": "2362",
+        "title": "Hitlers Außenpolitik",
+        "folder": "hitlers-auesenpolitik-2362"
+      },
+      {
+        "id": "2888",
+        "title": "Appeasementpolitik der Westmächte",
+        "folder": "appeasementpolitik-der-westmachte-2888"
+      },
+      {
+        "id": "2890",
+        "title": "Aufrüstung des nationalsozialistischen Deutschlands",
+        "folder": "aufrustung-des-nationalsozialistischen-deutschlands-2890"
+      },
+      {
+        "id": "2905",
+        "title": "Das Münchner Abkommen",
+        "folder": "das-munchner-abkommen-2905"
+      },
+      {
+        "id": "2911",
+        "title": "Der Anschluss Österreichs",
+        "folder": "der-anschluss-sterreichs-2911"
+      },
+      {
+        "id": "2913",
+        "title": "Der Blitzkrieg",
+        "folder": "der-blitzkrieg-2913"
+      },
+      {
+        "id": "2964",
+        "title": "Die Luftschlacht um England",
+        "folder": "die-luftschlacht-um-england-2964"
+      },
+      {
+        "id": "2995",
+        "title": "Einmarsch deutscher Truppen in Böhmen und Mähren",
+        "folder": "einmarsch-deutscher-truppen-in-bohmen-und-mahren-2995"
+      },
+      {
+        "id": "3039",
+        "title": "Nichtangriffspakt Hitlers mit Stalin",
+        "folder": "nichtangriffspakt-hitlers-mit-stalin-3039"
+      },
+      {
+        "id": "3305",
+        "title": "Österreich im Zweiten Weltkrieg",
+        "folder": "sterreich-im-zweiten-weltkrieg-3305"
+      },
+      {
+        "id": "3307",
+        "title": "Der Weg in den Zweiten Weltkrieg",
+        "folder": "der-weg-in-den-zweiten-weltkrieg-2-3307"
+      },
+      {
+        "id": "3318",
+        "title": "Beginn des Zweiten Weltkriegs",
+        "folder": "beginn-des-zweiten-weltkriegs-3318"
+      },
+      {
+        "id": "6579",
+        "title": "Der Vatikan im Zweiten Weltkrieg",
+        "folder": "der-vatikan-im-zweiten-weltkrieg-6579"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Zweiter+Weltkrieg+Blitzkrieg+1939&t=3752"
+  },
+  "der-zweite-weltkrieg-wendepunkte-und-kriegsende": {
+    "slug": "der-zweite-weltkrieg-wendepunkte-und-kriegsende",
+    "title": "Der Zweite Weltkrieg: Wendepunkte, Totaler Krieg & Kriegsende",
+    "category": "Nationalsozialismus & Zweiter Weltkrieg",
+    "shortDesc": "Stalingrad, Kriegseintritt der USA nach Pearl Harbor, D-Day, Bombennächte, Atombombenabwurf und bedingungslose Kapitulation 1945.",
+    "longDesc": "Vom Vernichtungskrieg im Osten bis zur totalen Niederlage: Lerne die entscheidenden Wendepunkte des Zweiten Weltkriegs kennen – die Schlacht von Stalingrad, den Eintritt der USA nach Pearl Harbor, die Invasion in der Normandie (D-Day) und das Ende durch die Atombombenabwürfe auf Hiroshima und Nagasaki.",
+    "keyPoints": [
+      "Unternehmen Barbarossa 1941: Rassenideologischer Vernichtungskrieg gegen die Sowjetunion",
+      "Pearl Harbor & Kriegseintritt der USA: Japanischer Angriff am 7. Dezember 1941 macht den Krieg zum Weltkrieg",
+      "Schlacht von Stalingrad (Winter 1942/43): Psychologischer und militärischer Wendepunkt an der Ostfront",
+      "Der „Totale Krieg“: Goebbels Sportpalastrede 1943, Mobilisierung der Heimatfront und alliierter Bombenkrieg",
+      "D-Day am 6. Juni 1944: Landung der Alliierten in der Normandie eröffnet die zweite Front im Westen",
+      "Kriegsende & Kapitulation 1945: Selbstmord Hitlers, bedingungslose Kapitulation am 8. Mai 1945 und Atombomben auf Japan"
+    ],
+    "exercises": [
+      {
+        "id": "422",
+        "title": "Der Verlauf des Zweiten Weltkriegs",
+        "folder": "der-verlauf-des-zweiten-weltkriegs-422"
+      },
+      {
+        "id": "423",
+        "title": "Die Folgen des Zweiten Weltkriegs",
+        "folder": "die-folgen-des-zweiten-weltkriegs-423"
+      },
+      {
+        "id": "2910",
+        "title": "Der Angriff des Deutschen Reiches auf die Sowjetunion",
+        "folder": "der-angriff-des-deutschen-reiches-auf-die-sowjetunion-2910"
+      },
+      {
+        "id": "2915",
+        "title": "Der D-Day",
+        "folder": "der-d-day-2915"
+      },
+      {
+        "id": "2926",
+        "title": "Der Russlandfeldzug des NS Deutschland",
+        "folder": "der-russlandfeldzug-des-ns-deutschland-2926"
+      },
+      {
+        "id": "2931",
+        "title": "Der totale Krieg",
+        "folder": "der-totale-krieg-2931"
+      },
+      {
+        "id": "2949",
+        "title": "Die erste Atombombe",
+        "folder": "die-erste-atombombe-2949"
+      },
+      {
+        "id": "2965",
+        "title": "Die Moskauer Deklaration und die Konferenz in Jalta",
+        "folder": "die-moskauer-deklaration-und-die-konferenz-in-jalta-2965"
+      },
+      {
+        "id": "3011",
+        "title": "Italien im Zweiten Weltkrieg",
+        "folder": "italien-im-zweiten-weltkrieg-3011"
+      },
+      {
+        "id": "3012",
+        "title": "Japan im Zweiten Weltkrieg",
+        "folder": "japan-im-zweiten-weltkrieg-3012"
+      },
+      {
+        "id": "3044",
+        "title": "Oskar Schindler",
+        "folder": "oskar-schindler-3044"
+      },
+      {
+        "id": "3049",
+        "title": "Pearl Harbor",
+        "folder": "pearl-harbor-3049"
+      },
+      {
+        "id": "3058",
+        "title": "Schlacht von Stalingrad",
+        "folder": "schlacht-von-stalingrad-3058"
+      },
+      {
+        "id": "3064",
+        "title": "Vertreibung nach dem Zweiten Weltkrieg",
+        "folder": "vertreibung-nach-dem-zweiten-weltkrieg-3064"
+      },
+      {
+        "id": "3317",
+        "title": "Österreich nach dem Zweiten Weltkrieg",
+        "folder": "sterreich-nach-dem-zweiten-weltkrieg-3317"
+      },
+      {
+        "id": "3319",
+        "title": "Verlauf des Zweiten Weltkriegs",
+        "folder": "verlauf-des-zweiten-weltkriegs-3319"
+      },
+      {
+        "id": "3320",
+        "title": "Ende und Folgen des Zweiten Weltkriegs",
+        "folder": "ende-und-folgen-des-zweiten-weltkriegs-3320"
+      },
+      {
+        "id": "5341",
+        "title": "Der Zweite Weltkrieg",
+        "folder": "der-zweite-weltkrieg-5341"
+      },
+      {
+        "id": "5407",
+        "title": "Was wäre, wenn Deutschland den Zweiten Weltkrieg gewonnen hätte …",
+        "folder": "was-ware-wenn-deutschland-den-zweiten-weltkrieg-gewonnen-hatte-5407"
+      },
+      {
+        "id": "5414",
+        "title": "Was wäre, wenn die USA nie in den Zweiten Weltkrieg eingetreten wären …",
+        "folder": "was-ware-wenn-die-usa-nie-in-den-zweiten-weltkrieg-eingetreten-waren-5414"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Zweiter+Weltkrieg+Stalingrad+DDay&t=3752"
   },
   "der-holocaust-und-die-judenverfolgung": {
     "slug": "der-holocaust-und-die-judenverfolgung",
@@ -1734,201 +2618,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Der%20Holocaust%20%26%20Die%20Verfolgung%20der%20Juden+geschichte&t=3752"
-  },
-  "der-zweite-weltkrieg-1939-1945": {
-    "slug": "der-zweite-weltkrieg-1939-1945",
-    "title": "Der Zweite Weltkrieg (1939–1945)",
-    "category": "Nationalsozialismus & Zweiter Weltkrieg",
-    "shortDesc": "Überfall auf Polen, Blitzkriege, Angriff auf die UdSSR, Schlacht um Stalingrad, D-Day und bedingungslose Kapitulation 1945.",
-    "longDesc": "Der Weg in den Zweiten Weltkrieg war geprägt von aggressiver Aufrüstung, territorialer Expansion und politischen Fehleinschätzungen. Die Achsenmächte, allen voran das Deutsche Reich, sorgten für zunehmende Spannungen in Europa. Schließlich eskalierten die Konflikte, und der Krieg brach aus. In den Jahren vor dem Zweiten Weltkrieg verstärkten die Achsenmächte ihre militärische Präsenz erheblich. Deutschland führte die Wehrpflicht wieder ein und rüstete massiv auf. Italien griff Äthiopien an, während Japan einen Krieg gegen China führte. Gleichzeitig dehnte das Deutsche Reich sein Einflussgebiet aus, indem es Österreich annektierte und das Sudetenland besetzte. Besonders das Münchner Abkommen, das eine friedliche Lösung versprechen sollte, wurde schnell von Hitler gebrochen, als er Böhmen und Mähren besetzte. Der Weg in den Zweiten Weltkrieg war damit unumkehrbar.",
-    "keyPoints": [
-      "Die massive Aufrüstung des Deutschen Reiches",
-      "Die aggressive Expansion in Europa",
-      "Die Politik der Westmächte, die anfangs beschwichtigend reagierten",
-      "Der deutsch-sowjetische Nichtangriffspakt mit geheimer Gebietsaufteilung Polens",
-      "Der Überfall auf Polen am 1. September 1939",
-      "Die Kriegserklärung Englands und Frankreichs an Deutschland",
-      "Deutsche Expansion bereits vor Kriegsbeginn",
-      "Blitzkrieg in Polen, Frankreich und anderen Ländern"
-    ],
-    "exercises": [
-      {
-        "id": "421",
-        "title": "Der Weg in den Zweiten Weltkrieg",
-        "folder": "der-weg-in-den-zweiten-weltkrieg-421"
-      },
-      {
-        "id": "422",
-        "title": "Der Verlauf des Zweiten Weltkriegs",
-        "folder": "der-verlauf-des-zweiten-weltkriegs-422"
-      },
-      {
-        "id": "423",
-        "title": "Die Folgen des Zweiten Weltkriegs",
-        "folder": "die-folgen-des-zweiten-weltkriegs-423"
-      },
-      {
-        "id": "697",
-        "title": "Studypoint - multiple choice - Zweiter Weltkrieg",
-        "folder": "studypoint-multiple-choice-zweiter-weltkrieg-697"
-      },
-      {
-        "id": "2362",
-        "title": "Hitlers Außenpolitik",
-        "folder": "hitlers-auesenpolitik-2362"
-      },
-      {
-        "id": "2888",
-        "title": "Appeasementpolitik der Westmächte",
-        "folder": "appeasementpolitik-der-westmachte-2888"
-      },
-      {
-        "id": "2890",
-        "title": "Aufrüstung des nationalsozialistischen Deutschlands",
-        "folder": "aufrustung-des-nationalsozialistischen-deutschlands-2890"
-      },
-      {
-        "id": "2905",
-        "title": "Das Münchner Abkommen",
-        "folder": "das-munchner-abkommen-2905"
-      },
-      {
-        "id": "2910",
-        "title": "Der Angriff des Deutschen Reiches auf die Sowjetunion",
-        "folder": "der-angriff-des-deutschen-reiches-auf-die-sowjetunion-2910"
-      },
-      {
-        "id": "2911",
-        "title": "Der Anschluss Österreichs",
-        "folder": "der-anschluss-sterreichs-2911"
-      },
-      {
-        "id": "2913",
-        "title": "Der Blitzkrieg",
-        "folder": "der-blitzkrieg-2913"
-      },
-      {
-        "id": "2915",
-        "title": "Der D-Day",
-        "folder": "der-d-day-2915"
-      },
-      {
-        "id": "2926",
-        "title": "Der Russlandfeldzug des NS Deutschland",
-        "folder": "der-russlandfeldzug-des-ns-deutschland-2926"
-      },
-      {
-        "id": "2931",
-        "title": "Der totale Krieg",
-        "folder": "der-totale-krieg-2931"
-      },
-      {
-        "id": "2949",
-        "title": "Die erste Atombombe",
-        "folder": "die-erste-atombombe-2949"
-      },
-      {
-        "id": "2964",
-        "title": "Die Luftschlacht um England",
-        "folder": "die-luftschlacht-um-england-2964"
-      },
-      {
-        "id": "2965",
-        "title": "Die Moskauer Deklaration und die Konferenz in Jalta",
-        "folder": "die-moskauer-deklaration-und-die-konferenz-in-jalta-2965"
-      },
-      {
-        "id": "2995",
-        "title": "Einmarsch deutscher Truppen in Böhmen und Mähren",
-        "folder": "einmarsch-deutscher-truppen-in-bohmen-und-mahren-2995"
-      },
-      {
-        "id": "3011",
-        "title": "Italien im Zweiten Weltkrieg",
-        "folder": "italien-im-zweiten-weltkrieg-3011"
-      },
-      {
-        "id": "3012",
-        "title": "Japan im Zweiten Weltkrieg",
-        "folder": "japan-im-zweiten-weltkrieg-3012"
-      },
-      {
-        "id": "3039",
-        "title": "Nichtangriffspakt Hitlers mit Stalin",
-        "folder": "nichtangriffspakt-hitlers-mit-stalin-3039"
-      },
-      {
-        "id": "3044",
-        "title": "Oskar Schindler",
-        "folder": "oskar-schindler-3044"
-      },
-      {
-        "id": "3049",
-        "title": "Pearl Harbor",
-        "folder": "pearl-harbor-3049"
-      },
-      {
-        "id": "3058",
-        "title": "Schlacht von Stalingrad",
-        "folder": "schlacht-von-stalingrad-3058"
-      },
-      {
-        "id": "3064",
-        "title": "Vertreibung nach dem Zweiten Weltkrieg",
-        "folder": "vertreibung-nach-dem-zweiten-weltkrieg-3064"
-      },
-      {
-        "id": "3305",
-        "title": "Österreich im Zweiten Weltkrieg",
-        "folder": "sterreich-im-zweiten-weltkrieg-3305"
-      },
-      {
-        "id": "3307",
-        "title": "Der Weg in den Zweiten Weltkrieg",
-        "folder": "der-weg-in-den-zweiten-weltkrieg-2-3307"
-      },
-      {
-        "id": "3317",
-        "title": "Österreich nach dem Zweiten Weltkrieg",
-        "folder": "sterreich-nach-dem-zweiten-weltkrieg-3317"
-      },
-      {
-        "id": "3318",
-        "title": "Beginn des Zweiten Weltkriegs",
-        "folder": "beginn-des-zweiten-weltkriegs-3318"
-      },
-      {
-        "id": "3319",
-        "title": "Verlauf des Zweiten Weltkriegs",
-        "folder": "verlauf-des-zweiten-weltkriegs-3319"
-      },
-      {
-        "id": "3320",
-        "title": "Ende und Folgen des Zweiten Weltkriegs",
-        "folder": "ende-und-folgen-des-zweiten-weltkriegs-3320"
-      },
-      {
-        "id": "5341",
-        "title": "Der Zweite Weltkrieg",
-        "folder": "der-zweite-weltkrieg-5341"
-      },
-      {
-        "id": "5407",
-        "title": "Was wäre, wenn Deutschland den Zweiten Weltkrieg gewonnen hätte …",
-        "folder": "was-ware-wenn-deutschland-den-zweiten-weltkrieg-gewonnen-hatte-5407"
-      },
-      {
-        "id": "5414",
-        "title": "Was wäre, wenn die USA nie in den Zweiten Weltkrieg eingetreten wären …",
-        "folder": "was-ware-wenn-die-usa-nie-in-den-zweiten-weltkrieg-eingetreten-waren-5414"
-      },
-      {
-        "id": "6579",
-        "title": "Der Vatikan im Zweiten Weltkrieg",
-        "folder": "der-vatikan-im-zweiten-weltkrieg-6579"
-      }
-    ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Der%20Zweite%20Weltkrieg%20(1939%E2%80%931945)+geschichte&t=3752"
   },
   "widerstand-im-nationalsozialismus": {
     "slug": "widerstand-im-nationalsozialismus",
@@ -2013,21 +2702,19 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Nachkriegszeit%2C%20Stunde%20Null%20%26%20Besatzungszonen+geschichte&t=3752"
   },
-  "der-kalte-krieg-und-globale-konflikte": {
-    "slug": "der-kalte-krieg-und-globale-konflikte",
-    "title": "Der Kalte Krieg & Globale Konflikte",
+  "der-kalte-krieg-ost-west-konflikt": {
+    "slug": "der-kalte-krieg-ost-west-konflikt",
+    "title": "Der Kalte Krieg: Blockkonfrontation & Wettrüsten",
     "category": "Kalter Krieg & Deutsche Teilung",
-    "shortDesc": "Ost-West-Konflikt, NATO vs. Warschauer Pakt, nukleares Wettrüsten, Kuba-Krise, Vietnam, Korea und Wettlauf ins All.",
-    "longDesc": "Der Kalte Krieg prägte über Jahrzehnte die Weltpolitik und führte zu einer anhaltenden Konfrontation zwischen den USA und der UdSSR. Dabei ging es nicht nur um Ideologien, sondern auch um Macht, Einfluss und technologische Überlegenheit. Diese Spannungen reichten von politischen Krisen bis hin zu gefährlichen militärischen Drohgebärden. Dennoch kam es nie zu einem direkten Krieg zwischen den Supermächten. Während des Kalten Krieges standen sich zwei feindliche Lager gegenüber. Die NATO, angeführt von den USA, umfasste westliche Demokratien, während der Warschauer Pakt, dominiert von der UdSSR, sozialistische Staaten einschloss. Dadurch entstanden zahlreiche Spannungen, die zu Stellvertreterkriegen führten. Beispielsweise kämpften die USA in Korea und Vietnam gegen kommunistische Kräfte, während die UdSSR in anderen Regionen Einfluss ausbaute. Außerdem symbolisierte der Eiserne Vorhang die tiefe Spaltung Europas. Besonders drastisch zeigte sich das in Deutschland, wo die Berliner Mauer Ost und West trennte.",
+    "shortDesc": "Eiserner Vorhang, Berlinblockade 1948, Kubakrise 1962, NATO & Warschauer Pakt, Wettrüsten und Ende des Kalten Krieges.",
+    "longDesc": "Fast ein halbes Jahrhundert lang stand die Welt am Rande eines atomaren Weltkriegs: Lerne die bipolare Konfrontation zwischen den Supermächten USA und Sowjetunion kennen – von der Berliner Luftbrücke über die Zitterpartie der Kubakrise bis zu den Abrüstungsverträgen.",
     "keyPoints": [
-      "Stellvertreterkriege in Korea und Vietnam, wodurch sich der Konflikt weltweit ausweitete",
-      "Raumfahrtwettlauf mit Sputnik und der Mondlandung, sodass beide Seiten technologische Dominanz anstrebten",
-      "Kubakrise als gefährlichster Moment, da die Welt am Rande eines Atomkriegs stand",
-      "Wettrüsten zwischen den USA und der UdSSR, weshalb beide Staaten immer mehr aufrüsteten",
-      "Aufteilung Deutschlands durch die Berliner Mauer, wodurch Familien über Jahrzehnte getrennt wurden",
-      "Ende des Kalten Krieges mit dem Zerfall der UdSSR, weshalb sich das geopolitische Gleichgewicht veränderte",
-      "Neutrale Staaten wie Österreich und die Schweiz, die daher zwischen beiden Blöcken vermittelten",
-      "Stellvertreterkrieg zwischen den USA und der UdSSR"
+      "Bipolare Weltordnung: Westmächte (Kapitalismus, Demokratie) vs. Ostblock (Kommunismus, Planwirtschaft)",
+      "Eiserner Vorhang & Eindämmungspolitik (Containment-Politik und Truman-Doktrin)",
+      "Militärbündnisse: Gründung der NATO 1949 und des Warschauer Paktes 1955",
+      "Kubakrise 1962: Höhepunkt des Konflikts und Einrichtung des „Roten Telefons“ zur Krisenvermeidung",
+      "Nukleares Wettrüsten & Gleichgewicht des Schreckens (Mutually Assured Destruction - MAD)",
+      "Entspannungspolitik & Mauerfall: Neue Ostpolitik unter Willy Brandt, Glasnost & Perestroika unter Gorbatschow"
     ],
     "exercises": [
       {
@@ -2036,19 +2723,9 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "der-kalte-krieg-613"
       },
       {
-        "id": "614",
-        "title": "Der Vietnamkrieg",
-        "folder": "der-vietnamkrieg-614"
-      },
-      {
         "id": "898",
         "title": "Die Kuba-Krise",
         "folder": "die-kuba-krise-898"
-      },
-      {
-        "id": "909",
-        "title": "Der Koreakrieg und seine Folgen",
-        "folder": "der-koreakrieg-und-seine-folgen-909"
       },
       {
         "id": "947",
@@ -2071,11 +2748,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "der-iaeo-2919"
       },
       {
-        "id": "2933",
-        "title": "Der Ungarnaufstand 1956",
-        "folder": "der-ungarnaufstand-1956-2933"
-      },
-      {
         "id": "2936",
         "title": "Der Warschauer Pakt",
         "folder": "der-warschauer-pakt-2936"
@@ -2084,16 +2756,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "2937",
         "title": "Der Wettlauf ins All",
         "folder": "der-wettlauf-ins-all-2937"
-      },
-      {
-        "id": "2942",
-        "title": "Die Diktatur Nikkolae Ceausescus",
-        "folder": "die-diktatur-nikkolae-ceausescus-2942"
-      },
-      {
-        "id": "3062",
-        "title": "Studentenunruhen 1968",
-        "folder": "studentenunruhen-1968-3062"
       },
       {
         "id": "3341",
@@ -2116,6 +2778,53 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "willy-brandt-895"
       },
       {
+        "id": "3077",
+        "title": "Die Berlinblockade und die Luftbrücke",
+        "folder": "arbeitslosigkeit-nach-dem-ersten-weltkrieg-8-3077"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Kalter+Krieg+Kubakrise+NATO&t=3752"
+  },
+  "globale-stellvertreterkriege-und-brennpunkte": {
+    "slug": "globale-stellvertreterkriege-und-brennpunkte",
+    "title": "Globale Stellvertreterkriege & Krisenherde",
+    "category": "Kalter Krieg & Deutsche Teilung",
+    "shortDesc": "Koreakrieg, Vietnamkrieg, Ungarnaufstand 1956, Prager Frühling 1968, Afghanistan-Krieg und weltweite Spannungen.",
+    "longDesc": "Da eine direkte nukleare Konfrontation die Menschheit vernichtet hätte, trugen die Supermächte ihre Konflikte in Stellvertreterkriegen in Asien, Afrika und Lateinamerika aus. Entdecke den Koreakrieg, das Trauma von Vietnam, die Aufstände im Ostblock und den Afghanistan-Krieg.",
+    "keyPoints": [
+      "Koreakrieg (1950–1953): Erster heißer Konflikt des Kalten Krieges und Teilung Koreas am 38. Breitengrad",
+      "Vietnamkrieg (1955–1975): Dschungelkrieg, Entlaubungsmittel Agent Orange, Antikriegsbewegung und Niederlage der USA",
+      "Aufstände im Ostblock: Volksaufstand in Ungarn 1956 und Niederschlagung des Prager Frühlings 1968 durch Warschauer-Pakt-Truppen",
+      "Sowjetischer Krieg in Afghanistan (1979–1989): Das „sowjetische Vietnam“ und Aufstieg der Mudschahedin",
+      "Bürgerrechtsbewegung in den USA: Kampf von Martin Luther King gegen Rassendiskriminierung und Studentenproteste 1968"
+    ],
+    "exercises": [
+      {
+        "id": "614",
+        "title": "Der Vietnamkrieg",
+        "folder": "der-vietnamkrieg-614"
+      },
+      {
+        "id": "909",
+        "title": "Der Koreakrieg und seine Folgen",
+        "folder": "der-koreakrieg-und-seine-folgen-909"
+      },
+      {
+        "id": "2933",
+        "title": "Der Ungarnaufstand 1956",
+        "folder": "der-ungarnaufstand-1956-2933"
+      },
+      {
+        "id": "2942",
+        "title": "Die Diktatur Nikkolae Ceausescus",
+        "folder": "die-diktatur-nikkolae-ceausescus-2942"
+      },
+      {
+        "id": "3062",
+        "title": "Studentenunruhen 1968",
+        "folder": "studentenunruhen-1968-3062"
+      },
+      {
         "id": "899",
         "title": "Der Prager Frühling",
         "folder": "der-prager-fruhling-899"
@@ -2126,12 +2835,27 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "nikita-chruschtschow-3040"
       },
       {
-        "id": "3077",
-        "title": "Die Berlinblockade und die Luftbrücke",
-        "folder": "arbeitslosigkeit-nach-dem-ersten-weltkrieg-8-3077"
+        "id": "2316",
+        "title": "Der Afghanistan-Krieg",
+        "folder": "der-afghanistan-krieg-2316"
+      },
+      {
+        "id": "2366",
+        "title": "Krieg gegen den Terror",
+        "folder": "krieg-gegen-den-terror-2366"
+      },
+      {
+        "id": "3052",
+        "title": "Rassenprobleme und Bürgerrechtskämpfe in den USA",
+        "folder": "rassenprobleme-und-burgerrechtskampfe-in-den-usa-3052"
+      },
+      {
+        "id": "5405",
+        "title": "Was wäre wenn der Prager Frühling erfolgreich gewesen wäre",
+        "folder": "was-ware-wenn-der-prager-fruhling-erfolgreich-gewesen-ware-5405"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Der%20Kalte%20Krieg%20%26%20Globale%20Konflikte+geschichte&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Stellvertreterkriege+Vietnam+Korea&t=3752"
   },
   "leben-in-der-ddr-und-der-mauerbau": {
     "slug": "leben-in-der-ddr-und-der-mauerbau",
@@ -2262,5 +2986,77 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Friedliche%20Revolution%20%26%20Wiedervereinigung%201989%2F90+geschichte&t=3752"
+  },
+  "islamische-revolution-und-nahostkonflikte": {
+    "slug": "islamische-revolution-und-nahostkonflikte",
+    "title": "Der Nahe Osten: Die Islamische Revolution im Iran 1979",
+    "category": "Kalter Krieg & Deutsche Teilung",
+    "shortDesc": "Sturz des Schahs, Entstehung der Islamischen Republik unter Ajatollah Chomeini und geopolitische Folgen.",
+    "longDesc": "Die Islamische Revolution von 1979 im Iran veränderte die politische Landschaft des Nahen Ostens dramatisch und begründete einen theokratischen Staat in direktem Gegensatz zu den westlichen Demokratien.",
+    "keyPoints": [
+      "Sturz des Schahs Mohammad Reza Pahlavi: Ende einer pro-westlichen, autoritären Monarchie infolge massiver Massenproteste",
+      "Rückkehr von Ajatollah Chomeini: Etablierung des Prinzips der 'Herrschaft des Rechtsgelehrten' (Velayat-e Faqih)",
+      "Geiselkrise von Teheran (1979–1981): 444 Tage Besetzung der US-Botschaft besiegelte den Bruch mit den USA",
+      "Erster Golfkrieg (1980–1988): Achtjähriger verheerender Abnutzungskrieg zwischen dem Irak von Saddam Hussein und dem Iran"
+    ],
+    "exercises": [
+      {
+        "id": "3165",
+        "title": "Die islamische Revolution im Iran",
+        "folder": "die-islamische-revolution-im-iran-3165"
+      },
+      {
+        "id": "3210",
+        "title": "Escape room quot geschichte israels quot",
+        "folder": "escape-room-quot-geschichte-israels-quot-3210"
+      },
+      {
+        "id": "3211",
+        "title": "Escape room quot nahostkonflikt kriege und krisen quot",
+        "folder": "escape-room-quot-nahostkonflikt-kriege-und-krisen-quot-3211"
+      },
+      {
+        "id": "3212",
+        "title": "Escape room quot nahostkonflikt friedensbemuhungen quot",
+        "folder": "escape-room-quot-nahostkonflikt-friedensbemuhungen-quot-3212"
+      },
+      {
+        "id": "5374",
+        "title": "Die geschichte israels",
+        "folder": "die-geschichte-israels-5374"
+      },
+      {
+        "id": "2325",
+        "title": "Der syrische Bürgerkrieg",
+        "folder": "der-syrische-burgerkrieg-2325"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=nahostkonflikt&t=3752"
+  },
+  "oesterreich-nachkriegszeit-und-nationalfeiertag": {
+    "slug": "oesterreich-nachkriegszeit-und-nationalfeiertag",
+    "title": "Österreich nach 1945: Staatsvertrag & Nationalfeiertag",
+    "category": "Kalter Krieg & Deutsche Teilung",
+    "shortDesc": "Besatzungszonen 1945–1955, Staatsvertrag vom 15. Mai 1955 und der Nationalfeiertag am 26. Oktober.",
+    "longDesc": "Nach zehn Jahren vierfacher alliierter Besatzung erlangte Österreich am 15. Mai 1955 seine volle Souveränität zurück. Mit der Erklärung der 'immerwährenden Neutralität' am 26. Oktober 1955 fand die Republik ihre neue Identität.",
+    "keyPoints": [
+      "Vier Besatzungszonen (1945–1955): USA, Sowjetunion, Großbritannien und Frankreich teilten Österreich und Wien auf",
+      "Österreichischer Staatsvertrag (15. Mai 1955): Unterzeichnung im Schloss Belvedere ('Österreich ist frei!')",
+      "Bundesverfassungsgesetz über die Neutralität (26. Oktober 1955): Freiwillige Erklärung der dauernden Neutralität",
+      "Der Nationalfeiertag: Seit 1965 am 26. Oktober als Tag der Fahne und der österreichischen Souveränität begangen"
+    ],
+    "exercises": [
+      {
+        "id": "6541",
+        "title": "Der Österreichische Nationalfeiertag",
+        "folder": "der-sterreichische-nationalfeiertag-2-6541"
+      },
+      {
+        "id": "6508",
+        "title": "Der sterreichische nationalfeiertag",
+        "folder": "der-sterreichische-nationalfeiertag-6508"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=staatsvertrag+oesterreich&t=3752"
   }
 };

@@ -314,4 +314,25 @@ export const medienTopics: Record<string, MedienTopic> = {
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Medien+Wirtschaft+Industrie&t=1721"
   }
+,
+  "youtube-und-content-creation": {
+    "slug": "youtube-und-content-creation",
+    "title": "YouTube, Content Creation & Digitale Berufe",
+    "category": "Wirtschaft & Krisen",
+    "shortDesc": "Berufswunsch Influencer vs. Realität: Algorithmen, Monetarisierung, Werbeeinnahmen und Druck.",
+    "longDesc": "YouTube hat das traditionelle Fernsehen für jüngere Zielgruppen weitgehend abgelöst. Der Traum vom erfolgreichen Content Creator steht jedoch im Kontrast zu harter ökonomischer Realität, algorithmischer Abhängigkeit und hohem Leistungsdruck.",
+    "keyPoints": [
+      "Monetarisierung: AdSense-Werbung, Sponsorings, Affiliate-Links, Merchandising und Mitgliedschaften",
+      "Der Algorithmus: Click-Through-Rate (CTR), Watchtime (Zuschauerdauer) und Engagement bestimmen die Reichweite",
+      "Herausforderungen: Burnout-Gefahr, unberechenbare Einnahmen, rechtliche Vorgaben (Impressum, Kennzeichnung von Dauerwerbung)"
+    ],
+    "exercises": [
+      {
+        "id": "6548",
+        "title": "Der harte Weg zum YouTube-Star Geld verdienen ist schwierig",
+        "folder": "der-harte-weg-zum-youtube-star-geld-verdienen-ist-schwierig-2-6548"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=youtube+social+media&t=3752"
+  }
 };

@@ -55,9 +55,221 @@ export const musikTopics: Record<string, MusikTopic> = {
         "title": "Der Bassschlüssel",
         "folder": "der-bassschlussel-343"
       },
-      { id: "342", title: "Das Schlagzeug / die Schlagzeugnotation", folder: "das-schlagzeug-die-schlagzeugnotation-342" }
+      { id: "342", title: "Das Schlagzeug / die Schlagzeugnotation", folder: "das-schlagzeug-die-schlagzeugnotation-342" },
+      {
+        id: "2",
+        title: "Tonhöhe und Notennamen",
+        folder: "biologie-arbeitsblatter-2"
+      },
+      {
+        id: "9",
+        title: "Notenwerte und Pausen",
+        folder: "notenwerte-und-pausen-9"
+      },
+      {
+        id: "13",
+        title: "Noten- und Pausenmemory",
+        folder: "noten-und-pausenmemory-13"
+      },
+      {
+        id: "14",
+        title: "Tonhöhe-Memory - einfache Version",
+        folder: "tonhohe-memory-einfache-version-14"
+      },
+      {
+        id: "15",
+        title: "Tonhöhe-Memory - einfache Version",
+        folder: "tonhohe-memory-einfache-version-2-15"
+      },
+      {
+        id: "16",
+        title: "Tonhöhe-Memory - mittelschwere Version",
+        folder: "tonhohe-memory-schwere-version-16"
+      },
+      {
+        id: "17",
+        title: "Tonhöhe-Memory - schwere Version",
+        folder: "intervalle-in-der-musik-2-17"
+      },
+      {
+        id: "225",
+        title: "Notennamen - Tonhöhe",
+        folder: "notennamen-tonhohe-225"
+      },
+      {
+        id: "648",
+        title: "elo Tonhöhe (2)",
+        folder: "elo-tonhohe-2-648"
+      },
+      {
+        id: "650",
+        title: "kurs tonhöhe 2",
+        folder: "kurs-tonhohe-2-650"
+      },
+      {
+        id: "652",
+        title: "kurs tonhöhe 4",
+        folder: "kurs-tonhohe-4-652"
+      },
+      {
+        id: "654",
+        title: "kurs tonhöhe 6",
+        folder: "kurs-tonhohe-6-654"
+      },
+      {
+        id: "655",
+        title: "kurs tonhöhe 7",
+        folder: "kurs-tonhohe-7-655"
+      },
+      {
+        id: "656",
+        title: "kurs tonhöhe 8",
+        folder: "kurs-tonhohe-8-656"
+      },
+      {
+        id: "657",
+        title: "kurs tonhöhe 9",
+        folder: "kurs-tonhohe-9-657"
+      },
+      {
+        id: "658",
+        title: "kurs tonhöhe 10",
+        folder: "kurs-tonhohe-10-658"
+      },
+      {
+        id: "661",
+        title: "kurs Notenwerte und Pausen",
+        folder: "kurs-notenwerte-und-pausen-661"
+      },
+      {
+        id: "5320",
+        title: "Tonhöhe und Tonstärke",
+        folder: "tonhohe-und-tonstarke-5320"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Noten+lesen+Musiktheorie&t=1251"
+  },
+    "harmonielehre-akkorde-und-intervalle": {
+    "slug": "harmonielehre-akkorde-und-intervalle",
+    "title": "Harmonielehre, Akkorde & Intervalle",
+    "category": "Noten & Instrumente",
+    "shortDesc": "Intervalle, Dreiklänge in Dur und Moll, Umkehrungen, Klaviatur und Tonleitern.",
+    "longDesc": "Vertiefe dein musikalisches Verständnis mit Harmonielehre und Gehörbildung: Lerne Intervalle (Sekunde, Terz, Quarte, Quinte, Oktave) zu bestimmen und zu hören, baue Dur- und Moll-Akkorde auf, verstehe Akkordumkehrungen und meistere die Klaviatur mit Halbtönen und Vorzeichen.",
+    "keyPoints": [
+      "Intervalle: Tonabstände vom Grundton – Prim, Sekunde, Terz, Quarte, Quinte, Sexte, Septime, Oktave",
+      "Dur- und Moll-Akkorde: Dur-Dreiklang (große Terz + kleine Terz), Moll-Dreiklang (kleine Terz + große Terz)",
+      "Akkordumkehrungen: Grundstellung, 1. Umkehrung (Sextakkord), 2. Umkehrung (Quartsextakkord)",
+      "Klaviatur & Vorzeichen: Kreuz (# / -is) erhöht um einen Halbton, 'b' (-es) erniedrigt um einen Halbton",
+      "Gehörbildung: Intervalle und Akkordgeschlechter (Dur / Moll) im Gehör unterscheiden lernen"
+    ],
+    "exercises": [
+      {
+        id: "10",
+        title: "Vorzeichen - Halbtöne in der Musik",
+        folder: "vorzeichen-halbtone-in-der-musik-10"
+      },
+      {
+        id: "11",
+        title: "Die Klaviatur - Töne am Klavier",
+        folder: "die-klaviatur-tone-am-klavier-11"
+      },
+      {
+        id: "12",
+        title: "Intervalle in der Musik",
+        folder: "intervalle-in-der-musik-12"
+      },
+      {
+        id: "18",
+        title: "Akkorde - Dur und Moll",
+        folder: "akkorde-dur-und-moll-18"
+      },
+      {
+        id: "19",
+        title: "Akkorde - Dur und Moll",
+        folder: "lautstarke-und-tempo-in-der-musik-19"
+      },
+      {
+        id: "20",
+        title: "(3a) Zuordnungsübung mit Vorzeichen",
+        folder: "3a-zuordnungsubung-mit-vorzeichen-20"
+      },
+      {
+        id: "21",
+        title: "Übung zur Klaviatur",
+        folder: "bung-zur-klaviatur-21"
+      },
+      {
+        id: "22",
+        title: "Schwarze Tasten am Klavier",
+        folder: "schwarze-tasten-am-klavier-22"
+      },
+      {
+        id: "23",
+        title: "Klaviatur und Noten",
+        folder: "klaviatur-und-noten-23"
+      },
+      {
+        id: "60",
+        title: "Intervalle zuordnen (9b)",
+        folder: "intervalle-zuordnen-9b-60"
+      },
+      {
+        id: "61",
+        title: "Intervalle bestimmen",
+        folder: "intervalle-bestimmen-61"
+      },
+      {
+        id: "62",
+        title: "Ordne die Akkorde richtig zu!",
+        folder: "ordne-die-akkorde-richtig-zu-62"
+      },
+      {
+        id: "63",
+        title: "Dur-Akkorde zuordnen",
+        folder: "dur-akkorde-zuordnen-63"
+      },
+      {
+        id: "65",
+        title: "(10d) Umkehrung von Akkorden",
+        folder: "10d-umkehrung-von-akkorden-65"
+      },
+      {
+        id: "211",
+        title: "Intervalle hören und bestimmen - Sekund und Terz",
+        folder: "intervalle-horen-und-bestimmen-sekund-und-terz-211"
+      },
+      {
+        id: "268",
+        title: "Intervalle",
+        folder: "intervalle-268"
+      },
+      {
+        id: "319",
+        title: "Akkorde - Dur und Moll",
+        folder: "akkorde-dur-und-moll-2-319"
+      },
+      {
+        id: "345",
+        title: "Dur- und Molltonleitern",
+        folder: "dur-und-molltonleitern-345"
+      },
+      {
+        id: "659",
+        title: "kurs vorzeichen",
+        folder: "kurs-vorzeichen-659"
+      },
+      {
+        id: "660",
+        title: "kurs Klaviatur",
+        folder: "kurs-klaviatur-660"
+      },
+      {
+        id: "1181",
+        title: "Intervalle in der Musik",
+        folder: "intervalle-in-der-musik-3-1181"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Harmonielehre+Akkorde+Intervalle&t=1251"
   },
   "musikinstrumente": {
     "slug": "musikinstrumente",
@@ -173,6 +385,16 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "534",
         "title": "Instrumente-Memory",
         "folder": "instrumente-memory-534"
+      },
+      {
+        id: "3199",
+        title: "Escape Room &quot;Saiteninstrumente&quot;",
+        folder: "escape-room-quot-saiteninstrumente-quot-3199"
+      },
+      {
+        id: "3200",
+        title: "Escape Room &quot;Schlag- und Blasinstrumente&quot;",
+        folder: "escape-room-quot-schlag-und-blasinstrumente-quot-3200"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Musikinstrumente&t=1251"
@@ -246,6 +468,16 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "110",
         "title": "Rhythmus-Memory ohne Noten (Schwer)",
         "folder": "rhythmusmemory-ohne-noten-schwer-110"
+      },
+      {
+        id: "111",
+        title: "Rhythmusmemory ohne Noten schwer",
+        folder: "werke-der-wiener-klassik-erkennen-memory-111"
+      },
+      {
+        id: "441",
+        title: "Rhythmusübung 4",
+        folder: "die-unvollendete-von-franz-schubert-441"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Rhythmus+Musikunterricht&t=1251"
@@ -333,6 +565,36 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "506",
         "title": "Musikgeschichte: 20. Jahrhundert",
         "folder": "musikgeschichte-moderne-506"
+      },
+      {
+        id: "66",
+        title: "Barock",
+        folder: "barock-66"
+      },
+      {
+        id: "68",
+        title: "Romantik",
+        folder: "romantik-68"
+      },
+      {
+        id: "297",
+        title: "Renaissance - Barock - Klassik - Romantik",
+        folder: "renaissance-barock-klassik-romantik-297"
+      },
+      {
+        id: "318",
+        title: "Lautstärke und Tempo in der Musik",
+        folder: "lautstarke-und-tempo-in-der-musik-2-318"
+      },
+      {
+        id: "513",
+        title: "Orchestermusik",
+        folder: "orchestermusik-513"
+      },
+      {
+        id: "515",
+        title: "Klaviermusik",
+        folder: "klaviermusik-515"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Musikgeschichte+Epochen&t=1251"
@@ -406,6 +668,16 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "449",
         "title": "Feuerwerksmusik von Georg Friedrich Händel",
         "folder": "feuerwerksmusik-von-georg-friedrich-handel-449"
+      },
+      {
+        id: "454",
+        title: "Rondo Alla Turca von Wolfgang Amadeus Mozart",
+        folder: "rondo-alla-turca-von-wolfgang-amadeus-mozart-454"
+      },
+      {
+        id: "460",
+        title: "Trauermarsch von Frederic Chopin",
+        folder: "trauermarsch-von-frederic-chopin-460"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Bekannte+Musikstuecke+Klassik&t=1251"
@@ -442,6 +714,26 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "847",
         "title": "Claudio Monteverdi",
         "folder": "claudio-monteverdi-847"
+      },
+      {
+        id: "212",
+        title: "Johann Sebastian Bach (Video mit Fragen)",
+        folder: "johann-sebastian-bach-video-mit-fragen-212"
+      },
+      {
+        id: "295",
+        title: "Komponisten des Barock",
+        folder: "komponisten-des-barock-295"
+      },
+      {
+        id: "608",
+        title: "Johann Sebastian Bach",
+        folder: "johann-sebastian-bach-608"
+      },
+      {
+        id: "3221",
+        title: "Escape Room &quot;Komponisten Barock&quot;",
+        folder: "escape-room-quot-komponisten-barock-quot-3221"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Barock+Komponisten&t=1251"
@@ -474,6 +766,61 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "1111",
         "title": "Antonio Salieri",
         "folder": "antonio-salieri-1111"
+      },
+      {
+        id: "24",
+        title: "Josef Haydn",
+        folder: "josef-haydn-24"
+      },
+      {
+        id: "26",
+        title: "Ludwig van Beethoven",
+        folder: "ludwig-van-beethoven-26"
+      },
+      {
+        id: "27",
+        title: "Wolfgang Amadeus Mozart",
+        folder: "wolfgang-amadeus-mozart-27"
+      },
+      {
+        id: "112",
+        title: "Werke der Wiener Klassik erkennen (Memory)",
+        folder: "zahlen-runden-112"
+      },
+      {
+        id: "296",
+        title: "Komponisten der Wiener Klassik",
+        folder: "komponisten-der-wiener-klassik-296"
+      },
+      {
+        id: "692",
+        title: "studypoint - single choice - Fragen zur Musik der Wiener Klassik",
+        folder: "studypoint-single-choice-fragen-zur-musik-der-wiener-klassik-692"
+      },
+      {
+        id: "755",
+        title: "Ludwig van Beethoven",
+        folder: "ludwig-van-beethoven-3-755"
+      },
+      {
+        id: "3099",
+        title: "Ludwig van Beethoven",
+        folder: "ludwig-van-beethoven-4-3099"
+      },
+      {
+        id: "3103",
+        title: "Wolfgang Amadeus Mozart",
+        folder: "wolfgang-amadeus-mozart-3-3103"
+      },
+      {
+        id: "3220",
+        title: "Escape Room &quot;Komponisten der Wiener Klassik&quot;",
+        folder: "escape-room-quot-komponisten-der-wiener-klassik-quot-3220"
+      },
+      {
+        id: "4494",
+        title: "Mozart, der Musikstar – Leben und tolle Musik",
+        folder: "mozart-der-musikstar-leben-und-tolle-musik-4494"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Wiener+Klassik+Komponisten&t=1251"
@@ -596,6 +943,36 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "1125",
         "title": "Gustav Mahler",
         "folder": "gustav-mahler-1125"
+      },
+      {
+        id: "222",
+        title: "Frederic Chopin (Video mit Fragen)",
+        folder: "frederic-chopin-video-mit-fragen-222"
+      },
+      {
+        id: "224",
+        title: "Franz Schubert (Video mit Fragen)",
+        folder: "franz-schubert-video-mit-fragen-224"
+      },
+      {
+        id: "3216",
+        title: "Escape Room &quot;Komponisten der Romantik 2&quot;",
+        folder: "escape-room-quot-komponisten-der-romantik-2-quot-3216"
+      },
+      {
+        id: "3217",
+        title: "Escape Room &quot;Komponisten der Romantik 1&quot;",
+        folder: "escape-room-quot-komponisten-der-romantik-1-quot-3217"
+      },
+      {
+        id: "3218",
+        title: "Escape Room &quot;Deutsche Komponisten der Romantik&quot;",
+        folder: "escape-room-quot-deutsche-komponisten-der-romantik-quot-3218"
+      },
+      {
+        id: "3219",
+        title: "Escape Room &quot;Österreichische Komponisten der Romantik&quot;",
+        folder: "escape-room-quot-sterreichische-komponisten-der-romantik-quot-3219"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Romantik+Komponisten&t=1251"
@@ -638,6 +1015,11 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "1034",
         "title": "Claude Debussy",
         "folder": "claude-debussy-1034"
+      },
+      {
+        id: "3215",
+        title: "Escape Room &quot;Komponisten der Moderne&quot;",
+        folder: "escape-room-quot-komponisten-der-moderne-quot-3215"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Moderne+Komponisten&t=1251"
@@ -885,6 +1267,16 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "528",
         "title": "Orfeo ed Euridice (Christoph Willibald Gluck)",
         "folder": "christoph-willibald-gluck-orfeo-ed-euridice-528"
+      },
+      {
+        id: "3258",
+        title: "Die Zauberflöte",
+        folder: "die-zauberflote-3258"
+      },
+      {
+        id: "5701",
+        title: "Die Wiener Staatsoper",
+        folder: "die-wiener-staatsoper-5701"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Oper+Opernunterricht&t=1251"
@@ -1042,6 +1434,21 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "555",
         "title": "Das Musical: Wicked – Die Hexen von Oz (Stephen Schwartz)",
         "folder": "das-musical-wicked-555"
+      },
+      {
+        id: "518",
+        title: "Die Operette",
+        folder: "die-operette-518"
+      },
+      {
+        id: "3255",
+        title: "Das Phantom der Oper",
+        folder: "das-phantom-der-oper-3255"
+      },
+      {
+        id: "3256",
+        title: "Das Phantom der Oper",
+        folder: "das-phantom-der-oper-2-3256"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Musicals+Musikunterricht&t=1251"
@@ -1145,6 +1552,26 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "1313",
         "title": "Smooth Jazz",
         "folder": "smooth-jazz-1313"
+      },
+      {
+        id: "436",
+        title: "Geschichte das Jazz - Teil 2",
+        folder: "geschichte-das-jazz-teil-2-436"
+      },
+      {
+        id: "910",
+        title: "Blues",
+        folder: "blues-910"
+      },
+      {
+        id: "1200",
+        title: "Acid Jazz",
+        folder: "acid-jazz-1200"
+      },
+      {
+        id: "3205",
+        title: "Escape Room &quot;Rock, Pop und Jazz&quot;",
+        folder: "escape-room-quot-rock-pop-und-jazz-quot-3205"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Jazz+Jazzgeschichte&t=1251"
@@ -1573,5 +2000,35 @@ export const musikTopics: Record<string, MusikTopic> = {
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Saenger+Popstars+Musikunterricht&t=1251"
+  },
+  "hiphop-rap-und-streaming": {
+    "slug": "hiphop-rap-und-streaming",
+    "title": "Hip-Hop, Straßenrap & Das Streaming-Zeitalter",
+    "category": "Bühne, Jazz & Popmusik",
+    "shortDesc": "Haftbefehl und deutscher Straßenrap, Social-Media-Kultur und der Einfluss von Spotify auf die Musik.",
+    "longDesc": "Hip-Hop und Deutschrap haben sich zum kommerziell erfolgreichsten Musikgenre entwickelt. Gleichzeitig hat das Streaming über Plattformen wie Spotify das Konsumverhalten und die Produktion von Musik grundlegend verändert.",
+    "keyPoints": [
+      "Deutscher Straßenrap: Authentizität, Milieubeschreibung, Rhythmus und Sprachschöpfungen bei Künstlern wie Haftbefehl",
+      "Streaming-Ökonomie: Playlists verdrängen das klassische Album, kürzere Songstrukturen und algorithmische Empfehlungen",
+      "Vergütung & Musikwirtschaft: Pay-per-Stream-Modelle, Einnahmeverteilung und die wachsende Bedeutung von Live-Tourneen"
+    ],
+    "exercises": [
+      {
+        id: "6410",
+        title: "Haftbefehl - Leben, Drogen und Musik im Straßenrap",
+        folder: "haftbefehl-leben-drogen-und-musik-im-straesenrap-6410"
+      },
+      {
+        id: "6412",
+        title: "Chabos wissen wer der Babo ist (Song von Haftbefehl)",
+        folder: "chabos-wissen-wer-der-babo-ist-song-von-haftbefehl-6412"
+      },
+      {
+        id: "6416",
+        title: "Wie Spotify die Musik verändert",
+        folder: "wie-spotify-die-musik-verandert-6416"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=hiphop+musikwirtschaft&t=3752"
   }
 };

@@ -2037,4 +2037,51 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Der%20Ausbildungsvertrag%2C%20Rechte%2C%20Pflichten%20%26%20Arbeitsalltag+wirtschaft&t=3752"
   }
+,
+  "migration-und-weltwirtschaft": {
+    "slug": "migration-und-weltwirtschaft",
+    "title": "Migration, Arbeitsmarkt & Globale Wirtschaft",
+    "category": "Weltwirtschaft & Globalisierung",
+    "shortDesc": "Push- und Pull-Faktoren, Fachkräfteeinwanderung, Remittances (Rücküberweisungen) und Braindrain.",
+    "longDesc": "Globale Wanderungsbewegungen haben enorme wirtschaftliche Auswirkungen sowohl auf Herkunfts- als auch auf Zielländer. Migration schließt Fachkräftelücken und fördert den internationalen Kapitaltransfer.",
+    "keyPoints": [
+      "Push- und Pull-Faktoren: Wirtschaftliche Not, Krieg, Klimafolgen (Push) vs. Wohlstand, Arbeitsplätze, Sicherheit (Pull)",
+      "Wirtschaftliche Effekte: Schließen von demografischen Lücken im Arbeitsmarkt, Beitragszahler in Sozialsysteme",
+      "Rücküberweisungen (Remittances): Migranten senden Milliardenbeträge an Familien in Herkunftsländern – oft mehr als offizielle Entwicklungshilfe",
+      "Braindrain vs. Braingain: Verlust qualifizierter Fachkräfte in Schwellenländern vs. Kompetenzgewinn durch weltweite Vernetzung"
+    ],
+    "exercises": [
+      {
+        "id": "5511",
+        "title": "Migration und ihre Auswirkungen auf die wirtschaftliche Entwicklung",
+        "folder": "migration-und-ihre-auswirkungen-auf-die-wirtschaftliche-entwicklung-5511"
+      },
+      {
+        "id": "5512",
+        "title": "Migrationstrends und ihre Auswirkungen auf Gesellschaften",
+        "folder": "migrationstrends-und-ihre-auswirkungen-auf-gesellschaften-5512"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=migration+wirtschaft&t=3752"
+  },
+  "globale-landwirtschaft-im-21-jahrhundert": {
+    "slug": "globale-landwirtschaft-im-21-jahrhundert",
+    "title": "Landwirtschaft & Globale Ernährungssicherheit",
+    "category": "Weltwirtschaft & Globalisierung",
+    "shortDesc": "Agrarökonomie, Welternährung, industrielle Landwirtschaft, Biodiversität und globale Lieferketten.",
+    "longDesc": "Die Landwirtschaft steht vor der gewaltigen Aufgabe, eine wachsende Weltbevölkerung nachhaltig zu ernähren und gleichzeitig Boden, Wasser und Klima zu schonen.",
+    "keyPoints": [
+      "Agrarsektor: Primärer Wirtschaftssektor, Basis für Nahrungsmittelsicherheit und Rohstoffversorgung",
+      "Herausforderungen: Bodendegradation, Wasserknappheit, Klimawandel und Preisschwankungen an den Agrarbörsen",
+      "Präzisionslandwirtschaft: Smart Farming, Drohnentechnologie und ressourcenschonende Bewässerung"
+    ],
+    "exercises": [
+      {
+        "id": "5510",
+        "title": "Landwirtschaft und ihre globalen Herausforderungen im 21. Jahrhundert",
+        "folder": "landwirtschaft-und-ihre-globalen-herausforderungen-im-21-jahrhundert-5510"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=landwirtschaft+wirtschaft&t=3752"
+  }
 };

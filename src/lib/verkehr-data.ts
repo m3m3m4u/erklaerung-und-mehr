@@ -132,4 +132,25 @@ export const verkehrTopics: Record<string, VerkehrTopic> = {
     ],
     worksheetLink: "https://eduki.com/de/autor/1430402/about-the-world-org?query=toter+winkel+fahrrad&t=3752"
   }
+,
+  "drogen-und-alkohol-im-strassenverkehr": {
+    "slug": "drogen-und-alkohol-im-strassenverkehr",
+    "title": "Alkohol, Drogen & Gefahren im Straßenverkehr",
+    "category": "Gefahren & Toter Winkel",
+    "shortDesc": "Wirkung von berauschenden Mitteln, Reaktionszeit, Promillegrenzen und strafrechtliche Konsequenzen.",
+    "longDesc": "Alkohol und Drogen beeinträchtigen die Wahrnehmung, das Reaktionsvermögen und die Selbsteinschätzung drastisch. Bereits geringe Mengen erhöhen das Unfallrisiko für Radfahrer und Autofahrer massiv.",
+    "keyPoints": [
+      "Verzögerte Reaktionszeit: Verlängerung des Anhaltewegs (Reaktionsweg + Bremsweg)",
+      "Tunnelblick & Fehleinschätzung: Einschränkung des Sichtfeldes, Risikobereitschaft steigt, Distanzen werden falsch eingeschätzt",
+      "Rechtliche Folgen: Führerscheinentzug, Strafanzeigen und absolute Fahruntauglichkeit auch auf dem Fahrrad (ab 1,6 Promille bzw. bei Ausfallerscheinungen ab 0,3 Promille)"
+    ],
+    "exercises": [
+      {
+        "id": "2233",
+        "title": "Drogen im Straßenverkehr - Alkohol und Drogen am Steuer",
+        "folder": "drogen-im-straesenverkehr-alkohol-und-drogen-am-steuer-2233"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=verkehrssicherheit+alkohol&t=3752"
+  }
 };

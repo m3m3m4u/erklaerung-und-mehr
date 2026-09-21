@@ -638,4 +638,25 @@ export const kunstTopics: Record<string, KunstTopic> = {
       }
     ]
   }
+,
+  "rembrandt-und-das-barock": {
+    "slug": "rembrandt-und-das-barock",
+    "title": "Rembrandt van Rijn & Die Anatomie des Dr. Tulp",
+    "category": "Meisterwerke & Kunstepochen",
+    "shortDesc": "Goldenes Zeitalter der Niederlande, Chiaroscuro (Hell-Dunkel-Malerei), Gruppenporträts und Barockkunst.",
+    "longDesc": "Rembrandt van Rijn (1606–1669) revolutionierte die europäische Malerei des Barock. Mit seinem berühmten Gruppenporträt 'Die Anatomie des Dr. Tulp' (1632) schuf er ein lebendiges Dokument wissenschaftlicher Neugier und meisterhafter Lichtführung.",
+    "keyPoints": [
+      "Goldenes Zeitalter (Gouden Eeuw): Blütezeit der niederländischen Malerei, Wissenschaft und des Seehandels im 17. Jahrhundert",
+      "Chiaroscuro: Dramatischer Einsatz von Licht und Schatten zur Betonung von Gesichtern, Gestik und Emotionen",
+      "Die Anatomie des Dr. Tulp: Kein steifes Porträt, sondern dramatische Vorlesungsszene über die Sehnen des menschlichen Unterarms"
+    ],
+    "exercises": [
+      {
+        "id": "4692",
+        "title": "Die Anatomie des Dr. Tulp - Rembrandt (1632)",
+        "folder": "die-anatomie-des-dr-tulp-rembrandt-1632-4692"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=rembrandt+kunst&t=3752"
+  }
 };
