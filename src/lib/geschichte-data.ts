@@ -393,24 +393,14 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "julius-caesar-4364"
       },
       {
-        "id": "2307",
-        "title": "Das heilige romische reich",
-        "folder": "das-heilige-romische-reich-2307"
+        "id": "3369",
+        "title": "Römisches Leben und Gesellschaft",
+        "folder": "romisches-leben-und-gesellschaft-3369"
       },
       {
-        "id": "2374",
-        "title": "Literaturepoche romantik",
-        "folder": "literaturepoche-romantik-2374"
-      },
-      {
-        "id": "2383",
-        "title": "Literaturepoche neuromatik",
-        "folder": "literaturepoche-neuromatik-2383"
-      },
-      {
-        "id": "3470",
-        "title": "Gunther grass die blechtrommel",
-        "folder": "gunther-grass-die-blechtrommel-3470"
+        "id": "3754",
+        "title": "Cicero",
+        "folder": "cicero-3754"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Roemische+Republik+Caesar&t=3752"
@@ -627,6 +617,26 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "5690",
         "title": "Die Schattenburg",
         "folder": "die-schattenburg-5690"
+      },
+      {
+        "id": "3178",
+        "title": "Sprache und Schrift der Germanen",
+        "folder": "sprache-und-schrift-der-germanen-3178"
+      },
+      {
+        "id": "5675b",
+        "title": "Die Hofburg",
+        "folder": "die-hofburg-5675"
+      },
+      {
+        "id": "907",
+        "title": "Die Fugger",
+        "folder": "die-fugger-907"
+      },
+      {
+        "id": "742",
+        "title": "Die Hexenverfolgung im Mittelalter",
+        "folder": "die-hexenverfolgung-742"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Rittertum%2C%20Burgen%20%26%20Ritterausbildung+geschichte&t=3752"
@@ -768,9 +778,9 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
   },
   "schwarzer-tod-die-pest": {
     "slug": "schwarzer-tod-die-pest",
-    "title": "Die Deutschen Bauernkriege",
+    "title": "Schwarzer Tod, Seuchen & Gesellschaft im Spätmittelalter",
     "category": "Das Mittelalter",
-    "shortDesc": "Die Lebensbedingungen der Bauern im 16. Jahrhundert, Martin Luther, die 12 Artikel von Memmingen und der Aufstand 1525.",
+    "shortDesc": "Die Pest (Schwarzer Tod) 1347–1353, Geißlerzüge, Judenverfolgung, die Inquisition, Hexenverfolgung und Deutsche Bauernkriege 1525.",
     "longDesc": "Die Lebensbedingungen der Bauern im 16. Jahrhundert waren hart. Hohe Abgaben, Hungersnöte und politische Machtlosigkeit führten zu wachsender Unzufriedenheit. Schließlich erhoben sich die Bauern gegen die Adligen und Geistlichen, um für mehr Rechte und bessere Lebensbedingungen zu kämpfen. Doch ihr Aufstand wurde blutig niedergeschlagen, und die Folgen prägten die Gesellschaft noch lange. Nach der Pest wuchs die Bevölkerung, doch die Ernteerträge blieben gering. Missernten und hohe Steuern trieben viele Bauern in die Armut. Obwohl sie den Großteil der Gesellschaft bildeten, hatten sie keinerlei politische Mitsprache. Gleichzeitig gab ihnen Martin Luthers Schrift „Von der Freyheith eines Christenmenschen“ Hoffnung. Sie deuteten seine Worte als Aufruf zur Befreiung und forderten Veränderungen. Erste Versammlungen führten 1524 zur Formulierung der 12 Artikel, die grundlegende Rechte verlangten. Doch die Adligen reagierten mit Gewalt, wodurch sich der Konflikt zuspitzte.",
     "keyPoints": [
       "1525 begann der bewaffnete Aufstand mit Plünderungen und Kämpfen.",
@@ -784,6 +794,31 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "823",
         "title": "Die Deutschen Bauernkriege",
         "folder": "die-deutschen-bauernkriege-823"
+      },
+      {
+        "id": "3284",
+        "title": "Die Merowinger",
+        "folder": "die-merowinger-3284"
+      },
+      {
+        "id": "3115",
+        "title": "Die Karolinger",
+        "folder": "die-karolinger-3115"
+      },
+      {
+        "id": "3172",
+        "title": "Die Vandalen",
+        "folder": "die-vandalen-germanischer-stamm-3172"
+      },
+      {
+        "id": "3177",
+        "title": "Lebensweise der Germanen",
+        "folder": "lebensweise-der-germanen-3177"
+      },
+      {
+        "id": "3342",
+        "title": "Die Inquisition",
+        "folder": "die-inquisition-2342"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Die%20Deutschen%20Bauernkriege+geschichte&t=3752"
@@ -1018,21 +1053,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "die-reformation-und-ihre-folgen-5384"
       },
       {
-        "id": "5417",
-        "title": "Was wäre, wenn es nie zur Reformation gekommen wäre …",
-        "folder": "was-ware-wenn-es-nie-zur-reformation-gekommen-ware-5417"
-      },
-      {
-        "id": "6712",
-        "title": "Reformation und ihre Folgen",
-        "folder": "reformation-und-ihre-folgen-6712"
-      },
-      {
-        "id": "6526",
-        "title": "Der reformationstag",
-        "folder": "der-reformationstag-6526"
-      },
-      {
         "id": "2912",
         "title": "Der Augsburger Religionsfriede",
         "folder": "der-augsburger-religionsfriede-2912"
@@ -1130,6 +1150,16 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "5748",
         "title": "Denkformen der Aufklärung",
         "folder": "denkformen-der-aufklarung-5748"
+      },
+      {
+        "id": "4327",
+        "title": "Voltaire",
+        "folder": "voltaire-4327"
+      },
+      {
+        "id": "4029",
+        "title": "John Locke",
+        "folder": "john-locke-4029"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Die+Aufklaerung+Kant+Rousseau&t=3752"
@@ -1298,6 +1328,31 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "3022",
         "title": "Kaiserin maria theresia",
         "folder": "kaiserin-maria-theresia-3022"
+      },
+      {
+        "id": "544",
+        "title": "Das Musical Maria Theresia",
+        "folder": "das-musical-maria-theresia-544"
+      },
+      {
+        "id": "4327",
+        "title": "Voltaire",
+        "folder": "voltaire-4327"
+      },
+      {
+        "id": "4029",
+        "title": "John Locke",
+        "folder": "john-locke-4029"
+      },
+      {
+        "id": "aufkmus",
+        "title": "Die Rolle von Musik in der Aufklärung",
+        "folder": "die-rolle-von-musik-in-der-aufklaerung"
+      },
+      {
+        "id": "3966",
+        "title": "Immanuel Kant",
+        "folder": "immanuel-kant-2-3966"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=schulpflicht+aufklaerung&t=3752"
@@ -1320,19 +1375,9 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "1753-4864"
       },
       {
-        "id": "4866",
-        "title": "Das Jahr 1755 im Überblick",
-        "folder": "1755-4866"
-      },
-      {
         "id": "4868",
         "title": "Das Jahr 1757 im Überblick",
         "folder": "1757-4868"
-      },
-      {
-        "id": "4870",
-        "title": "Das Jahr 1759 im Überblick",
-        "folder": "1759-4870"
       },
       {
         "id": "4872",
@@ -1340,19 +1385,9 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "1761-4872"
       },
       {
-        "id": "4874",
-        "title": "Das Jahr 1763 im Überblick",
-        "folder": "1763-4874"
-      },
-      {
         "id": "4876",
         "title": "Das Jahr 1765 im Überblick",
         "folder": "1765-4876"
-      },
-      {
-        "id": "4878",
-        "title": "Das Jahr 1767 im Überblick",
-        "folder": "1767-4878"
       },
       {
         "id": "4880",
@@ -1360,29 +1395,9 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "1769-4880"
       },
       {
-        "id": "4882",
-        "title": "Das Jahr 1771 im Überblick",
-        "folder": "1771-4882"
-      },
-      {
-        "id": "4884",
-        "title": "Das Jahr 1773 im Überblick",
-        "folder": "1773-4884"
-      },
-      {
-        "id": "4886",
-        "title": "Das Jahr 1775 im Überblick",
-        "folder": "1775-4886"
-      },
-      {
         "id": "4888",
         "title": "Das Jahr 1777 im Überblick",
         "folder": "1777-4888"
-      },
-      {
-        "id": "4890",
-        "title": "Das Jahr 1779 im Überblick",
-        "folder": "1779-4890"
       },
       {
         "id": "4892",
@@ -1390,14 +1405,34 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "1781-4892"
       },
       {
-        "id": "4894",
-        "title": "Das Jahr 1783 im Überblick",
-        "folder": "1783-4894"
+        "id": "4812",
+        "title": "Das Jahr 1700 im Überblick",
+        "folder": "1700-4812"
       },
       {
-        "id": "4896",
-        "title": "Das Jahr 1785 im Überblick",
-        "folder": "1785-4896"
+        "id": "4822",
+        "title": "Das Jahr 1710 im Überblick",
+        "folder": "1710-4822"
+      },
+      {
+        "id": "4832",
+        "title": "Das Jahr 1720 im Überblick",
+        "folder": "1720-4832"
+      },
+      {
+        "id": "4842",
+        "title": "Das Jahr 1730 im Überblick",
+        "folder": "1730-4842"
+      },
+      {
+        "id": "4852",
+        "title": "Das Jahr 1740 im Überblick",
+        "folder": "1740-4852"
+      },
+      {
+        "id": "5123",
+        "title": "Das Jahr 1750 im Überblick",
+        "folder": "1750-5123"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=18+jahrhundert&t=3752"
@@ -1476,11 +1511,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "die-soziale-frage-kapitalismus-und-sozialismus-347"
       },
       {
-        "id": "2290",
-        "title": "Alfred Escher",
-        "folder": "alfred-escher-2290"
-      },
-      {
         "id": "2309",
         "title": "Das kommunistische Manifest",
         "folder": "das-kommunistische-manifest-2309"
@@ -1506,16 +1536,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "karl-marx-3023"
       },
       {
-        "id": "3367",
-        "title": "Industrialisierung und die Folgen",
-        "folder": "industrialisierung-und-die-folgen-3367"
-      },
-      {
-        "id": "4414",
-        "title": "Karl Marx",
-        "folder": "karl-marx-2-4414"
-      },
-      {
         "id": "5382",
         "title": "Die Industrielle Revolution",
         "folder": "die-industrielle-revolution-5382"
@@ -1531,9 +1551,14 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "industrialisierung-der-weg-von-der-agrar-zur-industriegesellschaft-5501"
       },
       {
-        "id": "5502",
-        "title": "Industrialisierung und ihre Auswirkungen auf das Umweltmanagement",
-        "folder": "industrialisierung-und-ihre-auswirkungen-auf-das-umweltmanagement-5502"
+        "id": "3552",
+        "title": "Kinderarbeit",
+        "folder": "kinderarbeit-3552"
+      },
+      {
+        "id": "3540",
+        "title": "Gewerkschaften in Deutschland",
+        "folder": "gewerkschaften-in-deutschland-3540"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Industrielle%20Revolution%20%26%20Die%20Soziale%20Frage+geschichte&t=3752"
@@ -1638,16 +1663,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "1871-4979"
       },
       {
-        "id": "350",
-        "title": "Das osterreichische kaiserreich 2",
-        "folder": "das-osterreichische-kaiserreich-2-350"
-      },
-      {
-        "id": "2303",
-        "title": "Das chinesische kaiserreich",
-        "folder": "das-chinesische-kaiserreich-2303"
-      },
-      {
         "id": "2337",
         "title": "Die gesellschaft im deutschen kaiserreich",
         "folder": "die-gesellschaft-im-deutschen-kaiserreich-2337"
@@ -1668,19 +1683,14 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "kaiser-wilhelm-ii-3021"
       },
       {
-        "id": "3313",
-        "title": "Hohepunkt und zerfall des sterreichischen kaiserreiches",
-        "folder": "hohepunkt-und-zerfall-des-sterreichischen-kaiserreiches-3313"
-      },
-      {
-        "id": "5334",
-        "title": "Das sterreichische kaiserreich",
-        "folder": "das-sterreichische-kaiserreich-5334"
-      },
-      {
         "id": "5401",
         "title": "Was ware wenn das deutsche kaiserreich zur demokratie reformiert worden ware",
         "folder": "was-ware-wenn-das-deutsche-kaiserreich-zur-demokratie-reformiert-worden-ware-5401"
+      },
+      {
+        "id": "4152",
+        "title": "Otto von Bismarck (2)",
+        "folder": "otto-von-bismarck-2-4152"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Otto%20von%20Bismarck%20%26%20Das%20Deutsche%20Kaiserreich+geschichte&t=3752"
@@ -1700,11 +1710,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
       "Apartheid in Südafrika: Gesetzliche Rassentrennung, Unterdrückung der schwarzen Bevölkerungsmehrheit und Nelson Mandela"
     ],
     "exercises": [
-      {
-        "id": "2293",
-        "title": "Ausbeutung Amerikas",
-        "folder": "ausbeutung-amerikas-2293"
-      },
       {
         "id": "2311",
         "title": "Das portugiesische Kolonialreich",
@@ -1734,11 +1739,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "2955",
         "title": "Die Geschichte Mexikos",
         "folder": "die-geschichte-mexikos-2955"
-      },
-      {
-        "id": "3061",
-        "title": "Spanien erobert Südamerika",
-        "folder": "spanien-erobert-sudamerika-3061"
       },
       {
         "id": "3348",
@@ -1774,21 +1774,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "887",
         "title": "Die Apartheid in Südafrika",
         "folder": "die-apartheid-887"
-      },
-      {
-        "id": "2072",
-        "title": "Die ehemaligen britischen Kolonien",
-        "folder": "die-ehemaligen-britischen-kolonien-2072"
-      },
-      {
-        "id": "2073",
-        "title": "Die ehemaligen deutschen Kolonien",
-        "folder": "die-ehemaligen-deutschen-kolonien-2073"
-      },
-      {
-        "id": "646",
-        "title": "China im 20. Jahrhundert",
-        "folder": "china-im-20-jahrhundert-646"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Kolonialismus+Imperialismus&t=3752"
@@ -2000,11 +1985,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "14-punkte-programm-wilsons-2884"
       },
       {
-        "id": "2889",
-        "title": "Arbeitslosigkeit nach dem Ersten Weltkrieg",
-        "folder": "arbeitslosigkeit-nach-dem-ersten-weltkrieg-2889"
-      },
-      {
         "id": "2934",
         "title": "Der Vertrag von St. Germain",
         "folder": "der-vertrag-von-st-germain-2934"
@@ -2018,11 +1998,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "2981",
         "title": "Die Südtirolfrage",
         "folder": "die-sudtirolfrage-2981"
-      },
-      {
-        "id": "3024",
-        "title": "Karl Renner",
-        "folder": "karl-renner-3024"
       },
       {
         "id": "3171",
@@ -2040,16 +2015,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "ende-und-folgen-des-ersten-weltkriegs-3330"
       },
       {
-        "id": "3080",
-        "title": "Arbeitslosigkeit nach dem Ersten Weltkrieg",
-        "folder": "arbeitslosigkeit-nach-dem-ersten-weltkrieg-11-3080"
-      },
-      {
-        "id": "3075",
-        "title": "Deutsche Gebietsverluste nach dem Ersten Weltkrieg",
-        "folder": "arbeitslosigkeit-nach-dem-ersten-weltkrieg-6-3075"
-      },
-      {
         "id": "5337",
         "title": "Der Erste Weltkrieg",
         "folder": "der-erste-weltkrieg-5337"
@@ -2058,11 +2023,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "5422",
         "title": "Was wäre, wenn Österreich-Ungarn den Ersten Weltkrieg überlebt hätte …",
         "folder": "was-ware-wenn-sterreich-ungarn-den-ersten-weltkrieg-uberlebt-hatte-5422"
-      },
-      {
-        "id": "2892",
-        "title": "Ausrufung der republik sterreich 1918",
-        "folder": "ausrufung-der-republik-sterreich-1918-2892"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Erster+Weltkrieg+Verlauf+Versailles&t=3752"
@@ -2203,11 +2163,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "3325",
         "title": "Zwischenkriegszeit",
         "folder": "zwischenkriegszeit-3325"
-      },
-      {
-        "id": "3081",
-        "title": "Der Gemeindebau - sozialer Wohnbau in Wien",
-        "folder": "arbeitslosigkeit-nach-dem-ersten-weltkrieg-12-3081"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Zwischenkriegszeit%20%26%20Faschismus%20in%20Europa+geschichte&t=3752"
@@ -2234,6 +2189,31 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "3078",
         "title": "Arbeitslosigkeit nach dem Ersten Weltkrieg",
         "folder": "arbeitslosigkeit-nach-dem-ersten-weltkrieg-9-3078"
+      },
+      {
+        "id": "407",
+        "title": "Die Weimarer Republik",
+        "folder": "die-weimarer-republik-407"
+      },
+      {
+        "id": "1137",
+        "title": "Weltwirtschaftskrise 1929",
+        "folder": "weltwirtschaftskrise-1929-1137"
+      },
+      {
+        "id": "3326",
+        "title": "Die Weimarer Republik (2)",
+        "folder": "die-weimarer-republik-2-3326"
+      },
+      {
+        "id": "3071",
+        "title": "Arbeitslosigkeit nach dem Ersten Weltkrieg",
+        "folder": "arbeitslosigkeit-nach-dem-ersten-weltkrieg-2-3071"
+      },
+      {
+        "id": "3067",
+        "title": "Wirtschaft der Weimarer Republik",
+        "folder": "wirtschaft-der-weimarer-republik-3067"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=weimarer+republik&t=3752"
@@ -2286,11 +2266,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "das-nationalsozialistische-frauenbild-2906"
       },
       {
-        "id": "2924",
-        "title": "Der Reichsarbeitsdienst",
-        "folder": "der-reichsarbeitsdienst-2924"
-      },
-      {
         "id": "2925",
         "title": "Der Reichstagsbrand",
         "folder": "der-reichstagsbrand-2925"
@@ -2299,11 +2274,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "2957",
         "title": "Die GESTAPO",
         "folder": "die-gestapo-2957"
-      },
-      {
-        "id": "2970",
-        "title": "Die Olympischen Spiele 1936",
-        "folder": "die-olympischen-spiele-1936-2970"
       },
       {
         "id": "2974",
@@ -2321,16 +2291,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "josef-goebbels-3014"
       },
       {
-        "id": "3051",
-        "title": "Propaganda der NSDAP",
-        "folder": "propaganda-der-nsdap-3051"
-      },
-      {
-        "id": "3059",
-        "title": "Schule im Nationalsozialismus",
-        "folder": "schule-im-nationalsozialismus-3059"
-      },
-      {
         "id": "3610",
         "title": "Adolf Hitler",
         "folder": "adolf-hitler-2-3610"
@@ -2339,11 +2299,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "2289",
         "title": "Adolf Hitler",
         "folder": "adolf-hitler-2289"
-      },
-      {
-        "id": "5419",
-        "title": "Was wäre wenn Hitler an der Kunstakademie angenommen worden wäre",
-        "folder": "was-ware-wenn-hitler-an-der-kunstakademie-angenommen-worden-ware-5419"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Machtergreifung%2C%20NS-Ideologie%20%26%20F%C3%BChrerstaat+geschichte&t=3752"
@@ -2367,16 +2322,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "421",
         "title": "Der Weg in den Zweiten Weltkrieg",
         "folder": "der-weg-in-den-zweiten-weltkrieg-421"
-      },
-      {
-        "id": "697",
-        "title": "Studypoint - multiple choice - Zweiter Weltkrieg",
-        "folder": "studypoint-multiple-choice-zweiter-weltkrieg-697"
-      },
-      {
-        "id": "2362",
-        "title": "Hitlers Außenpolitik",
-        "folder": "hitlers-auesenpolitik-2362"
       },
       {
         "id": "2888",
@@ -2492,11 +2437,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "die-erste-atombombe-2949"
       },
       {
-        "id": "2965",
-        "title": "Die Moskauer Deklaration und die Konferenz in Jalta",
-        "folder": "die-moskauer-deklaration-und-die-konferenz-in-jalta-2965"
-      },
-      {
         "id": "3011",
         "title": "Italien im Zweiten Weltkrieg",
         "folder": "italien-im-zweiten-weltkrieg-3011"
@@ -2522,39 +2462,9 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "schlacht-von-stalingrad-3058"
       },
       {
-        "id": "3064",
-        "title": "Vertreibung nach dem Zweiten Weltkrieg",
-        "folder": "vertreibung-nach-dem-zweiten-weltkrieg-3064"
-      },
-      {
-        "id": "3317",
-        "title": "Österreich nach dem Zweiten Weltkrieg",
-        "folder": "sterreich-nach-dem-zweiten-weltkrieg-3317"
-      },
-      {
-        "id": "3319",
-        "title": "Verlauf des Zweiten Weltkriegs",
-        "folder": "verlauf-des-zweiten-weltkriegs-3319"
-      },
-      {
-        "id": "3320",
-        "title": "Ende und Folgen des Zweiten Weltkriegs",
-        "folder": "ende-und-folgen-des-zweiten-weltkriegs-3320"
-      },
-      {
         "id": "5341",
         "title": "Der Zweite Weltkrieg",
         "folder": "der-zweite-weltkrieg-5341"
-      },
-      {
-        "id": "5407",
-        "title": "Was wäre, wenn Deutschland den Zweiten Weltkrieg gewonnen hätte …",
-        "folder": "was-ware-wenn-deutschland-den-zweiten-weltkrieg-gewonnen-hatte-5407"
-      },
-      {
-        "id": "5414",
-        "title": "Was wäre, wenn die USA nie in den Zweiten Weltkrieg eingetreten wären …",
-        "folder": "was-ware-wenn-die-usa-nie-in-den-zweiten-weltkrieg-eingetreten-waren-5414"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Zweiter+Weltkrieg+Stalingrad+DDay&t=3752"
@@ -2648,6 +2558,21 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "3322",
         "title": "Widerstand im Nationalsozialismus",
         "folder": "widerstand-ns-3322"
+      },
+      {
+        "id": "4472",
+        "title": "Widerstand gegen Ungerechtigkeit",
+        "folder": "widerstand-gegen-ungerechtigkeit-4472"
+      },
+      {
+        "id": "dachau",
+        "title": "Das Konzentrationslager Dachau",
+        "folder": "das-konzentrationslager-dachau"
+      },
+      {
+        "id": "3006",
+        "title": "Gewaltherrschaft Stalins",
+        "folder": "gewaltherrschaft-stalins-3006"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Widerstand%20im%20Nationalsozialismus+geschichte&t=3752"
@@ -2938,11 +2863,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "3131",
         "title": "Frauen in der DDR",
         "folder": "frauen-in-der-ddr-3131"
-      },
-      {
-        "id": "5416",
-        "title": "Was wäre, wenn es die DDR immer noch geben würde …",
-        "folder": "was-ware-wenn-es-die-ddr-immer-noch-geben-wurde-5416"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Leben%20in%20der%20DDR%2C%20Mauerbau%201961%20%26%20Stasi+geschichte&t=3752"
@@ -3055,6 +2975,26 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "6508",
         "title": "Der sterreichische nationalfeiertag",
         "folder": "der-sterreichische-nationalfeiertag-6508"
+      },
+      {
+        "id": "984",
+        "title": "Das Wirtschaftswunder",
+        "folder": "das-wirtschaftswunder-984"
+      },
+      {
+        "id": "5609",
+        "title": "Das österreichische Parlament",
+        "folder": "das-sterreichische-parlament-5609"
+      },
+      {
+        "id": "3119",
+        "title": "Die Nationalratswahl 2024",
+        "folder": "die-nationalratswahl-2024-in-sterreich-3119"
+      },
+      {
+        "id": "5700",
+        "title": "Die Wiener Ringstraße",
+        "folder": "die-wiener-ringstraese-5700"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=staatsvertrag+oesterreich&t=3752"
