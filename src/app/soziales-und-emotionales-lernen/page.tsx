@@ -57,7 +57,7 @@ export default function SozialesLernenOverviewPage() {
               Kompetenzen fürs Leben: Man lernt nicht nur für Schulfächer, sondern für das echte Leben und das Miteinander. Hier geht es um Selbstwahrnehmung, den konstruktiven Umgang mit Wut und Trauer, Empathie, Freundschaft, Feedbackkultur, gewaltfreie Konfliktlösung, Zivilcourage gegen Mobbing und mitreißende Lernlieder.
             </p>
             <p className="math-page-note">
-              Mit lebensnahen Fallbeispielen, Strategien für den Schulalltag und interaktiven H5P-Übungen.
+              Mit über 60 interaktiven H5P-Übungen, lebensnahen Fallbeispielen, Strategien für den Schulalltag und Reflexionsbögen zu Gefühlen, Freundschaft, Streitkultur und Zivilcourage.
             </p>
           </div>
           <div className="math-mascot">
