@@ -57,7 +57,7 @@ export default function EnglischOverviewPage() {
               My English is not the yellow from the egg? Dann bist du hier genau richtig! Verbessere deine Sprachkenntnisse mit strukturierten Grammatikregeln, allen Zeitformen (Tenses & Mixed Tenses), Passive Voice, Uhrzeit, Vokabeltraining und spannender Musikgeschichte auf Englisch.
             </p>
             <p className="math-page-note">
-              Mit klaren Beispielsätzen, Signalwörtern, Merksätzen und 35 interaktiven H5P-Übungen.
+              Mit klaren Beispielsätzen, Signalwörtern, Merksätzen und 53 interaktiven H5P-Übungen.
             </p>
           </div>
           <div className="math-mascot">

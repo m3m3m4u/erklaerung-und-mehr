@@ -19,7 +19,8 @@ export interface EnglischTopic {
 export const englischCategories: string[] = [
   "Grammar & Tenses",
   "Vocabulary & Daily English",
-  "Culture & Music History"
+  "Culture, Geography & Music History",
+  "Literature & Reading"
 ];
 
 export const englischTopics: Record<string, EnglischTopic> = {
@@ -28,7 +29,7 @@ export const englischTopics: Record<string, EnglischTopic> = {
     "slug": "tenses",
     "title": "Zeiten (Tenses)",
     "category": "Grammar & Tenses",
-    "shortDesc": "Simple Present, Present Progressive, Simple Past, Present Perfect, Past Perfect, Will-Future, Going-to-Future und To Be.",
+    "shortDesc": "Simple Present, Present Progressive, Simple Past, Present Perfect, Past Perfect, Future Tenses und Forms of Be.",
     "longDesc": "Master the English tenses! Learn when and how to use each tense correctly: From present habits and continuous actions to past events, completed actions with present relevance, and future plans.",
     "keyPoints": [
       "Simple Present: Regelmäßige Handlungen, Gewohnheiten und Fakten; Signalwörter: always, often, usually, never; He/She/It das 's' muss mit!",
@@ -79,16 +80,27 @@ export const englischTopics: Record<string, EnglischTopic> = {
         "id": "396",
         "title": "Revision: Forms of be (Simple present and simple past)",
         "folder": "revision-forms-of-be-simple-present-and-simple-past-396"
+      },
+      {
+        "id": "684",
+        "title": "Simple Present: Lückentext & Verbformen",
+        "folder": "studypoint-luckentext-simple-present-684"
+      },
+      {
+        "id": "694",
+        "title": "Simple Present: Single Choice Test",
+        "folder": "studypoint-single-choice-simple-present-694"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=English+Tenses+Grammar&t=468"
   },
+
   "mixed-tenses": {
     "id": 26445,
     "slug": "mixed-tenses",
     "title": "Zeiten gemischt (Mixed Tenses)",
     "category": "Grammar & Tenses",
-    "shortDesc": "Simple Past vs. Past Progressive, Will-Future vs. Going-to-Future, Simple Past vs. Present Perfect.",
+    "shortDesc": "Simple Past vs. Past Progressive, Will-Future vs. Going-to-Future, Simple Past vs. Present Perfect im direkten Vergleich.",
     "longDesc": "Echte Sprachkompetenz zeigt sich im gezielten Wechsel der Zeiten. Trainiere die typischen Gegenüberstellungen, die im Schulalltag und in Prüfungen abgefragt werden.",
     "keyPoints": [
       "Simple Past vs. Past Progressive: Hintergrundhandlung (Past Progressive: 'I was sleeping') wird unterbrochen durch ein kurzes Ereignis (Simple Past: 'when the phone rang')",
@@ -122,24 +134,78 @@ export const englischTopics: Record<string, EnglischTopic> = {
         "id": "413",
         "title": "Simple present oder present progressive?",
         "folder": "simple-present-oder-present-progressive-413"
+      },
+      {
+        "id": "722",
+        "title": "Present Simple vs. Progressive im Satzkontext",
+        "folder": "studypoint-simple-present-oder-present-progressive-722"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Mixed+Tenses+Englisch&t=468"
   },
+
   "grammar-sonstiges": {
     "id": 26449,
     "slug": "grammar-sonstiges",
-    "title": "Sonstige Grammatik (Grammar Topics)",
+    "title": "Articles, Quantifiers & Determiners",
     "category": "Grammar & Tenses",
-    "shortDesc": "Passive Voice, Quantifiers (some/any/much/many), Demonstratives, Plural, Adjektiv vs. Adverb und Steigerung.",
-    "longDesc": "Vertiefe dein Grammatikwissen: Vom Passiv (Passive Voice) über Mengenangaben (some, any, much, many) bis hin zu Adverbien, Demonstrativpronomen und Adjektivsteigerungen.",
+    "shortDesc": "Unbestimmter Artikel (a/an), Quantifiers (some/any/much/many), Demonstratives (this/that), Zeitangaben (since/for/ago) und Plural.",
+    "longDesc": "Kleine Wörter mit großer Wirkung: Lerne den präzisen Gebrauch von Artikeln, Mengenangaben und Pronomen für fehlerfreie englische Sätze.",
     "keyPoints": [
-      "Passive Voice: Bildung mit 'to be' + Past Participle; Fokus liegt auf der Handlung und dem Objekt, nicht auf dem Handelnden ('The book was written in 1920')",
-      "Mengenangaben: 'some' in bejahten Sätzen und höflichen Bitten; 'any' in Verneinungen und echten Fragen",
-      "Much vs. Many: 'much' bei unzählbaren Nomen (water, time, money); 'many' bei zählbaren Pluralnomen (books, apples, students)",
-      "Adjective vs. Adverb: Adjektive beschreiben Nomen ('a quick runner'); Adverbien beschreiben Verben, Adjektive oder andere Adverbien ('he runs quickly')",
-      "Steigerung von Adjektiven: Kurze Adjektive (-er, -est: fast, faster, fastest); lange Adjektive (more, most: interesting, more interesting, most interesting)",
-      "A vs. An: 'a' vor Konsonantenlauten ('a dog', 'a university'); 'an' vor Vokallauten ('an apple', 'an hour')"
+      "A vs. An: 'a' vor Konsonantenlauten ('a dog', 'a university'); 'an' vor Vokallauten ('an apple', 'an hour')",
+      "Some vs. Any: 'some' in bejahten Sätzen und höflichen Bitten/Angeboten; 'any' in Verneinungen und offenen Fragen",
+      "Much vs. Many: 'much' bei unzählbaren Nomen (water, money, time); 'many' bei zählbaren Nomen im Plural (books, cars)",
+      "Demonstratives: 'this' (nah, Einzahl) / 'these' (nah, Mehrzahl) vs. 'that' (fern, Einzahl) / 'those' (fern, Mehrzahl)",
+      "Since vs. For vs. Ago: 'since' markiert einen konkreten Anfangszeitpunkt; 'for' eine Zeitspanne; 'ago' liegt vollständig in der Vergangenheit",
+      "Pluralbildung: Regelmäßig mit -s/-es; unregelmäßige Formen (man/men, woman/women, child/children, foot/feet, mouse/mice)"
+    ],
+    "exercises": [
+      {
+        "id": "371",
+        "title": "A or an - der unbestimmte Artikel",
+        "folder": "a-or-an-der-unbestimmte-artikel-2-371"
+      },
+      {
+        "id": "687",
+        "title": "A vs. An – Drag the Words Übung",
+        "folder": "studypoint-drag-the-words-der-unbestimmte-artikel-687"
+      },
+      {
+        "id": "402",
+        "title": "Some - any - a lot of - much - many",
+        "folder": "some-any-a-lot-of-much-many-402"
+      },
+      {
+        "id": "813",
+        "title": "Demonstratives (This, That, These, Those)",
+        "folder": "demonstratives-813"
+      },
+      {
+        "id": "401",
+        "title": "Since - for - ago",
+        "folder": "since-for-ago-401"
+      },
+      {
+        "id": "369",
+        "title": "Plural (Mehrzahlbildung)",
+        "folder": "plural-mehrzahl-369"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=English+Articles+Quantifiers&t=468"
+  },
+
+  "passive-voice-and-modifiers": {
+    "slug": "passive-voice-and-modifiers",
+    "title": "Passive Voice, Adjectives & Adverbs",
+    "category": "Grammar & Tenses",
+    "shortDesc": "The Passive Voice, Adverb vs. Adjective, Steigerung (Comparison), Häufigkeitsadverbien und Capitalization Rules.",
+    "longDesc": "Erweitere deinen Satzbau: Vom Passiv für Berichte und formelle Texte über den Unterschied zwischen Adjektiven und Adverbien bis hin zu Steigerungsformen und englischer Rechtschreibung.",
+    "keyPoints": [
+      "Passive Voice: Bildung mit der passenden Form von 'to be' + Past Participle ('The letter was sent yesterday'); der Urheber kann mit 'by' genannt werden",
+      "Adjective vs. Adverb: Adjektive modifizieren Nomen ('a slow car'); Adverbien modifizieren Verben, Adjektive oder andere Adverbien ('he drives slowly')",
+      "Comparison of Adjectives: Kurze Adjektive (-er/-est: cheap, cheaper, cheapest); lange Adjektive (more/most: dangerous, more dangerous, most dangerous); unregelmäßig (good/better/best, bad/worse/worst)",
+      "Adverbs of Frequency: always, usually, often, sometimes, rarely, never stehen meist vor dem Vollverb, aber nach Formen von 'to be'",
+      "Capitalization: Großgeschrieben werden im Englischen Wochentage, Monate, Sprachen/Nationalitäten, das Personalpronomen 'I' sowie Titelwörter"
     ],
     "exercises": [
       {
@@ -158,110 +224,109 @@ export const englischTopics: Record<string, EnglischTopic> = {
         "folder": "comparison-of-adjectives-372"
       },
       {
-        "id": "369",
-        "title": "Plural (Mehrzahl)",
-        "folder": "plural-mehrzahl-369"
-      },
-      {
-        "id": "371",
-        "title": "A or an - der unbestimmte Artikel",
-        "folder": "a-or-an-der-unbestimmte-artikel-2-371"
-      },
-      {
         "id": "394",
         "title": "Adverbs Of Frequency",
         "folder": "adverbs-of-frequency-394"
       },
       {
         "id": "405",
-        "title": "Groß- und Kleinschreibung",
+        "title": "Groß- und Kleinschreibung (Capitalization)",
         "folder": "groes-und-kleinschreibung-405"
-      },
-      {
-        "id": "813",
-        "title": "Demonstratives",
-        "folder": "demonstratives-813"
-      },
-      {
-        "id": "402",
-        "title": "Some - any - a lot of - much - many",
-        "folder": "some-any-a-lot-of-much-many-402"
-      },
-      {
-        "id": "401",
-        "title": "Since - for - ago",
-        "folder": "since-for-ago-401"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=English+Grammar+Passive+Adverbs&t=468"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=English+Passive+Adjectives+Adverbs&t=468"
   },
+
   "whats-the-time": {
     "id": 26451,
     "slug": "whats-the-time",
-    "title": "Uhrzeit (What's The Time?)",
+    "title": "Uhrzeit, Zahlen & Grundlagen (Daily English)",
     "category": "Vocabulary & Daily English",
-    "shortDesc": "Uhrzeiten auf Englisch: o'clock, half past, quarter past, quarter to und AM/PM.",
-    "longDesc": "Wie spät ist es auf Englisch? Lerne, wie man digitale und analoge Uhrzeiten im Englischen korrekt liest, ausspricht und aufschreibt.",
+    "shortDesc": "Uhrzeiten auf Englisch (o'clock, half past, quarter to), Kardinal- und Ordinalzahlen sowie elementarer Wortschatz.",
+    "longDesc": "Wie spät ist es auf Englisch? Lerne, wie man digitale und analoge Uhrzeiten im Englischen korrekt liest, ausspricht und aufschreibt, kombiniert mit Zahlen und grundlegendem Wortschatz.",
     "keyPoints": [
       "Volle Stunde: 'It's three o'clock'",
       "Viertel nach: 'It's quarter past three' (15 Minuten nach der vollen Stunde)",
-      "Halbe Stunde: 'It's half past three' (wörtlich: eine halbe Stunde NACH drei Uhr = 3:30 Uhr)",
-      "Viertel vor: 'It's quarter to four' (15 Minuten VOR der nächsten Stunde)",
-      "Minutenangaben: 1–30 Minuten = 'past' (z. B. 'ten past three'); 31–59 Minuten = 'to' (z. B. 'twenty to four')",
-      "12-Stunden-Zählung: 'a.m.' (ante meridiem = vormittags) und 'p.m.' (post meridiem = nachmittags)"
+      "Halbe Stunde: 'It's half past three' (eine halbe Stunde nach drei = 3:30 Uhr)",
+      "Viertel vor: 'It's quarter to four' (15 Minuten vor vier = 3:45 Uhr)",
+      "Minuten: 1–30 Minuten = 'past' (z. B. 'twenty past five'); 31–59 Minuten = 'to' (z. B. 'ten to six')",
+      "12-Stunden-Zählung: a.m. (vormittags, midnight to noon) vs. p.m. (nachmittags, noon to midnight)",
+      "Zahlen & Zählen: Cardinal numbers (one, two, twenty) vs. Ordinal numbers (first, second, third) für Datumsangaben"
     ],
     "exercises": [
       {
         "id": "1039",
-        "title": "What's the time? - die Uhrzeit (ohne Hörübung)",
+        "title": "What's the time? - die Uhrzeit",
         "folder": "what-039-s-the-time-die-uhrzeit-ohne-horubung-406"
+      },
+      {
+        "id": "721",
+        "title": "Numbers & Counting (Zahlen auf Englisch)",
+        "folder": "studypoint-numbers-721"
+      },
+      {
+        "id": "703",
+        "title": "Vocabulary Memory: Animals",
+        "folder": "studypoint-memory-game-animals-703"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Telling+the+Time+English&t=468"
   },
+
   "vokabeln-more": {
     "id": 26447,
     "slug": "vokabeln-more",
-    "title": "Vokabeln & Wortschatz (More!)",
+    "title": "Vokabeln & Wortschatz (More! Course 1–4)",
     "category": "Vocabulary & Daily English",
-    "shortDesc": "Wortschatztraining, Vokabelübungen und Phrasen für den Alltag und den Englischunterricht.",
-    "longDesc": "Erweitere deinen aktiven und passiven englischen Wortschatz! Übungen zu zentralen Alltagsthemen, Redewendungen, Synonymen und Vokabelfeldern.",
+    "shortDesc": "Umfassendes Wortschatztraining, Textarbeit und Enriched Course Module für die Schulstufen 5 bis 8.",
+    "longDesc": "Erweitere deinen aktiven und passiven englischen Wortschatz mit den strukturierten Kurseinheiten der More!-Lehrwerke 1 bis 4 inklusive vertiefenden Enriched-Trainingsmodulen.",
     "keyPoints": [
       "Vokabeln im Kontext lernen: Wörter nicht isoliert pauken, sondern in Beispielsätzen und Wortfamilien merken",
-      "False Friends (Falsche Freunde): Wörter, die Deutsch klingen, aber etwas völlig anderes bedeuten (z. B. 'become' = werden, nicht bekommen)",
-      "Kollokationen & Phrasal Verbs: Typische Wortverbindungen (z. B. 'make a decision', 'look forward to', 'give up')",
-      "Wortbildung: Vorsilben (un-, dis-, im-) und Nachsilben (-ful, -less, -ment, -tion) erschließen neue Wortbedeutungen"
+      "False Friends (Falsche Freunde): Wörter mit trügerischer Ähnlichkeit (z. B. 'become' = werden, 'gift' = Geschenk, 'eventually' = schließlich)",
+      "Kollokationen & Phrasal Verbs: Typische Redewendungen und feste Verbkombinationen (make a decision, look forward to, give up)",
+      "Wortbildung: Wortarten durch Affixe ableiten (happy ➔ happiness, care ➔ careful/careless)"
     ],
     "exercises": [
       {
-        "id": "362",
-        "title": "More!1",
-        "folder": "more-4-362"
+        "id": "363",
+        "title": "More! 1 – Course Vocabulary & Exercises",
+        "folder": "more-1-363"
       },
       {
         "id": "364",
-        "title": "More!2",
+        "title": "More! 2 – Course Vocabulary & Exercises",
         "folder": "more-2-364"
       },
       {
+        "id": "365",
+        "title": "More! 3 – Course Vocabulary & Exercises",
+        "folder": "more-3-365"
+      },
+      {
+        "id": "362",
+        "title": "More! 4 – Course Vocabulary & Exercises",
+        "folder": "more-4-362"
+      },
+      {
         "id": "366",
-        "title": "More!3 Enriched Course",
+        "title": "More! 3 – Enriched Course Training",
         "folder": "more-3-enriched-course-366"
       },
       {
         "id": "367",
-        "title": "More!4 Enriched Course",
+        "title": "More! 4 – Enriched Course Training",
         "folder": "more-4-enriched-course-367"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=English+Vocabulary+More&t=468"
   },
+
   "history-of-music": {
     "id": 26050,
     "slug": "history-of-music",
-    "title": "History of Music (Musikgeschichte auf Englisch)",
-    "category": "Culture & Music History",
-    "shortDesc": "Music eras from Antiquity, Middle Ages and Baroque to Classical, Romanticism and Modern music in English.",
+    "title": "History of Music (CLIL English)",
+    "category": "Culture, Geography & Music History",
+    "shortDesc": "Musikgeschichte auf Englisch: Von der Steinzeit und Antike über Barock und Wiener Klassik bis zur Romantik und Moderne.",
     "longDesc": "Explore the fascinating history of music entirely in the English language! Improve your CLIL (Content and Language Integrated Learning) skills with videos and exercises on musical eras and famous composers.",
     "keyPoints": [
       "Antiquity & Middle Ages: Early musical instruments, Gregorian chants and the origins of polyphony",
@@ -289,7 +354,7 @@ export const englischTopics: Record<string, EnglischTopic> = {
       },
       {
         "id": "637",
-        "title": "Music in the Baroque",
+        "title": "Music in the Baroque Period",
         "folder": "music-in-the-baroque-2-637"
       },
       {
@@ -309,5 +374,89 @@ export const englischTopics: Record<string, EnglischTopic> = {
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=History+of+Music+English&t=468"
+  },
+
+  "uk-and-usa-culture-and-cities": {
+    "slug": "uk-and-usa-culture-and-cities",
+    "title": "UK & USA: Culture, Cities & History",
+    "category": "Culture, Geography & Music History",
+    "shortDesc": "Landeskunde im englischsprachigen Raum: London, New York City, US-amerikanische Geschichte und Kulturmetropolen.",
+    "longDesc": "Tauche ein in die Geschichte und Kultur der bedeutendsten Metropolen der englischsprachigen Welt: Von der traditionsreichen britischen Hauptstadt London bis zur Weltmetropole New York City und den Meilensteinen der US-Geschichte.",
+    "keyPoints": [
+      "London: Hauptstadt des Vereinigten Königreichs; Wahrzeichen wie Big Ben, Tower Bridge, Buckingham Palace und der Fluss Themse",
+      "New York City: 'The City That Never Sleeps'; Five Boroughs (Manhattan, Brooklyn, Queens, The Bronx, Staten Island) und Central Park",
+      "Geschichte New Yorks: Von der niederländischen Kolonie Neu-Amsterdam über Ellis Island als Tor zur Neuen Welt bis zum globalen Finanzzentrum",
+      "Geschichte der USA: Unabhängigkeitserklärung 1776, Verfassung, Sezessionskrieg und Aufstieg zur globalen Wirtschaftsmacht"
+    ],
+    "exercises": [
+      {
+        "id": "1746",
+        "title": "London – Sights, Landmarks & Culture",
+        "folder": "london-1746"
+      },
+      {
+        "id": "6053",
+        "title": "London Explorer – History & Modern City (Part 2)",
+        "folder": "london-2-6053"
+      },
+      {
+        "id": "6083",
+        "title": "New York City – The Big Apple",
+        "folder": "new-york-2-6083"
+      },
+      {
+        "id": "5379",
+        "title": "History of New York – From Colony to Metropolis",
+        "folder": "die-geschichte-new-yorks-5379"
+      },
+      {
+        "id": "5364",
+        "title": "History of the USA – Independence & Modern Era",
+        "folder": "die-geschichte-der-usa-5364"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=London+New+York+USA+English&t=468"
+  },
+
+  "william-shakespeare-and-drama": {
+    "slug": "william-shakespeare-and-drama",
+    "title": "William Shakespeare & Classic Drama",
+    "category": "Literature & Reading",
+    "shortDesc": "The Bard of Avon: Shakespeares Leben, das Globe Theatre, Hamlet, Romeo und Julia und zeitlose dramatische Motive.",
+    "longDesc": "William Shakespeare (1564–1616) gilt als der bedeutendste Dramatiker der Weltliteratur. Seine Tragödien, Komödien und Sonette prägen bis heute die englische Sprache, Literatur und Theaterkultur.",
+    "keyPoints": [
+      "William Shakespeare: Geboren in Stratford-upon-Avon, Dramatiker der Lord Chamberlain's Men am elisabethanischen Globe Theatre",
+      "Hamlet: Die Tragödie des dänischen Prinzen; Themen wie Rache, Zweifel, Schein versus Sein und der berühmte Monolog 'To be, or not to be'",
+      "Romeo and Juliet: Die berühmteste Liebestragödie der Literaturgeschichte über die verfeindeten Familien Montague und Capulet in Verona",
+      "Sprachlicher Einfluss: Shakespeare erfand Hunderte neuer englischer Wörter und Redewendungen ('break the ice', 'heart of gold', 'wild-goose chase')"
+    ],
+    "exercises": [
+      {
+        "id": "4632",
+        "title": "William Shakespeare – Life & Works",
+        "folder": "william-shakespeare-4632"
+      },
+      {
+        "id": "shakespeare-zeitlos",
+        "title": "Shakespeare's Timeless Drama",
+        "folder": "shakespeare-und-warum-seine-dramen-zeitlos-sind"
+      },
+      {
+        "id": "6219",
+        "title": "Hamlet – Prince of Denmark",
+        "folder": "hamlet-von-william-shakespeare-6219"
+      },
+      {
+        "id": "6218",
+        "title": "Hamlet – Literary Significance",
+        "folder": "hamlet-von-william-shakespeare-literarische-bedeutung-6218"
+      },
+      {
+        "id": "3467",
+        "title": "Romeo and Juliet – The Star-Crossed Lovers",
+        "folder": "william-shakespeare-romeo-und-julia-3467"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Shakespeare+Hamlet+Drama+English&t=468"
   }
 };
