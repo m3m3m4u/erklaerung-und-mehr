@@ -11187,7 +11187,10 @@
     "/kunst-und-kuenstler/kuenstlerische-techniken-und-medien": "/kunst-und-kuenstler/werkstoffe-plastik-und-architektur",
     "/kunst-und-kuenstler/darstellungsformen-in-der-kunst": "/kunst-und-kuenstler/bildanalyse-gattungen-und-darstellungsformen",
     "/kunst-und-kuenstler/kunst-und-raeumliche-wahrnehmung": "/kunst-und-kuenstler/bildanalyse-gattungen-und-darstellungsformen",
-    "/kunst-und-kuenstler/rembrandt-und-das-barock": "/kunst-und-kuenstler/goldenes-zeitalter-der-niederlande"
+    "/kunst-und-kuenstler/rembrandt-und-das-barock": "/kunst-und-kuenstler/goldenes-zeitalter-der-niederlande",
+    "/medien/medien-in-spezifischen-fachbereichen": "/medien/medien-in-fachbereichen-und-wirtschaft",
+    "/medien/medien-in-krisen-und-konflikten": "/medien/medien-in-krisen-und-industrie",
+    "/medien/medien-in-wirtschaft-und-industrie": "/medien/medien-in-krisen-und-industrie"
   },
   "post_id_redirects": {
     "3": "/datenschutz",

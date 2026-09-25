@@ -17,26 +17,26 @@ export interface MedienTopic {
 }
 
 export const medienCategories: string[] = [
-  "Geschichte & Gesellschaft",
-  "Fachbereiche & Wissenschaft",
-  "Wirtschaft & Krisen"
+  "Mediengeschichte, Presse & Journalismus",
+  "Medienkompetenz, Fake News & Desinformation",
+  "Social Media, Content Creation & Digitale Jugendkultur",
+  "Medienrecht, Datenschutz & Werbekompetenz",
+  "Medien in Fachbereichen, Gesellschaft & Krisen"
 ];
 
 export const medienTopics: Record<string, MedienTopic> = {
   "mediengeschichte": {
-    "id": 45223,
     "slug": "mediengeschichte",
-    "title": "Mediengeschichte",
-    "category": "Geschichte & Gesellschaft",
-    "shortDesc": "Fernsehentwicklung, Videospiele-Geschichte, Filmgeschichte, Internetrolle in den Medien, Fotografie und Popkultur.",
-    "longDesc": "Von der Erfindung des Buchdrucks und der Fotografie über das goldene Zeitalter des Kinos und Fernsehens bis zur digitalen Revolution des Internets und der Videospiele: Entdecke die Meilensteine der Mediengeschichte.",
+    "title": "Mediengeschichte: Vom Buchdruck bis zum Internet",
+    "category": "Mediengeschichte, Presse & Journalismus",
+    "shortDesc": "Gutenbergs Druckerpresse, Fotografie, Filmgeschichte, Farbfernsehen, Internet und Popkultur.",
+    "longDesc": "Von Gutenbergs Erfindung des Buchdrucks mit beweglichen Lettern über die Erfindung der Fotografie und des Kinos bis zum Farbfernsehen und der weltweiten Vernetzung durch das Internet: Erkunde die Meilensteine der Mediengeschichte.",
     "keyPoints": [
-      "Vom Buchdruck zur Massenpresse: Johannes Gutenbergs bewegliche Lettern revolutionierten den Wissenstransfer in Europa",
-      "Fotografie & Film: Daguerreotypie, Stummfilmära, Entstehung Hollywoods und Entwicklung zum weltweiten Massenunterhaltungsmedium",
-      "Fernsehentwicklung: Erste Übertragungen, Siegeszug des Farbfernsehens, Satelliten-TV und Wandel zum Streaming on Demand",
-      "Videospiele-Geschichte: Von 'Pong' und Spielhallenautomaten über Heimkonsolen bis zur immersiven Virtual Reality",
-      "Internet & Web 2.0: Demokratisierung der Medienproduktion, interaktive Plattformen, Blogs und globale Vernetzung",
-      "Medienrolle in der Popkultur: Wie Musikfernsehen (MTV), Filmikonen und Medienhypes Lebensstile ganzer Generationen prägten"
+      "Johannes Gutenbergs Druckerpresse (um 1450): Beginn der massenhaften Wissensverbreitung und Alphabetisierung",
+      "Fotografie & Stummfilm: Das bewegte Bild entsteht – von der Daguerreotypie über die Brüder Lumière bis zum Tonfilm",
+      "Fernsehen & Farbfernsehen (PAL/NTSC): Das Wohnzimmer wird zum medialen Mittelpunkt der Gesellschaft",
+      "Die Rolle des Internets: Vom Arpanet und World Wide Web (Web 1.0) zur interaktiven Mitmachkultur (Web 2.0)",
+      "Medien in der Popkultur: Musikfernsehen, Filmreihen und weltweite popkulturelle Trends"
     ],
     "exercises": [
       {
@@ -45,13 +45,13 @@ export const medienTopics: Record<string, MedienTopic> = {
         "folder": "die-entwicklung-des-fernsehens-2584"
       },
       {
-        "id": "2585",
-        "title": "Die Geschichte der Videospiele",
-        "folder": "die-geschichte-der-videospiele-2585"
+        "id": "5252",
+        "title": "Das Farbfernsehen – Geschichte und Technik",
+        "folder": "das-farbfernsehen-5252"
       },
       {
         "id": "2606",
-        "title": "Filmgeschichte und -Analyse",
+        "title": "Filmgeschichte und Filmanalyse",
         "folder": "filmgeschichte-und-analyse-2606"
       },
       {
@@ -68,72 +68,376 @@ export const medienTopics: Record<string, MedienTopic> = {
         "id": "2597",
         "title": "Die Rolle von Medien in der Popkultur",
         "folder": "die-rolle-von-medien-in-der-popkultur-2597"
+      },
+      {
+        "id": "wie-funktioniert-die-druckerpresse",
+        "title": "Wie funktioniert die Druckerpresse?",
+        "folder": "wie-funktioniert-die-druckerpresse"
+      },
+      {
+        "id": "2585",
+        "title": "Die Geschichte der Videospiele",
+        "folder": "die-geschichte-der-videospiele-2585"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Mediengeschichte&t=1721"
   },
-  "medien-und-gesellschaft": {
-    "id": 45225,
-    "slug": "medien-und-gesellschaft",
-    "title": "Medien und Gesellschaft",
-    "category": "Geschichte & Gesellschaft",
-    "shortDesc": "Medieneinfluss auf Politik, Kultur, Religion, Umwelt, Diversität und soziale Bewegungen.",
-    "longDesc": "Medien spiegeln die Gesellschaft nicht nur wider, sie formen sie aktiv. Lerne die Wechselwirkungen zwischen Medienkonsum, politischer Meinungsbildung, gesellschaftlichen Werten und sozialem Wandel kennen.",
+  "presse-zeitungen-und-journalismus": {
+    "slug": "presse-zeitungen-und-journalismus",
+    "title": "Presse, Zeitungen & Qualitätsjournalismus",
+    "category": "Mediengeschichte, Presse & Journalismus",
+    "shortDesc": "Nachrichtenkriterien, Pressefreiheit, Der Spiegel, Süddeutsche Zeitung, Bild-Zeitung und Fernsehsender.",
+    "longDesc": "Qualitätsjournalismus filtert, überprüft und ordnet die tägliche Flut an Nachrichten ein. Entdecke, wie Redaktionen arbeiten, wie Nachrichtenagenturen funktionieren und welche Rolle Leitmedien, Boulevardzeitungen und Rundfunkanstalten in der Demokratie spielen.",
     "keyPoints": [
-      "Medien als 'Vierte Gewalt': Kontrollfunktion in der Demokratie, Agenda-Setting und investigative Berichterstattung",
-      "Diversität & Repräsentation: Darstellung von Minderheiten, Geschlechterrollen und kultureller Vielfalt in Film und Nachrichten",
-      "Medien und Religion: Berichterstattung über Glaubensgemeinschaften, religiöse Rundfunkformate und Wertevermittlung",
-      "Umwelt- & Klimakommunikation: Die Rolle von Medien bei der Sensibilisierung für globale ökologische Herausforderungen",
-      "Soziale Bewegungen: Mobilisierungskraft moderner Medienkanäle für Bürgerrechte, Klimaschutz und gesellschaftlichen Protest",
-      "Medienwirkungstheorien: Kultivierungshypothese, Schweigespirale und Filterblasen im digitalen Diskurs"
+      "Aufbau einer Zeitung: Titelseite, Ressorts (Politik, Wirtschaft, Kultur, Sport, Lokales), Leitartikel und Glosse",
+      "Nachrichtenfaktoren: Aktualität, Nähe, Prominenz, Dramatik und Tragweite bestimmen den Nachrichtenwert",
+      "Qualitätsjournalismus vs. Boulevard: Sorgfältige Quellentrennung (Zwei-Quellen-Prinzip) vs. Sensationsschlagzeilen",
+      "Der Spiegel & Süddeutsche Zeitung: Investigativer Journalismus und Aufdeckung politischer Affären",
+      "Rundfunklandschaft: Öffentlich-rechtlicher Rundfunk mit Bildungsauftrag vs. private Fernsehsender mit Werbefinanzierung"
     ],
     "exercises": [
       {
-        "id": "2583",
-        "title": "Die Darstellung von Rasse und Ethnizität in den Medien",
-        "folder": "die-darstellung-von-rasse-und-ethnizitat-in-den-medien-2583"
+        "id": "5360",
+        "title": "Die Geschichte der Nachrichten",
+        "folder": "die-geschichte-der-nachrichten-5360"
       },
       {
-        "id": "2612",
-        "title": "Medien und Politik - Einfluss und Interaktion",
-        "folder": "medien-und-politik-einfluss-und-interaktion-2612"
+        "id": "medien-in-deutschland",
+        "title": "Die Medienlandschaft in Deutschland",
+        "folder": "medien-in-deutschland"
       },
       {
-        "id": "2614",
-        "title": "Medien und Religion",
-        "folder": "medien-und-religion-2614"
+        "id": "der-spiegel-ein-wichtiges-nachrichtenmagazin",
+        "title": "Der Spiegel – Ein wichtiges deutsches Nachrichtenmagazin",
+        "folder": "der-spiegel-ein-wichtiges-nachrichtenmagazin"
       },
       {
-        "id": "2609",
-        "title": "Medien und Kultur",
-        "folder": "medien-und-kultur-2609"
+        "id": "die-sueddeutsche-zeitung",
+        "title": "Die Süddeutsche Zeitung – Überregionale Qualitätspresse",
+        "folder": "die-sueddeutsche-zeitung"
       },
       {
-        "id": "2616",
-        "title": "Medien und Umwelt",
-        "folder": "medien-und-umwelt-2616"
+        "id": "die-bild-zeitung-geschichte-und-bedeutung",
+        "title": "Die Bild-Zeitung – Geschichte und Phänomen des Boulevards",
+        "folder": "die-bild-zeitung-geschichte-und-bedeutung"
       },
       {
-        "id": "2604",
-        "title": "Die Rolle von Medien in sozialen Bewegungen",
-        "folder": "die-rolle-von-medien-in-sozialen-bewegungen-2604"
+        "id": "die-zeitung-die-zeit-fuer-kinder-erklaert",
+        "title": "Die Wochenzeitung DIE ZEIT – Journalismus mit Tiefgang",
+        "folder": "die-zeitung-die-zeit-fuer-kinder-erklaert"
+      },
+      {
+        "id": "listen-von-fernsehsendern",
+        "title": "Fernsehsender: Öffentlich-rechtlich vs. Privatfernsehen",
+        "folder": "listen-von-fernsehsendern"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Medien+und+Gesellschaft&t=1721"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Journalismus+Presse+Zeitung&t=1721"
+  },
+  "fake-news-desinformation-und-deepfakes": {
+    "slug": "fake-news-desinformation-und-deepfakes",
+    "title": "Fake News, Desinformation & Deepfakes erkennen",
+    "category": "Medienkompetenz, Fake News & Desinformation",
+    "shortDesc": "Desinformation entlarven, Fact-Checking, KI-generierte Deepfakes, Manipulation bei Wahlen und Medienethik.",
+    "longDesc": "Gezielte Falschmeldungen (Fake News), manipulierte Bilder und KI-generierte Deepfakes bedrohen das Vertrauen in demokratische Institutionen. Lerne professionelle Fact-Checking-Methoden, die Erkennung digitaler Täuschungen und rechtliche Konsequenzen von Manipulation.",
+    "keyPoints": [
+      "Definition: Unterschied zwischen Fehlinformation (irrtümlich falsch) und Desinformation (gezielte Täuschung)",
+      "Deepfakes & KI-Manipulation: Durch neuronale Netze täuschend echt generierte Stimmen und Videos politischer Akteure",
+      "Fact-Checking-Tools: Umgekehrte Bildersuche (Reverse Image Search), Metadaten-Checks und offizielle Prüfportale",
+      "Wahlbeeinflussung: Social Bots, Microtargeting und gezielte Kampagnen zur Wählerverunsicherung",
+      "Rechtliche Folgen: Strafbarkeit von Verleumdung, Volksverhetzung, Urheberrechtsverletzungen und Betrug"
+    ],
+    "exercises": [
+      {
+        "id": "erkennen-von-fake-news-und-manipulation-und-desinformation",
+        "title": "Erkennen von Fake News, Manipulation und Desinformation",
+        "folder": "erkennen-von-fake-news-und-manipulation-und-desinformation"
+      },
+      {
+        "id": "deepfakes-und-wahlbetrug-die-neue-aera-der-digitalen-manipulation",
+        "title": "Deepfakes und Wahlbetrug – Die neue Ära digitaler Manipulation",
+        "folder": "deepfakes-und-wahlbetrug-die-neue-aera-der-digitalen-manipulation"
+      },
+      {
+        "id": "rechtliche-konsequenzen-manipulierter-medieninhalte",
+        "title": "Rechtliche Konsequenzen manipulierter Medieninhalte",
+        "folder": "rechtliche-konsequenzen-manipulierter-medieninhalte"
+      },
+      {
+        "id": "einfluss-von-social-media-algorithmen-auf-wahlen",
+        "title": "Einfluss von Social-Media-Algorithmen auf Wahlen",
+        "folder": "einfluss-von-social-media-algorithmen-auf-wahlen"
+      },
+      {
+        "id": "2605",
+        "title": "Die Rolle von Medien in Wahlen",
+        "folder": "die-rolle-von-medien-in-wahlen-2605"
+      },
+      {
+        "id": "fischer-im-netz-der-radikalen-warum-extremisten-auf-social-media-triumphieren",
+        "title": "Fischer im Netz der Radikalen – Extremismus auf Social Media",
+        "folder": "fischer-im-netz-der-radikalen-warum-extremisten-auf-social-media-triumphieren"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Fake+News+Desinformation+Deepfakes&t=1721"
+  },
+  "filterblasen-meinungsbildung-und-medienpsychologie": {
+    "slug": "filterblasen-meinungsbildung-und-medienpsychologie",
+    "title": "Filterblasen, Meinungsbildung & Medienpsychologie",
+    "category": "Medienkompetenz, Fake News & Desinformation",
+    "shortDesc": "Echokammern, Empfehlungs-Algorithmen, Werbepsychologie, Konzentrationsverlust und Dystopien der Medienwelt.",
+    "longDesc": "Algorithmen sozialer Netzwerke belohnen Emotionen, Empörung und Bestätigung eigener Ansichten. Dadurch entstehen Filterblasen und Echokammern, die die gesellschaftliche Spaltung verstärken. Verstehe die psychologischen Mechanismen der Medienwirkung und die literarische Medienkritik.",
+    "keyPoints": [
+      "Filterblasen & Echokammern: Personalisierte Feeds schirmen widersprechende Meinungen systematisch ab",
+      "Medienpsychologie: Bestätigungsfehler (Confirmation Bias), Kognitive Dissonanz und emotionale Trigger",
+      "Werbewirkung: Priming, Wiederholungseffekt, Testimonials und subtile Verhaltenssteuerung",
+      "Aufmerksamkeitsökonomie: Wie Infinite Scrolling und Push-Benachrichtigungen unsere Lesekonzentration verändern",
+      "Medienkritik in der Literatur: Suzanne Collins' 'Die Tribute von Panem' als messerscharfe Kritik an Sensationsmedien"
+    ],
+    "exercises": [
+      {
+        "id": "entstehung-und-wirkung-von-filterblasen",
+        "title": "Entstehung und Wirkung von Filterblasen",
+        "folder": "entstehung-und-wirkung-von-filterblasen"
+      },
+      {
+        "id": "5813",
+        "title": "Grundlagen der Medienpsychologie",
+        "folder": "grundlagen-der-medienpsychologie-5813"
+      },
+      {
+        "id": "2709",
+        "title": "Einfluss der Werbung auf das menschliche Verhalten",
+        "folder": "einfluss-der-werbung-auf-das-verhalten-2709"
+      },
+      {
+        "id": "wie-social-media-unsere-konzentration-beim-lesen-veraendert",
+        "title": "Wie Social Media unsere Konzentration beim Lesen verändert",
+        "folder": "wie-social-media-unsere-konzentration-beim-lesen-veraendert"
+      },
+      {
+        "id": "die-tribute-von-panem-kritik-an-unserer-fernsehwelt",
+        "title": "Die Tribute von Panem – Kritik an unserer Fernsehwelt",
+        "folder": "die-tribute-von-panem-kritik-an-unserer-fernsehwelt"
+      },
+      {
+        "id": "suzanne-collins-und-die-kritik-an-der-medienwelt",
+        "title": "Suzanne Collins und die Kritik an der modernen Medienwelt",
+        "folder": "suzanne-collins-und-die-kritik-an-der-medienwelt"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Filterblasen+Medienpsychologie+Werbung&t=1721"
+  },
+  "youtube-und-content-creation": {
+    "slug": "youtube-und-content-creation",
+    "title": "YouTube, Content Creation & Videoproduktion",
+    "category": "Social Media, Content Creation & Digitale Jugendkultur",
+    "shortDesc": "Vom Video-Dreh zum YouTube-Star: Schnitt, Audio, Monetarisierung, Werbeeinnahmen und Creator-Druck.",
+    "longDesc": "YouTube und Videoplattformen prägen den Alltag junger Menschen. Doch hinter erfolgreichen Kanälen steckt professionelle Medienproduktion: Von Konzeption, Bildbearbeitung und Audiomischung bis hin zur harten Realität von Algorithmen, Urheberrecht und Monetarisierung.",
+    "keyPoints": [
+      "Traumberuf YouTuber / Content Creator: Monetarisierung via AdSense, Sponsorings, Merchandising und Affiliate-Links",
+      "Algorithmische Abhängigkeit: Watchtime, Klickrate (CTR), Thumbnails und der permanente Produktionsdruck",
+      "Medienproduktion in der Praxis: Tonaufnahme, Beleuchtung, Schnitttechniken und Storyboarding für Lern- und Webvideos",
+      "Bild- und Grafikgestaltung: Farbkorrekturen, Thumbnails und kreative Bildbearbeitung",
+      "Influencer im Buch- und Medienmarkt: Reichweite vs. inhaltliche Qualität bei Creator-Publikationen"
+    ],
+    "exercises": [
+      {
+        "id": "6548",
+        "title": "Der harte Weg zum YouTube-Star – Geld verdienen ist schwierig",
+        "folder": "der-harte-weg-zum-youtube-star-geld-verdienen-ist-schwierig-2-6548"
+      },
+      {
+        "id": "6494",
+        "title": "Der Weg zum YouTube-Star – Realitätscheck und Monetarisierung",
+        "folder": "der-harte-weg-zum-youtube-star-geld-verdienen-ist-schwierig-6494"
+      },
+      {
+        "id": "produktion-von-audiobeitraegen-und-videobeitraegen-wie-podcasts-oder-lernvideos",
+        "title": "Produktion von Audio- und Videobeiträgen (Podcasts & Lernvideos)",
+        "folder": "produktion-von-audiobeitraegen-und-videobeitraegen-wie-podcasts-oder-lernvideos"
+      },
+      {
+        "id": "bildbearbeitung-und-kreative-mediengestaltung",
+        "title": "Bildbearbeitung und kreative Mediengestaltung",
+        "folder": "bildbearbeitung-und-kreative-mediengestaltung"
+      },
+      {
+        "id": "influencer-als-autoren-qualitaet-gegen-reichweite",
+        "title": "Influencer als Autoren – Qualität gegen Reichweite",
+        "folder": "influencer-als-autoren-qualitaet-gegen-reichweite"
+      },
+      {
+        "id": "gedichte-fuer-social-media-kurz-und-knackig",
+        "title": "Texten für Social Media – Kurz, knackig und zielgruppenorientiert",
+        "folder": "gedichte-fuer-social-media-kurz-und-knackig"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=YouTube+Content+Creation+Video&t=1721"
+  },
+  "social-media-tiktok-und-digitale-suchtdynamik": {
+    "slug": "social-media-tiktok-und-digitale-suchtdynamik",
+    "title": "TikTok, Social Networks, Podcasts & Streaming",
+    "category": "Social Media, Content Creation & Digitale Jugendkultur",
+    "shortDesc": "TikTok-Suchtspirale, Short Content, Hörspiele vs. Podcasts, Streamingdienste und ökologischer Fußabdruck.",
+    "longDesc": "Soziale Netzwerke und Streamingdienste bestimmen die moderne Freizeitgestaltung. Von ultra-kurzen TikTok-Clips und deren psychologischer Suchtwirkung über den Boom von Podcasts bis hin zum gewaltigen Energie- und Serverbedarf globaler Rechenzentren.",
+    "keyPoints": [
+      "TikTok & Short Video Formate: Der 'For You'-Algorithmus, Dopamin-Kicks und die Diskussion um Bildschirmzeitbegrenzungen",
+      "Social-Media-Escape-Room: Interaktives Lösen von Aufgaben rund um Profile, Sicherheit und Gruppendynamik",
+      "Streaming-Revolution: On-Demand-Kultur bei Netflix, Spotify und Co. löst das lineare Programm ab",
+      "Hörspiele vs. Podcasts: Vom geskripteten Hörspiel mit Geräuschemachern zum authentischen Gesprächspodcast",
+      "Ökologischer Fußabdruck des Streamings: Rechenzentren, Serverfarmen, Kühlenergie und CO₂-Emissionen des Datenverkehrs"
+    ],
+    "exercises": [
+      {
+        "id": "das-ewige-tiktok-limit-der-kampf-um-ein-radikales-plattform-verbot",
+        "title": "Das TikTok-Limit – Der Kampf um Plattform-Regulierung",
+        "folder": "das-ewige-tiktok-limit-der-kampf-um-ein-radikales-plattform-verbot"
+      },
+      {
+        "id": "tiktok-trance-die-knallharte-suchtgefahr-durch-short-content",
+        "title": "TikTok-Trance – Suchtgefahr durch Short Content",
+        "folder": "tiktok-trance-die-knallharte-suchtgefahr-durch-short-content"
+      },
+      {
+        "id": "3207",
+        "title": "Escape Room: Soziale Netzwerke",
+        "folder": "escape-room-quot-soziale-netzwerke-quot-3207"
+      },
+      {
+        "id": "1317",
+        "title": "Streamingdienste – Musik, Film und Serien on Demand",
+        "folder": "streamingdienste-1317"
+      },
+      {
+        "id": "hoerspiele-gegen-podcasts-was-wir-lieber-hoeren",
+        "title": "Hörspiele vs. Podcasts – Audiomedien im Wandel",
+        "folder": "hoerspiele-gegen-podcasts-was-wir-lieber-hoeren"
+      },
+      {
+        "id": "podcasts-ueber-buecher-die-moderne-talkrunde",
+        "title": "Podcasts über Bücher – Die moderne literarische Talkrunde",
+        "folder": "podcasts-ueber-buecher-die-moderne-talkrunde"
+      },
+      {
+        "id": "oekologischer-fussabdruck-von-serverfarmen-und-streaming",
+        "title": "Ökologischer Fußabdruck von Serverfarmen und Streaming",
+        "folder": "oekologischer-fussabdruck-von-serverfarmen-und-streaming"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=TikTok+Social+Media+Streaming&t=1721"
+  },
+  "gaming-videospiele-und-esports": {
+    "slug": "gaming-videospiele-und-esports",
+    "title": "Gaming, Videospiele, E-Sports & Storytelling",
+    "category": "Social Media, Content Creation & Digitale Jugendkultur",
+    "shortDesc": "Videospiele als Kulturgut, interaktives Storytelling, E-Sports, Latenzzeiten und In-Game-Abzocke.",
+    "longDesc": "Gaming ist längst das wirtschaftlich stärkste Unterhaltungsmedium weltweit: Komplexe narrative Welten, professioneller E-Sport vor Millionen Zuschauern, aber auch heikle Themen wie Pay-to-Win, Lootboxen und In-App-Kaufanreize für Minderjährige.",
+    "keyPoints": [
+      "Gaming als Kunst- und Kulturgut: Narrative Welten, emotionale Bindung und interaktive Entscheidungsfreiheit",
+      "E-Sports: Professioneller Wettbewerb, Reaktionsgeschwindigkeit, Teamtaktik und Trainingsstrukturen",
+      "Technische Grundlagen: Bildwiederholraten (FPS), Latenzzeiten (Ping) und Server-Synchronisation beim Online-Gaming",
+      "In-App-Käufe & Dark Patterns: Glücksspielähnliche Lootboxen, Battle Passes und manipulative Kaufanreize",
+      "Literatur & Gaming: Ursula Poznanskis 'Erebos' – Die Verschmelzung von Realität und computergesteuertem Spiel"
+    ],
+    "exercises": [
+      {
+        "id": "e-sports-einfach-und-kurz-erklaert",
+        "title": "E-Sports – Wettkampf und Professionalisierung im Gaming",
+        "folder": "e-sports-einfach-und-kurz-erklaert"
+      },
+      {
+        "id": "storytelling-in-videospielen-besser-als-im-buch",
+        "title": "Storytelling in Videospielen – Interaktive Erzählkunst",
+        "folder": "storytelling-in-videospielen-besser-als-im-buch"
+      },
+      {
+        "id": "gaming-und-literatur-wenn-spiele-geschichten-erzaehlen",
+        "title": "Gaming und Literatur – Wenn Spiele Geschichten erzählen",
+        "folder": "gaming-und-literatur-wenn-spiele-geschichten-erzaehlen"
+      },
+      {
+        "id": "latenzzeit-als-groesste-bremse-beim-online-gaming",
+        "title": "Latenzzeit und Ping als Bremse beim Online-Gaming",
+        "folder": "latenzzeit-als-groesste-bremse-beim-online-gaming"
+      },
+      {
+        "id": "in-app-abzocke-wie-videospiele-kindern-das-geld-aus-der-tasche-ziehen",
+        "title": "In-App-Abzocke – Wie Videospiele Kasse machen",
+        "folder": "in-app-abzocke-wie-videospiele-kindern-das-geld-aus-der-tasche-ziehen"
+      },
+      {
+        "id": "ursula-poznanski-thriller-zwischen-realitaet-und-gaming",
+        "title": "Ursula Poznanski – Thriller zwischen Realität und Gaming",
+        "folder": "ursula-poznanski-thriller-zwischen-realitaet-und-gaming"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Gaming+Videospiele+Esports&t=1721"
+  },
+  "datenschutz-privatsphaere-und-medienrecht": {
+    "slug": "datenschutz-privatsphaere-und-medienrecht",
+    "title": "Datenschutz, Privatsphäre, Urheberrecht & Medienrecht",
+    "category": "Medienrecht, Datenschutz & Werbekompetenz",
+    "shortDesc": "DSGVO im Alltag, Recht am eigenen Bild, Urheberrecht, Zensur, App-Berechtigungen und Werbepsychologie.",
+    "longDesc": "Wer Medien konsumiert und produziert, muss die rechtlichen Spielregeln kennen: Vom Schutz eigener Fotos und Daten nach der DSGVO über das Urheberrecht bei Musik und Memes bis hin zu Zensurmaßnahmen autoritärer Staaten und werblichen Manipulationsstrategien.",
+    "keyPoints": [
+      "Datenschutz-Grundverordnung (DSGVO): Recht auf Auskunft, Datenminimierung und Löschung ('Recht auf Vergessenwerden')",
+      "Recht am eigenen Bild (§ 22 KUG): Warum man fremde Personen niemals ohne Erlaubnis fotografieren oder posten darf",
+      "Urheberrecht & Creative Commons: Schöpfungshöhe, Lizenzmodelle und faire Nutzung von Medieninhalten",
+      "Pressefreiheit & Zensur: Grundgesetz Artikel 5, Zensurmethoden weltweit und Schutz von Journalisten",
+      "Werbepsychologie & Kennzeichnungspflicht: Subtile Produktplatzierungen, Influencer-Werbung und Schleichwerbung"
+    ],
+    "exercises": [
+      {
+        "id": "2607",
+        "title": "Medien und Datenschutz – Grundlagen",
+        "folder": "medien-und-datenschutz-2607"
+      },
+      {
+        "id": "schutz-persoenlicher-daten-in-apps-und-sozialen-medien",
+        "title": "Schutz persönlicher Daten in Apps und sozialen Medien",
+        "folder": "schutz-persoenlicher-daten-in-apps-und-sozialen-medien"
+      },
+      {
+        "id": "datenschutz-und-dsgvo-im-alltag",
+        "title": "Datenschutz und DSGVO im Alltag",
+        "folder": "datenschutz-und-dsgvo-im-alltag"
+      },
+      {
+        "id": "4429",
+        "title": "Digitale Identität und Schutz der Privatsphäre",
+        "folder": "digitale-identitat-und-privatsphare-4429"
+      },
+      {
+        "id": "urheberrecht-und-faire-nutzung-von-medieninhalten",
+        "title": "Urheberrecht und faire Nutzung von Medieninhalten",
+        "folder": "urheberrecht-und-faire-nutzung-von-medieninhalten"
+      },
+      {
+        "id": "2618",
+        "title": "Medienrecht und Zensur",
+        "folder": "medienrecht-und-zensur-2618"
+      },
+      {
+        "id": "2619",
+        "title": "Werbung und ihre psychologischen Strategien",
+        "folder": "werbung-und-ihre-psychologischen-strategien-2619"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Datenschutz+Medienrecht+Urheberrecht&t=1721"
   },
   "medien-in-wissenschaft-und-technik": {
-    "id": 45224,
     "slug": "medien-in-wissenschaft-und-technik",
-    "title": "Medien in Wissenschaft und Technik",
-    "category": "Fachbereiche & Wissenschaft",
-    "shortDesc": "Wissenschaftskommunikation in Informatik, Umwelttechnologie, Raumfahrt, Robotik, Biologie und Physik.",
-    "longDesc": "Wie wird komplexe Forschung verständlich vermittelt? Entdecke die Rolle der Medien bei der Dokumentation bahnbrechender wissenschaftlicher Entdeckungen und technologischer Umbrüche.",
+    "title": "Medien in Wissenschaft, Technik & Umwelt",
+    "category": "Medien in Fachbereichen, Gesellschaft & Krisen",
+    "shortDesc": "Wissenschaftsjournalismus in Informatik, Umwelttechnik, Raumfahrt, Robotik, Physik und Biologie.",
+    "longDesc": "Wissenschaftliche Erkenntnisse müssen verständlich, sachlich und präzise an die Öffentlichkeit vermittelt werden. Entdecke die Rolle der Medien bei der Dokumentation bahnbrechender Entdeckungen in Naturwissenschaften und Zukunftstechnologien.",
     "keyPoints": [
-      "Wissenschaftsjournalismus: Übersetzung komplexer Fachstudien in verständliche Sprache ohne Verfälschung der Fakten",
-      "Visualisierung in Physik & Biologie: Mikroskopieaufnahmen, 3D-Simulationen und Infografiken zur Erklärung unsichtbarer Prozesse",
-      "Raumfahrtberichterstattung: Live-Übertragungen historischer Meilensteine (Mondlandung, James-Webb-Teleskop, Mars-Rover)",
-      "Robotik & KI in den Medien: Faszination, ethische Debatten und mediale Diskurse über Automatisierung und Zukunftstechnologien",
-      "Umwelt- & Geodatenjournalismus: Satellitenbilder und interaktive Karten zur Sichtbarmachung von Klimaveränderungen"
+      "Wissenschaftskommunikation: Übersetzung von Laborforschung in allgemeinverständliche Reportagen",
+      "Medien in Informatik & Robotik: Visualisierung von Algorithmen, künstlicher Intelligenz und Automatisierung",
+      "Raumfahrt-Medien: Faszination des Weltalls durch Satellitenbilder, Livestreams und Teleskopaufnahmen",
+      "Umwelt- und Geojournalismus: Aufklärung über Umweltzerstörung, erneuerbare Energien und Klimadaten",
+      "Bildgebung in Physik & Biologie: Visualisierung von subatomaren Teilchen bis zu zellulären Prozessen"
     ],
     "exercises": [
       {
@@ -145,6 +449,11 @@ export const medienTopics: Record<string, MedienTopic> = {
         "id": "2600",
         "title": "Die Rolle von Medien in der Umwelttechnologie",
         "folder": "die-rolle-von-medien-in-der-umwelttechnologie-2600"
+      },
+      {
+        "id": "2617",
+        "title": "Medien und Umwelttechnologie – Kommunikation grüner Innovationen",
+        "folder": "medien-und-umwelttechnologie-2617"
       },
       {
         "id": "2598",
@@ -169,19 +478,18 @@ export const medienTopics: Record<string, MedienTopic> = {
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Wissenschaftskommunikation+Medien&t=1721"
   },
-  "medien-in-spezifischen-fachbereichen": {
-    "id": 45227,
-    "slug": "medien-in-spezifischen-fachbereichen",
-    "title": "Medien in spezifischen Fachbereichen",
-    "category": "Fachbereiche & Wissenschaft",
-    "shortDesc": "Medienrolle in Kunst, Geschichte, Medizin, Wirtschaftskommunikation, Archäologie und Anthropologie.",
-    "longDesc": "Jedes Wissensgebiet nutzt Medien auf eigene Weise: Von historischen Tondokumenten und Kunstkatalogen über medizinische Aufklärung bis hin zu archäologischen 3D-Rekonstruktionen.",
+  "medien-in-fachbereichen-und-wirtschaft": {
+    "slug": "medien-in-fachbereichen-und-wirtschaft",
+    "title": "Medien in Kultur, Medizin, Wirtschaft & Augmented Reality",
+    "category": "Medien in Fachbereichen, Gesellschaft & Krisen",
+    "shortDesc": "Medienanwendungen in Kunst, Geschichte, Medizin, PR, Archäologie, Anthropologie und Augmented Reality.",
+    "longDesc": "Fachspezifische Medienanwendungen reichen von virtuellen Museumstouren über medizinische Diagnosevisualisierungen bis hin zu interaktiven Augmented-Reality-Brillen in industriellen Fertigungsprozessen.",
     "keyPoints": [
-      "Medien in der Kunst: Dokumentation, Kunstkritik, digitale Museumstouren und interaktive Ausstellungskonzepte",
-      "Historische Quellen & Archive: Zeitungen, Tonaufnahmen und Wochenschauen als unverzichtbare Zeugnisse vergangener Epochen",
-      "Medizinische Kommunikation: Gesundheitskampagnen, Telemedizin und barrierefreie Patienteninformationen",
-      "Archäologie & Anthropologie: Drohnenvermessung, digitale Rekonstruktionen antiker Stätten und ethnografische Filme",
-      "Wirtschaftskommunikation: Public Relations (PR), Corporate Publishing und interne Unternehmenskommunikation"
+      "Medien in Kunst & Museen: Virtuelle Galerien, digitale Restauration und kunsthistorische Bildarchive",
+      "Historische Ton- und Filmdokumente: Archive als Gedächtnis der Menschheit",
+      "Medizinische Medien: Patientenaufklärung, bildgebende Diagnostik und Telemedizin",
+      "Wirtschaftskommunikation & PR: Professionelle Öffentlichkeitsarbeit von Unternehmen und Institutionen",
+      "Augmented Reality (AR): Überlagerung der physischen Realität mit digitalen Zusatzinformationen"
     ],
     "exercises": [
       {
@@ -213,29 +521,79 @@ export const medienTopics: Record<string, MedienTopic> = {
         "id": "2588",
         "title": "Die Rolle von Medien in der Anthropologie",
         "folder": "die-rolle-von-medien-in-der-anthropologie-2588"
+      },
+      {
+        "id": "2590",
+        "title": "Die Rolle von Medien in der Augmented Reality",
+        "folder": "die-rolle-von-medien-in-der-augmented-reality-2590"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Medien+Fachbereiche&t=1721"
   },
-  "medien-in-krisen-und-konflikten": {
-    "id": 45228,
-    "slug": "medien-in-krisen-und-konflikten",
-    "title": "Medien in Krisen und Konflikten",
-    "category": "Wirtschaft & Krisen",
-    "shortDesc": "Katastrophenberichterstattung, Kriegsberichterstattung, Wahlen, Datenschutz, Medienrecht, Zensur und Werbepsychologie.",
-    "longDesc": "In Ausnahmesituationen entscheidet verlässliche Information über Leben und Tod. Erfahre mehr über journalistische Ethik im Krieg, Katastrophenwarnsysteme, Zensurmaßnahmen und rechtliche Rahmenbedingungen.",
+  "medien-und-gesellschaft": {
+    "slug": "medien-und-gesellschaft",
+    "title": "Medien, Gesellschaft, Kultur & Soziale Bewegungen",
+    "category": "Medien in Fachbereichen, Gesellschaft & Krisen",
+    "shortDesc": "Vierte Gewalt, Diversität, Kulturberichterstattung, Religion, Umwelt und soziale Bewegungen.",
+    "longDesc": "Medien wirken als Spiegel und Motor des gesellschaftlichen Wandels. Sie transportieren Werte, schaffen Identifikationsfiguren, hinterfragen Machtstrukturen und geben sozialen Bewegungen eine weltweite Stimme.",
     "keyPoints": [
-      "Kriegsberichterstattung: Eingebetteter Journalismus (Embedded Journalism), Propaganda, Desinformation und Verifizierungspflicht",
-      "Katastrophen- & Krisenkommunikation: Frühwarnsysteme, Verhaltenshinweise für die Bevölkerung und Vermeidung von Sensationsgier",
-      "Wahlberichterstattung: Neutralitätsgebot des öffentlich-rechtlichen Rundfunks, TV-Duelle und Berichterstattung über Wahlumfragen",
-      "Pressefreiheit & Zensur: Grundgesetz Artikel 5, Zensurmethoden autoritärer Staaten und weltweiter Schutz von Medienschaffenden",
-      "Medienrecht & Datenschutz: Urheberrecht, Persönlichkeitsrechte (Recht am eigenen Bild), Impressumspflicht und DSGVO",
-      "Werbepsychologie: Kaufanreize, Zielgruppenansprache, subliminale Reize und Influencer-Marketing"
+      "Medien als vierte Gewalt: Kontrollfunktion gegenüber Regierung, Parlament und Justiz",
+      "Diversität & Inklusion: Sensible Darstellung von Minderheiten, Geschlechtern und Kulturen",
+      "Medien und Religion: Berichterstattung über Glaube, ethische Konflikte und interreligiösen Dialog",
+      "Soziale Bewegungen: Von der Bürgerrechtsbewegung über den Arabischen Frühling bis zu #FridaysForFuture",
+      "Kulturberichterstattung: Feuilleton, Filmkritik, Literaturdebatten und Theaterrezensionen"
+    ],
+    "exercises": [
+      {
+        "id": "2583",
+        "title": "Die Darstellung von Rasse und Ethnizität in den Medien",
+        "folder": "die-darstellung-von-rasse-und-ethnizitat-in-den-medien-2583"
+      },
+      {
+        "id": "2612",
+        "title": "Medien und Politik – Einfluss und Interaktion",
+        "folder": "medien-und-politik-einfluss-und-interaktion-2612"
+      },
+      {
+        "id": "2614",
+        "title": "Medien und Religion",
+        "folder": "medien-und-religion-2614"
+      },
+      {
+        "id": "2609",
+        "title": "Medien und Kultur",
+        "folder": "medien-und-kultur-2609"
+      },
+      {
+        "id": "2616",
+        "title": "Medien und Umwelt",
+        "folder": "medien-und-umwelt-2616"
+      },
+      {
+        "id": "2604",
+        "title": "Die Rolle von Medien in sozialen Bewegungen",
+        "folder": "die-rolle-von-medien-in-sozialen-bewegungen-2604"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Medien+und+Gesellschaft&t=1721"
+  },
+  "medien-in-krisen-und-industrie": {
+    "slug": "medien-in-krisen-und-industrie",
+    "title": "Krisenberichterstattung, Krieg, FinTech & Industrie",
+    "category": "Medien in Fachbereichen, Gesellschaft & Krisen",
+    "shortDesc": "Katastrophenjournalismus, Kriegspropaganda, Finanztechnologie, Mode, Luftfahrt und Transport.",
+    "longDesc": "In Krisen und Kriegen stehen Medienschaffende vor extremen ethischen Herausforderungen zwischen Faktenvermittlung und Zensur. Gleichzeitig steuern Medien vitale industrielle Sektoren wie Finanzmärkte, Luftfahrt und globale Transportnetze.",
+    "keyPoints": [
+      "Kriegs- und Krisenberichterstattung: Verifizierungspflicht an vorderster Front und Gefahren von Kriegspropaganda",
+      "Katastrophenkommunikation: Alarmierungs-Apps (NINA, KATWARN), behördliche Notfallmeldungen und Sensationsvermeidung",
+      "Finanzmedien & FinTech: Echtzeitkurse, Börsenanalysen und automatisierte Finanznachrichten",
+      "Industrielle Mediensysteme: Passagierinformationssysteme in Luftfahrt, Bahnverkehr und städtischer Mobilität",
+      "Mode- und Lifestyle-Medien: Globale Modewochen, digitale Trends und E-Commerce-Plattformen"
     ],
     "exercises": [
       {
         "id": "2602",
-        "title": "Die Rolle von Medien in Katastrophenberichterstattung",
+        "title": "Die Rolle von Medien in der Katastrophenberichterstattung",
         "folder": "die-rolle-von-medien-in-katastrophenberichterstattung-2602"
       },
       {
@@ -243,44 +601,6 @@ export const medienTopics: Record<string, MedienTopic> = {
         "title": "Die Rolle von Medien in Kriegen und Konflikten",
         "folder": "die-rolle-von-medien-in-kriegen-und-konflikten-2603"
       },
-      {
-        "id": "2605",
-        "title": "Die Rolle von Medien in Wahlen",
-        "folder": "die-rolle-von-medien-in-wahlen-2605"
-      },
-      {
-        "id": "2607",
-        "title": "Medien und Datenschutz",
-        "folder": "medien-und-datenschutz-2607"
-      },
-      {
-        "id": "2618",
-        "title": "Medienrecht und Zensur",
-        "folder": "medienrecht-und-zensur-2618"
-      },
-      {
-        "id": "2619",
-        "title": "Werbung und ihre psychologischen Strategien",
-        "folder": "werbung-und-ihre-psychologischen-strategien-2619"
-      }
-    ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Medien+Krisen+Konflikte&t=1721"
-  },
-  "medien-in-wirtschaft-und-industrie": {
-    "id": 45229,
-    "slug": "medien-in-wirtschaft-und-industrie",
-    "title": "Medien in Wirtschaft und Industrie",
-    "category": "Wirtschaft & Krisen",
-    "shortDesc": "Finanztechnologie, Luftfahrt, Mode, Transport, Raumfahrt und Medien in Augmented Reality.",
-    "longDesc": "Medien sind ein mächtiger Wirtschaftsmotor und verändern industrielle Prozesse: Vom digitalen Finanzmarkt über Modemarketing bis zu zukunftsweisenden AR- und VR-Anwendungen in der Industrie.",
-    "keyPoints": [
-      "Finanzmedien & FinTech: Börsenberichterstattung, automatisierter algorithmischer Handel und digitale Zahlungsströme",
-      "Mode & Lifestyle-Medien: Modemagazine, Modenschau-Livestreams und digitaler Mode-E-Commerce",
-      "Augmented Reality (AR) in der Industrie: Wartungsanleitungen per Datenbrille, digitale Prototypen und immersive Produktpräsentationen",
-      "Transport- & Verkehrsinformation: Echtzeit-Navigationsmedien, Passagierleitsysteme und intermodale Mobilitäts-Apps",
-      "Marktkonzentration & Medienkonzerne: Medienökonomie, Werbeerlöse und Monopolisierungstendenzen im Plattformkapitalismus"
-    ],
-    "exercises": [
       {
         "id": "2608",
         "title": "Medien und Finanztechnologie",
@@ -303,36 +623,10 @@ export const medienTopics: Record<string, MedienTopic> = {
       },
       {
         "id": "2613",
-        "title": "Medien und Raumfahrt",
+        "title": "Medien und Raumfahrttechnik",
         "folder": "medien-und-raumfahrt-2613"
-      },
-      {
-        "id": "2590",
-        "title": "Die Rolle von Medien in der Augmented Reality",
-        "folder": "die-rolle-von-medien-in-der-augmented-reality-2590"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Medien+Wirtschaft+Industrie&t=1721"
-  }
-,
-  "youtube-und-content-creation": {
-    "slug": "youtube-und-content-creation",
-    "title": "YouTube, Content Creation & Digitale Berufe",
-    "category": "Wirtschaft & Krisen",
-    "shortDesc": "Berufswunsch Influencer vs. Realität: Algorithmen, Monetarisierung, Werbeeinnahmen und Druck.",
-    "longDesc": "YouTube hat das traditionelle Fernsehen für jüngere Zielgruppen weitgehend abgelöst. Der Traum vom erfolgreichen Content Creator steht jedoch im Kontrast zu harter ökonomischer Realität, algorithmischer Abhängigkeit und hohem Leistungsdruck.",
-    "keyPoints": [
-      "Monetarisierung: AdSense-Werbung, Sponsorings, Affiliate-Links, Merchandising und Mitgliedschaften",
-      "Der Algorithmus: Click-Through-Rate (CTR), Watchtime (Zuschauerdauer) und Engagement bestimmen die Reichweite",
-      "Herausforderungen: Burnout-Gefahr, unberechenbare Einnahmen, rechtliche Vorgaben (Impressum, Kennzeichnung von Dauerwerbung)"
-    ],
-    "exercises": [
-      {
-        "id": "6548",
-        "title": "Der harte Weg zum YouTube-Star Geld verdienen ist schwierig",
-        "folder": "der-harte-weg-zum-youtube-star-geld-verdienen-ist-schwierig-2-6548"
-      }
-    ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=youtube+social+media&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Medien+Krisen+Konflikte&t=1721"
   }
 };
