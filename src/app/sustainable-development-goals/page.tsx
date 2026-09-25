@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { klimaTopics } from '@/lib/klima-data';
+import { klimaTopics, klimaCategories } from '@/lib/klima-data';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
@@ -57,7 +57,7 @@ export default function KlimaOverviewPage() {
               Gemeinsam für eine lebenswerte Zukunft: Von den 17 globalen Nachhaltigkeitszielen (Sustainable Development Goals) der Vereinten Nationen über Klimazonen und Treibhauseffekt bis hin zu Ressourcenschutz, Kreislaufwirtschaft und sauberer Energie.
             </p>
             <p className="math-page-note">
-              Mit anschaulichen Erklärungen, Hintergrundberichten und interaktiven H5P-Lernmodulen.
+              Mit anschaulichen Erklärungen, Hintergrundberichten und über 60 interaktiven H5P-Lernmodulen.
             </p>
           </div>
           <div className="math-mascot">
@@ -72,32 +72,42 @@ export default function KlimaOverviewPage() {
           </div>
         </section>
 
-        
+        {/* Categories & Topics Grid */}
+        {klimaCategories.map((categoryName) => {
+          const categoryTopics = allTopics.filter(
+            (t) => t.category === categoryName
+          );
+          if (categoryTopics.length === 0) return null;
 
-        {/* Flat Grid: All 3 Topics in 1 Row */}
-        <div className="math-grid">
-            {allTopics.map((topic) => (
-              <Link
-                key={topic.slug}
-                href={`/sustainable-development-goals/${topic.slug}`}
-                className="math-card"
-              >
-                <div className="math-card-header">
-                  <h3 className="math-card-title">{topic.title}</h3>
-                  {topic.exercises.length > 0 && (
-                    <span className="math-badge">
-                      {topic.exercises.length}{' '}
-                      {topic.exercises.length === 1 ? 'Übung' : 'Übungen'}
-                    </span>
-                  )}
-                </div>
-                <p className="math-card-desc">{topic.shortDesc}</p>
-                <div className="math-card-footer">
-                  <span className="math-open-btn">Thema öffnen ➔</span>
-                </div>
-              </Link>
-            ))}
-          </div>
+          return (
+            <section key={categoryName} id={categoryName} className="math-category-section" style={{ scrollMarginTop: 80 }}>
+              <h2 className="math-category-title">{categoryName}</h2>
+              <div className="math-grid">
+                {categoryTopics.map((topic) => (
+                  <Link
+                    key={topic.slug}
+                    href={`/sustainable-development-goals/${topic.slug}`}
+                    className="math-card"
+                  >
+                    <div className="math-card-header">
+                      <h3 className="math-card-title">{topic.title}</h3>
+                      {topic.exercises.length > 0 && (
+                        <span className="math-badge">
+                          {topic.exercises.length}{' '}
+                          {topic.exercises.length === 1 ? 'Übung' : 'Übungen'}
+                        </span>
+                      )}
+                    </div>
+                    <p className="math-card-desc">{topic.shortDesc}</p>
+                    <div className="math-card-footer">
+                      <span className="math-open-btn">Thema öffnen ➔</span>
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            </section>
+          );
+        })}
         {/* Eduki Material Box */}
         <section className="info-box-section" style={{ marginTop: '40px' }}>
           <h3>Arbeitsblätter & Unterrichtsmaterialien</h3>
