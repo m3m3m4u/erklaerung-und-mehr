@@ -30,7 +30,8 @@ export const ernaehrungTopics: Record<string, ErnaehrungTopic> = {
       "Stufen der Ernährungspyramide: 1. Getränke (Wasser, ungesüßter Tee) ➔ 2. Gemüse & Obst (5 am Tag) ➔ 3. Getreide & Beilagen (bevorzugt Vollkorn) ➔ 4. Milch & Milchprodukte ➔ 5. Fleisch, Fisch & Eier ➔ 6. Öle & Fette ➔ 7. Süßigkeiten & Knabbereien",
       "Flüssigkeitsbedarf: Mindestens 1,5 bis 2 Liter Wasser oder ungesüßte Tees täglich für Stoffwechsel und Konzentration",
       "Hand-Regel: Die eigene Hand dient als praktisches Maß für eine Portion (z. B. 2 Hände voll Gemüse, 1 Handteller Fleisch)",
-      "Lebensmittelverschwendung vermeiden: Gezielter Einkauf mit Einkaufszettel, richtige Lagerung im Kühlschrank und Verwertung von Resten"
+      "Lebensmittelverschwendung vermeiden: Gezielter Einkauf mit Einkaufszettel, richtige Lagerung im Kühlschrank und Verwertung von Resten",
+      "Global Goal 2: Weltweite Ernährungssicherheit, nachhaltige Landwirtschaft und die Bekämpfung von Hunger und Mangelernährung"
     ],
     "exercises": [
       {
@@ -47,6 +48,11 @@ export const ernaehrungTopics: Record<string, ErnaehrungTopic> = {
         "id": "lebensmittelverschwendung-und-was-man-dagegen-tun-kann-3561",
         "title": "Lebensmittelverschwendung & Nachhaltigkeit",
         "folder": "lebensmittelverschwendung-und-was-man-dagegen-tun-kann-3561"
+      },
+      {
+        "id": "global-goal-2-kein-hunger-ernahrung-sichern-hunger-stoppen-4478",
+        "title": "Global Goal 2: Kein Hunger – Ernährung sichern",
+        "folder": "global-goal-2-kein-hunger-ernahrung-sichern-hunger-stoppen-4478"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Ernährungspyramide+ernaehrung&t=3752"
@@ -95,6 +101,11 @@ export const ernaehrungTopics: Record<string, ErnaehrungTopic> = {
         "folder": "proteine-5176"
       },
       {
+        "id": "eiweies-920",
+        "title": "Eiweiß – Aufbau und biologische Funktion",
+        "folder": "eiweies-920"
+      },
+      {
         "id": "escape-room-quot-nahrstoffe-quot-3233",
         "title": "Escape Room: Nährstoffe",
         "folder": "escape-room-quot-nahrstoffe-quot-3233"
@@ -138,7 +149,7 @@ export const ernaehrungTopics: Record<string, ErnaehrungTopic> = {
       "Obst & Gemüse: Hoher Gehalt an Vitaminen, Mineralstoffen, sekundären Pflanzenstoffen und Wasser bei geringer Energiedichte; '5 am Tag' (3 Portionen Gemüse, 2 Portionen Obst)",
       "Regional & Saisonal: Kürzere Transportwege, besserer Geschmack, maximaler Nährstoffgehalt und geringerer CO2-Fußabdruck",
       "Getreidearten: Weizen, Roggen, Dinkel, Hafer, Gerste, Reis und Mais; Vollkornprodukte enthalten den wertvollen Keimling und die ballaststoffreiche Schale",
-      "Hülsenfrüchte: Linsen, Erbsen, Bohnen, Kichererbsen und Soja sind reich an pflanzlichem Protein, Eisen und komplexen Kohlenhydraten"
+      "Hülsenfrüchte & Feldfrüchte: Linsen, Erbsen, Bohnen, Kichererbsen sowie vielseitige Gemüsesorten wie Kürbisse liefern wertvolle Nährstoffe und Ballaststoffe"
     ],
     "exercises": [
       {
@@ -150,6 +161,11 @@ export const ernaehrungTopics: Record<string, ErnaehrungTopic> = {
         "id": "lebensmittelkunde-getreide-und-hulsenfruchte-2670",
         "title": "Lebensmittelkunde: Getreide und Hülsenfrüchte",
         "folder": "lebensmittelkunde-getreide-und-hulsenfruchte-2670"
+      },
+      {
+        "id": "der-kurbis-vielseitig-und-nahrhaft-2196",
+        "title": "Der Kürbis – Vielseitig und nahrhaft",
+        "folder": "der-kurbis-vielseitig-und-nahrhaft-2196"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Lebensmittelkunde+Obst+Gemüse+Getreide&t=3752"
@@ -164,7 +180,8 @@ export const ernaehrungTopics: Record<string, ErnaehrungTopic> = {
       "Ernährungsformen im Vergleich: Omnivor (Mischkost mit Fleisch/Fisch), Pescetarisch (mit Fisch), Ovo-Lacto-Vegetarisch (kein Fleisch/Fisch, aber Milch/Eier), Vegan (ausschließlich pflanzliche Lebensmittel)",
       "Ökologische Vorteile: Geringerer Flächen-, Wasser- und Ressourcenverbrauch, Reduktion von Treibhausgasemissionen aus der Tierhaltung",
       "Kritische Nährstoffe bei veganer Ernährung: Vitamin B12 (muss supplementiert werden), Vitamin D, Jod, Eisen, Zink, Calcium und Omega-3-Fettsäuren",
-      "Kulturelle Vielfalt: Koschere und Halal-Vorschriften, mediterrane Ernährung, ayurvedische Kost und traditionelle Küchen weltweit"
+      "Kulturelle Vielfalt: Koschere und Halal-Vorschriften, mediterrane Ernährung, ayurvedische Kost und traditionelle Küchen weltweit",
+      "Ethik & Tierschutz: Ethische Reflexion des Fleischkonsums und Tierschutzes in Literatur, Gesellschaft und Philosophie"
     ],
     "exercises": [
       {
@@ -191,9 +208,61 @@ export const ernaehrungTopics: Record<string, ErnaehrungTopic> = {
         "id": "ernahrung-in-verschiedenen-kulturen-2658",
         "title": "Ernährung in verschiedenen Kulturen",
         "folder": "ernahrung-in-verschiedenen-kulturen-2658"
+      },
+      {
+        "id": "tierschutz-und-fleischkonsum-als-thema-in-romanen",
+        "title": "Fleischkonsum & Tierschutz als literarisches Thema",
+        "folder": "tierschutz-und-fleischkonsum-als-thema-in-romanen"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Vegetarisch+Vegan+Ernährung&t=3752"
+  },
+  "diaeten-essstoerungen-und-ernaehrungsverhalten": {
+    "slug": "diaeten-essstoerungen-und-ernaehrungsverhalten",
+    "title": "Diäten, Essstörungen & Ernährungsverhalten",
+    "category": "Ernährung",
+    "shortDesc": "Diäten und Reduktionskuren kritisch hinterfragt, Warnsignale von Essstörungen (Anorexie, Bulimie) sowie Risiken von Fast Food und Fertiggerichten.",
+    "longDesc": "Das menschliche Ernährungsverhalten wird stark von Schönheitsidealen, sozialem Umfeld und medialen Vorbildern geprägt. Einseitige Crash-Diäten führen häufig zum Jo-Jo-Effekt, während krankhafte Essmuster wie Magersucht (Anorexia nervosa), Bulimie oder Binge-Eating-Störungen ernsthafte psychische und körperliche Folgen haben. Gleichzeitig begünstigen hochverarbeitete Fertigprodukte und Fast Food chronische Zivilisationskrankheiten. Frühe Aufklärung, Selbstakzeptanz und professionelle Hilfsangebote sind entscheidend.",
+    "keyPoints": [
+      "Diäten im Check: Einseitige Crash-Diäten verlangsamen den Grundumsatz und begünstigen Muskelabbau und Jo-Jo-Effekt; langfristige Ernährungsumstellung ist der einzig gesunde Weg",
+      "Magersucht (Anorexia nervosa): Verzerrtes Körperbild (Körperschemastörung), extremes Hungern, drastisches Untergewicht und Mangelerscheinungen",
+      "Bulimie (Bulimia nervosa): Wiederkehrende Heißhungeranfälle gefolgt von gegensteuerndem Erbrechen oder exzessivem Sport",
+      "Erkennen & Handeln: Typische Warnzeichen erkennen und professionelle Hilfsangebote (Beratungsstellen, Schulpsychologie, Fachärzte) nutzen",
+      "Fast Food & Fertigprodukte: Hohe Energiedichte bei geringer Nährstoffdichte; Übermaß an Zucker, gesättigten Fetten und Salz fördert Zivilisationskrankheiten"
+    ],
+    "exercises": [
+      {
+        "id": "diaten-912",
+        "title": "Diäten – Gewichtsreduktion & Ernährungsformen",
+        "folder": "diaten-912"
+      },
+      {
+        "id": "diaten-2-918",
+        "title": "Diäten im wissenschaftlichen Vergleich",
+        "folder": "diaten-2-918"
+      },
+      {
+        "id": "essstorungen-913",
+        "title": "Essstörungen – Magersucht, Bulimie & Ursachen (Teil 1)",
+        "folder": "essstorungen-913"
+      },
+      {
+        "id": "essstorungen-2-919",
+        "title": "Essstörungen – Symptome & Therapieansätze (Teil 2)",
+        "folder": "essstorungen-2-919"
+      },
+      {
+        "id": "erkennen-von-essstorungen-5920",
+        "title": "Erkennen von Essstörungen & Hilfsangebote",
+        "folder": "erkennen-von-essstorungen-5920"
+      },
+      {
+        "id": "fast-food-als-krankmacher-der-langsame-gifttod-durch-ungesunde-ernaehrung",
+        "title": "Fast Food & Zivilisationskrankheiten",
+        "folder": "fast-food-als-krankmacher-der-langsame-gifttod-durch-ungesunde-ernaehrung"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Essstörungen+Diäten+Ernährung&t=3752"
   },
   "ernaehrung-gesundheit-allergien-lebensphasen": {
     "slug": "ernaehrung-gesundheit-allergien-lebensphasen",
@@ -253,7 +322,8 @@ export const ernaehrungTopics: Record<string, ErnaehrungTopic> = {
       "Magen: Salzsäure (tötet Keime ab, denaturiert Proteine), Pepsin spaltet Proteine in Peptidketten, Magenschleimhaut schützt vor Selbstverdauung",
       "Bauchspeicheldrüse & Leber/Galle: Bauchspeicheldrüse liefert Enzyme (Amylasen, Proteasen, Lipasen) und Bicarbonat; Gallensaft emulgiert Fette",
       "Dünndarm (Duodenum, Jejunum, Ileum): Hauptort der Nährstoffresorption; riesige Oberfläche durch Darmfalten, Zotten und Mikrovilli",
-      "Dickdarm & Mikrobiom: Rückresorption von Wasser und Elektrolyten, Eindickung des Stuhls, Besiedlung mit Billionen nützlichen Darmbakterien"
+      "Dickdarm & Mikrobiom: Rückresorption von Wasser und Elektrolyten, Eindickung des Stuhls, Besiedlung mit Billionen nützlichen Darmbakterien",
+      "Schleimhäute: Schutzbarriere und Resorptionsfläche für Wasser, Mineralstoffe und Nährstoffe im gesamten Magen-Darm-Trakt"
     ],
     "exercises": [
       {
@@ -270,6 +340,16 @@ export const ernaehrungTopics: Record<string, ErnaehrungTopic> = {
         "id": "bauchspeicheldruse-insulin-und-verdauungsenzyme-2115",
         "title": "Bauchspeicheldrüse, Insulin und Verdauungsenzyme",
         "folder": "bauchspeicheldruse-insulin-und-verdauungsenzyme-2115"
+      },
+      {
+        "id": "die-rolle-der-leber-im-stoffwechsel-2112",
+        "title": "Die Rolle der Leber im Stoffwechsel",
+        "folder": "die-rolle-der-leber-im-stoffwechsel-2112"
+      },
+      {
+        "id": "die-schilddruse-und-stoffwechselregulation-2101",
+        "title": "Die Rolle der Schleimhäute im Verdauungstrakt",
+        "folder": "die-schilddruse-und-stoffwechselregulation-2101"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Verdauungstrakt+Verdauung+Magen+Darm&t=3752"
