@@ -45,6 +45,36 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "id": "2425",
         "title": "Dialog der Religionen",
         "folder": "dialog-der-religionen-2425"
+      },
+      {
+        "id": "2427",
+        "title": "Begegnungen mit Angehörigen anderer Religionen",
+        "folder": "begegnungen-mit-angehorigen-anderer-religionen-2427"
+      },
+      {
+        "id": "6545",
+        "title": "Der interreligiöse Dialog",
+        "folder": "der-interreligiose-dialog-2-6545"
+      },
+      {
+        "id": "6715",
+        "title": "Religionsfreiheit",
+        "folder": "religionsfreiheit-6715"
+      },
+      {
+        "id": "3321",
+        "title": "Weltreligionen",
+        "folder": "weltreligionen-3321"
+      },
+      {
+        "id": "6745",
+        "title": "Weltreligionen in Deutschland",
+        "folder": "weltreligionen-in-deutschland-6745"
+      },
+      {
+        "id": "6714",
+        "title": "Religion und persönliche Identität",
+        "folder": "religion-und-personliche-identitat-6714"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=weltreligionen&t=3752"
@@ -159,6 +189,11 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "id": "6678",
         "title": "Jüdische Feiertage wie Pessach, Jom Kippur und Chanukka",
         "folder": "judische-feiertage-wie-pessach-jom-kippur-und-chanukka-6678"
+      },
+      {
+        "id": "6466",
+        "title": "Das Talmud und andere wichtige religiöse Schriften",
+        "folder": "das-talmud-und-andere-wichtige-religiose-schriften-6466"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=judentum+feste&t=3752"
@@ -211,6 +246,16 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "id": "6067",
         "title": "Mekka",
         "folder": "mekka-6067"
+      },
+      {
+        "id": "6608",
+        "title": "Die Offenbarungen des Korans und seine Struktur",
+        "folder": "die-offenbarungen-des-korans-und-seine-struktur-6608"
+      },
+      {
+        "id": "6660",
+        "title": "Islamisches Gottesverständnis",
+        "folder": "islamisches-gottesverstandnis-6660"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=islam+fuenf+saeulen&t=3752"
@@ -258,6 +303,16 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "id": "6697",
         "title": "Leben und Lehren des Propheten Muhammad",
         "folder": "leben-und-lehren-des-propheten-muhammad-6697"
+      },
+      {
+        "id": "4115",
+        "title": "Muhammad",
+        "folder": "muhammad-4115"
+      },
+      {
+        "id": "6659",
+        "title": "Islamische Feiertage",
+        "folder": "islamische-feiertage-6659"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=islam+ramadan&t=3752"
@@ -300,6 +355,26 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "id": "2623",
         "title": "Buddhismus in der modernen Welt (Teil 4)",
         "folder": "buddhismus-in-der-modernen-welt-4-2623"
+      },
+      {
+        "id": "3720",
+        "title": "Buddha",
+        "folder": "buddha-3720"
+      },
+      {
+        "id": "6441",
+        "title": "Buddhistische Feiertage",
+        "folder": "buddhistische-feiertage-6441"
+      },
+      {
+        "id": "2624",
+        "title": "Buddhismus in der modernen Welt (Teil 5)",
+        "folder": "buddhismus-in-der-modernen-welt-5-2624"
+      },
+      {
+        "id": "buddhd",
+        "title": "Buddhismus in Deutschland",
+        "folder": "buddhismus-in-deutschland"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=buddhismus&t=3752"
@@ -327,6 +402,31 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "id": "850",
         "title": "Der Hinduismus (Vertiefung)",
         "folder": "der-hinduismus-2-850"
+      },
+      {
+        "id": "6657",
+        "title": "Hinduistische Rituale",
+        "folder": "hinduistische-rituale-6657"
+      },
+      {
+        "id": "4186",
+        "title": "Ramakrishna",
+        "folder": "ramakrishna-4186"
+      },
+      {
+        "id": "4156",
+        "title": "Paramahansa Yogananda",
+        "folder": "paramahansa-yogananda-4156"
+      },
+      {
+        "id": "4058",
+        "title": "Mahatma Gandhi",
+        "folder": "mahatma-gandhi-4058"
+      },
+      {
+        "id": "2472",
+        "title": "Ruhe und Besinnung - Meditative Praktiken",
+        "folder": "ruhe-und-besinnung-meditative-praktiken-2472"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=hinduismus&t=3752"
@@ -379,6 +479,11 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "id": "6430",
         "title": "Bibelverse über den Tod",
         "folder": "bibelverse-uber-den-tod-6430"
+      },
+      {
+        "id": "6439",
+        "title": "Bibelübersetzungen im Vergleich",
+        "folder": "bibelubersetzungen-im-vergleich-6439"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=bibel+aufbau&t=3752"
@@ -431,6 +536,26 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "id": "6646",
         "title": "Glaube in der Bibel - Vertrauen auf Gott",
         "folder": "glaube-in-der-bibel-vertrauen-auf-gott-6646"
+      },
+      {
+        "id": "3607",
+        "title": "Adam – Figur aus der Bibel",
+        "folder": "adam-figur-aus-der-bibel-3607"
+      },
+      {
+        "id": "4136",
+        "title": "Noah – Figur aus der Bibel",
+        "folder": "noah-figur-aus-der-bibel-4136"
+      },
+      {
+        "id": "3603",
+        "title": "Abraham – Figur aus der Bibel",
+        "folder": "abraham-figur-aus-der-bibel-3603"
+      },
+      {
+        "id": "6437",
+        "title": "Bewahrung der Schöpfung",
+        "folder": "bewahrung-der-schopfung-6437"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=schoepfung+urgeschichte&t=3752"
@@ -549,6 +674,26 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "id": "2395",
         "title": "Biblische Geschichten - Schlüsselereignisse im Alten Testament",
         "folder": "biblische-geschichten-schlusselereignisse-im-alten-testament-2395"
+      },
+      {
+        "id": "2403",
+        "title": "Das Buch Hiob",
+        "folder": "das-buch-hiob-2403"
+      },
+      {
+        "id": "3768",
+        "title": "Daniel – Figur aus der Bibel",
+        "folder": "daniel-figur-aus-der-bibel-3768"
+      },
+      {
+        "id": "3810",
+        "title": "Elija – Figur aus der Bibel",
+        "folder": "elijah-figur-aus-der-bibel-3810"
+      },
+      {
+        "id": "4012",
+        "title": "Jeremia – Figur aus der Bibel",
+        "folder": "jeremiah-figur-aus-der-bibel-4012"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=david+salomo+propheten&t=3752"
@@ -750,6 +895,11 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "id": "6666",
         "title": "Jesu Tod und Auferstehung",
         "folder": "jesu-tod-und-auferstehung-6666"
+      },
+      {
+        "id": "541",
+        "title": "Das Musical Jesus Christ Superstar",
+        "folder": "das-musical-jesus-christ-superstar-541"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=passion+auferstehung&t=3752"
@@ -791,6 +941,26 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "id": "6708",
         "title": "Paulus und seine Briefe",
         "folder": "paulus-und-seine-briefe-6708"
+      },
+      {
+        "id": "6586",
+        "title": "Die Apostelgeschichte",
+        "folder": "die-apostelgeschichte-6586"
+      },
+      {
+        "id": "6607",
+        "title": "Die Offenbarung des Johannes",
+        "folder": "die-offenbarung-des-johannes-6607"
+      },
+      {
+        "id": "2439",
+        "title": "Der Weg zum Glauben - Grundlagen des Christentums",
+        "folder": "der-weg-zum-glauben-grundlagen-des-christentums-2439"
+      },
+      {
+        "id": "2440",
+        "title": "Glaube und Gemeinschaft - Das Herzstück des Christentums",
+        "folder": "glaube-und-gemeinschaft-das-herzstuck-des-christentums-2440"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=evangelien+apostel&t=3752"
@@ -843,6 +1013,11 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "id": "2432",
         "title": "Der Dreikönigstag",
         "folder": "das-christentum-breitet-sich-aus-2432"
+      },
+      {
+        "id": "6664",
+        "title": "Jesu Geburt - Weihnachtsevangelien",
+        "folder": "jesu-geburt-weihnachtsevangelien-6664"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=advent+weihnachten&t=3752"
@@ -1024,6 +1199,21 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "id": "6725",
         "title": "Seelsorge und Begleitung",
         "folder": "seelsorge-und-begleitung-6725"
+      },
+      {
+        "id": "6640",
+        "title": "Friedhöfe und ihre Symbolik",
+        "folder": "friedhofe-und-ihre-symbolik-6640"
+      },
+      {
+        "id": "6731",
+        "title": "Trauerphasen",
+        "folder": "trauerphasen-6731"
+      },
+      {
+        "id": "4419",
+        "title": "Der Umgang mit dem Tod",
+        "folder": "der-umgang-mit-dem-tod-4419"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=tod+trauer+seelsorge&t=3752"
@@ -1060,6 +1250,21 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "id": "6652",
         "title": "Gottesbilder in Kunst und Musik",
         "folder": "gottesbilder-in-kunst-und-musik-6652"
+      },
+      {
+        "id": "6706",
+        "title": "Nahtoderfahrungen",
+        "folder": "nahtoderfahrungen-6706"
+      },
+      {
+        "id": "6446",
+        "title": "Christliche Hoffnung auf Auferstehung",
+        "folder": "christliche-hoffnung-auf-auferstehung-6446"
+      },
+      {
+        "id": "6443",
+        "title": "Christi Himmelfahrt",
+        "folder": "christi-himmelfahrt-6443"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=jenseits+ewiges+leben&t=3752"
@@ -1184,6 +1389,21 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "id": "6468",
         "title": "Das Weiheamt - Sakrament der Weihe",
         "folder": "das-weiheamt-sakrament-der-weihe-6468"
+      },
+      {
+        "id": "6594",
+        "title": "Die Erstkommunion",
+        "folder": "die-erstkommunion-6594"
+      },
+      {
+        "id": "2480",
+        "title": "Vorbereitung auf die Erstkommunion",
+        "folder": "vorbereitung-auf-die-erstkommunion-2480"
+      },
+      {
+        "id": "6470",
+        "title": "Das Zölibat - Warum leben Priester ehelos?",
+        "folder": "das-zolibat-warum-leben-priester-ehelos-6470"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=eucharistie+kommunion&t=3752"
@@ -1313,6 +1533,26 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "id": "2469",
         "title": "Teresa von Kalkutta - Die Heilige der Armen und Kranken",
         "folder": "teresa-von-kalkutta-die-heilige-der-armen-und-kranken-2469"
+      },
+      {
+        "id": "2459",
+        "title": "Auf den Spuren der Heiligen",
+        "folder": "auf-den-spuren-der-heiligen-2459"
+      },
+      {
+        "id": "2463",
+        "title": "Johannes Bosco",
+        "folder": "johannes-bosco-2463"
+      },
+      {
+        "id": "2441",
+        "title": "Glaubenszeugen - Inspirierende Lebensgeschichten",
+        "folder": "glaubenszeugen-inspirierende-lebensgeschichten-im-christentum-2441"
+      },
+      {
+        "id": "2474",
+        "title": "Die Bedeutung von Pilgerstätten im Christentum",
+        "folder": "die-bedeutung-von-pilgerstatten-im-christentum-2474"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=heilige+vorbilder&t=3752"
@@ -1452,6 +1692,16 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "id": "2426",
         "title": "Kirche in der Gesellschaft",
         "folder": "die-okumenische-bewegung-und-ihre-bedeutung-fur-das-moderne-christentum-2426"
+      },
+      {
+        "id": "6431",
+        "title": "Architektur von Kirchen",
+        "folder": "architektur-von-kirchen-6431"
+      },
+      {
+        "id": "6458",
+        "title": "Das Kreuz – mehr als ein Zeichen",
+        "folder": "das-kreuz-mehr-als-ein-zeichen-6458"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=aemter+oekumene&t=3752"
