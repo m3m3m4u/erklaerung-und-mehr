@@ -125,9 +125,24 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "folder": "immunsystem-leukozyten-und-antikorper-2-2126"
       },
       {
-        "id": "1",
-        "title": "Wie funktioniert die Blutgerinnung",
-        "folder": "test-1"
+        "id": "blutgerinnung",
+        "title": "Wie funktioniert die Blutgerinnung?",
+        "folder": "wie-funktioniert-die-blutgerinnung"
+      },
+      {
+        "id": "2126-blut",
+        "title": "Blutbestandteile und Blutgruppen",
+        "folder": "blutbestandteile-und-blutgruppen-2126"
+      },
+      {
+        "id": "bluttransfusion",
+        "title": "Wie funktioniert die Bluttransfusion?",
+        "folder": "wie-funktioniert-die-bluttransfusion"
+      },
+      {
+        "id": "herzschrittmacher",
+        "title": "Wie funktioniert ein Herzschrittmacher?",
+        "folder": "wie-funktioniert-ein-herzschrittmacher"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=herz+und+blutkreislauf&t=3752"
@@ -230,6 +245,21 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "id": "2123",
         "title": "Brust- und Bauchatmung - Funktionsweise",
         "folder": "das-zwerchfell-atmung-und-bewegung-2123"
+      },
+      {
+        "id": "1156",
+        "title": "Sauerstoff - Aufnahme und Gasaustausch",
+        "folder": "sauerstoff-1156"
+      },
+      {
+        "id": "5184",
+        "title": "Zusammensetzung der Atemluft",
+        "folder": "zusammensetzung-der-luft-5184"
+      },
+      {
+        "id": "5171",
+        "title": "Luftschadstoffe und Lungenbelastung",
+        "folder": "luftschadstoffe-5171"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=atmung+und+lunge&t=3752"
@@ -248,14 +278,34 @@ export const biologieTopics: Record<string, BiologieTopic> = {
     ],
     "exercises": [
       {
-        "id": "2124",
+        "id": "2125",
         "title": "Das Skelett des Menschen - Knochen und Gelenke",
+        "folder": "das-menschliche-skelett-knochen-und-gelenke-2125"
+      },
+      {
+        "id": "2124",
+        "title": "Muskeln und Sehnen - Wie Bewegung entsteht",
         "folder": "muskulatur-skelettmuskeln-und-glatte-muskeln-2124"
       },
       {
-        "id": "2125",
-        "title": "Muskeln und Sehnen - Wie Bewegung entsteht",
-        "folder": "das-menschliche-skelett-knochen-und-gelenke-2125"
+        "id": "muskel-funkt",
+        "title": "Wie funktioniert ein Muskel? - Kontraktion und Kraft",
+        "folder": "wie-funktioniert-ein-muskel"
+      },
+      {
+        "id": "2727",
+        "title": "Sportverletzungen und Heilung des Bewegungsapparats",
+        "folder": "mentales-training-und-sportverletzungen-2727"
+      },
+      {
+        "id": "4431",
+        "title": "Muskelaufbau, Substanzen und Leistungssteigerung",
+        "folder": "doping-und-manipulation-im-sport-4431"
+      },
+      {
+        "id": "2841",
+        "title": "Doping, Muskelermüdung und Fair Play",
+        "folder": "ethik-im-sport-doping-und-fair-play-2841"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=skelett+und+muskeln&t=3752"
@@ -533,12 +583,32 @@ export const biologieTopics: Record<string, BiologieTopic> = {
       {
         "id": "2109",
         "title": "Die Haut – Schichten und Funktionen",
-        "folder": "die-rolle-der-weiesen-blutkorperchen-2109"
+        "folder": "die-haut-schichten-und-funktionen-2109"
       },
       {
         "id": "2232",
         "title": "Die Haut - Schutz und Sinnesorgan",
         "folder": "die-haut-schutz-und-sinnesorgan-2232"
+      },
+      {
+        "id": "2100",
+        "title": "Haut als Barriere - Erste Verteidigungslinie",
+        "folder": "haut-als-barriere-erste-verteidigungslinie-2100"
+      },
+      {
+        "id": "2101",
+        "title": "Die Rolle der Schleimhäute",
+        "folder": "die-rolle-der-schleimhaute-2101"
+      },
+      {
+        "id": "wundheilung",
+        "title": "Wie funktioniert die Heilung einer Wunde?",
+        "folder": "wie-funktioniert-die-heilung-einer-wunde"
+      },
+      {
+        "id": "gaensehaut",
+        "title": "Gänsehaut und Hautreaktionen",
+        "folder": "horror-buecher-und-die-gaensehaut-beim-lesen"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=die+haut+schutzfunktionen&t=3752"
@@ -1491,6 +1561,26 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "id": "3376",
         "title": "Die Robbe",
         "folder": "die-robbe-3376"
+      },
+      {
+        "id": "1069",
+        "title": "Die Qualle - Nesseltiere",
+        "folder": "die-qualle-1069"
+      },
+      {
+        "id": "1080",
+        "title": "Tintenfisch und Weichtiere der Meere",
+        "folder": "tintenfisch-1080"
+      },
+      {
+        "id": "4488",
+        "title": "Leben im Wasser - Ozeane schützen & Arten retten",
+        "folder": "global-goal-14-leben-im-wasser-ozeane-schutzen-arten-retten-4488"
+      },
+      {
+        "id": "3545",
+        "title": "Internationale Abkommen zum Schutz der Meere",
+        "folder": "internationale-abkommen-zum-schutz-der-meere-3545"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=fische+und+leben+im+wasser&t=3752"
@@ -1802,6 +1892,16 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "id": "5306",
         "title": "Lupe, Mikroskop und Fernrohr",
         "folder": "lupe-mikroskop-und-fernrohr-5306"
+      },
+      {
+        "id": "photosynthese",
+        "title": "Wie funktioniert die Photosynthese in Pflanzen?",
+        "folder": "wie-funktioniert-die-photosynthese-in-pflanzen"
+      },
+      {
+        "id": "dna-replikation",
+        "title": "Wie funktioniert die DNA-Replikation?",
+        "folder": "wie-funktioniert-die-dna-replikation"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=zellbiologie+und+mikroskopie&t=3752"
@@ -1972,6 +2072,21 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "id": "3088",
         "title": "Der Stammbaum des Menschen",
         "folder": "der-stammbaum-des-menschen-3088"
+      },
+      {
+        "id": "6723",
+        "title": "Schöpfung und Evolution im Vergleich",
+        "folder": "schopfung-und-evolution-6723"
+      },
+      {
+        "id": "2324",
+        "title": "Kritische Analyse: Sozialdarwinismus vs. Biologie",
+        "folder": "der-sozialdarwinismus-2324"
+      },
+      {
+        "id": "5760",
+        "title": "Einführung in die Evolutionspsychologie",
+        "folder": "einfuhrung-in-evolutionspsychologie-5760"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=evolution+und+stammesgeschichte&t=3752"
@@ -2029,6 +2144,26 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "id": "1118",
         "title": "Artenvielfalt",
         "folder": "artenvielfalt-1118"
+      },
+      {
+        "id": "biber",
+        "title": "Rückkehr der Baumeister - Der Siegeszug des Bibers",
+        "folder": "die-rueckkehr-der-baumeister-der-siegeszug-des-bibers-in-mitteleuropa"
+      },
+      {
+        "id": "4489",
+        "title": "Natur bewahren - Wälder und Arten schützen",
+        "folder": "global-goal-15-natur-bewahren-walder-und-arten-schutzen-4489"
+      },
+      {
+        "id": "2028",
+        "title": "Laubwald, Nadelwald und Mischwald",
+        "folder": "laubwald-nadelwald-und-mischwald-2028"
+      },
+      {
+        "id": "2027",
+        "title": "Der tropische Regenwald - Schichten und Artenvielfalt",
+        "folder": "der-tropische-regenwald-2027"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=oekologie+und+lebensraeume&t=3752"
