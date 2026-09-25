@@ -41,31 +41,6 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
     ],
     "exercises": [
       {
-        "id": "arbeitsteilung-und-spezialisierung",
-        "title": "Arbeitsteilung und Spezialisierung",
-        "folder": "arbeitsteilung-und-spezialisierung"
-      },
-      {
-        "id": "beduerfnisse-bedarf-und-nachfrage",
-        "title": "Bedürfnisse Bedarf und Nachfrage",
-        "folder": "beduerfnisse-bedarf-und-nachfrage"
-      },
-      {
-        "id": "berufsunfaehigkeitsversicherung-vorsorge",
-        "title": "Berufsunfähigkeitsversicherung Vorsorge",
-        "folder": "berufsunfaehigkeitsversicherung-vorsorge"
-      },
-      {
-        "id": "bildung-als-oekonomischer-faktor",
-        "title": "Bildung als ökonomischer Faktor",
-        "folder": "bildung-als-oekonomischer-faktor"
-      },
-      {
-        "id": "customer-relationship-management-crm",
-        "title": "Customer Relationship Management CRM",
-        "folder": "customer-relationship-management-crm"
-      },
-      {
         "id": "das-oekonomische-prinzip-minimal-maximal-optimal",
         "title": "Das ökonomische Prinzip Minimal Maximal Optimal",
         "folder": "das-oekonomische-prinzip-minimal-maximal-optimal"
@@ -76,54 +51,14 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "folder": "die-beduerfnispyramide-nach-maslow"
       },
       {
-        "id": "die-gesetzliche-krankenversicherung",
-        "title": "Die gesetzliche Krankenversicherung",
-        "folder": "die-gesetzliche-krankenversicherung"
-      },
-      {
-        "id": "die-gesetzliche-rentenversicherung",
-        "title": "Die gesetzliche Rentenversicherung",
-        "folder": "die-gesetzliche-rentenversicherung"
-      },
-      {
-        "id": "die-gesetzliche-unfallversicherung",
-        "title": "Die gesetzliche Unfallversicherung",
-        "folder": "die-gesetzliche-unfallversicherung"
-      },
-      {
-        "id": "die-pflegeversicherung-aufgaben-und-leistungen",
-        "title": "Die Pflegeversicherung Aufgaben und Leistungen",
-        "folder": "die-pflegeversicherung-aufgaben-und-leistungen"
-      },
-      {
-        "id": "digitale-spaltung-zwischen-nord-und-sued",
-        "title": "Digitale Spaltung zwischen Nord und Süd",
-        "folder": "digitale-spaltung-zwischen-nord-und-sued"
-      },
-      {
-        "id": "gemeinwohl-oekonomie-als-alternatives-modell",
-        "title": "Gemeinwohl Ökonomie als alternatives Modell",
-        "folder": "gemeinwohl-oekonomie-als-alternatives-modell"
-      },
-      {
-        "id": "lebensversicherungen-zur-altersvorsorge",
-        "title": "Lebensversicherungen zur Altersvorsorge",
-        "folder": "lebensversicherungen-zur-altersvorsorge"
-      },
-      {
-        "id": "merkmale-der-freien-marktwirtschaft",
-        "title": "Merkmale der Freien Marktwirtschaft",
-        "folder": "merkmale-der-freien-marktwirtschaft"
+        "id": "beduerfnisse-bedarf-und-nachfrage",
+        "title": "Bedürfnisse Bedarf und Nachfrage",
+        "folder": "beduerfnisse-bedarf-und-nachfrage"
       },
       {
         "id": "opportunitaetskosten-und-verzicht",
         "title": "Opportunitätskosten und Verzicht",
         "folder": "opportunitaetskosten-und-verzicht"
-      },
-      {
-        "id": "private-haftpflichtversicherung-als-basisschutz",
-        "title": "Private Haftpflichtversicherung als Basisschutz",
-        "folder": "private-haftpflichtversicherung-als-basisschutz"
       },
       {
         "id": "produktionsfaktor-arbeit",
@@ -141,45 +76,111 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "folder": "produktionsfaktor-kapital"
       },
       {
+        "id": "arbeitsteilung-und-spezialisierung",
+        "title": "Arbeitsteilung und Spezialisierung",
+        "folder": "arbeitsteilung-und-spezialisierung"
+      },
+      {
         "id": "ressourcenknappheit-und-seltene-erden",
         "title": "Ressourcenknappheit und Seltene Erden",
         "folder": "ressourcenknappheit-und-seltene-erden"
       },
       {
-        "id": "strukturwandel-vom-bergbau-zur-dienstleistung",
-        "title": "Strukturwandel vom Bergbau zur Dienstleistung",
-        "folder": "strukturwandel-vom-bergbau-zur-dienstleistung"
-      },
-      {
         "id": "oekonomische-soziale-und-oekologische-ziele",
         "title": "Ökonomische soziale und ökologische Ziele",
         "folder": "oekonomische-soziale-und-oekologische-ziele"
+      },
+      {
+        "id": "bildung-als-oekonomischer-faktor",
+        "title": "Bildung als ökonomischer Faktor",
+        "folder": "bildung-als-oekonomischer-faktor"
+      },
+      {
+        "id": "strukturwandel-vom-bergbau-zur-dienstleistung",
+        "title": "Strukturwandel vom Bergbau zur Dienstleistung",
+        "folder": "strukturwandel-vom-bergbau-zur-dienstleistung"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=%C3%96konomisches%20Prinzip%2C%20Bed%C3%BCrfnisse%20%26%20G%C3%BCter+wirtschaft&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=ökonomisches+prinzip+bedürfnisse&t=3752"
+  },
+  "sozialversicherungen-und-soziale-sicherung": {
+    "slug": "sozialversicherungen-und-soziale-sicherung",
+    "title": "Sozialversicherungen & Gesetzliche Vorsorge",
+    "category": "Wirtschaftssysteme & Grundlagen",
+    "shortDesc": "Die fünf Säulen der deutschen Sozialversicherung: Kranken-, Renten-, Unfall-, Pflege- und Arbeitslosenversicherung sowie private Absicherung.",
+    "longDesc": "Das deutsche Sozialversicherungssystem basiert auf dem Solidaritätsprinzip: Starke stützen Schwache, Gesunde finanzieren Kranke, und Erwerbstätige sichern Rentner ab.",
+    "keyPoints": [
+      "Fünf Säulen: Krankenversicherung (1883), Unfallversicherung (1884), Rentenversicherung (1889), Arbeitslosenversicherung (1927), Pflegeversicherung (1995)",
+      "Solidaritätsprinzip: Beiträge richten sich nach dem Einkommen, Leistungen nach dem tatsächlichen Bedarf",
+      "Generationenvertrag: Die aktuellen Beitragszahler finanzieren die aktuellen Rentner im Umlageverfahren",
+      "Private Absicherung: Ergänzung durch Berufsunfähigkeits-, Lebens- und Haftpflichtversicherung"
+    ],
+    "exercises": [
+      {
+        "id": "das-solidarprinzip-der-sozialversicherung",
+        "title": "Das Solidarprinzip der Sozialversicherung",
+        "folder": "das-solidarprinzip-der-sozialversicherung"
+      },
+      {
+        "id": "die-gesetzliche-krankenversicherung",
+        "title": "Die gesetzliche Krankenversicherung",
+        "folder": "die-gesetzliche-krankenversicherung"
+      },
+      {
+        "id": "die-gesetzliche-rentenversicherung",
+        "title": "Die gesetzliche Rentenversicherung",
+        "folder": "die-gesetzliche-rentenversicherung"
+      },
+      {
+        "id": "die-pflegeversicherung-aufgaben-und-leistungen",
+        "title": "Die Pflegeversicherung Aufgaben und Leistungen",
+        "folder": "die-pflegeversicherung-aufgaben-und-leistungen"
+      },
+      {
+        "id": "die-gesetzliche-unfallversicherung",
+        "title": "Die gesetzliche Unfallversicherung",
+        "folder": "die-gesetzliche-unfallversicherung"
+      },
+      {
+        "id": "arbeitslosigkeit-und-die-rolle-der-agentur",
+        "title": "Arbeitslosigkeit und die Rolle der Agentur",
+        "folder": "arbeitslosigkeit-und-die-rolle-der-agentur"
+      },
+      {
+        "id": "berufsunfaehigkeitsversicherung-vorsorge",
+        "title": "Berufsunfähigkeitsversicherung Vorsorge",
+        "folder": "berufsunfaehigkeitsversicherung-vorsorge"
+      },
+      {
+        "id": "lebensversicherungen-zur-altersvorsorge",
+        "title": "Lebensversicherungen zur Altersvorsorge",
+        "folder": "lebensversicherungen-zur-altersvorsorge"
+      },
+      {
+        "id": "private-haftpflichtversicherung-als-basisschutz",
+        "title": "Private Haftpflichtversicherung als Basisschutz",
+        "folder": "private-haftpflichtversicherung-als-basisschutz"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=sozialversicherung&t=3752"
   },
   "wirtschaftsordnungen-marktwirtschaft-und-planwirtschaft": {
     "slug": "wirtschaftsordnungen-marktwirtschaft-und-planwirtschaft",
     "title": "Wirtschaftsordnungen: Freie Marktwirtschaft vs. Planwirtschaft",
     "category": "Wirtschaftssysteme & Grundlagen",
-    "shortDesc": "Merkmale der freien Marktwirtschaft, Zentralverwaltungswirtschaft, Steuerung durch Staat oder Marktpreise.",
-    "longDesc": "Wirtschaftsordnungen regeln das Zusammenspiel von Produktion, Konsum und Verteilung. Während in der freien Marktwirtschaft Preise durch Angebot und Nachfrage entstehen, lenkt die Planwirtschaft alle Güterströme zentral über staatliche Vorgaben.",
+    "shortDesc": "Koordination über Markt vs. Staat: Adam Smith, unsichtbare Hand, DDR-Zentralverwaltungswirtschaft und das deutsche Wirtschaftswunder.",
+    "longDesc": "Wie soll eine Volkswirtschaft organisiert sein? Der Vergleich zwischen freier Marktwirtschaft nach liberalem Vorbild und zentraler Planwirtschaft verdeutlicht die Grundfragen von Eigentum, Preisbildung und staatlicher Lenkung.",
     "keyPoints": [
-      "Freie Marktwirtschaft (Adam Smith): 'Unsichtbare Hand' – freie Preisbildung, Privateigentum an Produktionsmitteln, freier Wettbewerb und Gewerbefreiheit",
-      "Zentralverwaltungswirtschaft (Planwirtschaft): Staatliches Eigentum an Betrieben, zentrale Festlegung von Produktionsmengen, Löhnen und Preisen",
-      "Kritik & Schwächen: Freie Märkte neigen zu Monopolen und sozialer Härte; Planwirtschaft leidet unter Ineffizienz, Mangelwirtschaft und fehlender Innovation",
-      "Bedingungsloses Grundeinkommen: Diskussionsmodell für eine finanzielle Grundabsicherung aller Bürger ohne Vorbedingungen"
+      "Freie Marktwirtschaft: Privateigentum an Produktionsmitteln, freie Preisbildung durch Angebot und Nachfrage, Gewerbefreiheit und Konsumfreiheit",
+      "Planwirtschaft: Staatliches Eigentum, zentrale Festlegung von Produktionsmengen und Preisen durch eine staatliche Plankommission",
+      "Adam Smith & die unsichtbare Hand: Das Streben des Einzelnen nach persönlichem Vorteil fördert unbewusst das Wohl der Allgemeinheit",
+      "Historischer Vergleich: Wirtschaftswunder der Bundesrepublik vs. Mangelwirtschaft in der DDR"
     ],
     "exercises": [
       {
-        "id": "bedingungsloses-grundeinkommen-pro-und-contra",
-        "title": "Bedingungsloses Grundeinkommen Pro und Contra",
-        "folder": "bedingungsloses-grundeinkommen-pro-und-contra"
-      },
-      {
-        "id": "marktversagen-durch-externe-effekte",
-        "title": "Marktversagen durch externe Effekte",
-        "folder": "marktversagen-durch-externe-effekte"
+        "id": "merkmale-der-freien-marktwirtschaft",
+        "title": "Merkmale der Freien Marktwirtschaft",
+        "folder": "merkmale-der-freien-marktwirtschaft"
       },
       {
         "id": "merkmale-der-zentralverwaltungswirtschaft",
@@ -187,12 +188,32 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "folder": "merkmale-der-zentralverwaltungswirtschaft"
       },
       {
+        "id": "das-wirtschaftssystem-der-ddr-3092",
+        "title": "Das Wirtschaftssystem der DDR",
+        "folder": "das-wirtschaftssystem-der-ddr-3092"
+      },
+      {
+        "id": "das-wirtschaftswunder-984",
+        "title": "Das Wirtschaftswunder der Bundesrepublik",
+        "folder": "das-wirtschaftswunder-984"
+      },
+      {
+        "id": "marktversagen-durch-externe-effekte",
+        "title": "Marktversagen durch externe Effekte",
+        "folder": "marktversagen-durch-externe-effekte"
+      },
+      {
         "id": "privatisierung-oeffentlicher-gueter",
         "title": "Privatisierung öffentlicher Güter",
         "folder": "privatisierung-oeffentlicher-gueter"
+      },
+      {
+        "id": "bedingungsloses-grundeinkommen-pro-und-contra",
+        "title": "Bedingungsloses Grundeinkommen Pro und Contra",
+        "folder": "bedingungsloses-grundeinkommen-pro-und-contra"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Wirtschaftsordnungen%3A%20Freie%20Marktwirtschaft%20vs.%20Planwirtschaft+wirtschaft&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=marktwirtschaft+planwirtschaft&t=3752"
   },
   "soziale-marktwirtschaft-in-deutschland": {
     "slug": "soziale-marktwirtschaft-in-deutschland",
@@ -605,6 +626,11 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "id": "ursachen-der-privaten-ueberschuldung",
         "title": "Ursachen der privaten Überschuldung",
         "folder": "ursachen-der-privaten-ueberschuldung"
+      },
+      {
+        "id": "der-darlehensvertrag-und-kreditrecht",
+        "title": "Der Darlehensvertrag und Kreditrecht",
+        "folder": "der-darlehensvertrag-und-kreditrecht"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Kredite%2C%20Verschuldung%20%26%20Privatinsolvenz+wirtschaft&t=3752"
@@ -839,6 +865,108 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Nachhaltigkeit%2C%20Kreislaufwirtschaft%20%26%20CSR+wirtschaft&t=3752"
   },
+  "migration-und-weltwirtschaft": {
+    "slug": "migration-und-weltwirtschaft",
+    "title": "Migration, Arbeitsmarkt & Globale Wirtschaft",
+    "category": "Weltwirtschaft & Globalisierung",
+    "shortDesc": "Push- und Pull-Faktoren, Fachkräfteeinwanderung, Remittances (Rücküberweisungen), Demografie und globale Arbeitsmärkte.",
+    "longDesc": "Globale Wanderungsbewegungen haben enorme wirtschaftliche Auswirkungen sowohl auf Herkunfts- als auch auf Zielländer. Migration schließt Fachkräftelücken und fördert den internationalen Kapitaltransfer.",
+    "keyPoints": [
+      "Push- und Pull-Faktoren: Wirtschaftliche Not, Krieg, Klimafolgen (Push) vs. Wohlstand, Arbeitsplätze, Sicherheit (Pull)",
+      "Wirtschaftliche Effekte: Schließen von demografischen Lücken im Arbeitsmarkt, Beitragszahler in Sozialsysteme",
+      "Rücküberweisungen (Remittances): Migranten senden Milliardenbeträge an Familien in Herkunftsländern – oft mehr als offizielle Entwicklungshilfe",
+      "Braindrain vs. Braingain: Verlust qualifizierter Fachkräfte in Schwellenländern vs. Kompetenzgewinn durch weltweite Vernetzung"
+    ],
+    "exercises": [
+      {
+        "id": "migration-und-ihre-auswirkungen-auf-die-wirtschaftliche-entwicklung-5511",
+        "title": "Migration und ihre Auswirkungen auf die wirtschaftliche Entwicklung",
+        "folder": "migration-und-ihre-auswirkungen-auf-die-wirtschaftliche-entwicklung-5511"
+      },
+      {
+        "id": "migrationstrends-und-ihre-auswirkungen-auf-gesellschaften-5512",
+        "title": "Migrationstrends und ihre Auswirkungen auf Gesellschaften",
+        "folder": "migrationstrends-und-ihre-auswirkungen-auf-gesellschaften-5512"
+      },
+      {
+        "id": "migration-und-der-globale-arbeitsmarkt",
+        "title": "Migration und der globale Arbeitsmarkt",
+        "folder": "migration-und-der-globale-arbeitsmarkt"
+      },
+      {
+        "id": "migration-und-ihre-rolle-in-der-globalisierung-5550",
+        "title": "Migration und ihre Rolle in der Globalisierung",
+        "folder": "migration-und-ihre-rolle-in-der-globalisierung-5550"
+      },
+      {
+        "id": "der-demografische-wandel-auswirkungen-auf-die-arbeitsmarkte-und-sozialsysteme-5439",
+        "title": "Der demografische Wandel: Auswirkungen auf Arbeitsmärkte und Sozialsysteme",
+        "folder": "der-demografische-wandel-auswirkungen-auf-die-arbeitsmarkte-und-sozialsysteme-5439"
+      },
+      {
+        "id": "zuwanderung-und-integration-ein-weltweites-phanomen-5578",
+        "title": "Zuwanderung und Integration: Ein weltweites Phänomen",
+        "folder": "zuwanderung-und-integration-ein-weltweites-phanomen-5578"
+      },
+      {
+        "id": "die-ursachen-und-folgen-von-landflucht-und-stadtischer-migration-5479",
+        "title": "Die Ursachen und Folgen von Landflucht und städtischer Migration",
+        "folder": "die-ursachen-und-folgen-von-landflucht-und-stadtischer-migration-5479"
+      },
+      {
+        "id": "digitale-spaltung-zwischen-nord-und-sued",
+        "title": "Digitale Spaltung zwischen Nord und Süd",
+        "folder": "digitale-spaltung-zwischen-nord-und-sued"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=migration+wirtschaft&t=3752"
+  },
+  "globale-landwirtschaft-im-21-jahrhundert": {
+    "slug": "globale-landwirtschaft-im-21-jahrhundert",
+    "title": "Landwirtschaft & Globale Ernährungssicherheit",
+    "category": "Weltwirtschaft & Globalisierung",
+    "shortDesc": "Agrarökonomie, Welternährung, industrielle Landwirtschaft, Biodiversität, Strukturwandel und globale Agrarpolitik.",
+    "longDesc": "Die Landwirtschaft steht vor der gewaltigen Aufgabe, eine wachsende Weltbevölkerung nachhaltig zu ernähren und gleichzeitig Boden, Wasser und Klima zu schonen.",
+    "keyPoints": [
+      "Agrarsektor: Primärer Wirtschaftssektor, Basis für Nahrungsmittelsicherheit und Rohstoffversorgung",
+      "Herausforderungen: Bodendegradation, Wasserknappheit, Klimawandel und Preisschwankungen an den Agrarbörsen",
+      "Strukturwandel: Technisierung, Betriebsvergrößerungen und europäische Agrarpolitik (GAP)",
+      "Präzisionslandwirtschaft: Smart Farming, Drohnentechnologie und ressourcenschonende Bewässerung"
+    ],
+    "exercises": [
+      {
+        "id": "landwirtschaft-und-ihre-globalen-herausforderungen-im-21-jahrhundert-5510",
+        "title": "Landwirtschaft und ihre globalen Herausforderungen im 21. Jahrhundert",
+        "folder": "landwirtschaft-und-ihre-globalen-herausforderungen-im-21-jahrhundert-5510"
+      },
+      {
+        "id": "bauernwut-in-europa-der-verzweifelte-aufstand-gegen-die-agrarpolitik",
+        "title": "Bauernproteste in Europa: Aufstand gegen Agrarpolitik",
+        "folder": "bauernwut-in-europa-der-verzweifelte-aufstand-gegen-die-agrarpolitik"
+      },
+      {
+        "id": "strukturwandel-in-der-landwirtschaft-3592",
+        "title": "Strukturwandel in der Landwirtschaft",
+        "folder": "strukturwandel-in-der-landwirtschaft-3592"
+      },
+      {
+        "id": "landwirtschaft-in-den-usa-2049",
+        "title": "Landwirtschaft in den USA: Großbetriebe & Monokulturen",
+        "folder": "landwirtschaft-in-den-usa-2049"
+      },
+      {
+        "id": "landwirtschaft-in-spanien-2050",
+        "title": "Landwirtschaft in Spanien: Gewächshäuser & Wassermangel",
+        "folder": "landwirtschaft-in-spanien-2050"
+      },
+      {
+        "id": "landwirtschaft-in-sterreich-und-in-den-usa-2051",
+        "title": "Landwirtschaft im Vergleich: Österreich und die USA",
+        "folder": "landwirtschaft-in-sterreich-und-in-den-usa-2051"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=landwirtschaft+wirtschaft&t=3752"
+  },
   "rechtsgeschaefte-und-geschaeftsfaehigkeit": {
     "slug": "rechtsgeschaefte-und-geschaeftsfaehigkeit",
     "title": "Rechtsgeschäfte, Geschäftsfähigkeit & Willenserklärungen",
@@ -893,27 +1021,22 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
   },
   "kaufvertrag-und-vertragsstoerungen": {
     "slug": "kaufvertrag-und-vertragsstoerungen",
-    "title": "Der Kaufvertrag & Vertragsstörungen",
+    "title": "Der Kaufvertrag: Abschluss, Eigentum & Sachmängel",
     "category": "Recht, Verträge & Verbraucherschutz",
-    "shortDesc": "Verpflichtungs- und Erfüllungsgeschäft, Sachmängel, Lieferungsverzug, Zahlungsverzug, Mahnverfahren und Verjährung.",
-    "longDesc": "Der Kaufvertrag begründet Rechte und Pflichten für Käufer und Verkäufer. Bei Leistungsstörungen greifen gesetzliche Gewährleistungs- und Verzugsregeln.",
+    "shortDesc": "Verpflichtungs- und Erfüllungsgeschäft, Eigentumsvorbehalt, Sachmängelarten und die gesetzlichen Mängelrechte des Käufers.",
+    "longDesc": "Der Kaufvertrag ist das wichtigste Alltagsgeschäft. Das deutsche Recht trennt im Abstraktionsprinzip strikt zwischen dem schuldrechtlichen Verpflichtungsgeschäft und der dinglichen Übereignung.",
     "keyPoints": [
-      "Verpflichtungs- vs. Erfüllungsgeschäft: Vertragsabschluss begründet Anspruch, Übereignung erfüllt ihn",
-      "Besitz vs. Eigentum: Besitz ist die tatsächliche Verfügungsgewalt, Eigentum das rechtliche Vollrecht",
-      "Mängelansprüche (§ 437 BGB): Vorrang der Nacherfüllung (Reparatur oder Neulieferung), danach Minderung/Rücktritt",
-      "Verzugsarten: Lieferungsverzug des Verkäufers, Zahlungs- und Annahmeverzug des Käufers",
-      "Mahnverfahren & Verjährung: 3-jährige regelmäßige Verjährungsfrist"
+      "Zwei Willenserklärungen: Antrag (Angebot) und Annahme führen zum Vertragsschluss",
+      "Trennungs- und Abstraktionsprinzip: Trennung von Verpflichtungsgeschäft (§ 433 BGB) und Erfüllungsgeschäft (§ 929 BGB)",
+      "Besitz vs. Eigentum: Besitz = tatsächliche Herrschaft; Eigentum = rechtliche Herrschaft",
+      "Eigentumsvorbehalt: Ware bleibt bis zur vollständigen Bezahlung Eigentum des Verkäufers",
+      "Mängelrechte: 1. Nacherfüllung (Reparatur oder Neulieferung), 2. Rücktritt oder Minderung, 3. Schadensersatz"
     ],
     "exercises": [
       {
-        "id": "besitz-und-eigentum-im-rechtlichen-vergleich",
-        "title": "Besitz und Eigentum im rechtlichen Vergleich",
-        "folder": "besitz-und-eigentum-im-rechtlichen-vergleich"
-      },
-      {
-        "id": "das-aussergerichtliche-mahnverfahren",
-        "title": "Das außergerichtliche Mahnverfahren",
-        "folder": "das-aussergerichtliche-mahnverfahren"
+        "id": "das-verpflichtungsgeschaeft-beim-kauf",
+        "title": "Das Verpflichtungsgeschäft beim Kauf",
+        "folder": "das-verpflichtungsgeschaeft-beim-kauf"
       },
       {
         "id": "das-erfuellungsgeschaeft-beim-kauf",
@@ -921,24 +1044,9 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "folder": "das-erfuellungsgeschaeft-beim-kauf"
       },
       {
-        "id": "das-gerichtliche-mahnverfahren",
-        "title": "Das gerichtliche Mahnverfahren",
-        "folder": "das-gerichtliche-mahnverfahren"
-      },
-      {
-        "id": "das-verpflichtungsgeschaeft-beim-kauf",
-        "title": "Das Verpflichtungsgeschäft beim Kauf",
-        "folder": "das-verpflichtungsgeschaeft-beim-kauf"
-      },
-      {
-        "id": "der-annahmeverzug-durch-den-kaeufer",
-        "title": "Der Annahmeverzug durch den Käufer",
-        "folder": "der-annahmeverzug-durch-den-kaeufer"
-      },
-      {
-        "id": "der-darlehensvertrag-und-kreditrecht",
-        "title": "Der Darlehensvertrag und Kreditrecht",
-        "folder": "der-darlehensvertrag-und-kreditrecht"
+        "id": "besitz-und-eigentum-im-rechtlichen-vergleich",
+        "title": "Besitz und Eigentum im rechtlichen Vergleich",
+        "folder": "besitz-und-eigentum-im-rechtlichen-vergleich"
       },
       {
         "id": "der-eigentumsvorbehalt",
@@ -946,24 +1054,9 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "folder": "der-eigentumsvorbehalt"
       },
       {
-        "id": "der-lieferungsverzug-und-schadenersatz",
-        "title": "Der Lieferungsverzug und Schadenersatz",
-        "folder": "der-lieferungsverzug-und-schadenersatz"
-      },
-      {
-        "id": "der-zahlungsverzug-und-mahnkosten",
-        "title": "Der Zahlungsverzug und Mahnkosten",
-        "folder": "der-zahlungsverzug-und-mahnkosten"
-      },
-      {
         "id": "die-mangelhafte-lieferung-sachmaengel",
         "title": "Die mangelhafte Lieferung Sachmängel",
         "folder": "die-mangelhafte-lieferung-sachmaengel"
-      },
-      {
-        "id": "produkthaftungsgesetz-und-garantien",
-        "title": "Produkthaftungsgesetz und Garantien",
-        "folder": "produkthaftungsgesetz-und-garantien"
       },
       {
         "id": "rechte-des-kaeufers-bei-maengeln",
@@ -971,31 +1064,95 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "folder": "rechte-des-kaeufers-bei-maengeln"
       },
       {
+        "id": "produkthaftungsgesetz-und-garantien",
+        "title": "Produkthaftungsgesetz und Garantien",
+        "folder": "produkthaftungsgesetz-und-garantien"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=kaufvertrag+mängel&t=3752"
+  },
+  "vertragsstoerungen-und-mahnverfahren": {
+    "slug": "vertragsstoerungen-und-mahnverfahren",
+    "title": "Vertragsstörungen, Verzug & Mahnwesen",
+    "category": "Recht, Verträge & Verbraucherschutz",
+    "shortDesc": "Lieferungsverzug, Annahmeverzug, Zahlungsverzug, außergerichtliche Mahnung, gerichtlicher Mahnbescheid und Verjährungsfristen.",
+    "longDesc": "Wenn Vertragspartner ihre Pflichten nicht rechtzeitig oder gar nicht erfüllen, treten Leistungsstörungen ein. Das Mahnverfahren sichert offene Geldforderungen zügig und rechtssicher ab.",
+    "keyPoints": [
+      "Lieferungsverzug: Verkäufer liefert nicht rechtzeitig trotz Fälligkeit und Mahnung (Schadensersatz, Deckungskauf, Rücktritt)",
+      "Zahlungsverzug: Käufer zahlt nicht rechtzeitig (Verzugszinsen, Mahnkosten, Inkasso)",
+      "Annahmeverzug: Käufer nimmt ordnungsgemäß gelieferte Ware nicht an (Aufbewahrungskosten, Notverkauf)",
+      "Außergerichtliches Mahnwesen: Freundliche Erinnerung, 1. Mahnung, 2. Mahnung mit Nachfrist",
+      "Gerichtliches Mahnverfahren: Mahnbescheid ➔ Vollstreckungsbescheid ohne Klageerhebung",
+      "Verjährung: Regelmäßige Verjährungsfrist von 3 Jahren nach BGB (§ 195 BGB)"
+    ],
+    "exercises": [
+      {
+        "id": "der-lieferungsverzug-und-schadenersatz",
+        "title": "Der Lieferungsverzug und Schadenersatz",
+        "folder": "der-lieferungsverzug-und-schadenersatz"
+      },
+      {
+        "id": "der-annahmeverzug-durch-den-kaeufer",
+        "title": "Der Annahmeverzug durch den Käufer",
+        "folder": "der-annahmeverzug-durch-den-kaeufer"
+      },
+      {
+        "id": "der-zahlungsverzug-und-mahnkosten",
+        "title": "Der Zahlungsverzug und Mahnkosten",
+        "folder": "der-zahlungsverzug-und-mahnkosten"
+      },
+      {
+        "id": "das-aussergerichtliche-mahnverfahren",
+        "title": "Das außergerichtliche Mahnverfahren",
+        "folder": "das-aussergerichtliche-mahnverfahren"
+      },
+      {
+        "id": "das-gerichtliche-mahnverfahren",
+        "title": "Das gerichtliche Mahnverfahren",
+        "folder": "das-gerichtliche-mahnverfahren"
+      },
+      {
         "id": "verjaehrungsfristen-bei-forderungen",
         "title": "Verjährungsfristen bei Forderungen",
         "folder": "verjaehrungsfristen-bei-forderungen"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Der%20Kaufvertrag%20%26%20Vertragsst%C3%B6rungen+wirtschaft&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=vertragsstörungen+mahnverfahren&t=3752"
   },
   "arbeitsrecht-und-verbraucherschutz": {
     "slug": "arbeitsrecht-und-verbraucherschutz",
-    "title": "Arbeitsrecht, Kündigungsschutz & Verbraucherrechte",
+    "title": "Arbeitsrecht & Kündigungsschutz",
     "category": "Recht, Verträge & Verbraucherschutz",
-    "shortDesc": "Arbeitsvertrag, Kündigungsschutzgesetz, Jugendarbeitsschutz, Widerrufsrecht bei Online-Käufen, Verbraucherzentralen und DSGVO.",
-    "longDesc": "Arbeitsrecht und Verbraucherschutz schützen Arbeitnehmer und Verbraucher als strukturell schwächere Vertragsparteien vor Benachteiligung.",
+    "shortDesc": "Rechte und Pflichten im Arbeitsvertrag, KSchG, ordentliche und fristlose Kündigung, Mutterschutz und Arbeitsgerichtsbarkeit.",
+    "longDesc": "Das Arbeitsrecht schützt Beschäftigte als typischerweise wirtschaftlich schwächere Partei. Es regelt Arbeitszeiten, Urlaub, Entgeltfortzahlung und Kündigungsfristen.",
     "keyPoints": [
-      "Kündigungsschutz: Ordentliche Fristen; besonderer Schutz für Schwangere, Schwerbehinderte und Betriebsräte",
-      "Jugendarbeitsschutzgesetz: Maximale Arbeitszeiten, Pausenregelungen und Nachtarbeitsverbot für Jugendliche",
-      "Widerrufsrecht im Online-Handel: 14 Tage gesetzliches Rückgaberecht ohne Begründung",
-      "Datenschutz (DSGVO): Recht auf Auskunft, Berichtigung und Löschung personenbezogener Daten",
-      "Vertragsarten: Arbeitsvertrag, Dienstvertrag, Werkvertrag, Mietvertrag, Leihvertrag, Schenkungsvertrag"
+      "Hauptpflichten: Pflicht zur Arbeitsleistung (Arbeitnehmer) vs. Pflicht zur Vergütungszahlung (Arbeitgeber)",
+      "Nebenpflichten: Treue- und Verschwiegenheitspflicht vs. Fürsorge- und Schutzpflicht",
+      "Kündigungsschutz: Allgemeiner Kündigungsschutz nach KSchG (Betriebe > 10 Mitarbeiter, Betriebszugehörigkeit > 6 Monate)",
+      "Kündigungsarten: Ordentliche Kündigung mit Frist vs. außerordentliche fristlose Kündigung aus wichtigem Grund",
+      "Besonderer Kündigungsschutz: Für Schwangere (MuSchG), Schwerbehinderte und Betriebsratsmitglieder",
+      "Arbeitsgericht: Klagefrist von 3 Wochen nach Zugang der Kündigung (§ 4 KSchG)"
     ],
     "exercises": [
       {
-        "id": "aufbau-der-arbeitsgerichtsbarkeit",
-        "title": "Aufbau der Arbeitsgerichtsbarkeit",
-        "folder": "aufbau-der-arbeitsgerichtsbarkeit"
+        "id": "inhalte-des-arbeitsvertrags",
+        "title": "Inhalte des Arbeitsvertrags",
+        "folder": "inhalte-des-arbeitsvertrags"
+      },
+      {
+        "id": "rechte-und-pflichten-im-arbeitsvertrag",
+        "title": "Rechte und Pflichten im Arbeitsvertrag",
+        "folder": "rechte-und-pflichten-im-arbeitsvertrag"
+      },
+      {
+        "id": "der-allgemeine-kuendigungsschutz",
+        "title": "Der allgemeine Kündigungsschutz",
+        "folder": "der-allgemeine-kuendigungsschutz"
+      },
+      {
+        "id": "ordentliche-und-ausserordentliche-kuendigung",
+        "title": "Ordentliche und außerordentliche Kündigung",
+        "folder": "ordentliche-und-ausserordentliche-kuendigung"
       },
       {
         "id": "besonderer-kuendigungsschutz-fuer-schwangere",
@@ -1003,14 +1160,45 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "folder": "besonderer-kuendigungsschutz-fuer-schwangere"
       },
       {
-        "id": "cookies-und-tracking-einwilligungen",
-        "title": "Cookies und Tracking Einwilligungen",
-        "folder": "cookies-und-tracking-einwilligungen"
+        "id": "jugendarbeitsschutzgesetz-kernpunkte",
+        "title": "Jugendarbeitsschutzgesetz Kernpunkte",
+        "folder": "jugendarbeitsschutzgesetz-kernpunkte"
       },
       {
-        "id": "der-allgemeine-kuendigungsschutz",
-        "title": "Der allgemeine Kündigungsschutz",
-        "folder": "der-allgemeine-kuendigungsschutz"
+        "id": "aufbau-der-arbeitsgerichtsbarkeit",
+        "title": "Aufbau der Arbeitsgerichtsbarkeit",
+        "folder": "aufbau-der-arbeitsgerichtsbarkeit"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=arbeitsrecht+kündigungsschutz&t=3752"
+  },
+  "vertragsarten-und-verbraucherrechte": {
+    "slug": "vertragsarten-und-verbraucherrechte",
+    "title": "Vertragsarten des BGB & Digitaler Verbraucherschutz",
+    "category": "Recht, Verträge & Verbraucherschutz",
+    "shortDesc": "Miet-, Pacht-, Werk- und Dienstvertrag, Verbraucherzentralen, 14-tägiges Online-Widerrufsrecht, Impressumspflicht und DSGVO.",
+    "longDesc": "Das BGB kennt unterschiedliche Vertragstypen mit spezifischen Pflichten. Im digitalen Handel schützen Verbraucherschutzgesetze, Widerrufsrechte und Datenschutzregeln Käufer vor Übervorteilung.",
+    "keyPoints": [
+      "Vertragstypen: Dienstvertrag (Tätigkeit geschuldet) vs. Werkvertrag (konkreter Erfolg geschuldet)",
+      "Gebrauchsüberlassung: Miete (entgeltliche Nutzung) vs. Pacht (Nutzung plus Fruchtnießung) vs. Leihe (unentgeltlich)",
+      "Widerrufsrecht im E-Commerce: 14 Tage Widerrufsrecht bei Fernabsatzverträgen ohne Angabe von Gründen (§ 312g BGB)",
+      "Datenschutz & Transparenz: DSGVO, Cookie-Einwilligungen (Opt-in) und Anbieterkennzeichnung (Impressumspflicht)"
+    ],
+    "exercises": [
+      {
+        "id": "merkmale-des-mietvertrags",
+        "title": "Merkmale des Mietvertrags",
+        "folder": "merkmale-des-mietvertrags"
+      },
+      {
+        "id": "unterschiede-zwischen-miete-und-pacht",
+        "title": "Unterschiede zwischen Miete und Pacht",
+        "folder": "unterschiede-zwischen-miete-und-pacht"
+      },
+      {
+        "id": "werkvertrag-versus-dienstvertrag",
+        "title": "Werkvertrag versus Dienstvertrag",
+        "folder": "werkvertrag-versus-dienstvertrag"
       },
       {
         "id": "der-leihvertrag-und-seine-besonderheiten",
@@ -1028,57 +1216,22 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "folder": "die-rolle-der-verbraucherzentralen"
       },
       {
+        "id": "widerrufsrecht-bei-online-kaeufen",
+        "title": "Widerrufsrecht bei Online Käufen",
+        "folder": "widerrufsrecht-bei-online-kaeufen"
+      },
+      {
         "id": "impressumspflicht-und-datenschutz-grundverordnung",
         "title": "Impressumspflicht und Datenschutz Grundverordnung",
         "folder": "impressumspflicht-und-datenschutz-grundverordnung"
       },
       {
-        "id": "inhalte-des-arbeitsvertrags",
-        "title": "Inhalte des Arbeitsvertrags",
-        "folder": "inhalte-des-arbeitsvertrags"
-      },
-      {
-        "id": "jugendarbeitsschutzgesetz-kernpunkte",
-        "title": "Jugendarbeitsschutzgesetz Kernpunkte",
-        "folder": "jugendarbeitsschutzgesetz-kernpunkte"
-      },
-      {
-        "id": "merkmale-des-mietvertrags",
-        "title": "Merkmale des Mietvertrags",
-        "folder": "merkmale-des-mietvertrags"
-      },
-      {
-        "id": "ordentliche-und-ausserordentliche-kuendigung",
-        "title": "Ordentliche und außerordentliche Kündigung",
-        "folder": "ordentliche-und-ausserordentliche-kuendigung"
-      },
-      {
-        "id": "rechte-und-pflichten-im-arbeitsvertrag",
-        "title": "Rechte und Pflichten im Arbeitsvertrag",
-        "folder": "rechte-und-pflichten-im-arbeitsvertrag"
-      },
-      {
-        "id": "unterschiede-zwischen-miete-und-pacht",
-        "title": "Unterschiede zwischen Miete und Pacht",
-        "folder": "unterschiede-zwischen-miete-und-pacht"
-      },
-      {
-        "id": "urheberrecht-bei-bildern-und-texten",
-        "title": "Urheberrecht bei Bildern und Texten",
-        "folder": "urheberrecht-bei-bildern-und-texten"
-      },
-      {
-        "id": "werkvertrag-versus-dienstvertrag",
-        "title": "Werkvertrag versus Dienstvertrag",
-        "folder": "werkvertrag-versus-dienstvertrag"
-      },
-      {
-        "id": "widerrufsrecht-bei-online-kaeufen",
-        "title": "Widerrufsrecht bei Online Käufen",
-        "folder": "widerrufsrecht-bei-online-kaeufen"
+        "id": "cookies-und-tracking-einwilligungen",
+        "title": "Cookies und Tracking Einwilligungen",
+        "folder": "cookies-und-tracking-einwilligungen"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Arbeitsrecht%2C%20K%C3%BCndigungsschutz%20%26%20Verbraucherrechte+wirtschaft&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=verbraucherschutz+vertragsarten&t=3752"
   },
   "rechtsformen-von-unternehmen": {
     "slug": "rechtsformen-von-unternehmen",
@@ -1230,57 +1383,46 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
   },
   "marketing-mix-und-marktforschung": {
     "slug": "marketing-mix-und-marktforschung",
-    "title": "Marketing-Mix (4P/7P), Marktforschung & Werbung",
+    "title": "Marktforschung & Strategische Marketingplanung",
     "category": "Unternehmen, Organisation & Marketing",
-    "shortDesc": "Produkt-, Preis-, Distributions- und Kommunikationspolitik, AIDA-Modell, Marktforschung, Zielgruppen und Social Media Marketing.",
-    "longDesc": "Marketing steuert alle Maßnahmen zur Absatzförderung. Der Marketing-Mix setzt Produktgestaltung, Preisstrategien, Vertriebswege und Kommunikation zielgerichtet ein.",
+    "shortDesc": "Primär- und Sekundärforschung, SWOT-Analyse, BCG-Matrix, Marktsegmentierung, Sinus-Milieus und Marketing-Mix-Konzepte.",
+    "longDesc": "Erfolgreiches Wirtschaften setzt die genaue Kenntnis der Kundenbedürfnisse und des Marktumfelds voraus. Systematische Marktforschung bildet die Entscheidungsgrundlage für strategische Planungen.",
     "keyPoints": [
-      "4P Marketing-Mix: Product (Produktpolitik), Price (Preispolitik), Place (Distributionspolitik), Promotion (Kommunikationspolitik)",
-      "7P Mix für Dienstleistungen: + Personnel, Process, Physical Evidence",
-      "AIDA-Prinzip: Attention ➔ Interest ➔ Desire ➔ Action",
-      "Marktforschung: Primärforschung (Befragung, Beobachtung, Experiment) vs. Sekundärforschung",
-      "Markenführung: Corporate Design, Corporate Identity, Storytelling und Social Media Marketing"
+      "Marktforschungsmethoden: Primärforschung (Befragung, Beobachtung, Experiment) vs. Sekundärforschung (Desk Research)",
+      "Zielgruppenanalyse: Soziodemografische Segmentierung und lebensweltliche Sinus-Milieus",
+      "Strategische Werkzeuge: SWOT-Analyse (Stärken, Schwächen, Chancen, Risiken) und BCG-Portfolio (Stars, Cash Cows, Poor Dogs, Question Marks)",
+      "Marketing-Mix: Klassische 4P (Product, Price, Place, Promotion) erweitert um 7P für Dienstleistungen"
     ],
     "exercises": [
+      {
+        "id": "primaerforschung-und-sekundaerforschung",
+        "title": "Primärforschung und Sekundärforschung",
+        "folder": "primaerforschung-und-sekundaerforschung"
+      },
+      {
+        "id": "primaerforschung-durch-befragung",
+        "title": "Primärforschung durch Befragung",
+        "folder": "primaerforschung-durch-befragung"
+      },
       {
         "id": "beobachtung-und-experiment-im-marketing",
         "title": "Beobachtung und Experiment im Marketing",
         "folder": "beobachtung-und-experiment-im-marketing"
       },
       {
-        "id": "content-marketing-strategien",
-        "title": "Content Marketing Strategien",
-        "folder": "content-marketing-strategien"
+        "id": "panelverfahren-und-trendforschung",
+        "title": "Panelverfahren und Trendforschung",
+        "folder": "panelverfahren-und-trendforschung"
       },
       {
-        "id": "corporate-identity-und-corporate-design",
-        "title": "Corporate Identity und Corporate Design",
-        "folder": "corporate-identity-und-corporate-design"
+        "id": "marktsegmentierung-und-zielgruppen",
+        "title": "Marktsegmentierung und Zielgruppen",
+        "folder": "marktsegmentierung-und-zielgruppen"
       },
       {
-        "id": "das-aida-modell-in-der-werbung",
-        "title": "Das AIDA Modell in der Werbung",
-        "folder": "das-aida-modell-in-der-werbung"
-      },
-      {
-        "id": "der-klassische-marketing-mix-4p",
-        "title": "Der klassische Marketing Mix 4P",
-        "folder": "der-klassische-marketing-mix-4p"
-      },
-      {
-        "id": "der-produktlebenszyklus-und-seine-phasen",
-        "title": "Der Produktlebenszyklus und seine Phasen",
-        "folder": "der-produktlebenszyklus-und-seine-phasen"
-      },
-      {
-        "id": "die-customer-journey-phasen",
-        "title": "Die Customer Journey Phasen",
-        "folder": "die-customer-journey-phasen"
-      },
-      {
-        "id": "die-portfolio-analyse-der-boston-consulting-group",
-        "title": "Die Portfolio Analyse der Boston Consulting Group",
-        "folder": "die-portfolio-analyse-der-boston-consulting-group"
+        "id": "sinus-milieus-zur-zielgruppenbestimmung",
+        "title": "Sinus Milieus zur Zielgruppenbestimmung",
+        "folder": "sinus-milieus-zur-zielgruppenbestimmung"
       },
       {
         "id": "die-swot-analyse-zur-strategieplanung",
@@ -1288,14 +1430,14 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "folder": "die-swot-analyse-zur-strategieplanung"
       },
       {
-        "id": "distributionspolitik-absatzwege-und-logistik",
-        "title": "Distributionspolitik Absatzwege und Logistik",
-        "folder": "distributionspolitik-absatzwege-und-logistik"
+        "id": "die-portfolio-analyse-der-boston-consulting-group",
+        "title": "Die Portfolio Analyse der Boston Consulting Group",
+        "folder": "die-portfolio-analyse-der-boston-consulting-group"
       },
       {
-        "id": "e-mail-marketing-und-newsletter",
-        "title": "E Mail Marketing und Newsletter",
-        "folder": "e-mail-marketing-und-newsletter"
+        "id": "der-klassische-marketing-mix-4p",
+        "title": "Der klassische Marketing Mix 4P",
+        "folder": "der-klassische-marketing-mix-4p"
       },
       {
         "id": "erweiterter-marketing-mix-7p",
@@ -1303,24 +1445,41 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "folder": "erweiterter-marketing-mix-7p"
       },
       {
-        "id": "facebook-und-instagram-als-werbeplattform",
-        "title": "Facebook und Instagram als Werbeplattform",
-        "folder": "facebook-und-instagram-als-werbeplattform"
+        "id": "neuromarketing-hirnforschung-im-handel",
+        "title": "Neuromarketing: Hirnforschung im Handel",
+        "folder": "neuromarketing-hirnforschung-im-handel"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=marktforschung+marketing+mix&t=3752"
+  },
+  "produkt-und-preispolitik-im-marketing": {
+    "slug": "produkt-und-preispolitik-im-marketing",
+    "title": "Produkt-, Preis- & Markenpolitik",
+    "category": "Unternehmen, Organisation & Marketing",
+    "shortDesc": "Produktlebenszyklus, Preisstrategien (Skimming, Penetration), Corporate Identity, Markenbildung und Distributionslogistik.",
+    "longDesc": "Wie wird ein Produkt gestaltet, bepreist und im Markt positioniert? Produktinnovation, Markenführung und Preisdifferenzierung sichern langfristige Wettbewerbsvorteile.",
+    "keyPoints": [
+      "Produktlebenszyklus: Einführung ➔ Wachstum ➔ Reife ➔ Sättigung ➔ Degeneration / Relaunch",
+      "Preisstrategien: Skimming (hoher Einführungspreis) vs. Penetrationsstrategie (niedriger Preis für schnelle Markteroberung)",
+      "Corporate Identity (CI): Corporate Design, Corporate Communication und Corporate Behavior",
+      "Markenführung: Markenwert, Rebranding und rechtlicher Markenschutz (DPMA)",
+      "Distributionspolitik (Place): Direkter Absatz (Online-Shop) vs. indirekter Absatz (Groß- und Einzelhandel)"
+    ],
+    "exercises": [
+      {
+        "id": "der-produktlebenszyklus-und-seine-phasen",
+        "title": "Der Produktlebenszyklus und seine Phasen",
+        "folder": "der-produktlebenszyklus-und-seine-phasen"
       },
       {
-        "id": "green-marketing-und-nachhaltigkeit",
-        "title": "Green Marketing und Nachhaltigkeit",
-        "folder": "green-marketing-und-nachhaltigkeit"
+        "id": "preisstrategien-skimming-und-penetration",
+        "title": "Preisstrategien Skimming und Penetration",
+        "folder": "preisstrategien-skimming-und-penetration"
       },
       {
-        "id": "guerilla-marketing-aktionen",
-        "title": "Guerilla Marketing Aktionen",
-        "folder": "guerilla-marketing-aktionen"
-      },
-      {
-        "id": "kommunikationspolitik-werbung-und-pr",
-        "title": "Kommunikationspolitik Werbung und PR",
-        "folder": "kommunikationspolitik-werbung-und-pr"
+        "id": "corporate-identity-und-corporate-design",
+        "title": "Corporate Identity und Corporate Design",
+        "folder": "corporate-identity-und-corporate-design"
       },
       {
         "id": "markenidentitaet-und-markenimage",
@@ -1333,64 +1492,14 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "folder": "markenschutz-und-patentrecht"
       },
       {
-        "id": "marktsegmentierung-und-zielgruppen",
-        "title": "Marktsegmentierung und Zielgruppen",
-        "folder": "marktsegmentierung-und-zielgruppen"
-      },
-      {
-        "id": "neuromarketing-hirnforschung-im-handel",
-        "title": "Neuromarketing Hirnforschung im Handel",
-        "folder": "neuromarketing-hirnforschung-im-handel"
-      },
-      {
-        "id": "panelverfahren-und-trendforschung",
-        "title": "Panelverfahren und Trendforschung",
-        "folder": "panelverfahren-und-trendforschung"
-      },
-      {
-        "id": "preisstrategien-skimming-und-penetration",
-        "title": "Preisstrategien Skimming und Penetration",
-        "folder": "preisstrategien-skimming-und-penetration"
-      },
-      {
-        "id": "primaerforschung-durch-befragung",
-        "title": "Primärforschung durch Befragung",
-        "folder": "primaerforschung-durch-befragung"
-      },
-      {
-        "id": "primaerforschung-und-sekundaerforschung",
-        "title": "Primärforschung und Sekundärforschung",
-        "folder": "primaerforschung-und-sekundaerforschung"
-      },
-      {
         "id": "rebranding-chancen-und-risiken",
-        "title": "Rebranding Chancen und Risiken",
+        "title": "Rebranding: Chancen und Risiken",
         "folder": "rebranding-chancen-und-risiken"
       },
       {
-        "id": "sinus-milieus-zur-zielgruppenbestimmung",
-        "title": "Sinus Milieus zur Zielgruppenbestimmung",
-        "folder": "sinus-milieus-zur-zielgruppenbestimmung"
-      },
-      {
-        "id": "social-media-marketing-konzepte",
-        "title": "Social Media Marketing Konzepte",
-        "folder": "social-media-marketing-konzepte"
-      },
-      {
-        "id": "storytelling-in-der-markenkommunikation",
-        "title": "Storytelling in der Markenkommunikation",
-        "folder": "storytelling-in-der-markenkommunikation"
-      },
-      {
-        "id": "suchmaschinenwerbung-sea",
-        "title": "Suchmaschinenwerbung SEA",
-        "folder": "suchmaschinenwerbung-sea"
-      },
-      {
-        "id": "tiktok-marketing-fuer-junge-zielgruppen",
-        "title": "TikTok Marketing für junge Zielgruppen",
-        "folder": "tiktok-marketing-fuer-junge-zielgruppen"
+        "id": "green-marketing-und-nachhaltigkeit",
+        "title": "Green Marketing und Nachhaltigkeit",
+        "folder": "green-marketing-und-nachhaltigkeit"
       },
       {
         "id": "treueprogramme-und-bonusformate",
@@ -1398,71 +1507,112 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "folder": "treueprogramme-und-bonusformate"
       },
       {
-        "id": "virales-marketing-im-netz",
-        "title": "Virales Marketing im Netz",
-        "folder": "virales-marketing-im-netz"
+        "id": "die-customer-journey-phasen",
+        "title": "Die Customer Journey Phasen",
+        "folder": "die-customer-journey-phasen"
+      },
+      {
+        "id": "distributionspolitik-absatzwege-und-logistik",
+        "title": "Distributionspolitik Absatzwege und Logistik",
+        "folder": "distributionspolitik-absatzwege-und-logistik"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Marketing-Mix%20(4P%2F7P)%2C%20Marktforschung%20%26%20Werbung+wirtschaft&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=produktpolitik+preispolitik&t=3752"
   },
-  "digitale-wirtschaft-e-commerce-und-plattformen": {
-    "slug": "digitale-wirtschaft-e-commerce-und-plattformen",
-    "title": "Digitale Wirtschaft, E-Commerce & Plattformökonomie",
+  "kommunikationspolitik-und-werbung": {
+    "slug": "kommunikationspolitik-und-werbung",
+    "title": "Kommunikationspolitik, Werbung & Social-Media-Marketing",
     "category": "Unternehmen, Organisation & Marketing",
-    "shortDesc": "Online-Shops, Plattformökonomie (Amazon & Co.), KI im Kundenservice, Retourenmanagement, Filterblasen und Nudging.",
-    "longDesc": "Die digitale Transformation verändert Handelsstrukturen fundamental. Plattformen, Algorithmen und KI-Tools revolutionieren Kundengewinnung, Logistik und Geschäftsmodelle.",
+    "shortDesc": "AIDA-Modell, Public Relations, Content Marketing, Storytelling, Guerilla Marketing, SEA und Social-Media-Kampagnen.",
+    "longDesc": "Kommunikationspolitik vermittelt Markenbotschaften an Kunden und Öffentlichkeit. Digitale Kanäle ermöglichen zielgenaues Performance-Marketing und interaktive Kundenansprache.",
     "keyPoints": [
-      "Plattformökonomie: Vermittlung von Angebot und Nachfrage über digitale Marktplätze (Netzwerkeffekte)",
-      "E-Commerce: Webshops, Bezahlschnittstellen, Mobile Commerce und Retourenlogistik",
-      "KI & Automatisierung: Chatbots im Kundenservice, automatisierte Texterstellung, Bildgenerierung und Predictive Analytics",
-      "Konsumentenlenkung: Personalisierte Werbung, Nudging, Tracking und Filterblasen",
-      "Moderne Geschäftsmodelle: SaaS (Software as a Service), Freemium vs. Premium, Sharing Economy"
+      "AIDA-Formel: Attention (Aufmerksamkeit) ➔ Interest (Interesse) ➔ Desire (Verlangen) ➔ Action (Handlung/Kauf)",
+      "Werbeformen: Klassische Werbung, PR (Öffentlichkeitsarbeit), Guerilla-Marketing und Event-Marketing",
+      "Online-Marketing: Suchmaschinenwerbung (SEA), E-Mail-Marketing und virale Kampagnen",
+      "Social-Media-Kanäle: Zielgruppenspezifische Ansprache auf Instagram, TikTok und Facebook mit Influencer-Marketing"
     ],
     "exercises": [
       {
-        "id": "affiliate-marketing-systeme",
-        "title": "Affiliate Marketing Systeme",
-        "folder": "affiliate-marketing-systeme"
+        "id": "das-aida-modell-in-der-werbung",
+        "title": "Das AIDA Modell in der Werbung",
+        "folder": "das-aida-modell-in-der-werbung"
       },
       {
-        "id": "algorithmen-und-filterblasen",
-        "title": "Algorithmen und Filterblasen",
-        "folder": "algorithmen-und-filterblasen"
+        "id": "kommunikationspolitik-werbung-und-pr",
+        "title": "Kommunikationspolitik: Werbung und PR",
+        "folder": "kommunikationspolitik-werbung-und-pr"
       },
       {
-        "id": "automatisierte-texterstellung-fuer-shops",
-        "title": "Automatisierte Texterstellung für Shops",
-        "folder": "automatisierte-texterstellung-fuer-shops"
+        "id": "content-marketing-strategien",
+        "title": "Content Marketing Strategien",
+        "folder": "content-marketing-strategien"
       },
       {
-        "id": "bildgenerierung-fuer-werbekampagnen",
-        "title": "Bildgenerierung für Werbekampagnen",
-        "folder": "bildgenerierung-fuer-werbekampagnen"
+        "id": "storytelling-in-der-markenkommunikation",
+        "title": "Storytelling in der Markenkommunikation",
+        "folder": "storytelling-in-der-markenkommunikation"
       },
       {
-        "id": "community-management-und-shitstorms",
-        "title": "Community Management und Shitstorms",
-        "folder": "community-management-und-shitstorms"
+        "id": "guerilla-marketing-aktionen",
+        "title": "Guerilla Marketing Aktionen",
+        "folder": "guerilla-marketing-aktionen"
       },
       {
-        "id": "die-plattformoekonomie-amazon-und-co",
-        "title": "Die Plattformökonomie Amazon und Co",
-        "folder": "die-plattformoekonomie-amazon-und-co"
+        "id": "virales-marketing-im-netz",
+        "title": "Virales Marketing im Netz",
+        "folder": "virales-marketing-im-netz"
       },
       {
-        "id": "freemium-versus-premium-modelle",
-        "title": "Freemium versus Premium Modelle",
-        "folder": "freemium-versus-premium-modelle"
+        "id": "social-media-marketing-konzepte",
+        "title": "Social Media Marketing Konzepte",
+        "folder": "social-media-marketing-konzepte"
       },
       {
-        "id": "ki-im-kundenservice-chatbots",
-        "title": "KI im Kundenservice Chatbots",
-        "folder": "ki-im-kundenservice-chatbots"
+        "id": "facebook-und-instagram-als-werbeplattform",
+        "title": "Facebook und Instagram als Werbeplattform",
+        "folder": "facebook-und-instagram-als-werbeplattform"
       },
+      {
+        "id": "tiktok-marketing-fuer-junge-zielgruppen",
+        "title": "TikTok Marketing für junge Zielgruppen",
+        "folder": "tiktok-marketing-fuer-junge-zielgruppen"
+      },
+      {
+        "id": "suchmaschinenwerbung-sea",
+        "title": "Suchmaschinenwerbung SEA",
+        "folder": "suchmaschinenwerbung-sea"
+      },
+      {
+        "id": "e-mail-marketing-und-newsletter",
+        "title": "E-Mail-Marketing und Newsletter",
+        "folder": "e-mail-marketing-und-newsletter"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=werbung+social+media+marketing&t=3752"
+  },
+  "digitale-wirtschaft-e-commerce-und-plattformen": {
+    "slug": "digitale-wirtschaft-e-commerce-und-plattformen",
+    "title": "E-Commerce, Webshops & Digitale Vertriebswege",
+    "category": "Unternehmen, Organisation & Marketing",
+    "shortDesc": "Marktplätze vs. eigene Shops, CRM, Responsive Checkout, Retourenmanagement, SaaS, Freemium und personalisierte Werbung.",
+    "longDesc": "Der Online-Handel hat das Konsumverhalten grundlegend verändert. Moderne Shop-Systeme verknüpfen intuitive Nutzerführung mit hochkomplexen Logistik- und Bezahlschnittstellen.",
+    "keyPoints": [
+      "Vertriebskanäle: Eigener Webshop vs. Online-Marktplätze (Amazon, eBay, Etsy)",
+      "Mobile Commerce: Responsive Webdesign und one-click Bezahlmethoden",
+      "Betriebsmodelle: SaaS (Software-as-a-Service), Freemium- und Abonnementmodelle",
+      "Kostenfaktoren: Retourenmanagement, Zahlungsabwicklung und Warenwirtschaftssysteme",
+      "Customer Journey: CRM (Customer Relationship Management) und verhaltensbasierte Werbeaussteuerung"
+    ],
+    "exercises": [
       {
         "id": "marktplaetze-versus-eigene-webshops",
         "title": "Marktplätze versus eigene Webshops",
         "folder": "marktplaetze-versus-eigene-webshops"
+      },
+      {
+        "id": "shop-systeme-und-bezahlschnittstellen",
+        "title": "Shop Systeme und Bezahlschnittstellen",
+        "folder": "shop-systeme-und-bezahlschnittstellen"
       },
       {
         "id": "mobile-commerce-und-responsive-design",
@@ -1470,9 +1620,24 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "folder": "mobile-commerce-und-responsive-design"
       },
       {
-        "id": "mobilitaet-der-zukunft-e-autos-und-wasserstoff",
-        "title": "Mobilität der Zukunft E Autos und Wasserstoff",
-        "folder": "mobilitaet-der-zukunft-e-autos-und-wasserstoff"
+        "id": "retourenmanagement-und-prozesskosten",
+        "title": "Retourenmanagement und Prozesskosten",
+        "folder": "retourenmanagement-und-prozesskosten"
+      },
+      {
+        "id": "freemium-versus-premium-modelle",
+        "title": "Freemium versus Premium Modelle",
+        "folder": "freemium-versus-premium-modelle"
+      },
+      {
+        "id": "software-as-a-service-saas",
+        "title": "Software as a Service SaaS",
+        "folder": "software-as-a-service-saas"
+      },
+      {
+        "id": "affiliate-marketing-systeme",
+        "title": "Affiliate Marketing Systeme",
+        "folder": "affiliate-marketing-systeme"
       },
       {
         "id": "nudging-im-online-handel",
@@ -1485,14 +1650,35 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "folder": "personalisierte-werbung-durch-datennutzung"
       },
       {
-        "id": "predictive-analytics-im-handel",
-        "title": "Predictive Analytics im Handel",
-        "folder": "predictive-analytics-im-handel"
+        "id": "automatisierte-texterstellung-fuer-shops",
+        "title": "Automatisierte Texterstellung für Shops",
+        "folder": "automatisierte-texterstellung-fuer-shops"
       },
       {
-        "id": "retourenmanagement-und-prozesskosten",
-        "title": "Retourenmanagement und Prozesskosten",
-        "folder": "retourenmanagement-und-prozesskosten"
+        "id": "customer-relationship-management-crm",
+        "title": "Customer Relationship Management CRM",
+        "folder": "customer-relationship-management-crm"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=e-commerce+onlineshop&t=3752"
+  },
+  "plattformoekonomie-ki-und-sharing-economy": {
+    "slug": "plattformoekonomie-ki-und-sharing-economy",
+    "title": "Plattformökonomie, KI & Zukunftsmodelle",
+    "category": "Unternehmen, Organisation & Marketing",
+    "shortDesc": "Netzwerkeffekte digitaler Plattformen, Sharing Economy, KI-Kundenservice, Predictive Analytics und Strukturwandel des Handels.",
+    "longDesc": "Plattformgiganten dominieren moderne Märkte durch Netzwerkeffekte und Datenmonopole. Künstliche Intelligenz und Share-Konzepte transformieren traditionelle Geschäftsmodelle.",
+    "keyPoints": [
+      "Netzwerkeffekte: Der Nutzen einer Plattform steigt mit jedem weiteren Nutzer (\"Winner takes it all\")",
+      "Sharing Economy: \"Nutzen statt Besitzen\" – Carsharing, Werkzeugleihe und Co-Working",
+      "Künstliche Intelligenz: Kundenservice-Chatbots, Bildgenerierung für Kampagnen und Predictive Analytics",
+      "Handelswandel: Verdrängungswettbewerb zwischen E-Commerce und stationärem Innenstadthandel"
+    ],
+    "exercises": [
+      {
+        "id": "die-plattformoekonomie-amazon-und-co",
+        "title": "Die Plattformökonomie Amazon und Co",
+        "folder": "die-plattformoekonomie-amazon-und-co"
       },
       {
         "id": "sharing-economy-konzepte",
@@ -1505,14 +1691,34 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "folder": "sharing-economy-nutzen-statt-besitzen"
       },
       {
-        "id": "shop-systeme-und-bezahlschnittstellen",
-        "title": "Shop Systeme und Bezahlschnittstellen",
-        "folder": "shop-systeme-und-bezahlschnittstellen"
+        "id": "ki-im-kundenservice-chatbots",
+        "title": "KI im Kundenservice Chatbots",
+        "folder": "ki-im-kundenservice-chatbots"
       },
       {
-        "id": "software-as-a-service-saas",
-        "title": "Software as a Service SaaS",
-        "folder": "software-as-a-service-saas"
+        "id": "predictive-analytics-im-handel",
+        "title": "Predictive Analytics im Handel",
+        "folder": "predictive-analytics-im-handel"
+      },
+      {
+        "id": "bildgenerierung-fuer-werbekampagnen",
+        "title": "Bildgenerierung für Werbekampagnen",
+        "folder": "bildgenerierung-fuer-werbekampagnen"
+      },
+      {
+        "id": "algorithmen-und-filterblasen",
+        "title": "Algorithmen und Filterblasen",
+        "folder": "algorithmen-und-filterblasen"
+      },
+      {
+        "id": "community-management-und-shitstorms",
+        "title": "Community Management und Shitstorms",
+        "folder": "community-management-und-shitstorms"
+      },
+      {
+        "id": "wandel-des-stationaeren-einzelhandels",
+        "title": "Wandel des stationären Einzelhandels",
+        "folder": "wandel-des-stationaeren-einzelhandels"
       },
       {
         "id": "urban-farming-als-neues-geschaeftsmodell",
@@ -1520,12 +1726,12 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "folder": "urban-farming-als-neues-geschaeftsmodell"
       },
       {
-        "id": "wandel-des-stationaeren-einzelhandels",
-        "title": "Wandel des stationären Einzelhandels",
-        "folder": "wandel-des-stationaeren-einzelhandels"
+        "id": "mobilitaet-der-zukunft-e-autos-und-wasserstoff",
+        "title": "Mobilität der Zukunft: E-Autos und Wasserstoff",
+        "folder": "mobilitaet-der-zukunft-e-autos-und-wasserstoff"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Digitale%20Wirtschaft%2C%20E-Commerce%20%26%20Plattform%C3%B6konomie+wirtschaft&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=plattformökonomie+künstliche+intelligenz&t=3752"
   },
   "personalwirtschaft-und-mitarbeiterfuehrung": {
     "slug": "personalwirtschaft-und-mitarbeiterfuehrung",
@@ -1728,62 +1934,21 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
   },
   "berufsorientierung-und-berufswahl": {
     "slug": "berufsorientierung-und-berufswahl",
-    "title": "Berufsorientierung, Stärkenanalyse & Bildungswege",
+    "title": "Berufsorientierung, Stärken & Bildungswege",
     "category": "Arbeitswelt & Berufsstart",
-    "shortDesc": "Selbstanalyse, Berufsinformationszentrum (BIZ), Duale Ausbildung, Studium, Praktika und Berufe der Zukunft.",
-    "longDesc": "Die Berufsorientierung hilft Schülern, eigene Stärken zu erkennen und den passenden Weg zwischen betrieblicher Ausbildung und Studium zu finden.",
+    "shortDesc": "Stärken- und Schwächenanalyse, Soft Skills, BIZ-Nutzung, Ausbildung vs. Studium und Berufe im digitalen Wandel.",
+    "longDesc": "Die Wahl des passenden Berufs erfordert Selbstreflexion und systematische Information. Zwischen schulischer Ausbildung, dualem System und Hochschulstudium eröffnen sich vielfältige Karrierewege.",
     "keyPoints": [
-      "Selbstanalyse: Eigene Fähigkeiten, Interessen, Schulnoten und Werte systematisch reflektieren",
-      "Duales Ausbildungssystem: Wechsel zwischen Praxis im Betrieb und Theorie in der Berufsschule",
-      "Bildungswege: Berufsausbildung, Duales Studium, Fachhochschule, Universität",
-      "Praktikum: Berufserkundung, Praktikumsbericht und erste Unternehmenskontakte",
-      "Berufe im Wandel: Neue digitale Berufsbilder, lebenslanges Lernen und Weiterbildung"
+      "Selbsterkundung: Eigene Neigungen, Talente und Wertvorstellungen mit Anforderungsprofilen abgleichen",
+      "Soft Skills: Kommunikationsfähigkeit, Teamgeist, Zuverlässigkeit und Problemlösungskompetenz",
+      "Informationsquellen: BIZ der Bundesagentur für Arbeit, Ausbildungsmessen und Online-Portale",
+      "Bildungswege: Betriebliche Ausbildung (duales System), Fachschulen, Duales Studium oder Vollzeitstudium"
     ],
     "exercises": [
       {
-        "id": "berufe-im-wandel-der-digitalisierung",
-        "title": "Berufe im Wandel der Digitalisierung",
-        "folder": "berufe-im-wandel-der-digitalisierung"
-      },
-      {
-        "id": "das-berufsinformationszentrum-biz-nutzen",
-        "title": "Das Berufsinformationszentrum BIZ nutzen",
-        "folder": "das-berufsinformationszentrum-biz-nutzen"
-      },
-      {
-        "id": "das-duale-studium-modell-und-vorteile",
-        "title": "Das Duale Studium Modell und Vorteile",
-        "folder": "das-duale-studium-modell-und-vorteile"
-      },
-      {
-        "id": "der-praktikumsbericht-aufbau-und-inhalt",
-        "title": "Der Praktikumsbericht Aufbau und Inhalt",
-        "folder": "der-praktikumsbericht-aufbau-und-inhalt"
-      },
-      {
-        "id": "die-suche-nach-dem-passenden-praktikumsplatz",
-        "title": "Die Suche nach dem passenden Praktikumsplatz",
-        "folder": "die-suche-nach-dem-passenden-praktikumsplatz"
-      },
-      {
-        "id": "fachkraeftemangel-und-zuwanderung",
-        "title": "Fachkräftemangel und Zuwanderung",
-        "folder": "fachkraeftemangel-und-zuwanderung"
-      },
-      {
-        "id": "fortbildung-und-lebenslanges-lernen",
-        "title": "Fortbildung und lebenslanges Lernen",
-        "folder": "fortbildung-und-lebenslanges-lernen"
-      },
-      {
-        "id": "freiwilliges-soziales-jahr-als-alternative",
-        "title": "Freiwilliges Soziales Jahr als Alternative",
-        "folder": "freiwilliges-soziales-jahr-als-alternative"
-      },
-      {
-        "id": "informationsquellen-zur-berufsorientierung",
-        "title": "Informationsquellen zur Berufsorientierung",
-        "folder": "informationsquellen-zur-berufsorientierung"
+        "id": "selbstanalyse-staerken-und-schwaechen",
+        "title": "Selbstanalyse Stärken und Schwächen",
+        "folder": "selbstanalyse-staerken-und-schwaechen"
       },
       {
         "id": "interessen-und-hobbys-zum-beruf-machen",
@@ -1791,29 +1956,24 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "folder": "interessen-und-hobbys-zum-beruf-machen"
       },
       {
-        "id": "karriereplanung-und-aufstiegschancen",
-        "title": "Karriereplanung und Aufstiegschancen",
-        "folder": "karriereplanung-und-aufstiegschancen"
-      },
-      {
-        "id": "rechte-und-pflichten-im-praktikum",
-        "title": "Rechte und Pflichten im Praktikum",
-        "folder": "rechte-und-pflichten-im-praktikum"
-      },
-      {
         "id": "schluesselqualifikationen-und-soft-skills",
         "title": "Schlüsselqualifikationen und Soft Skills",
         "folder": "schluesselqualifikationen-und-soft-skills"
       },
       {
-        "id": "selbstanalyse-staerken-und-schwaechen",
-        "title": "Selbstanalyse Stärken und Schwächen",
-        "folder": "selbstanalyse-staerken-und-schwaechen"
+        "id": "informationsquellen-zur-berufsorientierung",
+        "title": "Informationsquellen zur Berufsorientierung",
+        "folder": "informationsquellen-zur-berufsorientierung"
       },
       {
-        "id": "selbststaendigkeit-als-berufsweg",
-        "title": "Selbstständigkeit als Berufsweg",
-        "folder": "selbststaendigkeit-als-berufsweg"
+        "id": "das-berufsinformationszentrum-biz-nutzen",
+        "title": "Das Berufsinformationszentrum BIZ nutzen",
+        "folder": "das-berufsinformationszentrum-biz-nutzen"
+      },
+      {
+        "id": "traumberufe-versus-realitaet-am-arbeitsmarkt",
+        "title": "Traumberufe versus Realität am Arbeitsmarkt",
+        "folder": "traumberufe-versus-realitaet-am-arbeitsmarkt"
       },
       {
         "id": "studium-oder-ausbildung-vergleich",
@@ -1821,61 +1981,97 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "folder": "studium-oder-ausbildung-vergleich"
       },
       {
-        "id": "traumberufe-versus-realitaet-am-arbeitsmarkt",
-        "title": "Traumberufe versus Realität am Arbeitsmarkt",
-        "folder": "traumberufe-versus-realitaet-am-arbeitsmarkt"
+        "id": "das-duale-studium-modell-und-vorteile",
+        "title": "Das Duale Studium Modell und Vorteile",
+        "folder": "das-duale-studium-modell-und-vorteile"
+      },
+      {
+        "id": "berufe-im-wandel-der-digitalisierung",
+        "title": "Berufe im Wandel der Digitalisierung",
+        "folder": "berufe-im-wandel-der-digitalisierung"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Berufsorientierung%2C%20St%C3%A4rkenanalyse%20%26%20Bildungswege+wirtschaft&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=berufsorientierung+berufswahl&t=3752"
   },
-  "die-erfolgreiche-bewerbung-und-vorstellungsgespraech": {
-    "slug": "die-erfolgreiche-bewerbung-und-vorstellungsgespraech",
-    "title": "Die Bewerbung, Vorstellungsgespräch & Assessment Center",
+  "praktikum-fsj-und-karriereplanung": {
+    "slug": "praktikum-fsj-und-karriereplanung",
+    "title": "Praktikum, FSJ & Beruflicher Aufstieg",
     "category": "Arbeitswelt & Berufsstart",
-    "shortDesc": "Anschreiben, Lebenslauf, Online-Bewerbung, typische Fragen im Interview, Assessment Center und Dresscode.",
-    "longDesc": "Mit einer fehlerfreien Bewerbungsmappe und überzeugender Vorbereitung auf Vorstellungsgespräch und Tests gelingt der erfolgreiche Einstieg ins Berufsleben.",
+    "shortDesc": "Praktikumssuche, Praktikumsbericht, Freiwilligendienste (FSJ/BFD), Weiterbildung und Existenzgründung.",
+    "longDesc": "Praktische Erfahrungen schärfen das berufliche Profil. Ob Schülerpraktikum, Freiwilliges Soziales Jahr oder spätere berufliche Weiterbildung – Praxisphasen erleichtern die Orientierung.",
     "keyPoints": [
-      "Bewerbungsunterlagen: Anschreiben mit Motivation, tabellarischer Lebenslauf, Zeugnisanhänge, optional 'Dritte Seite'",
-      "Bewerbungsformen: Online-Portale, E-Mail-Bewerbung, Initiativbewerbung",
-      "Vorstellungsgespräch: Selbstpräsentation, Antworten auf Stärken/Schwächen, eigene Fragen an den Arbeitgeber stellen",
-      "Unzulässige Fragen: Recht zur Lüge bei Fragen zu Schwangerschaft, Gesundheit, Religion, Parteizugehörigkeit",
-      "Assessment Center (AC): Auswahltests, Postkorbübung, Gruppendiskussionen, Mathematik- und Logiktests"
+      "Praktikum: Einblick in den Arbeitsalltag, rechtliche Rahmenbedingungen und Dokumentation im Praktikumsbericht",
+      "Freiwilligendienste: FSJ und BFD als Orientierungsjahr zur Persönlichkeitsentwicklung",
+      "Lebenslanges Lernen: Anpassungsfortbildung, Meister, Fachwirt und berufliche Spezialisierung",
+      "Selbstständigkeit: Gründungsidee, Businessplan und unternehmerisches Handeln"
     ],
     "exercises": [
       {
-        "id": "allgemeinwissenstests-in-der-bewerbung",
-        "title": "Allgemeinwissenstests in der Bewerbung",
-        "folder": "allgemeinwissenstests-in-der-bewerbung"
+        "id": "die-suche-nach-dem-passenden-praktikumsplatz",
+        "title": "Die Suche nach dem passenden Praktikumsplatz",
+        "folder": "die-suche-nach-dem-passenden-praktikumsplatz"
       },
       {
-        "id": "auswahlverfahren-assessment-center",
-        "title": "Auswahlverfahren Assessment Center",
-        "folder": "auswahlverfahren-assessment-center"
+        "id": "rechte-und-pflichten-im-praktikum",
+        "title": "Rechte und Pflichten im Praktikum",
+        "folder": "rechte-und-pflichten-im-praktikum"
       },
       {
-        "id": "bewerbungsportale-von-unternehmen-nutzen",
-        "title": "Bewerbungsportale von Unternehmen nutzen",
-        "folder": "bewerbungsportale-von-unternehmen-nutzen"
+        "id": "der-praktikumsbericht-aufbau-und-inhalt",
+        "title": "Der Praktikumsbericht Aufbau und Inhalt",
+        "folder": "der-praktikumsbericht-aufbau-und-inhalt"
       },
+      {
+        "id": "freiwilliges-soziales-jahr-als-alternative",
+        "title": "Freiwilliges Soziales Jahr als Alternative",
+        "folder": "freiwilliges-soziales-jahr-als-alternative"
+      },
+      {
+        "id": "karriereplanung-und-aufstiegschancen",
+        "title": "Karriereplanung und Aufstiegschancen",
+        "folder": "karriereplanung-und-aufstiegschancen"
+      },
+      {
+        "id": "fortbildung-und-lebenslanges-lernen",
+        "title": "Fortbildung und lebenslanges Lernen",
+        "folder": "fortbildung-und-lebenslanges-lernen"
+      },
+      {
+        "id": "selbststaendigkeit-als-berufsweg",
+        "title": "Selbstständigkeit als Berufsweg",
+        "folder": "selbststaendigkeit-als-berufsweg"
+      },
+      {
+        "id": "fachkraeftemangel-und-zuwanderung",
+        "title": "Fachkräftemangel und Zuwanderung",
+        "folder": "fachkraeftemangel-und-zuwanderung"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=praktikum+karriereplanung&t=3752"
+  },
+  "die-erfolgreiche-bewerbung-und-vorstellungsgespraech": {
+    "slug": "die-erfolgreiche-bewerbung-und-vorstellungsgespraech",
+    "title": "Die Bewerbungsmappe: Anschreiben, Lebenslauf & Online-Bewerbung",
+    "category": "Arbeitswelt & Berufsstart",
+    "shortDesc": "DIN 5008 Anschreiben, tabellarischer Lebenslauf, Zeugnisreihenfolge, E-Mail-Bewerbung und Eignungstests.",
+    "longDesc": "Die schriftliche Bewerbung ist die Visitenkarte des Bewerbers. Ein strukturierter Lebenslauf, überzeugende Formulierungen im Anschreiben und korrekte Formalia entscheiden über die Einladung zum Interview.",
+    "keyPoints": [
+      "Anschreiben (DIN 5008): Absender, Empfänger, Betreffzeile, aussagekräftige Einleitung, Bezug zum Betrieb und Gehaltsvorstellung/Eintrittstermin",
+      "Tabellarischer Lebenslauf: Chronologisch rückwärts aufgebaut mit Stationen, Abschlüssen und Qualifikationen",
+      "Dritte Seite: Motivationsschreiben oder Kurzprofil für zusätzliche Pluspunkte",
+      "Bewerbungsportale & E-Mail: Zusammenfassung aller Unterlagen in einem einzigen PDF-Dokument (< 5 MB)",
+      "Einstellungstests: Logik-, Mathe- und Allgemeinwissenstests im Vorfeld"
+    ],
+    "exercises": [
       {
         "id": "das-anschreiben-struktur-und-formalia",
         "title": "Das Anschreiben Struktur und Formalia",
         "folder": "das-anschreiben-struktur-und-formalia"
       },
       {
-        "id": "das-assessment-center-aufgaben-und-ziele",
-        "title": "Das Assessment Center Aufgaben und Ziele",
-        "folder": "das-assessment-center-aufgaben-und-ziele"
-      },
-      {
-        "id": "das-perfekte-bewerbungsfoto-tipps",
-        "title": "Das perfekte Bewerbungsfoto Tipps",
-        "folder": "das-perfekte-bewerbungsfoto-tipps"
-      },
-      {
-        "id": "das-telefoninterview-vorbereitung",
-        "title": "Das Telefoninterview Vorbereitung",
-        "folder": "das-telefoninterview-vorbereitung"
+        "id": "ueberzeugende-einleitungssaetze-formulieren",
+        "title": "Überzeugende Einleitungssätze formulieren",
+        "folder": "ueberzeugende-einleitungssaetze-formulieren"
       },
       {
         "id": "der-tabellarische-lebenslauf-aufbau",
@@ -1883,14 +2079,19 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "folder": "der-tabellarische-lebenslauf-aufbau"
       },
       {
+        "id": "das-perfekte-bewerbungsfoto-tipps",
+        "title": "Das perfekte Bewerbungsfoto Tipps",
+        "folder": "das-perfekte-bewerbungsfoto-tipps"
+      },
+      {
         "id": "die-dritte-seite-der-bewerbung-nutzen",
         "title": "Die dritte Seite der Bewerbung Nutzen",
         "folder": "die-dritte-seite-der-bewerbung-nutzen"
       },
       {
-        "id": "die-initiativbewerbung-chancen-nutzen",
-        "title": "Die Initiativbewerbung Chancen nutzen",
-        "folder": "die-initiativbewerbung-chancen-nutzen"
+        "id": "zeugnisse-und-zertifikate-richtig-ordnen",
+        "title": "Zeugnisse und Zertifikate richtig ordnen",
+        "folder": "zeugnisse-und-zertifikate-richtig-ordnen"
       },
       {
         "id": "die-online-bewerbung-per-e-mail",
@@ -1898,19 +2099,14 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "folder": "die-online-bewerbung-per-e-mail"
       },
       {
-        "id": "die-postkorbuebung-im-auswahlprozess",
-        "title": "Die Postkorbübung im Auswahlprozess",
-        "folder": "die-postkorbuebung-im-auswahlprozess"
+        "id": "bewerbungsportale-von-unternehmen-nutzen",
+        "title": "Bewerbungsportale von Unternehmen nutzen",
+        "folder": "bewerbungsportale-von-unternehmen-nutzen"
       },
       {
-        "id": "eigene-fragen-an-den-arbeitgeber-stellen",
-        "title": "Eigene Fragen an den Arbeitgeber stellen",
-        "folder": "eigene-fragen-an-den-arbeitgeber-stellen"
-      },
-      {
-        "id": "einstellungstests-mathematik-und-logik",
-        "title": "Einstellungstests Mathematik und Logik",
-        "folder": "einstellungstests-mathematik-und-logik"
+        "id": "die-initiativbewerbung-chancen-nutzen",
+        "title": "Die Initiativbewerbung Chancen nutzen",
+        "folder": "die-initiativbewerbung-chancen-nutzen"
       },
       {
         "id": "fristen-und-termine-bei-der-bewerbung",
@@ -1918,9 +2114,36 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "folder": "fristen-und-termine-bei-der-bewerbung"
       },
       {
-        "id": "gruppendiskussionen-erfolgreich-meistern",
-        "title": "Gruppendiskussionen erfolgreich meistern",
-        "folder": "gruppendiskussionen-erfolgreich-meistern"
+        "id": "allgemeinwissenstests-in-der-bewerbung",
+        "title": "Allgemeinwissenstests in der Bewerbung",
+        "folder": "allgemeinwissenstests-in-der-bewerbung"
+      },
+      {
+        "id": "einstellungstests-mathematik-und-logik",
+        "title": "Einstellungstests Mathematik und Logik",
+        "folder": "einstellungstests-mathematik-und-logik"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=bewerbung+lebenslauf&t=3752"
+  },
+  "vorstellungsgespraech-und-assessment-center": {
+    "slug": "vorstellungsgespraech-und-assessment-center",
+    "title": "Vorstellungsgespräch & Assessment Center",
+    "category": "Arbeitswelt & Berufsstart",
+    "shortDesc": "Vorbereitung auf Vorstellungsgespräche, Telefoninterviews, Körpersprache, unzulässige Fragen, Postkorbübung und Gruppendiskussionen.",
+    "longDesc": "Im persönlichen Vorstellungsgespräch oder Assessment Center prüfen Arbeitgeber soziale Kompetenzen, Stressresistenz und Teamfähigkeit.",
+    "keyPoints": [
+      "Gesprächsvorbereitung: Unternehmensrecherche, Dresscode und Anreiseplanung",
+      "Körpersprache: Fester Händedruck, aufrechte Haltung, Blickkontakt und offene Gestik",
+      "Fragetypen: Klassische Fragen (Stärken/Schwächen) und unzulässige Fragen (Recht zur Lüge bei Schwangerschaft/Religion)",
+      "Assessment Center: Postkorbübungen zur Prioritätensetzung, Präsentationen und moderierte Gruppendiskussionen",
+      "Nachbereitung: Professionelles Dankschreiben per E-Mail nach dem Gespräch"
+    ],
+    "exercises": [
+      {
+        "id": "das-telefoninterview-vorbereitung",
+        "title": "Das Telefoninterview Vorbereitung",
+        "folder": "das-telefoninterview-vorbereitung"
       },
       {
         "id": "kleidung-und-dresscode-beim-interview",
@@ -1933,11 +2156,6 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "folder": "koerpersprache-und-mimik-bewusst-einsetzen"
       },
       {
-        "id": "nachbereitung-des-gespraechs-dankschreiben",
-        "title": "Nachbereitung des Gesprächs Dankschreiben",
-        "folder": "nachbereitung-des-gespraechs-dankschreiben"
-      },
-      {
         "id": "typische-fragen-im-vorstellungsgespraech",
         "title": "Typische Fragen im Vorstellungsgespräch",
         "folder": "typische-fragen-im-vorstellungsgespraech"
@@ -1948,17 +2166,37 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "folder": "unzulaessige-fragen-und-das-recht-zur-luege"
       },
       {
-        "id": "zeugnisse-und-zertifikate-richtig-ordnen",
-        "title": "Zeugnisse und Zertifikate richtig ordnen",
-        "folder": "zeugnisse-und-zertifikate-richtig-ordnen"
+        "id": "eigene-fragen-an-den-arbeitgeber-stellen",
+        "title": "Eigene Fragen an den Arbeitgeber stellen",
+        "folder": "eigene-fragen-an-den-arbeitgeber-stellen"
       },
       {
-        "id": "ueberzeugende-einleitungssaetze-formulieren",
-        "title": "Überzeugende Einleitungssätze formulieren",
-        "folder": "ueberzeugende-einleitungssaetze-formulieren"
+        "id": "nachbereitung-des-gespraechs-dankschreiben",
+        "title": "Nachbereitung des Gesprächs Dankschreiben",
+        "folder": "nachbereitung-des-gespraechs-dankschreiben"
+      },
+      {
+        "id": "auswahlverfahren-assessment-center",
+        "title": "Auswahlverfahren Assessment Center",
+        "folder": "auswahlverfahren-assessment-center"
+      },
+      {
+        "id": "das-assessment-center-aufgaben-und-ziele",
+        "title": "Das Assessment Center Aufgaben und Ziele",
+        "folder": "das-assessment-center-aufgaben-und-ziele"
+      },
+      {
+        "id": "die-postkorbuebung-im-auswahlprozess",
+        "title": "Die Postkorbübung im Auswahlprozess",
+        "folder": "die-postkorbuebung-im-auswahlprozess"
+      },
+      {
+        "id": "gruppendiskussionen-erfolgreich-meistern",
+        "title": "Gruppendiskussionen erfolgreich meistern",
+        "folder": "gruppendiskussionen-erfolgreich-meistern"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Die%20Bewerbung%2C%20Vorstellungsgespr%C3%A4ch%20%26%20Assessment%20Center+wirtschaft&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=vorstellungsgespräch+assessment+center&t=3752"
   },
   "der-ausbildungsvertrag-und-arbeitsalltag": {
     "slug": "der-ausbildungsvertrag-und-arbeitsalltag",
@@ -2036,52 +2274,5 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Der%20Ausbildungsvertrag%2C%20Rechte%2C%20Pflichten%20%26%20Arbeitsalltag+wirtschaft&t=3752"
-  }
-,
-  "migration-und-weltwirtschaft": {
-    "slug": "migration-und-weltwirtschaft",
-    "title": "Migration, Arbeitsmarkt & Globale Wirtschaft",
-    "category": "Weltwirtschaft & Globalisierung",
-    "shortDesc": "Push- und Pull-Faktoren, Fachkräfteeinwanderung, Remittances (Rücküberweisungen) und Braindrain.",
-    "longDesc": "Globale Wanderungsbewegungen haben enorme wirtschaftliche Auswirkungen sowohl auf Herkunfts- als auch auf Zielländer. Migration schließt Fachkräftelücken und fördert den internationalen Kapitaltransfer.",
-    "keyPoints": [
-      "Push- und Pull-Faktoren: Wirtschaftliche Not, Krieg, Klimafolgen (Push) vs. Wohlstand, Arbeitsplätze, Sicherheit (Pull)",
-      "Wirtschaftliche Effekte: Schließen von demografischen Lücken im Arbeitsmarkt, Beitragszahler in Sozialsysteme",
-      "Rücküberweisungen (Remittances): Migranten senden Milliardenbeträge an Familien in Herkunftsländern – oft mehr als offizielle Entwicklungshilfe",
-      "Braindrain vs. Braingain: Verlust qualifizierter Fachkräfte in Schwellenländern vs. Kompetenzgewinn durch weltweite Vernetzung"
-    ],
-    "exercises": [
-      {
-        "id": "5511",
-        "title": "Migration und ihre Auswirkungen auf die wirtschaftliche Entwicklung",
-        "folder": "migration-und-ihre-auswirkungen-auf-die-wirtschaftliche-entwicklung-5511"
-      },
-      {
-        "id": "5512",
-        "title": "Migrationstrends und ihre Auswirkungen auf Gesellschaften",
-        "folder": "migrationstrends-und-ihre-auswirkungen-auf-gesellschaften-5512"
-      }
-    ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=migration+wirtschaft&t=3752"
-  },
-  "globale-landwirtschaft-im-21-jahrhundert": {
-    "slug": "globale-landwirtschaft-im-21-jahrhundert",
-    "title": "Landwirtschaft & Globale Ernährungssicherheit",
-    "category": "Weltwirtschaft & Globalisierung",
-    "shortDesc": "Agrarökonomie, Welternährung, industrielle Landwirtschaft, Biodiversität und globale Lieferketten.",
-    "longDesc": "Die Landwirtschaft steht vor der gewaltigen Aufgabe, eine wachsende Weltbevölkerung nachhaltig zu ernähren und gleichzeitig Boden, Wasser und Klima zu schonen.",
-    "keyPoints": [
-      "Agrarsektor: Primärer Wirtschaftssektor, Basis für Nahrungsmittelsicherheit und Rohstoffversorgung",
-      "Herausforderungen: Bodendegradation, Wasserknappheit, Klimawandel und Preisschwankungen an den Agrarbörsen",
-      "Präzisionslandwirtschaft: Smart Farming, Drohnentechnologie und ressourcenschonende Bewässerung"
-    ],
-    "exercises": [
-      {
-        "id": "5510",
-        "title": "Landwirtschaft und ihre globalen Herausforderungen im 21. Jahrhundert",
-        "folder": "landwirtschaft-und-ihre-globalen-herausforderungen-im-21-jahrhundert-5510"
-      }
-    ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=landwirtschaft+wirtschaft&t=3752"
   }
 };
