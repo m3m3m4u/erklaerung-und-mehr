@@ -2,10 +2,9 @@ import type { Metadata } from 'next';
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { persoenlichkeitenTopics } from '@/lib/persoenlichkeiten-data';
+import { persoenlichkeitenTopics, persoenlichkeitenCategories } from '@/lib/persoenlichkeiten-data';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-
 
 export const metadata: Metadata = {
   title: 'Berühmte Persönlichkeiten – Themen, Erklärungen & interaktive Übungen',
@@ -57,7 +56,7 @@ export default function PersoenlichkeitenOverviewPage() {
               Menschen, die Geschichte schrieben: Von antiken Feldherren und Staatsmännern über geniale Entdecker, Wissenschaftler und IT-Pioniere bis hin zu unvergesslichen Künstlern, Schriftstellern, Philosophen, religiösen Führern und Sportlegenden.
             </p>
             <p className="math-page-note">
-              Mit biografischen Steckbriefen, Meilensteinen und über 800 interaktiven H5P-Übungen.
+              Mit biografischen Steckbriefen, Meilensteinen und über 800 interaktiven H5P-Übungen in 29 Epochen & Fachbereichen.
             </p>
           </div>
           <div className="math-mascot">
@@ -72,32 +71,48 @@ export default function PersoenlichkeitenOverviewPage() {
           </div>
         </section>
 
-        
+        {/* Categories & Topics Grid */}
+        {persoenlichkeitenCategories.map((categoryName) => {
+          const categoryTopics = allTopics.filter(
+            (t) => t.category === categoryName
+          );
+          if (categoryTopics.length === 0) return null;
 
-        {/* Direct Topics Grid */}
-        <div className="math-grid">
-            {allTopics.map((topic) => (
-              <Link
-                key={topic.slug}
-                href={`/wichtige-persoenlichkeiten-der-geschichte/${topic.slug}`}
-                className="math-card"
-              >
-                <div className="math-card-header">
-                  <h3 className="math-card-title">{topic.title}</h3>
-                  {topic.exercises.length > 0 && (
-                    <span className="math-badge">
-                      {topic.exercises.length}{' '}
-                      {topic.exercises.length === 1 ? 'Person' : 'Personen'}
-                    </span>
-                  )}
-                </div>
-                <p className="math-card-desc">{topic.shortDesc}</p>
-                <div className="math-card-footer">
-                  <span className="math-open-btn">Bereich öffnen ➔</span>
-                </div>
-              </Link>
-            ))}
-          </div>
+          return (
+            <section
+              key={categoryName}
+              id={categoryName}
+              className="math-category-section"
+              style={{ scrollMarginTop: 80 }}
+            >
+              <h2 className="math-category-title">{categoryName}</h2>
+              <div className="math-grid">
+                {categoryTopics.map((topic) => (
+                  <Link
+                    key={topic.slug}
+                    href={`/wichtige-persoenlichkeiten-der-geschichte/${topic.slug}`}
+                    className="math-card"
+                  >
+                    <div className="math-card-header">
+                      <h3 className="math-card-title">{topic.title}</h3>
+                      {topic.exercises.length > 0 && (
+                        <span className="math-badge">
+                          {topic.exercises.length}{' '}
+                          {topic.exercises.length === 1 ? 'Person' : 'Personen'}
+                        </span>
+                      )}
+                    </div>
+                    <p className="math-card-desc">{topic.shortDesc}</p>
+                    <div className="math-card-footer">
+                      <span className="math-open-btn">Bereich öffnen ➔</span>
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            </section>
+          );
+        })}
+
         {/* Eduki Material Box */}
         <section className="info-box-section" style={{ marginTop: '40px' }}>
           <h3>Biografien & Unterrichtsmaterialien</h3>

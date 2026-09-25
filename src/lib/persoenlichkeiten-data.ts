@@ -50,12 +50,12 @@ export const persoenlichkeitenCategories: string[] = [
 export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
   "antrophologen-und-soziologen": {
     "slug": "antrophologen-und-soziologen",
-    "title": "Antrophologen und Soziologen",
+    "title": "Antrophologen und Soziologen (Teil 1)",
     "category": "Antrophologen und Soziologen",
-    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Antrophologen und Soziologen: Arlie Russell Hochschild, C. Wright Mills, Claude Lévi-Strauss, Erving Goffman, Franz Boas u. v. m.",
-    "longDesc": "Hier findest du kurze Erklärungen, biografische Meilensteine und interaktive Übungen zu den wichtigsten Persönlichkeiten aus dem Bereich Antrophologen und Soziologen.",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Arlie Russell Hochschild, C. Wright Mills, Claude Lévi-Strauss, Erving Goffman, Franz Boas u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Antrophologen und Soziologen (Teil 1).",
     "keyPoints": [
-      "Umfasst 23 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Umfasst 8 herausragende Persönlichkeiten und historische Leitfiguren",
       "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
       "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
     ],
@@ -99,7 +99,22 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "id": "3932",
         "title": "Harold Garfinkel",
         "folder": "harold-garfinkel-3932"
-      },
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Antrophologen%20und%20Soziologen+biografie&t=3752"
+  },
+  "antrophologen-und-soziologen-teil-2": {
+    "slug": "antrophologen-und-soziologen-teil-2",
+    "title": "Antrophologen und Soziologen (Teil 2)",
+    "category": "Antrophologen und Soziologen",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Herbert Marcuse, Immanuel Wallerstein, Manuel Castells, Marcel Mauss, Margaret Mead u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Antrophologen und Soziologen (Teil 2).",
+    "keyPoints": [
+      "Umfasst 8 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
+      "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
+    ],
+    "exercises": [
       {
         "id": "3947",
         "title": "Herbert Marcuse",
@@ -139,7 +154,22 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "id": "4169",
         "title": "Pierre Bourdieu",
         "folder": "pierre-bourdieu-4169"
-      },
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Antrophologen%20und%20Soziologen+biografie&t=3752"
+  },
+  "antrophologen-und-soziologen-teil-3": {
+    "slug": "antrophologen-und-soziologen-teil-3",
+    "title": "Antrophologen und Soziologen (Teil 3)",
+    "category": "Antrophologen und Soziologen",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Robert K. Merton, Ruth Benedict, Talcott Parsons, Theodor W. Adorno, Ulrich Beck u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Antrophologen und Soziologen (Teil 3).",
+    "keyPoints": [
+      "Umfasst 7 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
+      "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
+    ],
+    "exercises": [
       {
         "id": "4214",
         "title": "Robert K. Merton",
@@ -180,12 +210,12 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
   },
   "architekten": {
     "slug": "architekten",
-    "title": "Architekten",
+    "title": "Architekten (Teil 1)",
     "category": "Architekten",
-    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Architekten: Alvar Aalto, Antoni Gaudí, Bjarke Ingels, Daniel Libeskind, David Chipperfield u. v. m.",
-    "longDesc": "Hier findest du kurze Erklärungen, biografische Meilensteine und interaktive Übungen zu den wichtigsten Persönlichkeiten aus dem Bereich Architekten.",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: I.M. Pei, Alvar Aalto, Antoni Gaudí, Bjarke Ingels, Daniel Libeskind u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Architekten (Teil 1).",
     "keyPoints": [
-      "Umfasst 26 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Umfasst 9 herausragende Persönlichkeiten und historische Leitfiguren",
       "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
       "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
     ],
@@ -234,7 +264,22 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "id": "4003",
         "title": "Jean Nouvel",
         "folder": "jean-nouvel-4003"
-      },
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Architekten+biografie&t=3752"
+  },
+  "architekten-teil-2": {
+    "slug": "architekten-teil-2",
+    "title": "Architekten (Teil 2)",
+    "category": "Architekten",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Norman Foster, Oscar Niemeyer, Peter Zumthor, Philip Johnson, Rafael Moneo u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Architekten (Teil 2).",
+    "keyPoints": [
+      "Umfasst 9 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
+      "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
+    ],
+    "exercises": [
       {
         "id": "4139",
         "title": "Norman Foster",
@@ -279,7 +324,22 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "id": "4217",
         "title": "Robert Venturi",
         "folder": "robert-venturi-4217"
-      },
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Architekten+biografie&t=3752"
+  },
+  "architekten-teil-3": {
+    "slug": "architekten-teil-3",
+    "title": "Architekten (Teil 3)",
+    "category": "Architekten",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Santiago Calatrava, Shigeru Ban, Sir Edwin Lutyens, Tadao Ando, Walter Gropius u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Architekten (Teil 3).",
+    "keyPoints": [
+      "Umfasst 9 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
+      "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
+    ],
+    "exercises": [
       {
         "id": "4239",
         "title": "Santiago Calatrava",
@@ -330,12 +390,12 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
   },
   "biologen": {
     "slug": "biologen",
-    "title": "Biologen",
+    "title": "Biologen (Teil 1)",
     "category": "Biologen",
-    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Biologen: Alfred Russel Wallace, August Weismann, Barbara McClintock, Charles Darwin, Craig Venter u. v. m.",
-    "longDesc": "Hier findest du kurze Erklärungen, biografische Meilensteine und interaktive Übungen zu den wichtigsten Persönlichkeiten aus dem Bereich Biologen.",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Alfred Russel Wallace, August Weismann, Barbara McClintock, Charles Darwin, Craig Venter u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Biologen (Teil 1).",
     "keyPoints": [
-      "Umfasst 26 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Umfasst 9 herausragende Persönlichkeiten und historische Leitfiguren",
       "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
       "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
     ],
@@ -384,7 +444,22 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "id": "3830",
         "title": "Ernst Mayr",
         "folder": "ernst-mayr-3830"
-      },
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Biologen+biografie&t=3752"
+  },
+  "biologen-teil-2": {
+    "slug": "biologen-teil-2",
+    "title": "Biologen (Teil 2)",
+    "category": "Biologen",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Francis Collins, Francis Crick, Georges Cuvier, Gregor Mendel, James Watson u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Biologen (Teil 2).",
+    "keyPoints": [
+      "Umfasst 9 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
+      "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
+    ],
+    "exercises": [
       {
         "id": "3849",
         "title": "Francis Collins",
@@ -429,7 +504,22 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "id": "4131",
         "title": "Niko Tinbergen",
         "folder": "niko-tinbergen-4131"
-      },
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Biologen+biografie&t=3752"
+  },
+  "biologen-teil-3": {
+    "slug": "biologen-teil-3",
+    "title": "Biologen (Teil 3)",
+    "category": "Biologen",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Rachel Carson, Robert Brown, Svante Pääbo, Sydney Brenner, Theophrastus u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Biologen (Teil 3).",
+    "keyPoints": [
+      "Umfasst 8 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
+      "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
+    ],
+    "exercises": [
       {
         "id": "4180",
         "title": "Rachel Carson",
@@ -475,12 +565,12 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
   },
   "chemiker": {
     "slug": "chemiker",
-    "title": "Chemiker",
+    "title": "Chemiker (Teil 1)",
     "category": "Chemiker",
-    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Chemiker: Jacobus Henricus van 't Hoff, Ahmed Zewail, Alfred Nobel, Amedeo Avogadro, Antoine Lavoisier u. v. m.",
-    "longDesc": "Hier findest du kurze Erklärungen, biografische Meilensteine und interaktive Übungen zu den wichtigsten Persönlichkeiten aus dem Bereich Chemiker.",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Jacobus Henricus van 't Hoff, Ahmed Zewail, Alfred Nobel, Amedeo Avogadro, Antoine Lavoisier u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Chemiker (Teil 1).",
     "keyPoints": [
-      "Umfasst 30 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Umfasst 10 herausragende Persönlichkeiten und historische Leitfiguren",
       "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
       "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
     ],
@@ -534,7 +624,22 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "id": "3868",
         "title": "Fritz Haber",
         "folder": "fritz-haber-3868"
-      },
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Chemiker+biografie&t=3752"
+  },
+  "chemiker-teil-2": {
+    "slug": "chemiker-teil-2",
+    "title": "Chemiker (Teil 2)",
+    "category": "Chemiker",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: George Olah, Gilbert N. Lewis, Glenn T. Seaborg, Gustav Kirchhoff, Humphry Davy u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Chemiker (Teil 2).",
+    "keyPoints": [
+      "Umfasst 10 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
+      "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
+    ],
+    "exercises": [
       {
         "id": "3883",
         "title": "George Olah",
@@ -584,7 +689,22 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "id": "4076",
         "title": "Marie Curie",
         "folder": "marie-curie-4076"
-      },
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Chemiker+biografie&t=3752"
+  },
+  "chemiker-teil-3": {
+    "slug": "chemiker-teil-3",
+    "title": "Chemiker (Teil 3)",
+    "category": "Chemiker",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Otto Hahn, Robert Bunsen, Robert Burns Woodward, Robert Grubbs, Svante Arrhenius u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Chemiker (Teil 3).",
+    "keyPoints": [
+      "Umfasst 10 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
+      "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
+    ],
+    "exercises": [
       {
         "id": "4151",
         "title": "Otto Hahn",
@@ -640,12 +760,12 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
   },
   "computerwissenschaftler": {
     "slug": "computerwissenschaftler",
-    "title": "Computerwissenschaftler",
+    "title": "Computerwissenschaftler (Teil 1)",
     "category": "Computerwissenschaftler",
-    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Computerwissenschaftler: Steve Wozniak, Ada Lovelace, Alan Turing, Andrew Ng, Barbara Liskov u. v. m.",
-    "longDesc": "Hier findest du kurze Erklärungen, biografische Meilensteine und interaktive Übungen zu den wichtigsten Persönlichkeiten aus dem Bereich Computerwissenschaftler.",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Steve Wozniak, Ada Lovelace, Alan Turing, Andrew Ng, Barbara Liskov u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Computerwissenschaftler (Teil 1).",
     "keyPoints": [
-      "Umfasst 29 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Umfasst 10 herausragende Persönlichkeiten und historische Leitfiguren",
       "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
       "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
     ],
@@ -699,7 +819,22 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "id": "3790",
         "title": "Donald Knuth",
         "folder": "donald-knuth-3790"
-      },
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Computerwissenschaftler+biografie&t=3752"
+  },
+  "computerwissenschaftler-teil-2": {
+    "slug": "computerwissenschaftler-teil-2",
+    "title": "Computerwissenschaftler (Teil 2)",
+    "category": "Computerwissenschaftler",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Edsger Dijkstra, Frances E. Allen, Grace Hopper, Guido van Rossum, James Gosling u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Computerwissenschaftler (Teil 2).",
+    "keyPoints": [
+      "Umfasst 10 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
+      "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
+    ],
+    "exercises": [
       {
         "id": "3800",
         "title": "Edsger Dijkstra",
@@ -749,7 +884,22 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "id": "4200",
         "title": "Richard Stallman",
         "folder": "richard-stallman-4200"
-      },
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Computerwissenschaftler+biografie&t=3752"
+  },
+  "computerwissenschaftler-teil-3": {
+    "slug": "computerwissenschaftler-teil-3",
+    "title": "Computerwissenschaftler (Teil 3)",
+    "category": "Computerwissenschaftler",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Sergey Brin, Shafi Goldwasser, Tim Berners-Lee, Vint Cerf, Yoshua Bengio u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Computerwissenschaftler (Teil 3).",
+    "keyPoints": [
+      "Umfasst 9 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
+      "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
+    ],
+    "exercises": [
       {
         "id": "4246",
         "title": "Sergey Brin",
@@ -800,12 +950,12 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
   },
   "deutsche-schriftsteller": {
     "slug": "deutsche-schriftsteller",
-    "title": "Deutsche Schriftsteller",
+    "title": "Deutsche Schriftsteller (Teil 1)",
     "category": "Deutsche Schriftsteller",
-    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Deutsche Schriftsteller: Adelbert von Chamisso, Bertolt Brecht, Christoph Martin Wieland, E.T.A. Hoffmann, Erich Kästner u. v. m.",
-    "longDesc": "Hier findest du kurze Erklärungen, biografische Meilensteine und interaktive Übungen zu den wichtigsten Persönlichkeiten aus dem Bereich Deutsche Schriftsteller.",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Adelbert von Chamisso, Bertolt Brecht, Christoph Martin Wieland, E.T.A. Hoffmann, Erich Kästner u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Deutsche Schriftsteller (Teil 1).",
     "keyPoints": [
-      "Umfasst 24 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Umfasst 8 herausragende Persönlichkeiten und historische Leitfiguren",
       "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
       "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
     ],
@@ -849,7 +999,22 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "id": "3858",
         "title": "Franz Werfel",
         "folder": "franz-werfel-3858"
-      },
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Deutsche%20Schriftsteller+biografie&t=3752"
+  },
+  "deutsche-schriftsteller-teil-2": {
+    "slug": "deutsche-schriftsteller-teil-2",
+    "title": "Deutsche Schriftsteller (Teil 2)",
+    "category": "Deutsche Schriftsteller",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Friedrich Dürrenmatt, Friedrich Hölderlin, Friedrich Schiller, Gerhart Hauptmann, Gotthold Ephraim Lessing u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Deutsche Schriftsteller (Teil 2).",
+    "keyPoints": [
+      "Umfasst 8 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
+      "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
+    ],
+    "exercises": [
       {
         "id": "3863",
         "title": "Friedrich Dürrenmatt",
@@ -889,7 +1054,22 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "id": "3937",
         "title": "Heinrich Heine",
         "folder": "heinrich-heine-3937"
-      },
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Deutsche%20Schriftsteller+biografie&t=3752"
+  },
+  "deutsche-schriftsteller-teil-3": {
+    "slug": "deutsche-schriftsteller-teil-3",
+    "title": "Deutsche Schriftsteller (Teil 3)",
+    "category": "Deutsche Schriftsteller",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Heinrich von Kleist, Johann Gottfried Herder, Martin Walser, Max Frisch, Theodor Fontane u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Deutsche Schriftsteller (Teil 3).",
+    "keyPoints": [
+      "Umfasst 8 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
+      "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
+    ],
+    "exercises": [
       {
         "id": "3939",
         "title": "Heinrich von Kleist",
@@ -935,12 +1115,12 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
   },
   "englischsprachige-schriftsteller": {
     "slug": "englischsprachige-schriftsteller",
-    "title": "Englischsprachige Schriftsteller",
+    "title": "Englischsprachige Schriftsteller (Teil 1)",
     "category": "Englischsprachige Schriftsteller",
-    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Englischsprachige Schriftsteller: Arthur Conan Doyle, Charles Dickens, D.H. Lawrence, E.M. Forster, Emily Brontë u. v. m.",
-    "longDesc": "Hier findest du kurze Erklärungen, biografische Meilensteine und interaktive Übungen zu den wichtigsten Persönlichkeiten aus dem Bereich Englischsprachige Schriftsteller.",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Arthur Conan Doyle, Charles Dickens, D.H. Lawrence, E.M. Forster, Emily Brontë u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Englischsprachige Schriftsteller (Teil 1).",
     "keyPoints": [
-      "Umfasst 28 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Umfasst 10 herausragende Persönlichkeiten und historische Leitfiguren",
       "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
       "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
     ],
@@ -994,7 +1174,22 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "id": "3913",
         "title": "Graham Greene",
         "folder": "graham-greene-3913"
-      },
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Englischsprachige%20Schriftsteller+biografie&t=3752"
+  },
+  "englischsprachige-schriftsteller-teil-2": {
+    "slug": "englischsprachige-schriftsteller-teil-2",
+    "title": "Englischsprachige Schriftsteller (Teil 2)",
+    "category": "Englischsprachige Schriftsteller",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: H.G. Wells, Ian Fleming, J.K. Rowling, J.R.R. Tolkien, Jane Austen u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Englischsprachige Schriftsteller (Teil 2).",
+    "keyPoints": [
+      "Umfasst 9 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
+      "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
+    ],
+    "exercises": [
       {
         "id": "3928",
         "title": "H.G. Wells",
@@ -1039,7 +1234,22 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "id": "4153",
         "title": "P.G. Wodehouse",
         "folder": "p-g-wodehouse-4153"
-      },
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Englischsprachige%20Schriftsteller+biografie&t=3752"
+  },
+  "englischsprachige-schriftsteller-teil-3": {
+    "slug": "englischsprachige-schriftsteller-teil-3",
+    "title": "Englischsprachige Schriftsteller (Teil 3)",
+    "category": "Englischsprachige Schriftsteller",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Rudyard Kipling, Samuel Johnson, Shakespeare, T.S. Eliot, Thomas Hardy u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Englischsprachige Schriftsteller (Teil 3).",
+    "keyPoints": [
+      "Umfasst 9 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
+      "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
+    ],
+    "exercises": [
       {
         "id": "4226",
         "title": "Rudyard Kipling",
@@ -1090,12 +1300,12 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
   },
   "entdecker": {
     "slug": "entdecker",
-    "title": "Entdecker",
+    "title": "Entdecker (Teil 1)",
     "category": "Entdecker",
-    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Entdecker: Jean-François de La Pérouse, Alexander von Humboldt, Amerigo Vespucci, Benito Juárez, Bernhard Grzimek u. v. m.",
-    "longDesc": "Hier findest du kurze Erklärungen, biografische Meilensteine und interaktive Übungen zu den wichtigsten Persönlichkeiten aus dem Bereich Entdecker.",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Jean-François de La Pérouse, Alexander von Humboldt, Amerigo Vespucci, Benito Juárez, Bernhard Grzimek u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Entdecker (Teil 1).",
     "keyPoints": [
-      "Umfasst 29 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Umfasst 10 herausragende Persönlichkeiten und historische Leitfiguren",
       "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
       "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
     ],
@@ -1149,7 +1359,22 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "id": "3901",
         "title": "Giovanni da Verrazzano",
         "folder": "giovanni-da-verrazzano-3901"
-      },
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Entdecker+biografie&t=3752"
+  },
+  "entdecker-teil-2": {
+    "slug": "entdecker-teil-2",
+    "title": "Entdecker (Teil 2)",
+    "category": "Entdecker",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Henry Hudson, Hernán Cortés, Ibn Battuta, Jacques Cartier, James Cook u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Entdecker (Teil 2).",
+    "keyPoints": [
+      "Umfasst 10 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
+      "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
+    ],
+    "exercises": [
       {
         "id": "3946",
         "title": "Henry Hudson",
@@ -1199,7 +1424,22 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "id": "4070",
         "title": "Marco Polo",
         "folder": "marco-polo-4070"
-      },
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Entdecker+biografie&t=3752"
+  },
+  "entdecker-teil-3": {
+    "slug": "entdecker-teil-3",
+    "title": "Entdecker (Teil 3)",
+    "category": "Entdecker",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Ptolemy, Roald Amundsen, Robert Falcon Scott, Robert Peary, Sir Ernest Shackleton u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Entdecker (Teil 3).",
+    "keyPoints": [
+      "Umfasst 9 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
+      "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
+    ],
+    "exercises": [
       {
         "id": "4176",
         "title": "Ptolemy",
@@ -1250,12 +1490,12 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
   },
   "feldherren": {
     "slug": "feldherren",
-    "title": "Feldherren",
+    "title": "Feldherren (Teil 1)",
     "category": "Feldherren",
-    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Feldherren: Arthur Wellesley, 1st Duke of Wellington, Attila the Hun, Belisarius, Dwight D. Eisenhower, Erwin Rommel u. v. m.",
-    "longDesc": "Hier findest du kurze Erklärungen, biografische Meilensteine und interaktive Übungen zu den wichtigsten Persönlichkeiten aus dem Bereich Feldherren.",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Arthur Wellesley, 1st Duke of Wellington, Attila the Hun, Belisarius, Dwight D. Eisenhower, Erwin Rommel u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Feldherren (Teil 1).",
     "keyPoints": [
-      "Umfasst 28 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Umfasst 10 herausragende Persönlichkeiten und historische Leitfiguren",
       "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
       "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
     ],
@@ -1309,7 +1549,22 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "id": "3893",
         "title": "Georgy Zhukov",
         "folder": "georgy-zhukov-3893"
-      },
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Feldherren+biografie&t=3752"
+  },
+  "feldherren-teil-2": {
+    "slug": "feldherren-teil-2",
+    "title": "Feldherren (Teil 2)",
+    "category": "Feldherren",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Gustavus Adolphus, Hannibal, Heinz Guderian, Horatio Nelson, Napoleon Bonaparte u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Feldherren (Teil 2).",
+    "keyPoints": [
+      "Umfasst 9 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
+      "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
+    ],
+    "exercises": [
       {
         "id": "3926",
         "title": "Gustavus Adolphus",
@@ -1354,7 +1609,22 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "id": "4231",
         "title": "Saladin",
         "folder": "saladin-4231"
-      },
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Feldherren+biografie&t=3752"
+  },
+  "feldherren-teil-3": {
+    "slug": "feldherren-teil-3",
+    "title": "Feldherren (Teil 3)",
+    "category": "Feldherren",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Scipio Africanus, Subutai, Sun Tzu, Themistocles, Timur u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Feldherren (Teil 3).",
+    "keyPoints": [
+      "Umfasst 9 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
+      "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
+    ],
+    "exercises": [
       {
         "id": "4243",
         "title": "Scipio Africanus",
@@ -1405,12 +1675,12 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
   },
   "franzoesische-schriftsteller": {
     "slug": "franzoesische-schriftsteller",
-    "title": "Französische Schriftsteller",
+    "title": "Französische Schriftsteller (Teil 1)",
     "category": "Französische Schriftsteller",
-    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Französische Schriftsteller: Alain-Fournier, Albert Camus, Alexandre Dumas fils, Alexandre Dumas, André Gide u. v. m.",
-    "longDesc": "Hier findest du kurze Erklärungen, biografische Meilensteine und interaktive Übungen zu den wichtigsten Persönlichkeiten aus dem Bereich Französische Schriftsteller.",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Alain-Fournier, Albert Camus, Alexandre Dumas fils, Alexandre Dumas, André Gide u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Französische Schriftsteller (Teil 1).",
     "keyPoints": [
-      "Umfasst 27 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Umfasst 9 herausragende Persönlichkeiten und historische Leitfiguren",
       "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
       "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
     ],
@@ -1459,7 +1729,22 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "id": "3761",
         "title": "Colette",
         "folder": "colette-3761"
-      },
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Franz%C3%B6sische%20Schriftsteller+biografie&t=3752"
+  },
+  "franzoesische-schriftsteller-teil-2": {
+    "slug": "franzoesische-schriftsteller-teil-2",
+    "title": "Französische Schriftsteller (Teil 2)",
+    "category": "Französische Schriftsteller",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Émile Zola, François Mauriac, Georges Bernanos, Georges Simenon, Gustave Flaubert u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Französische Schriftsteller (Teil 2).",
+    "keyPoints": [
+      "Umfasst 9 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
+      "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
+    ],
+    "exercises": [
       {
         "id": "3818",
         "title": "Émile Zola",
@@ -1504,7 +1789,22 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "id": "4069",
         "title": "Marcel Proust",
         "folder": "marcel-proust-2-4069"
-      },
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Franz%C3%B6sische%20Schriftsteller+biografie&t=3752"
+  },
+  "franzoesische-schriftsteller-teil-3": {
+    "slug": "franzoesische-schriftsteller-teil-3",
+    "title": "Französische Schriftsteller (Teil 3)",
+    "category": "Französische Schriftsteller",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Marguerite Duras, Michel Houellebecq, Molière, Patrick Modiano, Stendhal u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Französische Schriftsteller (Teil 3).",
+    "keyPoints": [
+      "Umfasst 9 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
+      "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
+    ],
+    "exercises": [
       {
         "id": "4075",
         "title": "Marguerite Duras",
@@ -1555,12 +1855,12 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
   },
   "frauenrechtler": {
     "slug": "frauenrechtler",
-    "title": "Frauenrechtler",
+    "title": "Frauenrechtler (Teil 1)",
     "category": "Frauenrechtler",
-    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Frauenrechtler: Alice Paul, Amelia Bloomer, Angela Davis, Anna Howard Shaw, Barbara Ehrenreich u. v. m.",
-    "longDesc": "Hier findest du kurze Erklärungen, biografische Meilensteine und interaktive Übungen zu den wichtigsten Persönlichkeiten aus dem Bereich Frauenrechtler.",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Alice Paul, Amelia Bloomer, Angela Davis, Anna Howard Shaw, Barbara Ehrenreich u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Frauenrechtler (Teil 1).",
     "keyPoints": [
-      "Umfasst 29 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Umfasst 10 herausragende Persönlichkeiten und historische Leitfiguren",
       "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
       "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
     ],
@@ -1614,7 +1914,22 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "id": "3755",
         "title": "Clara Zetkin",
         "folder": "clara-zetkin-3755"
-      },
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Frauenrechtler+biografie&t=3752"
+  },
+  "frauenrechtler-teil-2": {
+    "slug": "frauenrechtler-teil-2",
+    "title": "Frauenrechtler (Teil 2)",
+    "category": "Frauenrechtler",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Elizabeth Cady Stanton, Emmeline Pankhurst, Gloria Steinem, Harriet Tubman, Hildegard of Bingen u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Frauenrechtler (Teil 2).",
+    "keyPoints": [
+      "Umfasst 10 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
+      "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
+    ],
+    "exercises": [
       {
         "id": "3813",
         "title": "Elizabeth Cady Stanton",
@@ -1664,7 +1979,22 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "id": "4091",
         "title": "Matilda Joslyn Gage",
         "folder": "matilda-joslyn-gage-4091"
-      },
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Frauenrechtler+biografie&t=3752"
+  },
+  "frauenrechtler-teil-3": {
+    "slug": "frauenrechtler-teil-3",
+    "title": "Frauenrechtler (Teil 3)",
+    "category": "Frauenrechtler",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Maya Angelou, Naomi Wolf, Nellie Bly, Olympia de Gouges, Rebecca West u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Frauenrechtler (Teil 3).",
+    "keyPoints": [
+      "Umfasst 9 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
+      "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
+    ],
+    "exercises": [
       {
         "id": "4096",
         "title": "Maya Angelou",
@@ -1715,12 +2045,12 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
   },
   "historiker": {
     "slug": "historiker",
-    "title": "Historiker",
+    "title": "Historiker (Teil 1)",
     "category": "Historiker",
-    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Historiker: Antony Beevor, Arnold J. Toynbee, Barbara Tuchman, Christopher Hill, David McCullough u. v. m.",
-    "longDesc": "Hier findest du kurze Erklärungen, biografische Meilensteine und interaktive Übungen zu den wichtigsten Persönlichkeiten aus dem Bereich Historiker.",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Antony Beevor, Arnold J. Toynbee, Barbara Tuchman, Christopher Hill, David McCullough u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Historiker (Teil 1).",
     "keyPoints": [
-      "Umfasst 30 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Umfasst 10 herausragende Persönlichkeiten und historische Leitfiguren",
       "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
       "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
     ],
@@ -1774,7 +2104,22 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "id": "3844",
         "title": "Fernand Braudel",
         "folder": "fernand-braudel-3844"
-      },
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Historiker+biografie&t=3752"
+  },
+  "historiker-teil-2": {
+    "slug": "historiker-teil-2",
+    "title": "Historiker (Teil 2)",
+    "category": "Historiker",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Herodotus, Ian Kershaw, Jacob Burckhardt, John Keegan, Marc Bloch u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Historiker (Teil 2).",
+    "keyPoints": [
+      "Umfasst 10 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
+      "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
+    ],
+    "exercises": [
       {
         "id": "3950",
         "title": "Herodotus",
@@ -1824,7 +2169,22 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "id": "4144",
         "title": "Orlando Figes",
         "folder": "orlando-figes-4144"
-      },
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Historiker+biografie&t=3752"
+  },
+  "historiker-teil-3": {
+    "slug": "historiker-teil-3",
+    "title": "Historiker (Teil 3)",
+    "category": "Historiker",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Richard J. Evans, Robert Conquest, Simon Schama, Theodor Mommsen, Thucydides u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Historiker (Teil 3).",
+    "keyPoints": [
+      "Umfasst 10 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
+      "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
+    ],
+    "exercises": [
       {
         "id": "4198",
         "title": "Richard J. Evans",
@@ -1880,12 +2240,12 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
   },
   "ingenieure": {
     "slug": "ingenieure",
-    "title": "Ingenieure",
+    "title": "Ingenieure (Teil 1)",
     "category": "Ingenieure",
-    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Ingenieure: George Washington Carver, Alexander Graham Bell, Carl Bosch, Charles Babbage, Christiaan Barnard u. v. m.",
-    "longDesc": "Hier findest du kurze Erklärungen, biografische Meilensteine und interaktive Übungen zu den wichtigsten Persönlichkeiten aus dem Bereich Ingenieure.",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: George Washington Carver, Alexander Graham Bell, Carl Bosch, Charles Babbage, Christiaan Barnard u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Ingenieure (Teil 1).",
     "keyPoints": [
-      "Umfasst 28 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Umfasst 10 herausragende Persönlichkeiten und historische Leitfiguren",
       "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
       "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
     ],
@@ -1939,7 +2299,22 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "id": "3917",
         "title": "Guglielmo Marconi",
         "folder": "guglielmo-marconi-3917"
-      },
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Ingenieure+biografie&t=3752"
+  },
+  "ingenieure-teil-2": {
+    "slug": "ingenieure-teil-2",
+    "title": "Ingenieure (Teil 2)",
+    "category": "Ingenieure",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Gustave Eiffel, Hedy Lamarr, Isambard Kingdom Brunel, James Watt, Jan Czochralski u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Ingenieure (Teil 2).",
+    "keyPoints": [
+      "Umfasst 9 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
+      "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
+    ],
+    "exercises": [
       {
         "id": "3924",
         "title": "Gustave Eiffel",
@@ -1984,7 +2359,22 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "id": "4212",
         "title": "Robert Fulton",
         "folder": "robert-fulton-4212"
-      },
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Ingenieure+biografie&t=3752"
+  },
+  "ingenieure-teil-3": {
+    "slug": "ingenieure-teil-3",
+    "title": "Ingenieure (Teil 3)",
+    "category": "Ingenieure",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Robert Noyce, Rudolf Diesel, Sergei Korolev, Thomas Edison, Wernher von Braun u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Ingenieure (Teil 3).",
+    "keyPoints": [
+      "Umfasst 9 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
+      "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
+    ],
+    "exercises": [
       {
         "id": "4215",
         "title": "Robert Noyce",
@@ -2035,12 +2425,12 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
   },
   "italienische-schriftsteller": {
     "slug": "italienische-schriftsteller",
-    "title": "Italienische Schriftsteller",
+    "title": "Italienische Schriftsteller (Teil 1)",
     "category": "Italienische Schriftsteller",
-    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Italienische Schriftsteller: Giuseppe Tomasi di Lampedusa, Alberto Moravia, Alessandro Baricco, Alessandro Manzoni, Antonio Gramsci u. v. m.",
-    "longDesc": "Hier findest du kurze Erklärungen, biografische Meilensteine und interaktive Übungen zu den wichtigsten Persönlichkeiten aus dem Bereich Italienische Schriftsteller.",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Giuseppe Tomasi di Lampedusa, Alberto Moravia, Alessandro Baricco, Alessandro Manzoni, Antonio Gramsci u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Italienische Schriftsteller (Teil 1).",
     "keyPoints": [
-      "Umfasst 29 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Umfasst 10 herausragende Persönlichkeiten und historische Leitfiguren",
       "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
       "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
     ],
@@ -2094,7 +2484,22 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "id": "3784",
         "title": "Dino Buzzati",
         "folder": "dino-buzzati-3784"
-      },
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Italienische%20Schriftsteller+biografie&t=3752"
+  },
+  "italienische-schriftsteller-teil-2": {
+    "slug": "italienische-schriftsteller-teil-2",
+    "title": "Italienische Schriftsteller (Teil 2)",
+    "category": "Italienische Schriftsteller",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Elio Vittorini, Elsa Morante, Eugenio Montale, Francesco Petrarca, Gabriele D'Annunzio u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Italienische Schriftsteller (Teil 2).",
+    "keyPoints": [
+      "Umfasst 10 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
+      "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
+    ],
+    "exercises": [
       {
         "id": "3811",
         "title": "Elio Vittorini",
@@ -2144,7 +2549,22 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "id": "3904",
         "title": "Giuseppe Ungaretti",
         "folder": "giuseppe-ungaretti-3904"
-      },
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Italienische%20Schriftsteller+biografie&t=3752"
+  },
+  "italienische-schriftsteller-teil-3": {
+    "slug": "italienische-schriftsteller-teil-3",
+    "title": "Italienische Schriftsteller (Teil 3)",
+    "category": "Italienische Schriftsteller",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Ignazio Silone, Italo Calvino, Luigi Pirandello, Natalia Ginzburg, Niccolò Machiavelli u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Italienische Schriftsteller (Teil 3).",
+    "keyPoints": [
+      "Umfasst 9 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
+      "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
+    ],
+    "exercises": [
       {
         "id": "3965",
         "title": "Ignazio Silone",
@@ -2195,12 +2615,12 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
   },
   "journalisten": {
     "slug": "journalisten",
-    "title": "Journalisten",
+    "title": "Journalisten (Teil 1)",
     "category": "Journalisten",
-    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Journalisten: Anderson Cooper, Anna Politkovskaya, Barbara Walters, Bob Woodward, Carl Bernstein u. v. m.",
-    "longDesc": "Hier findest du kurze Erklärungen, biografische Meilensteine und interaktive Übungen zu den wichtigsten Persönlichkeiten aus dem Bereich Journalisten.",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Anderson Cooper, Anna Politkovskaya, Barbara Walters, Bob Woodward, Carl Bernstein u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Journalisten (Teil 1).",
     "keyPoints": [
-      "Umfasst 29 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Umfasst 10 herausragende Persönlichkeiten und historische Leitfiguren",
       "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
       "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
     ],
@@ -2254,7 +2674,22 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "id": "3905",
         "title": "Glenn Greenwald",
         "folder": "glenn-greenwald-3905"
-      },
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Journalisten+biografie&t=3752"
+  },
+  "journalisten-teil-2": {
+    "slug": "journalisten-teil-2",
+    "title": "Journalisten (Teil 2)",
+    "category": "Journalisten",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Günter Wallraff, Hunter S. Thompson, Ida B. Wells, John Pilger, Jon Stewart u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Journalisten (Teil 2).",
+    "keyPoints": [
+      "Umfasst 10 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
+      "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
+    ],
+    "exercises": [
       {
         "id": "3920",
         "title": "Günter Wallraff",
@@ -2304,7 +2739,22 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "id": "4161",
         "title": "Peter Jennings",
         "folder": "peter-jennings-4161"
-      },
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Journalisten+biografie&t=3752"
+  },
+  "journalisten-teil-3": {
+    "slug": "journalisten-teil-3",
+    "title": "Journalisten (Teil 3)",
+    "category": "Journalisten",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Rachel Maddow, Robert Capa, Ronan Farrow, Seymour Hersh, Truman Capote u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Journalisten (Teil 3).",
+    "keyPoints": [
+      "Umfasst 9 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
+      "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
+    ],
+    "exercises": [
       {
         "id": "4181",
         "title": "Rachel Maddow",
@@ -2355,12 +2805,12 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
   },
   "maler-und-bildhauer": {
     "slug": "maler-und-bildhauer",
-    "title": "Maler und Bildhauer",
+    "title": "Maler und Bildhauer (Teil 1)",
     "category": "Maler und Bildhauer",
-    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Maler und Bildhauer: Alberto Giacometti, Albrecht Dürer, Amedeo Modigliani, Auguste Rodin, Caspar David Friedrich u. v. m.",
-    "longDesc": "Hier findest du kurze Erklärungen, biografische Meilensteine und interaktive Übungen zu den wichtigsten Persönlichkeiten aus dem Bereich Maler und Bildhauer.",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Alberto Giacometti, Albrecht Dürer, Amedeo Modigliani, Auguste Rodin, Caspar David Friedrich u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Maler und Bildhauer (Teil 1).",
     "keyPoints": [
-      "Umfasst 27 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Umfasst 9 herausragende Persönlichkeiten und historische Leitfiguren",
       "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
       "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
     ],
@@ -2409,7 +2859,22 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "id": "3807",
         "title": "El Greco",
         "folder": "el-greco-3807"
-      },
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Maler%20und%20Bildhauer+biografie&t=3752"
+  },
+  "maler-und-bildhauer-teil-2": {
+    "slug": "maler-und-bildhauer-teil-2",
+    "title": "Maler und Bildhauer (Teil 2)",
+    "category": "Maler und Bildhauer",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Francisco Goya, Frida Kahlo, Georges Seurat, Giovanni Bellini, Gustav Klimt u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Maler und Bildhauer (Teil 2).",
+    "keyPoints": [
+      "Umfasst 9 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
+      "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
+    ],
+    "exercises": [
       {
         "id": "3851",
         "title": "Francisco Goya",
@@ -2454,7 +2919,22 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "id": "3998",
         "title": "Jan van Eyck",
         "folder": "jan-van-eyck-3998"
-      },
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Maler%20und%20Bildhauer+biografie&t=3752"
+  },
+  "maler-und-bildhauer-teil-3": {
+    "slug": "maler-und-bildhauer-teil-3",
+    "title": "Maler und Bildhauer (Teil 3)",
+    "category": "Maler und Bildhauer",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Jeff Koons, Michelangelo, Pablo Picasso, Peter Paul Rubens, Piet Mondrian u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Maler und Bildhauer (Teil 3).",
+    "keyPoints": [
+      "Umfasst 9 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
+      "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
+    ],
+    "exercises": [
       {
         "id": "4011",
         "title": "Jeff Koons",
@@ -2505,12 +2985,12 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
   },
   "mathematiker": {
     "slug": "mathematiker",
-    "title": "Mathematiker",
+    "title": "Mathematiker (Teil 1)",
     "category": "Mathematiker",
-    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Mathematiker: Alan Kay, Alexander Grothendieck, Al-Khwarizmi, Andrew Wiles, Andrey Kolmogorov u. v. m.",
-    "longDesc": "Hier findest du kurze Erklärungen, biografische Meilensteine und interaktive Übungen zu den wichtigsten Persönlichkeiten aus dem Bereich Mathematiker.",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Alan Kay, Alexander Grothendieck, Al-Khwarizmi, Andrew Wiles, Andrey Kolmogorov u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Mathematiker (Teil 1).",
     "keyPoints": [
-      "Umfasst 27 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Umfasst 9 herausragende Persönlichkeiten und historische Leitfiguren",
       "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
       "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
     ],
@@ -2559,7 +3039,22 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "id": "3703",
         "title": "Bernhard Riemann",
         "folder": "bernhard-riemann-3703"
-      },
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Mathematiker+biografie&t=3752"
+  },
+  "mathematiker-teil-2": {
+    "slug": "mathematiker-teil-2",
+    "title": "Mathematiker (Teil 2)",
+    "category": "Mathematiker",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: David Hilbert, Diophantus, Emmy Noether, Euclid, Évariste Galois u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Mathematiker (Teil 2).",
+    "keyPoints": [
+      "Umfasst 9 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
+      "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
+    ],
+    "exercises": [
       {
         "id": "3775",
         "title": "David Hilbert",
@@ -2604,7 +3099,22 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "id": "3915",
         "title": "Grigori Perelman",
         "folder": "grigori-perelman-3915"
-      },
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Mathematiker+biografie&t=3752"
+  },
+  "mathematiker-teil-3": {
+    "slug": "mathematiker-teil-3",
+    "title": "Mathematiker (Teil 3)",
+    "category": "Mathematiker",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Henri Poincaré, Leonardo da Vinci, Niels Henrik Abel, Pierre-Simon Laplace, Pythagoras u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Mathematiker (Teil 3).",
+    "keyPoints": [
+      "Umfasst 9 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
+      "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
+    ],
+    "exercises": [
       {
         "id": "3943",
         "title": "Henri Poincaré",
@@ -2655,12 +3165,12 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
   },
   "menschenrechtler": {
     "slug": "menschenrechtler",
-    "title": "Menschenrechtler",
+    "title": "Menschenrechtler (Teil 1)",
     "category": "Menschenrechtler",
-    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Menschenrechtler: Aletta Jacobs, Anwar Sadat, Aung San Suu Kyi, Benazir Bhutto, Billie Holiday u. v. m.",
-    "longDesc": "Hier findest du kurze Erklärungen, biografische Meilensteine und interaktive Übungen zu den wichtigsten Persönlichkeiten aus dem Bereich Menschenrechtler.",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Aletta Jacobs, Anwar Sadat, Aung San Suu Kyi, Benazir Bhutto, Billie Holiday u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Menschenrechtler (Teil 1).",
     "keyPoints": [
-      "Umfasst 28 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Umfasst 10 herausragende Persönlichkeiten und historische Leitfiguren",
       "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
       "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
     ],
@@ -2714,7 +3224,22 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "id": "3855",
         "title": "Frantz Fanon",
         "folder": "frantz-fanon-3855"
-      },
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Menschenrechtler+biografie&t=3752"
+  },
+  "menschenrechtler-teil-2": {
+    "slug": "menschenrechtler-teil-2",
+    "title": "Menschenrechtler (Teil 2)",
+    "category": "Menschenrechtler",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Harvey Milk, Helen Keller, John Humphrey, Malala Yousafzai, Malcolm X u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Menschenrechtler (Teil 2).",
+    "keyPoints": [
+      "Umfasst 9 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
+      "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
+    ],
+    "exercises": [
       {
         "id": "3934",
         "title": "Harvey Milk",
@@ -2759,7 +3284,22 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "id": "4224",
         "title": "Rosa Parks",
         "folder": "rosa-parks-4224"
-      },
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Menschenrechtler+biografie&t=3752"
+  },
+  "menschenrechtler-teil-3": {
+    "slug": "menschenrechtler-teil-3",
+    "title": "Menschenrechtler (Teil 3)",
+    "category": "Menschenrechtler",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Ruth Bader Ginsburg, Shirin Ebadi, Sojourner Truth, Susan B. Anthony, Václav Havel u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Menschenrechtler (Teil 3).",
+    "keyPoints": [
+      "Umfasst 9 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
+      "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
+    ],
+    "exercises": [
       {
         "id": "4229",
         "title": "Ruth Bader Ginsburg",
@@ -2810,12 +3350,12 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
   },
   "modedesigner": {
     "slug": "modedesigner",
-    "title": "Modedesigner",
+    "title": "Modedesigner (Teil 1)",
     "category": "Modedesigner",
-    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Modedesigner: Alexander McQueen, Calvin Klein, Christian Dior, Christian Louboutin, Coco Chanel u. v. m.",
-    "longDesc": "Hier findest du kurze Erklärungen, biografische Meilensteine und interaktive Übungen zu den wichtigsten Persönlichkeiten aus dem Bereich Modedesigner.",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Alexander McQueen, Calvin Klein, Christian Dior, Christian Louboutin, Coco Chanel u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Modedesigner (Teil 1).",
     "keyPoints": [
-      "Umfasst 29 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Umfasst 10 herausragende Persönlichkeiten und historische Leitfiguren",
       "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
       "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
     ],
@@ -2869,7 +3409,22 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "id": "3897",
         "title": "Giorgio Armani",
         "folder": "giorgio-armani-3897"
-      },
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Modedesigner+biografie&t=3752"
+  },
+  "modedesigner-teil-2": {
+    "slug": "modedesigner-teil-2",
+    "title": "Modedesigner (Teil 2)",
+    "category": "Modedesigner",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Gucci, Hubert de Givenchy, Jean Paul Gaultier, Jimmy Choo, Manolo Blahnik u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Modedesigner (Teil 2).",
+    "keyPoints": [
+      "Umfasst 10 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
+      "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
+    ],
+    "exercises": [
       {
         "id": "3916",
         "title": "Gucci",
@@ -2919,7 +3474,22 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "id": "4185",
         "title": "Ralph Lauren",
         "folder": "ralph-lauren-4185"
-      },
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Modedesigner+biografie&t=3752"
+  },
+  "modedesigner-teil-3": {
+    "slug": "modedesigner-teil-3",
+    "title": "Modedesigner (Teil 3)",
+    "category": "Modedesigner",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Stella McCartney, Tom Ford, Valentino Garavani, Vera Wang, Versace u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Modedesigner (Teil 3).",
+    "keyPoints": [
+      "Umfasst 9 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
+      "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
+    ],
+    "exercises": [
       {
         "id": "4269",
         "title": "Stella McCartney",
@@ -2970,12 +3540,12 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
   },
   "personen-aus-der-bibel": {
     "slug": "personen-aus-der-bibel",
-    "title": "Personen aus der Bibel",
+    "title": "Personen aus der Bibel (Teil 1)",
     "category": "Personen aus der Bibel",
-    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Personen aus der Bibel: Daniel (Figur aus der Bibel), Esther (Figur aus der Bibel), James (Figur aus der Bibel), Jeremiah (Figur aus der Bibel), Jesus Christ (Figur aus der Bibel) u. v. m.",
-    "longDesc": "Hier findest du kurze Erklärungen, biografische Meilensteine und interaktive Übungen zu den wichtigsten Persönlichkeiten aus dem Bereich Personen aus der Bibel.",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Daniel (Figur aus der Bibel), Esther (Figur aus der Bibel), James (Figur aus der Bibel), Jeremiah (Figur aus der Bibel), Jesus Christ (Figur aus der Bibel) u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Personen aus der Bibel (Teil 1).",
     "keyPoints": [
-      "Umfasst 30 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Umfasst 10 herausragende Persönlichkeiten und historische Leitfiguren",
       "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
       "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
     ],
@@ -3029,7 +3599,22 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "id": "4235",
         "title": "Samson (Figur aus der Bibel)",
         "folder": "samson-figur-aus-der-bibel-4235"
-      },
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Personen%20aus%20der%20Bibel+biografie&t=3752"
+  },
+  "personen-aus-der-bibel-teil-2": {
+    "slug": "personen-aus-der-bibel-teil-2",
+    "title": "Personen aus der Bibel (Teil 2)",
+    "category": "Personen aus der Bibel",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Samuel (Figur aus der Bibel), Solomon (Figur aus der Bibel), Aaron (Figur aus der Bibel), Abraham (Figur aus der Bibel), Adam (Figur aus der Bibel) u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Personen aus der Bibel (Teil 2).",
+    "keyPoints": [
+      "Umfasst 10 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
+      "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
+    ],
+    "exercises": [
       {
         "id": "4236",
         "title": "Samuel (Figur aus der Bibel)",
@@ -3079,7 +3664,22 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "id": "3970",
         "title": "Isaac (Figur aus der Bibel)",
         "folder": "isaac-figur-aus-der-bibel-3970"
-      },
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Personen%20aus%20der%20Bibel+biografie&t=3752"
+  },
+  "personen-aus-der-bibel-teil-3": {
+    "slug": "personen-aus-der-bibel-teil-3",
+    "title": "Personen aus der Bibel (Teil 3)",
+    "category": "Personen aus der Bibel",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Isaiah (Figur aus der Bibel), Jacob (Figur aus der Bibel), Job (Figur aus der Bibel), John (Figur aus der Bibel), Mary (Figur aus der Bibel) u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Personen aus der Bibel (Teil 3).",
+    "keyPoints": [
+      "Umfasst 10 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
+      "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
+    ],
+    "exercises": [
       {
         "id": "3972",
         "title": "Isaiah (Figur aus der Bibel)",
@@ -3135,12 +3735,12 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
   },
   "philosophen": {
     "slug": "philosophen",
-    "title": "Philosophen",
+    "title": "Philosophen (Teil 1)",
     "category": "Philosophen",
-    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Philosophen: Aristotle, Arthur Schopenhauer, Augustine of Hippo, Averroes, Baruch Spinoza u. v. m.",
-    "longDesc": "Hier findest du kurze Erklärungen, biografische Meilensteine und interaktive Übungen zu den wichtigsten Persönlichkeiten aus dem Bereich Philosophen.",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Aristotle, Arthur Schopenhauer, Augustine of Hippo, Averroes, Baruch Spinoza u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Philosophen (Teil 1).",
     "keyPoints": [
-      "Umfasst 27 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Umfasst 9 herausragende Persönlichkeiten und historische Leitfiguren",
       "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
       "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
     ],
@@ -3189,7 +3789,22 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "id": "3824",
         "title": "Epicurus",
         "folder": "epicurus-3824"
-      },
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Philosophen+biografie&t=3752"
+  },
+  "philosophen-teil-2": {
+    "slug": "philosophen-teil-2",
+    "title": "Philosophen (Teil 2)",
+    "category": "Philosophen",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Francis Bacon, Friedrich Nietzsche, G.W.F. Hegel, Immanuel Kant, John Locke u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Philosophen (Teil 2).",
+    "keyPoints": [
+      "Umfasst 9 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
+      "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
+    ],
+    "exercises": [
       {
         "id": "3848",
         "title": "Francis Bacon",
@@ -3234,7 +3849,22 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "id": "4126",
         "title": "Nicholas of Cusa",
         "folder": "nicholas-of-cusa-4126"
-      },
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Philosophen+biografie&t=3752"
+  },
+  "philosophen-teil-3": {
+    "slug": "philosophen-teil-3",
+    "title": "Philosophen (Teil 3)",
+    "category": "Philosophen",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Plato, Plotinus, Socrates, Søren Kierkegaard, Thales of Miletus u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Philosophen (Teil 3).",
+    "keyPoints": [
+      "Umfasst 9 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
+      "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
+    ],
+    "exercises": [
       {
         "id": "4173",
         "title": "Plato",
@@ -3285,12 +3915,12 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
   },
   "physiker": {
     "slug": "physiker",
-    "title": "Physiker",
+    "title": "Physiker (Teil 1)",
     "category": "Physiker",
-    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Physiker: Albert Einstein, Alessandro Volta, André-Marie Ampère, Benjamin Franklin, Christiaan Huygens u. v. m.",
-    "longDesc": "Hier findest du kurze Erklärungen, biografische Meilensteine und interaktive Übungen zu den wichtigsten Persönlichkeiten aus dem Bereich Physiker.",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Albert Einstein, Alessandro Volta, André-Marie Ampère, Benjamin Franklin, Christiaan Huygens u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Physiker (Teil 1).",
     "keyPoints": [
-      "Umfasst 29 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Umfasst 10 herausragende Persönlichkeiten und historische Leitfiguren",
       "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
       "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
     ],
@@ -3344,7 +3974,22 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "id": "3930",
         "title": "Hans Christian Ørsted",
         "folder": "hans-christian-rsted-3930"
-      },
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Physiker+biografie&t=3752"
+  },
+  "physiker-teil-2": {
+    "slug": "physiker-teil-2",
+    "title": "Physiker (Teil 2)",
+    "category": "Physiker",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Heinrich Hertz, Henry Cavendish, Isaac Newton, James Clerk Maxwell, Joseph-Louis Lagrange u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Physiker (Teil 2).",
+    "keyPoints": [
+      "Umfasst 10 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
+      "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
+    ],
+    "exercises": [
       {
         "id": "3938",
         "title": "Heinrich Hertz",
@@ -3394,7 +4039,22 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "id": "4140",
         "title": "Ole Rømer",
         "folder": "ole-roemer-4140"
-      },
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Physiker+biografie&t=3752"
+  },
+  "physiker-teil-3": {
+    "slug": "physiker-teil-3",
+    "title": "Physiker (Teil 3)",
+    "category": "Physiker",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Richard Feynman, Robert Boyle, Sheldon Glashow, Siméon Denis Poisson, Steven Weinberg u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Physiker (Teil 3).",
+    "keyPoints": [
+      "Umfasst 9 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
+      "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
+    ],
+    "exercises": [
       {
         "id": "4197",
         "title": "Richard Feynman",
@@ -3445,12 +4105,12 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
   },
   "politiker": {
     "slug": "politiker",
-    "title": "Politiker",
+    "title": "Politiker (Teil 1)",
     "category": "Politiker",
-    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Politiker: Abraham Lincoln, Adolf Hitler, Alexander the Great, Catherine the Great, Charlemagne u. v. m.",
-    "longDesc": "Hier findest du kurze Erklärungen, biografische Meilensteine und interaktive Übungen zu den wichtigsten Persönlichkeiten aus dem Bereich Politiker.",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Abraham Lincoln, Adolf Hitler, Alexander the Great, Catherine the Great, Charlemagne u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Politiker (Teil 1).",
     "keyPoints": [
-      "Umfasst 26 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Umfasst 9 herausragende Persönlichkeiten und historische Leitfiguren",
       "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
       "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
     ],
@@ -3499,7 +4159,22 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "id": "3762",
         "title": "Confucius",
         "folder": "confucius-3762"
-      },
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Politiker+biografie&t=3752"
+  },
+  "politiker-teil-2": {
+    "slug": "politiker-teil-2",
+    "title": "Politiker (Teil 2)",
+    "category": "Politiker",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Elizabeth I, George Washington, Joseph Stalin, Mahatma Gandhi, Mao Zedong u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Politiker (Teil 2).",
+    "keyPoints": [
+      "Umfasst 8 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
+      "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
+    ],
+    "exercises": [
       {
         "id": "3815",
         "title": "Elizabeth I",
@@ -3510,7 +4185,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "title": "George Washington",
         "folder": "george-washington-2-3888"
       },
-            {
+      {
         "id": "4045",
         "title": "Joseph Stalin",
         "folder": "joseph-stalin-4045"
@@ -3539,7 +4214,22 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "id": "4152",
         "title": "Otto von Bismarck",
         "folder": "otto-von-bismarck-2-4152"
-      },
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Politiker+biografie&t=3752"
+  },
+  "politiker-teil-3": {
+    "slug": "politiker-teil-3",
+    "title": "Politiker (Teil 3)",
+    "category": "Politiker",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Pericles, Peter the Great, Qin Shi Huang, Romulus, Victor Emmanuel II u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Politiker (Teil 3).",
+    "keyPoints": [
+      "Umfasst 8 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
+      "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
+    ],
+    "exercises": [
       {
         "id": "4159",
         "title": "Pericles",
@@ -3585,12 +4275,12 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
   },
   "psychologen": {
     "slug": "psychologen",
-    "title": "Psychologen",
+    "title": "Psychologen (Teil 1)",
     "category": "Psychologen",
-    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Psychologen: Abraham Maslow, Albert Bandura, Alfred Adler, Alfred Binet, B.F. Skinner u. v. m.",
-    "longDesc": "Hier findest du kurze Erklärungen, biografische Meilensteine und interaktive Übungen zu den wichtigsten Persönlichkeiten aus dem Bereich Psychologen.",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Abraham Maslow, Albert Bandura, Alfred Adler, Alfred Binet, B.F. Skinner u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Psychologen (Teil 1).",
     "keyPoints": [
-      "Umfasst 29 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Umfasst 10 herausragende Persönlichkeiten und historische Leitfiguren",
       "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
       "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
     ],
@@ -3644,7 +4334,22 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "id": "3828",
         "title": "Erik Erikson",
         "folder": "erik-erikson-3828"
-      },
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Psychologen+biografie&t=3752"
+  },
+  "psychologen-teil-2": {
+    "slug": "psychologen-teil-2",
+    "title": "Psychologen (Teil 2)",
+    "category": "Psychologen",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Gordon Allport, Hans Eysenck, Hermann Rorschach, Ivan Pavlov, Jean Piaget u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Psychologen (Teil 2).",
+    "keyPoints": [
+      "Umfasst 10 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
+      "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
+    ],
+    "exercises": [
       {
         "id": "3908",
         "title": "Gordon Allport",
@@ -3694,7 +4399,22 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "id": "4254",
         "title": "Sigmund Freud",
         "folder": "sigmund-freud-4254"
-      },
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Psychologen+biografie&t=3752"
+  },
+  "psychologen-teil-3": {
+    "slug": "psychologen-teil-3",
+    "title": "Psychologen (Teil 3)",
+    "category": "Psychologen",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Solomon Asch, Stanley Milgram, Theodore Simon, Wilhelm Wundt, William James u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Psychologen (Teil 3).",
+    "keyPoints": [
+      "Umfasst 9 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
+      "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
+    ],
+    "exercises": [
       {
         "id": "4263",
         "title": "Solomon Asch",
@@ -3745,12 +4465,12 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
   },
   "religioese-fuehrer": {
     "slug": "religioese-fuehrer",
-    "title": "Religiöse Führer",
+    "title": "Religiöse Führer (Teil 1)",
     "category": "Religiöse Führer",
-    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Religiöse Führer: Adi Shankara, Al-Ghazali, Baháʼu'lláh, Buddha, Dalai Lama u. v. m.",
-    "longDesc": "Hier findest du kurze Erklärungen, biografische Meilensteine und interaktive Übungen zu den wichtigsten Persönlichkeiten aus dem Bereich Religiöse Führer.",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Adi Shankara, Al-Ghazali, Baháʼu'lláh, Buddha, Dalai Lama u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Religiöse Führer (Teil 1).",
     "keyPoints": [
-      "Umfasst 27 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Umfasst 9 herausragende Persönlichkeiten und historische Leitfiguren",
       "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
       "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
     ],
@@ -3799,7 +4519,22 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "id": "4031",
         "title": "John Paul II",
         "folder": "john-paul-ii-4031"
-      },
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Religi%C3%B6se%20F%C3%BChrer+biografie&t=3752"
+  },
+  "religioese-fuehrer-teil-2": {
+    "slug": "religioese-fuehrer-teil-2",
+    "title": "Religiöse Führer (Teil 2)",
+    "category": "Religiöse Führer",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Maharishi Mahesh Yogi, Maimonides, Martin Luther, Mother Teresa, Muhammad u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Religiöse Führer (Teil 2).",
+    "keyPoints": [
+      "Umfasst 9 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
+      "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
+    ],
+    "exercises": [
       {
         "id": "4057",
         "title": "Maharishi Mahesh Yogi",
@@ -3844,7 +4579,22 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "id": "4227",
         "title": "Rumi",
         "folder": "rumi-4227"
-      },
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Religi%C3%B6se%20F%C3%BChrer+biografie&t=3752"
+  },
+  "religioese-fuehrer-teil-3": {
+    "slug": "religioese-fuehrer-teil-3",
+    "title": "Religiöse Führer (Teil 3)",
+    "category": "Religiöse Führer",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Sathya Sai Baba, Sri Aurobindo, Swami Vivekananda, Thich Nhat Hanh, Zoroaster u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Religiöse Führer (Teil 3).",
+    "keyPoints": [
+      "Umfasst 8 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
+      "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
+    ],
+    "exercises": [
       {
         "id": "4241",
         "title": "Sathya Sai Baba",
@@ -3870,7 +4620,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "title": "Zoroaster",
         "folder": "zoroaster-4354"
       },
-            {
+      {
         "id": "4359",
         "title": "Billy Graham",
         "folder": "billy-graham-4359"
@@ -3890,12 +4640,12 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
   },
   "russische-schriftsteller": {
     "slug": "russische-schriftsteller",
-    "title": "Russische Schriftsteller",
+    "title": "Russische Schriftsteller (Teil 1)",
     "category": "Russische Schriftsteller",
-    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Russische Schriftsteller: Aleksandr Blok, Aleksandr Grin, Aleksandr Kuprin, Aleksandr Pushkin, Aleksandr Solzhenitsyn u. v. m.",
-    "longDesc": "Hier findest du kurze Erklärungen, biografische Meilensteine und interaktive Übungen zu den wichtigsten Persönlichkeiten aus dem Bereich Russische Schriftsteller.",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Aleksandr Blok, Aleksandr Grin, Aleksandr Kuprin, Aleksandr Pushkin, Aleksandr Solzhenitsyn u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Russische Schriftsteller (Teil 1).",
     "keyPoints": [
-      "Umfasst 29 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Umfasst 10 herausragende Persönlichkeiten und historische Leitfiguren",
       "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
       "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
     ],
@@ -3949,7 +4699,22 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "id": "3771",
         "title": "Daniil Kharms",
         "folder": "daniil-kharms-3771"
-      },
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Russische%20Schriftsteller+biografie&t=3752"
+  },
+  "russische-schriftsteller-teil-2": {
+    "slug": "russische-schriftsteller-teil-2",
+    "title": "Russische Schriftsteller (Teil 2)",
+    "category": "Russische Schriftsteller",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Dmitri Merezhkovsky, Fyodor Dostoevsky, Fyodor Tyutchev, Ivan Bunin, Ivan Goncharov u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Russische Schriftsteller (Teil 2).",
+    "keyPoints": [
+      "Umfasst 10 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
+      "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
+    ],
+    "exercises": [
       {
         "id": "3787",
         "title": "Dmitri Merezhkovsky",
@@ -3999,7 +4764,22 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "id": "4109",
         "title": "Mikhail Lermontov",
         "folder": "mikhail-lermontov-4109"
-      },
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Russische%20Schriftsteller+biografie&t=3752"
+  },
+  "russische-schriftsteller-teil-3": {
+    "slug": "russische-schriftsteller-teil-3",
+    "title": "Russische Schriftsteller (Teil 3)",
+    "category": "Russische Schriftsteller",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Mikhail Sholokhov, Nikolai Gogol, Nikolai Leskov, Nikolai Nekrasov, Osip Mandelstam u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Russische Schriftsteller (Teil 3).",
+    "keyPoints": [
+      "Umfasst 9 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
+      "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
+    ],
+    "exercises": [
       {
         "id": "4110",
         "title": "Mikhail Sholokhov",
@@ -4050,12 +4830,12 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
   },
   "spanische-schriftsteller": {
     "slug": "spanische-schriftsteller",
-    "title": "Spanische Schriftsteller",
+    "title": "Spanische Schriftsteller (Teil 1)",
     "category": "Spanische Schriftsteller",
-    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Spanische Schriftsteller: Almudena Grandes, Antonio Gala, Antonio Machado, Arturo Pérez-Reverte, Benito Pérez Galdós u. v. m.",
-    "longDesc": "Hier findest du kurze Erklärungen, biografische Meilensteine und interaktive Übungen zu den wichtigsten Persönlichkeiten aus dem Bereich Spanische Schriftsteller.",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Almudena Grandes, Antonio Gala, Antonio Machado, Arturo Pérez-Reverte, Benito Pérez Galdós u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Spanische Schriftsteller (Teil 1).",
     "keyPoints": [
-      "Umfasst 29 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Umfasst 10 herausragende Persönlichkeiten und historische Leitfiguren",
       "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
       "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
     ],
@@ -4109,7 +4889,22 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "id": "3819",
         "title": "Emilia Pardo Bazán",
         "folder": "emilia-pardo-bazan-3819"
-      },
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Spanische%20Schriftsteller+biografie&t=3752"
+  },
+  "spanische-schriftsteller-teil-2": {
+    "slug": "spanische-schriftsteller-teil-2",
+    "title": "Spanische Schriftsteller (Teil 2)",
+    "category": "Spanische Schriftsteller",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Federico García Lorca, Gabriel García Márquez, Javier Marías, Jorge Luis Borges, José Hierro u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Spanische Schriftsteller (Teil 2).",
+    "keyPoints": [
+      "Umfasst 10 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
+      "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
+    ],
+    "exercises": [
       {
         "id": "3842",
         "title": "Federico García Lorca",
@@ -4159,7 +4954,22 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "id": "4078",
         "title": "Mario Vargas Llosa",
         "folder": "mario-vargas-llosa-4078"
-      },
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Spanische%20Schriftsteller+biografie&t=3752"
+  },
+  "spanische-schriftsteller-teil-3": {
+    "slug": "spanische-schriftsteller-teil-3",
+    "title": "Spanische Schriftsteller (Teil 3)",
+    "category": "Spanische Schriftsteller",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Miguel de Cervantes, Miguel de Unamuno, Pablo Neruda, Pío Baroja, Rafael Alberti u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Spanische Schriftsteller (Teil 3).",
+    "keyPoints": [
+      "Umfasst 9 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
+      "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
+    ],
+    "exercises": [
       {
         "id": "4105",
         "title": "Miguel de Cervantes",
@@ -4210,12 +5020,12 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
   },
   "sportler": {
     "slug": "sportler",
-    "title": "Sportler",
+    "title": "Sportler (Teil 1)",
     "category": "Sportler",
-    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Sportler: Björn Borg, Bobby Fischer, Bruce Lee, Carl Lewis, Diego Maradona u. v. m.",
-    "longDesc": "Hier findest du kurze Erklärungen, biografische Meilensteine und interaktive Übungen zu den wichtigsten Persönlichkeiten aus dem Bereich Sportler.",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Björn Borg, Bobby Fischer, Bruce Lee, Carl Lewis, Diego Maradona u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Sportler (Teil 1).",
     "keyPoints": [
-      "Umfasst 29 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Umfasst 10 herausragende Persönlichkeiten und historische Leitfiguren",
       "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
       "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
     ],
@@ -4269,7 +5079,22 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "id": "4018",
         "title": "Joe Louis",
         "folder": "joe-louis-4018"
-      },
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Sportler+biografie&t=3752"
+  },
+  "sportler-teil-2": {
+    "slug": "sportler-teil-2",
+    "title": "Sportler (Teil 2)",
+    "category": "Sportler",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Kareem Abdul-Jabbar, Mark Spitz, Martina Navratilova, Michael Jordan, Michael Phelps u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Sportler (Teil 2).",
+    "keyPoints": [
+      "Umfasst 10 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
+      "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
+    ],
+    "exercises": [
       {
         "id": "4051",
         "title": "Kareem Abdul-Jabbar",
@@ -4319,7 +5144,22 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "id": "4244",
         "title": "Serena Williams",
         "folder": "serena-williams-4244"
-      },
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Sportler+biografie&t=3752"
+  },
+  "sportler-teil-3": {
+    "slug": "sportler-teil-3",
+    "title": "Sportler (Teil 3)",
+    "category": "Sportler",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Simone Biles, Steffi Graf, Tiger Woods, Tom Brady, Usain Bolt u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Sportler (Teil 3).",
+    "keyPoints": [
+      "Umfasst 9 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
+      "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
+    ],
+    "exercises": [
       {
         "id": "4257",
         "title": "Simone Biles",
@@ -4370,12 +5210,12 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
   },
   "unternehmer": {
     "slug": "unternehmer",
-    "title": "Unternehmer",
+    "title": "Unternehmer (Teil 1)",
     "category": "Unternehmer",
-    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Unternehmer: Andrew Carnegie, Brian Chesky, Cornelius Vanderbilt, Elon Musk, Estée Lauder u. v. m.",
-    "longDesc": "Hier findest du kurze Erklärungen, biografische Meilensteine und interaktive Übungen zu den wichtigsten Persönlichkeiten aus dem Bereich Unternehmer.",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Andrew Carnegie, Brian Chesky, Cornelius Vanderbilt, Elon Musk, Estée Lauder u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Unternehmer (Teil 1).",
     "keyPoints": [
-      "Umfasst 30 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Umfasst 10 herausragende Persönlichkeiten und historische Leitfiguren",
       "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
       "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
     ],
@@ -4429,7 +5269,22 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "id": "3980",
         "title": "J.P. Morgan",
         "folder": "j-p-morgan-3980"
-      },
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Unternehmer+biografie&t=3752"
+  },
+  "unternehmer-teil-2": {
+    "slug": "unternehmer-teil-2",
+    "title": "Unternehmer (Teil 2)",
+    "category": "Unternehmer",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Jack Dorsey, Jack Ma, Jan Koum, Jeff Bezos, John D. Rockefeller u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Unternehmer (Teil 2).",
+    "keyPoints": [
+      "Umfasst 10 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
+      "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
+    ],
+    "exercises": [
       {
         "id": "3982",
         "title": "Jack Dorsey",
@@ -4479,7 +5334,22 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "id": "4189",
         "title": "Ray Kroc",
         "folder": "ray-kroc-4189"
-      },
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Unternehmer+biografie&t=3752"
+  },
+  "unternehmer-teil-3": {
+    "slug": "unternehmer-teil-3",
+    "title": "Unternehmer (Teil 3)",
+    "category": "Unternehmer",
+    "shortDesc": "Interaktive Biografien und Übungen zu berühmten Persönlichkeiten: Reed Hastings, Richard Branson, Sam Walton, Sheryl Sandberg, Steve Jobs u. a..",
+    "longDesc": "Hier findest du biografische Meilensteine, historische Kontexte und interaktive Übungen zu bedeutenden Persönlichkeiten aus dem Bereich Unternehmer (Teil 3).",
+    "keyPoints": [
+      "Umfasst 10 herausragende Persönlichkeiten und historische Leitfiguren",
+      "Wichtige Meilensteine, Werke und geschichtliche Einordnung",
+      "Interaktive Lernmodule zum Festigen von Daten, Fakten und Biografien"
+    ],
+    "exercises": [
       {
         "id": "4192",
         "title": "Reed Hastings",
@@ -4532,8 +5402,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Unternehmer+biografie&t=3752"
-  }
-,
+  },
   "virginia-woolf": {
     "slug": "virginia-woolf",
     "title": "Virginia Woolf (1882–1941)",
