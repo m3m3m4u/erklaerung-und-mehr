@@ -57,7 +57,7 @@ export default function HauswirtschaftOverviewPage() {
               Praktisches Wissen fürs Leben: Von der gesunden Ernährungspyramide und Küchenhygiene über die Haushaltsbudgetierung und Vermeidung von Schuldenfallen bis hin zur nachhaltigen Haushaltsführung und Textilpflege.
             </p>
             <p className="math-page-note">
-              Mit anschaulichen Erklärungen, Merksätzen und interaktiven H5P-Übungsmodulen.
+              Mit über 20 praxisnahen H5P-Übungen zu Kochtechniken, Vorratshaltung, Haushaltsfinanzen, Textilpflege und Energiesparen.
             </p>
           </div>
           <div className="math-mascot">
