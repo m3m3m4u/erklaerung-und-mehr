@@ -1,4 +1,4 @@
-export interface H5PExercise {
+export interface MathExercise {
   id: string;
   title: string;
   folder: string;
@@ -11,16 +11,16 @@ export interface MathTopic {
   shortDesc: string;
   longDesc: string;
   keyPoints: string[];
-  exercises: H5PExercise[];
+  exercises: MathExercise[];
   worksheetLink?: string;
 }
 
-export const mathCategories = [
-  'Zahlen und Rechnen',
-  'Geometrie',
-  'Größen und Maße',
-  'Algebra',
-  'Tools & Spezialseiten',
+export const mathCategories: string[] = [
+  "Zahlen und Rechnen",
+  "Geometrie",
+  "Größen und Maße",
+  "Algebra",
+  "Tools & Spezialseiten"
 ];
 
 export const mathTopics: Record<string, MathTopic> = {
@@ -177,9 +177,9 @@ export const mathTopics: Record<string, MathTopic> = {
   },
   "schriftliches-rechnen": {
     "slug": "schriftliches-rechnen",
-    "title": "Schriftliches Rechnen",
+    "title": "Schriftliches Rechnen & Grundrechenarten",
     "category": "Zahlen und Rechnen",
-    "shortDesc": "Schriftliche Addition, Subtraktion, Multiplikation und Division.",
+    "shortDesc": "Schriftliche Addition, Subtraktion, Multiplikation und Division im Zahlenraum.",
     "longDesc": "Das schriftliche Rechnen hilft dabei, große und komplexe Zahlen strukturiert und fehlerfrei zu addieren, zu subtrahieren, zu multiplizieren und zu dividieren. Dabei werden die Zahlen stellenwertrichtig untereinander geschrieben und schrittweise von rechts nach links berechnet.",
     "keyPoints": [
       "Schriftliche Addition: Einer unter Einer, Zehner unter Zehner usw. Überträge sauber notieren",
@@ -202,6 +202,26 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "904",
         "title": "Die schriftliche Subtraktion (Entbündelungsverfahren)",
         "folder": "die-schriftliche-subtraktion-entbundelungsverfahren-904"
+      },
+      {
+        "id": "divkopf",
+        "title": "Divisionen im Kopf lösen",
+        "folder": "divisionen-im-kopf-losen-622"
+      },
+      {
+        "id": "subtkopf",
+        "title": "Subtraktionen im Kopf lösen",
+        "folder": "subtraktionen-im-kopf-losen-626"
+      },
+      {
+        "id": "157",
+        "title": "Begriffe der Grundrechnungsarten",
+        "folder": "begriffe-der-grundrechnungsarten-157"
+      },
+      {
+        "id": "794",
+        "title": "Begriffe zuordnen",
+        "folder": "begriffe-zuordnen-794"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=schriftliches+rechnen&t=1118"
@@ -249,9 +269,9 @@ export const mathTopics: Record<string, MathTopic> = {
   },
   "dezimalzahlen": {
     "slug": "dezimalzahlen",
-    "title": "Dezimalzahlen",
+    "title": "Dezimalzahlen: Grundlagen & Runden",
     "category": "Zahlen und Rechnen",
-    "shortDesc": "Addition, Subtraktion, Multiplikation und Umwandlung von Kommazahlen.",
+    "shortDesc": "Stellenwerttafel, Dezimalkomma, Dezimalzahlen am Zahlenstrahl, Ordnen und Runden.",
     "longDesc": "Dezimalzahlen (Kommazahlen) erweitern unser Stellenwertsystem nach rechts hinter das Komma (Zehntel, Hundertstel, Tausendstel). Sie ermöglichen das exakte Erfassen von Bruchteilen, Geldbeträgen und Messwerten.",
     "keyPoints": [
       "Stellenwerttafel: Z (Zehner), E (Einer) , z (Zehntel), h (Hundertstel), t (Tausendstel)",
@@ -261,41 +281,6 @@ export const mathTopics: Record<string, MathTopic> = {
       "Multiplikation mit Zehnerpotenzen: Komma nach rechts verschieben (z. B. 3,4 · 100 = 340)"
     ],
     "exercises": [
-      {
-        "id": "151",
-        "title": "Addition und Subtraktion von Dezimalzahlen",
-        "folder": "addition-und-subtraktion-von-dezimalzahlen-151"
-      },
-      {
-        "id": "748",
-        "title": "Dezimalzahlen addieren und subtrahieren",
-        "folder": "dezimalzahlen-addieren-und-subtrahieren-748"
-      },
-      {
-        "id": "750",
-        "title": "Dezimalzahlen multiplizieren",
-        "folder": "dezimalzahlen-multiplizieren-750"
-      },
-      {
-        "id": "749",
-        "title": "Dezimalzahlen dividieren",
-        "folder": "dezimalzahlen-dividieren-749"
-      },
-      {
-        "id": "150",
-        "title": "Division von Dezimalzahlen",
-        "folder": "division-von-dezimalzahlen-150"
-      },
-      {
-        "id": "148",
-        "title": "Kla-Pu-Stri-Aufgaben mit Dezimalzahlen",
-        "folder": "kla-pu-stri-aufgaben-mit-dezimalzahlen-148"
-      },
-      {
-        "id": "752",
-        "title": "KlaPuStri mit Dezimalzahlen",
-        "folder": "klapustri-mit-dezimalzahlen-752"
-      },
       {
         "id": "746",
         "title": "Dezimalzahlen am Zahlenstrahl",
@@ -310,11 +295,6 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "747",
         "title": "Dezimalzahlen runden",
         "folder": "dezimalzahlen-runden-2-747"
-      },
-      {
-        "id": "38",
-        "title": "Brüche und Dezimalzahlen",
-        "folder": "bruche-und-dezimalzahlen-38"
       },
       {
         "id": "810",
@@ -332,16 +312,6 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "kopfrechnen-mit-10-114"
       },
       {
-        "id": "149",
-        "title": "Gemischte Aufgaben mit Dezimalzahlen",
-        "folder": "gemischte-aufgaben-mit-dezimalzahlen-149"
-      },
-      {
-        "id": "163",
-        "title": "Multiplikation von Dezimalzahlen",
-        "folder": "teiler-einer-zahl-finden-schwer-163"
-      },
-      {
         "id": "686",
         "title": "studypoint - lückentext - dezimalzahlen",
         "folder": "studypoint-luckentext-dezimalzahlen-686"
@@ -357,29 +327,9 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "kurs-dezimalzahlen-einfuhrung-level-2-705"
       },
       {
-        "id": "706",
-        "title": "kurs Dezimalzahlen Einführung Level 3",
-        "folder": "kurs-dezimalzahlen-einfuhrung-level-3-706"
-      },
-      {
         "id": "707",
         "title": "kurs Dezimalzahlen am Zahlenstrahl Level 1",
         "folder": "kurs-dezimalzahlen-am-zahlenstrahl-level-1-707"
-      },
-      {
-        "id": "708",
-        "title": "kurs Dezimalzahlen am Zahlenstrahl Level 2",
-        "folder": "kurs-dezimalzahlen-am-zahlenstrahl-level-2-708"
-      },
-      {
-        "id": "709",
-        "title": "kurs Dezimalzahlen am Zahlenstrahl Level 3",
-        "folder": "kurs-dezimalzahlen-am-zahlenstrahl-level-3-709"
-      },
-      {
-        "id": "710",
-        "title": "kurs Dezimalzahlen ordnen",
-        "folder": "kurs-dezimalzahlen-ordnen-710"
       },
       {
         "id": "714",
@@ -390,76 +340,6 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "715",
         "title": "kurs Dezimalzahlen runden Level 1",
         "folder": "kurs-dezimalzahlen-runden-level-1-715"
-      },
-      {
-        "id": "716",
-        "title": "kurs Dezimalzahlen runden Level 2",
-        "folder": "kurs-dezimalzahlen-runden-level-2-716"
-      },
-      {
-        "id": "717",
-        "title": "kurs Dezimalzahlen runden Level 3",
-        "folder": "kurs-dezimalzahlen-runden-level-3-717"
-      },
-      {
-        "id": "727",
-        "title": "kurs Dezimalzahlen addieren und subtrahieren Level 1",
-        "folder": "kurs-dezimalzahlen-addieren-und-subtrahieren-level-1-727"
-      },
-      {
-        "id": "728",
-        "title": "kurs Dezimalzahlen addieren und subtrahieren Level 2",
-        "folder": "kurs-dezimalzahlen-addieren-und-subtrahieren-level-2-728"
-      },
-      {
-        "id": "729",
-        "title": "kurs Dezimalzahlen addieren und subtrahieren Level 3",
-        "folder": "kurs-dezimalzahlen-addieren-und-subtrahieren-level-3-729"
-      },
-      {
-        "id": "730",
-        "title": "kurs Dezimalzahlen multiplizieren Level 1",
-        "folder": "kurs-dezimalzahlen-multiplizieren-level-1-730"
-      },
-      {
-        "id": "731",
-        "title": "kurs Dezimalzahlen multiplizieren Level 2",
-        "folder": "kurs-dezimalzahlen-multiplizieren-level-2-731"
-      },
-      {
-        "id": "732",
-        "title": "kurs Dezimalzahlen multiplizieren Level 3",
-        "folder": "kurs-dezimalzahlen-multiplizieren-level-3-732"
-      },
-      {
-        "id": "733",
-        "title": "kurs Dezimalzahlen dividieren Level 1",
-        "folder": "kurs-dezimalzahlen-dividieren-level-1-733"
-      },
-      {
-        "id": "734",
-        "title": "kurs Dezimalzahlen dividieren Level 2",
-        "folder": "kurs-dezimalzahlen-dividieren-level-2-734"
-      },
-      {
-        "id": "735",
-        "title": "kurs Dezimalzahlen dividieren Level 3",
-        "folder": "kurs-dezimalzahlen-dividieren-level-3-735"
-      },
-      {
-        "id": "736",
-        "title": "kurs KlaPuStri mit Dezimalzahlen Level 1",
-        "folder": "kurs-klapustri-mit-dezimalzahlen-level-1-736"
-      },
-      {
-        "id": "737",
-        "title": "kurs KlaPuStri mit Dezimalzahlen Level 2",
-        "folder": "kurs-klapustri-mit-dezimalzahlen-level-2-737"
-      },
-      {
-        "id": "738",
-        "title": "kurs KlaPuStri mit Dezimalzahlen Level 3",
-        "folder": "kurs-klapustri-mit-dezimalzahlen-level-3-738"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=dezimalzahlen&t=1118"
@@ -502,15 +382,20 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "770",
         "title": "Zusammengesetzte Aufgaben mit negativen Zahlen",
         "folder": "zusammengesetzte-aufgaben-mit-negativen-zahlen-770"
+      },
+      {
+        "id": "769neg",
+        "title": "Rechnen mit negativen Zahlen",
+        "folder": "rechnen-mit-negativen-zahlen-769"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=negative+zahlen&t=1118"
   },
   "brueche": {
     "slug": "brueche",
-    "title": "Bruchrechnen",
+    "title": "Bruchrechnen: Grundlagen & Erweitern",
     "category": "Zahlen und Rechnen",
-    "shortDesc": "Brucharten, Erweitern, Kürzen, Hauptnenner und Grundrechenarten.",
+    "shortDesc": "Brucharten, Zähler und Nenner, echte und unechte Brüche, gemischte Zahlen, Erweitern und Kürzen.",
     "longDesc": "Ein Bruch beschreibt den Teil eines Ganzen. Er besteht aus Zähler (oben), Bruchstrich (geteilt durch) und Nenner (unten). Mit Brüchen lassen sich Anteile exakt ohne Rundungsfehler darstellen und berechnen.",
     "keyPoints": [
       "Echter Bruch: Zähler < Nenner (z. B. 3/4)",
@@ -558,46 +443,6 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "bruche-ordnen-36"
       },
       {
-        "id": "41",
-        "title": "Brüche addieren und subtrahieren",
-        "folder": "bruche-addieren-und-subtrahieren-41"
-      },
-      {
-        "id": "42",
-        "title": "Brüche multiplizieren und dividieren",
-        "folder": "bruche-multiplizieren-und-dividieren-42"
-      },
-      {
-        "id": "43",
-        "title": "KlaPuStri-Aufgaben mit Brüchen",
-        "folder": "klapustri-aufgaben-mit-bruchen-43"
-      },
-      {
-        "id": "38",
-        "title": "Brüche und Dezimalzahlen",
-        "folder": "bruche-und-dezimalzahlen-38"
-      },
-      {
-        "id": "923",
-        "title": "Bruchrechnen - Arten von Brüchen, Brüche darstellen",
-        "folder": "bruchrechnen-arten-von-bruchen-bruche-darstellen-923"
-      },
-      {
-        "id": "924",
-        "title": "Bruchrechnen - Brüche erweitern und kürzen",
-        "folder": "bruchrechnen-bruche-erweitern-und-kurzen-924"
-      },
-      {
-        "id": "925",
-        "title": "Bruchrechnen - Brüche multiplizieren und dividieren",
-        "folder": "bruchrechnen-bruche-multiplizieren-und-dividieren-925"
-      },
-      {
-        "id": "927",
-        "title": "Bruchrechnen - Additionen und Subtraktionen",
-        "folder": "bruchrechnen-additionen-und-subtraktionen-927"
-      },
-      {
         "id": "31",
         "title": "Unechte Brüche und gemischte Zahlen (Memory)",
         "folder": "unechte-bruche-und-gemischte-zahlen-memory-31"
@@ -613,58 +458,23 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "gemeinsame-nenner-bestimmen-37"
       },
       {
-        "id": "39",
-        "title": "Brüche und Dezimalzahlen (Memory)",
-        "folder": "bruche-und-dezimalzahlen-memory-39"
+        "id": "923",
+        "title": "Bruchrechnen - Arten von Brüchen, Brüche darstellen",
+        "folder": "bruchrechnen-arten-von-bruchen-bruche-darstellen-923"
       },
       {
-        "id": "44",
-        "title": "Brüche und Dezimalzahlen",
-        "folder": "bruche-und-dezimalzahlen-2-44"
-      },
-      {
-        "id": "386",
-        "title": "Bruchrechnen",
-        "folder": "bruchrechnen-386"
-      },
-      {
-        "id": "711",
-        "title": "kurs Brüche und Dezimalzahlen Level 2",
-        "folder": "kurs-bruche-und-dezimalzahlen-level-2-711"
-      },
-      {
-        "id": "712",
-        "title": "kurs Brüche und Dezimalzahlen Level 1",
-        "folder": "kurs-bruche-und-dezimalzahlen-level-1-712"
-      },
-      {
-        "id": "713",
-        "title": "kurs Brüche und Dezimalzahlen Level 3",
-        "folder": "kurs-bruche-und-dezimalzahlen-level-3-713"
-      },
-      {
-        "id": "725",
-        "title": "Studypoint - Bruchrechnen",
-        "folder": "studypoint-bruchrechnen-725"
-      },
-      {
-        "id": "745",
-        "title": "Brüche und Dezimalzahlen",
-        "folder": "bruche-und-dezimalzahlen-3-745"
-      },
-      {
-        "id": "926",
-        "title": "Bruchrechnen - Brüche und Dezimalzahlen",
-        "folder": "bruchrechnen-bruche-und-dezimalzahlen-926"
+        "id": "924",
+        "title": "Bruchrechnen - Brüche erweitern und kürzen",
+        "folder": "bruchrechnen-bruche-erweitern-und-kurzen-924"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=br%C3%BCche&t=1118"
   },
   "teilbarkeit": {
     "slug": "teilbarkeit",
-    "title": "Teilbarkeit & Primzahlen",
+    "title": "Teilbarkeit & Teilerregeln",
     "category": "Zahlen und Rechnen",
-    "shortDesc": "Teilbarkeitsregeln (2, 3, 4, 5, 6, 8, 9, 10), Primzahlen, ggT und kgV.",
+    "shortDesc": "Teilbarkeitsregeln für 2, 3, 4, 5, 6, 8, 9, 10, Teiler und Vielfache natürlicher Zahlen.",
     "longDesc": "Die Teilbarkeitslehre untersucht, welche Zahlen sich ohne Rest durch andere teilen lassen. Mit Teilbarkeitsregeln, Primfaktorzerlegung, dem größten gemeinsamen Teiler (ggT) und dem kleinsten gemeinsamen Vielfachen (kgV) lassen sich Brüche optimal kürzen und gleichnamig machen.",
     "keyPoints": [
       "Teilbar durch 2: Letzte Ziffer ist gerade (0, 2, 4, 6, 8)",
@@ -687,24 +497,9 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "teilbarkeit-4-175"
       },
       {
-        "id": "174",
-        "title": "ggT und kgV",
-        "folder": "teilbarkeitsregeln-richtig-oder-falsch-174"
-      },
-      {
-        "id": "177",
-        "title": "Primzahlen",
-        "folder": "primzahlen-177"
-      },
-      {
         "id": "246",
         "title": "Gemeinsame Teiler bestimmen",
         "folder": "gemeinsame-teiler-bestimmen-246"
-      },
-      {
-        "id": "247",
-        "title": "Größte gemeinsame Teiler bestimmen",
-        "folder": "groeste-gemeinsame-teiler-bestimmen-247"
       },
       {
         "id": "169",
@@ -726,47 +521,20 @@ export const mathTopics: Record<string, MathTopic> = {
         "title": "Teilbar oder nicht teilbar",
         "folder": "teilbar-oder-nicht-teilbar-level-1-872"
       },
-      { "id": "852", "title": "ggT (Level 1)", "folder": "ggt-level-1-852" },
-      { "id": "855", "title": "kgV (Level 1)", "folder": "kgv-level-1-855" },
-      {
-        "id": "248",
-        "title": "kleinste gemeinsame Vielfache bestimmen",
-        "folder": "kleinste-gemeinsame-vielfache-bestimmen-248"
-      },
-      {
-        "id": "860",
-        "title": "kgV, ggT, Primzahlen (Level 1)",
-        "folder": "kgv-ggt-primzahlen-level-1-860"
-      },
-      {
-        "id": "861",
-        "title": "kgV, ggT, Primzahlen (Level 2)",
-        "folder": "kgv-ggt-primzahlen-level-2-861"
-      },
-      {
-        "id": "862",
-        "title": "kgV, ggT, Primzahlen (Level 3)",
-        "folder": "kgv-ggt-primzahlen-level-3-862"
-      },
-      {
-        "id": "863",
-        "title": "Primzahlen (Level 3)",
-        "folder": "primzahlen-level-3-863"
-      },
-      {
-        "id": "864",
-        "title": "Primzahlen (Level 2)",
-        "folder": "primzahlen-level-2-864"
-      },
-      {
-        "id": "865",
-        "title": "Primzahlen (Level 1)",
-        "folder": "primzahlen-level-1-865"
-      },
       {
         "id": "873",
         "title": "Vielfache natürlicher Zahlen",
         "folder": "vielfache-naturlicher-zahlen-873"
+      },
+      {
+        "id": "870",
+        "title": "Teilbarkeit (Level 2)",
+        "folder": "teilbarkeit-level-2-870"
+      },
+      {
+        "id": "871",
+        "title": "Teilbar oder nicht teilbar - Level 2",
+        "folder": "teilbar-oder-nicht-teilbar-level-2-871"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=teilbarkeit&t=1118"
@@ -841,6 +609,43 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "grundwert-berechnen-257"
       },
       {
+        "id": "958",
+        "title": "Prozent (graphische Darstellung)",
+        "folder": "prozent-graphische-darstellung-2-958"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=prozent&t=1118"
+  },
+  "zinsrechnung": {
+    "slug": "zinsrechnung",
+    "title": "Zinsrechnung & Finanzmathematik",
+    "category": "Zahlen und Rechnen",
+    "shortDesc": "Jahreszinsen, Monats- und Tageszinsen, Zinseszins, Ratenkredite, Darlehen und Inflation.",
+    "longDesc": "Zinsrechnung ist angewandte Prozentrechnung mit Zeitfaktor. Lerne Zinsformeln für Kapital, Zinssatz und Zeit, verstehe den Zinseszinseffekt beim Vermögensaufbau sowie Kreditformen wie Annuitäten- und Abzahlungsdarlehen.",
+    "keyPoints": [
+      "Grundformel: Z = (K · p) / 100 für Jahreszinsen (Kapital K, Zinssatz p %)",
+      "Zeitfaktoren: Monatszinsen (m/12) und Tageszinsen (t/360 nach deutscher Zinsmethode)",
+      "Zinseszins: Zinsen werden dem Kapital gutgeschrieben und im Folgejahr mitverzinst: K_n = K_0 · (1 + p/100)ⁿ",
+      "Darlehensarten: Annuitätendarlehen (konstante Rate) vs. Abzahlungsdarlehen (konstante Tilgung)",
+      "Inflation & Kaufkraftverlust: Reale Geldentwertung und Realzins berechnen"
+    ],
+    "exercises": [
+      {
+        "id": "439",
+        "title": "Zinsrechnung",
+        "folder": "zinsrechnung-439"
+      },
+      {
+        "id": "2882",
+        "title": "Abzahlungsdarlehen",
+        "folder": "abzahlungsdarlehen-2882"
+      },
+      {
+        "id": "2883",
+        "title": "Annuitätendarlehen",
+        "folder": "annuitatendarlehen-2883"
+      },
+      {
         "id": "249",
         "title": "Textaufgaben: Grundwert in Kopf berechnen",
         "folder": "textaufgaben-grundwert-in-kopf-berechnen-249"
@@ -861,42 +666,19 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "textaufgaben-zum-prozentrechnen-kopfrechnen-252"
       },
       {
-        "id": "958",
-        "title": "Prozent (graphische Darstellung)",
-        "folder": "prozent-graphische-darstellung-2-958"
-      }
-    ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=prozent&t=1118"
-  },
-  "zinsrechnung": {
-    "slug": "zinsrechnung",
-    "title": "Zinsrechnung",
-    "category": "Zahlen und Rechnen",
-    "shortDesc": "Kapital, Zinssatz, Jahreszinsen, Monatszinsen und Zinseszins.",
-    "longDesc": "Die Zinsrechnung ist eine direkte Anwendung der Prozentrechnung auf Geldbeträge über einen bestimmten Zeitraum. Sie regelt, wie viel Geld man für Sparguthaben erhält oder für Kredite und Darlehen bezahlen muss.",
-    "keyPoints": [
-      "Kapital (K): Das angelegte oder geliehene Geld (entspricht dem Grundwert G)",
-      "Zinssatz (p %): Der Prozentsatz pro Jahr (p.a. = per annum)",
-      "Zinsen (Z): Der Zinsertrag in Euro (entspricht dem Prozentwert W)",
-      "Jahreszinsen: Z = (K · p) / 100",
-      "Monatszinsen (m Monate): Z = (K · p · m) / (100 · 12)",
-      "Tageszinsen (t Tage, Bankjahr mit 360 Tagen): Z = (K · p · t) / (100 · 360)"
-    ],
-    "exercises": [
-      {
-        "id": "439",
-        "title": "Zinsrechnung",
-        "folder": "zinsrechnung-439"
+        "id": "zinseszins",
+        "title": "Zinsrechnung und Zinseszins",
+        "folder": "zinsrechnung-und-zinseszins"
       },
       {
-        "id": "2882",
-        "title": "Abzahlungsdarlehen",
-        "folder": "abzahlungsdarlehen-2882"
+        "id": "ratenkred",
+        "title": "Ratenkredite und effektiver Jahreszins",
+        "folder": "ratenkredite-und-effektiver-jahreszins"
       },
       {
-        "id": "2883",
-        "title": "Annuitätendarlehen",
-        "folder": "annuitatendarlehen-2883"
+        "id": "inflation",
+        "title": "Inflation und Kaufkraftverlust berechnen",
+        "folder": "inflation-und-kaufkraftverlust-berechnen"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=zinsrechnung&t=1118"
@@ -945,6 +727,21 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "194",
         "title": "Teilweise Wurzel ziehen mit Variablen",
         "folder": "teilweise-wurzel-ziehen-mit-variablen-194"
+      },
+      {
+        "id": "178pot",
+        "title": "Potenzen berechnen",
+        "folder": "potenzen-berechnen-178"
+      },
+      {
+        "id": "90pot",
+        "title": "Potenzen multiplizieren und dividieren",
+        "folder": "potenzen-multiplizieren-und-dividieren-90"
+      },
+      {
+        "id": "389potw",
+        "title": "Potenzen und Quadratwurzeln",
+        "folder": "potenzen-und-quadratwurzeln-389"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=potenzen&t=1118"
@@ -979,9 +776,21 @@ export const mathTopics: Record<string, MathTopic> = {
         "title": "Erklärvideo Statistik (Häufigkeiten und Diagramme) mit Fragen",
         "folder": "erklarvideo-statistik-haufigkeiten-und-diagramme-mit-fragen-188"
       },
-      { "id": "187", "title": "Erklärvideo Statistik (Mittelwerte und Boxplot) mit Fragen", "folder": "erklarvideo-statistik-mittelwerte-und-boxplot-mit-fragen-2-187" },
-      { "id": "294", "title": "Statistik (Erklärvideo und Übungen)", "folder": "statistik-erklarvideo-und-bungen-294" },
-      { "id": "5", "title": "Video mit Fragen: Mittelwerte und Boxplot", "folder": "video-mit-fragen-mittelwerte-und-boxplot-5" },
+      {
+        "id": "187",
+        "title": "Erklärvideo Statistik (Mittelwerte und Boxplot) mit Fragen",
+        "folder": "erklarvideo-statistik-mittelwerte-und-boxplot-mit-fragen-2-187"
+      },
+      {
+        "id": "294",
+        "title": "Statistik (Erklärvideo und Übungen)",
+        "folder": "statistik-erklarvideo-und-bungen-294"
+      },
+      {
+        "id": "5",
+        "title": "Video mit Fragen: Mittelwerte und Boxplot",
+        "folder": "video-mit-fragen-mittelwerte-und-boxplot-5"
+      },
       {
         "id": "4",
         "title": "Häufigkeit und Diagramme: Video mit Fragen",
@@ -996,6 +805,21 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "7",
         "title": "Fragen zu statistischen Grundbegriffen und zur Kastengrafik (Boxplot)",
         "folder": "fragen-zu-statistischen-grundbegriffen-und-zur-kastengrafik-boxplot-7"
+      },
+      {
+        "id": "188stat",
+        "title": "Statistik: Häufigkeiten und Diagramme",
+        "folder": "erklarvideo-statistik-haufigkeiten-und-diagramme-mit-fragen-188"
+      },
+      {
+        "id": "187stat",
+        "title": "Statistik: Mittelwerte und Boxplot",
+        "folder": "erklarvideo-statistik-mittelwerte-und-boxplot-mit-fragen-2-187"
+      },
+      {
+        "id": "294stat",
+        "title": "Statistik - Erklärvideo und Übungen",
+        "folder": "statistik-erklarvideo-und-bungen-294"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=statistik&t=1118"
@@ -1142,6 +966,11 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "1014",
         "title": "Dreiecke LZK Expertenstandard",
         "folder": "dreiecke-lzk-expertenstandard-1014"
+      },
+      {
+        "id": "dreieck3d",
+        "title": "Warum fast alle 3D-Figuren aus Dreiecken bestehen",
+        "folder": "warum-fast-alle-3d-figuren-aus-dreiecken-bestehen"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=dreiecke&t=1118"
@@ -1205,23 +1034,47 @@ export const mathTopics: Record<string, MathTopic> = {
   },
   "kreis": {
     "slug": "kreis",
-    "title": "Kreis",
+    "title": "Kreis & Runde Körper: Zylinder, Kegel & Kugel",
     "category": "Geometrie",
-    "shortDesc": "Radius, Durchmesser, Kreiszahl Pi, Umfang und Kreisfläche.",
-    "longDesc": "Ein Kreis besteht aus allen Punkten einer Ebene, die denselben Abstand (Radius r) zum Mittelpunkt M haben. Mit der Kreiszahl Pi (π ≈ 3,14159...) lassen sich Umfang und Flächeninhalt exakt berechnen.",
+    "shortDesc": "Radius, Durchmesser, Kreiszahl Pi, Umfang, Kreisfläche, Zylinder, Kegel und Kugel.",
+    "longDesc": "Der Kreis ist die vollkommene geometrische Form. Mit der Kreiszahl Pi (π ≈ 3,14159) berechnest du Umfang und Fläche sowie das Volumen der runden Körper Zylinder, Kegel und Kugel.",
     "keyPoints": [
-      "Durchmesser: d = 2 · r (doppelter Radius)",
-      "Kreiszahl Pi (π): Verhältnis von Umfang zu Durchmesser (π ≈ 3,14159265...)",
-      "Umfang: u = 2 · π · r = π · d",
-      "Flächeninhalt: A = π · r² = (π · d²) / 4",
-      "Kreissektor (Kreisausschnitt): A_sek = (π · r² · α) / 360°",
-      "Kreisbogen: b = (2 · π · r · α) / 360°"
+      "Kreisumfang: u = 2 · π · r = π · d",
+      "Kreisfläche: A = π · r² = (π · d²) / 4",
+      "Zylinder: Kreis als Grund- und Deckfläche; V = π · r² · h, O = 2·π·r² + 2·π·r·h",
+      "Kegel: Spitze über kreisförmiger Grundfläche; V = (1/3) · π · r² · h",
+      "Kugel: Vollkommene Symmetrie; V = (4/3) · π · r³, O = 4 · π · r²"
     ],
     "exercises": [
       {
         "id": "256",
         "title": "Der Kreis",
         "folder": "der-kreis-256"
+      },
+      {
+        "id": "385",
+        "title": "Zylinder - Kegel - Kugel",
+        "folder": "zylinder-kegel-kugel-385"
+      },
+      {
+        "id": "streckegera",
+        "title": "Strecke, Strahl, Gerade",
+        "folder": "strecke-strahl-gerade-943"
+      },
+      {
+        "id": "219",
+        "title": "Flächen erkennen",
+        "folder": "flachen-erkennen-219"
+      },
+      {
+        "id": "220",
+        "title": "Flächenformeln 1",
+        "folder": "flachenformeln-1-220"
+      },
+      {
+        "id": "221",
+        "title": "Flächenformeln 2",
+        "folder": "flachenformeln-2-221"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=kreis&t=1118"
@@ -1275,9 +1128,9 @@ export const mathTopics: Record<string, MathTopic> = {
   },
   "symmetrie": {
     "slug": "symmetrie",
-    "title": "Symmetrie & Spiegelungen",
+    "title": "Symmetrie, Spiegelungen & Raumvorstellung",
     "category": "Geometrie",
-    "shortDesc": "Achsensymmetrie, Punktsymmetrie, Spiegelachsen und Drehungen.",
+    "shortDesc": "Achsensymmetrie, Punktspiegelung, Symmetrieachsen, Schrägbilder und Aufrisse.",
     "longDesc": "Symmetrie beschreibt die Eigenschaft von Figuren, durch bestimmte geometrische Operationen (Spiegelung, Drehung, Verschiebung) wieder exakt mit sich selbst zur Deckung gebracht zu werden.",
     "keyPoints": [
       "Achsensymmetrie (Spiegelsymmetrie): Eine Gerade (Spiegelachse) teilt die Figur in zwei deckungsgleiche Hälften",
@@ -1296,6 +1149,36 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "666",
         "title": "Spiegelungen (Achsensymmetrie 2)",
         "folder": "spiegelungen-achsensymmetrie-2-666"
+      },
+      {
+        "id": "200",
+        "title": "Aufrisse 1",
+        "folder": "aufrisse-1-200"
+      },
+      {
+        "id": "201",
+        "title": "Aufrisse 2",
+        "folder": "aufrisse-2-201"
+      },
+      {
+        "id": "202",
+        "title": "Aufrisse 3",
+        "folder": "aufrisse-3-202"
+      },
+      {
+        "id": "203",
+        "title": "Aufrisse 4",
+        "folder": "aufrisse-4-203"
+      },
+      {
+        "id": "204",
+        "title": "Aufrisse 5",
+        "folder": "aufrisse-5-204"
+      },
+      {
+        "id": "457",
+        "title": "Aufrisse erkennen",
+        "folder": "aufrisse-erkennen-457"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=symmetrie&t=1118"
@@ -1466,23 +1349,27 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "98",
         "title": "Pyramide und Satz von Pythagoras",
         "folder": "pyramide-und-satz-von-pythagoras-98"
+      },
+      {
+        "id": "4178pyth",
+        "title": "Pythagoras von Samos",
+        "folder": "pythagoras-4178"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=pythagoras&t=1118"
   },
   "wuerfel-und-quader": {
     "slug": "wuerfel-und-quader",
-    "title": "Würfel & Quader",
+    "title": "Würfel, Quader & Prismen",
     "category": "Geometrie",
-    "shortDesc": "Eigenschaften, Kantenmodelle, Netze, Oberfläche und Volumen.",
-    "longDesc": "Würfel und Quader sind rechtwinklige dreidimensionale Körper. Sie besitzen jeweils 8 Ecken, 12 Kanten und 6 Begrenzungsflächen. Beim Quader sind die Flächen Rechtecke, beim Würfel 6 kongruente Quadrate.",
+    "shortDesc": "Körpernetze, Schrägbilder, Kanten, Ecken, Flächen, Oberfläche und Volumen gerader Prismen.",
+    "longDesc": "Würfel, Quader und Prismen sind geometrische Körper mit parallelen, deckungsgleichen Grund- und Deckflächen. Lerne Netze zu zeichnen, Schrägbilder zu konstruieren und Oberflächeninhalt sowie Rauminhalt (Volumen) zu berechnen.",
     "keyPoints": [
-      "Geometrische Merkmale: 8 Ecken, 12 Kanten, 6 Seitenflächen",
-      "Quader Volumen: V = a · b · c (Länge · Breite · Höhe)",
-      "Quader Oberfläche: O = 2 · (a·b + b·c + a·c)",
-      "Würfel Volumen: V = a · a · a = a³",
-      "Würfel Oberfläche: O = 6 · a²",
-      "Raumdiagonale Quader: d = √(a² + b² + c²)"
+      "Würfel: 6 quadratische Flächen, 12 gleich lange Kanten, 8 Ecken; V = a³, O = 6·a²",
+      "Quader: 6 rechteckige Flächen, gegenüberliegend deckungsgleich; V = a·b·c, O = 2·(ab + ac + bc)",
+      "Gerades Prisma: Grund- und Deckfläche sind kongruente Vielecke; Mantelfläche besteht aus Rechtecken",
+      "Volumenformel: V = G · h (Grundfläche mal Körperhöhe)",
+      "Oberflächenformel: O = 2·G + M (zweimal Grundfläche plus Mantelfläche)"
     ],
     "exercises": [
       {
@@ -1499,25 +1386,7 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "143",
         "title": "Der Quader (Erklärvideo mit Fragen)",
         "folder": "der-quader-erklarvideo-mit-fragen-143"
-      }
-    ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=quader&t=1118"
-  },
-  "prismen-und-pyramiden": {
-    "slug": "prismen-und-pyramiden",
-    "title": "Prismen & Pyramiden",
-    "category": "Geometrie",
-    "shortDesc": "Gerade Prismen, Zylinder, Pyramiden und Kegel – Oberfläche und Volumen.",
-    "longDesc": "Prismen und Pyramiden sind vielseitige geometrische Körper. Ein gerades Prisma hat zwei zueinander parallele und deckungsgleiche Grundflächen (Dreieck, Sechseck etc.) und Rechtecke als Mantelfläche. Eine Pyramide verjüngt sich von einer Grundfläche spitz zur Spitze S.",
-    "keyPoints": [
-      "Prisma Volumen: V = G · h (Grundfläche · Körperhöhe)",
-      "Prisma Oberfläche: O = 2 · G + M (2 Grundflächen + Mantelfläche)",
-      "Prisma Mantel: M = u_G · h (Umfang der Grundfläche · Höhe)",
-      "Pyramide Volumen: V = (G · h) / 3 (Ein Drittel des entsprechenden Prismas)",
-      "Pyramide Oberfläche: O = G + M (Grundfläche + Dreiecks-Mantelflächen)",
-      "Zylinder: V = π · r² · h | Kegel: V = (π · r² · h) / 3"
-    ],
-    "exercises": [
+      },
       {
         "id": "383",
         "title": "Prismen",
@@ -1547,7 +1416,25 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "190",
         "title": "Prismen - Oberfläche berechnen",
         "folder": "prismen-oberflache-berechnen-190"
-      },
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=quader&t=1118"
+  },
+  "prismen-und-pyramiden": {
+    "slug": "prismen-und-pyramiden",
+    "title": "Pyramiden: Oberfläche & Volumen",
+    "category": "Geometrie",
+    "shortDesc": "Quadratische und rechteckige Pyramiden, Körperhöhe, Seitenhöhe, Mantelfläche und Pythagoras am Körper.",
+    "longDesc": "Prismen und Pyramiden sind vielseitige geometrische Körper. Ein gerades Prisma hat zwei zueinander parallele und deckungsgleiche Grundflächen (Dreieck, Sechseck etc.) und Rechtecke als Mantelfläche. Eine Pyramide verjüngt sich von einer Grundfläche spitz zur Spitze S.",
+    "keyPoints": [
+      "Prisma Volumen: V = G · h (Grundfläche · Körperhöhe)",
+      "Prisma Oberfläche: O = 2 · G + M (2 Grundflächen + Mantelfläche)",
+      "Prisma Mantel: M = u_G · h (Umfang der Grundfläche · Höhe)",
+      "Pyramide Volumen: V = (G · h) / 3 (Ein Drittel des entsprechenden Prismas)",
+      "Pyramide Oberfläche: O = G + M (Grundfläche + Dreiecks-Mantelflächen)",
+      "Zylinder: V = π · r² · h | Kegel: V = (π · r² · h) / 3"
+    ],
+    "exercises": [
       {
         "id": "384",
         "title": "Pyramide",
@@ -1569,6 +1456,11 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "oberflache-der-pyramide-59"
       },
       {
+        "id": "100",
+        "title": "Oberfläche der Pyramide",
+        "folder": "oberflache-der-pyramide-3-100"
+      },
+      {
         "id": "101",
         "title": "Berechnungen: Volumen und Oberfläche der Pyramide mit Bildern",
         "folder": "berechnungen-volumen-und-oberflache-der-pyramide-mit-bildern-101"
@@ -1579,19 +1471,14 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "pyramide-und-satz-von-pythagoras-98"
       },
       {
-        "id": "385",
-        "title": "Zylinder - Kegel - Kugel",
-        "folder": "zylinder-kegel-kugel-385"
-      },
-      {
-        "id": "100",
-        "title": "Oberfläche der Pyramide",
-        "folder": "oberflache-der-pyramide-3-100"
-      },
-      {
         "id": "724",
         "title": "studypoint - Pyramide",
         "folder": "studypoint-pyramide-724"
+      },
+      {
+        "id": "pyramide2",
+        "title": "Oberfläche der Pyramide (Vertiefung)",
+        "folder": "oberflache-der-pyramide-2-99"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=prisma&t=1118"
@@ -1850,9 +1737,9 @@ export const mathTopics: Record<string, MathTopic> = {
   },
   "terme": {
     "slug": "terme",
-    "title": "Terme",
+    "title": "Terme & Variablen",
     "category": "Algebra",
-    "shortDesc": "Grundrechenarten mit Termen, Klammern, Ausmultiplizieren und binomische Formeln.",
+    "shortDesc": "Was sind Terme, Variablen, Terme aufstellen, zusammenfassen und Grundrechenarten mit Termen.",
     "longDesc": "Ein Term ist ein sinnvoller mathematischer Rechenausdruck aus Zahlen, Variablen (Buchstaben) und Rechenzeichen. Beim Umformen und Vereinfachen von Termen fassen wir gleichartige Glieder zusammen und wenden Rechengesetze an.",
     "keyPoints": [
       "Gleichartige Glieder zusammenfassen: 4x + 7x = 11x | 3a + 2b - a = 2a + 2b",
@@ -1864,6 +1751,11 @@ export const mathTopics: Record<string, MathTopic> = {
       "3. Binomische Formel: (a + b) · (a - b) = a² - b²"
     ],
     "exercises": [
+      {
+        "id": "226",
+        "title": "Was sind Terme?",
+        "folder": "was-sind-terme-226"
+      },
       {
         "id": "235",
         "title": "Grundrechnungsarten mit Termen (Erklärvideos und Übungen)",
@@ -1885,89 +1777,9 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "terme-dividieren-773"
       },
       {
-        "id": "236",
-        "title": "Terme mit Klammern (Erklärvideos und Übungen)",
-        "folder": "terme-mit-klammern-erklarvideos-und-bungen-236"
-      },
-      {
-        "id": "774",
-        "title": "Terme mit Klammern addieren und subtrahieren",
-        "folder": "terme-mit-klammern-addieren-und-subtrahieren-2-774"
-      },
-      {
-        "id": "775",
-        "title": "Terme mit Klammern multiplizieren (Monom mal Binom)",
-        "folder": "terme-mit-klammern-multiplizieren-monom-mal-binom-775"
-      },
-      {
-        "id": "375",
-        "title": "Herausheben gemeinsamer Faktoren",
-        "folder": "herausheben-gemeinsamer-faktoren-2-375"
-      },
-      {
-        "id": "776",
-        "title": "Terme mit Klammern multiplizieren (Binom mal Binom)",
-        "folder": "terme-mit-klammern-multiplizieren-binom-mal-binom-776"
-      },
-      {
-        "id": "400",
-        "title": "Die Probe",
-        "folder": "die-probe-2-400"
-      },
-      {
-        "id": "777",
-        "title": "Binomische Formeln",
-        "folder": "binomische-formeln-4-777"
-      },
-      {
-        "id": "93",
-        "title": "Binome multiplizieren",
-        "folder": "binome-multiplizieren-93"
-      },
-      {
-        "id": "94",
-        "title": "Binomische Formeln 1",
-        "folder": "binomische-formeln-1-94"
-      },
-      {
-        "id": "95",
-        "title": "Binomische Formeln 2",
-        "folder": "binomische-formeln-2-95"
-      },
-      {
-        "id": "96",
-        "title": "Binomische Formeln ergänzen",
-        "folder": "binomische-formeln-erganzen-96"
-      },
-      {
-        "id": "237",
-        "title": "Binomische Formeln (Erklärvideo und Übungen)",
-        "folder": "binomische-formeln-erklarvideo-und-bungen-237"
-      },
-      {
-        "id": "87",
-        "title": "Monom mal Binom",
-        "folder": "monom-mal-binom-87"
-      },
-      {
         "id": "88",
         "title": "Terme addieren und subtrahieren",
         "folder": "terme-addieren-und-subtrahieren-88"
-      },
-      {
-        "id": "89",
-        "title": "Terme mit Klammern addieren und subtrahieren",
-        "folder": "terme-mit-klammern-addieren-und-subtrahieren-89"
-      },
-      {
-        "id": "91",
-        "title": "Monom mal Binom",
-        "folder": "monom-mal-binom-2-91"
-      },
-      {
-        "id": "92",
-        "title": "Herausheben gemeinsamer Faktoren",
-        "folder": "herausheben-gemeinsamer-faktoren-92"
       },
       {
         "id": "97",
@@ -1975,49 +1787,9 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "terme-multiplizieren-97"
       },
       {
-        "id": "226",
-        "title": "Was sind Terme?",
-        "folder": "was-sind-terme-226"
-      },
-      {
         "id": "227",
         "title": "Terme multiplizieren und dividieren (ohne Hochzahlen)",
         "folder": "terme-multiplizieren-und-dividieren-ohne-hochzahlen-227"
-      },
-      {
-        "id": "228",
-        "title": "Gemischte Übungen zu binomischen Formeln",
-        "folder": "gemischte-bungen-zu-binomischen-formeln-228"
-      },
-      {
-        "id": "229",
-        "title": "Übungen zur dritten binomischen Formel",
-        "folder": "bungen-zur-dritten-binomischen-formel-229"
-      },
-      {
-        "id": "230",
-        "title": "Übungen zur zweiten binomischen Formel",
-        "folder": "bungen-zur-zweiten-binomischen-formel-230"
-      },
-      {
-        "id": "231",
-        "title": "Übungen zur ersten binomischen Formel",
-        "folder": "bungen-zur-ersten-binomischen-formel-231"
-      },
-      {
-        "id": "232",
-        "title": "Terme addieren und subtrahieren mit Klammern",
-        "folder": "terme-addieren-und-subtrahieren-mit-klammern-232"
-      },
-      {
-        "id": "233",
-        "title": "Terme multiplizieren (Binom mal Binom)",
-        "folder": "terme-multiplizieren-binom-mal-binom-233"
-      },
-      {
-        "id": "234",
-        "title": "Terme multiplizieren (Monom mal Binom)",
-        "folder": "terme-multiplizieren-monom-mal-binom-234"
       },
       {
         "id": "374",
@@ -2025,24 +1797,9 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "terme-mit-potenzen-374"
       },
       {
-        "id": "392",
-        "title": "Binomische Formeln",
-        "folder": "binomische-formeln-392"
-      },
-      {
-        "id": "393",
-        "title": "Binomische Formeln",
-        "folder": "binomische-formeln-3-393"
-      },
-      {
         "id": "690",
         "title": "studypoint - drag the words - Terme mit Potenzen",
         "folder": "studypoint-drag-the-words-terme-mit-potenzen-690"
-      },
-      {
-        "id": "691",
-        "title": "studypoint - single choice - binomische Formeln",
-        "folder": "studypoint-single-choice-binomische-formeln-691"
       },
       {
         "id": "702",
@@ -2054,12 +1811,12 @@ export const mathTopics: Record<string, MathTopic> = {
   },
   "bruchterme": {
     "slug": "bruchterme",
-    "title": "Bruchterme",
+    "title": "Bruchterme & Wurzelterme",
     "category": "Algebra",
-    "shortDesc": "Definitionsmenge, Erweitern, Kürzen und Grundrechenarten mit Bruchtermen.",
+    "shortDesc": "Bruchterme definieren, kürzen, erweitern, Definitionsmenge und Rechnen mit Wurzeltermen.",
     "longDesc": "Ein Bruchterm ist ein Term, bei dem im Nenner mindestens eine Variable (z. B. x) vorkommt. Da der Nenner eines Bruchs niemals 0 sein darf, muss bei Bruchtermen immer zuerst die Definitionsmenge bestimmt werden.",
     "keyPoints": [
-      "Definitionsmenge (D): Nenner gleich 0 setzen und diese Nullstellen aus der Grundmenge ausschließen (z. B. D = ℝ \\ {3} bei 5 / (x - 3))",
+      "Definitionsmenge (D): Nenner gleich 0 setzen und diese Nullstellen aus der Grundmenge ausschließen (z. B. D = ℝ \ {3} bei 5 / (x - 3))",
       "Kürzen von Bruchtermen: Nur Faktoren in Produkten kürzen (\"Aus Differenzen und Summen kürzen nur die Dummen!\")",
       "Faktorisieren vor dem Kürzen: Zuerst Ausklammern oder binomische Formeln anwenden",
       "Addition / Subtraktion: Bruchterme durch Faktorisieren auf den gemeinsamen Hauptnenner bringen",
@@ -2070,6 +1827,41 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "376",
         "title": "Bruchterme",
         "folder": "bruchterme-376"
+      },
+      {
+        "id": "400",
+        "title": "Die Probe",
+        "folder": "die-probe-2-400"
+      },
+      {
+        "id": "691",
+        "title": "studypoint - single choice - binomische Formeln",
+        "folder": "studypoint-single-choice-binomische-formeln-691"
+      },
+      {
+        "id": "228",
+        "title": "Gemischte Übungen zu binomischen Formeln",
+        "folder": "gemischte-bungen-zu-binomischen-formeln-228"
+      },
+      {
+        "id": "237",
+        "title": "Binomische Formeln (Erklärvideo und Übungen)",
+        "folder": "binomische-formeln-erklarvideo-und-bungen-237"
+      },
+      {
+        "id": "194",
+        "title": "Teilweise Wurzel ziehen mit Variablen",
+        "folder": "teilweise-wurzel-ziehen-mit-variablen-194"
+      },
+      {
+        "id": "193",
+        "title": "Teilweise Wurzel ziehen mit Zahlen",
+        "folder": "teilweise-wurzel-ziehen-mit-zahlen-193"
+      },
+      {
+        "id": "389",
+        "title": "Potenzen und Quadratwurzeln",
+        "folder": "potenzen-und-quadratwurzeln-389"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=bruchterme&t=1118"
@@ -2126,6 +1918,21 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "166",
         "title": "Textgleichungen schwer",
         "folder": "romische-zahlen-einfach-166"
+      },
+      {
+        "id": "184gl",
+        "title": "Gleichungen im Kopf lösen",
+        "folder": "gleichungen-im-kopf-losen-184"
+      },
+      {
+        "id": "326gl",
+        "title": "Gleichungen lösen (Erklärung und Übungen)",
+        "folder": "gleichungen-losen-erklarung-und-bungen-326"
+      },
+      {
+        "id": "179gl",
+        "title": "Gleichungen - Video mit Fragen",
+        "folder": "gleichungen-video-mit-fragen-179"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=gleichungen&t=1118"
@@ -2163,15 +1970,20 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "119",
         "title": "Lineare Funktionen zuordnen",
         "folder": "lineare-funktionen-zuordnen-119"
+      },
+      {
+        "id": "3270trig",
+        "title": "Sinus, Cosinus und Tangens",
+        "folder": "sinus-cosinus-und-tangens-3270"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=funktionen&t=1118"
   },
   "schlussrechnen": {
     "slug": "schlussrechnen",
-    "title": "Schlussrechnen & Dreisatz",
+    "title": "Schlussrechnen, Dreisatz & Maßstab",
     "category": "Algebra",
-    "shortDesc": "Direkte und indirekte Proportionalität, Dreisatz-Verfahren im Alltag.",
+    "shortDesc": "Proportionale und antiproportionale Zuordnungen, Dreisatz und Maßstabsberechnungen.",
     "longDesc": "Das Schlussrechnen (Dreisatz) ist eine der nützlichsten Methoden der Schulmathematik. Es dient dazu, aus drei bekannten Werten eines proportionalen oder antiproportionalen Verhältnisses den vierten gesuchten Wert zu berechnen.",
     "keyPoints": [
       "Direktes Verhältnis (je mehr, desto mehr / je weniger, desto weniger): Quotient ist konstant (y / x = const.) ➔ z. B. Menge und Preis von Äpfeln",
@@ -2188,6 +2000,26 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "243",
         "title": "Schlussrechnungen im Kopf lösen",
         "folder": "schlussrechnungen-im-kopf-losen-243"
+      },
+      {
+        "id": "293",
+        "title": "Maßstab (Erklärvideo Übungen)",
+        "folder": "maesstab-erklarvideo-bungen-293"
+      },
+      {
+        "id": "240",
+        "title": "Übungen zum Maßstab (einfach)",
+        "folder": "bungen-zum-maesstab-einfach-240"
+      },
+      {
+        "id": "241",
+        "title": "Übungen zum Maßstab (mittel)",
+        "folder": "bungen-zum-maesstab-mittel-241"
+      },
+      {
+        "id": "242",
+        "title": "Übungen zum Maßstab (schwer)",
+        "folder": "bungen-zum-maesstab-schwer-242"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=schlussrechnung&t=1118"
@@ -2313,6 +2145,11 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "3617",
         "title": "Albert Einstein",
         "folder": "albert-einstein-3617"
+      },
+      {
+        "id": "3845fibo",
+        "title": "Leonardo Fibonacci",
+        "folder": "fibonacci-3845"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=mathematik+geschichte&t=1118"
@@ -2356,5 +2193,369 @@ export const mathTopics: Record<string, MathTopic> = {
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=escape+room+mathe&t=1118"
+  },
+  "dezimalzahlen-grundrechenarten": {
+    "slug": "dezimalzahlen-grundrechenarten",
+    "title": "Grundrechenarten mit Dezimalzahlen",
+    "category": "Zahlen und Rechnen",
+    "shortDesc": "Schriftliche und halbschriftliche Addition, Subtraktion, Multiplikation und Division von Kommazahlen.",
+    "longDesc": "Das Rechnen mit Dezimalzahlen folgt klaren Regeln: Bei Addition und Subtraktion stehen die Kommas exakt untereinander. Bei der Multiplikation bestimmt die Gesamtzahl der Nachkommastellen das Ergebnis, und bei der Division wird das Komma verschoben.",
+    "keyPoints": [
+      "Addition & Subtraktion: Komma unter Komma; leere Stellen mit Nullen auffüllen",
+      "Multiplikation: Wie mit ganzen Zahlen rechnen; das Ergebnis hat so viele Nachkommastellen wie beide Faktoren zusammen",
+      "Multiplikation mit 10, 100, 1000: Das Komma wandert um 1, 2 oder 3 Stellen nach rechts",
+      "Division durch Zehnerpotenzen: Das Komma wandert nach links",
+      "Division durch Dezimalzahlen: Komma im Divisor und Dividenden um gleich viele Stellen nach rechts verschieben, bis der Divisor eine ganze Zahl ist"
+    ],
+    "exercises": [
+      {
+        "id": "151",
+        "title": "Addition und Subtraktion von Dezimalzahlen",
+        "folder": "addition-und-subtraktion-von-dezimalzahlen-151"
+      },
+      {
+        "id": "748",
+        "title": "Dezimalzahlen addieren und subtrahieren",
+        "folder": "dezimalzahlen-addieren-und-subtrahieren-748"
+      },
+      {
+        "id": "750",
+        "title": "Dezimalzahlen multiplizieren",
+        "folder": "dezimalzahlen-multiplizieren-750"
+      },
+      {
+        "id": "749",
+        "title": "Dezimalzahlen dividieren",
+        "folder": "dezimalzahlen-dividieren-749"
+      },
+      {
+        "id": "150",
+        "title": "Division von Dezimalzahlen",
+        "folder": "division-von-dezimalzahlen-150"
+      },
+      {
+        "id": "163",
+        "title": "Multiplikation von Dezimalzahlen",
+        "folder": "teiler-einer-zahl-finden-schwer-163"
+      },
+      {
+        "id": "727",
+        "title": "kurs Dezimalzahlen addieren und subtrahieren Level 1",
+        "folder": "kurs-dezimalzahlen-addieren-und-subtrahieren-level-1-727"
+      },
+      {
+        "id": "728",
+        "title": "kurs Dezimalzahlen addieren und subtrahieren Level 2",
+        "folder": "kurs-dezimalzahlen-addieren-und-subtrahieren-level-2-728"
+      },
+      {
+        "id": "730",
+        "title": "kurs Dezimalzahlen multiplizieren Level 1",
+        "folder": "kurs-dezimalzahlen-multiplizieren-level-1-730"
+      },
+      {
+        "id": "731",
+        "title": "kurs Dezimalzahlen multiplizieren Level 2",
+        "folder": "kurs-dezimalzahlen-multiplizieren-level-2-731"
+      },
+      {
+        "id": "733",
+        "title": "kurs Dezimalzahlen dividieren Level 1",
+        "folder": "kurs-dezimalzahlen-dividieren-level-1-733"
+      },
+      {
+        "id": "734",
+        "title": "kurs Dezimalzahlen dividieren Level 2",
+        "folder": "kurs-dezimalzahlen-dividieren-level-2-734"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=dezimalzahlen+rechnen&t=1118"
+  },
+  "klapustri-und-vorrangregeln": {
+    "slug": "klapustri-und-vorrangregeln",
+    "title": "Vorrangregeln: KlaPuStri & Gleitkommazahlen",
+    "category": "Zahlen und Rechnen",
+    "shortDesc": "Klammer vor Punkt vor Strich, gemischte Rechenausdrücke mit Dezimalzahlen und Gleitkommadarstellung.",
+    "longDesc": "Die mathematischen Vorrangregeln ordnen das Rechnen eindeutig: 'Kla-Pu-Stri' steht für Klammern zuerst, dann Punktrechnung (Multiplikation, Division), zuletzt Strichrechnung (Addition, Subtraktion). Bei wissenschaftlichen Zahlen kommt die Gleitkommadarstellung zum Einsatz.",
+    "keyPoints": [
+      "KlaPuStri-Regel: 1. Klammern berechnen (von innen nach außen), 2. Punktrechnung (· und :), 3. Strichrechnung (+ und -)",
+      "Rechnen von links nach rechts bei gleichrangigen Operationen",
+      "Gleitkommadarstellung (wissenschaftliche Notation): Zahl als Produkt aus Mantisse (zwischen 1 und 10) und Zehnerpotenz (z. B. 3,5 · 10⁶)",
+      "Vorzeichenregeln bei gemischten Rechenausdrücken sicher anwenden"
+    ],
+    "exercises": [
+      {
+        "id": "148",
+        "title": "Kla-Pu-Stri-Aufgaben mit Dezimalzahlen",
+        "folder": "kla-pu-stri-aufgaben-mit-dezimalzahlen-148"
+      },
+      {
+        "id": "752",
+        "title": "KlaPuStri mit Dezimalzahlen",
+        "folder": "klapustri-mit-dezimalzahlen-752"
+      },
+      {
+        "id": "149",
+        "title": "Gemischte Aufgaben mit Dezimalzahlen",
+        "folder": "gemischte-aufgaben-mit-dezimalzahlen-149"
+      },
+      {
+        "id": "736",
+        "title": "kurs KlaPuStri mit Dezimalzahlen Level 1",
+        "folder": "kurs-klapustri-mit-dezimalzahlen-level-1-736"
+      },
+      {
+        "id": "737",
+        "title": "kurs KlaPuStri mit Dezimalzahlen Level 2",
+        "folder": "kurs-klapustri-mit-dezimalzahlen-level-2-737"
+      },
+      {
+        "id": "738",
+        "title": "kurs KlaPuStri mit Dezimalzahlen Level 3",
+        "folder": "kurs-klapustri-mit-dezimalzahlen-level-3-738"
+      },
+      {
+        "id": "153",
+        "title": "KlaPuStri-Aufgaben mit Komma",
+        "folder": "klapustri-aufgaben-mit-komma-153"
+      },
+      {
+        "id": "152",
+        "title": "Gleitkommadarstellung",
+        "folder": "gleitkommadarstellung-152"
+      },
+      {
+        "id": "147",
+        "title": "Gleitkommadarstellung Zuordnungsübung",
+        "folder": "gleitkommadarstellung-zuordnungsubung-147"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=klapustri+vorrangregeln&t=1118"
+  },
+  "binomische-formeln-und-klammern": {
+    "slug": "binomische-formeln-und-klammern",
+    "title": "Binomische Formeln & Klammerterme",
+    "category": "Algebra",
+    "shortDesc": "Klammern ausmultiplizieren, Monom mal Binom, 1., 2. und 3. binomische Formel und Faktorisieren.",
+    "longDesc": "Klammern strukturieren algebraische Ausdrücke. Lerne das Ausmultiplizieren von Summen und Differenzen sowie die drei berühmten binomischen Formeln – unverzichtbare Werkzeuge für Gleichungen und höhere Mathematik.",
+    "keyPoints": [
+      "Distributivgesetz: a · (b + c) = a·b + a·c ('jeder Summand mit jedem')",
+      "1. Binomische Formel (Plus-Formel): (a + b)² = a² + 2ab + b²",
+      "2. Binomische Formel (Minus-Formel): (a - b)² = a² - 2ab + b²",
+      "3. Binomische Formel (Plus-Minus-Formel): (a + b) · (a - b) = a² - b²",
+      "Faktorisieren (Ausklammern): Umkehrung des Ausmultiplizierens; Herausheben des größten gemeinsamen Faktors"
+    ],
+    "exercises": [
+      {
+        "id": "236",
+        "title": "Terme mit Klammern (Erklärvideos und Übungen)",
+        "folder": "terme-mit-klammern-erklarvideos-und-bungen-236"
+      },
+      {
+        "id": "774",
+        "title": "Terme mit Klammern addieren und subtrahieren",
+        "folder": "terme-mit-klammern-addieren-und-subtrahieren-2-774"
+      },
+      {
+        "id": "775",
+        "title": "Terme mit Klammern multiplizieren (Monom mal Binom)",
+        "folder": "terme-mit-klammern-multiplizieren-monom-mal-binom-775"
+      },
+      {
+        "id": "776",
+        "title": "Terme mit Klammern multiplizieren (Binom mal Binom)",
+        "folder": "terme-mit-klammern-multiplizieren-binom-mal-binom-776"
+      },
+      {
+        "id": "375",
+        "title": "Herausheben gemeinsamer Faktoren",
+        "folder": "herausheben-gemeinsamer-faktoren-2-375"
+      },
+      {
+        "id": "777",
+        "title": "Binomische Formeln",
+        "folder": "binomische-formeln-4-777"
+      },
+      {
+        "id": "94",
+        "title": "Binomische Formeln 1",
+        "folder": "binomische-formeln-1-94"
+      },
+      {
+        "id": "95",
+        "title": "Binomische Formeln 2",
+        "folder": "binomische-formeln-2-95"
+      },
+      {
+        "id": "96",
+        "title": "Binomische Formeln ergänzen",
+        "folder": "binomische-formeln-erganzen-96"
+      },
+      {
+        "id": "231",
+        "title": "Übungen zur ersten binomischen Formel",
+        "folder": "bungen-zur-ersten-binomischen-formel-231"
+      },
+      {
+        "id": "230",
+        "title": "Übungen zur zweiten binomischen Formel",
+        "folder": "bungen-zur-zweiten-binomischen-formel-230"
+      },
+      {
+        "id": "229",
+        "title": "Übungen zur dritten binomischen Formel",
+        "folder": "bungen-zur-dritten-binomischen-formel-229"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=binomische+formeln&t=1118"
+  },
+  "brueche-grundrechenarten-und-dezimalbrueche": {
+    "slug": "brueche-grundrechenarten-und-dezimalbrueche",
+    "title": "Brüche: Grundrechenarten & Dezimalbrüche",
+    "category": "Zahlen und Rechnen",
+    "shortDesc": "Brüche addieren, subtrahieren, multiplizieren, dividieren, KlaPuStri und Umwandlung in Dezimalzahlen.",
+    "longDesc": "Lerne das Rechnen mit Brüchen: Gleichnamig machen durch den Hauptnenner bei Addition und Subtraktion, 'Zähler mal Zähler, Nenner mal Nenner' bei der Multiplikation und Multiplizieren mit dem Kehrwert bei der Division.",
+    "keyPoints": [
+      "Addition & Subtraktion: Brüche müssen gleichnamig sein (gleicher Nenner); Zähler addieren/subtrahieren, Nenner beibehalten",
+      "Hauptnenner: Kleinstes gemeinsames Vielfaches (kgV) der Nenner",
+      "Multiplikation: Zähler mal Zähler, Nenner mal Nenner; vor dem Ausmultiplizieren immer kürzen!",
+      "Division: Mit dem Kehrwert multiplizieren (Zähler und Nenner des zweiten Bruchs vertauschen)",
+      "Bruch zu Dezimalzahl: Zähler geteilt durch Nenner rechnen (z. B. 3/4 = 3 : 4 = 0,75)"
+    ],
+    "exercises": [
+      {
+        "id": "41",
+        "title": "Brüche addieren und subtrahieren",
+        "folder": "bruche-addieren-und-subtrahieren-41"
+      },
+      {
+        "id": "42",
+        "title": "Brüche multiplizieren und dividieren",
+        "folder": "bruche-multiplizieren-und-dividieren-42"
+      },
+      {
+        "id": "43",
+        "title": "KlaPuStri-Aufgaben mit Brüchen",
+        "folder": "klapustri-aufgaben-mit-bruchen-43"
+      },
+      {
+        "id": "927",
+        "title": "Bruchrechnen - Additionen und Subtraktionen",
+        "folder": "bruchrechnen-additionen-und-subtraktionen-927"
+      },
+      {
+        "id": "925",
+        "title": "Bruchrechnen - Brüche multiplizieren und dividieren",
+        "folder": "bruchrechnen-bruche-multiplizieren-und-dividieren-925"
+      },
+      {
+        "id": "38",
+        "title": "Brüche und Dezimalzahlen",
+        "folder": "bruche-und-dezimalzahlen-38"
+      },
+      {
+        "id": "39",
+        "title": "Brüche und Dezimalzahlen (Memory)",
+        "folder": "bruche-und-dezimalzahlen-memory-39"
+      },
+      {
+        "id": "40",
+        "title": "Brüche und Dezimalzahlen (Memory 2)",
+        "folder": "bruche-und-dezimalzahlen-memory-2-40"
+      },
+      {
+        "id": "44",
+        "title": "Brüche und Dezimalzahlen",
+        "folder": "bruche-und-dezimalzahlen-2-44"
+      },
+      {
+        "id": "745",
+        "title": "Brüche und Dezimalzahlen",
+        "folder": "bruche-und-dezimalzahlen-3-745"
+      },
+      {
+        "id": "926",
+        "title": "Bruchrechnen - Brüche und Dezimalzahlen",
+        "folder": "bruchrechnen-bruche-und-dezimalzahlen-926"
+      },
+      {
+        "id": "725",
+        "title": "Studypoint - Bruchrechnen",
+        "folder": "studypoint-bruchrechnen-725"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=brueche+grundrechenarten&t=1118"
+  },
+  "primzahlen-ggt-und-kgv": {
+    "slug": "primzahlen-ggt-und-kgv",
+    "title": "Primzahlen, ggT & kgV",
+    "category": "Zahlen und Rechnen",
+    "shortDesc": "Primzahlen erkennen, Primfaktorzerlegung, größter gemeinsamer Teiler (ggT) und kleinstes gemeinsames Vielfaches (kgV).",
+    "longDesc": "Primzahlen sind die unteilbaren Atome der Arithmetik. Mit der Primfaktorzerlegung lassen sich der größte gemeinsame Teiler (ggT) zum Kürzen von Brüchen und das kleinste gemeinsame Vielfache (kgV) zur Bestimmung des Hauptnenners elegant berechnen.",
+    "keyPoints": [
+      "Primzahl: Natürliche Zahl größer als 1, die nur durch 1 und sich selbst teilbar ist (2, 3, 5, 7, 11, 13, 17, 19...)",
+      "Primfaktorzerlegung: Jede zusammengesetzte Zahl lässt sich eindeutig als Produkt von Primzahlen darstellen",
+      "ggT (Größter gemeinsamer Teiler): Produkt aller gemeinsamen Primfaktoren; wichtig beim Kürzen von Brüchen",
+      "kgV (Kleinstes gemeinsames Vielfaches): Kleinste Zahl, die Vielfaches beider Zahlen ist; wichtig als Hauptnenner",
+      "Euklidischer Algorithmus: Historisches und effizientes Verfahren zur Bestimmung des ggT"
+    ],
+    "exercises": [
+      {
+        "id": "174",
+        "title": "ggT und kgV",
+        "folder": "teilbarkeitsregeln-richtig-oder-falsch-174"
+      },
+      {
+        "id": "177",
+        "title": "Primzahlen",
+        "folder": "primzahlen-177"
+      },
+      {
+        "id": "247",
+        "title": "Größte gemeinsame Teiler bestimmen",
+        "folder": "groeste-gemeinsame-teiler-bestimmen-247"
+      },
+      {
+        "id": "852",
+        "title": "ggT (Level 1)",
+        "folder": "ggt-level-1-852"
+      },
+      {
+        "id": "855",
+        "title": "kgV (Level 1)",
+        "folder": "kgv-level-1-855"
+      },
+      {
+        "id": "248",
+        "title": "kleinste gemeinsame Vielfache bestimmen",
+        "folder": "kleinste-gemeinsame-vielfache-bestimmen-248"
+      },
+      {
+        "id": "860",
+        "title": "kgV, ggT, Primzahlen (Level 1)",
+        "folder": "kgv-ggt-primzahlen-level-1-860"
+      },
+      {
+        "id": "861",
+        "title": "kgV, ggT, Primzahlen (Level 2)",
+        "folder": "kgv-ggt-primzahlen-level-2-861"
+      },
+      {
+        "id": "862",
+        "title": "kgV, ggT, Primzahlen (Level 3)",
+        "folder": "kgv-ggt-primzahlen-level-3-862"
+      },
+      {
+        "id": "865",
+        "title": "Primzahlen (Level 1)",
+        "folder": "primzahlen-level-1-865"
+      },
+      {
+        "id": "864",
+        "title": "Primzahlen (Level 2)",
+        "folder": "primzahlen-level-2-864"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=primzahlen+ggt+kgv&t=1118"
   }
 };
