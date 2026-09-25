@@ -57,7 +57,7 @@ export default function DeutschOverviewPage() {
               Sprachgewandt und literatursicher: Von den Grundregeln der deutschen Grammatik (Wortarten, Satzglieder, Kommasetzung) und den 6 Zeitformen des Verbs über die großen Epochen der Literaturgeschichte bis hin zu Meisterwerken und Tiefeninterpretationen von Goethe, Schiller, Lessing, Büchner, Kafka, Fontane, Thomas Mann und Jenny Erpenbeck.
             </p>
             <p className="math-page-note">
-              Mit präzisen Erklärungen, Lektüreschlüsseln, Gedichtsanalysen und über 130 interaktiven H5P-Übungen.
+              Mit präzisen Erklärungen, Lektüreschlüsseln, Gedichtsanalysen, Schreibwerkstätten und über 300 interaktiven H5P-Übungen.
             </p>
           </div>
           <div className="math-mascot">
