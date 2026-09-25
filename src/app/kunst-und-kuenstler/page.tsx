@@ -57,7 +57,7 @@ export default function KunstOverviewPage() {
               Kreativität, Epochen und Meisterwerke: Von Renaissance, Barock, Impressionismus und Moderne über berühmte Gemälde und Skulpturen bis hin zu künstlerischen Techniken, Medien, Darstellungsformen und räumlicher Wahrnehmung.
             </p>
             <p className="math-page-note">
-              Mit Bildanalysen, Stilmerkmalen, Biografien und interaktiven H5P-Übungen zu allen Kunstrichtungen.
+              Mit über 180 interaktiven H5P-Übungen, Meisterwerkanalysen, Epochenüberblicken von der Antike bis zur Gegenwart, Künstlerbiografien und Gestaltungstechniken.
             </p>
           </div>
           <div className="math-mascot">
