@@ -2,10 +2,9 @@ import type { Metadata } from 'next';
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { lehrberufeTopics } from '@/lib/lehrberufe-data';
+import { lehrberufeTopics, lehrberufeCategories } from '@/lib/lehrberufe-data';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-
 
 export const metadata: Metadata = {
   title: 'Lehrberufe & Berufsorientierung – Themen, Erklärungen & interaktive Übungen',
@@ -57,7 +56,7 @@ export default function LehrberufeOverviewPage() {
               Finde deinen passenden Weg in die Arbeitswelt: Alles über das duale Ausbildungssystem, handwerkliche, technische, kaufmännische und soziale Berufe sowie Tipps für die perfekte Bewerbung und deine Rechte als Azubi.
             </p>
             <p className="math-page-note">
-              Mit anschaulichen Erklärungen, Merksätzen und interaktiven H5P-Übungsmodulen.
+              Mit anschaulichen Erklärungen, Merksätzen und 58 interaktiven H5P-Übungsmodulen.
             </p>
           </div>
           <div className="math-mascot">
@@ -72,34 +71,48 @@ export default function LehrberufeOverviewPage() {
           </div>
         </section>
 
-        
+        {/* Categories & Topics Grid */}
+        {lehrberufeCategories.map((categoryName) => {
+          const categoryTopics = allTopics.filter(
+            (t) => t.category === categoryName
+          );
+          if (categoryTopics.length === 0) return null;
 
-        {/* Direct Topics Grid */}
-        <section className="math-category-section">
-            <div className="math-grid">
-              {allTopics.map((topic) => (
-                <Link
-                  key={topic.slug}
-                  href={`/lehrberufe/${topic.slug}`}
-                  className="math-card"
-                >
-                  <div className="math-card-header">
-                    <h3 className="math-card-title">{topic.title}</h3>
-                    {topic.exercises.length > 0 && (
-                      <span className="math-badge">
-                        {topic.exercises.length}{' '}
-                        {topic.exercises.length === 1 ? 'Übung' : 'Übungen'}
-                      </span>
-                    )}
-                  </div>
-                  <p className="math-card-desc">{topic.shortDesc}</p>
-                  <div className="math-card-footer">
-                    <span className="math-open-btn">Thema öffnen ➔</span>
-                  </div>
-                </Link>
-              ))}
-            </div>
-          </section>
+          return (
+            <section
+              key={categoryName}
+              id={categoryName}
+              className="math-category-section"
+              style={{ scrollMarginTop: 80 }}
+            >
+              <h2 className="math-category-title">{categoryName}</h2>
+              <div className="math-grid">
+                {categoryTopics.map((topic) => (
+                  <Link
+                    key={topic.slug}
+                    href={`/lehrberufe/${topic.slug}`}
+                    className="math-card"
+                  >
+                    <div className="math-card-header">
+                      <h3 className="math-card-title">{topic.title}</h3>
+                      {topic.exercises.length > 0 && (
+                        <span className="math-badge">
+                          {topic.exercises.length}{' '}
+                          {topic.exercises.length === 1 ? 'Übung' : 'Übungen'}
+                        </span>
+                      )}
+                    </div>
+                    <p className="math-card-desc">{topic.shortDesc}</p>
+                    <div className="math-card-footer">
+                      <span className="math-open-btn">Thema öffnen ➔</span>
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            </section>
+          );
+        })}
+
         {/* Eduki Material Box */}
         <section className="info-box-section" style={{ marginTop: '40px' }}>
           <h3>Arbeitsblätter, Arbeitshefte und weiteres Lernmaterial</h3>
