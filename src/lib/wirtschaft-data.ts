@@ -211,6 +211,11 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "id": "bedingungsloses-grundeinkommen-pro-und-contra",
         "title": "Bedingungsloses Grundeinkommen Pro und Contra",
         "folder": "bedingungsloses-grundeinkommen-pro-und-contra"
+      },
+      {
+        "id": "3185",
+        "title": "Escape Room: Wirtschaftsformen",
+        "folder": "escape-room-quot-wirtschaftsformen-quot-3185"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=marktwirtschaft+planwirtschaft&t=3752"
@@ -278,6 +283,16 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "id": "zielkonflikte-und-zielharmonien",
         "title": "Zielkonflikte und Zielharmonien",
         "folder": "zielkonflikte-und-zielharmonien"
+      },
+      {
+        "id": "3473",
+        "title": "Altersarmut und Generationengerechtigkeit",
+        "folder": "altersarmut-und-generationengerechtigkeit-3473"
+      },
+      {
+        "id": "vier-tage-woche",
+        "title": "Die Vier-Tage-Woche – Radikaler Wohlstand oder wirtschaftlicher Selbstmord",
+        "folder": "die-vier-tage-woche-radikaler-wohlstand-oder-wirtschaftlicher-selbstmord"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Die%20Soziale%20Marktwirtschaft%20in%20Deutschland+wirtschaft&t=3752"
@@ -350,6 +365,26 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "id": "staatliche-mindestpreise-und-hoechstpreise",
         "title": "Staatliche Mindestpreise und Höchstpreise",
         "folder": "staatliche-mindestpreise-und-hoechstpreise"
+      },
+      {
+        "id": "2875",
+        "title": "Marktformen: Funktionen und Arten von Märkten",
+        "folder": "marktformen-funktionen-und-arten-von-markten-2875"
+      },
+      {
+        "id": "2877",
+        "title": "Angebotsmonopol 1: Tabellarische Gewinnmaximierung",
+        "folder": "angebotsmonopol-1-tabellarische-gewinnmaximierung-2877"
+      },
+      {
+        "id": "2878",
+        "title": "Angebotsmonopol 2: Grafische Gewinnmaximierung (Gesamtbetrachtung)",
+        "folder": "angebotsmonopol-2-grafische-gewinnmaximierung-gesamtbetrachtung-2878"
+      },
+      {
+        "id": "2879",
+        "title": "Angebotsmonopol 3: Grafische Gewinnmaximierung (Stückbetrachtung)",
+        "folder": "angebotsmonopol-3-grafische-gewinnmaximierung-stuckbetrachtung-2879"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Markt%2C%20Angebot%2C%20Nachfrage%20%26%20Preisbildung+wirtschaft&t=3752"
@@ -421,6 +456,11 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "id": "sepa-lastschrift-und-ueberweisung",
         "title": "SEPA Lastschrift und Überweisung",
         "folder": "sepa-lastschrift-und-ueberweisung"
+      },
+      {
+        "id": "bankensystem-funktion",
+        "title": "Wie funktioniert das Bankensystem",
+        "folder": "wie-funktioniert-das-bankensystem"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Geld%2C%20Bankensystem%20%26%20Zahlungsverkehr+wirtschaft&t=3752"
@@ -493,6 +533,11 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "id": "ursachen-fuer-konjunkturschwankungen",
         "title": "Ursachen für Konjunkturschwankungen",
         "folder": "ursachen-fuer-konjunkturschwankungen"
+      },
+      {
+        "id": "6600",
+        "title": "Die Inflation und ihre Folgen",
+        "folder": "die-inflation-und-ihre-folgen-6600"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=EZB%2C%20Geldpolitik%2C%20Inflation%20%26%20Deflation+wirtschaft&t=3752"
@@ -559,6 +604,16 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "id": "zinsrechnung-und-zinseszins",
         "title": "Zinsrechnung und Zinseszins",
         "folder": "zinsrechnung-und-zinseszins"
+      },
+      {
+        "id": "aktienmarkt-funktion",
+        "title": "Wie funktioniert der Aktienmarkt",
+        "folder": "wie-funktioniert-der-aktienmarkt"
+      },
+      {
+        "id": "3194",
+        "title": "Escape Room: Bank und Börse",
+        "folder": "escape-room-quot-bank-und-borse-quot-3194"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Wertpapiere%2C%20Aktien%2C%20ETFs%20%26%20B%C3%B6rsenhandel+wirtschaft&t=3752"
@@ -779,6 +834,11 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "id": "waehrungsraeume-und-der-us-dollar",
         "title": "Währungsräume und der US Dollar",
         "folder": "waehrungsraeume-und-der-us-dollar"
+      },
+      {
+        "id": "4661",
+        "title": "Zölle und Auswirkungen auf die Wirtschaft",
+        "folder": "zolle-und-auswirkungen-auf-die-wirtschaft-4661"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Freihandel%2C%20Protektionismus%20%26%20WTO%2C%20IWF%2C%20Weltbank+wirtschaft&t=3752"
@@ -1296,6 +1356,21 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "id": "rechte-und-pflichten-des-kaufmanns",
         "title": "Rechte und Pflichten des Kaufmanns",
         "folder": "rechte-und-pflichten-des-kaufmanns"
+      },
+      {
+        "id": "3195",
+        "title": "Escape Room: Unternehmen",
+        "folder": "escape-room-quot-unternehmen-quot-3195"
+      },
+      {
+        "id": "3196",
+        "title": "Escape Room: Unternehmensgründung",
+        "folder": "escape-room-quot-unternehmensgrundung-quot-3196"
+      },
+      {
+        "id": "startup-gruender",
+        "title": "Wirtschaftsmotor Start-up – Warum junge Gründer unsere Zukunft retten",
+        "folder": "wirtschaftsmotor-start-up-warum-junge-gruender-unsere-zukunft-retten"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Rechtsformen%20von%20Unternehmen%3A%20Einzelunternehmen%2C%20GmbH%20%26%20AG+wirtschaft&t=3752"
@@ -1515,6 +1590,11 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "id": "distributionspolitik-absatzwege-und-logistik",
         "title": "Distributionspolitik Absatzwege und Logistik",
         "folder": "distributionspolitik-absatzwege-und-logistik"
+      },
+      {
+        "id": "buchcover-kaufverhalten",
+        "title": "Wie Buchcover unser Kaufverhalten steuern",
+        "folder": "wie-buchcover-unser-kaufverhalten-steuern"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=produktpolitik+preispolitik&t=3752"
@@ -1872,6 +1952,11 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "id": "rentabilitaetsrechnung-fuer-investitionen",
         "title": "Rentabilitätsrechnung für Investitionen",
         "folder": "rentabilitaetsrechnung-fuer-investitionen"
+      },
+      {
+        "id": "3231",
+        "title": "Escape Room: Statische Investitionsrechnung",
+        "folder": "escape-room-quot-statische-investitionsrechnung-quot-3231"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Rechnungswesen%3A%20Inventur%2C%20Bilanz%20%26%20GuV+wirtschaft&t=3752"
@@ -1928,6 +2013,16 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "id": "lohnsteuerklassen-von-eins-bis-sechs",
         "title": "Lohnsteuerklassen von eins bis sechs",
         "folder": "lohnsteuerklassen-von-eins-bis-sechs"
+      },
+      {
+        "id": "4655",
+        "title": "So funktionieren Staatsschulden",
+        "folder": "so-funktionieren-staatsschulden-4655"
+      },
+      {
+        "id": "bundeshaushaltsplan",
+        "title": "Der Bundeshaushaltsplan in Deutschland",
+        "folder": "der-bundeshaushaltsplan-in-deutschland"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Das%20deutsche%20Steuersystem%3A%20Einkommen-%2C%20Umsatz-%20%26%20Gewerbesteuer+wirtschaft&t=3752"
