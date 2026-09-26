@@ -1609,6 +1609,11 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "263",
         "title": "Uhrzeit (Viertelstunden)",
         "folder": "uhrzeit-ganze-stunden-2-263"
+      },
+      {
+        "id": "264",
+        "title": "Uhrzeit (volle Stunden)",
+        "folder": "koordinatensystem-positiver-bereich-264"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=zeit&t=1118"
@@ -2255,6 +2260,16 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "229",
         "title": "Übungen zur dritten binomischen Formel",
         "folder": "bungen-zur-dritten-binomischen-formel-229"
+      },
+      {
+        "id": "91",
+        "title": "Monom mal Binom",
+        "folder": "monom-mal-binom-2-91"
+      },
+      {
+        "id": "89",
+        "title": "Terme mit Klammern addieren und subtrahieren",
+        "folder": "terme-mit-klammern-addieren-und-subtrahieren-89"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=binomische+formeln&t=1118"
@@ -2327,6 +2342,11 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "926",
         "title": "Bruchrechnen - Brüche und Dezimalzahlen",
         "folder": "bruchrechnen-bruche-und-dezimalzahlen-926"
+      },
+      {
+        "id": "386",
+        "title": "Bruchrechnen",
+        "folder": "bruchrechnen-386"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=brueche+grundrechenarten&t=1118"
@@ -2404,6 +2424,36 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "863",
         "title": "Primzahlen (Level 3)",
         "folder": "primzahlen-level-3-863"
+      },
+      {
+        "id": "853",
+        "title": "ggT (Level 2)",
+        "folder": "ggt-level-2-853"
+      },
+      {
+        "id": "854",
+        "title": "ggT (Level 3)",
+        "folder": "ggt-level-3-854"
+      },
+      {
+        "id": "856",
+        "title": "kgV (Level 2)",
+        "folder": "kgv-level-2-856"
+      },
+      {
+        "id": "857",
+        "title": "kgV (Level 3)",
+        "folder": "kgv-level-3-857"
+      },
+      {
+        "id": "858",
+        "title": "kgV und ggT (Level 1)",
+        "folder": "kgv-und-ggt-level-1-858"
+      },
+      {
+        "id": "859",
+        "title": "kgV und ggT (Level 2)",
+        "folder": "kgv-und-ggt-level-2-859"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=primzahlen+ggt+kgv&t=1118"
