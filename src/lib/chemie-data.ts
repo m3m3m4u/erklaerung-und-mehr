@@ -250,6 +250,11 @@ export const chemieTopics: Record<string, ChemieTopic> = {
         "id": "7133",
         "title": "Wie funktioniert ein Feuerzeug",
         "folder": "wie-funktioniert-ein-feuerzeug"
+      },
+      {
+        "id": "5181",
+        "title": "Synthesen, Analysen und Austauschreaktionen",
+        "folder": "synthesen-analysen-und-austauschreaktionen-5181"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=chemische+reaktionen+katalysator&t=3752"
@@ -279,11 +284,6 @@ export const chemieTopics: Record<string, ChemieTopic> = {
         "folder": "essigsaure-ethansaure-5159"
       },
       {
-        "id": "5142",
-        "title": "Carbonsäuren - Organische Säuren im Alltag",
-        "folder": "carbonsauren-5142"
-      },
-      {
         "id": "5147",
         "title": "Baukalk und Löschkalk - Basen und Neutralisation",
         "folder": "der-baustoff-baukalk-loschkalk-5147"
@@ -292,11 +292,6 @@ export const chemieTopics: Record<string, ChemieTopic> = {
         "id": "2181",
         "title": "Bodenversauerung und Kalkung - pH-Wert und Bodenneutralisation",
         "folder": "bodenversauerung-und-kalkung-2181"
-      },
-      {
-        "id": "entsalzung",
-        "title": "Wie funktioniert die Entsalzung von Meerwasser?",
-        "folder": "wie-funktioniert-die-entsalzung-von-meerwasser"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=saeuren+basen+salze&t=3752"
@@ -377,11 +372,6 @@ export const chemieTopics: Record<string, ChemieTopic> = {
       "Vorteile von Legierungen: Erhöhte Festigkeit, Härte, Korrosionsbeständigkeit oder spezifische Schmelzpunkte"
     ],
     "exercises": [
-      {
-        "id": "699",
-        "title": "Metalle",
-        "folder": "studypoint-worter-markieren-metalle-699"
-      },
       {
         "id": "571",
         "title": "Legierungs- und Begleitelemente",
@@ -510,6 +500,16 @@ export const chemieTopics: Record<string, ChemieTopic> = {
         "id": "7061",
         "title": "Wie funktioniert eine Brennstoffzelle",
         "folder": "wie-funktioniert-ein-brennstoffzelle"
+      },
+      {
+        "id": "570",
+        "title": "Lerninhalt: Korrosion",
+        "folder": "lerninhalt-korrosion-570"
+      },
+      {
+        "id": "569",
+        "title": "Lerninhalt: Korrosionsschutz",
+        "folder": "lerninhalt-korrosionsschutz-569"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=elektrochemie+korrosion&t=3752"
@@ -556,7 +556,7 @@ export const chemieTopics: Record<string, ChemieTopic> = {
       {
         "id": "7145",
         "title": "Wie funktioniert die Raffination von Erdöl",
-        "folder": "alternative-treibstoffe-5139"
+        "folder": "wie-funktioniert-die-raffination-von-erdoel"
       },
       {
         "id": "5139",
@@ -696,7 +696,7 @@ export const chemieTopics: Record<string, ChemieTopic> = {
       {
         "id": "7143",
         "title": "Wie funktioniert die Herstellung von Bier und Wein",
-        "folder": "mineralstoffe-935"
+        "folder": "wie-funktioniert-die-herstellung-von-bier-und-wein"
       },
       {
         "id": "935",
@@ -707,6 +707,11 @@ export const chemieTopics: Record<string, ChemieTopic> = {
         "id": "2056",
         "title": "Holz - ein nachwachsender Rohstoff",
         "folder": "holz-ein-nachwachsender-rohstoff-2056"
+      },
+      {
+        "id": "gaerung",
+        "title": "Wie funktioniert die Gärung",
+        "folder": "wie-funktioniert-die-gaerung"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=gaerung+biochemie&t=3752"
@@ -816,11 +821,6 @@ export const chemieTopics: Record<string, ChemieTopic> = {
         "id": "3233",
         "title": "Escape Room \"Nährstoffe & Biochemie\"",
         "folder": "escape-room-quot-nahrstoffe-quot-3233"
-      },
-      {
-        "id": "601",
-        "title": "Die Sprache der Chemie - Symbole und Nomenklatur-Rätsel",
-        "folder": "lerninhalt-die-sprache-der-chemie-601"
       },
       {
         "id": "2238",
