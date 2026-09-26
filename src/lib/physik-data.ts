@@ -175,6 +175,11 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "id": "279",
         "title": "Auftrieb",
         "folder": "auftrieb-279"
+      },
+      {
+        "id": "bernoulli",
+        "title": "Wie funktioniert der Bernoulli-Effekt",
+        "folder": "wie-funktioniert-der-bernoulli-effekt"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=newton+gravitation&t=3752"
@@ -218,16 +223,6 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "id": "580",
         "title": "Energieformen und Energieumwandlung",
         "folder": "lerninhalt-energie-580"
-      },
-      {
-        "id": "schwerkraft",
-        "title": "Wie funktioniert die Schwerkraft?",
-        "folder": "wie-funktioniert-die-schwerkraft"
-      },
-      {
-        "id": "pumpspeicher",
-        "title": "Energiespeicherung durch Pumpspeicherwerke",
-        "folder": "wie-funktioniert-die-energiespeicherung-durch-pumpspeicherwerke"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=arbeit+energie+leistung&t=3752"
@@ -270,6 +265,11 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "id": "5325",
         "title": "Verschiedene Lichtquellen",
         "folder": "verschiedene-lichtquellen-5325"
+      },
+      {
+        "id": "laserstrahl",
+        "title": "Wie funktioniert ein Laserstrahl",
+        "folder": "wie-funktioniert-ein-laserstrahl"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=licht+schatten+optik&t=3752"
@@ -323,6 +323,21 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "id": "5328",
         "title": "Zerlegung des weißen Lichtes",
         "folder": "zerlegung-des-weiesen-lichtes-5328"
+      },
+      {
+        "id": "regenbogen",
+        "title": "Wie funktioniert ein Regenbogen",
+        "folder": "wie-funktioniert-ein-regenbogen"
+      },
+      {
+        "id": "2547",
+        "title": "Wie funktioniert ein Parabolspiegel",
+        "folder": "wie-funktioniert-ein-parabolspiegel-2547"
+      },
+      {
+        "id": "2549",
+        "title": "Wie funktioniert ein Periskop",
+        "folder": "wie-funktioniert-ein-periskop-2549"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=spiegel+farben+optik&t=3752"
@@ -391,6 +406,26 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "id": "5247",
         "title": "Bildentstehung bei Linsen",
         "folder": "bildentstehung-bei-linsen-5247"
+      },
+      {
+        "id": "2562",
+        "title": "Wie funktioniert ein Spektrometer",
+        "folder": "wie-funktioniert-ein-spektrometer-2562"
+      },
+      {
+        "id": "2565",
+        "title": "Wie funktioniert ein Teleskop",
+        "folder": "wie-funktioniert-ein-teleskop-2565"
+      },
+      {
+        "id": "2515",
+        "title": "Wie funktioniert ein Elektronenmikroskop",
+        "folder": "wie-funktioniert-ein-elektronenmikroskop-2515"
+      },
+      {
+        "id": "holographie",
+        "title": "Wie funktioniert die Holographie",
+        "folder": "wie-funktioniert-die-holographie"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=linsen+brechung+optik&t=3752"
@@ -438,6 +473,21 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "id": "5250",
         "title": "Das elektrische Feld",
         "folder": "das-elektrische-feld-5250"
+      },
+      {
+        "id": "299",
+        "title": "Der Stromkreis",
+        "folder": "der-stromkreis-299"
+      },
+      {
+        "id": "erdung",
+        "title": "Wie funktioniert die Erdung",
+        "folder": "wie-funktioniert-die-erdung"
+      },
+      {
+        "id": "blitz",
+        "title": "Wie funktioniert der Blitz",
+        "folder": "wie-funktioniert-der-blitz"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=elektrostatik+stromkreis&t=3752"
@@ -484,14 +534,19 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "folder": "wie-funktioniert-ein-relais-2555"
       },
       {
-        "id": "induktion-herd",
-        "title": "Wie funktioniert ein Induktionskochfeld?",
-        "folder": "wie-funktioniert-ein-induktionskochfeld"
-      },
-      {
         "id": "5257",
         "title": "Der elektrische Schwingkreis",
         "folder": "der-elektrische-schwingkreis-5257"
+      },
+      {
+        "id": "kondensator",
+        "title": "Wie funktioniert ein Kondensator",
+        "folder": "wie-funktioniert-ein-kondensator"
+      },
+      {
+        "id": "led",
+        "title": "Wie funktioniert eine LED",
+        "folder": "wie-funktioniert-eine-led"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=ohmsches+gesetz+widerstand&t=3752"
@@ -510,11 +565,6 @@ export const physikTopics: Record<string, PhysikTopic> = {
       "Kompass & Navigation: Die Magnetnadel richtet sich entlang der Feldlinien des Erdmagnetfelds aus"
     ],
     "exercises": [
-      {
-        "id": "688",
-        "title": "studypoint - drag the words - Magnetismus",
-        "folder": "studypoint-drag-the-words-magnetismus-688"
-      },
       {
         "id": "726",
         "title": "Versuche mit dem Magneten",
@@ -658,6 +708,11 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "id": "5291",
         "title": "Elektromagnetische Wellen",
         "folder": "elektromagnetische-wellen-5291"
+      },
+      {
+        "id": "2240",
+        "title": "Der elektrodynamische Lautsprecher",
+        "folder": "der-elektrodynamische-lautsprecher-2240"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=elektromotor+wellen&t=3752"
@@ -840,6 +895,11 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "id": "7134",
         "title": "Wie funktioniert die Seifenblase (Oberflächenspannung)",
         "folder": "wie-funktioniert-die-seifenblase-oberflaechenspannung"
+      },
+      {
+        "id": "barometer",
+        "title": "Wie funktioniert ein Barometer",
+        "folder": "wie-funktioniert-ein-barometer"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=waermelehre+temperatur&t=3752"
@@ -882,6 +942,11 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "id": "7057",
         "title": "Wie funktioniert eine Wärmepumpe",
         "folder": "wie-funktioniert-eine-waermepumpe"
+      },
+      {
+        "id": "2567",
+        "title": "Wie funktioniert ein Thermostat",
+        "folder": "wie-funktioniert-ein-thermostat-2567"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=waermepumpe+waermetransport&t=3752"
@@ -935,6 +1000,11 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "id": "7117",
         "title": "Wie funktioniert Ultraschall",
         "folder": "wie-funktioniert-ultraschall"
+      },
+      {
+        "id": "5317",
+        "title": "Schwingungen und Wellen",
+        "folder": "schwingungen-und-wellen-5317"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=akustik+schall&t=3752"
@@ -1030,6 +1100,11 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "id": "7149",
         "title": "Wie funktioniert eine Atomuhr",
         "folder": "wie-funktioniert-eine-atomuhr"
+      },
+      {
+        "id": "kernfusion",
+        "title": "Wie funktioniert die Kernfusion",
+        "folder": "wie-funktioniert-die-kernfusion"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=kernenergie+quantenphysik&t=3752"
@@ -1187,9 +1262,19 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "folder": "umweltuberwachung-durch-satellitentechnologie-5523"
       },
       {
-        "id": "4477",
-        "title": "Die Geburt der Erde - Entstehung von Himmelskörpern",
-        "folder": "die-geburt-der-erde-vom-staub-zum-planeten-4477"
+        "id": "schwarzes-loch",
+        "title": "Wie funktioniert ein schwarzes Loch",
+        "folder": "wie-funktioniert-ein-schwarzes-loch"
+      },
+      {
+        "id": "gps-atomuhren",
+        "title": "Funktionsweise von GPS durch Atomuhren im Weltraum",
+        "folder": "funktionsweise-von-gps-durch-atomuhren-im-weltraum"
+      },
+      {
+        "id": "2494",
+        "title": "Wie funktioniert ein Astrolabium",
+        "folder": "wie-funktioniert-ein-astrolabium-2494"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=kosmologie+urknall+sterne&t=3752"
@@ -1237,6 +1322,16 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "id": "5362",
         "title": "Die Geschichte der Physik",
         "folder": "die-geschichte-der-physik-5362"
+      },
+      {
+        "id": "594",
+        "title": "Lerninhalt: Dichte",
+        "folder": "lerninhalt-dichte-594"
+      },
+      {
+        "id": "vakuum",
+        "title": "Wie funktioniert das Vakuum",
+        "folder": "wie-funktioniert-das-vakuum"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=grundlagen+der+physik&t=3752"
