@@ -49,16 +49,6 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "begriffe-zuordnen-794"
       },
       {
-        "id": "617",
-        "title": "Additionen im Kopf lösen",
-        "folder": "additionen-im-kopf-losen-617"
-      },
-      {
-        "id": "618",
-        "title": "Additionen und Subtraktionen im Kopf lösen",
-        "folder": "additionen-und-subtraktionen-im-kopf-losen-618"
-      },
-      {
         "id": "160",
         "title": "Begriffe der Grundrechnungsarten (Quiz)",
         "folder": "textgleichungen-einfach-160"
@@ -212,16 +202,6 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "subtkopf",
         "title": "Subtraktionen im Kopf lösen",
         "folder": "subtraktionen-im-kopf-losen-626"
-      },
-      {
-        "id": "157",
-        "title": "Begriffe der Grundrechnungsarten",
-        "folder": "begriffe-der-grundrechnungsarten-157"
-      },
-      {
-        "id": "794",
-        "title": "Begriffe zuordnen",
-        "folder": "begriffe-zuordnen-794"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=schriftliches+rechnen&t=1118"
@@ -240,6 +220,11 @@ export const mathTopics: Record<string, MathTopic> = {
     ],
     "exercises": [
       {
+        "id": "115",
+        "title": "Das kleine 1x1 (Kopfrechnen mit 10)",
+        "folder": "das-kleine-1x1-115"
+      },
+      {
         "id": "116",
         "title": "Das kleine 1x1 (Rechenquiz)",
         "folder": "gleichungen-116"
@@ -248,21 +233,6 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "415",
         "title": "Das kleine 1x1 (Übungsstrecke)",
         "folder": "das-kleine-1x1-2-415"
-      },
-      {
-        "id": "621",
-        "title": "Multiplikationen im Kopf lösen",
-        "folder": "multiplikationen-im-kopf-losen-621"
-      },
-      {
-        "id": "623",
-        "title": "Multiplikationen und Divisionen im Kopf lösen",
-        "folder": "multiplikationen-und-divisionen-im-kopf-losen-623"
-      },
-      {
-        "id": "283",
-        "title": "Kopfrechnen: Multiplikation und Division mit Zehnerzahlen",
-        "folder": "kopfrechnen-multiplikation-und-division-mit-zehnerzahlen-ohne-komma-283"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=einmaleins&t=1118"
@@ -1035,11 +1005,6 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "385",
         "title": "Zylinder - Kegel - Kugel",
         "folder": "zylinder-kegel-kugel-385"
-      },
-      {
-        "id": "221",
-        "title": "Flächenformeln (inkl. Kreisfläche)",
-        "folder": "flachenformeln-2-221"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=kreis&t=1118"
@@ -1087,15 +1052,45 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "457",
         "title": "Aufrisse erkennen",
         "folder": "aufrisse-erkennen-457"
+      },
+      {
+        "id": "205",
+        "title": "Grundrisse 1",
+        "folder": "grundrisse-1-205"
+      },
+      {
+        "id": "206",
+        "title": "Grundrisse 2",
+        "folder": "grundrisse-2-206"
+      },
+      {
+        "id": "207",
+        "title": "Grundrisse 3",
+        "folder": "grundrisse-3-207"
+      },
+      {
+        "id": "208",
+        "title": "Grundrisse 4",
+        "folder": "grundrisse-4-208"
+      },
+      {
+        "id": "209",
+        "title": "Grundrisse 5",
+        "folder": "grundrisse-5-209"
+      },
+      {
+        "id": "458",
+        "title": "Kreuzrisse erkennen",
+        "folder": "kreuzrisse-erkennen-458"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=kopfgeometrie&t=1118"
   },
   "symmetrie": {
     "slug": "symmetrie",
-    "title": "Symmetrie, Spiegelungen & Raumvorstellung",
+    "title": "Symmetrie & Spiegelungen",
     "category": "Geometrie",
-    "shortDesc": "Achsensymmetrie, Punktspiegelung, Symmetrieachsen, Schrägbilder und Aufrisse.",
+    "shortDesc": "Achsensymmetrie, Punktsymmetrie, Symmetrieachsen und Spiegelungen.",
     "longDesc": "Symmetrie beschreibt die Eigenschaft von Figuren, durch bestimmte geometrische Operationen (Spiegelung, Drehung, Verschiebung) wieder exakt mit sich selbst zur Deckung gebracht zu werden.",
     "keyPoints": [
       "Achsensymmetrie (Spiegelsymmetrie): Eine Gerade (Spiegelachse) teilt die Figur in zwei deckungsgleiche Hälften",
@@ -1114,11 +1109,6 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "666",
         "title": "Spiegelungen (Achsensymmetrie 2)",
         "folder": "spiegelungen-achsensymmetrie-2-666"
-      },
-      {
-        "id": "457",
-        "title": "Aufrisse und Raumvorstellung erkennen",
-        "folder": "aufrisse-erkennen-457"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=symmetrie&t=1118"
@@ -1210,16 +1200,6 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "266",
         "title": "Koordinatensystem (positiver und negativer Bereich)",
         "folder": "einfuhrung-und-teilbereiche-266"
-      },
-      {
-        "id": "289",
-        "title": "Lineare Funktionen (Erklärvideo und Übungen)",
-        "folder": "lineare-funktionen-erklarvideo-und-bungen-289"
-      },
-      {
-        "id": "290",
-        "title": "Verschiedene Funktionen (Erklärvideo und Übungen)",
-        "folder": "verschiedene-funktionen-erklarvideo-und-bungen-290"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=koordinatensystem&t=1118"
@@ -1279,16 +1259,6 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "183",
         "title": "Satz von Pythagoras (im Deltoid) - Video mit Fragen",
         "folder": "satz-von-pythagoras-im-deltoid-video-mit-fragen-183"
-      },
-      {
-        "id": "98",
-        "title": "Pyramide und Satz von Pythagoras",
-        "folder": "pyramide-und-satz-von-pythagoras-98"
-      },
-      {
-        "id": "4178pyth",
-        "title": "Pythagoras von Samos",
-        "folder": "pythagoras-4178"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=pythagoras&t=1118"
@@ -1792,21 +1762,6 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "237",
         "title": "Binomische Formeln (Erklärvideo und Übungen)",
         "folder": "binomische-formeln-erklarvideo-und-bungen-237"
-      },
-      {
-        "id": "194",
-        "title": "Teilweise Wurzel ziehen mit Variablen",
-        "folder": "teilweise-wurzel-ziehen-mit-variablen-194"
-      },
-      {
-        "id": "193",
-        "title": "Teilweise Wurzel ziehen mit Zahlen",
-        "folder": "teilweise-wurzel-ziehen-mit-zahlen-193"
-      },
-      {
-        "id": "389",
-        "title": "Potenzen und Quadratwurzeln",
-        "folder": "potenzen-und-quadratwurzeln-389"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=bruchterme&t=1118"
@@ -1913,7 +1868,7 @@ export const mathTopics: Record<string, MathTopic> = {
     "slug": "schlussrechnen",
     "title": "Schlussrechnen, Dreisatz & Maßstab",
     "category": "Algebra",
-    "shortDesc": "Proportionale und antiproportionale Zuordnungen, Dreisatz und Maßstabsberechnungen.",
+    "shortDesc": "Proportionale und antiproportionale Zuordnungen sowie Dreisatz-Berechnungen.",
     "longDesc": "Das Schlussrechnen (Dreisatz) ist eine der nützlichsten Methoden der Schulmathematik. Es dient dazu, aus drei bekannten Werten eines proportionalen oder antiproportionalen Verhältnisses den vierten gesuchten Wert zu berechnen.",
     "keyPoints": [
       "Direktes Verhältnis (je mehr, desto mehr / je weniger, desto weniger): Quotient ist konstant (y / x = const.) ➔ z. B. Menge und Preis von Äpfeln",
@@ -1930,26 +1885,6 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "243",
         "title": "Schlussrechnungen im Kopf lösen",
         "folder": "schlussrechnungen-im-kopf-losen-243"
-      },
-      {
-        "id": "293",
-        "title": "Maßstab (Erklärvideo Übungen)",
-        "folder": "maesstab-erklarvideo-bungen-293"
-      },
-      {
-        "id": "240",
-        "title": "Übungen zum Maßstab (einfach)",
-        "folder": "bungen-zum-maesstab-einfach-240"
-      },
-      {
-        "id": "241",
-        "title": "Übungen zum Maßstab (mittel)",
-        "folder": "bungen-zum-maesstab-mittel-241"
-      },
-      {
-        "id": "242",
-        "title": "Übungen zum Maßstab (schwer)",
-        "folder": "bungen-zum-maesstab-schwer-242"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=schlussrechnung&t=1118"
@@ -1978,6 +1913,11 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "additionen-und-subtraktionen-im-kopf-losen-618"
       },
       {
+        "id": "619",
+        "title": "Grundrechnungsarten im Kopf lösen",
+        "folder": "grundrechnungsarten-im-kopf-losen-619"
+      },
+      {
         "id": "621",
         "title": "Multiplikationen im Kopf lösen",
         "folder": "multiplikationen-im-kopf-losen-621"
@@ -1988,24 +1928,14 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "multiplikationen-und-divisionen-im-kopf-losen-623"
       },
       {
-        "id": "794",
-        "title": "Begriffe zuordnen",
-        "folder": "begriffe-zuordnen-794"
-      },
-      {
-        "id": "457",
-        "title": "Aufrisse erkennen",
-        "folder": "aufrisse-erkennen-457"
-      },
-      {
         "id": "113",
         "title": "Zahlen runden",
         "folder": "dezimalzahlen-runden-113"
       },
       {
-        "id": "115",
-        "title": "Kopfrechnen mit 10",
-        "folder": "das-kleine-1x1-115"
+        "id": "456",
+        "title": "Grundrisse erkennen",
+        "folder": "grundrisse-erkennen-456"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=kopfrechnen&t=1118"
@@ -2095,26 +2025,6 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "3214",
         "title": "Escape Room: Teilbarkeit",
         "folder": "escape-room-quot-teilbarkeit-quot-3214"
-      },
-      {
-        "id": "177",
-        "title": "Primzahlen",
-        "folder": "primzahlen-177"
-      },
-      {
-        "id": "178",
-        "title": "Potenzen berechnen",
-        "folder": "potenzen-berechnen-178"
-      },
-      {
-        "id": "180",
-        "title": "Satz von Pythagoras (am Rechteck) - Video mit Fragen",
-        "folder": "satz-von-pythagoras-am-rechteck-video-mit-fragen-180"
-      },
-      {
-        "id": "188",
-        "title": "Erklärvideo Statistik (Häufigkeiten und Diagramme) mit Fragen",
-        "folder": "erklarvideo-statistik-haufigkeiten-und-diagramme-mit-fragen-188"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=escape+room+mathe&t=1118"
