@@ -771,6 +771,11 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "id": "6758",
         "title": "Jesus im Film",
         "folder": "jesus-im-film-2-6758"
+      },
+      {
+        "id": "6676",
+        "title": "Jesusbilder im Wandel der Zeit",
+        "folder": "jesusbilder-im-wandel-der-zeit-6676"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=jesus+von+nazaret&t=3752"
@@ -961,6 +966,11 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "id": "2440",
         "title": "Glaube und Gemeinschaft - Das Herzstück des Christentums",
         "folder": "glaube-und-gemeinschaft-das-herzstuck-des-christentums-2440"
+      },
+      {
+        "id": "6584",
+        "title": "Die Anfänge der Kirche",
+        "folder": "die-anfange-der-kirche-6584"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=evangelien+apostel&t=3752"
@@ -1152,6 +1162,11 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "id": "6688",
         "title": "Kirchenjahr und seine Feste",
         "folder": "kirchenjahr-und-seine-feste-6688"
+      },
+      {
+        "id": "6532",
+        "title": "Der Reformationstag",
+        "folder": "der-reformationstag-2-6532"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=kirchenjahr+ostern&t=3752"
@@ -1486,6 +1501,16 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "id": "2444",
         "title": "Symbole des Glaubens im Kirchenraum",
         "folder": "einfluss-des-glaubens-2444"
+      },
+      {
+        "id": "6698",
+        "title": "Liturgische Farben und ihre Bedeutung im Jahreskreis",
+        "folder": "liturgische-farben-und-ihre-bedeutung-im-jahreskreis-6698"
+      },
+      {
+        "id": "6703",
+        "title": "Ministranten, Lektoren und andere liturgische Dienste",
+        "folder": "ministranten-lektoren-und-andere-liturgische-dienste-6703"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=liturgie+gottesdienst&t=3752"
@@ -1635,6 +1660,21 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "id": "6621",
         "title": "Die Sixtinische Kapelle - Kunst und Liturgie vereint",
         "folder": "die-sixtinische-kapelle-kunst-und-liturgie-vereint-6621"
+      },
+      {
+        "id": "6624",
+        "title": "Die Vatikanischen Museen – Schätze der Kirche",
+        "folder": "die-vatikanischen-museen-schatze-der-kirche-6624"
+      },
+      {
+        "id": "6738",
+        "title": "Vatikanische Bibliothek – Wissen und Glauben",
+        "folder": "vatikanische-bibliothek-wissen-und-glauben-6738"
+      },
+      {
+        "id": "6728",
+        "title": "Symbole des Papsttums",
+        "folder": "symbole-des-papsttums-6728"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=papst+vatikan&t=3752"
@@ -1702,6 +1742,36 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "id": "6458",
         "title": "Das Kreuz – mehr als ein Zeichen",
         "folder": "das-kreuz-mehr-als-ein-zeichen-6458"
+      },
+      {
+        "id": "6627",
+        "title": "Diözesen und Pfarreien – Aufbau der katholischen Kirche",
+        "folder": "diozesen-und-pfarreien-aufbau-der-katholischen-kirche-6627"
+      },
+      {
+        "id": "6639",
+        "title": "Frauen in der Kirche",
+        "folder": "frauen-in-der-kirche-6639"
+      },
+      {
+        "id": "6616",
+        "title": "Die Rolle von Laien in der Kirche",
+        "folder": "die-rolle-von-laien-in-der-kirche-6616"
+      },
+      {
+        "id": "6687",
+        "title": "Kirchenasyl",
+        "folder": "kirchenasyl-6687"
+      },
+      {
+        "id": "6693",
+        "title": "Kritik an der Kirche",
+        "folder": "kritik-an-der-kirche-6693"
+      },
+      {
+        "id": "6712",
+        "title": "Reformation und ihre Folgen",
+        "folder": "reformation-und-ihre-folgen-6712"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=aemter+oekumene&t=3752"
