@@ -310,66 +310,6 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "114",
         "title": "Dezimalzahlen runden",
         "folder": "kopfrechnen-mit-10-114"
-      },
-      {
-        "id": "686",
-        "title": "studypoint - lückentext - dezimalzahlen",
-        "folder": "studypoint-luckentext-dezimalzahlen-686"
-      },
-      {
-        "id": "704",
-        "title": "kurs Dezimalzahlen Einführung Level 1",
-        "folder": "kurs-dezimalzahlen-einfuhrung-level-1-704"
-      },
-      {
-        "id": "705",
-        "title": "kurs Dezimalzahlen Einführung Level 2",
-        "folder": "kurs-dezimalzahlen-einfuhrung-level-2-705"
-      },
-      {
-        "id": "707",
-        "title": "kurs Dezimalzahlen am Zahlenstrahl Level 1",
-        "folder": "kurs-dezimalzahlen-am-zahlenstrahl-level-1-707"
-      },
-      {
-        "id": "714",
-        "title": "kurs Dezimalzahlen Stellenwerte",
-        "folder": "kurs-dezimalzahlen-stellenwerte-714"
-      },
-      {
-        "id": "715",
-        "title": "kurs Dezimalzahlen runden Level 1",
-        "folder": "kurs-dezimalzahlen-runden-level-1-715"
-      },
-      {
-        "id": "716",
-        "title": "kurs Dezimalzahlen runden Level 2",
-        "folder": "kurs-dezimalzahlen-runden-level-2-716"
-      },
-      {
-        "id": "717",
-        "title": "kurs Dezimalzahlen runden Level 3",
-        "folder": "kurs-dezimalzahlen-runden-level-3-717"
-      },
-      {
-        "id": "706",
-        "title": "kurs Dezimalzahlen Einführung Level 3",
-        "folder": "kurs-dezimalzahlen-einfuhrung-level-3-706"
-      },
-      {
-        "id": "708",
-        "title": "kurs Dezimalzahlen am Zahlenstrahl Level 2",
-        "folder": "kurs-dezimalzahlen-am-zahlenstrahl-level-2-708"
-      },
-      {
-        "id": "709",
-        "title": "kurs Dezimalzahlen am Zahlenstrahl Level 3",
-        "folder": "kurs-dezimalzahlen-am-zahlenstrahl-level-3-709"
-      },
-      {
-        "id": "710",
-        "title": "kurs Dezimalzahlen ordnen",
-        "folder": "kurs-dezimalzahlen-ordnen-710"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=dezimalzahlen&t=1118"
@@ -1196,11 +1136,6 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "winkel-schatzen-216"
       },
       {
-        "id": "662",
-        "title": "Kurs Winkel schätzen",
-        "folder": "kurs-winkel-schatzen-662"
-      },
-      {
         "id": "663",
         "title": "Winkel bis 180° messen",
         "folder": "winkel-bis-180-messen-663"
@@ -1219,11 +1154,6 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "381",
         "title": "Winkel",
         "folder": "winkel-381"
-      },
-      {
-        "id": "695",
-        "title": "studypoint - multiple choice - winkel",
-        "folder": "studypoint-multiple-choice-winkel-695"
       },
       {
         "id": "943",
@@ -1454,11 +1384,6 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "98",
         "title": "Pyramide und Satz von Pythagoras",
         "folder": "pyramide-und-satz-von-pythagoras-98"
-      },
-      {
-        "id": "724",
-        "title": "studypoint - Pyramide",
-        "folder": "studypoint-pyramide-724"
       },
       {
         "id": "pyramide2",
@@ -1787,16 +1712,6 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "terme-mit-potenzen-374"
       },
       {
-        "id": "690",
-        "title": "studypoint - drag the words - Terme mit Potenzen",
-        "folder": "studypoint-drag-the-words-terme-mit-potenzen-690"
-      },
-      {
-        "id": "702",
-        "title": "studypoint - memory game - Memory mit Termen",
-        "folder": "studypoint-memory-game-memory-mit-termen-702"
-      },
-      {
         "id": "232",
         "title": "Terme addieren und subtrahieren mit Klammern",
         "folder": "terme-addieren-und-subtrahieren-mit-klammern-232"
@@ -1837,11 +1752,6 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "400",
         "title": "Die Probe",
         "folder": "die-probe-2-400"
-      },
-      {
-        "id": "691",
-        "title": "studypoint - single choice - binomische Formeln",
-        "folder": "studypoint-single-choice-binomische-formeln-691"
       },
       {
         "id": "228",
@@ -2222,51 +2132,6 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "163",
         "title": "Multiplikation von Dezimalzahlen",
         "folder": "teiler-einer-zahl-finden-schwer-163"
-      },
-      {
-        "id": "727",
-        "title": "kurs Dezimalzahlen addieren und subtrahieren Level 1",
-        "folder": "kurs-dezimalzahlen-addieren-und-subtrahieren-level-1-727"
-      },
-      {
-        "id": "728",
-        "title": "kurs Dezimalzahlen addieren und subtrahieren Level 2",
-        "folder": "kurs-dezimalzahlen-addieren-und-subtrahieren-level-2-728"
-      },
-      {
-        "id": "730",
-        "title": "kurs Dezimalzahlen multiplizieren Level 1",
-        "folder": "kurs-dezimalzahlen-multiplizieren-level-1-730"
-      },
-      {
-        "id": "731",
-        "title": "kurs Dezimalzahlen multiplizieren Level 2",
-        "folder": "kurs-dezimalzahlen-multiplizieren-level-2-731"
-      },
-      {
-        "id": "733",
-        "title": "kurs Dezimalzahlen dividieren Level 1",
-        "folder": "kurs-dezimalzahlen-dividieren-level-1-733"
-      },
-      {
-        "id": "734",
-        "title": "kurs Dezimalzahlen dividieren Level 2",
-        "folder": "kurs-dezimalzahlen-dividieren-level-2-734"
-      },
-      {
-        "id": "729",
-        "title": "kurs Dezimalzahlen addieren und subtrahieren Level 3",
-        "folder": "kurs-dezimalzahlen-addieren-und-subtrahieren-level-3-729"
-      },
-      {
-        "id": "732",
-        "title": "kurs Dezimalzahlen multiplizieren Level 3",
-        "folder": "kurs-dezimalzahlen-multiplizieren-level-3-732"
-      },
-      {
-        "id": "735",
-        "title": "kurs Dezimalzahlen dividieren Level 3",
-        "folder": "kurs-dezimalzahlen-dividieren-level-3-735"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=dezimalzahlen+rechnen&t=1118"
@@ -2298,21 +2163,6 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "149",
         "title": "Gemischte Aufgaben mit Dezimalzahlen",
         "folder": "gemischte-aufgaben-mit-dezimalzahlen-149"
-      },
-      {
-        "id": "736",
-        "title": "kurs KlaPuStri mit Dezimalzahlen Level 1",
-        "folder": "kurs-klapustri-mit-dezimalzahlen-level-1-736"
-      },
-      {
-        "id": "737",
-        "title": "kurs KlaPuStri mit Dezimalzahlen Level 2",
-        "folder": "kurs-klapustri-mit-dezimalzahlen-level-2-737"
-      },
-      {
-        "id": "738",
-        "title": "kurs KlaPuStri mit Dezimalzahlen Level 3",
-        "folder": "kurs-klapustri-mit-dezimalzahlen-level-3-738"
       },
       {
         "id": "153",
@@ -2477,26 +2327,6 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "926",
         "title": "Bruchrechnen - Brüche und Dezimalzahlen",
         "folder": "bruchrechnen-bruche-und-dezimalzahlen-926"
-      },
-      {
-        "id": "725",
-        "title": "Studypoint - Bruchrechnen",
-        "folder": "studypoint-bruchrechnen-725"
-      },
-      {
-        "id": "712",
-        "title": "kurs Brüche und Dezimalzahlen Level 1",
-        "folder": "kurs-bruche-und-dezimalzahlen-level-1-712"
-      },
-      {
-        "id": "711",
-        "title": "kurs Brüche und Dezimalzahlen Level 2",
-        "folder": "kurs-bruche-und-dezimalzahlen-level-2-711"
-      },
-      {
-        "id": "713",
-        "title": "kurs Brüche und Dezimalzahlen Level 3",
-        "folder": "kurs-bruche-und-dezimalzahlen-level-3-713"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=brueche+grundrechenarten&t=1118"
