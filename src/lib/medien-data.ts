@@ -224,6 +224,11 @@ export const medienTopics: Record<string, MedienTopic> = {
         "id": "suzanne-collins-und-die-kritik-an-der-medienwelt",
         "title": "Suzanne Collins und die Kritik an der modernen Medienwelt",
         "folder": "suzanne-collins-und-die-kritik-an-der-medienwelt"
+      },
+      {
+        "id": "smartphone-zombies",
+        "title": "Smartphone-Zombies – Die totale Abhängigkeit der Generation Z",
+        "folder": "smartphone-zombies-die-totale-abhaengigkeit-der-generation-z"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Filterblasen+Medienpsychologie+Werbung&t=1721"
@@ -422,6 +427,11 @@ export const medienTopics: Record<string, MedienTopic> = {
         "id": "2619",
         "title": "Werbung und ihre psychologischen Strategien",
         "folder": "werbung-und-ihre-psychologischen-strategien-2619"
+      },
+      {
+        "id": "urheberrecht-bilder-texte",
+        "title": "Urheberrecht bei Bildern und Texten",
+        "folder": "urheberrecht-bei-bildern-und-texten"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Datenschutz+Medienrecht+Urheberrecht&t=1721"
