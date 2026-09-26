@@ -78,11 +78,6 @@ export const musikTopics: Record<string, MusikTopic> = {
         "folder": "notennamen-tonhohe-225"
       },
       {
-        "id": "661",
-        "title": "Notenwerte und Pausen im Kurs",
-        "folder": "kurs-notenwerte-und-pausen-661"
-      },
-      {
         "id": "5320",
         "title": "Tonhöhe und Tonstärke",
         "folder": "tonhohe-und-tonstarke-5320"
@@ -129,39 +124,19 @@ export const musikTopics: Record<string, MusikTopic> = {
         "folder": "intervalle-in-der-musik-2-17"
       },
       {
+        "id": "647",
+        "title": "elo Tonhöhe (1)",
+        "folder": "elo-tonhohe-1-647"
+      },
+      {
         "id": "648",
         "title": "elo Tonhöhe (2)",
         "folder": "elo-tonhohe-2-648"
       },
       {
-        "id": "650",
-        "title": "Kurs Tonhöhe 2",
-        "folder": "kurs-tonhohe-2-650"
-      },
-      {
-        "id": "652",
-        "title": "Kurs Tonhöhe 4",
-        "folder": "kurs-tonhohe-4-652"
-      },
-      {
-        "id": "654",
-        "title": "Kurs Tonhöhe 6",
-        "folder": "kurs-tonhohe-6-654"
-      },
-      {
-        "id": "655",
-        "title": "Kurs Tonhöhe 7",
-        "folder": "kurs-tonhohe-7-655"
-      },
-      {
-        "id": "657",
-        "title": "Kurs Tonhöhe 9",
-        "folder": "kurs-tonhohe-9-657"
-      },
-      {
-        "id": "658",
-        "title": "Kurs Tonhöhe 10",
-        "folder": "kurs-tonhohe-10-658"
+        "id": "651",
+        "title": "Ordne die Töne richtig zu!",
+        "folder": "ordne-die-tone-richtig-zu-651"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=gehoerbildung+tonhoehe&t=3752"
@@ -239,6 +214,11 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "1181",
         "title": "Intervalle in der Musik (Teil 3)",
         "folder": "intervalle-in-der-musik-3-1181"
+      },
+      {
+        "id": "319",
+        "title": "Akkorde – Dur und Moll",
+        "folder": "akkorde-dur-und-moll-2-319"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=harmonielehre+akkorde+intervalle&t=3752"
@@ -296,16 +276,6 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "345",
         "title": "Dur- und Molltonleitern",
         "folder": "dur-und-molltonleitern-345"
-      },
-      {
-        "id": "659",
-        "title": "Kurs Vorzeichen",
-        "folder": "kurs-vorzeichen-659"
-      },
-      {
-        "id": "660",
-        "title": "Kurs Klaviatur",
-        "folder": "kurs-klaviatur-660"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=klaviatur+vorzeichen+tonleiter&t=3752"
@@ -650,6 +620,26 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "515",
         "title": "Klaviermusik",
         "folder": "klaviermusik-515"
+      },
+      {
+        "id": "3204",
+        "title": "Escape Room 'Epochen der Musikgeschichte'",
+        "folder": "escape-room-quot-epochen-der-musikgeschichte-quot-3204"
+      },
+      {
+        "id": "epobarock",
+        "title": "Die Epochen-Übersicht – Von Barock bis heute",
+        "folder": "die-epochen-uebersicht-von-barock-bis-heute"
+      },
+      {
+        "id": "607",
+        "title": "Musikgeschichte – Steinzeit bis Antike",
+        "folder": "musikgeschichte-steinzeit-bis-antike-dsgvo-607"
+      },
+      {
+        "id": "pyth",
+        "title": "Pythagoras und die mathematischen Grundlagen der Musik",
+        "folder": "pythagoras-und-die-mathematischen-grundlagen-der-musik"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=epochen+musikgeschichte&t=3752"
@@ -987,14 +977,19 @@ export const musikTopics: Record<string, MusikTopic> = {
         "folder": "komponisten-der-wiener-klassik-296"
       },
       {
-        "id": "692",
-        "title": "studypoint - Fragen zur Musik der Wiener Klassik",
-        "folder": "studypoint-single-choice-fragen-zur-musik-der-wiener-klassik-692"
-      },
-      {
         "id": "755",
         "title": "Ludwig van Beethoven (Biografie)",
         "folder": "ludwig-van-beethoven-3-755"
+      },
+      {
+        "id": "3099",
+        "title": "Ludwig van Beethoven (Porträt)",
+        "folder": "ludwig-van-beethoven-4-3099"
+      },
+      {
+        "id": "4494",
+        "title": "Mozart, der Musikstar – Leben und tolle Musik",
+        "folder": "mozart-der-musikstar-leben-und-tolle-musik-4494"
       },
       {
         "id": "beethrom",
@@ -1077,6 +1072,21 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "3217",
         "title": "Escape Room 'Komponisten der Romantik 1'",
         "folder": "escape-room-quot-komponisten-der-romantik-1-quot-3217"
+      },
+      {
+        "id": "3218",
+        "title": "Escape Room 'Deutsche Komponisten der Romantik'",
+        "folder": "escape-room-quot-deutsche-komponisten-der-romantik-quot-3218"
+      },
+      {
+        "id": "3219",
+        "title": "Escape Room 'Österreichische Komponisten der Romantik'",
+        "folder": "escape-room-quot-sterreichische-komponisten-der-romantik-quot-3219"
+      },
+      {
+        "id": "214",
+        "title": "Johannes Brahms (Video mit Fragen)",
+        "folder": "johannes-brahms-video-mit-fragen-214"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=komponisten+romantik+schubert+schumann&t=3752"
@@ -1292,6 +1302,21 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "verdiop",
         "title": "Der Einfluss von Verdi auf die italienische Oper",
         "folder": "der-einfluss-von-verdi-auf-die-italienische-oper"
+      },
+      {
+        "id": "erstoper",
+        "title": "Die Entstehung der ersten Opern",
+        "folder": "die-enstehung-der-ersten-opern"
+      },
+      {
+        "id": "591",
+        "title": "Wolfgang Amadeus Mozart – Così fan tutte",
+        "folder": "wolfgang-amadeus-mozart-cosi-fan-tutte-591"
+      },
+      {
+        "id": "gropen",
+        "title": "Große Opernhäuser der Welt",
+        "folder": "grosse-opernhaeuser"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=italienische+oper+verdi+belcanto&t=3752"
@@ -1675,14 +1700,24 @@ export const musikTopics: Record<string, MusikTopic> = {
         "folder": "geschichte-das-jazz-teil-1-435"
       },
       {
+        "id": "436",
+        "title": "Geschichte des Jazz – Teil 2",
+        "folder": "geschichte-das-jazz-teil-2-436"
+      },
+      {
         "id": "437",
-        "title": "Geschichte das Jazz - Teil 2",
+        "title": "Geschichte des Jazz – Teil 3",
         "folder": "geschichte-das-jazz-teil-3-437"
       },
       {
         "id": "438",
-        "title": "Geschichte das Jazz - Teil 3",
+        "title": "Geschichte des Jazz – Teil 4",
         "folder": "geschichte-das-jazz-teil-4-438"
+      },
+      {
+        "id": "gersh",
+        "title": "George Gershwin und die amerikanische Musik",
+        "folder": "george-gershwin-und-die-amerikanische-musik"
       },
       {
         "id": "910",
@@ -2006,6 +2041,36 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "155",
         "title": "Led Zeppelin (Bandporträt)",
         "folder": "led-zeppelin-155"
+      },
+      {
+        "id": "502",
+        "title": "The Beatles: She Loves You",
+        "folder": "she-loves-you-the-beatles-502"
+      },
+      {
+        "id": "627",
+        "title": "The Beatles: Lucy in the Sky with Diamonds",
+        "folder": "lucy-in-the-sky-with-diamonds-the-beatles-2-627"
+      },
+      {
+        "id": "642",
+        "title": "The Rolling Stones: Sympathy for the Devil",
+        "folder": "sympathy-for-the-devil-the-rolling-stones-642"
+      },
+      {
+        "id": "514",
+        "title": "Queen: Under Pressure",
+        "folder": "under-pressure-queen-514"
+      },
+      {
+        "id": "519",
+        "title": "Queen: We Will Rock You",
+        "folder": "we-well-rock-you-queen-519"
+      },
+      {
+        "id": "6677",
+        "title": "John Lennons Friedensbotschaft – Happy Xmas (War Is Over)",
+        "folder": "john-lennons-friedensbotschaft-happy-xmas-war-is-over-6677"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=beatles+queen+rolling+stones&t=3752"
@@ -2342,6 +2407,46 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "549falco",
         "title": "Rock Me Amadeus (Falco)",
         "folder": "das-musical-rock-me-amadeus-549"
+      },
+      {
+        "id": "2489",
+        "title": "Wie funktioniert die additive Synthese",
+        "folder": "wie-funktioniert-ein-additive-synthese-2489"
+      },
+      {
+        "id": "2493",
+        "title": "Wie funktioniert die AM-Synthese",
+        "folder": "wie-funktioniert-ein-am-synthese-2493"
+      },
+      {
+        "id": "2571",
+        "title": "Wie funktioniert die Vektor-Synthese",
+        "folder": "wie-funktioniert-ein-vektor-synthese-2571"
+      },
+      {
+        "id": "2506",
+        "title": "Wie funktioniert ein Chorus-Effekt",
+        "folder": "wie-funktioniert-ein-chorus-2506"
+      },
+      {
+        "id": "2511",
+        "title": "Wie funktioniert Verzerrung (Distortion)",
+        "folder": "wie-funktioniert-ein-distortion-2511"
+      },
+      {
+        "id": "2550",
+        "title": "Wie funktioniert ein Phaser-Effekt",
+        "folder": "wie-funktioniert-ein-phaser-2550"
+      },
+      {
+        "id": "2575",
+        "title": "Wie funktioniert ein Wah-Wah-Pedal",
+        "folder": "wie-funktioniert-ein-wah-wah-2575"
+      },
+      {
+        "id": "schallp",
+        "title": "Wie funktioniert eine Schallplatte",
+        "folder": "wie-funktioniert-eine-schallplatte"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=techno+elektronische+musik&t=3752"
