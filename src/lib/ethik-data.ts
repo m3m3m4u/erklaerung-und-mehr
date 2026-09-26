@@ -336,6 +336,11 @@ export const ethikTopics: Record<string, EthikTopic> = {
             "id": "4440",
             "title": "Grenzen setzen und Nein sagen",
             "folder": "grenzen-setzen-und-nein-sagen-4440"
+      },
+      {
+            "id": "2791",
+            "title": "John Stuart Mills Konzept der Freiheit",
+            "folder": "john-stuart-mills-konzept-der-freiheit-2791"
       }
 ],
     worksheetLink: "https://eduki.com/de/autor/1430402/about-the-world-org?query=Freier+Wille+Freiheit+Determinismus&t=3752"
@@ -377,6 +382,16 @@ export const ethikTopics: Record<string, EthikTopic> = {
             "id": "2870",
             "title": "Verantwortung für zukünftige Generationen",
             "folder": "verantwortung-gegenuber-zukunftigen-generationen-2870"
+      },
+      {
+            "id": "3132",
+            "title": "Wer bin ich – Die Kunst der Selbstreflexion",
+            "folder": "wer-bin-ich-die-kunst-der-selbstreflexion-3132"
+      },
+      {
+            "id": "3183",
+            "title": "Selbstreflexion",
+            "folder": "selbstreflexion-3183"
       }
 ],
     worksheetLink: "https://eduki.com/de/autor/1430402/about-the-world-org?query=Sinn+des+Lebens+Verantwortung&t=3752"
@@ -504,16 +519,6 @@ export const ethikTopics: Record<string, EthikTopic> = {
             "folder": "verantwortung-fur-aueserirdisches-leben-2868"
       },
       {
-            "id": "2756",
-            "title": "Der Utilitarismus und das Problem der Ressourcenknappheit",
-            "folder": "der-utilitarismus-und-das-problem-der-ressourcenknappheit-2756"
-      },
-      {
-            "id": "3536",
-            "title": "Generationengerechtigkeit",
-            "folder": "generationengerechtigkeit-3536"
-      },
-      {
             "id": "4474",
             "title": "Gerechte Verteilung von Ressourcen",
             "folder": "gerechte-verteilung-von-ressourcen-4474"
@@ -522,6 +527,11 @@ export const ethikTopics: Record<string, EthikTopic> = {
             "id": "3573",
             "title": "Ökologischer Fußabdruck und persönlicher Beitrag",
             "folder": "kologischer-fuesabdruck-und-personlicher-beitrag-3573"
+      },
+      {
+            "id": "4501",
+            "title": "Global Goal 6: Sauberes Wasser – Für Gesundheit und Nachhaltigkeit",
+            "folder": "wenn-die-erde-bebt-warum-sie-wackelt-3-4501"
       }
 ],
     worksheetLink: "https://eduki.com/de/autor/1430402/about-the-world-org?query=Umweltethik+Klimagerechtigkeit&t=3752"
@@ -563,7 +573,7 @@ export const ethikTopics: Record<string, EthikTopic> = {
       {
             "id": "7737",
             "title": "Ethischer Konsum und Konsumentenboykott",
-            "folder": "ethik-in-der-modeindustrie-2843"
+            "folder": "ethischer-konsum-und-konsumentenboykott"
       },
       {
             "id": "2843",
@@ -600,7 +610,7 @@ export const ethikTopics: Record<string, EthikTopic> = {
       {
             "id": "7986",
             "title": "Ethische Grenzen bei der Verschmelzung von Mensch und Technik",
-            "folder": "automatisierung-und-arbeitsplatzverlust-2836"
+            "folder": "ethische-grenzen-bei-der-verschmelzung-von-mensch-und-technik"
       },
       {
             "id": "2836",
@@ -663,6 +673,11 @@ export const ethikTopics: Record<string, EthikTopic> = {
             "id": "8125",
             "title": "Verantwortungsvoller Umgang mit Daten",
             "folder": "verantwortungsvoller-umgang-mit-daten"
+      },
+      {
+            "id": "2853",
+            "title": "Internetfreiheit und staatliche Kontrolle weltweit",
+            "folder": "internetfreiheit-und-staatliche-kontrolle-weltweit"
       }
 ],
     worksheetLink: "https://eduki.com/de/autor/1430402/about-the-world-org?query=Medienethik+Fake+News+Datenschutz&t=3752"
@@ -714,12 +729,17 @@ export const ethikTopics: Record<string, EthikTopic> = {
       {
             "id": "8094",
             "title": "Sensibilisierung für Hate Speech und respektvolle Sprache",
-            "folder": "chancen-und-risiken-von-cyberfreundschaften-4416"
+            "folder": "sensibilisierung-fuer-hate-speech-und-respektvolle-sprache"
       },
       {
             "id": "4416",
             "title": "Chancen und Risiken von Cyberfreundschaften",
             "folder": "chancen-und-risiken-von-cyberfreundschaften-4416"
+      },
+      {
+            "id": "2852",
+            "title": "Freiheit der Meinungsäußerung und Hate Speech",
+            "folder": "freiheit-der-meinungsaueserung-und-hate-speech-2852"
       }
 ],
     worksheetLink: "https://eduki.com/de/autor/1430402/about-the-world-org?query=Cybermobbing+Hate+Speech+Respekt&t=3752"
@@ -777,6 +797,11 @@ export const ethikTopics: Record<string, EthikTopic> = {
             "id": "2848",
             "title": "Ethische Fragen in der Jugendkultur",
             "folder": "ethische-fragen-in-der-jugendkultur-2848"
+      },
+      {
+            "id": "3303",
+            "title": "Empathie – Verständnis für andere entwickeln",
+            "folder": "empathie-2-3303"
       }
 ],
     worksheetLink: "https://eduki.com/de/autor/1430402/about-the-world-org?query=Freundschaft+Empathie+Respekt+Ethik&t=3752"
@@ -807,7 +832,7 @@ export const ethikTopics: Record<string, EthikTopic> = {
       {
             "id": "7726",
             "title": "Diskriminierung und Inklusion am Arbeitsplatz",
-            "folder": "die-bedeutung-von-toleranz-in-der-gesellschaft-2767"
+            "folder": "diskriminierung-und-inklusion-am-arbeitsplatz"
       },
       {
             "id": "2767",
@@ -828,6 +853,11 @@ export const ethikTopics: Record<string, EthikTopic> = {
             "id": "4454",
             "title": "Respektvoller Umgang mit Vielfalt",
             "folder": "respektvoller-umgang-mit-vielfalt-4454"
+      },
+      {
+            "id": "2866",
+            "title": "Religionsfreiheit in Deutschland",
+            "folder": "religionsfreiheit-in-deutschland"
       }
 ],
     worksheetLink: "https://eduki.com/de/autor/1430402/about-the-world-org?query=Toleranz+Vorurteile+Inklusion&t=3752"
@@ -979,9 +1009,14 @@ export const ethikTopics: Record<string, EthikTopic> = {
             "folder": "wege-zur-bekampfung-der-armut-4470"
       },
       {
-            "id": "4474",
-            "title": "Gerechte Verteilung von Ressourcen",
-            "folder": "gerechte-verteilung-von-ressourcen-4474"
+            "id": "2839",
+            "title": "Rückkehr zum Dienst an der Waffe – Das Dilemma der Wehrpflicht",
+            "folder": "rueckkehr-zum-dienst-an-der-waffe-das-dilemma-der-wehrpflicht"
+      },
+      {
+            "id": "6643",
+            "title": "Gaza – Ein Plan für den Frieden",
+            "folder": "gaza-ein-plan-fur-den-frieden-6643"
       }
 ],
     worksheetLink: "https://eduki.com/de/autor/1430402/about-the-world-org?query=Friedensethik+Krieg+Versoehnung&t=3752"
@@ -1034,6 +1069,11 @@ export const ethikTopics: Record<string, EthikTopic> = {
             "id": "2846",
             "title": "Ethische Aspekte von Sportveranstaltungen",
             "folder": "ethische-aspekte-von-sportveranstaltungen-2846"
+      },
+      {
+            "id": "2847",
+            "title": "Spannungsfeld zwischen Whistleblowing und Geheimhaltung",
+            "folder": "spannungsfeld-zwischen-whistleblowing-und-geheimhaltung"
       }
 ],
     worksheetLink: "https://eduki.com/de/autor/1430402/about-the-world-org?query=Berufsethik+Wirtschaftsethik+Sportethik&t=3752"
