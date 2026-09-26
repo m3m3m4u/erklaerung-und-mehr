@@ -157,6 +157,16 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "550",
         "title": "Direkte Rede",
         "folder": "direkte-rede-550"
+      },
+      {
+        "id": "557",
+        "title": "Wortarten im Satzkontext: Kasus, Satzgefüge & Konjunktiv",
+        "folder": "wortarten-bersicht-557"
+      },
+      {
+        "id": "568",
+        "title": "Wortarten & Satzbausteine – Vertiefung & Training",
+        "folder": "wortarten-bersicht-2-568"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Satzglieder%20Satzbau%20Deutsch&t=284"
@@ -488,6 +498,26 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "schiller-und-der-kampf-fuer-die-freiheit",
         "title": "Schiller und der Kampf für die Freiheit",
         "folder": "schiller-und-der-kampf-fuer-die-freiheit"
+      },
+      {
+        "id": "3280",
+        "title": "J.W. Goethe – Iphigenie auf Tauris (Klassisches Humanitätsdrama)",
+        "folder": "j-w-goethe-iphigenie-auf-tauris-3280"
+      },
+      {
+        "id": "3448",
+        "title": "J.W. Goethe – Torquato Tasso (Das klassische Künstlerdrama)",
+        "folder": "j-w-goethe-torquato-tasso-3448"
+      },
+      {
+        "id": "3423",
+        "title": "Friedrich Schiller – Don Karlos (Dramatisches Freiheitsgedicht)",
+        "folder": "friedrich-schiller-don-karlos-3423"
+      },
+      {
+        "id": "6198",
+        "title": "Friedrich Schiller – Die Jungfrau von Orleans",
+        "folder": "die-jungfrau-von-orleans-von-friedrich-schiller-6198"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Weimarer%20Klassik%20Goethe%20Schiller&t=284"
