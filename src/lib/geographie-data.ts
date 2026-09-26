@@ -320,13 +320,8 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "folder": "der-flughafen-wien-schwechat-5631"
       },
       {
-        "id": "1451",
-        "title": "Wien 2",
-        "folder": "wien-2-1451"
-      },
-      {
         "id": "6134",
-        "title": "Wien 3",
+        "title": "Wien",
         "folder": "wien-3-6134"
       }
     ],
@@ -350,13 +345,8 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "folder": "bregenz-1437"
       },
       {
-        "id": "1446",
-        "title": "Innsbruck",
-        "folder": "innsbruck-1446"
-      },
-      {
         "id": "5706",
-        "title": "Innsbruck 2",
+        "title": "Innsbruck",
         "folder": "innsbruck-2-5706"
       },
       {
@@ -375,13 +365,8 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "folder": "die-festung-hohensalzburg-5665"
       },
       {
-        "id": "1445",
-        "title": "Klagenfurt",
-        "folder": "klagenfurt-1445"
-      },
-      {
         "id": "5709",
-        "title": "Klagenfurt 2",
+        "title": "Klagenfurt",
         "folder": "klagenfurt-2-5709"
       }
     ],
@@ -400,23 +385,13 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     ],
     "exercises": [
       {
-        "id": "1449",
-        "title": "Linz",
-        "folder": "linz-1449"
-      },
-      {
         "id": "5714",
-        "title": "Linz 2",
+        "title": "Linz",
         "folder": "linz-2-5714"
       },
       {
-        "id": "1450",
-        "title": "Graz",
-        "folder": "graz-1450"
-      },
-      {
         "id": "5704",
-        "title": "Graz 2",
+        "title": "Graz",
         "folder": "graz-2-5704"
       },
       {
@@ -428,11 +403,6 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "5702",
         "title": "Eisenstadt",
         "folder": "eisenstadt-5702"
-      },
-      {
-        "id": "1448",
-        "title": "Salzburg 2",
-        "folder": "salzburg-2-1448"
       },
       {
         "id": "5721",
@@ -475,19 +445,9 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "folder": "wiener-neustadt-6-5732"
       },
       {
-        "id": "1440",
-        "title": "Wiener neustadt",
-        "folder": "wiener-neustadt-1440"
-      },
-      {
         "id": "5728",
-        "title": "Wiener neustadt 2",
+        "title": "Wiener neustadt",
         "folder": "wiener-neustadt-2-5728"
-      },
-      {
-        "id": "5733",
-        "title": "Wiener neustadt 7",
-        "folder": "wiener-neustadt-7-5733"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=wiener+neustadt&t=3752"
@@ -506,38 +466,8 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "exercises": [
       {
         "id": "5734",
-        "title": "Wiener neustadt 8",
+        "title": "Wiener neustadt",
         "folder": "wiener-neustadt-8-5734"
-      },
-      {
-        "id": "5735",
-        "title": "Wiener neustadt 9",
-        "folder": "wiener-neustadt-9-5735"
-      },
-      {
-        "id": "5736",
-        "title": "Wiener neustadt 10",
-        "folder": "wiener-neustadt-10-5736"
-      },
-      {
-        "id": "5737",
-        "title": "Wiener neustadt 11",
-        "folder": "wiener-neustadt-11-5737"
-      },
-      {
-        "id": "5738",
-        "title": "Wiener neustadt 12",
-        "folder": "wiener-neustadt-12-5738"
-      },
-      {
-        "id": "5739",
-        "title": "Wiener neustadt 13",
-        "folder": "wiener-neustadt-13-5739"
-      },
-      {
-        "id": "5740",
-        "title": "Wiener neustadt 14",
-        "folder": "wiener-neustadt-14-5740"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=wiener+neustadt&t=3752"
@@ -556,13 +486,8 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     ],
     "exercises": [
       {
-        "id": "1551",
-        "title": "Baden bei wien",
-        "folder": "baden-bei-wien-1551"
-      },
-      {
         "id": "5581",
-        "title": "Baden bei wien 2",
+        "title": "Baden bei wien",
         "folder": "baden-bei-wien-2-5581"
       },
       {
@@ -874,23 +799,13 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     ],
     "exercises": [
       {
-        "id": "962",
-        "title": "Rheinland pfalz",
-        "folder": "rheinland-pfalz-962"
-      },
-      {
-        "id": "963",
-        "title": "Nordrhein westfalen",
-        "folder": "nordrhein-westfalen-963"
-      },
-      {
         "id": "1024",
-        "title": "Rheinland pfalz 2",
+        "title": "Rheinland pfalz",
         "folder": "rheinland-pfalz-2-1024"
       },
       {
         "id": "1046",
-        "title": "Nordrhein westfalen 2",
+        "title": "Nordrhein westfalen",
         "folder": "nordrhein-westfalen-2-1046"
       },
       {
@@ -944,44 +859,14 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "folder": "berlin-1020"
       },
       {
-        "id": "1427",
-        "title": "Berlin 2",
-        "folder": "berlin-2-1427"
-      },
-      {
-        "id": "1567",
-        "title": "Berlin 3",
-        "folder": "berlin-3-1567"
-      },
-      {
-        "id": "5963",
-        "title": "Berlin 4",
-        "folder": "berlin-4-5963"
-      },
-      {
         "id": "1053",
         "title": "Hamburg",
         "folder": "hamburg-1053"
       },
       {
-        "id": "1428",
-        "title": "Hamburg 2",
-        "folder": "hamburg-2-1428"
-      },
-      {
-        "id": "6008",
-        "title": "Hamburg 3",
-        "folder": "hamburg-3-6008"
-      },
-      {
         "id": "1054",
         "title": "Bremen",
         "folder": "bremen-1054"
-      },
-      {
-        "id": "1515",
-        "title": "Bremen 2",
-        "folder": "bremen-2-1515"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=staedte+deutschland&t=3752"
@@ -999,54 +884,34 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     ],
     "exercises": [
       {
-        "id": "1431",
-        "title": "Frankfurt am main",
-        "folder": "frankfurt-am-main-1431"
+        "id": "frankfurt-moderne",
+        "title": "Frankfurt am Main",
+        "folder": "frankfurt-am-main-eine-stadt-mit-geschichte-und-moderne"
       },
       {
-        "id": "1635",
-        "title": "Frankfurt am main 2",
-        "folder": "frankfurt-am-main-2-1635"
-      },
-      {
-        "id": "1432",
+        "id": "stuttgart-landeshauptstadt",
         "title": "Stuttgart",
-        "folder": "stuttgart-1432"
+        "folder": "stuttgart-die-landeshauptstadt-baden-wuerttemberg"
       },
       {
-        "id": "1434",
-        "title": "Stuttgart 2",
-        "folder": "stuttgart-2-1434"
-      },
-      {
-        "id": "1881",
-        "title": "Stuttgart 3",
-        "folder": "stuttgart-3-1881"
-      },
-      {
-        "id": "1516",
+        "id": "leipzig-kultur",
         "title": "Leipzig",
-        "folder": "leipzig-1516"
+        "folder": "leipzig-eine-stadt-mit-geschichte-und-kultur"
       },
       {
-        "id": "1734",
-        "title": "Leipzig 2",
-        "folder": "leipzig-2-1734"
-      },
-      {
-        "id": "1514",
+        "id": "dresden-kultur",
         "title": "Dresden",
-        "folder": "dresden-1514"
+        "folder": "dresden-eine-stadt-mit-geschichte-und-kultur"
       },
       {
-        "id": "1513",
+        "id": "hannover-hauptstadt",
         "title": "Hannover",
-        "folder": "hannover-1513"
+        "folder": "hannover-die-hauptstadt-niedersachsens"
       },
       {
-        "id": "1512",
+        "id": "nuernberg-kultur",
         "title": "Nürnberg",
-        "folder": "nurnberg-1512"
+        "folder": "nuernberg-eine-stadt-mit-geschichte-und-kultur"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=staedte+deutschland&t=3752"
@@ -1182,7 +1047,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "6409",
-        "title": "Der kanton basel landschaft 2",
+        "title": "Der Kanton Basel-Stadt",
         "folder": "der-kanton-basel-landschaft-2-6409"
       }
     ],
@@ -1446,11 +1311,6 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "1856",
         "title": "Schweiz",
         "folder": "schweiz-2-1856"
-      },
-      {
-        "id": "1009",
-        "title": "Schweiz",
-        "folder": "schweiz-1009"
       },
       {
         "id": "6395",
@@ -2036,29 +1896,19 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "folder": "mitteleuropa-2-428"
       },
       {
-        "id": "124",
-        "title": "Mitteleuropa",
-        "folder": "mitteleuropa-124"
-      },
-      {
         "id": "185",
         "title": "Lander europa",
         "folder": "lander-europa-185"
       },
       {
-        "id": "2002",
+        "id": "5475",
         "title": "Die typische europaische stadt",
-        "folder": "die-typische-europaische-stadt-2002"
+        "folder": "die-typische-europaische-stadt-2-5475"
       },
       {
         "id": "3223",
         "title": "Escape room quot lander europas quot",
         "folder": "escape-room-quot-lander-europas-quot-3223"
-      },
-      {
-        "id": "5475",
-        "title": "Die typische europaische stadt 2",
-        "folder": "die-typische-europaische-stadt-2-5475"
       },
       {
         "id": "5557",
@@ -2213,19 +2063,9 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "folder": "westeuropa-2-416"
       },
       {
-        "id": "125",
-        "title": "Westeuropa",
-        "folder": "westeuropa-125"
-      },
-      {
         "id": "1564",
         "title": "Belgien",
         "folder": "belgien-1564"
-      },
-      {
-        "id": "1636",
-        "title": "Frankreich",
-        "folder": "frankreich-2-1636"
       },
       {
         "id": "1038",
@@ -2276,11 +2116,6 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "426",
         "title": "Nordeuropa",
         "folder": "nordeuropa-2-426"
-      },
-      {
-        "id": "126",
-        "title": "Nordeuropa",
-        "folder": "nordeuropa-126"
       },
       {
         "id": "1127",
@@ -2388,11 +2223,6 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "folder": "italien-3-1684"
       },
       {
-        "id": "1007",
-        "title": "Italien",
-        "folder": "italien-1007"
-      },
-      {
         "id": "1656",
         "title": "Griechenland",
         "folder": "griechenland-1656"
@@ -2438,19 +2268,9 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "folder": "osteuropa-2-424"
       },
       {
-        "id": "127",
-        "title": "Osteuropa",
-        "folder": "osteuropa-127"
-      },
-      {
         "id": "1829",
         "title": "Polen",
         "folder": "polen-2-1829"
-      },
-      {
-        "id": "1008",
-        "title": "Polen",
-        "folder": "polen-1008"
       },
       {
         "id": "1901",
@@ -2516,11 +2336,6 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "1909",
         "title": "Ukraine",
         "folder": "ukraine-2-1909"
-      },
-      {
-        "id": "1011",
-        "title": "Ukraine",
-        "folder": "ukraine-1011"
       },
       {
         "id": "1837",
@@ -2695,7 +2510,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "5574",
-        "title": "Usa und kanada industrielander in verschiedenen klimazonen 2",
+        "title": "Gebirgssysteme und ihre geologische Bedeutung",
         "folder": "usa-und-kanada-industrielander-in-verschiedenen-klimazonen-2-5574"
       },
       {
@@ -3152,11 +2967,6 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "1576",
         "title": "Brasilien",
         "folder": "brasilien-1576"
-      },
-      {
-        "id": "1541",
-        "title": "Argentinien",
-        "folder": "argentinien-2-1541"
       },
       {
         "id": "1122",
@@ -3808,7 +3618,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "5539",
-        "title": "Asiens klimaextreme monsun trockenheit und arktische bedingungen 2",
+        "title": "Asiens Klimaextreme: Monsun, Trockenheit & arktische Bedingungen",
         "folder": "asiens-klimaextreme-monsun-trockenheit-und-arktische-bedingungen-2-5539"
       }
     ],
@@ -4004,24 +3814,14 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     ],
     "exercises": [
       {
-        "id": "1548",
+        "id": "1037",
         "title": "Australien",
-        "folder": "australien-3-1548"
+        "folder": "australien-2-1037"
       },
       {
         "id": "1799",
         "title": "Neuseeland",
         "folder": "neuseeland-1799"
-      },
-      {
-        "id": "1003",
-        "title": "Australien",
-        "folder": "australien-1003"
-      },
-      {
-        "id": "1037",
-        "title": "Australien 2",
-        "folder": "australien-2-1037"
       },
       {
         "id": "5434",
@@ -4087,11 +3887,6 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "761",
         "title": "Die Tropische Klimazone",
         "folder": "die-tropische-klimazone-761"
-      },
-      {
-        "id": "762",
-        "title": "Die tropische klimazone 2",
-        "folder": "die-tropische-klimazone-2-762"
       },
       {
         "id": "5507",
@@ -4415,18 +4210,8 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "exercises": [
       {
         "id": "4503",
-        "title": "Wenn die Erde bebt – Warum sie wackelt (Teil 1)",
+        "title": "Wenn die Erde bebt – Warum sie wackelt (Teil",
         "folder": "wenn-die-erde-bebt-warum-sie-wackelt-5-4503"
-      },
-      {
-        "id": "4504",
-        "title": "Wenn die Erde bebt – Warum sie wackelt (Teil 2)",
-        "folder": "wenn-die-erde-bebt-warum-sie-wackelt-6-4504"
-      },
-      {
-        "id": "4505",
-        "title": "Wenn die Erde bebt – Warum sie wackelt (Teil 3)",
-        "folder": "wenn-die-erde-bebt-warum-sie-wackelt-7-4505"
       },
       {
         "id": "5460",
@@ -4530,11 +4315,6 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "folder": "kontinente-120"
       },
       {
-        "id": "121",
-        "title": "Kontinente 2",
-        "folder": "kontinente-2-121"
-      },
-      {
         "id": "122",
         "title": "Lander und kontinente",
         "folder": "lander-und-kontinente-122"
@@ -4629,11 +4409,6 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "5517",
         "title": "Siedlungsformen und ihre geographische verteilung weltweit",
         "folder": "siedlungsformen-und-ihre-geographische-verteilung-weltweit-5517"
-      },
-      {
-        "id": "5540",
-        "title": "Kulturelle identitat und geographische trennlinien 2",
-        "folder": "kulturelle-identitat-und-geographische-trennlinien-2-5540"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=kulturgeographie&t=3752"
@@ -4772,13 +4547,8 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     ],
     "exercises": [
       {
-        "id": "2003",
-        "title": "Die typische nordamerikanische stadt",
-        "folder": "die-typische-nordamerikanische-stadt-2003"
-      },
-      {
         "id": "5476",
-        "title": "Die typische nordamerikanische stadt 2",
+        "title": "Die typische nordamerikanische stadt",
         "folder": "die-typische-nordamerikanische-stadt-2-5476"
       },
       {
