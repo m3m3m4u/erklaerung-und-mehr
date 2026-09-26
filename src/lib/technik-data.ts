@@ -202,6 +202,11 @@ export const technikTopics: Record<string, TechnikTopic> = {
         "id": "3244",
         "title": "Wasserwaage",
         "folder": "wasserwaage-3244"
+      },
+      {
+        "id": "druckerei-heute",
+        "title": "Wie eine Druckerei heute funktioniert",
+        "folder": "wie-eine-druckerei-heute-funktioniert"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Fertigungstechnik+Werkzeuge&t=1251"
@@ -579,6 +584,16 @@ export const technikTopics: Record<string, TechnikTopic> = {
         id: "ekg",
         title: "Wie funktioniert ein EKG (Elektrokardiogramm)",
         folder: "wie-funktioniert-ein-ekg-elektrokardiogramm"
+      },
+      {
+        id: "smart-home-sensoren",
+        title: "Sensoren und Vernetzung im Smart Home",
+        folder: "sensoren-und-vernetzung-im-smart-home"
+      },
+      {
+        id: "nfc-kontaktlos",
+        title: "NFC Technik und das kontaktlose Bezahlen an der Kasse",
+        folder: "nfc-technik-und-das-kontaktlose-bezahlen-an-der-kasse"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Sensoren+Messtechnik+Technik&t=1251"
@@ -681,6 +696,16 @@ export const technikTopics: Record<string, TechnikTopic> = {
         id: "optmaus",
         title: "Wie funktioniert die optische Maus",
         folder: "wie-funktioniert-die-optische-maus"
+      },
+      {
+        id: "roboter-steuerung",
+        title: "Steuerung von Robotern oder Microcontrollern",
+        folder: "steuerung-von-robotern-oder-microcontrollern"
+      },
+      {
+        id: "uncanny-valley",
+        title: "Das Uncanny Valley und warum fast echte Roboter gruselig wirken",
+        folder: "das-uncanny-valley-und-warum-fast-echte-roboter-gruselig-wirken"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Computer+Digitaltechnik&t=1251"
