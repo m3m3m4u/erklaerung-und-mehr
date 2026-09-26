@@ -148,6 +148,11 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "3236",
         "title": "Escape room quot groeslandschaften sterreichs quot",
         "folder": "escape-room-quot-groeslandschaften-sterreichs-quot-3236"
+      },
+      {
+        "id": "483",
+        "title": "Vorarlberg",
+        "folder": "vorarlberg-483"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=oesterreich+bundeslaender&t=3752"
@@ -569,6 +574,11 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "1578",
         "title": "Braunau am inn",
         "folder": "braunau-am-inn-1578"
+      },
+      {
+        "id": "1948",
+        "title": "Wolfsberg",
+        "folder": "wolfsberg-1948"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=staedte+oesterreich&t=3752"
@@ -826,6 +836,26 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "397",
         "title": "Stadte deutschlands",
         "folder": "stadte-deutschlands-397"
+      },
+      {
+        "id": "natparkde",
+        "title": "Nationalparks in Deutschland",
+        "folder": "nationalparks-in-deutschland"
+      },
+      {
+        "id": "weinbaude",
+        "title": "Weinbau in Deutschland",
+        "folder": "weinbau-in-deutschland"
+      },
+      {
+        "id": "tourismusde",
+        "title": "Tourismus in Deutschland",
+        "folder": "tourismus-in-deutschland"
+      },
+      {
+        "id": "wirtschaftde",
+        "title": "Wirtschaft Deutschlands",
+        "folder": "wirtschaft-deutschlands"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=geographie+deutschland&t=3752"
@@ -867,6 +897,31 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "1729",
         "title": "Langenfeld",
         "folder": "langenfeld-1729"
+      },
+      {
+        "id": "961",
+        "title": "Saarland",
+        "folder": "saarland-961"
+      },
+      {
+        "id": "mitteldeutschland",
+        "title": "Was ist Mitteldeutschland",
+        "folder": "was-ist-mitteldeutschland"
+      },
+      {
+        "id": "ostfriesland",
+        "title": "Ostfriesland - Eine Region an der Nordsee",
+        "folder": "ostfriesland-eine-region-an-der-nordsee"
+      },
+      {
+        "id": "pellworm",
+        "title": "Pellworm - Eine Insel im Wattenmeer",
+        "folder": "pellworm-eine-insel-im-wattenmeer"
+      },
+      {
+        "id": "ruegen",
+        "title": "Rügen - Deutschlands größte Insel",
+        "folder": "ruegen-deutschlands-groesste-insel"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=deutschland+bundeslaender&t=3752"
@@ -987,6 +1042,11 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "1513",
         "title": "Hannover",
         "folder": "hannover-1513"
+      },
+      {
+        "id": "1512",
+        "title": "Nürnberg",
+        "folder": "nurnberg-1512"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=staedte+deutschland&t=3752"
@@ -1053,6 +1113,16 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "1919",
         "title": "Velbert",
         "folder": "velbert-1919"
+      },
+      {
+        "id": "1472",
+        "title": "Regensburg",
+        "folder": "regensburg-1472"
+      },
+      {
+        "id": "1879",
+        "title": "Stolberg",
+        "folder": "stolberg-1879"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=deutsche+staedte&t=3752"
@@ -2456,6 +2526,11 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "1837",
         "title": "Russland",
         "folder": "russland-1837"
+      },
+      {
+        "id": "3352",
+        "title": "Modernes Russland und Krisen",
+        "folder": "modernes-russland-und-krisen-3352"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=osteuropa+baltikum&t=3752"
@@ -3052,6 +3127,11 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "5486",
         "title": "Entwicklungsunterschiede in lateinamerika ursachen und perspektiven",
         "folder": "entwicklungsunterschiede-in-lateinamerika-ursachen-und-perspektiven-5486"
+      },
+      {
+        "id": "3061",
+        "title": "Spanien erobert Südamerika",
+        "folder": "spanien-erobert-sudamerika-3061"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=suedamerika&t=3752"
@@ -4087,6 +4167,11 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "3191",
         "title": "Escape room quot wetter und klima quot",
         "folder": "escape-room-quot-wetter-und-klima-quot-3191"
+      },
+      {
+        "id": "hagel",
+        "title": "Wie funktioniert die Bildung von Hagel",
+        "folder": "wie-funktioniert-die-bildung-von-hagel"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=klimazonen+wetter&t=3752"
@@ -4182,6 +4267,11 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "2020",
         "title": "Der Golfstrom",
         "folder": "der-golfstrom-2020"
+      },
+      {
+        "id": "golfstrom",
+        "title": "Wie funktioniert der Golfstrom",
+        "folder": "wie-funktioniert-der-golfstrom"
       },
       {
         "id": "2057",
@@ -4428,6 +4518,11 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "2017",
         "title": "Das Gradnetz der Erde",
         "folder": "das-gradnetz-der-erde-2017"
+      },
+      {
+        "id": "zeitzonen",
+        "title": "Wie funktioniert die Zeitverschiebung (Zeitzonen)",
+        "folder": "wie-funktioniert-die-zeitverschiebung-zeitzonen"
       },
       {
         "id": "120",
