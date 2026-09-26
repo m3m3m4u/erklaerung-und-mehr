@@ -59,9 +59,9 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "additionen-und-subtraktionen-im-kopf-losen-618"
       },
       {
-        "id": "142",
-        "title": "Volumen von Prismen (Video mit Fragen)",
-        "folder": "volumen-von-prismen-video-mit-fragen-142"
+        "id": "160",
+        "title": "Begriffe der Grundrechnungsarten (Quiz)",
+        "folder": "textgleichungen-einfach-160"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=grundrechenarten&t=1118"
@@ -340,6 +340,36 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "715",
         "title": "kurs Dezimalzahlen runden Level 1",
         "folder": "kurs-dezimalzahlen-runden-level-1-715"
+      },
+      {
+        "id": "716",
+        "title": "kurs Dezimalzahlen runden Level 2",
+        "folder": "kurs-dezimalzahlen-runden-level-2-716"
+      },
+      {
+        "id": "717",
+        "title": "kurs Dezimalzahlen runden Level 3",
+        "folder": "kurs-dezimalzahlen-runden-level-3-717"
+      },
+      {
+        "id": "706",
+        "title": "kurs Dezimalzahlen Einführung Level 3",
+        "folder": "kurs-dezimalzahlen-einfuhrung-level-3-706"
+      },
+      {
+        "id": "708",
+        "title": "kurs Dezimalzahlen am Zahlenstrahl Level 2",
+        "folder": "kurs-dezimalzahlen-am-zahlenstrahl-level-2-708"
+      },
+      {
+        "id": "709",
+        "title": "kurs Dezimalzahlen am Zahlenstrahl Level 3",
+        "folder": "kurs-dezimalzahlen-am-zahlenstrahl-level-3-709"
+      },
+      {
+        "id": "710",
+        "title": "kurs Dezimalzahlen ordnen",
+        "folder": "kurs-dezimalzahlen-ordnen-710"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=dezimalzahlen&t=1118"
@@ -382,11 +412,6 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "770",
         "title": "Zusammengesetzte Aufgaben mit negativen Zahlen",
         "folder": "zusammengesetzte-aufgaben-mit-negativen-zahlen-770"
-      },
-      {
-        "id": "769neg",
-        "title": "Rechnen mit negativen Zahlen",
-        "folder": "rechnen-mit-negativen-zahlen-769"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=negative+zahlen&t=1118"
@@ -527,9 +552,19 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "vielfache-naturlicher-zahlen-873"
       },
       {
+        "id": "868",
+        "title": "Teilbarkeit (Level 1)",
+        "folder": "teilbarkeit-level-1-868"
+      },
+      {
         "id": "870",
         "title": "Teilbarkeit (Level 2)",
         "folder": "teilbarkeit-level-2-870"
+      },
+      {
+        "id": "869",
+        "title": "Teilbarkeit (Level 3)",
+        "folder": "teilbarkeit-level-3-869"
       },
       {
         "id": "871",
@@ -727,21 +762,6 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "194",
         "title": "Teilweise Wurzel ziehen mit Variablen",
         "folder": "teilweise-wurzel-ziehen-mit-variablen-194"
-      },
-      {
-        "id": "178pot",
-        "title": "Potenzen berechnen",
-        "folder": "potenzen-berechnen-178"
-      },
-      {
-        "id": "90pot",
-        "title": "Potenzen multiplizieren und dividieren",
-        "folder": "potenzen-multiplizieren-und-dividieren-90"
-      },
-      {
-        "id": "389potw",
-        "title": "Potenzen und Quadratwurzeln",
-        "folder": "potenzen-und-quadratwurzeln-389"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=potenzen&t=1118"
@@ -805,21 +825,6 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "7",
         "title": "Fragen zu statistischen Grundbegriffen und zur Kastengrafik (Boxplot)",
         "folder": "fragen-zu-statistischen-grundbegriffen-und-zur-kastengrafik-boxplot-7"
-      },
-      {
-        "id": "188stat",
-        "title": "Statistik: Häufigkeiten und Diagramme",
-        "folder": "erklarvideo-statistik-haufigkeiten-und-diagramme-mit-fragen-188"
-      },
-      {
-        "id": "187stat",
-        "title": "Statistik: Mittelwerte und Boxplot",
-        "folder": "erklarvideo-statistik-mittelwerte-und-boxplot-mit-fragen-2-187"
-      },
-      {
-        "id": "294stat",
-        "title": "Statistik - Erklärvideo und Übungen",
-        "folder": "statistik-erklarvideo-und-bungen-294"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=statistik&t=1118"
@@ -898,6 +903,16 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "786",
         "title": "Rechteck und Quadrat - Flächeninhalt und Umfang - Umkehraufgaben mit großen Zahlen",
         "folder": "rechteck-und-quadrat-flacheninhalt-und-umfang-umkehraufgaben-mit-groesen-zahlen-786"
+      },
+      {
+        "id": "159",
+        "title": "Rechteck und Quadrat: Flächeninhalt und Umfang (Quiz)",
+        "folder": "multiplikation-von-dezimalzahlen-159"
+      },
+      {
+        "id": "72",
+        "title": "Rechteck und Quadrat (Zuordnungsübung)",
+        "folder": "rechteck-und-quadrat-72"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=rechteck&t=1118"
@@ -1057,23 +1072,8 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "zylinder-kegel-kugel-385"
       },
       {
-        "id": "streckegera",
-        "title": "Strecke, Strahl, Gerade",
-        "folder": "strecke-strahl-gerade-943"
-      },
-      {
-        "id": "219",
-        "title": "Flächen erkennen",
-        "folder": "flachen-erkennen-219"
-      },
-      {
-        "id": "220",
-        "title": "Flächenformeln 1",
-        "folder": "flachenformeln-1-220"
-      },
-      {
         "id": "221",
-        "title": "Flächenformeln 2",
+        "title": "Flächenformeln (inkl. Kreisfläche)",
         "folder": "flachenformeln-2-221"
       }
     ],
@@ -1151,33 +1151,8 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "spiegelungen-achsensymmetrie-2-666"
       },
       {
-        "id": "200",
-        "title": "Aufrisse 1",
-        "folder": "aufrisse-1-200"
-      },
-      {
-        "id": "201",
-        "title": "Aufrisse 2",
-        "folder": "aufrisse-2-201"
-      },
-      {
-        "id": "202",
-        "title": "Aufrisse 3",
-        "folder": "aufrisse-3-202"
-      },
-      {
-        "id": "203",
-        "title": "Aufrisse 4",
-        "folder": "aufrisse-4-203"
-      },
-      {
-        "id": "204",
-        "title": "Aufrisse 5",
-        "folder": "aufrisse-5-204"
-      },
-      {
         "id": "457",
-        "title": "Aufrisse erkennen",
+        "title": "Aufrisse und Raumvorstellung erkennen",
         "folder": "aufrisse-erkennen-457"
       }
     ],
@@ -1249,6 +1224,11 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "695",
         "title": "studypoint - multiple choice - winkel",
         "folder": "studypoint-multiple-choice-winkel-695"
+      },
+      {
+        "id": "943",
+        "title": "Strecke, Strahl und Gerade (normale und parallele Linien)",
+        "folder": "strecke-strahl-gerade-943"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=winkel&t=1118"
@@ -1416,6 +1396,11 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "190",
         "title": "Prismen - Oberfläche berechnen",
         "folder": "prismen-oberflache-berechnen-190"
+      },
+      {
+        "id": "142",
+        "title": "Volumen von Prismen (Video mit Fragen)",
+        "folder": "volumen-von-prismen-video-mit-fragen-142"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=quader&t=1118"
@@ -1515,6 +1500,11 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "47",
         "title": "Längenmaße umwandeln (3)",
         "folder": "langenmaese-umwandeln-4-47"
+      },
+      {
+        "id": "161",
+        "title": "Längenmaße umwandeln und schätzen (Quiz)",
+        "folder": "textgleichungen-mittel-161"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=l%C3%A4ngenma%C3%9Fe&t=1118"
@@ -1805,6 +1795,21 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "702",
         "title": "studypoint - memory game - Memory mit Termen",
         "folder": "studypoint-memory-game-memory-mit-termen-702"
+      },
+      {
+        "id": "232",
+        "title": "Terme addieren und subtrahieren mit Klammern",
+        "folder": "terme-addieren-und-subtrahieren-mit-klammern-232"
+      },
+      {
+        "id": "234",
+        "title": "Terme multiplizieren (Monom mal Binom)",
+        "folder": "terme-multiplizieren-monom-mal-binom-234"
+      },
+      {
+        "id": "233",
+        "title": "Terme multiplizieren (Binom mal Binom)",
+        "folder": "terme-multiplizieren-binom-mal-binom-233"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=terme&t=1118"
@@ -1918,21 +1923,6 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "166",
         "title": "Textgleichungen schwer",
         "folder": "romische-zahlen-einfach-166"
-      },
-      {
-        "id": "184gl",
-        "title": "Gleichungen im Kopf lösen",
-        "folder": "gleichungen-im-kopf-losen-184"
-      },
-      {
-        "id": "326gl",
-        "title": "Gleichungen lösen (Erklärung und Übungen)",
-        "folder": "gleichungen-losen-erklarung-und-bungen-326"
-      },
-      {
-        "id": "179gl",
-        "title": "Gleichungen - Video mit Fragen",
-        "folder": "gleichungen-video-mit-fragen-179"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=gleichungen&t=1118"
@@ -2145,11 +2135,6 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "3617",
         "title": "Albert Einstein",
         "folder": "albert-einstein-3617"
-      },
-      {
-        "id": "3845fibo",
-        "title": "Leonardo Fibonacci",
-        "folder": "fibonacci-3845"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=mathematik+geschichte&t=1118"
@@ -2267,6 +2252,21 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "734",
         "title": "kurs Dezimalzahlen dividieren Level 2",
         "folder": "kurs-dezimalzahlen-dividieren-level-2-734"
+      },
+      {
+        "id": "729",
+        "title": "kurs Dezimalzahlen addieren und subtrahieren Level 3",
+        "folder": "kurs-dezimalzahlen-addieren-und-subtrahieren-level-3-729"
+      },
+      {
+        "id": "732",
+        "title": "kurs Dezimalzahlen multiplizieren Level 3",
+        "folder": "kurs-dezimalzahlen-multiplizieren-level-3-732"
+      },
+      {
+        "id": "735",
+        "title": "kurs Dezimalzahlen dividieren Level 3",
+        "folder": "kurs-dezimalzahlen-dividieren-level-3-735"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=dezimalzahlen+rechnen&t=1118"
@@ -2482,6 +2482,21 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "725",
         "title": "Studypoint - Bruchrechnen",
         "folder": "studypoint-bruchrechnen-725"
+      },
+      {
+        "id": "712",
+        "title": "kurs Brüche und Dezimalzahlen Level 1",
+        "folder": "kurs-bruche-und-dezimalzahlen-level-1-712"
+      },
+      {
+        "id": "711",
+        "title": "kurs Brüche und Dezimalzahlen Level 2",
+        "folder": "kurs-bruche-und-dezimalzahlen-level-2-711"
+      },
+      {
+        "id": "713",
+        "title": "kurs Brüche und Dezimalzahlen Level 3",
+        "folder": "kurs-bruche-und-dezimalzahlen-level-3-713"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=brueche+grundrechenarten&t=1118"
@@ -2554,6 +2569,11 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "864",
         "title": "Primzahlen (Level 2)",
         "folder": "primzahlen-level-2-864"
+      },
+      {
+        "id": "863",
+        "title": "Primzahlen (Level 3)",
+        "folder": "primzahlen-level-3-863"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=primzahlen+ggt+kgv&t=1118"
