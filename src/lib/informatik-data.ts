@@ -111,6 +111,11 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "id": "cpu-architektur",
         "title": "CPU Architekturen und Hardware Flaschenhälse",
         "folder": "cpu-architekturen-und-hardware-flaschenhaelse"
+      },
+      {
+        "id": "aufbau-funktion-computer",
+        "title": "Aufbau und Funktion eines Computers und seiner Komponenten",
+        "folder": "aufbau-und-funktion-eines-computers-und-seiner-komponenten"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=hardware&t=896"
@@ -313,6 +318,11 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "id": "software-updates-risiken",
         "title": "Risiken und Ängste bei Software Updates",
         "folder": "risiken-und-aengste-bei-software-updates"
+      },
+      {
+        "id": "vm-container",
+        "title": "Nutzung von Virtuellen Maschinen und Containern",
+        "folder": "nutzung-von-virtuellen-maschinen-und-containern"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=betriebssysteme&t=896"
@@ -421,6 +431,16 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "id": "1302",
         "title": "PDF-Dateiformat",
         "folder": "pdf-1302"
+      },
+      {
+        "id": "relationale-datenbanken",
+        "title": "Entwurf und Abfrage relationaler Datenbanken",
+        "folder": "entwurf-und-abfrage-relationaler-datenbanken"
+      },
+      {
+        "id": "office-programme-ms365",
+        "title": "Office Programme wie MS365 und Alternativen",
+        "folder": "office-programme-wie-ms365-und-alternativen"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=excel+word&t=896"
@@ -959,6 +979,16 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "id": "empfehlungs-algorithmen",
         "title": "Die Rolle von Algorithmen bei Buchempfehlungen",
         "folder": "die-rolle-von-algorithmen-bei-buchempfehlungen"
+      },
+      {
+        "id": "komprimierung-zip",
+        "title": "Wie funktioniert die Komprimierung von Dateien (.zip)",
+        "folder": "wie-funktioniert-die-komprimierung-von-dateien-zip"
+      },
+      {
+        "id": "zufallszahlen",
+        "title": "Wie funktioniert die Generierung von Zufallszahlen",
+        "folder": "wie-funktioniert-die-generierung-von-zufallszahlen"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=algorithmen&t=896"
@@ -1010,6 +1040,21 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "id": "microcontroller-sensoren",
         "title": "Programmierung von Microcontrollern mit Sensoren",
         "folder": "programmierung-von-microcontrollern-mit-sensoren"
+      },
+      {
+        "id": "1960python",
+        "title": "Python Programmierung",
+        "folder": "algerien-8-1960"
+      },
+      {
+        "id": "programm-spiele-entwicklung",
+        "title": "Entwicklung kleiner Programme oder Spiele",
+        "folder": "entwicklung-kleiner-programme-oder-spiele"
+      },
+      {
+        "id": "debugging-programme",
+        "title": "Fehleranalyse und Debugging in einfachen Programmen",
+        "folder": "fehleranalyse-und-debugging-in-einfachen-programmen"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=programmieren+scratch&t=896"
@@ -1082,6 +1127,11 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "id": "algorithmen-meinungsbildung",
         "title": "Die unsichtbaren Lenker – Wie Algorithmen unsere Meinung manipulieren",
         "folder": "die-unsichtbaren-lenker-wie-algorithmen-unsere-meinung-manipulieren"
+      },
+      {
+        "id": "gesichtserkennung",
+        "title": "Wie funktioniert die Gesichtserkennung",
+        "folder": "wie-funktioniert-die-gesichtserkennung"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=kuenstliche+intelligenz&t=896"
@@ -1133,6 +1183,11 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "id": "3127",
         "title": "Tabellen mit HTML",
         "folder": "tabellen-mit-html-3127"
+      },
+      {
+        "id": "1961html5",
+        "title": "HTML5 Webentwicklung",
+        "folder": "algerien-9-1961"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=html+grundkurs&t=896"
