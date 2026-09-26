@@ -157,7 +157,7 @@ export const informatikTopics: Record<string, InformatikTopic> = {
       {
         "id": "8003",
         "title": "Binärcode: Strom an und aus",
-        "folder": "Binärcode und die Sprache von Strom an und aus"
+        "folder": "binaercode-und-die-sprache-von-strom-an-und-aus"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=digitale+grundbildung&t=896"
@@ -194,12 +194,12 @@ export const informatikTopics: Record<string, InformatikTopic> = {
       {
         "id": "7121",
         "title": "Wie funktioniert die Datenwiederherstellung",
-        "folder": "Wie funktioniert die Datenwiederherstellung"
+        "folder": "wie-funktioniert-die-datenwiederherstellung"
       },
       {
         "id": "8015",
         "title": "Backup Strategien mit NAS und Offsite Lösungen",
-        "folder": "Backup Strategien mit NAS und Offsite Lösungen"
+        "folder": "backup-strategien-mit-nas-und-offsite-loesungen"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=datenspeicherung&t=896"
@@ -297,7 +297,7 @@ export const informatikTopics: Record<string, InformatikTopic> = {
       {
         "id": "8014",
         "title": "Kernel, Shell und grafische Benutzeroberfläche (GUI)",
-        "folder": "Unterschiede zwischen Kernel und Shell und GUI"
+        "folder": "unterschiede-zwischen-kernel-und-shell-und-gui"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=betriebssysteme&t=896"
@@ -343,7 +343,7 @@ export const informatikTopics: Record<string, InformatikTopic> = {
       {
         "id": "8013",
         "title": "Open Source und die Philosophie offener Software",
-        "folder": "Open Source und die Philosophie offener Software"
+        "folder": "open-source-und-die-philosophie-offener-software"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=software&t=896"
@@ -519,7 +519,7 @@ export const informatikTopics: Record<string, InformatikTopic> = {
       {
         "id": "7079",
         "title": "Wie funktioniert das WLAN",
-        "folder": "Wie funktioniert das WLAN"
+        "folder": "wie-funktioniert-das-wlan"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=netzwerke&t=896"
@@ -550,7 +550,7 @@ export const informatikTopics: Record<string, InformatikTopic> = {
       {
         "id": "8020",
         "title": "Suchmaschinen: Crawler und Ranking-Algorithmen",
-        "folder": "Aufbau und Funktionsweise von Suchmaschinen"
+        "folder": "aufbau-und-funktionsweise-von-suchmaschinen"
       },
       {
         "id": "dns",
@@ -626,12 +626,12 @@ export const informatikTopics: Record<string, InformatikTopic> = {
       {
         "id": "7118",
         "title": "Wie funktioniert eine E-Mail-Übertragung",
-        "folder": "Wie funktioniert eine E-Mail-Übertragung"
+        "folder": "wie-funktioniert-eine-e-mail-uebertragung"
       },
       {
         "id": "7120",
         "title": "Wie funktioniert ein QR-Code",
-        "folder": "Wie funktioniert ein QR-Code"
+        "folder": "wie-funktioniert-ein-qr-code"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=browser+email&t=896"
@@ -672,7 +672,7 @@ export const informatikTopics: Record<string, InformatikTopic> = {
       {
         "id": "8019",
         "title": "Rechenzentren & Cloud-Infrastruktur",
-        "folder": "Rechenzentren als physische Lagerhallen der Cloud"
+        "folder": "urheberrechte-476"
       },
       {
         "id": "476",
@@ -744,7 +744,7 @@ export const informatikTopics: Record<string, InformatikTopic> = {
       {
         "id": "7122",
         "title": "Wie funktioniert ein Botnetz",
-        "folder": "Wie funktioniert ein Botnetz"
+        "folder": "wie-funktioniert-ein-botnetz"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=it+sicherheit&t=896"
@@ -765,22 +765,22 @@ export const informatikTopics: Record<string, InformatikTopic> = {
       {
         "id": "7080",
         "title": "Wie funktioniert die Kryptographie (Verschlüsselung)",
-        "folder": "Wie funktioniert die Kryptographie (Verschlüsselung)"
+        "folder": "wie-funktioniert-die-kryptographie-verschluesselung"
       },
       {
         "id": "7119",
         "title": "Wie funktioniert die Zwei-Faktor-Authentifizierung",
-        "folder": "Wie funktioniert die Zwei-Faktor-Authentifizierung"
+        "folder": "wie-funktioniert-die-zwei-faktor-authentifizierung"
       },
       {
         "id": "8016",
         "title": "Symmetrische und asymmetrische Verschlüsselung",
-        "folder": "Unterschiede zwischen symmetrischer und asymmetrischer Verschlüsselung"
+        "folder": "unterschiede-zwischen-symmetrischer-und-asymmetrischer-verschluesselung"
       },
       {
         "id": "8017",
         "title": "Das Darknet und das Zwiebelprinzip",
-        "folder": "Zwiebelprinzip und Funktionsweise des Darknets"
+        "folder": "zwiebelprinzip-und-funktionsweise-des-darknets"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=kryptographie&t=896"
@@ -853,22 +853,22 @@ export const informatikTopics: Record<string, InformatikTopic> = {
       {
         "id": "8004",
         "title": "Vergleich von Algorithmen mit Kochrezepten",
-        "folder": "Vergleich von Algorithmen mit Kochrezepten"
+        "folder": "vergleich-von-algorithmen-mit-kochrezepten"
       },
       {
         "id": "8005",
         "title": "Arbeiten mit Bedingungen und Wiederholungen und Schleifen",
-        "folder": "Arbeiten mit Bedingungen und Wiederholungen und Schleifen"
+        "folder": "arbeiten-mit-bedingungen-und-wiederholungen-und-schleifen"
       },
       {
         "id": "8008",
         "title": "Rekursion und das Prinzip der Selbstähnlichkeit",
-        "folder": "Rekursion und das Prinzip der Selbstähnlichkeit"
+        "folder": "rekursion-und-das-prinzip-der-selbstaehnlichkeit"
       },
       {
         "id": "8009",
         "title": "Prinzipien für sauberen und dokumentierten Code",
-        "folder": "Prinzipien für sauberen und dokumentierten Code"
+        "folder": "prinzipien-fuer-sauberen-und-dokumentierten-code"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=algorithmen&t=896"
@@ -899,12 +899,12 @@ export const informatikTopics: Record<string, InformatikTopic> = {
       {
         "id": "8006",
         "title": "Programmierung einfacher Abläufe mit Scratch oder ähnlichen Tools",
-        "folder": "Programmierung einfacher Abläufe mit Scratch oder ähnlichen Tools"
+        "folder": "programmierung-einfacher-ablaeufe-mit-scratch-oder-aehnlichen-tools"
       },
       {
         "id": "8007",
         "title": "Programmierung einfacher Animationen oder Spiele in Scratch",
-        "folder": "Programmierung einfacher Animationen oder Spiele in Scratch"
+        "folder": "programmierung-einfacher-animationen-oder-spiele-in-scratch"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=programmieren+scratch&t=896"
@@ -926,32 +926,32 @@ export const informatikTopics: Record<string, InformatikTopic> = {
       {
         "id": "7123",
         "title": "Wie funktioniert das Deep Learning",
-        "folder": "Wie funktioniert das Deep Learning"
+        "folder": "wie-funktioniert-das-deep-learning"
       },
       {
         "id": "7124",
         "title": "Wie funktioniert die Sprachsteuerung (z.B. Siri, Alexa)",
-        "folder": "Wie funktioniert die Sprachsteuerung (z.B. Siri, Alexa)"
+        "folder": "wie-funktioniert-die-sprachsteuerung-z-b-siri-alexa"
       },
       {
         "id": "8010",
         "title": "Chancen und Risiken von Künstlicher Intelligenz",
-        "folder": "Chancen und Risiken von Künstlicher Intelligenz"
+        "folder": "chancen-und-risiken-von-kuenstlicher-intelligenz"
       },
       {
         "id": "8011",
         "title": "Trainieren einfacher Machine Learning Modelle",
-        "folder": "Trainieren einfacher Machine Learning Modelle"
+        "folder": "trainieren-einfacher-machine-learning-modelle"
       },
       {
         "id": "8012",
         "title": "Professionelles Prompting für Textgeneratoren und Bildgeneratoren",
-        "folder": "Professionelles Prompting für Textgeneratoren und Bildgeneratoren"
+        "folder": "professionelles-prompting-fuer-textgeneratoren-und-bildgeneratoren"
       },
       {
         "id": "8018",
         "title": "Halbleiterchips und Quantencomputer",
-        "folder": "Wettlauf um Chips und Quantencomputer"
+        "folder": "wettlauf-um-chips-und-quantencomputer"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=kuenstliche+intelligenz&t=896"
@@ -1033,7 +1033,7 @@ export const informatikTopics: Record<string, InformatikTopic> = {
       {
         "id": "8021",
         "title": "Webserver aufsetzen und konfigurieren",
-        "folder": "Aufsetzen und Konfigurieren eines eigenen Webservers"
+        "folder": "aufsetzen-und-konfigurieren-eines-eigenen-webservers"
       },
       {
         "id": "html-css-coden",
@@ -1079,17 +1079,17 @@ export const informatikTopics: Record<string, InformatikTopic> = {
       {
         "id": "8022",
         "title": "Vektorgrafiken vs. Pixelbilder",
-        "folder": "Unterschied zwischen Vektorgrafiken und Pixelbildern"
+        "folder": "unterschied-zwischen-vektorgrafiken-und-pixelbildern"
       },
       {
         "id": "8023",
         "title": "Raytracing: Lichtsimulation in Computergrafik",
-        "folder": "Raytracing und die physikalische Simulation von Lichtstrahlen"
+        "folder": "raytracing-und-die-physikalische-simulation-von-lichtstrahlen"
       },
       {
         "id": "8024",
         "title": "3D-Grafik: Warum Modelle aus Polygonen bestehen",
-        "folder": "Warum fast alle 3D Figuren aus Dreiecken bestehen"
+        "folder": "warum-fast-alle-3d-figuren-aus-dreiecken-bestehen"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=computergrafik+vektor&t=896"
@@ -1258,12 +1258,12 @@ export const informatikTopics: Record<string, InformatikTopic> = {
       {
         "id": "8001",
         "title": "Ada Lovelace als erste Programmiererin der Geschichte",
-        "folder": "Ada Lovelace als erste Programmiererin der Geschichte"
+        "folder": "ada-lovelace-als-erste-programmiererin-der-geschichte"
       },
       {
         "id": "8002",
         "title": "Alan Turing und die Entschlüsselung der Enigma",
-        "folder": "Alan Turing und die Entschlüsselung der Enigma"
+        "folder": "alan-turing-und-die-entschluesselung-der-enigma"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=pioniere+informatik&t=896"

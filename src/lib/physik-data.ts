@@ -63,12 +63,12 @@ export const physikTopics: Record<string, PhysikTopic> = {
       {
         "id": "7115",
         "title": "Wie funktioniert der Hebel",
-        "folder": "Wie funktioniert der Hebel"
+        "folder": "wie-funktioniert-der-hebel"
       },
       {
         "id": "7113",
         "title": "Wie funktioniert der Flaschenzug",
-        "folder": "Wie funktioniert der Flaschenzug"
+        "folder": "wie-funktioniert-der-flaschenzug"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=hebel+mechanik&t=3752"
@@ -164,7 +164,7 @@ export const physikTopics: Record<string, PhysikTopic> = {
       {
         "id": "7067",
         "title": "Wie funktioniert die Schwerkraft",
-        "folder": "Wie funktioniert die Schwerkraft"
+        "folder": "wie-funktioniert-die-schwerkraft"
       },
       {
         "id": "278",
@@ -543,7 +543,7 @@ export const physikTopics: Record<string, PhysikTopic> = {
       {
         "id": "7074",
         "title": "Wie funktioniert der Magnetismus",
-        "folder": "Wie funktioniert der Magnetismus"
+        "folder": "wie-funktioniert-der-magnetismus"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=magnetismus+erdmagnetfeld&t=3752"
@@ -595,7 +595,7 @@ export const physikTopics: Record<string, PhysikTopic> = {
       {
         "id": "7060",
         "title": "Wie funktioniert ein Induktionskochfeld",
-        "folder": "Wie funktioniert ein Induktionskochfeld"
+        "folder": "wie-funktioniert-ein-induktionskochfeld"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=induktion+elektromagnetismus&t=3752"
@@ -632,12 +632,12 @@ export const physikTopics: Record<string, PhysikTopic> = {
       {
         "id": "7098",
         "title": "Wie funktioniert die Magnetschwebebahn",
-        "folder": "Wie funktioniert die Magnetschwebebahn"
+        "folder": "wie-funktioniert-die-magnetschwebebahn"
       },
       {
         "id": "7092",
         "title": "Wie funktioniert ein MRT (Magnetresonanztomograph)",
-        "folder": "Wie funktioniert ein MRT (Magnetresonanztomograph)"
+        "folder": "wie-funktioniert-ein-mrt-magnetresonanztomograph"
       },
       {
         "id": "2248",
@@ -714,7 +714,7 @@ export const physikTopics: Record<string, PhysikTopic> = {
       {
         "id": "7116",
         "title": "Wie funktioniert ein Transformator",
-        "folder": "Wie funktioniert ein Transformator"
+        "folder": "wie-funktioniert-ein-transformator"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=transformator+stromnetz&t=3752"
@@ -782,22 +782,22 @@ export const physikTopics: Record<string, PhysikTopic> = {
       {
         "id": "7059",
         "title": "Wie funktioniert eine Windkraftanlage",
-        "folder": "Wie funktioniert eine Windkraftanlage"
+        "folder": "wie-funktioniert-eine-windkraftanlage"
       },
       {
         "id": "7100",
         "title": "Wie funktioniert ein Geothermiekraftwerk",
-        "folder": "Wie funktioniert ein Geothermiekraftwerk"
+        "folder": "wie-funktioniert-ein-geothermiekraftwerk"
       },
       {
         "id": "7101",
         "title": "Wie funktioniert die Müllverbrennung und Energiegewinnung",
-        "folder": "Wie funktioniert die Müllverbrennung und Energiegewinnung"
+        "folder": "wie-funktioniert-die-muellverbrennung-und-energiegewinnung"
       },
       {
         "id": "7154",
         "title": "Wie funktioniert die Energiespeicherung durch Pumpspeicherwerke",
-        "folder": "Wie funktioniert die Energiespeicherung durch Pumpspeicherwerke"
+        "folder": "wie-funktioniert-die-energiespeicherung-durch-pumpspeicherwerke"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=kraftwerke+energie&t=3752"
@@ -839,7 +839,7 @@ export const physikTopics: Record<string, PhysikTopic> = {
       {
         "id": "7134",
         "title": "Wie funktioniert die Seifenblase (Oberflächenspannung)",
-        "folder": "Wie funktioniert die Seifenblase (Oberflächenspannung)"
+        "folder": "wie-funktioniert-die-seifenblase-oberflaechenspannung"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=waermelehre+temperatur&t=3752"
@@ -881,7 +881,7 @@ export const physikTopics: Record<string, PhysikTopic> = {
       {
         "id": "7057",
         "title": "Wie funktioniert eine Wärmepumpe",
-        "folder": "Wie funktioniert eine Wärmepumpe"
+        "folder": "wie-funktioniert-eine-waermepumpe"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=waermepumpe+waermetransport&t=3752"
@@ -924,17 +924,17 @@ export const physikTopics: Record<string, PhysikTopic> = {
       {
         "id": "7073",
         "title": "Wie funktioniert der Schall",
-        "folder": "Wie funktioniert der Schall"
+        "folder": "wie-funktioniert-der-schall"
       },
       {
         "id": "7110",
         "title": "Wie funktioniert die Schallunterdrückung (Noise Cancelling)",
-        "folder": "Wie funktioniert die Schallunterdrückung (Noise Cancelling)"
+        "folder": "wie-funktioniert-die-schallunterdrueckung-noise-cancelling"
       },
       {
         "id": "7117",
         "title": "Wie funktioniert Ultraschall",
-        "folder": "Wie funktioniert Ultraschall"
+        "folder": "wie-funktioniert-ultraschall"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=akustik+schall&t=3752"
@@ -1024,12 +1024,12 @@ export const physikTopics: Record<string, PhysikTopic> = {
       {
         "id": "7082",
         "title": "Wie funktioniert ein Quantencomputer",
-        "folder": "Wie funktioniert ein Quantencomputer"
+        "folder": "wie-funktioniert-ein-quantencomputer"
       },
       {
         "id": "7149",
         "title": "Wie funktioniert eine Atomuhr",
-        "folder": "Wie funktioniert eine Atomuhr"
+        "folder": "wie-funktioniert-eine-atomuhr"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=kernenergie+quantenphysik&t=3752"
@@ -1132,12 +1132,12 @@ export const physikTopics: Record<string, PhysikTopic> = {
       {
         "id": "7072",
         "title": "Wie funktioniert die Gezeitenkraft",
-        "folder": "Wie funktioniert die Gezeitenkraft"
+        "folder": "wie-funktioniert-die-gezeitenkraft"
       },
       {
         "id": "7077",
         "title": "Wie funktioniert das Polarlicht",
-        "folder": "Wie funktioniert das Polarlicht"
+        "folder": "wie-funktioniert-das-polarlicht"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=geophysik+erdbeben&t=3752"

@@ -558,12 +558,12 @@ export const ethikTopics: Record<string, EthikTopic> = {
       {
             "id": "7624",
             "title": "Bio-Siegel und Fairtrade-Standards",
-            "folder": "Bio Siegel und Fairtrade Standards"
+            "folder": "bio-siegel-und-fairtrade-standards"
       },
       {
             "id": "7737",
             "title": "Ethischer Konsum und Konsumentenboykott",
-            "folder": "Ethischer Konsum und Konsumentenboykott"
+            "folder": "ethik-in-der-modeindustrie-2843"
       },
       {
             "id": "2843",
@@ -595,12 +595,12 @@ export const ethikTopics: Record<string, EthikTopic> = {
       {
             "id": "7987",
             "title": "Ethische Überlegungen zu KI und Automatisierung",
-            "folder": "Ethische Überlegungen zu Künstlicher Intelligenz und Automatisierung"
+            "folder": "ethische-ueberlegungen-zu-kuenstlicher-intelligenz-und-automatisierung"
       },
       {
             "id": "7986",
             "title": "Ethische Grenzen bei der Verschmelzung von Mensch und Technik",
-            "folder": "Ethische Grenzen bei der Verschmelzung von Mensch und Technik"
+            "folder": "automatisierung-und-arbeitsplatzverlust-2836"
       },
       {
             "id": "2836",
@@ -652,17 +652,17 @@ export const ethikTopics: Record<string, EthikTopic> = {
       {
             "id": "7989",
             "title": "Fairness und Verantwortung in der Online-Kommunikation",
-            "folder": "Fairness und Verantwortung in Online Kommunikation"
+            "folder": "fairness-und-verantwortung-in-online-kommunikation"
       },
       {
             "id": "8124",
             "title": "Verantwortungsbewusster Umgang mit Beiträgen und Fotos",
-            "folder": "Verantwortungsbewusster Umgang mit eigenen Beiträgen und Fotos"
+            "folder": "verantwortungsbewusster-umgang-mit-eigenen-beitraegen-und-fotos"
       },
       {
             "id": "8125",
             "title": "Verantwortungsvoller Umgang mit Daten",
-            "folder": "Verantwortungsvoller Umgang mit Daten"
+            "folder": "verantwortungsvoller-umgang-mit-daten"
       }
 ],
     worksheetLink: "https://eduki.com/de/autor/1430402/about-the-world-org?query=Medienethik+Fake+News+Datenschutz&t=3752"
@@ -704,17 +704,17 @@ export const ethikTopics: Record<string, EthikTopic> = {
       {
             "id": "7975",
             "title": "Erkennen und Vermeiden von Cybermobbing",
-            "folder": "Erkennen und Vermeiden von Cybermobbing"
+            "folder": "erkennen-und-vermeiden-von-cybermobbing"
       },
       {
             "id": "8086",
             "title": "Respektvolle Online-Diskussion und Konfliktlösung",
-            "folder": "Respektvolle Online Diskussion und Konfliktlösung"
+            "folder": "respektvolle-online-diskussion-und-konfliktloesung"
       },
       {
             "id": "8094",
             "title": "Sensibilisierung für Hate Speech und respektvolle Sprache",
-            "folder": "Sensibilisierung für Hate Speech und respektvolle Sprache"
+            "folder": "chancen-und-risiken-von-cyberfreundschaften-4416"
       },
       {
             "id": "4416",
@@ -807,7 +807,7 @@ export const ethikTopics: Record<string, EthikTopic> = {
       {
             "id": "7726",
             "title": "Diskriminierung und Inklusion am Arbeitsplatz",
-            "folder": "Diskriminierung und Inklusion am Arbeitsplatz"
+            "folder": "die-bedeutung-von-toleranz-in-der-gesellschaft-2767"
       },
       {
             "id": "2767",

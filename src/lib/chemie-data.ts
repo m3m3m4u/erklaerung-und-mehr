@@ -244,12 +244,12 @@ export const chemieTopics: Record<string, ChemieTopic> = {
       {
         "id": "7104",
         "title": "Wie funktioniert ein Katalysator im Auto",
-        "folder": "Wie funktioniert ein Katalysator im Auto"
+        "folder": "wie-funktioniert-ein-katalysator-im-auto"
       },
       {
         "id": "7133",
         "title": "Wie funktioniert ein Feuerzeug",
-        "folder": "Wie funktioniert ein Feuerzeug"
+        "folder": "wie-funktioniert-ein-feuerzeug"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=chemische+reaktionen+katalysator&t=3752"
@@ -343,22 +343,22 @@ export const chemieTopics: Record<string, ChemieTopic> = {
       {
         "id": "7099",
         "title": "Wie funktioniert die Entsalzung von Meerwasser",
-        "folder": "Wie funktioniert die Entsalzung von Meerwasser"
+        "folder": "wie-funktioniert-die-entsalzung-von-meerwasser"
       },
       {
         "id": "7102",
         "title": "Wie funktioniert die Destillation",
-        "folder": "Wie funktioniert die Destillation"
+        "folder": "wie-funktioniert-die-destillation"
       },
       {
         "id": "7103",
         "title": "Wie funktioniert die Chromatographie",
-        "folder": "Wie funktioniert die Chromatographie"
+        "folder": "wie-funktioniert-die-chromatographie"
       },
       {
         "id": "7062",
         "title": "Wie funktioniert eine Zentrifuge",
-        "folder": "Wie funktioniert eine Zentrifuge"
+        "folder": "wie-funktioniert-eine-zentrifuge"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=wasser+trennverfahren&t=3752"
@@ -494,22 +494,22 @@ export const chemieTopics: Record<string, ChemieTopic> = {
       {
         "id": "7144",
         "title": "Wie funktioniert die Elektrolyse",
-        "folder": "Wie funktioniert die Elektrolyse"
+        "folder": "wie-funktioniert-die-elektrolyse"
       },
       {
         "id": "7180",
         "title": "Wie funktioniert die Vergoldung (Galvanik)",
-        "folder": "Wie funktioniert die Vergoldung (Galvanik)"
+        "folder": "wie-funktioniert-die-vergoldung-galvanik"
       },
       {
         "id": "7105",
         "title": "Wie funktioniert die Korrosion (Rost)",
-        "folder": "Wie funktioniert die Korrosion (Rost)"
+        "folder": "wie-funktioniert-die-korrosion-rost"
       },
       {
         "id": "7061",
         "title": "Wie funktioniert eine Brennstoffzelle",
-        "folder": "Wie funktioniert ein Brennstoffzelle"
+        "folder": "wie-funktioniert-ein-brennstoffzelle"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=elektrochemie+korrosion&t=3752"
@@ -556,7 +556,7 @@ export const chemieTopics: Record<string, ChemieTopic> = {
       {
         "id": "7145",
         "title": "Wie funktioniert die Raffination von Erdöl",
-        "folder": "Wie funktioniert die Raffination von Erdöl"
+        "folder": "alternative-treibstoffe-5139"
       },
       {
         "id": "5139",
@@ -613,17 +613,17 @@ export const chemieTopics: Record<string, ChemieTopic> = {
       {
         "id": "7106",
         "title": "Wie funktioniert die Polymerisation (Kunststoffherstellung)",
-        "folder": "Wie funktioniert die Polymerisation (Herstellung von Kunststoff)"
+        "folder": "wie-funktioniert-die-polymerisation-herstellung-von-kunststoff"
       },
       {
         "id": "7181",
         "title": "Wie funktioniert das Recycling von Kunststoffen",
-        "folder": "Wie funktioniert das Recycling von Kunststoffen"
+        "folder": "wie-funktioniert-das-recycling-von-kunststoffen"
       },
       {
         "id": "7147",
         "title": "Wie funktioniert die Seifenherstellung",
-        "folder": "Wie funktioniert die Seifenherstellung"
+        "folder": "wie-funktioniert-die-seifenherstellung"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=kunststoffe+polymere&t=3752"
@@ -696,7 +696,7 @@ export const chemieTopics: Record<string, ChemieTopic> = {
       {
         "id": "7143",
         "title": "Wie funktioniert die Herstellung von Bier und Wein",
-        "folder": "Wie funktioniert die Herstellung von Bier und Wein"
+        "folder": "mineralstoffe-935"
       },
       {
         "id": "935",
@@ -732,17 +732,17 @@ export const chemieTopics: Record<string, ChemieTopic> = {
       {
         "id": "7146",
         "title": "Wie funktioniert die Herstellung von Glas",
-        "folder": "Wie funktioniert die Herstellung von Glas"
+        "folder": "wie-funktioniert-die-herstellung-von-glas"
       },
       {
         "id": "7137",
         "title": "Wie funktioniert die Zementherstellung",
-        "folder": "Wie funktioniert die Zementherstellung"
+        "folder": "wie-funktioniert-die-zementherstellung"
       },
       {
         "id": "7170",
         "title": "Wie funktioniert die Herstellung von Papier",
-        "folder": "Wie funktioniert die Herstellung von Papier"
+        "folder": "wie-funktioniert-die-herstellung-von-papier"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=glas+zement+werkstoffe&t=3752"
@@ -779,12 +779,12 @@ export const chemieTopics: Record<string, ChemieTopic> = {
       {
         "id": "7138",
         "title": "Wie funktioniert die Abwasserreinigung",
-        "folder": "Wie funktioniert die Abwasserreinigung"
+        "folder": "wie-funktioniert-die-abwasserreinigung"
       },
       {
         "id": "7155",
         "title": "Wie funktioniert die CO₂-Abscheidung (Carbon Capture)",
-        "folder": "Wie funktioniert die CO2-Abscheidung (Carbon Capture)"
+        "folder": "wie-funktioniert-die-co-abscheidung-carbon-capture"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=umweltchemie+gefahrstoffe&t=3752"
