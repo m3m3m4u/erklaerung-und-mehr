@@ -443,11 +443,6 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "folder": "demokratie-in-der-schweiz-6298"
       },
       {
-        "id": "3526",
-        "title": "Direkte Demokratie vs. Repräsentative Demokratie",
-        "folder": "direkte-demokratie-vs-reprasentative-demokratie-3526"
-      },
-      {
         "id": "3512",
         "title": "Die Gewaltenteilung im Verfassungsstaat",
         "folder": "die-gewaltenteilung-3512"
@@ -701,11 +696,6 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "id": "4454",
         "title": "Respektvoller Umgang mit Vielfalt",
         "folder": "respektvoller-umgang-mit-vielfalt-4454"
-      },
-      {
-        "id": "3600",
-        "title": "Zivilcourage",
-        "folder": "zivilcourage-3600"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=gleichberechtigung+vielfalt&t=3752"
@@ -835,11 +825,6 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "id": "4472",
         "title": "Widerstand gegen Ungerechtigkeit",
         "folder": "widerstand-gegen-ungerechtigkeit-4472"
-      },
-      {
-        "id": "2939",
-        "title": "Die Allgemeine Erklärung der Menschenrechte",
-        "folder": "die-allgemeine-erklarung-der-menschenrechte-2939"
       },
       {
         "id": "2750",
