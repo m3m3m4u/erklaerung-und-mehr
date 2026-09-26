@@ -77,6 +77,22 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "title": "Athen und die attische Demokratie in Griechenland",
         "folder": "athen-und-die-attische-demokratie-in-griechenland-5236"
       }
+    ,
+      {
+        "id": "3489",
+        "title": "Das Demonstrationsrecht",
+        "folder": "das-demonstrationsrecht-3489"
+      },
+      {
+        "id": "das-allgemeine-gleichbehandlungsgesetz",
+        "title": "Das Allgemeine Gleichbehandlungsgesetz (AGG)",
+        "folder": "das-allgemeine-gleichbehandlungsgesetz"
+      },
+      {
+        "id": "2357",
+        "title": "Geschichte des Strafrechts & Rechtsstaatlichkeit",
+        "folder": "die-nuklearkatastrophe-von-tschernobyl-11-2357"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=demokratie+grundgesetz&t=3752"
   },
@@ -170,6 +186,32 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "title": "Korruption",
         "folder": "korruption-3559"
       }
+    ,
+      {
+        "id": "3591",
+        "title": "Sozialismus",
+        "folder": "sozialismus-3591"
+      },
+      {
+        "id": "3556",
+        "title": "Kommunismus",
+        "folder": "kommunismus-3556"
+      },
+      {
+        "id": "5369",
+        "title": "Die Geschichte des Kommunismus",
+        "folder": "die-geschichte-des-kommunismus-5369"
+      },
+      {
+        "id": "die-macht-der-sprache-in-diktaturen",
+        "title": "Die Macht der Sprache in Diktaturen",
+        "folder": "die-macht-der-sprache-in-diktaturen"
+      },
+      {
+        "id": "2920",
+        "title": "Der Islamische Gottesstaat Iran",
+        "folder": "der-islamische-gottesstaat-iran-2920"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=politische+systeme&t=3752"
   },
@@ -215,6 +257,22 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "id": "2322",
         "title": "Der Islamische Staat",
         "folder": "der-islamische-staat-2322"
+      }
+    ,
+      {
+        "id": "demokratie-am-abgrund-die-kriterien-der-verfassungsfeindlichkeit",
+        "title": "Demokratie am Abgrund – Kriterien der Verfassungsfeindlichkeit",
+        "folder": "demokratie-am-abgrund-die-kriterien-der-verfassungsfeindlichkeit"
+      },
+      {
+        "id": "schutzschild-fuer-die-freiheit-strategische-massnahmen-gegen-demokratiefeinde",
+        "title": "Schutzschild für die Freiheit – Maßnahmen gegen Demokratiefeinde",
+        "folder": "schutzschild-fuer-die-freiheit-strategische-massnahmen-gegen-demokratiefeinde"
+      },
+      {
+        "id": "abwehrschlacht-gegen-radikale-strategien-gegen-extremismus-im-netz",
+        "title": "Abwehrschlacht gegen Radikale – Strategien gegen Extremismus im Netz",
+        "folder": "abwehrschlacht-gegen-radikale-strategien-gegen-extremismus-im-netz"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=populismus+extremismus&t=3752"
@@ -272,6 +330,12 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "id": "3118",
         "title": "Landtagswahl 2024 in Thüringen",
         "folder": "landtagswahl-2024-in-thuringen-3118"
+      }
+    ,
+      {
+        "id": "die-bundesversammlung-in-deutschland",
+        "title": "Die Bundesversammlung in Deutschland",
+        "folder": "die-bundesversammlung-in-deutschland"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=wahlsystem+bundestagswahl&t=3752"
@@ -333,6 +397,17 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "id": "3285",
         "title": "Sahra Wagenknecht",
         "folder": "sahra-wagenknecht-3285"
+      }
+    ,
+      {
+        "id": "3537",
+        "title": "Geschichte der deutschen Parteienlandschaft",
+        "folder": "geschichte-der-deutschen-parteienlandschaft-3537"
+      },
+      {
+        "id": "das-manifest-der-rechten-ein-tiefer-blick-in-das-afd-programm",
+        "title": "Das Manifest der Rechten – Ein tiefer Blick in das AfD-Programm",
+        "folder": "das-manifest-der-rechten-ein-tiefer-blick-in-das-afd-programm"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=parteien+politiker&t=3752"
@@ -400,6 +475,67 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "id": "3184",
         "title": "Escape Room \"Das politische System in Deutschland\"",
         "folder": "escape-room-quot-das-politische-system-in-deutschland-quot-3184"
+      }
+    ,
+      {
+        "id": "944",
+        "title": "Die Verfassungsorgane der Bundesrepublik Deutschland",
+        "folder": "verfassungsorgane-944"
+      },
+      {
+        "id": "3581",
+        "title": "Rechte und Pflichten des deutschen Bundeskanzlers",
+        "folder": "rechte-und-pflichten-des-deutschen-bundeskanzlers-3581"
+      },
+      {
+        "id": "3582",
+        "title": "Rechte und Pflichten des deutschen Bundespräsidenten",
+        "folder": "rechte-und-pflichten-des-deutschen-bundesprasidenten-3582"
+      },
+      {
+        "id": "3528",
+        "title": "Entstehung eines Gesetzes im Bundestag",
+        "folder": "entstehung-eines-gesetzes-3528"
+      },
+      {
+        "id": "3481",
+        "title": "Aufgaben eines Landtags",
+        "folder": "aufgaben-eines-landtags-3481"
+      },
+      {
+        "id": "die-neuen-bundeslaender",
+        "title": "Die neuen Bundesländer im Föderalismus",
+        "folder": "die-neuen-bundeslaender"
+      },
+      {
+        "id": "das-statistische-bundesamt",
+        "title": "Das Statistische Bundesamt",
+        "folder": "das-statistische-bundesamt"
+      },
+      {
+        "id": "kommunale-selbstverwaltung-in-deutschland",
+        "title": "Kommunale Selbstverwaltung in Deutschland",
+        "folder": "kommunale-selbstverwaltung-in-deutschland"
+      },
+      {
+        "id": "3480",
+        "title": "Aufgaben eines Bürgermeisters",
+        "folder": "aufgaben-eines-burgermeisters-3480"
+      },
+      {
+        "id": "der-kreistag-in-deutschland",
+        "title": "Der Kreistag in Deutschland",
+        "folder": "der-kreistag-in-deutschland"
+      },
+      {
+        "id": "die-bundeswehr-streitkraefte-deutschlands",
+        "title": "Die Bundeswehr - Streitkräfte Deutschlands",
+        "folder": "die-bundeswehr-streitkraefte-deutschlands"
+      },
+      {
+        "id": "die-nachrichtendienste-des-bundes",
+        "title": "Die Nachrichtendienste des Bundes",
+        "folder": "die-nachrichtendienste-des-bundes"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=staatsorgane+foederalismus&t=3752"
@@ -489,6 +625,27 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "title": "Staaten Europas",
         "folder": "staaten-europas-305"
       }
+    ,
+      {
+        "id": "4652",
+        "title": "Das EU-Defizitverfahren",
+        "folder": "das-eu-defizitsverfahren-4652"
+      },
+      {
+        "id": "5440",
+        "title": "Der Einfluss der EU auf regionale Entwicklung und Infrastruktur",
+        "folder": "der-einfluss-der-eu-auf-regionale-entwicklung-und-infrastruktur-5440"
+      },
+      {
+        "id": "6735",
+        "title": "Ungarn und die EU: Ein politischer Streit",
+        "folder": "ungarn-und-die-eu-ein-politischer-streit-6735"
+      },
+      {
+        "id": "abhaengigkeit-europas-von-auslaendischen-tech-konzernen",
+        "title": "Abhängigkeit Europas von ausländischen Tech-Konzernen",
+        "folder": "abhaengigkeit-europas-von-auslaendischen-tech-konzernen"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=europaeische+union&t=3752"
   },
@@ -535,6 +692,57 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "id": "6613",
         "title": "Die Rolle Chinas in der Weltwirtschaft und Politik",
         "folder": "die-rolle-chinas-in-der-weltwirtschaft-und-politik-6613"
+      }
+    ,
+      {
+        "id": "aussenpolitik-der-bundesrepublik-deutschland",
+        "title": "Außenpolitik der Bundesrepublik Deutschland",
+        "folder": "aussenpolitik-der-bundesrepublik-deutschland"
+      },
+      {
+        "id": "die-nato-am-scheideweg-das-schreckensszenario-ohne-die-usa",
+        "title": "Die NATO am Scheideweg – Das Schreckensszenario ohne die USA",
+        "folder": "die-nato-am-scheideweg-das-schreckensszenario-ohne-die-usa"
+      },
+      {
+        "id": "auslandseinsaetze-der-bundeswehr",
+        "title": "Auslandseinsätze der Bundeswehr",
+        "folder": "auslandseinsaetze-der-bundeswehr"
+      },
+      {
+        "id": "3497",
+        "title": "Der Atomwaffensperrvertrag",
+        "folder": "der-atomwaffensperrvertrag-3497"
+      },
+      {
+        "id": "die-supermacht-im-wandel-amerikas-broeckelnde-dominanz-in-der-weltpolitik",
+        "title": "Die Supermacht im Wandel – Amerikas bröckelnde Dominanz in der Weltpolitik",
+        "folder": "die-supermacht-im-wandel-amerikas-broeckelnde-dominanz-in-der-weltpolitik"
+      },
+      {
+        "id": "3547",
+        "title": "Internationale Handelskonflikte",
+        "folder": "internationale-handelskonflikte-3547"
+      },
+      {
+        "id": "handelskrieg-2-0-die-schockwellen-der-us-zoelle-auf-den-welthandel",
+        "title": "Handelskrieg 2.0 – US-Zölle auf den Welthandel",
+        "folder": "handelskrieg-2-0-die-schockwellen-der-us-zoelle-auf-den-welthandel"
+      },
+      {
+        "id": "6598",
+        "title": "Die globale Chip-Krise und ihre geopolitischen Folgen",
+        "folder": "die-globale-chip-krise-und-ihre-geopolitischen-folgen-6598"
+      },
+      {
+        "id": "drohnen-terror-und-high-tech-krieg-die-radikale-transformation-der-schlachtfelder",
+        "title": "Drohnen-Terror und High-Tech-Krieg",
+        "folder": "drohnen-terror-und-high-tech-krieg-die-radikale-transformation-der-schlachtfelder"
+      },
+      {
+        "id": "2962",
+        "title": "Die Krimkrise 2015",
+        "folder": "die-krimkrise-2015-2962"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=uno+voelkerrecht&t=3752"
@@ -588,6 +796,12 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "title": "Die Rolle der sozialen Medien im Krieg",
         "folder": "die-rolle-der-sozialen-medien-im-krieg-6615"
       }
+    ,
+      {
+        "id": "rechtliche-aspekte-biometrischer-ueberwachung",
+        "title": "Rechtliche Aspekte biometrischer Überwachung",
+        "folder": "rechtliche-aspekte-biometrischer-ueberwachung"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=pressefreiheit+medien&t=3752"
   },
@@ -629,6 +843,37 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "id": "5550",
         "title": "Migration und ihre Rolle in der Globalisierung",
         "folder": "migration-und-ihre-rolle-in-der-globalisierung-5550"
+      }
+    ,
+      {
+        "id": "3487",
+        "title": "Das Asylrecht",
+        "folder": "das-asylrecht-3487"
+      },
+      {
+        "id": "3543",
+        "title": "Herausforderungen der Einwanderungspolitik",
+        "folder": "herausforderungen-der-einwanderungspolitik-3543"
+      },
+      {
+        "id": "deutsche-staatsangehoerigkeit",
+        "title": "Deutsche Staatsangehörigkeit",
+        "folder": "deutsche-staatsangehoerigkeit"
+      },
+      {
+        "id": "2335",
+        "title": "Die Genfer Flüchtlingskonvention",
+        "folder": "die-genfer-fluchtlingskonvention-2335"
+      },
+      {
+        "id": "1036",
+        "title": "Die Flüchtlingskrise",
+        "folder": "die-fluchtlingskrise-1036"
+      },
+      {
+        "id": "5543",
+        "title": "Migrationstrends und ihre Auswirkungen auf Gesellschaften",
+        "folder": "migrationstrends-und-ihre-auswirkungen-auf-gesellschaften-2-5543"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=migration+integration&t=3752"
@@ -696,6 +941,17 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "id": "4454",
         "title": "Respektvoller Umgang mit Vielfalt",
         "folder": "respektvoller-umgang-mit-vielfalt-4454"
+      }
+    ,
+      {
+        "id": "3491",
+        "title": "Das Ehrenamt",
+        "folder": "das-ehrenamt-3491"
+      },
+      {
+        "id": "3571",
+        "title": "Nichtregierungsorganisationen (NGOs)",
+        "folder": "nichtregierungsorganisationen-3571"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=gleichberechtigung+vielfalt&t=3752"
@@ -781,6 +1037,42 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "title": "Was ist ein Sondervermögen",
         "folder": "was-ist-ein-sondervermogen-4659"
       }
+    ,
+      {
+        "id": "die-sozialversicherung-in-deutschland",
+        "title": "Die Sozialversicherung in Deutschland",
+        "folder": "die-sozialversicherung-in-deutschland"
+      },
+      {
+        "id": "952",
+        "title": "Die Soziale Marktwirtschaft",
+        "folder": "die-soziale-marktwirtschaft-952"
+      },
+      {
+        "id": "die-bundesagentur-fuer-arbeit",
+        "title": "Die Bundesagentur für Arbeit",
+        "folder": "die-bundesagentur-fuer-arbeit"
+      },
+      {
+        "id": "3590",
+        "title": "Soziale Ungleichheit",
+        "folder": "soziale-ungleichheit-3590"
+      },
+      {
+        "id": "3568",
+        "title": "Mindestlohn",
+        "folder": "mindestlohn-3568"
+      },
+      {
+        "id": "steuerrecht-einfach-erklaert",
+        "title": "Steuerrecht einfach erklärt",
+        "folder": "steuerrecht-einfach-erklaert"
+      },
+      {
+        "id": "auswirkungen-von-plattformkapitalismus-auf-arbeitsrechte",
+        "title": "Auswirkungen von Plattformkapitalismus auf Arbeitsrechte",
+        "folder": "auswirkungen-von-plattformkapitalismus-auf-arbeitsrechte"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=sozialstaat+steuern&t=3752"
   },
@@ -830,6 +1122,27 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "id": "2750",
         "title": "Der Konflikt zwischen Freiheit und Sicherheit",
         "folder": "der-konflikt-zwischen-freiheit-und-sicherheit-2750"
+      }
+    ,
+      {
+        "id": "lobbyismus-im-verborgenen-wie-einfluesterer-unsere-gesetze-diktieren",
+        "title": "Lobbyismus im Verborgenen – Wie Einflüsterer unsere Gesetze diktieren",
+        "folder": "lobbyismus-im-verborgenen-wie-einfluesterer-unsere-gesetze-diktieren"
+      },
+      {
+        "id": "3601",
+        "title": "Zwangsheirat und ihre gesellschaftlichen Folgen",
+        "folder": "zwangsheirat-und-ihre-gesellschaftlichen-folgen-3601"
+      },
+      {
+        "id": "2716",
+        "title": "Gefängnis- und Resozialisierungsprogramme",
+        "folder": "gefangnis-und-resozialisierungsprogramme-2716"
+      },
+      {
+        "id": "1134",
+        "title": "Verbraucherpolitik",
+        "folder": "verbraucherpolitik-1134"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=ethik+widerstand&t=3752"
