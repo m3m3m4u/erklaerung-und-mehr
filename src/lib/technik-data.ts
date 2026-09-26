@@ -1147,11 +1147,6 @@ export const technikTopics: Record<string, TechnikTopic> = {
         folder: "wie-funktioniert-ein-mikrofon-2541"
       },
       {
-        id: "2554",
-        title: "Wie funktioniert ein rasierapparat",
-        folder: "wie-funktioniert-ein-rasierapparat-2554"
-      },
-      {
         id: "2564",
         title: "Wie funktioniert ein taschenrechner",
         folder: "wie-funktioniert-ein-taschenrechner-2564"
