@@ -135,6 +135,21 @@ export const ernaehrungTopics: Record<string, ErnaehrungTopic> = {
         "id": "mineralstoffe-935",
         "title": "Mineralstoffe & Spurenelemente",
         "folder": "mineralstoffe-935"
+      },
+      {
+        "id": "calcium-1167",
+        "title": "Calcium – Lebenswichtiger Mineralstoff",
+        "folder": "calcium-1167"
+      },
+      {
+        "id": "magnesium-1160",
+        "title": "Magnesium – Mineralstoff für Muskeln und Nerven",
+        "folder": "magnesium-1160"
+      },
+      {
+        "id": "das-immunsystem-und-ernahrung-2-2131",
+        "title": "Das Immunsystem und Ernährung",
+        "folder": "das-immunsystem-und-ernahrung-2-2131"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Vitamine+Mineralstoffe&t=3752"
@@ -166,6 +181,21 @@ export const ernaehrungTopics: Record<string, ErnaehrungTopic> = {
         "id": "der-kurbis-vielseitig-und-nahrhaft-2196",
         "title": "Der Kürbis – Vielseitig und nahrhaft",
         "folder": "der-kurbis-vielseitig-und-nahrhaft-2196"
+      },
+      {
+        "id": "die-kartoffel-eine-wichtige-nutzpflanze-2195",
+        "title": "Die Kartoffel – Eine wichtige Nutzpflanze",
+        "folder": "die-kartoffel-eine-wichtige-nutzpflanze-2195"
+      },
+      {
+        "id": "die-zitrone-sauerlich-und-gesund-2200",
+        "title": "Die Zitrone – Säuerlich und gesund",
+        "folder": "die-zitrone-sauerlich-und-gesund-2200"
+      },
+      {
+        "id": "der-apfelbaum-von-der-blute-zur-frucht-2193",
+        "title": "Der Apfelbaum – Von der Blüte zur Frucht",
+        "folder": "der-apfelbaum-von-der-blute-zur-frucht-2193"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Lebensmittelkunde+Obst+Gemüse+Getreide&t=3752"
