@@ -329,14 +329,39 @@ export const mathTopics: Record<string, MathTopic> = {
     ],
     "exercises": [
       {
+        "id": "387",
+        "title": "Negative Zahlen",
+        "folder": "negative-zahlen-387"
+      },
+      {
+        "id": "198",
+        "title": "Negative Zahlen im Alltag",
+        "folder": "negative-zahlen-im-alltag-198"
+      },
+      {
         "id": "145",
         "title": "Addieren und subtrahieren mit negativen Zahlen",
         "folder": "addieren-und-subtrahieren-mit-negativen-zahlen-145"
       },
       {
+        "id": "765",
+        "title": "Negative Zahlen addieren und subtrahieren",
+        "folder": "negative-zahlen-addieren-und-subtrahieren-765"
+      },
+      {
         "id": "146",
         "title": "Multiplizieren und Dividieren mit negativen Zahlen",
         "folder": "multiplizieren-und-dividieren-mit-negativen-zahlen-146"
+      },
+      {
+        "id": "766",
+        "title": "Negative Zahlen multiplizieren",
+        "folder": "negative-zahlen-multiplizieren-766"
+      },
+      {
+        "id": "767",
+        "title": "Negative Zahlen dividieren",
+        "folder": "negative-zahlen-dividieren-767"
       },
       {
         "id": "768",

@@ -510,6 +510,11 @@ export const philosophieTopics: Record<string, PhilosophieTopic> = {
             "folder": "philosophie-und-wissenschaftstheorie-5876"
       },
       {
+            "id": "2776",
+            "title": "Die Frage nach der Natur der Realität in der Mathematik",
+            "folder": "die-frage-nach-der-natur-der-realitat-in-der-mathematik-2776"
+      },
+      {
             "id": "5915",
             "title": "Wissenschaft und Philosophie",
             "folder": "wissenschaft-und-philosophie-5915"
