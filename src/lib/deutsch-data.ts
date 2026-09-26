@@ -78,11 +78,6 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "folder": "die-wortarten-2-3252"
       },
       {
-        "id": "696",
-        "title": "Grundwortarten Trainingsübung",
-        "folder": "studypoint-multiple-choice-grundwortarten-696"
-      },
-      {
         "id": "553",
         "title": "Adjektiv",
         "folder": "adjektiv-553"
