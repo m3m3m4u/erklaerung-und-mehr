@@ -69,6 +69,16 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "id": "7113",
         "title": "Wie funktioniert der Flaschenzug",
         "folder": "wie-funktioniert-der-flaschenzug"
+      },
+      {
+        "id": "588",
+        "title": "Lerninhalt: Kräfte",
+        "folder": "lerninhalt-krafte-588"
+      },
+      {
+        "id": "587",
+        "title": "Lerninhalt: Darstellung von Kräften",
+        "folder": "lerninhalt-darstellung-von-kraften-587"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=hebel+mechanik&t=3752"
@@ -180,6 +190,16 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "id": "bernoulli",
         "title": "Wie funktioniert der Bernoulli-Effekt",
         "folder": "wie-funktioniert-der-bernoulli-effekt"
+      },
+      {
+        "id": "586",
+        "title": "Lerninhalt: Kraft und Gegenkraft",
+        "folder": "lerninhalt-kraft-und-gegenkraft-586"
+      },
+      {
+        "id": "584",
+        "title": "Lerninhalt: Gewichtskraft",
+        "folder": "lerninhalt-gewichtskraft-584"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=newton+gravitation&t=3752"
