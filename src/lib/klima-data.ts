@@ -200,6 +200,11 @@ export const klimaTopics: Record<string, KlimaTopic> = {
         "id": "5175",
         "title": "Ozon",
         "folder": "ozon-5175"
+      },
+      {
+        "id": "schneefreie-alpen",
+        "title": "Schneefreie Alpen – Der bittere Untergang des Wintersports",
+        "folder": "schneefreie-alpen-der-bittere-untergang-des-wintersports"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Treibhauseffekt+Klimazonen&t=3752"
