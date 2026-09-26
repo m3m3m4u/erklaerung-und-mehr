@@ -502,6 +502,26 @@ export const ethikTopics: Record<string, EthikTopic> = {
             "id": "2868",
             "title": "Verantwortung für außerirdisches Leben",
             "folder": "verantwortung-fur-aueserirdisches-leben-2868"
+      },
+      {
+            "id": "2756",
+            "title": "Der Utilitarismus und das Problem der Ressourcenknappheit",
+            "folder": "der-utilitarismus-und-das-problem-der-ressourcenknappheit-2756"
+      },
+      {
+            "id": "3536",
+            "title": "Generationengerechtigkeit",
+            "folder": "generationengerechtigkeit-3536"
+      },
+      {
+            "id": "4474",
+            "title": "Gerechte Verteilung von Ressourcen",
+            "folder": "gerechte-verteilung-von-ressourcen-4474"
+      },
+      {
+            "id": "3573",
+            "title": "Ökologischer Fußabdruck und persönlicher Beitrag",
+            "folder": "kologischer-fuesabdruck-und-personlicher-beitrag-3573"
       }
 ],
     worksheetLink: "https://eduki.com/de/autor/1430402/about-the-world-org?query=Umweltethik+Klimagerechtigkeit&t=3752"
@@ -788,6 +808,26 @@ export const ethikTopics: Record<string, EthikTopic> = {
             "id": "7726",
             "title": "Diskriminierung und Inklusion am Arbeitsplatz",
             "folder": "Diskriminierung und Inklusion am Arbeitsplatz"
+      },
+      {
+            "id": "2767",
+            "title": "Die Bedeutung von Toleranz in der Gesellschaft",
+            "folder": "die-bedeutung-von-toleranz-in-der-gesellschaft-2767"
+      },
+      {
+            "id": "4475",
+            "title": "Toleranz als Grundlage des Zusammenlebens",
+            "folder": "toleranz-als-grundlage-des-zusammenlebens-4475"
+      },
+      {
+            "id": "5910",
+            "title": "Vorurteile und Diskriminierung",
+            "folder": "vorurteile-und-diskriminierung-5910"
+      },
+      {
+            "id": "4454",
+            "title": "Respektvoller Umgang mit Vielfalt",
+            "folder": "respektvoller-umgang-mit-vielfalt-4454"
       }
 ],
     worksheetLink: "https://eduki.com/de/autor/1430402/about-the-world-org?query=Toleranz+Vorurteile+Inklusion&t=3752"
