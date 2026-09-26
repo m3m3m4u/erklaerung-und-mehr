@@ -1109,6 +1109,11 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "id": "4400",
         "title": "Lion Feuchtwanger",
         "folder": "lion-feuchtwanger-4400"
+      },
+      {
+        "id": "6215",
+        "title": "Faust II von J.W. von Goethe",
+        "folder": "faust-ii-von-j-w-von-goethe-6215"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Deutsche%20Schriftsteller+biografie&t=3752"
@@ -1294,6 +1299,11 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "id": "4413",
         "title": "W.B. Yeats",
         "folder": "w-b-yeats-4413"
+      },
+      {
+        "id": "4322",
+        "title": "Virginia Woolf (Teil 1)",
+        "folder": "virginia-woolf-4322"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Englischsprachige%20Schriftsteller+biografie&t=3752"
@@ -4634,6 +4644,11 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "id": "4384",
         "title": "Lao Tzu",
         "folder": "lao-tzu-4384"
+      },
+      {
+        "id": "1207",
+        "title": "Apollo",
+        "folder": "apollo-1207"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Religi%C3%B6se%20F%C3%BChrer+biografie&t=3752"
@@ -5204,6 +5219,11 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "id": "4385",
         "title": "Larissa Latynina",
         "folder": "larissa-latynina-4385"
+      },
+      {
+        "id": "3688",
+        "title": "Babe Ruth (Teil 1)",
+        "folder": "babe-ruth-3688"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Sportler+biografie&t=3752"
@@ -5402,85 +5422,6 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Unternehmer+biografie&t=3752"
-  },
-  "virginia-woolf": {
-    "slug": "virginia-woolf",
-    "title": "Virginia Woolf (1882–1941)",
-    "category": "Englischsprachige Schriftsteller",
-    "shortDesc": "Pionierin der Moderne, Bloomsbury Group, Bewusstseinsstrom (Stream of Consciousness) und feministische Essayistik.",
-    "longDesc": "Virginia Woolf gilt als eine der bedeutendsten modernistischen Schriftstellerinnen des 20. Jahrhunderts. Mit Werken wie 'Mrs. Dalloway', 'To the Lighthouse' und dem Essay 'A Room of One's Own' revolutionierte sie Erzähltechnik und Frauenrechte.",
-    "keyPoints": [
-      "Stream of Consciousness: Abkehr vom traditionellen linearen Erzählen zugunsten innerer Monologe und Gedankenflüsse",
-      "Feministisches Manifest: 'Ein eigenes Zimmer' (1929) forderte finanzielle Unabhängigkeit und Raum für schöpferische Frauen",
-      "Bloomsbury Group: Einflussreicher Kreis englischer Intellektueller, Philosophen und Künstler in London"
-    ],
-    "exercises": [
-      {
-        "id": "4322",
-        "title": "Virginia Woolf",
-        "folder": "virginia-woolf-4322"
-      }
-    ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=virginia+woolf&t=3752"
-  },
-  "babe-ruth": {
-    "slug": "babe-ruth",
-    "title": "Babe Ruth (1895–1948)",
-    "category": "Sportler",
-    "shortDesc": "Der 'Bambino' und 'Sultan of Swat': Baseball-Legende der New York Yankees und Kulturikone.",
-    "longDesc": "George Herman 'Babe' Ruth revolutionierte den Baseball in den USA der 1920er Jahre. Seine unvergleichliche Schlagkraft machte ihn zur ersten weltweiten Sportikone der modernen Mediengesellschaft.",
-    "keyPoints": [
-      "Home-Run-Revolution: Erzielte 714 Home Runs und prägte die 'Live-Ball-Ära'",
-      "Kulturikone der Goldenen Zwanziger: Symbol für Optimismus, Medienrummel und Aufstieg in den USA",
-      "New York Yankees: Führte das Team zu sieben World-Series-Titeln"
-    ],
-    "exercises": [
-      {
-        "id": "3688",
-        "title": "Babe Ruth",
-        "folder": "babe-ruth-3688"
-      }
-    ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=babe+ruth&t=3752"
-  },
-  "apollo-mythologie": {
-    "slug": "apollo-mythologie",
-    "title": "Apollo (Götterwelt der Antike)",
-    "category": "Religiöse Führer",
-    "shortDesc": "Gott des Lichts, der Künste, der Weissagung (Orakel von Delphi) und der Heilkunst in der griechischen Mythologie.",
-    "longDesc": "Apollon (römisch Apollo) war einer der zwölf olympischen Götter der griechisch-römischen Antike. Als Gott der Poesie, Musik, Heilung und der Weissagung verkörperte er das Ideal von Harmonie und Vernunft.",
-    "keyPoints": [
-      "Gott des Lichts & der Künste: Anführer der neun Musen, Meister der Kithara und Leier",
-      "Orakel von Delphi: Berühmteste Weissagungsstätte der Antike ('Erkenne dich selbst')",
-      "Zwillingsbruder der Artemis: Sohn des Zeus und der Leto, geboren auf der Insel Delos"
-    ],
-    "exercises": [
-      {
-        "id": "1207",
-        "title": "Apollo",
-        "folder": "apollo-1207"
-      }
-    ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=antike+mythologie&t=3752"
-  },
-  "johann-wolfgang-von-goethe": {
-    "slug": "johann-wolfgang-von-goethe",
-    "title": "Johann Wolfgang von Goethe & Faust II",
-    "category": "Deutsche Schriftsteller",
-    "shortDesc": "Universalgenie der Weimarer Klassik, Dichterfürst, Naturforscher und das Spätwerk Faust II.",
-    "longDesc": "Johann Wolfgang von Goethe prägte die deutsche Literatur von Sturm und Drang bis zur Weimarer Klassik. Sein Hauptwerk 'Faust' vollendete er kurz vor seinem Tod mit dem vielschichtigen zweiten Teil.",
-    "keyPoints": [
-      "Weimarer Klassik: Freundschaft mit Schiller, Streben nach humanistischer Harmonie, Schönheit und Maß",
-      "Faust II (1832): Welttheater über Kaiserhof, Geldschöpfung, Antike und technologischen Fortschritt",
-      "Universalgelehrter: Bedeutende Forschungen zur Farbenlehre, Morphologie und Botanik"
-    ],
-    "exercises": [
-      {
-        "id": "6215",
-        "title": "Faust II von J.W. von Goethe",
-        "folder": "faust-ii-von-j-w-von-goethe-6215"
-      }
-    ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=goethe+faust&t=3752"
   }
 };
+
