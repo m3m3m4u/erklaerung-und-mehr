@@ -431,6 +431,26 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "id": "2350",
         "title": "Die politischen Parteien Österreichs",
         "folder": "die-nuklearkatastrophe-von-tschernobyl-4-2350"
+      },
+      {
+        "id": "3492",
+        "title": "Das EU-Parlament",
+        "folder": "das-eu-parlament-3492"
+      },
+      {
+        "id": "6298",
+        "title": "Demokratie und Bundesversammlung in der Schweiz",
+        "folder": "demokratie-in-der-schweiz-6298"
+      },
+      {
+        "id": "3526",
+        "title": "Direkte Demokratie vs. Repräsentative Demokratie",
+        "folder": "direkte-demokratie-vs-reprasentative-demokratie-3526"
+      },
+      {
+        "id": "3512",
+        "title": "Die Gewaltenteilung im Verfassungsstaat",
+        "folder": "die-gewaltenteilung-3512"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=internationale+verfassungen&t=3752"
@@ -800,6 +820,31 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "id": "4600",
         "title": "Botho Strauß",
         "folder": "botho-straues-4600"
+      },
+      {
+        "id": "antigone-gewissen",
+        "title": "Antigone - Wenn Gesetz gegen Gewissen steht",
+        "folder": "antigone-wenn-gesetz-gegen-gewissen-steht"
+      },
+      {
+        "id": "3600",
+        "title": "Zivilcourage und gesellschaftliches Handeln",
+        "folder": "zivilcourage-3600"
+      },
+      {
+        "id": "4472",
+        "title": "Widerstand gegen Ungerechtigkeit",
+        "folder": "widerstand-gegen-ungerechtigkeit-4472"
+      },
+      {
+        "id": "2939",
+        "title": "Die Allgemeine Erklärung der Menschenrechte",
+        "folder": "die-allgemeine-erklarung-der-menschenrechte-2939"
+      },
+      {
+        "id": "2750",
+        "title": "Der Konflikt zwischen Freiheit und Sicherheit",
+        "folder": "der-konflikt-zwischen-freiheit-und-sicherheit-2750"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=ethik+widerstand&t=3752"
