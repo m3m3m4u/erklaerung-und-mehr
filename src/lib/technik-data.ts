@@ -60,11 +60,6 @@ export const technikTopics: Record<string, TechnikTopic> = {
         "folder": "die-metalltechnik-3401"
       },
       {
-        "id": "699",
-        "title": "Studypoint - wörter markieren - Metalle",
-        "folder": "studypoint-worter-markieren-metalle-699"
-      },
-      {
         id: "1161",
         title: "Aluminium",
         folder: "aluminium-1161"
@@ -249,6 +244,21 @@ export const technikTopics: Record<string, TechnikTopic> = {
         "id": "2496",
         "title": "Wie funktioniert ein Automatikgetriebe",
         "folder": "wie-funktioniert-ein-automatikgetriebe-2496"
+      },
+      {
+        "id": "kugellag",
+        "title": "Wie funktioniert die Kugellagerung",
+        "folder": "wie-funktioniert-die-kugellagerung"
+      },
+      {
+        "id": "schloss",
+        "title": "Wie funktioniert ein Sicherheitsschrankschloss",
+        "folder": "wie-funktioniert-ein-sicherheitsschrankschloss"
+      },
+      {
+        "id": "wasserw",
+        "title": "Wie funktioniert eine Wasserwaage",
+        "folder": "wie-funktioniert-eine-wasserwaage"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Hebel+Getriebe+Mechanik+Technik&t=1251"
@@ -291,6 +301,16 @@ export const technikTopics: Record<string, TechnikTopic> = {
         "id": "2524",
         "title": "Wie funktioniert ein Heckmotor",
         "folder": "wie-funktioniert-ein-heckmotor-2524"
+      },
+      {
+        "id": "dampfm",
+        "title": "Wie funktioniert eine Dampfmaschine",
+        "folder": "wie-funktioniert-eine-dampfmaschine"
+      },
+      {
+        "id": "elmotor",
+        "title": "Wie funktioniert ein Elektromotor",
+        "folder": "wie-funktioniert-ein-elektromotor"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Verbrennungsmotor+Motoren+Technik&t=1251"
@@ -328,6 +348,11 @@ export const technikTopics: Record<string, TechnikTopic> = {
         id: "luftpumpe",
         title: "Wie funktioniert eine Luftpumpe",
         folder: "wie-funktioniert-eine-luftpumpe"
+      },
+      {
+        id: "siphon",
+        title: "Wie funktioniert der Siphon-Effekt",
+        folder: "wie-funktioniert-der-siphon-effekt"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Pneumatik+Hydraulik+Technik&t=1251"
@@ -534,6 +559,26 @@ export const technikTopics: Record<string, TechnikTopic> = {
         id: "2565",
         title: "Wie funktioniert ein teleskop",
         folder: "wie-funktioniert-ein-teleskop-2565"
+      },
+      {
+        id: "chronom",
+        title: "Wie funktioniert ein Chronometer",
+        folder: "wie-funktioniert-ein-chronometer"
+      },
+      {
+        id: "kompass",
+        title: "Wie funktioniert ein Kompass",
+        folder: "wie-funktioniert-ein-kompass"
+      },
+      {
+        id: "gpssys",
+        title: "Wie funktioniert das GPS-System",
+        folder: "wie-funktioniert-das-gps-system"
+      },
+      {
+        id: "ekg",
+        title: "Wie funktioniert ein EKG (Elektrokardiogramm)",
+        folder: "wie-funktioniert-ein-ekg-elektrokardiogramm"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Sensoren+Messtechnik+Technik&t=1251"
@@ -611,6 +656,31 @@ export const technikTopics: Record<string, TechnikTopic> = {
         id: "4656",
         title: "So funktioniert kunstliche intelligenz",
         folder: "so-funktioniert-kunstliche-intelligenz-4656"
+      },
+      {
+        id: "mikrochip",
+        title: "Wie funktioniert ein Mikrochip (Prozessor)",
+        folder: "wie-funktioniert-ein-mikrochip-prozessor"
+      },
+      {
+        id: "touchscr",
+        title: "Wie funktioniert ein Touchscreen",
+        folder: "wie-funktioniert-ein-touchscreen"
+      },
+      {
+        id: "barcode",
+        title: "Wie funktioniert ein Barcode-Scanner",
+        folder: "wie-funktioniert-ein-barcode-scanner"
+      },
+      {
+        id: "blockch",
+        title: "Wie funktioniert die Blockchain",
+        folder: "wie-funktioniert-die-blockchain"
+      },
+      {
+        id: "optmaus",
+        title: "Wie funktioniert die optische Maus",
+        folder: "wie-funktioniert-die-optische-maus"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Computer+Digitaltechnik&t=1251"
@@ -782,6 +852,21 @@ export const technikTopics: Record<string, TechnikTopic> = {
         id: "5292",
         title: "Erdsatelliten",
         folder: "erdsatelliten-5292"
+      },
+      {
+        id: "duesentrieb",
+        title: "Wie funktioniert ein Düsentriebwerk",
+        folder: "wie-funktioniert-ein-duesentriebwerk"
+      },
+      {
+        id: "fallschirm",
+        title: "Wie funktioniert ein Fallschirm",
+        folder: "wie-funktioniert-ein-fallschirm"
+      },
+      {
+        id: "bumerang",
+        title: "Wie funktioniert ein Bumerang",
+        folder: "wie-funktioniert-ein-bumerang"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Luftfahrt+Schifffahrt+Technik&t=1251"
@@ -989,6 +1074,26 @@ export const technikTopics: Record<string, TechnikTopic> = {
         id: "2521",
         title: "Wie funktioniert ein grill",
         folder: "wie-funktioniert-ein-grill-2521"
+      },
+      {
+        id: "kuehlschr",
+        title: "Wie funktioniert ein Kühlschrank",
+        folder: "wie-funktioniert-ein-kuehlschrank"
+      },
+      {
+        id: "staubsaug",
+        title: "Wie funktioniert ein Staubsauger",
+        folder: "wie-funktioniert-ein-staubsauger"
+      },
+      {
+        id: "heizung",
+        title: "Wie funktioniert eine Gas- und Ölheizung",
+        folder: "wie-funktioniert-eine-gas-und-oelheizung"
+      },
+      {
+        id: "2554",
+        title: "Wie funktioniert ein Rasierapparat",
+        folder: "wie-funktioniert-ein-rasierapparat-2554"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Haushaltsgeraete+Alltagstechnik&t=1251"
@@ -1070,6 +1175,36 @@ export const technikTopics: Record<string, TechnikTopic> = {
         id: "2563",
         title: "Wie funktioniert ein taschenlampe",
         folder: "wie-funktioniert-ein-taschenlampe-2563"
+      },
+      {
+        id: "kugelschr",
+        title: "Wie funktioniert ein Kugelschreiber",
+        folder: "wie-funktioniert-ein-kugelschreiber"
+      },
+      {
+        id: "kopierer",
+        title: "Wie funktioniert ein Kopierer",
+        folder: "wie-funktioniert-ein-kopierer"
+      },
+      {
+        id: "laserdruck",
+        title: "Wie funktioniert ein Laser-Drucker",
+        folder: "wie-funktioniert-ein-laser-drucker"
+      },
+      {
+        id: "digicam",
+        title: "Wie funktioniert eine Digitalkamera",
+        folder: "wie-funktioniert-eine-digitalkamera"
+      },
+      {
+        id: "diaproj",
+        title: "Wie funktioniert ein Diaprojektor",
+        folder: "wie-funktioniert-ein-diaprojektor-2509"
+      },
+      {
+        id: "lautspr",
+        title: "Wie funktioniert ein Lautsprecher",
+        folder: "wie-funktioniert-ein-lautsprecher"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Werkzeuge+Technikunterricht&t=1251"
