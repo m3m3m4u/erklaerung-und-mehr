@@ -123,6 +123,11 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "id": "4691",
         "title": "Der Triumph des Todes – Pieter Bruegel der Ältere (1562)",
         "folder": "der-triumph-des-todes-pieter-bruegel-der-ltere-1562-4691"
+      },
+      {
+        "id": "2801",
+        "title": "Der Fall des Ikarus – Pieter Bruegel der Ältere (ca. 1560)",
+        "folder": "der-fall-des-ikarus-von-pieter-bruegel-der-ltere-ca-1560-2801"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Gotik+Romanik+Mittelalter&t=3752"
@@ -1036,6 +1041,16 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "folder": "la-trahison-des-images-rene-magritte-1929-4719"
       },
       {
+        "id": "1399",
+        "title": "René Magritte – Meister des Surrealismus",
+        "folder": "rene-magritte-1399"
+      },
+      {
+        "id": "2826",
+        "title": "La Condition Humaine – René Magritte (1933)",
+        "folder": "la-condition-humaine-von-rene-magritte-1933-2826"
+      },
+      {
         "id": "4706",
         "title": "Die zwei Fridas – Frida Kahlo (1939)",
         "folder": "die-zwei-fridas-frida-kahlo-1939-4706"
@@ -1160,6 +1175,21 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "id": "4780",
         "title": "Die Kunstepoche Neoexpressionismus",
         "folder": "die-kunstepoche-neoexpressionismus-4780"
+      },
+      {
+        "id": "2829",
+        "title": "Nighthawks – Edward Hopper (1942)",
+        "folder": "nighthawks-von-edward-hopper-1942-2829"
+      },
+      {
+        "id": "2835",
+        "title": "Whaam! – Roy Lichtenstein (1963)",
+        "folder": "whaam-von-roy-lichtenstein-1963-2835"
+      },
+      {
+        "id": "2831",
+        "title": "Blue Divided by Blue – Ellsworth Kelly (1963)",
+        "folder": "ohne-titel-blue-divided-by-blue-von-ellsworth-kelly-1963-2831"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Pop+Art+Warhol+Pollock+Basquiat&t=3752"
@@ -1218,6 +1248,31 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "id": "2679",
         "title": "Digitale Kunst und Computergrafik",
         "folder": "digitale-kunst-2679"
+      },
+      {
+        "id": "2832",
+        "title": "Ohne Titel (Tate) – Donald Judd (1980, Minimal Art)",
+        "folder": "ohne-titel-tate-von-donald-judd-1980-2832"
+      },
+      {
+        "id": "2833",
+        "title": "Yellow Cherry Blossoms – Yayoi Kusama (1990)",
+        "folder": "ohne-titel-yellow-cherry-blossoms-von-yayoi-kusama-1990-2833"
+      },
+      {
+        "id": "2830",
+        "title": "No Woman, No Cry – Chris Ofili (1998)",
+        "folder": "no-woman-no-cry-von-chris-ofili-1998-2830"
+      },
+      {
+        "id": "2834",
+        "title": "Rhine II – Andreas Gursky (1999, Fotokunst)",
+        "folder": "rhine-ii-von-andreas-gursky-1999-2834"
+      },
+      {
+        "id": "code-kunst",
+        "title": "Kreative Anwendungen von Code in Kunst, Musik und Bewegung",
+        "folder": "kreative-anwendungen-von-code-in-kunst-und-musik-oder-bewegung"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Street+Art+Digitale+Kunst+Medien&t=3752"
