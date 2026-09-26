@@ -146,11 +146,6 @@ export const englischTopics: Record<string, EnglischTopic> = {
     ],
     "exercises": [
       {
-        "id": "371",
-        "title": "A or an - der unbestimmte Artikel",
-        "folder": "a-or-an-der-unbestimmte-artikel-2-371"
-      },
-      {
         "id": "402",
         "title": "Some - any - a lot of - much - many",
         "folder": "some-any-a-lot-of-much-many-402"

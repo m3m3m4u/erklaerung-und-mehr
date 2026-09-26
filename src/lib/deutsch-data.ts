@@ -440,12 +440,12 @@ export const deutschTopics: Record<string, DeutschTopic> = {
       },
       {
         "id": "6155",
-        "title": "Antigone von Sophokles - literarische Bedeutung",
+        "title": "Antigone von Sophokles – Literarische Bedeutung",
         "folder": "antigone-von-sophokles-literarische-bedeutung-6155"
       },
       {
         "id": "6153",
-        "title": "Antigone von Sophokles - Bezug zur Gegenwart",
+        "title": "Antigone von Sophokles – Bezug zur Gegenwart",
         "folder": "antigone-von-sophokles-bezug-zur-gegenwart-6153"
       }
     ,
@@ -466,18 +466,13 @@ export const deutschTopics: Record<string, DeutschTopic> = {
       },
       {
         "id": "6242",
-        "title": "König Ödipus von Sophokles - historischer Kontext",
+        "title": "König Ödipus von Sophokles – Historischer Kontext",
         "folder": "konig-dipus-von-sophokles-historischer-kontext-6242"
       },
       {
         "id": "6243",
-        "title": "König Ödipus von Sophokles - literarische Bedeutung",
+        "title": "König Ödipus von Sophokles – Literarische Bedeutung",
         "folder": "konig-dipus-von-sophokles-literarische-bedeutung-6243"
-      },
-      {
-        "id": "6280",
-        "title": "Antigone von Sophokles - Bezug zur Gegenwart",
-        "folder": "antigone-von-sophokles-bezug-zur-gegenwart-2-6280"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Literaturepochen%20Barock%20Mittelalter%20Deutsch&t=284"
@@ -619,11 +614,6 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "folder": "joseph-von-eichendorff-6239"
       }
     ,
-      {
-        "id": "2374",
-        "title": "Literaturepoche Romantik",
-        "folder": "literaturepoche-romantik-2374"
-      },
       {
         "id": "joseph-von-eichendorff-und-das-fernweh-der-romantiker",
         "title": "Joseph von Eichendorff und das Fernweh der Romantiker",
@@ -838,12 +828,12 @@ export const deutschTopics: Record<string, DeutschTopic> = {
       },
       {
         "id": "6267",
-        "title": "Nathan der Weise - historischer Kontext",
+        "title": "Nathan der Weise – Historischer Kontext",
         "folder": "nathan-der-weise-von-gotthold-ephraim-lessing-historischer-kontext-6267"
       },
       {
         "id": "6268",
-        "title": "Nathan der Weise - literarische Bedeutung",
+        "title": "Nathan der Weise – Literarische Bedeutung",
         "folder": "nathan-der-weise-von-gotthold-ephraim-lessing-literarische-bedeutung-6268"
       },
       {
@@ -858,12 +848,12 @@ export const deutschTopics: Record<string, DeutschTopic> = {
       },
       {
         "id": "6203",
-        "title": "Emilia Galotti - historischer Kontext",
+        "title": "Emilia Galotti – Historischer Kontext",
         "folder": "emilia-galotti-von-g-e-lessing-historischer-kontext-6203"
       },
       {
         "id": "6204",
-        "title": "Emilia Galotti - literarische Bedeutung",
+        "title": "Emilia Galotti – Literarische Bedeutung",
         "folder": "emilia-galotti-von-g-e-lessing-literarische-bedeutung-6204"
       }
     ,
@@ -902,12 +892,12 @@ export const deutschTopics: Record<string, DeutschTopic> = {
       },
       {
         "id": "6210",
-        "title": "Faust I - historischer Kontext",
+        "title": "Faust I – Historischer Kontext",
         "folder": "faust-i-von-j-w-von-goethe-historischer-kontext-6210"
       },
       {
         "id": "6211",
-        "title": "Faust I - literarische Bedeutung",
+        "title": "Faust I – Literarische Bedeutung",
         "folder": "faust-i-von-j-w-von-goethe-literarische-bedeutung-6211"
       },
       {
@@ -927,12 +917,12 @@ export const deutschTopics: Record<string, DeutschTopic> = {
       },
       {
         "id": "6236",
-        "title": "Iphigenie auf Tauris - historischer Kontext",
+        "title": "Iphigenie auf Tauris – Historischer Kontext",
         "folder": "iphigenie-auf-tauris-von-j-w-goethe-historischer-kontext-6236"
       },
       {
         "id": "6237",
-        "title": "Iphigenie auf Tauris - literarische Bedeutung",
+        "title": "Iphigenie auf Tauris – Literarische Bedeutung",
         "folder": "iphigenie-auf-tauris-von-j-w-goethe-literarische-bedeutung-6237"
       },
       {
@@ -940,12 +930,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "title": "J.W. Goethe - Torquato Tasso",
         "folder": "j-w-goethe-torquato-tasso-2-4554"
       },
-      {
-        "id": "4557",
-        "title": "Johann Wolfgang Goethe - Egmont",
-        "folder": "johann-wolfgang-goethe-egmont-2-4557"
-      }
-    ,
+
       {
         "id": "faust-und-der-pakt-mit-dem-teufel-einfach-erklaert",
         "title": "Faust und der Pakt mit dem Teufel einfach erklärt",
@@ -958,17 +943,17 @@ export const deutschTopics: Record<string, DeutschTopic> = {
       },
       {
         "id": "6213",
-        "title": "Faust II von J.W. von Goethe - historischer Kontext",
+        "title": "Faust II von J.W. von Goethe – Historischer Kontext",
         "folder": "faust-ii-von-j-w-von-goethe-historischer-kontext-6213"
       },
       {
         "id": "6214",
-        "title": "Faust II von J.W. von Goethe - literarische Bedeutung",
+        "title": "Faust II von J.W. von Goethe – Literarische Bedeutung",
         "folder": "faust-ii-von-j-w-von-goethe-literarische-bedeutung-6214"
       },
       {
         "id": "3452",
-        "title": "Johann Wolfgang Goethe - Egmont",
+        "title": "Johann Wolfgang Goethe – Egmont",
         "folder": "johann-wolfgang-goethe-egmont-3452"
       },
       {
@@ -1006,12 +991,12 @@ export const deutschTopics: Record<string, DeutschTopic> = {
       },
       {
         "id": "6200",
-        "title": "Die Räuber - historischer Kontext",
+        "title": "Die Räuber – Historischer Kontext",
         "folder": "die-rauber-von-friedrich-schiller-historischer-kontext-6200"
       },
       {
         "id": "6201",
-        "title": "Die Räuber - literarische Bedeutung",
+        "title": "Die Räuber – Literarische Bedeutung",
         "folder": "die-rauber-von-friedrich-schiller-literarische-bedeutung-6201"
       },
       {
@@ -1026,12 +1011,12 @@ export const deutschTopics: Record<string, DeutschTopic> = {
       },
       {
         "id": "6253",
-        "title": "Maria Stuart - historischer Kontext",
+        "title": "Maria Stuart – Historischer Kontext",
         "folder": "maria-stuart-von-friedrich-schiller-historischer-kontext-6253"
       },
       {
         "id": "6254",
-        "title": "Maria Stuart - literarische Bedeutung",
+        "title": "Maria Stuart – Literarische Bedeutung",
         "folder": "maria-stuart-von-friedrich-schiller-literarische-bedeutung-6254"
       },
       {
@@ -1050,13 +1035,8 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "folder": "friedrich-schiller-don-karlos-2-4528"
       },
       {
-        "id": "4531",
-        "title": "Friedrich Schiller - Wallenstein",
-        "folder": "friedrich-schiller-wallenstein-2-4531"
-      },
-      {
         "id": "6196",
-        "title": "Die Jungfrau von Orleans - historischer Kontext",
+        "title": "Die Jungfrau von Orleans – Historischer Kontext",
         "folder": "die-jungfrau-von-orleans-von-friedrich-schiller-historischer-kontext-6196"
       },
       {
@@ -1067,7 +1047,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
     ,
       {
         "id": "3426",
-        "title": "Friedrich Schiller - Wallenstein",
+        "title": "Friedrich Schiller – Wallenstein",
         "folder": "friedrich-schiller-wallenstein-3426"
       },
       {
@@ -1102,11 +1082,6 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "4551",
         "title": "J.W. Goethe - Die Leiden des jungen Werther",
         "folder": "j-w-goethe-die-leiden-des-jungen-werther-3-4551"
-      },
-      {
-        "id": "4552",
-        "title": "J.W. Goethe – Die Wahlverwandtschaften",
-        "folder": "j-w-goethe-die-wahlverwandtschaften-2-4552"
       },
       {
         "id": "antigone-wenn-gesetz-gegen-gewissen-steht",
@@ -1211,11 +1186,6 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "folder": "fontane-und-der-klatsch-im-alten-berlin"
       },
       {
-        "id": "4568",
-        "title": "Theodor Fontane – Frau Jenny Treibel",
-        "folder": "theodor-fontane-frau-jenny-treibel-2-4568"
-      },
-      {
         "id": "theodor-storm-und-der-schimmelreiter-als-urgewalt",
         "title": "Theodor Storm und der Schimmelreiter als Urgewalt",
         "folder": "theodor-storm-und-der-schimmelreiter-als-urgewalt"
@@ -1261,33 +1231,18 @@ export const deutschTopics: Record<string, DeutschTopic> = {
       },
       {
         "id": "6274",
-        "title": "Woyzeck - historischer Kontext",
+        "title": "Woyzeck – Historischer Kontext",
         "folder": "woyzeck-von-georg-buchner-historischer-kontext-6274"
       },
       {
         "id": "6275",
-        "title": "Woyzeck - literarische Bedeutung",
+        "title": "Woyzeck – Literarische Bedeutung",
         "folder": "woyzeck-von-georg-buchner-literarische-bedeutung-6275"
       },
       {
         "id": "6278",
         "title": "Woyzeck - Bezug zur Gegenwart",
         "folder": "woyzeck-von-georg-buchner-bezug-zur-gegenwart-6278"
-      },
-      {
-        "id": "4534",
-        "title": "Georg Büchner - Dantons Tod",
-        "folder": "georg-buchner-dantons-tod-2-4534"
-      },
-      {
-        "id": "4536",
-        "title": "Gerhart Hauptmann - Die Ratten",
-        "folder": "gerhart-hauptmann-die-ratten-2-4536"
-      },
-      {
-        "id": "4537",
-        "title": "Gerhart Hauptmann - Vor Sonnenuntergang",
-        "folder": "gerhart-hauptmann-vor-sonnenuntergang-2-4537"
       },
       {
         "id": "4522",
@@ -1302,7 +1257,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
     ,
       {
         "id": "3429",
-        "title": "Georg Büchner - Dantons Tod",
+        "title": "Georg Büchner – Dantons Tod",
         "folder": "georg-buchner-dantons-tod-3429"
       },
       {
@@ -1322,22 +1277,22 @@ export const deutschTopics: Record<string, DeutschTopic> = {
       },
       {
         "id": "6249",
-        "title": "Leonce und Lena von Georg Büchner - historischer Kontext",
+        "title": "Leonce und Lena von Georg Büchner – Historischer Kontext",
         "folder": "leonce-und-lena-von-georg-buchner-historischer-kontext-6249"
       },
       {
         "id": "6250",
-        "title": "Leonce und Lena von Georg Büchner - literarische Bedeutung",
+        "title": "Leonce und Lena von Georg Büchner – Literarische Bedeutung",
         "folder": "leonce-und-lena-von-georg-buchner-literarische-bedeutung-6250"
       },
       {
         "id": "3431",
-        "title": "Gerhart Hauptmann - Die Ratten",
+        "title": "Gerhart Hauptmann – Die Ratten",
         "folder": "gerhart-hauptmann-die-ratten-3431"
       },
       {
         "id": "3432",
-        "title": "Gerhart Hauptmann - Vor Sonnenuntergang",
+        "title": "Gerhart Hauptmann – Vor Sonnenuntergang",
         "folder": "gerhart-hauptmann-vor-sonnenuntergang-3432"
       },
       {
@@ -1352,12 +1307,12 @@ export const deutschTopics: Record<string, DeutschTopic> = {
       },
       {
         "id": "6159",
-        "title": "Bahnwärter Thiel von Gerhart Hauptmann - historischer Kontext",
+        "title": "Bahnwärter Thiel von Gerhart Hauptmann – Historischer Kontext",
         "folder": "bahnwarter-thiel-von-gerhart-hauptmann-historischer-kontext-6159"
       },
       {
         "id": "6160",
-        "title": "Bahnwärter Thiel von Gerhart Hauptmann - literarische Bedeutung",
+        "title": "Bahnwärter Thiel von Gerhart Hauptmann – Literarische Bedeutung",
         "folder": "bahnwarter-thiel-von-gerhart-hauptmann-literarische-bedeutung-6160"
       }
     ],
@@ -1396,12 +1351,12 @@ export const deutschTopics: Record<string, DeutschTopic> = {
       },
       {
         "id": "6228",
-        "title": "In der Strafkolonie - historischer Kontext",
+        "title": "In der Strafkolonie – Historischer Kontext",
         "folder": "in-der-strafkolonie-von-franz-kafka-historischer-kontext-6228"
       },
       {
         "id": "6229",
-        "title": "In der Strafkolonie - literarische Bedeutung",
+        "title": "In der Strafkolonie – Literarische Bedeutung",
         "folder": "in-der-strafkolonie-von-franz-kafka-literarische-bedeutung-6229"
       },
       {
@@ -1415,24 +1370,9 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "folder": "thomas-mann-und-die-buddenbrooks-einfach-erklaert"
       },
       {
-        "id": "4572",
-        "title": "Thomas Mann - Der Zauberberg",
-        "folder": "thomas-mann-der-zauberberg-2-4572"
-      },
-      {
         "id": "6258",
         "title": "Mario und der Zauberer von Thomas Mann",
         "folder": "mario-und-der-zauberer-von-thomas-mann-6258"
-      },
-      {
-        "id": "4508",
-        "title": "Alfred Döblin – Berlin Alexanderplatz",
-        "folder": "alfred-doblin-berlin-alexanderplatz-2-4508"
-      },
-      {
-        "id": "4544",
-        "title": "Heinrich Mann - Professor Unrat",
-        "folder": "heinrich-mann-professor-unrat-2-4544"
       },
       {
         "id": "4509",
@@ -1457,7 +1397,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
     ,
       {
         "id": "3472",
-        "title": "Thomas Mann - Der Zauberberg",
+        "title": "Thomas Mann – Der Zauberberg",
         "folder": "thomas-mann-der-zauberberg-3472"
       },
       {
@@ -1472,17 +1412,17 @@ export const deutschTopics: Record<string, DeutschTopic> = {
       },
       {
         "id": "6256",
-        "title": "Mario und der Zauberer von Thomas Mann - historischer Kontext",
+        "title": "Mario und der Zauberer von Thomas Mann – Historischer Kontext",
         "folder": "mario-und-der-zauberer-von-thomas-mann-historischer-kontext-6256"
       },
       {
         "id": "6257",
-        "title": "Mario und der Zauberer von Thomas Mann - literarische Bedeutung",
+        "title": "Mario und der Zauberer von Thomas Mann – Literarische Bedeutung",
         "folder": "mario-und-der-zauberer-von-thomas-mann-literarische-bedeutung-6257"
       },
       {
         "id": "3438",
-        "title": "Heinrich Mann - Professor Unrat",
+        "title": "Heinrich Mann – Professor Unrat",
         "folder": "heinrich-mann-professor-unrat-3438"
       },
       {
@@ -1514,28 +1454,18 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "folder": "bertolt-brecht-die-dreigroschenoper-2-4513"
       },
       {
-        "id": "4515",
-        "title": "Bertolt Brecht - Mutter Courage und ihre Kinder",
-        "folder": "bertolt-brecht-mutter-courage-und-ihre-kinder-2-4515"
-      },
-      {
-        "id": "4514",
-        "title": "Bertolt Brecht - Leben des Galilei",
-        "folder": "bertolt-brecht-leben-des-galilei-2-4514"
-      },
-      {
         "id": "6245",
         "title": "Leben des Galilei - Bezug zur Gegenwart",
         "folder": "leben-des-galilei-von-bertolt-brecht-bezug-zur-gegenwart-6245"
       },
       {
         "id": "6246",
-        "title": "Leben des Galilei - historischer Kontext",
+        "title": "Leben des Galilei – Historischer Kontext",
         "folder": "leben-des-galilei-von-bertolt-brecht-historischer-kontext-6246"
       },
       {
         "id": "6247",
-        "title": "Leben des Galilei - literarische Bedeutung",
+        "title": "Leben des Galilei – Literarische Bedeutung",
         "folder": "leben-des-galilei-von-bertolt-brecht-literarische-bedeutung-6247"
       },
       {
@@ -1550,12 +1480,12 @@ export const deutschTopics: Record<string, DeutschTopic> = {
       },
       {
         "id": "3409",
-        "title": "Bertolt Brecht - Leben des Galilei",
+        "title": "Bertolt Brecht – Leben des Galilei",
         "folder": "bertolt-brecht-leben-des-galilei-3409"
       },
       {
         "id": "3410",
-        "title": "Bertolt Brecht - Mutter Courage und ihre Kinder",
+        "title": "Bertolt Brecht – Mutter Courage und ihre Kinder",
         "folder": "bertolt-brecht-mutter-courage-und-ihre-kinder-3410"
       }
     ],
@@ -1596,15 +1526,10 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "title": "Max Frisch - Biedermann und die Brandstifter",
         "folder": "max-frisch-biedermann-und-die-brandstifter-2-4559"
       },
-      {
-        "id": "4560",
-        "title": "Max Frisch - Montauk",
-        "folder": "max-frisch-montauk-2-4560"
-      }
-    ,
+
       {
         "id": "3455",
-        "title": "Max Frisch - Montauk",
+        "title": "Max Frisch – Montauk",
         "folder": "max-frisch-montauk-3455"
       },
       {
@@ -1752,12 +1677,12 @@ export const deutschTopics: Record<string, DeutschTopic> = {
       },
       {
         "id": "6221",
-        "title": "Heimsuchung von Jenny Erpenbeck - historischer Kontext",
+        "title": "Heimsuchung von Jenny Erpenbeck – Historischer Kontext",
         "folder": "heimsuchung-von-jenny-erpenbeck-historischer-kontext-6221"
       },
       {
         "id": "6222",
-        "title": "Heimsuchung von Jenny Erpenbeck - literarische Bedeutung",
+        "title": "Heimsuchung von Jenny Erpenbeck – Literarische Bedeutung",
         "folder": "heimsuchung-von-jenny-erpenbeck-literarische-bedeutung-6222"
       }
     ],
@@ -1794,16 +1719,6 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "folder": "arthur-schnitzler-reigen-2-4512"
       },
       {
-        "id": "4549",
-        "title": "Hugo von Hofmannsthal - Der Schwierige",
-        "folder": "hugo-von-hofmannsthal-der-schwierige-2-4549"
-      },
-      {
-        "id": "4550",
-        "title": "Hugo von Hofmannsthal - Der Tor und der Tod",
-        "folder": "hugo-von-hofmannsthal-der-tor-und-der-tod-2-4550"
-      },
-      {
         "id": "4521",
         "title": "Ferdinand Raimund - Der Alpenkönig und der Menschenfeind",
         "folder": "ferdinand-raimund-der-alpenkonig-und-der-menschenfeind-2-4521"
@@ -1816,12 +1731,12 @@ export const deutschTopics: Record<string, DeutschTopic> = {
     ,
       {
         "id": "3471",
-        "title": "Hugo von Hofmannsthal - Der Schwierige",
+        "title": "Hugo von Hofmannsthal – Der Schwierige",
         "folder": "hugo-von-hofmannsthal-der-schwierige-3471"
       },
       {
         "id": "3443",
-        "title": "Hugo von Hofmannsthal - Der Tor und der Tod",
+        "title": "Hugo von Hofmannsthal – Der Tor und der Tod",
         "folder": "hugo-von-hofmannsthal-der-tor-und-der-tod-3443"
       }
     ],
@@ -1896,29 +1811,24 @@ export const deutschTopics: Record<string, DeutschTopic> = {
     ],
     "exercises": [
       {
-        "id": "4566",
-        "title": "Robert Seethaler - Der Trafikant",
-        "folder": "robert-seethaler-der-trafikant-2-4566"
-      },
-      {
         "id": "6189",
         "title": "Der Trafikant - Bezug zur Gegenwart",
         "folder": "der-trafikant-von-robert-seethaler-bezug-zur-gegenwart-6189"
       },
       {
         "id": "6190",
-        "title": "Der Trafikant - historischer Kontext",
+        "title": "Der Trafikant – Historischer Kontext",
         "folder": "der-trafikant-von-robert-seethaler-historischer-kontext-6190"
       },
       {
         "id": "6191",
-        "title": "Der Trafikant - literarische Bedeutung",
+        "title": "Der Trafikant – Literarische Bedeutung",
         "folder": "der-trafikant-von-robert-seethaler-literarische-bedeutung-6191"
       }
     ,
       {
         "id": "3461",
-        "title": "Robert Seethaler - Der Trafikant",
+        "title": "Robert Seethaler – Der Trafikant",
         "folder": "robert-seethaler-der-trafikant-3461"
       }
     ],

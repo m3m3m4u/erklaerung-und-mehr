@@ -267,11 +267,6 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "folder": "die-ausbreitung-von-licht-2253"
       },
       {
-        "id": "2254",
-        "title": "Lichtgeschwindigkeit",
-        "folder": "lichtgeschwindigkeit-2254"
-      },
-      {
         "id": "3246",
         "title": "Licht und Schatten",
         "folder": "licht-und-schatten-3246"
@@ -633,11 +628,6 @@ export const physikTopics: Record<string, PhysikTopic> = {
     ],
     "exercises": [
       {
-        "id": "2241",
-        "title": "Der Elektromagnet",
-        "folder": "der-elektromagnet-2241"
-      },
-      {
         "id": "5259",
         "title": "Der Elektromagnet",
         "folder": "der-elektromagnet-2-5259"
@@ -813,11 +803,6 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "id": "2249",
         "title": "Wasserkraftwerke",
         "folder": "wasserkraftwerke-2249"
-      },
-      {
-        "id": "2252",
-        "title": "Atomkraftwerke",
-        "folder": "atomkraftwerke-2252"
       },
       {
         "id": "5242",

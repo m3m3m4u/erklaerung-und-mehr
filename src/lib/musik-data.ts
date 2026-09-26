@@ -63,11 +63,6 @@ export const musikTopics: Record<string, MusikTopic> = {
         "folder": "biologie-arbeitsblatter-2"
       },
       {
-        "id": "9",
-        "title": "Notenwerte und Pausen",
-        "folder": "notenwerte-und-pausen-9"
-      },
-      {
         "id": "13",
         "title": "Noten- und Pausenmemory",
         "folder": "noten-und-pausenmemory-13"
@@ -159,11 +154,6 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "12",
         "title": "Intervalle in der Musik",
         "folder": "intervalle-in-der-musik-12"
-      },
-      {
-        "id": "18",
-        "title": "Akkorde - Dur und Moll",
-        "folder": "akkorde-dur-und-moll-18"
       },
       {
         "id": "19",
@@ -692,11 +682,6 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "445",
         "title": "Eine kleine Nachtmusik von Wolfgang Amadeus Mozart",
         "folder": "eine-kleine-nachtmusik-von-wolfgang-amadeus-mozart-445"
-      },
-      {
-        "id": "446",
-        "title": "Eine kleine Nachtmusik von Wolfgang Amadeus Mozart",
-        "folder": "eine-kleine-nachtmusik-von-wolfgang-amadeus-mozart-2-446"
       },
       {
         "id": "447",
@@ -2395,12 +2380,12 @@ export const musikTopics: Record<string, MusikTopic> = {
       },
       {
         "id": "3202",
-        "title": "Escape Room 'Musikstile 1'",
+        "title": "Escape Room: Musikstile 1",
         "folder": "escape-room-quot-musikstile-1-quot-3202"
       },
       {
         "id": "3203",
-        "title": "Escape Room 'Musikstile 2'",
+        "title": "Escape Room: Musikstile 2",
         "folder": "escape-room-quot-musikstile-2-quot-3203"
       },
       {

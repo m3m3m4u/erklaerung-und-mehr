@@ -135,11 +135,6 @@ export const informatikTopics: Record<string, InformatikTopic> = {
     ],
     "exercises": [
       {
-        "id": "354",
-        "title": "Geschichte des Computers",
-        "folder": "geschichte-des-computers-354"
-      },
-      {
         "id": "5393",
         "title": "Geschichte des Computers",
         "folder": "geschichte-des-computers-2-5393"
@@ -288,11 +283,6 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "id": "463",
         "title": "Betriebssysteme",
         "folder": "betriebssysteme-463"
-      },
-      {
-        "id": "466",
-        "title": "Betriebssysteme",
-        "folder": "betriebssysteme-2-466"
       },
       {
         "id": "8014",
@@ -1153,11 +1143,6 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "id": "1278",
         "title": "HTML Grundlagen",
         "folder": "html-1278"
-      },
-      {
-        "id": "3129",
-        "title": "HTML Grundlagen 2",
-        "folder": "html-grundlagen-2-3129"
       },
       {
         "id": "3123",

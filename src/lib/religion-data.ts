@@ -1077,11 +1077,6 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "folder": "der-grundonnerstag-6492"
       },
       {
-        "id": "2434",
-        "title": "Karfreitag",
-        "folder": "augustinus-von-hippo-2434"
-      },
-      {
         "id": "6502",
         "title": "Der Karfreitag",
         "folder": "der-karfreitag-6502"
@@ -1189,11 +1184,6 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "id": "2404",
         "title": "Trauer und Begleitung",
         "folder": "die-geschichte-von-ruth-2404"
-      },
-      {
-        "id": "6733",
-        "title": "Umgang mit dem Tod",
-        "folder": "umgang-mit-dem-tod-6733"
       },
       {
         "id": "6427",

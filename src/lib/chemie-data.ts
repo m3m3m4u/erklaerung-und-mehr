@@ -88,11 +88,6 @@ export const chemieTopics: Record<string, ChemieTopic> = {
     ],
     "exercises": [
       {
-        "id": "320",
-        "title": "Geschichte der Chemie",
-        "folder": "geschichte-der-chemie-320"
-      },
-      {
         "id": "5354",
         "title": "Die Geschichte der Chemie",
         "folder": "die-geschichte-der-chemie-5354"

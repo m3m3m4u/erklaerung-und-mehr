@@ -275,11 +275,6 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "811",
         "title": "Überschlagsrechnungen mit Komma",
         "folder": "berschlagsrechnungen-mit-komma-811"
-      },
-      {
-        "id": "114",
-        "title": "Dezimalzahlen runden",
-        "folder": "kopfrechnen-mit-10-114"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=dezimalzahlen&t=1118"
@@ -1366,11 +1361,6 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "oberflache-der-pyramide-59"
       },
       {
-        "id": "100",
-        "title": "Oberfläche der Pyramide",
-        "folder": "oberflache-der-pyramide-3-100"
-      },
-      {
         "id": "101",
         "title": "Berechnungen: Volumen und Oberfläche der Pyramide mit Bildern",
         "folder": "berechnungen-volumen-und-oberflache-der-pyramide-mit-bildern-101"
@@ -1463,11 +1453,6 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "53",
         "title": "Flächenmaße umwandeln",
         "folder": "flachenmaese-umwandeln-53"
-      },
-      {
-        "id": "155",
-        "title": "Übungen zu Flächenmaßen",
-        "folder": "bungen-zu-flachenmaesen-155"
       },
       {
         "id": "158",
@@ -1690,16 +1675,6 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "773",
         "title": "Terme dividieren",
         "folder": "terme-dividieren-773"
-      },
-      {
-        "id": "88",
-        "title": "Terme addieren und subtrahieren",
-        "folder": "terme-addieren-und-subtrahieren-88"
-      },
-      {
-        "id": "97",
-        "title": "Terme multiplizieren",
-        "folder": "terme-multiplizieren-97"
       },
       {
         "id": "227",
@@ -2167,16 +2142,6 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "binomische-formeln-4-777"
       },
       {
-        "id": "94",
-        "title": "Binomische Formeln 1",
-        "folder": "binomische-formeln-1-94"
-      },
-      {
-        "id": "95",
-        "title": "Binomische Formeln 2",
-        "folder": "binomische-formeln-2-95"
-      },
-      {
         "id": "96",
         "title": "Binomische Formeln ergänzen",
         "folder": "binomische-formeln-erganzen-96"
@@ -2200,11 +2165,6 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "91",
         "title": "Monom mal Binom",
         "folder": "monom-mal-binom-2-91"
-      },
-      {
-        "id": "89",
-        "title": "Terme mit Klammern addieren und subtrahieren",
-        "folder": "terme-mit-klammern-addieren-und-subtrahieren-89"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=binomische+formeln&t=1118"
@@ -2249,11 +2209,6 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "bruchrechnen-bruche-multiplizieren-und-dividieren-925"
       },
       {
-        "id": "38",
-        "title": "Brüche und Dezimalzahlen",
-        "folder": "bruche-und-dezimalzahlen-38"
-      },
-      {
         "id": "39",
         "title": "Brüche und Dezimalzahlen (Memory)",
         "folder": "bruche-und-dezimalzahlen-memory-39"
@@ -2262,11 +2217,6 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "40",
         "title": "Brüche und Dezimalzahlen (Memory 2)",
         "folder": "bruche-und-dezimalzahlen-memory-2-40"
-      },
-      {
-        "id": "44",
-        "title": "Brüche und Dezimalzahlen",
-        "folder": "bruche-und-dezimalzahlen-2-44"
       },
       {
         "id": "745",

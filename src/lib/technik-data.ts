@@ -911,11 +911,6 @@ export const technikTopics: Record<string, TechnikTopic> = {
     ],
     "exercises": [
       {
-        "id": "2251",
-        "title": "Windkraftwerke",
-        "folder": "windkraftwerke-2251"
-      },
-      {
         "id": "5327",
         "title": "Windkraftwerke",
         "folder": "windkraftwerke-2-5327"
@@ -1056,11 +1051,6 @@ export const technikTopics: Record<string, TechnikTopic> = {
         "folder": "wie-funktioniert-eine-waschmaschine-2582"
       },
       {
-        "id": "2536",
-        "title": "Wie funktioniert ein Kühlschrank",
-        "folder": "wie-funktioniert-ein-kuhlschrank-2536"
-      },
-      {
         "id": "2531",
         "title": "Wie funktioniert ein Kaffeemaschine",
         "folder": "wie-funktioniert-ein-kaffeemaschine-2531"
@@ -1102,7 +1092,7 @@ export const technikTopics: Record<string, TechnikTopic> = {
       },
       {
         id: "kuehlschr",
-        title: "Wie funktioniert ein Kühlschrank",
+        title: "Wie funktioniert ein Kühlschrank?",
         folder: "wie-funktioniert-ein-kuehlschrank"
       },
       {

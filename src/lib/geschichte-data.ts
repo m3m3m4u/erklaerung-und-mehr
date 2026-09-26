@@ -245,7 +245,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
       },
       {
         "id": "2903",
-        "title": "Das konigreich griechenland",
+        "title": "Das Königreich Griechenland",
         "folder": "das-konigreich-griechenland-2903"
       },
       {
@@ -491,11 +491,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
     ],
     "exercises": [
       {
-        "id": "3166",
-        "title": "Die Kelten",
-        "folder": "die-kelten-2-3166"
-      },
-      {
         "id": "3116",
         "title": "Die Kelten",
         "folder": "die-kelten-3116"
@@ -709,11 +704,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "der-investiturstreit-2321"
       },
       {
-        "id": "2345",
-        "title": "Die Kreuzzüge",
-        "folder": "die-kreuzzuge-2345"
-      },
-      {
         "id": "2364",
         "title": "Karl der Große",
         "folder": "karl-der-groese-2364"
@@ -871,11 +861,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "escape-room-quot-komponisten-in-mittelalter-und-renaissance-quot-3222"
       },
       {
-        "id": "4052",
-        "title": "Leonardo da Vinci",
-        "folder": "leonardo-da-vinci-2-4052"
-      },
-      {
         "id": "2369",
         "title": "Literaturepoche Renaissance",
         "folder": "literaturepoche-renaissance-2369"
@@ -944,7 +929,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
       },
       {
         "id": "3336",
-        "title": "Entdeckung und unabhangigkeit der usa",
+        "title": "Entdeckung und Unabhängigkeit der USA",
         "folder": "entdeckung-und-unabhangigkeit-der-usa-3336"
       },
       {
@@ -978,19 +963,9 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
     ],
     "exercises": [
       {
-        "id": "643",
-        "title": "Martin Luther",
-        "folder": "martin-luther-643"
-      },
-      {
         "id": "742",
         "title": "Die Hexenverfolgung",
         "folder": "die-hexenverfolgung-742"
-      },
-      {
-        "id": "883",
-        "title": "Der Dreißigjährige Krieg",
-        "folder": "der-dreiesigjahrige-krieg-883"
       },
       {
         "id": "2315",
@@ -1080,11 +1055,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "die-geselllschaft-im-absolutismus-2956"
       },
       {
-        "id": "3374",
-        "title": "Absolutismus",
-        "folder": "absolutismus-2-3374"
-      },
-      {
         "id": "2319",
         "title": "Der Englische Bürgerkrieg",
         "folder": "der-englische-burgerkrieg-2319"
@@ -1112,19 +1082,9 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "immanuel-kant-1424"
       },
       {
-        "id": "2327",
-        "title": "Die Aufklärung",
-        "folder": "die-aufklarung-2327"
-      },
-      {
         "id": "2363",
         "title": "Jean-Jacques Rousseau",
         "folder": "jean-jacques-rousseau-2363"
-      },
-      {
-        "id": "3966",
-        "title": "Immanuel Kant",
-        "folder": "immanuel-kant-2-3966"
       },
       {
         "id": "5342",
@@ -1190,13 +1150,8 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
       },
       {
         "id": "3260",
-        "title": "Die Französische Revolution 2 - Bastille",
+        "title": "Die Französische Revolution – Bastille",
         "folder": "die-franzosische-revolution-2-bastille-3260"
-      },
-      {
-        "id": "3261",
-        "title": "Die Französische Revolution 2 - Bastille",
-        "folder": "die-franzosische-revolution-2-bastille-2-3261"
       },
       {
         "id": "3262",
@@ -1461,11 +1416,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
     ],
     "exercises": [
       {
-        "id": "330",
-        "title": "Industrielle Revolution",
-        "folder": "industrielle-revolution-330"
-      },
-      {
         "id": "336",
         "title": "Dampfmaschine",
         "folder": "dampfmaschine-336"
@@ -1649,7 +1599,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
       },
       {
         "id": "5401",
-        "title": "Was ware wenn das deutsche kaiserreich zur demokratie reformiert worden ware",
+        "title": "Was wäre, wenn das Deutsche Kaiserreich zur Demokratie reformiert worden wäre?",
         "folder": "was-ware-wenn-das-deutsche-kaiserreich-zur-demokratie-reformiert-worden-ware-5401"
       },
       {
@@ -1716,13 +1666,8 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "der-atlantische-dreieckshandel-3153"
       },
       {
-        "id": "743",
-        "title": "Der amerikanische Bürgerkrieg",
-        "folder": "der-amerikanische-burgerkrieg-743"
-      },
-      {
         "id": "5335",
-        "title": "Der amerikanische Bürgerkrieg 2",
+        "title": "Der Amerikanische Bürgerkrieg",
         "folder": "der-amerikanische-burgerkrieg-2-5335"
       },
       {
@@ -1816,7 +1761,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
     "exercises": [
       {
         "id": "2943",
-        "title": "Die doppelmonarchie sterreich ungarn",
+        "title": "Die Doppelmonarchie Österreich-Ungarn",
         "folder": "die-doppelmonarchie-sterreich-ungarn-2943"
       },
       {
@@ -2045,11 +1990,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "wahlen-in-der-weimarer-republik-3065"
       },
       {
-        "id": "3326",
-        "title": "Die Weimarer Republik",
-        "folder": "die-weimarer-republik-2-3326"
-      },
-      {
         "id": "3067",
         "title": "Wirtschaft der Weimarer Republik",
         "folder": "wirtschaft-der-weimarer-republik-3067"
@@ -2251,11 +2191,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "josef-goebbels-3014"
       },
       {
-        "id": "3610",
-        "title": "Adolf Hitler",
-        "folder": "adolf-hitler-2-3610"
-      },
-      {
         "id": "2289",
         "title": "Adolf Hitler",
         "folder": "adolf-hitler-2289"
@@ -2327,11 +2262,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "3305",
         "title": "Österreich im Zweiten Weltkrieg",
         "folder": "sterreich-im-zweiten-weltkrieg-3305"
-      },
-      {
-        "id": "3307",
-        "title": "Der Weg in den Zweiten Weltkrieg",
-        "folder": "der-weg-in-den-zweiten-weltkrieg-2-3307"
       },
       {
         "id": "3318",
@@ -2649,7 +2579,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
       },
       {
         "id": "5420",
-        "title": "Was wäre, wenn immer noch Kalter Kriege wäre …",
+        "title": "Was wäre, wenn immer noch Kalter Krieg wäre …",
         "folder": "was-ware-wenn-immer-noch-kalter-kriege-ware-5420"
       },
       {
@@ -2892,17 +2822,17 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
       },
       {
         "id": "3210",
-        "title": "Escape room quot geschichte israels quot",
+        "title": "Escape Room: Geschichte Israels",
         "folder": "escape-room-quot-geschichte-israels-quot-3210"
       },
       {
         "id": "3211",
-        "title": "Escape room quot nahostkonflikt kriege und krisen quot",
+        "title": "Escape Room: Nahostkonflikt – Kriege und Krisen",
         "folder": "escape-room-quot-nahostkonflikt-kriege-und-krisen-quot-3211"
       },
       {
         "id": "3212",
-        "title": "Escape room quot nahostkonflikt friedensbemuhungen quot",
+        "title": "Escape Room: Nahostkonflikt – Friedensbemühungen",
         "folder": "escape-room-quot-nahostkonflikt-friedensbemuhungen-quot-3212"
       },
       {
@@ -2940,11 +2870,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "6541",
         "title": "Der Österreichische Nationalfeiertag",
         "folder": "der-sterreichische-nationalfeiertag-2-6541"
-      },
-      {
-        "id": "6508",
-        "title": "Der sterreichische nationalfeiertag",
-        "folder": "der-sterreichische-nationalfeiertag-6508"
       },
       {
         "id": "984",

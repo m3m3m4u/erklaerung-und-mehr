@@ -55,11 +55,6 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "folder": "wirtschaft-in-sterreich-494"
       },
       {
-        "id": "498",
-        "title": "Klima und Wetter Österreichs",
-        "folder": "klima-und-wetter-sterreichs-2-498"
-      },
-      {
         "id": "499",
         "title": "Bevölkerung Österreichs",
         "folder": "bevolkerung-sterreichs-2-499"
@@ -126,27 +121,27 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "480",
-        "title": "Oberosterreich",
+        "title": "Oberösterreich",
         "folder": "oberosterreich-480"
       },
       {
         "id": "481",
-        "title": "Niederosterreich",
+        "title": "Niederösterreich",
         "folder": "niederosterreich-481"
       },
       {
         "id": "5669",
-        "title": "Die geschichte niederosterreichs",
+        "title": "Die Geschichte Niederösterreichs",
         "folder": "die-geschichte-niederosterreichs-5669"
       },
       {
         "id": "5670",
-        "title": "Die geschichte oberosterreichs",
+        "title": "Die Geschichte Oberösterreichs",
         "folder": "die-geschichte-oberosterreichs-5670"
       },
       {
         "id": "3236",
-        "title": "Escape room quot groeslandschaften sterreichs quot",
+        "title": "Escape Room: Großlandschaften Österreichs",
         "folder": "escape-room-quot-groeslandschaften-sterreichs-quot-3236"
       },
       {
@@ -201,12 +196,12 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "133",
-        "title": "Bundeslander sterreich einfach",
+        "title": "Bundesländer Österreichs (einfach)",
         "folder": "bundeslander-sterreich-einfach-133"
       },
       {
         "id": "134",
-        "title": "Bundeslander sterreich schwer",
+        "title": "Bundesländer Österreichs (schwer)",
         "folder": "bundeslander-sterreich-schwer-134"
       }
     ],
@@ -1907,7 +1902,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "3223",
-        "title": "Escape room quot lander europas quot",
+        "title": "Escape Room: Länder Europas",
         "folder": "escape-room-quot-lander-europas-quot-3223"
       },
       {
@@ -2094,7 +2089,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "3229",
-        "title": "Escape room quot 5 wichtige lander westeuropas quot",
+        "title": "Escape Room: 5 wichtige Länder Westeuropas",
         "folder": "escape-room-quot-5-wichtige-lander-westeuropas-quot-3229"
       }
     ],
@@ -2144,7 +2139,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "3227",
-        "title": "Escape room quot lander nordeuropas quot",
+        "title": "Escape Room: Länder Nordeuropas",
         "folder": "escape-room-quot-lander-nordeuropas-quot-3227"
       },
       {
@@ -2244,7 +2239,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "3228",
-        "title": "Escape room quot lander sudeuropas quot",
+        "title": "Escape Room: Länder Südeuropas",
         "folder": "escape-room-quot-lander-sudeuropas-quot-3228"
       }
     ],
@@ -2995,7 +2990,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "3225",
-        "title": "Escape room quot lander sudamerikas quot",
+        "title": "Escape Room: Länder Südamerikas",
         "folder": "escape-room-quot-lander-sudamerikas-quot-3225"
       }
     ],
@@ -3150,7 +3145,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "3224",
-        "title": "Escape room quot lander afrikas quot",
+        "title": "Escape Room: Länder Afrikas",
         "folder": "escape-room-quot-lander-afrikas-quot-3224"
       },
       {
@@ -3558,7 +3553,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "3226",
-        "title": "Escape room quot lander asiens quot",
+        "title": "Escape Room: Länder Asiens",
         "folder": "escape-room-quot-lander-asiens-quot-3226"
       },
       {
@@ -3788,11 +3783,6 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "folder": "naturkatastrophen-in-ozeanien-vulkane-erdbeben-zyklone-5513"
       },
       {
-        "id": "5544",
-        "title": "Naturkatastrophen in Ozeanien - Vulkane, Erdbeben, Zyklone",
-        "folder": "naturkatastrophen-in-ozeanien-vulkane-erdbeben-zyklone-2-5544"
-      },
-      {
         "id": "5514",
         "title": "Ozeanien - Inselwelten im Pazifik – Vielfalt und Herausforderungen",
         "folder": "ozeanien-inselwelten-im-pazifik-vielfalt-und-herausforderungen-5514"
@@ -3960,7 +3950,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "3191",
-        "title": "Escape room quot wetter und klima quot",
+        "title": "Escape Room: Wetter und Klima",
         "folder": "escape-room-quot-wetter-und-klima-quot-3191"
       },
       {
