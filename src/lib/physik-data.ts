@@ -101,6 +101,26 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "id": "273",
         "title": "Trägheit",
         "folder": "kraft-273"
+      },
+      {
+        "id": "590",
+        "title": "Kinematik - Geschwindigkeit und Bewegung",
+        "folder": "lerninhalt-kinematik-geschwindigkeit-590"
+      },
+      {
+        "id": "591",
+        "title": "Kinematik - Bewegungsarten",
+        "folder": "lerninhalt-kinematik-bewegungsarten-591"
+      },
+      {
+        "id": "589",
+        "title": "Trägheitsprinzip und Masse",
+        "folder": "lerninhalt-tragheit-589"
+      },
+      {
+        "id": "beschleunigung-sensor",
+        "title": "Beschleunigungssensoren und Bewegungsmessung",
+        "folder": "beschleunigungssensoren-und-wie-das-handy-weiss-wo-oben-ist"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=geschwindigkeit+kinematik&t=3752"
@@ -183,6 +203,31 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "id": "5297",
         "title": "Impuls und Impulserhaltung",
         "folder": "impuls-und-impulserhaltung-5297"
+      },
+      {
+        "id": "581",
+        "title": "Mechanische Arbeit",
+        "folder": "lerninhalt-arbeit-581"
+      },
+      {
+        "id": "582",
+        "title": "Mechanische Leistung",
+        "folder": "lerninhalt-leistung-582"
+      },
+      {
+        "id": "580",
+        "title": "Energieformen und Energieumwandlung",
+        "folder": "lerninhalt-energie-580"
+      },
+      {
+        "id": "schwerkraft",
+        "title": "Wie funktioniert die Schwerkraft?",
+        "folder": "wie-funktioniert-die-schwerkraft"
+      },
+      {
+        "id": "pumpspeicher",
+        "title": "Energiespeicherung durch Pumpspeicherwerke",
+        "folder": "wie-funktioniert-die-energiespeicherung-durch-pumpspeicherwerke"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=arbeit+energie+leistung&t=3752"
@@ -378,6 +423,21 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "id": "5261",
         "title": "Der Faraday'sche Käfig",
         "folder": "der-faraday-039-sche-kafig-5261"
+      },
+      {
+        "id": "298",
+        "title": "Elektrizität und Elektrostatik",
+        "folder": "elektrizitat-und-elektrostatik-298"
+      },
+      {
+        "id": "5290",
+        "title": "Elektrische Ladung",
+        "folder": "elektrische-ladung-5290"
+      },
+      {
+        "id": "5250",
+        "title": "Das elektrische Feld",
+        "folder": "das-elektrische-feld-5250"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=elektrostatik+stromkreis&t=3752"
@@ -412,6 +472,26 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "id": "5256",
         "title": "Das Relais",
         "folder": "das-relais-5256"
+      },
+      {
+        "id": "3880",
+        "title": "Georg Simon Ohm und das Ohmsche Gesetz",
+        "folder": "georg-simon-ohm-3880"
+      },
+      {
+        "id": "2555",
+        "title": "Wie funktioniert ein Relais?",
+        "folder": "wie-funktioniert-ein-relais-2555"
+      },
+      {
+        "id": "induktion-herd",
+        "title": "Wie funktioniert ein Induktionskochfeld?",
+        "folder": "wie-funktioniert-ein-induktionskochfeld"
+      },
+      {
+        "id": "5257",
+        "title": "Der elektrische Schwingkreis",
+        "folder": "der-elektrische-schwingkreis-5257"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=ohmsches+gesetz+widerstand&t=3752"
@@ -1085,6 +1165,31 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "id": "3155",
         "title": "Der Urknall",
         "folder": "der-urknall-3155"
+      },
+      {
+        "id": "2279",
+        "title": "Kernfusion in der Sonne - Sternenphysik",
+        "folder": "kernfusion-in-der-sonne-2279"
+      },
+      {
+        "id": "5276",
+        "title": "Die Entdeckung der Planetenbewegungen",
+        "folder": "die-entdeckung-der-planetenbewegungen-5276"
+      },
+      {
+        "id": "dlr",
+        "title": "Das Deutsche Zentrum für Luft- und Raumfahrt",
+        "folder": "das-deutsche-zentrum-fuer-luft-und-raumfahrt"
+      },
+      {
+        "id": "5523",
+        "title": "Umweltüberwachung durch Satellitentechnologie",
+        "folder": "umweltuberwachung-durch-satellitentechnologie-5523"
+      },
+      {
+        "id": "4477",
+        "title": "Die Geburt der Erde - Entstehung von Himmelskörpern",
+        "folder": "die-geburt-der-erde-vom-staub-zum-planeten-4477"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=kosmologie+urknall+sterne&t=3752"
