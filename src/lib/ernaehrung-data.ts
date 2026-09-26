@@ -145,11 +145,6 @@ export const ernaehrungTopics: Record<string, ErnaehrungTopic> = {
         "id": "magnesium-1160",
         "title": "Magnesium – Mineralstoff für Muskeln und Nerven",
         "folder": "magnesium-1160"
-      },
-      {
-        "id": "das-immunsystem-und-ernahrung-2-2131",
-        "title": "Das Immunsystem und Ernährung",
-        "folder": "das-immunsystem-und-ernahrung-2-2131"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Vitamine+Mineralstoffe&t=3752"
