@@ -108,11 +108,6 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "folder": "wie-funktioniert-ein-solid-state-laufwerk-ssd-2561"
       },
       {
-        "id": "668",
-        "title": "Kurs Grundlagen der Informatik Hardware",
-        "folder": "kurs-grundlagen-der-informatik-hardware-668"
-      },
-      {
         "id": "cpu-architektur",
         "title": "CPU Architekturen und Hardware Flaschenhälse",
         "folder": "cpu-architekturen-und-hardware-flaschenhaelse"
@@ -143,16 +138,6 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "id": "5393",
         "title": "Geschichte des Computers",
         "folder": "geschichte-des-computers-2-5393"
-      },
-      {
-        "id": "667",
-        "title": "Kurs Geschichte des Computers",
-        "folder": "kurs-geschichte-des-computers-667"
-      },
-      {
-        "id": "670",
-        "title": "Kurs Orientierung an der Tastatur",
-        "folder": "kurs-orientierung-an-der-tastatur-670"
       },
       {
         "id": "471",
@@ -366,11 +351,6 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "folder": "computerspiele-1228"
       },
       {
-        "id": "669",
-        "title": "Kurs Grundlagen der Informatik Software",
-        "folder": "kurs-grundlagen-der-informatik-software-669"
-      },
-      {
         "id": "8013",
         "title": "Open Source und die Philosophie offener Software",
         "folder": "open-source-und-die-philosophie-offener-software"
@@ -567,11 +547,6 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "folder": "ip-adresse-1374"
       },
       {
-        "id": "672",
-        "title": "Kurs Netzwerke",
-        "folder": "kurs-netzwerke-672"
-      },
-      {
         "id": "7079",
         "title": "Wie funktioniert das WLAN",
         "folder": "wie-funktioniert-das-wlan"
@@ -613,11 +588,6 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "folder": "geschichte-der-internets-bungen-287"
       },
       {
-        "id": "671",
-        "title": "Kurs Geschichte des Internets",
-        "folder": "kurs-geschichte-der-internets-bungen-671"
-      },
-      {
         "id": "8020",
         "title": "Suchmaschinen: Crawler und Ranking-Algorithmen",
         "folder": "aufbau-und-funktionsweise-von-suchmaschinen"
@@ -631,11 +601,6 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "id": "seekabel",
         "title": "Seekabel und die globale Internet-Infrastruktur",
         "folder": "seekabel-und-die-reise-der-daten-durch-den-ozean"
-      },
-      {
-        "id": "wlan",
-        "title": "Wie funktioniert das WLAN?",
-        "folder": "wie-funktioniert-das-wlan"
       },
       {
         "id": "glasfaser",
@@ -687,16 +652,6 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "id": "472",
         "title": "Internetbrowser",
         "folder": "internetbrowser-472"
-      },
-      {
-        "id": "673",
-        "title": "Kurs Internetbrowser",
-        "folder": "kurs-internetbrowser-673"
-      },
-      {
-        "id": "674",
-        "title": "Kurs Suchen und Finden im Internet",
-        "folder": "kurs-suchen-und-finden-im-internet-674"
       },
       {
         "id": "7118",
@@ -827,11 +782,6 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "folder": "computerwurm-1362"
       },
       {
-        "id": "677",
-        "title": "Kurs Sicherheit im Umgang mit dem Computer",
-        "folder": "kurs-sicherheit-im-umgang-mit-dem-computer-677"
-      },
-      {
         "id": "7122",
         "title": "Wie funktioniert ein Botnetz",
         "folder": "wie-funktioniert-ein-botnetz"
@@ -950,11 +900,6 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "folder": "urheberrechte-476"
       },
       {
-        "id": "679",
-        "title": "Kurs Urheberrechte",
-        "folder": "kurs-urheberrechte-679"
-      },
-      {
         "id": "1058",
         "title": "Übertragung von Daten",
         "folder": "bertragung-von-daten-1058"
@@ -979,11 +924,6 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "id": "303",
         "title": "Algorithmen und Programmiersprachen",
         "folder": "algorithmen-und-programmiersprachen-303"
-      },
-      {
-        "id": "681",
-        "title": "Kurs Algorithmen und Programmiersprachen",
-        "folder": "kurs-algorithmen-und-programmiersprachen-681"
       },
       {
         "id": "8004",
@@ -1352,11 +1292,6 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "id": "830",
         "title": "Whatsapp",
         "folder": "whatsapp-830"
-      },
-      {
-        "id": "676",
-        "title": "Kurs Soziale Netzwerke",
-        "folder": "kurs-soziale-netzwerke-676"
       },
       {
         "id": "3486",
