@@ -448,6 +448,37 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "title": "Antigone von Sophokles - Bezug zur Gegenwart",
         "folder": "antigone-von-sophokles-bezug-zur-gegenwart-6153"
       }
+    ,
+      {
+        "id": "1406",
+        "title": "Römische Literatur",
+        "folder": "romische-literatur-1406"
+      },
+      {
+        "id": "6244",
+        "title": "König Ödipus von Sophokles",
+        "folder": "konig-dipus-von-sophokles-6244"
+      },
+      {
+        "id": "6241",
+        "title": "König Ödipus von Sophokles - Bezug zur Gegenwart",
+        "folder": "konig-dipus-von-sophokles-bezug-zur-gegenwart-6241"
+      },
+      {
+        "id": "6242",
+        "title": "König Ödipus von Sophokles - historischer Kontext",
+        "folder": "konig-dipus-von-sophokles-historischer-kontext-6242"
+      },
+      {
+        "id": "6243",
+        "title": "König Ödipus von Sophokles - literarische Bedeutung",
+        "folder": "konig-dipus-von-sophokles-literarische-bedeutung-6243"
+      },
+      {
+        "id": "6280",
+        "title": "Antigone von Sophokles - Bezug zur Gegenwart",
+        "folder": "antigone-von-sophokles-bezug-zur-gegenwart-2-6280"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Literaturepochen%20Barock%20Mittelalter%20Deutsch&t=284"
   },
@@ -586,6 +617,17 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "6239",
         "title": "Joseph von Eichendorff",
         "folder": "joseph-von-eichendorff-6239"
+      }
+    ,
+      {
+        "id": "2374",
+        "title": "Literaturepoche Romantik",
+        "folder": "literaturepoche-romantik-2374"
+      },
+      {
+        "id": "joseph-von-eichendorff-und-das-fernweh-der-romantiker",
+        "title": "Joseph von Eichendorff und das Fernweh der Romantiker",
+        "folder": "joseph-von-eichendorff-und-das-fernweh-der-romantiker"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Romantik%20Vormaerz%20Biedermeier%20Literatur&t=284"
@@ -824,6 +866,12 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "title": "Emilia Galotti - literarische Bedeutung",
         "folder": "emilia-galotti-von-g-e-lessing-literarische-bedeutung-6204"
       }
+    ,
+      {
+        "id": "nathan-der-weise-und-die-lehre-vom-friedlichen-miteinander",
+        "title": "Nathan der Weise und die Lehre vom friedlichen Miteinander",
+        "folder": "nathan-der-weise-und-die-lehre-vom-friedlichen-miteinander"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Lessing%20Nathan%20der%20Weise%20Emilia%20Galotti&t=284"
   },
@@ -896,6 +944,37 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "4557",
         "title": "Johann Wolfgang Goethe - Egmont",
         "folder": "johann-wolfgang-goethe-egmont-2-4557"
+      }
+    ,
+      {
+        "id": "faust-und-der-pakt-mit-dem-teufel-einfach-erklaert",
+        "title": "Faust und der Pakt mit dem Teufel einfach erklärt",
+        "folder": "faust-und-der-pakt-mit-dem-teufel-einfach-erklaert"
+      },
+      {
+        "id": "6212",
+        "title": "Faust II von J.W. von Goethe - Bezug zur Gegenwart",
+        "folder": "faust-ii-von-j-w-von-goethe-bezug-zur-gegenwart-6212"
+      },
+      {
+        "id": "6213",
+        "title": "Faust II von J.W. von Goethe - historischer Kontext",
+        "folder": "faust-ii-von-j-w-von-goethe-historischer-kontext-6213"
+      },
+      {
+        "id": "6214",
+        "title": "Faust II von J.W. von Goethe - literarische Bedeutung",
+        "folder": "faust-ii-von-j-w-von-goethe-literarische-bedeutung-6214"
+      },
+      {
+        "id": "3452",
+        "title": "Johann Wolfgang Goethe - Egmont",
+        "folder": "johann-wolfgang-goethe-egmont-3452"
+      },
+      {
+        "id": "goethe-und-warum-er-heute-noch-wichtig-ist",
+        "title": "Goethe und warum er heute noch wichtig ist",
+        "folder": "goethe-und-warum-er-heute-noch-wichtig-ist"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Goethe%20Faust%20Iphigenie%20Dramen&t=284"
@@ -985,6 +1064,22 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "title": "Die Jungfrau von Orleans - Bezug zur Gegenwart",
         "folder": "die-jungfrau-von-orleans-von-friedrich-schiller-bezug-zur-gegenwart-6195"
       }
+    ,
+      {
+        "id": "3426",
+        "title": "Friedrich Schiller - Wallenstein",
+        "folder": "friedrich-schiller-wallenstein-3426"
+      },
+      {
+        "id": "kabale-und-liebe-eine-unmoegliche-romanze",
+        "title": "Kabale und Liebe - Eine unmögliche Romanze",
+        "folder": "kabale-und-liebe-eine-unmoegliche-romanze"
+      },
+      {
+        "id": "friedrich-schiller-und-die-kraft-der-freundschaft",
+        "title": "Friedrich Schiller und die Kraft der Freundschaft",
+        "folder": "friedrich-schiller-und-die-kraft-der-freundschaft"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Schiller%20Dramen%20Raeuber%20Maria%20Stuart&t=284"
   },
@@ -1022,6 +1117,12 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "novellen-die-besondere-gattung-einfach-erklaert",
         "title": "Novellen – Die besondere Gattung einfach erklärt",
         "folder": "novellen-die-besondere-gattung-einfach-erklaert"
+      }
+    ,
+      {
+        "id": "3446",
+        "title": "J.W. Goethe – Die Wahlverwandtschaften",
+        "folder": "j-w-goethe-die-wahlverwandtschaften-3446"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Goethe%20Werther%20Wahlverwandtschaften%20Novelle&t=284"
@@ -1129,6 +1230,12 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "title": "Gotfried Keller – Der grüne Heinrich",
         "folder": "gotfried-keller-der-grune-heinrich-2-4538"
       }
+    ,
+      {
+        "id": "3463",
+        "title": "Theodor Fontane – Frau Jenny Treibel",
+        "folder": "theodor-fontane-frau-jenny-treibel-3463"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Fontane%20Effi%20Briest%20Keller%20Realismus&t=284"
   },
@@ -1191,6 +1298,67 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "4526",
         "title": "Friedrich Hebbel - Maria Magdalene",
         "folder": "friedrich-hebbel-maria-magdalene-2-4526"
+      }
+    ,
+      {
+        "id": "3429",
+        "title": "Georg Büchner - Dantons Tod",
+        "folder": "georg-buchner-dantons-tod-3429"
+      },
+      {
+        "id": "georg-buechner-ein-rebell-der-deutschen-literatur",
+        "title": "Georg Büchner - Ein Rebell der deutschen Literatur",
+        "folder": "georg-buechner-ein-rebell-der-deutschen-literatur"
+      },
+      {
+        "id": "woyzeck-und-die-frage-was-macht-den-menschen-zum-tier",
+        "title": "Woyzeck und die Frage - Was macht den Menschen zum Tier",
+        "folder": "woyzeck-und-die-frage-was-macht-den-menschen-zum-tier"
+      },
+      {
+        "id": "6248",
+        "title": "Leonce und Lena von Georg Büchner - Bezug zur Gegenwart",
+        "folder": "leonce-und-lena-von-georg-buchner-bezug-zur-gegenwart-6248"
+      },
+      {
+        "id": "6249",
+        "title": "Leonce und Lena von Georg Büchner - historischer Kontext",
+        "folder": "leonce-und-lena-von-georg-buchner-historischer-kontext-6249"
+      },
+      {
+        "id": "6250",
+        "title": "Leonce und Lena von Georg Büchner - literarische Bedeutung",
+        "folder": "leonce-und-lena-von-georg-buchner-literarische-bedeutung-6250"
+      },
+      {
+        "id": "3431",
+        "title": "Gerhart Hauptmann - Die Ratten",
+        "folder": "gerhart-hauptmann-die-ratten-3431"
+      },
+      {
+        "id": "3432",
+        "title": "Gerhart Hauptmann - Vor Sonnenuntergang",
+        "folder": "gerhart-hauptmann-vor-sonnenuntergang-3432"
+      },
+      {
+        "id": "6161",
+        "title": "Bahnwärter Thiel von Gerhart Hauptmann",
+        "folder": "bahnwarter-thiel-von-gerhart-hauptmann-6161"
+      },
+      {
+        "id": "6158",
+        "title": "Bahnwärter Thiel von Gerhart Hauptmann - Bezug zur Gegenwart",
+        "folder": "bahnwarter-thiel-von-gerhart-hauptmann-bezug-zur-gegenwart-6158"
+      },
+      {
+        "id": "6159",
+        "title": "Bahnwärter Thiel von Gerhart Hauptmann - historischer Kontext",
+        "folder": "bahnwarter-thiel-von-gerhart-hauptmann-historischer-kontext-6159"
+      },
+      {
+        "id": "6160",
+        "title": "Bahnwärter Thiel von Gerhart Hauptmann - literarische Bedeutung",
+        "folder": "bahnwarter-thiel-von-gerhart-hauptmann-literarische-bedeutung-6160"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Buechner%20Woyzeck%20Wedekind%20Hauptmann&t=284"
@@ -1285,6 +1453,42 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "3403",
         "title": "Alfred Döblin – Berlin Alexanderplatz",
         "folder": "alfred-doblin-berlin-alexanderplatz-3403"
+      }
+    ,
+      {
+        "id": "3472",
+        "title": "Thomas Mann - Der Zauberberg",
+        "folder": "thomas-mann-der-zauberberg-3472"
+      },
+      {
+        "id": "thomas-mann-und-wie-eine-reiche-familie-zerfaellt",
+        "title": "Thomas Mann und wie eine reiche Familie zerfällt",
+        "folder": "thomas-mann-und-wie-eine-reiche-familie-zerfaellt"
+      },
+      {
+        "id": "6255",
+        "title": "Mario und der Zauberer von Thomas Mann - Bezug zur Gegenwart",
+        "folder": "mario-und-der-zauberer-von-thomas-mann-bezug-zur-gegenwart-6255"
+      },
+      {
+        "id": "6256",
+        "title": "Mario und der Zauberer von Thomas Mann - historischer Kontext",
+        "folder": "mario-und-der-zauberer-von-thomas-mann-historischer-kontext-6256"
+      },
+      {
+        "id": "6257",
+        "title": "Mario und der Zauberer von Thomas Mann - literarische Bedeutung",
+        "folder": "mario-und-der-zauberer-von-thomas-mann-literarische-bedeutung-6257"
+      },
+      {
+        "id": "3438",
+        "title": "Heinrich Mann - Professor Unrat",
+        "folder": "heinrich-mann-professor-unrat-3438"
+      },
+      {
+        "id": "kafka-und-das-gefuehl-im-system-gefangen-zu-sein",
+        "title": "Kafka und das Gefühl im System gefangen zu sein",
+        "folder": "kafka-und-das-gefuehl-im-system-gefangen-zu-sein"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Kafka%20Prozess%20Thomas%20Mann%20Buddenbrooks&t=284"
@@ -1397,6 +1601,22 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "title": "Max Frisch - Montauk",
         "folder": "max-frisch-montauk-2-4560"
       }
+    ,
+      {
+        "id": "3455",
+        "title": "Max Frisch - Montauk",
+        "folder": "max-frisch-montauk-3455"
+      },
+      {
+        "id": "max-frisch-und-die-frage-wer-wollen-wir-sein",
+        "title": "Max Frisch und die Frage - Wer wollen wir sein",
+        "folder": "max-frisch-und-die-frage-wer-wollen-wir-sein"
+      },
+      {
+        "id": "friedrich-duerrenmatt-warum-zufaelle-alles-veraendern",
+        "title": "Friedrich Dürrenmatt - Warum Zufälle alles verändern",
+        "folder": "friedrich-duerrenmatt-warum-zufaelle-alles-veraendern"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Duerrenmatt%20Physiker%20Besuch%20alten%20Dame%20Frisch%20Biedermann&t=284"
   },
@@ -1449,6 +1669,27 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "4564",
         "title": "Peter Weiss - Die Verfolgung und Ermordung Jean Paul Marats",
         "folder": "peter-weiss-die-verfolgung-und-ermordung-jean-paul-marats-2-4564"
+      }
+    ,
+      {
+        "id": "guenter-grass-und-die-blechtrommel-kurz-gefasst",
+        "title": "Günter Grass und die Blechtrommel kurz gefasst",
+        "folder": "guenter-grass-und-die-blechtrommel-kurz-gefasst"
+      },
+      {
+        "id": "hans-fallada-und-der-kleine-mann-in-der-krise",
+        "title": "Hans Fallada und der kleine Mann in der Krise",
+        "folder": "hans-fallada-und-der-kleine-mann-in-der-krise"
+      },
+      {
+        "id": "ingeborg-bachmann-und-die-macht-der-sprache",
+        "title": "Ingeborg Bachmann und die Macht der Sprache",
+        "folder": "ingeborg-bachmann-und-die-macht-der-sprache"
+      },
+      {
+        "id": "hermann-hesse-und-die-suche-nach-dem-sinn-des-lebens",
+        "title": "Hermann Hesse und die Suche nach dem Sinn des Lebens",
+        "folder": "hermann-hesse-und-die-suche-nach-dem-sinn-des-lebens"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Blechtrommel%20Grass%20Koeppen%20Nachkriegsliteratur&t=284"
@@ -1503,6 +1744,22 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "title": "Die Heimsuchung - 2001 - Nachwendejahre und Erinnerungskultur",
         "folder": "die-heimsuchung-2001-nachwendejahre-erinnerungskultur-neues-jahrtausend-3110"
       }
+    ,
+      {
+        "id": "6220",
+        "title": "Heimsuchung von Jenny Erpenbeck - Bezug zur Gegenwart",
+        "folder": "heimsuchung-von-jenny-erpenbeck-bezug-zur-gegenwart-6220"
+      },
+      {
+        "id": "6221",
+        "title": "Heimsuchung von Jenny Erpenbeck - historischer Kontext",
+        "folder": "heimsuchung-von-jenny-erpenbeck-historischer-kontext-6221"
+      },
+      {
+        "id": "6222",
+        "title": "Heimsuchung von Jenny Erpenbeck - literarische Bedeutung",
+        "folder": "heimsuchung-von-jenny-erpenbeck-literarische-bedeutung-6222"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Jenny%20Erpenbeck%20Heimsuchung%20Abitur&t=284"
   },
@@ -1555,6 +1812,17 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "4556",
         "title": "Johann Nestroy - Der Talisman",
         "folder": "johann-nestroy-der-talisman-2-4556"
+      }
+    ,
+      {
+        "id": "3471",
+        "title": "Hugo von Hofmannsthal - Der Schwierige",
+        "folder": "hugo-von-hofmannsthal-der-schwierige-3471"
+      },
+      {
+        "id": "3443",
+        "title": "Hugo von Hofmannsthal - Der Tor und der Tod",
+        "folder": "hugo-von-hofmannsthal-der-tor-und-der-tod-3443"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Wiener%20Moderne%20Schnitzler%20Nestroy%20Hofmannsthal&t=284"
@@ -1647,6 +1915,12 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "title": "Der Trafikant - literarische Bedeutung",
         "folder": "der-trafikant-von-robert-seethaler-literarische-bedeutung-6191"
       }
+    ,
+      {
+        "id": "3461",
+        "title": "Robert Seethaler - Der Trafikant",
+        "folder": "robert-seethaler-der-trafikant-3461"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Robert%20Seethaler%20Der%20Trafikant%20Abitur&t=284"
   },
@@ -1715,6 +1989,12 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "title": "Die Ballade – Spannende Geschichten in Reimform",
         "folder": "die-ballade-spannende-geschichten-in-reimform"
       }
+    ,
+      {
+        "id": "haikus-die-kunst-der-japanischen-kurzgedichte",
+        "title": "Haikus - Die Kunst der japanischen Kurzgedichte",
+        "folder": "haikus-die-kunst-der-japanischen-kurzgedichte"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Balladen%20Goethe%20Schiller%20Fontane%20Deutsch&t=284"
   },
@@ -1777,6 +2057,12 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "5210",
         "title": "Prometheus von Johann Wolfgang von Goethe",
         "folder": "prometheus-von-johann-wolfgang-von-goethe-5210"
+      }
+    ,
+      {
+        "id": "naturgedichte-zwischen-idylle-und-zerstoerung",
+        "title": "Naturgedichte - Zwischen Idylle und Zerstörung",
+        "folder": "naturgedichte-zwischen-idylle-und-zerstoerung"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Romantik%20Lyrik%20Eichendorff%20Heine%20Goethe&t=284"
@@ -1851,6 +2137,17 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "title": "Visuelle Poesie – Wenn das Gedicht ein Bild ist",
         "folder": "visuelle-poesie-wenn-das-gedicht-ein-bild-ist"
       }
+    ,
+      {
+        "id": "moderne-naturgedichte-im-21-jahrhundert",
+        "title": "Moderne Naturgedichte im 21. Jahrhundert",
+        "folder": "moderne-naturgedichte-im-21-jahrhundert"
+      },
+      {
+        "id": "moderne-songtexte-als-gedichte-analysieren",
+        "title": "Moderne Songtexte als Gedichte analysieren",
+        "folder": "moderne-songtexte-als-gedichte-analysieren"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Gedichtanalyse%20Rilke%20Expressionismus%20Lyrik&t=284"
   },
@@ -1898,6 +2195,17 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "behinderung-und-inklusion-in-kinder-und-jugendbuechern",
         "title": "Behinderung und Inklusion in Kinder- und Jugendbüchern",
         "folder": "behinderung-und-inklusion-in-kinder-und-jugendbuechern"
+      }
+    ,
+      {
+        "id": "margit-auer-und-der-erfolg-der-schule-der-magischen-tiere",
+        "title": "Margit Auer und der Erfolg der Schule der magischen Tiere",
+        "folder": "margit-auer-und-der-erfolg-der-schule-der-magischen-tiere"
+      },
+      {
+        "id": "orientalische-erzaehlungen-und-ihre-magie",
+        "title": "Orientalische Erzählungen und ihre Magie",
+        "folder": "orientalische-erzaehlungen-und-ihre-magie"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Kinderbuch%20Klassiker%20Kleiner%20Prinz%20Alice&t=284"
@@ -1947,6 +2255,27 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "title": "Streit mit den Eltern in der Literatur",
         "folder": "streit-mit-den-eltern-in-der-literatur"
       }
+    ,
+      {
+        "id": "warum-gregs-tagebuch-so-viele-lesemuffel-begeistert",
+        "title": "Warum Gregs Tagebuch so viele Lesemuffel begeistert",
+        "folder": "warum-gregs-tagebuch-so-viele-lesemuffel-begeistert"
+      },
+      {
+        "id": "jeff-kinney-wie-man-mit-comics-ein-bestseller-autor-wird",
+        "title": "Jeff Kinney - Wie man mit Comics ein Bestseller-Autor wird",
+        "folder": "jeff-kinney-wie-man-mit-comics-ein-bestseller-autor-wird"
+      },
+      {
+        "id": "lgbtq-charaktere-in-der-modernen-jugendliteratur",
+        "title": "LGBTQ+ Charaktere in der modernen Jugendliteratur",
+        "folder": "lgbtq-charaktere-in-der-modernen-jugendliteratur"
+      },
+      {
+        "id": "mentale-gesundheit-in-modernen-jugendromanen",
+        "title": "Mentale Gesundheit in modernen Jugendromanen",
+        "folder": "mentale-gesundheit-in-modernen-jugendromanen"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Tschick%20Rico%20Oskar%20Jugendliteratur%20Herrndorf&t=284"
   },
@@ -1988,6 +2317,27 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "was-fantasy-literatur-fuer-jugendliche-so-attraktiv-macht",
         "title": "Was Fantasy-Literatur für Jugendliche so attraktiv macht",
         "folder": "was-fantasy-literatur-fuer-jugendliche-so-attraktiv-macht"
+      }
+    ,
+      {
+        "id": "joanne-k-rowling-wie-eine-idee-die-welt-veraenderte",
+        "title": "Joanne K Rowling - Wie eine Idee die Welt veränderte",
+        "folder": "joanne-k-rowling-wie-eine-idee-die-welt-veraenderte"
+      },
+      {
+        "id": "griechische-goetter-in-modernen-romanen",
+        "title": "Griechische Götter in modernen Romanen",
+        "folder": "griechische-goetter-in-modernen-romanen"
+      },
+      {
+        "id": "warum-vampire-in-buechern-ploetzlich-romantisch-wurden",
+        "title": "Warum Vampire in Büchern plötzlich romantisch wurden",
+        "folder": "warum-vampire-in-buechern-ploetzlich-romantisch-wurden"
+      },
+      {
+        "id": "twilight-gegen-heute-wie-sich-romanzen-veraendert-haben",
+        "title": "Twilight gegen heute - Wie sich Romanzen verändert haben",
+        "folder": "twilight-gegen-heute-wie-sich-romanzen-veraendert-haben"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Cornelia%20Funke%20Eragon%20Fantasy%20Jugend&t=284"
@@ -2047,6 +2397,12 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "title": "Die Rolle der Polizei im Krimi früher und heute",
         "folder": "die-rolle-der-polizei-im-krimi-frueher-und-heute"
       }
+    ,
+      {
+        "id": "krimidinner-wenn-literatur-zum-spiel-wird",
+        "title": "Krimidinner - Wenn Literatur zum Spiel wird",
+        "folder": "krimidinner-wenn-literatur-zum-spiel-wird"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Krimi%20Thriller%20Sherlock%20Holmes%20Agatha%20Christie&t=284"
   },
@@ -2095,6 +2451,12 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "title": "Das Multiversum in der modernen Literatur",
         "folder": "das-multiversum-in-der-modernen-literatur"
       }
+    ,
+      {
+        "id": "monster-in-der-literatur-von-frankenstein-bis-heute",
+        "title": "Monster in der Literatur - Von Frankenstein bis heute",
+        "folder": "monster-in-der-literatur-von-frankenstein-bis-heute"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Fantasy%20Science%20Fiction%20Dystopie%20Cyberpunk&t=284"
   },
@@ -2137,6 +2499,12 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "das-dorf-gegen-die-stadt-gegensaetze-in-der-literatur",
         "title": "Das Dorf gegen die Stadt – Gegensätze in der Literatur",
         "folder": "das-dorf-gegen-die-stadt-gegensaetze-in-der-literatur"
+      }
+    ,
+      {
+        "id": "historische-romane-wie-viel-echte-geschichte-steckt-drin",
+        "title": "Historische Romane - Wie viel echte Geschichte steckt drin",
+        "folder": "historische-romane-wie-viel-echte-geschichte-steckt-drin"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Abenteuerromane%20Reiseliteratur%20Gothic%20Dark%20Academia&t=284"
@@ -2190,6 +2558,17 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "warum-mangas-und-animes-die-literatur-beeinflussen",
         "title": "Warum Mangas und Animes die Literatur beeinflussen",
         "folder": "warum-mangas-und-animes-die-literatur-beeinflussen"
+      }
+    ,
+      {
+        "id": "graphic-novels-warum-comics-richtige-literatur-sind",
+        "title": "Graphic Novels - Warum Comics richtige Literatur sind",
+        "folder": "graphic-novels-warum-comics-richtige-literatur-sind"
+      },
+      {
+        "id": "one-piece-und-die-kunst-des-geschichtenerzaehlens",
+        "title": "One Piece und die Kunst des Geschichtenerzählens",
+        "folder": "one-piece-und-die-kunst-des-geschichtenerzaehlens"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Fabeln%20Maerchen%20Comics%20Manga%20Deutsch&t=284"
@@ -2249,6 +2628,22 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "title": "Das passende Ende finden – Happy End oder offen",
         "folder": "das-passende-ende-finden-happy-end-oder-offen"
       }
+    ,
+      {
+        "id": "ich-erzaehler-gegen-er-erzaehler-was-wirkt-besser",
+        "title": "Ich-Erzähler gegen Er-Erzähler - Was wirkt besser",
+        "folder": "ich-erzaehler-gegen-er-erzaehler-was-wirkt-besser"
+      },
+      {
+        "id": "unzuverlaessige-erzaehler-wenn-man-dem-buch-nicht-traut",
+        "title": "Unzuverlässige Erzähler - Wenn man dem Buch nicht traut",
+        "folder": "unzuverlaessige-erzaehler-wenn-man-dem-buch-nicht-traut"
+      },
+      {
+        "id": "warum-der-ort-der-handlung-so-wichtig-ist",
+        "title": "Warum der Ort der Handlung so wichtig ist",
+        "folder": "warum-der-ort-der-handlung-so-wichtig-ist"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Kreatives%20Schreiben%20Heldenreise%20Dialoge&t=284"
   },
@@ -2307,6 +2702,17 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "title": "Recherche-Tipps – Wie Autoren Fakten checken",
         "folder": "recherche-tipps-wie-autoren-fakten-checken"
       }
+    ,
+      {
+        "id": "erzaehlen-von-geschichten-basierend-auf-datensaetzen",
+        "title": "Erzählen von Geschichten basierend auf Datensätzen",
+        "folder": "erzaehlen-von-geschichten-basierend-auf-datensaetzen"
+      },
+      {
+        "id": "geschichten-die-man-sich-frueher-nur-erzaehlt-hat",
+        "title": "Geschichten, die man sich früher nur erzählt hat",
+        "folder": "geschichten-die-man-sich-frueher-nur-erzaehlt-hat"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Erzaehltechniken%20Kreativ%20Schreiben%20Deutsch&t=284"
   },
@@ -2353,6 +2759,27 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "der-hype-um-signierte-sonderausgaben",
         "title": "Der Hype um signierte Sonderausgaben",
         "folder": "der-hype-um-signierte-sonderausgaben"
+      }
+    ,
+      {
+        "id": "wattpad-wo-die-bestseller-von-morgen-entstehen",
+        "title": "Wattpad - Wo die Bestseller von morgen entstehen",
+        "folder": "wattpad-wo-die-bestseller-von-morgen-entstehen"
+      },
+      {
+        "id": "literatur-blogs-die-neue-art-der-buchkritik",
+        "title": "Literatur-Blogs - Die neue Art der Buchkritik",
+        "folder": "literatur-blogs-die-neue-art-der-buchkritik"
+      },
+      {
+        "id": "literatur-apps-spielerisch-zum-lesen-finden",
+        "title": "Literatur-Apps - Spielerisch zum Lesen finden",
+        "folder": "literatur-apps-spielerisch-zum-lesen-finden"
+      },
+      {
+        "id": "memes-ueber-klassische-schullektuere",
+        "title": "Memes über klassische Schullektüre",
+        "folder": "memes-ueber-klassische-schullektuere"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=BookTok%20Lesekultur%20Social%20Media%20Buecher&t=284"
@@ -2417,6 +2844,32 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "title": "Pseudonyme – Warum Autoren sich hinter Namen verstecken",
         "folder": "pseudonyme-warum-autoren-sich-hinter-namen-verstecken"
       }
+    ,
+      {
+        "id": "self-publishing-sein-eigenes-buch-ohne-verlag-rausbringen",
+        "title": "Self-Publishing - Sein eigenes Buch ohne Verlag rausbringen",
+        "folder": "self-publishing-sein-eigenes-buch-ohne-verlag-rausbringen"
+      },
+      {
+        "id": "was-macht-einen-bestseller-eigentlich-aus",
+        "title": "Was macht einen Bestseller eigentlich aus",
+        "folder": "was-macht-einen-bestseller-eigentlich-aus"
+      },
+      {
+        "id": "literaturpreise-wer-kriegt-sie-und-warum",
+        "title": "Literaturpreise - Wer kriegt sie und warum",
+        "folder": "literaturpreise-wer-kriegt-sie-und-warum"
+      },
+      {
+        "id": "warum-manche-autoren-nur-ein-einziges-buch-schrieben",
+        "title": "Warum manche Autoren nur ein einziges Buch schrieben",
+        "folder": "warum-manche-autoren-nur-ein-einziges-buch-schrieben"
+      },
+      {
+        "id": "warum-manche-buecher-erst-nach-dem-tod-der-autoren-beruehmt-wurden",
+        "title": "Warum manche Bücher erst nach dem Tod der Autoren berühmt wurden",
+        "folder": "warum-manche-buecher-erst-nach-dem-tod-der-autoren-beruehmt-wurden"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Buchmarkt%20Bibliotheken%20Zensur%20Buchmesse&t=284"
   },
@@ -2475,6 +2928,42 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "title": "Buch gegen Film – Warum das Buch meistens besser ist",
         "folder": "buch-gegen-film-warum-das-buch-meistens-besser-ist"
       }
+    ,
+      {
+        "id": "wie-man-eine-gute-buchvorstellung-haelt",
+        "title": "Wie man eine gute Buchvorstellung hält",
+        "folder": "wie-man-eine-gute-buchvorstellung-haelt"
+      },
+      {
+        "id": "tipps-fuer-ein-perfektes-referat-ueber-ein-buch",
+        "title": "Tipps für ein perfektes Referat über ein Buch",
+        "folder": "tipps-fuer-ein-perfektes-referat-ueber-ein-buch"
+      },
+      {
+        "id": "literaturverfilmungen-was-hollywood-aus-buechern-macht",
+        "title": "Literaturverfilmungen - Was Hollywood aus Büchern macht",
+        "folder": "literaturverfilmungen-was-hollywood-aus-buechern-macht"
+      },
+      {
+        "id": "lesungen-wenn-autoren-aus-ihren-werken-vorlesen",
+        "title": "Lesungen - Wenn Autoren aus ihren Werken vorlesen",
+        "folder": "lesungen-wenn-autoren-aus-ihren-werken-vorlesen"
+      },
+      {
+        "id": "ki-als-autor-koennen-computer-gute-geschichten-schreiben",
+        "title": "KI als Autor - Können Computer gute Geschichten schreiben",
+        "folder": "ki-als-autor-koennen-computer-gute-geschichten-schreiben"
+      },
+      {
+        "id": "ki-uebersetzungen-geht-die-seele-der-literatur-verloren",
+        "title": "KI-Übersetzungen - Geht die Seele der Literatur verloren",
+        "folder": "ki-uebersetzungen-geht-die-seele-der-literatur-verloren"
+      },
+      {
+        "id": "nobelpreistraeger-fuer-literatur-muss-man-die-kennen",
+        "title": "Nobelpreisträger für Literatur - Muss man die kennen",
+        "folder": "nobelpreistraeger-fuer-literatur-muss-man-die-kennen"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Literaturgeschichte%20Buchkultur%20Klassiker%20Lesen&t=284"
   },
@@ -2532,6 +3021,47 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "demokratie-verstehen-durch-politische-romane",
         "title": "Demokratie verstehen durch politische Romane",
         "folder": "demokratie-verstehen-durch-politische-romane"
+      }
+    ,
+      {
+        "id": "feminismus-fuer-anfaenger-in-der-literatur",
+        "title": "Feminismus für Anfänger in der Literatur",
+        "folder": "feminismus-fuer-anfaenger-in-der-literatur"
+      },
+      {
+        "id": "flucht-und-migration-in-aktuellen-erzaehlungen",
+        "title": "Flucht und Migration in aktuellen Erzählungen",
+        "folder": "flucht-und-migration-in-aktuellen-erzaehlungen"
+      },
+      {
+        "id": "freiheit-gegen-sicherheit-ein-ewiger-buchkonflikt",
+        "title": "Freiheit gegen Sicherheit - Ein ewiger Buchkonflikt",
+        "folder": "freiheit-gegen-sicherheit-ein-ewiger-buchkonflikt"
+      },
+      {
+        "id": "kolonialismus-und-die-folgen-in-der-literatur",
+        "title": "Kolonialismus und die Folgen in der Literatur",
+        "folder": "kolonialismus-und-die-folgen-in-der-literatur"
+      },
+      {
+        "id": "krieg-aus-der-sicht-von-kindern-in-der-literatur",
+        "title": "Krieg aus der Sicht von Kindern in der Literatur",
+        "folder": "krieg-aus-der-sicht-von-kindern-in-der-literatur"
+      },
+      {
+        "id": "krieg-und-frieden-in-aktuellen-romanen",
+        "title": "Krieg und Frieden in aktuellen Romanen",
+        "folder": "krieg-und-frieden-in-aktuellen-romanen"
+      },
+      {
+        "id": "klimawandel-und-umweltschutz-in-romanen",
+        "title": "Klimawandel und Umweltschutz in Romanen",
+        "folder": "klimawandel-und-umweltschutz-in-romanen"
+      },
+      {
+        "id": "klimaschutz-in-romanen-die-angst-vor-der-katastrophe",
+        "title": "Klimaschutz in Romanen - Die Angst vor der Katastrophe",
+        "folder": "klimaschutz-in-romanen-die-angst-vor-der-katastrophe"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Gesellschaft%20Literatur%20Diversitaet%20Inklusion&t=284"
