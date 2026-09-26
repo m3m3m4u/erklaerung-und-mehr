@@ -80,16 +80,6 @@ export const englischTopics: Record<string, EnglischTopic> = {
         "id": "396",
         "title": "Revision: Forms of be (Simple present and simple past)",
         "folder": "revision-forms-of-be-simple-present-and-simple-past-396"
-      },
-      {
-        "id": "684",
-        "title": "Simple Present: Lückentext & Verbformen",
-        "folder": "studypoint-luckentext-simple-present-684"
-      },
-      {
-        "id": "694",
-        "title": "Simple Present: Single Choice Test",
-        "folder": "studypoint-single-choice-simple-present-694"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=English+Tenses+Grammar&t=468"
@@ -134,11 +124,6 @@ export const englischTopics: Record<string, EnglischTopic> = {
         "id": "413",
         "title": "Simple present oder present progressive?",
         "folder": "simple-present-oder-present-progressive-413"
-      },
-      {
-        "id": "722",
-        "title": "Present Simple vs. Progressive im Satzkontext",
-        "folder": "studypoint-simple-present-oder-present-progressive-722"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Mixed+Tenses+Englisch&t=468"
@@ -164,11 +149,6 @@ export const englischTopics: Record<string, EnglischTopic> = {
         "id": "371",
         "title": "A or an - der unbestimmte Artikel",
         "folder": "a-or-an-der-unbestimmte-artikel-2-371"
-      },
-      {
-        "id": "687",
-        "title": "A vs. An – Drag the Words Übung",
-        "folder": "studypoint-drag-the-words-der-unbestimmte-artikel-687"
       },
       {
         "id": "402",
@@ -263,21 +243,6 @@ export const englischTopics: Record<string, EnglischTopic> = {
         "id": "1039",
         "title": "What's the time? - die Uhrzeit",
         "folder": "what-039-s-the-time-die-uhrzeit-ohne-horubung-406"
-      },
-      {
-        "id": "721",
-        "title": "Numbers & Counting (Zahlen auf Englisch)",
-        "folder": "studypoint-numbers-721"
-      },
-      {
-        "id": "703",
-        "title": "Vocabulary Memory: Animals",
-        "folder": "studypoint-memory-game-animals-703"
-      },
-      {
-        "id": "370",
-        "title": "A or An – Der unbestimmte Artikel",
-        "folder": "a-or-an-der-unbestimmte-artikel-370"
       },
       {
         "id": "261",
