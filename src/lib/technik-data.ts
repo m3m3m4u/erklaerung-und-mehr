@@ -98,26 +98,6 @@ export const technikTopics: Record<string, TechnikTopic> = {
         id: "571",
         title: "Lerninhalt legierungs und begleitelemente 571",
         folder: "lerninhalt-legierungs-und-begleitelemente-571"
-      },
-      {
-        id: "574",
-        title: "Lerninhalt nachbehandlung von stahl 574",
-        folder: "lerninhalt-nachbehandlung-von-stahl-574"
-      },
-      {
-        id: "578",
-        title: "Lerninhalt roheisenherstellung 578",
-        folder: "lerninhalt-roheisenherstellung-578"
-      },
-      {
-        id: "576",
-        title: "Lerninhalt stahlherstellung 576",
-        folder: "lerninhalt-stahlherstellung-576"
-      },
-      {
-        id: "575",
-        title: "Lerninhalt vergieesen von stahl 575",
-        folder: "lerninhalt-vergieesen-von-stahl-575"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Metalle+Werkstoffkunde+Technik&t=1251"
@@ -150,6 +130,11 @@ export const technikTopics: Record<string, TechnikTopic> = {
         "id": "595",
         "title": "Lerninhalt: Kunststoffe",
         "folder": "lerninhalt-kunststoffe-595"
+      },
+      {
+        "id": "polymerisation",
+        "title": "Wie funktioniert die Polymerisation (Herstellung von Kunststoff)",
+        "folder": "wie-funktioniert-die-polymerisation-herstellung-von-kunststoff"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Kunststoffe+Technikunterricht&t=1251"
@@ -192,6 +177,36 @@ export const technikTopics: Record<string, TechnikTopic> = {
         "id": "2540",
         "title": "Wie funktioniert ein Metalldetektor",
         "folder": "wie-funktioniert-ein-metalldetektor-2540"
+      },
+      {
+        "id": "578",
+        "title": "Lerninhalt: Roheisenherstellung",
+        "folder": "lerninhalt-roheisenherstellung-578"
+      },
+      {
+        "id": "576",
+        "title": "Lerninhalt: Stahlherstellung",
+        "folder": "lerninhalt-stahlherstellung-576"
+      },
+      {
+        "id": "575",
+        "title": "Lerninhalt: Vergießen von Stahl",
+        "folder": "lerninhalt-vergieesen-von-stahl-575"
+      },
+      {
+        "id": "574",
+        "title": "Lerninhalt: Nachbehandlung von Stahl",
+        "folder": "lerninhalt-nachbehandlung-von-stahl-574"
+      },
+      {
+        "id": "2491",
+        "title": "Wie funktioniert ein Akkuschrauber",
+        "folder": "wie-funktioniert-ein-akkuschrauber-2491"
+      },
+      {
+        "id": "3244",
+        "title": "Wasserwaage",
+        "folder": "wasserwaage-3244"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Fertigungstechnik+Werkzeuge&t=1251"
@@ -303,6 +318,16 @@ export const technikTopics: Record<string, TechnikTopic> = {
         id: "583",
         title: "Lerninhalt pneumatik und hydraulik 583",
         folder: "lerninhalt-pneumatik-und-hydraulik-583"
+      },
+      {
+        id: "hydrauliksystem",
+        title: "Wie funktioniert ein Hydrauliksystem",
+        folder: "wie-funktioniert-ein-hydrauliksystem"
+      },
+      {
+        id: "luftpumpe",
+        title: "Wie funktioniert eine Luftpumpe",
+        folder: "wie-funktioniert-eine-luftpumpe"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Pneumatik+Hydraulik+Technik&t=1251"
@@ -887,6 +912,16 @@ export const technikTopics: Record<string, TechnikTopic> = {
         "id": "2578",
         "title": "Wie funktioniert ein Wasserspeicher",
         "folder": "wie-funktioniert-ein-wasserspeicher-2578"
+      },
+      {
+        "id": "elektroschrott",
+        "title": "Verbleib und Recycling von Elektroschrott",
+        "folder": "verbleib-und-recycling-von-elektroschrott"
+      },
+      {
+        "id": "muellverbrennung",
+        "title": "Wie funktioniert die Müllverbrennung und Energiegewinnung",
+        "folder": "wie-funktioniert-die-muellverbrennung-und-energiegewinnung"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Klaerwerk+Umwelttechnik&t=1251"
@@ -972,11 +1007,6 @@ export const technikTopics: Record<string, TechnikTopic> = {
     ],
     "exercises": [
       {
-        "id": "2491",
-        "title": "Wie funktioniert ein Akkuschrauber",
-        "folder": "wie-funktioniert-ein-akkuschrauber-2491"
-      },
-      {
         "id": "2504",
         "title": "Wie funktioniert ein Blitzableiter",
         "folder": "wie-funktioniert-ein-blitzableiter-2504"
@@ -1000,11 +1030,6 @@ export const technikTopics: Record<string, TechnikTopic> = {
         id: "2498",
         title: "Wie funktioniert ein beamer",
         folder: "wie-funktioniert-ein-beamer-2498"
-      },
-      {
-        id: "2509",
-        title: "Wie funktioniert ein diaprojektor",
-        folder: "wie-funktioniert-ein-diaprojektor-2509"
       },
       {
         id: "2537",
@@ -1032,16 +1057,6 @@ export const technikTopics: Record<string, TechnikTopic> = {
         folder: "wie-funktioniert-ein-wecker-2579"
       },
       {
-        id: "3244",
-        title: "Wasserwaage",
-        folder: "wasserwaage-3244"
-      },
-      {
-        id: "5303",
-        title: "Lautsprecher und mikrophon",
-        folder: "lautsprecher-und-mikrophon-5303"
-      },
-      {
         id: "2513",
         title: "Wie funktioniert ein dvd player",
         folder: "wie-funktioniert-ein-dvd-player-2513"
@@ -1055,11 +1070,6 @@ export const technikTopics: Record<string, TechnikTopic> = {
         id: "2563",
         title: "Wie funktioniert ein taschenlampe",
         folder: "wie-funktioniert-ein-taschenlampe-2563"
-      },
-      {
-        id: "2576",
-        title: "Wie funktioniert ein walkman",
-        folder: "wie-funktioniert-ein-walkman-2576"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Werkzeuge+Technikunterricht&t=1251"
@@ -1132,6 +1142,11 @@ export const technikTopics: Record<string, TechnikTopic> = {
         id: "2575",
         title: "Wie funktioniert ein wah wah",
         folder: "wie-funktioniert-ein-wah-wah-2575"
+      },
+      {
+        id: "2576",
+        title: "Wie funktioniert ein walkman",
+        folder: "wie-funktioniert-ein-walkman-2576"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Tontechnik+Musikproduktion&t=1251"
