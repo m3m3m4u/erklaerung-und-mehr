@@ -152,11 +152,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "die-pradynastische-und-fruhdynastische-periode-in-gypten-5221"
       },
       {
-        "id": "5228",
-        "title": "Die Erste Zwischenzeit in Ägypten",
-        "folder": "die-erste-zwischenzeit-in-gypten-5228"
-      },
-      {
         "id": "5231",
         "title": "Die Amarna-Zeit und die religiöse Revolution unter Echnaton in Ägypten",
         "folder": "die-amarna-zeit-und-die-religiose-revolution-unter-echnaton-in-gypten-5231"
@@ -180,11 +175,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "5329",
         "title": "Das alte Ägypten",
         "folder": "das-alte-gypten-5329"
-      },
-      {
-        "id": "2907",
-        "title": "Das Perserreich",
-        "folder": "das-perserreich-2907"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Das%20alte%20%C3%84gypten%20%26%20Fr%C3%BChe%20Hochkulturen+geschichte&t=3752"
@@ -207,6 +197,11 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "881",
         "title": "Alexander der Große",
         "folder": "alexander-der-groese-881"
+      },
+      {
+        "id": "2907",
+        "title": "Das Perserreich",
+        "folder": "das-perserreich-2907"
       },
       {
         "id": "5222",
