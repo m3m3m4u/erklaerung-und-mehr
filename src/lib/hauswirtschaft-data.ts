@@ -66,6 +66,11 @@ export const hauswirtschaftTopics: Record<string, HauswirtschaftTopic> = {
         "id": "vergleich-von-algorithmen-mit-kochrezepten",
         "title": "Kochrezepte als Schritt-für-Schritt-Anleitungen",
         "folder": "vergleich-von-algorithmen-mit-kochrezepten"
+      },
+      {
+        "id": "2673",
+        "title": "Planung und Organisation von Mahlzeiten",
+        "folder": "planung-und-organisation-von-mahlzeiten-2673"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=kochen+hauswirtschaft&t=3752"
@@ -156,6 +161,11 @@ export const hauswirtschaftTopics: Record<string, HauswirtschaftTopic> = {
         "id": "die-unsichtbaren-lenker-wie-algorithmen-unsere-entscheidungen-beim-einkaufen-lenken",
         "title": "Einkaufsentscheidungen und Konsumpsychologie",
         "folder": "die-unsichtbaren-lenker-wie-algorithmen-unsere-entscheidungen-beim-einkaufen-lenken"
+      },
+      {
+        "id": "2674",
+        "title": "Raumgestaltung und Inneneinrichtung im Haushalt",
+        "folder": "raumgestaltung-und-inneneinrichtung-2674"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=haushaltsbuch+finanzen&t=3752"
@@ -204,6 +214,11 @@ export const hauswirtschaftTopics: Record<string, HauswirtschaftTopic> = {
         "id": "gratis-hygieneartikel-als-standard-die-ueberfaellige-debatte-zur-gleichberechtigung",
         "title": "Hygiene im Alltag",
         "folder": "gratis-hygieneartikel-als-standard-die-ueberfaellige-debatte-zur-gleichberechtigung"
+      },
+      {
+        "id": "2664",
+        "title": "Handarbeitstechniken – Nähen, Stricken, Häkeln",
+        "folder": "handarbeitstechniken-nahen-stricken-hakeln-2664"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=waeschepflege+reinigung+nachhaltigkeit&t=3752"
