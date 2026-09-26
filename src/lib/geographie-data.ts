@@ -41,7 +41,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "exercises": [
       {
         "id": "414",
-        "title": "Bundesländer und Wichtige Städte Österreichs",
+        "title": "Bundesländer und wichtige Städte Österreichs",
         "folder": "bundeslander-und-wichtige-stadte-sterreichs-414"
       },
       {
@@ -86,7 +86,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "496",
-        "title": "Klima und wetter sterreichs",
+        "title": "Klima und Wetter Österreichs",
         "folder": "klima-und-wetter-sterreichs-496"
       }
     ],
@@ -106,7 +106,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "exercises": [
       {
         "id": "489",
-        "title": "Alpen und Karpatenvorland",
+        "title": "Alpen- und Karpatenvorland",
         "folder": "alpen-und-karpatenvorland-489"
       },
       {
@@ -116,7 +116,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "491",
-        "title": "Granit und Gneishochland",
+        "title": "Granit- und Gneishochland",
         "folder": "granit-und-gneishochland-491"
       },
       {
@@ -176,27 +176,27 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "5627",
-        "title": "Der bregenzerwald",
+        "title": "Der Bregenzerwald",
         "folder": "der-bregenzerwald-5627"
       },
       {
         "id": "5593",
-        "title": "Das innviertel",
+        "title": "Das Innviertel",
         "folder": "das-innviertel-5593"
       },
       {
         "id": "5642",
-        "title": "Der nationalpark kalkalpen",
+        "title": "Der Nationalpark Kalkalpen",
         "folder": "der-nationalpark-kalkalpen-5642"
       },
       {
         "id": "5660",
-        "title": "Die donau auen",
+        "title": "Die Donau-Auen",
         "folder": "die-donau-auen-5660"
       },
       {
         "id": "5717",
-        "title": "Nationalpark seewinkel",
+        "title": "Nationalpark Seewinkel",
         "folder": "nationalpark-seewinkel-5717"
       },
       {
@@ -226,12 +226,12 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "exercises": [
       {
         "id": "5727",
-        "title": "Wien innere stadt der 1 bezirk",
+        "title": "Wien innere Stadt - der 1. Bezirk",
         "folder": "wien-innere-stadt-der-1-bezirk-5727"
       },
       {
         "id": "5673",
-        "title": "Die geschichte wiens",
+        "title": "Die Geschichte Wiens",
         "folder": "die-geschichte-wiens-5673"
       },
       {
@@ -241,7 +241,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "5697",
-        "title": "Die wiener kaffeehauskultur",
+        "title": "Die Wiener Kaffeehauskultur",
         "folder": "die-wiener-kaffeehauskultur-5697"
       },
       {
@@ -251,22 +251,22 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "5650",
-        "title": "Der wiener musikverein",
+        "title": "Der Wiener Musikverein",
         "folder": "der-wiener-musikverein-5650"
       },
       {
         "id": "5651",
-        "title": "Der wiener naschmarkt",
+        "title": "Der Wiener Naschmarkt",
         "folder": "der-wiener-naschmarkt-5651"
       },
       {
         "id": "5652",
-        "title": "Der wiener zentralfriedhof",
+        "title": "Der Wiener Zentralfriedhof",
         "folder": "der-wiener-zentralfriedhof-5652"
       },
       {
         "id": "5695",
-        "title": "Die uno city wien",
+        "title": "Die UNO-City Wien",
         "folder": "die-uno-city-wien-5695"
       }
     ],
@@ -286,37 +286,37 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "exercises": [
       {
         "id": "5661",
-        "title": "Die donauinsel",
+        "title": "Die Donauinsel",
         "folder": "die-donauinsel-5661"
       },
       {
         "id": "5629",
-        "title": "Der donauturm",
+        "title": "Der Donauturm",
         "folder": "der-donauturm-5629"
       },
       {
         "id": "5628",
-        "title": "Der donaukanal",
+        "title": "Der Donaukanal",
         "folder": "der-donaukanal-5628"
       },
       {
         "id": "5654",
-        "title": "Der wien fluss",
+        "title": "Der Wien-Fluss",
         "folder": "der-wien-fluss-5654"
       },
       {
         "id": "5653",
-        "title": "Der wienerwald",
+        "title": "Der Wienerwald",
         "folder": "der-wienerwald-5653"
       },
       {
         "id": "5699",
-        "title": "Die wiener linien",
+        "title": "Die Wiener Linien",
         "folder": "die-wiener-linien-5699"
       },
       {
         "id": "5631",
-        "title": "Der flughafen wien schwechat",
+        "title": "Der Flughafen Wien-Schwechat",
         "folder": "der-flughafen-wien-schwechat-5631"
       },
       {
@@ -351,17 +351,17 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "5720",
-        "title": "Salzburg stadt",
+        "title": "Salzburg (Stadt)",
         "folder": "salzburg-stadt-5720"
       },
       {
         "id": "5671",
-        "title": "Die geschichte salzburgs",
+        "title": "Die Geschichte Salzburgs",
         "folder": "die-geschichte-salzburgs-5671"
       },
       {
         "id": "5665",
-        "title": "Die festung hohensalzburg",
+        "title": "Die Festung Hohensalzburg",
         "folder": "die-festung-hohensalzburg-5665"
       },
       {
@@ -396,7 +396,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "5632",
-        "title": "Der grazer uhrturm",
+        "title": "Der Grazer Uhrturm",
         "folder": "der-grazer-uhrturm-5632"
       },
       {
@@ -406,7 +406,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "5721",
-        "title": "Salzburg und ihre salzbergwerke",
+        "title": "Salzburg und ihre Salzbergwerke",
         "folder": "salzburg-und-ihre-salzbergwerke-5721"
       }
     ],
@@ -446,7 +446,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "5728",
-        "title": "Wiener neustadt",
+        "title": "Wiener Neustadt",
         "folder": "wiener-neustadt-2-5728"
       }
     ],
@@ -466,7 +466,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "exercises": [
       {
         "id": "5734",
-        "title": "Wiener neustadt",
+        "title": "Wiener Neustadt",
         "folder": "wiener-neustadt-8-5734"
       }
     ],
@@ -487,17 +487,17 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "exercises": [
       {
         "id": "5581",
-        "title": "Baden bei wien",
+        "title": "Baden bei Wien",
         "folder": "baden-bei-wien-2-5581"
       },
       {
         "id": "5710",
-        "title": "Krems an der donau",
+        "title": "Krems an der Donau",
         "folder": "krems-an-der-donau-5710"
       },
       {
         "id": "1578",
-        "title": "Braunau am inn",
+        "title": "Braunau am Inn",
         "folder": "braunau-am-inn-1578"
       },
       {
@@ -537,12 +537,12 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "5594",
-        "title": "Das kaisergebirge",
+        "title": "Das Kaisergebirge",
         "folder": "das-kaisergebirge-5594"
       },
       {
         "id": "5616",
-        "title": "Das silvretta gebirge",
+        "title": "Das Silvretta-Gebirge",
         "folder": "das-silvretta-gebirge-5616"
       },
       {
@@ -552,12 +552,12 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "5617",
-        "title": "Das stubaital und die stubaier alpen",
+        "title": "Das Stubaital und die Stubaier Alpen",
         "folder": "das-stubaital-und-die-stubaier-alpen-5617"
       },
       {
         "id": "5623",
-        "title": "Das zilleretal und die zillertaler alpen",
+        "title": "Das Zilleretal und die Zillertaler Alpen",
         "folder": "das-zilleretal-und-die-zillertaler-alpen-5623"
       }
     ],
@@ -577,32 +577,32 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "exercises": [
       {
         "id": "5620",
-        "title": "Das vorarlberger rheintal",
+        "title": "Das Vorarlberger Rheintal",
         "folder": "das-vorarlberger-rheintal-5620"
       },
       {
         "id": "5592",
-        "title": "Das inntal",
+        "title": "Das Inntal",
         "folder": "das-inntal-5592"
       },
       {
         "id": "5598",
-        "title": "Das lechtal und die lechtaler alpen",
+        "title": "Das Lechtal und die Lechtaler Alpen",
         "folder": "das-lechtal-und-die-lechtaler-alpen-5598"
       },
       {
         "id": "5664",
-        "title": "Die ennstaler alpen",
+        "title": "Die Ennstaler Alpen",
         "folder": "die-ennstaler-alpen-5664"
       },
       {
         "id": "5674",
-        "title": "Die gurktaler alpen",
+        "title": "Die Gurktaler Alpen",
         "folder": "die-gurktaler-alpen-5674"
       },
       {
         "id": "5679",
-        "title": "Die karnischen alpen",
+        "title": "Die Karnischen Alpen",
         "folder": "die-karnischen-alpen-5679"
       },
       {
@@ -633,17 +633,17 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "5658",
-        "title": "Die bregenzer ach",
+        "title": "Die Bregenzer Ach",
         "folder": "die-bregenzer-ach-5658"
       },
       {
         "id": "5624",
-        "title": "Der achensee",
+        "title": "Der Achensee",
         "folder": "der-achensee-5624"
       },
       {
         "id": "5626",
-        "title": "Der attersee",
+        "title": "Der Attersee",
         "folder": "der-attersee-5626"
       },
       {
@@ -658,17 +658,17 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "5643",
-        "title": "Der neusiedler see",
+        "title": "Der Neusiedler See",
         "folder": "der-neusiedler-see-5643"
       },
       {
         "id": "5648",
-        "title": "Der traunsee",
+        "title": "Der Traunsee",
         "folder": "der-traunsee-5648"
       },
       {
         "id": "5655",
-        "title": "Der wolfgangsee",
+        "title": "Der Wolfgangsee",
         "folder": "der-wolfgangsee-5655"
       },
       {
@@ -678,17 +678,17 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "5659",
-        "title": "Die donau in sterreich",
+        "title": "Die Donau in Österreich",
         "folder": "die-donau-in-sterreich-5659"
       },
       {
         "id": "5685",
-        "title": "Die mur",
+        "title": "Die Mur",
         "folder": "die-mur-5685"
       },
       {
         "id": "5636",
-        "title": "Der inn",
+        "title": "Der Inn",
         "folder": "der-inn-5636"
       }
     ],
@@ -709,7 +709,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "exercises": [
       {
         "id": "310",
-        "title": "Geographie Deutschlands Gebirge Seen Flüsse Inseln und Halbinseln",
+        "title": "Geographie Deutschlands - Gebirge, Seen, Flüsse, Inseln und Halbinseln",
         "folder": "geographie-deutschlands-gebirge-seen-flusse-inseln-und-halbinseln-310"
       },
       {
@@ -800,12 +800,12 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "exercises": [
       {
         "id": "1024",
-        "title": "Rheinland pfalz",
+        "title": "Rheinland-Pfalz",
         "folder": "rheinland-pfalz-2-1024"
       },
       {
         "id": "1046",
-        "title": "Nordrhein westfalen",
+        "title": "Nordrhein-Westfalen",
         "folder": "nordrhein-westfalen-2-1046"
       },
       {
@@ -885,32 +885,32 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "exercises": [
       {
         "id": "frankfurt-moderne",
-        "title": "Frankfurt am Main",
+        "title": "Frankfurt am Main - Eine Stadt mit Geschichte und Moderne",
         "folder": "frankfurt-am-main-eine-stadt-mit-geschichte-und-moderne"
       },
       {
         "id": "stuttgart-landeshauptstadt",
-        "title": "Stuttgart",
+        "title": "Stuttgart - Die Landeshauptstadt Baden-Württemberg",
         "folder": "stuttgart-die-landeshauptstadt-baden-wuerttemberg"
       },
       {
         "id": "leipzig-kultur",
-        "title": "Leipzig",
+        "title": "Leipzig - Eine Stadt mit Geschichte und Kultur",
         "folder": "leipzig-eine-stadt-mit-geschichte-und-kultur"
       },
       {
         "id": "dresden-kultur",
-        "title": "Dresden",
+        "title": "Dresden - Eine Stadt mit Geschichte und Kultur",
         "folder": "dresden-eine-stadt-mit-geschichte-und-kultur"
       },
       {
         "id": "hannover-hauptstadt",
-        "title": "Hannover",
+        "title": "Hannover - Die Hauptstadt Niedersachsens",
         "folder": "hannover-die-hauptstadt-niedersachsens"
       },
       {
         "id": "nuernberg-kultur",
-        "title": "Nürnberg",
+        "title": "Nürnberg - Eine Stadt mit Geschichte und Kultur",
         "folder": "nuernberg-eine-stadt-mit-geschichte-und-kultur"
       }
     ],
@@ -961,7 +961,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "1479",
-        "title": "Ludwigshafen am rhein",
+        "title": "Ludwigshafen am Rhein",
         "folder": "ludwigshafen-am-rhein-1479"
       },
       {
@@ -971,7 +971,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "1800",
-        "title": "Neustadt an der weinstraese",
+        "title": "Neustadt an der Weinstraße",
         "folder": "neustadt-an-der-weinstraese-1800"
       },
       {
@@ -1017,12 +1017,12 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "1560",
-        "title": "Basel landschaft",
+        "title": "Basel-Landschaft",
         "folder": "basel-landschaft-1560"
       },
       {
         "id": "1561",
-        "title": "Basel stadt",
+        "title": "Basel-Stadt",
         "folder": "basel-stadt-1561"
       },
       {
@@ -1032,17 +1032,17 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "6304",
-        "title": "Der kanton aargau",
+        "title": "Der Kanton Aargau",
         "folder": "der-kanton-aargau-6304"
       },
       {
         "id": "6306",
-        "title": "Der kanton basel landschaft",
+        "title": "Der Kanton Basel-Landschaft",
         "folder": "der-kanton-basel-landschaft-6306"
       },
       {
         "id": "6319",
-        "title": "Der kanton solothurn",
+        "title": "Der Kanton Solothurn",
         "folder": "der-kanton-solothurn-6319"
       },
       {
@@ -1088,27 +1088,27 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "6308",
-        "title": "Der kanton freiburg",
+        "title": "Der Kanton Freiburg",
         "folder": "der-kanton-freiburg-6308"
       },
       {
         "id": "6312",
-        "title": "Der kanton jura",
+        "title": "Der Kanton Jura",
         "folder": "der-kanton-jura-6312"
       },
       {
         "id": "6314",
-        "title": "Der kanton neuenburg",
+        "title": "Der Kanton Neuenburg",
         "folder": "der-kanton-neuenburg-6314"
       },
       {
         "id": "6324",
-        "title": "Der kanton waadt",
+        "title": "Der Kanton Waadt",
         "folder": "der-kanton-waadt-6324"
       },
       {
         "id": "6353",
-        "title": "Die kantone der schweiz",
+        "title": "Die Kantone der Schweiz",
         "folder": "die-kantone-der-schweiz-6353"
       }
     ],
@@ -1133,32 +1133,32 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "6313",
-        "title": "Der kanton luzern",
+        "title": "Der Kanton Luzern",
         "folder": "der-kanton-luzern-6313"
       },
       {
         "id": "6315",
-        "title": "Der kanton nidwalden",
+        "title": "Der Kanton Nidwalden",
         "folder": "der-kanton-nidwalden-6315"
       },
       {
         "id": "6316",
-        "title": "Der kanton obwalden",
+        "title": "Der Kanton Obwalden",
         "folder": "der-kanton-obwalden-6316"
       },
       {
         "id": "6318",
-        "title": "Der kanton schwyz",
+        "title": "Der Kanton Schwyz",
         "folder": "der-kanton-schwyz-6318"
       },
       {
         "id": "6323",
-        "title": "Der kanton uri",
+        "title": "Der Kanton Uri",
         "folder": "der-kanton-uri-6323"
       },
       {
         "id": "6326",
-        "title": "Der kanton zug",
+        "title": "Der Kanton Zug",
         "folder": "der-kanton-zug-6326"
       }
     ],
@@ -1178,37 +1178,37 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "exercises": [
       {
         "id": "6305",
-        "title": "Der kanton appenzell ausserrhoden",
+        "title": "Der Kanton Appenzell Ausserrhoden",
         "folder": "der-kanton-appenzell-ausserrhoden-6305"
       },
       {
         "id": "6408",
-        "title": "Der kanton appenzell innerrhoden",
+        "title": "Der Kanton Appenzell Innerrhoden",
         "folder": "der-kanton-appenzell-innerrhoden-6408"
       },
       {
         "id": "1964",
-        "title": "Appenzell innerrhoden",
+        "title": "Appenzell Innerrhoden",
         "folder": "appenzell-innerrhoden-1964"
       },
       {
         "id": "6310",
-        "title": "Der kanton glarus",
+        "title": "Der Kanton Glarus",
         "folder": "der-kanton-glarus-6310"
       },
       {
         "id": "6317",
-        "title": "Der kanton schaffhausen",
+        "title": "Der Kanton Schaffhausen",
         "folder": "der-kanton-schaffhausen-6317"
       },
       {
         "id": "6320",
-        "title": "Der kanton st gallen",
+        "title": "Der Kanton St. Gallen",
         "folder": "der-kanton-st-gallen-6320"
       },
       {
         "id": "6322",
-        "title": "Der kanton thurgau",
+        "title": "Der Kanton Thurgau",
         "folder": "der-kanton-thurgau-6322"
       }
     ],
@@ -1244,52 +1244,52 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "6283",
-        "title": "Aussenpolitik der schweiz",
+        "title": "Aussenpolitik der Schweiz",
         "folder": "aussenpolitik-der-schweiz-6283"
       },
       {
         "id": "6298",
-        "title": "Demokratie in der schweiz",
+        "title": "Demokratie in der Schweiz",
         "folder": "demokratie-in-der-schweiz-6298"
       },
       {
         "id": "6343",
-        "title": "Die bundesversammlung der schweiz",
+        "title": "Die Bundesversammlung der Schweiz",
         "folder": "die-bundesversammlung-der-schweiz-6343"
       },
       {
         "id": "6350",
-        "title": "Die hauptstadtfrage der schweiz",
+        "title": "Die Hauptstadtfrage der Schweiz",
         "folder": "die-hauptstadtfrage-der-schweiz-6350"
       },
       {
         "id": "6354",
-        "title": "Die mediationszeit in der schweiz",
+        "title": "Die Mediationszeit in der Schweiz",
         "folder": "die-mediationszeit-in-der-schweiz-6354"
       },
       {
         "id": "6356",
-        "title": "Die neutralitat der schweiz",
+        "title": "Die Neutralität der Schweiz",
         "folder": "die-neutralitat-der-schweiz-6356"
       },
       {
         "id": "6363",
-        "title": "Die schweizer armee",
+        "title": "Die Schweizer Armee",
         "folder": "die-schweizer-armee-6363"
       },
       {
         "id": "6383",
-        "title": "Liechtenstein und die schweiz eine enge nachbarschaft",
+        "title": "Liechtenstein und die Schweiz - Eine enge Nachbarschaft",
         "folder": "liechtenstein-und-die-schweiz-eine-enge-nachbarschaft-6383"
       },
       {
         "id": "6400",
-        "title": "Schweizer nachrichtendienste",
+        "title": "Schweizer Nachrichtendienste",
         "folder": "schweizer-nachrichtendienste-6400"
       },
       {
         "id": "6620",
-        "title": "Die schweizer bundesfeier",
+        "title": "Die Schweizer Bundesfeier",
         "folder": "die-schweizer-bundesfeier-6620"
       }
     ],
@@ -1329,7 +1329,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "6333",
-        "title": "Der schweizer film",
+        "title": "Der Schweizer Film",
         "folder": "der-schweizer-film-6333"
       },
       {
@@ -1339,7 +1339,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "6371",
-        "title": "Eidgenossische feste in der schweiz",
+        "title": "Eidgenössische Feste in der Schweiz",
         "folder": "eidgenossische-feste-in-der-schweiz-6371"
       }
     ],
@@ -1364,42 +1364,42 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "6289",
-        "title": "Das gesundheitswesen in der schweiz",
+        "title": "Das Gesundheitswesen in der Schweiz",
         "folder": "das-gesundheitswesen-in-der-schweiz-6289"
       },
       {
         "id": "6297",
-        "title": "Demografie der schweiz",
+        "title": "Demografie der Schweiz",
         "folder": "demografie-der-schweiz-6297"
       },
       {
         "id": "6386",
-        "title": "Medien in der schweiz",
+        "title": "Medien in der Schweiz",
         "folder": "medien-in-der-schweiz-6386"
       },
       {
         "id": "6394",
-        "title": "Sozialpolitik in der schweiz",
+        "title": "Sozialpolitik in der Schweiz",
         "folder": "sozialpolitik-in-der-schweiz-6394"
       },
       {
         "id": "6402",
-        "title": "Sport in der schweiz",
+        "title": "Sport in der Schweiz",
         "folder": "sport-in-der-schweiz-6402"
       },
       {
         "id": "6372",
-        "title": "Flora und fauna der schweiz",
+        "title": "Flora und Fauna der Schweiz",
         "folder": "flora-und-fauna-der-schweiz-6372"
       },
       {
         "id": "6377",
-        "title": "Geschichte der landwirtschaft in der schweiz",
+        "title": "Geschichte der Landwirtschaft in der Schweiz",
         "folder": "geschichte-der-landwirtschaft-in-der-schweiz-6377"
       },
       {
         "id": "6380",
-        "title": "Klima der schweiz",
+        "title": "Klima der Schweiz",
         "folder": "klima-der-schweiz-6380"
       }
     ],
@@ -1425,37 +1425,37 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "6334",
-        "title": "Der schweizer franken",
+        "title": "Der Schweizer Franken",
         "folder": "der-schweizer-franken-6334"
       },
       {
         "id": "6346",
-        "title": "Die elektrizitatswirtschaft in der schweiz",
+        "title": "Die Elektrizitätswirtschaft in der Schweiz",
         "folder": "die-elektrizitatswirtschaft-in-der-schweiz-6346"
       },
       {
         "id": "6365",
-        "title": "Die schweizerischen bundesbahnen sbb",
+        "title": "Die Schweizerischen Bundesbahnen (SBB)",
         "folder": "die-schweizerischen-bundesbahnen-sbb-6365"
       },
       {
         "id": "6379",
-        "title": "Kernenergie in der schweiz",
+        "title": "Kernenergie in der Schweiz",
         "folder": "kernenergie-in-der-schweiz-6379"
       },
       {
         "id": "6388",
-        "title": "Naturraumliche gliederung der schweiz",
+        "title": "Naturräumliche Gliederung der Schweiz",
         "folder": "naturraumliche-gliederung-der-schweiz-6388"
       },
       {
         "id": "6397",
-        "title": "Unesco welterbe in der schweiz",
+        "title": "UNESCO-Welterbe in der Schweiz",
         "folder": "unesco-welterbe-in-der-schweiz-6397"
       },
       {
         "id": "6404",
-        "title": "Tourismus in der schweiz",
+        "title": "Tourismus in der Schweiz",
         "folder": "tourismus-in-der-schweiz-6404"
       }
     ],
@@ -1495,22 +1495,22 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "6405",
-        "title": "Winterthur eine stadt in der schweiz",
+        "title": "Winterthur - Eine Stadt in der Schweiz",
         "folder": "winterthur-eine-stadt-in-der-schweiz-6405"
       },
       {
         "id": "6403",
-        "title": "St gallen eine stadt mit geschichte und kultur",
+        "title": "St. Gallen – Eine Stadt mit Geschichte und Kultur",
         "folder": "st-gallen-eine-stadt-mit-geschichte-und-kultur-6403"
       },
       {
         "id": "6399",
-        "title": "Schaffhausen eine stadt mit geschichte und kultur",
+        "title": "Schaffhausen - Eine Stadt mit Geschichte und Kultur",
         "folder": "schaffhausen-eine-stadt-mit-geschichte-und-kultur-6399"
       },
       {
         "id": "6368",
-        "title": "Die stadt zug",
+        "title": "Die Stadt Zug",
         "folder": "die-stadt-zug-6368"
       }
     ],
@@ -1530,42 +1530,42 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "exercises": [
       {
         "id": "6282",
-        "title": "Aarau eine stadt mit geschichte und kultur",
+        "title": "Aarau – Eine Stadt mit Geschichte und Kultur",
         "folder": "aarau-eine-stadt-mit-geschichte-und-kultur-6282"
       },
       {
         "id": "6287",
-        "title": "Chur die alteste stadt der schweiz",
+        "title": "Chur – Die älteste Stadt der Schweiz",
         "folder": "chur-die-alteste-stadt-der-schweiz-6287"
       },
       {
         "id": "6373",
-        "title": "Frauenfeld eine stadt mit geschichte",
+        "title": "Frauenfeld - Eine Stadt mit Geschichte",
         "folder": "frauenfeld-eine-stadt-mit-geschichte-6373"
       },
       {
         "id": "6378",
-        "title": "Herisau eine gemeinde in der schweiz",
+        "title": "Herisau – Eine Gemeinde in der Schweiz",
         "folder": "herisau-eine-gemeinde-in-der-schweiz-6378"
       },
       {
         "id": "6381",
-        "title": "Koniz eine gemeinde in der schweiz",
+        "title": "Köniz - Eine Gemeinde in der Schweiz",
         "folder": "koniz-eine-gemeinde-in-der-schweiz-6381"
       },
       {
         "id": "6396",
-        "title": "Thun eine stadt mit geschichte und kultur",
+        "title": "Thun – Eine Stadt mit Geschichte und Kultur",
         "folder": "thun-eine-stadt-mit-geschichte-und-kultur-6396"
       },
       {
         "id": "6401",
-        "title": "Solothurn eine stadt mit geschichte und kultur",
+        "title": "Solothurn - Eine Stadt mit Geschichte und Kultur",
         "folder": "solothurn-eine-stadt-mit-geschichte-und-kultur-6401"
       },
       {
         "id": "6296",
-        "title": "Davos eine stadt in den alpen",
+        "title": "Davos – Eine Stadt in den Alpen",
         "folder": "davos-eine-stadt-in-den-alpen-6296"
       }
     ],
@@ -1611,32 +1611,32 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "6285",
-        "title": "Bellinzona eine stadt im tessin",
+        "title": "Bellinzona - Eine Stadt im Tessin",
         "folder": "bellinzona-eine-stadt-im-tessin-6285"
       },
       {
         "id": "6344",
-        "title": "Die deutschschweiz",
+        "title": "Die Deutschschweiz",
         "folder": "die-deutschschweiz-6344"
       },
       {
         "id": "6352",
-        "title": "Die italienische schweiz",
+        "title": "Die italienische Schweiz",
         "folder": "die-italienische-schweiz-6352"
       },
       {
         "id": "6359",
-        "title": "Die romandie franzosischsprachige schweiz",
+        "title": "Die Romandie – Französischsprachige Schweiz",
         "folder": "die-romandie-franzosischsprachige-schweiz-6359"
       },
       {
         "id": "6389",
-        "title": "Neuenburg eine stadt in der schweiz",
+        "title": "Neuenburg – Eine Stadt in der Schweiz",
         "folder": "neuenburg-eine-stadt-in-der-schweiz-6389"
       },
       {
         "id": "6382",
-        "title": "La chaux de fonds eine stadt der uhren",
+        "title": "La Chaux-de-Fonds - Eine Stadt der Uhren",
         "folder": "la-chaux-de-fonds-eine-stadt-der-uhren-6382"
       }
     ],
@@ -1681,17 +1681,17 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "6329",
-        "title": "Der liskamm ein berg in den alpen",
+        "title": "Der Liskamm – Ein Berg in den Alpen",
         "folder": "der-liskamm-ein-berg-in-den-alpen-6329"
       },
       {
         "id": "6370",
-        "title": "Die walliser alpen",
+        "title": "Die Walliser Alpen",
         "folder": "die-walliser-alpen-6370"
       },
       {
         "id": "6376",
-        "title": "Geologie und gebirge der schweiz",
+        "title": "Geologie und Gebirge der Schweiz",
         "folder": "geologie-und-gebirge-der-schweiz-6376"
       }
     ],
@@ -1721,27 +1721,27 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "6348",
-        "title": "Die freiburger voralpen",
+        "title": "Die Freiburger Voralpen",
         "folder": "die-freiburger-voralpen-6348"
       },
       {
         "id": "6332",
-        "title": "Der randen ein hohenzug in der schweiz",
+        "title": "Der Randen – Ein Höhenzug in der Schweiz",
         "folder": "der-randen-ein-hohenzug-in-der-schweiz-6332"
       },
       {
         "id": "6294",
-        "title": "Das taminagebirge",
+        "title": "Das Taminagebirge",
         "folder": "das-taminagebirge-6294"
       },
       {
         "id": "6347",
-        "title": "Die emmentaler alpen",
+        "title": "Die Emmentaler Alpen",
         "folder": "die-emmentaler-alpen-6347"
       },
       {
         "id": "6366",
-        "title": "Die schwyzer alpen",
+        "title": "Die Schwyzer Alpen",
         "folder": "die-schwyzer-alpen-6366"
       }
     ],
@@ -1791,12 +1791,12 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "6299",
-        "title": "Der bielersee",
+        "title": "Der Bielersee",
         "folder": "der-bielersee-6299"
       },
       {
         "id": "6300",
-        "title": "Der brienzersee",
+        "title": "Der Brienzersee",
         "folder": "der-brienzersee-6300"
       }
     ],
@@ -1826,32 +1826,32 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "6341",
-        "title": "Die aare der langste fluss der schweiz",
+        "title": "Die Aare - Der längste Fluss der Schweiz",
         "folder": "die-aare-der-langste-fluss-der-schweiz-6341"
       },
       {
         "id": "6357",
-        "title": "Die reuss ein fluss in der schweiz",
+        "title": "Die Reuss – Ein Fluss in der Schweiz",
         "folder": "die-reuss-ein-fluss-in-der-schweiz-6357"
       },
       {
         "id": "6360",
-        "title": "Die saane ein fluss in der schweiz",
+        "title": "Die Saane – Ein Fluss in der Schweiz",
         "folder": "die-saane-ein-fluss-in-der-schweiz-6360"
       },
       {
         "id": "6338",
-        "title": "Der walensee",
+        "title": "Der Walensee",
         "folder": "der-walensee-6338"
       },
       {
         "id": "6331",
-        "title": "Der neuenburgersee",
+        "title": "Der Neuenburgersee",
         "folder": "der-neuenburgersee-6331"
       },
       {
         "id": "6339",
-        "title": "Der zugersee ein see in der schweiz",
+        "title": "Der Zugersee – Ein See in der Schweiz",
         "folder": "der-zugersee-ein-see-in-der-schweiz-6339"
       }
     ],
@@ -1902,7 +1902,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "5475",
-        "title": "Die typische europaische stadt",
+        "title": "Die typische europäische Stadt",
         "folder": "die-typische-europaische-stadt-2-5475"
       },
       {
@@ -1912,7 +1912,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "5557",
-        "title": "Stadtestrukturen in europa wachstum wandel und herausforderungen",
+        "title": "Städtestrukturen in Europa - Wachstum, Wandel und Herausforderungen",
         "folder": "stadtestrukturen-in-europa-wachstum-wandel-und-herausforderungen-5557"
       },
       {
@@ -1922,7 +1922,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "5464",
-        "title": "Die klimatische vielfalt europas von mittelmeerhitze bis polarkalte",
+        "title": "Die klimatische Vielfalt Europas - Von Mittelmeerhitze bis Polarkälte",
         "folder": "die-klimatische-vielfalt-europas-von-mittelmeerhitze-bis-polarkalte-5464"
       }
     ],
@@ -1958,12 +1958,12 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "195",
-        "title": "Gebirge europas",
+        "title": "Gebirge Europas",
         "folder": "gebirge-europas-195"
       },
       {
         "id": "196",
-        "title": "Meere europas",
+        "title": "Meere Europas",
         "folder": "meere-europas-196"
       },
       {
@@ -1973,12 +1973,12 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "5450",
-        "title": "Die alpen als pragendes landschaftsmerkmal europas",
+        "title": "Die Alpen als prägendes Landschaftsmerkmal Europas",
         "folder": "die-alpen-als-pragendes-landschaftsmerkmal-europas-5450"
       },
       {
         "id": "985",
-        "title": "Der bodensee",
+        "title": "Der Bodensee",
         "folder": "der-bodensee-985"
       },
       {
@@ -2019,12 +2019,12 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "3500",
-        "title": "Der Europäische Binnenmarkt",
+        "title": "Der europäische Binnenmarkt",
         "folder": "der-europaische-binnenmarkt-3500"
       },
       {
         "id": "3492",
-        "title": "Das EU Parlament",
+        "title": "Das EU-Parlament",
         "folder": "das-eu-parlament-3492"
       },
       {
@@ -2149,7 +2149,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "5576",
-        "title": "Der europaische norden lebensweise und anpassung an extreme klimabedingungen",
+        "title": "Der europäische Norden - Lebensweise und Anpassung an extreme Klimabedingungen",
         "folder": "der-europaische-norden-lebensweise-und-anpassung-an-extreme-klimabedingungen-5576"
       }
     ],
@@ -2189,7 +2189,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "2050",
-        "title": "Landwirtschaft in spanien",
+        "title": "Landwirtschaft in Spanien",
         "folder": "landwirtschaft-in-spanien-2050"
       },
       {
@@ -2294,7 +2294,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "5562",
-        "title": "Unterschiede zwischen west und osteuropa wirtschaftlich kulturell geografisch",
+        "title": "Unterschiede zwischen West- und Osteuropa - Wirtschaftlich, kulturell, geografisch",
         "folder": "unterschiede-zwischen-west-und-osteuropa-wirtschaftlich-kulturell-geografisch-5562"
       }
     ],
@@ -2480,27 +2480,27 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "5484",
-        "title": "Eisenbahnnetzwerke im vergleich europa asien und amerika",
+        "title": "Eisenbahnnetzwerke im Vergleich - Europa, Asien und Amerika",
         "folder": "eisenbahnnetzwerke-im-vergleich-europa-asien-und-amerika-5484"
       },
       {
         "id": "404",
-        "title": "30 wichtige stadte der usa",
+        "title": "30 wichtige Städte der USA",
         "folder": "30-wichtige-stadte-der-usa-404"
       },
       {
         "id": "5466",
-        "title": "Die rocky mountains und die anden geographische riesen beider kontinente",
+        "title": "Die Rocky Mountains und die Anden - Geographische Riesen beider Kontinente",
         "folder": "die-rocky-mountains-und-die-anden-geographische-riesen-beider-kontinente-5466"
       },
       {
         "id": "5552",
-        "title": "Nord und sudamerika im vergleich landschaften und klimazonen",
+        "title": "Nord- und Südamerika im Vergleich - Landschaften und Klimazonen",
         "folder": "nord-und-sudamerika-im-vergleich-landschaften-und-klimazonen-5552"
       },
       {
         "id": "5563",
-        "title": "Usa und kanada industrielander in verschiedenen klimazonen",
+        "title": "USA und Kanada - Industrieländer in verschiedenen Klimazonen",
         "folder": "usa-und-kanada-industrielander-in-verschiedenen-klimazonen-5563"
       },
       {
@@ -2515,7 +2515,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "6069",
-        "title": "Mexiko stadt",
+        "title": "Mexiko-Stadt",
         "folder": "mexiko-stadt-6069"
       }
     ],
@@ -2885,7 +2885,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "5506",
-        "title": "Klimatische herausforderungen in mittelamerika und ihre auswirkungen auf migration",
+        "title": "Klimatische Herausforderungen in Mittelamerika und ihre Auswirkungen auf Migration",
         "folder": "klimatische-herausforderungen-in-mittelamerika-und-ihre-auswirkungen-auf-migration-5506"
       }
     ],
@@ -2940,7 +2940,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "5486",
-        "title": "Entwicklungsunterschiede in lateinamerika ursachen und perspektiven",
+        "title": "Entwicklungsunterschiede in Lateinamerika - Ursachen und Perspektiven",
         "folder": "entwicklungsunterschiede-in-lateinamerika-ursachen-und-perspektiven-5486"
       },
       {
@@ -3040,7 +3040,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "5473",
-        "title": "Die sahara geographische barriere und lebensraum",
+        "title": "Die Sahara - Geographische Barriere und Lebensraum",
         "folder": "die-sahara-geographische-barriere-und-lebensraum-5473"
       },
       {
@@ -3090,7 +3090,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "1659",
-        "title": "Guinea Bissau",
+        "title": "Guinea-Bissau",
         "folder": "guinea-bissau-1659"
       },
       {
@@ -3155,7 +3155,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "5430",
-        "title": "Afrika und der klimawandel ursachen auswirkungen anpassung",
+        "title": "Afrika und der Klimawandel - Ursachen, Auswirkungen, Anpassung",
         "folder": "afrika-und-der-klimawandel-ursachen-auswirkungen-anpassung-5430"
       }
     ],
@@ -3175,12 +3175,12 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "exercises": [
       {
         "id": "1714",
-        "title": "Kongo Republik",
+        "title": "Kongo, Republik",
         "folder": "kongo-republik-1714"
       },
       {
         "id": "1713",
-        "title": "Kongo Demokratische Republik",
+        "title": "Kongo, Demokratische Republik",
         "folder": "kongo-demokratische-republik-1713"
       },
       {
@@ -3200,17 +3200,17 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "5437",
-        "title": "Bevolkerungswachstum in afrika chancen und herausforderungen",
+        "title": "Bevölkerungswachstum in Afrika - Chancen und Herausforderungen",
         "folder": "bevolkerungswachstum-in-afrika-chancen-und-herausforderungen-5437"
       },
       {
         "id": "5480",
-        "title": "Die wirtschaftliche entwicklung afrikas im globalen kontext",
+        "title": "Die wirtschaftliche Entwicklung Afrikas im globalen Kontext",
         "folder": "die-wirtschaftliche-entwicklung-afrikas-im-globalen-kontext-5480"
       },
       {
         "id": "5524",
-        "title": "Unterschiedliche klimazonen afrikas und ihre auswirkungen auf die lebensweise",
+        "title": "Unterschiedliche Klimazonen Afrikas und ihre Auswirkungen auf die Lebensweise",
         "folder": "unterschiedliche-klimazonen-afrikas-und-ihre-auswirkungen-auf-die-lebensweise-5524"
       },
       {
@@ -3266,7 +3266,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "1628",
-        "title": "Eswatini Swasiland",
+        "title": "Eswatini (Swasiland)",
         "folder": "eswatini-swasiland-1628"
       },
       {
@@ -3402,7 +3402,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "5478",
-        "title": "Die unterschiede zwischen dem nahen osten zentralasien und fernost",
+        "title": "Die Unterschiede zwischen dem Nahen Osten, Zentralasien und Fernost",
         "folder": "die-unterschiede-zwischen-dem-nahen-osten-zentralasien-und-fernost-5478"
       }
     ],
@@ -3422,7 +3422,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "exercises": [
       {
         "id": "1850",
-        "title": "Saudi Arabien",
+        "title": "Saudi-Arabien",
         "folder": "saudi-arabien-1850"
       },
       {
@@ -3503,12 +3503,12 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "5468",
-        "title": "Die rolle von flusssystemen wie ganges jangtse und mekong in der asiatischen entwicklung",
+        "title": "Die Rolle von Flusssystemen wie Ganges, Jangtse und Mekong in der asiatischen Entwicklung",
         "folder": "die-rolle-von-flusssystemen-wie-ganges-jangtse-und-mekong-in-der-asiatischen-entwicklung-5468"
       },
       {
         "id": "6020",
-        "title": "Hyderabad indien",
+        "title": "Hyderabad (Indien)",
         "folder": "hyderabad-indien-6020"
       }
     ],
@@ -3553,7 +3553,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "6014",
-        "title": "Ho chi minh stadt",
+        "title": "Ho-Chi-Minh-Stadt",
         "folder": "ho-chi-minh-stadt-6014"
       },
       {
@@ -3563,7 +3563,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "5432",
-        "title": "Asiens klimaextreme monsun trockenheit und arktische bedingungen",
+        "title": "Asiens Klimaextreme - Monsun, Trockenheit und arktische Bedingungen",
         "folder": "asiens-klimaextreme-monsun-trockenheit-und-arktische-bedingungen-5432"
       }
     ],
@@ -3613,7 +3613,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "5567",
-        "title": "Vulkane erdbeben und tsunamis naturgewalten in asien",
+        "title": "Vulkane, Erdbeben und Tsunamis - Naturgewalten in Asien",
         "folder": "vulkane-erdbeben-und-tsunamis-naturgewalten-in-asien-5567"
       },
       {
@@ -3664,17 +3664,17 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "5521",
-        "title": "Sudostasien geographische vielfalt und wirtschaftlicher aufstieg",
+        "title": "Südostasien - Geographische Vielfalt und wirtschaftlicher Aufstieg",
         "folder": "sudostasien-geographische-vielfalt-und-wirtschaftlicher-aufstieg-5521"
       },
       {
         "id": "5560",
-        "title": "Technologischer fortschritt in ostasien und seine auswirkungen auf die region",
+        "title": "Technologischer Fortschritt in Ostasien und seine Auswirkungen auf die Region",
         "folder": "technologischer-fortschritt-in-ostasien-und-seine-auswirkungen-auf-die-region-5560"
       },
       {
         "id": "5573",
-        "title": "Wirtschaftsmacht asien von china bis indien",
+        "title": "Wirtschaftsmacht Asien - Von China bis Indien",
         "folder": "wirtschaftsmacht-asien-von-china-bis-indien-5573"
       }
     ],
@@ -3694,7 +3694,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "exercises": [
       {
         "id": "1820",
-        "title": "Papua Neuguinea",
+        "title": "Papua-Neuguinea",
         "folder": "papua-neuguinea-1820"
       },
       {
@@ -3759,12 +3759,12 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "exercises": [
       {
         "id": "2037",
-        "title": "Die antarktis",
+        "title": "Die Antarktis",
         "folder": "die-antarktis-2037"
       },
       {
         "id": "2038",
-        "title": "Die arktis",
+        "title": "Die Arktis",
         "folder": "die-arktis-2038"
       },
       {
@@ -3774,17 +3774,17 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "5454",
-        "title": "Die bevolkerung ozeaniens traditionen sprachen und siedlungsmuster",
+        "title": "Die Bevölkerung Ozeaniens - Traditionen, Sprachen und Siedlungsmuster",
         "folder": "die-bevolkerung-ozeaniens-traditionen-sprachen-und-siedlungsmuster-5454"
       },
       {
         "id": "5494",
-        "title": "Geographische isolation und ihre auswirkungen auf die kultur in ozeanien",
+        "title": "Geographische Isolation und ihre Auswirkungen auf die Kultur in Ozeanien",
         "folder": "geographische-isolation-und-ihre-auswirkungen-auf-die-kultur-in-ozeanien-5494"
       },
       {
         "id": "5513",
-        "title": "Naturkatastrophen in ozeanien vulkane erdbeben zyklone",
+        "title": "Naturkatastrophen in Ozeanien - Vulkane, Erdbeben, Zyklone",
         "folder": "naturkatastrophen-in-ozeanien-vulkane-erdbeben-zyklone-5513"
       },
       {
@@ -3794,7 +3794,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "5514",
-        "title": "Ozeanien inselwelten im pazifik vielfalt und herausforderungen",
+        "title": "Ozeanien - Inselwelten im Pazifik – Vielfalt und Herausforderungen",
         "folder": "ozeanien-inselwelten-im-pazifik-vielfalt-und-herausforderungen-5514"
       }
     ],
@@ -3825,22 +3825,22 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "5434",
-        "title": "Australien ein kontinent zwischen wuste regenwald und kusten",
+        "title": "Australien - Ein Kontinent zwischen Wüste, Regenwald und Küsten",
         "folder": "australien-ein-kontinent-zwischen-wuste-regenwald-und-kusten-5434"
       },
       {
         "id": "5455",
-        "title": "Die einzigartige flora und fauna australiens geographische ursachen",
+        "title": "Die einzigartige Flora und Fauna Australiens - Geographische Ursachen",
         "folder": "die-einzigartige-flora-und-fauna-australiens-geographische-ursachen-5455"
       },
       {
         "id": "5469",
-        "title": "Die rolle von klimazonen in australien und neuseeland",
+        "title": "Die Rolle von Klimazonen in Australien und Neuseeland",
         "folder": "die-rolle-von-klimazonen-in-australien-und-neuseeland-5469"
       },
       {
         "id": "5534",
-        "title": "Wirtschaftliche entwicklung in australien und ozeanien im globalen kontext",
+        "title": "Wirtschaftliche Entwicklung in Australien und Ozeanien im globalen Kontext",
         "folder": "wirtschaftliche-entwicklung-in-australien-und-ozeanien-im-globalen-kontext-5534"
       }
     ],
@@ -3865,12 +3865,12 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "338",
-        "title": "Das wetter",
+        "title": "Das Wetter",
         "folder": "das-wetter-338"
       },
       {
         "id": "758",
-        "title": "Die Polare Klimazone",
+        "title": "Die polare Klimazone",
         "folder": "die-polare-klimazone-758"
       },
       {
@@ -3880,22 +3880,22 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "760",
-        "title": "Die Subtropische Klimazone",
+        "title": "Die subtropische Klimazone",
         "folder": "die-subtropische-klimazone-760"
       },
       {
         "id": "761",
-        "title": "Die Tropische Klimazone",
+        "title": "Die tropische Klimazone",
         "folder": "die-tropische-klimazone-761"
       },
       {
         "id": "5507",
-        "title": "Klimazonen im wandel wie sich unser planet verandert",
+        "title": "Klimazonen im Wandel - Wie sich unser Planet verändert",
         "folder": "klimazonen-im-wandel-wie-sich-unser-planet-verandert-5507"
       },
       {
         "id": "5545",
-        "title": "Klimazonen und ihre unterschiede wie sie das leben auf der erde pragen",
+        "title": "Klimazonen und ihre Unterschiede - Wie sie das Leben auf der Erde prägen",
         "folder": "klimazonen-und-ihre-unterschiede-wie-sie-das-leben-auf-der-erde-pragen-5545"
       }
     ],
@@ -3915,47 +3915,47 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "exercises": [
       {
         "id": "1989",
-        "title": "Das alpine klima",
+        "title": "Das alpine Klima",
         "folder": "das-alpine-klima-1989"
       },
       {
         "id": "1990",
-        "title": "Das atlantische klima",
+        "title": "Das atlantische Klima",
         "folder": "das-atlantische-klima-1990"
       },
       {
         "id": "1991",
-        "title": "Das illyrische klima",
+        "title": "Das illyrische Klima",
         "folder": "das-illyrische-klima-1991"
       },
       {
         "id": "1992",
-        "title": "Das pannonische klima",
+        "title": "Das pannonische Klima",
         "folder": "das-pannonische-klima-1992"
       },
       {
         "id": "1994",
-        "title": "Die inversionswetterlage",
+        "title": "Die Inversionswetterlage",
         "folder": "die-inversionswetterlage-1994"
       },
       {
         "id": "1993",
-        "title": "Der fohn warmer wind im gebirge",
+        "title": "Der Föhn - warmer Wind im Gebirge",
         "folder": "der-fohn-warmer-wind-im-gebirge-1993"
       },
       {
         "id": "5483",
-        "title": "Durren weltweit klimatische ursachen und regionale auswirkungen",
+        "title": "Dürren weltweit - Klimatische Ursachen und regionale Auswirkungen",
         "folder": "durren-weltweit-klimatische-ursachen-und-regionale-auswirkungen-5483"
       },
       {
         "id": "5516",
-        "title": "Satellitenbilder in der klimaforschung",
+        "title": "Satellitenbilder in der Klimaforschung",
         "folder": "satellitenbilder-in-der-klimaforschung-5516"
       },
       {
         "id": "5538",
-        "title": "Klimawandel und die veranderung der globalen niederschlagsmuster",
+        "title": "Klimawandel und die Veränderung der globalen Niederschlagsmuster",
         "folder": "klimawandel-und-die-veranderung-der-globalen-niederschlagsmuster-5538"
       },
       {
@@ -3985,17 +3985,17 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "exercises": [
       {
         "id": "2008",
-        "title": "Der Atlantische Ozean",
+        "title": "Der atlantische Ozean",
         "folder": "der-atlantische-ozean-2008"
       },
       {
         "id": "2009",
-        "title": "Der Pazifische Ozean",
+        "title": "Der pazifische Ozean",
         "folder": "der-pazifische-ozean-2009"
       },
       {
         "id": "2010",
-        "title": "Der Indische Ozean",
+        "title": "Der indische Ozean",
         "folder": "der-indische-ozean-2010"
       },
       {
@@ -4025,7 +4025,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "5448",
-        "title": "Der klimawandel und seine bedrohung fur kleine inselstaaten im pazifik",
+        "title": "Der Klimawandel und seine Bedrohung für kleine Inselstaaten im Pazifik",
         "folder": "der-klimawandel-und-seine-bedrohung-fur-kleine-inselstaaten-im-pazifik-5448"
       }
     ],
@@ -4070,7 +4070,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "2057",
-        "title": "Offshore windparks in der nordsee",
+        "title": "Offshore Windparks in der Nordsee",
         "folder": "offshore-windparks-in-der-nordsee-2057"
       },
       {
@@ -4080,12 +4080,12 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "4498",
-        "title": "Wasser im kreislauf regen fluss und meer",
+        "title": "Wasser im Kreislauf – Regen, Fluss und Meer",
         "folder": "wasser-im-kreislauf-regen-fluss-und-meer-4498"
       },
       {
         "id": "3545",
-        "title": "Internationale abkommen zum schutz der meere",
+        "title": "Internationale Abkommen zum Schutz der Meere",
         "folder": "internationale-abkommen-zum-schutz-der-meere-3545"
       }
     ],
@@ -4110,12 +4110,12 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "2027",
-        "title": "Der Tropische Regenwald",
+        "title": "Der tropische Regenwald",
         "folder": "der-tropische-regenwald-2027"
       },
       {
         "id": "2028",
-        "title": "Laubwald Nadelwald und Mischwald",
+        "title": "Laubwald, Nadelwald und Mischwald",
         "folder": "laubwald-nadelwald-und-mischwald-2028"
       },
       {
@@ -4165,32 +4165,32 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "2053",
-        "title": "Schokolade aus dem regenwald",
+        "title": "Schokolade aus dem Regenwald",
         "folder": "schokolade-aus-dem-regenwald-2053"
       },
       {
         "id": "5495",
-        "title": "Gletscher als naturliche archive des klimas",
+        "title": "Gletscher als natürliche Archive des Klimas",
         "folder": "gletscher-als-naturliche-archive-des-klimas-5495"
       },
       {
         "id": "5474",
-        "title": "Die spuren der gletscher wie sie landschaften pragen",
+        "title": "Die Spuren der Gletscher – Wie sie Landschaften prägen",
         "folder": "die-spuren-der-gletscher-wie-sie-landschaften-pragen-5474"
       },
       {
         "id": "5438",
-        "title": "Das mysteriose leben unter den gletschern was passiert unter dem eis",
+        "title": "Das mysteriöse Leben unter den Gletschern - Was passiert unter dem Eis",
         "folder": "das-mysteriose-leben-unter-den-gletschern-was-passiert-unter-dem-eis-5438"
       },
       {
         "id": "5447",
-        "title": "Der great barrier reef geographie bedeutung und bedrohung",
+        "title": "Der Great Barrier Reef - Geographie, Bedeutung und Bedrohung",
         "folder": "der-great-barrier-reef-geographie-bedeutung-und-bedrohung-5447"
       },
       {
         "id": "5570",
-        "title": "Wie gletscher zur bildung von talern und fjorden beitragen",
+        "title": "Wie Gletscher zur Bildung von Tälern und Fjorden beitragen",
         "folder": "wie-gletscher-zur-bildung-von-talern-und-fjorden-beitragen-5570"
       }
     ],
@@ -4215,22 +4215,22 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "5460",
-        "title": "Die geheimnisse der erdbeben ursachen und globale auswirkungen",
+        "title": "Die Geheimnisse der Erdbeben - Ursachen und globale Auswirkungen",
         "folder": "die-geheimnisse-der-erdbeben-ursachen-und-globale-auswirkungen-5460"
       },
       {
         "id": "5488",
-        "title": "Erdbebenrisiken in urbanen ballungsraumen",
+        "title": "Erdbebenrisiken in urbanen Ballungsräumen",
         "folder": "erdbebenrisiken-in-urbanen-ballungsraumen-5488"
       },
       {
         "id": "5522",
-        "title": "Tsunamis ursachen ausbreitung und geographische risikogebiete",
+        "title": "Tsunamis - Ursachen, Ausbreitung und geographische Risikogebiete",
         "folder": "tsunamis-ursachen-ausbreitung-und-geographische-risikogebiete-5522"
       },
       {
         "id": "5531",
-        "title": "Wie erdbeben gebirgsmuster und landschaften verandern",
+        "title": "Wie Erdbeben Gebirgsmuster und Landschaften verändern",
         "folder": "wie-erdbeben-gebirgsmuster-und-landschaften-verandern-5531"
       }
     ],
@@ -4250,22 +4250,22 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "exercises": [
       {
         "id": "4497",
-        "title": "Vulkan bricht aus heiese lava flieest raus",
+        "title": "Vulkan bricht aus – Heiße Lava fließt raus",
         "folder": "vulkan-bricht-aus-heiese-lava-flieest-raus-4497"
       },
       {
         "id": "5528",
-        "title": "Vulkanausbruche und ihre globale verteilung",
+        "title": "Vulkanausbrüche und ihre globale Verteilung",
         "folder": "vulkanausbruche-und-ihre-globale-verteilung-5528"
       },
       {
         "id": "5529",
-        "title": "Vulkanische aktivitaten und ihre auswirkungen auf die landwirtschaft",
+        "title": "Vulkanische Aktivitäten und ihre Auswirkungen auf die Landwirtschaft",
         "folder": "vulkanische-aktivitaten-und-ihre-auswirkungen-auf-die-landwirtschaft-5529"
       },
       {
         "id": "5530",
-        "title": "Wie die erde durch vulkanismus und erdbeben standig in bewegung ist",
+        "title": "Wie die Erde durch Vulkanismus und Erdbeben ständig in Bewegung ist",
         "folder": "wie-die-erde-durch-vulkanismus-und-erdbeben-standig-in-bewegung-ist-5530"
       },
       {
@@ -4275,12 +4275,12 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "5571",
-        "title": "Wie sich vulkanismus und erdbeben gegenseitig beeinflussen",
+        "title": "Wie sich Vulkanismus und Erdbeben gegenseitig beeinflussen",
         "folder": "wie-sich-vulkanismus-und-erdbeben-gegenseitig-beeinflussen-5571"
       },
       {
         "id": "5579",
-        "title": "Vulkanismus und die entstehung von inseln und bergen",
+        "title": "Vulkanismus und die Entstehung von Inseln und Bergen",
         "folder": "vulkanismus-und-die-entstehung-von-inseln-und-bergen-5579"
       }
     ],
@@ -4321,32 +4321,32 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "313",
-        "title": "Die erde kontinente und weltmeere",
+        "title": "Die Erde, Kontinente und Weltmeere",
         "folder": "die-erde-kontinente-und-weltmeere-313"
       },
       {
         "id": "2046",
-        "title": "Die kontinente und die weltmeere",
+        "title": "Die Kontinente und die Weltmeere",
         "folder": "die-kontinente-und-die-weltmeere-2046"
       },
       {
         "id": "2947",
-        "title": "Die erde eine scheibe oder eine kugel",
+        "title": "Die Erde - eine Scheibe oder eine Kugel",
         "folder": "die-erde-eine-scheibe-oder-eine-kugel-2947"
       },
       {
         "id": "5456",
-        "title": "Die entstehung von gebirgen wie die erde sich uber jahrmillionen formt",
+        "title": "Die Entstehung von Gebirgen - Wie die Erde sich über Jahrmillionen formt",
         "folder": "die-entstehung-von-gebirgen-wie-die-erde-sich-uber-jahrmillionen-formt-5456"
       },
       {
         "id": "5493",
-        "title": "Gebirgssysteme vom ursprung der gebirgsketten bis zu heutigen landschaften",
+        "title": "Gebirgssysteme - Vom Ursprung der Gebirgsketten bis zu heutigen Landschaften",
         "folder": "gebirgssysteme-vom-ursprung-der-gebirgsketten-bis-zu-heutigen-landschaften-5493"
       },
       {
         "id": "5457",
-        "title": "Die entstehung von gebirgsmassiven und ihre entwicklung",
+        "title": "Die Entstehung von Gebirgsmassiven und ihre Entwicklung",
         "folder": "die-entstehung-von-gebirgsmassiven-und-ihre-entwicklung-5457"
       }
     ],
@@ -4377,37 +4377,37 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "2068",
-        "title": "Ethnische minderheiten in europa",
+        "title": "Ethnische Minderheiten in Europa",
         "folder": "ethnische-minderheiten-in-europa-2068"
       },
       {
         "id": "2001",
-        "title": "Leben im dorf und in der stadt im vergleich",
+        "title": "Leben im Dorf und in der Stadt im Vergleich",
         "folder": "leben-im-dorf-und-in-der-stadt-im-vergleich-2001"
       },
       {
         "id": "5461",
-        "title": "Die geographische verbreitung von sprachen und ihre kulturelle bedeutung",
+        "title": "Die geographische Verbreitung von Sprachen und ihre kulturelle Bedeutung",
         "folder": "die-geographische-verbreitung-von-sprachen-und-ihre-kulturelle-bedeutung-5461"
       },
       {
         "id": "5465",
-        "title": "Die kulturellen unterschiede zwischen stadtischen und landlichen gebieten",
+        "title": "Die kulturellen Unterschiede zwischen städtischen und ländlichen Gebieten",
         "folder": "die-kulturellen-unterschiede-zwischen-stadtischen-und-landlichen-gebieten-5465"
       },
       {
         "id": "5489",
-        "title": "Ethnische gruppen und ihre geographische verteilung weltweit",
+        "title": "Ethnische Gruppen und ihre geographische Verteilung weltweit",
         "folder": "ethnische-gruppen-und-ihre-geographische-verteilung-weltweit-5489"
       },
       {
         "id": "5515",
-        "title": "Religion und ihre geographische verteilung konflikte und verstandigung",
+        "title": "Religion und ihre geographische Verteilung - Konflikte und Verständigung",
         "folder": "religion-und-ihre-geographische-verteilung-konflikte-und-verstandigung-5515"
       },
       {
         "id": "5517",
-        "title": "Siedlungsformen und ihre geographische verteilung weltweit",
+        "title": "Siedlungsformen und ihre geographische Verteilung weltweit",
         "folder": "siedlungsformen-und-ihre-geographische-verteilung-weltweit-5517"
       }
     ],
@@ -4432,12 +4432,12 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "5527",
-        "title": "Verstadterung in afrika stadtewachstum und informelle siedlungen",
+        "title": "Verstädterung in Afrika - Städtewachstum und informelle Siedlungen",
         "folder": "verstadterung-in-afrika-stadtewachstum-und-informelle-siedlungen-5527"
       },
       {
         "id": "5433",
-        "title": "Asiens megastadte wachstum und herausforderungen",
+        "title": "Asiens Megastädte - Wachstum und Herausforderungen",
         "folder": "asiens-megastadte-wachstum-und-herausforderungen-5433"
       },
       {
@@ -4457,12 +4457,12 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "5479",
-        "title": "Die ursachen und folgen von landflucht und stadtischer migration",
+        "title": "Die Ursachen und Folgen von Landflucht und städtischer Migration",
         "folder": "die-ursachen-und-folgen-von-landflucht-und-stadtischer-migration-5479"
       },
       {
         "id": "4485",
-        "title": "Global goal 11 lebendige stadte zukunft in urbanen raumen",
+        "title": "Global Goal 11 - Lebendige Städte – Zukunft in urbanen Räumen",
         "folder": "global-goal-11-lebendige-stadte-zukunft-in-urbanen-raumen-4485"
       },
       {
@@ -4487,17 +4487,17 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "exercises": [
       {
         "id": "5470",
-        "title": "Die rolle von pnv in der nachhaltigen stadtentwicklung",
+        "title": "Die Rolle von ÖPNV in der nachhaltigen Stadtentwicklung",
         "folder": "die-rolle-von-pnv-in-der-nachhaltigen-stadtentwicklung-5470"
       },
       {
         "id": "5490",
-        "title": "Fahrradfreundliche stadte geographische bedingungen fur erfolgreiche konzepte",
+        "title": "Fahrradfreundliche Städte - Geographische Bedingungen für erfolgreiche Konzepte",
         "folder": "fahrradfreundliche-stadte-geographische-bedingungen-fur-erfolgreiche-konzepte-5490"
       },
       {
         "id": "5499",
-        "title": "Grunes wachstum in urbanen gebieten nachhaltigkeit in stadten",
+        "title": "Grünes Wachstum in urbanen Gebieten - Nachhaltigkeit in Städten",
         "folder": "grunes-wachstum-in-urbanen-gebieten-nachhaltigkeit-in-stadten-5499"
       },
       {
@@ -4512,22 +4512,22 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "5535",
-        "title": "Zersiedelung die ausdehnung von stadten ins umland",
+        "title": "Zersiedelung - Die Ausdehnung von Städten ins Umland",
         "folder": "zersiedelung-die-ausdehnung-von-stadten-ins-umland-5535"
       },
       {
         "id": "5551",
-        "title": "Nachhaltige verkehrskonzepte fur die stadte der zukunft",
+        "title": "Nachhaltige Verkehrskonzepte für die Städte der Zukunft",
         "folder": "nachhaltige-verkehrskonzepte-fur-die-stadte-der-zukunft-5551"
       },
       {
         "id": "5564",
-        "title": "Verkehrsgeographie in urbanen raumen herausforderungen und losungen",
+        "title": "Verkehrsgeographie in urbanen Räumen - Herausforderungen und Lösungen",
         "folder": "verkehrsgeographie-in-urbanen-raumen-herausforderungen-und-losungen-5564"
       },
       {
         "id": "5575",
-        "title": "Die sozialen und okologischen herausforderungen der verstadterung",
+        "title": "Die sozialen und ökologischen Herausforderungen der Verstädterung",
         "folder": "die-sozialen-und-okologischen-herausforderungen-der-verstadterung-5575"
       }
     ],
@@ -4548,12 +4548,12 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "exercises": [
       {
         "id": "5476",
-        "title": "Die typische nordamerikanische stadt",
+        "title": "Die typische nordamerikanische Stadt",
         "folder": "die-typische-nordamerikanische-stadt-2-5476"
       },
       {
         "id": "5533",
-        "title": "Wie stadtplanung den verkehr beeinflusst",
+        "title": "Wie Stadtplanung den Verkehr beeinflusst",
         "folder": "wie-stadtplanung-den-verkehr-beeinflusst-5533"
       },
       {
@@ -4563,27 +4563,27 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "2000",
-        "title": "Funktionen einer stadt",
+        "title": "Funktionen einer Stadt",
         "folder": "funktionen-einer-stadt-2000"
       },
       {
         "id": "2004",
-        "title": "Die typische orientalische stadt",
+        "title": "Die typische orientalische Stadt",
         "folder": "die-typische-orientalische-stadt-2004"
       },
       {
         "id": "2007",
-        "title": "Das umland einer stadt",
+        "title": "Das Umland einer Stadt",
         "folder": "das-umland-einer-stadt-2007"
       },
       {
         "id": "5477",
-        "title": "Die typische orientalisch stadt",
+        "title": "Die typische orientalisch Stadt",
         "folder": "die-typische-orientalisch-stadt-5477"
       },
       {
         "id": "5556",
-        "title": "Stadtebau und stadtplanung im zeitalter der urbanisierung",
+        "title": "Städtebau und Stadtplanung im Zeitalter der Urbanisierung",
         "folder": "stadtebau-und-stadtplanung-im-zeitalter-der-urbanisierung-5556"
       }
     ],
@@ -4604,12 +4604,12 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "exercises": [
       {
         "id": "5555",
-        "title": "Seeverkehr und globalhandel containerhafen als schlusselpunkte der weltwirtschaft",
+        "title": "Seeverkehr und Globalhandel - Containerhäfen als Schlüsselpunkte der Weltwirtschaft",
         "folder": "seeverkehr-und-globalhandel-containerhafen-als-schlusselpunkte-der-weltwirtschaft-5555"
       },
       {
         "id": "5569",
-        "title": "Wie digitalisierung die wirtschaftsgeographie verandert",
+        "title": "Wie Digitalisierung die Wirtschaftsgeographie verändert",
         "folder": "wie-digitalisierung-die-wirtschaftsgeographie-verandert-5569"
       },
       {
@@ -4619,7 +4619,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "logistik-welt",
-        "title": "Logistik im Welthandel - Containerschifffahrt",
+        "title": "Logistik im Welthandel Containerschifffahrt",
         "folder": "logistik-im-welthandel-containerschifffahrt"
       },
       {
@@ -4634,7 +4634,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "5496",
-        "title": "Globale Transportnetze und ihre Krisenanfälligkeit",
+        "title": "Globale Transportnetze und ihre Anfälligkeit gegenüber Krisen",
         "folder": "globale-transportnetze-und-ihre-anfalligkeit-gegenuber-krisen-5496"
       },
       {
@@ -4644,17 +4644,17 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "5458",
-        "title": "Entwicklung von Handelsrouten im Zeitalter der Globalisierung",
+        "title": "Die Entwicklung von Handelsrouten im Zeitalter der Globalisierung",
         "folder": "die-entwicklung-von-handelsrouten-im-zeitalter-der-globalisierung-5458"
       },
       {
         "id": "wto",
-        "title": "Die Rolle der Welthandelsorganisation (WTO)",
+        "title": "Die Rolle der Welthandelsorganisation WTO",
         "folder": "die-rolle-der-welthandelsorganisation-wto"
       },
       {
         "id": "5577",
-        "title": "Zukunft der Logistik: Automatisierung und nachhaltige Lieferketten",
+        "title": "Zukunft der Logistik - Automatisierung, Drohnen und nachhaltige Lieferketten",
         "folder": "zukunft-der-logistik-automatisierung-drohnen-und-nachhaltige-lieferketten-5577"
       }
     ],

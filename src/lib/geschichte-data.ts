@@ -85,7 +85,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
       },
       {
         "id": "3121",
-        "title": "Kunst in der steinzeit",
+        "title": "Kunst in der Steinzeit",
         "folder": "kunst-in-der-steinzeit-3121"
       },
       {
@@ -250,12 +250,12 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
       },
       {
         "id": "3063",
-        "title": "Umsturzversuch des spartakusbundes",
+        "title": "Umsturzversuch des Spartakusbundes",
         "folder": "umsturzversuch-des-spartakusbundes-3063"
       },
       {
         "id": "5361",
-        "title": "Die geschichte der olympischen spiele",
+        "title": "Die Geschichte der Olympischen Spiele",
         "folder": "die-geschichte-der-olympischen-spiele-5361"
       }
     ],
@@ -497,7 +497,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
       },
       {
         "id": "3116",
-        "title": "Die kelten",
+        "title": "Die Kelten",
         "folder": "die-kelten-3116"
       },
       {
@@ -675,7 +675,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
       },
       {
         "id": "5459",
-        "title": "Die Entwicklung von Städten vom antiken Zentrum bis zur Megastadt",
+        "title": "Die Entwicklung von Städten - Vom antiken Zentrum bis zur Megastadt",
         "folder": "die-entwicklung-von-stadten-vom-antiken-zentrum-bis-zur-megastadt-5459"
       }
     ],
@@ -740,7 +740,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
       },
       {
         "id": "6512",
-        "title": "Der papst amt bedeutung und geschichte",
+        "title": "Der Papst - Amt, Bedeutung und Geschichte",
         "folder": "der-papst-amt-bedeutung-und-geschichte-6512"
       },
       {
@@ -867,7 +867,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
       },
       {
         "id": "3222",
-        "title": "Escape Room 'Komponisten in Mittelalter und Renaissance'",
+        "title": "Escape Room \"Komponisten in Mittelalter und Renaissance\"",
         "folder": "escape-room-quot-komponisten-in-mittelalter-und-renaissance-quot-3222"
       },
       {
@@ -877,7 +877,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
       },
       {
         "id": "2369",
-        "title": "Literaturepoche renaissance",
+        "title": "Literaturepoche Renaissance",
         "folder": "literaturepoche-renaissance-2369"
       },
       {
@@ -939,7 +939,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
       },
       {
         "id": "2330",
-        "title": "Die entdeckung australiens",
+        "title": "Die Entdeckung Australiens",
         "folder": "die-entdeckung-australiens-2330"
       },
       {
@@ -949,12 +949,12 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
       },
       {
         "id": "3346",
-        "title": "Entdeckungen und eroberungen in der neuzeit",
+        "title": "Entdeckungen und Eroberungen in der Neuzeit",
         "folder": "entdeckungen-und-eroberungen-in-der-neuzeit-3346"
       },
       {
         "id": "5276",
-        "title": "Die entdeckung der planetenbewegungen",
+        "title": "Die Entdeckung der Planetenbewegungen",
         "folder": "die-entdeckung-der-planetenbewegungen-5276"
       }
     ],
@@ -1086,7 +1086,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
       },
       {
         "id": "2319",
-        "title": "Der englische Bürgerkrieg",
+        "title": "Der Englische Bürgerkrieg",
         "folder": "der-englische-burgerkrieg-2319"
       }
     ],
@@ -1118,7 +1118,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
       },
       {
         "id": "2363",
-        "title": "Jean Jacques Rousseau",
+        "title": "Jean-Jacques Rousseau",
         "folder": "jean-jacques-rousseau-2363"
       },
       {
@@ -1180,7 +1180,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
       },
       {
         "id": "3232",
-        "title": "Escape Room 'Robespierre und Napoleon'",
+        "title": "Escape Room \"Robespierre und Napoleon\"",
         "folder": "escape-room-quot-robespierre-und-napoleon-quot-3232"
       },
       {
@@ -1301,12 +1301,12 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
       },
       {
         "id": "3018",
-        "title": "Kaiser josef ii und seine reformen",
+        "title": "Kaiser Josef II. und seine Reformen",
         "folder": "kaiser-josef-ii-und-seine-reformen-3018"
       },
       {
         "id": "3022",
-        "title": "Kaiserin maria theresia",
+        "title": "Kaiserin Maria Theresia",
         "folder": "kaiserin-maria-theresia-3022"
       },
       {
@@ -1437,7 +1437,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
       },
       {
         "id": "6724",
-        "title": "Schweizer garde geschichte und aufgaben",
+        "title": "Schweizer Garde - Geschichte und Aufgaben",
         "folder": "schweizer-garde-geschichte-und-aufgaben-6724"
       }
     ],
@@ -1512,7 +1512,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
       },
       {
         "id": "5501",
-        "title": "Industrialisierung - der Weg von der Agrar- zur Industriegesellschaft",
+        "title": "Industrialisierung - Der Weg von der Agrar- zur Industriegesellschaft",
         "folder": "industrialisierung-der-weg-von-der-agrar-zur-industriegesellschaft-5501"
       },
       {
@@ -1572,7 +1572,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
       },
       {
         "id": "2375",
-        "title": "Literaturepoche biedermeier",
+        "title": "Literaturepoche Biedermeier",
         "folder": "literaturepoche-biedermeier-2375"
       },
       {
@@ -1629,22 +1629,22 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
       },
       {
         "id": "2337",
-        "title": "Die gesellschaft im deutschen kaiserreich",
+        "title": "Die Gesellschaft im deutschen Kaiserreich",
         "folder": "die-gesellschaft-im-deutschen-kaiserreich-2337"
       },
       {
         "id": "2900",
-        "title": "Das deutsche kaiserreich",
+        "title": "Das deutsche Kaiserreich",
         "folder": "das-deutsche-kaiserreich-2900"
       },
       {
         "id": "3020",
-        "title": "Kaiser wilhelm i",
+        "title": "Kaiser Wilhelm I.",
         "folder": "kaiser-wilhelm-i-3020"
       },
       {
         "id": "3021",
-        "title": "Kaiser wilhelm ii",
+        "title": "Kaiser Wilhelm II.",
         "folder": "kaiser-wilhelm-ii-3021"
       },
       {
@@ -1851,7 +1851,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
       },
       {
         "id": "5402",
-        "title": "Was wäre wenn das Osmanische Reich nie zerfallen wäre",
+        "title": "Was wäre, wenn das Osmanische Reich nie zerfallen wäre …",
         "folder": "was-ware-wenn-das-osmanische-reich-nie-zerfallen-ware-5402"
       }
     ],
@@ -2212,7 +2212,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
       },
       {
         "id": "2894",
-        "title": "BDM und HJ - die Jugend im Nationalsozialismus",
+        "title": "BDM und HJ - Die Jugend im Nationalsozialismus",
         "folder": "bdm-und-hj-die-jugend-im-nationalsozialismus-2894"
       },
       {
@@ -2736,7 +2736,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
       },
       {
         "id": "5405",
-        "title": "Was wäre wenn der Prager Frühling erfolgreich gewesen wäre",
+        "title": "Was wäre, wenn der Prager Frühling erfolgreich gewesen wäre …",
         "folder": "was-ware-wenn-der-prager-fruhling-erfolgreich-gewesen-ware-5405"
       }
     ],
@@ -2907,7 +2907,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
       },
       {
         "id": "5374",
-        "title": "Die geschichte israels",
+        "title": "Die Geschichte Israels",
         "folder": "die-geschichte-israels-5374"
       },
       {
@@ -2953,7 +2953,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
       },
       {
         "id": "5609",
-        "title": "Das österreichische Parlament",
+        "title": "Das Österreichische Parlament",
         "folder": "das-sterreichische-parlament-5609"
       },
       {

@@ -266,7 +266,7 @@ export const informatikTopics: Record<string, InformatikTopic> = {
     "exercises": [
       {
         "id": "1208",
-        "title": "Apple Ios",
+        "title": "Apple iOS",
         "folder": "apple-ios-1208"
       },
       {
@@ -347,7 +347,7 @@ export const informatikTopics: Record<string, InformatikTopic> = {
       },
       {
         "id": "1235",
-        "title": "Das Bios",
+        "title": "Das BIOS",
         "folder": "das-bios-1235"
       },
       {
@@ -558,7 +558,7 @@ export const informatikTopics: Record<string, InformatikTopic> = {
       },
       {
         "id": "1202",
-        "title": "Adsl",
+        "title": "ADSL",
         "folder": "adsl-1202"
       },
       {
@@ -1320,7 +1320,7 @@ export const informatikTopics: Record<string, InformatikTopic> = {
       },
       {
         "id": "825",
-        "title": "Youtube",
+        "title": "YouTube",
         "folder": "youtube-825"
       },
       {
@@ -1340,7 +1340,7 @@ export const informatikTopics: Record<string, InformatikTopic> = {
       },
       {
         "id": "829",
-        "title": "Tiktok",
+        "title": "TikTok",
         "folder": "tiktok-829"
       },
       {
