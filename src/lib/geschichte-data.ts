@@ -175,6 +175,11 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "5329",
         "title": "Das alte Ägypten",
         "folder": "das-alte-gypten-5329"
+      },
+      {
+        "id": "2303",
+        "title": "Das chinesische Kaiserreich",
+        "folder": "das-chinesische-kaiserreich-2303"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Das%20alte%20%C3%84gypten%20%26%20Fr%C3%BChe%20Hochkulturen+geschichte&t=3752"
@@ -386,11 +391,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "4364",
         "title": "Julius Caesar",
         "folder": "julius-caesar-4364"
-      },
-      {
-        "id": "3369",
-        "title": "Römisches Leben und Gesellschaft",
-        "folder": "romisches-leben-und-gesellschaft-3369"
       },
       {
         "id": "3754",
@@ -617,21 +617,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "3178",
         "title": "Sprache und Schrift der Germanen",
         "folder": "sprache-und-schrift-der-germanen-3178"
-      },
-      {
-        "id": "5675b",
-        "title": "Die Hofburg",
-        "folder": "die-hofburg-5675"
-      },
-      {
-        "id": "907",
-        "title": "Die Fugger",
-        "folder": "die-fugger-907"
-      },
-      {
-        "id": "742",
-        "title": "Die Hexenverfolgung im Mittelalter",
-        "folder": "die-hexenverfolgung-742"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Rittertum%2C%20Burgen%20%26%20Ritterausbildung+geschichte&t=3752"
@@ -767,6 +752,11 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "6684",
         "title": "Kirche im Mittelalter",
         "folder": "kirche-im-mittelalter-6684"
+      },
+      {
+        "id": "2307",
+        "title": "Das Heilige Römische Reich",
+        "folder": "das-heilige-romische-reich-2307"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Kirche%2C%20Kl%C3%B6ster%2C%20Kaiser%20%26%20Kreuzz%C3%BCge+geschichte&t=3752"
@@ -1227,11 +1217,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "5409",
         "title": "Was wäre, wenn die Französische Revolution gescheitert wäre …",
         "folder": "was-ware-wenn-die-franzosische-revolution-gescheitert-ware-5409"
-      },
-      {
-        "id": "701",
-        "title": "Studypoint Zusammenfassung Ablauf der Revolution",
-        "folder": "studypoint-zusammenfassung-ablauf-der-revolution-701"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Franzoesische+Revolution+1789&t=3752"
@@ -1330,24 +1315,9 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "das-musical-maria-theresia-544"
       },
       {
-        "id": "4327",
-        "title": "Voltaire",
-        "folder": "voltaire-4327"
-      },
-      {
-        "id": "4029",
-        "title": "John Locke",
-        "folder": "john-locke-4029"
-      },
-      {
         "id": "aufkmus",
         "title": "Die Rolle von Musik in der Aufklärung",
         "folder": "die-rolle-von-musik-in-der-aufklaerung"
-      },
-      {
-        "id": "3966",
-        "title": "Immanuel Kant",
-        "folder": "immanuel-kant-2-3966"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=schulpflicht+aufklaerung&t=3752"
@@ -1769,6 +1739,11 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "887",
         "title": "Die Apartheid in Südafrika",
         "folder": "die-apartheid-887"
+      },
+      {
+        "id": "3071",
+        "title": "Die Geschichte Brasiliens",
+        "folder": "arbeitslosigkeit-nach-dem-ersten-weltkrieg-2-3071"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Kolonialismus+Imperialismus&t=3752"
@@ -1816,6 +1791,11 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "5675",
         "title": "Die Hofburg",
         "folder": "die-hofburg-5675"
+      },
+      {
+        "id": "3072",
+        "title": "Wien zur Zeit der Monarchie",
+        "folder": "arbeitslosigkeit-nach-dem-ersten-weltkrieg-3-3072"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Habsburger+Kaisertum+Oesterreich&t=3752"
@@ -2018,6 +1998,11 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "5422",
         "title": "Was wäre, wenn Österreich-Ungarn den Ersten Weltkrieg überlebt hätte …",
         "folder": "was-ware-wenn-sterreich-ungarn-den-ersten-weltkrieg-uberlebt-hatte-5422"
+      },
+      {
+        "id": "3075",
+        "title": "Deutsche Gebietsverluste nach dem Ersten Weltkrieg",
+        "folder": "arbeitslosigkeit-nach-dem-ersten-weltkrieg-6-3075"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Erster+Weltkrieg+Verlauf+Versailles&t=3752"
@@ -2181,34 +2166,14 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "alfred-doblin-berlin-alexanderplatz-2-4507"
       },
       {
-        "id": "3078",
+        "id": "3080",
         "title": "Arbeitslosigkeit nach dem Ersten Weltkrieg",
-        "folder": "arbeitslosigkeit-nach-dem-ersten-weltkrieg-9-3078"
+        "folder": "arbeitslosigkeit-nach-dem-ersten-weltkrieg-11-3080"
       },
       {
-        "id": "407",
-        "title": "Die Weimarer Republik",
-        "folder": "die-weimarer-republik-407"
-      },
-      {
-        "id": "1137",
-        "title": "Weltwirtschaftskrise 1929",
-        "folder": "weltwirtschaftskrise-1929-1137"
-      },
-      {
-        "id": "3326",
-        "title": "Die Weimarer Republik (2)",
-        "folder": "die-weimarer-republik-2-3326"
-      },
-      {
-        "id": "3071",
-        "title": "Arbeitslosigkeit nach dem Ersten Weltkrieg",
-        "folder": "arbeitslosigkeit-nach-dem-ersten-weltkrieg-2-3071"
-      },
-      {
-        "id": "3067",
-        "title": "Wirtschaft der Weimarer Republik",
-        "folder": "wirtschaft-der-weimarer-republik-3067"
+        "id": "3081",
+        "title": "Der Gemeindebau - sozialer Wohnbau in Wien",
+        "folder": "arbeitslosigkeit-nach-dem-ersten-weltkrieg-12-3081"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=weimarer+republik&t=3752"
@@ -2898,6 +2863,11 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "3036",
         "title": "Michail Gorbatschow – Glasnost & Perestroika",
         "folder": "michail-gorbatschow-3036"
+      },
+      {
+        "id": "dhm",
+        "title": "Das Deutsche Historische Museum",
+        "folder": "das-deutsche-historische-museum"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Friedliche%20Revolution%20%26%20Wiedervereinigung%201989%2F90+geschichte&t=3752"
@@ -2944,6 +2914,11 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "2325",
         "title": "Der syrische Bürgerkrieg",
         "folder": "der-syrische-burgerkrieg-2325"
+      },
+      {
+        "id": "3073",
+        "title": "Die Ölkrise",
+        "folder": "arbeitslosigkeit-nach-dem-ersten-weltkrieg-4-3073"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=nahostkonflikt&t=3752"
