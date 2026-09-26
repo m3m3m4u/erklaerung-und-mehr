@@ -52,6 +52,11 @@ export const philosophieTopics: Record<string, PhilosophieTopic> = {
             "id": "5865",
             "title": "Philosophie des Dialogs und der Reflexion",
             "folder": "philosophie-des-dialogs-5865"
+      },
+      {
+            "id": "5914",
+            "title": "Wissen und Weisheit",
+            "folder": "wissen-und-weisheit-5914"
       }
 ],
     worksheetLink: "https://eduki.com/de/autor/1430402/about-the-world-org?query=Sokrates+Philosophie&t=3752"
@@ -78,6 +83,16 @@ export const philosophieTopics: Record<string, PhilosophieTopic> = {
             "id": "5873",
             "title": "Philosophie und philosophische Mythen",
             "folder": "philosophie-und-mythologie-5873"
+      },
+      {
+            "id": "5852",
+            "title": "Ontologische Grundfragen verstehen",
+            "folder": "ontologische-grundfragen-verstehen-5852"
+      },
+      {
+            "id": "2777",
+            "title": "Die Frage nach der Natur der Realität",
+            "folder": "die-frage-nach-der-natur-der-realitat-2777"
       }
 ],
     worksheetLink: "https://eduki.com/de/autor/1430402/about-the-world-org?query=Platon+Ideenlehre+Hoehlengleichnis&t=3752"
@@ -146,6 +161,11 @@ export const philosophieTopics: Record<string, PhilosophieTopic> = {
             "id": "5886",
             "title": "Rationalismus und Empirismus",
             "folder": "rationalismus-und-empirismus-5886"
+      },
+      {
+            "id": "5890",
+            "title": "Skeptizismus und Zweifel",
+            "folder": "skeptizismus-und-zweifel-5890"
       }
 ],
     worksheetLink: "https://eduki.com/de/autor/1430402/about-the-world-org?query=Descartes+Cogito+Rationalismus&t=3752"
@@ -178,6 +198,16 @@ export const philosophieTopics: Record<string, PhilosophieTopic> = {
             "id": "5843",
             "title": "Grundlagen der modernen Philosophie",
             "folder": "moderne-philosophie-grundlagen-5843"
+      },
+      {
+            "id": "5826",
+            "title": "Kritik der reinen Vernunft",
+            "folder": "kritik-der-reinen-vernunft-5826"
+      },
+      {
+            "id": "5901",
+            "title": "Transzendentale Bedingungen der Erfahrung",
+            "folder": "transzendentale-bedingungen-der-erfahrung-5901"
       }
 ],
     worksheetLink: "https://eduki.com/de/autor/1430402/about-the-world-org?query=Immanuel+Kant+Aufklaerung&t=3752"
@@ -210,6 +240,11 @@ export const philosophieTopics: Record<string, PhilosophieTopic> = {
             "id": "5940",
             "title": "Idealismus und Realismus",
             "folder": "idealismus-und-realismus-5940"
+      },
+      {
+            "id": "5832",
+            "title": "Kritische Theorie verstehen",
+            "folder": "kritische-theorie-verstehen-5832"
       }
 ],
     worksheetLink: "https://eduki.com/de/autor/1430402/about-the-world-org?query=Hegel+Dialektik+Idealismus&t=3752"
@@ -242,6 +277,11 @@ export const philosophieTopics: Record<string, PhilosophieTopic> = {
             "id": "2792",
             "title": "Nietzsche und der Übermensch",
             "folder": "nietzsche-und-der-bermensch-2792"
+      },
+      {
+            "id": "2761",
+            "title": "Der Zusammenhang zwischen Wissen und Macht",
+            "folder": "der-zusammenhang-zwischen-wissen-und-macht-2761"
       }
 ],
     worksheetLink: "https://eduki.com/de/autor/1430402/about-the-world-org?query=Friedrich+Nietzsche+Philosophie&t=3752"
@@ -431,6 +471,16 @@ export const philosophieTopics: Record<string, PhilosophieTopic> = {
             "id": "5895",
             "title": "Struktur philosophischer Diskurse",
             "folder": "struktur-philosophischer-diskurse-5895"
+      },
+      {
+            "id": "2789",
+            "title": "Die Theorie des Pragmatismus",
+            "folder": "die-theorie-des-pragmatismus-2789"
+      },
+      {
+            "id": "5902",
+            "title": "Unendlichkeit und Unendliches",
+            "folder": "unendlichkeit-und-unendliches-5902"
       }
 ],
     worksheetLink: "https://eduki.com/de/autor/1430402/about-the-world-org?query=Philosophische+Logik+Analytische+Philosophie&t=3752"
