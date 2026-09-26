@@ -96,6 +96,31 @@ export const chemieTopics: Record<string, ChemieTopic> = {
         "id": "5354",
         "title": "Die Geschichte der Chemie",
         "folder": "die-geschichte-der-chemie-5354"
+      },
+      {
+        "id": "3663",
+        "title": "Antoine Lavoisier - Begründer der modernen Chemie",
+        "folder": "antoine-lavoisier-3663"
+      },
+      {
+        "id": "3786",
+        "title": "Dmitri Mendelejew - Entdecker des Periodensystems",
+        "folder": "dmitri-mendeleev-3786"
+      },
+      {
+        "id": "4026",
+        "title": "John Dalton und die chemische Atomhypothese",
+        "folder": "john-dalton-4026"
+      },
+      {
+        "id": "4076",
+        "title": "Marie Curie - Entdeckung von Radium und Polonium",
+        "folder": "marie-curie-4076"
+      },
+      {
+        "id": "3639",
+        "title": "Alfred Nobel - Chemische Innovationen und Dynamit",
+        "folder": "alfred-nobel-3639"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=geschichte+der+chemie&t=3752"
@@ -252,6 +277,26 @@ export const chemieTopics: Record<string, ChemieTopic> = {
         "id": "5159",
         "title": "Essigsäure (Ethansäure)",
         "folder": "essigsaure-ethansaure-5159"
+      },
+      {
+        "id": "5142",
+        "title": "Carbonsäuren - Organische Säuren im Alltag",
+        "folder": "carbonsauren-5142"
+      },
+      {
+        "id": "5147",
+        "title": "Baukalk und Löschkalk - Basen und Neutralisation",
+        "folder": "der-baustoff-baukalk-loschkalk-5147"
+      },
+      {
+        "id": "2181",
+        "title": "Bodenversauerung und Kalkung - pH-Wert und Bodenneutralisation",
+        "folder": "bodenversauerung-und-kalkung-2181"
+      },
+      {
+        "id": "entsalzung",
+        "title": "Wie funktioniert die Entsalzung von Meerwasser?",
+        "folder": "wie-funktioniert-die-entsalzung-von-meerwasser"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=saeuren+basen+salze&t=3752"
@@ -766,6 +811,21 @@ export const chemieTopics: Record<string, ChemieTopic> = {
         "id": "3193",
         "title": "Escape Room \"Nichtmetalle\"",
         "folder": "escape-room-quot-nichtmetalle-quot-3193"
+      },
+      {
+        "id": "3233",
+        "title": "Escape Room \"Nährstoffe & Biochemie\"",
+        "folder": "escape-room-quot-nahrstoffe-quot-3233"
+      },
+      {
+        "id": "601",
+        "title": "Die Sprache der Chemie - Symbole und Nomenklatur-Rätsel",
+        "folder": "lerninhalt-die-sprache-der-chemie-601"
+      },
+      {
+        "id": "2238",
+        "title": "Physik und Chemie im Vergleich - Rätsel und Zuordnungen",
+        "folder": "physik-und-chemie-gemeinsamkeiten-und-unterschiede-2238"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=escape+room+chemie&t=3752"
