@@ -814,11 +814,6 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "folder": "saarland-961"
       },
       {
-        "id": "mitteldeutschland",
-        "title": "Was ist Mitteldeutschland",
-        "folder": "was-ist-mitteldeutschland"
-      },
-      {
         "id": "ostfriesland",
         "title": "Ostfriesland - Eine Region an der Nordsee",
         "folder": "ostfriesland-eine-region-an-der-nordsee"
