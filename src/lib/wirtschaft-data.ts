@@ -240,16 +240,6 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "folder": "angebotsorientierte-wirtschaftspolitik"
       },
       {
-        "id": "arbeitslosigkeit-und-die-rolle-der-agentur",
-        "title": "Arbeitslosigkeit und die Rolle der Agentur",
-        "folder": "arbeitslosigkeit-und-die-rolle-der-agentur"
-      },
-      {
-        "id": "das-solidarprinzip-der-sozialversicherung",
-        "title": "Das Solidarprinzip der Sozialversicherung",
-        "folder": "das-solidarprinzip-der-sozialversicherung"
-      },
-      {
         "id": "der-einfache-wirtschaftskreislauf",
         "title": "Der einfache Wirtschaftskreislauf",
         "folder": "der-einfache-wirtschaftskreislauf"
@@ -737,11 +727,6 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "id": "logistik-im-welthandel-containerschifffahrt",
         "title": "Logistik im Welthandel Containerschifffahrt",
         "folder": "logistik-im-welthandel-containerschifffahrt"
-      },
-      {
-        "id": "migration-und-der-globale-arbeitsmarkt",
-        "title": "Migration und der globale Arbeitsmarkt",
-        "folder": "migration-und-der-globale-arbeitsmarkt"
       },
       {
         "id": "outsourcing-und-offshoring-trends",
