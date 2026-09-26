@@ -268,6 +268,21 @@ export const englischTopics: Record<string, EnglischTopic> = {
         "id": "703",
         "title": "Vocabulary Memory: Animals",
         "folder": "studypoint-memory-game-animals-703"
+      },
+      {
+        "id": "370",
+        "title": "A or An – Der unbestimmte Artikel",
+        "folder": "a-or-an-der-unbestimmte-artikel-370"
+      },
+      {
+        "id": "261",
+        "title": "Uhrzeit: Halbe Stunden (Half past)",
+        "folder": "uhrzeit-halbe-stunden-261"
+      },
+      {
+        "id": "262",
+        "title": "Uhrzeit: Viertelstunden (Quarter to / Quarter past)",
+        "folder": "uhrzeit-viertelstunden-262"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Telling+the+Time+English&t=468"
@@ -413,6 +428,11 @@ export const englischTopics: Record<string, EnglischTopic> = {
         "id": "5364",
         "title": "History of the USA – Independence & Modern Era",
         "folder": "die-geschichte-der-usa-5364"
+      },
+      {
+        "id": "404",
+        "title": "30 wichtige Städte der USA",
+        "folder": "30-wichtige-stadte-der-usa-404"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=London+New+York+USA+English&t=468"
@@ -455,6 +475,21 @@ export const englischTopics: Record<string, EnglischTopic> = {
         "id": "3467",
         "title": "Romeo and Juliet – The Star-Crossed Lovers",
         "folder": "william-shakespeare-romeo-und-julia-3467"
+      },
+      {
+        "id": "6216",
+        "title": "Hamlet von William Shakespeare – Bezug zur Gegenwart",
+        "folder": "hamlet-von-william-shakespeare-bezug-zur-gegenwart-6216"
+      },
+      {
+        "id": "6217",
+        "title": "Hamlet von William Shakespeare – Historischer Kontext",
+        "folder": "hamlet-von-william-shakespeare-historischer-kontext-6217"
+      },
+      {
+        "id": "4573",
+        "title": "William Shakespeare – Romeo und Julia (Teil 2)",
+        "folder": "william-shakespeare-romeo-und-julia-2-4573"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Shakespeare+Hamlet+Drama+English&t=468"
