@@ -551,6 +551,31 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "id": "8020",
         "title": "Suchmaschinen: Crawler und Ranking-Algorithmen",
         "folder": "Aufbau und Funktionsweise von Suchmaschinen"
+      },
+      {
+        "id": "dns",
+        "title": "Das Domain Name System als Telefonbuch des Internets",
+        "folder": "das-domain-name-system-als-telefonbuch-des-internets"
+      },
+      {
+        "id": "seekabel",
+        "title": "Seekabel und die globale Internet-Infrastruktur",
+        "folder": "seekabel-und-die-reise-der-daten-durch-den-ozean"
+      },
+      {
+        "id": "wlan",
+        "title": "Wie funktioniert das WLAN?",
+        "folder": "wie-funktioniert-das-wlan"
+      },
+      {
+        "id": "glasfaser",
+        "title": "Glasfaser und optische Datenübertragung",
+        "folder": "wie-funktioniert-ein-optisches-kabel-glasfaser"
+      },
+      {
+        "id": "sat-glasfaser",
+        "title": "Satelliten- vs. Glasfaser-Internetverbindungen",
+        "folder": "vergleich-von-satelliten-und-glasfaser-fuer-internetverbindungen"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=internet+protokolle&t=896"
@@ -1009,6 +1034,26 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "id": "8021",
         "title": "Webserver aufsetzen und konfigurieren",
         "folder": "Aufsetzen und Konfigurieren eines eigenen Webservers"
+      },
+      {
+        "id": "html-css-coden",
+        "title": "Webseiten programmieren mit HTML und CSS",
+        "folder": "coden-von-webseiten-mit-html-und-css"
+      },
+      {
+        "id": "api-schnittstellen",
+        "title": "Web-APIs und Programmschnittstellen",
+        "folder": "verbindung-von-programmen-ueber-schnittstellen"
+      },
+      {
+        "id": "responsive-design",
+        "title": "Responsive Webdesign und mobile Optimierung",
+        "folder": "mobile-commerce-und-responsive-design"
+      },
+      {
+        "id": "server-verarbeitung",
+        "title": "Client-Server-Interaktion und Serververarbeitung",
+        "folder": "serverseitige-verarbeitung-von-anfragen"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=css+javascript&t=896"
