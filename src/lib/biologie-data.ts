@@ -78,14 +78,24 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "folder": "die-haut-schweies-und-talgdrusen-2098"
       },
       {
-        "id": "2232",
-        "title": "Die Haut - Schutz und Sinnesorgan",
-        "folder": "die-haut-schutz-und-sinnesorgan-2232"
-      },
-      {
         "id": "5243",
         "title": "Augenfehler und ihre Korrektur",
         "folder": "augenfehler-und-ihre-korrektur-5243"
+      },
+      {
+        "id": "auge-sehen",
+        "title": "Wie funktioniert das menschliche Auge (Sehen)",
+        "folder": "wie-funktioniert-das-menschliche-auge-sehen"
+      },
+      {
+        "id": "geruchssinn",
+        "title": "Wie funktioniert der Geruchssinn",
+        "folder": "wie-funktioniert-der-geruchssinn"
+      },
+      {
+        "id": "geschmack",
+        "title": "Wie funktioniert die Geschmackswahrnehmung",
+        "folder": "wie-funktioniert-die-geschmackswahrnehmung"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=sinnesorgane+des+menschen&t=3752"
@@ -186,9 +196,9 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "folder": "bauchspeicheldruse-insulin-und-verdauungsenzyme-2115"
       },
       {
-        "id": "2116",
-        "title": "Das menschliche Gebiss und Zahnpflege",
-        "folder": "das-lymphsystem-lymphknoten-und-gefaese-2116"
+        "id": "dialyse",
+        "title": "Wie funktioniert die Dialyse (Nierenersatztherapie)",
+        "folder": "wie-funktioniert-die-dialyse"
       },
       {
         "id": "633",
@@ -353,6 +363,11 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "id": "2233",
         "title": "Das Rückenmark und der Reflexbogen",
         "folder": "drogen-im-straesenverkehr-alkohol-und-drogen-am-steuer-2233"
+      },
+      {
+        "id": "endorphine",
+        "title": "Wie funktioniert die Schmerzunterdrückung (Endorphine)",
+        "folder": "wie-funktioniert-die-schmerzunterdrueckung-endorphine"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=nervensystem+und+gehirn&t=3752"
@@ -434,6 +449,26 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "id": "2134",
         "title": "Impfkalender - Wichtige Impfungen",
         "folder": "impfkalender-wichtige-impfungen-2134"
+      },
+      {
+        "id": "wie-immunsystem",
+        "title": "Wie funktioniert das Immunsystem",
+        "folder": "wie-funktioniert-das-immunsystem"
+      },
+      {
+        "id": "wie-impfung",
+        "title": "Wie funktioniert die Impfung",
+        "folder": "wie-funktioniert-die-impfung"
+      },
+      {
+        "id": "2116",
+        "title": "Das Lymphsystem – Lymphknoten und -gefäße",
+        "folder": "das-lymphsystem-lymphknoten-und-gefaese-2116"
+      },
+      {
+        "id": "2118",
+        "title": "Lymphsystem – Lymphflüssigkeit und Immunabwehr",
+        "folder": "alkohol-und-seine-wirkung-auf-den-korper-2118"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=immunsystem+und+abwehr&t=3752"
@@ -609,6 +644,11 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "id": "gaensehaut",
         "title": "Gänsehaut und Hautreaktionen",
         "folder": "horror-buecher-und-die-gaensehaut-beim-lesen"
+      },
+      {
+        "id": "schwitzen",
+        "title": "Wie funktioniert das Schwitzen",
+        "folder": "wie-funktioniert-das-schwitzen"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=die+haut+schutzfunktionen&t=3752"
@@ -658,24 +698,14 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "folder": "geschlechtschromosomen-xx-und-xy-2097"
       },
       {
-        "id": "2098",
-        "title": "Schwangerschaft und Fötusentwicklung",
-        "folder": "die-haut-schweies-und-talgdrusen-2098"
+        "id": "2119",
+        "title": "Das endokrine System – Hormone und Signalwege",
+        "folder": "das-endokrine-system-hormone-und-signalwege-2119"
       },
       {
-        "id": "2099",
-        "title": "Die Plazenta – Lebensader des Ungeborenen",
-        "folder": "die-haut-tastsinn-und-rezeptoren-2099"
-      },
-      {
-        "id": "2100",
-        "title": "Hormone – die chemischen Botenstoffe",
-        "folder": "haut-als-barriere-erste-verteidigungslinie-2100"
-      },
-      {
-        "id": "2101",
-        "title": "Die Schilddrüse und Stoffwechselregulation",
-        "folder": "die-rolle-der-schleimhaute-2101"
+        "id": "2120",
+        "title": "Hormonsystem – Hypophyse und Schilddrüse",
+        "folder": "hormonsystem-hypophyse-und-schilddruse-2120"
       },
       {
         "id": "2720",
@@ -704,26 +734,6 @@ export const biologieTopics: Record<string, BiologieTopic> = {
       "Opiate & Stimulanzien: Heroin/Morphin (stark schmerzdämpfend, hohes Überdosierungsrisiko) vs. Kokain/Amphetamin (Euphorie, Herz-Kreislauf-Kollaps)"
     ],
     "exercises": [
-      {
-        "id": "2117",
-        "title": "Drogen – Arten und Wirkungen",
-        "folder": "die-funktion-der-lymphknoten-2117"
-      },
-      {
-        "id": "2118",
-        "title": "Alkohol und seine Wirkung auf den Körper",
-        "folder": "lymphsystem-lymphflussigkeit-und-immunabwehr-2-2118"
-      },
-      {
-        "id": "2119",
-        "title": "Nikotin und Rauchen – Risiken und Folgen",
-        "folder": "das-endokrine-system-hormone-und-signalwege-2119"
-      },
-      {
-        "id": "2120",
-        "title": "Cannabis – Wirkung und rechtliche Aspekte",
-        "folder": "hormonsystem-hypophyse-und-schilddruse-2120"
-      },
       {
         "id": "2150",
         "title": "Opiate - Heroin und Schmerzmittel",
@@ -887,6 +897,11 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "id": "2219",
         "title": "Samen und Keimung",
         "folder": "samen-und-keimung-2219"
+      },
+      {
+        "id": "wie-photosynthese",
+        "title": "Wie funktioniert die Photosynthese",
+        "folder": "wie-funktioniert-die-photosynthese"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=pflanzen+grundlagen+und+aufbau&t=3752"
@@ -1019,6 +1034,16 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "id": "2661",
         "title": "Gartenarbeit und Pflanzenpflege",
         "folder": "gartenarbeit-und-pflanzenpflege-2661"
+      },
+      {
+        "id": "2188",
+        "title": "Bambus – Schnellwachsend und vielseitig",
+        "folder": "bambus-schnellwachsend-und-vielseitig-2188"
+      },
+      {
+        "id": "2189",
+        "title": "Der Buchsbaum – Ein Klassiker im Garten",
+        "folder": "der-buchsbaum-ein-klassiker-im-garten-2189"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=nutzpflanzen+und+landwirtschaft&t=3752"
@@ -1563,16 +1588,6 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "folder": "die-robbe-3376"
       },
       {
-        "id": "1069",
-        "title": "Die Qualle - Nesseltiere",
-        "folder": "die-qualle-1069"
-      },
-      {
-        "id": "1080",
-        "title": "Tintenfisch und Weichtiere der Meere",
-        "folder": "tintenfisch-1080"
-      },
-      {
         "id": "4488",
         "title": "Leben im Wasser - Ozeane schützen & Arten retten",
         "folder": "global-goal-14-leben-im-wasser-ozeane-schutzen-arten-retten-4488"
@@ -1874,16 +1889,6 @@ export const biologieTopics: Record<string, BiologieTopic> = {
     ],
     "exercises": [
       {
-        "id": "2224",
-        "title": "Pflanzenzellen - Struktur und Funktionen",
-        "folder": "pflanzenzellen-struktur-und-funktionen-2224"
-      },
-      {
-        "id": "2225",
-        "title": "Pflanzengewebe - Epidermis, Grundgewebe, Leitgewebe",
-        "folder": "pflanzengewebe-epidermis-grundgewebe-leitgewebe-2225"
-      },
-      {
         "id": "5353",
         "title": "Die Geschichte der Biologie",
         "folder": "die-geschichte-der-biologie-5353"
@@ -2001,16 +2006,6 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "id": "2176",
         "title": "Biotechnologie - Anwendungen der Genetik",
         "folder": "biotechnologie-anwendungen-der-genetik-2176"
-      },
-      {
-        "id": "2177",
-        "title": "Genetische Variation und Anpassung",
-        "folder": "genetische-variation-und-anpassung-2177"
-      },
-      {
-        "id": "2178",
-        "title": "Mutationen - Veränderungen im Erbgut",
-        "folder": "mutationen-veranderungen-im-erbgut-2178"
       },
       {
         "id": "2179",
