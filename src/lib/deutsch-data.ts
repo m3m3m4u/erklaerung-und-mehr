@@ -81,6 +81,11 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "696",
         "title": "Grundwortarten Trainingsübung",
         "folder": "studypoint-multiple-choice-grundwortarten-696"
+      },
+      {
+        "id": "553",
+        "title": "Adjektiv",
+        "folder": "adjektiv-553"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Deutsche%20Grammatik%20Wortarten&t=284"
@@ -220,6 +225,11 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "wie-youtube-kanaele-beim-deutsch-lernen-helfen",
         "title": "Wie YouTube-Kanäle beim Deutsch-Lernen helfen",
         "folder": "wie-youtube-kanaele-beim-deutsch-lernen-helfen"
+      },
+      {
+        "id": "alemannisch",
+        "title": "Alemannische Dialekte",
+        "folder": "alemannische-dialekte"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Sprachwandel%20Dialekte%20Deutsch%20Herder&t=284"
@@ -427,6 +437,21 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "5355",
         "title": "Die Geschichte der deutschen Literatur",
         "folder": "die-geschichte-der-deutschen-literatur-5355"
+      },
+      {
+        "id": "6156",
+        "title": "Antigone von Sophokles",
+        "folder": "antigone-von-sophokles-6156"
+      },
+      {
+        "id": "6155",
+        "title": "Antigone von Sophokles - literarische Bedeutung",
+        "folder": "antigone-von-sophokles-literarische-bedeutung-6155"
+      },
+      {
+        "id": "6153",
+        "title": "Antigone von Sophokles - Bezug zur Gegenwart",
+        "folder": "antigone-von-sophokles-bezug-zur-gegenwart-6153"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Literaturepochen%20Barock%20Mittelalter%20Deutsch&t=284"
@@ -667,6 +692,16 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "schreiben-im-untergrund-literatur-gegen-die-nazis",
         "title": "Schreiben im Untergrund – Literatur gegen die Nazis",
         "folder": "schreiben-im-untergrund-literatur-gegen-die-nazis"
+      },
+      {
+        "id": "4597",
+        "title": "Anna Seghers",
+        "folder": "anna-seghers-4597"
+      },
+      {
+        "id": "3404",
+        "title": "Anna Seghers – Das siebte Kreuz",
+        "folder": "anna-seghers-das-siebte-kreuz-3404"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Expressionismus%20Exilliteratur%20Moderne&t=284"
@@ -944,6 +979,16 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "4531",
         "title": "Friedrich Schiller - Wallenstein",
         "folder": "friedrich-schiller-wallenstein-2-4531"
+      },
+      {
+        "id": "6196",
+        "title": "Die Jungfrau von Orleans - historischer Kontext",
+        "folder": "die-jungfrau-von-orleans-von-friedrich-schiller-historischer-kontext-6196"
+      },
+      {
+        "id": "6195",
+        "title": "Die Jungfrau von Orleans - Bezug zur Gegenwart",
+        "folder": "die-jungfrau-von-orleans-von-friedrich-schiller-bezug-zur-gegenwart-6195"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Schiller%20Dramen%20Raeuber%20Maria%20Stuart&t=284"
@@ -1235,6 +1280,16 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "anna-seghers-und-die-flucht-vor-den-nazis",
         "title": "Anna Seghers und die Flucht vor den Nazis",
         "folder": "anna-seghers-und-die-flucht-vor-den-nazis"
+      },
+      {
+        "id": "4596",
+        "title": "Alfred Döblin",
+        "folder": "alfred-doblin-4596"
+      },
+      {
+        "id": "3403",
+        "title": "Alfred Döblin – Berlin Alexanderplatz",
+        "folder": "alfred-doblin-berlin-alexanderplatz-3403"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Kafka%20Prozess%20Thomas%20Mann%20Buddenbrooks&t=284"
@@ -1288,6 +1343,21 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "bertolt-brecht-und-sein-theater-zum-mitdenken",
         "title": "Bertolt Brecht und sein Theater zum Mitdenken",
         "folder": "bertolt-brecht-und-sein-theater-zum-mitdenken"
+      },
+      {
+        "id": "1215",
+        "title": "Bertolt Brecht",
+        "folder": "bertolt-brecht-1215"
+      },
+      {
+        "id": "3409",
+        "title": "Bertolt Brecht - Leben des Galilei",
+        "folder": "bertolt-brecht-leben-des-galilei-3409"
+      },
+      {
+        "id": "3410",
+        "title": "Bertolt Brecht - Mutter Courage und ihre Kinder",
+        "folder": "bertolt-brecht-mutter-courage-und-ihre-kinder-3410"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Brecht%20Episches%20Theater%20Galilei%20Mutter%20Courage&t=284"

@@ -189,6 +189,11 @@ export const englischTopics: Record<string, EnglischTopic> = {
         "id": "369",
         "title": "Plural (Mehrzahlbildung)",
         "folder": "plural-mehrzahl-369"
+      },
+      {
+        "id": "370",
+        "title": "A or An - der unbestimmte Artikel",
+        "folder": "a-or-an-der-unbestimmte-artikel-370"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=English+Articles+Quantifiers&t=468"
@@ -386,6 +391,51 @@ export const englischTopics: Record<string, EnglischTopic> = {
         "id": "640",
         "title": "Music of the Modern Age",
         "folder": "music-of-the-modern-age-640"
+      },
+      {
+        "id": "606",
+        "title": "A Day in the Life (The Beatles)",
+        "folder": "a-day-in-the-life-the-beatles-606"
+      },
+      {
+        "id": "479",
+        "title": "Help! - The Beatles",
+        "folder": "help-the-beatles-479"
+      },
+      {
+        "id": "485",
+        "title": "I Want To Hold Your Hand - The Beatles",
+        "folder": "i-want-to-hold-your-hand-the-beatles-485"
+      },
+      {
+        "id": "491",
+        "title": "Lucy In The Sky With Diamonds - The Beatles",
+        "folder": "lucy-in-the-sky-with-diamonds-the-beatles-491"
+      },
+      {
+        "id": "613",
+        "title": "Bohemian Rhapsody (Queen)",
+        "folder": "bohemian-rhapsody-queen-2-613"
+      },
+      {
+        "id": "469",
+        "title": "Don't Stop Me Now - Queen",
+        "folder": "don-039-t-stop-me-now-queen-469"
+      },
+      {
+        "id": "616",
+        "title": "Dancing Queen (ABBA)",
+        "folder": "dancing-queen-abba-2-616"
+      },
+      {
+        "id": "459",
+        "title": "Africa - Toto",
+        "folder": "africa-toto-459"
+      },
+      {
+        "id": "480",
+        "title": "Hold the Line - Toto",
+        "folder": "hold-the-line-toto-480"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=History+of+Music+English&t=468"
