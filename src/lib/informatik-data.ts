@@ -642,11 +642,6 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         folder: "netzwerke-470"
       },
       {
-        id: "672",
-        title: "Kurs Netzwerke",
-        folder: "kurs-netzwerke-672"
-      },
-      {
         id: "cs-nw-1",
         title: "Wie funktioniert das WLAN",
         folder: "wie-funktioniert-das-wlan"
@@ -1141,11 +1136,6 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "folder": "wie-funktioniert-die-generierung-von-zufallszahlen"
       },
       {
-        id: "681",
-        title: "Kurs: Algorithmen und Programmiersprachen",
-        folder: "kurs-algorithmen-und-programmiersprachen-681"
-      },
-      {
         id: "cs-algo-1",
         title: "Vergleich von Algorithmen mit Kochrezepten",
         folder: "vergleich-von-algorithmen-mit-kochrezepten"
@@ -1622,11 +1612,6 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "id": "2729",
         "title": "Mobbing und Cybermobbing",
         "folder": "mobbing-und-cybermobbing-2729"
-      },
-      {
-        id: "676",
-        title: "Kurs Soziale Netzwerke",
-        folder: "kurs-soziale-netzwerke-676"
       },
       {
         id: "5851",
