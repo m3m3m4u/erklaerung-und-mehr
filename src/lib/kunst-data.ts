@@ -77,7 +77,17 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "title": "Reiterstandbild des Marcus Aurelius – Römische Plastik",
         "folder": "reiterstandbild-des-marcus-aurelius-unbekannter-kunstler-175-4734"
       }
-    ],
+    ,
+      {
+        "id": "2804",
+        "title": "Der Sieg von Samothrake (Nike von Samothrake)",
+        "folder": "der-sieg-von-samothrake-nike-von-samothrake-von-unbekannter-kunstler-ca-190-v-chr-2804"
+      },
+      {
+        "id": "2821",
+        "title": "Die Venus von Milo (Alexandros von Antiochien)",
+        "folder": "die-venus-von-milo-von-alexandros-von-antiochien-ca-130-100-v-chr-2821"
+      }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Antike+Kunst+Skulptur&t=3752"
   },
   "mittelalter-romanik-und-gotik": {
@@ -129,7 +139,12 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "title": "Der Fall des Ikarus – Pieter Bruegel der Ältere (ca. 1560)",
         "folder": "der-fall-des-ikarus-von-pieter-bruegel-der-ltere-ca-1560-2801"
       }
-    ],
+    ,
+      {
+        "id": "2800",
+        "title": "Der Engel der Verkündigung (Simone Martini)",
+        "folder": "der-engel-der-verkundigung-von-simone-martini-1333-2800"
+      }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Gotik+Romanik+Mittelalter&t=3752"
   },
   "renaissance-meister-und-florenz": {
@@ -181,7 +196,22 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "title": "Venus und Mars – Sandro Botticelli (1480)",
         "folder": "venus-und-mars-sandro-botticelli-1480-4750"
       }
-    ],
+    ,
+      {
+        "id": "2813",
+        "title": "Die Familie des Herzogs von Urbino (Piero della Francesca)",
+        "folder": "die-familie-des-herzogs-von-urbino-von-piero-della-francesca-ca-1472-2813"
+      },
+      {
+        "id": "2802",
+        "title": "Der Garten der Freuden (Hieronymus Bosch)",
+        "folder": "der-garten-der-freuden-von-hieronymus-bosch-ca-1490-1510-2802"
+      },
+      {
+        "id": "2807",
+        "title": "Der Triumph des Todes (Pieter Bruegel d. Ä.)",
+        "folder": "der-triumph-des-todes-von-pieter-bruegel-der-ltere-1562-2807"
+      }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Renaissance+Duerer+Botticelli&t=3752"
   },
   "leonardo-da-vinci-und-universalgenies": {
@@ -223,7 +253,17 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "title": "Madonna Litta – Leonardo da Vinci (1490)",
         "folder": "madonna-litta-leonardo-da-vinci-1490-4724"
       }
-    ],
+    ,
+      {
+        "id": "2828",
+        "title": "Mona Lisa (Leonardo da Vinci)",
+        "folder": "mona-lisa-von-leonardo-da-vinci-1503-1517-2828"
+      },
+      {
+        "id": "2797",
+        "title": "Das Abendmahl (Leonardo da Vinci)",
+        "folder": "das-abendmahl-von-leonardo-da-vinci-ca-1495-1498-2797"
+      }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Leonardo+da+Vinci+Mona+Lisa&t=3752"
   },
   "michelangelo-raffael-und-hochrenaissance": {
@@ -290,7 +330,12 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "title": "Madonna della Seggiola – Raffael (1559)",
         "folder": "madonna-della-seggiola-raffael-1559-4723"
       }
-    ],
+    ,
+      {
+        "id": "2811",
+        "title": "Die Erschaffung von Eva (Michelangelo)",
+        "folder": "die-erschaffung-von-eva-von-michelangelo-1510-1512-2811"
+      }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Michelangelo+Raffael+Sixtinische+Kapelle&t=3752"
   },
   "venezianische-malerei-und-manierismus": {
@@ -395,7 +440,17 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "title": "Las Meninas – Diego Velázquez (1656)",
         "folder": "las-meninas-diego-velazquez-1656-4721"
       }
-    ],
+    ,
+      {
+        "id": "2809",
+        "title": "Die Entführung der Sabinerinnen (Nicolas Poussin)",
+        "folder": "die-entfuhrung-der-sabinerinnen-von-nicolas-poussin-1634-1635-2809"
+      },
+      {
+        "id": "2819",
+        "title": "Die Rettung der Andromeda (Pierre Mignard)",
+        "folder": "die-rettung-der-andromeda-von-pierre-mignard-1679-2819"
+      }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Barock+Caravaggio+Bernini&t=3752"
   },
   "goldenes-zeitalter-der-niederlande": {
@@ -462,7 +517,17 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "title": "Schloss Nymphenburg – Barockes Gesamtkunstwerk",
         "folder": "schloss-nymphenburg-ein-barockes-meisterwerk"
       }
-    ],
+    ,
+      {
+        "id": "2808",
+        "title": "Die Anatomie des Dr. Nicolaes Tulp (Rembrandt van Rijn)",
+        "folder": "die-anatomie-des-dr-nicolaes-tulp-von-rembrandt-van-rijn-1632-2808"
+      },
+      {
+        "id": "2798",
+        "title": "Das Mädchen mit dem Perlenohrring (Johannes Vermeer)",
+        "folder": "das-madchen-mit-dem-perlenohrring-von-johannes-vermeer-ca-1665-2798"
+      }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Rembrandt+Vermeer+Rokoko&t=3752"
   },
   "klassizismus-und-historienmalerei": {
@@ -504,7 +569,12 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "title": "Die Krönung Napoleons – Jacques-Louis David (1807)",
         "folder": "die-kronung-napoleons-jacques-louis-david-1807-4701"
       }
-    ],
+    ,
+      {
+        "id": "2805",
+        "title": "Der Sturm auf die Bastille (Jean-Pierre Houël)",
+        "folder": "der-sturm-auf-die-bastille-von-jean-pierre-houel-1789-2805"
+      }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Klassizismus+Jacques-Louis+David&t=3752"
   },
   "romantik-und-landschaftsmalerei": {
@@ -623,7 +693,17 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "title": "Die Kunstepoche Symbolismus",
         "folder": "die-kunstepoche-symbolismus-4790"
       }
-    ],
+    ,
+      {
+        "id": "2815",
+        "title": "Die Freiheit führt das Volk (Eugène Delacroix)",
+        "folder": "die-freiheit-fuhrt-das-volk-von-eugene-delacroix-1830-2815"
+      },
+      {
+        "id": "2814",
+        "title": "Die Felswand (Gustave Courbet)",
+        "folder": "die-felswand-von-gustave-courbet-1864-2814"
+      }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Realismus+Goya+Delacroix+Rodin&t=3752"
   },
   "impressionismus-und-lichtmalerei": {
@@ -732,7 +812,12 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "title": "Die Kunstepoche Postimpressionismus",
         "folder": "die-kunstepoche-postimpressionismus-4782"
       }
-    ],
+    ,
+      {
+        "id": "4664",
+        "title": "A Sunday Afternoon on the Island of La Grande Jatte (Georges Seurat)",
+        "folder": "a-sunday-afternoon-on-the-island-of-la-grande-jatte-georges-seurat-1886-4664"
+      }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Pointillismus+Degas+Renoir+Seurat&t=3752"
   },
   "paul-cezanne-und-paul-gauguin": {
@@ -878,7 +963,12 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "title": "Selbstbildnis mit Zauberhut – Ernst Ludwig Kirchner (1913)",
         "folder": "selbstbildnis-mit-zauberhut-ernst-ludwig-kirchner-1913-4743"
       }
-    ],
+    ,
+      {
+        "id": "2820",
+        "title": "Die traurige Göttin (Edvard Munch)",
+        "folder": "die-traurige-gottin-von-edvard-munch-1894-2820"
+      }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Expressionismus+Klimt+Munch+Schiele&t=3752"
   },
   "der-blaue-reiter-und-abstraktion": {
@@ -930,7 +1020,12 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "title": "Amedeo Modigliani – Porträts und Eleganz",
         "folder": "amedeo-modigliani-1355"
       }
-    ],
+    ,
+      {
+        "id": "2806",
+        "title": "Der Tanz (Henri Matisse)",
+        "folder": "der-tanz-von-henri-matisse-1910-2806"
+      }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Kandinsky+Franz+Marc+Matisse&t=3752"
   },
   "pablo-picasso-und-kubismus": {
@@ -982,7 +1077,12 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "title": "Die weinende Frau – Pablo Picasso (1937)",
         "folder": "die-weinende-frau-pablo-picasso-1937-4705"
       }
-    ],
+    ,
+      {
+        "id": "2825",
+        "title": "Guernica (Pablo Picasso)",
+        "folder": "guernica-von-pablo-picasso-1937-2825"
+      }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Picasso+Kubismus+Guernica&t=3752"
   },
   "dada-und-surrealismus": {
@@ -1118,7 +1218,12 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "title": "Amerikanische Gotik – Grant Wood (1930)",
         "folder": "amerikanische-gotik-grant-wood-1930-4665"
       }
-    ],
+    ,
+      {
+        "id": "2795",
+        "title": "Amerikanische Gottheit / American Gothic (Grant Wood)",
+        "folder": "amerikanische-gottheit-von-grant-wood-1930-2795"
+      }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Bauhaus+Mondrian+Konstruktivismus&t=3752"
   },
   "abstrakter-expressionismus-und-pop-art": {
@@ -1191,7 +1296,22 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "title": "Blue Divided by Blue – Ellsworth Kelly (1963)",
         "folder": "ohne-titel-blue-divided-by-blue-von-ellsworth-kelly-1963-2831"
       }
-    ],
+    ,
+      {
+        "id": "2823",
+        "title": "Excavation (Willem de Kooning)",
+        "folder": "excavation-von-willem-de-kooning-1950-2823"
+      },
+      {
+        "id": "2796",
+        "title": "Broken Obelisk (Barnett Newman)",
+        "folder": "broken-obelisk-von-barnett-newman-1963-1967-2796"
+      },
+      {
+        "id": "2824",
+        "title": "Flag (Jasper Johns)",
+        "folder": "flag-von-jasper-johns-1954-1955-2824"
+      }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Pop+Art+Warhol+Pollock+Basquiat&t=3752"
   },
   "zeitgenoessische-kunst-street-art-und-medien": {
