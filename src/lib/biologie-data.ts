@@ -96,6 +96,26 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "id": "geschmack",
         "title": "Wie funktioniert die Geschmackswahrnehmung",
         "folder": "wie-funktioniert-die-geschmackswahrnehmung"
+      },
+      {
+        id: "bio-so-1",
+        title: "Wie funktioniert das menschliche Auge (Sehen)",
+        folder: "wie-funktioniert-das-menschliche-auge-sehen"
+      },
+      {
+        id: "bio-so-2",
+        title: "Wie funktioniert der Geruchssinn",
+        folder: "wie-funktioniert-der-geruchssinn"
+      },
+      {
+        id: "bio-so-3",
+        title: "Wie funktioniert die Geschmackswahrnehmung",
+        folder: "wie-funktioniert-die-geschmackswahrnehmung"
+      },
+      {
+        id: "2104",
+        title: "Die Zunge – Geschmackssinn und Geschmacksknospen",
+        folder: "die-zunge-geschmacksinn-und-knospen-2104"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=sinnesorgane+des+menschen&t=3752"
@@ -153,6 +173,16 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "id": "herzschrittmacher",
         "title": "Wie funktioniert ein Herzschrittmacher?",
         "folder": "wie-funktioniert-ein-herzschrittmacher"
+      },
+      {
+        id: "bio-hk-1",
+        title: "Wie funktioniert die Blutgerinnung",
+        folder: "wie-funktioniert-die-blutgerinnung"
+      },
+      {
+        id: "bio-hk-2",
+        title: "Wie funktioniert die Bluttransfusion",
+        folder: "wie-funktioniert-die-bluttransfusion"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=herz+und+blutkreislauf&t=3752"
@@ -224,6 +254,41 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "id": "5138",
         "title": "Alkoholische Gärung",
         "folder": "alkoholische-garung-5138"
+      },
+      {
+        id: "2113",
+        title: "Verdauungstrakt: Mund und Speiseröhre",
+        folder: "verdauungstrakt-mund-und-speiserohre-2113"
+      },
+      {
+        id: "2114",
+        title: "Verdauungstrakt: Magen und Darm",
+        folder: "verdauungstrakt-magen-und-darm-2114"
+      },
+      {
+        id: "2111",
+        title: "Wie funktionieren die Nieren?",
+        folder: "wie-funktionieren-die-nieren-2111"
+      },
+      {
+        id: "631",
+        title: "Aufbau und Funktion der Bauchspeicheldrüse",
+        folder: "sprechende-bauchspeicheldruse-631"
+      },
+      {
+        id: "634",
+        title: "Aufbau und Funktion des Magens",
+        folder: "sprechender-magen-634"
+      },
+      {
+        id: "633",
+        title: "Aufbau und Funktion des Dünndarms",
+        folder: "sprechender-dunndarm-633"
+      },
+      {
+        id: "635",
+        title: "Aufbau und Funktion des Dickdarms",
+        folder: "sprechender-dickdarm-635"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=verdauung+und+stoffwechsel&t=3752"
@@ -270,6 +335,11 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "id": "5171",
         "title": "Luftschadstoffe und Lungenbelastung",
         "folder": "luftschadstoffe-5171"
+      },
+      {
+        id: "2122",
+        title: "Funktionen der Lunge und Gasaustausch",
+        folder: "funktionen-der-lunge-2122"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=atmung+und+lunge&t=3752"
@@ -316,6 +386,16 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "id": "2841",
         "title": "Doping, Muskelermüdung und Fair Play",
         "folder": "ethik-im-sport-doping-und-fair-play-2841"
+      },
+      {
+        id: "2124",
+        title: "Muskulatur: Skelettmuskeln und glatte Muskeln",
+        folder: "muskulatur-skelettmuskeln-und-glatte-muskeln-2124"
+      },
+      {
+        id: "bio-sm-1",
+        title: "Wie funktioniert ein Muskel",
+        folder: "wie-funktioniert-ein-muskel"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=skelett+und+muskeln&t=3752"
@@ -469,6 +549,46 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "id": "2118",
         "title": "Lymphsystem – Lymphflüssigkeit und Immunabwehr",
         "folder": "alkohol-und-seine-wirkung-auf-den-korper-2118"
+      },
+      {
+        id: "bio-im-1",
+        title: "Wie funktioniert das Immunsystem",
+        folder: "wie-funktioniert-das-immunsystem"
+      },
+      {
+        id: "2085",
+        title: "Wie Antikörper funktionieren",
+        folder: "wie-antikorper-funktionieren-2085"
+      },
+      {
+        id: "2169",
+        title: "T-Zellen und B-Zellen – Die Abwehrspezialisten",
+        folder: "t-zellen-und-b-zellen-die-abwehrspezialisten-2169"
+      },
+      {
+        id: "2168",
+        title: "Thymus – Entwicklung und Reifung der T-Zellen",
+        folder: "thymus-entwicklung-der-t-zellen-2168"
+      },
+      {
+        id: "2081",
+        title: "Die Rolle der Milz im Immunsystem",
+        folder: "die-rolle-der-milz-im-immunsystem-2081"
+      },
+      {
+        id: "2101",
+        title: "Die Rolle der Schleimhäute bei der Immunabwehr",
+        folder: "die-rolle-der-schleimhaute-2101"
+      },
+      {
+        id: "2100",
+        title: "Haut als Barriere – Erste Verteidigungslinie",
+        folder: "haut-als-barriere-erste-verteidigungslinie-2100"
+      },
+      {
+        id: "2082",
+        title: "Immunsystem und Stress",
+        folder: "immunsystem-und-stress-2082"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=immunsystem+und+abwehr&t=3752"
@@ -598,6 +718,31 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "id": "2148",
         "title": "Hepatitis - A, B und C",
         "folder": "hepatitis-a-b-und-c-2148"
+      },
+      {
+        id: "bio-inf-1",
+        title: "Wie funktioniert die Impfung",
+        folder: "wie-funktioniert-die-impfung"
+      },
+      {
+        id: "2086",
+        title: "Wie Impfungen funktionieren (Aktive & passive Immunisierung)",
+        folder: "wie-impfungen-funktionieren-2086"
+      },
+      {
+        id: "2134",
+        title: "Impfkalender – Wichtige Schutzimpfungen",
+        folder: "impfkalender-wichtige-impfungen-2134"
+      },
+      {
+        id: "2144",
+        title: "HIV und AIDS – Wirkung auf das Immunsystem",
+        folder: "hiv-und-aids-wirkung-auf-das-immunsystem-2144"
+      },
+      {
+        id: "2084",
+        title: "Kinderkrankheiten und Immunsystem",
+        folder: "kinderkrankheiten-und-immunsystem-2084"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=infektionskrankheiten+und+medizin&t=3752"
@@ -902,6 +1047,46 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "id": "wie-photosynthese",
         "title": "Wie funktioniert die Photosynthese",
         "folder": "wie-funktioniert-die-photosynthese"
+      },
+      {
+        id: "2224",
+        title: "Pflanzenzellen – Struktur und Funktionen",
+        folder: "pflanzenzellen-struktur-und-funktionen-2224"
+      },
+      {
+        id: "2225",
+        title: "Pflanzengewebe: Epidermis, Grundgewebe, Leitgewebe",
+        folder: "pflanzengewebe-epidermis-grundgewebe-leitgewebe-2225"
+      },
+      {
+        id: "2227",
+        title: "Transpiration – Der Wassertransport in Pflanzen",
+        folder: "transpiration-der-wassertransport-in-pflanzen-2227"
+      },
+      {
+        id: "bio-pl-1",
+        title: "Wie funktioniert die Photosynthese",
+        folder: "wie-funktioniert-die-photosynthese"
+      },
+      {
+        id: "bio-pl-2",
+        title: "Photosynthese in Pflanzen (Lichtreaktion & Calvin-Zyklus)",
+        folder: "wie-funktioniert-die-photosynthese-in-pflanzen"
+      },
+      {
+        id: "4495",
+        title: "Pflanzen nutzen Sonnenlicht – Licht wird zu Nahrung",
+        folder: "pflanzen-nutzen-sonnenlicht-licht-wird-zu-nahrung-4495"
+      },
+      {
+        id: "2229",
+        title: "Pflanzenkrankheiten: Pilze, Bakterien, Viren",
+        folder: "pflanzenkrankheiten-pilze-bakterien-viren-2229"
+      },
+      {
+        id: "2230",
+        title: "Schädlinge und Pflanzenschutz",
+        folder: "schadlinge-und-pflanzenschutz-2230"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=pflanzen+grundlagen+und+aufbau&t=3752"
@@ -1186,6 +1371,16 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "id": "2223",
         "title": "Einkeimblättrige und Zweikeimblättrige Pflanzen",
         "folder": "einkeimblattrige-und-zweikeimblattrige-pflanzen-2223"
+      },
+      {
+        id: "2222",
+        title: "Familien der Blütenpflanzen",
+        folder: "familien-der-blutenpflanzen-2222"
+      },
+      {
+        id: "2219",
+        title: "Samen und Keimung",
+        folder: "samen-und-keimung-2219"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=bluetenpflanzen+und+blumen&t=3752"
@@ -1228,6 +1423,11 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "id": "2217",
         "title": "Der Farn - ein Überlebenskünstler der Wälder",
         "folder": "der-farn-ein-berlebenskunstler-der-walder-2217"
+      },
+      {
+        id: "1084",
+        title: "Pilze (Fungi) – Aufbau und Lebensweise",
+        folder: "pilze-1084"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=pilze+moose+und+farne&t=3752"
@@ -1703,6 +1903,16 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "id": "3388",
         "title": "Der Emu",
         "folder": "der-emu-3388"
+      },
+      {
+        id: "1422",
+        title: "Die Vögel – Anatomie und Flugfähigkeit",
+        folder: "die-vogel-1422"
+      },
+      {
+        id: "1420",
+        title: "Die Zugvögel – Routen und Orientierung",
+        folder: "die-zugvogel-1420"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=zugvoegel+und+exotische+voegel&t=3752"
@@ -1871,6 +2081,21 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "id": "1145",
         "title": "Der Krebs",
         "folder": "der-krebs-video-fehlt-1145"
+      },
+      {
+        id: "1423",
+        title: "Die Wirbeltiere im Überblick",
+        folder: "die-wirbeltiere-1423"
+      },
+      {
+        id: "1080",
+        title: "Der Tintenfisch (Kopffüßer & Weichtiere)",
+        folder: "tintenfisch-1080"
+      },
+      {
+        id: "1079",
+        title: "Die Vogelspinne (Spinnentiere)",
+        folder: "die-vogelspinne-1079"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=spinnentiere+krebse+und+wirbellose&t=3752"
@@ -1969,6 +2194,51 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "id": "5357",
         "title": "Die Geschichte der Genetik",
         "folder": "die-geschichte-der-genetik-5357"
+      },
+      {
+        id: "3245",
+        title: "DNA – Träger der Erbinformation",
+        folder: "dna-3245"
+      },
+      {
+        id: "2165",
+        title: "DNA-Replikation – Kopieren der Erbinformation",
+        folder: "dna-replikation-kopieren-der-erbinformation-2165"
+      },
+      {
+        id: "bio-gen-1",
+        title: "Molekularer Ablauf der DNA-Replikation",
+        folder: "wie-funktioniert-die-dna-replikation"
+      },
+      {
+        id: "2172",
+        title: "Mendelsche Vererbungslehre (Uniformität, Spaltung, Neukombination)",
+        folder: "mendelsche-vererbungslehre-2172"
+      },
+      {
+        id: "3914",
+        title: "Gregor Mendel und seine Kreuzungsexperimente",
+        folder: "gregor-mendel-3914"
+      },
+      {
+        id: "2097",
+        title: "Geschlechtschromosomen – Karyotyp XX und XY",
+        folder: "geschlechtschromosomen-xx-und-xy-2097"
+      },
+      {
+        id: "2178",
+        title: "Mutationen – Veränderungen im Erbgut",
+        folder: "mutationen-veranderungen-im-erbgut-2178"
+      },
+      {
+        id: "2171",
+        title: "Epigenetik – Genregulation jenseits der DNA-Sequenz",
+        folder: "epigenetik-vererbung-jenseits-der-dna-2171"
+      },
+      {
+        id: "4296",
+        title: "Thomas Hunt Morgan und die Chromosomentheorie",
+        folder: "thomas-hunt-morgan-4296"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=genetik+dna+und+vererbung&t=3752"
@@ -2082,6 +2352,16 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "id": "5760",
         "title": "Einführung in die Evolutionspsychologie",
         "folder": "einfuhrung-in-evolutionspsychologie-5760"
+      },
+      {
+        id: "6723",
+        title: "Schöpfung und Evolution im Vergleich",
+        folder: "schopfung-und-evolution-6723"
+      },
+      {
+        id: "5760",
+        title: "Evolutionsbiologie und Verhaltensanpassungen",
+        folder: "einfuhrung-in-evolutionspsychologie-5760"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=evolution+und+stammesgeschichte&t=3752"
@@ -2159,6 +2439,11 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "id": "2027",
         "title": "Der tropische Regenwald - Schichten und Artenvielfalt",
         "folder": "der-tropische-regenwald-2027"
+      },
+      {
+        id: "4498",
+        title: "Ökologischer Wasserkreislauf",
+        folder: "wasser-im-kreislauf-regen-fluss-und-meer-4498"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=oekologie+und+lebensraeume&t=3752"
