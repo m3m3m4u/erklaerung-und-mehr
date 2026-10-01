@@ -1009,6 +1009,21 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "aut-st-22",
         "title": "Feldkirchen in Kärnten – Tor zum Tiebel- und Glantal",
         "folder": "feldkirchen-in-karnten-1629"
+      },
+      {
+        "id": "aut-st-23",
+        "title": "Perchtoldsdorf – Marktgemeinde und Weinhauerort bei Wien",
+        "folder": "perchtoldsdorf-1826"
+      },
+      {
+        "id": "aut-st-24",
+        "title": "Ternitz – Industriestadt im Schwarzatal",
+        "folder": "ternitz-1889"
+      },
+      {
+        "id": "aut-st-25",
+        "title": "Telfs – Marktgemeinde im Tiroler Oberinntal",
+        "folder": "telfs-1888"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=staedte+oesterreich&t=3752"
