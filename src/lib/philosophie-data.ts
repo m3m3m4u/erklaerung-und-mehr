@@ -166,8 +166,18 @@ export const philosophieTopics: Record<string, PhilosophieTopic> = {
             "id": "5890",
             "title": "Skeptizismus und Zweifel",
             "folder": "skeptizismus-und-zweifel-5890"
+      },
+      {
+        id: "3909",
+        title: "Gottfried Wilhelm Leibniz",
+        folder: "gottfried-wilhelm-leibniz-3909"
+      },
+      {
+        id: "5869",
+        title: "Philosophie des Zweifels",
+        folder: "philosophie-des-zweifels-5869"
       }
-],
+    ],
     worksheetLink: "https://eduki.com/de/autor/1430402/about-the-world-org?query=Descartes+Cogito+Rationalismus&t=3752"
   },
   "immanuel-kant-und-die-aufklaerung": {
@@ -208,8 +218,13 @@ export const philosophieTopics: Record<string, PhilosophieTopic> = {
             "id": "5901",
             "title": "Transzendentale Bedingungen der Erfahrung",
             "folder": "transzendentale-bedingungen-der-erfahrung-5901"
+      },
+      {
+        id: "1424",
+        title: "Immanuel Kant",
+        folder: "immanuel-kant-1424"
       }
-],
+    ],
     worksheetLink: "https://eduki.com/de/autor/1430402/about-the-world-org?query=Immanuel+Kant+Aufklaerung&t=3752"
   },
   "deutscher-idealismus-und-dialektik": {
@@ -329,8 +344,18 @@ export const philosophieTopics: Record<string, PhilosophieTopic> = {
             "id": "5853",
             "title": "Phänomenologie und Existenzialismus",
             "folder": "phanomenologie-und-existenzialismus-5853"
+      },
+      {
+        id: "4009",
+        title: "Jean-Paul Sartre",
+        folder: "jean-paul-sartre-4009"
+      },
+      {
+        id: "5853",
+        title: "Phänomenologie und Existenzialismus",
+        folder: "phanomenologie-und-existenzialismus-5853"
       }
-],
+    ],
     worksheetLink: "https://eduki.com/de/autor/1430402/about-the-world-org?query=Existenzialismus+Sartre+Camus&t=3752"
   },
   "existenzphilosophie-zeit-und-endlichkeit": {
@@ -365,8 +390,23 @@ export const philosophieTopics: Record<string, PhilosophieTopic> = {
             "id": "5836",
             "title": "Menschliche Existenz analysieren",
             "folder": "menschliche-existenz-analysieren-5836"
+      },
+      {
+        id: "5854",
+        title: "Philosophie der Existenz",
+        folder: "philosophie-der-existenz-5854"
+      },
+      {
+        id: "5917",
+        title: "Zeit und Existenz",
+        folder: "zeit-und-existenz-5917"
+      },
+      {
+        id: "5918",
+        title: "Zeitphilosophie und Historie",
+        folder: "zeitphilosophie-und-historie-5918"
       }
-],
+    ],
     worksheetLink: "https://eduki.com/de/autor/1430402/about-the-world-org?query=Heidegger+Zeit+Endlichkeit+Philosophie&t=3752"
   },
   "philosophische-anthropologie-geist-und-bewusstsein": {
@@ -402,8 +442,33 @@ export const philosophieTopics: Record<string, PhilosophieTopic> = {
             "id": "5868",
             "title": "Philosophie des Selbst und der Identität",
             "folder": "philosophie-des-selbst-5868"
+      },
+      {
+        id: "5877",
+        title: "Philosophische Anthropologie Grundlagen",
+        folder: "philosophische-anthropologie-grundlagen-5877"
+      },
+      {
+        id: "5866",
+        title: "Philosophie des Geistes",
+        folder: "philosophie-des-geistes-5866"
+      },
+      {
+        id: "5870",
+        title: "Philosophie und Bewusstsein",
+        folder: "philosophie-und-bewusstsein-5870"
+      },
+      {
+        id: "5868",
+        title: "Philosophie des Selbst",
+        folder: "philosophie-des-selbst-5868"
+      },
+      {
+        id: "5836",
+        title: "Menschliche Existenz analysieren",
+        folder: "menschliche-existenz-analysieren-5836"
       }
-],
+    ],
     worksheetLink: "https://eduki.com/de/autor/1430402/about-the-world-org?query=Philosophische+Anthropologie+Geist+Bewusstsein&t=3752"
   },
   "erkenntnistheorie-und-konstruktivismus": {
@@ -439,8 +504,33 @@ export const philosophieTopics: Record<string, PhilosophieTopic> = {
             "id": "5830",
             "title": "Kritik philosophischer Dogmen",
             "folder": "kritik-philosophischer-dogmen-5830"
+      },
+      {
+        id: "5782",
+        title: "Erfahrung und Erkenntnis (Empirismus vs. Rationalismus)",
+        folder: "erfahrung-und-erkenntnis-5782"
+      },
+      {
+        id: "5803",
+        title: "Grenzen der Erkenntnis",
+        folder: "grenzen-der-erkenntnis-5803"
+      },
+      {
+        id: "5809",
+        title: "Grundlagen der Erkenntnistheorie",
+        folder: "grundlagen-der-erkenntnistheorie-5809"
+      },
+      {
+        id: "5822",
+        title: "Konstruktivismus in Erkenntnistheorie",
+        folder: "konstruktivismus-in-erkenntnistheorie-5822"
+      },
+      {
+        id: "5884",
+        title: "Pragmatismus und Wahrheit",
+        folder: "pragmatismus-und-wahrheit-5884"
       }
-],
+    ],
     worksheetLink: "https://eduki.com/de/autor/1430402/about-the-world-org?query=Erkenntnistheorie+Konstruktivismus&t=3752"
   },
   "philosophische-logik-und-analytische-philosophie": {
@@ -481,8 +571,18 @@ export const philosophieTopics: Record<string, PhilosophieTopic> = {
             "id": "5902",
             "title": "Unendlichkeit und Unendliches",
             "folder": "unendlichkeit-und-unendliches-5902"
+      },
+      {
+        id: "5879",
+        title: "Philosophische Logik verstehen",
+        folder: "philosophische-logik-verstehen-5879"
+      },
+      {
+        id: "5891",
+        title: "Sprachphilosophie und Logik",
+        folder: "sprachphilosophie-und-logik-5891"
       }
-],
+    ],
     worksheetLink: "https://eduki.com/de/autor/1430402/about-the-world-org?query=Philosophische+Logik+Analytische+Philosophie&t=3752"
   },
   "wissenschaftstheorie-und-technikphilosophie": {
@@ -528,8 +628,28 @@ export const philosophieTopics: Record<string, PhilosophieTopic> = {
             "id": "5871",
             "title": "Philosophie und Digitalisierung",
             "folder": "philosophie-und-digitalisierung-5871"
+      },
+      {
+        id: "5915",
+        title: "Wissenschaft und Philosophie",
+        folder: "wissenschaft-und-philosophie-5915"
+      },
+      {
+        id: "5876",
+        title: "Philosophie und Wissenschaftstheorie",
+        folder: "philosophie-und-wissenschaftstheorie-5876"
+      },
+      {
+        id: "5862",
+        title: "Philosophie der Technik",
+        folder: "philosophie-der-technik-5862"
+      },
+      {
+        id: "5863",
+        title: "Philosophie der Wissenschaft",
+        folder: "philosophie-der-wissenschaft-5863"
       }
-],
+    ],
     worksheetLink: "https://eduki.com/de/autor/1430402/about-the-world-org?query=Wissenschaftstheorie+Popper+Technikphilosophie&t=3752"
   },
   "moralphilosophie-und-ethische-theorien": {
@@ -580,8 +700,53 @@ export const philosophieTopics: Record<string, PhilosophieTopic> = {
             "id": "5844",
             "title": "Moral und Ethik – Grundbegriffe",
             "folder": "moral-und-ethik-5844"
+      },
+      {
+        id: "2787",
+        title: "Die Theorie des Konsequentialismus",
+        folder: "die-theorie-des-konsequentialismus-2787"
+      },
+      {
+        id: "4462",
+        title: "Utilitarismus",
+        folder: "utilitarismus-4462"
+      },
+      {
+        id: "4459",
+        title: "Tugendethik",
+        folder: "tugendethik-4459"
+      },
+      {
+        id: "5930",
+        title: "Grundlagen der Tugendethik",
+        folder: "grundlagen-der-tugendethik-5930"
+      },
+      {
+        id: "5845",
+        title: "Moralische Dilemmata analysieren",
+        folder: "moralische-dilemmata-analysieren-5845"
+      },
+      {
+        id: "5846",
+        title: "Moralische Philosophie-Ansätze",
+        folder: "moralische-philosophie-ansatze-5846"
+      },
+      {
+        id: "5859",
+        title: "Philosophie der Moralität",
+        folder: "philosophie-der-moralitat-5859"
+      },
+      {
+        id: "4453",
+        title: "Recht und Moral",
+        folder: "recht-und-moral-4453"
+      },
+      {
+        id: "4468",
+        title: "Wahrheit, Notlügen und Lügen",
+        folder: "wahrheit-notlugen-und-lugen-4468"
       }
-],
+    ],
     worksheetLink: "https://eduki.com/de/autor/1430402/about-the-world-org?query=Moralphilosophie+Normative+Ethik&t=3752"
   },
   "angewandte-philosophische-ethik": {
@@ -632,8 +797,23 @@ export const philosophieTopics: Record<string, PhilosophieTopic> = {
             "id": "5787",
             "title": "Ethik in der Politik",
             "folder": "ethik-in-der-politik-5787"
+      },
+      {
+        id: "5916",
+        title: "Wissenschaftsethik und Moral",
+        folder: "wissenschaftsethik-und-moral-5916"
+      },
+      {
+        id: "2744",
+        title: "Psychologische Forschungsethik",
+        folder: "psychologische-forschungsethik-2744"
+      },
+      {
+        id: "2860",
+        title: "Medienethik und Fake News",
+        folder: "medienethik-und-fake-news-2860"
       }
-],
+    ],
     worksheetLink: "https://eduki.com/de/autor/1430402/about-the-world-org?query=Angewandte+Ethik+Verantwortung&t=3752"
   },
   "staatsphilosophie-und-vertragstheorien": {
@@ -674,8 +854,58 @@ export const philosophieTopics: Record<string, PhilosophieTopic> = {
             "id": "5855",
             "title": "Philosophie der Freiheit",
             "folder": "philosophie-der-freiheit-5855"
+      },
+      {
+        id: "2788",
+        title: "Die Theorie des Kontraktualismus",
+        folder: "die-theorie-des-kontraktualismus-2788"
+      },
+      {
+        id: "4448",
+        title: "Kontraktualismus (Vertragstheorie)",
+        folder: "kontraktualismus-vertragstheorie-4448"
+      },
+      {
+        id: "3594",
+        title: "Theorien des Staates (Hobbes, Locke, Rousseau, Marx, Weber)",
+        folder: "theorien-des-staates-staatsverstandnisse-von-hobbes-locke-rousseau-marx-weber-3594"
+      },
+      {
+        id: "4437",
+        title: "Gerechtigkeit",
+        folder: "gerechtigkeit-4437"
+      },
+      {
+        id: "5800",
+        title: "Gerechtigkeit und Menschenwürde",
+        folder: "gerechtigkeit-und-menschenwurde-5800"
+      },
+      {
+        id: "4472",
+        title: "Widerstand gegen Ungerechtigkeit",
+        folder: "widerstand-gegen-ungerechtigkeit-4472"
+      },
+      {
+        id: "2363",
+        title: "Jean-Jacques Rousseau",
+        folder: "jean-jacques-rousseau-2363"
+      },
+      {
+        id: "4029",
+        title: "John Locke",
+        folder: "john-locke-4029"
+      },
+      {
+        id: "5856",
+        title: "Philosophie der Gerechtigkeit",
+        folder: "philosophie-der-gerechtigkeit-5856"
+      },
+      {
+        id: "5882",
+        title: "Politische Philosophie Grundlagen",
+        folder: "politische-philosophie-grundlagen-5882"
       }
-],
+    ],
     worksheetLink: "https://eduki.com/de/autor/1430402/about-the-world-org?query=Staatsphilosophie+Gesellschaftsvertrag+Rawls&t=3752"
   },
   "sozialphilosophie-und-gesellschaftskritik": {
@@ -716,8 +946,33 @@ export const philosophieTopics: Record<string, PhilosophieTopic> = {
             "id": "5874",
             "title": "Philosophie und Politik",
             "folder": "philosophie-und-politik-5874"
+      },
+      {
+        id: "2786",
+        title: "Die Theorie des Kommunitarismus",
+        folder: "die-theorie-des-kommunitarismus-2786"
+      },
+      {
+        id: "4365",
+        title: "Jürgen Habermas",
+        folder: "jurgen-habermas-4365"
+      },
+      {
+        id: "5801",
+        title: "Gesellschaftskritische Philosophie-Ansätze",
+        folder: "gesellschaftskritische-philosophie-ansatze-5801"
+      },
+      {
+        id: "3589",
+        title: "Soziale Gerechtigkeit",
+        folder: "soziale-gerechtigkeit-3589"
+      },
+      {
+        id: "2853",
+        title: "Gender-Gerechtigkeit und Gleichstellung",
+        folder: "gender-gerechtigkeit-und-gleichstellung-2853"
       }
-],
+    ],
     worksheetLink: "https://eduki.com/de/autor/1430402/about-the-world-org?query=Gesellschaftskritik+Feminismus+Philosophie&t=3752"
   },
   "sprachphilosophie-hermeneutik-und-postmoderne": {
@@ -763,8 +1018,28 @@ export const philosophieTopics: Record<string, PhilosophieTopic> = {
             "id": "5837",
             "title": "Metaphern in der Philosophie",
             "folder": "metaphern-in-der-philosophie-5837"
+      },
+      {
+        id: "4053",
+        title: "Ludwig Wittgenstein",
+        folder: "ludwig-wittgenstein-4053"
+      },
+      {
+        id: "5861",
+        title: "Philosophie der Sprache",
+        folder: "philosophie-der-sprache-5861"
+      },
+      {
+        id: "5883",
+        title: "Postmoderne philosophische Perspektiven",
+        folder: "postmoderne-philosophische-perspektiven-5883"
+      },
+      {
+        id: "5896",
+        title: "Strukturalismus in Philosophie",
+        folder: "strukturalismus-in-philosophie-5896"
       }
-],
+    ],
     worksheetLink: "https://eduki.com/de/autor/1430402/about-the-world-org?query=Sprachphilosophie+Wittgenstein+Hermeneutik&t=3752"
   },
   "aesthetik-kunst-und-kulturphilosophie": {
@@ -820,8 +1095,33 @@ export const philosophieTopics: Record<string, PhilosophieTopic> = {
             "id": "5857",
             "title": "Philosophie der Geschichte",
             "folder": "philosophie-der-geschichte-5857"
+      },
+      {
+        id: "2780",
+        title: "Die Natur des Schönen",
+        folder: "die-natur-des-schonen-2780"
+      },
+      {
+        id: "5744",
+        title: "Ästhetik und Kunstphilosophie",
+        folder: "sthetik-und-kunstphilosophie-5744"
+      },
+      {
+        id: "5834",
+        title: "Kulturphilosophie und Identität",
+        folder: "kulturphilosophie-und-identitat-5834"
+      },
+      {
+        id: "5848",
+        title: "Musikphilosophie und Klang",
+        folder: "musikphilosophie-und-klang-5848"
+      },
+      {
+        id: "5833",
+        title: "Kulturelle Philosophie-Perspektiven",
+        folder: "kulturelle-philosophie-perspektiven-5833"
       }
-],
+    ],
     worksheetLink: "https://eduki.com/de/autor/1430402/about-the-world-org?query=Aesthetik+Kunstphilosophie+Kulturphilosophie&t=3752"
   },
   "religionsphilosophie-und-metaphysik": {
@@ -867,8 +1167,28 @@ export const philosophieTopics: Record<string, PhilosophieTopic> = {
             "id": "5842",
             "title": "Mittelalterliche Theologie und Philosophie",
             "folder": "mittelalterliche-theologie-und-philosophie-5842"
+      },
+      {
+        id: "2772",
+        title: "Die Existenz Gottes und Gottesbeweise",
+        folder: "die-existenz-gottes-und-gottesbeweise-2-2772"
+      },
+      {
+        id: "6649",
+        title: "Gott in der Philosophie",
+        folder: "gott-in-der-philosophie-6649"
+      },
+      {
+        id: "5838",
+        title: "Metaphysik und Ontologie",
+        folder: "metaphysik-und-ontologie-5838"
+      },
+      {
+        id: "5887",
+        title: "Religionsphilosophie und Theologie",
+        folder: "religionsphilosophie-und-theologie-5887"
       }
-],
+    ],
     worksheetLink: "https://eduki.com/de/autor/1430402/about-the-world-org?query=Religionsphilosophie+Gottesbeweise+Theodizee&t=3752"
   },
   "philosophische-lebenskunst-und-methodik": {
@@ -934,8 +1254,28 @@ export const philosophieTopics: Record<string, PhilosophieTopic> = {
             "id": "6390",
             "title": "Philosophie in der Schweiz",
             "folder": "philosophie-in-der-schweiz-6390"
+      },
+      {
+        id: "5872",
+        title: "Philosophie und Lebenskunst",
+        folder: "philosophie-und-lebenskunst-5872"
+      },
+      {
+        id: "5880",
+        title: "Philosophische Methodik Grundlagen",
+        folder: "philosophische-methodik-grundlagen-5880"
+      },
+      {
+        id: "5941",
+        title: "Ideengeschichte der Philosophie",
+        folder: "ideengeschichte-der-philosophie-5941"
+      },
+      {
+        id: "5804",
+        title: "Grundfragen der Philosophie",
+        folder: "grundfragen-der-philosophie-5804"
       }
-],
+    ],
     worksheetLink: "https://eduki.com/de/autor/1430402/about-the-world-org?query=Philosophische+Lebenskunst+Methodik&t=3752"
   }
 };
