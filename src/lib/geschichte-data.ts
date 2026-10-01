@@ -93,6 +93,12 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "title": "Fruhgeschichte und entwicklung der erde",
         "folder": "fruhgeschichte-und-entwicklung-der-erde-3359"
       }
+    ,
+      {
+        "id": "hist-urg-1",
+        "title": "Afrika – Die Wiege der Menschheit",
+        "folder": "afrika-die-wiege-der-menschheit-3082"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Steinzeit%20%26%20Fr%C3%BChe%20Menschheitsentwicklung+geschichte&t=3752"
   },
@@ -180,6 +186,17 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "2303",
         "title": "Das chinesische Kaiserreich",
         "folder": "das-chinesische-kaiserreich-2303"
+      }
+    ,
+      {
+        "id": "hist-hk-1",
+        "title": "Frühe Hochkulturen der Menschheit",
+        "folder": "hochkulturen-2-5398"
+      },
+      {
+        "id": "hist-hk-2",
+        "title": "Die Indus-Kultur – Frühe Hochkultur in Südasien",
+        "folder": "die-indus-kultur-3164"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Das%20alte%20%C3%84gypten%20%26%20Fr%C3%BChe%20Hochkulturen+geschichte&t=3752"
@@ -474,6 +491,17 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "title": "Was wäre, wenn das Römische Reich nie gefallen wäre –",
         "folder": "was-ware-wenn-das-romische-reich-immer-noch-existieren-wurde-5403"
       }
+    ,
+      {
+        "id": "hist-rom-1",
+        "title": "Pompeji und der Ausbruch des Vesuvs (79 n. Chr.)",
+        "folder": "pompeij-und-der-vesuv-3267"
+      },
+      {
+        "id": "hist-rom-2",
+        "title": "Die Römische Armee – Legionen und Disziplin",
+        "folder": "die-romische-armee-1367"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Roemisches+Kaiserreich+Limes&t=3752"
   },
@@ -504,6 +532,12 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "3159",
         "title": "Die Burgunden",
         "folder": "die-burgunden-3159"
+      }
+    ,
+      {
+        "id": "hist-kelt-1",
+        "title": "Die Kelten – Stammesgesellschaft und Kunst",
+        "folder": "die-kelten-2-3166"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=kelten&t=3752"
@@ -575,6 +609,42 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "title": "Das Mittelalter",
         "folder": "das-mittelalter-5333"
       }
+    ,
+      {
+        "id": "hist-vw-1",
+        "title": "Die Völkerwanderung – Ursachen und Verlauf",
+        "folder": "die-volkerwanderung-2989"
+      },
+      {
+        "id": "hist-vw-2",
+        "title": "Völkerwanderung – Reiche der Germanen",
+        "folder": "die-volkerwanderung-2-5385"
+      },
+      {
+        "id": "hist-fr-1",
+        "title": "Das Frankenreich – Von Chlodwig zu den Karolingern",
+        "folder": "die-franken-3161"
+      },
+      {
+        "id": "hist-got-1",
+        "title": "Die Goten – Ostgoten und Westgoten",
+        "folder": "die-goten-3163"
+      },
+      {
+        "id": "hist-alm-1",
+        "title": "Die Alamannen – Siedlungsgeschichte im Südwesten",
+        "folder": "die-alemannen-3156"
+      },
+      {
+        "id": "hist-lang-1",
+        "title": "Die Langobarden – Von Pannonien nach Italien",
+        "folder": "die-langobarden-3167"
+      },
+      {
+        "id": "hist-de-ma",
+        "title": "Deutschland im Mittelalter – Herrschaft und Alltag",
+        "folder": "deutschland-im-mittelalter"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=St%C3%A4ndegesellschaft%20%26%20Alltag%20im%20Mittelalter+geschichte&t=3752"
   },
@@ -612,6 +682,12 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "3178",
         "title": "Sprache und Schrift der Germanen",
         "folder": "sprache-und-schrift-der-germanen-3178"
+      }
+    ,
+      {
+        "id": "hist-wik-1",
+        "title": "Die Wikinger – Seefahrt, Raubzüge und Handel",
+        "folder": "die-wikinger-2993"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Rittertum%2C%20Burgen%20%26%20Ritterausbildung+geschichte&t=3752"
@@ -753,7 +829,18 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "2650",
         "title": "Die Ottonen – Herrschaft und Kaisertum im Mittelalter",
         "folder": "buddhismus-in-der-modernen-welt-31-2650"
-      }],
+      },
+      {
+        "id": "hist-kz-1",
+        "title": "Die Kreuzzüge – Glaubenskriege im Heiligen Land",
+        "folder": "die-kreuzzuge-2345"
+      },
+      {
+        "id": "hist-bab-1",
+        "title": "Die Babenberger – Erstes Herrschergeschlecht Österreichs",
+        "folder": "die-babenberger-3089"
+      }
+    ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Kirche%2C%20Kl%C3%B6ster%2C%20Kaiser%20%26%20Kreuzz%C3%BCge+geschichte&t=3752"
   },
   "schwarzer-tod-die-pest": {
@@ -796,7 +883,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "lebensweise-der-germanen-3177"
       },
       {
-        "id": "3342",
+        "id": "2342",
         "title": "Die Inquisition",
         "folder": "die-inquisition-2342"
       }
@@ -874,6 +961,17 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "3356",
         "title": "Gesellschaftliche und soziale Umwälzungen in der frühen Neuzeit",
         "folder": "gesellschaftliche-und-soziale-umwalzungen-in-der-fruhen-neuzeit-3356"
+      }
+    ,
+      {
+        "id": "hist-k5-1",
+        "title": "Das Weltreich Karls V. – Reich ohne Sonnenuntergang",
+        "folder": "das-weltreich-von-karl-v-2909"
+      },
+      {
+        "id": "hist-k5-2",
+        "title": "Kaiser Karl V. – Herrscher zwischen Reformation und Reich",
+        "folder": "karl-v-3025"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Renaissance%2C%20Humanismus%20%26%20Buchdruck+geschichte&t=3752"
@@ -957,7 +1055,13 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "2354",
         "title": "Die Seidenstraße: Historischer Handels- und Kulturweg",
         "folder": "die-nuklearkatastrophe-von-tschernobyl-8-2354"
-      }],
+      },
+      {
+        "id": "hist-ent-1",
+        "title": "Die erste Weltumsegelung – Ferdinand Magellan",
+        "folder": "die-erste-weltumsegelung-2-5344"
+      }
+    ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Zeitalter+der+Entdeckungen+Kolumbus&t=3752"
   },
   "reformation-und-dreissigjaehriger-krieg": {
@@ -1031,6 +1135,12 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "2912",
         "title": "Der Augsburger Religionsfriede",
         "folder": "der-augsburger-religionsfriede-2912"
+      }
+    ,
+      {
+        "id": "hist-tb-1",
+        "title": "Die Wiener Türkenbelagerungen (1529 & 1683)",
+        "folder": "die-wiener-turkenbelagerungen-888"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Reformation%2C%20Glaubensspaltung%20%26%20Drei%C3%9Figj%C3%A4hriger%20Krieg+geschichte&t=3752"
@@ -1193,7 +1303,13 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "701",
         "title": "Ablauf der Französischen Revolution",
         "folder": "studypoint-zusammenfassung-ablauf-der-revolution-701"
-      }],
+      },
+      {
+        "id": "hist-rev-1",
+        "title": "Der Sturm auf die Bastille (14. Juli 1789)",
+        "folder": "die-franzosische-revolution-2-bastille-2-3261"
+      }
+    ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Franzoesische+Revolution+1789&t=3752"
   },
   "napoleon-bonaparte-und-wiener-kongress": {
@@ -1415,9 +1531,68 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "title": "Schweizer Garde - Geschichte und Aufgaben",
         "folder": "schweizer-garde-geschichte-und-aufgaben-6724"
       }
+    ,
+      {
+        "id": "hist-ch-1",
+        "title": "Geschichte der Schweiz – Vom Bundesbrief zur Moderne",
+        "folder": "geschichte-der-schweiz-5389"
+      },
+      {
+        "id": "hist-ch-2",
+        "title": "Die Schweizer Eidgenossenschaft im historischen Überblick",
+        "folder": "die-geschichte-der-schweiz-2954"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=schweizer+geschichte&t=3752"
   },
+  "geschichte-der-usa": {
+    "slug": "geschichte-der-usa",
+    "title": "Geschichte der USA: Unabhängigkeit, Bürgerkrieg & Weltmacht",
+    "category": "Frühe Neuzeit & Revolutionen",
+    "shortDesc": "Amerikanischer Unabhängigkeitskrieg, Verfassung, George Washington, Sezessionskrieg, Abraham Lincoln und Native Americans.",
+    "longDesc": "Die Geschichte der Vereinigten Staaten von Amerika reicht von den indigenen Kulturen über die Kolonialzeit und die Unabhängigkeitserklärung 1776 bis hin zum Amerikanischen Bürgerkrieg und dem Aufstieg zur globalen Supermacht im 20. Jahrhundert.",
+    "keyPoints": [
+      "Unabhängigkeitserklärung 1776: Loslösung von Großbritannien und erste moderne Demokratie",
+      "Gründungsväter & Verfassung: George Washington als erster Präsident und Prinzip der Gewaltenteilung",
+      "Amerikanischer Bürgerkrieg (1861–1865): Konflikt zwischen Nord- und Südstaaten und Abschaffung der Sklaverei unter Abraham Lincoln",
+      "Schicksal der indigenen Völker (Native Americans) im Zuge der Westexpansion",
+      "Aufstieg zur wirtschaftlichen und militärischen Führungsmacht im 20. Jahrhundert"
+    ],
+    "exercises": [
+      {
+        "id": "hist-usa-1",
+        "title": "Die Unabhängigkeit der USA (1776)",
+        "folder": "die-unabhangigkeit-der-usa-2984"
+      },
+      {
+        "id": "hist-usa-2",
+        "title": "George Washington – Erster Präsident der USA",
+        "folder": "george-washington-3002"
+      },
+      {
+        "id": "hist-usa-3",
+        "title": "Der Amerikanische Bürgerkrieg (1861–1865)",
+        "folder": "der-amerikanische-burgerkrieg-743"
+      },
+      {
+        "id": "hist-usa-4",
+        "title": "Abraham Lincoln – Befreiung der Sklaven & Präsidentschaft",
+        "folder": "abraham-lincoln-2885"
+      },
+      {
+        "id": "hist-usa-5",
+        "title": "Die Native Americans – Ureinwohner Nordamerikas",
+        "folder": "die-native-americans-in-den-usa-2967"
+      },
+      {
+        "id": "hist-usa-6",
+        "title": "Bedeutende Präsidenten der USA im Überblick",
+        "folder": "wichtige-prasidenten-der-usa-3338"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=geschichte+usa&t=3752"
+  },
+
   "industrielle-revolution-und-soziale-frage": {
     "slug": "industrielle-revolution-und-soziale-frage",
     "title": "Industrielle Revolution & die Soziale Frage",
@@ -1555,6 +1730,17 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "title": "Die Julirevolution",
         "folder": "die-julirevolution-2343"
       }
+    ,
+      {
+        "id": "hist-zv-1",
+        "title": "Der Deutsche Zollverein 1834 – Wegbereiter der Einheit",
+        "folder": "der-deutsche-zollverein-3087"
+      },
+      {
+        "id": "hist-bm-1",
+        "title": "Die Biedermeierzeit – Bürgerkultur zwischen Restauration und Zensur",
+        "folder": "die-biedermeierzeit-3158"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Vorm%C3%A4rz%20%26%20Die%20Revolution%20von%201848%2F49+geschichte&t=3752"
   },
@@ -1631,6 +1817,22 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "4152",
         "title": "Otto von Bismarck (2)",
         "folder": "otto-von-bismarck-2-4152"
+      }
+    ,
+      {
+        "id": "hist-kg-1",
+        "title": "Schlacht bei Königgrätz 1866 – Deutscher Krieg",
+        "folder": "schlacht-bei-koniggratz-ursachen-verlauf-und-folgen-3057"
+      },
+      {
+        "id": "hist-hz-1",
+        "title": "Die Hohenzollern – Preußens Dynastie und Deutsche Kaiser",
+        "folder": "die-hohenzoller-3090"
+      },
+      {
+        "id": "hist-ris-1",
+        "title": "Das Risorgimento – Die nationale Einigung Italiens",
+        "folder": "die-nationale-einigung-italiens-2966"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Otto%20von%20Bismarck%20%26%20Das%20Deutsche%20Kaiserreich+geschichte&t=3752"
@@ -1750,7 +1952,38 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "3033",
         "title": "Mahatma Gandhi und die Unabhängigkeit Indiens",
         "folder": "mahatma-gandhi-und-die-unabhangigkeit-indiens-3033"
-      }],
+      },
+      {
+        "id": "hist-imp-1",
+        "title": "Imperialismus im 19. und 20. Jahrhundert",
+        "folder": "imperialismus-346"
+      },
+      {
+        "id": "hist-imp-2",
+        "title": "Imperialismus und Wettlauf um Kolonien",
+        "folder": "imperialismus-2-3347"
+      },
+      {
+        "id": "hist-bemp-1",
+        "title": "Das Britische Empire – Weltreich des Imperialismus",
+        "folder": "das-britische-empire-2-5330"
+      },
+      {
+        "id": "hist-entk-1",
+        "title": "Die Entkolonialisierung in Afrika",
+        "folder": "die-entkolonialisierung-in-afrika-2944"
+      },
+      {
+        "id": "hist-entk-2",
+        "title": "Die Entkolonialisierung in Asien",
+        "folder": "die-entkolonialisierung-in-asien-2945"
+      },
+      {
+        "id": "hist-entk-3",
+        "title": "Die Entkolonialisierung in Südamerika",
+        "folder": "die-entkolonialisierung-in-sudamerika-2946"
+      }
+    ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Kolonialismus+Imperialismus&t=3752"
   },
   "das-kaisertum-oesterreich-und-die-habsburger": {
@@ -1817,7 +2050,18 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "3311",
         "title": "Die Kaiser von Österreich (Franz I. bis Karl I.)",
         "folder": "kaiser-von-sterreich-3311"
-      }],
+      },
+      {
+        "id": "hist-oe-1",
+        "title": "Kaiserin Elisabeth (Sisi) von Österreich-Ungarn",
+        "folder": "elisabeth-von-sterreich-ungarn-2996"
+      },
+      {
+        "id": "hist-oe-2",
+        "title": "Das Kaisertum Österreich (1804–1867)",
+        "folder": "das-sterreichische-kaiserreich-5334"
+      }
+    ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Habsburger+Kaisertum+Oesterreich&t=3752"
   },
   "oesterreich-ungarn-vielvoelkerstaat-und-regionalgeschichte": {
@@ -2084,7 +2328,13 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "3326",
         "title": "Die Weimarer Republik – Entstehung & Verfassung",
         "folder": "die-weimarer-republik-2-3326"
-      }],
+      },
+      {
+        "id": "hist-wr-1",
+        "title": "Ausrufung der Republik 1918 – Ende der Monarchie",
+        "folder": "ausrufung-der-republik-1918-3266"
+      }
+    ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Die%20Weimarer%20Republik%20%26%20Krisenjahre+geschichte&t=3752"
   },
   "zwischenkriegszeit-und-diktaturen-in-europa": {
@@ -2174,7 +2424,28 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "2352",
         "title": "Die Russische Revolution (1917)",
         "folder": "die-nuklearkatastrophe-von-tschernobyl-6-2352"
-      }],
+      },
+      {
+        "id": "hist-zk-1",
+        "title": "Die Schattendorfer Vorfälle 1927 – Eskalation der Ersten Republik",
+        "folder": "kampfe-von-schattendorf-3028"
+      },
+      {
+        "id": "hist-zk-2",
+        "title": "Die Vaterländische Front – Ständestaat in Österreich",
+        "folder": "die-vaterlandische-front-2987"
+      },
+      {
+        "id": "hist-zk-3",
+        "title": "Karl Renner – Staatskanzler der Republik Österreich",
+        "folder": "karl-renner-3024"
+      },
+      {
+        "id": "hist-zk-4",
+        "title": "Kurt Schuschnigg – Bundeskanzler vor dem Anschluss 1938",
+        "folder": "kurt-schuschnigg-3027"
+      }
+    ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Zwischenkriegszeit%20%26%20Faschismus%20in%20Europa+geschichte&t=3752"
   },
   "weimarer-republik-und-grossstadtkrisen": {
@@ -2204,6 +2475,17 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "3081",
         "title": "Der Gemeindebau - sozialer Wohnbau in Wien",
         "folder": "arbeitslosigkeit-nach-dem-ersten-weltkrieg-12-3081"
+      }
+    ,
+      {
+        "id": "hist-wr-2",
+        "title": "Massenarbeitslosigkeit und soziale Krisen nach 1918",
+        "folder": "arbeitslosigkeit-nach-dem-ersten-weltkrieg-2889"
+      },
+      {
+        "id": "hist-wr-3",
+        "title": "Arbeitslosigkeit nach dem Ersten Weltkrieg – Vertiefung",
+        "folder": "arbeitslosigkeit-nach-dem-ersten-weltkrieg-9-3078"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=weimarer+republik&t=3752"
@@ -2315,7 +2597,28 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "2895",
         "title": "Bücherverbrennung und Berufsverbote 1933",
         "folder": "berufsverbot-und-bucherverbrennung-im-ns-2895"
-      }],
+      },
+      {
+        "id": "hist-ns-1",
+        "title": "Propaganda der NSDAP – Methoden der Beeinflussung",
+        "folder": "propaganda-der-nsdap-3051"
+      },
+      {
+        "id": "hist-ns-2",
+        "title": "Kraft durch Freude (KdF) – Organisation der Freizeit im NS-Staat",
+        "folder": "kraft-durch-freude-kdf-3026"
+      },
+      {
+        "id": "hist-ns-3",
+        "title": "Der Reichsarbeitsdienst (RAD) im NS-Staat",
+        "folder": "der-reichsarbeitsdienst-2924"
+      },
+      {
+        "id": "hist-ns-4",
+        "title": "Die Olympischen Spiele 1936 in Berlin als Propagandabühne",
+        "folder": "die-olympischen-spiele-1936-2970"
+      }
+    ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Machtergreifung%2C%20NS-Ideologie%20%26%20F%C3%BChrerstaat+geschichte&t=3752"
   },
   "der-zweite-weltkrieg-weg-in-den-krieg-und-blitzkriege": {
@@ -2398,7 +2701,13 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "2362",
         "title": "Hitlers Außenpolitik und Kriegsvorbereitung",
         "folder": "hitlers-auesenpolitik-2362"
-      }],
+      },
+      {
+        "id": "hist-zw-1",
+        "title": "Der Weg in den Zweiten Weltkrieg – Hitlers Aggressionspolitik",
+        "folder": "der-weg-in-den-zweiten-weltkrieg-2-3307"
+      }
+    ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Zweiter+Weltkrieg+Blitzkrieg+1939&t=3752"
   },
   "der-zweite-weltkrieg-wendepunkte-und-kriegsende": {
@@ -2491,7 +2800,18 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "697",
         "title": "Zweiter Weltkrieg: Wendepunkte & Chronologie (Quiz)",
         "folder": "studypoint-multiple-choice-zweiter-weltkrieg-697"
-      }],
+      },
+      {
+        "id": "hist-zw-2",
+        "title": "Moskauer Deklaration 1943 & Konferenz von Jalta 1945",
+        "folder": "die-moskauer-deklaration-und-die-konferenz-in-jalta-2965"
+      },
+      {
+        "id": "hist-zw-3",
+        "title": "Kriegsende 1945 – Kapitulation und weltweite Folgen",
+        "folder": "ende-und-folgen-des-zweiten-weltkriegs-3320"
+      }
+    ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Zweiter+Weltkrieg+Stalingrad+DDay&t=3752"
   },
   "der-holocaust-und-die-judenverfolgung": {
@@ -2654,7 +2974,13 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "3064",
         "title": "Flucht und Vertreibung nach 1945",
         "folder": "vertreibung-nach-dem-zweiten-weltkrieg-3064"
-      }],
+      },
+      {
+        "id": "hist-nk-1",
+        "title": "Deutschland nach 1945 – Potsdamer Konferenz und Besatzung",
+        "folder": "deutschland-nach-dem-2-wk-3328"
+      }
+    ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Nachkriegszeit%2C%20Stunde%20Null%20%26%20Besatzungszonen+geschichte&t=3752"
   },
   "der-kalte-krieg-ost-west-konflikt": {
@@ -2747,7 +3073,18 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "2347",
         "title": "Die Nuklearkatastrophe von Tschernobyl (1986)",
         "folder": "die-nuklearkatastrophe-von-tschernobyl-2347"
-      }],
+      },
+      {
+        "id": "hist-kk-1",
+        "title": "Die Kubakrise 1962 – Die Welt am Rande des Atomkriegs",
+        "folder": "die-kubakrise-2963"
+      },
+      {
+        "id": "hist-kk-2",
+        "title": "Supermächte im Kalten Krieg: USA vs. Sowjetunion",
+        "folder": "usa-gegen-sowjetunion-3340"
+      }
+    ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Kalter+Krieg+Kubakrise+NATO&t=3752"
   },
   "globale-stellvertreterkriege-und-brennpunkte": {
@@ -2829,7 +3166,13 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "3337",
         "title": "Kriege der USA nach 1945: Korea und Vietnam",
         "folder": "kriege-der-usa-nach-dem-zweiten-weltkrieg-3337"
-      }],
+      },
+      {
+        "id": "hist-uno-1",
+        "title": "Die Vereinten Nationen (UNO) – Gründung und Friedensmission",
+        "folder": "die-geschichte-der-vereinten-nationen-5365"
+      }
+    ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Stellvertreterkriege+Vietnam+Korea&t=3752"
   },
   "leben-in-der-ddr-und-der-mauerbau": {
@@ -2974,7 +3317,13 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "brd-seit-1990",
         "title": "Geschichte Deutschlands seit der Wiedervereinigung",
         "folder": "geschichte-deutschlands-seit-1990"
-      }],
+      },
+      {
+        "id": "hist-fr-ev",
+        "title": "Der Fall des Eisernen Vorhangs 1989",
+        "folder": "der-fall-des-eisernen-vorhangs-2-5338"
+      }
+    ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Friedliche%20Revolution%20%26%20Wiedervereinigung%201989%2F90+geschichte&t=3752"
   },
   "islamische-revolution-und-nahostkonflikte": {
@@ -3040,7 +3389,18 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "3345",
         "title": "Kriege und Konflikte im 21. Jahrhundert",
         "folder": "kriege-und-krisen-im-21-jahrhundert-3345"
-      }],
+      },
+      {
+        "id": "hist-nah-1",
+        "title": "Die Beziehungen der USA zu Israel im Nahostkonflikt",
+        "folder": "die-beziehung-der-usa-mit-israel-5426"
+      },
+      {
+        "id": "hist-nah-2",
+        "title": "Israel und Iran – Entstehung der Feindschaft",
+        "folder": "warum-israel-und-iran-feinde-sind-5429"
+      }
+    ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=nahostkonflikt&t=3752"
   },
   "oesterreich-nachkriegszeit-und-nationalfeiertag": {
