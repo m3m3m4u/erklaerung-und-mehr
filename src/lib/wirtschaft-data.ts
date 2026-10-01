@@ -100,7 +100,17 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "title": "Strukturwandel vom Bergbau zur Dienstleistung",
         "folder": "strukturwandel-vom-bergbau-zur-dienstleistung"
       }
-    ],
+    ,
+      {
+        "id": "603",
+        "title": "Wirtschaftssektoren (Primär, Sekundär, Tertiär)",
+        "folder": "lerninhalt-wirtschaftssektoren-603"
+      },
+      {
+        "id": "606",
+        "title": "Produkte der Wirtschaft & Güterarten",
+        "folder": "lerninhalt-produkte-der-wirtschaft-606"
+      }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=ökonomisches+prinzip+bedürfnisse&t=3752"
   },
   "sozialversicherungen-und-soziale-sicherung": {
@@ -161,7 +171,12 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "title": "Private Haftpflichtversicherung als Basisschutz",
         "folder": "private-haftpflichtversicherung-als-basisschutz"
       }
-    ],
+    ,
+      {
+        "id": "3479",
+        "title": "Arbeitslosigkeit – Gründe und Folgen",
+        "folder": "arbeitslosigkeit-grunde-und-folgen-3479"
+      }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=sozialversicherung&t=3752"
   },
   "wirtschaftsordnungen-marktwirtschaft-und-planwirtschaft": {
@@ -217,7 +232,27 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "title": "Escape Room: Wirtschaftsformen",
         "folder": "escape-room-quot-wirtschaftsformen-quot-3185"
       }
-    ],
+    ,
+      {
+        "id": "987",
+        "title": "Freie Marktwirtschaft",
+        "folder": "freie-marktwirtschaft-987"
+      },
+      {
+        "id": "986",
+        "title": "Planwirtschaft",
+        "folder": "planwirtschaft-986"
+      },
+      {
+        "id": "988",
+        "title": "Wirtschaftskrise",
+        "folder": "wirtschaftskrise-988"
+      },
+      {
+        "id": "989",
+        "title": "Konjunktur und Konjunkturzyklen",
+        "folder": "konjunktur-989"
+      }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=marktwirtschaft+planwirtschaft&t=3752"
   },
   "soziale-marktwirtschaft-in-deutschland": {
@@ -376,7 +411,22 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "title": "Angebotsmonopol 3: Grafische Gewinnmaximierung (Stückbetrachtung)",
         "folder": "angebotsmonopol-3-grafische-gewinnmaximierung-stuckbetrachtung-2879"
       }
-    ],
+    ,
+      {
+        "id": "1135",
+        "title": "Marktformen (Monopol, Oligopol, Polypol)",
+        "folder": "marktformen-1135"
+      },
+      {
+        "id": "2876",
+        "title": "Polypol auf dem vollkommenen Markt",
+        "folder": "polypol-auf-dem-vollkommenen-markt-2876"
+      },
+      {
+        "id": "preistreiber",
+        "title": "Miet-Wahnsinn in der City – Preistreiber in Städten",
+        "folder": "miet-wahnsinn-in-der-city-die-wahren-preistreiber-in-unseren-staedten"
+      }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Markt%2C%20Angebot%2C%20Nachfrage%20%26%20Preisbildung+wirtschaft&t=3752"
   },
   "geld-funktionen-und-zahlungssysteme": {
@@ -452,7 +502,27 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "title": "Wie funktioniert das Bankensystem",
         "folder": "wie-funktioniert-das-bankensystem"
       }
-    ],
+    ,
+      {
+        "id": "948",
+        "title": "Banken & das Kreditsystem",
+        "folder": "banken-948"
+      },
+      {
+        "id": "5397",
+        "title": "Geschichte von Bank und Börse",
+        "folder": "geschichte-von-bank-und-borse-5397"
+      },
+      {
+        "id": "922",
+        "title": "Kryptowährungen (Bitcoin & Blockchain)",
+        "folder": "kryptowahrungen-922"
+      },
+      {
+        "id": "krypto-falle",
+        "title": "Krypto-Falle für Anfänger – Risiken digitaler Währungen",
+        "folder": "krypto-falle-fuer-anfaenger-das-riskante-spiel-junger-anleger-mit-digitalem-gold"
+      }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Geld%2C%20Bankensystem%20%26%20Zahlungsverkehr+wirtschaft&t=3752"
   },
   "ezb-bundesbank-und-geldpolitik": {
@@ -529,7 +599,17 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "title": "Die Inflation und ihre Folgen",
         "folder": "die-inflation-und-ihre-folgen-6600"
       }
-    ],
+    ,
+      {
+        "id": "3507",
+        "title": "Die Deutsche Bundesbank",
+        "folder": "die-deutsche-bundesbank-3507"
+      },
+      {
+        "id": "1136",
+        "title": "Inflation & Geldwert",
+        "folder": "inflation-1136"
+      }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=EZB%2C%20Geldpolitik%2C%20Inflation%20%26%20Deflation+wirtschaft&t=3752"
   },
   "aktien-fonds-etfs-und-boerse": {
@@ -605,7 +685,12 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "title": "Escape Room: Bank und Börse",
         "folder": "escape-room-quot-bank-und-borse-quot-3194"
       }
-    ],
+    ,
+      {
+        "id": "906",
+        "title": "Aktien & Wertpapiere",
+        "folder": "aktien-906"
+      }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Wertpapiere%2C%20Aktien%2C%20ETFs%20%26%20B%C3%B6rsenhandel+wirtschaft&t=3752"
   },
   "kredite-schulden-und-verbraucherfinanzen": {
@@ -748,7 +833,27 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "title": "Ursachen und Treiber der Globalisierung",
         "folder": "ursachen-und-treiber-der-globalisierung"
       }
-    ],
+    ,
+      {
+        "id": "5367",
+        "title": "Die Geschichte des Handels",
+        "folder": "die-geschichte-des-handels-5367"
+      },
+      {
+        "id": "5497",
+        "title": "Globalisierte Produktion – Wie Unternehmen agieren",
+        "folder": "globalisierte-produktion-wie-unternehmen-international-agieren-5497"
+      },
+      {
+        "id": "5498",
+        "title": "Globalisierung und ihre Auswirkungen auf lokale Wirtschaften",
+        "folder": "globalisierung-und-ihre-auswirkungen-auf-lokale-wirtschaften-5498"
+      },
+      {
+        "id": "3551",
+        "title": "Kinderarbeit weltweit & Lieferketten",
+        "folder": "kinderarbeit-weltweit-3551"
+      }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Globalisierung%2C%20Welthandel%20%26%20Globale%20Lieferketten+wirtschaft&t=3752"
   },
   "freihandel-protektionismus-und-organisationen": {
@@ -825,7 +930,37 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "title": "Zölle und Auswirkungen auf die Wirtschaft",
         "folder": "zolle-und-auswirkungen-auf-die-wirtschaft-4661"
       }
-    ],
+    ,
+      {
+        "id": "3522",
+        "title": "Die Weltbank",
+        "folder": "die-weltbank-3522"
+      },
+      {
+        "id": "3533",
+        "title": "Freihandel vs. Protektionismus",
+        "folder": "freihandel-vs-protektionismus-3533"
+      },
+      {
+        "id": "3534",
+        "title": "Freihandelszonen",
+        "folder": "freihandelszonen-3534"
+      },
+      {
+        "id": "3546",
+        "title": "Internationale Handelsabkommen",
+        "folder": "internationale-handelsabkommen-3546"
+      },
+      {
+        "id": "3584",
+        "title": "Rolle der G20 in der Weltwirtschaft",
+        "folder": "rolle-der-g20-in-der-weltwirtschaft-3584"
+      },
+      {
+        "id": "3599",
+        "title": "Wirtschaftsbeziehungen zwischen Deutschland und China",
+        "folder": "wirtschaftsbeziehungen-zwischen-deutschland-und-china-3599"
+      }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Freihandel%2C%20Protektionismus%20%26%20WTO%2C%20IWF%2C%20Weltbank+wirtschaft&t=3752"
   },
   "nachhaltiges-wirtschaften-und-klimawandel": {
@@ -907,7 +1042,12 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "title": "Zero Waste Strategien in der Produktion",
         "folder": "zero-waste-strategien-in-der-produktion"
       }
-    ],
+    ,
+      {
+        "id": "6452",
+        "title": "CO₂-Bepreisung & ökologische Marktwirtschaft",
+        "folder": "co-bepreisung-6452"
+      }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Nachhaltigkeit%2C%20Kreislaufwirtschaft%20%26%20CSR+wirtschaft&t=3752"
   },
   "migration-und-weltwirtschaft": {
@@ -1357,7 +1497,27 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "title": "Wirtschaftsmotor Start-up – Warum junge Gründer unsere Zukunft retten",
         "folder": "wirtschaftsmotor-start-up-warum-junge-gruender-unsere-zukunft-retten"
       }
-    ],
+    ,
+      {
+        "id": "991",
+        "title": "Das Unternehmen im Wirtschaftskreislauf",
+        "folder": "unternehmen-991"
+      },
+      {
+        "id": "941",
+        "title": "Rechtsformen von Unternehmen",
+        "folder": "rechtsformen-von-unternehmen-941"
+      },
+      {
+        "id": "940",
+        "title": "Unternehmensgründung",
+        "folder": "unternehmensgrundung-940"
+      },
+      {
+        "id": "993",
+        "title": "Unternehmensfinanzierung",
+        "folder": "unternehmensfinanzierung-993"
+      }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Rechtsformen%20von%20Unternehmen%3A%20Einzelunternehmen%2C%20GmbH%20%26%20AG+wirtschaft&t=3752"
   },
   "aufbau-und-ablauforganisation-im-betrieb": {
