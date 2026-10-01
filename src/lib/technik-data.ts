@@ -207,6 +207,11 @@ export const technikTopics: Record<string, TechnikTopic> = {
         "id": "druckerei-heute",
         "title": "Wie eine Druckerei heute funktioniert",
         "folder": "wie-eine-druckerei-heute-funktioniert"
+      },
+      {
+        id: "tech-fert-1",
+        title: "Grundlagen der 3D-Druck-Modellierung",
+        folder: "grundlagen-der-modellierung-fuer-3d-druck"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Fertigungstechnik+Werkzeuge&t=1251"
@@ -264,6 +269,26 @@ export const technikTopics: Record<string, TechnikTopic> = {
         "id": "wasserw",
         "title": "Wie funktioniert eine Wasserwaage",
         "folder": "wie-funktioniert-eine-wasserwaage"
+      },
+      {
+        id: "336",
+        title: "Dampfmaschine",
+        folder: "dampfmaschine-336"
+      },
+      {
+        id: "tech-khg-1",
+        title: "Wie funktioniert eine Dampfmaschine",
+        folder: "wie-funktioniert-eine-dampfmaschine"
+      },
+      {
+        id: "2518",
+        title: "Wie funktioniert ein Getriebe",
+        folder: "wie-funktioniert-ein-getriebe-2518"
+      },
+      {
+        id: "2496",
+        title: "Wie funktioniert ein Automatikgetriebe",
+        folder: "wie-funktioniert-ein-automatikgetriebe-2496"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Hebel+Getriebe+Mechanik+Technik&t=1251"
@@ -316,6 +341,21 @@ export const technikTopics: Record<string, TechnikTopic> = {
         "id": "elmotor",
         "title": "Wie funktioniert ein Elektromotor",
         "folder": "wie-funktioniert-ein-elektromotor"
+      },
+      {
+        id: "579",
+        title: "Lerninhalt: Verbrennungsmotoren",
+        folder: "lerninhalt-verbrennungsmotoren-579"
+      },
+      {
+        id: "337",
+        title: "Verbrennungsmotoren",
+        folder: "verbrennungsmotoren-337"
+      },
+      {
+        id: "2572",
+        title: "Wie funktioniert ein Verbrennungsmotor",
+        folder: "wie-funktioniert-ein-verbrennungsmotor-2572"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Verbrennungsmotor+Motoren+Technik&t=1251"
@@ -358,6 +398,11 @@ export const technikTopics: Record<string, TechnikTopic> = {
         id: "siphon",
         title: "Wie funktioniert der Siphon-Effekt",
         folder: "wie-funktioniert-der-siphon-effekt"
+      },
+      {
+        id: "2552",
+        title: "Wie funktioniert ein Pneumatiksystem",
+        folder: "wie-funktioniert-ein-pneumatiksystem-2552"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Pneumatik+Hydraulik+Technik&t=1251"
@@ -425,6 +470,11 @@ export const technikTopics: Record<string, TechnikTopic> = {
         id: "5304",
         title: "Led leuchtdioden",
         folder: "led-leuchtdioden-5304"
+      },
+      {
+        id: "tech-el-1",
+        title: "Wie funktioniert ein Kondensator",
+        folder: "wie-funktioniert-ein-kondensator"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Elektrotechnik+Grundlagen+Technik&t=1251"
@@ -482,6 +532,36 @@ export const technikTopics: Record<string, TechnikTopic> = {
         id: "2245",
         title: "Der transformator",
         folder: "der-transformator-2245"
+      },
+      {
+        id: "5260",
+        title: "Der Elektromotor",
+        folder: "der-elektromotor-5260"
+      },
+      {
+        id: "tech-em-1",
+        title: "Funktionsweise des Elektromotors",
+        folder: "wie-funktioniert-ein-elektromotor"
+      },
+      {
+        id: "2244",
+        title: "Der Gleichstrommotor",
+        folder: "der-gleichstrommotor-2244"
+      },
+      {
+        id: "2246",
+        title: "Der Wechselstrommotor",
+        folder: "der-wechselstrommotor-2246"
+      },
+      {
+        id: "2495",
+        title: "Wie funktioniert ein Asynchronmotor",
+        folder: "wie-funktioniert-ein-asynchronmotor-2495"
+      },
+      {
+        id: "2556",
+        title: "Wie funktioniert ein Schrittmotor",
+        folder: "wie-funktioniert-ein-schrittmotor-2556"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Elektromotor+Generator+Technik&t=1251"
@@ -594,6 +674,26 @@ export const technikTopics: Record<string, TechnikTopic> = {
         id: "nfc-kontaktlos",
         title: "NFC Technik und das kontaktlose Bezahlen an der Kasse",
         folder: "nfc-technik-und-das-kontaktlose-bezahlen-an-der-kasse"
+      },
+      {
+        id: "tech-sens-1",
+        title: "Beschleunigungssensoren im Smartphone",
+        folder: "beschleunigungssensoren-und-wie-das-handy-weiss-wo-oben-ist"
+      },
+      {
+        id: "2499",
+        title: "Wie funktioniert ein Beschleunigungssensor",
+        folder: "wie-funktioniert-ein-beschleunigungssensor-2499"
+      },
+      {
+        id: "2529",
+        title: "Wie funktioniert ein Infrarotsensor",
+        folder: "wie-funktioniert-ein-infrarotsensor-2529"
+      },
+      {
+        id: "2566",
+        title: "Wie funktioniert ein Temperatursensor",
+        folder: "wie-funktioniert-ein-temperatursensor-2566"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Sensoren+Messtechnik+Technik&t=1251"
@@ -773,6 +873,21 @@ export const technikTopics: Record<string, TechnikTopic> = {
         id: "2546",
         title: "Wie funktioniert ein panoramadach",
         folder: "wie-funktioniert-ein-panoramadach-2546"
+      },
+      {
+        id: "2492",
+        title: "Wie funktioniert ein Allradantrieb",
+        folder: "wie-funktioniert-ein-allradantrieb-2492"
+      },
+      {
+        id: "2523",
+        title: "Wie funktioniert ein Heckantrieb",
+        folder: "wie-funktioniert-ein-heckantrieb-2523"
+      },
+      {
+        id: "2524",
+        title: "Wie funktioniert ein Heckmotor",
+        folder: "wie-funktioniert-ein-heckmotor-2524"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Kfz+Technik+Fahrzeugtechnik&t=1251"
@@ -892,6 +1007,11 @@ export const technikTopics: Record<string, TechnikTopic> = {
         id: "bumerang",
         title: "Wie funktioniert ein Bumerang",
         folder: "wie-funktioniert-ein-bumerang"
+      },
+      {
+        id: "2530",
+        title: "Wie funktioniert ein Jetantrieb (Strahltriebwerk)",
+        folder: "wie-funktioniert-ein-jetantrieb-2530"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Luftfahrt+Schifffahrt+Technik&t=1251"
@@ -944,6 +1064,66 @@ export const technikTopics: Record<string, TechnikTopic> = {
         id: "2520",
         title: "Wie funktioniert ein greenhouse",
         folder: "wie-funktioniert-ein-greenhouse-2520"
+      },
+      {
+        id: "5311",
+        title: "Photovoltaik",
+        folder: "photovoltaik-5311"
+      },
+      {
+        id: "5318",
+        title: "Sonnenkraftwerke",
+        folder: "sonnenkraftwerke-5318"
+      },
+      {
+        id: "tech-ee-1",
+        title: "Wie funktioniert eine Windkraftanlage",
+        folder: "wie-funktioniert-eine-windkraftanlage"
+      },
+      {
+        id: "5327",
+        title: "Windkraftwerke",
+        folder: "windkraftwerke-2-5327"
+      },
+      {
+        id: "2249",
+        title: "Wasserkraftwerke",
+        folder: "wasserkraftwerke-2249"
+      },
+      {
+        id: "5302",
+        title: "Laufwasserkraftwerke",
+        folder: "laufwasserkraftwerke-5302"
+      },
+      {
+        id: "5319",
+        title: "Speicherkraftwerke & Pumpspeicher",
+        folder: "speicherkraftwerke-5319"
+      },
+      {
+        id: "tech-ee-2",
+        title: "Wie funktioniert ein Geothermiekraftwerk",
+        folder: "wie-funktioniert-ein-geothermiekraftwerk"
+      },
+      {
+        id: "2580",
+        title: "Wie funktioniert ein Wellenkraftwerk",
+        folder: "wie-funktioniert-ein-wellenkraftwerk-2580"
+      },
+      {
+        id: "5326",
+        title: "Wärmekraftwerke",
+        folder: "warmekraftwerke-5326"
+      },
+      {
+        id: "5242",
+        title: "Atomkraftwerke",
+        folder: "atomkraftwerke-2-5242"
+      },
+      {
+        id: "2533",
+        title: "Wie funktioniert ein Kernreaktor",
+        folder: "wie-funktioniert-ein-kernreaktor-2533"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Erneuerbare+Energien+Windkraft+Technik&t=1251"
@@ -986,6 +1166,11 @@ export const technikTopics: Record<string, TechnikTopic> = {
         "id": "5323",
         "title": "Umwandlung elektrischer Energie",
         "folder": "umwandlung-elektrischer-energie-5323"
+      },
+      {
+        id: "5246",
+        title: "Batterien und Akkumulatoren",
+        folder: "batterien-und-akkumulatoren-5246"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Akkus+Batterien+Energiespeicher&t=1251"
@@ -1215,6 +1400,11 @@ export const technikTopics: Record<string, TechnikTopic> = {
         id: "lautspr",
         title: "Wie funktioniert ein Lautsprecher",
         folder: "wie-funktioniert-ein-lautsprecher"
+      },
+      {
+        id: "tech-farrad-1",
+        title: "Fahrrad-Kettenschaltung",
+        folder: "wie-funktioniert-ein-fahrrad-kettenschaltung"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Werkzeuge+Technikunterricht&t=1251"

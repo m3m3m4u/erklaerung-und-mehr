@@ -116,6 +116,16 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "id": "aufbau-funktion-computer",
         "title": "Aufbau und Funktion eines Computers und seiner Komponenten",
         "folder": "aufbau-und-funktion-eines-computers-und-seiner-komponenten"
+      },
+      {
+        id: "cs-hw-1",
+        title: "Aufbau und Funktion eines Computers und seiner Komponenten",
+        folder: "aufbau-und-funktion-eines-computers-und-seiner-komponenten"
+      },
+      {
+        id: "cs-hw-2",
+        title: "CPU-Architekturen und Hardware-Flaschenhälse",
+        folder: "cpu-architekturen-und-hardware-flaschenhaelse"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=hardware&t=896"
@@ -148,6 +158,11 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "id": "8003",
         "title": "Binärcode: Strom an und aus",
         "folder": "binaercode-und-die-sprache-von-strom-an-und-aus"
+      },
+      {
+        id: "cs-dg-1",
+        title: "Binärcode und die Sprache von Strom an und aus",
+        folder: "binaercode-und-die-sprache-von-strom-an-und-aus"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=digitale+grundbildung&t=896"
@@ -313,6 +328,26 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "id": "vm-container",
         "title": "Nutzung von Virtuellen Maschinen und Containern",
         "folder": "nutzung-von-virtuellen-maschinen-und-containern"
+      },
+      {
+        id: "463",
+        title: "Betriebssysteme",
+        folder: "betriebssysteme-463"
+      },
+      {
+        id: "1363",
+        title: "Das Betriebssystem Android",
+        folder: "das-betriebssystem-quot-android-quot-1363"
+      },
+      {
+        id: "cs-bs-1",
+        title: "Bedeutung regelmäßiger Software-Updates",
+        folder: "bedeutung-regelmaessiger-software-updates"
+      },
+      {
+        id: "cs-bs-2",
+        title: "Risiken und Ängste bei Software-Updates",
+        folder: "risiken-und-aengste-bei-software-updates"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=betriebssysteme&t=896"
@@ -379,6 +414,16 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "id": "agiles-arbeiten",
         "title": "Agiles Arbeiten und schrittweise Entwicklung",
         "folder": "agiles-arbeiten-und-schrittweise-entwicklung"
+      },
+      {
+        id: "1297",
+        title: "Open-Source-Software",
+        folder: "open-source-software-1297"
+      },
+      {
+        id: "cs-sw-1",
+        title: "Vergleich von Open Source und proprietärer Software",
+        folder: "vergleich-von-open-source-und-proprietaerer-software"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=software&t=896"
@@ -431,6 +476,21 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "id": "office-programme-ms365",
         "title": "Office Programme wie MS365 und Alternativen",
         "folder": "office-programme-wie-ms365-und-alternativen"
+      },
+      {
+        id: "cs-bp-1",
+        title: "Office-Programme wie MS365 und Alternativen",
+        folder: "office-programme-wie-ms365-und-alternativen"
+      },
+      {
+        id: "1305",
+        title: "Präsentationsprogramme",
+        folder: "prasentationsprogramme-1305"
+      },
+      {
+        id: "1320",
+        title: "Textverarbeitungsprogramme",
+        folder: "textverarbeitungsprogramme-1320"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=excel+word&t=896"
@@ -575,6 +635,51 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "id": "p2p-netzwerke",
         "title": "Funktionsweise und Stabilität von Peer to Peer Netzwerken",
         "folder": "funktionsweise-und-stabilitaet-von-peer-to-peer-netzwerken"
+      },
+      {
+        id: "470",
+        title: "Netzwerke",
+        folder: "netzwerke-470"
+      },
+      {
+        id: "672",
+        title: "Kurs Netzwerke",
+        folder: "kurs-netzwerke-672"
+      },
+      {
+        id: "cs-nw-1",
+        title: "Wie funktioniert das WLAN",
+        folder: "wie-funktioniert-das-wlan"
+      },
+      {
+        id: "cs-nw-2",
+        title: "Automatische Wegfindung von Datenpaketen im Netzwerk",
+        folder: "automatische-wegfindung-von-datenpaketen-im-netzwerk"
+      },
+      {
+        id: "cs-nw-3",
+        title: "Redundanz und Ausfallsicherheit im Netzwerk",
+        folder: "redundanz-und-ausfallsicherheit-im-netzwerk"
+      },
+      {
+        id: "cs-nw-4",
+        title: "Aufsetzen und Konfigurieren eines eigenen Webservers",
+        folder: "aufsetzen-und-konfigurieren-eines-eigenen-webservers"
+      },
+      {
+        id: "cs-nw-5",
+        title: "Rechenzentren als physische Lagerhallen der Cloud",
+        folder: "rechenzentren-als-physische-lagerhallen-der-cloud"
+      },
+      {
+        id: "cs-nw-6",
+        title: "Cloud-Computing als Mietmodell für Server",
+        folder: "cloud-computing-als-mietmodell-fuer-server"
+      },
+      {
+        id: "cs-nw-7",
+        title: "Verwendung von Cloud-Speicherlösungen",
+        folder: "verwendung-von-cloud-speicherloesungen"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=netzwerke&t=896"
@@ -626,6 +731,16 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "id": "tcp-ip-grundlagen",
         "title": "Grundlagen der Netzwerktechnik wie TCP und IP",
         "folder": "grundlagen-der-netzwerktechnik-wie-tcp-und-ip"
+      },
+      {
+        id: "cs-ig-1",
+        title: "Aufbau und Funktionsweise von Suchmaschinen",
+        folder: "aufbau-und-funktionsweise-von-suchmaschinen"
+      },
+      {
+        id: "cs-ig-2",
+        title: "Nutzung verschiedener Suchmaschinen und Recherchestrategien",
+        folder: "nutzung-verschiedener-suchmaschinen-und-recherchestrategien"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=internet+protokolle&t=896"
@@ -733,6 +848,11 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "id": "cloud-kollaboration",
         "title": "Zusammenarbeit mit digitalen Tools und Cloud Diensten",
         "folder": "zusammenarbeit-mit-digitalen-tools-und-cloud-diensten"
+      },
+      {
+        id: "cs-oz-1",
+        title: "Zusammenarbeit mit digitalen Tools und Cloud-Diensten",
+        folder: "zusammenarbeit-mit-digitalen-tools-und-cloud-diensten"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=cloud+computing&t=896"
@@ -815,6 +935,26 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "id": "firewalls-vpns",
         "title": "Funktion von Firewalls und VPNs",
         "folder": "funktion-von-firewalls-und-vpns"
+      },
+      {
+        id: "1362",
+        title: "Computerwurm",
+        folder: "computerwurm-1362"
+      },
+      {
+        id: "cs-sec-1",
+        title: "Nutzung sicherer Internetverbindungen und Netzwerke",
+        folder: "nutzung-sicherer-internetverbindungen-und-netzwerke"
+      },
+      {
+        id: "cs-sec-2",
+        title: "Anwendung sicherer Passwörter und 2FA",
+        folder: "anwendung-sicherer-passwoerter-und-zwei-faktor-authentifizierung"
+      },
+      {
+        id: "cs-sec-3",
+        title: "Wie funktioniert die Zwei-Faktor-Authentifizierung",
+        folder: "wie-funktioniert-die-zwei-faktor-authentifizierung"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=it+sicherheit&t=896"
@@ -871,6 +1011,26 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "id": "smart-contracts",
         "title": "Funktionsweise und Risiken von Smart Contracts",
         "folder": "funktionsweise-und-risiken-von-smart-contracts"
+      },
+      {
+        id: "cs-krypto-1",
+        title: "Wie funktioniert die Kryptographie (Verschlüsselung)",
+        folder: "wie-funktioniert-die-kryptographie-verschluesselung"
+      },
+      {
+        id: "cs-krypto-2",
+        title: "Verschlüsselung als digitaler Tresor für Nachrichten",
+        folder: "verschluesselung-als-digitaler-tresor-fuer-nachrichten"
+      },
+      {
+        id: "cs-krypto-3",
+        title: "Verschlüsselung und Schutz sensibler Daten",
+        folder: "verschluesselung-und-schutz-sensibler-daten"
+      },
+      {
+        id: "cs-krypto-4",
+        title: "Symmetrische vs. Asymmetrische Verschlüsselung",
+        folder: "unterschiede-zwischen-symmetrischer-und-asymmetrischer-verschluesselung"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=kryptographie&t=896"
@@ -979,6 +1139,16 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "id": "zufallszahlen",
         "title": "Wie funktioniert die Generierung von Zufallszahlen",
         "folder": "wie-funktioniert-die-generierung-von-zufallszahlen"
+      },
+      {
+        id: "681",
+        title: "Kurs: Algorithmen und Programmiersprachen",
+        folder: "kurs-algorithmen-und-programmiersprachen-681"
+      },
+      {
+        id: "cs-algo-1",
+        title: "Vergleich von Algorithmen mit Kochrezepten",
+        folder: "vergleich-von-algorithmen-mit-kochrezepten"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=algorithmen&t=896"
@@ -1045,6 +1215,41 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "id": "debugging-programme",
         "title": "Fehleranalyse und Debugging in einfachen Programmen",
         "folder": "fehleranalyse-und-debugging-in-einfachen-programmen"
+      },
+      {
+        id: "1306",
+        title: "Programmiersprache Java",
+        folder: "programmiersprache-java-1306"
+      },
+      {
+        id: "1396",
+        title: "Programmiersprache C",
+        folder: "programmiersprache-c-1396"
+      },
+      {
+        id: "cs-prog-1",
+        title: "Programmierung einfacher Abläufe mit Scratch",
+        folder: "programmierung-einfacher-ablaeufe-mit-scratch-oder-aehnlichen-tools"
+      },
+      {
+        id: "cs-prog-2",
+        title: "Animationen und Spiele in Scratch programmieren",
+        folder: "programmierung-einfacher-animationen-oder-spiele-in-scratch"
+      },
+      {
+        id: "cs-prog-3",
+        title: "Umstieg auf textbasierte Programmierung",
+        folder: "umstieg-auf-textbasierte-programmierung"
+      },
+      {
+        id: "cs-prog-4",
+        title: "Klassen und Objekte in der objektorientierten Programmierung (OOP)",
+        folder: "klassen-und-objekte-in-der-objektorientierten-programmierung"
+      },
+      {
+        id: "cs-prog-5",
+        title: "Verbindung von Programmen über Schnittstellen (APIs)",
+        folder: "verbindung-von-programmen-ueber-schnittstellen"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=programmieren+scratch&t=896"
@@ -1122,6 +1327,31 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "id": "gesichtserkennung",
         "title": "Wie funktioniert die Gesichtserkennung",
         "folder": "wie-funktioniert-die-gesichtserkennung"
+      },
+      {
+        id: "cs-ki-1",
+        title: "Wie funktioniert das Deep Learning",
+        folder: "wie-funktioniert-das-deep-learning"
+      },
+      {
+        id: "cs-ki-2",
+        title: "KI im Kundenservice – Chatbots",
+        folder: "ki-im-kundenservice-chatbots"
+      },
+      {
+        id: "cs-ki-3",
+        title: "KI-Stimmen und Audio-Deepfakes",
+        folder: "stimmen-raub-am-telefon-die-brandgefaehrliche-masche-mit-ki-stimmen"
+      },
+      {
+        id: "cs-ki-4",
+        title: "KI in der Medizin & Diagnostik",
+        folder: "ki-revolution-im-op-saal-der-medizinische-durchbruch-durch-algorithmen"
+      },
+      {
+        id: "cs-ki-5",
+        title: "KI und Transformation der Arbeitswelt",
+        folder: "todesurteil-fuer-klassische-jobs-wenn-ki-den-menschen-ersetzt"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=kuenstliche+intelligenz&t=896"
@@ -1173,6 +1403,31 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "id": "1961html5",
         "title": "HTML5 Webentwicklung",
         "folder": "algerien-9-1961"
+      },
+      {
+        id: "3124",
+        title: "Bilder und Videos mit HTML",
+        folder: "bilder-und-videos-mit-html-3124"
+      },
+      {
+        id: "3125",
+        title: "Links mit HTML",
+        folder: "links-mit-html-3125"
+      },
+      {
+        id: "3126",
+        title: "Listen mit HTML",
+        folder: "listen-mit-html-3126"
+      },
+      {
+        id: "3127",
+        title: "Tabellen mit HTML",
+        folder: "tabellen-mit-html-3127"
+      },
+      {
+        id: "cs-web-1",
+        title: "Coden von Webseiten mit HTML und CSS",
+        folder: "coden-von-webseiten-mit-html-und-css"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=html+grundkurs&t=896"
@@ -1280,6 +1535,11 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "id": "bildmanipulation-erkennen",
         "title": "Jagd auf Pixel-Lügen – Die Entlarvung manipulierter Bilder und Videos",
         "folder": "jagd-auf-pixel-luegen-die-entlarvung-manipulierter-bilder-und-videos"
+      },
+      {
+        id: "cs-cg-1",
+        title: "Aufbau eines digitalen Bildes (Pixel & Rastergrafik)",
+        folder: "aufbau-eines-digitalen-bildes-aus-millionen-kleiner-quadrate"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=computergrafik+vektor&t=896"
@@ -1362,6 +1622,16 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "id": "2729",
         "title": "Mobbing und Cybermobbing",
         "folder": "mobbing-und-cybermobbing-2729"
+      },
+      {
+        id: "676",
+        title: "Kurs Soziale Netzwerke",
+        folder: "kurs-soziale-netzwerke-676"
+      },
+      {
+        id: "5851",
+        title: "Online-Verhalten in sozialen Netzwerken",
+        folder: "online-verhalten-in-sozialen-netzwerken-5851"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=soziale+netzwerke&t=896"
@@ -1454,6 +1724,26 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "id": "8002",
         "title": "Alan Turing und die Entschlüsselung der Enigma",
         "folder": "alan-turing-und-die-entschluesselung-der-enigma"
+      },
+      {
+        id: "cs-pers-1",
+        title: "Ada Lovelace als erste Programmiererin der Geschichte",
+        folder: "ada-lovelace-als-erste-programmiererin-der-geschichte"
+      },
+      {
+        id: "3614",
+        title: "Alan Turing",
+        folder: "alan-turing-3614"
+      },
+      {
+        id: "cs-pers-2",
+        title: "Alan Turing und die Entschlüsselung der Enigma",
+        folder: "alan-turing-und-die-entschluesselung-der-enigma"
+      },
+      {
+        id: "3613",
+        title: "Alan Kay",
+        folder: "alan-kay-3613"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=pioniere+informatik&t=896"
