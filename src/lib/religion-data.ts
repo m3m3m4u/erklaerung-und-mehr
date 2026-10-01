@@ -19,7 +19,8 @@ export const religionCategories: string[] = [
   "Die Weltreligionen",
   "Bibel & Religiöse Schriften",
   "Feste, Symbole, Tod & Auferstehung",
-  "Religion im Alltag & Gesellschaft"
+  "Religion im Alltag & Gesellschaft",
+  "Sakralbauten & Kirchliche Kunst"
 ];
 
 export const religionTopics: Record<string, ReligionTopic> = {
@@ -76,7 +77,27 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "title": "Religion und persönliche Identität",
         "folder": "religion-und-personliche-identitat-6714"
       }
-    ],
+    ,
+      {
+        "id": "6650",
+        "title": "Gott in verschiedenen Religionen",
+        "folder": "gott-in-verschiedenen-religionen-6650"
+      },
+      {
+        "id": "2428",
+        "title": "Im Gespräch mit anderen Religionen – Brücken des Verstehens",
+        "folder": "im-gesprach-mit-anderen-religionen-brucken-des-verstehens-2428"
+      },
+      {
+        "id": "6500",
+        "title": "Der interreligiöse Dialog",
+        "folder": "der-interreligiose-dialog-6500"
+      },
+      {
+        "id": "2839",
+        "title": "Die Goldene Regel (Allgemeines Ethik-Prinzip)",
+        "folder": "die-goldene-regel-was-du-nicht-willst-das-man-dir-tut-2839"
+      }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=weltreligionen&t=3752"
   },
   "judentum-glaube-tora-und-synagoge": {
@@ -143,7 +164,12 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "title": "Gottesvorstellungen im Judentum",
         "folder": "gottesvorstellungen-im-judentum-6654"
       }
-    ],
+    ,
+      {
+        "id": "6562",
+        "title": "Der Talmud und wichtige religiöse Schriften",
+        "folder": "das-talmud-und-andere-wichtige-religiose-schriften-2-6562"
+      }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=judentum+tora&t=3752"
   },
   "judentum-feste-lebenskreis-und-kultur": {
@@ -314,7 +340,12 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "title": "Islamische Feiertage",
         "folder": "islamische-feiertage-6659"
       }
-    ],
+    ,
+      {
+        "id": "6533",
+        "title": "Der Fastenmonat Ramadan",
+        "folder": "der-ramadan-2-6533"
+      }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=islam+ramadan&t=3752"
   },
   "buddhismus-lehre-und-praxis": {
@@ -376,7 +407,17 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "title": "Buddhismus in Deutschland",
         "folder": "buddhismus-in-deutschland"
       }
-    ],
+    ,
+      {
+        "id": "2625",
+        "title": "Buddhismus in der modernen Welt",
+        "folder": "buddhismus-in-der-modernen-welt-6-2625"
+      },
+      {
+        "id": "5835",
+        "title": "Meditation und spirituelle Achtsamkeit",
+        "folder": "meditation-und-entspannung-5835"
+      }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=buddhismus&t=3752"
   },
   "hinduismus-goetter-und-reinkarnation": {
@@ -618,7 +659,27 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "title": "Zehn Gebote - damals und heute",
         "folder": "zehn-gebote-damals-und-heute-6749"
       }
-    ],
+    ,
+      {
+        "id": "gebote-1",
+        "title": "Zehn Gebote – damals und heute",
+        "folder": "zehn-gebote-damals-und-heute-1787656087295"
+      },
+      {
+        "id": "6750",
+        "title": "Zehn Gebote – Vertiefung Teil 1",
+        "folder": "zehn-gebote-damals-und-heute-2-6750"
+      },
+      {
+        "id": "6751",
+        "title": "Zehn Gebote – Vertiefung Teil 2",
+        "folder": "zehn-gebote-damals-und-heute-3-6751"
+      },
+      {
+        "id": "6752",
+        "title": "Zehn Gebote – Vertiefung Teil 3",
+        "folder": "zehn-gebote-damals-und-heute-4-6752"
+      }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=mose+zehn+gebote&t=3752"
   },
   "altes-testament-helden-koenige-und-propheten": {
@@ -777,7 +838,17 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "title": "Jesusbilder im Wandel der Zeit",
         "folder": "jesusbilder-im-wandel-der-zeit-6676"
       }
-    ],
+    ,
+      {
+        "id": "6570",
+        "title": "Christusbilder im Neuen Testament",
+        "folder": "christusbilder-im-neuen-testament-2-6570"
+      },
+      {
+        "id": "6672",
+        "title": "Jesus im Film – Darstellungen Jesu in Medien",
+        "folder": "jesus-im-film-6672"
+      }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=jesus+von+nazaret&t=3752"
   },
   "jesu-gleichnisse-und-bergpredigt": {
@@ -906,7 +977,12 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "title": "Das Musical Jesus Christ Superstar",
         "folder": "das-musical-jesus-christ-superstar-541"
       }
-    ],
+    ,
+      {
+        "id": "6610",
+        "title": "Die Passion Christi und Karwoche",
+        "folder": "die-passion-christi-6610"
+      }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=passion+auferstehung&t=3752"
   },
   "apostel-evangelien-und-urkirche": {
@@ -1029,7 +1105,27 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "title": "Jesu Geburt - Weihnachtsevangelien",
         "folder": "jesu-geburt-weihnachtsevangelien-6664"
       }
-    ],
+    ,
+      {
+        "id": "6599",
+        "title": "Die Heiligen Drei Könige: Geschichte und Symbolik",
+        "folder": "die-heiligen-drei-konige-geschichte-und-symbolik-6599"
+      },
+      {
+        "id": "6547",
+        "title": "Der Heilige Nikolaus – Vom Bischof zum Gabenbringer",
+        "folder": "der-heilige-nikolaus-vom-bischof-zum-gabenbringer-2-6547"
+      },
+      {
+        "id": "6546",
+        "title": "Der heilige Stephanus und der 26. Dezember",
+        "folder": "der-heilige-stephan-und-der-26-dezember-2-6546"
+      },
+      {
+        "id": "6603",
+        "title": "Die Legende der heiligen Barbara",
+        "folder": "die-legende-der-heiligen-barbara-6603"
+      }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=advent+weihnachten&t=3752"
   },
   "fastenzeit-und-karwoche": {
@@ -1163,7 +1259,12 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "title": "Der Reformationstag",
         "folder": "der-reformationstag-2-6532"
       }
-    ],
+    ,
+      {
+        "id": "6526",
+        "title": "Der Reformationstag und seine Bedeutung",
+        "folder": "der-reformationstag-6526"
+      }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=kirchenjahr+ostern&t=3752"
   },
   "tod-trauer-und-seelsorge": {
@@ -1333,7 +1434,12 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "title": "Die Konfirmation",
         "folder": "die-konfirmation-6602"
       }
-    ],
+    ,
+      {
+        "id": "2479",
+        "title": "Die Wassertaufe – Aufnahme in die Gemeinschaft Christi",
+        "folder": "die-wassertaufe-aufnahme-in-die-gemeinschaft-christi-2479"
+      }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=taufe+firmung+sakramente&t=3752"
   },
   "eucharistie-kommunion-und-heilsdienste": {
@@ -1410,7 +1516,32 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "title": "Das Zölibat - Warum leben Priester ehelos?",
         "folder": "das-zolibat-warum-leben-priester-ehelos-6470"
       }
-    ],
+    ,
+      {
+        "id": "6561",
+        "title": "Das Weiheamt – Sakrament der Weihe",
+        "folder": "das-weiheamt-sakrament-der-weihe-2-6561"
+      },
+      {
+        "id": "6658",
+        "title": "Kirchliche Trauung & Sakrament der Ehe",
+        "folder": "hochzeit-kirchlich-gefeiert-6658"
+      },
+      {
+        "id": "6534",
+        "title": "Aufgaben und Berufung des Priesters",
+        "folder": "der-priester-aufgaben-und-berufung-2-6534"
+      },
+      {
+        "id": "6560",
+        "title": "Das Zölibat – Priesterliche Ehelosigkeit",
+        "folder": "das-zolibat-warum-leben-priester-ehelos-2-6560"
+      },
+      {
+        "id": "6710",
+        "title": "Liturgische Kleidung und Symbole",
+        "folder": "priesterliche-kleidung-und-symbole-6710"
+      }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=eucharistie+kommunion&t=3752"
   },
   "liturgie-gottesdienst-und-gebet": {
@@ -1502,7 +1633,42 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "title": "Ministranten, Lektoren und andere liturgische Dienste",
         "folder": "ministranten-lektoren-und-andere-liturgische-dienste-6703"
       }
-    ],
+    ,
+      {
+        "id": "6558",
+        "title": "Der Ablauf der Heiligen Messe",
+        "folder": "der-ablauf-der-heiligen-messe-berblick-2-6558"
+      },
+      {
+        "id": "6581",
+        "title": "Der Wortgottesdienst",
+        "folder": "der-wortgottesdienst-6581"
+      },
+      {
+        "id": "6631",
+        "title": "Eröffnung des Gottesdienstes: Begrüßung, Kreuzzeichen, Bußakt",
+        "folder": "eroffnung-des-gottesdienstes-begruesung-kreuzzeichen-buesakt-6631"
+      },
+      {
+        "id": "6433",
+        "title": "Die Bedeutung der Stille im Gottesdienst",
+        "folder": "bedeutung-der-stille-im-gottesdienst-6433"
+      },
+      {
+        "id": "2473",
+        "title": "Kommunikation mit Gott – Gebete im Alltag",
+        "folder": "kommunikation-mit-gott-gebete-im-alltag-2473"
+      },
+      {
+        "id": "6567",
+        "title": "Das Glaubensbekenntnis (Credo)",
+        "folder": "das-glaubensbekenntnis-gemeinsames-bekenntnis-des-glaubens-2-6567"
+      },
+      {
+        "id": "6543",
+        "title": "Der Kirchenraum – Orte und Symbole",
+        "folder": "der-kirchenraum-orte-und-symbole-2-6543"
+      }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=liturgie+gottesdienst&t=3752"
   },
   "heilige-und-vorbilder-des-glaubens": {
@@ -1569,7 +1735,22 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "title": "Die Bedeutung von Pilgerstätten im Christentum",
         "folder": "die-bedeutung-von-pilgerstatten-im-christentum-2474"
       }
-    ],
+    ,
+      {
+        "id": "2470",
+        "title": "Mutter Teresa – Nächstenliebe und soziales Engagement",
+        "folder": "die-heilige-teresa-von-kalkutta-2-2470"
+      },
+      {
+        "id": "643",
+        "title": "Martin Luther und der Beginn der Reformation",
+        "folder": "martin-luther-643"
+      },
+      {
+        "id": "3034",
+        "title": "Martin Luther King – Glaube und Bürgerrechte",
+        "folder": "martin-luther-king-3034"
+      }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=heilige+vorbilder&t=3752"
   },
   "papst-vatikan-und-konzilien": {
@@ -1666,7 +1847,57 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "title": "Symbole des Papsttums",
         "folder": "symbole-des-papsttums-6728"
       }
-    ],
+    ,
+      {
+        "id": "6539",
+        "title": "Der Papst – Amt, Bedeutung und Geschichte",
+        "folder": "der-papst-amt-bedeutung-und-geschichte-2-6539"
+      },
+      {
+        "id": "6537",
+        "title": "Der Papst als Nachfolger Petri",
+        "folder": "der-papst-als-nachfolger-petri-2-6537"
+      },
+      {
+        "id": "2458",
+        "title": "Papst Franziskus – Leben und Wirken",
+        "folder": "das-leben-und-die-lehren-von-papst-franziskus-2458"
+      },
+      {
+        "id": "2456",
+        "title": "Papst Benedikt XVI.",
+        "folder": "papst-benedikt-xvi-2456"
+      },
+      {
+        "id": "6536",
+        "title": "Der Petersdom – Baugeschichte und Bedeutung",
+        "folder": "der-petersdom-baugeschichte-und-bedeutung-2-6536"
+      },
+      {
+        "id": "6535",
+        "title": "Der Petersplatz – Ort des Weltgeschehens",
+        "folder": "der-petersplatz-ort-des-weltgeschehens-2-6535"
+      },
+      {
+        "id": "6568",
+        "title": "Das Erste Vatikanische Konzil (1870)",
+        "folder": "das-erste-vatikanische-konzil-1871-6568"
+      },
+      {
+        "id": "6559",
+        "title": "Das Zweite Vatikanische Konzil (1962–1965)",
+        "folder": "das-zweite-vatikanische-konzil-1962-1965-inhalte-und-folgen-2-6559"
+      },
+      {
+        "id": "6729",
+        "title": "Synoden und Konzile – Entscheidungsfindung in der Kirche",
+        "folder": "synoden-und-konzile-wie-entscheidungen-gefallt-werden-6729"
+      },
+      {
+        "id": "5368",
+        "title": "Die Geschichte des Kirchenstaates",
+        "folder": "die-geschichte-des-kirchenstaates-5368"
+      }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=papst+vatikan&t=3752"
   },
   "aemter-der-kirche-und-oekumene": {
@@ -1763,7 +1994,103 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "title": "Reformation und ihre Folgen",
         "folder": "reformation-und-ihre-folgen-6712"
       }
-    ],
+    ,
+      {
+        "id": "6695",
+        "title": "Laien und kirchliche Mitarbeit (Pfarrgemeinderat & Ehrenamt)",
+        "folder": "laien-und-kirchliche-mitarbeit-pfarrgemeinderat-ehrenamt-6695"
+      },
+      {
+        "id": "6601",
+        "title": "Die Kirchengemeinde",
+        "folder": "die-kirchengemeide-6601"
+      },
+      {
+        "id": "2424",
+        "title": "Die Vielfalt christlicher Konfessionen im Vergleich",
+        "folder": "die-vielfalt-christlicher-konfessionen-2424"
+      },
+      {
+        "id": "3009",
+        "title": "Heinrich VIII. und die Anglikanische Kirche",
+        "folder": "heinrich-viii-und-die-anglikanische-kirche-3009"
+      },
+      {
+        "id": "6685",
+        "title": "Kirche und weltweite Mission",
+        "folder": "kirche-und-mission-6685"
+      },
+      {
+        "id": "kirchensteuer",
+        "title": "Die Kirchensteuer in Deutschland",
+        "folder": "die-kirchensteuer-in-deutschland"
+      },
+      {
+        "id": "religionen-de",
+        "title": "Religionen in Deutschland",
+        "folder": "religionen-in-deutschland"
+      },
+      {
+        "id": "rel-unterricht",
+        "title": "Der Religionsunterricht in Deutschland",
+        "folder": "religionsunterricht-in-deutschland"
+      },
+      {
+        "id": "6718",
+        "title": "Religiöse Vielfalt im Klassenzimmer",
+        "folder": "religiose-vielfalt-im-klassenzimmer-6718"
+      },
+      {
+        "id": "6734",
+        "title": "Toleranz & Umgang mit religiöser Differenz",
+        "folder": "umgang-mit-religioser-differenz-6734"
+      },
+      {
+        "id": "2475",
+        "title": "Wallfahrten im christlichen Glauben",
+        "folder": "wallfahrten-im-christlichen-glauben-2475"
+      }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=aemter+oekumene&t=3752"
   }
+  "sakralbauten-und-kathedralen": {
+    "slug": "sakralbauten-und-kathedralen",
+    "title": "Sakralbauten & Historische Kirchen",
+    "category": "Sakralbauten & Kirchliche Kunst",
+    "shortDesc": "Dresdner Frauenkirche, Münchner Frauenkirche, Michel Hamburg, Marienkirche Lübeck und Rostock.",
+    "longDesc": "Kirchenbauten sind steinerne Zeugnisse des Glaubens, der Architekturgeschichte und der Kulturgeschichte. Von gotischen Backsteinbasiliken der Hanse über barocke Kuppelbauten bis zu Symbolen des Friedens und Wiederaufbaus.",
+    "keyPoints": [
+      "Dresdner Frauenkirche: Meisterwerk des protestantischen Barocks von George Bähr und weltweites Mahnmal für Frieden und Versöhnung",
+      "Münchner Frauenkirche (Dom zu Unserer Lieben Frau): Spätgotische Bischofskirche mit den markanten Welschen Hauben",
+      "Hamburger Hauptkirche St. Michaelis (Der Michel): Wahrzeichen Hamburgs und bedeutendster barocker Kirchenbau Norddeutschlands",
+      "Gotische Backsteinkirchen an der Ostsee: St. Marien in Lübeck als Mutterkirche der Backsteingotik und St. Marien in Rostock mit ihrer astronomischen Uhr"
+    ],
+    "exercises": [
+      {
+        "id": "frauenkirche-dresden",
+        "title": "Die Frauenkirche in Dresden",
+        "folder": "die-frauenkirche-in-dresden"
+      },
+      {
+        "id": "frauenkirche-muenchen",
+        "title": "Die Frauenkirche in München",
+        "folder": "die-frauenkirche-in-muenchen"
+      },
+      {
+        "id": "michel-hamburg",
+        "title": "Die Hauptkirche Sankt Michaelis in Hamburg (Der Michel)",
+        "folder": "die-hauptkirche-sankt-michaelis-in-hamburg"
+      },
+      {
+        "id": "marienkirche-luebeck",
+        "title": "Die Lübecker Marienkirche",
+        "folder": "die-luebecker-marienkirche"
+      },
+      {
+        "id": "marienkirche-rostock",
+        "title": "Die Marienkirche in Rostock",
+        "folder": "die-marienkirche-in-rostock"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=kirchen+sakralbauten&t=3752"
+  },
 };
