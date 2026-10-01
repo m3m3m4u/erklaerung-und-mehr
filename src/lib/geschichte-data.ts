@@ -748,7 +748,12 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "title": "Das Heilige Römische Reich",
         "folder": "das-heilige-romische-reich-2307"
       }
-    ],
+    ,
+      {
+        "id": "2650",
+        "title": "Die Ottonen – Herrschaft und Kaisertum im Mittelalter",
+        "folder": "buddhismus-in-der-modernen-welt-31-2650"
+      }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Kirche%2C%20Kl%C3%B6ster%2C%20Kaiser%20%26%20Kreuzz%C3%BCge+geschichte&t=3752"
   },
   "schwarzer-tod-die-pest": {
@@ -942,7 +947,17 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "title": "Die Entdeckung der Planetenbewegungen",
         "folder": "die-entdeckung-der-planetenbewegungen-5276"
       }
-    ],
+    ,
+      {
+        "id": "2348",
+        "title": "Das Osmanische Reich: Expansion & Kultur",
+        "folder": "die-nuklearkatastrophe-von-tschernobyl-2-2348"
+      },
+      {
+        "id": "2354",
+        "title": "Die Seidenstraße: Historischer Handels- und Kulturweg",
+        "folder": "die-nuklearkatastrophe-von-tschernobyl-8-2354"
+      }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Zeitalter+der+Entdeckungen+Kolumbus&t=3752"
   },
   "reformation-und-dreissigjaehriger-krieg": {
@@ -1173,7 +1188,12 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "title": "Was wäre, wenn die Französische Revolution gescheitert wäre …",
         "folder": "was-ware-wenn-die-franzosische-revolution-gescheitert-ware-5409"
       }
-    ],
+    ,
+      {
+        "id": "701",
+        "title": "Ablauf der Französischen Revolution",
+        "folder": "studypoint-zusammenfassung-ablauf-der-revolution-701"
+      }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Franzoesische+Revolution+1789&t=3752"
   },
   "napoleon-bonaparte-und-wiener-kongress": {
@@ -1475,7 +1495,12 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "title": "Gewerkschaften in Deutschland",
         "folder": "gewerkschaften-in-deutschland-3540"
       }
-    ],
+    ,
+      {
+        "id": "330",
+        "title": "Die Industrielle Revolution",
+        "folder": "industrielle-revolution-330"
+      }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Industrielle%20Revolution%20%26%20Die%20Soziale%20Frage+geschichte&t=3752"
   },
   "vormaerz-und-revolution-1848": {
@@ -1690,7 +1715,42 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "title": "Die Geschichte Brasiliens",
         "folder": "arbeitslosigkeit-nach-dem-ersten-weltkrieg-2-3071"
       }
-    ],
+    ,
+      {
+        "id": "2950",
+        "title": "Die ersten englischen Kolonien in Nordamerika",
+        "folder": "die-ersten-englischen-kolonien-2950"
+      },
+      {
+        "id": "2072",
+        "title": "Das Britische Empire & Dekolonisierung",
+        "folder": "die-ehemaligen-britischen-kolonien-2072"
+      },
+      {
+        "id": "2073",
+        "title": "Deutsche Kolonien in Afrika und im Pazifik",
+        "folder": "die-ehemaligen-deutschen-kolonien-2073"
+      },
+      {
+        "id": "3508",
+        "title": "Spuren des deutschen Kolonialismus heute",
+        "folder": "die-ehemaligen-deutschen-kolonien-heute-3508"
+      },
+      {
+        "id": "3264",
+        "title": "Kolonialisierung und Imperialismus",
+        "folder": "kolonialisierung-und-imperialismus-3264"
+      },
+      {
+        "id": "3050",
+        "title": "Plantagen und transatlantischer Sklavenhandel",
+        "folder": "plantagen-und-sklavenwirtschaft-in-den-kolonien-3050"
+      },
+      {
+        "id": "3033",
+        "title": "Mahatma Gandhi und die Unabhängigkeit Indiens",
+        "folder": "mahatma-gandhi-und-die-unabhangigkeit-indiens-3033"
+      }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Kolonialismus+Imperialismus&t=3752"
   },
   "das-kaisertum-oesterreich-und-die-habsburger": {
@@ -1742,7 +1802,22 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "title": "Wien zur Zeit der Monarchie",
         "folder": "arbeitslosigkeit-nach-dem-ersten-weltkrieg-3-3072"
       }
-    ],
+    ,
+      {
+        "id": "350",
+        "title": "Das österreichische Kaiserreich",
+        "folder": "das-osterreichische-kaiserreich-2-350"
+      },
+      {
+        "id": "3313",
+        "title": "Höhepunkt und Zerfall des Österreichischen Kaiserreiches",
+        "folder": "hohepunkt-und-zerfall-des-sterreichischen-kaiserreiches-3313"
+      },
+      {
+        "id": "3311",
+        "title": "Die Kaiser von Österreich (Franz I. bis Karl I.)",
+        "folder": "kaiser-von-sterreich-3311"
+      }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Habsburger+Kaisertum+Oesterreich&t=3752"
   },
   "oesterreich-ungarn-vielvoelkerstaat-und-regionalgeschichte": {
@@ -1799,7 +1874,12 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "title": "Was wäre, wenn das Osmanische Reich nie zerfallen wäre …",
         "folder": "was-ware-wenn-das-osmanische-reich-nie-zerfallen-ware-5402"
       }
-    ],
+    ,
+      {
+        "id": "3019",
+        "title": "Kaiser Karl I. von Österreich-Ungarn",
+        "folder": "kaiser-karl-i-von-sterreich-ungarn-3019"
+      }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Oesterreich-Ungarn+Vielvoelkerstaat&t=3752"
   },
   "der-erste-weltkrieg-ursachen-und-ausbruch": {
@@ -1999,7 +2079,12 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "title": "Paul von Hindenburg",
         "folder": "paul-von-hindenburg-3048"
       }
-    ],
+    ,
+      {
+        "id": "3326",
+        "title": "Die Weimarer Republik – Entstehung & Verfassung",
+        "folder": "die-weimarer-republik-2-3326"
+      }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Die%20Weimarer%20Republik%20%26%20Krisenjahre+geschichte&t=3752"
   },
   "zwischenkriegszeit-und-diktaturen-in-europa": {
@@ -2084,7 +2169,12 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "title": "Zwischenkriegszeit",
         "folder": "zwischenkriegszeit-3325"
       }
-    ],
+    ,
+      {
+        "id": "2352",
+        "title": "Die Russische Revolution (1917)",
+        "folder": "die-nuklearkatastrophe-von-tschernobyl-6-2352"
+      }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Zwischenkriegszeit%20%26%20Faschismus%20in%20Europa+geschichte&t=3752"
   },
   "weimarer-republik-und-grossstadtkrisen": {
@@ -2195,7 +2285,37 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "title": "Adolf Hitler",
         "folder": "adolf-hitler-2289"
       }
-    ],
+    ,
+      {
+        "id": "3310",
+        "title": "Nationalsozialistische Ideologie",
+        "folder": "nationalsozialistische-idelogie-3310"
+      },
+      {
+        "id": "3306",
+        "title": "Führende Akteure des NS-Regimes",
+        "folder": "nationalsozialismus-wichtige-personen-3306"
+      },
+      {
+        "id": "3309",
+        "title": "NS-Massenorganisationen (SA, SS, HJ, BDM)",
+        "folder": "ns-organisationen-3309"
+      },
+      {
+        "id": "3308",
+        "title": "NS-Propaganda und Volksgemeinschaft",
+        "folder": "ns-sozialpolitik-3308"
+      },
+      {
+        "id": "3059",
+        "title": "Schule und Indoktrination im Nationalsozialismus",
+        "folder": "schule-im-nationalsozialismus-3059"
+      },
+      {
+        "id": "2895",
+        "title": "Bücherverbrennung und Berufsverbote 1933",
+        "folder": "berufsverbot-und-bucherverbrennung-im-ns-2895"
+      }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Machtergreifung%2C%20NS-Ideologie%20%26%20F%C3%BChrerstaat+geschichte&t=3752"
   },
   "der-zweite-weltkrieg-weg-in-den-krieg-und-blitzkriege": {
@@ -2273,7 +2393,12 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "title": "Der Vatikan im Zweiten Weltkrieg",
         "folder": "der-vatikan-im-zweiten-weltkrieg-6579"
       }
-    ],
+    ,
+      {
+        "id": "2362",
+        "title": "Hitlers Außenpolitik und Kriegsvorbereitung",
+        "folder": "hitlers-auesenpolitik-2362"
+      }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Zweiter+Weltkrieg+Blitzkrieg+1939&t=3752"
   },
   "der-zweite-weltkrieg-wendepunkte-und-kriegsende": {
@@ -2356,7 +2481,17 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "title": "Der Zweite Weltkrieg",
         "folder": "der-zweite-weltkrieg-5341"
       }
-    ],
+    ,
+      {
+        "id": "3319",
+        "title": "Verlauf des Zweiten Weltkriegs",
+        "folder": "verlauf-des-zweiten-weltkriegs-3319"
+      },
+      {
+        "id": "697",
+        "title": "Zweiter Weltkrieg: Wendepunkte & Chronologie (Quiz)",
+        "folder": "studypoint-multiple-choice-zweiter-weltkrieg-697"
+      }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Zweiter+Weltkrieg+Stalingrad+DDay&t=3752"
   },
   "der-holocaust-und-die-judenverfolgung": {
@@ -2514,7 +2649,12 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "title": "Konrad Adenauer",
         "folder": "konrad-adenauer-893"
       }
-    ],
+    ,
+      {
+        "id": "3064",
+        "title": "Flucht und Vertreibung nach 1945",
+        "folder": "vertreibung-nach-dem-zweiten-weltkrieg-3064"
+      }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Nachkriegszeit%2C%20Stunde%20Null%20%26%20Besatzungszonen+geschichte&t=3752"
   },
   "der-kalte-krieg-ost-west-konflikt": {
@@ -2597,7 +2737,17 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "title": "Die Berlinblockade und die Luftbrücke",
         "folder": "arbeitslosigkeit-nach-dem-ersten-weltkrieg-8-3077"
       }
-    ],
+    ,
+      {
+        "id": "5339",
+        "title": "Der Kalte Krieg: Ursachen & bipolare Weltordnung",
+        "folder": "der-kalte-krieg-2-5339"
+      },
+      {
+        "id": "2347",
+        "title": "Die Nuklearkatastrophe von Tschernobyl (1986)",
+        "folder": "die-nuklearkatastrophe-von-tschernobyl-2347"
+      }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Kalter+Krieg+Kubakrise+NATO&t=3752"
   },
   "globale-stellvertreterkriege-und-brennpunkte": {
@@ -2669,7 +2819,17 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "title": "Was wäre, wenn der Prager Frühling erfolgreich gewesen wäre …",
         "folder": "was-ware-wenn-der-prager-fruhling-erfolgreich-gewesen-ware-5405"
       }
-    ],
+    ,
+      {
+        "id": "3342",
+        "title": "Der Kalte Krieg: Stellvertreterkriege",
+        "folder": "der-kalte-krieg-widerstand-und-stellvertreterkriege-3342"
+      },
+      {
+        "id": "3337",
+        "title": "Kriege der USA nach 1945: Korea und Vietnam",
+        "folder": "kriege-der-usa-nach-dem-zweiten-weltkrieg-3337"
+      }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Stellvertreterkriege+Vietnam+Korea&t=3752"
   },
   "leben-in-der-ddr-und-der-mauerbau": {
@@ -2754,7 +2914,12 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "title": "Frauen in der DDR",
         "folder": "frauen-in-der-ddr-3131"
       }
-    ],
+    ,
+      {
+        "id": "ostalgie",
+        "title": "Ostalgie – Alltag und Erinnerungskultur in der DDR",
+        "folder": "ostalgie-nostalgie-fuer-die-ddr"
+      }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Leben%20in%20der%20DDR%2C%20Mauerbau%201961%20%26%20Stasi+geschichte&t=3752"
   },
   "friedliche-revolution-und-deutsche-einheit": {
@@ -2799,7 +2964,17 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "title": "Das Deutsche Historische Museum",
         "folder": "das-deutsche-historische-museum"
       }
-    ],
+    ,
+      {
+        "id": "2654",
+        "title": "Die Deutsche Wiedervereinigung (1989/90)",
+        "folder": "buddhismus-in-der-modernen-welt-35-2654"
+      },
+      {
+        "id": "brd-seit-1990",
+        "title": "Geschichte Deutschlands seit der Wiedervereinigung",
+        "folder": "geschichte-deutschlands-seit-1990"
+      }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Friedliche%20Revolution%20%26%20Wiedervereinigung%201989%2F90+geschichte&t=3752"
   },
   "islamische-revolution-und-nahostkonflikte": {
@@ -2850,7 +3025,22 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "title": "Die Ölkrise",
         "folder": "arbeitslosigkeit-nach-dem-ersten-weltkrieg-4-3073"
       }
-    ],
+    ,
+      {
+        "id": "2916",
+        "title": "Der erste, zweite und dritte Golfkrieg",
+        "folder": "der-erste-zweite-und-dritte-golfkrieg-2916"
+      },
+      {
+        "id": "741",
+        "title": "Der Zerfall Jugoslawiens & die Balkankriege",
+        "folder": "unabhangigkeit-der-teilrepubliken-jugoslawiens-741"
+      },
+      {
+        "id": "3345",
+        "title": "Kriege und Konflikte im 21. Jahrhundert",
+        "folder": "kriege-und-krisen-im-21-jahrhundert-3345"
+      }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=nahostkonflikt&t=3752"
   },
   "oesterreich-nachkriegszeit-und-nationalfeiertag": {
@@ -2891,7 +3081,12 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "title": "Die Wiener Ringstraße",
         "folder": "die-wiener-ringstraese-5700"
       }
-    ],
+    ,
+      {
+        "id": "3317",
+        "title": "Österreich nach dem Zweiten Weltkrieg: Wiederaufbau",
+        "folder": "sterreich-nach-dem-zweiten-weltkrieg-3317"
+      }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=staatsvertrag+oesterreich&t=3752"
   }
 };
