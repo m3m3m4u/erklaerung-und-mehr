@@ -82,6 +82,22 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "title": "Adjektiv",
         "folder": "adjektiv-553"
       }
+    ,
+      {
+        "id": "de-grammati-1--551",
+        "title": "Verb Grundlagen & Konjugation",
+        "folder": "verb-grundlagen-551"
+      },
+      {
+        "id": "de-grammati-2--552",
+        "title": "Verben in der Personalform",
+        "folder": "verb-personalform-552"
+      },
+      {
+        "id": "de-grammati-3--687",
+        "title": "Der unbestimmte Artikel – Einsetzen und bestimmen",
+        "folder": "studypoint-drag-the-words-der-unbestimmte-artikel-687"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Deutsche%20Grammatik%20Wortarten&t=284"
   },
@@ -226,6 +242,12 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "title": "Alemannische Dialekte",
         "folder": "alemannische-dialekte"
       }
+    ,
+      {
+        "id": "de-sprache--1-ache",
+        "title": "Digitale Sprache & Emojis – Sprachwandel im 21. Jahrhundert",
+        "folder": "emojis-in-der-literatur-eine-neue-sprache"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Sprachwandel%20Dialekte%20Deutsch%20Herder&t=284"
   },
@@ -327,6 +349,37 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "title": "Vorbereitung auf das Deutsch-Abitur oder den Abschluss",
         "folder": "vorbereitung-auf-das-deutsch-abitur-oder-den-abschluss"
       }
+    ,
+      {
+        "id": "de-texte-un-1-3254",
+        "title": "Rhetorische Stilmittel in Texten erkennen",
+        "folder": "rhetorische-stilmittel-3254"
+      },
+      {
+        "id": "de-texte-un-2-ehen",
+        "title": "Rhetorische Mittel und ihre Wirkung",
+        "folder": "rhetorische-mittel-erkennen-und-ihre-wirkung-verstehen"
+      },
+      {
+        "id": "de-texte-un-3-tzen",
+        "title": "Rhetorik & Überzeugungskraft im Alltag",
+        "folder": "rhetorische-mittel-fuer-den-alltag-nutzen"
+      },
+      {
+        "id": "de-texte-un-4-ommt",
+        "title": "Sachtextanalyse – Struktur und Argumentationsgang",
+        "folder": "sachtexte-analysieren-worauf-es-wirklich-ankommt"
+      },
+      {
+        "id": "de-texte-un-5-eilt",
+        "title": "Die Inhaltsangabe – Sachlich und prägnant zusammenfassen",
+        "folder": "wie-man-eine-inhaltsangabe-schreibt-die-nicht-langweilt"
+      },
+      {
+        "id": "de-texte-un-6-aben",
+        "title": "Figurencharakterisierung – Direkte und indirekte Charakterisierung",
+        "folder": "wie-man-charakterisierungen-schreibt-die-tiefe-haben"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Aufsatz%20Inhaltsangabe%20Analyse%20Deutsch&t=284"
   },
@@ -374,6 +427,12 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "wie-man-mit-buechern-die-welt-verbessern-kann",
         "title": "Wie man mit Büchern die Welt verbessern kann",
         "folder": "wie-man-mit-buechern-die-welt-verbessern-kann"
+      }
+    ,
+      {
+        "id": "de-argument-1-egen",
+        "title": "Die literarische Erörterung – Thesen und Argumente",
+        "folder": "literarische-eroerterung-pro-und-contra-abwaegen"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Eroerterung%20Argumentation%20Deutsch%20Schule&t=284"
@@ -619,6 +678,27 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "title": "Joseph von Eichendorff und das Fernweh der Romantiker",
         "folder": "joseph-von-eichendorff-und-das-fernweh-der-romantiker"
       }
+    ,
+      {
+        "id": "de-romantik-1-2374",
+        "title": "Epoche der Romantik (1795–1835) – Sehnsucht und Natur",
+        "folder": "literaturepoche-romantik-2374"
+      },
+      {
+        "id": "de-romantik-2-2383",
+        "title": "Neoromantik – Wiederbelebung romantischer Motive um 1900",
+        "folder": "literaturepoche-neuromatik-2383"
+      },
+      {
+        "id": "de-romantik-3-ntik",
+        "title": "Bettina von Arnim – Schriftstellerin der Romantik",
+        "folder": "bettina-von-arnim-eine-mutige-frau-der-romantik"
+      },
+      {
+        "id": "de-romantik-4-hlen",
+        "title": "Heinrich Heine – Dichter des Vormärz und Exils",
+        "folder": "heinrich-heine-ein-dichter-zwischen-den-stuehlen"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Romantik%20Vormaerz%20Biedermeier%20Literatur&t=284"
   },
@@ -729,6 +809,17 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "3404",
         "title": "Anna Seghers – Das siebte Kreuz",
         "folder": "anna-seghers-das-siebte-kreuz-3404"
+      }
+    ,
+      {
+        "id": "de-moderne--1-2382",
+        "title": "Ästhetizismus – L'art pour l'art und Dekadenz",
+        "folder": "literaturepoche-stetizismus-2382"
+      },
+      {
+        "id": "de-moderne--2-2384",
+        "title": "Futurismus – Maschinenkult und literarischer Aufbruch",
+        "folder": "literaturepoche-futurismus-2384"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Expressionismus%20Exilliteratur%20Moderne&t=284"
@@ -862,6 +953,22 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "title": "Nathan der Weise und die Lehre vom friedlichen Miteinander",
         "folder": "nathan-der-weise-und-die-lehre-vom-friedlichen-miteinander"
       }
+    ,
+      {
+        "id": "de-lessing--1-4613",
+        "title": "Gotthold Ephraim Lessing – Vordenker der Aufklärung",
+        "folder": "gotthold-ephraim-lessing-2-4613"
+      },
+      {
+        "id": "de-lessing--2-3435",
+        "title": "Lessing: Nathan der Weise – Ringparabel und Toleranz",
+        "folder": "gotthold-ephraim-lessing-nathan-der-weise-3435"
+      },
+      {
+        "id": "de-lessing--3-3095",
+        "title": "Lessing: Emilia Galotti – Tugend und fürstliche Willkür",
+        "folder": "g-e-lessing-emilia-galotti-3095"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Lessing%20Nathan%20der%20Weise%20Emilia%20Galotti&t=284"
   },
@@ -960,6 +1067,27 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "goethe-und-warum-er-heute-noch-wichtig-ist",
         "title": "Goethe und warum er heute noch wichtig ist",
         "folder": "goethe-und-warum-er-heute-noch-wichtig-ist"
+      }
+    ,
+      {
+        "id": "de-goethe-f-1-4621",
+        "title": "Johann Wolfgang von Goethe – Dichterleben und Epoche",
+        "folder": "johann-wolfgang-goethe-4621"
+      },
+      {
+        "id": "de-goethe-f-2-3097",
+        "title": "Goethe: Faust I – Gelehrtentragödie & Gretchentragödie",
+        "folder": "j-w-von-goethe-faust-i-3097"
+      },
+      {
+        "id": "de-goethe-f-3-4557",
+        "title": "Goethe: Egmont – Trauerspiel um Freiheit",
+        "folder": "johann-wolfgang-goethe-egmont-2-4557"
+      },
+      {
+        "id": "de-goethe-f-4-3447",
+        "title": "Goethe: Iphigenie auf Tauris – Humanitätsideal der Klassik",
+        "folder": "j-w-goethe-iphigenie-auf-tauris-2-3447"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Goethe%20Faust%20Iphigenie%20Dramen&t=284"
@@ -1060,6 +1188,37 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "title": "Friedrich Schiller und die Kraft der Freundschaft",
         "folder": "friedrich-schiller-und-die-kraft-der-freundschaft"
       }
+    ,
+      {
+        "id": "de-schiller-1-1258",
+        "title": "Friedrich Schiller – Dichter der Freiheit",
+        "folder": "friedrich-schiller-1258"
+      },
+      {
+        "id": "de-schiller-2-3281",
+        "title": "Schiller: Die Räuber – Rebellion gegen die Ordnung",
+        "folder": "friedrich-schiller-die-rauber-3281"
+      },
+      {
+        "id": "de-schiller-3-3272",
+        "title": "Schiller: Kabale und Liebe – Bürgerliches Trauerspiel",
+        "folder": "friedrich-schiller-kabale-und-liebe-3272"
+      },
+      {
+        "id": "de-schiller-4-3271",
+        "title": "Schiller: Maria Stuart – Drama zweier Königinnen",
+        "folder": "friedrich-schiller-maria-stuart-3271"
+      },
+      {
+        "id": "de-schiller-5-4531",
+        "title": "Schiller: Wallenstein – Historische Dramentrilogie",
+        "folder": "friedrich-schiller-wallenstein-2-4531"
+      },
+      {
+        "id": "de-schiller-6-3274",
+        "title": "Schiller: Wilhelm Tell – Schweizer Freiheitsmythos",
+        "folder": "friedrich-schiller-wilhelm-tell-3274"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Schiller%20Dramen%20Raeuber%20Maria%20Stuart&t=284"
   },
@@ -1098,6 +1257,17 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "3446",
         "title": "J.W. Goethe – Die Wahlverwandtschaften",
         "folder": "j-w-goethe-die-wahlverwandtschaften-3446"
+      }
+    ,
+      {
+        "id": "de-goethe-r-1-3275",
+        "title": "Goethe: Die Leiden des jungen Werther – Sturm und Drang",
+        "folder": "j-w-goethe-die-leiden-des-jungen-werther-3275"
+      },
+      {
+        "id": "de-goethe-r-2-4552",
+        "title": "Goethe: Die Wahlverwandtschaften – Roman der Klassik",
+        "folder": "j-w-goethe-die-wahlverwandtschaften-2-4552"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Goethe%20Werther%20Wahlverwandtschaften%20Novelle&t=284"
@@ -1152,6 +1322,42 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "title": "Heinrich von Kleist - Prinz Friedrich von Homburg",
         "folder": "heinrich-von-kleist-prinz-friedrich-von-homburg-2-4548"
       }
+    ,
+      {
+        "id": "de-romantik-1-4618",
+        "title": "Heinrich von Kleist – Zerrissenheit und dramatische Wucht",
+        "folder": "heinrich-von-kleist-2-4618"
+      },
+      {
+        "id": "de-romantik-2-3440",
+        "title": "Kleist: Der zerbrochne Krug – Lustspiel",
+        "folder": "heinrich-von-kleist-der-zerbrochne-krug-3440"
+      },
+      {
+        "id": "de-romantik-3-3439",
+        "title": "Kleist: Das Käthchen von Heilbronn – Großes historisches Ritterschauspiel",
+        "folder": "heinrich-von-kleist-das-kathchen-von-heilbronn-3439"
+      },
+      {
+        "id": "de-romantik-4-3442",
+        "title": "Kleist: Prinz Friedrich von Homburg – Traum und Gehorsam",
+        "folder": "heinrich-von-kleist-prinz-friedrich-von-homburg-3442"
+      },
+      {
+        "id": "de-romantik-5-3250",
+        "title": "Kleist: Die Marquise von O... – Novelle",
+        "folder": "heinrich-von-kleist-marquise-von-o-3250"
+      },
+      {
+        "id": "de-romantik-6-raet",
+        "title": "Kleist: Wenn die Welt aus den Fugen gerät – Novellenanalyse",
+        "folder": "kleist-und-wie-die-welt-ploetzlich-aus-den-fugen-geraet"
+      },
+      {
+        "id": "de-romantik-7-3282",
+        "title": "E.T.A. Hoffmann: Die Elixiere des Teufels – Schauerroman der Romantik",
+        "folder": "e-t-a-hoffmann-die-elixiere-des-teufels-3282"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Hoffmann%20Sandmann%20Kleist%20Novellen&t=284"
   },
@@ -1205,6 +1411,42 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "3463",
         "title": "Theodor Fontane – Frau Jenny Treibel",
         "folder": "theodor-fontane-frau-jenny-treibel-3463"
+      }
+    ,
+      {
+        "id": "de-realismu-1-4612",
+        "title": "Gottfried Keller – Schweizer Dichter des Realismus",
+        "folder": "gotfried-keller-4612"
+      },
+      {
+        "id": "de-realismu-2-3434",
+        "title": "Keller: Kleider machen Leute – Novelle aus Seldwyla",
+        "folder": "gotfried-keller-kleider-machen-leute-3434"
+      },
+      {
+        "id": "de-realismu-3-3433",
+        "title": "Keller: Der grüne Heinrich – Bildungsroman",
+        "folder": "gotfried-keller-der-grune-heinrich-3433"
+      },
+      {
+        "id": "de-realismu-4-wyla",
+        "title": "Gottfried Keller und die Leute von Seldwyla",
+        "folder": "gottfried-keller-und-die-leute-von-seldwyla"
+      },
+      {
+        "id": "de-realismu-5-4629",
+        "title": "Theodor Fontane – Meister des Gesellschaftsromans",
+        "folder": "theodor-fontane-2-4629"
+      },
+      {
+        "id": "de-realismu-6-3102",
+        "title": "Fontane: Effi Briest – Ehekrise und Gesellschaftszwang",
+        "folder": "theodor-fontane-effi-briest-3102"
+      },
+      {
+        "id": "de-realismu-7-4568",
+        "title": "Fontane: Frau Jenny Treibel – Bürgertum in Berlin",
+        "folder": "theodor-fontane-frau-jenny-treibel-2-4568"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Fontane%20Effi%20Briest%20Keller%20Realismus&t=284"
@@ -1314,6 +1556,32 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "6160",
         "title": "Bahnwärter Thiel von Gerhart Hauptmann – Literarische Bedeutung",
         "folder": "bahnwarter-thiel-von-gerhart-hauptmann-literarische-bedeutung-6160"
+      }
+    ,
+      {
+        "id": "de-sozialkr-1-4605",
+        "title": "Frank Wedekind – Provokateur des modernen Theaters",
+        "folder": "frank-wedekind-4605"
+      },
+      {
+        "id": "de-sozialkr-2-3248",
+        "title": "Wedekind: Frühlings Erwachen – Kindertragödie",
+        "folder": "frank-wedekind-fruhlings-erwachen-3248"
+      },
+      {
+        "id": "de-sozialkr-3-4611",
+        "title": "Gerhart Hauptmann – Nobelpreisträger des Naturalismus",
+        "folder": "gerhart-hauptmann-2-4611"
+      },
+      {
+        "id": "de-sozialkr-4-4536",
+        "title": "Hauptmann: Die Ratten – Berliner Tragikomödie",
+        "folder": "gerhart-hauptmann-die-ratten-2-4536"
+      },
+      {
+        "id": "de-sozialkr-5-4537",
+        "title": "Hauptmann: Vor Sonnenuntergang – Familiendrama",
+        "folder": "gerhart-hauptmann-vor-sonnenuntergang-2-4537"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Buechner%20Woyzeck%20Wedekind%20Hauptmann&t=284"
@@ -1430,6 +1698,42 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "title": "Kafka und das Gefühl im System gefangen zu sein",
         "folder": "kafka-und-das-gefuehl-im-system-gefangen-zu-sein"
       }
+    ,
+      {
+        "id": "de-klassisc-1-1256",
+        "title": "Franz Kafka – Das kafkaeske Universum",
+        "folder": "franz-kafka-1256"
+      },
+      {
+        "id": "de-klassisc-2-3093",
+        "title": "Kafka: Der Prozess – Schuld und unbegreifliche Macht",
+        "folder": "franz-kafka-der-prozess-3093"
+      },
+      {
+        "id": "de-klassisc-3-4631",
+        "title": "Thomas Mann – Monumentalität und Ironie",
+        "folder": "thomas-mann-2-4631"
+      },
+      {
+        "id": "de-klassisc-4-3283",
+        "title": "Thomas Mann: Buddenbrooks – Verfall einer Familie",
+        "folder": "thomas-mann-buddenbrooks-3283"
+      },
+      {
+        "id": "de-klassisc-5-4572",
+        "title": "Thomas Mann: Der Zauberberg – Sanatorium in Davos",
+        "folder": "thomas-mann-der-zauberberg-2-4572"
+      },
+      {
+        "id": "de-klassisc-6-4617",
+        "title": "Heinrich Mann – Scharfsinniger Kritiker des Kaiserreichs",
+        "folder": "heinrich-mann-4617"
+      },
+      {
+        "id": "de-klassisc-7-4544",
+        "title": "Heinrich Mann: Professor Unrat – Vorlage zum Blauen Engel",
+        "folder": "heinrich-mann-professor-unrat-2-4544"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Kafka%20Prozess%20Thomas%20Mann%20Buddenbrooks&t=284"
   },
@@ -1542,6 +1846,22 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "title": "Friedrich Dürrenmatt - Warum Zufälle alles verändern",
         "folder": "friedrich-duerrenmatt-warum-zufaelle-alles-veraendern"
       }
+    ,
+      {
+        "id": "de-schweize-1-4623",
+        "title": "Max Frisch – Identität und Tagebuchform",
+        "folder": "max-frisch-2-4623"
+      },
+      {
+        "id": "de-schweize-2-3454",
+        "title": "Frisch: Biedermann und die Brandstifter – Lehrstück ohne Lehre",
+        "folder": "max-frisch-biedermann-und-die-brandstifter-3454"
+      },
+      {
+        "id": "de-schweize-3-4560",
+        "title": "Frisch: Montauk – Autobiographische Erzählung",
+        "folder": "max-frisch-montauk-2-4560"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Duerrenmatt%20Physiker%20Besuch%20alten%20Dame%20Frisch%20Biedermann&t=284"
   },
@@ -1616,6 +1936,42 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "title": "Hermann Hesse und die Suche nach dem Sinn des Lebens",
         "folder": "hermann-hesse-und-die-suche-nach-dem-sinn-des-lebens"
       }
+    ,
+      {
+        "id": "de-deutsche-1-4614",
+        "title": "Günter Grass – Danziger Trilogie und Blechtrommel",
+        "folder": "gunther-grass-4614"
+      },
+      {
+        "id": "de-deutsche-2-3470",
+        "title": "Grass: Die Blechtrommel – Oskar Matzerath trommelt gegen das Vergessen",
+        "folder": "gunther-grass-die-blechtrommel-3470"
+      },
+      {
+        "id": "de-deutsche-3-zeit",
+        "title": "Heinrich Böll – Moral und Gewissen der Nachkriegsliteratur",
+        "folder": "heinrich-boell-und-die-moral-der-nachkriegszeit"
+      },
+      {
+        "id": "de-deutsche-4-4634",
+        "title": "Wolfgang Koeppen – Trilogie des Scheiterns",
+        "folder": "wolfgang-koeppen-4634"
+      },
+      {
+        "id": "de-deutsche-5-3276",
+        "title": "Koeppen: Tauben im Gras – Roman eines Nachkriegstages",
+        "folder": "wolfgang-koeppen-tauben-im-gras-3276"
+      },
+      {
+        "id": "de-deutsche-6-4616",
+        "title": "Heiner Müller – Dramatiker der DDR und Moderne",
+        "folder": "heiner-muller-4616"
+      },
+      {
+        "id": "de-deutsche-7-3437",
+        "title": "Heiner Müller: Der Auftrag – Erinnerung an eine Revolution",
+        "folder": "heiner-muller-der-auftrag-3437"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Blechtrommel%20Grass%20Koeppen%20Nachkriegsliteratur&t=284"
   },
@@ -1685,6 +2041,17 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "title": "Heimsuchung von Jenny Erpenbeck – Literarische Bedeutung",
         "folder": "heimsuchung-von-jenny-erpenbeck-literarische-bedeutung-6222"
       }
+    ,
+      {
+        "id": "de-die-heim-1-3105",
+        "title": "Jenny Erpenbeck – Werk und historische Schichten",
+        "folder": "jenny-erpenbeck-3105"
+      },
+      {
+        "id": "de-die-heim-2-3450",
+        "title": "Jenny Erpenbeck: Heimsuchung – Figurenkonstellation & Raum",
+        "folder": "jenny-erpenbeck-heimsuchung-2-3450"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Jenny%20Erpenbeck%20Heimsuchung%20Abitur&t=284"
   },
@@ -1739,6 +2106,42 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "title": "Hugo von Hofmannsthal – Der Tor und der Tod",
         "folder": "hugo-von-hofmannsthal-der-tor-und-der-tod-3443"
       }
+    ,
+      {
+        "id": "de-wiener-m-1-4604",
+        "title": "Ferdinand Raimund – Meister des Alt-Wiener Zauberspiels",
+        "folder": "ferdinand-raimund-4604"
+      },
+      {
+        "id": "de-wiener-m-2-3416",
+        "title": "Raimund: Der Alpenkönig und der Menschenfeind",
+        "folder": "ferdinand-raimund-der-alpenkonig-und-der-menschenfeind-3416"
+      },
+      {
+        "id": "de-wiener-m-3-4620",
+        "title": "Johann Nestroy – Wiener Satire und Posse",
+        "folder": "johann-nestroy-4620"
+      },
+      {
+        "id": "de-wiener-m-4-3451",
+        "title": "Nestroy: Der Talisman – Posse mit Gesang um Titus Feuerfuchs",
+        "folder": "johann-nestroy-der-talisman-3451"
+      },
+      {
+        "id": "de-wiener-m-5-4619",
+        "title": "Hugo von Hofmannsthal – Lyriker und Mitbegründer der Salzburger Festspiele",
+        "folder": "hugo-von-hofmannsthal-4619"
+      },
+      {
+        "id": "de-wiener-m-6-4550",
+        "title": "Hofmannsthal: Der Tor und der Tod – Lyrisches Drama",
+        "folder": "hugo-von-hofmannsthal-der-tor-und-der-tod-2-4550"
+      },
+      {
+        "id": "de-wiener-m-7-4549",
+        "title": "Hofmannsthal: Der Schwierige – Gesellschaftskomödie",
+        "folder": "hugo-von-hofmannsthal-der-schwierige-2-4549"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Wiener%20Moderne%20Schnitzler%20Nestroy%20Hofmannsthal&t=284"
   },
@@ -1792,6 +2195,27 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "title": "Thomas Bernhard - Holzfällen",
         "folder": "thomas-bernhard-holzfallen-2-4570"
       }
+    ,
+      {
+        "id": "de-oesterre-1-3456",
+        "title": "Ödön von Horváth: Geschichten aus dem Wiener Wald – Volksstück",
+        "folder": "don-von-horvath-geschichten-aus-dem-wiener-wald-3456"
+      },
+      {
+        "id": "de-oesterre-2-4630",
+        "title": "Thomas Bernhard – Österreichischer Übertreibungskünstler",
+        "folder": "thomas-bernhard-4630"
+      },
+      {
+        "id": "de-oesterre-3-3464",
+        "title": "Thomas Bernhard: Die Macht der Gewohnheit – Zirkuskomödie",
+        "folder": "thomas-bernhard-die-macht-der-gewohnheit-3464"
+      },
+      {
+        "id": "de-oesterre-4-3465",
+        "title": "Thomas Bernhard: Holzfällen – Eine Erregung",
+        "folder": "thomas-bernhard-holzfallen-3465"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Oesterreichische%20Literatur%20Roth%20Horvath%20Bernhard&t=284"
   },
@@ -1830,6 +2254,17 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "3461",
         "title": "Robert Seethaler – Der Trafikant",
         "folder": "robert-seethaler-der-trafikant-3461"
+      }
+    ,
+      {
+        "id": "de-robert-s-1-4628",
+        "title": "Robert Seethaler – Wiener Romancier und Erzähler",
+        "folder": "robert-seethaler-4628"
+      },
+      {
+        "id": "de-robert-s-2-4566",
+        "title": "Robert Seethaler: Der Trafikant – Franz Huchel und Freud in Wien",
+        "folder": "robert-seethaler-der-trafikant-2-4566"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Robert%20Seethaler%20Der%20Trafikant%20Abitur&t=284"
@@ -2058,6 +2493,27 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "title": "Moderne Songtexte als Gedichte analysieren",
         "folder": "moderne-songtexte-als-gedichte-analysieren"
       }
+    ,
+      {
+        "id": "de-moderne--1-rsen",
+        "title": "Großstadtlyrik – Der Lärm der Welt im Expressionismus",
+        "folder": "grossstadtlyrik-der-laerm-der-welt-in-versen"
+      },
+      {
+        "id": "de-moderne--2-yrik",
+        "title": "Else Lasker-Schüler – Avantgarde und Herzgedichte",
+        "folder": "else-lasker-schueler-die-wilde-seite-der-lyrik"
+      },
+      {
+        "id": "de-moderne--3-eich",
+        "title": "Liebeslyrik im Wandel der Jahrhunderte – Barock bis Gegenwart",
+        "folder": "liebeslyrik-frueher-gegen-heute-ein-vergleich"
+      },
+      {
+        "id": "de-moderne--4-pass",
+        "title": "Vom Sonett zum Poetry Slam – Formen moderner Dichtung",
+        "folder": "von-sonetten-bis-poetry-slam-lyrik-macht-spass"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Gedichtanalyse%20Rilke%20Expressionismus%20Lyrik&t=284"
   },
@@ -2185,6 +2641,22 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "mentale-gesundheit-in-modernen-jugendromanen",
         "title": "Mentale Gesundheit in modernen Jugendromanen",
         "folder": "mentale-gesundheit-in-modernen-jugendromanen"
+      }
+    ,
+      {
+        "id": "de-moderne--1-4633",
+        "title": "Wolfgang Herrndorf – Leben und Werk",
+        "folder": "wolfgang-herrndorf-4633"
+      },
+      {
+        "id": "de-moderne--2-3277",
+        "title": "Herrndorf: Tschick – Roadtrip zweier Außenseiter",
+        "folder": "wolfgang-herrndorf-tschick-3277"
+      },
+      {
+        "id": "de-moderne--3-1248",
+        "title": "Erich Maria Remarque – Im Westen nichts Neues",
+        "folder": "erich-maria-remarque-1248"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Tschick%20Rico%20Oskar%20Jugendliteratur%20Herrndorf&t=284"
@@ -2367,6 +2839,17 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "title": "Monster in der Literatur - Von Frankenstein bis heute",
         "folder": "monster-in-der-literatur-von-frankenstein-bis-heute"
       }
+    ,
+      {
+        "id": "de-fantasy--1-1262",
+        "title": "George Orwell – 1984 und Animal Farm",
+        "folder": "george-orwell-1262"
+      },
+      {
+        "id": "de-fantasy--2-eben",
+        "title": "Dystopien in der Jugendliteratur – Gesellschaftskritik und Spannung",
+        "folder": "warum-wir-dystopien-wie-tribute-von-panem-lieben"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Fantasy%20Science%20Fiction%20Dystopie%20Cyberpunk&t=284"
   },
@@ -2415,6 +2898,22 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "historische-romane-wie-viel-echte-geschichte-steckt-drin",
         "title": "Historische Romane - Wie viel echte Geschichte steckt drin",
         "folder": "historische-romane-wie-viel-echte-geschichte-steckt-drin"
+      }
+    ,
+      {
+        "id": "de-abenteue-1-sagt",
+        "title": "Merkmale der Kurzgeschichte – Offener Anfang und Wendepunkt",
+        "folder": "kurzgeschichten-und-wie-man-viel-in-wenig-text-sagt"
+      },
+      {
+        "id": "de-abenteue-2-chte",
+        "title": "Der Spannungsbogen in der Kurzprosa",
+        "folder": "spannungsbogen-aufbauen-in-der-kurzgeschichte"
+      },
+      {
+        "id": "de-abenteue-3-iert",
+        "title": "Satire, Ironie & Sarkasmus als literarische Kritik",
+        "folder": "satire-wie-man-mit-humor-kritisiert"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Abenteuerromane%20Reiseliteratur%20Gothic%20Dark%20Academia&t=284"
@@ -2622,6 +3121,12 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "geschichten-die-man-sich-frueher-nur-erzaehlt-hat",
         "title": "Geschichten, die man sich früher nur erzählt hat",
         "folder": "geschichten-die-man-sich-frueher-nur-erzaehlt-hat"
+      }
+    ,
+      {
+        "id": "de-erzaehlt-1-baut",
+        "title": "Spannungstechniken und Vorausdeutungen",
+        "folder": "wie-man-spannung-in-einer-kurzgeschichte-aufbaut"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Erzaehltechniken%20Kreativ%20Schreiben%20Deutsch&t=284"
@@ -2874,6 +3379,17 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "title": "Nobelpreisträger für Literatur - Muss man die kennen",
         "folder": "nobelpreistraeger-fuer-literatur-muss-man-die-kennen"
       }
+    ,
+      {
+        "id": "de-bedeutun-1-sind",
+        "title": "Narrative Sachbücher & Dokumentarliteratur",
+        "folder": "sachbuecher-die-so-spannend-wie-romane-sind"
+      },
+      {
+        "id": "de-bedeutun-2-iebe",
+        "title": "Blick über die Grenzen: Französische Weltliteratur",
+        "folder": "franzoesische-literatur-mehr-als-nur-liebe"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Literaturgeschichte%20Buchkultur%20Klassiker%20Lesen&t=284"
   },
@@ -2972,6 +3488,12 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "klimaschutz-in-romanen-die-angst-vor-der-katastrophe",
         "title": "Klimaschutz in Romanen - Die Angst vor der Katastrophe",
         "folder": "klimaschutz-in-romanen-die-angst-vor-der-katastrophe"
+      }
+    ,
+      {
+        "id": "de-gesellsc-1-chen",
+        "title": "Der moderne Roman – Erzählperspektiven und Plots",
+        "folder": "moderne-liebesromane-und-was-sie-heute-anders-machen"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Gesellschaft%20Literatur%20Diversitaet%20Inklusion&t=284"
