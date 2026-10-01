@@ -855,17 +855,17 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "folder": "der-grazer-uhrturm-5632"
       },
       {
-        "id": "aut-st-1",
+        "id": "aut-steier-reg-1",
         "title": "Die Obersteiermark – Montanregion & Hochalpen",
         "folder": "die-obersteiermark-5687"
       },
       {
-        "id": "aut-st-2",
+        "id": "aut-steier-reg-2",
         "title": "Die Mittelsteiermark – Mur-Mürz-Furche",
         "folder": "die-mittelsteiermark-5684"
       },
       {
-        "id": "aut-st-3",
+        "id": "aut-steier-reg-3",
         "title": "Die Südsteiermark – Steirisches Weinland",
         "folder": "die-sudsteiermark-5692"
       },
