@@ -98,6 +98,46 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "aut-kl-1",
         "title": "Klima und Wetter Österreichs",
         "folder": "klima-und-wetter-sterreichs-2-498"
+      },
+      {
+        "id": "aut-allg-1",
+        "title": "Ostarrichi – Urkunde und Geburtsstunde Österreichs (996)",
+        "folder": "ostarrichi-geburtsstunde-sterreichs-3122"
+      },
+      {
+        "id": "aut-allg-2",
+        "title": "Die Entstehung Österreichs – Vom Herzogtum zur Großmacht",
+        "folder": "entstehung-sterreichs-3316"
+      },
+      {
+        "id": "aut-allg-3",
+        "title": "Ausrufung der Republik Österreich 1918",
+        "folder": "ausrufung-der-republik-sterreich-1918-2892"
+      },
+      {
+        "id": "aut-allg-4",
+        "title": "Der Österreichische Nationalfeiertag (26. Oktober)",
+        "folder": "der-sterreichische-nationalfeiertag-6508"
+      },
+      {
+        "id": "aut-allg-5",
+        "title": "Österreich im Überblick – Geographie und Topographie",
+        "folder": "sterreich-im-berblick-487"
+      },
+      {
+        "id": "aut-allg-6",
+        "title": "Bevölkerung Österreichs – Demographie und Siedlungsräume",
+        "folder": "bevolkerung-sterreichs-497"
+      },
+      {
+        "id": "aut-allg-7",
+        "title": "Hauptstädte der 9 österreichischen Bundesländer",
+        "folder": "hauptstadte-der-bundeslander-sterreich-136"
+      },
+      {
+        "id": "aut-allg-8",
+        "title": "Bundesländer Österreich Memory",
+        "folder": "bundeslander-sterreich-memory-135"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=geographie+oesterreich&t=3752"
@@ -163,6 +203,51 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "483",
         "title": "Vorarlberg",
         "folder": "vorarlberg-483"
+      },
+      {
+        "id": "aut-bnd-bg",
+        "title": "Burgenland – Geographie & Landeskunde",
+        "folder": "burgenland-484"
+      },
+      {
+        "id": "aut-bnd-bg-g",
+        "title": "Die Geschichte des Burgenlandes",
+        "folder": "die-geschichte-des-burgenlandes-5667"
+      },
+      {
+        "id": "aut-bnd-st",
+        "title": "Steiermark – Das grüne Herz Österreichs",
+        "folder": "steiermark-485"
+      },
+      {
+        "id": "aut-bnd-st-g",
+        "title": "Die Geschichte der Steiermark",
+        "folder": "die-geschichte-der-steiermark-5666"
+      },
+      {
+        "id": "aut-bnd-kt",
+        "title": "Kärnten – Land der Seen und Berge",
+        "folder": "karnten-486"
+      },
+      {
+        "id": "aut-bnd-kt-g",
+        "title": "Die Geschichte Kärntens",
+        "folder": "die-geschichte-karntens-5668"
+      },
+      {
+        "id": "aut-bnd-sb",
+        "title": "Salzburg – Landeskunde & Alpenvorland",
+        "folder": "salzburg-479"
+      },
+      {
+        "id": "aut-bnd-tr",
+        "title": "Tirol – Land im Gebirge",
+        "folder": "tirol-478"
+      },
+      {
+        "id": "aut-bnd-tr-g",
+        "title": "Die Geschichte Tirols",
+        "folder": "die-geschichte-tirols-2-5672"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=oesterreich+bundeslaender&t=3752"
@@ -288,6 +373,96 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "aut-np-2",
         "title": "Der Nationalpark Thayatal",
         "folder": "nationalpark-thayatal-5718"
+      },
+      {
+        "id": "aut-reg-1",
+        "title": "Das Industrieviertel",
+        "folder": "das-industrieviertel-5591"
+      },
+      {
+        "id": "aut-reg-2",
+        "title": "Das Marchfeld – Kornkammer Österreichs",
+        "folder": "das-marchfeld-5601"
+      },
+      {
+        "id": "aut-reg-3",
+        "title": "Das Hausruckviertel – Hügelland und Braunkohlerevier",
+        "folder": "das-hausruckviertel-5589"
+      },
+      {
+        "id": "aut-reg-4",
+        "title": "Das Mühlviertel – Granithochland nördlich der Donau",
+        "folder": "das-muhlviertel-5605"
+      },
+      {
+        "id": "aut-reg-5",
+        "title": "Der Flachgau – Salzburger Seengebiet",
+        "folder": "das-flachgau-5585"
+      },
+      {
+        "id": "aut-reg-6",
+        "title": "Der Tennengau – Salzachöfen und Hallein",
+        "folder": "der-tennengau-5647"
+      },
+      {
+        "id": "aut-reg-7",
+        "title": "Der Pongau – Salzburger Hochtal und Tauern",
+        "folder": "das-pongau-5612"
+      },
+      {
+        "id": "aut-reg-8",
+        "title": "Der Pinzgau – Hohe Tauern und Zeller See",
+        "folder": "der-pinzgau-5644"
+      },
+      {
+        "id": "aut-reg-9",
+        "title": "Der Lungau – UNESCO-Biosphärenpark",
+        "folder": "das-lungau-5600"
+      },
+      {
+        "id": "aut-reg-10",
+        "title": "Das Montafon – Alpentalschaft im Rätikon",
+        "folder": "das-montafon-5603"
+      },
+      {
+        "id": "aut-reg-11",
+        "title": "Das Kleinwalsertal – Österreichische Enklave in den Allgäuer Alpen",
+        "folder": "das-kleinwalsertal-5595"
+      },
+      {
+        "id": "aut-reg-12",
+        "title": "Das Klostertal – Vom Arlberg nach Bludenz",
+        "folder": "das-klostertal-5596"
+      },
+      {
+        "id": "aut-reg-13",
+        "title": "Das Große Walsertal – Biosphärenpark",
+        "folder": "das-groese-walsertal-5588"
+      },
+      {
+        "id": "aut-reg-14",
+        "title": "Das Leiblachtal – Am Übergang zum Allgäu",
+        "folder": "das-leiblachtal-5599"
+      },
+      {
+        "id": "aut-reg-15",
+        "title": "Der Walgau – Illtal im Süden Vorarlbergs",
+        "folder": "der-walgau-5649"
+      },
+      {
+        "id": "aut-reg-16",
+        "title": "Das Gailtal – Längstal zwischen Karnischen und Gailtaler Alpen",
+        "folder": "das-gailtal-5586"
+      },
+      {
+        "id": "aut-reg-17",
+        "title": "Das Lavanttal – Kärntner Paradies",
+        "folder": "das-lavanttal-5597"
+      },
+      {
+        "id": "aut-reg-18",
+        "title": "Die steirische Thermenregion – Vulkanland und Heilquellen",
+        "folder": "die-steirische-thermenregion-5691"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=oesterreich+bundeslaender&t=3752"
@@ -348,6 +523,66 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "5695",
         "title": "Die UNO-City Wien",
         "folder": "die-uno-city-wien-5695"
+      },
+      {
+        "id": "wien-bb-1",
+        "title": "Das Schloss Schönbrunn – Kaiserliche Sommerresidenz",
+        "folder": "das-schloss-schonbrunn-5615"
+      },
+      {
+        "id": "wien-bb-2",
+        "title": "Das Schloss Belvedere – Barockes Gesamtkunstwerk",
+        "folder": "das-belvedere-5582"
+      },
+      {
+        "id": "wien-bb-3",
+        "title": "Der Stephansdom – Wahrzeichen Wiens",
+        "folder": "der-stephansdom-5646"
+      },
+      {
+        "id": "wien-bb-4",
+        "title": "Die Wiener Hofburg – Kaiserpalast und Amtssitz",
+        "folder": "die-hofburg-5675"
+      },
+      {
+        "id": "wien-bb-5",
+        "title": "Das Österreichische Parlament – Ringstraßenarchitektur",
+        "folder": "das-sterreichische-parlament-5609"
+      },
+      {
+        "id": "wien-bb-6",
+        "title": "Die Wiener Staatsoper – Haus am Ring",
+        "folder": "die-wiener-staatsoper-5701"
+      },
+      {
+        "id": "wien-bb-7",
+        "title": "Das Burgtheater – Österreichische Nationalbühne",
+        "folder": "das-burgtheater-5583"
+      },
+      {
+        "id": "wien-bb-8",
+        "title": "Das Kunst- und Naturhistorische Museum",
+        "folder": "das-naturhistorische-museum-5607"
+      },
+      {
+        "id": "wien-bb-9",
+        "title": "Das MuseumsQuartier (MQ) – Kulturareal",
+        "folder": "das-museumsquartier-5606"
+      },
+      {
+        "id": "wien-bb-10",
+        "title": "Die Albertina – Kunstpalast und Bastei",
+        "folder": "die-albertina-5657"
+      },
+      {
+        "id": "wien-bb-11",
+        "title": "Der Karlsplatz mit der Karlskirche",
+        "folder": "der-karlsplatz-mit-der-karlskirche-5638"
+      },
+      {
+        "id": "wien-bb-12",
+        "title": "Das Hundertwasserhaus – Bunte Architektur der Moderne",
+        "folder": "das-hundertwasserhaus-5590"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=wien+geographie&t=3752"
@@ -403,6 +638,26 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "6134",
         "title": "Wien",
         "folder": "wien-3-6134"
+      },
+      {
+        "id": "wien-inf-1",
+        "title": "Der Wiener Prater & Riesenrad",
+        "folder": "der-prater-5645"
+      },
+      {
+        "id": "wien-inf-2",
+        "title": "Die Mariahilfer Straße – Größte Einkaufsstraße Österreichs",
+        "folder": "die-mariahilfer-straese-5683"
+      },
+      {
+        "id": "wien-inf-3",
+        "title": "Der Wiener Heurige – Weinkultur in Grinzing & Neustift",
+        "folder": "der-heurige-5635"
+      },
+      {
+        "id": "wien-inf-4",
+        "title": "Wien – Bundesland und Bundeshauptstadt",
+        "folder": "wien-482"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=wien+geographie&t=3752"
@@ -448,6 +703,21 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "5709",
         "title": "Klagenfurt",
         "folder": "klagenfurt-2-5709"
+      },
+      {
+        "id": "aut-lh-1",
+        "title": "Dornbirn – Bevölkerungsreichste Stadt Vorarlbergs",
+        "folder": "dornbirn-1441"
+      },
+      {
+        "id": "aut-lh-2",
+        "title": "Das Goldene Dachl in Innsbruck",
+        "folder": "das-goldene-dachl-5587"
+      },
+      {
+        "id": "aut-lh-3",
+        "title": "Die Schattenburg in Feldkirch",
+        "folder": "die-schattenburg-5690"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=landeshauptstaedte+oesterreich&t=3752"
@@ -488,6 +758,16 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "5721",
         "title": "Salzburg und ihre Salzbergwerke",
         "folder": "salzburg-und-ihre-salzbergwerke-5721"
+      },
+      {
+        "id": "aut-lh-4",
+        "title": "St. Pölten – Landeshauptstadt Niederösterreichs",
+        "folder": "st-polten-5723"
+      },
+      {
+        "id": "aut-lh-5",
+        "title": "Schloss Esterházy in Eisenstadt",
+        "folder": "das-schloss-esterhazy-5614"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=landeshauptstaedte+oesterreich&t=3752"
@@ -548,6 +828,41 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "5734",
         "title": "Wiener Neustadt",
         "folder": "wiener-neustadt-8-5734"
+      },
+      {
+        "id": "wn-v-7",
+        "title": "Wiener Neustadt – Bildungs- und Schulstadt",
+        "folder": "wiener-neustadt-7-5733"
+      },
+      {
+        "id": "wn-v-9",
+        "title": "Wiener Neustadt – Verkehr und Mobilität",
+        "folder": "wiener-neustadt-9-5735"
+      },
+      {
+        "id": "wn-v-10",
+        "title": "Wiener Neustadt – Stadtviertel & Grünräume",
+        "folder": "wiener-neustadt-10-5736"
+      },
+      {
+        "id": "wn-v-11",
+        "title": "Wiener Neustadt – Sport und Freizeit",
+        "folder": "wiener-neustadt-11-5737"
+      },
+      {
+        "id": "wn-v-12",
+        "title": "Wiener Neustadt – Moderne Entwicklung",
+        "folder": "wiener-neustadt-12-5738"
+      },
+      {
+        "id": "wn-v-13",
+        "title": "Wiener Neustadt – Kirchen und Denkmäler",
+        "folder": "wiener-neustadt-13-5739"
+      },
+      {
+        "id": "wn-v-14",
+        "title": "Wiener Neustadt – Wissenstest & Zusammenfassung",
+        "folder": "wiener-neustadt-14-5740"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=wiener+neustadt&t=3752"
@@ -584,6 +899,116 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "1948",
         "title": "Wolfsberg",
         "folder": "wolfsberg-1948"
+      },
+      {
+        "id": "aut-st-1",
+        "title": "Amstetten – Zentralort im Mostviertel",
+        "folder": "amstetten-2-5580"
+      },
+      {
+        "id": "aut-st-2",
+        "title": "Krems – Stadt an der Donau",
+        "folder": "krems-1720"
+      },
+      {
+        "id": "aut-st-3",
+        "title": "Mödling – Historische Stadt am Wienerwald",
+        "folder": "modling-2-5716"
+      },
+      {
+        "id": "aut-st-4",
+        "title": "Klosterneuburg – Stift und Babenbergerstadt",
+        "folder": "klosterneuburg-2-1758"
+      },
+      {
+        "id": "aut-st-5",
+        "title": "Schwechat – Industriestadt und Flughafen",
+        "folder": "schwechat-1853"
+      },
+      {
+        "id": "aut-st-6",
+        "title": "Tulln an der Donau – Gartenstadt",
+        "folder": "tulln-1903"
+      },
+      {
+        "id": "aut-st-7",
+        "title": "Wels – Zweitgrößte Stadt Oberösterreichs",
+        "folder": "wels-2-5726"
+      },
+      {
+        "id": "aut-st-8",
+        "title": "Steyr – Romantikstadt an Enns und Steyr",
+        "folder": "steyr-2-5724"
+      },
+      {
+        "id": "aut-st-9",
+        "title": "Gmunden – Keramikstadt am Traunsee",
+        "folder": "gmunden-5703"
+      },
+      {
+        "id": "aut-st-10",
+        "title": "Traun – Industriestadt im Zentralraum",
+        "folder": "traun-1898"
+      },
+      {
+        "id": "aut-st-11",
+        "title": "Leonding – Stadt im Linzer Zentralraum",
+        "folder": "leonding-2-5713"
+      },
+      {
+        "id": "aut-st-12",
+        "title": "Saalfelden am Steinernen Meer",
+        "folder": "saalfelden-2-5719"
+      },
+      {
+        "id": "aut-st-13",
+        "title": "Hallein – Kelten- und Salzstadt an der Salzach",
+        "folder": "hallein-2-5705"
+      },
+      {
+        "id": "aut-st-14",
+        "title": "Kufstein – Festungsstadt an der grünen Inn",
+        "folder": "kufstein-2-5711"
+      },
+      {
+        "id": "aut-st-15",
+        "title": "Kitzbühel – Hahnenkamm und Kitzbüheler Alpen",
+        "folder": "kitzbuhel-5708"
+      },
+      {
+        "id": "aut-st-16",
+        "title": "Schwaz in Tirol – Mittelalterliche Silberstadt",
+        "folder": "schwaz-5722"
+      },
+      {
+        "id": "aut-st-17",
+        "title": "Feldkirch – Historische Montfortstadt",
+        "folder": "feldkirch-1438"
+      },
+      {
+        "id": "aut-st-18",
+        "title": "Lustenau – Größte Marktgemeinde Österreichs am Rhein",
+        "folder": "lustenau-1751"
+      },
+      {
+        "id": "aut-st-19",
+        "title": "Leoben – Zweitgrößte Stadt der Steiermark und Montanuniversität",
+        "folder": "leoben-2-5712"
+      },
+      {
+        "id": "aut-st-20",
+        "title": "Kapfenberg – Industriemetropole und Burg Oberkapfenberg",
+        "folder": "kapfenberg-2-5707"
+      },
+      {
+        "id": "aut-st-21",
+        "title": "Villach – Eisenbahnknoten und Draustadt",
+        "folder": "villach-2-5725"
+      },
+      {
+        "id": "aut-st-22",
+        "title": "Feldkirchen in Kärnten – Tor zum Tiebel- und Glantal",
+        "folder": "feldkirchen-in-karnten-1629"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=staedte+oesterreich&t=3752"
@@ -649,6 +1074,36 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "aut-gg-1",
         "title": "Der Großglockner – Höchster Berg Österreichs",
         "folder": "der-groesglockner-2-5633"
+      },
+      {
+        "id": "aut-alp-1",
+        "title": "Die Hohen Tauern – Dach der österreichischen Alpen",
+        "folder": "die-hohen-tauern-2-5676"
+      },
+      {
+        "id": "aut-alp-2",
+        "title": "Die Niederen Tauern – Schladminger und Wölzer Tauern",
+        "folder": "die-niederen-tauern-5686"
+      },
+      {
+        "id": "aut-alp-3",
+        "title": "Die Karawanken – Kalkalpenkette an der slowenischen Grenze",
+        "folder": "die-karawanken-5678"
+      },
+      {
+        "id": "aut-alp-4",
+        "title": "Die Rätikon-Gruppe – Grenzgebirge der Ostalpen",
+        "folder": "die-ratikon-gruppe-5688"
+      },
+      {
+        "id": "aut-alp-5",
+        "title": "Der Arlberg – Pass und Wasserscheide zwischen Tirol und Vorarlberg",
+        "folder": "der-arlberg-5625"
+      },
+      {
+        "id": "aut-alp-6",
+        "title": "Der Steirische Erzberg – Tagebau und Steirische Pyramide",
+        "folder": "der-erzberg-5630"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=alpen+oesterreich&t=3752"
@@ -790,6 +1245,51 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "aut-tr-1",
         "title": "Die Traun – Vom Salzkammergut zur Donau",
         "folder": "die-traun-5694"
+      },
+      {
+        "id": "aut-gew-1",
+        "title": "Die Drau – Hauptstrom Kärntens",
+        "folder": "die-drau-5662"
+      },
+      {
+        "id": "aut-gew-2",
+        "title": "Die Enns – Ältester Grenzfluss und Alpenstrom",
+        "folder": "die-enns-5663"
+      },
+      {
+        "id": "aut-gew-3",
+        "title": "Die Salzach – Hauptfluss Salzburgs",
+        "folder": "die-salzach-5689"
+      },
+      {
+        "id": "aut-gew-4",
+        "title": "Die March – Grenzfluss zu Slowakei und Mähren",
+        "folder": "die-march-5682"
+      },
+      {
+        "id": "aut-gew-5",
+        "title": "Die Thaya – Grenzfluss und Nationalpark Thayatal",
+        "folder": "die-thaya-5693"
+      },
+      {
+        "id": "aut-gew-6",
+        "title": "Der Kamp – Waldviertler Stauseen",
+        "folder": "der-kamp-5637"
+      },
+      {
+        "id": "aut-gew-7",
+        "title": "Der Lech – Wildfluss durch das Lechtal",
+        "folder": "der-lech-5639"
+      },
+      {
+        "id": "aut-gew-8",
+        "title": "Die Ill – Größter Alpenfluss Vorarlbergs",
+        "folder": "die-ill-5677"
+      },
+      {
+        "id": "aut-gew-9",
+        "title": "Die Krimmler Wasserfälle – Höchste Wasserfälle Österreichs",
+        "folder": "die-krimmler-wasserfalle-5681"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=fluesse+seen+oesterreich&t=3752"
@@ -1481,6 +1981,36 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "ch-ueb-1",
         "title": "Die Schweiz im Überblick",
         "folder": "schweiz-1009"
+      },
+      {
+        "id": "ch-hist-1",
+        "title": "Der Bundesbrief von 1291 – Gründung der Eidgenossenschaft",
+        "folder": "der-bundesbrief-von-1291-6301"
+      },
+      {
+        "id": "ch-hist-2",
+        "title": "Die Alte Eidgenossenschaft – Von den Urkantonen zu den 13 Orten",
+        "folder": "die-alte-eidgenossenschaft-6342"
+      },
+      {
+        "id": "ch-hist-3",
+        "title": "Die Helvetische Republik (1798–1803)",
+        "folder": "die-helvetische-republik-6351"
+      },
+      {
+        "id": "ch-hist-4",
+        "title": "Der Sonderbundskrieg 1847 – Weg zum modernen Bundesstaat",
+        "folder": "der-sonderbundskrieg-6335"
+      },
+      {
+        "id": "ch-hist-5",
+        "title": "Die Schweiz im Ersten Weltkrieg",
+        "folder": "die-schweiz-im-ersten-weltkrieg-6361"
+      },
+      {
+        "id": "ch-hist-6",
+        "title": "Die Schweiz nach dem Zweiten Weltkrieg",
+        "folder": "die-schweiz-nach-dem-zweiten-weltkrieg-6362"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=schweiz+politik&t=3752"
@@ -1913,6 +2443,11 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "6376",
         "title": "Geologie und Gebirge der Schweiz",
         "folder": "geologie-und-gebirge-der-schweiz-6376"
+      },
+      {
+        "id": "ch-alp-1",
+        "title": "Die Mont-Blanc-Gruppe – Westalpen-Massiv im Dreiländereck",
+        "folder": "die-mont-blanc-gruppe-6355"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=alpen+schweiz&t=3752"
