@@ -2617,7 +2617,7 @@ export const musikTopics: Record<string, MusikTopic> = {
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=hiphop+rap+deutschrap+streaming&t=3752"
-  }
+  },
   "filmmusik-soundtracks-und-medienkomposition": {
     "slug": "filmmusik-soundtracks-und-medienkomposition",
     "title": "Filmmusik, Soundtracks & Medienkomposition",

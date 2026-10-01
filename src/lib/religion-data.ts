@@ -2051,7 +2051,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "folder": "wallfahrten-im-christlichen-glauben-2475"
       }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=aemter+oekumene&t=3752"
-  }
+  },
   "sakralbauten-und-kathedralen": {
     "slug": "sakralbauten-und-kathedralen",
     "title": "Sakralbauten & Historische Kirchen",
