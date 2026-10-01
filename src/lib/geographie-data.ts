@@ -83,6 +83,21 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "496",
         "title": "Klima und Wetter Österreichs",
         "folder": "klima-und-wetter-sterreichs-496"
+      },
+      {
+        "id": "aut-lw-1",
+        "title": "Landwirtschaft in Österreich – Bergbauern & Ackerbau",
+        "folder": "landwirtschaft-in-sterreich-2052"
+      },
+      {
+        "id": "aut-min-1",
+        "title": "Volksgruppen & Minderheiten in Österreich",
+        "folder": "minderheiten-in-sterreich-5715"
+      },
+      {
+        "id": "aut-kl-1",
+        "title": "Klima und Wetter Österreichs",
+        "folder": "klima-und-wetter-sterreichs-2-498"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=geographie+oesterreich&t=3752"
@@ -203,6 +218,76 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "134",
         "title": "Bundesländer Österreichs (schwer)",
         "folder": "bundeslander-sterreich-schwer-134"
+      },
+      {
+        "id": "aut-skg-1",
+        "title": "Das Salzkammergut – Seen- und Kulturlandschaft",
+        "folder": "das-salzkammergut-5613"
+      },
+      {
+        "id": "aut-wac-1",
+        "title": "Die Wachau – Weltkulturerbe & Weinbaulandschaft an der Donau",
+        "folder": "die-wachau-5696"
+      },
+      {
+        "id": "aut-bg-1",
+        "title": "Das Nordburgenland & Neusiedler See",
+        "folder": "das-nordburgenland-5608"
+      },
+      {
+        "id": "aut-bg-2",
+        "title": "Das Mittelburgenland – Blaufränkischland",
+        "folder": "das-mittelburgenland-5602"
+      },
+      {
+        "id": "aut-bg-3",
+        "title": "Das Südburgenland – Hügelland & Naturparke",
+        "folder": "das-sudburgenland-5618"
+      },
+      {
+        "id": "aut-st-1",
+        "title": "Die Obersteiermark – Montanregion & Hochalpen",
+        "folder": "die-obersteiermark-5687"
+      },
+      {
+        "id": "aut-st-2",
+        "title": "Die Mittelsteiermark – Mur-Mürz-Furche",
+        "folder": "die-mittelsteiermark-5684"
+      },
+      {
+        "id": "aut-st-3",
+        "title": "Die Südsteiermark – Steirisches Weinland",
+        "folder": "die-sudsteiermark-5692"
+      },
+      {
+        "id": "aut-no-1",
+        "title": "Das Waldviertel – Granithochland & Moore",
+        "folder": "das-waldviertel-5621"
+      },
+      {
+        "id": "aut-no-2",
+        "title": "Das Weinviertel – Lösshügelland & Kellergassen",
+        "folder": "das-weinviertel-5622"
+      },
+      {
+        "id": "aut-no-3",
+        "title": "Das Mostviertel – Von der Donau bis zum Ötscher",
+        "folder": "das-mostviertel-5604"
+      },
+      {
+        "id": "aut-oo-1",
+        "title": "Das Traunviertel – Alpenvorland und Voralpen",
+        "folder": "das-traunviertel-5619"
+      },
+      {
+        "id": "aut-np-1",
+        "title": "Der Nationalpark Gesäuse",
+        "folder": "der-nationalpark-gesause-5641"
+      },
+      {
+        "id": "aut-np-2",
+        "title": "Der Nationalpark Thayatal",
+        "folder": "nationalpark-thayatal-5718"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=oesterreich+bundeslaender&t=3752"
@@ -554,6 +639,16 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "5623",
         "title": "Das Zilleretal und die Zillertaler Alpen",
         "folder": "das-zilleretal-und-die-zillertaler-alpen-5623"
+      },
+      {
+        "id": "aut-ds-1",
+        "title": "Das Dachsteinmassiv – Gletscher & Karst",
+        "folder": "das-dachsteinmassiv-5584"
+      },
+      {
+        "id": "aut-gg-1",
+        "title": "Der Großglockner – Höchster Berg Österreichs",
+        "folder": "der-groesglockner-2-5633"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=alpen+oesterreich&t=3752"
@@ -604,6 +699,11 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "5680",
         "title": "Die kitzbuhler alpen",
         "folder": "die-kitzbuhler-alpen-5680"
+      },
+      {
+        "id": "aut-ot-1",
+        "title": "Osttirol – Zwischen Hohen Tauern und Karnischen Alpen",
+        "folder": "das-osttirol-5610"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=alpen+oesterreich&t=3752"
@@ -685,6 +785,11 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "5636",
         "title": "Der Inn",
         "folder": "der-inn-5636"
+      },
+      {
+        "id": "aut-tr-1",
+        "title": "Die Traun – Vom Salzkammergut zur Donau",
+        "folder": "die-traun-5694"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=fluesse+seen+oesterreich&t=3752"
@@ -1039,6 +1144,16 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "6409",
         "title": "Der Kanton Basel-Stadt",
         "folder": "der-kanton-basel-landschaft-2-6409"
+      },
+      {
+        "id": "ch-ag-1",
+        "title": "Kanton Aargau – Wasserschloss der Schweiz",
+        "folder": "aargau-1522"
+      },
+      {
+        "id": "ch-so-1",
+        "title": "Kanton Solothurn – Barockstadt & Jura",
+        "folder": "solothurn-1870"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=schweiz+mittelland&t=3752"
@@ -1100,6 +1215,36 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "6353",
         "title": "Die Kantone der Schweiz",
         "folder": "die-kantone-der-schweiz-6353"
+      },
+      {
+        "id": "ch-gr-1",
+        "title": "Kanton Graubünden – Dreisprachiger Gebirgskanton & Engadin",
+        "folder": "graubunden-1653"
+      },
+      {
+        "id": "ch-ti-1",
+        "title": "Kanton Tessin (Ticino) – Italienische Schweiz & Südalpen",
+        "folder": "tessin-1890"
+      },
+      {
+        "id": "ch-vs-1",
+        "title": "Kanton Wallis (Valais) – Rhônetal & Viertausender",
+        "folder": "wallis-1933"
+      },
+      {
+        "id": "ch-vd-1",
+        "title": "Kanton Waadt (Vaud) – Genfersee & Waadtländer Jura",
+        "folder": "waadt-1931"
+      },
+      {
+        "id": "ch-ne-1",
+        "title": "Kanton Neuenburg (Neuchâtel) – Uhrenindustrie & Jura",
+        "folder": "neuenburg-1797"
+      },
+      {
+        "id": "ch-ju-1",
+        "title": "Kanton Jura – Jüngster Kanton der Schweiz",
+        "folder": "jura-1689"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=schweiz+romandie+tessin&t=3752"
@@ -1150,6 +1295,36 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "6326",
         "title": "Der Kanton Zug",
         "folder": "der-kanton-zug-6326"
+      },
+      {
+        "id": "ch-ur-1",
+        "title": "Kanton Uri – Gotthardmassiv & Reusstal",
+        "folder": "uri-1911"
+      },
+      {
+        "id": "ch-sz-1",
+        "title": "Kanton Schwyz – Urkanton am Vierwaldstättersee",
+        "folder": "schwyz-1858"
+      },
+      {
+        "id": "ch-nw-1",
+        "title": "Kanton Nidwalden",
+        "folder": "nidwalden-1965"
+      },
+      {
+        "id": "ch-ow-1",
+        "title": "Kanton Obwalden",
+        "folder": "obwalden-1966"
+      },
+      {
+        "id": "ch-zg-1",
+        "title": "Kanton Zug",
+        "folder": "zug-1953"
+      },
+      {
+        "id": "ch-gl-1",
+        "title": "Kanton Glarus – Glarner Alpen & Linth",
+        "folder": "glarus-1648"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=schweiz+kantone&t=3752"
@@ -1200,6 +1375,26 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "6322",
         "title": "Der Kanton Thurgau",
         "folder": "der-kanton-thurgau-6322"
+      },
+      {
+        "id": "ch-sg-1",
+        "title": "Kanton St. Gallen – Bodensee bis Säntis",
+        "folder": "st-gallen-1877"
+      },
+      {
+        "id": "ch-tg-1",
+        "title": "Kanton Thurgau – Obstgarten am Bodensee",
+        "folder": "thurgau-1894"
+      },
+      {
+        "id": "ch-sh-1",
+        "title": "Kanton Schaffhausen – Nördlich des Rheins & Rheinfall",
+        "folder": "schaffhausen-1851"
+      },
+      {
+        "id": "ch-ar-1",
+        "title": "Kanton Appenzell Ausserrhoden",
+        "folder": "appenzell-ausserrhoden-1539"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=schweiz+kantone&t=3752"
@@ -1281,6 +1476,11 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "6620",
         "title": "Die Schweizer Bundesfeier",
         "folder": "die-schweizer-bundesfeier-6620"
+      },
+      {
+        "id": "ch-ueb-1",
+        "title": "Die Schweiz im Überblick",
+        "folder": "schweiz-1009"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=schweiz+politik&t=3752"
@@ -1331,6 +1531,11 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "6371",
         "title": "Eidgenössische Feste in der Schweiz",
         "folder": "eidgenossische-feste-in-der-schweiz-6371"
+      },
+      {
+        "id": "ch-rel-1",
+        "title": "Religionen & Konfessionen in der Schweiz",
+        "folder": "religionen-in-der-schweiz-6407"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=schweiz+kultur&t=3752"
@@ -1502,6 +1707,11 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "6368",
         "title": "Die Stadt Zug",
         "folder": "die-stadt-zug-6368"
+      },
+      {
+        "id": "ch-wint-1",
+        "title": "Winterthur – Sechstgrößte Stadt der Schweiz",
+        "folder": "winterthur-1943"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=schweiz+staedte&t=3752"
@@ -1557,6 +1767,21 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "6296",
         "title": "Davos – Eine Stadt in den Alpen",
         "folder": "davos-eine-stadt-in-den-alpen-6296"
+      },
+      {
+        "id": "ch-chur-1",
+        "title": "Chur – Älteste Stadt der Schweiz",
+        "folder": "chur-1598"
+      },
+      {
+        "id": "ch-thun-1",
+        "title": "Thun – Tor zum Berner Oberland",
+        "folder": "thun-1893"
+      },
+      {
+        "id": "ch-ust-1",
+        "title": "Uster – Stadt am Greifensee",
+        "folder": "uster-1914"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=schweiz+staedte&t=3752"
@@ -1628,6 +1853,11 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "6382",
         "title": "La Chaux-de-Fonds - Eine Stadt der Uhren",
         "folder": "la-chaux-de-fonds-eine-stadt-der-uhren-6382"
+      },
+      {
+        "id": "ch-fr-1",
+        "title": "Freiburg im Üechtland (Fribourg)",
+        "folder": "freiburg-im-echtland-6374"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=schweiz+romandie+staedte&t=3752"
