@@ -82,7 +82,17 @@ export const musikTopics: Record<string, MusikTopic> = {
         "title": "Die Geschichte der Musiknotation",
         "folder": "die-geschichte-der-musiknotation"
       }
-    ],
+    ,
+      {
+        "id": "9",
+        "title": "Notenwerte und Pausen",
+        "folder": "notenwerte-und-pausen-9"
+      },
+      {
+        "id": "661",
+        "title": "Notenwerte und Pausen (Kurs)",
+        "folder": "kurs-notenwerte-und-pausen-661"
+      }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=noten+lesen+musik&t=3752"
   },
   "gehoerbildung-und-tonhoehe": {
@@ -210,7 +220,12 @@ export const musikTopics: Record<string, MusikTopic> = {
         "title": "Akkorde – Dur und Moll",
         "folder": "akkorde-dur-und-moll-2-319"
       }
-    ],
+    ,
+      {
+        "id": "18",
+        "title": "Akkorde – Dur und Moll",
+        "folder": "akkorde-dur-und-moll-18"
+      }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=harmonielehre+akkorde+intervalle&t=3752"
   },
   "tonleitern-klaviatur-und-vorzeichen": {
@@ -986,7 +1001,32 @@ export const musikTopics: Record<string, MusikTopic> = {
         "title": "Escape Room 'Komponisten der Wiener Klassik'",
         "folder": "escape-room-quot-komponisten-der-wiener-klassik-quot-3220"
       }
-    ],
+    ,
+      {
+        "id": "3103",
+        "title": "Wolfgang Amadeus Mozart",
+        "folder": "wolfgang-amadeus-mozart-3-3103"
+      },
+      {
+        "id": "446",
+        "title": "Eine kleine Nachtmusik von Wolfgang Amadeus Mozart",
+        "folder": "eine-kleine-nachtmusik-von-wolfgang-amadeus-mozart-2-446"
+      },
+      {
+        "id": "haydn-sinfonie",
+        "title": "Joseph Haydn und die Entstehung der Sinfonie",
+        "folder": "haydn-und-die-sinfonie"
+      },
+      {
+        "id": "692",
+        "title": "Fragen zur Musik der Wiener Klassik",
+        "folder": "studypoint-single-choice-fragen-zur-musik-der-wiener-klassik-692"
+      },
+      {
+        "id": "wien-musikstadt",
+        "title": "Wien als Musikstadt",
+        "folder": "wien-als-musikstadt"
+      }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=komponisten+wiener+klassik&t=3752"
   },
   "komponisten-der-frueh-und-hochromantik": {
@@ -1073,7 +1113,12 @@ export const musikTopics: Record<string, MusikTopic> = {
         "title": "Johannes Brahms (Video mit Fragen)",
         "folder": "johannes-brahms-video-mit-fragen-214"
       }
-    ],
+    ,
+      {
+        "id": "223",
+        "title": "Franz Liszt",
+        "folder": "franz-liszt-video-mit-fragen-223"
+      }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=komponisten+romantik+schubert+schumann&t=3752"
   },
   "komponisten-der-spaetromantik-und-nationalen-schulen": {
@@ -1150,7 +1195,12 @@ export const musikTopics: Record<string, MusikTopic> = {
         "title": "Escape Room 'Komponisten der Romantik 2'",
         "folder": "escape-room-quot-komponisten-der-romantik-2-quot-3216"
       }
-    ],
+    ,
+      {
+        "id": "johann-strauss-walzer",
+        "title": "Johann Strauss und der Walzer",
+        "folder": "johann-strauss-und-der-walzer"
+      }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=komponisten+spaetromantik+brahms+tschaikowski&t=3752"
   },
   "komponisten-der-moderne": {
@@ -1217,7 +1267,17 @@ export const musikTopics: Record<string, MusikTopic> = {
         "title": "Escape Room 'Komponisten der Moderne'",
         "folder": "escape-room-quot-komponisten-der-moderne-quot-3215"
       }
-    ],
+    ,
+      {
+        "id": "impressionismus",
+        "title": "Impressionistische Musik",
+        "folder": "impressionistische-musik"
+      },
+      {
+        "id": "musik-im-ns",
+        "title": "Musik im Nationalsozialismus und die Rolle von Komponisten",
+        "folder": "musik-im-nationalsozialismus-und-die-rolle-von-komponisten-waehrend-des-regimes"
+      }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=komponisten+moderne+strawinsky+schoenberg&t=3752"
   },
   "italienische-opern-belcanto-und-verdi": {
@@ -1303,7 +1363,22 @@ export const musikTopics: Record<string, MusikTopic> = {
         "title": "Große Opernhäuser der Welt",
         "folder": "grosse-opernhaeuser"
       }
-    ],
+    ,
+      {
+        "id": "843",
+        "title": "Giuseppe Verdi",
+        "folder": "guiseppe-verdi-843"
+      },
+      {
+        "id": "572",
+        "title": "Otello (Giuseppe Verdi)",
+        "folder": "giuseppe-verdi-otello-572"
+      },
+      {
+        "id": "569",
+        "title": "Falstaff (Giuseppe Verdi)",
+        "folder": "giuseppe-verdi-falstaff-569"
+      }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=italienische+oper+verdi+belcanto&t=3752"
   },
   "verismo-puccini-und-franzoesische-opern": {
@@ -1374,7 +1449,12 @@ export const musikTopics: Record<string, MusikTopic> = {
         "title": "Andrea Chénier (Umberto Giordano)",
         "folder": "umberto-giordano-andrea-chenier-589"
       }
-    ],
+    ,
+      {
+        "id": "932",
+        "title": "Giacomo Puccini",
+        "folder": "giacomo-puccini-932"
+      }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=puccini+verismo+carmen&t=3752"
   },
   "deutsche-opern-und-richard-wagner": {
@@ -1451,7 +1531,27 @@ export const musikTopics: Record<string, MusikTopic> = {
         "title": "Die Wiener Staatsoper",
         "folder": "die-wiener-staatsoper-5701"
       }
-    ],
+    ,
+      {
+        "id": "wagner-gesamtkunstwerk",
+        "title": "Wagner und das Gesamtkunstwerk",
+        "folder": "wagner-und-das-gesamtkunstwerk"
+      },
+      {
+        "id": "3100",
+        "title": "Richard Wagner",
+        "folder": "richard-wagner-2-3100"
+      },
+      {
+        "id": "584",
+        "title": "Die Meistersinger von Nürnberg (Richard Wagner)",
+        "folder": "richard-wagner-die-meistersinger-von-nurnberg-584"
+      },
+      {
+        "id": "586",
+        "title": "Parsifal (Richard Wagner)",
+        "folder": "richard-wagner-parsifal-586"
+      }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=deutsche+oper+wagner+mozart&t=3752"
   },
   "opern-der-moderne-und-europaeische-meisterwerke": {
@@ -1508,7 +1608,12 @@ export const musikTopics: Record<string, MusikTopic> = {
         "title": "Die Oper im Barock",
         "folder": "die-oper-im-barock"
       }
-    ],
+    ,
+      {
+        "id": "582",
+        "title": "Salome (Richard Strauss)",
+        "folder": "richard-strauss-salome-582"
+      }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=moderne+opern+wozzeck+rusalka&t=3752"
   },
   "musicals-broadway-und-klassiker": {
@@ -1580,7 +1685,17 @@ export const musikTopics: Record<string, MusikTopic> = {
         "title": "Rent (Jonathan Larson)",
         "folder": "das-musical-rent-548"
       }
-    ],
+    ,
+      {
+        "id": "3256",
+        "title": "Das Phantom der Oper (Andrew Lloyd Webber)",
+        "folder": "das-phantom-der-oper-2-3256"
+      },
+      {
+        "id": "518",
+        "title": "Die Operette",
+        "folder": "die-operette-518"
+      }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=broadway+musicals+west+side+story&t=3752"
   },
   "moderne-musicals-und-welterfolge": {
@@ -2057,7 +2172,12 @@ export const musikTopics: Record<string, MusikTopic> = {
         "title": "John Lennons Friedensbotschaft – Happy Xmas (War Is Over)",
         "folder": "john-lennons-friedensbotschaft-happy-xmas-war-is-over-6677"
       }
-    ],
+    ,
+      {
+        "id": "3101",
+        "title": "The Beatles",
+        "folder": "the-beatles-2-3101"
+      }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=beatles+queen+rolling+stones&t=3752"
   },
   "hardrock-grunge-und-metal": {
@@ -2498,4 +2618,72 @@ export const musikTopics: Record<string, MusikTopic> = {
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=hiphop+rap+deutschrap+streaming&t=3752"
   }
+  "filmmusik-soundtracks-und-medienkomposition": {
+    "slug": "filmmusik-soundtracks-und-medienkomposition",
+    "title": "Filmmusik, Soundtracks & Medienkomposition",
+    "category": "Bühne, Jazz & Popmusik",
+    "shortDesc": "Funktionen der Filmmusik, Leitmotivtechnik, Mood-Technik und berühmte Filmkomponisten.",
+    "longDesc": "Filmmusik verstärkt dramatische Wendungen, erzeugt Atmosphäre und lenkt unbewusst die Emotionen des Publikums. Von den Anfängen im Stummfilm über orchestrale Klassiker von John Williams und Ennio Morricone bis zu modernen elektronischen Soundtracks von Hans Zimmer.",
+    "keyPoints": [
+      "Funktionen der Filmmusik: Mood-Technik (Stimmungsuntermalung), Underscoring, Kontrapunktierung und Mickey-Mousing",
+      "Leitmotivtechnik: Wiederkehrende musikalische Themen zur Charakterisierung von Personen, Orten oder Emotionen (z. B. Star Wars, Der Herr der Ringe)",
+      "Meister der Filmkomposition: Max Steiner, Bernard Herrmann, Ennio Morricone, John Williams und Hans Zimmer",
+      "Klanggestaltung & Instrumentation: Zusammenspiel von großem Sinfonieorchester, Synthesizern, Sounddesign und Chor"
+    ],
+    "exercises": [
+      {
+        "id": "filmmusik",
+        "title": "Filmmusik – Wirkung, Funktionen & Techniken",
+        "folder": "filmmusik"
+      },
+      {
+        "id": "wagner-film",
+        "title": "Der Einfluss Richard Wagners auf die Filmkomposition",
+        "folder": "der-einfluss-von-richard-wagner-auf-die-filmkomposition"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=filmmusik&t=3752"
+  },
+  "frauen-in-der-musikgeschichte": {
+    "slug": "frauen-in-der-musikgeschichte",
+    "title": "Frauen in der Musikgeschichte",
+    "category": "Epochen & Gattungen",
+    "shortDesc": "Hildegard von Bingen, Fanny Hensel, Clara Schumann und das Schaffen herausragender Komponistinnen.",
+    "longDesc": "Über Jahrhunderte standen Komponistinnen im Schatten ihrer männlichen Zeitgenossen oder wurden durch gesellschaftliche Konventionen eingeschränkt. Heute wird ihr herausragendes musikalisches Erbe von mittelalterlicher Mystik bis zur Romantik wiederentdeckt und gewürdigt.",
+    "keyPoints": [
+      "Hildegard von Bingen (1098–1179): Mittelalterliche Universalgelehrte und Schöpferin visionärer geistlicher Gesänge",
+      "Fanny Hensel geb. Mendelssohn (1805–1847): Hochbegabte Pianistin und Komponistin von über 400 Werken (u. a. Das Jahr)",
+      "Clara Schumann geb. Wieck (1819–1896): Eine der bedeutendsten Klaviervirtuosinnen Europas und gefeierte Komponistin",
+      "Wiederentdeckung & Kanonerweiterung: Erforschung vergessener Werke und gleichberechtigte Würdigung im Konzertbetrieb"
+    ],
+    "exercises": [
+      {
+        "id": "frauen-musik",
+        "title": "Frauen in der Musikgeschichte",
+        "folder": "frauen-in-der-musikgeschichte"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=frauen+musikgeschichte&t=3752"
+  },
+  "traditionelle-musikkulturen-und-weltmusik": {
+    "slug": "traditionelle-musikkulturen-und-weltmusik",
+    "title": "Traditionelle Musikkulturen & Weltmusik",
+    "category": "Epochen & Gattungen",
+    "shortDesc": "Japanische Hofmusik Gagaku, traditionelle Instrumente und die Entwicklung zur modernen Popkultur.",
+    "longDesc": "Außereuropäische Musikkulturen zeichnen sich durch faszinierende Klangästhetiken, Tonsysteme und Instrumente aus. Am Beispiel Japans lässt sich die eindrucksvolle Entwicklung von ritueller kaiserlicher Hofmusik bis zur weltweiten J-Pop- und Anime-Kultur nachvollziehen.",
+    "keyPoints": [
+      "Gagaku: Die älteste kontinuierlich gepflegte Hofmusiktradition der Welt am japanischen Kaiserhof",
+      "Traditionelle Instrumente: Koto (Wölbbrettzither), Shamisen (dreisaitige Laute) und Shakuhachi (Bambusflöte)",
+      "Tonsysteme: Pentatonik und mikrotonale Nuancen im Unterschied zum europäischen Dur-Moll-System",
+      "Moderne Verschmelzung: Wie traditionelle Melodieführungen und Rhythmen die zeitgenössische J-Pop- und Gaming-Musik prägen"
+    ],
+    "exercises": [
+      {
+        "id": "japanische-musik",
+        "title": "Japanische Musik – von der Gagaku-Musik bis zur J-Pop-Industrie",
+        "folder": "japanische-musik-von-der-gagaku-musik-bis-zur-j-pop-industrie"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=weltmusik&t=3752"
+  },
 };
