@@ -28,21 +28,46 @@ export const geographieCategories = [
 export const geographieTopics: Record<string, GeographieTopic> = {
   "geographie-oesterreichs": {
     "slug": "geographie-oesterreichs",
-    "title": "Geographie Österreichs: Topographie & Wirtschaft",
+    "title": "Geographie Österreichs: Topographie & Staat",
     "category": "Österreich & Alpenraum",
-    "shortDesc": "Die 9 Bundesländer, Großlandschaften, Wirtschaftsräume und Österreich als Transitland.",
+    "shortDesc": "Die 9 Bundesländer, Großlandschaften, Wirtschaftsräume, Staatsgründung und Bevölkerung.",
     "longDesc": "Österreich ist ein mitteleuropäischer Binnenstaat mit ausgeprägter alpiner Landschaft. Die 9 Bundesländer gliedern sich in fünf charakteristische Großlandschaften von den Hochalpen bis zum Wiener Becken.",
     "keyPoints": [
       "5 Großlandschaften: Alpen (ca. 63 %), Granit- und Gneishochland, Karpatenvorland, Wiener Becken, Ostvorland",
       "Höchster Gipfel: Großglockner (3.798 m) | Hauptstrom: Donau",
-      "Wirtschaft & Industrie: Wichtige Industrieräume, Dienstleistungssektor und starker Tourismus",
-      "Transitland: Zentrale Lage im Herzen Europas mit alpinen Nord-Süd-Verkehrsachsen"
+      "Wirtschaft & Transit: Zentrale Lage in Europa mit alpinen Nord-Süd-Achsen und starker Industrie",
+      "Staat & Geschichte: Ostarrichi 996, Erste Republik 1918 und Staatsvertrag 1955"
     ],
     "exercises": [
       {
         "id": "414",
         "title": "Bundesländer und wichtige Städte Österreichs",
         "folder": "bundeslander-und-wichtige-stadte-sterreichs-414"
+      },
+      {
+        "id": "133",
+        "title": "Bundesländer Österreichs (einfach)",
+        "folder": "bundeslander-sterreich-einfach-133"
+      },
+      {
+        "id": "134",
+        "title": "Bundesländer Österreichs (schwer)",
+        "folder": "bundeslander-sterreich-schwer-134"
+      },
+      {
+        "id": "aut-allg-5",
+        "title": "Österreich im Überblick – Geographie und Topographie",
+        "folder": "sterreich-im-berblick-487"
+      },
+      {
+        "id": "aut-allg-7",
+        "title": "Hauptstädte der 9 österreichischen Bundesländer",
+        "folder": "hauptstadte-der-bundeslander-sterreich-136"
+      },
+      {
+        "id": "aut-allg-8",
+        "title": "Bundesländer Österreich Memory",
+        "folder": "bundeslander-sterreich-memory-135"
       },
       {
         "id": "488",
@@ -65,6 +90,11 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "folder": "bevolkerungsentwicklung-in-sterreich-2061"
       },
       {
+        "id": "aut-allg-6",
+        "title": "Bevölkerung Österreichs – Demographie und Siedlungsräume",
+        "folder": "bevolkerung-sterreichs-497"
+      },
+      {
         "id": "2062",
         "title": "Österreich als Transitland",
         "folder": "sterreich-als-transitland-2062"
@@ -85,6 +115,11 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "folder": "klima-und-wetter-sterreichs-496"
       },
       {
+        "id": "aut-kl-1",
+        "title": "Klima und Wetter Österreichs",
+        "folder": "klima-und-wetter-sterreichs-2-498"
+      },
+      {
         "id": "aut-lw-1",
         "title": "Landwirtschaft in Österreich – Bergbauern & Ackerbau",
         "folder": "landwirtschaft-in-sterreich-2052"
@@ -93,11 +128,6 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "aut-min-1",
         "title": "Volksgruppen & Minderheiten in Österreich",
         "folder": "minderheiten-in-sterreich-5715"
-      },
-      {
-        "id": "aut-kl-1",
-        "title": "Klima und Wetter Österreichs",
-        "folder": "klima-und-wetter-sterreichs-2-498"
       },
       {
         "id": "aut-allg-1",
@@ -118,40 +148,20 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "aut-allg-4",
         "title": "Der Österreichische Nationalfeiertag (26. Oktober)",
         "folder": "der-sterreichische-nationalfeiertag-6508"
-      },
-      {
-        "id": "aut-allg-5",
-        "title": "Österreich im Überblick – Geographie und Topographie",
-        "folder": "sterreich-im-berblick-487"
-      },
-      {
-        "id": "aut-allg-6",
-        "title": "Bevölkerung Österreichs – Demographie und Siedlungsräume",
-        "folder": "bevolkerung-sterreichs-497"
-      },
-      {
-        "id": "aut-allg-7",
-        "title": "Hauptstädte der 9 österreichischen Bundesländer",
-        "folder": "hauptstadte-der-bundeslander-sterreich-136"
-      },
-      {
-        "id": "aut-allg-8",
-        "title": "Bundesländer Österreich Memory",
-        "folder": "bundeslander-sterreich-memory-135"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=geographie+oesterreich&t=3752"
   },
-  "oesterreich-bundeslaender-und-landschaften": {
-    "slug": "oesterreich-bundeslaender-und-landschaften",
-    "title": "Österreich: Bundesländer & Großlandschaften",
+  "oesterreich-grosslandschaften": {
+    "slug": "oesterreich-grosslandschaften",
+    "title": "Österreich: Die 5 Großlandschaften & Naturräume",
     "category": "Österreich & Alpenraum",
-    "shortDesc": "Die 5 Großlandschaften Österreichs, Alpenvorland, Wiener Becken und Landesgeschichte.",
-    "longDesc": "Österreich gliedert sich in fünf charakteristische Großlandschaften: Vom Granit- und Gneishochland bis zum Wiener Becken. Jedes Bundesland besitzt seine eigene landschaftliche und historische Prägung.",
+    "shortDesc": "Granit- und Gneishochland, Karpatenvorland, Wiener Becken, Ostvorland und Nationalparks.",
+    "longDesc": "Österreich gliedert sich naturräumlich in fünf große Einheiten: Das böhmische Massiv (Granit- und Gneishochland), das Alpen- und Karpatenvorland, das Wiener Becken, das Vorland im Osten und Südosten sowie die Alpen.",
     "keyPoints": [
-      "5 Großlandschaften: Alpen, Granit-/Gneishochland, Karpatenvorland, Wiener Becken, Ostvorland",
-      "Niederösterreich & Oberösterreich: Kernräume an der Donau mit starker Industrie und Kulturlandschaft",
-      "Geographische Übergänge: Vom pannonischen Raum bis zu den Vorbergen der Ostalpen"
+      "Die 5 Großlandschaften im geologischen und klimatischen Profil",
+      "Wiener Becken & Vorland: Senkungszonen und fruchtbare Übergänge zur Pannonischen Tiefebene",
+      "Schutzgebiete: Nationalparks von den Auwäldern an der Donau bis zu den Alpen"
     ],
     "exercises": [
       {
@@ -175,10 +185,100 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "folder": "vorland-im-osten-und-sudosten-492"
       },
       {
-        "id": "480",
-        "title": "Oberösterreich",
-        "folder": "oberosterreich-480"
+        "id": "3236",
+        "title": "Escape Room: Großlandschaften Österreichs",
+        "folder": "escape-room-quot-groeslandschaften-sterreichs-quot-3236"
       },
+      {
+        "id": "1199",
+        "title": "Nationalparks in Österreich",
+        "folder": "test-5-1199"
+      },
+      {
+        "id": "5660",
+        "title": "Die Donau-Auen",
+        "folder": "die-donau-auen-5660"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=grosslandschaften+oesterreich&t=3752"
+  },
+  "oesterreich-hochalpen-und-gipfel": {
+    "slug": "oesterreich-hochalpen-und-gipfel",
+    "title": "Österreich: Hochgebirge, Tauern & Alpengipfel",
+    "category": "Österreich & Alpenraum",
+    "shortDesc": "Großglockner, Hohe Tauern, Pasterze, Gebirgsbildung und alpenweite Hauptkämme.",
+    "longDesc": "Die österreichischen Zentralalpen bilden das alpine Rückgrat des Landes. Mit dem Nationalpark Hohe Tauern und dem Großglockner beherbergen sie die mächtigsten Gletscher- und Felsmassive Österreichs.",
+    "keyPoints": [
+      "Großglockner (3.798 m): Höchster Berg Österreichs in den Hohen Tauern",
+      "Nationalpark Hohe Tauern: Größtes Schutzgebiet der Alpen mit Pasterzengletscher",
+      "Geologie der Alpen: Entstehung, Faltengebirge, Permafrost und Gletscherschmelze"
+    ],
+    "exercises": [
+      {
+        "id": "493",
+        "title": "Gebirge in Österreich",
+        "folder": "gebirge-in-sterreich-493"
+      },
+      {
+        "id": "1996",
+        "title": "Der Großglockner",
+        "folder": "der-groesglockner-1996"
+      },
+      {
+        "id": "aut-gg-1",
+        "title": "Der Großglockner – Höchster Berg Österreichs",
+        "folder": "der-groesglockner-2-5633"
+      },
+      {
+        "id": "1998",
+        "title": "Die Hohen Tauern",
+        "folder": "die-hohen-tauern-1998"
+      },
+      {
+        "id": "aut-alp-1",
+        "title": "Die Hohen Tauern – Dach der österreichischen Alpen",
+        "folder": "die-hohen-tauern-2-5676"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=alpen+oesterreich&t=3752"
+  },
+  "oesterreich-gewaesser-und-donau": {
+    "slug": "oesterreich-gewaesser-und-donau",
+    "title": "Österreich: Donau & Flusssysteme",
+    "category": "Österreich & Alpenraum",
+    "shortDesc": "Die Donau in Österreich, Wasserkraft, Binnenschifffahrt und alpenweite Flussläufe.",
+    "longDesc": "Die Donau ist die Lebensader Mitteleuropas und durchquert Österreich auf rund 350 Kilometern. Sie entwässert fast das gesamte Bundesgebiet ins Schwarze Meer und ist von zentraler Bedeutung für Energie und Transport.",
+    "keyPoints": [
+      "Die Donau in Österreich: Stromlauf, Donaukraftwerke und Hochwasserschutz",
+      "Europäische Hauptwasserscheiden und das Einzugsgebiet der Donau",
+      "Binnenschifffahrt auf der Rhein-Main-Donau-Großschifffahrtsstraße"
+    ],
+    "exercises": [
+      {
+        "id": "495",
+        "title": "Gewässer in Österreich",
+        "folder": "gewasser-in-sterreich-495"
+      },
+      {
+        "id": "5659",
+        "title": "Die Donau in Österreich",
+        "folder": "die-donau-in-sterreich-5659"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=donau+oesterreich&t=3752"
+  },
+  "oesterreich-niederoesterreich": {
+    "slug": "oesterreich-niederoesterreich",
+    "title": "Niederösterreich: Regionen, Viertel & Städte",
+    "category": "Österreich & Alpenraum",
+    "shortDesc": "Die 4 Viertel (Wald-, Wein-, Most-, Industrieviertel), Wachau, Marchfeld, St. Pölten und Regionalstädte.",
+    "longDesc": "Niederösterreich ist das flächenmäßig größte Bundesland Österreichs. Es umgibt die Bundeshauptstadt Wien und gliedert sich traditionell in vier Viertel: Vom Granithochland des Waldviertels über das Lösshügelland des Weinviertels bis zum alpinen Mostviertel und dem Industrieviertel.",
+    "keyPoints": [
+      "Vier Viertel: Waldviertel, Weinviertel, Mostviertel, Industrieviertel",
+      "Kultur- & Naturräume: Die Wachau (UNESCO-Welterbe), Marchfeld und Nationalpark Thayatal",
+      "Städte & Zentren: Landeshauptstadt St. Pölten, Krems, Amstetten, Mödling, Klosterneuburg, Schwechat, Tulln, Perchtoldsdorf, Ternitz"
+    ],
+    "exercises": [
       {
         "id": "481",
         "title": "Niederösterreich",
@@ -190,159 +290,14 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "folder": "die-geschichte-niederosterreichs-5669"
       },
       {
-        "id": "5670",
-        "title": "Die Geschichte Oberösterreichs",
-        "folder": "die-geschichte-oberosterreichs-5670"
-      },
-      {
-        "id": "3236",
-        "title": "Escape Room: Großlandschaften Österreichs",
-        "folder": "escape-room-quot-groeslandschaften-sterreichs-quot-3236"
-      },
-      {
-        "id": "483",
-        "title": "Vorarlberg",
-        "folder": "vorarlberg-483"
-      },
-      {
-        "id": "aut-bnd-bg",
-        "title": "Burgenland – Geographie & Landeskunde",
-        "folder": "burgenland-484"
-      },
-      {
-        "id": "aut-bnd-bg-g",
-        "title": "Die Geschichte des Burgenlandes",
-        "folder": "die-geschichte-des-burgenlandes-5667"
-      },
-      {
-        "id": "aut-bnd-st",
-        "title": "Steiermark – Das grüne Herz Österreichs",
-        "folder": "steiermark-485"
-      },
-      {
-        "id": "aut-bnd-st-g",
-        "title": "Die Geschichte der Steiermark",
-        "folder": "die-geschichte-der-steiermark-5666"
-      },
-      {
-        "id": "aut-bnd-kt",
-        "title": "Kärnten – Land der Seen und Berge",
-        "folder": "karnten-486"
-      },
-      {
-        "id": "aut-bnd-kt-g",
-        "title": "Die Geschichte Kärntens",
-        "folder": "die-geschichte-karntens-5668"
-      },
-      {
-        "id": "aut-bnd-sb",
-        "title": "Salzburg – Landeskunde & Alpenvorland",
-        "folder": "salzburg-479"
-      },
-      {
-        "id": "aut-bnd-tr",
-        "title": "Tirol – Land im Gebirge",
-        "folder": "tirol-478"
-      },
-      {
-        "id": "aut-bnd-tr-g",
-        "title": "Die Geschichte Tirols",
-        "folder": "die-geschichte-tirols-2-5672"
-      }
-    ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=oesterreich+bundeslaender&t=3752"
-  },
-  "oesterreich-regionen-und-nationalparks": {
-    "slug": "oesterreich-regionen-und-nationalparks",
-    "title": "Österreich: Regionen & Nationalparks",
-    "category": "Österreich & Alpenraum",
-    "shortDesc": "Bregenzerwald, Innviertel, Nationalpark Kalkalpen, Donau-Auen und der Seewinkel.",
-    "longDesc": "Die österreichischen Regionen und Nationalparks schützen einzigartige Ökosysteme: Von den alpinen Bergwäldern der Kalkalpen über die Auwälder an der Donau bis zum pannonischen Steppensee im Seewinkel.",
-    "keyPoints": [
-      "Nationalparks: Hohe Tauern, Kalkalpen, Gesäuse, Donau-Auen, Thayatal und Neusiedler See - Seewinkel",
-      "Regionale Kulturlandschaften: Der Bregenzerwald in Vorarlberg und das geschichtsträchtige Innviertel",
-      "Biodiversität: Schutz bedrohter Lebensräume von alpinen Mooren bis zu pannonischen Salzsteppen"
-    ],
-    "exercises": [
-      {
-        "id": "1199",
-        "title": "Nationalparks in Österreich",
-        "folder": "test-5-1199"
-      },
-      {
-        "id": "5627",
-        "title": "Der Bregenzerwald",
-        "folder": "der-bregenzerwald-5627"
-      },
-      {
-        "id": "5593",
-        "title": "Das Innviertel",
-        "folder": "das-innviertel-5593"
-      },
-      {
-        "id": "5642",
-        "title": "Der Nationalpark Kalkalpen",
-        "folder": "der-nationalpark-kalkalpen-5642"
-      },
-      {
-        "id": "5660",
-        "title": "Die Donau-Auen",
-        "folder": "die-donau-auen-5660"
-      },
-      {
-        "id": "5717",
-        "title": "Nationalpark Seewinkel",
-        "folder": "nationalpark-seewinkel-5717"
-      },
-      {
-        "id": "133",
-        "title": "Bundesländer Österreichs (einfach)",
-        "folder": "bundeslander-sterreich-einfach-133"
-      },
-      {
-        "id": "134",
-        "title": "Bundesländer Österreichs (schwer)",
-        "folder": "bundeslander-sterreich-schwer-134"
-      },
-      {
-        "id": "aut-skg-1",
-        "title": "Das Salzkammergut – Seen- und Kulturlandschaft",
-        "folder": "das-salzkammergut-5613"
+        "id": "aut-lh-4",
+        "title": "St. Pölten – Landeshauptstadt Niederösterreichs",
+        "folder": "st-polten-5723"
       },
       {
         "id": "aut-wac-1",
         "title": "Die Wachau – Weltkulturerbe & Weinbaulandschaft an der Donau",
         "folder": "die-wachau-5696"
-      },
-      {
-        "id": "aut-bg-1",
-        "title": "Das Nordburgenland & Neusiedler See",
-        "folder": "das-nordburgenland-5608"
-      },
-      {
-        "id": "aut-bg-2",
-        "title": "Das Mittelburgenland – Blaufränkischland",
-        "folder": "das-mittelburgenland-5602"
-      },
-      {
-        "id": "aut-bg-3",
-        "title": "Das Südburgenland – Hügelland & Naturparke",
-        "folder": "das-sudburgenland-5618"
-      },
-      {
-        "id": "aut-st-1",
-        "title": "Die Obersteiermark – Montanregion & Hochalpen",
-        "folder": "die-obersteiermark-5687"
-      },
-      {
-        "id": "aut-st-2",
-        "title": "Die Mittelsteiermark – Mur-Mürz-Furche",
-        "folder": "die-mittelsteiermark-5684"
-      },
-      {
-        "id": "aut-st-3",
-        "title": "Die Südsteiermark – Steirisches Weinland",
-        "folder": "die-sudsteiermark-5692"
       },
       {
         "id": "aut-no-1",
@@ -360,21 +315,6 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "folder": "das-mostviertel-5604"
       },
       {
-        "id": "aut-oo-1",
-        "title": "Das Traunviertel – Alpenvorland und Voralpen",
-        "folder": "das-traunviertel-5619"
-      },
-      {
-        "id": "aut-np-1",
-        "title": "Der Nationalpark Gesäuse",
-        "folder": "der-nationalpark-gesause-5641"
-      },
-      {
-        "id": "aut-np-2",
-        "title": "Der Nationalpark Thayatal",
-        "folder": "nationalpark-thayatal-5718"
-      },
-      {
         "id": "aut-reg-1",
         "title": "Das Industrieviertel",
         "folder": "das-industrieviertel-5591"
@@ -385,6 +325,111 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "folder": "das-marchfeld-5601"
       },
       {
+        "id": "aut-np-2",
+        "title": "Der Nationalpark Thayatal",
+        "folder": "nationalpark-thayatal-5718"
+      },
+      {
+        "id": "aut-gew-5",
+        "title": "Die Thaya – Grenzfluss und Nationalpark Thayatal",
+        "folder": "die-thaya-5693"
+      },
+      {
+        "id": "aut-gew-6",
+        "title": "Der Kamp – Waldviertler Stauseen",
+        "folder": "der-kamp-5637"
+      },
+      {
+        "id": "aut-gew-4",
+        "title": "Die March – Grenzfluss zu Slowakei und Mähren",
+        "folder": "die-march-5682"
+      },
+      {
+        "id": "5581",
+        "title": "Baden bei Wien",
+        "folder": "baden-bei-wien-2-5581"
+      },
+      {
+        "id": "5710",
+        "title": "Krems an der Donau",
+        "folder": "krems-an-der-donau-5710"
+      },
+      {
+        "id": "aut-st-1",
+        "title": "Amstetten – Zentralort im Mostviertel",
+        "folder": "amstetten-2-5580"
+      },
+      {
+        "id": "aut-st-2",
+        "title": "Krems – Stadt an der Donau",
+        "folder": "krems-1720"
+      },
+      {
+        "id": "aut-st-3",
+        "title": "Mödling – Historische Stadt am Wienerwald",
+        "folder": "modling-2-5716"
+      },
+      {
+        "id": "aut-st-4",
+        "title": "Klosterneuburg – Stift und Babenbergerstadt",
+        "folder": "klosterneuburg-2-1758"
+      },
+      {
+        "id": "aut-st-5",
+        "title": "Schwechat – Industriestadt und Flughafen",
+        "folder": "schwechat-1853"
+      },
+      {
+        "id": "aut-st-6",
+        "title": "Tulln an der Donau – Gartenstadt",
+        "folder": "tulln-1903"
+      },
+      {
+        "id": "aut-st-23",
+        "title": "Perchtoldsdorf – Marktgemeinde und Weinhauerort bei Wien",
+        "folder": "perchtoldsdorf-1826"
+      },
+      {
+        "id": "aut-st-24",
+        "title": "Ternitz – Industriestadt im Schwarzatal",
+        "folder": "ternitz-1889"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=niederoesterreich&t=3752"
+  },
+  "oesterreich-oberoesterreich": {
+    "slug": "oesterreich-oberoesterreich",
+    "title": "Oberösterreich: Viertel, Salzkammergut & Zentralraum",
+    "category": "Österreich & Alpenraum",
+    "shortDesc": "Mühl-, Inn-, Hausruck- und Traunviertel, Nationalpark Kalkalpen, Linz, Wels, Steyr und Salzkammergut.",
+    "longDesc": "Oberösterreich verbindet das Granithochland des Mühlviertels nördlich der Donau mit dem fruchtbaren Alpenvorland und den majestätischen Kalkalpen im Süden. Der Linzer Zentralraum bildet den industriellen Kern Österreichs.",
+    "keyPoints": [
+      "Die 4 Viertel: Mühlviertel, Innviertel, Hausruckviertel, Traunviertel",
+      "Landschaften & Natur: Das Salzkammergut, Traunsee, Attersee, Hallstätter See und der Nationalpark Kalkalpen",
+      "Städte: Landeshauptstadt Linz, Wels, Steyr, Gmunden, Braunau am Inn, Traun und Leonding"
+    ],
+    "exercises": [
+      {
+        "id": "480",
+        "title": "Oberösterreich",
+        "folder": "oberosterreich-480"
+      },
+      {
+        "id": "5670",
+        "title": "Die Geschichte Oberösterreichs",
+        "folder": "die-geschichte-oberosterreichs-5670"
+      },
+      {
+        "id": "5714",
+        "title": "Linz",
+        "folder": "linz-2-5714"
+      },
+      {
+        "id": "5593",
+        "title": "Das Innviertel",
+        "folder": "das-innviertel-5593"
+      },
+      {
         "id": "aut-reg-3",
         "title": "Das Hausruckviertel – Hügelland und Braunkohlerevier",
         "folder": "das-hausruckviertel-5589"
@@ -393,6 +438,116 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "aut-reg-4",
         "title": "Das Mühlviertel – Granithochland nördlich der Donau",
         "folder": "das-muhlviertel-5605"
+      },
+      {
+        "id": "aut-oo-1",
+        "title": "Das Traunviertel – Alpenvorland und Voralpen",
+        "folder": "das-traunviertel-5619"
+      },
+      {
+        "id": "aut-skg-1",
+        "title": "Das Salzkammergut – Seen- und Kulturlandschaft",
+        "folder": "das-salzkammergut-5613"
+      },
+      {
+        "id": "5642",
+        "title": "Der Nationalpark Kalkalpen",
+        "folder": "der-nationalpark-kalkalpen-5642"
+      },
+      {
+        "id": "aut-ds-1",
+        "title": "Das Dachsteinmassiv – Gletscher & Karst",
+        "folder": "das-dachsteinmassiv-5584"
+      },
+      {
+        "id": "aut-tr-1",
+        "title": "Die Traun – Vom Salzkammergut zur Donau",
+        "folder": "die-traun-5694"
+      },
+      {
+        "id": "5626",
+        "title": "Der Attersee",
+        "folder": "der-attersee-5626"
+      },
+      {
+        "id": "5648",
+        "title": "Der Traunsee",
+        "folder": "der-traunsee-5648"
+      },
+      {
+        "id": "5634",
+        "title": "Der hallstatter see",
+        "folder": "der-hallstatter-see-5634"
+      },
+      {
+        "id": "aut-st-7",
+        "title": "Wels – Zweitgrößte Stadt Oberösterreichs",
+        "folder": "wels-2-5726"
+      },
+      {
+        "id": "aut-st-8",
+        "title": "Steyr – Romantikstadt an Enns und Steyr",
+        "folder": "steyr-2-5724"
+      },
+      {
+        "id": "aut-st-9",
+        "title": "Gmunden – Keramikstadt am Traunsee",
+        "folder": "gmunden-5703"
+      },
+      {
+        "id": "1578",
+        "title": "Braunau am Inn",
+        "folder": "braunau-am-inn-1578"
+      },
+      {
+        "id": "aut-st-10",
+        "title": "Traun – Industriestadt im Zentralraum",
+        "folder": "traun-1898"
+      },
+      {
+        "id": "aut-st-11",
+        "title": "Leonding – Stadt im Linzer Zentralraum",
+        "folder": "leonding-2-5713"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=oberoesterreich&t=3752"
+  },
+  "oesterreich-salzburg": {
+    "slug": "oesterreich-salzburg",
+    "title": "Salzburg: Stadt, Gaue, Tauern & Salzgewinnung",
+    "category": "Österreich & Alpenraum",
+    "shortDesc": "Die 5 Gaue (Flach-, Tenn-, Pon-, Pin-, Lungau), Festung Hohensalzburg, Salzach, Krimmler Wasserfälle.",
+    "longDesc": "Das Bundesland Salzburg erstreckt sich von der historischen Mozartstadt Salzburg und den sanften Hügeln des Flachgaus bis zu den eisbedeckten Dreitausendern der Hohen Tauern.",
+    "keyPoints": [
+      "Die 5 Gaue: Flachgau, Tennengau, Pongau, Pinzgau, Lungau (UNESCO-Biosphärenpark)",
+      "Landeshauptstadt Salzburg: Festung Hohensalzburg, Altstadt (UNESCO-Weltkulturerbe) und Salzbergbau",
+      "Naturwunder: Krimmler Wasserfälle, Salzach, Wolfgangsee und alpine Talschaften"
+    ],
+    "exercises": [
+      {
+        "id": "aut-bnd-sb",
+        "title": "Salzburg – Landeskunde & Alpenvorland",
+        "folder": "salzburg-479"
+      },
+      {
+        "id": "5720",
+        "title": "Salzburg (Stadt)",
+        "folder": "salzburg-stadt-5720"
+      },
+      {
+        "id": "5671",
+        "title": "Die Geschichte Salzburgs",
+        "folder": "die-geschichte-salzburgs-5671"
+      },
+      {
+        "id": "5665",
+        "title": "Die Festung Hohensalzburg",
+        "folder": "die-festung-hohensalzburg-5665"
+      },
+      {
+        "id": "5721",
+        "title": "Salzburg und ihre Salzbergwerke",
+        "folder": "salzburg-und-ihre-salzbergwerke-5721"
       },
       {
         "id": "aut-reg-5",
@@ -418,6 +573,201 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "aut-reg-9",
         "title": "Der Lungau – UNESCO-Biosphärenpark",
         "folder": "das-lungau-5600"
+      },
+      {
+        "id": "aut-st-12",
+        "title": "Saalfelden am Steinernen Meer",
+        "folder": "saalfelden-2-5719"
+      },
+      {
+        "id": "aut-st-13",
+        "title": "Hallein – Kelten- und Salzstadt an der Salzach",
+        "folder": "hallein-2-5705"
+      },
+      {
+        "id": "aut-gew-3",
+        "title": "Die Salzach – Hauptfluss Salzburgs",
+        "folder": "die-salzach-5689"
+      },
+      {
+        "id": "aut-gew-9",
+        "title": "Die Krimmler Wasserfälle – Höchste Wasserfälle Österreichs",
+        "folder": "die-krimmler-wasserfalle-5681"
+      },
+      {
+        "id": "5655",
+        "title": "Der Wolfgangsee",
+        "folder": "der-wolfgangsee-5655"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=salzburg&t=3752"
+  },
+  "oesterreich-tirol": {
+    "slug": "oesterreich-tirol",
+    "title": "Tirol: Gebirgswelt, Talschaften & Städte",
+    "category": "Österreich & Alpenraum",
+    "shortDesc": "Innsbruck, Inntal, Ötztal, Zillertal, Stubaital, Lechtal, Kaisergebirge, Kufstein, Kitzbühel und Osttirol.",
+    "longDesc": "Tirol ist das Herz der österreichischen Alpen. Gekennzeichnet durch das mächtige Inntal und verzweigte Hochgebirgstäler, beherbergt es berühmte Gebirgsmassive und Wintersportzentren.",
+    "keyPoints": [
+      "Landeshauptstadt Innsbruck: Goldenes Dachl, Nordkette und Knotenpunkt am Brennerkorridor",
+      "Täler & Alpen: Inntal, Ötztal, Stubaital, Zillertal, Lechtal, Kaisergebirge und Kitzbüheler Alpen",
+      "Städte & Orte: Kufstein, Kitzbühel, Schwaz, Telfs und die Exklave Osttirol"
+    ],
+    "exercises": [
+      {
+        "id": "aut-bnd-tr",
+        "title": "Tirol – Land im Gebirge",
+        "folder": "tirol-478"
+      },
+      {
+        "id": "aut-bnd-tr-g",
+        "title": "Die Geschichte Tirols",
+        "folder": "die-geschichte-tirols-2-5672"
+      },
+      {
+        "id": "5706",
+        "title": "Innsbruck",
+        "folder": "innsbruck-2-5706"
+      },
+      {
+        "id": "aut-lh-2",
+        "title": "Das Goldene Dachl in Innsbruck",
+        "folder": "das-goldene-dachl-5587"
+      },
+      {
+        "id": "5592",
+        "title": "Das Inntal",
+        "folder": "das-inntal-5592"
+      },
+      {
+        "id": "5636",
+        "title": "Der Inn",
+        "folder": "der-inn-5636"
+      },
+      {
+        "id": "5624",
+        "title": "Der Achensee",
+        "folder": "der-achensee-5624"
+      },
+      {
+        "id": "5594",
+        "title": "Das Kaisergebirge",
+        "folder": "das-kaisergebirge-5594"
+      },
+      {
+        "id": "5611",
+        "title": "Das ztal und die ztaler alpen",
+        "folder": "das-ztal-und-die-ztaler-alpen-5611"
+      },
+      {
+        "id": "5617",
+        "title": "Das Stubaital und die Stubaier Alpen",
+        "folder": "das-stubaital-und-die-stubaier-alpen-5617"
+      },
+      {
+        "id": "5623",
+        "title": "Das Zilleretal und die Zillertaler Alpen",
+        "folder": "das-zilleretal-und-die-zillertaler-alpen-5623"
+      },
+      {
+        "id": "5598",
+        "title": "Das Lechtal und die Lechtaler Alpen",
+        "folder": "das-lechtal-und-die-lechtaler-alpen-5598"
+      },
+      {
+        "id": "aut-gew-7",
+        "title": "Der Lech – Wildfluss durch das Lechtal",
+        "folder": "der-lech-5639"
+      },
+      {
+        "id": "5680",
+        "title": "Die kitzbuhler alpen",
+        "folder": "die-kitzbuhler-alpen-5680"
+      },
+      {
+        "id": "aut-st-14",
+        "title": "Kufstein – Festungsstadt an der grünen Inn",
+        "folder": "kufstein-2-5711"
+      },
+      {
+        "id": "aut-st-15",
+        "title": "Kitzbühel – Hahnenkamm und Kitzbüheler Alpen",
+        "folder": "kitzbuhel-5708"
+      },
+      {
+        "id": "aut-st-16",
+        "title": "Schwaz in Tirol – Mittelalterliche Silberstadt",
+        "folder": "schwaz-5722"
+      },
+      {
+        "id": "aut-st-25",
+        "title": "Telfs – Marktgemeinde im Tiroler Oberinntal",
+        "folder": "telfs-1888"
+      },
+      {
+        "id": "aut-ot-1",
+        "title": "Osttirol – Zwischen Hohen Tauern und Karnischen Alpen",
+        "folder": "das-osttirol-5610"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=tirol&t=3752"
+  },
+  "oesterreich-vorarlberg": {
+    "slug": "oesterreich-vorarlberg",
+    "title": "Vorarlberg: Rheintal, Bregenzerwald & Hochalpen",
+    "category": "Österreich & Alpenraum",
+    "shortDesc": "Bregenz, Dornbirn, Feldkirch, Rheintal, Bregenzerwald, Montafon, Klostertal, Walsertal und Rätikon.",
+    "longDesc": "Vorarlberg liegt ganz im Westen Österreichs zwischen Bodensee und Arlberg. Das dicht besiedelte Rheintal bildet einen dynamischen Wirtschaftsraum, umgeben von alpinen Talschaften.",
+    "keyPoints": [
+      "Landeshauptstadt Bregenz: Bodenseestadt mit Festspielen und Pfänder",
+      "Städte: Dornbirn (größte Stadt), Feldkirch mit Schattenburg, Lustenau",
+      "Täler & Massive: Rheintal, Bregenzerwald, Montafon, Klostertal, Großes Walsertal, Kleinwalsertal, Walgau, Silvretta und Rätikon"
+    ],
+    "exercises": [
+      {
+        "id": "483",
+        "title": "Vorarlberg",
+        "folder": "vorarlberg-483"
+      },
+      {
+        "id": "1437",
+        "title": "Bregenz",
+        "folder": "bregenz-1437"
+      },
+      {
+        "id": "aut-lh-1",
+        "title": "Dornbirn – Bevölkerungsreichste Stadt Vorarlbergs",
+        "folder": "dornbirn-1441"
+      },
+      {
+        "id": "aut-st-17",
+        "title": "Feldkirch – Historische Montfortstadt",
+        "folder": "feldkirch-1438"
+      },
+      {
+        "id": "aut-lh-3",
+        "title": "Die Schattenburg in Feldkirch",
+        "folder": "die-schattenburg-5690"
+      },
+      {
+        "id": "aut-st-18",
+        "title": "Lustenau – Größte Marktgemeinde Österreichs am Rhein",
+        "folder": "lustenau-1751"
+      },
+      {
+        "id": "5620",
+        "title": "Das Vorarlberger Rheintal",
+        "folder": "das-vorarlberger-rheintal-5620"
+      },
+      {
+        "id": "5627",
+        "title": "Der Bregenzerwald",
+        "folder": "der-bregenzerwald-5627"
+      },
+      {
+        "id": "5658",
+        "title": "Die Bregenzer Ach",
+        "folder": "die-bregenzer-ach-5658"
       },
       {
         "id": "aut-reg-10",
@@ -450,6 +800,182 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "folder": "der-walgau-5649"
       },
       {
+        "id": "aut-gew-8",
+        "title": "Die Ill – Größter Alpenfluss Vorarlbergs",
+        "folder": "die-ill-5677"
+      },
+      {
+        "id": "5616",
+        "title": "Das Silvretta-Gebirge",
+        "folder": "das-silvretta-gebirge-5616"
+      },
+      {
+        "id": "aut-alp-4",
+        "title": "Die Rätikon-Gruppe – Grenzgebirge der Ostalpen",
+        "folder": "die-ratikon-gruppe-5688"
+      },
+      {
+        "id": "aut-alp-5",
+        "title": "Der Arlberg – Pass und Wasserscheide zwischen Tirol und Vorarlberg",
+        "folder": "der-arlberg-5625"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=vorarlberg&t=3752"
+  },
+  "oesterreich-steiermark": {
+    "slug": "oesterreich-steiermark",
+    "title": "Steiermark: Das grüne Herz Österreichs",
+    "category": "Österreich & Alpenraum",
+    "shortDesc": "Graz (Schlossberg & Uhrturm), Ober-, Mittel- und Südsteiermark, Mur, Erzberg, Ennstaler Alpen, Nationalpark Gesäuse.",
+    "longDesc": "Die Steiermark ist das waldreichste Bundesland Österreichs. Sie reicht von den alpinen Kalkwänden des Dachsteins und Gesäuses über den Montanraum um den Erzberg bis zu den sanften südsteirischen Weinbergen.",
+    "keyPoints": [
+      "Landeshauptstadt Graz: Zweitgrößte Stadt Österreichs mit Schlossberg, Uhrturm und UNESCO-Altstadt",
+      "Drei Regionen: Obersteiermark (Alpen & Industrie), Mittelsteiermark (Mur-Mürz-Furche), Südsteiermark (Weinland)",
+      "Highlights: Nationalpark Gesäuse, Erzberg, Ennstaler Alpen, Mur, Leoben und Kapfenberg"
+    ],
+    "exercises": [
+      {
+        "id": "aut-bnd-st",
+        "title": "Steiermark – Das grüne Herz Österreichs",
+        "folder": "steiermark-485"
+      },
+      {
+        "id": "aut-bnd-st-g",
+        "title": "Die Geschichte der Steiermark",
+        "folder": "die-geschichte-der-steiermark-5666"
+      },
+      {
+        "id": "5704",
+        "title": "Graz",
+        "folder": "graz-2-5704"
+      },
+      {
+        "id": "5632",
+        "title": "Der Grazer Uhrturm",
+        "folder": "der-grazer-uhrturm-5632"
+      },
+      {
+        "id": "aut-st-1",
+        "title": "Die Obersteiermark – Montanregion & Hochalpen",
+        "folder": "die-obersteiermark-5687"
+      },
+      {
+        "id": "aut-st-2",
+        "title": "Die Mittelsteiermark – Mur-Mürz-Furche",
+        "folder": "die-mittelsteiermark-5684"
+      },
+      {
+        "id": "aut-st-3",
+        "title": "Die Südsteiermark – Steirisches Weinland",
+        "folder": "die-sudsteiermark-5692"
+      },
+      {
+        "id": "aut-reg-18",
+        "title": "Die steirische Thermenregion – Vulkanland und Heilquellen",
+        "folder": "die-steirische-thermenregion-5691"
+      },
+      {
+        "id": "5685",
+        "title": "Die Mur",
+        "folder": "die-mur-5685"
+      },
+      {
+        "id": "aut-gew-2",
+        "title": "Die Enns – Ältester Grenzfluss und Alpenstrom",
+        "folder": "die-enns-5663"
+      },
+      {
+        "id": "5664",
+        "title": "Die Ennstaler Alpen",
+        "folder": "die-ennstaler-alpen-5664"
+      },
+      {
+        "id": "aut-np-1",
+        "title": "Der Nationalpark Gesäuse",
+        "folder": "der-nationalpark-gesause-5641"
+      },
+      {
+        "id": "aut-alp-6",
+        "title": "Der Steirische Erzberg – Tagebau und Steirische Pyramide",
+        "folder": "der-erzberg-5630"
+      },
+      {
+        "id": "aut-alp-2",
+        "title": "Die Niederen Tauern – Schladminger und Wölzer Tauern",
+        "folder": "die-niederen-tauern-5686"
+      },
+      {
+        "id": "aut-st-19",
+        "title": "Leoben – Zweitgrößte Stadt der Steiermark und Montanuniversität",
+        "folder": "leoben-2-5712"
+      },
+      {
+        "id": "aut-st-20",
+        "title": "Kapfenberg – Industriemetropole und Burg Oberkapfenberg",
+        "folder": "kapfenberg-2-5707"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=steiermark&t=3752"
+  },
+  "oesterreich-kaernten": {
+    "slug": "oesterreich-kaernten",
+    "title": "Kärnten: Land der Seen und Berge",
+    "category": "Österreich & Alpenraum",
+    "shortDesc": "Klagenfurt, Villach, Wörthersee, Millstätter See, Drau, Karawanken, Karnische Alpen, Gail- und Lavanttal.",
+    "longDesc": "Kärnten ist das südlichste Bundesland Österreichs, eingebettet im Klagenfurter Becken zwischen den Tauern im Norden und den Karawanken und Karnischen Alpen an der Grenze zu Italien und Slowenien.",
+    "keyPoints": [
+      "Landeshauptstadt Klagenfurt am Wörthersee mit Lindwurmbrunnen",
+      "Kärntner Seen: Wörthersee, Millstätter See, Ossiacher See, Faaker See, Weißensee",
+      "Täler & Berge: Drautal, Gailtal, Lavanttal, Karawanken, Gurktaler und Karnische Alpen",
+      "Städte: Villach (Verkehrsknoten), Wolfsberg, Feldkirchen"
+    ],
+    "exercises": [
+      {
+        "id": "aut-bnd-kt",
+        "title": "Kärnten – Land der Seen und Berge",
+        "folder": "karnten-486"
+      },
+      {
+        "id": "aut-bnd-kt-g",
+        "title": "Die Geschichte Kärntens",
+        "folder": "die-geschichte-karntens-5668"
+      },
+      {
+        "id": "5709",
+        "title": "Klagenfurt",
+        "folder": "klagenfurt-2-5709"
+      },
+      {
+        "id": "aut-st-21",
+        "title": "Villach – Eisenbahnknoten und Draustadt",
+        "folder": "villach-2-5725"
+      },
+      {
+        "id": "1948",
+        "title": "Wolfsberg",
+        "folder": "wolfsberg-1948"
+      },
+      {
+        "id": "aut-st-22",
+        "title": "Feldkirchen in Kärnten – Tor zum Tiebel- und Glantal",
+        "folder": "feldkirchen-in-karnten-1629"
+      },
+      {
+        "id": "aut-gew-1",
+        "title": "Die Drau – Hauptstrom Kärntens",
+        "folder": "die-drau-5662"
+      },
+      {
+        "id": "5656",
+        "title": "Der worthersee",
+        "folder": "der-worthersee-5656"
+      },
+      {
+        "id": "5640",
+        "title": "Der millstatter see",
+        "folder": "der-millstatter-see-5640"
+      },
+      {
         "id": "aut-reg-16",
         "title": "Das Gailtal – Längstal zwischen Karnischen und Gailtaler Alpen",
         "folder": "das-gailtal-5586"
@@ -460,12 +986,82 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "folder": "das-lavanttal-5597"
       },
       {
-        "id": "aut-reg-18",
-        "title": "Die steirische Thermenregion – Vulkanland und Heilquellen",
-        "folder": "die-steirische-thermenregion-5691"
+        "id": "aut-alp-3",
+        "title": "Die Karawanken – Kalkalpenkette an der slowenischen Grenze",
+        "folder": "die-karawanken-5678"
+      },
+      {
+        "id": "5674",
+        "title": "Die Gurktaler Alpen",
+        "folder": "die-gurktaler-alpen-5674"
+      },
+      {
+        "id": "5679",
+        "title": "Die Karnischen Alpen",
+        "folder": "die-karnischen-alpen-5679"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=oesterreich+bundeslaender&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=kaernten&t=3752"
+  },
+  "oesterreich-burgenland": {
+    "slug": "oesterreich-burgenland",
+    "title": "Burgenland: Pannonische Tiefebene & Neusiedler See",
+    "category": "Österreich & Alpenraum",
+    "shortDesc": "Nord-, Mittel- und Südburgenland, Eisenstadt (Schloss Esterházy), Neusiedler See und Nationalpark Seewinkel.",
+    "longDesc": "Das Burgenland ist Österreichs östlichstes und jüngstes Bundesland (seit 1921). Es gehört weitgehend zur Kleinen Ungarischen Tiefebene und ist geprägt vom pannonischen Steppenklima und Weinbau.",
+    "keyPoints": [
+      "Landeshauptstadt Eisenstadt: Haydn-Stadt und barockes Schloss Esterházy",
+      "Drei Landesteile: Nordburgenland, Mittelburgenland (Blaufränkischland), Südburgenland",
+      "Naturwunder: Neusiedler See (UNESCO-Welterbe) und der Nationalpark Neusiedler See - Seewinkel"
+    ],
+    "exercises": [
+      {
+        "id": "aut-bnd-bg",
+        "title": "Burgenland – Geographie & Landeskunde",
+        "folder": "burgenland-484"
+      },
+      {
+        "id": "aut-bnd-bg-g",
+        "title": "Die Geschichte des Burgenlandes",
+        "folder": "die-geschichte-des-burgenlandes-5667"
+      },
+      {
+        "id": "5702",
+        "title": "Eisenstadt",
+        "folder": "eisenstadt-5702"
+      },
+      {
+        "id": "aut-lh-5",
+        "title": "Schloss Esterházy in Eisenstadt",
+        "folder": "das-schloss-esterhazy-5614"
+      },
+      {
+        "id": "5643",
+        "title": "Der Neusiedler See",
+        "folder": "der-neusiedler-see-5643"
+      },
+      {
+        "id": "5717",
+        "title": "Nationalpark Seewinkel",
+        "folder": "nationalpark-seewinkel-5717"
+      },
+      {
+        "id": "aut-bg-1",
+        "title": "Das Nordburgenland & Neusiedler See",
+        "folder": "das-nordburgenland-5608"
+      },
+      {
+        "id": "aut-bg-2",
+        "title": "Das Mittelburgenland – Blaufränkischland",
+        "folder": "das-mittelburgenland-5602"
+      },
+      {
+        "id": "aut-bg-3",
+        "title": "Das Südburgenland – Hügelland & Naturparke",
+        "folder": "das-sudburgenland-5618"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=burgenland&t=3752"
   },
   "wien-bundeshauptstadt-und-metropole": {
     "slug": "wien-bundeshauptstadt-und-metropole",
@@ -662,116 +1258,6 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=wien+geographie&t=3752"
   },
-  "oesterreichische-landeshauptstaedte": {
-    "slug": "oesterreichische-landeshauptstaedte",
-    "title": "Österreichische Landeshauptstädte: West & Süd",
-    "category": "Österreich & Alpenraum",
-    "shortDesc": "Bregenz, Innsbruck, Salzburg und Klagenfurt im geographischen und städtischen Porträt.",
-    "longDesc": "Die Landeshauptstädte West- und Südösterreichs zeichnen sich durch ihre spektakuläre alpine Kulisse und geschichtsträchtige Altstädte von europäischem Rang aus.",
-    "keyPoints": [
-      "Innsbruck & Bregenz: Alpine Verkehrsknotenpunkte am Fuß der Alpen und am Bodensee",
-      "Salzburg: Festung Hohensalzburg, Salzach-Schifffahrt und UNESCO-Weltkulturerbe",
-      "Klagenfurt: Kärntner Landeshauptstadt am Wörthersee mit dem Lindwurm als Wahrzeichen"
-    ],
-    "exercises": [
-      {
-        "id": "1437",
-        "title": "Bregenz",
-        "folder": "bregenz-1437"
-      },
-      {
-        "id": "5706",
-        "title": "Innsbruck",
-        "folder": "innsbruck-2-5706"
-      },
-      {
-        "id": "5720",
-        "title": "Salzburg (Stadt)",
-        "folder": "salzburg-stadt-5720"
-      },
-      {
-        "id": "5671",
-        "title": "Die Geschichte Salzburgs",
-        "folder": "die-geschichte-salzburgs-5671"
-      },
-      {
-        "id": "5665",
-        "title": "Die Festung Hohensalzburg",
-        "folder": "die-festung-hohensalzburg-5665"
-      },
-      {
-        "id": "5709",
-        "title": "Klagenfurt",
-        "folder": "klagenfurt-2-5709"
-      },
-      {
-        "id": "aut-lh-1",
-        "title": "Dornbirn – Bevölkerungsreichste Stadt Vorarlbergs",
-        "folder": "dornbirn-1441"
-      },
-      {
-        "id": "aut-lh-2",
-        "title": "Das Goldene Dachl in Innsbruck",
-        "folder": "das-goldene-dachl-5587"
-      },
-      {
-        "id": "aut-lh-3",
-        "title": "Die Schattenburg in Feldkirch",
-        "folder": "die-schattenburg-5690"
-      }
-    ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=landeshauptstaedte+oesterreich&t=3752"
-  },
-  "oesterreichische-landeshauptstaedte-ost": {
-    "slug": "oesterreichische-landeshauptstaedte-ost",
-    "title": "Österreichische Landeshauptstädte: Ost & Mitte",
-    "category": "Österreich & Alpenraum",
-    "shortDesc": "Linz, Graz und Eisenstadt: Wirtschaftsmetropolen, Schlossberg und pannonisches Zentrum.",
-    "longDesc": "Die Landeshauptstädte Zentral- und Ostösterreichs verbinden historische Residenzkultur mit moderner Industrie- und Innovationskraft an Donau und Mur.",
-    "keyPoints": [
-      "Graz: Zweitgrößte Stadt Österreichs mit UNESCO-Altstadt, Schlossberg und Uhrturm",
-      "Linz: Stahl- und Technologiemetropole an der Donau mit Voestalpine und Ars Electronica",
-      "Eisenstadt: Haydnstadt im Burgenland am Rand des pannonischen Beckens"
-    ],
-    "exercises": [
-      {
-        "id": "5714",
-        "title": "Linz",
-        "folder": "linz-2-5714"
-      },
-      {
-        "id": "5704",
-        "title": "Graz",
-        "folder": "graz-2-5704"
-      },
-      {
-        "id": "5632",
-        "title": "Der Grazer Uhrturm",
-        "folder": "der-grazer-uhrturm-5632"
-      },
-      {
-        "id": "5702",
-        "title": "Eisenstadt",
-        "folder": "eisenstadt-5702"
-      },
-      {
-        "id": "5721",
-        "title": "Salzburg und ihre Salzbergwerke",
-        "folder": "salzburg-und-ihre-salzbergwerke-5721"
-      },
-      {
-        "id": "aut-lh-4",
-        "title": "St. Pölten – Landeshauptstadt Niederösterreichs",
-        "folder": "st-polten-5723"
-      },
-      {
-        "id": "aut-lh-5",
-        "title": "Schloss Esterházy in Eisenstadt",
-        "folder": "das-schloss-esterhazy-5614"
-      }
-    ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=landeshauptstaedte+oesterreich&t=3752"
-  },
   "wiener-neustadt-stadtportraet": {
     "slug": "wiener-neustadt-stadtportraet",
     "title": "Wiener Neustadt: Porträt & Stadtgeschichte",
@@ -866,448 +1352,6 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=wiener+neustadt&t=3752"
-  },
-  "oesterreichische-staedte-und-bezirke": {
-    "slug": "oesterreichische-staedte-und-bezirke",
-    "title": "Österreichische Regionalstädte & Bezirke",
-    "category": "Österreich & Alpenraum",
-    "shortDesc": "Baden bei Wien, Krems an der Donau und Braunau am Inn im geographischen Porträt.",
-    "longDesc": "Abseits der Landeshauptstädte prägen traditionsreiche Regionalzentren die österreichische Städtelandschaft: Von der Kur- und Biedermeierstadt Baden über die Wachau-Pforte Krems bis zu den Innviertler Grenzstädten.",
-    "keyPoints": [
-      "Baden bei Wien: Bedeutende Kurstadt der Römerzeit und des Biedermeiers am Rand des Wienerwalds",
-      "Krems an der Donau: Historische Handelsstadt und Tor zur UNESCO-Welterbelandschaft Wachau",
-      "Braunau am Inn: Gotische Altstadt am bayerisch-oberösterreichischen Grenzfluss Inn",
-      "Regionale Zentren: Wichtige Funktionen für Verwaltung, Bildung, Tourismus und Nahversorgung"
-    ],
-    "exercises": [
-      {
-        "id": "5581",
-        "title": "Baden bei Wien",
-        "folder": "baden-bei-wien-2-5581"
-      },
-      {
-        "id": "5710",
-        "title": "Krems an der Donau",
-        "folder": "krems-an-der-donau-5710"
-      },
-      {
-        "id": "1578",
-        "title": "Braunau am Inn",
-        "folder": "braunau-am-inn-1578"
-      },
-      {
-        "id": "1948",
-        "title": "Wolfsberg",
-        "folder": "wolfsberg-1948"
-      },
-      {
-        "id": "aut-st-1",
-        "title": "Amstetten – Zentralort im Mostviertel",
-        "folder": "amstetten-2-5580"
-      },
-      {
-        "id": "aut-st-2",
-        "title": "Krems – Stadt an der Donau",
-        "folder": "krems-1720"
-      },
-      {
-        "id": "aut-st-3",
-        "title": "Mödling – Historische Stadt am Wienerwald",
-        "folder": "modling-2-5716"
-      },
-      {
-        "id": "aut-st-4",
-        "title": "Klosterneuburg – Stift und Babenbergerstadt",
-        "folder": "klosterneuburg-2-1758"
-      },
-      {
-        "id": "aut-st-5",
-        "title": "Schwechat – Industriestadt und Flughafen",
-        "folder": "schwechat-1853"
-      },
-      {
-        "id": "aut-st-6",
-        "title": "Tulln an der Donau – Gartenstadt",
-        "folder": "tulln-1903"
-      },
-      {
-        "id": "aut-st-7",
-        "title": "Wels – Zweitgrößte Stadt Oberösterreichs",
-        "folder": "wels-2-5726"
-      },
-      {
-        "id": "aut-st-8",
-        "title": "Steyr – Romantikstadt an Enns und Steyr",
-        "folder": "steyr-2-5724"
-      },
-      {
-        "id": "aut-st-9",
-        "title": "Gmunden – Keramikstadt am Traunsee",
-        "folder": "gmunden-5703"
-      },
-      {
-        "id": "aut-st-10",
-        "title": "Traun – Industriestadt im Zentralraum",
-        "folder": "traun-1898"
-      },
-      {
-        "id": "aut-st-11",
-        "title": "Leonding – Stadt im Linzer Zentralraum",
-        "folder": "leonding-2-5713"
-      },
-      {
-        "id": "aut-st-12",
-        "title": "Saalfelden am Steinernen Meer",
-        "folder": "saalfelden-2-5719"
-      },
-      {
-        "id": "aut-st-13",
-        "title": "Hallein – Kelten- und Salzstadt an der Salzach",
-        "folder": "hallein-2-5705"
-      },
-      {
-        "id": "aut-st-14",
-        "title": "Kufstein – Festungsstadt an der grünen Inn",
-        "folder": "kufstein-2-5711"
-      },
-      {
-        "id": "aut-st-15",
-        "title": "Kitzbühel – Hahnenkamm und Kitzbüheler Alpen",
-        "folder": "kitzbuhel-5708"
-      },
-      {
-        "id": "aut-st-16",
-        "title": "Schwaz in Tirol – Mittelalterliche Silberstadt",
-        "folder": "schwaz-5722"
-      },
-      {
-        "id": "aut-st-17",
-        "title": "Feldkirch – Historische Montfortstadt",
-        "folder": "feldkirch-1438"
-      },
-      {
-        "id": "aut-st-18",
-        "title": "Lustenau – Größte Marktgemeinde Österreichs am Rhein",
-        "folder": "lustenau-1751"
-      },
-      {
-        "id": "aut-st-19",
-        "title": "Leoben – Zweitgrößte Stadt der Steiermark und Montanuniversität",
-        "folder": "leoben-2-5712"
-      },
-      {
-        "id": "aut-st-20",
-        "title": "Kapfenberg – Industriemetropole und Burg Oberkapfenberg",
-        "folder": "kapfenberg-2-5707"
-      },
-      {
-        "id": "aut-st-21",
-        "title": "Villach – Eisenbahnknoten und Draustadt",
-        "folder": "villach-2-5725"
-      },
-      {
-        "id": "aut-st-22",
-        "title": "Feldkirchen in Kärnten – Tor zum Tiebel- und Glantal",
-        "folder": "feldkirchen-in-karnten-1629"
-      },
-      {
-        "id": "aut-st-23",
-        "title": "Perchtoldsdorf – Marktgemeinde und Weinhauerort bei Wien",
-        "folder": "perchtoldsdorf-1826"
-      },
-      {
-        "id": "aut-st-24",
-        "title": "Ternitz – Industriestadt im Schwarzatal",
-        "folder": "ternitz-1889"
-      },
-      {
-        "id": "aut-st-25",
-        "title": "Telfs – Marktgemeinde im Tiroler Oberinntal",
-        "folder": "telfs-1888"
-      }
-    ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=staedte+oesterreich&t=3752"
-  },
-  "oesterreich-alpen-und-gebirgsgipfel": {
-    "slug": "oesterreich-alpen-und-gebirgsgipfel",
-    "title": "Österreich: Hochgebirge & Berggipfel",
-    "category": "Österreich & Alpenraum",
-    "shortDesc": "Großglockner, Hohe Tauern, Silvretta, Ötztaler, Stubaier und Zillertaler Alpen.",
-    "longDesc": "Die österreichischen Zentralalpen beheimaten die höchsten Erhebungen des Landes. Gletscher, schroffe Grate und markante Dreitausender prägen das Relief.",
-    "keyPoints": [
-      "Großglockner (3.798 m): Höchster Berg Österreichs in der Glocknergruppe",
-      "Hohe Tauern: Nationalpark mit Pasterzengletscher und Krimmler Wasserfällen",
-      "Tiroler & Vorarlberger Alpen: Ötztaler, Stubaier und Silvretta-Gipfel"
-    ],
-    "exercises": [
-      {
-        "id": "493",
-        "title": "Gebirge in Österreich",
-        "folder": "gebirge-in-sterreich-493"
-      },
-      {
-        "id": "1996",
-        "title": "Der Großglockner",
-        "folder": "der-groesglockner-1996"
-      },
-      {
-        "id": "1998",
-        "title": "Die Hohen Tauern",
-        "folder": "die-hohen-tauern-1998"
-      },
-      {
-        "id": "5594",
-        "title": "Das Kaisergebirge",
-        "folder": "das-kaisergebirge-5594"
-      },
-      {
-        "id": "5616",
-        "title": "Das Silvretta-Gebirge",
-        "folder": "das-silvretta-gebirge-5616"
-      },
-      {
-        "id": "5611",
-        "title": "Das ztal und die ztaler alpen",
-        "folder": "das-ztal-und-die-ztaler-alpen-5611"
-      },
-      {
-        "id": "5617",
-        "title": "Das Stubaital und die Stubaier Alpen",
-        "folder": "das-stubaital-und-die-stubaier-alpen-5617"
-      },
-      {
-        "id": "5623",
-        "title": "Das Zilleretal und die Zillertaler Alpen",
-        "folder": "das-zilleretal-und-die-zillertaler-alpen-5623"
-      },
-      {
-        "id": "aut-ds-1",
-        "title": "Das Dachsteinmassiv – Gletscher & Karst",
-        "folder": "das-dachsteinmassiv-5584"
-      },
-      {
-        "id": "aut-gg-1",
-        "title": "Der Großglockner – Höchster Berg Österreichs",
-        "folder": "der-groesglockner-2-5633"
-      },
-      {
-        "id": "aut-alp-1",
-        "title": "Die Hohen Tauern – Dach der österreichischen Alpen",
-        "folder": "die-hohen-tauern-2-5676"
-      },
-      {
-        "id": "aut-alp-2",
-        "title": "Die Niederen Tauern – Schladminger und Wölzer Tauern",
-        "folder": "die-niederen-tauern-5686"
-      },
-      {
-        "id": "aut-alp-3",
-        "title": "Die Karawanken – Kalkalpenkette an der slowenischen Grenze",
-        "folder": "die-karawanken-5678"
-      },
-      {
-        "id": "aut-alp-4",
-        "title": "Die Rätikon-Gruppe – Grenzgebirge der Ostalpen",
-        "folder": "die-ratikon-gruppe-5688"
-      },
-      {
-        "id": "aut-alp-5",
-        "title": "Der Arlberg – Pass und Wasserscheide zwischen Tirol und Vorarlberg",
-        "folder": "der-arlberg-5625"
-      },
-      {
-        "id": "aut-alp-6",
-        "title": "Der Steirische Erzberg – Tagebau und Steirische Pyramide",
-        "folder": "der-erzberg-5630"
-      }
-    ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=alpen+oesterreich&t=3752"
-  },
-  "oesterreich-alpentaeler-und-voralpen": {
-    "slug": "oesterreich-alpentaeler-und-voralpen",
-    "title": "Österreich: Alpentäler & Voralpen",
-    "category": "Österreich & Alpenraum",
-    "shortDesc": "Inntal, Rheintal, Lechtal, Ennstaler, Gurktaler, Karnische und Kitzbüheler Alpen.",
-    "longDesc": "Die großen Längs- und Quertäler bilden die Hauptsiedlungs- und Verkehrsachsen im Alpenraum. Die Kalk- und Schieferalpen umrahmen diese Täler.",
-    "keyPoints": [
-      "Große Alpentäler: Inntal und Rheintal als wirtschaftliche Lebensadern",
-      "Naturräume: Das naturbelassene Lechtal mit Wildflusslandschaften",
-      "Kärntner und Steirische Gebirgszüge: Gurktaler, Ennstaler und Karnische Alpen"
-    ],
-    "exercises": [
-      {
-        "id": "5620",
-        "title": "Das Vorarlberger Rheintal",
-        "folder": "das-vorarlberger-rheintal-5620"
-      },
-      {
-        "id": "5592",
-        "title": "Das Inntal",
-        "folder": "das-inntal-5592"
-      },
-      {
-        "id": "5598",
-        "title": "Das Lechtal und die Lechtaler Alpen",
-        "folder": "das-lechtal-und-die-lechtaler-alpen-5598"
-      },
-      {
-        "id": "5664",
-        "title": "Die Ennstaler Alpen",
-        "folder": "die-ennstaler-alpen-5664"
-      },
-      {
-        "id": "5674",
-        "title": "Die Gurktaler Alpen",
-        "folder": "die-gurktaler-alpen-5674"
-      },
-      {
-        "id": "5679",
-        "title": "Die Karnischen Alpen",
-        "folder": "die-karnischen-alpen-5679"
-      },
-      {
-        "id": "5680",
-        "title": "Die kitzbuhler alpen",
-        "folder": "die-kitzbuhler-alpen-5680"
-      },
-      {
-        "id": "aut-ot-1",
-        "title": "Osttirol – Zwischen Hohen Tauern und Karnischen Alpen",
-        "folder": "das-osttirol-5610"
-      }
-    ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=alpen+oesterreich&t=3752"
-  },
-  "oesterreich-fluesse-und-seen": {
-    "slug": "oesterreich-fluesse-und-seen",
-    "title": "Österreich: Flüsse & Seen",
-    "category": "Österreich & Alpenraum",
-    "shortDesc": "Donau, Mur, Inn, Bregenzer Ach, Achensee, Attersee, Wörthersee und Neusiedler See.",
-    "longDesc": "Österreich ist reich an Gewässern: Von der Donau als mächtigster mitteleuropäischer Stromachse über reißende Alpenflüsse bis hin zu den eiszeitlichen Salzkammergutseen und dem pannonischen Steppensee.",
-    "keyPoints": [
-      "Donau: Rund 350 km Flusslauf in Österreich, wichtigste Binnenschifffahrtsstraße und Wasserkraftquelle",
-      "Alpenflüsse: Inn, Mur, Drau, Enns und Bregenzer Ach mit alpinen Einzugsgebieten",
-      "Salzkammergutseen: Attersee, Traunsee, Wolfgangsee und der sagenumwobene Hallstätter See",
-      "Besondere Seen: Wörthersee und Millstätter See in Kärnten; Achensee in Tirol; Steppensee Neusiedler See"
-    ],
-    "exercises": [
-      {
-        "id": "495",
-        "title": "Gewässer in Österreich",
-        "folder": "gewasser-in-sterreich-495"
-      },
-      {
-        "id": "5658",
-        "title": "Die Bregenzer Ach",
-        "folder": "die-bregenzer-ach-5658"
-      },
-      {
-        "id": "5624",
-        "title": "Der Achensee",
-        "folder": "der-achensee-5624"
-      },
-      {
-        "id": "5626",
-        "title": "Der Attersee",
-        "folder": "der-attersee-5626"
-      },
-      {
-        "id": "5634",
-        "title": "Der hallstatter see",
-        "folder": "der-hallstatter-see-5634"
-      },
-      {
-        "id": "5640",
-        "title": "Der millstatter see",
-        "folder": "der-millstatter-see-5640"
-      },
-      {
-        "id": "5643",
-        "title": "Der Neusiedler See",
-        "folder": "der-neusiedler-see-5643"
-      },
-      {
-        "id": "5648",
-        "title": "Der Traunsee",
-        "folder": "der-traunsee-5648"
-      },
-      {
-        "id": "5655",
-        "title": "Der Wolfgangsee",
-        "folder": "der-wolfgangsee-5655"
-      },
-      {
-        "id": "5656",
-        "title": "Der worthersee",
-        "folder": "der-worthersee-5656"
-      },
-      {
-        "id": "5659",
-        "title": "Die Donau in Österreich",
-        "folder": "die-donau-in-sterreich-5659"
-      },
-      {
-        "id": "5685",
-        "title": "Die Mur",
-        "folder": "die-mur-5685"
-      },
-      {
-        "id": "5636",
-        "title": "Der Inn",
-        "folder": "der-inn-5636"
-      },
-      {
-        "id": "aut-tr-1",
-        "title": "Die Traun – Vom Salzkammergut zur Donau",
-        "folder": "die-traun-5694"
-      },
-      {
-        "id": "aut-gew-1",
-        "title": "Die Drau – Hauptstrom Kärntens",
-        "folder": "die-drau-5662"
-      },
-      {
-        "id": "aut-gew-2",
-        "title": "Die Enns – Ältester Grenzfluss und Alpenstrom",
-        "folder": "die-enns-5663"
-      },
-      {
-        "id": "aut-gew-3",
-        "title": "Die Salzach – Hauptfluss Salzburgs",
-        "folder": "die-salzach-5689"
-      },
-      {
-        "id": "aut-gew-4",
-        "title": "Die March – Grenzfluss zu Slowakei und Mähren",
-        "folder": "die-march-5682"
-      },
-      {
-        "id": "aut-gew-5",
-        "title": "Die Thaya – Grenzfluss und Nationalpark Thayatal",
-        "folder": "die-thaya-5693"
-      },
-      {
-        "id": "aut-gew-6",
-        "title": "Der Kamp – Waldviertler Stauseen",
-        "folder": "der-kamp-5637"
-      },
-      {
-        "id": "aut-gew-7",
-        "title": "Der Lech – Wildfluss durch das Lechtal",
-        "folder": "der-lech-5639"
-      },
-      {
-        "id": "aut-gew-8",
-        "title": "Die Ill – Größter Alpenfluss Vorarlbergs",
-        "folder": "die-ill-5677"
-      },
-      {
-        "id": "aut-gew-9",
-        "title": "Die Krimmler Wasserfälle – Höchste Wasserfälle Österreichs",
-        "folder": "die-krimmler-wasserfalle-5681"
-      }
-    ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=fluesse+seen+oesterreich&t=3752"
   },
   "geographie-deutschlands": {
     "slug": "geographie-deutschlands",
