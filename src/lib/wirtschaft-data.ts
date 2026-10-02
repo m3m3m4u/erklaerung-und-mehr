@@ -176,7 +176,33 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "id": "3479",
         "title": "Arbeitslosigkeit – Gründe und Folgen",
         "folder": "arbeitslosigkeit-grunde-und-folgen-3479"
-      }],
+      },
+      {
+        "id": "494",
+        "title": "Wirtschaft in Österreich",
+        "folder": "wirtschaft-in-sterreich-494"
+      },
+      {
+        "id": "6398",
+        "title": "Wirtschaft der Schweiz",
+        "folder": "wirtschaft-der-schweiz-6398"
+      },
+      {
+        "id": "wirtschaftdeutschla",
+        "title": "Wirtschaft Deutschlands",
+        "folder": "wirtschaft-deutschlands"
+      },
+      {
+        "id": "6346",
+        "title": "Die Elektrizitätswirtschaft in der Schweiz",
+        "folder": "die-elektrizitatswirtschaft-in-der-schweiz-6346"
+      },
+      {
+        "id": "diedeutscheenergie",
+        "title": "Die deutsche Energiewirtschaft",
+        "folder": "die-deutsche-energiewirtschaft"
+      }
+    ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=sozialversicherung&t=3752"
   },
   "wirtschaftsordnungen-marktwirtschaft-und-planwirtschaft": {
@@ -252,7 +278,28 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "id": "989",
         "title": "Konjunktur und Konjunkturzyklen",
         "folder": "konjunktur-989"
-      }],
+      },
+      {
+        "id": "952",
+        "title": "Die soziale Marktwirtschaft",
+        "folder": "die-soziale-marktwirtschaft-952"
+      },
+      {
+        "id": "3334",
+        "title": "Wirtschaft im Mittelalter",
+        "folder": "wirtschaft-im-mittelalterr-3334"
+      },
+      {
+        "id": "1944",
+        "title": "Wirtschaft 1944 – Kriegswirtschaft",
+        "folder": "wirtschaft-1944"
+      },
+      {
+        "id": "3067",
+        "title": "Wirtschaft der Weimarer Republik",
+        "folder": "wirtschaft-der-weimarer-republik-3067"
+      }
+    ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=marktwirtschaft+planwirtschaft&t=3752"
   },
   "soziale-marktwirtschaft-in-deutschland": {
@@ -318,6 +365,17 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "id": "vier-tage-woche",
         "title": "Die Vier-Tage-Woche – Radikaler Wohlstand oder wirtschaftlicher Selbstmord",
         "folder": "die-vier-tage-woche-radikaler-wohlstand-oder-wirtschaftlicher-selbstmord"
+      }
+    ,
+      {
+        "id": "diesozialversicheru",
+        "title": "Die Sozialversicherung in Deutschland",
+        "folder": "die-sozialversicherung-in-deutschland"
+      },
+      {
+        "id": "698",
+        "title": "Generationenvertrag",
+        "folder": "studypoint-multiple-choice-generationenvertrag-698"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Die%20Soziale%20Marktwirtschaft%20in%20Deutschland+wirtschaft&t=3752"
@@ -426,7 +484,33 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "id": "preistreiber",
         "title": "Miet-Wahnsinn in der City – Preistreiber in Städten",
         "folder": "miet-wahnsinn-in-der-city-die-wahren-preistreiber-in-unseren-staedten"
-      }],
+      },
+      {
+        "id": "2619",
+        "title": "Werbung und ihre psychologischen Strategien",
+        "folder": "werbung-und-ihre-psychologischen-strategien-2619"
+      },
+      {
+        "id": "2709",
+        "title": "Einfluss der Werbung auf das Verhalten",
+        "folder": "einfluss-der-werbung-auf-das-verhalten-2709"
+      },
+      {
+        "id": "950",
+        "title": "Marketing – Überblick und Grundlagen",
+        "folder": "marketing-950"
+      },
+      {
+        "id": "1137",
+        "title": "Die Weltwirtschaftskrise 1929",
+        "folder": "weltwirtschaftskrise-1929-1137"
+      },
+      {
+        "id": "418",
+        "title": "Die Goldenen 20er und die Weltwirtschaftskrise",
+        "folder": "die-goldenen-20er-jahre-und-die-weltwirtschaftskrise-1929-418"
+      }
+    ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Markt%2C%20Angebot%2C%20Nachfrage%20%26%20Preisbildung+wirtschaft&t=3752"
   },
   "geld-funktionen-und-zahlungssysteme": {
@@ -762,6 +846,17 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "title": "Der Darlehensvertrag und Kreditrecht",
         "folder": "der-darlehensvertrag-und-kreditrecht"
       }
+    ,
+      {
+        "id": "949",
+        "title": "Kredite – Grundlagen und Risiken",
+        "folder": "kredite-949"
+      },
+      {
+        "id": "steuerrechteinfach",
+        "title": "Steuerrecht einfach erklärt",
+        "folder": "steuerrecht-einfach-erklaert"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Kredite%2C%20Verschuldung%20%26%20Privatinsolvenz+wirtschaft&t=3752"
   },
@@ -853,7 +948,43 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "id": "3551",
         "title": "Kinderarbeit weltweit & Lieferketten",
         "folder": "kinderarbeit-weltweit-3551"
-      }],
+      },
+      {
+        "id": "981",
+        "title": "Globalisierung im Überblick",
+        "folder": "globalisierung-981"
+      },
+      {
+        "id": "5458",
+        "title": "Handelsrouten im Zeitalter der Globalisierung",
+        "folder": "die-entwicklung-von-handelsrouten-im-zeitalter-der-globalisierung-5458"
+      },
+      {
+        "id": "5472",
+        "title": "Verkehrsknotenpunkte in globalen Lieferketten",
+        "folder": "die-rolle-von-verkehrsknotenpunkten-in-globalen-lieferketten-5472"
+      },
+      {
+        "id": "5555",
+        "title": "Seeverkehr & Globaler Containerhandel",
+        "folder": "seeverkehr-und-globalhandel-containerhafen-als-schlusselpunkte-der-weltwirtschaft-5555"
+      },
+      {
+        "id": "5532",
+        "title": "Wie Globalisierung die Verkehrsströme verändert",
+        "folder": "wie-globalisierung-die-verkehrsstrome-verandert-5532"
+      },
+      {
+        "id": "diestrassevonhorm",
+        "title": "Die Straße von Hormus und der Welthandel",
+        "folder": "die-strasse-von-hormus-und-ihre-bedeutung-fuer-den-welthandel"
+      },
+      {
+        "id": "5577",
+        "title": "Zukunft der Logistik: Drohnen und Automatisierung",
+        "folder": "zukunft-der-logistik-automatisierung-drohnen-und-nachhaltige-lieferketten-5577"
+      }
+    ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Globalisierung%2C%20Welthandel%20%26%20Globale%20Lieferketten+wirtschaft&t=3752"
   },
   "freihandel-protektionismus-und-organisationen": {
@@ -960,7 +1091,23 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "id": "3599",
         "title": "Wirtschaftsbeziehungen zwischen Deutschland und China",
         "folder": "wirtschaftsbeziehungen-zwischen-deutschland-und-china-3599"
-      }],
+      },
+      {
+        "id": "3549",
+        "title": "Internationaler Währungsfonds (IWF)",
+        "folder": "internationaler-wahrungsfonds-3549"
+      },
+      {
+        "id": "5451",
+        "title": "Auswirkungen der Globalisierung auf lokale Kulturen",
+        "folder": "die-auswirkungen-der-globalisierung-auf-lokale-kulturen-5451"
+      },
+      {
+        "id": "5453",
+        "title": "Bedeutung von Verkehrsachsen für Wirtschaft & Siedlung",
+        "folder": "die-bedeutung-von-verkehrsachsen-fur-wirtschaft-und-siedlungsentwicklung-5453"
+      }
+    ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Freihandel%2C%20Protektionismus%20%26%20WTO%2C%20IWF%2C%20Weltbank+wirtschaft&t=3752"
   },
   "nachhaltiges-wirtschaften-und-klimawandel": {
@@ -1047,7 +1194,48 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "id": "6452",
         "title": "CO₂-Bepreisung & ökologische Marktwirtschaft",
         "folder": "co-bepreisung-6452"
-      }],
+      },
+      {
+        "id": "2672",
+        "title": "Nachhaltiger Konsum",
+        "folder": "nachhaltiger-konsum-2672"
+      },
+      {
+        "id": "4452",
+        "title": "Nachhaltiger & bewusster Konsum",
+        "folder": "nachhaltiger-konsum-und-bewusster-konsum-4452"
+      },
+      {
+        "id": "2862",
+        "title": "Nachhaltigkeit und faire Produktion",
+        "folder": "nachhaltigkeit-und-faire-produktion-2862"
+      },
+      {
+        "id": "3570",
+        "title": "Nachhaltiger Tourismus und seine Vorteile",
+        "folder": "nachhaltiger-tourismus-und-seine-vorteile-3570"
+      },
+      {
+        "id": "nachhaltigenutzung",
+        "title": "Nachhaltige Nutzung und Reparatur von Geräten",
+        "folder": "nachhaltige-nutzung-und-reparatur-von-geraeten"
+      },
+      {
+        "id": "5551",
+        "title": "Nachhaltige Verkehrskonzepte für Städte der Zukunft",
+        "folder": "nachhaltige-verkehrskonzepte-fur-die-stadte-der-zukunft-5551"
+      },
+      {
+        "id": "4486",
+        "title": "Global Goal 12: Nachhaltiger Konsum & Produktion",
+        "folder": "global-goal-12-nachhaltiger-konsum-produktion-im-einklang-mit-natur-4486"
+      },
+      {
+        "id": "2850",
+        "title": "Ethische Fragen in der Wirtschaft",
+        "folder": "ethische-fragen-in-der-wirtschaft-2850"
+      }
+    ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Nachhaltigkeit%2C%20Kreislaufwirtschaft%20%26%20CSR+wirtschaft&t=3752"
   },
   "migration-und-weltwirtschaft": {
@@ -1103,6 +1291,37 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "title": "Digitale Spaltung zwischen Nord und Süd",
         "folder": "digitale-spaltung-zwischen-nord-und-sued"
       }
+    ,
+      {
+        "id": "5542",
+        "title": "Migration und wirtschaftliche Entwicklung",
+        "folder": "migration-und-ihre-auswirkungen-auf-die-wirtschaftliche-entwicklung-2-5542"
+      },
+      {
+        "id": "5480",
+        "title": "Wirtschaftliche Entwicklung Afrikas im globalen Kontext",
+        "folder": "die-wirtschaftliche-entwicklung-afrikas-im-globalen-kontext-5480"
+      },
+      {
+        "id": "5572",
+        "title": "Wirtschaftliche Ballungsräume in Nord- und Südamerika",
+        "folder": "wirtschaftliche-ballungsraume-in-nord-und-sudamerika-5572"
+      },
+      {
+        "id": "5534",
+        "title": "Wirtschaftliche Entwicklung in Australien & Ozeanien",
+        "folder": "wirtschaftliche-entwicklung-in-australien-und-ozeanien-im-globalen-kontext-5534"
+      },
+      {
+        "id": "5573",
+        "title": "Wirtschaftsmacht Asien: Von China bis Indien",
+        "folder": "wirtschaftsmacht-asien-von-china-bis-indien-5573"
+      },
+      {
+        "id": "5521",
+        "title": "Südostasien: Geographische Vielfalt und wirtschaftlicher Aufstieg",
+        "folder": "sudostasien-geographische-vielfalt-und-wirtschaftlicher-aufstieg-5521"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=migration+wirtschaft&t=3752"
   },
@@ -1148,6 +1367,22 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "id": "landwirtschaft-in-sterreich-und-in-den-usa-2051",
         "title": "Landwirtschaft im Vergleich: Österreich und die USA",
         "folder": "landwirtschaft-in-sterreich-und-in-den-usa-2051"
+      }
+    ,
+      {
+        "id": "2052",
+        "title": "Landwirtschaft in Österreich",
+        "folder": "landwirtschaft-in-sterreich-2052"
+      },
+      {
+        "id": "5541",
+        "title": "Globale Herausforderungen der Landwirtschaft im 21. Jh.",
+        "folder": "landwirtschaft-und-ihre-globalen-herausforderungen-im-21-jahrhundert-2-5541"
+      },
+      {
+        "id": "5501",
+        "title": "Industrialisierung: Von der Agrar- zur Industriegesellschaft",
+        "folder": "industrialisierung-der-weg-von-der-agrar-zur-industriegesellschaft-5501"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=landwirtschaft+wirtschaft&t=3752"
@@ -1354,6 +1589,17 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "title": "Aufbau der Arbeitsgerichtsbarkeit",
         "folder": "aufbau-der-arbeitsgerichtsbarkeit"
       }
+    ,
+      {
+        "id": "3568",
+        "title": "Der Mindestlohn in Deutschland",
+        "folder": "mindestlohn-3568"
+      },
+      {
+        "id": "spannungsfeldzwisch",
+        "title": "Whistleblowing und Geheimhaltung im Spannungsfeld",
+        "folder": "spannungsfeld-zwischen-whistleblowing-und-geheimhaltung"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=arbeitsrecht+kündigungsschutz&t=3752"
   },
@@ -1414,6 +1660,12 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "id": "cookies-und-tracking-einwilligungen",
         "title": "Cookies und Tracking Einwilligungen",
         "folder": "cookies-und-tracking-einwilligungen"
+      }
+    ,
+      {
+        "id": "939",
+        "title": "Verträge – Grundlagen und Arten",
+        "folder": "vertrage-939"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=verbraucherschutz+vertragsarten&t=3752"
@@ -1669,6 +1921,12 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "title": "Neuromarketing: Hirnforschung im Handel",
         "folder": "neuromarketing-hirnforschung-im-handel"
       }
+    ,
+      {
+        "id": "2601",
+        "title": "Rolle der Medien in der Wirtschaftskommunikation",
+        "folder": "die-rolle-von-medien-in-der-wirtschaftskommunikation-2601"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=marktforschung+marketing+mix&t=3752"
   },
@@ -1883,6 +2141,17 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "id": "customer-relationship-management-crm",
         "title": "Customer Relationship Management CRM",
         "folder": "customer-relationship-management-crm"
+      }
+    ,
+      {
+        "id": "auswirkungenvonpla",
+        "title": "Auswirkungen von Plattformkapitalismus auf Arbeitsrechte",
+        "folder": "auswirkungen-von-plattformkapitalismus-auf-arbeitsrechte"
+      },
+      {
+        "id": "optimierungvonprof",
+        "title": "Optimierung von Profilen auf Karriereplattformen",
+        "folder": "optimierung-von-profilen-auf-karriereplattformen"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=e-commerce+onlineshop&t=3752"
@@ -2168,6 +2437,12 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "id": "bundeshaushaltsplan",
         "title": "Der Bundeshaushaltsplan in Deutschland",
         "folder": "der-bundeshaushaltsplan-in-deutschland"
+      }
+    ,
+      {
+        "id": "3520",
+        "title": "Die verschiedenen Steuern in Deutschland",
+        "folder": "die-verschiednen-steuern-in-deutschland-3520"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Das%20deutsche%20Steuersystem%3A%20Einkommen-%2C%20Umsatz-%20%26%20Gewerbesteuer+wirtschaft&t=3752"
