@@ -16,10 +16,12 @@ export interface ReligionTopic {
 }
 
 export const religionCategories: string[] = [
-  "Die Weltreligionen",
-  "Bibel & Religiöse Schriften",
-  "Feste, Symbole, Tod & Auferstehung",
-  "Religion im Alltag & Gesellschaft",
+  "Die Weltreligionen & Dialog",
+  "Altes Testament: Schöpfung, Bund & Propheten",
+  "Neues Testament: Jesus, Evangelien & Apostel",
+  "Feste, Kirchenjahr, Tod & Auferstehung",
+  "Liturgie, Sakramente, Gottesdienst & Gebet",
+  "Kirche, Papsttum, Ämter & Geschichte",
   "Sakralbauten & Kirchliche Kunst"
 ];
 
@@ -27,7 +29,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
   "weltreligionen-ueberblick-und-dialog": {
     "slug": "weltreligionen-ueberblick-und-dialog",
     "title": "Die Weltreligionen im Überblick & Dialog",
-    "category": "Die Weltreligionen",
+    "category": "Die Weltreligionen & Dialog",
     "shortDesc": "Gemeinsamkeiten, Unterschiede, interreligiöser Dialog und Escape Room zu den Weltreligionen.",
     "longDesc": "Die großen Weltreligionen prägen das Wertesystem, die Kultur und das Zusammenleben von Milliarden Menschen weltweit. Der interreligiöse Dialog fördert gegenseitigen Respekt, Frieden und das Verständnis für das Eigene und das Fremde.",
     "keyPoints": [
@@ -129,7 +131,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
   "judentum-glaube-tora-und-synagoge": {
     "slug": "judentum-glaube-tora-und-synagoge",
     "title": "Judentum: Glaube, Tora & Synagoge",
-    "category": "Die Weltreligionen",
+    "category": "Die Weltreligionen & Dialog",
     "shortDesc": "Monotheismus, Tanach, Tora-Rolle, Synagoge, Rabbiner, Sabbat und Messiaserwartung.",
     "longDesc": "Das Judentum ist die älteste monotheistische Religion der Welt und die Wiege von Christentum und Islam. Im Zentrum des jüdischen Lebens stehen der Bund mit Gott, das Studium der Tora und die Feier des wöchentlichen Ruhetags Schabbat.",
     "keyPoints": [
@@ -207,7 +209,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
   "judentum-feste-lebenskreis-und-kultur": {
     "slug": "judentum-feste-lebenskreis-und-kultur",
     "title": "Judentum: Feste, Lebenskreis & Traditionen",
-    "category": "Die Weltreligionen",
+    "category": "Die Weltreligionen & Dialog",
     "shortDesc": "Pessach, Chanukka, Jom Kippur, Bar/Bat Mizwa, jüdische Kunst, Musik und Diaspora.",
     "longDesc": "Der jüdische Festkalender richtet sich nach dem Mondjahr und verbindet historische Erinnerung mit religiöser Dankbarkeit. Übergangsriten wie die Bar Mizwa markieren die religiöse Mündigkeit junger Jüdinnen und Juden.",
     "keyPoints": [
@@ -255,7 +257,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
   "islam-glaube-koran-und-fuenf-saeulen": {
     "slug": "islam-glaube-koran-und-fuenf-saeulen",
     "title": "Islam: Glaube, Koran & die Fünf Säulen",
-    "category": "Die Weltreligionen",
+    "category": "Die Weltreligionen & Dialog",
     "shortDesc": "Glaubensbekenntnis, fünf Gebetszeiten, Mekka, Moschee, Sunniten, Schiiten und Islam in Europa.",
     "longDesc": "Der Islam wurde im 7. Jahrhundert durch den Propheten Mohammed auf der Arabischen Halbinsel gestiftet. Das Wort 'Islam' bedeutet Ergebung in den Willen des einen Gottes (Allah).",
     "keyPoints": [
@@ -323,7 +325,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
   "islam-prophet-ramadan-und-traditionen": {
     "slug": "islam-prophet-ramadan-und-traditionen",
     "title": "Islam: Prophet Muhammad, Ramadan & Feste",
-    "category": "Die Weltreligionen",
+    "category": "Die Weltreligionen & Dialog",
     "shortDesc": "Leben des Propheten Muhammad, Fastenmonat Ramadan, Opferfest, islamische Kunst und Jesus im Islam.",
     "longDesc": "Der Prophet Muhammad gilt Muslimen als das 'Siegel der Propheten'. Der Fastenmonat Ramadan und die großen Feste prägen das religiöse Jahr und den sozialen Zusammenhalt.",
     "keyPoints": [
@@ -385,7 +387,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
   "buddhismus-lehre-und-praxis": {
     "slug": "buddhismus-lehre-und-praxis",
     "title": "Buddhismus: Lehre, Meditation & Praxis",
-    "category": "Die Weltreligionen",
+    "category": "Die Weltreligionen & Dialog",
     "shortDesc": "Siddhartha Gautama, Vier Edle Wahrheiten, Achtfacher Pfad, Karma, Nirvana und Meditation.",
     "longDesc": "Der Buddhismus entstand vor über 2.500 Jahren im Norden Indiens. Im Zentrum steht die Befreiung aus dem Kreislauf des Leidens (Samsara) durch Achtsamkeit, Meditation und ethisches Handeln.",
     "keyPoints": [
@@ -493,7 +495,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
   "hinduismus-goetter-und-reinkarnation": {
     "slug": "hinduismus-goetter-und-reinkarnation",
     "title": "Hinduismus: Götterwelt, Karma & Reinkarnation",
-    "category": "Die Weltreligionen",
+    "category": "Die Weltreligionen & Dialog",
     "shortDesc": "Brahma, Vishnu, Shiva, Veden, Kastenwesen, Seelenwanderung und der ewige Kreislauf.",
     "longDesc": "Der Hinduismus ist eine der ältesten Religionen der Menschheit. Er umfasst eine reiche Vielfalt an philosophischen Schulen, Ritualen und Göttergestalten, die Erscheinungsformen der universellen Weltenseele (Brahman) darstellen.",
     "keyPoints": [
@@ -545,7 +547,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
   "die-bibel-entstehung-und-aufbau": {
     "slug": "die-bibel-entstehung-und-aufbau",
     "title": "Die Bibel: Entstehung, Aufbau & Vielfalt",
-    "category": "Bibel & Religiöse Schriften",
+    "category": "Altes Testament: Schöpfung, Bund & Propheten",
     "shortDesc": "Buch der Bücher, Kanonbildung, hebräische und griechische Urtexte, Frauen in der Bibel und Wissenschaft.",
     "longDesc": "Die Bibel ist eine ganze Bibliothek aus 66 (evangelisch) bzw. 73 (katholisch) Einzelschriften. Sie entstand über einen Zeitraum von mehr als tausend Jahren und wurde in Hebräisch, Aramäisch und Griechisch verfasst.",
     "keyPoints": [
@@ -608,7 +610,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
   "altes-testament-urgeschichte-und-schoepfung": {
     "slug": "altes-testament-urgeschichte-und-schoepfung",
     "title": "Altes Testament: Schöpfung, Bund & Urgeschichte",
-    "category": "Bibel & Religiöse Schriften",
+    "category": "Altes Testament: Schöpfung, Bund & Propheten",
     "shortDesc": "Schöpfungsberichte (Gen 1-2), Schöpfung & Evolution, Arche Noah, Abraham und der Gottesbund.",
     "longDesc": "Die biblische Urgeschichte erzählt in symbolkräftigen Bildern von der Entstehung der Welt, der Bestimmung des Menschen als Gottes Ebenbild, dem Sündenfall und dem Bund Gottes mit Abraham.",
     "keyPoints": [
@@ -691,7 +693,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
   "altes-testament-mose-und-zehn-gebote": {
     "slug": "altes-testament-mose-und-zehn-gebote",
     "title": "Mose & Die Zehn Gebote",
-    "category": "Bibel & Religiöse Schriften",
+    "category": "Altes Testament: Schöpfung, Bund & Propheten",
     "shortDesc": "Auszug aus Ägypten (Exodus), Brennender Dornbusch, Gesetzgebung am Sinai und Zehn Gebote.",
     "longDesc": "Mose ist die zentrale Leitfigur des Alten Testaments. Durch ihn befreite Gott die Israeliten aus der Sklaverei in Ägypten und schloss am Berg Sinai einen Bund, dessen ethisches Herzstück der Dekalog ist.",
     "keyPoints": [
@@ -783,7 +785,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
   "altes-testament-helden-koenige-und-propheten": {
     "slug": "altes-testament-helden-koenige-und-propheten",
     "title": "David, Salomo, Jona & Die Propheten",
-    "category": "Bibel & Religiöse Schriften",
+    "category": "Altes Testament: Schöpfung, Bund & Propheten",
     "shortDesc": "David und Goliath, König Salomo, Jona und der Wal, biblische Psalmen und Prophetenworte.",
     "longDesc": "Spannende Geschichten von Königen und Propheten spiegeln menschliche Stärken und Schwächen wider: Davids Mut, Salomos Weisheit, Jonas Flucht und die Mahnworte der Propheten für soziale Gerechtigkeit.",
     "keyPoints": [
@@ -941,7 +943,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
   "jesus-von-nazaret-leben-und-botschaft": {
     "slug": "jesus-von-nazaret-leben-und-botschaft",
     "title": "Jesus von Nazaret: Leben, Botschaft & Christusbilder",
-    "category": "Bibel & Religiöse Schriften",
+    "category": "Neues Testament: Jesus, Evangelien & Apostel",
     "shortDesc": "Historischer Jesus, Geburt in Betlehem, Taufe im Jordan, Verklärung, Christusbilder in Kunst und Film.",
     "longDesc": "Jesus von Nazaret lebte vor 2.000 Jahren im römisch besetzten Judäa. Er verkündete das anbrechende Reich Gottes, wandte sich Ausgestoßenen zu und forderte Nächsten- und Feindesliebe.",
     "keyPoints": [
@@ -1044,7 +1046,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
   "jesu-gleichnisse-und-bergpredigt": {
     "slug": "jesu-gleichnisse-und-bergpredigt",
     "title": "Jesu Gleichnisse, Wunder & Die Bergpredigt",
-    "category": "Bibel & Religiöse Schriften",
+    "category": "Neues Testament: Jesus, Evangelien & Apostel",
     "shortDesc": "Gleichnisse vom Reich Gottes, Barmherziger Samariter, Seligpreisungen, Vaterunser und Wundererzählungen.",
     "longDesc": "In Gleichnissen sprach Jesus in Bildern aus der Lebenswelt seiner Zuhörer (Bauern, Fischer, Hirten). In der Bergpredigt (Mt 5-7) legte er die radikale Ethik der Nächsten- und Feindesliebe dar.",
     "keyPoints": [
@@ -1106,7 +1108,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
   "passion-und-auferstehung-jesu": {
     "slug": "passion-und-auferstehung-jesu",
     "title": "Passion, Kreuzigung & Auferstehung Jesu",
-    "category": "Bibel & Religiöse Schriften",
+    "category": "Neues Testament: Jesus, Evangelien & Apostel",
     "shortDesc": "Palmsonntag, Letztes Abendmahl, Gethsemane, Verurteilung, Kreuzigung auf Golgota und Ostermorgen.",
     "longDesc": "Das Leiden, Sterben und die Auferstehung Jesu Christi bilden das theologische Herzstück des christlichen Glaubens. Sie deuten das Kreuz als Zeichen bedingungsloser Liebe und Überwindung des Todes.",
     "keyPoints": [
@@ -1178,7 +1180,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
   "apostel-evangelien-und-urkirche": {
     "slug": "apostel-evangelien-und-urkirche",
     "title": "Die vier Evangelien, Apostel & Paulus",
-    "category": "Bibel & Religiöse Schriften",
+    "category": "Neues Testament: Jesus, Evangelien & Apostel",
     "shortDesc": "Matthäus, Markus, Lukas, Johannes, Jüngerberufung, Pfingsten und Paulus' Missionsreisen.",
     "longDesc": "Nach Jesu Auferstehung verbreiteten die Apostel die Frohe Botschaft im Römischen Reich. Aus dem Pharisäer Saulus wurde durch das Damaskuserlebnis der Völkerapostel Paulus.",
     "keyPoints": [
@@ -1270,7 +1272,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
   "advent-weihnachten-und-epiphanias": {
     "slug": "advent-weihnachten-und-epiphanias",
     "title": "Advent, Weihnachten & Dreikönig",
-    "category": "Feste, Symbole, Tod & Auferstehung",
+    "category": "Feste, Kirchenjahr, Tod & Auferstehung",
     "shortDesc": "Adventszeit, Adventskranz, Heiliger Nikolaus, Christfest, Krippe und Heilige Drei Könige.",
     "longDesc": "Der Festkreis um Weihnachten beginnt mit dem Advent als Zeit der Erwartung und Vorbereitung. An Weihnachten feiert die Christenheit die Menschwerdung Gottes (Inkarnation) in einem neugeborenen Kind.",
     "keyPoints": [
@@ -1358,7 +1360,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
   "fastenzeit-und-karwoche": {
     "slug": "fastenzeit-und-karwoche",
     "title": "Fastenzeit, Palmsonntag & Karwoche",
-    "category": "Feste, Symbole, Tod & Auferstehung",
+    "category": "Feste, Kirchenjahr, Tod & Auferstehung",
     "shortDesc": "Aschermittwoch, 40 Tage Fastenzeit, Palmsonntag, Gründonnerstag und Karfreitag.",
     "longDesc": "Die 40-tägige Fastenzeit erinnert an Jesu Fasten in der Wüste und dient der inneren Einkehr und Umkehr. Die Karwoche (stille Woche) bildet den Höhepunkt der Vorbereitung auf Ostern.",
     "keyPoints": [
@@ -1410,7 +1412,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
   "ostern-pfingsten-und-kirchenjahr": {
     "slug": "ostern-pfingsten-und-kirchenjahr",
     "title": "Ostern, Pfingsten & Das Kirchenjahr",
-    "category": "Feste, Symbole, Tod & Auferstehung",
+    "category": "Feste, Kirchenjahr, Tod & Auferstehung",
     "shortDesc": "Osternacht, Auferstehung, Himmelfahrt, Pfingsten, Fronleichnam, Erntedank, Allerheiligen und Kirchenjahr.",
     "longDesc": "Ostern ist das höchste und älteste Fest der Christenheit. Mit Christi Himmelfahrt und der Sendung des Heiligen Geistes an Pfingsten schließt der Osterfestkreis ab.",
     "keyPoints": [
@@ -1497,7 +1499,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
   "tod-trauer-und-seelsorge": {
     "slug": "tod-trauer-und-seelsorge",
     "title": "Tod, Trauer, Bestattung & Seelsorge",
-    "category": "Feste, Symbole, Tod & Auferstehung",
+    "category": "Feste, Kirchenjahr, Tod & Auferstehung",
     "shortDesc": "Endlichkeit des Lebens, Trauerphasen, christliche Bestattung, Seelsorge und Hospizbegleitung.",
     "longDesc": "Die Konfrontation mit der Endlichkeit des eigenen Lebens und dem Verlust geliebter Menschen gehört zu den tiefgreifendsten Erfahrungen. Christliche Seelsorge spendet Trost und Hoffnung im Vertrauen auf Gottes Beistand.",
     "keyPoints": [
@@ -1554,7 +1556,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
   "jenseits-himmel-und-ewiges-leben": {
     "slug": "jenseits-himmel-und-ewiges-leben",
     "title": "Jenseits, Auferstehung & Ewiges Leben",
-    "category": "Feste, Symbole, Tod & Auferstehung",
+    "category": "Feste, Kirchenjahr, Tod & Auferstehung",
     "shortDesc": "Auferstehung der Toten, Himmel, Hölle, Fegefeuer und Jenseitsvorstellungen weltweit.",
     "longDesc": "Was kommt nach dem Tod? Religionen und Kulturen haben faszinierende Vorstellungen über ein Fortleben der Seele entwickelt: Von Reinkarnation über Ahnenkult bis zur Auferstehung bei Gott.",
     "keyPoints": [
@@ -1605,7 +1607,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
   "sakramente-der-initiation": {
     "slug": "sakramente-der-initiation",
     "title": "Sakramente: Taufe, Firmung & Konfirmation",
-    "category": "Religion im Alltag & Gesellschaft",
+    "category": "Liturgie, Sakramente, Gottesdienst & Gebet",
     "shortDesc": "Sichtbare Zeichen unsichtbarer Gnade: Taufe, Firmung, Konfirmation und sakramentale Kunst.",
     "longDesc": "Sakramente sind von Christus eingesetzte Heilszeichen, die den Lebensweg von Christen begleiten. Taufe und Firmung (katholisch) bzw. Konfirmation (evangelisch) begründen die Aufnahme in die Kirche.",
     "keyPoints": [
@@ -1672,7 +1674,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
   "eucharistie-kommunion-und-heilsdienste": {
     "slug": "eucharistie-kommunion-und-heilsdienste",
     "title": "Eucharistie, Erstkommunion & Weihesakramente",
-    "category": "Religion im Alltag & Gesellschaft",
+    "category": "Liturgie, Sakramente, Gottesdienst & Gebet",
     "shortDesc": "Eucharistiefeier, Erstkommunionvorbereitung, Krankensalbung, Priesterweihe und Weiheamt.",
     "longDesc": "Die Eucharistie ist 'Quelle und Höhepunkt des ganzen christlichen Lebens'. Neben der Feier des Herrenmahls spenden Heilungs- und Weihesakramente Stärkung in Krankheit und Indienstnahme für die Gemeinde.",
     "keyPoints": [
@@ -1780,7 +1782,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
   "liturgie-gottesdienst-und-gebet": {
     "slug": "liturgie-gottesdienst-und-gebet",
     "title": "Heilige Messe, Liturgie & Gebet",
-    "category": "Religion im Alltag & Gesellschaft",
+    "category": "Liturgie, Sakramente, Gottesdienst & Gebet",
     "shortDesc": "Ablauf der Heiligen Messe, Wortgottesdienst, Predigt, Fürbitten, Glaubensbekenntnis und Kirchenraum.",
     "longDesc": "Im Gottesdienst versammelt sich die Gemeinde zum gemeinsamen Lobpreis, zur Schriftlesung und zum Gebet. Der Kirchenraum mit seinen architektonischen Symbolen spiegelt den himmlischen Festsaal wider.",
     "keyPoints": [
@@ -1923,7 +1925,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
   "heilige-und-vorbilder-des-glaubens": {
     "slug": "heilige-und-vorbilder-des-glaubens",
     "title": "Heilige & Vorbilder des Glaubens",
-    "category": "Religion im Alltag & Gesellschaft",
+    "category": "Kirche, Papsttum, Ämter & Geschichte",
     "shortDesc": "Franz von Assisi, Martin von Tours, Elisabeth von Thüringen, Mutter Teresa und christliche Nächstenliebe.",
     "longDesc": "Heilige sind Menschen, die das Evangelium in ihrer jeweiligen Zeitepoche auf radikale und vorbildliche Weise gelebt haben. Ihr Einsatz für Arme, Kranke und die Schöpfung inspiriert bis heute.",
     "keyPoints": [
@@ -2005,7 +2007,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
   "papst-vatikan-und-konzilien": {
     "slug": "papst-vatikan-und-konzilien",
     "title": "Papst, Vatikan & Die Konzilien",
-    "category": "Religion im Alltag & Gesellschaft",
+    "category": "Kirche, Papsttum, Ämter & Geschichte",
     "shortDesc": "Bischof von Rom, Petersdom, Sixtinische Kapelle, Enzykliken, Erstes und Zweites Vatikanisches Konzil.",
     "longDesc": "Der Vatikanstaat in Rom ist das weltweite Zentrum der römisch-katholischen Kirche. Der Papst leitet als Nachfolger des Apostels Petrus die Universalkirche und äußert sich in Enzykliken zu Glaubens- und Weltfragen.",
     "keyPoints": [
@@ -2168,7 +2170,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
   "aemter-der-kirche-und-oekumene": {
     "slug": "aemter-der-kirche-und-oekumene",
     "title": "Ämter der Kirche, Ökumene & Gesellschaft",
-    "category": "Religion im Alltag & Gesellschaft",
+    "category": "Kirche, Papsttum, Ämter & Geschichte",
     "shortDesc": "Diakon, Priester, Bischof, Diözesen, Ökumene, Katholische/Evangelische Kirche und Kirche & Staat.",
     "longDesc": "Die Kirche wirkt durch Ämter, Gemeinden und caritative Einrichtungen mitten in der Gesellschaft. Die Ökumene bemüht sich um die Überwindung historischer Kirchenspaltungen zwischen den Konfessionen.",
     "keyPoints": [

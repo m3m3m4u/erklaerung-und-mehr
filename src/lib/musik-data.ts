@@ -16,17 +16,20 @@ export interface MusikTopic {
 }
 
 export const musikCategories: string[] = [
-  "Musiktheorie & Instrumente",
-  "Epochen & Gattungen",
-  "Komponisten nach Epochen",
-  "Bühne, Jazz & Popmusik"
+  "Musiktheorie & Instrumentenkunde",
+  "Epochen & Meisterwerke der Klassik",
+  "Oper, Operette & Musiktheater",
+  "Musicals & Broadway",
+  "Jazz, Blues & Swing",
+  "Rockmusik & Rocklegenden",
+  "Pop, Hip-Hop & Elektronische Musik"
 ];
 
 export const musikTopics: Record<string, MusikTopic> = {
   "noten-lesen": {
     "slug": "noten-lesen",
     "title": "Noten lesen & Notenwerte",
-    "category": "Musiktheorie & Instrumente",
+    "category": "Musiktheorie & Instrumentenkunde",
     "shortDesc": "Notensystem, Violinschlüssel, Bassschlüssel, Notenwerte und Pausen.",
     "longDesc": "Das Notensystem ist die universelle Schrift der Musik. Auf fünf Linien und vier Zwischenräumen werden Tonhöhen und Notenwerte präzise dargestellt. Lerne Notenschlüssel, Notennamen, Takte und Pausen sicher zu bestimmen.",
     "keyPoints": [
@@ -104,7 +107,7 @@ export const musikTopics: Record<string, MusikTopic> = {
   "gehoerbildung-und-tonhoehe": {
     "slug": "gehoerbildung-und-tonhoehe",
     "title": "Gehörbildung & Tonhöhe",
-    "category": "Musiktheorie & Instrumente",
+    "category": "Musiktheorie & Instrumentenkunde",
     "shortDesc": "Tonhöhen wahrnehmen, Tonstufen unterscheiden, Tonhöhe-Memory und Hörübungen.",
     "longDesc": "Ein geschultes Gehör ist das wichtigste Werkzeug in der Musik. Lerne hohe und tiefe Töne präzise zu differenzieren, Tonhöhengedächtnis aufzubauen und auditive Hörübungen mit Notenbildern zu verknüpfen.",
     "keyPoints": [
@@ -155,7 +158,7 @@ export const musikTopics: Record<string, MusikTopic> = {
   "harmonielehre-akkorde-und-intervalle": {
     "slug": "harmonielehre-akkorde-und-intervalle",
     "title": "Harmonielehre, Akkorde & Intervalle",
-    "category": "Musiktheorie & Instrumente",
+    "category": "Musiktheorie & Instrumentenkunde",
     "shortDesc": "Intervalle von der Prim bis zur Oktave, Dur- und Moll-Dreiklänge und Akkordumkehrungen.",
     "longDesc": "Die Harmonielehre beschreibt das Zusammenklingen von Tönen. Lerne Intervalle nach Gehör und Notenbild zu bestimmen, Dur- und Moll-Akkorde aufzubauen und Umkehrungen zu analysieren.",
     "keyPoints": [
@@ -237,7 +240,7 @@ export const musikTopics: Record<string, MusikTopic> = {
   "tonleitern-klaviatur-und-vorzeichen": {
     "slug": "tonleitern-klaviatur-und-vorzeichen",
     "title": "Tonleitern, Klaviatur & Vorzeichen",
-    "category": "Musiktheorie & Instrumente",
+    "category": "Musiktheorie & Instrumentenkunde",
     "shortDesc": "Klaviatur am Klavier, weiße und schwarze Tasten, Vorzeichen (Kreuz, B) und Tonleitern.",
     "longDesc": "Die Klaviatur des Klaviers ist das anschaulichste Modell der westlichen Tonleiterlehre. Entdecke Ganz- und Halbtonschritte, Vorzeichen (# und b), Stammtöne und die Konstruktion von Dur- und Molltonleitern.",
     "keyPoints": [
@@ -294,7 +297,7 @@ export const musikTopics: Record<string, MusikTopic> = {
   "saiten-und-tasteninstrumente": {
     "slug": "saiten-und-tasteninstrumente",
     "title": "Saiten- & Tasteninstrumente",
-    "category": "Musiktheorie & Instrumente",
+    "category": "Musiktheorie & Instrumentenkunde",
     "shortDesc": "Klavier, Orgel, Akkordeon, akustische und E-Gitarre, Harfe und Streichinstrumente.",
     "longDesc": "Von den feinsten Schwingungen einer Violinsaite bis zur monumentalen Pfeifenorgel: Saiten- und Tasteninstrumente prägen die klassische wie moderne Musik. Entdecke Klangerzeugung, Bauweisen und Spieltechniken.",
     "keyPoints": [
@@ -361,7 +364,7 @@ export const musikTopics: Record<string, MusikTopic> = {
   "blasinstrumente-orchester-und-stimme": {
     "slug": "blasinstrumente-orchester-und-stimme",
     "title": "Blasinstrumente, Orchester & Gesang",
-    "category": "Musiktheorie & Instrumente",
+    "category": "Musiktheorie & Instrumentenkunde",
     "shortDesc": "Holz- und Blechbläser, die menschliche Stimme, Stimmlagen, Orchesteraufstellung und Band.",
     "longDesc": "Blasinstrumente und die menschliche Stimme erzeugen Klang durch strömende Luft. Erfahre, wie Holz- und Blechblasinstrumente funktionieren, wie Chöre und Orchester klingen und welche Stimmlagen von Sopran bis Bass reichen.",
     "keyPoints": [
@@ -434,7 +437,7 @@ export const musikTopics: Record<string, MusikTopic> = {
   "schlagzeug-und-drums": {
     "slug": "schlagzeug-und-drums",
     "title": "Schlagzeug, Percussion & Rhythmusinstrumente",
-    "category": "Musiktheorie & Instrumente",
+    "category": "Musiktheorie & Instrumentenkunde",
     "shortDesc": "Drumset, Snare, Bassdrum, Becken, Drumsticks, Idiophone, Membranophone und Schlagzeugnotation.",
     "longDesc": "Das Schlagzeug ist der Herzschlag der Band. Lerne den Aufbau eines modernen Drumsets, die Funktion von Snare, Hi-Hat und Bass Drum, die Besonderheiten der Schlagzeugnotation sowie weltweite Percussioninstrumente kennen.",
     "keyPoints": [
@@ -486,7 +489,7 @@ export const musikTopics: Record<string, MusikTopic> = {
   "rhythmusuebungen": {
     "slug": "rhythmusuebungen",
     "title": "Rhythmusübungen & Taktarten",
-    "category": "Musiktheorie & Instrumente",
+    "category": "Musiktheorie & Instrumentenkunde",
     "shortDesc": "Takte (4/4, 3/4, 6/8), Taktstriche, Zählzeiten, Synkopen, Notenwerte und Rhythmusdiktate.",
     "longDesc": "Rhythmus ordnet Töne in der Zeit. Lerne Taktarten vom Walzer bis zum Marsch kennen, trainiere das Klatschen und Zählen von Rhythmen und meistere Notenwerte und Pausen in der praktischen Anwendung.",
     "keyPoints": [
@@ -573,7 +576,7 @@ export const musikTopics: Record<string, MusikTopic> = {
   "epochen-der-musikgeschichte": {
     "slug": "epochen-der-musikgeschichte",
     "title": "Epochen der Musikgeschichte",
-    "category": "Epochen & Gattungen",
+    "category": "Epochen & Meisterwerke der Klassik",
     "shortDesc": "Mittelalter, Renaissance, Barock, Wiener Klassik, Romantik, Moderne und 20. Jahrhundert.",
     "longDesc": "Die Musikgeschichte spiegelt den gesellschaftlichen und geistigen Wandel Europas wider. Begib dich auf eine Reise vom einstimmigen gregorianischen Choral des Mittelalters über Polyphonie, Generalbass und Sinfonie bis zur Neuen Musik.",
     "keyPoints": [
@@ -691,7 +694,7 @@ export const musikTopics: Record<string, MusikTopic> = {
   "bekannte-musikstuecke": {
     "slug": "bekannte-musikstuecke",
     "title": "Berühmte Musikstücke & Meisterwerke",
-    "category": "Epochen & Gattungen",
+    "category": "Epochen & Meisterwerke der Klassik",
     "shortDesc": "Mozart 40. Sinfonie, Die Moldau, Für Elise, Eine kleine Nachtmusik, Mondscheinsonate und Air.",
     "longDesc": "Einige Melodien haben die Jahrhunderte überdauert und sind Teil des Weltkulturerbes geworden. Erkunde die Entstehungsgeschichten und musikalischen Besonderheiten weltberühmter Meisterwerke.",
     "keyPoints": [
@@ -779,7 +782,7 @@ export const musikTopics: Record<string, MusikTopic> = {
   "formen-und-gattungen-der-klassischen-musik": {
     "slug": "formen-und-gattungen-der-klassischen-musik",
     "title": "Formen & Gattungen der klassischen Musik",
-    "category": "Epochen & Gattungen",
+    "category": "Epochen & Meisterwerke der Klassik",
     "shortDesc": "Sinfonie, Sonate, Solokonzert, Kammermusik, Kunstlied und Programmmusik.",
     "longDesc": "Klassische Musik ist in wohlstrukturierten Gattungen und Formen organisiert. Erfahre, wie eine Sonate aufgebaut ist, was die Sinfonie zur Königsdisziplin des Orchesters macht und wie Programmmusik außermusikalische Geschichten erzählt.",
     "keyPoints": [
@@ -852,7 +855,7 @@ export const musikTopics: Record<string, MusikTopic> = {
   "kirchenmusik-und-geistliche-vokalmusik": {
     "slug": "kirchenmusik-und-geistliche-vokalmusik",
     "title": "Kirchenmusik & Geistliche Vokalmusik",
-    "category": "Epochen & Gattungen",
+    "category": "Epochen & Meisterwerke der Klassik",
     "shortDesc": "Gregorianischer Choral, Barockchöre, Messe, Orgelmusik, Requiem und geistliche Musik.",
     "longDesc": "Über viele Jahrhunderte war die Kirche der bedeutendste Auftraggeber für Musik. Entdecke den gregorianischen Choral, die prachtvolle Kirchenmusik des Barock, klassische Messvertonungen und die Königin der Instrumente, die Orgel.",
     "keyPoints": [
@@ -935,7 +938,7 @@ export const musikTopics: Record<string, MusikTopic> = {
   "komponisten-des-barocks": {
     "slug": "komponisten-des-barocks",
     "title": "Komponisten des Barocks (1600–1750)",
-    "category": "Komponisten nach Epochen",
+    "category": "Epochen & Meisterwerke der Klassik",
     "shortDesc": "Johann Sebastian Bach, Georg Friedrich Händel, Antonio Vivaldi, Monteverdi und Kontrapunkt.",
     "longDesc": "Das Barockzeitalter brachte Meister der Polyphonie und monumentaler Klangarchitektur hervor. Johann Sebastian Bachs Fugenkunst, Georg Friedrich Händels feierliche Chöre und Antonio Vivaldis virtuose Violinkonzerte begeistern bis heute.",
     "keyPoints": [
@@ -1007,7 +1010,7 @@ export const musikTopics: Record<string, MusikTopic> = {
   "komponisten-der-klassik": {
     "slug": "komponisten-der-klassik",
     "title": "Komponisten der Wiener Klassik (1750–1827)",
-    "category": "Komponisten nach Epochen",
+    "category": "Epochen & Meisterwerke der Klassik",
     "shortDesc": "Wolfgang Amadeus Mozart, Ludwig van Beethoven, Joseph Haydn und Antonio Salieri.",
     "longDesc": "Wien war im späten 18. und frühen 19. Jahrhundert die Welthauptstadt der Musik. Die Wiener Klassik um Haydn, Mozart und Beethoven schuf mit Klarheit, Ausgewogenheit und thematischer Arbeit unvergängliche Werke.",
     "keyPoints": [
@@ -1135,7 +1138,7 @@ export const musikTopics: Record<string, MusikTopic> = {
   "komponisten-der-frueh-und-hochromantik": {
     "slug": "komponisten-der-frueh-und-hochromantik",
     "title": "Komponisten der Früh- & Hochromantik",
-    "category": "Komponisten nach Epochen",
+    "category": "Epochen & Meisterwerke der Klassik",
     "shortDesc": "Franz Schubert, Robert & Clara Schumann, Felix Mendelssohn, Frédéric Chopin, Franz Liszt und Paganini.",
     "longDesc": "Im 19. Jahrhundert traten persönliche Gefühle, Naturmystik und virtuoses Instrumentalspiel in den Mittelpunkt. Lerne die Meister des deutschen Kunstlieds, der Klaviermusik und die virtuosen Magier der Romantik kennen.",
     "keyPoints": [
@@ -1227,7 +1230,7 @@ export const musikTopics: Record<string, MusikTopic> = {
   "komponisten-der-spaetromantik-und-nationalen-schulen": {
     "slug": "komponisten-der-spaetromantik-und-nationalen-schulen",
     "title": "Spätromantik & Nationale Schulen",
-    "category": "Komponisten nach Epochen",
+    "category": "Epochen & Meisterwerke der Klassik",
     "shortDesc": "Tschaikowski, Brahms, Bruckner, Mahler, Dvořák, Smetana, Grieg, Johann Strauss und Saint-Saëns.",
     "longDesc": "In der Spätromantik wuchsen die Orchester auf monumentale Besetzungen an, während nationale Schulen in Böhmen, Russland und Skandinavien die Folklore ihrer Heimatländer in klassische Formen einflochten.",
     "keyPoints": [
@@ -1315,7 +1318,7 @@ export const musikTopics: Record<string, MusikTopic> = {
   "komponisten-der-moderne": {
     "slug": "komponisten-der-moderne",
     "title": "Komponisten der Moderne & Neue Musik",
-    "category": "Komponisten nach Epochen",
+    "category": "Epochen & Meisterwerke der Klassik",
     "shortDesc": "Igor Strawinsky, Arnold Schönberg, Paul Hindemith, Carl Orff, Claude Debussy und Atonalität.",
     "longDesc": "Das 20. Jahrhundert zertrümmerte überkommene Hörgewohnheiten. Vom Impressionismus Claude Debussys über die rhythmischen Eruptionen Strawinskys bis zur Zwölftontechnik Schönbergs erlebte die Musik eine radikale Neuerfindung.",
     "keyPoints": [
@@ -1398,7 +1401,7 @@ export const musikTopics: Record<string, MusikTopic> = {
   "italienische-opern-belcanto-und-verdi": {
     "slug": "italienische-opern-belcanto-und-verdi",
     "title": "Italienische Oper: Belcanto & Giuseppe Verdi",
-    "category": "Bühne, Jazz & Popmusik",
+    "category": "Oper, Operette & Musiktheater",
     "shortDesc": "Rossini, Bellini, Donizetti und die monumentalen Meisterwerke Giuseppe Verdis (Aida, Nabucco, Traviata).",
     "longDesc": "Italien ist das Geburtsland der Oper. Vom feinsinnigen Belcanto ('schöner Gesang') Gioachino Rossinis bis zu den packenden Nationalopern Giuseppe Verdis schlägt hier das Herz des Musiktheaters.",
     "keyPoints": [
@@ -1499,7 +1502,7 @@ export const musikTopics: Record<string, MusikTopic> = {
   "verismo-puccini-und-franzoesische-opern": {
     "slug": "verismo-puccini-und-franzoesische-opern",
     "title": "Verismo, Puccini & Französische Oper",
-    "category": "Bühne, Jazz & Popmusik",
+    "category": "Oper, Operette & Musiktheater",
     "shortDesc": "Giacomo Puccini (La Bohème, Tosca, Turandot), Verismo (Cavalleria rusticana, Bajazzo) und Bizets Carmen.",
     "longDesc": "Der Verismo brachte den ungeschminkten Realismus auf die Opernbühne: Leidenschaft, Eifersucht und Verbrechen gewöhnlicher Menschen. Giacomo Puccini verband packenden Realismus mit herzergreifenden Melodien.",
     "keyPoints": [
@@ -1586,7 +1589,7 @@ export const musikTopics: Record<string, MusikTopic> = {
   "deutsche-opern-und-richard-wagner": {
     "slug": "deutsche-opern-und-richard-wagner",
     "title": "Deutsche Oper: Mozart, Weber & Richard Wagner",
-    "category": "Bühne, Jazz & Popmusik",
+    "category": "Oper, Operette & Musiktheater",
     "shortDesc": "Die Zauberflöte, Fidelio, Der Freischütz, Richard Wagners Musikdramen, Richard Strauss und die Wiener Staatsoper.",
     "longDesc": "Von Mozarts Singspielen und Webers romantischer Gespensteroper bis zum Gesamtkunstwerk Richard Wagners: Entdecke die Meilensteine des deutschsprachigen Musiktheaters und die Welt des Festspielhauses Bayreuth.",
     "keyPoints": [
@@ -1694,7 +1697,7 @@ export const musikTopics: Record<string, MusikTopic> = {
   "opern-der-moderne-und-europaeische-meisterwerke": {
     "slug": "opern-der-moderne-und-europaeische-meisterwerke",
     "title": "Opern der Moderne & Europäische Meisterwerke",
-    "category": "Bühne, Jazz & Popmusik",
+    "category": "Oper, Operette & Musiktheater",
     "shortDesc": "Gluck, Mussorgski, Dvořák, Alban Berg, Benjamin Britten, Strawinsky und Bertolt Brecht.",
     "longDesc": "Das Musiktheater europäischer Nachbarländer und des 20. Jahrhunderts zeichnet sich durch mutige Neuerungen aus. Entdecke Glucks Opernreform, russische Historienepen, slawische Sagenopern und die schonungslose Moderne.",
     "keyPoints": [
@@ -1768,7 +1771,7 @@ export const musikTopics: Record<string, MusikTopic> = {
   "musicals-broadway-und-klassiker": {
     "slug": "musicals-broadway-und-klassiker",
     "title": "Musicals: Broadway & Große Klassiker",
-    "category": "Bühne, Jazz & Popmusik",
+    "category": "Musicals & Broadway",
     "shortDesc": "My Fair Lady, West Side Story, Cabaret, Chicago, Hair, Grease, Les Misérables, Miss Saigon und The Sound of Music.",
     "longDesc": "Das Musical vereint Gesang, Tanz, Schauspiel und mitreißende Orchesterarrangements. Erlebe die goldenen Klassiker des Broadway und des Londoner West End – von Shakespeares Romeo und Julia in New York bis zur Pariser Barrikade.",
     "keyPoints": [
@@ -1867,7 +1870,7 @@ export const musikTopics: Record<string, MusikTopic> = {
   "moderne-musicals-und-welterfolge": {
     "slug": "moderne-musicals-und-welterfolge",
     "title": "Moderne Musicals & Welterfolge",
-    "category": "Bühne, Jazz & Popmusik",
+    "category": "Musicals & Broadway",
     "shortDesc": "Andrew Lloyd Webber, Der König der Löwen, Elisabeth, Tanz der Vampire, Wicked und Pop-Musicals.",
     "longDesc": "Moderne Megamusicals faszinieren durch spektakuläre Bühnentechnik, Pop- und Rock-Partituren und unvergessliche Melodien. Entdecke Andrew Lloyd Webbers Welterfolge, Disney-Klassiker und dramatische europäische Musicals.",
     "keyPoints": [
@@ -1966,7 +1969,7 @@ export const musikTopics: Record<string, MusikTopic> = {
   "jazzgeschichte-und-traditioneller-jazz": {
     "slug": "jazzgeschichte-und-traditioneller-jazz",
     "title": "Jazzgeschichte & Traditioneller Jazz",
-    "category": "Bühne, Jazz & Popmusik",
+    "category": "Jazz, Blues & Swing",
     "shortDesc": "Wurzeln im Blues, Work Songs, Spirituals, New Orleans, Chicago Jazz, Swing und Gypsy Jazz.",
     "longDesc": "Der Jazz ist Amerikas bedeutendster Beitrag zur Weltmusik. Entstanden aus der afrikanischen Rhythmustradition, Blues und Spirituals, entwickelte er sich in New Orleans und Chicago über die Swing-Ära zum weltweiten Phänomen.",
     "keyPoints": [
@@ -2043,7 +2046,7 @@ export const musikTopics: Record<string, MusikTopic> = {
   "moderner-jazz-bebop-bis-fusion": {
     "slug": "moderner-jazz-bebop-bis-fusion",
     "title": "Moderner Jazz: Bebop bis Fusion",
-    "category": "Bühne, Jazz & Popmusik",
+    "category": "Jazz, Blues & Swing",
     "shortDesc": "Bebop, Cool Jazz, Hard Bop, Free Jazz, Latin Jazz, Jazz-Rock Fusion und Smooth Jazz.",
     "longDesc": "Ab den 1940er Jahren wandelte sich der Jazz von Tanzmusik zur anspruchsvollen Kunstmusik. Von den rasenden Harmonien des Bebop über die kühle Eleganz des Cool Jazz bis zur Fusion mit Rock und Funk.",
     "keyPoints": [
@@ -2110,7 +2113,7 @@ export const musikTopics: Record<string, MusikTopic> = {
   "jazzmusiker": {
     "slug": "jazzmusiker",
     "title": "Große Jazzmusiker & Legenden",
-    "category": "Bühne, Jazz & Popmusik",
+    "category": "Jazz, Blues & Swing",
     "shortDesc": "Louis Armstrong, Miles Davis, Duke Ellington, Charlie Parker, John Coltrane, Ella Fitzgerald und Billie Holiday.",
     "longDesc": "Herausragende Solisten und Bandleader prägten die Geschichte des Jazz durch unverwechselbaren Ton und visionäre Experimentierfreude. Entdecke Porträts der einflussreichsten Jazz-Ikonen aller Zeiten.",
     "keyPoints": [
@@ -2187,7 +2190,7 @@ export const musikTopics: Record<string, MusikTopic> = {
   "rock-und-pop": {
     "slug": "rock-und-pop",
     "title": "Rock & Pop: Geschichte & Entwicklung",
-    "category": "Bühne, Jazz & Popmusik",
+    "category": "Rockmusik & Rocklegenden",
     "shortDesc": "Geschichte der Rockmusik (1950–1990), Rock 'n' Roll, Popmusik, Country und globale Musikstile.",
     "longDesc": "Von den Anfängen des Rock 'n' Roll in den 1950ern bis zur globalen Popkultur der Gegenwart: Rock und Pop haben Lebensgefühl, Mode und Gesellschaft revolutioniert. Erkunde Jahrzehnte voller musikalischer Umbrüche.",
     "keyPoints": [
@@ -2325,7 +2328,7 @@ export const musikTopics: Record<string, MusikTopic> = {
   "rocklegenden-der-60er-und-70er": {
     "slug": "rocklegenden-der-60er-und-70er",
     "title": "Rocklegenden der 60er & 70er",
-    "category": "Bühne, Jazz & Popmusik",
+    "category": "Rockmusik & Rocklegenden",
     "shortDesc": "The Beatles, The Rolling Stones, Queen, Pink Floyd und Led Zeppelin.",
     "longDesc": "In den 1960er und 70er Jahren schufen bahnbrechende Bands Alben und Hymnen für die Ewigkeit. Entdecke die Meilensteine von den Abbey Road Studios bis zu den gigantischen Stadion-Konzerten der Classic-Rock-Ära.",
     "keyPoints": [
@@ -2498,7 +2501,7 @@ export const musikTopics: Record<string, MusikTopic> = {
   "hardrock-grunge-und-metal": {
     "slug": "hardrock-grunge-und-metal",
     "title": "Hard Rock, Grunge & Metal",
-    "category": "Bühne, Jazz & Popmusik",
+    "category": "Rockmusik & Rocklegenden",
     "shortDesc": "AC/DC, Black Sabbath, Metallica, Nirvana und die Gitarrenwände der Rockgeschichte.",
     "longDesc": "Verzerrte E-Gitarren, donnernde Drums und unverstellte Energie: Von den düsteren Riffs von Black Sabbath über den schnörkellosen Rhythmus von AC/DC bis zur Thrash-Metal-Wucht von Metallica und der Grunge-Explosion von Nirvana.",
     "keyPoints": [
@@ -2580,7 +2583,7 @@ export const musikTopics: Record<string, MusikTopic> = {
   "pop-und-rock-ikonen": {
     "slug": "pop-und-rock-ikonen",
     "title": "Pop- & Rock-Ikonen: ABBA, U2 & Coldplay",
-    "category": "Bühne, Jazz & Popmusik",
+    "category": "Pop, Hip-Hop & Elektronische Musik",
     "shortDesc": "ABBA, U2, Coldplay und die Hymnen weltweiter Stadion- und Pop-Tourneen.",
     "longDesc": "Schwedischer Poperfolg, irischer Stadionrock und britische Hymnen für Millionen: Entdecke Bands, deren Melodien über Generationen hinweg im kollektiven Gedächtnis verankert sind.",
     "keyPoints": [
@@ -2666,7 +2669,7 @@ export const musikTopics: Record<string, MusikTopic> = {
   "pop-und-rock-pioniere": {
     "slug": "pop-und-rock-pioniere",
     "title": "Pop- & Rock-Pioniere: Elvis, Michael Jackson & Bowie",
-    "category": "Bühne, Jazz & Popmusik",
+    "category": "Pop, Hip-Hop & Elektronische Musik",
     "shortDesc": "Elvis Presley, Michael Jackson, Freddie Mercury, David Bowie und Elton John.",
     "longDesc": "Solokünstler, die Musikgeschichte schrieben und zu weltweiten Mythen wurden: Vom Hüftschwung des 'King of Rock 'n' Roll' über David Bowies ständige Neuerfindung bis zum Moonwalk des 'King of Pop'.",
     "keyPoints": [
@@ -2754,7 +2757,7 @@ export const musikTopics: Record<string, MusikTopic> = {
   "moderne-popstars-und-stimmen": {
     "slug": "moderne-popstars-und-stimmen",
     "title": "Moderne Popstars & Große Stimmen",
-    "category": "Bühne, Jazz & Popmusik",
+    "category": "Pop, Hip-Hop & Elektronische Musik",
     "shortDesc": "Madonna, Adele, Ed Sheeran, Amy Winehouse und das Phänomen K-Pop.",
     "longDesc": "Starke Stimmen, meisterhaftes Songwriting und weltweite Fankulturen: Entdecke die Künstlerinnen und Künstler, die das 21. Jahrhundert mit Chart-Hits, emotionalen Balladen und globaler Bühnenpräsenz prägen.",
     "keyPoints": [
@@ -2837,7 +2840,7 @@ export const musikTopics: Record<string, MusikTopic> = {
   "elektronische-musik-und-tanzmusik": {
     "slug": "elektronische-musik-und-tanzmusik",
     "title": "Elektronische Musik, Techno & Clubkultur",
-    "category": "Bühne, Jazz & Popmusik",
+    "category": "Pop, Hip-Hop & Elektronische Musik",
     "shortDesc": "Techno, Synthesizer, House, elektronische Klangerzeugung, Tanzmusik und Clubkultur.",
     "longDesc": "Von den analogen Synthesizern der 1970er Jahre über Detroit Techno und die Berliner Clubszene bis zur modernen elektronischen Tanzmusik (EDM): Erfahre, wie Beats und digitale Klänge die Nachtkultur veränderten.",
     "keyPoints": [
@@ -2928,7 +2931,7 @@ export const musikTopics: Record<string, MusikTopic> = {
   "hiphop-rap-und-streaming": {
     "slug": "hiphop-rap-und-streaming",
     "title": "Hip-Hop, Rap & Das Streaming-Zeitalter",
-    "category": "Bühne, Jazz & Popmusik",
+    "category": "Pop, Hip-Hop & Elektronische Musik",
     "shortDesc": "Hip-Hop-Kultur, Deutschrap, Straßenrap, Frauen im Rap, Spotify und Musik im Digitalzeitalter.",
     "longDesc": "Hip-Hop entstand als urbane Jugendkultur in den 1970ern in der New Yorker Bronx und ist heute das dominierende Musikgenre weltweit. Entdecke die Elemente von MCing und DJing bis zu Streaming-Algorithmen und Deutschrap.",
     "keyPoints": [
@@ -3001,7 +3004,7 @@ export const musikTopics: Record<string, MusikTopic> = {
   "filmmusik-soundtracks-und-medienkomposition": {
     "slug": "filmmusik-soundtracks-und-medienkomposition",
     "title": "Filmmusik, Soundtracks & Medienkomposition",
-    "category": "Bühne, Jazz & Popmusik",
+    "category": "Pop, Hip-Hop & Elektronische Musik",
     "shortDesc": "Funktionen der Filmmusik, Leitmotivtechnik, Mood-Technik und berühmte Filmkomponisten.",
     "longDesc": "Filmmusik verstärkt dramatische Wendungen, erzeugt Atmosphäre und lenkt unbewusst die Emotionen des Publikums. Von den Anfängen im Stummfilm über orchestrale Klassiker von John Williams und Ennio Morricone bis zu modernen elektronischen Soundtracks von Hans Zimmer.",
     "keyPoints": [
@@ -3027,7 +3030,7 @@ export const musikTopics: Record<string, MusikTopic> = {
   "frauen-in-der-musikgeschichte": {
     "slug": "frauen-in-der-musikgeschichte",
     "title": "Frauen in der Musikgeschichte",
-    "category": "Epochen & Gattungen",
+    "category": "Epochen & Meisterwerke der Klassik",
     "shortDesc": "Hildegard von Bingen, Fanny Hensel, Clara Schumann und das Schaffen herausragender Komponistinnen.",
     "longDesc": "Über Jahrhunderte standen Komponistinnen im Schatten ihrer männlichen Zeitgenossen oder wurden durch gesellschaftliche Konventionen eingeschränkt. Heute wird ihr herausragendes musikalisches Erbe von mittelalterlicher Mystik bis zur Romantik wiederentdeckt und gewürdigt.",
     "keyPoints": [
@@ -3048,7 +3051,7 @@ export const musikTopics: Record<string, MusikTopic> = {
   "traditionelle-musikkulturen-und-weltmusik": {
     "slug": "traditionelle-musikkulturen-und-weltmusik",
     "title": "Traditionelle Musikkulturen & Weltmusik",
-    "category": "Epochen & Gattungen",
+    "category": "Epochen & Meisterwerke der Klassik",
     "shortDesc": "Japanische Hofmusik Gagaku, traditionelle Instrumente und die Entwicklung zur modernen Popkultur.",
     "longDesc": "Außereuropäische Musikkulturen zeichnen sich durch faszinierende Klangästhetiken, Tonsysteme und Instrumente aus. Am Beispiel Japans lässt sich die eindrucksvolle Entwicklung von ritueller kaiserlicher Hofmusik bis zur weltweiten J-Pop- und Anime-Kultur nachvollziehen.",
     "keyPoints": [
