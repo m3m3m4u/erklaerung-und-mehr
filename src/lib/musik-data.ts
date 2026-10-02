@@ -1756,6 +1756,12 @@ export const musikTopics: Record<string, MusikTopic> = {
         "title": "Bertolt Brecht & Kurt Weill: Die Dreigroschenoper",
         "folder": "bertolt-brecht-die-dreigroschenoper-2-4513"
       }
+    ,
+      {
+        "id": "5583",
+        "title": "Das Burgtheater Wien",
+        "folder": "das-burgtheater-5583"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=moderne+opern+wozzeck+rusalka&t=3752"
   },
@@ -1843,6 +1849,17 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "3255",
         "title": "Das Phantom der Oper (Andrew Lloyd Webber)",
         "folder": "das-phantom-der-oper-3255"
+      }
+    ,
+      {
+        "id": "3257",
+        "title": "Andrew Lloyd Webber – Komponist und Musical-Legende",
+        "folder": "andrew-lloyd-webber-3257"
+      },
+      {
+        "id": "5979",
+        "title": "Das Musical Chicago",
+        "folder": "chicago-5979"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=broadway+musicals+west+side+story&t=3752"
@@ -1941,6 +1958,12 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "544",
         "title": "Das Musical Maria Theresia",
         "folder": "das-musical-maria-theresia-544"
+      }
+    ,
+      {
+        "id": "3016",
+        "title": "Juan und Evita Perón – Hintergrund zu Evita",
+        "folder": "juan-und-evita-peron-3016"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=moderne+musicals+phantom+der+oper&t=3752"
