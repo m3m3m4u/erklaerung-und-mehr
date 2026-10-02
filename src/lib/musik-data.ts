@@ -92,7 +92,13 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "661",
         "title": "Notenwerte und Pausen (Kurs)",
         "folder": "kurs-notenwerte-und-pausen-661"
-      }],
+      },
+      {
+        "id": "5848",
+        "title": "Musikphilosophie und Klang",
+        "folder": "musikphilosophie-und-klang-5848"
+      }
+    ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=noten+lesen+musik&t=3752"
   },
   "gehoerbildung-und-tonhoehe": {
@@ -411,6 +417,17 @@ export const musikTopics: Record<string, MusikTopic> = {
         "title": "Vokalmusik",
         "folder": "vokalmusik-514"
       }
+    ,
+      {
+        "id": "8212",
+        "title": "Die Wiener Philharmoniker und ihre Geschichte",
+        "folder": "die-wiener-philharmoniker-und-ihre-geschichte"
+      },
+      {
+        "id": "8213",
+        "title": "Die Berliner Philharmoniker",
+        "folder": "die-berliner-philharmoniker"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=blasinstrumente+orchester+stimme&t=3752"
   },
@@ -544,6 +561,12 @@ export const musikTopics: Record<string, MusikTopic> = {
         "title": "Rhythmusübung 4",
         "folder": "die-unvollendete-von-franz-schubert-441"
       }
+    ,
+      {
+        "id": "1",
+        "title": "Rhythmusübung 1",
+        "folder": "test-1"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=rhythmusuebungen+taktarten&t=3752"
   },
@@ -646,6 +669,22 @@ export const musikTopics: Record<string, MusikTopic> = {
         "title": "Pythagoras und die mathematischen Grundlagen der Musik",
         "folder": "pythagoras-und-die-mathematischen-grundlagen-der-musik"
       }
+    ,
+      {
+        "id": "71",
+        "title": "Musik in der Romantik",
+        "folder": "13a-musik-in-der-romantik-71"
+      },
+      {
+        "id": "462",
+        "title": "Musikgeschichte im Überblick",
+        "folder": "musikgeschichte-462"
+      },
+      {
+        "id": "8206",
+        "title": "Musikgeschichte Epochen Vertiefung",
+        "folder": "musikgeschichte-2-465"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=epochen+musikgeschichte&t=3752"
   },
@@ -723,6 +762,17 @@ export const musikTopics: Record<string, MusikTopic> = {
         "title": "Trauermarsch von Frederic Chopin",
         "folder": "trauermarsch-von-frederic-chopin-460"
       }
+    ,
+      {
+        "id": "451",
+        "title": "Edvard Grieg: In der Halle des Bergkönigs",
+        "folder": "in-der-halle-des-bergkonigs-von-edvard-grieg-451"
+      },
+      {
+        "id": "8208",
+        "title": "Edvard Grieg: In der Halle des Bergkönigs (Vertiefung)",
+        "folder": "in-der-halle-des-bergkonigs-von-edvard-grieg-2-459"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=bekannte+musikstuecke&t=3752"
   },
@@ -785,6 +835,17 @@ export const musikTopics: Record<string, MusikTopic> = {
         "title": "Die Geschichte des Balletts und seine Musik",
         "folder": "die-geschichte-des-balletts-und-seine-musik"
       }
+    ,
+      {
+        "id": "8207",
+        "title": "Das Streichquartett",
+        "folder": "das-streichquartett"
+      },
+      {
+        "id": "70",
+        "title": "Werkformen der Wiener Klassik",
+        "folder": "werkformen-der-wiener-klassik-70"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=sinfonie+sonate+kammermusik&t=3752"
   },
@@ -841,6 +902,32 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "musauf",
         "title": "Die Rolle von Musik in der Aufklärung",
         "folder": "die-rolle-von-musik-in-der-aufklaerung"
+      }
+    ,
+      {
+        "id": "6652",
+        "title": "Gottesbilder in Kunst und Musik",
+        "folder": "gottesbilder-in-kunst-und-musik-6652"
+      },
+      {
+        "id": "6711",
+        "title": "Psalmen – Gebete und Lieder",
+        "folder": "psalmen-gebete-und-lieder-6711"
+      },
+      {
+        "id": "8209",
+        "title": "Bekannte Hymnen",
+        "folder": "bekannte-hymnen"
+      },
+      {
+        "id": "5814",
+        "title": "Grundlagen der Musiktherapie",
+        "folder": "grundlagen-der-musiktherapie-5814"
+      },
+      {
+        "id": "2637",
+        "title": "Jüdische Musik und Kunst",
+        "folder": "buddhismus-in-der-modernen-welt-18-2637"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=kirchenmusik+choral+messe&t=3752"
@@ -1026,7 +1113,23 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "wien-musikstadt",
         "title": "Wien als Musikstadt",
         "folder": "wien-als-musikstadt"
-      }],
+      },
+      {
+        "id": "3258",
+        "title": "Wolfgang Amadeus Mozart: Die Zauberflöte",
+        "folder": "die-zauberflote-3258"
+      },
+      {
+        "id": "5650",
+        "title": "Der Wiener Musikverein",
+        "folder": "der-wiener-musikverein-5650"
+      },
+      {
+        "id": "8210",
+        "title": "Die Salzburger Festspiele",
+        "folder": "die-salzburger-festspiele"
+      }
+    ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=komponisten+wiener+klassik&t=3752"
   },
   "komponisten-der-frueh-und-hochromantik": {
@@ -1200,7 +1303,13 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "johann-strauss-walzer",
         "title": "Johann Strauss und der Walzer",
         "folder": "johann-strauss-und-der-walzer"
-      }],
+      },
+      {
+        "id": "928",
+        "title": "Richard Wagner",
+        "folder": "richard-wagner-928"
+      }
+    ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=komponisten+spaetromantik+brahms+tschaikowski&t=3752"
   },
   "komponisten-der-moderne": {
@@ -1277,7 +1386,13 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "musik-im-ns",
         "title": "Musik im Nationalsozialismus und die Rolle von Komponisten",
         "folder": "musik-im-nationalsozialismus-und-die-rolle-von-komponisten-waehrend-des-regimes"
-      }],
+      },
+      {
+        "id": "8211",
+        "title": "Die Wiener Schule der Moderne (Zweite Wiener Schule)",
+        "folder": "die-wiener-schule-der-moderne"
+      }
+    ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=komponisten+moderne+strawinsky+schoenberg&t=3752"
   },
   "italienische-opern-belcanto-und-verdi": {
@@ -1454,7 +1569,18 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "932",
         "title": "Giacomo Puccini",
         "folder": "giacomo-puccini-932"
-      }],
+      },
+      {
+        "id": "576",
+        "title": "Jules Massenet: Thaïs",
+        "folder": "jules-massenet-thais-576"
+      },
+      {
+        "id": "561",
+        "title": "Giacomo Meyerbeer: Les Huguenots (Die Hugenotten)",
+        "folder": "giacomo-meyerbeer-les-huguenots-561"
+      }
+    ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=puccini+verismo+carmen&t=3752"
   },
   "deutsche-opern-und-richard-wagner": {
@@ -1551,7 +1677,18 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "586",
         "title": "Parsifal (Richard Wagner)",
         "folder": "richard-wagner-parsifal-586"
-      }],
+      },
+      {
+        "id": "8214",
+        "title": "Die Bayreuther Festspiele",
+        "folder": "die-bayreuther-festspiele"
+      },
+      {
+        "id": "557",
+        "title": "Engelbert Humperdinck: Königskinder",
+        "folder": "engelbert-humperdinck-konigskinder-557"
+      }
+    ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=deutsche+oper+wagner+mozart&t=3752"
   },
   "opern-der-moderne-und-europaeische-meisterwerke": {
@@ -1569,7 +1706,7 @@ export const musikTopics: Record<string, MusikTopic> = {
     ],
     "exercises": [
       {
-        "id": "528",
+        "id": "528gluck",
         "title": "Orfeo ed Euridice (Christoph Willibald Gluck)",
         "folder": "christoph-willibald-gluck-orfeo-ed-euridice-528"
       },
@@ -1613,7 +1750,13 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "582",
         "title": "Salome (Richard Strauss)",
         "folder": "richard-strauss-salome-582"
-      }],
+      },
+      {
+        "id": "4513",
+        "title": "Bertolt Brecht & Kurt Weill: Die Dreigroschenoper",
+        "folder": "bertolt-brecht-die-dreigroschenoper-2-4513"
+      }
+    ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=moderne+opern+wozzeck+rusalka&t=3752"
   },
   "musicals-broadway-und-klassiker": {
@@ -1695,7 +1838,13 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "518",
         "title": "Die Operette",
         "folder": "die-operette-518"
-      }],
+      },
+      {
+        "id": "3255",
+        "title": "Das Phantom der Oper (Andrew Lloyd Webber)",
+        "folder": "das-phantom-der-oper-3255"
+      }
+    ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=broadway+musicals+west+side+story&t=3752"
   },
   "moderne-musicals-und-welterfolge": {
@@ -1771,6 +1920,27 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "553wewill",
         "title": "We Will Rock You (Queen & Ben Elton)",
         "folder": "das-musical-we-will-rock-you-553"
+      }
+    ,
+      {
+        "id": "8215",
+        "title": "Das Musical Aida (Elton John & Tim Rice)",
+        "folder": "das-musical-aida-529"
+      },
+      {
+        "id": "8216",
+        "title": "Das Musical Chess (Benny Andersson & Björn Ulvaeus)",
+        "folder": "das-musical-chess-532"
+      },
+      {
+        "id": "540",
+        "title": "Das Musical Hairspray",
+        "folder": "das-musical-hairspray-540"
+      },
+      {
+        "id": "544",
+        "title": "Das Musical Maria Theresia",
+        "folder": "das-musical-maria-theresia-544"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=moderne+musicals+phantom+der+oper&t=3752"
@@ -2060,6 +2230,77 @@ export const musikTopics: Record<string, MusikTopic> = {
         "title": "Volksmusik",
         "folder": "volksmusik-831"
       }
+    ,
+      {
+        "id": "8202",
+        "title": "Toto: Africa",
+        "folder": "africa-toto-2-607"
+      },
+      {
+        "id": "459",
+        "title": "Toto: Africa (Vertiefung)",
+        "folder": "africa-toto-459"
+      },
+      {
+        "id": "480",
+        "title": "Toto: Hold the Line",
+        "folder": "hold-the-line-toto-480"
+      },
+      {
+        "id": "600",
+        "title": "Nena: 99 Luftballons",
+        "folder": "99-luftballons-nena-600"
+      },
+      {
+        "id": "601",
+        "title": "Nena: 99 Luftballons (Teil 2)",
+        "folder": "99-luftballons-nena-2-601"
+      },
+      {
+        "id": "602",
+        "title": "Nena: 99 Luftballons (Teil 3)",
+        "folder": "99-luftballons-nena-3-602"
+      },
+      {
+        "id": "603",
+        "title": "Nena: 99 Luftballons (Teil 4)",
+        "folder": "99-luftballons-nena-4-603"
+      },
+      {
+        "id": "604",
+        "title": "Nena: 99 Luftballons (Teil 5)",
+        "folder": "99-luftballons-nena-5-604"
+      },
+      {
+        "id": "605",
+        "title": "Nena: 99 Luftballons (Teil 6)",
+        "folder": "99-luftballons-nena-6-605"
+      },
+      {
+        "id": "484",
+        "title": "U2: I Still Haven't Found What I'm Looking For",
+        "folder": "i-still-haven-039-t-found-what-i-039-m-looking-for-u2-484"
+      },
+      {
+        "id": "496",
+        "title": "U2: Pride (In The Name Of Love)",
+        "folder": "pride-in-the-name-of-love-u2-496"
+      },
+      {
+        "id": "8203",
+        "title": "U2: Where The Streets Have No Name",
+        "folder": "where-the-streets-have-no-name-u2-520"
+      },
+      {
+        "id": "999",
+        "title": "R.E.M.: Losing My Religion",
+        "folder": "losing-my-religion-rem-999"
+      },
+      {
+        "id": "8204",
+        "title": "Coldplay: Sparks",
+        "folder": "sparks-coldplay-507"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=geschichte+rockmusik+popmusik&t=3752"
   },
@@ -2143,7 +2384,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "folder": "led-zeppelin-155"
       },
       {
-        "id": "502",
+        "id": "8282",
         "title": "The Beatles: She Loves You",
         "folder": "she-loves-you-the-beatles-502"
       },
@@ -2158,12 +2399,12 @@ export const musikTopics: Record<string, MusikTopic> = {
         "folder": "sympathy-for-the-devil-the-rolling-stones-642"
       },
       {
-        "id": "514",
+        "id": "8285",
         "title": "Queen: Under Pressure",
         "folder": "under-pressure-queen-514"
       },
       {
-        "id": "519",
+        "id": "8286",
         "title": "Queen: We Will Rock You",
         "folder": "we-well-rock-you-queen-519"
       },
@@ -2177,7 +2418,63 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "3101",
         "title": "The Beatles",
         "folder": "the-beatles-2-3101"
-      }],
+      },
+      {
+        "id": "606",
+        "title": "The Beatles: A Day in the Life",
+        "folder": "a-day-in-the-life-the-beatles-606"
+      },
+      {
+        "id": "479",
+        "title": "The Beatles: Help!",
+        "folder": "help-the-beatles-479"
+      },
+      {
+        "id": "485",
+        "title": "The Beatles: I Want To Hold Your Hand",
+        "folder": "i-want-to-hold-your-hand-the-beatles-485"
+      },
+      {
+        "id": "491",
+        "title": "The Beatles: Lucy In The Sky With Diamonds",
+        "folder": "lucy-in-the-sky-with-diamonds-the-beatles-491"
+      },
+      {
+        "id": "183",
+        "title": "The Beatles",
+        "folder": "the-beatles-183"
+      },
+      {
+        "id": "613",
+        "title": "Queen: Bohemian Rhapsody",
+        "folder": "bohemian-rhapsody-queen-2-613"
+      },
+      {
+        "id": "469",
+        "title": "Queen: Don't Stop Me Now",
+        "folder": "don-039-t-stop-me-now-queen-469"
+      },
+      {
+        "id": "599",
+        "title": "The Rolling Stones: (I Can't Get No) Satisfaction",
+        "folder": "i-can-039-t-get-no-satisfaction-the-rolling-stones-2-599"
+      },
+      {
+        "id": "8200",
+        "title": "Pink Floyd: Wish You Were Here",
+        "folder": "wish-you-were-here-pink-floyd-522"
+      },
+      {
+        "id": "497",
+        "title": "David Bowie: Rebel Rebel",
+        "folder": "rebel-rebel-david-bowie-497"
+      },
+      {
+        "id": "8201",
+        "title": "David Bowie: Space Oddity",
+        "folder": "space-oddity-david-bowie-506"
+      }
+    ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=beatles+queen+rolling+stones&t=3752"
   },
   "hardrock-grunge-und-metal": {
@@ -2224,7 +2521,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "folder": "nirvana-164"
       },
       {
-        "id": "505",
+        "id": "8284",
         "title": "Nirvana: Smells Like Teen Spirit",
         "folder": "smells-like-teen-spirit-nirvana-505"
       },
@@ -2242,6 +2539,22 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "3205",
         "title": "Escape Room 'Rock, Pop und Jazz'",
         "folder": "escape-room-quot-rock-pop-und-jazz-quot-3205"
+      }
+    ,
+      {
+        "id": "638",
+        "title": "Nirvana: Smells Like Teen Spirit",
+        "folder": "smells-like-teen-spirit-nirvana-2-638"
+      },
+      {
+        "id": "615",
+        "title": "Nirvana: Come As You Are",
+        "folder": "come-as-you-are-nirvana-2-615"
+      },
+      {
+        "id": "477",
+        "title": "Nirvana: Heart-Shaped Box",
+        "folder": "heart-shaped-box-nirvana-477"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=hardrock+metal+nirvana+metallica&t=3752"
@@ -2304,9 +2617,30 @@ export const musikTopics: Record<string, MusikTopic> = {
         "folder": "coldplay-141"
       },
       {
-        "id": "647",
+        "id": "8289",
         "title": "Coldplay: Viva la Vida",
         "folder": "viva-la-vida-coldplay-647"
+      }
+    ,
+      {
+        "id": "616",
+        "title": "ABBA: Dancing Queen",
+        "folder": "dancing-queen-abba-2-616"
+      },
+      {
+        "id": "611",
+        "title": "Michael Jackson: Billie Jean",
+        "folder": "billie-jean-michael-jackson-2-611"
+      },
+      {
+        "id": "192",
+        "title": "The Jackson 5",
+        "folder": "the-jackson-5-192"
+      },
+      {
+        "id": "80",
+        "title": "Janet Jackson",
+        "folder": "janet-jackson-80"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=abba+u2+coldplay+pop&t=3752"
@@ -2351,7 +2685,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "folder": "can-039-t-help-falling-in-love-elvis-presley-466"
       },
       {
-        "id": "102",
+        "id": "8280",
         "title": "Michael Jackson (King of Pop)",
         "folder": "michael-jackson-102"
       },
@@ -2390,6 +2724,12 @@ export const musikTopics: Record<string, MusikTopic> = {
         "title": "Elton John (Künstlerporträt)",
         "folder": "elton-john-70"
       }
+    ,
+      {
+        "id": "622",
+        "title": "Elvis Presley: Jailhouse Rock",
+        "folder": "jailhouse-rock-elvis-presley-2-622"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=elvis+michael+jackson+david+bowie&t=3752"
   },
@@ -2418,12 +2758,12 @@ export const musikTopics: Record<string, MusikTopic> = {
         "folder": "adele-40"
       },
       {
-        "id": "500",
+        "id": "8281",
         "title": "Adele: Rolling In The Deep",
         "folder": "rolling-in-the-deep-adele-500"
       },
       {
-        "id": "504",
+        "id": "8283",
         "title": "Adele: Skyfall",
         "folder": "skyfall-adele-504"
       },
@@ -2453,7 +2793,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "folder": "amy-winehouse-42"
       },
       {
-        "id": "610",
+        "id": "8288",
         "title": "Amy Winehouse: Back to Black",
         "folder": "back-to-black-amy-winehouse-610"
       },
@@ -2461,6 +2801,17 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "6421",
         "title": "K-Pop-Formel - Das Geheimnis der Perfektion",
         "folder": "k-pop-formel-das-geheimnis-der-perfektion-6421"
+      }
+    ,
+      {
+        "id": "1000",
+        "title": "Adele: Rolling In The Deep",
+        "folder": "rolling-in-the-deep-adele-1000"
+      },
+      {
+        "id": "8205",
+        "title": "Adele: Set Fire To The Rain",
+        "folder": "set-fire-to-the-rain-adele-501"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=popstars+adele+sheeran+madonna&t=3752"
@@ -2615,6 +2966,17 @@ export const musikTopics: Record<string, MusikTopic> = {
         "title": "Der harte Weg zum YouTube-Star (Teil 2)",
         "folder": "der-harte-weg-zum-youtube-star-geld-verdienen-ist-schwierig-2-6548"
       }
+    ,
+      {
+        "id": "841",
+        "title": "Hip-Hop Grundlagen",
+        "folder": "hip-hop-841"
+      },
+      {
+        "id": "937",
+        "title": "Liedtexte und Lyrics analysieren",
+        "folder": "liedtexte-937"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=hiphop+rap+deutschrap+streaming&t=3752"
   },
@@ -2682,6 +3044,17 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "japanische-musik",
         "title": "Japanische Musik – von der Gagaku-Musik bis zur J-Pop-Industrie",
         "folder": "japanische-musik-von-der-gagaku-musik-bis-zur-j-pop-industrie"
+      }
+    ,
+      {
+        "id": "8217",
+        "title": "Die deutsche Nationalhymne",
+        "folder": "die-deutsche-nationalhymne"
+      },
+      {
+        "id": "8218",
+        "title": "Das Lied der Deutschen (Haydn/Hoffmann von Fallersleben)",
+        "folder": "das-lied-der-deutschen"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=weltmusik&t=3752"
