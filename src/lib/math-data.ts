@@ -276,6 +276,67 @@ export const mathTopics: Record<string, MathTopic> = {
         "title": "Überschlagsrechnungen mit Komma",
         "folder": "berschlagsrechnungen-mit-komma-811"
       }
+    ,
+      {
+        "id": "704",
+        "title": "Dezimalzahlen Einführung (Level 1)",
+        "folder": "kurs-dezimalzahlen-einfuhrung-level-1-704"
+      },
+      {
+        "id": "705",
+        "title": "Dezimalzahlen Einführung (Level 2)",
+        "folder": "kurs-dezimalzahlen-einfuhrung-level-2-705"
+      },
+      {
+        "id": "706",
+        "title": "Dezimalzahlen Einführung (Level 3)",
+        "folder": "kurs-dezimalzahlen-einfuhrung-level-3-706"
+      },
+      {
+        "id": "714",
+        "title": "Dezimalzahlen Stellenwerte",
+        "folder": "kurs-dezimalzahlen-stellenwerte-714"
+      },
+      {
+        "id": "707",
+        "title": "Dezimalzahlen am Zahlenstrahl (Level 1)",
+        "folder": "kurs-dezimalzahlen-am-zahlenstrahl-level-1-707"
+      },
+      {
+        "id": "708",
+        "title": "Dezimalzahlen am Zahlenstrahl (Level 2)",
+        "folder": "kurs-dezimalzahlen-am-zahlenstrahl-level-2-708"
+      },
+      {
+        "id": "709",
+        "title": "Dezimalzahlen am Zahlenstrahl (Level 3)",
+        "folder": "kurs-dezimalzahlen-am-zahlenstrahl-level-3-709"
+      },
+      {
+        "id": "710",
+        "title": "Dezimalzahlen ordnen",
+        "folder": "kurs-dezimalzahlen-ordnen-710"
+      },
+      {
+        "id": "715",
+        "title": "Dezimalzahlen runden (Level 1)",
+        "folder": "kurs-dezimalzahlen-runden-level-1-715"
+      },
+      {
+        "id": "716",
+        "title": "Dezimalzahlen runden (Level 2)",
+        "folder": "kurs-dezimalzahlen-runden-level-2-716"
+      },
+      {
+        "id": "717",
+        "title": "Dezimalzahlen runden (Level 3)",
+        "folder": "kurs-dezimalzahlen-runden-level-3-717"
+      },
+      {
+        "id": "686",
+        "title": "Kopfrechnen mit Dezimalzahlen (Lückentext)",
+        "folder": "studypoint-luckentext-dezimalzahlen-686"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=dezimalzahlen&t=1118"
   },
@@ -1170,6 +1231,12 @@ export const mathTopics: Record<string, MathTopic> = {
         "title": "Strecke, Strahl und Gerade (normale und parallele Linien)",
         "folder": "strecke-strahl-gerade-943"
       }
+    ,
+      {
+        "id": "662",
+        "title": "Winkel schätzen (Kurs)",
+        "folder": "kurs-winkel-schatzen-662"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=winkel&t=1118"
   },
@@ -1374,6 +1441,17 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "pyramide2",
         "title": "Oberfläche der Pyramide (Vertiefung)",
         "folder": "oberflache-der-pyramide-2-99"
+      }
+    ,
+      {
+        "id": "100",
+        "title": "Oberfläche der Pyramide",
+        "folder": "oberflache-der-pyramide-3-100"
+      },
+      {
+        "id": "724",
+        "title": "Berechnungen an der Pyramide",
+        "folder": "studypoint-pyramide-724"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=prisma&t=1118"
@@ -1700,6 +1778,32 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "233",
         "title": "Terme multiplizieren (Binom mal Binom)",
         "folder": "terme-multiplizieren-binom-mal-binom-233"
+      }
+    ,
+      {
+        "id": "88",
+        "title": "Terme addieren und subtrahieren",
+        "folder": "terme-addieren-und-subtrahieren-88"
+      },
+      {
+        "id": "89",
+        "title": "Terme mit Klammern addieren und subtrahieren",
+        "folder": "terme-mit-klammern-addieren-und-subtrahieren-89"
+      },
+      {
+        "id": "97",
+        "title": "Terme multiplizieren",
+        "folder": "terme-multiplizieren-97"
+      },
+      {
+        "id": "702",
+        "title": "Memory mit Termen",
+        "folder": "studypoint-memory-game-memory-mit-termen-702"
+      },
+      {
+        "id": "690",
+        "title": "Terme mit Potenzen zuordnen",
+        "folder": "studypoint-drag-the-words-terme-mit-potenzen-690"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=terme&t=1118"
@@ -2048,6 +2152,52 @@ export const mathTopics: Record<string, MathTopic> = {
         "title": "Multiplikation von Dezimalzahlen",
         "folder": "teiler-einer-zahl-finden-schwer-163"
       }
+    ,
+      {
+        "id": "727",
+        "title": "Dezimalzahlen addieren und subtrahieren (Level 1)",
+        "folder": "kurs-dezimalzahlen-addieren-und-subtrahieren-level-1-727"
+      },
+      {
+        "id": "728",
+        "title": "Dezimalzahlen addieren und subtrahieren (Level 2)",
+        "folder": "kurs-dezimalzahlen-addieren-und-subtrahieren-level-2-728"
+      },
+      {
+        "id": "729",
+        "title": "Dezimalzahlen addieren und subtrahieren (Level 3)",
+        "folder": "kurs-dezimalzahlen-addieren-und-subtrahieren-level-3-729"
+      },
+      {
+        "id": "730",
+        "title": "Dezimalzahlen multiplizieren (Level 1)",
+        "folder": "kurs-dezimalzahlen-multiplizieren-level-1-730"
+      },
+      {
+        "id": "731",
+        "title": "Dezimalzahlen multiplizieren (Level 2)",
+        "folder": "kurs-dezimalzahlen-multiplizieren-level-2-731"
+      },
+      {
+        "id": "732",
+        "title": "Dezimalzahlen multiplizieren (Level 3)",
+        "folder": "kurs-dezimalzahlen-multiplizieren-level-3-732"
+      },
+      {
+        "id": "733",
+        "title": "Dezimalzahlen dividieren (Level 1)",
+        "folder": "kurs-dezimalzahlen-dividieren-level-1-733"
+      },
+      {
+        "id": "734",
+        "title": "Dezimalzahlen dividieren (Level 2)",
+        "folder": "kurs-dezimalzahlen-dividieren-level-2-734"
+      },
+      {
+        "id": "735",
+        "title": "Dezimalzahlen dividieren (Level 3)",
+        "folder": "kurs-dezimalzahlen-dividieren-level-3-735"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=dezimalzahlen+rechnen&t=1118"
   },
@@ -2093,6 +2243,22 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "147",
         "title": "Gleitkommadarstellung Zuordnungsübung",
         "folder": "gleitkommadarstellung-zuordnungsubung-147"
+      }
+    ,
+      {
+        "id": "736",
+        "title": "KlaPuStri mit Dezimalzahlen (Level 1)",
+        "folder": "kurs-klapustri-mit-dezimalzahlen-level-1-736"
+      },
+      {
+        "id": "737",
+        "title": "KlaPuStri mit Dezimalzahlen (Level 2)",
+        "folder": "kurs-klapustri-mit-dezimalzahlen-level-2-737"
+      },
+      {
+        "id": "738",
+        "title": "KlaPuStri mit Dezimalzahlen (Level 3)",
+        "folder": "kurs-klapustri-mit-dezimalzahlen-level-3-738"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=klapustri+vorrangregeln&t=1118"
@@ -2166,6 +2332,32 @@ export const mathTopics: Record<string, MathTopic> = {
         "title": "Monom mal Binom",
         "folder": "monom-mal-binom-2-91"
       }
+    ,
+      {
+        "id": "94",
+        "title": "1. Binomische Formel",
+        "folder": "binomische-formeln-1-94"
+      },
+      {
+        "id": "95",
+        "title": "2. Binomische Formel",
+        "folder": "binomische-formeln-2-95"
+      },
+      {
+        "id": "392",
+        "title": "Binomische Formeln anwenden",
+        "folder": "binomische-formeln-392"
+      },
+      {
+        "id": "393",
+        "title": "Binomische Formeln Vertiefung",
+        "folder": "binomische-formeln-3-393"
+      },
+      {
+        "id": "691",
+        "title": "Binomische Formeln Single-Choice",
+        "folder": "studypoint-single-choice-binomische-formeln-691"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=binomische+formeln&t=1118"
   },
@@ -2232,6 +2424,37 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "386",
         "title": "Bruchrechnen",
         "folder": "bruchrechnen-386"
+      }
+    ,
+      {
+        "id": "38",
+        "title": "Brüche und Dezimalzahlen (Übung 1)",
+        "folder": "bruche-und-dezimalzahlen-38"
+      },
+      {
+        "id": "44",
+        "title": "Brüche und Dezimalzahlen (Übung 2)",
+        "folder": "bruche-und-dezimalzahlen-2-44"
+      },
+      {
+        "id": "712",
+        "title": "Brüche und Dezimalzahlen Kurs (Level 1)",
+        "folder": "kurs-bruche-und-dezimalzahlen-level-1-712"
+      },
+      {
+        "id": "711",
+        "title": "Brüche und Dezimalzahlen Kurs (Level 2)",
+        "folder": "kurs-bruche-und-dezimalzahlen-level-2-711"
+      },
+      {
+        "id": "713",
+        "title": "Brüche und Dezimalzahlen Kurs (Level 3)",
+        "folder": "kurs-bruche-und-dezimalzahlen-level-3-713"
+      },
+      {
+        "id": "725",
+        "title": "Bruchrechnen Vertiefung",
+        "folder": "studypoint-bruchrechnen-725"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=brueche+grundrechenarten&t=1118"
@@ -2339,6 +2562,17 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "859",
         "title": "kgV und ggT (Level 2)",
         "folder": "kgv-und-ggt-level-2-859"
+      }
+    ,
+      {
+        "id": "866",
+        "title": "kgV und ggT (Level 3)",
+        "folder": "kgv-und-ggt-level-3-866"
+      },
+      {
+        "id": "867",
+        "title": "kgV und ggT (Level 4)",
+        "folder": "kgv-und-ggt-level-4-867"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=primzahlen+ggt+kgv&t=1118"
