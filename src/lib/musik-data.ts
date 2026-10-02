@@ -1959,12 +1959,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "title": "Das Musical Maria Theresia",
         "folder": "das-musical-maria-theresia-544"
       }
-    ,
-      {
-        "id": "3016",
-        "title": "Juan und Evita Perón – Hintergrund zu Evita",
-        "folder": "juan-und-evita-peron-3016"
-      }
+    
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=moderne+musicals+phantom+der+oper&t=3752"
   },
