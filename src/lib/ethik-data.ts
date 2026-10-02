@@ -98,7 +98,28 @@ export const ethikTopics: Record<string, EthikTopic> = {
             "title": "Kritische Ethik-Perspektiven",
             "folder": "kritische-ethik-perspektiven-5831"
       }
-],
+,
+      {
+            "id": "5915",
+            "title": "Wissenschaft und Philosophie",
+            "folder": "wissenschaft-und-philosophie-5915"
+      },
+      {
+            "id": "5804",
+            "title": "Grundfragen der Philosophie",
+            "folder": "grundfragen-der-philosophie-5804"
+      },
+      {
+            "id": "5941",
+            "title": "Ideengeschichte der Philosophie",
+            "folder": "ideengeschichte-der-philosophie-5941"
+      },
+      {
+            "id": "5942",
+            "title": "Identität und Selbstbewusstsein",
+            "folder": "identitat-und-selbstbewusstsein-5942"
+      }
+    ],
     worksheetLink: "https://eduki.com/de/autor/1430402/about-the-world-org?query=Ethik+Werte+Normen&t=3752"
   },
   "pflichtethik-und-deontologie": {
@@ -150,7 +171,28 @@ export const ethikTopics: Record<string, EthikTopic> = {
             "title": "Philosophie der Moralität",
             "folder": "philosophie-der-moralitat-5859"
       }
-],
+,
+      {
+            "id": "1424",
+            "title": "Immanuel Kant",
+            "folder": "immanuel-kant-1424"
+      },
+      {
+            "id": "3966",
+            "title": "Immanuel Kant – Vertiefung",
+            "folder": "immanuel-kant-2-3966"
+      },
+      {
+            "id": "2793",
+            "title": "Platon und seine Ideenlehre",
+            "folder": "platon-und-seine-ideenlehre-2793"
+      },
+      {
+            "id": "2794",
+            "title": "Sokrates und die sokratische Methode",
+            "folder": "sokrates-und-die-sokratische-methode-2794"
+      }
+    ],
     worksheetLink: "https://eduki.com/de/autor/1430402/about-the-world-org?query=Pflichtethik+Kant+Deontologie&t=3752"
   },
   "utilitarismus-und-folgenethik": {
@@ -264,7 +306,38 @@ export const ethikTopics: Record<string, EthikTopic> = {
             "title": "Jesu Ethik: Bergpredigt & Feindesliebe",
             "folder": "jesu-ethik-feindesliebe-6663"
       }
-],
+,
+      {
+            "id": "5833",
+            "title": "Kulturelle Philosophie – Perspektiven",
+            "folder": "kulturelle-philosophie-perspektiven-5833"
+      },
+      {
+            "id": "5837",
+            "title": "Metaphern in der Philosophie",
+            "folder": "metaphern-in-der-philosophie-5837"
+      },
+      {
+            "id": "5842",
+            "title": "Mittelalterliche Theologie und Philosophie",
+            "folder": "mittelalterliche-theologie-und-philosophie-5842"
+      },
+      {
+            "id": "5843",
+            "title": "Moderne Philosophie – Grundlagen",
+            "folder": "moderne-philosophie-grundlagen-5843"
+      },
+      {
+            "id": "5217",
+            "title": "Philosophie und Wissenschaft im antiken Griechenland",
+            "folder": "philosophie-und-wissenschaft-im-antiken-griechenland-5217"
+      },
+      {
+            "id": "6649",
+            "title": "Gott in der Philosophie",
+            "folder": "gott-in-der-philosophie-6649"
+      }
+    ],
     worksheetLink: "https://eduki.com/de/autor/1430402/about-the-world-org?query=Tugendethik+Diskursethik+Dilemmata&t=3752"
   },
   "glueck-und-gelingendes-leben": {
@@ -300,7 +373,38 @@ export const ethikTopics: Record<string, EthikTopic> = {
             "title": "Die Problematik des Egoismus",
             "folder": "die-problematik-des-egoismus-2781"
       }
-],
+,
+      {
+            "id": "5858",
+            "title": "Philosophie der Liebe",
+            "folder": "philosophie-der-liebe-5858"
+      },
+      {
+            "id": "5849",
+            "title": "Natur und Kultur – Philosophieren",
+            "folder": "natur-und-kultur-philosophieren-5849"
+      },
+      {
+            "id": "5891",
+            "title": "Sprachphilosophie und Logik",
+            "folder": "sprachphilosophie-und-logik-5891"
+      },
+      {
+            "id": "5896",
+            "title": "Strukturalismus in der Philosophie",
+            "folder": "strukturalismus-in-philosophie-5896"
+      },
+      {
+            "id": "5918",
+            "title": "Zeitphilosophie und Historie",
+            "folder": "zeitphilosophie-und-historie-5918"
+      },
+      {
+            "id": "5857",
+            "title": "Philosophie der Geschichte",
+            "folder": "philosophie-der-geschichte-5857"
+      }
+    ],
     worksheetLink: "https://eduki.com/de/autor/1430402/about-the-world-org?query=Glück+Lebenssinn+Ethik&t=3752"
   },
   "freiheit-wille-und-determinismus": {
@@ -342,7 +446,38 @@ export const ethikTopics: Record<string, EthikTopic> = {
             "title": "John Stuart Mills Konzept der Freiheit",
             "folder": "john-stuart-mills-konzept-der-freiheit-2791"
       }
-],
+,
+      {
+            "id": "5854",
+            "title": "Philosophie der Existenz",
+            "folder": "philosophie-der-existenz-5854"
+      },
+      {
+            "id": "5855",
+            "title": "Philosophie der Freiheit",
+            "folder": "philosophie-der-freiheit-5855"
+      },
+      {
+            "id": "5868",
+            "title": "Philosophie des Selbst",
+            "folder": "philosophie-des-selbst-5868"
+      },
+      {
+            "id": "5869",
+            "title": "Philosophie des Zweifels",
+            "folder": "philosophie-des-zweifels-5869"
+      },
+      {
+            "id": "5866",
+            "title": "Philosophie des Geistes",
+            "folder": "philosophie-des-geistes-5866"
+      },
+      {
+            "id": "5870",
+            "title": "Philosophie und Bewusstsein",
+            "folder": "philosophie-und-bewusstsein-5870"
+      }
+    ],
     worksheetLink: "https://eduki.com/de/autor/1430402/about-the-world-org?query=Freier+Wille+Freiheit+Determinismus&t=3752"
   },
   "lebenssinn-und-verantwortung": {
@@ -393,7 +528,28 @@ export const ethikTopics: Record<string, EthikTopic> = {
             "title": "Selbstreflexion",
             "folder": "selbstreflexion-3183"
       }
-],
+,
+      {
+            "id": "5872",
+            "title": "Philosophie und Lebenskunst",
+            "folder": "philosophie-und-lebenskunst-5872"
+      },
+      {
+            "id": "5889",
+            "title": "Selbstreflexion und Sinn",
+            "folder": "selbstreflexion-und-sinn-5889"
+      },
+      {
+            "id": "5864",
+            "title": "Philosophie des Alltags",
+            "folder": "philosophie-des-alltags-5864"
+      },
+      {
+            "id": "5865",
+            "title": "Philosophie des Dialogs",
+            "folder": "philosophie-des-dialogs-5865"
+      }
+    ],
     worksheetLink: "https://eduki.com/de/autor/1430402/about-the-world-org?query=Sinn+des+Lebens+Verantwortung&t=3752"
   },
   "medizin-und-bioethik": {
@@ -445,7 +601,23 @@ export const ethikTopics: Record<string, EthikTopic> = {
             "title": "Ethische Fragen der Suchtprävention",
             "folder": "ethische-fragen-im-bereich-der-suchtpravention-2847"
       }
-],
+,
+      {
+            "id": "2857",
+            "title": "Klonen und Gentechnik",
+            "folder": "klonen-und-gentechnik-2857"
+      },
+      {
+            "id": "2864",
+            "title": "Patientenautonomie und Informed Consent",
+            "folder": "patientenautonomie-und-informed-consent-2864"
+      },
+      {
+            "id": "4458",
+            "title": "Tierversuche – Ethische Debatte",
+            "folder": "tierversuche-4458"
+      }
+    ],
     worksheetLink: "https://eduki.com/de/autor/1430402/about-the-world-org?query=Medizinethik+Bioethik+Organspende&t=3752"
   },
   "sterbehilfe-suizidpravention-und-hospiz": {
@@ -492,7 +664,23 @@ export const ethikTopics: Record<string, EthikTopic> = {
             "title": "Depression und Suizidprävention",
             "folder": "depression-und-suizidpravention-5749"
       }
-],
+,
+      {
+            "id": "6731",
+            "title": "Trauerphasen",
+            "folder": "trauerphasen-6731"
+      },
+      {
+            "id": "4460",
+            "title": "Umgang mit Schuldgefühlen",
+            "folder": "umgang-mit-schuldgefuhlen-4460"
+      },
+      {
+            "id": "6733",
+            "title": "Umgang mit dem Tod",
+            "folder": "umgang-mit-dem-tod-6733"
+      }
+    ],
     worksheetLink: "https://eduki.com/de/autor/1430402/about-the-world-org?query=Sterbehilfe+Hospiz+Trauer&t=3752"
   },
   "umweltethik-und-klimagerechtigkeit": {
@@ -533,7 +721,38 @@ export const ethikTopics: Record<string, EthikTopic> = {
             "title": "Global Goal 6: Sauberes Wasser – Für Gesundheit und Nachhaltigkeit",
             "folder": "wenn-die-erde-bebt-warum-sie-wackelt-3-4501"
       }
-],
+,
+      {
+            "id": "2867",
+            "title": "Umweltaufklärung und nachhaltiger Lebensstil",
+            "folder": "umweltaufklarung-und-nachhaltiger-lebensstil-2867"
+      },
+      {
+            "id": "5860",
+            "title": "Philosophie der Natur",
+            "folder": "philosophie-der-natur-5860"
+      },
+      {
+            "id": "5850",
+            "title": "Naturphilosophie und Kosmos",
+            "folder": "naturphilosophie-und-kosmos-5850"
+      },
+      {
+            "id": "4484",
+            "title": "Global Goal 10: Weniger Ungleichheit",
+            "folder": "global-goal-10-weniger-ungleichheit-chancen-gerecht-verteilen-4484"
+      },
+      {
+            "id": "4486",
+            "title": "Global Goal 12: Nachhaltiger Konsum & Produktion",
+            "folder": "global-goal-12-nachhaltiger-konsum-produktion-im-einklang-mit-natur-4486"
+      },
+      {
+            "id": "4491",
+            "title": "Global Goal 17: Partnerschaften für nachhaltige Zukunft",
+            "folder": "global-goal-17-partnerschaften-starken-gemeinsam-fur-nachhaltige-zukunft-4491"
+      }
+    ],
     worksheetLink: "https://eduki.com/de/autor/1430402/about-the-world-org?query=Umweltethik+Klimagerechtigkeit&t=3752"
   },
   "konsumethik-und-fairer-handel": {
@@ -580,7 +799,33 @@ export const ethikTopics: Record<string, EthikTopic> = {
             "title": "Ethik in der Modeindustrie",
             "folder": "ethik-in-der-modeindustrie-2843"
       }
-],
+,
+      {
+            "id": "3557",
+            "title": "Konsum und Nachhaltigkeit",
+            "folder": "konsum-und-nachhaltigkeit-3557"
+      },
+      {
+            "id": "2859",
+            "title": "Konsumverhalten und Nachhaltigkeit",
+            "folder": "konsumverhalten-und-nachhaltigkeit-2859"
+      },
+      {
+            "id": "2862",
+            "title": "Nachhaltigkeit und faire Produktion",
+            "folder": "nachhaltigkeit-und-faire-produktion-2862"
+      },
+      {
+            "id": "3570",
+            "title": "Nachhaltiger Tourismus und seine Vorteile",
+            "folder": "nachhaltiger-tourismus-und-seine-vorteile-3570"
+      },
+      {
+            "id": "2672",
+            "title": "Nachhaltiger Konsum",
+            "folder": "nachhaltiger-konsum-2672"
+      }
+    ],
     worksheetLink: "https://eduki.com/de/autor/1430402/about-the-world-org?query=Konsumethik+Fairtrade+Tierethik&t=3752"
   },
   "ki-ethik-und-automatisierung": {
@@ -622,7 +867,28 @@ export const ethikTopics: Record<string, EthikTopic> = {
             "title": "Ethische Aspekte der Nanotechnologie",
             "folder": "ethische-aspekte-in-der-nanotechnologie-2844"
       }
-],
+,
+      {
+            "id": "5862",
+            "title": "Philosophie der Technik",
+            "folder": "philosophie-der-technik-5862"
+      },
+      {
+            "id": "5871",
+            "title": "Philosophie und Digitalisierung",
+            "folder": "philosophie-und-digitalisierung-5871"
+      },
+      {
+            "id": "5863",
+            "title": "Philosophie der Wissenschaft",
+            "folder": "philosophie-der-wissenschaft-5863"
+      },
+      {
+            "id": "5876",
+            "title": "Philosophie und Wissenschaftstheorie",
+            "folder": "philosophie-und-wissenschaftstheorie-5876"
+      }
+    ],
     worksheetLink: "https://eduki.com/de/autor/1430402/about-the-world-org?query=KI+Ethik+Kuenstliche+Intelligenz&t=3752"
   },
   "medienethik-desinformation-und-verantwortung": {
@@ -679,7 +945,33 @@ export const ethikTopics: Record<string, EthikTopic> = {
             "title": "Internetfreiheit und staatliche Kontrolle weltweit",
             "folder": "internetfreiheit-und-staatliche-kontrolle-weltweit"
       }
-],
+,
+      {
+            "id": "2607",
+            "title": "Medien und Datenschutz",
+            "folder": "medien-und-datenschutz-2607"
+      },
+      {
+            "id": "3565",
+            "title": "Meinungsfreiheit",
+            "folder": "meinungsfreiheit-3565"
+      },
+      {
+            "id": "4463",
+            "title": "Verantwortung in den sozialen Medien",
+            "folder": "verantwortung-in-den-sozialen-medien-4463"
+      },
+      {
+            "id": "5874",
+            "title": "Philosophie und Politik",
+            "folder": "philosophie-und-politik-5874"
+      },
+      {
+            "id": "5882",
+            "title": "Politische Philosophie – Grundlagen",
+            "folder": "politische-philosophie-grundlagen-5882"
+      }
+    ],
     worksheetLink: "https://eduki.com/de/autor/1430402/about-the-world-org?query=Medienethik+Fake+News+Datenschutz&t=3752"
   },
   "cybermobbing-hate-speech-und-respekt": {
@@ -741,7 +1033,23 @@ export const ethikTopics: Record<string, EthikTopic> = {
             "title": "Freiheit der Meinungsäußerung und Hate Speech",
             "folder": "freiheit-der-meinungsaueserung-und-hate-speech-2852"
       }
-],
+,
+      {
+            "id": "3544",
+            "title": "Hilfe bei häuslicher Gewalt",
+            "folder": "hilfe-bei-hauslicher-gewalt-3544"
+      },
+      {
+            "id": "2162",
+            "title": "Verhaltenssüchte: Glücksspiel und Internet",
+            "folder": "verhaltenssuchte-glucksspiel-und-internet-2162"
+      },
+      {
+            "id": "3601",
+            "title": "Zwangsheirat und ihre gesellschaftlichen Folgen",
+            "folder": "zwangsheirat-und-ihre-gesellschaftlichen-folgen-3601"
+      }
+    ],
     worksheetLink: "https://eduki.com/de/autor/1430402/about-the-world-org?query=Cybermobbing+Hate+Speech+Respekt&t=3752"
   },
   "freundschaft-empathie-und-respekt": {
@@ -803,7 +1111,68 @@ export const ethikTopics: Record<string, EthikTopic> = {
             "title": "Empathie – Verständnis für andere entwickeln",
             "folder": "empathie-2-3303"
       }
-],
+,
+      {
+            "id": "4438",
+            "title": "Gewaltfreie Kommunikation",
+            "folder": "gewaltfreie-kommunikation-2-4438"
+      },
+      {
+            "id": "3539",
+            "title": "Gewaltfreie Kommunikation – Einführung",
+            "folder": "gewaltfreie-kommunikation-3539"
+      },
+      {
+            "id": "2858",
+            "title": "Konfliktlösung und gewaltfreie Kommunikation",
+            "folder": "konfliktlosung-und-gewaltfreie-kommunikation-2858"
+      },
+      {
+            "id": "3241",
+            "title": "Konfliktlösung",
+            "folder": "konfliktlosung-3241"
+      },
+      {
+            "id": "3300",
+            "title": "Konfliktlösung – Vertiefung",
+            "folder": "konfliktlosung-2-3300"
+      },
+      {
+            "id": "5892",
+            "title": "Strategien zur Konfliktlösung",
+            "folder": "strategien-zur-konfliktlosung-5892"
+      },
+      {
+            "id": "2749",
+            "title": "Veränderungen der Identität im Laufe des Lebens",
+            "folder": "veranderungen-der-identitat-im-laufe-des-lebens-2749"
+      },
+      {
+            "id": "4444",
+            "title": "Identität und Selbstbild – Formen",
+            "folder": "identitat-und-selbstbild-formen-4444"
+      },
+      {
+            "id": "2855",
+            "title": "Identität und Selbstbild – Herausforderungen in der Adoleszenz",
+            "folder": "identitat-und-selbstbild-herausforderungen-in-der-adoleszenz-2855"
+      },
+      {
+            "id": "5823",
+            "title": "Konzept sozialer Identität",
+            "folder": "konzept-sozialer-identitat-5823"
+      },
+      {
+            "id": "4442",
+            "title": "Heimat und Identität",
+            "folder": "heimat-und-identitat-4442"
+      },
+      {
+            "id": "2747",
+            "title": "Sexuelle Orientierung und Identität",
+            "folder": "sexuelle-orientierung-und-identitat-2747"
+      }
+    ],
     worksheetLink: "https://eduki.com/de/autor/1430402/about-the-world-org?query=Freundschaft+Empathie+Respekt+Ethik&t=3752"
   },
   "toleranz-vorurteile-und-inklusion": {
@@ -855,11 +1224,57 @@ export const ethikTopics: Record<string, EthikTopic> = {
             "folder": "respektvoller-umgang-mit-vielfalt-4454"
       },
       {
-            "id": "2866",
+            "id": "7991",
             "title": "Religionsfreiheit in Deutschland",
             "folder": "religionsfreiheit-in-deutschland"
       }
-],
+,
+      {
+            "id": "3580",
+            "title": "Rassismus in Deutschland",
+            "folder": "rassismus-in-deutschland-3580"
+      },
+      {
+            "id": "2745",
+            "title": "Rassismus und Vorurteile",
+            "folder": "rassismus-und-vorurteile-2745"
+      },
+      {
+            "id": "4466",
+            "title": "Vorurteile und Diskriminierung überwinden",
+            "folder": "vorurteile-und-diskriminierung-uberwinden-4466"
+      },
+      {
+            "id": "1131",
+            "title": "Inklusion",
+            "folder": "inklusion-1131"
+      },
+      {
+            "id": "4445",
+            "title": "Inklusion im Sport",
+            "folder": "inklusion-im-sport-4445"
+      },
+      {
+            "id": "2856",
+            "title": "Inklusion und Vielfalt in Bildungseinrichtungen",
+            "folder": "inklusion-und-vielfalt-in-bildungseinrichtungen-2856"
+      },
+      {
+            "id": "5907",
+            "title": "Verstehen von Persönlichkeitsstörungen",
+            "folder": "verstehen-von-personlichkeitsstorungen-5907"
+      },
+      {
+            "id": "5908",
+            "title": "Verstehen von Zwangsstörungen",
+            "folder": "verstehen-von-zwangsstorungen-5908"
+      },
+      {
+            "id": "5903",
+            "title": "Unterschiedliche Erziehungsstile verstehen",
+            "folder": "unterschiedliche-erziehungsstile-verstehen-5903"
+      }
+    ],
     worksheetLink: "https://eduki.com/de/autor/1430402/about-the-world-org?query=Toleranz+Vorurteile+Inklusion&t=3752"
   },
   "menschenrechte-und-globale-gerechtigkeit": {
@@ -941,7 +1356,48 @@ export const ethikTopics: Record<string, EthikTopic> = {
             "title": "Die Verantwortung der reichen Länder",
             "folder": "die-verantwortung-der-reichen-lander-4428"
       }
-],
+,
+      {
+            "id": "3566",
+            "title": "Menschenrechte",
+            "folder": "menschenrechte-3566"
+      },
+      {
+            "id": "3364",
+            "title": "Menschenrechte und internationale Abkommen",
+            "folder": "menschenrechte-und-internationale-abkommen-3364"
+      },
+      {
+            "id": "3590",
+            "title": "Soziale Ungleichheit",
+            "folder": "soziale-ungleichheit-3590"
+      },
+      {
+            "id": "5875",
+            "title": "Philosophie und Religion",
+            "folder": "philosophie-und-religion-5875"
+      },
+      {
+            "id": "5887",
+            "title": "Religionsphilosophie und Theologie",
+            "folder": "religionsphilosophie-und-theologie-5887"
+      },
+      {
+            "id": "6714",
+            "title": "Religion und persönliche Identität",
+            "folder": "religion-und-personliche-identitat-6714"
+      },
+      {
+            "id": "6715",
+            "title": "Religionsfreiheit",
+            "folder": "religionsfreiheit-6715"
+      },
+      {
+            "id": "5873",
+            "title": "Philosophie und Mythologie",
+            "folder": "philosophie-und-mythologie-5873"
+      }
+    ],
     worksheetLink: "https://eduki.com/de/autor/1430402/about-the-world-org?query=Menschenrechte+Kinderrechte+Gerechtigkeit&t=3752"
   },
   "friedensethik-konflikte-und-versoehnung": {
@@ -1018,7 +1474,28 @@ export const ethikTopics: Record<string, EthikTopic> = {
             "title": "Gaza – Ein Plan für den Frieden",
             "folder": "gaza-ein-plan-fur-den-frieden-6643"
       }
-],
+,
+      {
+            "id": "5867",
+            "title": "Philosophie des Krieges",
+            "folder": "philosophie-des-krieges-5867"
+      },
+      {
+            "id": "6677",
+            "title": "John Lennons Friedensbotschaft – Happy Xmas (War Is Over)",
+            "folder": "john-lennons-friedensbotschaft-happy-xmas-war-is-over-6677"
+      },
+      {
+            "id": "4583",
+            "title": "Josef – Verrat und Versöhnung",
+            "folder": "josef-verrat-und-versohnung-4583"
+      },
+      {
+            "id": "5861",
+            "title": "Philosophie der Sprache",
+            "folder": "philosophie-der-sprache-5861"
+      }
+    ],
     worksheetLink: "https://eduki.com/de/autor/1430402/about-the-world-org?query=Friedensethik+Krieg+Versoehnung&t=3752"
   },
   "berufsethik-wirtschaft-und-wissenschaft": {
@@ -1071,11 +1548,32 @@ export const ethikTopics: Record<string, EthikTopic> = {
             "folder": "ethische-aspekte-von-sportveranstaltungen-2846"
       },
       {
-            "id": "2847",
+            "id": "7990",
             "title": "Spannungsfeld zwischen Whistleblowing und Geheimhaltung",
             "folder": "spannungsfeld-zwischen-whistleblowing-und-geheimhaltung"
       }
-],
+,
+      {
+            "id": "3559",
+            "title": "Korruption",
+            "folder": "korruption-3559"
+      },
+      {
+            "id": "5744",
+            "title": "Ästhetik und Kunstphilosophie",
+            "folder": "sthetik-und-kunstphilosophie-5744"
+      },
+      {
+            "id": "6390",
+            "title": "Philosophie in der Schweiz",
+            "folder": "philosophie-in-der-schweiz-6390"
+      },
+      {
+            "id": "5834",
+            "title": "Kulturphilosophie und Identität",
+            "folder": "kulturphilosophie-und-identitat-5834"
+      }
+    ],
     worksheetLink: "https://eduki.com/de/autor/1430402/about-the-world-org?query=Berufsethik+Wirtschaftsethik+Sportethik&t=3752"
   }
 };
