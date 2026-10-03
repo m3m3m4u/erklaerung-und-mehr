@@ -78,6 +78,26 @@ export const medienTopics: Record<string, MedienTopic> = {
         "id": "2585",
         "title": "Die Geschichte der Videospiele",
         "folder": "die-geschichte-der-videospiele-2585"
+      },
+      {
+        "id": "ebook-vs-buch",
+        "title": "E-Book gegen gedrucktes Buch – Vor- und Nachteile",
+        "folder": "e-book-gegen-echtes-buch-vor-und-nachteile"
+      },
+      {
+        "id": "ebook-verwaltung",
+        "title": "E-Books nutzen, verwalten und E-Reader",
+        "folder": "wie-man-ein-e-book-richtig-nutzt-und-verwaltet"
+      },
+      {
+        "id": "zukunft-des-lesens",
+        "title": "Die Zukunft des Lesens – Trends & digitales Lesen",
+        "folder": "die-zukunft-des-lesens-was-kommt-nach-dem-e-book"
+      },
+      {
+        "id": "interaktive-buecher",
+        "title": "Interaktive Bücher & Gamified Reading",
+        "folder": "interaktive-buecher-wenn-der-leser-die-story-bestimmt"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Mediengeschichte&t=1721"
@@ -130,6 +150,11 @@ export const medienTopics: Record<string, MedienTopic> = {
         "id": "listen-von-fernsehsendern",
         "title": "Fernsehsender: Öffentlich-rechtlich vs. Privatfernsehen",
         "folder": "listen-von-fernsehsendern"
+      },
+      {
+        "id": "snowden-ueberwachung",
+        "title": "Investigativer Journalismus & Whistleblowing: Edward Snowden",
+        "folder": "enthuellungen-zur-globalen-ueberwachung-durch-edward-snowden"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Journalismus+Presse+Zeitung&t=1721"
@@ -177,6 +202,11 @@ export const medienTopics: Record<string, MedienTopic> = {
         "id": "fischer-im-netz-der-radikalen-warum-extremisten-auf-social-media-triumphieren",
         "title": "Fischer im Netz der Radikalen – Extremismus auf Social Media",
         "folder": "fischer-im-netz-der-radikalen-warum-extremisten-auf-social-media-triumphieren"
+      },
+      {
+        "id": "grafische-manipulation",
+        "title": "Visuelle Manipulation in Medien & Grafiken erkennen",
+        "folder": "manipulation-durch-grafische-darstellungen-erkennen"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Fake+News+Desinformation+Deepfakes&t=1721"
@@ -229,6 +259,11 @@ export const medienTopics: Record<string, MedienTopic> = {
         "id": "smartphone-zombies",
         "title": "Smartphone-Zombies – Die totale Abhängigkeit der Generation Z",
         "folder": "smartphone-zombies-die-totale-abhaengigkeit-der-generation-z"
+      },
+      {
+        "id": "super-spreader",
+        "title": "Virale Dynamik – Verbreitung durch Super Spreader",
+        "folder": "verbreitung-von-inhalten-durch-super-spreader"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Filterblasen+Medienpsychologie+Werbung&t=1721"
@@ -328,6 +363,11 @@ export const medienTopics: Record<string, MedienTopic> = {
         "id": "oekologischer-fussabdruck-von-serverfarmen-und-streaming",
         "title": "Ökologischer Fußabdruck von Serverfarmen und Streaming",
         "folder": "oekologischer-fussabdruck-von-serverfarmen-und-streaming"
+      },
+      {
+        "id": "audiofeeds-podcasts",
+        "title": "Audioinhalte & Podcasts – Verbreitung und RSS-Feeds",
+        "folder": "technische-verbreitung-von-audioinhalten-und-feeds"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=TikTok+Social+Media+Streaming&t=1721"
@@ -375,6 +415,11 @@ export const medienTopics: Record<string, MedienTopic> = {
         "id": "ursula-poznanski-thriller-zwischen-realitaet-und-gaming",
         "title": "Ursula Poznanski – Thriller zwischen Realität und Gaming",
         "folder": "ursula-poznanski-thriller-zwischen-realitaet-und-gaming"
+      },
+      {
+        "id": "transmedia-storytelling",
+        "title": "Transmedia Storytelling – Geschichten auf vielen Kanälen",
+        "folder": "transmedia-storytelling-geschichten-auf-vielen-kanaelen"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Gaming+Videospiele+Esports&t=1721"
@@ -583,6 +628,11 @@ export const medienTopics: Record<string, MedienTopic> = {
         "id": "2604",
         "title": "Die Rolle von Medien in sozialen Bewegungen",
         "folder": "die-rolle-von-medien-in-sozialen-bewegungen-2604"
+      },
+      {
+        "id": "handyverbot-schule",
+        "title": "Mediennutzung in der Schule – Debatte um Handyverbote",
+        "folder": "handy-verbot-im-klassenzimmer-die-radikale-loesung-fuer-bessere-noten"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Medien+und+Gesellschaft&t=1721"

@@ -42,6 +42,7 @@ export const metadata: Metadata = {
 
 export default function MedienOverviewPage() {
   const allTopics = Object.values(medienTopics);
+  const totalExercises = allTopics.reduce((sum, t) => sum + (t.exercises?.length || 0), 0);
 
   return (
     <div className="site-wrapper">
@@ -57,7 +58,7 @@ export default function MedienOverviewPage() {
               Medienkompetenz, Kommunikation und Informationsgesellschaft: Von der Geschichte der Massenmedien (Buchdruck, Fotografie, Film, TV, Videospiele) über Medien in Wissenschaft, Kunst, Medizin und Wirtschaft bis hin zu Berichterstattung in Krisen, Zensur, Medienrecht und Datenschutz.
             </p>
             <p className="math-page-note">
-              Mit über 80 interaktiven H5P-Übungen zu Fake News, Fact-Checking, Social-Media-Algorithmen, Gaming, Journalismus und Medienrecht.
+              Mit {totalExercises} interaktiven H5P-Übungen zu Fake News, Fact-Checking, Social-Media-Algorithmen, Gaming, Journalismus und Medienrecht.
             </p>
           </div>
           <div className="math-mascot">
