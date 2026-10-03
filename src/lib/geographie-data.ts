@@ -263,6 +263,21 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "5659",
         "title": "Die Donau in Österreich",
         "folder": "die-donau-in-sterreich-5659"
+      },
+      {
+        "id": "aut-gew-5",
+        "title": "Die Thaya – Grenzfluss und Nationalpark Thayatal",
+        "folder": "die-thaya-5693"
+      },
+      {
+        "id": "aut-gew-6",
+        "title": "Der Kamp – Waldviertler Stauseen",
+        "folder": "der-kamp-5637"
+      },
+      {
+        "id": "aut-gew-4",
+        "title": "Die March – Grenzfluss zu Slowakei und Mähren",
+        "folder": "die-march-5682"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=donau+oesterreich&t=3752"
@@ -271,12 +286,12 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "slug": "oesterreich-niederoesterreich",
     "title": "Niederösterreich: Regionen, Viertel & Städte",
     "category": "Österreich & Alpenraum",
-    "shortDesc": "Die 4 Viertel (Wald-, Wein-, Most-, Industrieviertel), Wachau, Marchfeld, St. Pölten und Regionalstädte.",
+    "shortDesc": "Die 4 Viertel (Wald-, Wein-, Most-, Industrieviertel), Wachau, Marchfeld, St. Pölten, Wiener Neustadt und Regionalstädte.",
     "longDesc": "Niederösterreich ist das flächenmäßig größte Bundesland Österreichs. Es umgibt die Bundeshauptstadt Wien und gliedert sich traditionell in vier Viertel: Vom Granithochland des Waldviertels über das Lösshügelland des Weinviertels bis zum alpinen Mostviertel und dem Industrieviertel.",
     "keyPoints": [
       "Vier Viertel: Waldviertel, Weinviertel, Mostviertel, Industrieviertel",
       "Kultur- & Naturräume: Die Wachau (UNESCO-Welterbe), Marchfeld und Nationalpark Thayatal",
-      "Städte & Zentren: Landeshauptstadt St. Pölten, Krems, Amstetten, Mödling, Klosterneuburg, Schwechat, Tulln, Perchtoldsdorf, Ternitz"
+      "Städte & Zentren: Landeshauptstadt St. Pölten, Wiener Neustadt, Krems, Amstetten, Mödling, Klosterneuburg, Schwechat, Tulln"
     ],
     "exercises": [
       {
@@ -330,39 +345,24 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "folder": "nationalpark-thayatal-5718"
       },
       {
-        "id": "aut-gew-5",
-        "title": "Die Thaya – Grenzfluss und Nationalpark Thayatal",
-        "folder": "die-thaya-5693"
-      },
-      {
-        "id": "aut-gew-6",
-        "title": "Der Kamp – Waldviertler Stauseen",
-        "folder": "der-kamp-5637"
-      },
-      {
-        "id": "aut-gew-4",
-        "title": "Die March – Grenzfluss zu Slowakei und Mähren",
-        "folder": "die-march-5682"
-      },
-      {
         "id": "5581",
         "title": "Baden bei Wien",
         "folder": "baden-bei-wien-2-5581"
       },
       {
+        "id": "aut-st-wn",
+        "title": "Wiener Neustadt – Statutarstadt im Steinfeld",
+        "folder": "wiener-neustadt-1440"
+      },
+      {
         "id": "5710",
-        "title": "Krems an der Donau",
+        "title": "Krems an der Donau – Stadt und Tor zur Wachau",
         "folder": "krems-an-der-donau-5710"
       },
       {
         "id": "aut-st-1",
         "title": "Amstetten – Zentralort im Mostviertel",
         "folder": "amstetten-2-5580"
-      },
-      {
-        "id": "aut-st-2",
-        "title": "Krems – Stadt an der Donau",
-        "folder": "krems-1720"
       },
       {
         "id": "aut-st-3",
@@ -1257,101 +1257,6 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=wien+geographie&t=3752"
-  },
-  "wiener-neustadt-stadtportraet": {
-    "slug": "wiener-neustadt-stadtportraet",
-    "title": "Wiener Neustadt: Porträt & Stadtgeschichte",
-    "category": "Österreich & Alpenraum",
-    "shortDesc": "Zweitgrößte Stadt Niederösterreichs: Gründung 1194, Theresianische Militärakademie und Sehenswürdigkeiten.",
-    "longDesc": "Wiener Neustadt wurde 1194 als befestigte Grenzstadt gegründet. Kaiser Maximilian I. fand hier seine Grabstätte.",
-    "keyPoints": [
-      "Gründung 1194 mit dem Lösegeld Richards Löwenherz",
-      "Theresianische Militärakademie: Gegründet 1751 durch Maria Theresia",
-      "Maximilian I. und die St. Georgs-Kathedrale"
-    ],
-    "exercises": [
-      {
-        "id": "5729",
-        "title": "Wiener Neustadt - Überblick",
-        "folder": "wiener-neustadt-3-5729"
-      },
-      {
-        "id": "5730",
-        "title": "Wiener Neustadt - Geschichte",
-        "folder": "wiener-neustadt-4-5730"
-      },
-      {
-        "id": "5731",
-        "title": "Wiener Neustadt - Sehenswürdigkeiten",
-        "folder": "wiener-neustadt-5-5731"
-      },
-      {
-        "id": "5732",
-        "title": "Wiener Neustadt - Wirtschaft & Kultur",
-        "folder": "wiener-neustadt-6-5732"
-      },
-      {
-        "id": "5728",
-        "title": "Wiener Neustadt",
-        "folder": "wiener-neustadt-2-5728"
-      }
-    ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=wiener+neustadt&t=3752"
-  },
-  "wiener-neustadt-vertiefung": {
-    "slug": "wiener-neustadt-vertiefung",
-    "title": "Wiener Neustadt: Stadtentwicklung & Vertiefung",
-    "category": "Österreich & Alpenraum",
-    "shortDesc": "Industriegeschichte, Mobilität, Bildungsstandort und vertiefende Erkundungen Wiener Neustadts.",
-    "longDesc": "Vom traditionsreichen Industriestandort für Lokomotiven und Luftfahrt hat sich Wiener Neustadt zur modernen Schul-, Forschungs- und Technologiestadt entwickelt.",
-    "keyPoints": [
-      "Industrielle Entwicklung im Steinfeld",
-      "Moderner Forschungsstandort: MedAustron und Fachhochschulen",
-      "Verkehrsknotenpunkt im südlichen Niederösterreich"
-    ],
-    "exercises": [
-      {
-        "id": "5734",
-        "title": "Wiener Neustadt",
-        "folder": "wiener-neustadt-8-5734"
-      },
-      {
-        "id": "wn-v-7",
-        "title": "Wiener Neustadt – Bildungs- und Schulstadt",
-        "folder": "wiener-neustadt-7-5733"
-      },
-      {
-        "id": "wn-v-9",
-        "title": "Wiener Neustadt – Verkehr und Mobilität",
-        "folder": "wiener-neustadt-9-5735"
-      },
-      {
-        "id": "wn-v-10",
-        "title": "Wiener Neustadt – Stadtviertel & Grünräume",
-        "folder": "wiener-neustadt-10-5736"
-      },
-      {
-        "id": "wn-v-11",
-        "title": "Wiener Neustadt – Sport und Freizeit",
-        "folder": "wiener-neustadt-11-5737"
-      },
-      {
-        "id": "wn-v-12",
-        "title": "Wiener Neustadt – Moderne Entwicklung",
-        "folder": "wiener-neustadt-12-5738"
-      },
-      {
-        "id": "wn-v-13",
-        "title": "Wiener Neustadt – Kirchen und Denkmäler",
-        "folder": "wiener-neustadt-13-5739"
-      },
-      {
-        "id": "wn-v-14",
-        "title": "Wiener Neustadt – Wissenstest & Zusammenfassung",
-        "folder": "wiener-neustadt-14-5740"
-      }
-    ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=wiener+neustadt&t=3752"
   },
   "geographie-deutschlands": {
     "slug": "geographie-deutschlands",
