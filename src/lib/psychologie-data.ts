@@ -69,6 +69,22 @@ export const psychologieTopics: Record<string, PsychologieTopic> = {
         "title": "Psychologische Forschungsethik",
         "folder": "psychologische-forschungsethik-2744"
       }
+    ,
+      {
+        "id": "2700",
+        "title": "Der Placebo-Effekt und seine Mechanismen",
+        "folder": "der-placebo-effekt-und-seine-mechanismen-2700"
+      },
+      {
+        "id": "2708",
+        "title": "Die Rolle von Erwartungen in der Placebo-Wirkung",
+        "folder": "die-rolle-von-erwartungen-in-der-placebo-wirkung-2708"
+      },
+      {
+        "id": "9200",
+        "title": "Wie funktioniert der Placebo-Effekt",
+        "folder": "wie-funktioniert-der-placebo-effekt"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Psychologie+Grundlagen+Forschungsmethoden&t=3752"
   },
@@ -121,6 +137,17 @@ export const psychologieTopics: Record<string, PsychologieTopic> = {
         "id": "einfuhrung-in-evolutionspsychologie-5760",
         "title": "Einführung in die Evolutionspsychologie",
         "folder": "einfuhrung-in-evolutionspsychologie-5760"
+      }
+    ,
+      {
+        "id": "2161",
+        "title": "Neurobiologie der Sucht: Dopamin-Regulation",
+        "folder": "die-rolle-der-dopamin-regulation-bei-sucht-2161"
+      },
+      {
+        "id": "2082",
+        "title": "Psychoneuroimmunologie: Immunsystem und Stress",
+        "folder": "immunsystem-und-stress-2082"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Biopsychologie+Neuropsychologie&t=3752"
@@ -206,6 +233,17 @@ export const psychologieTopics: Record<string, PsychologieTopic> = {
         "id": "grundlagen-padagogischer-psychologie-5937",
         "title": "Grundlagen pädagogischer Psychologie",
         "folder": "grundlagen-padagogischer-psychologie-5937"
+      }
+    ,
+      {
+        "id": "3977",
+        "title": "Iwan Pawlow (Klassische Konditionierung)",
+        "folder": "ivan-pavlov-3977"
+      },
+      {
+        "id": "9201",
+        "title": "Kognitionspsychologie des Lesens",
+        "folder": "die-psychologie-des-lesens-was-im-kopf-passiert"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Kognitive+Psychologie+Lernen+Gedaechtnis&t=3752"
@@ -306,6 +344,32 @@ export const psychologieTopics: Record<string, PsychologieTopic> = {
         "title": "Förderung der Selbstwirksamkeit",
         "folder": "forderung-der-selbstwirksamkeit-5796"
       }
+    ,
+      {
+        "id": "5847",
+        "title": "Motivation und emotionale Prozesse",
+        "folder": "motivation-und-emotionale-prozesse-5847"
+      },
+      {
+        "id": "4433",
+        "title": "Emotionale Intelligenz und soziale Kompetenz",
+        "folder": "emotionale-intelligenz-und-soziale-kompetenz-4433"
+      },
+      {
+        "id": "5797",
+        "title": "Förderung emotionaler Intelligenz",
+        "folder": "forderung-emotionaler-intelligenz-5797"
+      },
+      {
+        "id": "789",
+        "title": "Emotionsarbeit: Regulierung von Gefühlen",
+        "folder": "emotionsarbeit-789"
+      },
+      {
+        "id": "799",
+        "title": "Techniken der Emotionsarbeit",
+        "folder": "techniken-der-emotionsarbeit-799"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Motivation+Emotion+Intelligenz+Psychologie&t=3752"
   },
@@ -402,6 +466,22 @@ export const psychologieTopics: Record<string, PsychologieTopic> = {
         "title": "Feministische Psychologieansätze",
         "folder": "feministische-psychologie-2714"
       }
+    ,
+      {
+        "id": "3183",
+        "title": "Selbstreflexion und Selbstwahrnehmung",
+        "folder": "selbstreflexion-3183"
+      },
+      {
+        "id": "5889",
+        "title": "Selbstreflexion und Sinnfindung",
+        "folder": "selbstreflexion-und-sinn-5889"
+      },
+      {
+        "id": "3132",
+        "title": "Selbstkonzept: Die Kunst der Selbstreflexion",
+        "folder": "wer-bin-ich-die-kunst-der-selbstreflexion-3132"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Persoenlichkeitspsychologie+Big+Five&t=3752"
   },
@@ -444,6 +524,12 @@ export const psychologieTopics: Record<string, PsychologieTopic> = {
         "id": "einfuhrung-in-generationenpsychologie-5762",
         "title": "Einführung in die Generationenpsychologie",
         "folder": "einfuhrung-in-generationenpsychologie-5762"
+      }
+    ,
+      {
+        "id": "5757",
+        "title": "Einführung in die Bindungstheorie (Bowlby & Ainsworth)",
+        "folder": "einfuhrung-in-bindungstheorie-5757"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Entwicklungspsychologie+Piaget+Erikson&t=3752"
@@ -620,6 +706,17 @@ export const psychologieTopics: Record<string, PsychologieTopic> = {
         "title": "Vergleichende Psychologie & Tierverhalten",
         "folder": "einfuhrung-in-vergleichende-psychologie-5779"
       }
+    ,
+      {
+        "id": "5778",
+        "title": "Einführung in die Umweltpsychologie",
+        "folder": "einfuhrung-in-umweltpsychologie-5778"
+      },
+      {
+        "id": "9202",
+        "title": "Wirtschaftspsychologie: Preispsychologie",
+        "folder": "preispsychologie-und-schwellenpreise"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Sportpsychologie+Rehabilitation+Psychologie&t=3752"
   },
@@ -672,6 +769,32 @@ export const psychologieTopics: Record<string, PsychologieTopic> = {
         "id": "sucht-und-drogen-die-abschreckende-wirkung-von-buechern",
         "title": "Sucht, Drogen & Abhängigkeit",
         "folder": "sucht-und-drogen-die-abschreckende-wirkung-von-buechern"
+      }
+    ,
+      {
+        "id": "2157",
+        "title": "Sucht und Abhängigkeit: Mechanismen und Symptome",
+        "folder": "sucht-und-abhangigkeit-mechanismen-und-symptome-2157"
+      },
+      {
+        "id": "2162",
+        "title": "Verhaltenssüchte: Glücksspiel und Internet",
+        "folder": "verhaltenssuchte-glucksspiel-und-internet-2162"
+      },
+      {
+        "id": "1267",
+        "title": "Digitale Mediensucht und Handysucht",
+        "folder": "handysucht-1267"
+      },
+      {
+        "id": "3527",
+        "title": "Drogenmissbrauch und Suchtprävention",
+        "folder": "drogenmissbrauch-und-suchtpravention-3527"
+      },
+      {
+        "id": "5894",
+        "title": "Strategien zur Suchtprävention",
+        "folder": "strategien-zur-suchtpravention-5894"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Klinische+Psychologie+Stoerungen+Therapie&t=3752"
@@ -810,6 +933,12 @@ export const psychologieTopics: Record<string, PsychologieTopic> = {
         "title": "Grundlagen der Paartherapie",
         "folder": "grundlagen-der-paartherapie-5816"
       }
+    ,
+      {
+        "id": "5812",
+        "title": "Grundlagen der Kunsttherapie",
+        "folder": "grundlagen-der-kunsttherapie-5812"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Psychotherapie+Systemisch+Beratung&t=3752"
   },
@@ -868,6 +997,22 @@ export const psychologieTopics: Record<string, PsychologieTopic> = {
         "title": "Virtuelle Realität in der Psychologie",
         "folder": "virtuelle-realitat-in-psychologie-5909"
       }
+    ,
+      {
+        "id": "5919",
+        "title": "Einführung in Achtsamkeit (Mindfulness)",
+        "folder": "einfuhrung-in-achtsamkeit-5919"
+      },
+      {
+        "id": "2728",
+        "title": "Achtsamkeitsbasierte Methoden",
+        "folder": "mindfulness-und-achtsamkeit-2728"
+      },
+      {
+        "id": "5835",
+        "title": "Meditation und Entspannungstechniken",
+        "folder": "meditation-und-entspannung-5835"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Positive+Psychologie+Resilienz+Cyberpsychologie&t=3752"
   },
@@ -910,6 +1055,17 @@ export const psychologieTopics: Record<string, PsychologieTopic> = {
         "id": "selbstwahrnehmung-2-3302",
         "title": "Selbstreflexion & Mentale Balance",
         "folder": "selbstwahrnehmung-2-3302"
+      }
+    ,
+      {
+        "id": "5798",
+        "title": "Förderung von Resilienz",
+        "folder": "forderung-von-resilienz-5798"
+      },
+      {
+        "id": "791",
+        "title": "Resilienztraining im Alltag",
+        "folder": "reflexion-und-resilienztraining-791"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Stress+Resilienz+Burnout+Psychologie&t=3752"
