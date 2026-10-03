@@ -1,4 +1,4 @@
-export interface H5PExercise {
+export interface VerkehrExercise {
   id: string;
   title: string;
   folder: string;
@@ -11,11 +11,11 @@ export interface VerkehrTopic {
   shortDesc: string;
   longDesc: string;
   keyPoints: string[];
-  exercises: H5PExercise[];
+  exercises: VerkehrExercise[];
   worksheetLink?: string;
 }
 
-export const verkehrCategories = [
+export const verkehrCategories: string[] = [
   "Fahrradausstattung & Sicherheit",
   "Verkehrsregeln, Schilder & Vorfahrt",
   "Gefahren, Unfallverhütung & Toter Winkel",
@@ -56,7 +56,6 @@ export const verkehrTopics: Record<string, VerkehrTopic> = {
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=fahrradpruefung+ausstattung&t=3752"
   },
-
   "verkehrsflaechen-und-radwege": {
     "slug": "verkehrsflaechen-und-radwege",
     "title": "Verkehrsflächen, Radwege & Gehwege",
@@ -89,19 +88,18 @@ export const verkehrTopics: Record<string, VerkehrTopic> = {
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=verkehrsflaechen+radweg&t=3752"
   },
-
-  "verkehrszeichen-und-schilder": {
-    "slug": "verkehrszeichen-und-schilder",
-    "title": "Wichtige Verkehrszeichen & Beschilderung",
+  "verkehrsregeln-schilder-und-vorfahrt": {
+    "slug": "verkehrsregeln-schilder-und-vorfahrt",
+    "title": "Verkehrsregeln, Schilder, Vorfahrt & Kreuzungen",
     "category": "Verkehrsregeln, Schilder & Vorfahrt",
-    "shortDesc": "Gefahrzeichen (Dreiecke), Vorschriftzeichen (Rund), Richtzeichen (Eckig), Zusatzschilder und Schnellstraßen.",
-    "longDesc": "Verkehrsschilder regeln das sichere Miteinander auf den Straßen. Farben und Formen signalisieren ihre Funktion: Rot bedeutet Gefahr oder Verbot, Blau signalisiert Gebote oder vorgeschriebene Sonderwege für Radfahrer.",
+    "shortDesc": "Rechts vor Links, Vorfahrtschilder, Ampeln, Kreisverkehr, Linksabbiegen und Verkehrszeichen für Radfahrer.",
+    "longDesc": "Verkehrsschilder und klare Vorfahrtsregeln sichern das Miteinander im Straßenverkehr: Von der Grundregel \"Rechts vor Links\" über Vorfahrtsstraßen, Stoppschilder und Ampelanlagen bis zum sicheren Linksabbiegen und Kreisverkehren.",
     "keyPoints": [
-      "Gefahrzeichen (Dreieckig mit rotem Rand): Mahnen zu erhöhter Aufmerksamkeit und Bremsbereitschaft (z. B. Baustelle, Fußgängerüberweg)",
-      "Gebotszeichen (Rund, blau): Radwegbenutzungspflicht (Zeichen 237), gemeinsamer oder getrennter Geh- und Radweg",
-      "Verbotszeichen (Rund mit rotem Rand): Verbot für Radfahrer (Zeichen 254), Verbot der Einfahrt (Einbahnstraße) – außer Zusatzschild 'Radfahrer frei'",
-      "Vorfahrtregelnde Schilder: Vorfahrtstraße (gelbes Quadrat), Vorfahrt gewähren (weißes Dreieck auf der Spitze), Halt! Vorfahrt gewähren (Stoppschild)",
-      "Fernstraßen: Autobahnen und Kraftfahrstraßen sind für Fahrräder streng verboten"
+      "Grundregel \"Rechts vor Links\": Gilt an allen Kreuzungen und Einmündungen ohne vorfahrtregelnde Schilder oder Ampeln",
+      "Vorfahrtregelnde Verkehrszeichen: Vorfahrtstraße (Zeichen 306), Vorfahrt gewähren (Zeichen 205) und Stoppschild (Zeichen 206)",
+      "Kreisverkehr: Fahrzeuge im Kreis haben in der Regel Vorfahrt; beim Verlassen muss zwingend geblinkt bzw. Handzeichen gegeben werden",
+      "Sicheres Abbiegen: Umschauen, deutliches Handzeichen, Einordnen zur Fahrbahnmitte und Vorrang des Gegenverkehrs beachten",
+      "Verkehrszeichen & Beschilderung: Gefahrzeichen (Dreiecke), Gebotszeichen (blau) und Verbotszeichen (rot umrandet)"
     ],
     "exercises": [
       {
@@ -113,24 +111,7 @@ export const verkehrTopics: Record<string, VerkehrTopic> = {
         "id": "die-rolle-von-autobahnen-und-schnellstraesen-in-der-raumplanung-5467",
         "title": "Autobahnen, Schnellstraßen & Beschilderung",
         "folder": "die-rolle-von-autobahnen-und-schnellstraesen-in-der-raumplanung-5467"
-      }
-    ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=verkehrszeichen+fahrrad&t=3752"
-  },
-
-  "vorfahrtsregeln-und-vorrang": {
-    "slug": "vorfahrtsregeln-und-vorrang",
-    "title": "Vorfahrtsregeln & Vorrang",
-    "category": "Verkehrsregeln, Schilder & Vorfahrt",
-    "shortDesc": "Rechts vor Links, Vorfahrt an Schildern, Ampeln, Vorrang beim Abbiegen und Verkehrsachsen.",
-    "longDesc": "Wer darf zuerst fahren? Die Vorfahrtsregelung verhindert Kollisionen an Kreuzungen und Einmündungen. Wenn weder Ampeln noch Schilder die Vorfahrt regeln, gilt uneingeschränkt die Grundregel 'Rechts vor Links'.",
-    "keyPoints": [
-      "Grundregel 'Rechts vor Links': Gilt an allen Kreuzungen und Einmündungen ohne Schilder oder Ampeln – Vorfahrt hat das von rechts kommende Fahrzeug",
-      "Vorfahrtstraße (Zeichen 306): Wer sich auf der Vorfahrtstraße befindet, hat Vorfahrt bis zum Aufhebungszeichen",
-      "Stoppschild (Zeichen 206): Unbedingte Haltepflicht an der Haltelinie (mindestens 3 Sekunden Stillstand mit Bodenkontakt)",
-      "Vorrang beim Abbiegen: Wer links abbiegen möchte, muss Gegenverkehr und kreuzende Fußgänger durchlassen"
-    ],
-    "exercises": [
+      },
       {
         "id": "878",
         "title": "Sicher Radfahren – Vorrangregeln",
@@ -140,24 +121,7 @@ export const verkehrTopics: Record<string, VerkehrTopic> = {
         "id": "die-bedeutung-von-verkehrsachsen-fur-wirtschaft-und-siedlungsentwicklung-5453",
         "title": "Verkehrsachsen, Hauptstraßen & Vorrang",
         "folder": "die-bedeutung-von-verkehrsachsen-fur-wirtschaft-und-siedlungsentwicklung-5453"
-      }
-    ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=vorfahrt+fahrradpruefung&t=3752"
-  },
-
-  "spezielle-kreuzungen-und-kreisverkehr": {
-    "slug": "spezielle-kreuzungen-und-kreisverkehr",
-    "title": "Spezielle Kreuzungen, Kreisverkehr & Linksabbiegen",
-    "category": "Verkehrsregeln, Schilder & Vorfahrt",
-    "shortDesc": "Kreisverkehr, abknickende Vorfahrt, Linksabbiegen in 8 Schritten und topografische Kreuzungsbauwerke.",
-    "longDesc": "Kreisverkehre, abknickende Vorfahrtsstraßen und das Linksabbiegen erfordern besondere Aufmerksamkeit. Das richtige Einordnen und klare Handzeichen sind entscheidend für die Sicherheit aller Verkehrsteilnehmer.",
-    "keyPoints": [
-      "Kreisverkehr: Fahrzeuge im Kreisverkehr haben Vorfahrt; kein Handzeichen beim Einfahren, aber zwingend Handzeichen beim Verlassen des Kreisverkehrs",
-      "Abknickende Vorfahrt: Wer dem Verlauf der Vorfahrtstraße folgt, muss Handzeichen geben; wer sie verlässt, muss Vorrang gewähren",
-      "Linksabbiegen in 8 Schritten: Umschauen ➔ Handzeichen links ➔ Zur Fahrbahnmitte einordnen ➔ Vorfahrt von rechts prüfen ➔ Fußgänger beachten ➔ Gegenverkehr durchlassen ➔ Im weiten Bogen abbiegen ➔ Rechts einordnen",
-      "Indirektes Linksabbiegen: Auf stark befahrenen Kreuzungen geradeaus überqueren, anhalten und im rechten Winkel mit dem Querverkehr weiterfahren"
-    ],
-    "exercises": [
+      },
       {
         "id": "877",
         "title": "Sicher Radfahren – Spezielle Kreuzungen",
@@ -169,9 +133,8 @@ export const verkehrTopics: Record<string, VerkehrTopic> = {
         "folder": "der-einfluss-topografischer-gegebenheiten-auf-verkehrswege-5442"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=kreisverkehr+linksabbiegen+fahrrad&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=verkehrsregeln+vorfahrt+fahrrad&t=3752"
   },
-
   "gefaehrliche-situationen-und-toter-winkel": {
     "slug": "gefaehrliche-situationen-und-toter-winkel",
     "title": "Gefahrensituationen, Toter Winkel & Unfallverhütung",
@@ -203,7 +166,6 @@ export const verkehrTopics: Record<string, VerkehrTopic> = {
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=toter+winkel+fahrrad&t=3752"
   },
-
   "schienenverkehr-und-bahnnetze": {
     "slug": "schienenverkehr-und-bahnnetze",
     "title": "Schienenverkehr, Bahn & Magnetschwebebahn",
@@ -256,7 +218,6 @@ export const verkehrTopics: Record<string, VerkehrTopic> = {
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Eisenbahn+Schienenverkehr+Mobilitaet&t=3752"
   },
-
   "automobil-und-elektromobilitaet": {
     "slug": "automobil-und-elektromobilitaet",
     "title": "Automobil & Elektromobilität",
@@ -293,7 +254,6 @@ export const verkehrTopics: Record<string, VerkehrTopic> = {
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Elektromobilitaet+Autoindustrie+Verkehr&t=3752"
   },
-
   "nachhaltige-mobilitaet-und-logistik": {
     "slug": "nachhaltige-mobilitaet-und-logistik",
     "title": "Nachhaltige Mobilität, Verkehrspolitik & Globale Logistik",
