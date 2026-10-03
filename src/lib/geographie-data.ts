@@ -1,21 +1,21 @@
-export interface H5PExercise {
+export interface GeoExercise {
   id: string;
   title: string;
   folder: string;
 }
 
-export interface GeographieTopic {
+export interface GeoTopic {
   slug: string;
   title: string;
   category: string;
   shortDesc: string;
   longDesc: string;
   keyPoints: string[];
-  exercises: H5PExercise[];
+  exercises: GeoExercise[];
   worksheetLink?: string;
 }
 
-export const geographieCategories = [
+export const geographieCategories: string[] = [
   "Österreich & Alpenraum",
   "Deutschland",
   "Die Schweiz",
@@ -25,7 +25,7 @@ export const geographieCategories = [
   "Kultur-, Stadt- & Wirtschaftsgeographie"
 ];
 
-export const geographieTopics: Record<string, GeographieTopic> = {
+export const geographieTopics: Record<string, GeoTopic> = {
   "geographie-oesterreichs": {
     "slug": "geographie-oesterreichs",
     "title": "Geographie Österreichs: Topographie & Staat",
@@ -80,11 +80,6 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "folder": "wirtschaft-in-sterreich-494"
       },
       {
-        "id": "499",
-        "title": "Bevölkerung Österreichs",
-        "folder": "bevolkerung-sterreichs-2-499"
-      },
-      {
         "id": "2061",
         "title": "Bevölkerungsentwicklung in Österreich",
         "folder": "bevolkerungsentwicklung-in-sterreich-2061"
@@ -113,11 +108,6 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "496",
         "title": "Klima und Wetter Österreichs",
         "folder": "klima-und-wetter-sterreichs-496"
-      },
-      {
-        "id": "aut-kl-1",
-        "title": "Klima und Wetter Österreichs",
-        "folder": "klima-und-wetter-sterreichs-2-498"
       },
       {
         "id": "aut-lw-1",
@@ -1116,11 +1106,6 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "folder": "der-wiener-zentralfriedhof-5652"
       },
       {
-        "id": "5695",
-        "title": "Die UNO-City Wien",
-        "folder": "die-uno-city-wien-5695"
-      },
-      {
         "id": "wien-bb-1",
         "title": "Das Schloss Schönbrunn – Kaiserliche Sommerresidenz",
         "folder": "das-schloss-schonbrunn-5615"
@@ -1234,7 +1219,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "6134",
         "title": "Wien",
         "folder": "wien-3-6134"
-      },
+      },
       {
         "id": "wien-inf-1",
         "title": "Der Wiener Prater & Riesenrad",
@@ -1254,6 +1239,11 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "wien-inf-4",
         "title": "Wien – Bundesland und Bundeshauptstadt",
         "folder": "wien-482"
+      },
+      {
+        "id": "5695",
+        "title": "Die UNO-City Wien (VIC & Donau City)",
+        "folder": "die-uno-city-wien-5695"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=wien+geographie&t=3752"
@@ -3049,7 +3039,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "6376",
         "title": "Geologie und Gebirge der Schweiz",
         "folder": "geologie-und-gebirge-der-schweiz-6376"
-      },
+      },
       {
         "id": "ch-alp-1",
         "title": "Die Mont-Blanc-Gruppe – Westalpen-Massiv im Dreiländereck",
@@ -3535,7 +3525,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "123",
-        "title": "Sudeuropa",
+        "title": "Südeuropa – Bildpaare",
         "folder": "sudeuropa-123"
       },
       {
@@ -4976,11 +4966,6 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "5567",
         "title": "Vulkane, Erdbeben und Tsunamis - Naturgewalten in Asien",
         "folder": "vulkane-erdbeben-und-tsunamis-naturgewalten-in-asien-5567"
-      },
-      {
-        "id": "5539",
-        "title": "Asiens Klimaextreme: Monsun, Trockenheit & arktische Bedingungen",
-        "folder": "asiens-klimaextreme-monsun-trockenheit-und-arktische-bedingungen-2-5539"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=suedostasien&t=3752"
