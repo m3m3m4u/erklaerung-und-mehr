@@ -93,6 +93,27 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "title": "Geschichte des Strafrechts & Rechtsstaatlichkeit",
         "folder": "die-nuklearkatastrophe-von-tschernobyl-11-2357"
       }
+    ,
+      {
+        "id": "6488",
+        "title": "Der globale Kampf zwischen Demokratie und Autokratie",
+        "folder": "der-globale-kampf-zwischen-demokratie-und-autokratie-6488"
+      },
+      {
+        "id": "3594",
+        "title": "Klassische Staatstheorien (Hobbes, Locke, Rousseau, Weber)",
+        "folder": "theorien-des-staates-staatsverstandnisse-von-hobbes-locke-rousseau-marx-weber-3594"
+      },
+      {
+        "id": "945",
+        "title": "Die Verfassungsorgane der Bundesrepublik",
+        "folder": "verfassungsorgane-2-945"
+      },
+      {
+        "id": "5882",
+        "title": "Grundlagen der politischen Philosophie",
+        "folder": "politische-philosophie-grundlagen-5882"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=demokratie+grundgesetz&t=3752"
   },
@@ -139,6 +160,17 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "id": "2783",
         "title": "Die Theorie der politischen Gerechtigkeit von Rawls",
         "folder": "die-theorie-der-politischen-gerechtigkeit-von-rawls-2783"
+      }
+    ,
+      {
+        "id": "2861",
+        "title": "Menschenrechte und ihre universelle Bedeutung",
+        "folder": "menschenrechte-und-ihre-bedeutung-2861"
+      },
+      {
+        "id": "3597",
+        "title": "Die UN-Kinderrechtskonvention",
+        "folder": "un-kinderrechtskonvention-3597"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=menschenrechte&t=3752"
@@ -212,6 +244,22 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "title": "Der Islamische Gottesstaat Iran",
         "folder": "der-islamische-gottesstaat-iran-2920"
       }
+    ,
+      {
+        "id": "2768",
+        "title": "Moral und Gesetzgebung im demokratischen Staat",
+        "folder": "die-debatte-um-moral-und-gesetzgebung-2768"
+      },
+      {
+        "id": "5787",
+        "title": "Ethik in der Politik",
+        "folder": "ethik-in-der-politik-5787"
+      },
+      {
+        "id": "5874",
+        "title": "Philosophie und politische Ordnung",
+        "folder": "philosophie-und-politik-5874"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=politische+systeme&t=3752"
   },
@@ -273,6 +321,12 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "id": "abwehrschlacht-gegen-radikale-strategien-gegen-extremismus-im-netz",
         "title": "Abwehrschlacht gegen Radikale – Strategien gegen Extremismus im Netz",
         "folder": "abwehrschlacht-gegen-radikale-strategien-gegen-extremismus-im-netz"
+      }
+    ,
+      {
+        "id": "6480",
+        "title": "Der Aufstieg des Populismus in Europa",
+        "folder": "der-aufstieg-des-politischen-populismus-in-europa-6480"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=populismus+extremismus&t=3752"
@@ -336,6 +390,12 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "id": "die-bundesversammlung-in-deutschland",
         "title": "Die Bundesversammlung in Deutschland",
         "folder": "die-bundesversammlung-in-deutschland"
+      }
+    ,
+      {
+        "id": "3119",
+        "title": "Die Nationalratswahl 2024 in Österreich",
+        "folder": "die-nationalratswahl-2024-in-sterreich-3119"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=wahlsystem+bundestagswahl&t=3752"
@@ -408,6 +468,17 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "id": "das-manifest-der-rechten-ein-tiefer-blick-in-das-afd-programm",
         "title": "Das Manifest der Rechten – Ein tiefer Blick in das AfD-Programm",
         "folder": "das-manifest-der-rechten-ein-tiefer-blick-in-das-afd-programm"
+      }
+    ,
+      {
+        "id": "6391",
+        "title": "Das Parteiensystem in der Schweiz",
+        "folder": "politische-parteien-in-der-schweiz-6391"
+      },
+      {
+        "id": "2742",
+        "title": "Körpersprache und Rhetorik von Politikern",
+        "folder": "psychologische-aspekte-der-korpersprache-in-der-politik-2742"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=parteien+politiker&t=3752"
@@ -537,6 +608,12 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "title": "Die Nachrichtendienste des Bundes",
         "folder": "die-nachrichtendienste-des-bundes"
       }
+    ,
+      {
+        "id": "9100",
+        "title": "Das Amt des Bundeskanzlers",
+        "folder": "der-bundeskanzler-der-bundesrepublik-deutschland"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=staatsorgane+foederalismus&t=3752"
   },
@@ -646,6 +723,12 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "title": "Abhängigkeit Europas von ausländischen Tech-Konzernen",
         "folder": "abhaengigkeit-europas-von-auslaendischen-tech-konzernen"
       }
+    ,
+      {
+        "id": "308",
+        "title": "Entwicklung und Erweiterung der Europäischen Union",
+        "folder": "entwicklung-der-eu-308"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=europaeische+union&t=3752"
   },
@@ -668,11 +751,7 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "title": "Die UNO",
         "folder": "die-uno-953"
       },
-      {
-        "id": "3505",
-        "title": "Der UN-Sicherheitsrat",
-        "folder": "der-un-sicherheitsrat-3505"
-      },
+      
       {
         "id": "3074",
         "title": "Die Blauhelmtruppen der UNO",
@@ -744,6 +823,22 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "title": "Die Krimkrise 2015",
         "folder": "die-krimkrise-2015-2962"
       }
+    ,
+      {
+        "id": "5695",
+        "title": "Die UNO-City Wien als internationales Zentrum",
+        "folder": "die-uno-city-wien-5695"
+      },
+      {
+        "id": "9101",
+        "title": "Geopolitik: Die BRICS-Staaten und Schwellenländer",
+        "folder": "schwellenlaender-und-die-brics-staaten"
+      },
+      {
+        "id": "9102",
+        "title": "Rohstoffabhängigkeiten und Geopolitik",
+        "folder": "rohstoffabhaengigkeiten-und-geopolitik"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=uno+voelkerrecht&t=3752"
   },
@@ -801,6 +896,32 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "id": "rechtliche-aspekte-biometrischer-ueberwachung",
         "title": "Rechtliche Aspekte biometrischer Überwachung",
         "folder": "rechtliche-aspekte-biometrischer-ueberwachung"
+      }
+    ,
+      {
+        "id": "9103",
+        "title": "Deepfakes, Desinformation und digitale Wahlmanipulation",
+        "folder": "deepfakes-und-wahlbetrug-die-neue-aera-der-digitalen-manipulation"
+      },
+      {
+        "id": "9104",
+        "title": "Social-Media-Algorithmen und Meinungsbildung bei Wahlen",
+        "folder": "einfluss-von-social-media-algorithmen-auf-wahlen"
+      },
+      {
+        "id": "2605",
+        "title": "Die Rolle der Medien bei politischen Wahlen",
+        "folder": "die-rolle-von-medien-in-wahlen-2605"
+      },
+      {
+        "id": "2612",
+        "title": "Medien und Politik: Einfluss und Interaktion",
+        "folder": "medien-und-politik-einfluss-und-interaktion-2612"
+      },
+      {
+        "id": "9105",
+        "title": "Internetfreiheit vs. staatliche Zensur weltweit",
+        "folder": "internetfreiheit-und-staatliche-kontrolle-weltweit"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=pressefreiheit+medien&t=3752"
@@ -874,6 +995,27 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "id": "5543",
         "title": "Migrationstrends und ihre Auswirkungen auf Gesellschaften",
         "folder": "migrationstrends-und-ihre-auswirkungen-auf-gesellschaften-2-5543"
+      }
+    ,
+      {
+        "id": "9106",
+        "title": "Migration und der globale Arbeitsmarkt",
+        "folder": "migration-und-der-globale-arbeitsmarkt"
+      },
+      {
+        "id": "5512",
+        "title": "Migrationstrends und gesellschaftlicher Wandel",
+        "folder": "migrationstrends-und-ihre-auswirkungen-auf-gesellschaften-5512"
+      },
+      {
+        "id": "5511",
+        "title": "Migration und wirtschaftliche Entwicklung",
+        "folder": "migration-und-ihre-auswirkungen-auf-die-wirtschaftliche-entwicklung-5511"
+      },
+      {
+        "id": "5479",
+        "title": "Ursachen und Folgen von Landflucht und Urbanisierung",
+        "folder": "die-ursachen-und-folgen-von-landflucht-und-stadtischer-migration-5479"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=migration+integration&t=3752"
@@ -1073,6 +1215,27 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "title": "Auswirkungen von Plattformkapitalismus auf Arbeitsrechte",
         "folder": "auswirkungen-von-plattformkapitalismus-auf-arbeitsrechte"
       }
+    ,
+      {
+        "id": "4655",
+        "title": "Staatshaushalt und Staatsschulden",
+        "folder": "so-funktionieren-staatsschulden-4655"
+      },
+      {
+        "id": "6394",
+        "title": "Sozialstaat und Sozialpolitik in der Schweiz",
+        "folder": "sozialpolitik-in-der-schweiz-6394"
+      },
+      {
+        "id": "9107",
+        "title": "Staatliche Markteingriffe: Mindest- und Höchstpreise",
+        "folder": "staatliche-mindestpreise-und-hoechstpreise"
+      },
+      {
+        "id": "9108",
+        "title": "Zielkonflikte in der staatlichen Wirtschaftspolitik",
+        "folder": "zielkonflikte-in-der-wirtschaftspolitik"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=sozialstaat+steuern&t=3752"
   },
@@ -1143,6 +1306,22 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "id": "1134",
         "title": "Verbraucherpolitik",
         "folder": "verbraucherpolitik-1134"
+      }
+    ,
+      {
+        "id": "3554",
+        "title": "Klimapolitik und globale Herausforderungen",
+        "folder": "klimapolitik-und-ihre-herausforderungen-3554"
+      },
+      {
+        "id": "5526",
+        "title": "Verkehrspolitik zwischen Mobilität und Klimaschutz",
+        "folder": "verkehrspolitik-im-spannungsfeld-zwischen-wachstum-und-umwelt-5526"
+      },
+      {
+        "id": "6686",
+        "title": "Verhältnis von Kirche und Staat",
+        "folder": "kirche-und-politik-6686"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=ethik+widerstand&t=3752"
