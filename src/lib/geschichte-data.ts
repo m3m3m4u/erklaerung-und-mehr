@@ -22,7 +22,8 @@ export const geschichteCategories: string[] = [
   "19. Jahrhundert & Deutsches Kaiserreich",
   "Erster Weltkrieg & Zwischenkriegszeit",
   "Nationalsozialismus & Zweiter Weltkrieg",
-  "Kalter Krieg & Deutsche Teilung"
+  "Kalter Krieg & Deutsche Teilung",
+  "Weltgeschichte & Länderporträts"
 ];
 
 export const geschichteTopics: Record<string, GeschichteTopic> = {
@@ -92,8 +93,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "3359",
         "title": "Fruhgeschichte und entwicklung der erde",
         "folder": "fruhgeschichte-und-entwicklung-der-erde-3359"
-      }
-    ,
+      },
       {
         "id": "hist-urg-1",
         "title": "Afrika – Die Wiege der Menschheit",
@@ -186,8 +186,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "2303",
         "title": "Das chinesische Kaiserreich",
         "folder": "das-chinesische-kaiserreich-2303"
-      }
-    ,
+      },
       {
         "id": "hist-hk-1",
         "title": "Frühe Hochkulturen der Menschheit",
@@ -490,8 +489,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "5403",
         "title": "Was wäre, wenn das Römische Reich nie gefallen wäre –",
         "folder": "was-ware-wenn-das-romische-reich-immer-noch-existieren-wurde-5403"
-      }
-    ,
+      },
       {
         "id": "hist-rom-1",
         "title": "Pompeji und der Ausbruch des Vesuvs (79 n. Chr.)",
@@ -532,8 +530,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "3159",
         "title": "Die Burgunden",
         "folder": "die-burgunden-3159"
-      }
-    ,
+      },
       {
         "id": "hist-kelt-1",
         "title": "Die Kelten – Stammesgesellschaft und Kunst",
@@ -608,8 +605,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "5333",
         "title": "Das Mittelalter",
         "folder": "das-mittelalter-5333"
-      }
-    ,
+      },
       {
         "id": "hist-vw-1",
         "title": "Die Völkerwanderung – Ursachen und Verlauf",
@@ -682,8 +678,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "3178",
         "title": "Sprache und Schrift der Germanen",
         "folder": "sprache-und-schrift-der-germanen-3178"
-      }
-    ,
+      },
       {
         "id": "hist-wik-1",
         "title": "Die Wikinger – Seefahrt, Raubzüge und Handel",
@@ -823,8 +818,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "2307",
         "title": "Das Heilige Römische Reich",
         "folder": "das-heilige-romische-reich-2307"
-      }
-    ,
+      },
       {
         "id": "2650",
         "title": "Die Ottonen – Herrschaft und Kaisertum im Mittelalter",
@@ -961,8 +955,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "3356",
         "title": "Gesellschaftliche und soziale Umwälzungen in der frühen Neuzeit",
         "folder": "gesellschaftliche-und-soziale-umwalzungen-in-der-fruhen-neuzeit-3356"
-      }
-    ,
+      },
       {
         "id": "hist-k5-1",
         "title": "Das Weltreich Karls V. – Reich ohne Sonnenuntergang",
@@ -1044,8 +1037,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "5276",
         "title": "Die Entdeckung der Planetenbewegungen",
         "folder": "die-entdeckung-der-planetenbewegungen-5276"
-      }
-    ,
+      },
       {
         "id": "2348",
         "title": "Das Osmanische Reich: Expansion & Kultur",
@@ -1123,7 +1115,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
       },
       {
         "id": "5336",
-        "title": "Der Dreißigjährige Krieg",
+        "title": "Der Dreißigjährige Krieg (ausführlich)",
         "folder": "der-dreiesigjahrige-krieg-2-5336"
       },
       {
@@ -1135,12 +1127,16 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "2912",
         "title": "Der Augsburger Religionsfriede",
         "folder": "der-augsburger-religionsfriede-2912"
-      }
-    ,
+      },
       {
         "id": "hist-tb-1",
         "title": "Die Wiener Türkenbelagerungen (1529 & 1683)",
         "folder": "die-wiener-turkenbelagerungen-888"
+      },
+      {
+        "id": "883",
+        "title": "Der Dreißigjährige Krieg (Überblick)",
+        "folder": "der-dreiesigjahrige-krieg-883"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Reformation%2C%20Glaubensspaltung%20%26%20Drei%C3%9Figj%C3%A4hriger%20Krieg+geschichte&t=3752"
@@ -1297,8 +1293,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "5409",
         "title": "Was wäre, wenn die Französische Revolution gescheitert wäre …",
         "folder": "was-ware-wenn-die-franzosische-revolution-gescheitert-ware-5409"
-      }
-    ,
+      },
       {
         "id": "701",
         "title": "Ablauf der Französischen Revolution",
@@ -1530,8 +1525,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "6724",
         "title": "Schweizer Garde - Geschichte und Aufgaben",
         "folder": "schweizer-garde-geschichte-und-aufgaben-6724"
-      }
-    ,
+      },
       {
         "id": "hist-ch-1",
         "title": "Geschichte der Schweiz – Vom Bundesbrief zur Moderne",
@@ -1588,11 +1582,30 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "hist-usa-6",
         "title": "Bedeutende Präsidenten der USA im Überblick",
         "folder": "wichtige-prasidenten-der-usa-3338"
+      },
+      {
+        "id": "5335",
+        "title": "Der Amerikanische Bürgerkrieg",
+        "folder": "der-amerikanische-burgerkrieg-2-5335"
+      },
+      {
+        "id": "2292",
+        "title": "Andrew Jackson – der siebte Präsident der USA",
+        "folder": "andrew-jackson-der-siebte-prasident-der-usa-2292"
+      },
+      {
+        "id": "2294",
+        "title": "Die Auswanderung in die USA",
+        "folder": "auswanderung-in-die-usa-2294"
+      },
+      {
+        "id": "2971",
+        "title": "Die Prohibition in den USA (1920)",
+        "folder": "die-prohibition-in-den-usa-1920-2971"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=geschichte+usa&t=3752"
   },
-
   "industrielle-revolution-und-soziale-frage": {
     "slug": "industrielle-revolution-und-soziale-frage",
     "title": "Industrielle Revolution & die Soziale Frage",
@@ -1647,7 +1660,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
       },
       {
         "id": "5382",
-        "title": "Die Industrielle Revolution",
+        "title": "Die Industrielle Revolution (Teil 2)",
         "folder": "die-industrielle-revolution-5382"
       },
       {
@@ -1669,13 +1682,13 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "3540",
         "title": "Gewerkschaften in Deutschland",
         "folder": "gewerkschaften-in-deutschland-3540"
-      }
-    ,
+      },
       {
         "id": "330",
         "title": "Die Industrielle Revolution",
         "folder": "industrielle-revolution-330"
-      }],
+      }
+    ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Industrielle%20Revolution%20%26%20Die%20Soziale%20Frage+geschichte&t=3752"
   },
   "vormaerz-und-revolution-1848": {
@@ -1729,8 +1742,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "2343",
         "title": "Die Julirevolution",
         "folder": "die-julirevolution-2343"
-      }
-    ,
+      },
       {
         "id": "hist-zv-1",
         "title": "Der Deutsche Zollverein 1834 – Wegbereiter der Einheit",
@@ -1817,8 +1829,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "4152",
         "title": "Otto von Bismarck (2)",
         "folder": "otto-von-bismarck-2-4152"
-      }
-    ,
+      },
       {
         "id": "hist-kg-1",
         "title": "Schlacht bei Königgrätz 1866 – Deutscher Krieg",
@@ -1878,11 +1889,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "der-transatlantische-sklavenhandel-2932"
       },
       {
-        "id": "2955",
-        "title": "Die Geschichte Mexikos",
-        "folder": "die-geschichte-mexikos-2955"
-      },
-      {
         "id": "3348",
         "title": "Die größten Kolonialreiche",
         "folder": "die-groesten-kolonialreiche-3348"
@@ -1893,40 +1899,14 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "der-atlantische-dreieckshandel-3153"
       },
       {
-        "id": "5335",
-        "title": "Der Amerikanische Bürgerkrieg",
-        "folder": "der-amerikanische-burgerkrieg-2-5335"
-      },
-      {
-        "id": "824",
-        "title": "Indien als britische Kolonie",
-        "folder": "indien-als-britische-kolonie-824"
-      },
-      {
         "id": "886",
         "title": "Deutsche Kolonien",
         "folder": "deutsche-kolonien-886"
       },
       {
-        "id": "887",
-        "title": "Die Apartheid in Südafrika",
-        "folder": "die-apartheid-887"
-      },
-      {
-        "id": "3071",
-        "title": "Die Geschichte Brasiliens",
-        "folder": "arbeitslosigkeit-nach-dem-ersten-weltkrieg-2-3071"
-      }
-    ,
-      {
         "id": "2950",
         "title": "Die ersten englischen Kolonien in Nordamerika",
         "folder": "die-ersten-englischen-kolonien-2950"
-      },
-      {
-        "id": "2072",
-        "title": "Das Britische Empire & Dekolonisierung",
-        "folder": "die-ehemaligen-britischen-kolonien-2072"
       },
       {
         "id": "2073",
@@ -1949,11 +1929,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "plantagen-und-sklavenwirtschaft-in-den-kolonien-3050"
       },
       {
-        "id": "3033",
-        "title": "Mahatma Gandhi und die Unabhängigkeit Indiens",
-        "folder": "mahatma-gandhi-und-die-unabhangigkeit-indiens-3033"
-      },
-      {
         "id": "hist-imp-1",
         "title": "Imperialismus im 19. und 20. Jahrhundert",
         "folder": "imperialismus-346"
@@ -1967,21 +1942,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "hist-bemp-1",
         "title": "Das Britische Empire – Weltreich des Imperialismus",
         "folder": "das-britische-empire-2-5330"
-      },
-      {
-        "id": "hist-entk-1",
-        "title": "Die Entkolonialisierung in Afrika",
-        "folder": "die-entkolonialisierung-in-afrika-2944"
-      },
-      {
-        "id": "hist-entk-2",
-        "title": "Die Entkolonialisierung in Asien",
-        "folder": "die-entkolonialisierung-in-asien-2945"
-      },
-      {
-        "id": "hist-entk-3",
-        "title": "Die Entkolonialisierung in Südamerika",
-        "folder": "die-entkolonialisierung-in-sudamerika-2946"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Kolonialismus+Imperialismus&t=3752"
@@ -2034,12 +1994,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "3072",
         "title": "Wien zur Zeit der Monarchie",
         "folder": "arbeitslosigkeit-nach-dem-ersten-weltkrieg-3-3072"
-      }
-    ,
-      {
-        "id": "350",
-        "title": "Das österreichische Kaiserreich",
-        "folder": "das-osterreichische-kaiserreich-2-350"
       },
       {
         "id": "3313",
@@ -2104,11 +2058,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "vielvolkerstaat-sterreich-2360"
       },
       {
-        "id": "2361",
-        "title": "Vielvölkerstaat Österreich (2)",
-        "folder": "vielvolkerstaat-sterreich-2361"
-      },
-      {
         "id": "3070",
         "title": "Zerfall der Habsburgmonarchie",
         "folder": "zerfall-der-habsburgmonarchie-3070"
@@ -2117,13 +2066,13 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "5402",
         "title": "Was wäre, wenn das Osmanische Reich nie zerfallen wäre …",
         "folder": "was-ware-wenn-das-osmanische-reich-nie-zerfallen-ware-5402"
-      }
-    ,
+      },
       {
         "id": "3019",
         "title": "Kaiser Karl I. von Österreich-Ungarn",
         "folder": "kaiser-karl-i-von-sterreich-ungarn-3019"
-      }],
+      }
+    ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Oesterreich-Ungarn+Vielvoelkerstaat&t=3752"
   },
   "der-erste-weltkrieg-ursachen-und-ausbruch": {
@@ -2322,8 +2271,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "3048",
         "title": "Paul von Hindenburg",
         "folder": "paul-von-hindenburg-3048"
-      }
-    ,
+      },
       {
         "id": "3326",
         "title": "Die Weimarer Republik – Entstehung & Verfassung",
@@ -2418,8 +2366,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "3325",
         "title": "Zwischenkriegszeit",
         "folder": "zwischenkriegszeit-3325"
-      }
-    ,
+      },
       {
         "id": "2352",
         "title": "Die Russische Revolution (1917)",
@@ -2475,8 +2422,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "3081",
         "title": "Der Gemeindebau - sozialer Wohnbau in Wien",
         "folder": "arbeitslosigkeit-nach-dem-ersten-weltkrieg-12-3081"
-      }
-    ,
+      },
       {
         "id": "hist-wr-2",
         "title": "Massenarbeitslosigkeit und soziale Krisen nach 1918",
@@ -2523,19 +2469,9 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "die-nsdap-2874"
       },
       {
-        "id": "2894",
-        "title": "BDM und HJ - Die Jugend im Nationalsozialismus",
-        "folder": "bdm-und-hj-die-jugend-im-nationalsozialismus-2894"
-      },
-      {
         "id": "2901",
         "title": "Das Ermächtigungsgesetz",
         "folder": "das-ermachtigungsgesetz-2901"
-      },
-      {
-        "id": "2906",
-        "title": "Das nationalsozialistische Frauenbild",
-        "folder": "das-nationalsozialistische-frauenbild-2906"
       },
       {
         "id": "2925",
@@ -2566,8 +2502,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "2289",
         "title": "Adolf Hitler",
         "folder": "adolf-hitler-2289"
-      }
-    ,
+      },
       {
         "id": "3310",
         "title": "Nationalsozialistische Ideologie",
@@ -2582,41 +2517,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "3309",
         "title": "NS-Massenorganisationen (SA, SS, HJ, BDM)",
         "folder": "ns-organisationen-3309"
-      },
-      {
-        "id": "3308",
-        "title": "NS-Propaganda und Volksgemeinschaft",
-        "folder": "ns-sozialpolitik-3308"
-      },
-      {
-        "id": "3059",
-        "title": "Schule und Indoktrination im Nationalsozialismus",
-        "folder": "schule-im-nationalsozialismus-3059"
-      },
-      {
-        "id": "2895",
-        "title": "Bücherverbrennung und Berufsverbote 1933",
-        "folder": "berufsverbot-und-bucherverbrennung-im-ns-2895"
-      },
-      {
-        "id": "hist-ns-1",
-        "title": "Propaganda der NSDAP – Methoden der Beeinflussung",
-        "folder": "propaganda-der-nsdap-3051"
-      },
-      {
-        "id": "hist-ns-2",
-        "title": "Kraft durch Freude (KdF) – Organisation der Freizeit im NS-Staat",
-        "folder": "kraft-durch-freude-kdf-3026"
-      },
-      {
-        "id": "hist-ns-3",
-        "title": "Der Reichsarbeitsdienst (RAD) im NS-Staat",
-        "folder": "der-reichsarbeitsdienst-2924"
-      },
-      {
-        "id": "hist-ns-4",
-        "title": "Die Olympischen Spiele 1936 in Berlin als Propagandabühne",
-        "folder": "die-olympischen-spiele-1936-2970"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Machtergreifung%2C%20NS-Ideologie%20%26%20F%C3%BChrerstaat+geschichte&t=3752"
@@ -2695,8 +2595,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "6579",
         "title": "Der Vatikan im Zweiten Weltkrieg",
         "folder": "der-vatikan-im-zweiten-weltkrieg-6579"
-      }
-    ,
+      },
       {
         "id": "2362",
         "title": "Hitlers Außenpolitik und Kriegsvorbereitung",
@@ -2789,8 +2688,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "5341",
         "title": "Der Zweite Weltkrieg",
         "folder": "der-zweite-weltkrieg-5341"
-      }
-    ,
+      },
       {
         "id": "3319",
         "title": "Verlauf des Zweiten Weltkriegs",
@@ -2968,8 +2866,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "893",
         "title": "Konrad Adenauer",
         "folder": "konrad-adenauer-893"
-      }
-    ,
+      },
       {
         "id": "3064",
         "title": "Flucht und Vertreibung nach 1945",
@@ -3062,8 +2959,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "3077",
         "title": "Die Berlinblockade und die Luftbrücke",
         "folder": "arbeitslosigkeit-nach-dem-ersten-weltkrieg-8-3077"
-      }
-    ,
+      },
       {
         "id": "5339",
         "title": "Der Kalte Krieg: Ursachen & bipolare Weltordnung",
@@ -3155,8 +3051,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "5405",
         "title": "Was wäre, wenn der Prager Frühling erfolgreich gewesen wäre …",
         "folder": "was-ware-wenn-der-prager-fruhling-erfolgreich-gewesen-ware-5405"
-      }
-    ,
+      },
       {
         "id": "3342",
         "title": "Der Kalte Krieg: Stellvertreterkriege",
@@ -3256,13 +3151,13 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "3131",
         "title": "Frauen in der DDR",
         "folder": "frauen-in-der-ddr-3131"
-      }
-    ,
+      },
       {
         "id": "ostalgie",
         "title": "Ostalgie – Alltag und Erinnerungskultur in der DDR",
         "folder": "ostalgie-nostalgie-fuer-die-ddr"
-      }],
+      }
+    ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Leben%20in%20der%20DDR%2C%20Mauerbau%201961%20%26%20Stasi+geschichte&t=3752"
   },
   "friedliche-revolution-und-deutsche-einheit": {
@@ -3306,8 +3201,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "dhm",
         "title": "Das Deutsche Historische Museum",
         "folder": "das-deutsche-historische-museum"
-      }
-    ,
+      },
       {
         "id": "2654",
         "title": "Die Deutsche Wiedervereinigung (1989/90)",
@@ -3320,7 +3214,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
       },
       {
         "id": "hist-fr-ev",
-        "title": "Der Fall des Eisernen Vorhangs 1989",
+        "title": "Der Fall des Eisernen Vorhangs 1989 (Teil 2)",
         "folder": "der-fall-des-eisernen-vorhangs-2-5338"
       }
     ],
@@ -3373,8 +3267,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "3073",
         "title": "Die Ölkrise",
         "folder": "arbeitslosigkeit-nach-dem-ersten-weltkrieg-4-3073"
-      }
-    ,
+      },
       {
         "id": "2916",
         "title": "Der erste, zweite und dritte Golfkrieg",
@@ -3440,13 +3333,432 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "5700",
         "title": "Die Wiener Ringstraße",
         "folder": "die-wiener-ringstraese-5700"
-      }
-    ,
+      },
       {
         "id": "3317",
         "title": "Österreich nach dem Zweiten Weltkrieg: Wiederaufbau",
         "folder": "sterreich-nach-dem-zweiten-weltkrieg-3317"
-      }],
+      }
+    ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=staatsvertrag+oesterreich&t=3752"
+  },
+  "alltag-und-propaganda-im-ns-staat": {
+    "slug": "alltag-und-propaganda-im-ns-staat",
+    "title": "Alltag, Jugend & Propaganda im NS-Staat",
+    "category": "Nationalsozialismus & Zweiter Weltkrieg",
+    "shortDesc": "Hitlerjugend, BDM, Frauenbild, Schule, Propaganda, Kraft durch Freude, Reichsarbeitsdienst und die Olympischen Spiele 1936.",
+    "longDesc": "Der Nationalsozialismus durchdrang den gesamten Alltag: Kinder wurden in der Schule und in HJ und BDM indoktriniert, Freizeit und Arbeit wurden organisiert, Propaganda und Bücherverbrennungen formten die öffentliche Meinung. Hier lernst du, wie das Regime die Menschen erfasste und lenkte.",
+    "keyPoints": [
+      "Hitlerjugend und BDM: Erziehung und Kontrolle der Jugend",
+      "Schule und Frauenbild: Ideologie in Unterricht und Familie",
+      "Propaganda: Goebbels, Volksgemeinschaft und Massenbeeinflussung",
+      "Kraft durch Freude, Reichsarbeitsdienst und die Olympischen Spiele 1936 als Instrumente des Regimes"
+    ],
+    "exercises": [
+      {
+        "id": "2894",
+        "title": "BDM und HJ - Die Jugend im Nationalsozialismus",
+        "folder": "bdm-und-hj-die-jugend-im-nationalsozialismus-2894"
+      },
+      {
+        "id": "2906",
+        "title": "Das nationalsozialistische Frauenbild",
+        "folder": "das-nationalsozialistische-frauenbild-2906"
+      },
+      {
+        "id": "3059",
+        "title": "Schule und Indoktrination im Nationalsozialismus",
+        "folder": "schule-im-nationalsozialismus-3059"
+      },
+      {
+        "id": "3308",
+        "title": "NS-Propaganda und Volksgemeinschaft",
+        "folder": "ns-sozialpolitik-3308"
+      },
+      {
+        "id": "hist-ns-1",
+        "title": "Propaganda der NSDAP – Methoden der Beeinflussung",
+        "folder": "propaganda-der-nsdap-3051"
+      },
+      {
+        "id": "hist-ns-2",
+        "title": "Kraft durch Freude (KdF) – Organisation der Freizeit im NS-Staat",
+        "folder": "kraft-durch-freude-kdf-3026"
+      },
+      {
+        "id": "hist-ns-3",
+        "title": "Der Reichsarbeitsdienst (RAD) im NS-Staat",
+        "folder": "der-reichsarbeitsdienst-2924"
+      },
+      {
+        "id": "hist-ns-4",
+        "title": "Die Olympischen Spiele 1936 in Berlin als Propagandabühne",
+        "folder": "die-olympischen-spiele-1936-2970"
+      },
+      {
+        "id": "2895",
+        "title": "Bücherverbrennung und Berufsverbote 1933",
+        "folder": "berufsverbot-und-bucherverbrennung-im-ns-2895"
+      }
+    ]
+  },
+  "dekolonisierung-und-unabhaengigkeitsbewegungen": {
+    "slug": "dekolonisierung-und-unabhaengigkeitsbewegungen",
+    "title": "Dekolonisierung & Unabhängigkeitsbewegungen",
+    "category": "Kalter Krieg & Deutsche Teilung",
+    "shortDesc": "Das Ende der Kolonialreiche in Afrika, Asien und Südamerika, Gandhi und Indien, Apartheid in Südafrika.",
+    "longDesc": "Nach dem Zweiten Weltkrieg zerfielen die europäischen Kolonialreiche. Neue Staaten entstanden, oft nach langen Unabhängigkeitskämpfen und mit bleibenden Konflikten. Entdecke die Wege Indiens unter Gandhi, die Dekolonisierung in Afrika, Asien und Südamerika und die Geschichte der Apartheid.",
+    "keyPoints": [
+      "Indien als britische Kolonie und der gewaltfreie Widerstand Mahatma Gandhis",
+      "Dekolonisierung in Afrika, Asien und Südamerika nach 1945",
+      "Das Ende des Britischen Empire",
+      "Apartheid in Südafrika: Rassentrennung und ihr Ende"
+    ],
+    "exercises": [
+      {
+        "id": "824",
+        "title": "Indien als britische Kolonie",
+        "folder": "indien-als-britische-kolonie-824"
+      },
+      {
+        "id": "887",
+        "title": "Die Apartheid in Südafrika",
+        "folder": "die-apartheid-887"
+      },
+      {
+        "id": "3033",
+        "title": "Mahatma Gandhi und die Unabhängigkeit Indiens",
+        "folder": "mahatma-gandhi-und-die-unabhangigkeit-indiens-3033"
+      },
+      {
+        "id": "hist-entk-1",
+        "title": "Die Entkolonialisierung in Afrika",
+        "folder": "die-entkolonialisierung-in-afrika-2944"
+      },
+      {
+        "id": "hist-entk-2",
+        "title": "Die Entkolonialisierung in Asien",
+        "folder": "die-entkolonialisierung-in-asien-2945"
+      },
+      {
+        "id": "hist-entk-3",
+        "title": "Die Entkolonialisierung in Südamerika",
+        "folder": "die-entkolonialisierung-in-sudamerika-2946"
+      },
+      {
+        "id": "2072",
+        "title": "Das Britische Empire & Dekolonisierung",
+        "folder": "die-ehemaligen-britischen-kolonien-2072"
+      }
+    ]
+  },
+  "europaeische-laender-im-ueberblick": {
+    "slug": "europaeische-laender-im-ueberblick",
+    "title": "Europäische Länder im geschichtlichen Überblick",
+    "category": "Weltgeschichte & Länderporträts",
+    "shortDesc": "Geschichte Frankreichs, Großbritanniens, Italiens, Deutschlands, Dänemarks, Bayerns, Tirols, der Friesen sowie der Königreiche Bayern und Sachsen.",
+    "longDesc": "Jedes Land hat seine eigene Geschichte: von den Anfängen über Blütezeiten und Krisen bis zur Gegenwart. Die Übersichten helfen, historische Entwicklungen in Europa einzuordnen und regionale Besonderheiten zu verstehen.",
+    "keyPoints": [
+      "Frankreich, Großbritannien und Italien: Entwicklung von Nationalstaaten und Weltmächten",
+      "Deutschland, Bayern, Tirol und Sachsen: Regionen und Staaten im deutschsprachigen Raum",
+      "Dänemark und die Friesen: Geschichte im Norden Europas",
+      "Zeitliche Einordnung durch Überblicksdarstellungen"
+    ],
+    "exercises": [
+      {
+        "id": "5371",
+        "title": "Die Geschichte Frankreichs",
+        "folder": "die-geschichte-frankreichs-5371"
+      },
+      {
+        "id": "5372",
+        "title": "Die Geschichte Großbritanniens",
+        "folder": "die-geschichte-groesbritanniens-5372"
+      },
+      {
+        "id": "5375",
+        "title": "Die Geschichte Italiens",
+        "folder": "die-geschichte-italiens-5375"
+      },
+      {
+        "id": "5370",
+        "title": "Die Geschichte Deutschlands",
+        "folder": "die-geschichte-deutschlands-5370"
+      },
+      {
+        "id": "3091",
+        "title": "Die Geschichte Dänemarks",
+        "folder": "geschichte-danemarks-3091"
+      },
+      {
+        "id": "5349",
+        "title": "Die Geschichte Bayerns",
+        "folder": "die-geschichte-bayerns-5349"
+      },
+      {
+        "id": "3029",
+        "title": "Das Königreich Bayern",
+        "folder": "konigreich-bayern-3029"
+      },
+      {
+        "id": "3030",
+        "title": "Das Königreich Sachsen",
+        "folder": "konigreich-sachsen-3030"
+      },
+      {
+        "id": "5380",
+        "title": "Die Geschichte Tirols",
+        "folder": "die-geschichte-tirols-5380"
+      },
+      {
+        "id": "friesen",
+        "title": "Die Geschichte der Friesen",
+        "folder": "die-geschichte-der-friesen"
+      }
+    ]
+  },
+  "russland-asien-und-naher-osten": {
+    "slug": "russland-asien-und-naher-osten",
+    "title": "Russland, Asien & Naher Osten",
+    "category": "Weltgeschichte & Länderporträts",
+    "shortDesc": "Geschichte Russlands, Chinas, Indiens, Japans, der Türkei und des Nahostkonflikts mit Israel.",
+    "longDesc": "Von der Entstehung Russlands über das Zarenreich, die Geschichte Chinas und Indiens bis zu Japan, der Türkei und aktuellen Konflikten: Dieses Thema bietet Länderporträts und Konfliktanalysen aus Osteuropa, Asien und dem Nahen Osten.",
+    "keyPoints": [
+      "Russland: Entstehung, Zarenreich und Geschichte bis heute",
+      "China: Kaiserreich, 20. Jahrhundert und der Konflikt mit Taiwan",
+      "Indien: Geschichte, Teilung 1947 und der Konflikt mit Pakistan",
+      "Japan, Türkei und Israel: Entwicklungen und Spannungsfelder"
+    ],
+    "exercises": [
+      {
+        "id": "3111",
+        "title": "Die Entstehung Russlands",
+        "folder": "die-entstehung-russlands-3111"
+      },
+      {
+        "id": "2908",
+        "title": "Das russische Zarenreich",
+        "folder": "das-russische-zarenreich-2908"
+      },
+      {
+        "id": "5396",
+        "title": "Die Geschichte Russlands",
+        "folder": "geschichte-russlands-5396"
+      },
+      {
+        "id": "5351",
+        "title": "Die Geschichte Chinas",
+        "folder": "die-geschichte-chinas-5351"
+      },
+      {
+        "id": "646",
+        "title": "China im 20. Jahrhundert",
+        "folder": "china-im-20-jahrhundert-646"
+      },
+      {
+        "id": "5241",
+        "title": "Der Konflikt zwischen China und Taiwan",
+        "folder": "der-konflikt-zwischen-china-und-taiwan-5241"
+      },
+      {
+        "id": "5373",
+        "title": "Die Geschichte Indiens",
+        "folder": "die-geschichte-indiens-5373"
+      },
+      {
+        "id": "2982",
+        "title": "Die Teilung Indiens",
+        "folder": "die-teilung-indiens-2982"
+      },
+      {
+        "id": "5240",
+        "title": "Der Konflikt zwischen Indien und Pakistan",
+        "folder": "der-konflikt-zwischen-indien-und-pakistan-5240"
+      },
+      {
+        "id": "5376",
+        "title": "Die Geschichte Japans",
+        "folder": "die-geschichte-japans-5376"
+      },
+      {
+        "id": "5363",
+        "title": "Die Geschichte der Türkei",
+        "folder": "die-geschichte-der-turkei-5363"
+      },
+      {
+        "id": "5428",
+        "title": "Warum Israel (fast) nur von Feinden umgeben ist",
+        "folder": "warum-israel-fast-nur-von-feinden-umgeben-ist-5428"
+      }
+    ]
+  },
+  "amerika-und-australien-im-ueberblick": {
+    "slug": "amerika-und-australien-im-ueberblick",
+    "title": "Amerika & Australien im geschichtlichen Überblick",
+    "category": "Weltgeschichte & Länderporträts",
+    "shortDesc": "Geschichte Kanadas, Mexikos, Brasiliens, Argentiniens, Chiles und Australiens.",
+    "longDesc": "Vom Leben der indigenen Völker über Kolonisation und Unabhängigkeit bis zur Gegenwart: Die Länderporträts zeigen, wie Staaten in Nord- und Südamerika sowie Australien entstanden sind.",
+    "keyPoints": [
+      "Kanada und Mexiko: Nordamerikanische Nachbarn der USA",
+      "Brasilien, Argentinien und Chile: Kolonialzeit und Unabhängigkeit in Südamerika",
+      "Australien: Ureinwohner, Strafkolonie und moderne Nation"
+    ],
+    "exercises": [
+      {
+        "id": "5377",
+        "title": "Die Geschichte Kanadas",
+        "folder": "die-geschichte-kanadas-5377"
+      },
+      {
+        "id": "5378",
+        "title": "Die Geschichte Mexikos (ausführlich)",
+        "folder": "die-geschichte-mexikos-2-5378"
+      },
+      {
+        "id": "2955",
+        "title": "Die Geschichte Mexikos (Kurzfassung)",
+        "folder": "die-geschichte-mexikos-2955"
+      },
+      {
+        "id": "5350",
+        "title": "Die Geschichte Brasiliens (ausführlich)",
+        "folder": "die-geschichte-brasiliens-5350"
+      },
+      {
+        "id": "3071",
+        "title": "Die Geschichte Brasiliens (Kurzfassung)",
+        "folder": "arbeitslosigkeit-nach-dem-ersten-weltkrieg-2-3071"
+      },
+      {
+        "id": "5347",
+        "title": "Die Geschichte Argentiniens",
+        "folder": "die-geschichte-argentiniens-5347"
+      },
+      {
+        "id": "2953",
+        "title": "Die Geschichte Chiles",
+        "folder": "die-geschichte-chiles-2953"
+      },
+      {
+        "id": "5348",
+        "title": "Die Geschichte Australiens",
+        "folder": "die-geschichte-australiens-5348"
+      }
+    ]
+  },
+  "kulturgeschichte-bildung-medizin-sport-technik": {
+    "slug": "kulturgeschichte-bildung-medizin-sport-technik",
+    "title": "Kulturgeschichte: Bildung, Medizin, Sport & Technik",
+    "category": "Weltgeschichte & Länderporträts",
+    "shortDesc": "Geschichte der Bildung, der Medizin, des Fußballs, der Eisenbahn und der Archäologie.",
+    "longDesc": "Geschichte betrifft nicht nur Kriege und Herrscher: Schule, Heilkunde, Sport, Verkehr und die Erforschung der Vergangenheit haben unser Leben ebenso verändert. Diese Übersichten zeigen die Entwicklung wichtiger Lebensbereiche.",
+    "keyPoints": [
+      "Bildung: Vom Unterricht für Wenige zur allgemeinen Schulpflicht",
+      "Medizin: Von der Antike zur modernen Heilkunde",
+      "Fußball und Eisenbahn: Sport und Mobilität im Wandel",
+      "Archäologie: Wie Funde Geschichte sichtbar machen"
+    ],
+    "exercises": [
+      {
+        "id": "5352",
+        "title": "Die Geschichte der Bildung",
+        "folder": "die-geschichte-der-bildung-5352"
+      },
+      {
+        "id": "5359",
+        "title": "Die Geschichte der Medizin",
+        "folder": "die-geschichte-der-medizin-5359"
+      },
+      {
+        "id": "5366",
+        "title": "Die Geschichte des Fußballs",
+        "folder": "die-geschichte-des-fuesballs-5366"
+      },
+      {
+        "id": "3175",
+        "title": "Die Geschichte der Eisenbahn",
+        "folder": "geschichte-der-eisenbahn-3175"
+      },
+      {
+        "id": "5388",
+        "title": "Die Geschichte der Archäologie",
+        "folder": "geschichte-der-archaologie-5388"
+      }
+    ]
+  },
+  "alternativgeschichte-was-waere-wenn": {
+    "slug": "alternativgeschichte-was-waere-wenn",
+    "title": "Alternativgeschichte: Was wäre, wenn …?",
+    "category": "Weltgeschichte & Länderporträts",
+    "shortDesc": "Gedankenexperimente zu Wendepunkten: Weltkrieg, Atombombe, DDR, Reformation, Entdeckung Amerikas und mehr.",
+    "longDesc": "Was wäre geschehen, wenn ein historisches Ereignis anders verlaufen wäre? Diese Gedankenexperimente schärfen das Verständnis für Ursachen, Wendepunkte und Folgen und üben kritisches, kontrafaktisches Denken.",
+    "keyPoints": [
+      "Kontrafaktisches Denken: Ursachen und Folgen historischer Entscheidungen abwägen",
+      "Wendepunkte des 20. Jahrhunderts: Zweiter Weltkrieg, Atombombe, DDR, Kaiserreich",
+      "Frühe Neuzeit und Mittelalter: Reformation, Armada, Christianisierung",
+      "Entdeckungen: Amerika und die Wikinger"
+    ],
+    "exercises": [
+      {
+        "id": "5400",
+        "title": "Was wäre, wenn Amerika nie entdeckt worden wäre …?",
+        "folder": "was-ware-wenn-amerika-nie-entdeckt-geworden-ware-5400"
+      },
+      {
+        "id": "5415",
+        "title": "Was wäre, wenn die Wikinger Amerika dauerhaft besiedelt hätten …?",
+        "folder": "was-ware-wenn-die-wikinger-amerika-dauerhaft-besiedelt-hatten-5415"
+      },
+      {
+        "id": "5418",
+        "title": "Was wäre, wenn Europa nie christianisiert worden wäre …?",
+        "folder": "was-ware-wenn-europa-nie-christianisiert-worden-ware-5418"
+      },
+      {
+        "id": "5417",
+        "title": "Was wäre, wenn es nie zur Reformation gekommen wäre …?",
+        "folder": "was-ware-wenn-es-nie-zur-reformation-gekommen-ware-5417"
+      },
+      {
+        "id": "5412",
+        "title": "Was wäre, wenn die Spanische Armada England besiegt hätte …?",
+        "folder": "was-ware-wenn-die-spanische-armada-england-besiegt-hatte-5412"
+      },
+      {
+        "id": "5423",
+        "title": "Was wäre, wenn Deutschland immer noch einen Kaiser hätte …?",
+        "folder": "was-ware-wenn-deutschland-immer-noch-einen-kaiser-hatte-5423"
+      },
+      {
+        "id": "5419",
+        "title": "Was wäre, wenn Hitler an der Kunstakademie angenommen worden wäre …?",
+        "folder": "was-ware-wenn-hitler-an-der-kunstakademie-angenommen-worden-ware-5419"
+      },
+      {
+        "id": "5407",
+        "title": "Was wäre, wenn Deutschland den Zweiten Weltkrieg gewonnen hätte …?",
+        "folder": "was-ware-wenn-deutschland-den-zweiten-weltkrieg-gewonnen-hatte-5407"
+      },
+      {
+        "id": "5414",
+        "title": "Was wäre, wenn die USA nie in den Zweiten Weltkrieg eingetreten wären …?",
+        "folder": "was-ware-wenn-die-usa-nie-in-den-zweiten-weltkrieg-eingetreten-waren-5414"
+      },
+      {
+        "id": "5408",
+        "title": "Was wäre, wenn die Atombombe nie entwickelt worden wäre …?",
+        "folder": "was-ware-wenn-die-atombombe-nie-entwickelt-worden-ware-5408"
+      },
+      {
+        "id": "5411",
+        "title": "Was wäre, wenn die Nazis die Atombombe zuerst entwickelt hätten …?",
+        "folder": "was-ware-wenn-die-nazis-die-atombombe-zuerst-entwickelt-hatten-5411"
+      },
+      {
+        "id": "5416",
+        "title": "Was wäre, wenn es die DDR immer noch geben würde …?",
+        "folder": "was-ware-wenn-es-die-ddr-immer-noch-geben-wurde-5416"
+      }
+    ]
   }
 };
