@@ -17,7 +17,7 @@ export interface GeographieTopic {
 
 export const geographieCategories = [
   "Österreich & Alpenraum",
-  "Deutschland & Mitteleuropa",
+  "Deutschland",
   "Die Schweiz",
   "Europa & Die EU",
   "Kontinente & Weltregionen",
@@ -1356,9 +1356,9 @@ export const geographieTopics: Record<string, GeographieTopic> = {
   "geographie-deutschlands": {
     "slug": "geographie-deutschlands",
     "title": "Geographie Deutschlands: Physische Geographie & Topographie",
-    "category": "Deutschland & Mitteleuropa",
-    "shortDesc": "16 Bundesländer, Hauptstädte, Großlandschaften von Nord- und Ostsee bis zur Zugspitze.",
-    "longDesc": "Deutschland liegt im Herzen Europas und gliedert sich in vier große naturräumliche Zonen: Das Norddeutsche Tiefland, die Mittelgebirgszone, das Alpenvorland und die Bayerischen Alpen.",
+    "category": "Deutschland",
+    "shortDesc": "Topographie, Großlandschaften, Gebirge, Flüsse, Seen, Wirtschaft und Bevölkerung.",
+    "longDesc": "Deutschland liegt im Herzen Europas und gliedert sich in vier große naturräumliche Großlandschaften: Das Norddeutsche Tiefland, die Mittelgebirgszone, das Alpenvorland und die Bayerischen Alpen.",
     "keyPoints": [
       "16 Bundesländer: 13 Flächenländer und 3 Stadtstaaten (Berlin, Hamburg, Bremen)",
       "Großlandschaften: Norddeutsches Tiefland ➔ Mittelgebirge ➔ Alpenvorland ➔ Alpen",
@@ -1440,47 +1440,133 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "wirtschaftde",
         "title": "Wirtschaft Deutschlands",
         "folder": "wirtschaft-deutschlands"
+      },
+      {
+        "id": "test-9-2873",
+        "title": "Fragen zum Deutschlandspiel",
+        "folder": "test-9-2873"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=geographie+deutschland&t=3752"
   },
-  "deutschland-bundeslaender-und-regionen": {
-    "slug": "deutschland-bundeslaender-und-regionen",
-    "title": "Deutschland: Bundesländer & Regionen",
-    "category": "Deutschland & Mitteleuropa",
-    "shortDesc": "Nordrhein-Westfalen, Rheinland-Pfalz, Regionalräume und Landschaftszonen.",
-    "longDesc": "Die Bundesländer Deutschlands weisen große landschaftliche und wirtschaftliche Unterschiede auf: Vom dicht besiedelten Ballungsraum Ruhrgebiet bis zu den Weinbau- und Flusslandschaften von Rhein und Mosel.",
+  "deutschland-bundeslaender": {
+    "slug": "deutschland-bundeslaender",
+    "title": "Deutschland: Die 16 Bundesländer",
+    "category": "Deutschland",
+    "shortDesc": "Alle 16 deutschen Bundesländer von Bayern und Baden-Württemberg bis Schleswig-Holstein und den Stadtstaaten.",
+    "longDesc": "Die Bundesrepublik Deutschland ist ein föderaler Bundesstaat bestehend aus 16 Bundesländern. Jedes Land besitzt eine eigene Landesverfassung, eine eigene Landesregierung und spezifische wirtschaftliche wie landschaftliche Schwerpunkte.",
     "keyPoints": [
-      "Nordrhein-Westfalen: Bevölkerungsreichstes Bundesland mit dem Ruhrgebiet und der Rheinschiene",
-      "Rheinland-Pfalz: Weinbau an Rhein und Mosel, Pfälzerwald, Eifel und Hunsrück",
-      "Föderale Struktur: Eigenständige Landtage, Kultur- und Bildungshoheit der Bundesländer",
-      "Regionale Identitäten: Dialekte, Wirtschaftsstrukturen und landschaftliche Eigenheiten"
+      "16 Länder: Baden-Württemberg, Bayern, Berlin, Brandenburg, Bremen, Hamburg, Hessen, Mecklenburg-Vorpommern, Niedersachsen, Nordrhein-Westfalen, Rheinland-Pfalz, Saarland, Sachsen, Sachsen-Anhalt, Schleswig-Holstein, Thüringen",
+      "Stadtstaaten: Berlin, Hamburg und Bremen",
+      "Föderalismus: Kultur-, Bildungs- und Polizeihoheit liegen primär bei den Bundesländern",
+      "Hauptstädte: Von München und Stuttgart über Hannover und Dresden bis Kiel und Schwerin"
     ],
     "exercises": [
       {
-        "id": "1024",
-        "title": "Rheinland-Pfalz",
-        "folder": "rheinland-pfalz-2-1024"
+        "id": "bw-1049",
+        "title": "Baden-Württemberg",
+        "folder": "baden-wurttemberg-2-1049"
       },
       {
-        "id": "1046",
+        "id": "by-1050",
+        "title": "Bayern",
+        "folder": "bayern-1050"
+      },
+      {
+        "id": "be-1020",
+        "title": "Berlin",
+        "folder": "berlin-1020"
+      },
+      {
+        "id": "bb-1021",
+        "title": "Brandenburg",
+        "folder": "brandenburg-2-1021"
+      },
+      {
+        "id": "hb-1054",
+        "title": "Bremen",
+        "folder": "bremen-1054"
+      },
+      {
+        "id": "hh-1053",
+        "title": "Hamburg",
+        "folder": "hamburg-1053"
+      },
+      {
+        "id": "he-1022",
+        "title": "Hessen",
+        "folder": "hessen-1022"
+      },
+      {
+        "id": "mv-1048",
+        "title": "Mecklenburg-Vorpommern",
+        "folder": "mecklenburg-vorpommern-2-1048"
+      },
+      {
+        "id": "ni-1023",
+        "title": "Niedersachsen",
+        "folder": "niedersachsen-2-1023"
+      },
+      {
+        "id": "nrw-1046",
         "title": "Nordrhein-Westfalen",
         "folder": "nordrhein-westfalen-2-1046"
       },
       {
-        "id": "1729",
-        "title": "Langenfeld",
-        "folder": "langenfeld-1729"
+        "id": "rp-1024",
+        "title": "Rheinland-Pfalz",
+        "folder": "rheinland-pfalz-2-1024"
       },
       {
-        "id": "961",
+        "id": "sl-1047",
         "title": "Saarland",
-        "folder": "saarland-961"
+        "folder": "saarland-2-1047"
       },
+      {
+        "id": "sn-1025",
+        "title": "Sachsen",
+        "folder": "sachsen-2-1025"
+      },
+      {
+        "id": "st-1026",
+        "title": "Sachsen-Anhalt",
+        "folder": "sachsen-anhalt-2-1026"
+      },
+      {
+        "id": "sh-1027",
+        "title": "Schleswig-Holstein",
+        "folder": "schleswig-holstein-2-1027"
+      },
+      {
+        "id": "th-1028",
+        "title": "Thüringen",
+        "folder": "thuringen-1028"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=deutschland+bundeslaender&t=3752"
+  },
+  "deutsche-regionen-kuesten-und-inseln": {
+    "slug": "deutsche-regionen-kuesten-und-inseln",
+    "title": "Deutsche Regionen: Küsten, Inseln & Kulturlandschaften",
+    "category": "Deutschland",
+    "shortDesc": "Wattenmeer, Ostfriesland, Rügen, Pellworm, Lüneburger Heide, Sauerland und Ruhrgebiet.",
+    "longDesc": "Deutschlands Regionen zeichnen sich durch markante Kultur- und Naturräume aus: Von den Gezeiten des Wattenmeers und den Kreidefelsen auf Rügen über Heide- und Moorlandschaften bis zum Industrierevier Ruhrgebiet.",
+    "keyPoints": [
+      "Küsten & Inseln: UNESCO-Weltnaturerbe Wattenmeer, Ostfriesland, Pellworm, Helgoland und Rügen",
+      "Kulturlandschaften: Fischland-Darß-Zingst, Lüneburger Heide und Insel Poel",
+      "Industrie & Flusslandschaften: Das Ruhrgebiet, Bergisches Land, Sauerland und der Mittelrhein",
+      "Süddeutschland: Das Bayerische Alpenvorland und Schloss Neuschwanstein"
+    ],
+    "exercises": [
       {
         "id": "ostfriesland",
         "title": "Ostfriesland - Eine Region an der Nordsee",
         "folder": "ostfriesland-eine-region-an-der-nordsee"
+      },
+      {
+        "id": "wattenmeer",
+        "title": "Das Wattenmeer der Nordsee",
+        "folder": "das-wattenmeer-der-nordsee"
       },
       {
         "id": "pellworm",
@@ -1488,55 +1574,369 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "folder": "pellworm-eine-insel-im-wattenmeer"
       },
       {
+        "id": "helgoland",
+        "title": "Helgoland - Eine Insel in der Nordsee",
+        "folder": "helgoland-eine-insel-in-der-nordsee"
+      },
+      {
         "id": "ruegen",
         "title": "Rügen - Deutschlands größte Insel",
         "folder": "ruegen-deutschlands-groesste-insel"
+      },
+      {
+        "id": "insel-poel",
+        "title": "Die Insel Poel",
+        "folder": "die-insel-poel"
+      },
+      {
+        "id": "darss-zingst",
+        "title": "Fischland-Darß-Zingst",
+        "folder": "fischland-darss-zingst"
+      },
+      {
+        "id": "lueneburger-heide",
+        "title": "Die Lüneburger Heide",
+        "folder": "die-lueneburger-heide"
+      },
+      {
+        "id": "sauerland",
+        "title": "Das Sauerland - Eine Region in Westfalen",
+        "folder": "das-sauerland-eine-region-in-westfalen"
+      },
+      {
+        "id": "bergisches-land",
+        "title": "Das Bergische Land",
+        "folder": "das-bergische-land"
+      },
+      {
+        "id": "mittelrhein",
+        "title": "Der Mittelrhein - Eine besondere Region",
+        "folder": "der-mittelrhein-eine-besondere-region"
+      },
+      {
+        "id": "ruhrgebiet",
+        "title": "Das Ruhrgebiet",
+        "folder": "das-ruhrgebiet"
+      },
+      {
+        "id": "alpenvorland",
+        "title": "Das Alpenvorland",
+        "folder": "das-alpenvorland"
+      },
+      {
+        "id": "bay-alpenvorland",
+        "title": "Das Bayerische Alpenvorland",
+        "folder": "das-bayerische-alpenvorland"
+      },
+      {
+        "id": "schloss-neuschwanstein",
+        "title": "Schloss Neuschwanstein",
+        "folder": "schloss-neuschwanstein"
+      },
+      {
+        "id": "haefen-bremen",
+        "title": "Die Häfen von Bremen und Bremerhaven",
+        "folder": "die-haefen-von-bremen-und-bremerhaven"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=deutschland+bundeslaender&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=deutschland+regionen&t=3752"
+  },
+  "deutsche-mittelgebirge-und-berge": {
+    "slug": "deutsche-mittelgebirge-und-berge",
+    "title": "Deutsche Mittelgebirge & Alpengipfel",
+    "category": "Deutschland",
+    "shortDesc": "Schwarzwald, Harz, Erzgebirge, Bayerischer Wald, Thüringer Wald, Taunus, Eifel und Zugspitze.",
+    "longDesc": "Die deutsche Mittelgebirgszone prägt das Relief der Landesmitte und des Südens. Schiefergebirge, vulkanische Kuppen und bewaldete Bergrücken reichen von der Eifel über den Harz bis zum Schwarzwald und den Bayerischen Alpen.",
+    "keyPoints": [
+      "Höchste Mittelgebirge: Schwarzwald (Feldberg, 1.493 m) und Bayerischer Wald (Großer Arber, 1.456 m)",
+      "Mittelgebirgszone: Harz mit Brocken, Erzgebirge mit Fichtelberg, Thüringer Wald, Rhön mit Wasserkuppe, Taunus, Eifel und Hunsrück",
+      "Hochgebirge: Die Nördlichen Kalkalpen mit der Zugspitze (2.962 m) als höchstem Berg Deutschlands",
+      "Geologie & Natur: Erloschene Vulkane (Rhön, Vogelsberg), Sandsteinmassive und UNESCO-Geoparks"
+    ],
+    "exercises": [
+      {
+        "id": "schwarzwald",
+        "title": "Der Schwarzwald - Ein Überblick",
+        "folder": "der-schwarzwald-ein-ueberblick"
+      },
+      {
+        "id": "feldberg-schwarzwald",
+        "title": "Der Feldberg im Schwarzwald",
+        "folder": "der-feldberg-im-schwarzwald"
+      },
+      {
+        "id": "bayerischer-wald",
+        "title": "Der Bayerische Wald",
+        "folder": "der-bayerische-wald"
+      },
+      {
+        "id": "harz",
+        "title": "Der Harz - Ein besonderes Mittelgebirge",
+        "folder": "der-harz-ein-besonderes-mittelgebirge"
+      },
+      {
+        "id": "brocken",
+        "title": "Der Brocken - Höchster Berg des Harzes",
+        "folder": "der-brocken-hoechster-berg-des-harzes"
+      },
+      {
+        "id": "erzgebirge",
+        "title": "Das Erzgebirge",
+        "folder": "das-erzgebirge"
+      },
+      {
+        "id": "fichtelberg",
+        "title": "Der Fichtelberg - Höchster Berg Sachsens",
+        "folder": "der-fichtelberg-hoechster-berg-sachsens"
+      },
+      {
+        "id": "fichtelgebirge",
+        "title": "Das Fichtelgebirge",
+        "folder": "das-fichtelgebirge"
+      },
+      {
+        "id": "frankenwald",
+        "title": "Der Frankenwald - Ein Mittelgebirge in Bayern",
+        "folder": "der-frankenwald-ein-mittelgebirge-in-bayern"
+      },
+      {
+        "id": "thueringer-wald",
+        "title": "Der Thüringer Wald",
+        "folder": "der-thueringer-wald"
+      },
+      {
+        "id": "rhoen",
+        "title": "Die Rhön - Ein Mittelgebirge in Deutschland",
+        "folder": "die-rhoen-ein-mittelgebirge-in-deutschland"
+      },
+      {
+        "id": "wasserkuppe",
+        "title": "Die Wasserkuppe - Hessens höchster Berg",
+        "folder": "die-wasserkuppe-hessens-hoechster-berg"
+      },
+      {
+        "id": "taunus",
+        "title": "Der Taunus - Ein Mittelgebirge in Deutschland",
+        "folder": "der-taunus-ein-mittelgebirge-in-deutschland"
+      },
+      {
+        "id": "grosser-feldberg",
+        "title": "Der Große Feldberg im Taunus",
+        "folder": "der-grosse-feldberg-im-taunus"
+      },
+      {
+        "id": "eifel",
+        "title": "Die Eifel - Ein Mittelgebirge in Deutschland",
+        "folder": "die-eifel-ein-mittelgebirge-in-deutschland"
+      },
+      {
+        "id": "hunsrueck",
+        "title": "Der Hunsrück - Ein Mittelgebirge in Deutschland",
+        "folder": "der-hunsrueck-ein-mittelgebirge-in-deutschland"
+      },
+      {
+        "id": "odenwald",
+        "title": "Der Odenwald - Ein Mittelgebirge in Deutschland",
+        "folder": "der-odenwald-ein-mittelgebirge-in-deutschland"
+      },
+      {
+        "id": "schwaebische-alb",
+        "title": "Die Schwäbische Alb",
+        "folder": "die-schwaebische-alb"
+      },
+      {
+        "id": "zugspitze",
+        "title": "Die Zugspitze - Deutschlands höchster Berg",
+        "folder": "die-zugspitze-deutschlands-hoechster-berg"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=gebirge+deutschland&t=3752"
+  },
+  "deutsche-nationalparks-und-naturraeume": {
+    "slug": "deutsche-nationalparks-und-naturraeume",
+    "title": "Deutsche Nationalparks & Waldlandschaften",
+    "category": "Deutschland",
+    "shortDesc": "Schutzgebiete von Berchtesgaden und Bayerischer Wald bis zum Wattenmeer, Jasmund und Harz.",
+    "longDesc": "In den deutschen Nationalparks gilt der Grundsatz 'Natur Natur sein lassen'. Sie schützen wertvolle Urwälder, alpine Bergwelten, Wattmeere und Buchenurwälder für kommende Generationen.",
+    "keyPoints": [
+      "16 Nationalparks: Vom Alpen-Nationalpark Berchtesgaden über Waldnationalparks bis zu den Wattenmeer-Schutzgebieten",
+      "Wald & Buchen: Alte Buchenwälder in Jasmund, Kellerwald-Edersee und Hainich",
+      "Biodiversität: Schutz von Luchs, Wolf, Seeadler, Kegelrobbe und seltenen Flora-Arten",
+      "Fluss- & Moorlandschaften: Müritz-Nationalpark und das Untere Odertal"
+    ],
+    "exercises": [
+      {
+        "id": "np-bayerischer-wald",
+        "title": "Der Nationalpark Bayerischer Wald",
+        "folder": "der-nationalpark-bayerischer-wald"
+      },
+      {
+        "id": "np-berchtesgaden",
+        "title": "Der Nationalpark Berchtesgaden",
+        "folder": "der-nationalpark-berchtesgaden"
+      },
+      {
+        "id": "np-schwarzwald",
+        "title": "Der Nationalpark Schwarzwald",
+        "folder": "der-nationalpark-schwarzwald"
+      },
+      {
+        "id": "np-harz",
+        "title": "Der Nationalpark Harz",
+        "folder": "der-nationalpark-harz"
+      },
+      {
+        "id": "np-eifel",
+        "title": "Der Nationalpark Eifel",
+        "folder": "der-nationalpark-eifel"
+      },
+      {
+        "id": "np-hunsrueck",
+        "title": "Der Nationalpark Hunsrück-Hochwald",
+        "folder": "der-nationalpark-hunsrueck-hochwald"
+      },
+      {
+        "id": "np-kellerwald",
+        "title": "Der Nationalpark Kellerwald-Edersee",
+        "folder": "der-nationalpark-kellerwald-edersee"
+      },
+      {
+        "id": "np-jasmund",
+        "title": "Der Nationalpark Jasmund",
+        "folder": "der-nationalpark-jasmund"
+      },
+      {
+        "id": "np-mueritz",
+        "title": "Der Müritz-Nationalpark",
+        "folder": "der-mueritz-nationalpark"
+      },
+      {
+        "id": "np-unteres-odertal",
+        "title": "Der Nationalpark Unteres Odertal",
+        "folder": "der-nationalpark-unteres-odertal"
+      },
+      {
+        "id": "np-boddenlandschaft",
+        "title": "Der Nationalpark Vorpommersche Boddenlandschaft",
+        "folder": "der-nationalpark-vorpommersche-boddenlandschaft"
+      },
+      {
+        "id": "np-saechsische-schweiz",
+        "title": "Der Nationalpark Sächsische Schweiz",
+        "folder": "der-nationalpark-saechsische-schweiz"
+      },
+      {
+        "id": "np-sh-wattenmeer",
+        "title": "Der Nationalpark Schleswig-Holsteinisches Wattenmeer",
+        "folder": "der-nationalpark-schleswig-holsteinisches-wattenmeer"
+      },
+      {
+        "id": "np-nds-wattenmeer",
+        "title": "Der Nationalpark Niedersächsisches Wattenmeer",
+        "folder": "der-nationalpark-niedersaechsisches-wattenmeer"
+      },
+      {
+        "id": "np-hh-wattenmeer",
+        "title": "Der Nationalpark Hamburgisches Wattenmeer",
+        "folder": "der-nationalpark-hamburgisches-wattenmeer"
+      },
+      {
+        "id": "wald-in-deutschland",
+        "title": "Der Wald in Deutschland",
+        "folder": "der-wald-in-deutschland"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=nationalpark+deutschland&t=3752"
+  },
+  "deutsche-gewaesser-fluesse-und-seen": {
+    "slug": "deutsche-gewaesser-fluesse-und-seen",
+    "title": "Deutsche Gewässer: Flüsse, Seen & Kanäle",
+    "category": "Deutschland",
+    "shortDesc": "Main, Mosel, Weser, Neckar, Müritz, Chiemsee sowie wichtige Schifffahrtskanäle.",
+    "longDesc": "Deutschland verfügt über ein dichtes Netz an Wasserstraßen und Binnengewässern. Flüsse verbinden Industriegebiete mit Seehäfen, während die großen Seen im Norden und Süden wichtige Trinkwasserspeicher und Naturparadiese sind.",
+    "keyPoints": [
+      "Flüsse: Rhein-Zuflüsse Main, Mosel und Neckar sowie das Wesersystem zur Nordsee",
+      "Große Binnenseen: Die Müritz in Mecklenburg und der Chiemsee im bayerischen Alpenvorland",
+      "Kanalbauten: Main-Donau-Kanal als transkontinentale Verbindung und der Rhein-Herne-Kanal im Ruhrgebiet",
+      "Ökologie & Hochwasserschutz: Flussbegradigungen, Renaturierung und Auenlandschaften"
+    ],
+    "exercises": [
+      {
+        "id": "fluss-main",
+        "title": "Der Main - Ein wichtiger Fluss in Deutschland",
+        "folder": "der-main-ein-wichtiger-fluss-in-deutschland"
+      },
+      {
+        "id": "fluss-mosel",
+        "title": "Die Mosel - Ein Fluss in Europa",
+        "folder": "die-mosel-ein-fluss-in-europa"
+      },
+      {
+        "id": "fluss-weser",
+        "title": "Die Weser - Ein Fluss in Deutschland",
+        "folder": "die-weser-ein-fluss-in-deutschland"
+      },
+      {
+        "id": "fluss-neckar",
+        "title": "Der Neckar - Ein wichtiger Fluss in Deutschland",
+        "folder": "der-neckar-ein-wichtiger-fluss-in-deutschland"
+      },
+      {
+        "id": "see-mueritz",
+        "title": "Die Müritz - Ein besonderer See in Deutschland",
+        "folder": "die-mueritz-ein-besonderer-see-in-deutschland"
+      },
+      {
+        "id": "see-chiemsee",
+        "title": "Der Chiemsee - Bayerns größter See",
+        "folder": "der-chiemsee-bayerns-groesster-see"
+      },
+      {
+        "id": "kanal-main-donau",
+        "title": "Der Main-Donau-Kanal",
+        "folder": "der-main-donau-kanal"
+      },
+      {
+        "id": "kanal-rhein-herne",
+        "title": "Der Rhein-Herne-Kanal",
+        "folder": "der-rhein-herne-kanal"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=fluesse+deutschland&t=3752"
   },
   "deutsche-grossstaedte-und-metropolen": {
     "slug": "deutsche-grossstaedte-und-metropolen",
-    "title": "Deutsche Metropolen: Berlin & Hamburg",
-    "category": "Deutschland & Mitteleuropa",
-    "shortDesc": "Bundeshauptstadt Berlin, Hansestadt Hamburg und Bremen im geographischen Porträt.",
-    "longDesc": "Die Stadtstaaten Berlin, Hamburg und Bremen bilden die bevölkerungsreichsten Metropolen und traditionsreichsten Seehäfen Deutschlands.",
+    "title": "Deutsche Metropolen: Die Großstädte",
+    "category": "Deutschland",
+    "shortDesc": "Berlin, Hamburg, München, Köln, Frankfurt am Main, Stuttgart, Düsseldorf, Leipzig und weitere Metropolen.",
+    "longDesc": "Deutschlands Metropolen bilden die wirtschaftlichen, politischen und kulturellen Motoren des Landes. Vom Regierungssitz Berlin über das Handels- und Hafenzentrum Hamburg bis zum Finanzplatz Frankfurt und den süddeutschen Innovationszentren.",
     "keyPoints": [
-      "Berlin: Regierungssitz, 3,8 Mio. Einwohner, Spree und Havel",
-      "Hamburg: Zweitgrößte Stadt Deutschlands mit Deutschlands größtem Seehafen an der Elbe",
-      "Bremen & Bremerhaven: Hansetradition und maritime Logistik an der Weser"
+      "Millionenstädte: Berlin (3,8 Mio.), Hamburg (1,9 Mio.), München (1,5 Mio.) und Köln (1,1 Mio.)",
+      "Finanz- & Dienstleistungszentren: Frankfurt am Main und Düsseldorf",
+      "Industrie & Technologie: Stuttgart, Nürnberg und das Ruhrgebiet mit Dortmund und Essen",
+      "Mitteldeutschland: Die dynamischen Messestädte und Kulturmetropolen Leipzig und Dresden"
     ],
     "exercises": [
       {
-        "id": "1020",
-        "title": "Berlin",
-        "folder": "berlin-1020"
+        "id": "berlin-metropole",
+        "title": "Berlin - Die Hauptstadt Deutschlands",
+        "folder": "berlin-die-hauptstadt-deutschlands"
       },
       {
-        "id": "1053",
-        "title": "Hamburg",
-        "folder": "hamburg-1053"
+        "id": "hamburg-metropole",
+        "title": "Hamburg - Eine Stadt mit Geschichte und Vielfalt",
+        "folder": "hamburg-eine-stadt-mit-geschichte-und-vielfalt"
       },
       {
-        "id": "1054",
-        "title": "Bremen",
-        "folder": "bremen-1054"
-      }
-    ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=staedte+deutschland&t=3752"
-  },
-  "deutsche-grossstaedte-sued-und-ost": {
-    "slug": "deutsche-grossstaedte-sued-und-ost",
-    "title": "Deutsche Metropolen: Süd, West & Ost",
-    "category": "Deutschland & Mitteleuropa",
-    "shortDesc": "Frankfurt am Main, Stuttgart, Leipzig, Dresden und Hannover im Profil.",
-    "longDesc": "Von der Finanzmetropole Frankfurt über das Industriezentrum Stuttgart bis zu den mitteldeutschen Kultur- und Handelsmetropolen Leipzig und Dresden.",
-    "keyPoints": [
-      "Frankfurt am Main: Europäisches Finanzzentrum, EZB und internationaler Großflughafen",
-      "Stuttgart: Automobil- und Technologiezentrum im Neckartal",
-      "Leipzig & Dresden: Bedeutende Messestädte, Kulturzentren und Wirtschaftsräume Sachsens"
-    ],
-    "exercises": [
+        "id": "muenchen-metropole",
+        "title": "München - Die Hauptstadt Bayerns",
+        "folder": "muenchen-die-hauptstadt-bayerns"
+      },
+      {
+        "id": "koeln-metropole",
+        "title": "Köln - Eine Stadt mit Geschichte und Kultur",
+        "folder": "koeln-eine-stadt-mit-geschichte-und-kultur"
+      },
       {
         "id": "frankfurt-moderne",
         "title": "Frankfurt am Main - Eine Stadt mit Geschichte und Moderne",
@@ -1548,9 +1948,29 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "folder": "stuttgart-die-landeshauptstadt-baden-wuerttemberg"
       },
       {
+        "id": "duesseldorf-metropole",
+        "title": "Düsseldorf - Eine Stadt am Rhein",
+        "folder": "duesseldorf-eine-stadt-am-rhein"
+      },
+      {
         "id": "leipzig-kultur",
         "title": "Leipzig - Eine Stadt mit Geschichte und Kultur",
         "folder": "leipzig-eine-stadt-mit-geschichte-und-kultur"
+      },
+      {
+        "id": "dortmund-metropole",
+        "title": "Dortmund - Eine Stadt im Ruhrgebiet",
+        "folder": "dortmund-eine-stadt-im-ruhrgebiet"
+      },
+      {
+        "id": "essen-metropole",
+        "title": "Essen - Eine Stadt im Ruhrgebiet",
+        "folder": "essen-eine-stadt-im-ruhrgebiet"
+      },
+      {
+        "id": "bremen-stadt",
+        "title": "Die Stadt Bremen",
+        "folder": "die-stadt-bremen"
       },
       {
         "id": "dresden-kultur",
@@ -1566,85 +1986,307 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "nuernberg-kultur",
         "title": "Nürnberg - Eine Stadt mit Geschichte und Kultur",
         "folder": "nuernberg-eine-stadt-mit-geschichte-und-kultur"
+      },
+      {
+        "id": "duisburg-metropole",
+        "title": "Duisburg - Eine Stadt mit Geschichte und Industrie",
+        "folder": "duisburg-eine-stadt-mit-geschichte-und-industrie"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=staedte+deutschland&t=3752"
   },
-  "deutsche-staedte-im-profil": {
-    "slug": "deutsche-staedte-im-profil",
-    "title": "Deutsche Städte im Profil",
-    "category": "Deutschland & Mitteleuropa",
-    "shortDesc": "Kassel, Rostock, Mainz, Heidelberg, Darmstadt, Ingolstadt und Mittelzentren.",
-    "longDesc": "Mittel- und Großstädte prägen das dicht gewobene Städtenetz Deutschlands. Jede Stadt zeichnet sich durch spezifische Funktionen in Wissenschaft, Kultur, Hafenwirtschaft oder Industrie aus.",
+  "deutsche-staedte-im-profil-nord-und-ost": {
+    "slug": "deutsche-staedte-im-profil-nord-und-ost",
+    "title": "Deutsche Städte im Profil: Nord & Ost",
+    "category": "Deutschland",
+    "shortDesc": "Potsdam, Kiel, Lübeck, Rostock, Schwerin, Magdeburg, Erfurt, Jena, Weimar, Chemnitz und weitere Zentren.",
+    "longDesc": "Die nord- und ostdeutschen Städte verbinden reiche Hanse- und Universitätsgeschichte mit Schlossarchitektur und modernen Innovationsparks.",
     "keyPoints": [
-      "Kassel & Rostock: documenta-Stadt im hessischen Bergland bzw. traditionsreiche Ostsee-Universitätsstadt",
-      "Mainz & Heidelberg: Gutenberg-Stadt am Rhein bzw. älteste Universitätsstadt Deutschlands am Neckar",
-      "Darmstadt & Ingolstadt: Jugendstil- und Wissenschaftsstadt bzw. Automobil- und Industriestandort an der Donau",
-      "Mittelzentren: Lebensqualität, Arbeitsplätze und Kultur in Neustadt, Filderstadt und Velbert"
+      "Hanse & Meer: Lübeck, Rostock, Kiel, Flensburg, Greifswald und Oldenburg",
+      "Klassik & Wissenschaft: Weimar, Jena, Potsdam und Halle (Saale)",
+      "Landeshauptstädte: Schwerin, Magdeburg und Erfurt",
+      "Wirtschaftszentren: Chemnitz, Braunschweig und Osnabrück"
     ],
     "exercises": [
       {
-        "id": "1486",
-        "title": "Kassel - Die documenta-Stadt",
-        "folder": "kassel-1486"
+        "id": "potsdam-profil",
+        "title": "Potsdam - Eine Stadt mit Geschichte und Kultur",
+        "folder": "potsdam-eine-stadt-mit-geschichte-und-kultur"
       },
       {
-        "id": "1487",
-        "title": "Rostock - Hansestadt an der Ostsee",
-        "folder": "rostock-1487"
+        "id": "kiel-profil",
+        "title": "Kiel - Die Landeshauptstadt Schleswig-Holsteins",
+        "folder": "kiel-die-landeshauptstadt-schleswig-holsteins"
       },
       {
-        "id": "1488",
+        "id": "luebeck-profil",
+        "title": "Lübeck - Eine historische Hansestadt",
+        "folder": "luebeck-eine-historische-hansestadt"
+      },
+      {
+        "id": "rostock-profil",
+        "title": "Rostock - Eine Stadt an der Ostsee",
+        "folder": "rostock-eine-stadt-an-der-ostsee"
+      },
+      {
+        "id": "schwerin-profil",
+        "title": "Schwerin - Die Hauptstadt Mecklenburg-Vorpommerns",
+        "folder": "schwerin-die-hauptstadt-mecklenburg-vorpommerns"
+      },
+      {
+        "id": "magdeburg-profil",
+        "title": "Magdeburg - Die Hauptstadt Sachsen-Anhalts",
+        "folder": "magdeburg-die-hauptstadt-sachsen-anhalts"
+      },
+      {
+        "id": "halle-saale-profil",
+        "title": "Halle (Saale) - Eine Stadt mit Geschichte und Kultur",
+        "folder": "halle-saale-eine-stadt-mit-geschichte-und-kultur"
+      },
+      {
+        "id": "erfurt-profil",
+        "title": "Erfurt - Die Landeshauptstadt Thüringens",
+        "folder": "erfurt-die-landeshauptstadt-thueringens"
+      },
+      {
+        "id": "jena-profil",
+        "title": "Jena - Eine Stadt mit Geschichte und Wissenschaft",
+        "folder": "jena-eine-stadt-mit-geschichte-und-wissenschaft"
+      },
+      {
+        "id": "weimar-profil",
+        "title": "Weimar - Eine Stadt mit Geschichte und Kultur",
+        "folder": "weimar-eine-stadt-mit-geschichte-und-kultur"
+      },
+      {
+        "id": "chemnitz-profil",
+        "title": "Chemnitz - Eine Stadt mit Geschichte und Kultur",
+        "folder": "chemnitz-eine-stadt-mit-geschichte-und-kultur"
+      },
+      {
+        "id": "braunschweig-profil",
+        "title": "Braunschweig - Eine Stadt mit Geschichte und Wissenschaft",
+        "folder": "braunschweig-eine-stadt-mit-geschichte-und-wissenschaft"
+      },
+      {
+        "id": "osnabrueck-profil",
+        "title": "Osnabrück - Eine Stadt mit Geschichte und Natur",
+        "folder": "osnabrueck-eine-stadt-mit-geschichte-und-natur"
+      },
+      {
+        "id": "oldenburg-profil",
+        "title": "Oldenburg - Eine Stadt mit Geschichte und Kultur",
+        "folder": "oldenburg-eine-stadt-mit-geschichte-und-kultur"
+      },
+      {
+        "id": "flensburg-profil",
+        "title": "Flensburg - Eine Stadt mit Geschichte und Kultur",
+        "folder": "flensburg-eine-stadt-mit-geschichte-und-kultur"
+      },
+      {
+        "id": "greifswald-profil",
+        "title": "Greifswald - Eine Stadt mit Geschichte und Kultur",
+        "folder": "greifswald-eine-stadt-mit-geschichte-und-kultur"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=staedte+deutschland&t=3752"
+  },
+  "deutsche-staedte-im-profil-sued-und-west": {
+    "slug": "deutsche-staedte-im-profil-sued-und-west",
+    "title": "Deutsche Städte im Profil: Süd & West",
+    "category": "Deutschland",
+    "shortDesc": "Aachen, Bonn, Münster, Wiesbaden, Mainz, Karlsruhe, Mannheim, Heidelberg, Augsburg, Würzburg, Trier u.v.m.",
+    "longDesc": "Von den römischen Gründungen wie Trier, Mainz und Augsburg über traditionsreiche Universitätsstädte bis zu den wirtschaftsstarken Zentren Süd- und Westdeutschlands.",
+    "keyPoints": [
+      "Römerstädte & Geschichte: Trier (älteste Stadt Deutschlands), Mainz, Augsburg, Aachen und Regensburg",
+      "Wissenschaft & Bildung: Heidelberg, Münster, Tübingen, Bonn, Würzburg und Darmstadt",
+      "Landeshauptstädte: Wiesbaden (Hessen), Mainz (Rheinland-Pfalz) und Saarbrücken (Saarland)",
+      "Oberzentren: Karlsruhe, Mannheim, Ulm, Kassel und Bielefeld"
+    ],
+    "exercises": [
+      {
+        "id": "aachen-profil",
+        "title": "Aachen - Eine Stadt mit Geschichte und Kultur",
+        "folder": "aachen-eine-stadt-mit-geschichte-und-kultur"
+      },
+      {
+        "id": "bonn-profil",
+        "title": "Bonn - Eine Stadt mit Geschichte und Bedeutung",
+        "folder": "bonn-eine-stadt-mit-geschichte-und-bedeutung"
+      },
+      {
+        "id": "muenster-profil",
+        "title": "Münster - Eine Stadt mit Geschichte und Kultur",
+        "folder": "muenster-eine-stadt-mit-geschichte-und-kultur"
+      },
+      {
+        "id": "bielefeld-profil",
+        "title": "Bielefeld - Eine Stadt in Nordrhein-Westfalen",
+        "folder": "bielefeld-eine-stadt-in-nordrhein-westfalen"
+      },
+      {
+        "id": "wuppertal-profil",
+        "title": "Wuppertal - Eine Stadt im Grünen",
+        "folder": "wuppertal-eine-stadt-im-gruenen"
+      },
+      {
+        "id": "mainz-profil",
         "title": "Mainz - Landeshauptstadt am Rhein",
         "folder": "mainz-1488"
       },
       {
-        "id": "1471",
+        "id": "wiesbaden-profil",
+        "title": "Wiesbaden - Die Landeshauptstadt Hessens",
+        "folder": "wiesbaden-die-landeshauptstadt-hessens"
+      },
+      {
+        "id": "darmstadt-profil",
+        "title": "Darmstadt - Eine Stadt mit Geschichte und Wissenschaft",
+        "folder": "darmstadt-eine-stadt-mit-geschichte-und-wissenschaft"
+      },
+      {
+        "id": "kassel-profil",
+        "title": "Kassel - Die documenta-Stadt",
+        "folder": "kassel-1486"
+      },
+      {
+        "id": "karlsruhe-profil",
+        "title": "Karlsruhe - Eine Stadt mit Geschichte und Besonderheiten",
+        "folder": "karlsruhe-eine-stadt-mit-geschichte-und-besonderheiten"
+      },
+      {
+        "id": "mannheim-profil",
+        "title": "Mannheim - Eine Stadt mit Geschichte und Kultur",
+        "folder": "mannheim-eine-stadt-mit-geschichte-und-kultur"
+      },
+      {
+        "id": "heidelberg-profil",
+        "title": "Heidelberg - Eine Stadt mit Geschichte und Kultur",
+        "folder": "heidelberg-eine-stadt-mit-geschichte-und-kultur"
+      },
+      {
+        "id": "tuebingen-profil",
+        "title": "Tübingen - Eine Stadt mit Geschichte und Kultur",
+        "folder": "tuebingen-eine-stadt-mit-geschichte-und-kultur"
+      },
+      {
+        "id": "ulm-profil",
+        "title": "Ulm - Eine Stadt mit Geschichte und Kultur",
+        "folder": "ulm-eine-stadt-mit-geschichte-und-kultur"
+      },
+      {
+        "id": "augsburg-profil",
+        "title": "Augsburg - Eine Stadt mit Geschichte und Kultur",
+        "folder": "augsburg-eine-stadt-mit-geschichte-und-kultur"
+      },
+      {
+        "id": "wuerzburg-profil",
+        "title": "Würzburg - Eine Stadt mit Geschichte und Kultur",
+        "folder": "wuerzburg-eine-stadt-mit-geschichte-und-kultur"
+      },
+      {
+        "id": "regensburg-profil",
+        "title": "Regensburg - Eine Stadt mit Geschichte und Kultur",
+        "folder": "regensburg-eine-stadt-mit-geschichte-und-kultur"
+      },
+      {
+        "id": "saarbruecken-profil",
+        "title": "Saarbrücken - Eine Stadt mit Geschichte und Kultur",
+        "folder": "saarbruecken-eine-stadt-mit-geschichte-und-kultur"
+      },
+      {
+        "id": "trier-profil",
+        "title": "Trier - Die älteste Stadt Deutschlands",
+        "folder": "trier-die-aelteste-stadt-deutschlands"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=staedte+deutschland&t=3752"
+  },
+  "deutsche-staedte-im-profil-weitere-zentren": {
+    "slug": "deutsche-staedte-im-profil-weitere-zentren",
+    "title": "Deutsche Städte im Profil: Historische Zentren & Mittelstädte",
+    "category": "Deutschland",
+    "shortDesc": "Ingolstadt, Ludwigshafen, Stolberg, Velbert, Filderstadt, Neustadt an der Weinstraße, Wolfsburg, Erlangen u.v.m.",
+    "longDesc": "Mittelstädte und regionale Wirtschaftszentren prägen das facettenreiche Städtenetz Deutschlands: Von Automobil- und Industriestandorten über Fachwerk- und Residenzstädte bis zu rheinischen Handelsorten.",
+    "keyPoints": [
+      "Industrie & Innovation: Ingolstadt (Audi), Wolfsburg (VW), Erlangen (Siemens) und Ludwigshafen (BASF)",
+      "Tradition & Handwerk: Solingen (Klingenstadt), Velbert (Schlösser & Beschläge) und Stolberg (Kupferstadt)",
+      "Wein & Kultur: Neustadt an der Weinstraße und Filderstadt",
+      "Regionale Identität: Villingen-Schwenningen und Rosenheim"
+    ],
+    "exercises": [
+      {
+        "id": "ingolstadt-profil",
         "title": "Ingolstadt",
         "folder": "ingolstadt-1471"
       },
       {
-        "id": "1474",
-        "title": "Darmstadt",
-        "folder": "darmstadt-1474"
-      },
-      {
-        "id": "1475",
-        "title": "Heidelberg",
-        "folder": "heidelberg-1475"
-      },
-      {
-        "id": "1479",
+        "id": "ludwigshafen-profil",
         "title": "Ludwigshafen am Rhein",
         "folder": "ludwigshafen-am-rhein-1479"
       },
       {
-        "id": "1631",
+        "id": "filderstadt-profil",
         "title": "Filderstadt",
         "folder": "filderstadt-1631"
       },
       {
-        "id": "1800",
+        "id": "neustadt-weinstrasse",
         "title": "Neustadt an der Weinstraße",
         "folder": "neustadt-an-der-weinstraese-1800"
       },
       {
-        "id": "1919",
+        "id": "velbert-profil",
         "title": "Velbert",
         "folder": "velbert-1919"
       },
       {
-        "id": "1472",
-        "title": "Regensburg",
-        "folder": "regensburg-1472"
-      },
-      {
-        "id": "1879",
+        "id": "stolberg-profil",
         "title": "Stolberg",
         "folder": "stolberg-1879"
+      },
+      {
+        "id": "langenfeld-profil",
+        "title": "Langenfeld",
+        "folder": "langenfeld-1729"
+      },
+      {
+        "id": "wolfsburg-profil",
+        "title": "Wolfsburg - Eine Stadt mit Geschichte und Industrie",
+        "folder": "wolfsburg-eine-stadt-mit-geschichte-und-industrie"
+      },
+      {
+        "id": "erlangen-profil",
+        "title": "Erlangen - Eine Stadt mit Geschichte und Zukunft",
+        "folder": "erlangen-eine-stadt-mit-geschichte-und-zukunft"
+      },
+      {
+        "id": "solingen-profil",
+        "title": "Solingen",
+        "folder": "solingen-1480"
+      },
+      {
+        "id": "rosenheim-profil",
+        "title": "Rosenheim - Eine Stadt mit Geschichte und Natur",
+        "folder": "rosenheim-eine-stadt-mit-geschichte-und-natur"
+      },
+      {
+        "id": "villingen-schwenningen-profil",
+        "title": "Villingen-Schwenningen - Eine Doppelstadt im Schwarzwald",
+        "folder": "villingen-schwenningen-eine-doppelstadt-im-schwarzwald"
+      },
+      {
+        "id": "siegen-profil",
+        "title": "Siegen - Eine Stadt mit Geschichte und Natur",
+        "folder": "siegen-eine-stadt-mit-geschichte-und-natur"
+      },
+      {
+        "id": "remscheid-profil",
+        "title": "Remscheid - Eine Stadt im Bergischen Land",
+        "folder": "remscheid-eine-stadt-im-bergischen-land"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=deutsche+staedte&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=staedte+deutschland&t=3752"
   },
   "die-schweiz-kantone-mittelland-und-nordwestschweiz": {
     "slug": "die-schweiz-kantone-mittelland-und-nordwestschweiz",
