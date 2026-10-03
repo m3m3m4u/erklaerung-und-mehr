@@ -1,4 +1,4 @@
-export interface H5PExercise {
+export interface WirtschaftExercise {
   id: string;
   title: string;
   folder: string;
@@ -11,7 +11,7 @@ export interface WirtschaftTopic {
   shortDesc: string;
   longDesc: string;
   keyPoints: string[];
-  exercises: H5PExercise[];
+  exercises: WirtschaftExercise[];
   worksheetLink?: string;
 }
 
@@ -99,8 +99,7 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "id": "strukturwandel-vom-bergbau-zur-dienstleistung",
         "title": "Strukturwandel vom Bergbau zur Dienstleistung",
         "folder": "strukturwandel-vom-bergbau-zur-dienstleistung"
-      }
-    ,
+      },
       {
         "id": "603",
         "title": "Wirtschaftssektoren (Primär, Sekundär, Tertiär)",
@@ -110,7 +109,8 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "id": "606",
         "title": "Produkte der Wirtschaft & Güterarten",
         "folder": "lerninhalt-produkte-der-wirtschaft-606"
-      }],
+      }
+    ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=ökonomisches+prinzip+bedürfnisse&t=3752"
   },
   "sozialversicherungen-und-soziale-sicherung": {
@@ -170,8 +170,7 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "id": "private-haftpflichtversicherung-als-basisschutz",
         "title": "Private Haftpflichtversicherung als Basisschutz",
         "folder": "private-haftpflichtversicherung-als-basisschutz"
-      }
-    ,
+      },
       {
         "id": "3479",
         "title": "Arbeitslosigkeit – Gründe und Folgen",
@@ -257,8 +256,7 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "id": "3185",
         "title": "Escape Room: Wirtschaftsformen",
         "folder": "escape-room-quot-wirtschaftsformen-quot-3185"
-      }
-    ,
+      },
       {
         "id": "987",
         "title": "Freie Marktwirtschaft",
@@ -288,11 +286,6 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "id": "3334",
         "title": "Wirtschaft im Mittelalter",
         "folder": "wirtschaft-im-mittelalterr-3334"
-      },
-      {
-        "id": "1944",
-        "title": "Wirtschaft 1944 – Kriegswirtschaft",
-        "folder": "wirtschaft-1944"
       },
       {
         "id": "3067",
@@ -365,8 +358,7 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "id": "vier-tage-woche",
         "title": "Die Vier-Tage-Woche – Radikaler Wohlstand oder wirtschaftlicher Selbstmord",
         "folder": "die-vier-tage-woche-radikaler-wohlstand-oder-wirtschaftlicher-selbstmord"
-      }
-    ,
+      },
       {
         "id": "diesozialversicheru",
         "title": "Die Sozialversicherung in Deutschland",
@@ -468,8 +460,7 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "id": "2879",
         "title": "Angebotsmonopol 3: Grafische Gewinnmaximierung (Stückbetrachtung)",
         "folder": "angebotsmonopol-3-grafische-gewinnmaximierung-stuckbetrachtung-2879"
-      }
-    ,
+      },
       {
         "id": "1135",
         "title": "Marktformen (Monopol, Oligopol, Polypol)",
@@ -484,21 +475,6 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "id": "preistreiber",
         "title": "Miet-Wahnsinn in der City – Preistreiber in Städten",
         "folder": "miet-wahnsinn-in-der-city-die-wahren-preistreiber-in-unseren-staedten"
-      },
-      {
-        "id": "2619",
-        "title": "Werbung und ihre psychologischen Strategien",
-        "folder": "werbung-und-ihre-psychologischen-strategien-2619"
-      },
-      {
-        "id": "2709",
-        "title": "Einfluss der Werbung auf das Verhalten",
-        "folder": "einfluss-der-werbung-auf-das-verhalten-2709"
-      },
-      {
-        "id": "950",
-        "title": "Marketing – Überblick und Grundlagen",
-        "folder": "marketing-950"
       },
       {
         "id": "1137",
@@ -585,8 +561,7 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "id": "bankensystem-funktion",
         "title": "Wie funktioniert das Bankensystem",
         "folder": "wie-funktioniert-das-bankensystem"
-      }
-    ,
+      },
       {
         "id": "948",
         "title": "Banken & das Kreditsystem",
@@ -606,7 +581,8 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "id": "krypto-falle",
         "title": "Krypto-Falle für Anfänger – Risiken digitaler Währungen",
         "folder": "krypto-falle-fuer-anfaenger-das-riskante-spiel-junger-anleger-mit-digitalem-gold"
-      }],
+      }
+    ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Geld%2C%20Bankensystem%20%26%20Zahlungsverkehr+wirtschaft&t=3752"
   },
   "ezb-bundesbank-und-geldpolitik": {
@@ -682,8 +658,7 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "id": "6600",
         "title": "Die Inflation und ihre Folgen",
         "folder": "die-inflation-und-ihre-folgen-6600"
-      }
-    ,
+      },
       {
         "id": "3507",
         "title": "Die Deutsche Bundesbank",
@@ -693,7 +668,8 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "id": "1136",
         "title": "Inflation & Geldwert",
         "folder": "inflation-1136"
-      }],
+      }
+    ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=EZB%2C%20Geldpolitik%2C%20Inflation%20%26%20Deflation+wirtschaft&t=3752"
   },
   "aktien-fonds-etfs-und-boerse": {
@@ -768,13 +744,13 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "id": "3194",
         "title": "Escape Room: Bank und Börse",
         "folder": "escape-room-quot-bank-und-borse-quot-3194"
-      }
-    ,
+      },
       {
         "id": "906",
         "title": "Aktien & Wertpapiere",
         "folder": "aktien-906"
-      }],
+      }
+    ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Wertpapiere%2C%20Aktien%2C%20ETFs%20%26%20B%C3%B6rsenhandel+wirtschaft&t=3752"
   },
   "kredite-schulden-und-verbraucherfinanzen": {
@@ -845,8 +821,7 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "id": "der-darlehensvertrag-und-kreditrecht",
         "title": "Der Darlehensvertrag und Kreditrecht",
         "folder": "der-darlehensvertrag-und-kreditrecht"
-      }
-    ,
+      },
       {
         "id": "949",
         "title": "Kredite – Grundlagen und Risiken",
@@ -889,11 +864,6 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "folder": "gewinner-und-verlierer-der-globalisierung"
       },
       {
-        "id": "just-in-time-logistik-prozess-und-risiken",
-        "title": "Just in Time Logistik Prozess und Risiken",
-        "folder": "just-in-time-logistik-prozess-und-risiken"
-      },
-      {
         "id": "kinderarbeit-in-globalen-lieferketten",
         "title": "Kinderarbeit in globalen Lieferketten",
         "folder": "kinderarbeit-in-globalen-lieferketten"
@@ -902,11 +872,6 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "id": "lieferkettensorgfaltspflichtengesetz-kurz-lksg",
         "title": "Lieferkettensorgfaltspflichtengesetz kurz LKSG",
         "folder": "lieferkettensorgfaltspflichtengesetz-kurz-lksg"
-      },
-      {
-        "id": "logistik-im-welthandel-containerschifffahrt",
-        "title": "Logistik im Welthandel Containerschifffahrt",
-        "folder": "logistik-im-welthandel-containerschifffahrt"
       },
       {
         "id": "outsourcing-und-offshoring-trends",
@@ -927,8 +892,7 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "id": "ursachen-und-treiber-der-globalisierung",
         "title": "Ursachen und Treiber der Globalisierung",
         "folder": "ursachen-und-treiber-der-globalisierung"
-      }
-    ,
+      },
       {
         "id": "5367",
         "title": "Die Geschichte des Handels",
@@ -955,34 +919,9 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "folder": "globalisierung-981"
       },
       {
-        "id": "5458",
-        "title": "Handelsrouten im Zeitalter der Globalisierung",
-        "folder": "die-entwicklung-von-handelsrouten-im-zeitalter-der-globalisierung-5458"
-      },
-      {
-        "id": "5472",
-        "title": "Verkehrsknotenpunkte in globalen Lieferketten",
-        "folder": "die-rolle-von-verkehrsknotenpunkten-in-globalen-lieferketten-5472"
-      },
-      {
-        "id": "5555",
-        "title": "Seeverkehr & Globaler Containerhandel",
-        "folder": "seeverkehr-und-globalhandel-containerhafen-als-schlusselpunkte-der-weltwirtschaft-5555"
-      },
-      {
-        "id": "5532",
-        "title": "Wie Globalisierung die Verkehrsströme verändert",
-        "folder": "wie-globalisierung-die-verkehrsstrome-verandert-5532"
-      },
-      {
-        "id": "diestrassevonhorm",
-        "title": "Die Straße von Hormus und der Welthandel",
-        "folder": "die-strasse-von-hormus-und-ihre-bedeutung-fuer-den-welthandel"
-      },
-      {
-        "id": "5577",
-        "title": "Zukunft der Logistik: Drohnen und Automatisierung",
-        "folder": "zukunft-der-logistik-automatisierung-drohnen-und-nachhaltige-lieferketten-5577"
+        "id": "5451",
+        "title": "Auswirkungen der Globalisierung auf lokale Kulturen",
+        "folder": "die-auswirkungen-der-globalisierung-auf-lokale-kulturen-5451"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Globalisierung%2C%20Welthandel%20%26%20Globale%20Lieferketten+wirtschaft&t=3752"
@@ -1060,8 +999,7 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "id": "4661",
         "title": "Zölle und Auswirkungen auf die Wirtschaft",
         "folder": "zolle-und-auswirkungen-auf-die-wirtschaft-4661"
-      }
-    ,
+      },
       {
         "id": "3522",
         "title": "Die Weltbank",
@@ -1096,39 +1034,23 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "id": "3549",
         "title": "Internationaler Währungsfonds (IWF)",
         "folder": "internationaler-wahrungsfonds-3549"
-      },
-      {
-        "id": "5451",
-        "title": "Auswirkungen der Globalisierung auf lokale Kulturen",
-        "folder": "die-auswirkungen-der-globalisierung-auf-lokale-kulturen-5451"
-      },
-      {
-        "id": "5453",
-        "title": "Bedeutung von Verkehrsachsen für Wirtschaft & Siedlung",
-        "folder": "die-bedeutung-von-verkehrsachsen-fur-wirtschaft-und-siedlungsentwicklung-5453"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Freihandel%2C%20Protektionismus%20%26%20WTO%2C%20IWF%2C%20Weltbank+wirtschaft&t=3752"
   },
-  "nachhaltiges-wirtschaften-und-klimawandel": {
-    "slug": "nachhaltiges-wirtschaften-und-klimawandel",
-    "title": "Nachhaltigkeit, Kreislaufwirtschaft & CSR",
+  "nachhaltige-unternehmen-und-kreislaufwirtschaft": {
+    "slug": "nachhaltige-unternehmen-und-kreislaufwirtschaft",
+    "title": "Nachhaltige Unternehmen & Kreislaufwirtschaft",
     "category": "Weltwirtschaft & Globalisierung",
-    "shortDesc": "Ökologischer Fußabdruck, Cradle to Cradle, CO2-Zertifikatehandel, Corporate Social Responsibility und Fairtrade.",
-    "longDesc": "Ökologisches Wirtschaften zielt auf ressourcenschonende Produktionsweisen und geschlossene Stoffkreisläufe zur Bewältigung des Klimawandels.",
+    "shortDesc": "Ökologisches Wirtschaften, Kreislaufmodelle, CO₂-Preise und Corporate Social Responsibility in der Praxis.",
+    "longDesc": "Unternehmen stehen vor der Transformation zu ressourcenschonendem und klimaneutralem Wirtschaften. In diesem Modul werden zukunftsweisende Konzepte wie Cradle-to-Cradle, Zero Waste, Nachhaltigkeitsberichterstattung, CO₂-Emissionszertifikate und die Bekämpfung von Greenwashing praxisnah analysiert.",
     "keyPoints": [
-      "Nachhaltigkeitsdreieck: Ökologie, Ökonomie und Soziales im Einklang",
-      "Kreislaufwirtschaft: Wiederverwertung von Wertstoffen (Cradle-to-Cradle) statt Wegwerfgesellschaft",
-      "CO2-Handel: Marktwirtschaftliche Bepreisung von Emissionen durch Zertifikate",
-      "CSR (Corporate Social Responsibility): Unternehmerische Gesellschaftsverantwortung",
-      "Greenwashing: Täuschende Werbung für vermeintliche Nachhaltigkeit"
+      "Konzepte der Kreislaufwirtschaft, Recycling und Cradle-to-Cradle im Betrieb",
+      "Corporate Social Responsibility (CSR) und transparente Nachhaltigkeitsberichte",
+      "CO₂-Zertifikatehandel, Emissionsrechte und ökologische Marktwirtschaft",
+      "Kritischer Umgang mit Greenwashing und Kriterien fairer, ökologischer Produktion"
     ],
     "exercises": [
-      {
-        "id": "bio-siegel-und-fairtrade-standards",
-        "title": "Bio Siegel und Fairtrade Standards",
-        "folder": "bio-siegel-und-fairtrade-standards"
-      },
       {
         "id": "co2-zertifikatehandel-und-emissionsrechte",
         "title": "CO2 Zertifikatehandel und Emissionsrechte",
@@ -1145,11 +1067,6 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "folder": "cradle-to-cradle-designprinzipien"
       },
       {
-        "id": "der-oekologische-fussabdruck-von-produkten",
-        "title": "Der ökologische Fußabdruck von Produkten",
-        "folder": "der-oekologische-fussabdruck-von-produkten"
-      },
-      {
         "id": "die-wirtschaftlichen-folgen-des-klimawandels",
         "title": "Die wirtschaftlichen Folgen des Klimawandels",
         "folder": "die-wirtschaftlichen-folgen-des-klimawandels"
@@ -1158,11 +1075,6 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "id": "erneuerbare-energien-als-wirtschaftsfaktor",
         "title": "Erneuerbare Energien als Wirtschaftsfaktor",
         "folder": "erneuerbare-energien-als-wirtschaftsfaktor"
-      },
-      {
-        "id": "ethischer-konsum-und-konsumentenboykott",
-        "title": "Ethischer Konsum und Konsumentenboykott",
-        "folder": "ethischer-konsum-und-konsumentenboykott"
       },
       {
         "id": "greenwashing-in-der-unternehmenswerbung",
@@ -1175,11 +1087,6 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "folder": "kreislaufwirtschaft-und-recycling-konzepte"
       },
       {
-        "id": "nachhaltigkeit-und-generationengerechtigkeit",
-        "title": "Nachhaltigkeit und Generationengerechtigkeit",
-        "folder": "nachhaltigkeit-und-generationengerechtigkeit"
-      },
-      {
         "id": "nachhaltigkeitsberichte-von-unternehmen",
         "title": "Nachhaltigkeitsberichte von Unternehmen",
         "folder": "nachhaltigkeitsberichte-von-unternehmen"
@@ -1188,12 +1095,51 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "id": "zero-waste-strategien-in-der-produktion",
         "title": "Zero Waste Strategien in der Produktion",
         "folder": "zero-waste-strategien-in-der-produktion"
-      }
-    ,
+      },
       {
         "id": "6452",
         "title": "CO₂-Bepreisung & ökologische Marktwirtschaft",
         "folder": "co-bepreisung-6452"
+      },
+      {
+        "id": "2862",
+        "title": "Nachhaltigkeit und faire Produktion",
+        "folder": "nachhaltigkeit-und-faire-produktion-2862"
+      }
+    ]
+  },
+  "nachhaltiger-konsum-und-oekologischer-fussabdruck": {
+    "slug": "nachhaltiger-konsum-und-oekologischer-fussabdruck",
+    "title": "Nachhaltiger Konsum & Ökologischer Fußabdruck",
+    "category": "Weltwirtschaft & Globalisierung",
+    "shortDesc": "Verbraucherverantwortung, Gütesiegel, Reparaturkultur, nachhaltige Mobilität und globale Entwicklungsziele.",
+    "longDesc": "Jede Kaufentscheidung hat ökologische und gesellschaftliche Auswirkungen. Dieses Modul vermittelt Orientierung im Konsumdschungel: von Bio- und Fairtrade-Siegeln über den persönlichen ökologischen Fußabdruck und Reparaturmöglichkeiten bis hin zu nachhaltiger Stadtmobilität und den globalen Zielen der Vereinten Nationen (SDGs).",
+    "keyPoints": [
+      "Verlässlichkeit von Bio-Siegeln, Fairtrade-Zertifikaten und Herkunftsnachweisen",
+      "Berechnung und Reduzierung des persönlichen und produktbezogenen ökologischen Fußabdrucks",
+      "Ressourcenschonung durch Reparatur, Wiederverwendung und Sharing-Konzepte",
+      "Global Goal 12 und ethische Fragestellungen in Alltag und Wirtschaft"
+    ],
+    "exercises": [
+      {
+        "id": "bio-siegel-und-fairtrade-standards",
+        "title": "Bio Siegel und Fairtrade Standards",
+        "folder": "bio-siegel-und-fairtrade-standards"
+      },
+      {
+        "id": "der-oekologische-fussabdruck-von-produkten",
+        "title": "Der ökologische Fußabdruck von Produkten",
+        "folder": "der-oekologische-fussabdruck-von-produkten"
+      },
+      {
+        "id": "ethischer-konsum-und-konsumentenboykott",
+        "title": "Ethischer Konsum und Konsumentenboykott",
+        "folder": "ethischer-konsum-und-konsumentenboykott"
+      },
+      {
+        "id": "nachhaltigkeit-und-generationengerechtigkeit",
+        "title": "Nachhaltigkeit und Generationengerechtigkeit",
+        "folder": "nachhaltigkeit-und-generationengerechtigkeit"
       },
       {
         "id": "2672",
@@ -1204,11 +1150,6 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "id": "4452",
         "title": "Nachhaltiger & bewusster Konsum",
         "folder": "nachhaltiger-konsum-und-bewusster-konsum-4452"
-      },
-      {
-        "id": "2862",
-        "title": "Nachhaltigkeit und faire Produktion",
-        "folder": "nachhaltigkeit-und-faire-produktion-2862"
       },
       {
         "id": "3570",
@@ -1235,8 +1176,7 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "title": "Ethische Fragen in der Wirtschaft",
         "folder": "ethische-fragen-in-der-wirtschaft-2850"
       }
-    ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Nachhaltigkeit%2C%20Kreislaufwirtschaft%20%26%20CSR+wirtschaft&t=3752"
+    ]
   },
   "migration-und-weltwirtschaft": {
     "slug": "migration-und-weltwirtschaft",
@@ -1290,12 +1230,6 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "id": "digitale-spaltung-zwischen-nord-und-sued",
         "title": "Digitale Spaltung zwischen Nord und Süd",
         "folder": "digitale-spaltung-zwischen-nord-und-sued"
-      }
-    ,
-      {
-        "id": "5542",
-        "title": "Migration und wirtschaftliche Entwicklung",
-        "folder": "migration-und-ihre-auswirkungen-auf-die-wirtschaftliche-entwicklung-2-5542"
       },
       {
         "id": "5480",
@@ -1367,17 +1301,11 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "id": "landwirtschaft-in-sterreich-und-in-den-usa-2051",
         "title": "Landwirtschaft im Vergleich: Österreich und die USA",
         "folder": "landwirtschaft-in-sterreich-und-in-den-usa-2051"
-      }
-    ,
+      },
       {
         "id": "2052",
         "title": "Landwirtschaft in Österreich",
         "folder": "landwirtschaft-in-sterreich-2052"
-      },
-      {
-        "id": "5541",
-        "title": "Globale Herausforderungen der Landwirtschaft im 21. Jh.",
-        "folder": "landwirtschaft-und-ihre-globalen-herausforderungen-im-21-jahrhundert-2-5541"
       },
       {
         "id": "5501",
@@ -1588,8 +1516,7 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "id": "aufbau-der-arbeitsgerichtsbarkeit",
         "title": "Aufbau der Arbeitsgerichtsbarkeit",
         "folder": "aufbau-der-arbeitsgerichtsbarkeit"
-      }
-    ,
+      },
       {
         "id": "3568",
         "title": "Der Mindestlohn in Deutschland",
@@ -1660,8 +1587,7 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "id": "cookies-und-tracking-einwilligungen",
         "title": "Cookies und Tracking Einwilligungen",
         "folder": "cookies-und-tracking-einwilligungen"
-      }
-    ,
+      },
       {
         "id": "939",
         "title": "Verträge – Grundlagen und Arten",
@@ -1748,8 +1674,7 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "id": "startup-gruender",
         "title": "Wirtschaftsmotor Start-up – Warum junge Gründer unsere Zukunft retten",
         "folder": "wirtschaftsmotor-start-up-warum-junge-gruender-unsere-zukunft-retten"
-      }
-    ,
+      },
       {
         "id": "991",
         "title": "Das Unternehmen im Wirtschaftskreislauf",
@@ -1769,7 +1694,8 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "id": "993",
         "title": "Unternehmensfinanzierung",
         "folder": "unternehmensfinanzierung-993"
-      }],
+      }
+    ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Rechtsformen%20von%20Unternehmen%3A%20Einzelunternehmen%2C%20GmbH%20%26%20AG+wirtschaft&t=3752"
   },
   "aufbau-und-ablauforganisation-im-betrieb": {
@@ -1920,12 +1846,16 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "id": "neuromarketing-hirnforschung-im-handel",
         "title": "Neuromarketing: Hirnforschung im Handel",
         "folder": "neuromarketing-hirnforschung-im-handel"
-      }
-    ,
+      },
       {
         "id": "2601",
         "title": "Rolle der Medien in der Wirtschaftskommunikation",
         "folder": "die-rolle-von-medien-in-der-wirtschaftskommunikation-2601"
+      },
+      {
+        "id": "950",
+        "title": "Marketing – Überblick und Grundlagen",
+        "folder": "marketing-950"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=marktforschung+marketing+mix&t=3752"
@@ -2069,6 +1999,16 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "id": "e-mail-marketing-und-newsletter",
         "title": "E-Mail-Marketing und Newsletter",
         "folder": "e-mail-marketing-und-newsletter"
+      },
+      {
+        "id": "2619",
+        "title": "Werbung und ihre psychologischen Strategien",
+        "folder": "werbung-und-ihre-psychologischen-strategien-2619"
+      },
+      {
+        "id": "2709",
+        "title": "Einfluss der Werbung auf das Verhalten",
+        "folder": "einfluss-der-werbung-auf-das-verhalten-2709"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=werbung+social+media+marketing&t=3752"
@@ -2141,8 +2081,7 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "id": "customer-relationship-management-crm",
         "title": "Customer Relationship Management CRM",
         "folder": "customer-relationship-management-crm"
-      }
-    ,
+      },
       {
         "id": "auswirkungenvonpla",
         "title": "Auswirkungen von Plattformkapitalismus auf Arbeitsrechte",
@@ -2437,8 +2376,7 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "id": "bundeshaushaltsplan",
         "title": "Der Bundeshaushaltsplan in Deutschland",
         "folder": "der-bundeshaushaltsplan-in-deutschland"
-      }
-    ,
+      },
       {
         "id": "3520",
         "title": "Die verschiedenen Steuern in Deutschland",
@@ -2789,5 +2727,65 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Der%20Ausbildungsvertrag%2C%20Rechte%2C%20Pflichten%20%26%20Arbeitsalltag+wirtschaft&t=3752"
+  },
+  "globale-logistik-verkehr-und-handelsrouten": {
+    "slug": "globale-logistik-verkehr-und-handelsrouten",
+    "title": "Globale Logistik, Verkehr & Handelsrouten",
+    "category": "Weltwirtschaft & Globalisierung",
+    "shortDesc": "Die logistischen Adern des Welthandels: Containerverkehr, Verkehrsknotenpunkte, Engpässe und moderne Lieferketten.",
+    "longDesc": "Internationale Warenströme hängen von einer komplexen maritimen und terrestrischen Infrastruktur ab. Diese Themeneinheit beleuchtet globale Schifffahrtswege, Seehäfen, Just-in-Time-Lieferketten, strategische Meerengen wie die Straße von Hormus sowie Automatisierung und Drohnentechnologie in der modernen Logistik.",
+    "keyPoints": [
+      "Bedeutung von Containerschifffahrt und großen Umschlaghäfen für den Welthandel",
+      "Just-in-Time-Lieferketten und ihre Anfälligkeit bei Störungen",
+      "Strategische maritime Nadelöhre wie die Straße von Hormus und wichtige Kanäle",
+      "Automatisierung, Digitalisierung und zukunftsfähige Transportlogistik"
+    ],
+    "exercises": [
+      {
+        "id": "just-in-time-logistik-prozess-und-risiken",
+        "title": "Just in Time Logistik Prozess und Risiken",
+        "folder": "just-in-time-logistik-prozess-und-risiken"
+      },
+      {
+        "id": "logistik-im-welthandel-containerschifffahrt",
+        "title": "Logistik im Welthandel Containerschifffahrt",
+        "folder": "logistik-im-welthandel-containerschifffahrt"
+      },
+      {
+        "id": "5458",
+        "title": "Handelsrouten im Zeitalter der Globalisierung",
+        "folder": "die-entwicklung-von-handelsrouten-im-zeitalter-der-globalisierung-5458"
+      },
+      {
+        "id": "5472",
+        "title": "Verkehrsknotenpunkte in globalen Lieferketten",
+        "folder": "die-rolle-von-verkehrsknotenpunkten-in-globalen-lieferketten-5472"
+      },
+      {
+        "id": "5555",
+        "title": "Seeverkehr & Globaler Containerhandel",
+        "folder": "seeverkehr-und-globalhandel-containerhafen-als-schlusselpunkte-der-weltwirtschaft-5555"
+      },
+      {
+        "id": "5532",
+        "title": "Wie Globalisierung die Verkehrsströme verändert",
+        "folder": "wie-globalisierung-die-verkehrsstrome-verandert-5532"
+      },
+      {
+        "id": "diestrassevonhorm",
+        "title": "Die Straße von Hormus und der Welthandel",
+        "folder": "die-strasse-von-hormus-und-ihre-bedeutung-fuer-den-welthandel"
+      },
+      {
+        "id": "5577",
+        "title": "Zukunft der Logistik: Drohnen und Automatisierung",
+        "folder": "zukunft-der-logistik-automatisierung-drohnen-und-nachhaltige-lieferketten-5577"
+      },
+      {
+        "id": "5453",
+        "title": "Bedeutung von Verkehrsachsen für Wirtschaft & Siedlung",
+        "folder": "die-bedeutung-von-verkehrsachsen-fur-wirtschaft-und-siedlungsentwicklung-5453"
+      }
+    ]
   }
 };

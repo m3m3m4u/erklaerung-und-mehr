@@ -3647,6 +3647,11 @@ export const geographieTopics: Record<string, GeoTopic> = {
         "id": "5562",
         "title": "Unterschiede zwischen West- und Osteuropa - Wirtschaftlich, kulturell, geografisch",
         "folder": "unterschiede-zwischen-west-und-osteuropa-wirtschaftlich-kulturell-geografisch-5562"
+      },
+      {
+        "id": "1944",
+        "title": "Posen (Poznań) – Polens historische Handelsmetropole",
+        "folder": "wirtschaft-1944"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=osteuropa+baltikum&t=3752"
