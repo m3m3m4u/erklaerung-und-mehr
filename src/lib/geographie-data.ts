@@ -589,6 +589,12 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "title": "Der Wolfgangsee",
         "folder": "der-wolfgangsee-5655"
       }
+    ,
+      {
+        "id": "1664",
+        "title": "Hallein",
+        "folder": "hallein-1664"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=salzburg&t=3752"
   },
@@ -698,6 +704,12 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "aut-ot-1",
         "title": "Osttirol – Zwischen Hohen Tauern und Karnischen Alpen",
         "folder": "das-osttirol-5610"
+      }
+    ,
+      {
+        "id": "1446",
+        "title": "Innsbruck",
+        "folder": "innsbruck-1446"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=tirol&t=3752"
@@ -989,6 +1001,17 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "5679",
         "title": "Die Karnischen Alpen",
         "folder": "die-karnischen-alpen-5679"
+      }
+    ,
+      {
+        "id": "1445",
+        "title": "Klagenfurt",
+        "folder": "klagenfurt-1445"
+      },
+      {
+        "id": "1444",
+        "title": "Villach",
+        "folder": "villach-1444"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=kaernten&t=3752"
@@ -1663,6 +1686,12 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "zugspitze",
         "title": "Die Zugspitze - Deutschlands höchster Berg",
         "folder": "die-zugspitze-deutschlands-hoechster-berg"
+      }
+    ,
+      {
+        "id": "geo-rothaar",
+        "title": "Das Rothaargebirge",
+        "folder": "das-rothaargebirge"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=gebirge+deutschland&t=3752"
@@ -2938,6 +2967,12 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "ch-wint-1",
         "title": "Winterthur – Sechstgrößte Stadt der Schweiz",
         "folder": "winterthur-1943"
+      }
+    ,
+      {
+        "id": "1954",
+        "title": "Zürich",
+        "folder": "zurich-1954"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=schweiz+staedte&t=3752"
@@ -6209,6 +6244,32 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "geo-stadt-iserlohn",
         "title": "Iserlohn – Waldstadt und traditionsreiches Industriezentrum im Sauerland",
         "folder": "iserlohn-eine-spannende-stadt-in-nordrhein-westfalen"
+      }
+    ,
+      {
+        "id": "1496",
+        "title": "Aachen",
+        "folder": "aachen-1496"
+      },
+      {
+        "id": "1545",
+        "title": "Aschaffenburg",
+        "folder": "aschaffenburg-1545"
+      },
+      {
+        "id": "1550",
+        "title": "Bad Oeynhausen",
+        "folder": "bad-oeynhausen-1550"
+      },
+      {
+        "id": "1552",
+        "title": "Baden-Baden",
+        "folder": "baden-baden-1552"
+      },
+      {
+        "id": "1462",
+        "title": "Bergisch Gladbach",
+        "folder": "bergisch-gladbach-1462"
       }
     ]
   }

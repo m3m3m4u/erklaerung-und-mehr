@@ -21,6 +21,7 @@ import { politikTopics } from './politik-data';
 import { psychologieTopics } from './psychologie-data';
 import { religionTopics } from './religion-data';
 import { sozialesLernenTopics } from './soziales-lernen-data';
+import { sportTopics } from './sport-data';
 import { technikTopics } from './technik-data';
 import { verkehrTopics } from './verkehr-data';
 import { wirtschaftTopics } from './wirtschaft-data';
@@ -67,6 +68,7 @@ export const allSubjectDatasets: { subject: string; subjectSlug: string; topics:
   { subject: 'Soziales & emotionales Lernen', subjectSlug: 'soziales-und-emotionales-lernen', topics: sozialesLernenTopics as Record<string, TopicDataLike> },
   { subject: 'Technik', subjectSlug: 'technik', topics: technikTopics as Record<string, TopicDataLike> },
   { subject: 'Freiwillige Fahrradprüfung', subjectSlug: 'die-freiwillige-fahrradpruefung', topics: verkehrTopics as Record<string, TopicDataLike> },
+  { subject: 'Sport & Bewegung', subjectSlug: 'sport', topics: sportTopics as Record<string, TopicDataLike> },
   { subject: 'Wirtschaft', subjectSlug: 'wirtschaft', topics: wirtschaftTopics as Record<string, TopicDataLike> },
 ];
 

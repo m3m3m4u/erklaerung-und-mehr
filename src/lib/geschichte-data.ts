@@ -202,6 +202,12 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "title": "Die Indus-Kultur – Frühe Hochkultur in Südasien",
         "folder": "die-indus-kultur-3164"
       }
+    ,
+      {
+        "id": "1205",
+        "title": "Anubis",
+        "folder": "anubis-1205"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Das%20alte%20%C3%84gypten%20%26%20Fr%C3%BChe%20Hochkulturen+geschichte&t=3752"
   },
@@ -346,6 +352,52 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "title": "Alltag und Gesellschaft im antiken Griechenland",
         "folder": "alltag-und-gesellschaft-im-antiken-griechenland-5237"
       }
+    ,
+      {
+        "id": "1328",
+        "title": "Zeus",
+        "folder": "zeus-1328"
+      },
+      {
+        "id": "1304",
+        "title": "Poseidon",
+        "folder": "poseidon-1304"
+      },
+      {
+        "id": "1266",
+        "title": "Hades",
+        "folder": "hades-1266"
+      },
+      {
+        "id": "1206",
+        "title": "Aphrodite",
+        "folder": "aphrodite-1206"
+      },
+      {
+        "id": "1330",
+        "title": "Apollo",
+        "folder": "apollo-2-1330"
+      },
+      {
+        "id": "1210",
+        "title": "Ares",
+        "folder": "ares-1210"
+      },
+      {
+        "id": "1211",
+        "title": "Artemis",
+        "folder": "artemis-1211"
+      },
+      {
+        "id": "1275",
+        "title": "Hermes",
+        "folder": "hermes-1275"
+      },
+      {
+        "id": "6280",
+        "title": "Antigone von Sophokles - Bezug zur Gegenwart",
+        "folder": "antigone-von-sophokles-bezug-zur-gegenwart-2-6280"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Griechische+Mythologie+Kultur&t=3752"
   },
@@ -417,6 +469,12 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "3754",
         "title": "Cicero",
         "folder": "cicero-3754"
+      }
+    ,
+      {
+        "id": "1336",
+        "title": "Juno",
+        "folder": "juno-1336"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Roemische+Republik+Caesar&t=3752"
@@ -1968,6 +2026,12 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "title": "Das Britische Empire – Weltreich des Imperialismus",
         "folder": "das-britische-empire-2-5330"
       }
+    ,
+      {
+        "id": "2293",
+        "title": "Ausbeutung Amerikas",
+        "folder": "ausbeutung-amerikas-2293"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Kolonialismus+Imperialismus&t=3752"
   },
@@ -2841,6 +2905,12 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "3006",
         "title": "Gewaltherrschaft Stalins",
         "folder": "gewaltherrschaft-stalins-3006"
+      }
+    ,
+      {
+        "id": "ges-reichsparteitag",
+        "title": "Das Dokumentationszentrum Reichsparteitagsgelände",
+        "folder": "das-dokumentationszentrum-reichsparteitagsgelaende"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Widerstand%20im%20Nationalsozialismus+geschichte&t=3752"

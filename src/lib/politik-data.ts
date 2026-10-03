@@ -122,6 +122,12 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "title": "Die Nachrichtendienste des Bundes",
         "folder": "die-nachrichtendienste-des-bundes"
       }
+    ,
+      {
+        "id": "pol-bverfg",
+        "title": "Das Bundesverfassungsgericht",
+        "folder": "das-bundesverfassungsgericht"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=demokratie+grundgesetz&t=3752"
   },
@@ -178,6 +184,12 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "id": "3597",
         "title": "Die UN-Kinderrechtskonvention",
         "folder": "un-kinderrechtskonvention-3597"
+      }
+    ,
+      {
+        "id": "2291",
+        "title": "Amnesty International",
+        "folder": "amnesty-international-2291"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=menschenrechte&t=3752"
@@ -264,6 +276,12 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "id": "5874",
         "title": "Philosophie und politische Ordnung",
         "folder": "philosophie-und-politik-5874"
+      }
+    ,
+      {
+        "id": "3474",
+        "title": "Anarchismus",
+        "folder": "anarchismus-3474"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=politische+systeme&t=3752"
@@ -473,6 +491,12 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "id": "2742",
         "title": "Körpersprache und Rhetorik von Politikern",
         "folder": "psychologische-aspekte-der-korpersprache-in-der-politik-2742"
+      }
+    ,
+      {
+        "id": "3286",
+        "title": "Heidi Reichinnek und Jan van Aken",
+        "folder": "heidi-reichinnek-und-jan-van-aken-3286"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=parteien+politiker&t=3752"
@@ -1201,6 +1225,17 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "title": "Zielkonflikte in der staatlichen Wirtschaftspolitik",
         "folder": "zielkonflikte-in-der-wirtschaftspolitik"
       }
+    ,
+      {
+        "id": "942",
+        "title": "Armut in Deutschland",
+        "folder": "armut-in-deutschland-942"
+      },
+      {
+        "id": "4502",
+        "title": "Global Goal 1: Keine Armut – Leben in Würde sichern",
+        "folder": "wenn-die-erde-bebt-warum-sie-wackelt-4-4502"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=sozialstaat+steuern&t=3752"
   },
@@ -1300,6 +1335,17 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "id": "pol-iran-atombombe",
         "title": "Geopolitik & Non-Proliferation: Der Konflikt um das iranische Atomprogramm",
         "folder": "warum-der-iran-keine-atombombe-haben-darf"
+      }
+    ,
+      {
+        "id": "pol-feiertage",
+        "title": "Gesetzliche Feiertage in Deutschland",
+        "folder": "gesetzliche-feiertage-in-deutschland"
+      },
+      {
+        "id": "pol-zeitumstellung",
+        "title": "Zeitumstellung im Check – Der unnötige Stress mit der Sommerzeit",
+        "folder": "zeitumstellung-im-check-der-unnoetige-stress-mit-der-sommerzeit"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=ethik+widerstand&t=3752"

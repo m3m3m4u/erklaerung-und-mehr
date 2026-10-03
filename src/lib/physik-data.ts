@@ -698,6 +698,12 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "title": "Kapazitiver Stromfluss bei Touchscreens",
         "folder": "kapazitive-touchscreens-und-der-stromfluss-durch-den-finger"
       }
+    ,
+      {
+        "id": "5249",
+        "title": "Coulomb'sches Gesetz",
+        "folder": "coulomb-039-sches-gesetz-5249"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=ohmsches+gesetz+widerstand&t=3752"
   },

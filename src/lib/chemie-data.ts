@@ -75,6 +75,17 @@ export const chemieTopics: Record<string, ChemieTopic> = {
         "title": "Physik und Chemie: Gemeinsamkeiten und Unterschiede",
         "folder": "physik-und-chemie-gemeinsamkeiten-und-unterschiede-2237"
       }
+    ,
+      {
+        "id": "1176",
+        "title": "Arsen",
+        "folder": "arsen-1176"
+      },
+      {
+        "id": "1187",
+        "title": "Wolfram",
+        "folder": "wolfram-1187"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=chemie+grundlagen&t=3752"
   },

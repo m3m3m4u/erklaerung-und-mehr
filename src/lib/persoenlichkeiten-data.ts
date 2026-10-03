@@ -4170,6 +4170,17 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "title": "Confucius",
         "folder": "confucius-3762"
       }
+    ,
+      {
+        "id": "2296",
+        "title": "Barack Obama",
+        "folder": "barack-obama-2296"
+      },
+      {
+        "id": "882",
+        "title": "Angela Merkel",
+        "folder": "angela-merkel-882"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Politiker+biografie&t=3752"
   },

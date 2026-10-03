@@ -67,6 +67,12 @@ export const subjectCategories: CategorySection[] = [
         link: '/lehrberufe',
         keywords: ['lehrberufe', 'berufe', 'lehre', 'ausbildung', 'arbeit', 'karriere', 'job'],
       },
+      {
+        title: 'Sport & Bewegung',
+        image: '/images/sport.png',
+        link: '/sport',
+        keywords: ['sport', 'bewegung', 'fitness', 'ballsport', 'turnen', 'leichtathletik', 'schwimmen', 'sportarten', 'gesundheit', 'training', 'regeln', 'teamsport'],
+      },
     ],
   },
   {

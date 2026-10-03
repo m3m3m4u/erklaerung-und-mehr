@@ -240,6 +240,22 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "title": "Slang der Straße – Jugendsprache im Wandel",
         "folder": "slang-der-strasse-der-geheime-code-der-aktuellen-jugendsprache"
       }
+    ,
+      {
+        "id": "de-amtssprachen",
+        "title": "Amtssprachen in Deutschland",
+        "folder": "amtssprachen-in-deutschland"
+      },
+      {
+        "id": "de-metaphern-1",
+        "title": "Metaphern finden - So wird der Text bildhafter",
+        "folder": "metaphern-finden-so-wird-der-text-bildhafter"
+      },
+      {
+        "id": "de-metaphern-2",
+        "title": "Metaphern im Deutschunterricht einfach erklärt",
+        "folder": "metaphern-im-deutschunterricht-einfach-erklaert"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Sprachwandel%20Dialekte%20Deutsch%20Herder&t=284"
   },
@@ -385,6 +401,17 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "de-rezension",
         "title": "Textformen: Wie man eine überzeugende Literatur- und Buchrezension verfasst",
         "folder": "wie-man-eine-rezension-schreibt-die-andere-ueberzeugt"
+      }
+    ,
+      {
+        "id": "de-manuskript",
+        "title": "Die Reise eines Manuskripts bis zum fertigen Buch",
+        "folder": "die-reise-eines-manuskripts-bis-zum-fertigen-buch"
+      },
+      {
+        "id": "de-buchvorstellung",
+        "title": "Erfolgreich in der Buchvorstellung - Tipps für Schüler",
+        "folder": "erfolgreich-in-der-buchvorstellung-tipps-fuer-schueler"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Aufsatz%20Inhaltsangabe%20Analyse%20Deutsch&t=284"
@@ -759,6 +786,12 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "title": "Literaturepoche Symbolismus",
         "folder": "literaturepoche-symbolismus-2381"
       }
+    ,
+      {
+        "id": "3417",
+        "title": "Frank Wedekind - Frühlings Erwachen",
+        "folder": "frank-wedekind-fruhlings-erwachen-2-3417"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Realismus%20Naturalismus%20Literatur&t=284"
   },
@@ -939,6 +972,32 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "6392",
         "title": "Schweizer Literatur",
         "folder": "schweizer-literatur-6392"
+      }
+    ,
+      {
+        "id": "3469",
+        "title": "Wolfgang Koeppen - Tauben im Gras",
+        "folder": "wolfgang-koeppen-tauben-im-gras-2-3469"
+      },
+      {
+        "id": "6162",
+        "title": "Christa Wolf",
+        "folder": "christa-wolf-6162"
+      },
+      {
+        "id": "6265",
+        "title": "Medea von Christa Wolf",
+        "folder": "medea-von-christa-wolf-6265"
+      },
+      {
+        "id": "6263",
+        "title": "Medea von Christa Wolf - historischer Kontext",
+        "folder": "medea-von-christa-wolf-historischer-kontext-6263"
+      },
+      {
+        "id": "6264",
+        "title": "Medea von Christa Wolf - literarische Bedeutung",
+        "folder": "medea-von-christa-wolf-literarische-bedeutung-6264"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Nachkriegsliteratur%20DDR%20Literatur%20Gegenwart&t=284"
@@ -1785,6 +1844,22 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "title": "Hofmannsthal: Der Schwierige – Gesellschaftskomödie",
         "folder": "hugo-von-hofmannsthal-der-schwierige-2-4549"
       }
+    ,
+      {
+        "id": "3405",
+        "title": "Arthur Schnitzler - Liebelei",
+        "folder": "arthur-schnitzler-liebelei-3405"
+      },
+      {
+        "id": "3406",
+        "title": "Arthur Schnitzler - Professor Bernhardi",
+        "folder": "arthur-schnitzler-professor-bernhardi-3406"
+      },
+      {
+        "id": "3407",
+        "title": "Arthur Schnitzler - Reigen",
+        "folder": "arthur-schnitzler-reigen-3407"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Wiener%20Moderne%20Schnitzler%20Nestroy%20Hofmannsthal&t=284"
   },
@@ -1857,6 +1932,27 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "de-oesterre-4-3465",
         "title": "Thomas Bernhard: Holzfällen – Eine Erregung",
         "folder": "thomas-bernhard-holzfallen-3465"
+      }
+    ,
+      {
+        "id": "3453",
+        "title": "Joseph Roth - Radetzkymarsch",
+        "folder": "joseph-roth-radetzkymarsch-3453"
+      },
+      {
+        "id": "4622",
+        "title": "Joseph Roth",
+        "folder": "joseph-roth-4622"
+      },
+      {
+        "id": "3460",
+        "title": "Robert Musil – Die Verwirrungen des Zöglings Törleß",
+        "folder": "robert-musil-die-verwirrungen-des-zoglings-torlees-3460"
+      },
+      {
+        "id": "4627",
+        "title": "Robert Musil",
+        "folder": "robert-musil-4627"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Oesterreichische%20Literatur%20Roth%20Horvath%20Bernhard&t=284"
@@ -2047,6 +2143,12 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "title": "Naturgedichte - Zwischen Idylle und Zerstörung",
         "folder": "naturgedichte-zwischen-idylle-und-zerstoerung"
       }
+    ,
+      {
+        "id": "de-droste",
+        "title": "Die Droste-Hülshoff und das Unheimliche in der Heide",
+        "folder": "die-droste-huelshoff-und-das-unheimliche-in-der-heide"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Romantik%20Lyrik%20Eichendorff%20Heine%20Goethe&t=284"
   },
@@ -2154,6 +2256,17 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "5186",
         "title": "Kurt Tucholsky: Augen in der Großstadt (Großstadtlyrik)",
         "folder": "augen-in-der-groesstadt-von-kurt-tucholsky-5186"
+      }
+    ,
+      {
+        "id": "5199",
+        "title": "Die drei Spatzen von Christian Morgenstern",
+        "folder": "die-drei-spatzen-von-christian-morgenstern-5199"
+      },
+      {
+        "id": "5201",
+        "title": "Die unmögliche Tatsache von Christian Morgenstern",
+        "folder": "die-unmogliche-tatsache-von-christian-morgenstern-5201"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Gedichtanalyse%20Rilke%20Expressionismus%20Lyrik&t=284"
@@ -3616,6 +3729,12 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "6229",
         "title": "In der Strafkolonie – Literarische Bedeutung",
         "folder": "in-der-strafkolonie-von-franz-kafka-literarische-bedeutung-6229"
+      }
+    ,
+      {
+        "id": "de-kafka-comic",
+        "title": "Die Verwandlung von Kafka als Comic-Analyse",
+        "folder": "die-verwandlung-von-kafka-als-comic-analyse"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=kafka+prozess+verwandlung&t=3752"

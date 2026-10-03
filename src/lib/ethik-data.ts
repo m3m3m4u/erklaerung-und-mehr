@@ -118,6 +118,12 @@ export const ethikTopics: Record<string, EthikTopic> = {
         "title": "Identität und Selbstbewusstsein",
         "folder": "identitat-und-selbstbewusstsein-5942"
       }
+    ,
+      {
+        "id": "795",
+        "title": "Faking bad oder good faith",
+        "folder": "faking-bad-oder-good-faith-795"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Ethik+Werte+Normen&t=3752"
   },
@@ -236,6 +242,12 @@ export const ethikTopics: Record<string, EthikTopic> = {
         "id": "2758",
         "title": "Utilitarismus und der Wert von Kunst",
         "folder": "der-utilitarismus-und-die-frage-nach-dem-wert-von-kunst-2758"
+      }
+    ,
+      {
+        "id": "797",
+        "title": "Handlungen und ihre Folgen",
+        "folder": "handlungen-und-ihre-folgen-797"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Utilitarismus+Folgenethik&t=3752"

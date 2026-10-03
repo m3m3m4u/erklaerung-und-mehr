@@ -307,6 +307,22 @@ export const medienTopics: Record<string, MedienTopic> = {
         "title": "Texten für Social Media – Kurz, knackig und zielgruppenorientiert",
         "folder": "gedichte-fuer-social-media-kurz-und-knackig"
       }
+    ,
+      {
+        "id": "med-color-grading",
+        "title": "Arbeiten mit Spuren und Color Grading im Videoschnitt",
+        "folder": "arbeiten-mit-spuren-und-color-grading-im-videoschnitt"
+      },
+      {
+        "id": "med-seo",
+        "title": "Auffindbarkeit von Informationen durch SEO Strategien",
+        "folder": "auffindbarkeit-von-informationen-durch-seo-strategien"
+      },
+      {
+        "id": "med-fan-theorien",
+        "title": "Warum wir Fan-Theorien im Internet so lieben",
+        "folder": "warum-wir-fan-theorien-im-internet-so-lieben"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=YouTube+Content+Creation+Video&t=1721"
   },
@@ -363,6 +379,12 @@ export const medienTopics: Record<string, MedienTopic> = {
         "id": "audiofeeds-podcasts",
         "title": "Audioinhalte & Podcasts – Verbreitung und RSS-Feeds",
         "folder": "technische-verbreitung-von-audioinhalten-und-feeds"
+      }
+    ,
+      {
+        "id": "med-chats-netiquette",
+        "title": "Angemessenes Verhalten in Chats und Gruppen",
+        "folder": "angemessenes-verhalten-in-chats-und-gruppen"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=TikTok+Social+Media+Streaming&t=1721"
@@ -472,6 +494,17 @@ export const medienTopics: Record<string, MedienTopic> = {
         "id": "urheberrecht-bilder-texte",
         "title": "Urheberrecht bei Bildern und Texten",
         "folder": "urheberrecht-bei-bildern-und-texten"
+      }
+    ,
+      {
+        "id": "med-gefahren-jugend",
+        "title": "Gefahren für Kinder und Jugendliche im Internet",
+        "folder": "gefahren-fuer-kinder-und-jugendliche-im-internet"
+      },
+      {
+        "id": "med-handlungsoptionen",
+        "title": "Handlungsmöglichkeiten bei Problemen oder Vorfällen im Internet",
+        "folder": "handlungsmoeglichkeiten-bei-problemen-oder-vorfaellen-im-internet"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Datenschutz+Medienrecht+Urheberrecht&t=1721"

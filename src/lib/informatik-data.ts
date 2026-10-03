@@ -731,6 +731,17 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "title": "Wie funktioniert ein QR-Code",
         "folder": "wie-funktioniert-ein-qr-code"
       }
+    ,
+      {
+        "id": "info-browserkrieg",
+        "title": "Konkurrenzkampf zwischen Netscape und Internet Explorer",
+        "folder": "konkurrenzkampf-zwischen-netscape-und-internet-explorer"
+      },
+      {
+        "id": "info-internet-entstehung",
+        "title": "Entstehung und Entwicklung des Internets",
+        "folder": "entstehung-und-entwicklung-des-internets"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=browser+email&t=896"
   },
@@ -806,6 +817,12 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "id": "info-wikis",
         "title": "Kollaborative Wissensgenerierung: Wikis und vernetzte Zusammenarbeit",
         "folder": "entstehung-von-kollektivem-wissen-in-wikis"
+      }
+    ,
+      {
+        "id": "info-kanban-scrum",
+        "title": "Arbeiten mit Kanban Boards und Scrum Grundlagen",
+        "folder": "arbeiten-mit-kanban-boards-und-scrum-grundlagen"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=cloud+computing&t=896"
@@ -913,6 +930,12 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "id": "info-backup",
         "title": "Datensicherung & IT-Resilienz: Die 3-2-1-Backup-Strategie",
         "folder": "datensicherung-und-backup-strategien"
+      }
+    ,
+      {
+        "id": "info-ethisches-hacken",
+        "title": "Suchen von Sicherheitslücken durch ethisches Hacken",
+        "folder": "suchen-von-sicherheitsluecken-durch-ethisches-hacken"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=it+sicherheit&t=896"
@@ -1031,6 +1054,17 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "id": "info-datenoekonomie",
         "title": "Datenökonomie im Alltag: Wie Plattformen mit Nutzerdaten wirtschaften",
         "folder": "datennutzung-und-datenoekonomie-im-alltag"
+      }
+    ,
+      {
+        "id": "info-phishing",
+        "title": "Erkennen und Vermeiden von Online Betrug und Phishing",
+        "folder": "erkennen-und-vermeiden-von-online-betrug-und-phishing"
+      },
+      {
+        "id": "info-ki-regulierung",
+        "title": "Fesseln für die Technik – Die dringende Notwendigkeit einer KI-Regulierung",
+        "folder": "fesseln-fuer-die-technik-die-dringende-notwendigkeit-einer-ki-regulierung"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=datenschutz&t=896"
@@ -1493,6 +1527,12 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "id": "info-farbkorrektur",
         "title": "Digitale Bildbearbeitung: Wie funktioniert die Farbkorrektur",
         "folder": "wie-funktioniert-die-farbkorrektur"
+      }
+    ,
+      {
+        "id": "info-fps",
+        "title": "Frames per Second und der Daumenkino Effekt bei Spielen",
+        "folder": "frames-per-second-und-der-daumenkino-effekt-bei-spielen"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=computergrafik+vektor&t=896"

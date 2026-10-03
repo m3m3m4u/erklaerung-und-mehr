@@ -1988,6 +1988,12 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "title": "Martin Luther King – Glaube und Bürgerrechte",
         "folder": "martin-luther-king-3034"
       }
+    ,
+      {
+        "id": "2434",
+        "title": "Augustinus von Hippo",
+        "folder": "augustinus-von-hippo-2434"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=heilige+vorbilder&t=3752"
   },
@@ -2190,6 +2196,12 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "id": "2433",
         "title": "Päpste und Klerus im Wandel der Zeit",
         "folder": "papste-und-klerus-im-wandel-der-zeit-2433"
+      }
+    ,
+      {
+        "id": "6681",
+        "title": "Kardinäle und das Konklave",
+        "folder": "kardinale-und-das-konklave-6681"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=kirche+aemter+gemeinde&t=3752"

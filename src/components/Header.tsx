@@ -46,6 +46,7 @@ const megaMenuColumns: MenuColumn[] = [
           { title: 'Verkehrserziehung & Fahrradprüfung', href: '/die-freiwillige-fahrradpruefung' },
           { title: 'Hauswirtschaft', href: '/hauswirtschaft' },
           { title: 'Lehrberufe', href: '/lehrberufe' },
+          { title: 'Sport & Bewegung', href: '/sport' },
         ],
       },
     ],

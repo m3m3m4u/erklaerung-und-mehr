@@ -1380,6 +1380,12 @@ export const musikTopics: Record<string, MusikTopic> = {
         "title": "Die Wiener Schule der Moderne (Zweite Wiener Schule)",
         "folder": "die-wiener-schule-der-moderne"
       }
+    ,
+      {
+        "id": "mus-minimal",
+        "title": "Minimal Music",
+        "folder": "minimal-music"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=komponisten+moderne+strawinsky+schoenberg&t=3752"
   },
@@ -2887,6 +2893,12 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "937",
         "title": "Liedtexte und Lyrics analysieren",
         "folder": "liedtexte-937"
+      }
+    ,
+      {
+        "id": "6411",
+        "title": "Apache 207",
+        "folder": "apache-207-6411"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=hiphop+rap+deutschrap+streaming&t=3752"

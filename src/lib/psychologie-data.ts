@@ -370,6 +370,12 @@ export const psychologieTopics: Record<string, PsychologieTopic> = {
         "title": "Techniken der Emotionsarbeit",
         "folder": "techniken-der-emotionsarbeit-799"
       }
+    ,
+      {
+        "id": "790",
+        "title": "Emotionen in verschiedenen Berufen",
+        "folder": "emotionen-in-verschiedenen-berufen-790"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Motivation+Emotion+Intelligenz+Psychologie&t=3752"
   },
@@ -795,6 +801,12 @@ export const psychologieTopics: Record<string, PsychologieTopic> = {
         "id": "5894",
         "title": "Strategien zur Suchtprävention",
         "folder": "strategien-zur-suchtpravention-5894"
+      }
+    ,
+      {
+        "id": "5747",
+        "title": "Bipolare Störung verstehen",
+        "folder": "bipolare-storung-verstehen-5747"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Klinische+Psychologie+Stoerungen+Therapie&t=3752"
