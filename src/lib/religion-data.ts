@@ -55,11 +55,6 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "folder": "begegnungen-mit-angehorigen-anderer-religionen-2427"
       },
       {
-        "id": "6545",
-        "title": "Der interreligiöse Dialog",
-        "folder": "der-interreligiose-dialog-2-6545"
-      },
-      {
         "id": "6715",
         "title": "Religionsfreiheit",
         "folder": "religionsfreiheit-6715"
@@ -78,8 +73,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "id": "6714",
         "title": "Religion und persönliche Identität",
         "folder": "religion-und-personliche-identitat-6714"
-      }
-    ,
+      },
       {
         "id": "6650",
         "title": "Gott in verschiedenen Religionen",
@@ -169,7 +163,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
       },
       {
         "id": "6528",
-        "title": "Der Sabbat und seine Bedeutung",
+        "title": "Der Sabbat – Ruhetag und Heiligung",
         "folder": "der-sabbat-und-seine-bedeutung-6528"
       },
       {
@@ -191,16 +185,15 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "id": "6654",
         "title": "Gottesvorstellungen im Judentum",
         "folder": "gottesvorstellungen-im-judentum-6654"
-      }
-    ,
+      },
       {
         "id": "6562",
-        "title": "Der Talmud und wichtige religiöse Schriften",
+        "title": "Der Talmud und rabbinische Schriften",
         "folder": "das-talmud-und-andere-wichtige-religiose-schriften-2-6562"
       },
       {
         "id": "6531",
-        "title": "Der Sabbat und seine Bedeutung",
+        "title": "Der Sabbat: Bräuche, Gebote und Bedeutung",
         "folder": "der-sabbat-und-seine-bedeutung-2-6531"
       }
     ],
@@ -245,11 +238,10 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "title": "Feste im Judentum",
         "folder": "feste-im-judentum-6636"
       },
-      
       {
-        "id": "6466",
-        "title": "Das Talmud und andere wichtige religiöse Schriften",
-        "folder": "das-talmud-und-andere-wichtige-religiose-schriften-6466"
+        "id": "zentralrat-juden-de",
+        "title": "Der Zentralrat der Juden in Deutschland",
+        "folder": "der-zentralrat-der-juden-in-deutschland"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=judentum+feste&t=3752"
@@ -312,8 +304,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "id": "6660",
         "title": "Islamisches Gottesverständnis",
         "folder": "islamisches-gottesverstandnis-6660"
-      }
-    ,
+      },
       {
         "id": "8600",
         "title": "Der Koordinationsrat der Muslime in Deutschland",
@@ -376,12 +367,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "title": "Islamische Feiertage",
         "folder": "islamische-feiertage-6659"
       }
-    ,
-      {
-        "id": "6533",
-        "title": "Der Fastenmonat Ramadan",
-        "folder": "der-ramadan-2-6533"
-      }],
+    ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=islam+ramadan&t=3752"
   },
   "buddhismus-lehre-und-praxis": {
@@ -405,7 +391,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
       },
       {
         "id": "2620",
-        "title": "Buddhismus in der modernen Welt",
+        "title": "Buddhismus in der modernen Welt (Teil 1)",
         "folder": "buddhismus-in-der-modernen-welt-2620"
       },
       {
@@ -442,11 +428,10 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "id": "buddhd",
         "title": "Buddhismus in Deutschland",
         "folder": "buddhismus-in-deutschland"
-      }
-    ,
+      },
       {
         "id": "2625",
-        "title": "Buddhismus in der modernen Welt",
+        "title": "Buddhismus in der modernen Welt (Teil 6)",
         "folder": "buddhismus-in-der-modernen-welt-6-2625"
       },
       {
@@ -456,37 +441,37 @@ export const religionTopics: Record<string, ReligionTopic> = {
       },
       {
         "id": "2626",
-        "title": "Buddhismus in der modernen Welt (Teil 1)",
+        "title": "Buddhismus in der modernen Welt (Teil 7)",
         "folder": "buddhismus-in-der-modernen-welt-7-2626"
       },
       {
         "id": "2627",
-        "title": "Buddhismus in der modernen Welt (Teil 2)",
+        "title": "Buddhismus in der modernen Welt (Teil 8)",
         "folder": "buddhismus-in-der-modernen-welt-8-2627"
       },
       {
         "id": "2628",
-        "title": "Buddhismus in der modernen Welt (Teil 3)",
+        "title": "Buddhismus in der modernen Welt (Teil 9)",
         "folder": "buddhismus-in-der-modernen-welt-9-2628"
       },
       {
         "id": "2631",
-        "title": "Buddhismus in der Praxis",
+        "title": "Buddhismus in der Praxis (Teil 12)",
         "folder": "buddhismus-in-der-modernen-welt-12-2631"
       },
       {
         "id": "2632",
-        "title": "Buddhismus und Achtsamkeit",
+        "title": "Buddhismus und Achtsamkeit (Teil 13)",
         "folder": "buddhismus-in-der-modernen-welt-13-2632"
       },
       {
         "id": "2633",
-        "title": "Buddhistische Werte",
+        "title": "Buddhistische Werte (Teil 14)",
         "folder": "buddhismus-in-der-modernen-welt-14-2633"
       },
       {
         "id": "2634",
-        "title": "Buddhismus und Meditation",
+        "title": "Buddhismus und Meditation (Teil 15)",
         "folder": "buddhismus-in-der-modernen-welt-15-2634"
       }
     ],
@@ -544,6 +529,102 @@ export const religionTopics: Record<string, ReligionTopic> = {
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=hinduismus&t=3752"
   },
+  "glaube-gott-und-religionskritik": {
+    "slug": "glaube-gott-und-religionskritik",
+    "title": "Glaube, Gottesbilder & Religionskritik",
+    "category": "Die Weltreligionen & Dialog",
+    "shortDesc": "Gottesfrage, Sinnsuche, Glaube im Alltag, Zweifel, Theodizee und moderne Religionskritik.",
+    "longDesc": "Wer oder was ist Gott? Warum glauben Menschen und warum zweifeln sie? Dieses Themenfeld behandelt grundlegende philosophische und theologische Lebensfragen von der Gottesvorstellung bis zur Religionskritik.",
+    "keyPoints": [
+      "Gottesfrage: Wer oder was ist Gott? Biblische Gottesbilder und Gottesvorstellungen weltweit",
+      "Der Mensch als Ebenbild: Würde, Freiheit und Sinnsuche im religiösen Kontext",
+      "Glaube & Zweifel: Warum Menschen glauben, Krisen des Glaubens und persönliche Sinnsuche",
+      "Religionskritik: Klassische Einwände (Feuerbach, Marx, Freud, Nietzsche) und säkulare Moderne"
+    ],
+    "exercises": [
+      {
+        "id": "6746",
+        "title": "Wer oder was ist Gott?",
+        "folder": "wer-oder-was-ist-gott-6746"
+      },
+      {
+        "id": "6506",
+        "title": "Der Mensch als Ebenbild Gottes",
+        "folder": "der-mensch-als-ebenbild-gottes-6506"
+      },
+      {
+        "id": "2445",
+        "title": "Was ist Glaube?",
+        "folder": "was-ist-glaube-2445"
+      },
+      {
+        "id": "6740",
+        "title": "Warum glauben Menschen?",
+        "folder": "warum-glauben-menschen-6740"
+      },
+      {
+        "id": "6748",
+        "title": "Wie verändert sich Glaube im Lebenslauf?",
+        "folder": "wie-verandert-sich-glaube-6748"
+      },
+      {
+        "id": "2453",
+        "title": "Glaube im Alltag",
+        "folder": "glaube-im-alltag-2453"
+      },
+      {
+        "id": "2452",
+        "title": "Glaube im Alltag – Die Bedeutung von Religion",
+        "folder": "glaube-im-alltag-die-bedeutung-von-religion-2452"
+      },
+      {
+        "id": "2764",
+        "title": "Die Bedeutung von Glauben und Religion",
+        "folder": "die-bedeutung-von-glauben-und-religion-2764"
+      },
+      {
+        "id": "6647",
+        "title": "Glaube in der Moderne",
+        "folder": "glaube-in-der-moderne-6647"
+      },
+      {
+        "id": "6691",
+        "title": "Krisen des Glaubens & Zweifel",
+        "folder": "krisen-des-glaubens-6691"
+      },
+      {
+        "id": "6716",
+        "title": "Religionskritik: Positionen und Debatten",
+        "folder": "religionskritik-6716"
+      },
+      {
+        "id": "6717",
+        "title": "Religiöse Symbole & Tattoos im Alltag",
+        "folder": "religiose-tattoos-6717"
+      },
+      {
+        "id": "6739",
+        "title": "Warum gibt es Religionsunterricht?",
+        "folder": "warum-gibt-es-religionsunterricht-6739"
+      },
+      {
+        "id": "2443",
+        "title": "Tugenden des Christentums",
+        "folder": "tugenden-des-christentums-2443"
+      },
+      {
+        "id": "2444",
+        "title": "Einfluss des Glaubens auf Kultur und Gesellschaft",
+        "folder": "einfluss-des-glaubens-2444"
+      },
+      {
+        "id": "2455",
+        "title": "Religion in der modernen Welt",
+        "folder": "religion-in-der-modernen-welt-2455"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=glaube+gott+religion&t=3752"
+  },
   "die-bibel-entstehung-und-aufbau": {
     "slug": "die-bibel-entstehung-und-aufbau",
     "title": "Die Bibel: Entstehung, Aufbau & Vielfalt",
@@ -597,8 +678,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "id": "6439",
         "title": "Bibelübersetzungen im Vergleich",
         "folder": "bibelubersetzungen-im-vergleich-6439"
-      }
-    ,
+      },
       {
         "id": "6736",
         "title": "Unterschiede des Alten und Neuen Testaments",
@@ -621,11 +701,6 @@ export const religionTopics: Record<string, ReligionTopic> = {
       "Gottesbilder im Alten Testament: Gerechter Richter, barmherziger Vater, Schöpfer und Wegbegleiter"
     ],
     "exercises": [
-      {
-        "id": "2394",
-        "title": "Die Schöpfungsgeschichte - Die Erschaffung der Welt",
-        "folder": "die-weisheit-der-spruche-und-psalmen-2394"
-      },
       {
         "id": "6723",
         "title": "Schöpfung und Evolution",
@@ -675,8 +750,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "id": "6437",
         "title": "Bewahrung der Schöpfung",
         "folder": "bewahrung-der-schopfung-6437"
-      }
-    ,
+      },
       {
         "id": "6619",
         "title": "Die Schöpfungsgeschichte(n)",
@@ -686,6 +760,16 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "id": "3840",
         "title": "Eva (Figur aus der Bibel)",
         "folder": "eve-figur-aus-der-bibel-3840"
+      },
+      {
+        "id": "2398",
+        "title": "Die Erschaffung der Welt (Genesis 1–2)",
+        "folder": "die-erschaffung-der-welt-genesis-1-2-2398"
+      },
+      {
+        "id": "2399",
+        "title": "Noah und die Arche",
+        "folder": "noah-und-die-arche-2399"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=schoepfung+urgeschichte&t=3752"
@@ -704,13 +788,8 @@ export const religionTopics: Record<string, ReligionTopic> = {
     ],
     "exercises": [
       {
-        "id": "2396",
-        "title": "Mose und die Befreiung der Israeliten aus Ägypten",
-        "folder": "die-propheten-des-alten-testaments-2396"
-      },
-      {
         "id": "4576",
-        "title": "Exodus - Die Geschichte von Moses",
+        "title": "Exodus – Die Geschichte von Moses",
         "folder": "exodus-die-geschichte-von-moses-4576"
       },
       {
@@ -719,55 +798,14 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "folder": "exodus-die-zehn-gebote-4578"
       },
       {
-        "id": "2397",
-        "title": "Die Zehn Gebote (Teil 1)",
-        "folder": "schlusselgestalten-des-alten-testaments-2397"
-      },
-      {
-        "id": "2398",
-        "title": "Die Zehn Gebote (Teil 2)",
-        "folder": "die-erschaffung-der-welt-genesis-1-2-2398"
-      },
-      {
-        "id": "2399",
-        "title": "Die Zehn Gebote heute",
-        "folder": "noah-und-die-arche-2399"
-      },
-      {
-        "id": "2400",
-        "title": "Die Zehn Gebote - LZK",
-        "folder": "abraham-2400"
-      },
-      {
         "id": "2402",
         "title": "Die Zehn Gebote",
         "folder": "die-zehn-gebote-2402"
       },
       {
         "id": "6749",
-        "title": "Zehn Gebote - damals und heute",
-        "folder": "zehn-gebote-damals-und-heute-6749"
-      }
-    ,
-      {
-        "id": "gebote-1",
         "title": "Zehn Gebote – damals und heute",
-        "folder": "zehn-gebote-damals-und-heute-1787656087295"
-      },
-      {
-        "id": "6750",
-        "title": "Zehn Gebote – Vertiefung Teil 1",
-        "folder": "zehn-gebote-damals-und-heute-2-6750"
-      },
-      {
-        "id": "6751",
-        "title": "Zehn Gebote – Vertiefung Teil 2",
-        "folder": "zehn-gebote-damals-und-heute-3-6751"
-      },
-      {
-        "id": "6752",
-        "title": "Zehn Gebote – Vertiefung Teil 3",
-        "folder": "zehn-gebote-damals-und-heute-4-6752"
+        "folder": "zehn-gebote-damals-und-heute-6749"
       },
       {
         "id": "2401",
@@ -776,106 +814,34 @@ export const religionTopics: Record<string, ReligionTopic> = {
       },
       {
         "id": "4112",
-        "title": "Moses (Biblische Gestalt)",
+        "title": "Moses (Figur aus der Bibel)",
         "folder": "moses-figur-aus-der-bibel-4112"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=mose+zehn+gebote&t=3752"
   },
-  "altes-testament-helden-koenige-und-propheten": {
-    "slug": "altes-testament-helden-koenige-und-propheten",
-    "title": "David, Salomo, Jona & Die Propheten",
+  "altes-testament-erzvaeter-richter-und-koenige": {
+    "slug": "altes-testament-erzvaeter-richter-und-koenige",
+    "title": "Altes Testament: Erzväter, Richter & Könige",
     "category": "Altes Testament: Schöpfung, Bund & Propheten",
-    "shortDesc": "David und Goliath, König Salomo, Jona und der Wal, biblische Psalmen und Prophetenworte.",
-    "longDesc": "Spannende Geschichten von Königen und Propheten spiegeln menschliche Stärken und Schwächen wider: Davids Mut, Salomos Weisheit, Jonas Flucht und die Mahnworte der Propheten für soziale Gerechtigkeit.",
+    "shortDesc": "Von Abraham, Sara und den Erzvätern über Josua, Samson und Rut bis zu König Saul, David und Salomo.",
+    "longDesc": "Die historischen Bücher des Alten Testaments erzählen vom Werdegang des Volkes Israel: Vom Bund mit Abraham, den Schicksalen der Erzväter und Richter bis zum Goldenen Zeitalter des davidisch-salomonischen Großreiches.",
     "keyPoints": [
-      "David gegen Goliath: Sieg des scheinbar Schwachen durch Gottvertrauen; David als König, Psalmendichter und Vorfahr des Messias",
-      "König Salomo: Berühmt für Weisheit (salomonisches Urteil), Reichtum und den Bau des ersten Tempels in Jerusalem",
-      "Jona und der Wal: Jona will vor Gottes Auftrag fliehen, wird von einem großen Fisch gerettet und predigt Buße in Ninive",
-      "Die Propheten: Mahner und Fürsprecher der Armen (z. B. Jesaja, Jeremia, Amos); Kritik an Ausbeutung und Verheißung von Frieden",
-      "Psalmen: Sammlung von 150 Gebeten und Liedern (Klage-, Dank-, Lob- und Vertrauenspsalmen)"
+      "Erzväter: Abraham als Urvater des Glaubens, Isaak, Jakob und Josef im Bund mit Gott",
+      "Starke Frauen: Sara, Rahab, Rut und Königin Esther als entscheidende Glaubenszeuginnen",
+      "Richterzeit: Josua bei der Landnahme, Samson als charismatischer Richter im Kampf für Israel",
+      "Königtum: Saul als erster König, David als Hirtenjunge, Psalmensänger und Bezwinger Goliaths sowie Salomo und sein Tempelbau"
     ],
     "exercises": [
       {
-        "id": "4582",
-        "title": "David – Der Kampf gegen Goliath",
-        "folder": "david-der-kampf-gegen-goliath-4582"
+        "id": "2400",
+        "title": "Abraham – Urvater des Glaubens",
+        "folder": "abraham-2400"
       },
       {
-        "id": "2407",
-        "title": "König David",
-        "folder": "konig-david-2407"
-      },
-      {
-        "id": "2408",
-        "title": "König Salomo",
-        "folder": "konig-salomo-2408"
-      },
-      {
-        "id": "4579",
-        "title": "Jona – Der Prophet und der große Fisch",
-        "folder": "jona-der-prophet-und-der-groese-fisch-4579"
-      },
-      {
-        "id": "2406",
-        "title": "Jona und der Wal",
-        "folder": "jona-und-der-wal-2406"
-      },
-      {
-        "id": "6612",
-        "title": "Die Propheten",
-        "folder": "die-propheten-6612"
-      },
-      {
-        "id": "6711",
-        "title": "Psalmen - Gebete und Lieder",
-        "folder": "psalmen-gebete-und-lieder-6711"
-      },
-      {
-        "id": "2395",
-        "title": "Biblische Geschichten - Schlüsselereignisse im Alten Testament",
-        "folder": "biblische-geschichten-schlusselereignisse-im-alten-testament-2395"
-      },
-      {
-        "id": "2403",
-        "title": "Das Buch Hiob",
-        "folder": "das-buch-hiob-2403"
-      },
-      {
-        "id": "3768",
-        "title": "Daniel – Figur aus der Bibel",
-        "folder": "daniel-figur-aus-der-bibel-3768"
-      },
-      {
-        "id": "3810",
-        "title": "Elija – Figur aus der Bibel",
-        "folder": "elijah-figur-aus-der-bibel-3810"
-      },
-      {
-        "id": "4012",
-        "title": "Jeremia – Figur aus der Bibel",
-        "folder": "jeremiah-figur-aus-der-bibel-4012"
-      }
-    ,
-      {
-        "id": "3773",
-        "title": "König David (Figur aus der Bibel)",
-        "folder": "david-figur-aus-der-bibel-3773"
-      },
-      {
-        "id": "4262",
-        "title": "König Salomo (Figur aus der Bibel)",
-        "folder": "solomon-figur-aus-der-bibel-4262"
-      },
-      {
-        "id": "4242",
-        "title": "König Saul (Figur aus der Bibel)",
-        "folder": "saul-figur-aus-der-bibel-4242"
-      },
-      {
-        "id": "4583",
-        "title": "Josef – Verrat und Versöhnung",
-        "folder": "josef-verrat-und-versohnung-4583"
+        "id": "4240",
+        "title": "Sara (Figur aus der Bibel)",
+        "folder": "sarah-figur-aus-der-bibel-4240"
       },
       {
         "id": "3970",
@@ -888,19 +854,19 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "folder": "jacob-figur-aus-der-bibel-3986"
       },
       {
-        "id": "3835",
-        "title": "Esther (Figur aus der Bibel)",
-        "folder": "esther-figur-aus-der-bibel-3835"
+        "id": "4583",
+        "title": "Josef – Verrat und Versöhnung",
+        "folder": "josef-verrat-und-versohnung-4583"
       },
       {
-        "id": "4228",
-        "title": "Rut (Figur aus der Bibel)",
-        "folder": "ruth-figur-aus-der-bibel-4228"
+        "id": "4184",
+        "title": "Rahab (Figur aus der Bibel)",
+        "folder": "rahab-figur-aus-der-bibel-4184"
       },
       {
-        "id": "4240",
-        "title": "Sara (Figur aus der Bibel)",
-        "folder": "sarah-figur-aus-der-bibel-4240"
+        "id": "4047",
+        "title": "Josua (Figur aus der Bibel)",
+        "folder": "joshua-figur-aus-der-bibel-4047"
       },
       {
         "id": "4235",
@@ -908,14 +874,125 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "folder": "samson-figur-aus-der-bibel-4235"
       },
       {
+        "id": "2404",
+        "title": "Die Geschichte von Rut",
+        "folder": "die-geschichte-von-ruth-2404"
+      },
+      {
+        "id": "4228",
+        "title": "Rut (Figur aus der Bibel)",
+        "folder": "ruth-figur-aus-der-bibel-4228"
+      },
+      {
         "id": "4236",
         "title": "Samuel (Figur aus der Bibel)",
         "folder": "samuel-figur-aus-der-bibel-4236"
       },
       {
-        "id": "4047",
-        "title": "Josua (Figur aus der Bibel)",
-        "folder": "joshua-figur-aus-der-bibel-4047"
+        "id": "4242",
+        "title": "König Saul (Figur aus der Bibel)",
+        "folder": "saul-figur-aus-der-bibel-4242"
+      },
+      {
+        "id": "4582",
+        "title": "David – Der Kampf gegen Goliath",
+        "folder": "david-der-kampf-gegen-goliath-4582"
+      },
+      {
+        "id": "2407",
+        "title": "König David",
+        "folder": "konig-david-2407"
+      },
+      {
+        "id": "3773",
+        "title": "König David (Figur aus der Bibel)",
+        "folder": "david-figur-aus-der-bibel-3773"
+      },
+      {
+        "id": "2408",
+        "title": "König Salomo",
+        "folder": "konig-salomo-2408"
+      },
+      {
+        "id": "4262",
+        "title": "König Salomo (Figur aus der Bibel)",
+        "folder": "solomon-figur-aus-der-bibel-4262"
+      },
+      {
+        "id": "3835",
+        "title": "Esther (Figur aus der Bibel)",
+        "folder": "esther-figur-aus-der-bibel-3835"
+      },
+      {
+        "id": "2397",
+        "title": "Schlüsselgestalten des Alten Testaments",
+        "folder": "schlusselgestalten-des-alten-testaments-2397"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=altes+testament+koenige&t=3752"
+  },
+  "altes-testament-propheten-und-weisheit": {
+    "slug": "altes-testament-propheten-und-weisheit",
+    "title": "Altes Testament: Propheten & Weisheitsliteratur",
+    "category": "Altes Testament: Schöpfung, Bund & Propheten",
+    "shortDesc": "Die Weisheit der Psalmen, das Buch Hiob und die Mahnungen der großen Propheten Elija, Jesaja, Jeremia und Jona.",
+    "longDesc": "Die Weisheits- und Prophetenbücher behandeln existentielle Lebensfragen: Leid, Gerechtigkeit, Trost und die Treue zu Gottes Bund in Zeiten von Exil und Bedrängnis.",
+    "keyPoints": [
+      "Prophetische Mahnung: Propheten als Mahner gegen soziale Ungerechtigkeit und Götzendienst",
+      "Exil & Trost: Jesaja kündigt den Messias an, Jeremia mahnt vor dem babylonischen Exil",
+      "Hiob & Theodizee: Die Frage nach dem Leid des Unschuldigen und dem Vertrauen auf Gottes Größe",
+      "Psalmen & Erzählungen: Jona und der Wal als Zeichen von Barmherzigkeit und Umkehr"
+    ],
+    "exercises": [
+      {
+        "id": "2395",
+        "title": "Biblische Geschichten – Schlüsselereignisse im Alten Testament",
+        "folder": "biblische-geschichten-schlusselereignisse-im-alten-testament-2395"
+      },
+      {
+        "id": "2394",
+        "title": "Die Weisheit der Sprüche und Psalmen",
+        "folder": "die-weisheit-der-spruche-und-psalmen-2394"
+      },
+      {
+        "id": "2403",
+        "title": "Das Buch Hiob",
+        "folder": "das-buch-hiob-2403"
+      },
+      {
+        "id": "4017",
+        "title": "Hiob (Figur aus der Bibel)",
+        "folder": "job-figur-aus-der-bibel-4017"
+      },
+      {
+        "id": "6711",
+        "title": "Psalmen – Gebete und Lieder",
+        "folder": "psalmen-gebete-und-lieder-6711"
+      },
+      {
+        "id": "6612",
+        "title": "Die Propheten des Alten Testaments",
+        "folder": "die-propheten-6612"
+      },
+      {
+        "id": "2396",
+        "title": "Propheten und Mahner im Alten Testament",
+        "folder": "die-propheten-des-alten-testaments-2396"
+      },
+      {
+        "id": "2406",
+        "title": "Jona und der Wal",
+        "folder": "jona-und-der-wal-2406"
+      },
+      {
+        "id": "4579",
+        "title": "Jona – Der Prophet und der große Fisch",
+        "folder": "jona-der-prophet-und-der-groese-fisch-4579"
+      },
+      {
+        "id": "3810",
+        "title": "Elija (Figur aus der Bibel)",
+        "folder": "elijah-figur-aus-der-bibel-3810"
       },
       {
         "id": "3812",
@@ -928,17 +1005,22 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "folder": "isaiah-figur-aus-der-bibel-3972"
       },
       {
-        "id": "4017",
-        "title": "Hiob (Figur aus der Bibel)",
-        "folder": "job-figur-aus-der-bibel-4017"
+        "id": "2405",
+        "title": "Der Prophet Jeremia",
+        "folder": "der-prophet-jeremia-2405"
       },
       {
-        "id": "4184",
-        "title": "Rahab (Figur aus der Bibel)",
-        "folder": "rahab-figur-aus-der-bibel-4184"
+        "id": "4012",
+        "title": "Jeremia (Figur aus der Bibel)",
+        "folder": "jeremiah-figur-aus-der-bibel-4012"
+      },
+      {
+        "id": "3768",
+        "title": "Daniel (Figur aus der Bibel)",
+        "folder": "daniel-figur-aus-der-bibel-3768"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=david+salomo+propheten&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=altes+testament+propheten&t=3752"
   },
   "jesus-von-nazaret-leben-und-botschaft": {
     "slug": "jesus-von-nazaret-leben-und-botschaft",
@@ -958,11 +1040,6 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "id": "818",
         "title": "Das Christentum",
         "folder": "das-christentum-818"
-      },
-      {
-        "id": "2409",
-        "title": "Jesus von Nazaret - Sein Leben und Wirken",
-        "folder": "die-geburtsgeschichte-jesu-2409"
       },
       {
         "id": "2410",
@@ -1018,12 +1095,6 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "id": "6676",
         "title": "Jesusbilder im Wandel der Zeit",
         "folder": "jesusbilder-im-wandel-der-zeit-6676"
-      }
-    ,
-      {
-        "id": "6570",
-        "title": "Christusbilder im Neuen Testament",
-        "folder": "christusbilder-im-neuen-testament-2-6570"
       },
       {
         "id": "6672",
@@ -1064,7 +1135,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
       },
       {
         "id": "2411",
-        "title": "Gleichnisse Jesu",
+        "title": "Begegnung mit der Samariterin am Brunnen",
         "folder": "begegnung-mit-der-samariterin-am-brunnen-2411"
       },
       {
@@ -1089,12 +1160,12 @@ export const religionTopics: Record<string, ReligionTopic> = {
       },
       {
         "id": "2415",
-        "title": "Wundererzählungen Jesu",
+        "title": "Wunder und Lehren – Jesu öffentliches Wirken",
         "folder": "wunder-und-lehren-jesu-offentliches-wirken-2415"
       },
       {
         "id": "2416",
-        "title": "Wundererzählungen Jesu - Teil 2",
+        "title": "Wunder und Zeichen von Jesus",
         "folder": "wunder-und-zeichen-von-jesus-2416"
       },
       {
@@ -1168,13 +1239,13 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "id": "541",
         "title": "Das Musical Jesus Christ Superstar",
         "folder": "das-musical-jesus-christ-superstar-541"
-      }
-    ,
+      },
       {
         "id": "6610",
         "title": "Die Passion Christi und Karwoche",
         "folder": "die-passion-christi-6610"
-      }],
+      }
+    ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=passion+auferstehung&t=3752"
   },
   "apostel-evangelien-und-urkirche": {
@@ -1239,8 +1310,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "id": "6584",
         "title": "Die Anfänge der Kirche",
         "folder": "die-anfange-der-kirche-6584"
-      }
-    ,
+      },
       {
         "id": "4035",
         "title": "Johannes der Täufer",
@@ -1265,6 +1335,16 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "id": "4086",
         "title": "Maria (Mutter Jesu)",
         "folder": "mary-figur-aus-der-bibel-4086"
+      },
+      {
+        "id": "2431",
+        "title": "Die Apostelgeschichte – Die Verbreitung des Evangeliums",
+        "folder": "die-apostelgeschichte-die-verbreitung-des-evangeliums-2431"
+      },
+      {
+        "id": "2432",
+        "title": "Das Christentum breitet sich aus",
+        "folder": "das-christentum-breitet-sich-aus-2432"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=evangelien+apostel&t=3752"
@@ -1284,19 +1364,9 @@ export const religionTopics: Record<string, ReligionTopic> = {
     ],
     "exercises": [
       {
-        "id": "2430",
-        "title": "Advent und Weihnachten",
-        "folder": "schlusselereignisse-der-kirchengeschichte-im-berblick-2430"
-      },
-      {
         "id": "6476",
         "title": "Der Advent",
         "folder": "der-advent-6476"
-      },
-      {
-        "id": "2431",
-        "title": "Weihnachten",
-        "folder": "die-apostelgeschichte-die-verbreitung-des-evangeliums-2431"
       },
       {
         "id": "6744",
@@ -1314,30 +1384,14 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "folder": "der-heilige-stephan-und-der-26-dezember-6498"
       },
       {
-        "id": "2432",
-        "title": "Der Dreikönigstag",
-        "folder": "das-christentum-breitet-sich-aus-2432"
-      },
-      {
         "id": "6664",
         "title": "Jesu Geburt - Weihnachtsevangelien",
         "folder": "jesu-geburt-weihnachtsevangelien-6664"
-      }
-    ,
+      },
       {
         "id": "6599",
         "title": "Die Heiligen Drei Könige: Geschichte und Symbolik",
         "folder": "die-heiligen-drei-konige-geschichte-und-symbolik-6599"
-      },
-      {
-        "id": "6547",
-        "title": "Der Heilige Nikolaus – Vom Bischof zum Gabenbringer",
-        "folder": "der-heilige-nikolaus-vom-bischof-zum-gabenbringer-2-6547"
-      },
-      {
-        "id": "6546",
-        "title": "Der heilige Stephanus und der 26. Dezember",
-        "folder": "der-heilige-stephan-und-der-26-dezember-2-6546"
       },
       {
         "id": "6603",
@@ -1353,6 +1407,11 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "id": "630",
         "title": "Sankt Nikolaus von Myra",
         "folder": "sankt-nikolaus-von-myra-630"
+      },
+      {
+        "id": "2409",
+        "title": "Die Geburtsgeschichte Jesu",
+        "folder": "die-geburtsgeschichte-jesu-2409"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=advent+weihnachten&t=3752"
@@ -1371,11 +1430,6 @@ export const religionTopics: Record<string, ReligionTopic> = {
       "Karfreitag (althochdt. kara = Trauer, Klage): Strenger Fast- und Feiertag zum Gedenken an Jesu Kreuzestod zur Todesstunde (15 Uhr)"
     ],
     "exercises": [
-      {
-        "id": "2433",
-        "title": "Die Fastenzeit",
-        "folder": "papste-und-klerus-im-wandel-der-zeit-2433"
-      },
       {
         "id": "6595",
         "title": "Die Fastenzeit im Christentum",
@@ -1424,34 +1478,14 @@ export const religionTopics: Record<string, ReligionTopic> = {
     ],
     "exercises": [
       {
-        "id": "2435",
-        "title": "Ostern",
-        "folder": "konzile-und-meilensteine-des-glaubens-2435"
-      },
-      {
         "id": "6564",
         "title": "Das Osterfest",
         "folder": "das-osterfest-2-6564"
       },
       {
-        "id": "2436",
-        "title": "Christi Himmelfahrt",
-        "folder": "christliche-kunst-und-symbole-2436"
-      },
-      {
         "id": "6700",
         "title": "Mariä Himmelfahrt",
         "folder": "maria-himmelfahrt-6700"
-      },
-      {
-        "id": "2437",
-        "title": "Pfingsten",
-        "folder": "christliche-symbole-in-der-architektur-2437"
-      },
-      {
-        "id": "2438",
-        "title": "Fronleichnam",
-        "folder": "einfluss-auf-kultur-und-kunst-2438"
       },
       {
         "id": "6641",
@@ -1484,16 +1518,16 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "folder": "kirchenjahr-und-seine-feste-6688"
       },
       {
-        "id": "6532",
-        "title": "Der Reformationstag",
-        "folder": "der-reformationstag-2-6532"
-      }
-    ,
-      {
         "id": "6526",
         "title": "Der Reformationstag und seine Bedeutung",
         "folder": "der-reformationstag-6526"
-      }],
+      },
+      {
+        "id": "6443",
+        "title": "Christi Himmelfahrt",
+        "folder": "christi-himmelfahrt-6443"
+      }
+    ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=kirchenjahr+ostern&t=3752"
   },
   "tod-trauer-und-seelsorge": {
@@ -1510,11 +1544,6 @@ export const religionTopics: Record<string, ReligionTopic> = {
       "Hoffnung über den Tod: Glaube an die unzerstörbare Würde des Menschen bei Gott"
     ],
     "exercises": [
-      {
-        "id": "2404",
-        "title": "Trauer und Begleitung",
-        "folder": "die-geschichte-von-ruth-2404"
-      },
       {
         "id": "6427",
         "title": "Beerdigung - Hoffnung über den Tod",
@@ -1549,6 +1578,11 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "id": "4419",
         "title": "Der Umgang mit dem Tod",
         "folder": "der-umgang-mit-dem-tod-4419"
+      },
+      {
+        "id": "2423",
+        "title": "Der Glaube als Quelle von Trost und Hoffnung",
+        "folder": "der-glaube-als-quelle-von-trost-und-hoffnung-2423"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=tod+trauer+seelsorge&t=3752"
@@ -1567,11 +1601,6 @@ export const religionTopics: Record<string, ReligionTopic> = {
     ],
     "exercises": [
       {
-        "id": "2405",
-        "title": "Auferstehung und Ewiges Leben",
-        "folder": "der-prophet-jeremia-2405"
-      },
-      {
         "id": "6662",
         "title": "Jenseitsvorstellungen weltweit",
         "folder": "jenseitsvorstellungen-weltweit-6662"
@@ -1582,11 +1611,6 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "folder": "himmel-holle-fegefeuer-6656"
       },
       {
-        "id": "6652",
-        "title": "Gottesbilder in Kunst und Musik",
-        "folder": "gottesbilder-in-kunst-und-musik-6652"
-      },
-      {
         "id": "6706",
         "title": "Nahtoderfahrungen",
         "folder": "nahtoderfahrungen-6706"
@@ -1595,11 +1619,6 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "id": "6446",
         "title": "Christliche Hoffnung auf Auferstehung",
         "folder": "christliche-hoffnung-auf-auferstehung-6446"
-      },
-      {
-        "id": "6443",
-        "title": "Christi Himmelfahrt",
-        "folder": "christi-himmelfahrt-6443"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=jenseits+ewiges+leben&t=3752"
@@ -1662,13 +1681,13 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "id": "6602",
         "title": "Die Konfirmation",
         "folder": "die-konfirmation-6602"
-      }
-    ,
+      },
       {
         "id": "2479",
         "title": "Die Wassertaufe – Aufnahme in die Gemeinschaft Christi",
         "folder": "die-wassertaufe-aufnahme-in-die-gemeinschaft-christi-2479"
-      }],
+      }
+    ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=taufe+firmung+sakramente&t=3752"
   },
   "eucharistie-kommunion-und-heilsdienste": {
@@ -1744,12 +1763,6 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "id": "6470",
         "title": "Das Zölibat - Warum leben Priester ehelos?",
         "folder": "das-zolibat-warum-leben-priester-ehelos-6470"
-      }
-    ,
-      {
-        "id": "6561",
-        "title": "Das Weiheamt – Sakrament der Weihe",
-        "folder": "das-weiheamt-sakrament-der-weihe-2-6561"
       },
       {
         "id": "6658",
@@ -1762,11 +1775,6 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "folder": "der-priester-aufgaben-und-berufung-2-6534"
       },
       {
-        "id": "6560",
-        "title": "Das Zölibat – Priesterliche Ehelosigkeit",
-        "folder": "das-zolibat-warum-leben-priester-ehelos-2-6560"
-      },
-      {
         "id": "6710",
         "title": "Liturgische Kleidung und Symbole",
         "folder": "priesterliche-kleidung-und-symbole-6710"
@@ -1775,6 +1783,11 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "id": "6632",
         "title": "Eucharistisches Hochgebet: Zentrale Wandlungsworte",
         "folder": "eucharistisches-hochgebet-zentrale-wandlungsworte-6632"
+      },
+      {
+        "id": "2484",
+        "title": "Ehe und Berufung – Partnerschaft im Glauben",
+        "folder": "ehe-und-berufung-partnerschaft-im-glauben-2484"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=eucharistie+kommunion&t=3752"
@@ -1849,16 +1862,6 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "folder": "der-kirchenraum-orte-und-symbole-6504"
       },
       {
-        "id": "2443",
-        "title": "Der Kirchenraum - Orte des Glaubens",
-        "folder": "tugenden-des-christentums-2443"
-      },
-      {
-        "id": "2444",
-        "title": "Symbole des Glaubens im Kirchenraum",
-        "folder": "einfluss-des-glaubens-2444"
-      },
-      {
         "id": "6698",
         "title": "Liturgische Farben und ihre Bedeutung im Jahreskreis",
         "folder": "liturgische-farben-und-ihre-bedeutung-im-jahreskreis-6698"
@@ -1867,12 +1870,6 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "id": "6703",
         "title": "Ministranten, Lektoren und andere liturgische Dienste",
         "folder": "ministranten-lektoren-und-andere-liturgische-dienste-6703"
-      }
-    ,
-      {
-        "id": "6558",
-        "title": "Der Ablauf der Heiligen Messe",
-        "folder": "der-ablauf-der-heiligen-messe-berblick-2-6558"
       },
       {
         "id": "6581",
@@ -1893,16 +1890,6 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "id": "2473",
         "title": "Kommunikation mit Gott – Gebete im Alltag",
         "folder": "kommunikation-mit-gott-gebete-im-alltag-2473"
-      },
-      {
-        "id": "6567",
-        "title": "Das Glaubensbekenntnis (Credo)",
-        "folder": "das-glaubensbekenntnis-gemeinsames-bekenntnis-des-glaubens-2-6567"
-      },
-      {
-        "id": "6543",
-        "title": "Der Kirchenraum – Orte und Symbole",
-        "folder": "der-kirchenraum-orte-und-symbole-2-6543"
       },
       {
         "id": "6645",
@@ -1985,8 +1972,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "id": "2474",
         "title": "Die Bedeutung von Pilgerstätten im Christentum",
         "folder": "die-bedeutung-von-pilgerstatten-im-christentum-2474"
-      }
-    ,
+      },
       {
         "id": "2470",
         "title": "Mutter Teresa – Nächstenliebe und soziales Engagement",
@@ -2001,7 +1987,8 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "id": "3034",
         "title": "Martin Luther King – Glaube und Bürgerrechte",
         "folder": "martin-luther-king-3034"
-      }],
+      }
+    ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=heilige+vorbilder&t=3752"
   },
   "papst-vatikan-und-konzilien": {
@@ -2074,40 +2061,14 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "folder": "medienarbeit-des-vatikans-radio-vatikan-vatican-news-6701"
       },
       {
-        "id": "6702",
-        "title": "Michelangelo und seine Werke im Vatikan",
-        "folder": "michelangelo-und-seine-werke-im-vatikan-6702"
-      },
-      {
-        "id": "6621",
-        "title": "Die Sixtinische Kapelle - Kunst und Liturgie vereint",
-        "folder": "die-sixtinische-kapelle-kunst-und-liturgie-vereint-6621"
-      },
-      {
-        "id": "6624",
-        "title": "Die Vatikanischen Museen – Schätze der Kirche",
-        "folder": "die-vatikanischen-museen-schatze-der-kirche-6624"
-      },
-      {
-        "id": "6738",
-        "title": "Vatikanische Bibliothek – Wissen und Glauben",
-        "folder": "vatikanische-bibliothek-wissen-und-glauben-6738"
-      },
-      {
         "id": "6728",
         "title": "Symbole des Papsttums",
         "folder": "symbole-des-papsttums-6728"
-      }
-    ,
+      },
       {
         "id": "6539",
         "title": "Der Papst – Amt, Bedeutung und Geschichte",
         "folder": "der-papst-amt-bedeutung-und-geschichte-2-6539"
-      },
-      {
-        "id": "6537",
-        "title": "Der Papst als Nachfolger Petri",
-        "folder": "der-papst-als-nachfolger-petri-2-6537"
       },
       {
         "id": "2458",
@@ -2120,39 +2081,9 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "folder": "papst-benedikt-xvi-2456"
       },
       {
-        "id": "6536",
-        "title": "Der Petersdom – Baugeschichte und Bedeutung",
-        "folder": "der-petersdom-baugeschichte-und-bedeutung-2-6536"
-      },
-      {
-        "id": "6535",
-        "title": "Der Petersplatz – Ort des Weltgeschehens",
-        "folder": "der-petersplatz-ort-des-weltgeschehens-2-6535"
-      },
-      {
-        "id": "6568",
-        "title": "Das Erste Vatikanische Konzil (1870)",
-        "folder": "das-erste-vatikanische-konzil-1871-6568"
-      },
-      {
-        "id": "6559",
-        "title": "Das Zweite Vatikanische Konzil (1962–1965)",
-        "folder": "das-zweite-vatikanische-konzil-1962-1965-inhalte-und-folgen-2-6559"
-      },
-      {
         "id": "6729",
         "title": "Synoden und Konzile – Entscheidungsfindung in der Kirche",
         "folder": "synoden-und-konzile-wie-entscheidungen-gefallt-werden-6729"
-      },
-      {
-        "id": "5368",
-        "title": "Die Geschichte des Kirchenstaates",
-        "folder": "die-geschichte-des-kirchenstaates-5368"
-      },
-      {
-        "id": "6538",
-        "title": "Der Papst: Aufgaben und Bedeutung",
-        "folder": "der-papst-aufgaben-und-bedeutung-2-6538"
       },
       {
         "id": "6579",
@@ -2163,33 +2094,47 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "id": "1918",
         "title": "Vatikanstadt",
         "folder": "vatikanstadt-1918"
+      },
+      {
+        "id": "6617",
+        "title": "Die römische Kurie – Aufbau und Funktion",
+        "folder": "die-romische-kurie-aufbau-und-funktion-6617"
+      },
+      {
+        "id": "2435",
+        "title": "Konzile und Meilensteine des Glaubens",
+        "folder": "konzile-und-meilensteine-des-glaubens-2435"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=papst+vatikan&t=3752"
   },
-  "aemter-der-kirche-und-oekumene": {
-    "slug": "aemter-der-kirche-und-oekumene",
-    "title": "Ämter der Kirche, Ökumene & Gesellschaft",
+  "kirchliche-aemter-gemeinde-und-engagement": {
+    "slug": "kirchliche-aemter-gemeinde-und-engagement",
+    "title": "Kirchliche Ämter, Gemeinde & Engagement",
     "category": "Kirche, Papsttum, Ämter & Geschichte",
-    "shortDesc": "Diakon, Priester, Bischof, Diözesen, Ökumene, Katholische/Evangelische Kirche und Kirche & Staat.",
-    "longDesc": "Die Kirche wirkt durch Ämter, Gemeinden und caritative Einrichtungen mitten in der Gesellschaft. Die Ökumene bemüht sich um die Überwindung historischer Kirchenspaltungen zwischen den Konfessionen.",
+    "shortDesc": "Diakone, Priester, Bischöfe, Pfarreien, Laienarbeit, Ehrenamt und Jugendengagement im Leben der Kirche.",
+    "longDesc": "Die christliche Kirche lebt durch ihre Glieder: Vom Weiheamt (Diakon, Priester, Bischof) über Pfarrgemeinderäte und ehrenamtliche Mitarbeit bis hin zu Jugendverbänden und caritativem Wirken.",
     "keyPoints": [
-      "Kirchliche Ämter: Bischof als Hirte der Diözese, Priester als Gemeindeleiter, Diakon im Dienst an den Armen",
-      "Konfessionen im Dialog: Katholische Kirche (Papstprimat, 7 Sakramente) vs. Evangelische Kirche (Priestertum aller Gläubigen, 2 Sakramente)",
-      "Ökumene: Gemeinsame Gottesdienste, theologische Annäherung und gemeinsamer Dienst an den Schwachen",
-      "Kirche & Gesellschaft: Caritas und Diakonie als größte nichtstaatliche Wohlfahrtsverbände",
-      "Kirche und Staat: Staatsleistungen, Religionsunterricht und Trennung von Staat und Kirche im säkularen Verfassungsstaat"
+      "Die drei Weihestufen: Diakon (Dienst am Nächsten), Priester (Gemeindeleitung, Sakramente), Bischof (Leitung der Diözese)",
+      "Pfarrei & Bistum: Aufbau der Kirche vor Ort und Verantwortung der Bischofskonferenz",
+      "Laien & Ehrenamt: Pfarrgemeinderäte, Kirchenvorstände und die tragende Rolle von Frauen und Laien",
+      "Gemeinschaft & Jugend: Kirchliche Jugendgruppen, Messdienerarbeit und soziales Engagement"
     ],
     "exercises": [
       {
         "id": "6593",
-        "title": "Die drei Ämter der Kirche Diakon, Priester, Bischof",
+        "title": "Die drei Ämter der Kirche: Diakon, Priester, Bischof",
         "folder": "die-drei-mter-der-kirche-diakon-priester-bischof-6593"
       },
       {
         "id": "6482",
-        "title": "Der Bischof - Hirtendienst in der Diözese",
+        "title": "Der Bischof – Hirtendienst in der Diözese",
         "folder": "der-bischof-hirtendienst-in-der-diozese-6482"
+      },
+      {
+        "id": "6588",
+        "title": "Die Bedeutung der Bischofskonferenz",
+        "folder": "die-bedeutung-der-bischofskonferenz-6588"
       },
       {
         "id": "6614",
@@ -2197,9 +2142,85 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "folder": "die-rolle-der-mter-im-gottesdienst-6614"
       },
       {
+        "id": "6627",
+        "title": "Diözesen und Pfarreien – Aufbau der katholischen Kirche",
+        "folder": "diozesen-und-pfarreien-aufbau-der-katholischen-kirche-6627"
+      },
+      {
+        "id": "6601",
+        "title": "Die Kirchengemeinde",
+        "folder": "die-kirchengemeide-6601"
+      },
+      {
+        "id": "6616",
+        "title": "Die Rolle von Laien in der Kirche",
+        "folder": "die-rolle-von-laien-in-der-kirche-6616"
+      },
+      {
+        "id": "6695",
+        "title": "Laien und kirchliche Mitarbeit (Pfarrgemeinderat & Ehrenamt)",
+        "folder": "laien-und-kirchliche-mitarbeit-pfarrgemeinderat-ehrenamt-6695"
+      },
+      {
+        "id": "6639",
+        "title": "Frauen in der Kirche",
+        "folder": "frauen-in-der-kirche-6639"
+      },
+      {
+        "id": "6679",
+        "title": "Jugend in der Kirche",
+        "folder": "jugend-in-der-kirche-6679"
+      },
+      {
+        "id": "6680",
+        "title": "Jugendliche und Glauben",
+        "folder": "jugendliche-und-glauben-6680"
+      },
+      {
+        "id": "2450",
+        "title": "Bedeutung von Gemeinschaft und Kirche im Glauben",
+        "folder": "die-bedeutung-von-gemeinschaft-und-kirche-im-glauben-2450"
+      },
+      {
+        "id": "6683",
+        "title": "Kirche heute: Aufgaben und Wirken",
+        "folder": "kirche-heute-was-macht-sie-6683"
+      },
+      {
+        "id": "2433",
+        "title": "Päpste und Klerus im Wandel der Zeit",
+        "folder": "papste-und-klerus-im-wandel-der-zeit-2433"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=kirche+aemter+gemeinde&t=3752"
+  },
+  "oekumene-konfessionen-und-kirche-in-der-gesellschaft": {
+    "slug": "oekumene-konfessionen-und-kirche-in-der-gesellschaft",
+    "title": "Ökumene, Konfessionen & Kirche in der Gesellschaft",
+    "category": "Kirche, Papsttum, Ämter & Geschichte",
+    "shortDesc": "Vergleich der Konfessionen, Ökumene, Reformation, Kirchensteuer, Kirchenasyl und gesellschaftliche Verantwortung.",
+    "longDesc": "Wie verhalten sich christliche Konfessionen zueinander und wie wirkt Kirche in die Gesellschaft? Von Martin Luther und der Reformation über ökumenischen Dialog bis zu Kirchensteuer und sozialer Verantwortung.",
+    "keyPoints": [
+      "Konfessionen: Katholische, evangelische und anglikanische Traditionen im Vergleich",
+      "Reformation: Martin Luther, Thesenanschlag und theologische Umbrüche",
+      "Ökumene: Gemeinsamkeiten betonen, Brücken bauen und für Versöhnung eintreten",
+      "Kirche & Staat: Kirchensteuer, Religionsunterricht, Kirchenasyl und soziales Handeln im säkularen Staat"
+    ],
+    "exercises": [
+      {
         "id": "6609",
         "title": "Die Ökumene",
         "folder": "die-kumene-6609"
+      },
+      {
+        "id": "2426",
+        "title": "Die ökumenische Bewegung",
+        "folder": "die-okumenische-bewegung-und-ihre-bedeutung-fur-das-moderne-christentum-2426"
+      },
+      {
+        "id": "2424",
+        "title": "Die Vielfalt christlicher Konfessionen im Vergleich",
+        "folder": "die-vielfalt-christlicher-konfessionen-2424"
       },
       {
         "id": "3514",
@@ -2212,80 +2233,39 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "folder": "die-evangelische-kirche-in-deutschland-3511"
       },
       {
-        "id": "6686",
-        "title": "Kirche und Politik",
-        "folder": "kirche-und-politik-6686"
-      },
-      {
-        "id": "2426",
-        "title": "Kirche in der Gesellschaft",
-        "folder": "die-okumenische-bewegung-und-ihre-bedeutung-fur-das-moderne-christentum-2426"
-      },
-      {
-        "id": "6431",
-        "title": "Architektur von Kirchen",
-        "folder": "architektur-von-kirchen-6431"
-      },
-      {
-        "id": "6458",
-        "title": "Das Kreuz – mehr als ein Zeichen",
-        "folder": "das-kreuz-mehr-als-ein-zeichen-6458"
-      },
-      {
-        "id": "6627",
-        "title": "Diözesen und Pfarreien – Aufbau der katholischen Kirche",
-        "folder": "diozesen-und-pfarreien-aufbau-der-katholischen-kirche-6627"
-      },
-      {
-        "id": "6639",
-        "title": "Frauen in der Kirche",
-        "folder": "frauen-in-der-kirche-6639"
-      },
-      {
-        "id": "6616",
-        "title": "Die Rolle von Laien in der Kirche",
-        "folder": "die-rolle-von-laien-in-der-kirche-6616"
-      },
-      {
-        "id": "6687",
-        "title": "Kirchenasyl",
-        "folder": "kirchenasyl-6687"
-      },
-      {
-        "id": "6693",
-        "title": "Kritik an der Kirche",
-        "folder": "kritik-an-der-kirche-6693"
-      },
-      {
-        "id": "6712",
-        "title": "Reformation und ihre Folgen",
-        "folder": "reformation-und-ihre-folgen-6712"
-      }
-    ,
-      {
-        "id": "6695",
-        "title": "Laien und kirchliche Mitarbeit (Pfarrgemeinderat & Ehrenamt)",
-        "folder": "laien-und-kirchliche-mitarbeit-pfarrgemeinderat-ehrenamt-6695"
-      },
-      {
-        "id": "6601",
-        "title": "Die Kirchengemeinde",
-        "folder": "die-kirchengemeide-6601"
-      },
-      {
-        "id": "2424",
-        "title": "Die Vielfalt christlicher Konfessionen im Vergleich",
-        "folder": "die-vielfalt-christlicher-konfessionen-2424"
-      },
-      {
         "id": "3009",
         "title": "Heinrich VIII. und die Anglikanische Kirche",
         "folder": "heinrich-viii-und-die-anglikanische-kirche-3009"
       },
       {
-        "id": "6685",
-        "title": "Kirche und weltweite Mission",
-        "folder": "kirche-und-mission-6685"
+        "id": "4083",
+        "title": "Martin Luther und die Reformation",
+        "folder": "martin-luther-2-4083"
+      },
+      {
+        "id": "6712",
+        "title": "Reformation und ihre Folgen",
+        "folder": "reformation-und-ihre-folgen-6712"
+      },
+      {
+        "id": "2430",
+        "title": "Schlüsselereignisse der Kirchengeschichte im Überblick",
+        "folder": "schlusselereignisse-der-kirchengeschichte-im-berblick-2430"
+      },
+      {
+        "id": "5368",
+        "title": "Die Geschichte des Kirchenstaates",
+        "folder": "die-geschichte-des-kirchenstaates-5368"
+      },
+      {
+        "id": "6686",
+        "title": "Kirche und Politik",
+        "folder": "kirche-und-politik-6686"
+      },
+      {
+        "id": "6687",
+        "title": "Kirchenasyl",
+        "folder": "kirchenasyl-6687"
       },
       {
         "id": "kirchensteuer",
@@ -2313,52 +2293,17 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "folder": "umgang-mit-religioser-differenz-6734"
       },
       {
-        "id": "2475",
-        "title": "Wallfahrten im christlichen Glauben",
-        "folder": "wallfahrten-im-christlichen-glauben-2475"
+        "id": "6685",
+        "title": "Kirche und weltweite Mission",
+        "folder": "kirche-und-mission-6685"
       },
       {
-        "id": "6554",
-        "title": "Der Bischof: Hirtendienst in der Diözese",
-        "folder": "der-bischof-hirtendienst-in-der-diozese-2-6554"
-      },
-      {
-        "id": "6522",
-        "title": "Der Priester: Aufgaben und Berufung",
-        "folder": "der-priester-aufgaben-und-berufung-6522"
-      },
-      {
-        "id": "6588",
-        "title": "Die Bedeutung der Bischofskonferenz",
-        "folder": "die-bedeutung-der-bischofskonferenz-6588"
-      },
-      {
-        "id": "2450",
-        "title": "Bedeutung von Gemeinschaft und Kirche im Glauben",
-        "folder": "die-bedeutung-von-gemeinschaft-und-kirche-im-glauben-2450"
-      },
-      {
-        "id": "6683",
-        "title": "Kirche heute: Aufgaben und Wirken",
-        "folder": "kirche-heute-was-macht-sie-6683"
-      },
-      {
-        "id": "6679",
-        "title": "Jugend in der Kirche",
-        "folder": "jugend-in-der-kirche-6679"
-      },
-      {
-        "id": "6680",
-        "title": "Jugendliche und Glauben",
-        "folder": "jugendliche-und-glauben-6680"
-      },
-      {
-        "id": "4083",
-        "title": "Martin Luther und die Reformation",
-        "folder": "martin-luther-2-4083"
+        "id": "6693",
+        "title": "Kritik an der Kirche",
+        "folder": "kritik-an-der-kirche-6693"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=aemter+oekumene&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=oekumene+reformation+kirche&t=3752"
   },
   "sakralbauten-und-kathedralen": {
     "slug": "sakralbauten-und-kathedralen",
@@ -2397,8 +2342,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "id": "marienkirche-rostock",
         "title": "Die Marienkirche in Rostock",
         "folder": "die-marienkirche-in-rostock"
-      }
-    ,
+      },
       {
         "id": "5646",
         "title": "Der Stephansdom in Wien",
@@ -2443,8 +2387,84 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "id": "5638",
         "title": "Die Karlskirche in Wien",
         "folder": "der-karlsplatz-mit-der-karlskirche-5638"
+      },
+      {
+        "id": "6535",
+        "title": "Der Petersplatz – Ort des Weltgeschehens",
+        "folder": "der-petersplatz-ort-des-weltgeschehens-2-6535"
+      },
+      {
+        "id": "bremer-dom",
+        "title": "Der Bremer Dom",
+        "folder": "der-bremer-dom"
+      },
+      {
+        "id": "paulskirche-frankfurt",
+        "title": "Die Paulskirche in Frankfurt",
+        "folder": "die-paulskirche-in-frankfurt"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=kirchen+sakralbauten&t=3752"
   },
+  "kirchliche-kunst-und-architektur": {
+    "slug": "kirchliche-kunst-und-architektur",
+    "title": "Kirchliche Kunst, Architektur & Schätze",
+    "category": "Sakralbauten & Kirchliche Kunst",
+    "shortDesc": "Kirchenarchitektur, christliche Symbole, Sixtinische Kapelle, Vatikanische Museen und sakrale Kunstwerke.",
+    "longDesc": "Sakrale Baukunst und christliche Bildsprache drücken den Glauben über Jahrhunderte hinweg aus: Von gotischen Symbolen über Michelangelos Deckenfresken bis zu Schätzen der Kirchengeschichte.",
+    "keyPoints": [
+      "Kirchenbau & Grundrisse: Romanik, Gotik, Barock und moderne Sakralbauten",
+      "Christliche Symbole: Kreuz, Fisch, Alpha & Omega und liturgische Farbgebung",
+      "Vatikanische Kunst: Die Sixtinische Kapelle, Michelangelos Meisterwerke und die Vatikanischen Museen",
+      "Gottesbilder im Wandel: Wie Maler, Bildhauer und Musiker Glaubensinhalte künstlerisch veranschaulichten"
+    ],
+    "exercises": [
+      {
+        "id": "6431",
+        "title": "Architektur von Kirchen",
+        "folder": "architektur-von-kirchen-6431"
+      },
+      {
+        "id": "2436",
+        "title": "Christliche Kunst und Symbole",
+        "folder": "christliche-kunst-und-symbole-2436"
+      },
+      {
+        "id": "2437",
+        "title": "Christliche Symbole in der Architektur",
+        "folder": "christliche-symbole-in-der-architektur-2437"
+      },
+      {
+        "id": "2438",
+        "title": "Einfluss des Christentums auf Kultur und Kunst",
+        "folder": "einfluss-auf-kultur-und-kunst-2438"
+      },
+      {
+        "id": "6621",
+        "title": "Die Sixtinische Kapelle – Kunst und Liturgie vereint",
+        "folder": "die-sixtinische-kapelle-kunst-und-liturgie-vereint-6621"
+      },
+      {
+        "id": "6624",
+        "title": "Die Vatikanischen Museen – Schätze der Kirche",
+        "folder": "die-vatikanischen-museen-schatze-der-kirche-6624"
+      },
+      {
+        "id": "6702",
+        "title": "Michelangelo und seine Werke im Vatikan",
+        "folder": "michelangelo-und-seine-werke-im-vatikan-6702"
+      },
+      {
+        "id": "6738",
+        "title": "Vatikanische Bibliothek – Wissen und Glauben",
+        "folder": "vatikanische-bibliothek-wissen-und-glauben-6738"
+      },
+      {
+        "id": "6652",
+        "title": "Gottesbilder in Kunst und Musik",
+        "folder": "gottesbilder-in-kunst-und-musik-6652"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=kirchliche+kunst+architektur&t=3752"
+  }
 };
