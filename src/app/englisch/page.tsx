@@ -42,6 +42,7 @@ export const metadata: Metadata = {
 
 export default function EnglischOverviewPage() {
   const allTopics = Object.values(englischTopics);
+  const totalExercises = allTopics.reduce((sum, t) => sum + (t.exercises?.length || 0), 0);
 
   return (
     <div className="site-wrapper">
@@ -54,10 +55,10 @@ export default function EnglischOverviewPage() {
           <div className="math-intro-content">
             <h1 className="math-page-title">Englisch</h1>
             <p className="math-page-desc">
-              My English is not the yellow from the egg? Dann bist du hier genau richtig! Verbessere deine Sprachkenntnisse mit strukturierten Grammatikregeln, allen Zeitformen (Tenses & Mixed Tenses), Passive Voice, Uhrzeit, Vokabeltraining und spannender Musikgeschichte auf Englisch.
+              My English is not the yellow from the egg? Dann bist du hier genau richtig! Verbessere deine Sprachkenntnisse mit strukturierten Grammatikregeln, allen Zeitformen (Tenses & Mixed Tenses), Passive Voice, Uhrzeit, Vokabeltraining, Landeskunde, Weltliteratur und Musikgeschichte auf Englisch.
             </p>
             <p className="math-page-note">
-              Mit klaren Beispielsätzen, Signalwörtern, Merksätzen und 53 interaktiven H5P-Übungen.
+              Mit klaren Beispielsätzen, Signalwörtern, Merksätzen und {totalExercises} interaktiven H5P-Übungen.
             </p>
           </div>
           <div className="math-mascot">

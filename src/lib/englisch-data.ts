@@ -19,8 +19,9 @@ export interface EnglischTopic {
 export const englischCategories: string[] = [
   "Grammar & Tenses",
   "Vocabulary & Daily English",
-  "Culture, Geography & Music History",
-  "Literature & Reading"
+  "Culture & Landeskunde (UK & USA)",
+  "CLIL & Music History",
+  "British & American Literature"
 ];
 
 export const englischTopics: Record<string, EnglischTopic> = {
@@ -45,6 +46,16 @@ export const englischTopics: Record<string, EnglischTopic> = {
         "id": "355",
         "title": "Simple Present",
         "folder": "simple-present-355"
+      },
+      {
+        "id": "684",
+        "title": "Simple Present (Lückentext)",
+        "folder": "studypoint-luckentext-simple-present-684"
+      },
+      {
+        "id": "694",
+        "title": "Simple Present (Single Choice)",
+        "folder": "studypoint-single-choice-simple-present-694"
       },
       {
         "id": "356",
@@ -124,6 +135,11 @@ export const englischTopics: Record<string, EnglischTopic> = {
         "id": "413",
         "title": "Simple present oder present progressive?",
         "folder": "simple-present-oder-present-progressive-413"
+      },
+      {
+        "id": "722",
+        "title": "Simple Present oder Present Progressive (Interaktiv)",
+        "folder": "studypoint-simple-present-oder-present-progressive-722"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Mixed+Tenses+Englisch&t=468"
@@ -248,6 +264,16 @@ export const englischTopics: Record<string, EnglischTopic> = {
         "id": "262",
         "title": "Uhrzeit: Viertelstunden (Quarter to / Quarter past)",
         "folder": "uhrzeit-viertelstunden-262"
+      },
+      {
+        "id": "703",
+        "title": "Memory Game: Animals (Tiere auf Englisch)",
+        "folder": "studypoint-memory-game-animals-703"
+      },
+      {
+        "id": "721",
+        "title": "Numbers & Counting (Zahlen auf Englisch)",
+        "folder": "studypoint-numbers-721"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Telling+the+Time+English&t=468"
@@ -301,12 +327,141 @@ export const englischTopics: Record<string, EnglischTopic> = {
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=English+Vocabulary+More&t=468"
   },
 
+  "uk-and-usa-culture-and-cities": {
+    "slug": "uk-and-usa-culture-and-cities",
+    "title": "UK & USA: Culture, Cities & History",
+    "category": "Culture & Landeskunde (UK & USA)",
+    "shortDesc": "Landeskunde im englischsprachigen Raum: London, New York City, schottische und englische Metropolen sowie Meilensteine der US-Geschichte.",
+    "longDesc": "Tauche ein in die Geschichte und Kultur der bedeutendsten Metropolen der englischsprachigen Welt: Von traditionsreichen britischen Städten wie London, Edinburgh, Birmingham und Liverpool bis zu den US-Metropolen New York, Los Angeles, Houston und den geschichtsträchtigen Wurzeln Virginias.",
+    "keyPoints": [
+      "London & British Cities: Historische Hauptstädte und Kulturzentren Großbritanniens von London über Edinburgh bis Birmingham, Leeds und Sheffield",
+      "Liverpool: Die legendäre Hafenstadt der Beatles, maritimes Welterbe und lebendige Musik- und Kunstszene",
+      "New York City & American Metropolises: 'The Big Apple', Los Angeles als globales Zentrum der Filmindustrie sowie Houston als Wissenschafts- und Raumfahrthub",
+      "Virginia & US-Geschichte: Ursprünge der Besiedlung, Unabhängigkeitskrieg, Sezessionskrieg und die Entstehung der Vereinigten Staaten von Amerika"
+    ],
+    "exercises": [
+      {
+        "id": "1746",
+        "title": "London – Sights, Landmarks & Culture",
+        "folder": "london-1746"
+      },
+      {
+        "id": "6053",
+        "title": "London Explorer – History & Modern City (Part 2)",
+        "folder": "london-2-6053"
+      },
+      {
+        "id": "1619",
+        "title": "Edinburgh – Scotland's Historic Capital",
+        "folder": "edinburgh-1619"
+      },
+      {
+        "id": "1569",
+        "title": "Birmingham – Industrial Heritage & Modern UK",
+        "folder": "birmingham-1569"
+      },
+      {
+        "id": "1745",
+        "title": "Liverpool – Maritime History & Culture",
+        "folder": "liverpool-1745"
+      },
+      {
+        "id": "1732",
+        "title": "Leeds – Hub of Northern England",
+        "folder": "leeds-1732"
+      },
+      {
+        "id": "1863",
+        "title": "Sheffield – The Steel City",
+        "folder": "sheffield-1863"
+      },
+      {
+        "id": "6083",
+        "title": "New York City – The Big Apple",
+        "folder": "new-york-2-6083"
+      },
+      {
+        "id": "5379",
+        "title": "History of New York – From Colony to Metropolis",
+        "folder": "die-geschichte-new-yorks-5379"
+      },
+      {
+        "id": "6054",
+        "title": "Los Angeles – City of Angels & Hollywood",
+        "folder": "los-angeles-6054"
+      },
+      {
+        "id": "6017",
+        "title": "Houston – Space City & Texas Culture",
+        "folder": "houston-6017"
+      },
+      {
+        "id": "1930",
+        "title": "Virginia – The Old Dominion & US History",
+        "folder": "virginia-1930"
+      },
+      {
+        "id": "5364",
+        "title": "History of the USA – Independence & Modern Era",
+        "folder": "die-geschichte-der-usa-5364"
+      },
+      {
+        "id": "404",
+        "title": "30 wichtige Städte der USA",
+        "folder": "30-wichtige-stadte-der-usa-404"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=London+New+York+USA+English&t=468"
+  },
+
+  "commonwealth-and-world": {
+    "slug": "commonwealth-and-world",
+    "title": "The English-Speaking World (Commonwealth & Global Cities)",
+    "category": "Culture & Landeskunde (UK & USA)",
+    "shortDesc": "Australien, Kanada und globale Metropolen: Sydney, Melbourne, Brisbane, Perth und Toronto.",
+    "longDesc": "English around the globe! Entdecke faszinierende Metropolen des Commonwealth in Australien und Kanada. Lerne mehr über Lebensart, Sehenswürdigkeiten, Geschichte und globale Vielfalt der englischsprachigen Welt.",
+    "keyPoints": [
+      "Australia – Down Under: Sydney mit Opernhaus und Hafenbrücke, Melbournes Kunst- und Kaffeeszene, die tropische Metropole Brisbane und Perth am Indischen Ozean",
+      "Canada: Toronto als multikulturelle Wirtschaftsmetropole Kanadas, CN Tower und die Nähe zu den Großen Seen",
+      "Global English: Sprachliche Varietäten, typische Redewendungen und kulturelle Identitäten im weltweiten Vergleich",
+      "Geographie & Naturräume: Von den australischen Küsten und dem Outback bis zu den weiten Wäldern und Metropolregionen Nordamerikas"
+    ],
+    "exercises": [
+      {
+        "id": "6118",
+        "title": "Sydney – Harbour City & Australian Icon",
+        "folder": "sydney-6118"
+      },
+      {
+        "id": "6068",
+        "title": "Melbourne – Cultural Capital of Australia",
+        "folder": "melbourne-6068"
+      },
+      {
+        "id": "6145",
+        "title": "Brisbane – Sunshine State & Modern Metropolis",
+        "folder": "brisbane-6145"
+      },
+      {
+        "id": "6090",
+        "title": "Perth – Western Australia & Pacific Gateway",
+        "folder": "perth-6090"
+      },
+      {
+        "id": "6131",
+        "title": "Toronto – Multicultural Hub of Canada",
+        "folder": "toronto-6131"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Australia+Canada+English+Commonwealth&t=468"
+  },
+
   "history-of-music": {
     "id": 26050,
     "slug": "history-of-music",
     "title": "History of Music (CLIL English)",
-    "category": "Culture, Geography & Music History",
-    "shortDesc": "Musikgeschichte auf Englisch: Von der Steinzeit und Antike über Barock und Wiener Klassik bis zur Romantik und Moderne.",
+    "category": "CLIL & Music History",
+    "shortDesc": "Musikgeschichte auf Englisch: Von der Steinzeit und Antike über Barock und Wiener Klassik bis zur Romantik, The Beatles und Queen.",
     "longDesc": "Explore the fascinating history of music entirely in the English language! Improve your CLIL (Content and Language Integrated Learning) skills with videos and exercises on musical eras and famous composers.",
     "keyPoints": [
       "Antiquity & Middle Ages: Early musical instruments, Gregorian chants and the origins of polyphony",
@@ -314,7 +469,7 @@ export const englischTopics: Record<string, EnglischTopic> = {
       "Baroque Era: The basso continuo, ornamentation, the birth of opera, and masters like Bach and Vivaldi",
       "Classical Period: Structural clarity, symmetry, sonata form, and legends like Mozart, Haydn and Beethoven",
       "Romantic Period: Deep emotions, virtuoso soloists, nationalism and program music (Chopin, Wagner, Tchaikovsky)",
-      "20th Century & Beyond: Atonality, twelve-tone music, jazz influences, film scores and electronic innovation"
+      "20th Century & Beyond: Atonality, twelve-tone music, rock and pop icons (The Beatles, Queen, ABBA, Toto)"
     ],
     "exercises": [
       {
@@ -333,8 +488,13 @@ export const englischTopics: Record<string, EnglischTopic> = {
         "folder": "music-in-the-renaissance-639"
       },
       {
+        "id": "629",
+        "title": "Music in the Baroque (Part 1)",
+        "folder": "music-in-the-baroque-629"
+      },
+      {
         "id": "637",
-        "title": "Music in the Baroque Period",
+        "title": "Music in the Baroque Period (Part 2)",
         "folder": "music-in-the-baroque-2-637"
       },
       {
@@ -401,57 +561,10 @@ export const englischTopics: Record<string, EnglischTopic> = {
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=History+of+Music+English&t=468"
   },
 
-  "uk-and-usa-culture-and-cities": {
-    "slug": "uk-and-usa-culture-and-cities",
-    "title": "UK & USA: Culture, Cities & History",
-    "category": "Culture, Geography & Music History",
-    "shortDesc": "Landeskunde im englischsprachigen Raum: London, New York City, US-amerikanische Geschichte und Kulturmetropolen.",
-    "longDesc": "Tauche ein in die Geschichte und Kultur der bedeutendsten Metropolen der englischsprachigen Welt: Von der traditionsreichen britischen Hauptstadt London bis zur Weltmetropole New York City und den Meilensteinen der US-Geschichte.",
-    "keyPoints": [
-      "London: Hauptstadt des Vereinigten Königreichs; Wahrzeichen wie Big Ben, Tower Bridge, Buckingham Palace und der Fluss Themse",
-      "New York City: 'The City That Never Sleeps'; Five Boroughs (Manhattan, Brooklyn, Queens, The Bronx, Staten Island) und Central Park",
-      "Geschichte New Yorks: Von der niederländischen Kolonie Neu-Amsterdam über Ellis Island als Tor zur Neuen Welt bis zum globalen Finanzzentrum",
-      "Geschichte der USA: Unabhängigkeitserklärung 1776, Verfassung, Sezessionskrieg und Aufstieg zur globalen Wirtschaftsmacht"
-    ],
-    "exercises": [
-      {
-        "id": "1746",
-        "title": "London – Sights, Landmarks & Culture",
-        "folder": "london-1746"
-      },
-      {
-        "id": "6053",
-        "title": "London Explorer – History & Modern City (Part 2)",
-        "folder": "london-2-6053"
-      },
-      {
-        "id": "6083",
-        "title": "New York City – The Big Apple",
-        "folder": "new-york-2-6083"
-      },
-      {
-        "id": "5379",
-        "title": "History of New York – From Colony to Metropolis",
-        "folder": "die-geschichte-new-yorks-5379"
-      },
-      {
-        "id": "5364",
-        "title": "History of the USA – Independence & Modern Era",
-        "folder": "die-geschichte-der-usa-5364"
-      },
-      {
-        "id": "404",
-        "title": "30 wichtige Städte der USA",
-        "folder": "30-wichtige-stadte-der-usa-404"
-      }
-    ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=London+New+York+USA+English&t=468"
-  },
-
   "william-shakespeare-and-drama": {
     "slug": "william-shakespeare-and-drama",
     "title": "William Shakespeare & Classic Drama",
-    "category": "Literature & Reading",
+    "category": "British & American Literature",
     "shortDesc": "The Bard of Avon: Shakespeares Leben, das Globe Theatre, Hamlet, Romeo und Julia und zeitlose dramatische Motive.",
     "longDesc": "William Shakespeare (1564–1616) gilt als der bedeutendste Dramatiker der Weltliteratur. Seine Tragödien, Komödien und Sonette prägen bis heute die englische Sprache, Literatur und Theaterkultur.",
     "keyPoints": [
@@ -503,5 +616,131 @@ export const englischTopics: Record<string, EnglischTopic> = {
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Shakespeare+Hamlet+Drama+English&t=468"
+  },
+
+  "british-literature-and-classics": {
+    "slug": "british-literature-and-classics",
+    "title": "British Literature & Masterpieces",
+    "category": "British & American Literature",
+    "shortDesc": "Klassiker der britischen Literatur: Von Charles Dickens und den Brontë-Schwestern über Jane Austen, Oscar Wilde und Tolkien bis zu George Orwell und J.K. Rowling.",
+    "longDesc": "Great British Literature: Dive into the masterpieces that shaped the English-speaking literary world. From Victorian social realism and Gothic romance to witty satire, detective fiction, epic fantasy, and profound 20th-century dystopias.",
+    "keyPoints": [
+      "Charles Dickens: Meisterhafte Porträts der viktorianischen Industriegesellschaft, soziale Ungerechtigkeit und Romanklassiker wie Oliver Twist und A Christmas Carol",
+      "Jane Austen: Scharfsinnige Gesellschaftsbeobachtung, feinsinnige Ironie und Frauenrollen im frühen 19. Jahrhundert (Pride and Prejudice)",
+      "The Brontë Sisters: Charlotte Brontës 'Jane Eyre' als Meilenstein emanzipatorischer Romanliteratur und viktorianischer Romantik",
+      "Oscar Wilde & Victorian Wit: Ästhetizismus, Dekadenz, sprachlicher Feinsinn und brillante Gesellschaftskritik (The Picture of Dorian Gray)",
+      "Lewis Carroll: Alice in Wonderland – Genialer Sprachwitz, viktorianische Parodie und die Kunst des literarischen Nonsens",
+      "Arthur Conan Doyle & Sherlock Holmes: Die Geburtsstunde des modernen Kriminalromans und meisterhafte Deduktion in der Baker Street",
+      "J.R.R. Tolkien & Fantasy: The Hobbit und The Lord of the Rings – Mythologie, ausgefeilte Kunstsprachen und das Fundament moderner High Fantasy",
+      "George Orwell & Dystopia: 1984 – Warnung vor Überwachungsstaat, Totalitarismus, Big Brother und Gedankenkontrolle",
+      "J.K. Rowling: Der weltweite Siegeszug von Harry Potter und die anhaltende Faszination zeitgenössischer britischer Erzählkunst"
+    ],
+    "exercises": [
+      {
+        "id": "1219",
+        "title": "Charles Dickens – Life & Victorian Society",
+        "folder": "berschrift-1219"
+      },
+      {
+        "id": "1281",
+        "title": "Jane Austen – Pride, Prejudice & Society",
+        "folder": "jane-austen-1281"
+      },
+      {
+        "id": "1222",
+        "title": "Charlotte Brontë – Jane Eyre & Literary Passion",
+        "folder": "charlotte-bronte-1222"
+      },
+      {
+        "id": "1299",
+        "title": "Oscar Wilde – The Picture of Dorian Gray & Wit",
+        "folder": "oscar-wilde-1299"
+      },
+      {
+        "id": "carroll-wunderland",
+        "title": "Lewis Carroll – Alice in Wonderland",
+        "folder": "lewis-carroll-ein-mathe-lehrer-im-wunderland"
+      },
+      {
+        "id": "sherlock-holmes",
+        "title": "Sir Arthur Conan Doyle – Sherlock Holmes",
+        "folder": "sherlock-holmes-gegen-moderne-ermittler"
+      },
+      {
+        "id": "tolkien-mittelerde",
+        "title": "J.R.R. Tolkien – The World of Middle-earth",
+        "folder": "die-welt-von-mittelerde-warum-tolkien-ein-genie-war"
+      },
+      {
+        "id": "5092",
+        "title": "George Orwell – 1984 & Dystopian Reality",
+        "folder": "1984-5092"
+      },
+      {
+        "id": "dystopia-1984",
+        "title": "Surveillance in Literature – From 1984 to Today",
+        "folder": "ueberwachung-in-buechern-von-1984-bis-heute"
+      },
+      {
+        "id": "potter-erfolg",
+        "title": "J.K. Rowling – The Global Success of Harry Potter",
+        "folder": "harry-potter-und-das-geheimnis-des-weltweiten-erfolgs"
+      },
+      {
+        "id": "britischer-humor",
+        "title": "British Humour in English Literature",
+        "folder": "britischer-humor-in-englischen-romanen"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=British+Literature+Classics+English&t=468"
+  },
+
+  "american-literature": {
+    "slug": "american-literature",
+    "title": "American Literature & Modern Classics",
+    "category": "British & American Literature",
+    "shortDesc": "Meisterwerke der US-Literatur: Mark Twain, Edgar Allan Poe, Ernest Hemingway, F. Scott Fitzgerald, Emily Dickinson und Stephen King.",
+    "longDesc": "The Great American Story: Erforsche die Entwicklung der amerikanischen Literatur vom poetischen Schauerroman und Realismus über das Jazz-Zeitalter und die Lost Generation bis zur zeitgenössischen Spannungsliteratur.",
+    "keyPoints": [
+      "Mark Twain: 'Father of American Literature' – Markanter Humor, Mississippi-Romantik und Realismus (The Adventures of Tom Sawyer & Huckleberry Finn)",
+      "Edgar Allan Poe: Pionier der modernen Detektivgeschichte, des Horrors und psychologischer Symbolik (The Raven, The Fall of the House of Usher)",
+      "Emily Dickinson: Visionäre amerikanische Lyrik, formale Reduktion und tiefgründige Reflexionen über Natur, Unendlichkeit und Sterblichkeit",
+      "F. Scott Fitzgerald: Der Chronist der Goldenen Zwanziger ('Jazz Age') und die Demaskierung des American Dream in 'The Great Gatsby'",
+      "Ernest Hemingway: Nobelpreisträger und Schöpfer der 'Iceberg Theory' mit prägnantem, unverwechselbarem Stil (The Old Man and the Sea)",
+      "Stephen King: Weltweiter Bestsellerautor und Meister des psychologischen Suspense und modernen Horrors"
+    ],
+    "exercises": [
+      {
+        "id": "1289",
+        "title": "Mark Twain – The Father of American Literature",
+        "folder": "mark-twain-1289"
+      },
+      {
+        "id": "1244",
+        "title": "Edgar Allan Poe – Master of the Macabre & Gothic Tales",
+        "folder": "edgar-allan-poe-1244"
+      },
+      {
+        "id": "1247",
+        "title": "Emily Dickinson – American Poetry & Mystery",
+        "folder": "berschrift-4-1247"
+      },
+      {
+        "id": "1251",
+        "title": "F. Scott Fitzgerald – The Jazz Age & The Great Gatsby",
+        "folder": "f-scott-fitzgerald-1251"
+      },
+      {
+        "id": "1249",
+        "title": "Ernest Hemingway – Modernist Fiction & The Lost Generation",
+        "folder": "ernest-hemingway-1249"
+      },
+      {
+        "id": "stephen-king",
+        "title": "Stephen King – Master of Contemporary Suspense",
+        "folder": "warum-stephen-king-der-meister-des-horrors-bleibt"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=American+Literature+Classics+English&t=468"
   }
 };
