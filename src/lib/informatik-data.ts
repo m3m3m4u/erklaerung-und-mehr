@@ -459,6 +459,11 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "id": "dashboards",
         "title": "Datenvisualisierung & Dashboards",
         "folder": "darstellung-komplexer-zusammenhaenge-in-dashboards"
+      },
+      {
+        "id": "info-satz-layout",
+        "title": "Text- & Dokumentenlayout: Professioneller Satz von wissenschaftlichen Arbeiten",
+        "folder": "professioneller-satz-von-abschlussarbeiten"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=excel+word&t=896"
@@ -1188,6 +1193,11 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "id": "spaghetti-code",
         "title": "Problematik von unstrukturiertem Spaghetti-Code",
         "folder": "problematik-von-unstrukturiertem-spaghetti-code"
+      },
+      {
+        "id": "info-git-versioning",
+        "title": "Softwareentwicklung: Grundlagen der Versionskontrolle mit Git & Repositories",
+        "folder": "grundlagen-von-versionskontrolle-mit-git"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=programmieren+scratch&t=896"
@@ -1300,6 +1310,11 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "id": "big-data",
         "title": "Big Data & Wissensgenerierung",
         "folder": "wissensgenerierung-aus-grossen-datenmengen"
+      },
+      {
+        "id": "info-voice-assistant",
+        "title": "Sprachmodelle & NLP: Wie funktioniert die Spracherkennung (Voice Assistant)",
+        "folder": "wie-funktioniert-die-spracherkennung-voice-assistant"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=kuenstliche+intelligenz&t=896"
@@ -1468,6 +1483,16 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "id": "cs-cg-1",
         "title": "Aufbau eines digitalen Bildes (Pixel & Rastergrafik)",
         "folder": "aufbau-eines-digitalen-bildes-aus-millionen-kleiner-quadrate"
+      },
+      {
+        "id": "info-videokompression",
+        "title": "Videokompression & Codecs: Wie funktioniert MPEG und Datenreduktion",
+        "folder": "wie-funktioniert-die-video-kompression-z-b-mpeg"
+      },
+      {
+        "id": "info-farbkorrektur",
+        "title": "Digitale Bildbearbeitung: Wie funktioniert die Farbkorrektur",
+        "folder": "wie-funktioniert-die-farbkorrektur"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=computergrafik+vektor&t=896"

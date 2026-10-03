@@ -2244,6 +2244,36 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "remscheid-profil",
         "title": "Remscheid - Eine Stadt im Bergischen Land",
         "folder": "remscheid-eine-stadt-im-bergischen-land"
+      },
+      {
+        "id": "geo-stadt-bamberg",
+        "title": "Bamberg – UNESCO-Weltkulturerbestadt, Kaiserdom & Klein Venedig",
+        "folder": "bamberg-eine-stadt-mit-geschichte-und-kultur"
+      },
+      {
+        "id": "geo-stadt-bayreuth",
+        "title": "Bayreuth – Festspielstadt, Markgräfliches Opernhaus & Wagner-Tradition",
+        "folder": "bayreuth-1562"
+      },
+      {
+        "id": "geo-stadt-passau",
+        "title": "Passau – Die Dreiflüssestadt an Donau, Inn und Ilz & Barockaltstadt",
+        "folder": "passau-1823"
+      },
+      {
+        "id": "geo-stadt-marburg",
+        "title": "Marburg – Historische Universitätsstadt, Landgrafenschloss & Elisabethkirche",
+        "folder": "marburg-eine-stadt-mit-geschichte-und-kultur"
+      },
+      {
+        "id": "geo-stadt-fulda",
+        "title": "Fulda – Barockstadt, Dom St. Salvator & Wiege der Bonifatiustradition",
+        "folder": "fulda-eine-stadt-mit-geschichte-und-kultur"
+      },
+      {
+        "id": "geo-stadt-koblenz",
+        "title": "Koblenz – Am Deutschen Eck: Zusammenfluss von Rhein und Mosel & Festung Ehrenbreitstein",
+        "folder": "koblenz-eine-stadt-mit-geschichte-und-kultur"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=staedte+deutschland&t=3752"
@@ -2978,6 +3008,11 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "ch-ust-1",
         "title": "Uster – Stadt am Greifensee",
         "folder": "uster-1914"
+      },
+      {
+        "id": "1530",
+        "title": "Allschwil – Bedeutende Gemeinde im Baselbiet & Agglomeration Basel",
+        "folder": "allschwil-1530"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=schweiz+staedte&t=3752"
@@ -3054,6 +3089,11 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "ch-fr-1",
         "title": "Freiburg im Üechtland (Fribourg)",
         "folder": "freiburg-im-echtland-6374"
+      },
+      {
+        "id": "1925",
+        "title": "Vernier – Zweitgrößte Stadt im Kanton Genf & Industriezentrum der Romandie",
+        "folder": "vernier-1925"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=schweiz+romandie+staedte&t=3752"
@@ -5764,6 +5804,11 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "5457",
         "title": "Die Entstehung von Gebirgsmassiven und ihre Entwicklung",
         "folder": "die-entstehung-von-gebirgsmassiven-und-ihre-entwicklung-5457"
+      },
+      {
+        "id": "3230",
+        "title": "Escape Room: Die flächengrößten Länder der Erde",
+        "folder": "escape-room-quot-die-flachen-groesten-lander-der-erde-quot-3230"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=gebirge+kontinente&t=3752"
@@ -6144,6 +6189,26 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "geo-stadt-gelsenkirchen",
         "title": "Gelsenkirchen – Stadt der tausend Feuer im Wandel zur Zukunftsenergie",
         "folder": "gelsenkirchen-eine-stadt-im-ruhrgebiet"
+      },
+      {
+        "id": "geo-stadt-krefeld",
+        "title": "Krefeld – Samt- und Seidenstadt, Textilgeschichte & Rheinischer Industriehafen",
+        "folder": "krefeld-eine-stadt-mit-geschichte-und-kultur"
+      },
+      {
+        "id": "geo-stadt-leverkusen",
+        "title": "Leverkusen – Chemiestandort am Rhein, Bayer-Werk & Carl-Duisberg-Park",
+        "folder": "leverkusen-eine-stadt-am-rhein"
+      },
+      {
+        "id": "geo-stadt-mgladbach",
+        "title": "Mönchengladbach – Größte Stadt am linken Niederrhein & Textilmetropole",
+        "folder": "moenchengladbach-eine-stadt-im-wandel"
+      },
+      {
+        "id": "geo-stadt-iserlohn",
+        "title": "Iserlohn – Waldstadt und traditionsreiches Industriezentrum im Sauerland",
+        "folder": "iserlohn-eine-spannende-stadt-in-nordrhein-westfalen"
       }
     ]
   }

@@ -98,6 +98,11 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "hist-urg-1",
         "title": "Afrika – Die Wiege der Menschheit",
         "folder": "afrika-die-wiege-der-menschheit-3082"
+      },
+      {
+        "id": "3361",
+        "title": "Escape Room: Frühe Kulturen & Metallzeiten (Bronze- und Eisenzeit)",
+        "folder": "fruhe-kulturen-und-metallzeiten-3361"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Steinzeit%20%26%20Fr%C3%BChe%20Menschheitsentwicklung+geschichte&t=3752"
@@ -965,6 +970,11 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "hist-k5-2",
         "title": "Kaiser Karl V. – Herrscher zwischen Reformation und Reich",
         "folder": "karl-v-3025"
+      },
+      {
+        "id": "3339",
+        "title": "Escape Room: Weltbilder im Wandel der Zeit – Vom Geozentrismus zum Humanismus",
+        "folder": "weltbilder-3339"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Renaissance%2C%20Humanismus%20%26%20Buchdruck+geschichte&t=3752"
@@ -1179,6 +1189,11 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "2319",
         "title": "Der Englische Bürgerkrieg",
         "folder": "der-englische-burgerkrieg-2319"
+      },
+      {
+        "id": "3374",
+        "title": "Escape Room: Der Absolutismus & Ludwig XIV.",
+        "folder": "absolutismus-2-3374"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Absolutismus%20Ludwig%20XIV+geschichte&t=3752"
@@ -1687,6 +1702,11 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "330",
         "title": "Die Industrielle Revolution",
         "folder": "industrielle-revolution-330"
+      },
+      {
+        "id": "3367",
+        "title": "Escape Room: Industrialisierung, Fabrikalltag und die Soziale Frage",
+        "folder": "industrialisierung-und-die-folgen-3367"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Industrielle%20Revolution%20%26%20Die%20Soziale%20Frage+geschichte&t=3752"
@@ -1752,6 +1772,11 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "hist-bm-1",
         "title": "Die Biedermeierzeit – Bürgerkultur zwischen Restauration und Zensur",
         "folder": "die-biedermeierzeit-3158"
+      },
+      {
+        "id": "3373",
+        "title": "Escape Room: Deutschland im 19. Jahrhundert (Vormärz bis Paulskirche)",
+        "folder": "deutschland-im-19-jahrhundert-3373"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Vorm%C3%A4rz%20%26%20Die%20Revolution%20von%201848%2F49+geschichte&t=3752"
@@ -3066,6 +3091,11 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "hist-uno-1",
         "title": "Die Vereinten Nationen (UNO) – Gründung und Friedensmission",
         "folder": "die-geschichte-der-vereinten-nationen-5365"
+      },
+      {
+        "id": "3362",
+        "title": "Escape Room: Terrorismus im 20. Jahrhundert – Ursachen und Brennpunkte",
+        "folder": "terrorismus-im-20-jahrhundert-3362"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Stellvertreterkriege+Vietnam+Korea&t=3752"
@@ -3292,6 +3322,16 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "hist-nah-2",
         "title": "Israel und Iran – Entstehung der Feindschaft",
         "folder": "warum-israel-und-iran-feinde-sind-5429"
+      },
+      {
+        "id": "3363",
+        "title": "Escape Room: Der Nahe Osten und seine Konflikte",
+        "folder": "naher-osten-und-konflikte-3363"
+      },
+      {
+        "id": "5424",
+        "title": "Ayatollah Ali Chamenei: Staatsoberhaupt und geistlicher Führer des Iran",
+        "folder": "ali-chamenei-5424"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=nahostkonflikt&t=3752"
@@ -3449,6 +3489,11 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "2072",
         "title": "Das Britische Empire & Dekolonisierung",
         "folder": "die-ehemaligen-britischen-kolonien-2072"
+      },
+      {
+        "id": "3349",
+        "title": "Escape Room: Die Entkolonialisierung & globale Befreiungsbewegungen",
+        "folder": "die-entkolonialisierung-3349"
       }
     ]
   },
@@ -3514,6 +3559,16 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "friesen",
         "title": "Die Geschichte der Friesen",
         "folder": "die-geschichte-der-friesen"
+      },
+      {
+        "id": "3365",
+        "title": "Escape Room: Geschichte Großbritanniens – Von der Magna Carta zum Empire",
+        "folder": "geschichte-groesbritanniens-3365"
+      },
+      {
+        "id": "3343",
+        "title": "Escape Room: Geschichte Italiens – Vom Römischen Reich zum Risorgimento",
+        "folder": "geschichte-italiens-3343"
       }
     ]
   },
@@ -3589,6 +3644,16 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "5428",
         "title": "Warum Israel (fast) nur von Feinden umgeben ist",
         "folder": "warum-israel-fast-nur-von-feinden-umgeben-ist-5428"
+      },
+      {
+        "id": "3350",
+        "title": "Escape Room: Frühe Geschichte und Entstehung Russlands",
+        "folder": "fruhe-geschichte-und-entstehung-russlands-3350"
+      },
+      {
+        "id": "3351",
+        "title": "Escape Room: Die Sowjetunion und der Kommunismus",
+        "folder": "sowjetunion-und-kommunismus-3351"
       }
     ]
   },
@@ -3643,6 +3708,11 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "5348",
         "title": "Die Geschichte Australiens",
         "folder": "die-geschichte-australiens-5348"
+      },
+      {
+        "id": "3357",
+        "title": "Escape Room: Geschichte Südamerikas – Präkolumbische Reiche bis zur Moderne",
+        "folder": "geschichte-sudamerikas-3357"
       }
     ]
   },
@@ -3683,6 +3753,11 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "5388",
         "title": "Die Geschichte der Archäologie",
         "folder": "geschichte-der-archaologie-5388"
+      },
+      {
+        "id": "3358",
+        "title": "Escape Room: Geschichte Afrikas – Reiche, Kulturen & Umbrüche",
+        "folder": "geschichte-afrikas-3358"
       }
     ]
   },

@@ -380,6 +380,11 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "de-zitieren-2",
         "title": "Zitieren ohne Fehler: Richtiges Belegen von Quellen",
         "folder": "zitieren-ohne-fehler-so-gehts-richtig"
+      },
+      {
+        "id": "de-rezension",
+        "title": "Textformen: Wie man eine überzeugende Literatur- und Buchrezension verfasst",
+        "folder": "wie-man-eine-rezension-schreibt-die-andere-ueberzeugt"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Aufsatz%20Inhaltsangabe%20Analyse%20Deutsch&t=284"
@@ -2548,6 +2553,11 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "de-fantasy--2-eben",
         "title": "Dystopien in der Jugendliteratur – Gesellschaftskritik und Spannung",
         "folder": "warum-wir-dystopien-wie-tribute-von-panem-lieben"
+      },
+      {
+        "id": "de-scifi-visionen",
+        "title": "Science-Fiction in der Literatur: Was Zukunftsvisionen über unsere Gegenwart verraten",
+        "folder": "science-fiction-was-unsere-zukunftsvisionen-verraten"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Fantasy%20Science%20Fiction%20Dystopie%20Cyberpunk&t=284"
@@ -2611,6 +2621,11 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "de-abenteue-3-iert",
         "title": "Satire, Ironie & Sarkasmus als literarische Kritik",
         "folder": "satire-wie-man-mit-humor-kritisiert"
+      },
+      {
+        "id": "de-tagebuch-form",
+        "title": "Literarische Gattungen: Das Tagebuch als intime literarische Form",
+        "folder": "das-tagebuch-als-literarische-form"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Abenteuerromane%20Reiseliteratur%20Gothic%20Dark%20Academia&t=284"
@@ -3005,6 +3020,16 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "warum-manche-buecher-erst-nach-dem-tod-der-autoren-beruehmt-wurden",
         "title": "Warum manche Bücher erst nach dem Tod der Autoren berühmt wurden",
         "folder": "warum-manche-buecher-erst-nach-dem-tod-der-autoren-beruehmt-wurden"
+      },
+      {
+        "id": "de-buchmesse-ffm",
+        "title": "Die Frankfurter Buchmesse – Größter Marktplatz der Weltliteratur & Branchentreff",
+        "folder": "die-frankfurter-buchmesse"
+      },
+      {
+        "id": "de-buchmesse-leipzig",
+        "title": "Die Leipziger Buchmesse – Lesefest, Publikumsmagnet & Buchpreis",
+        "folder": "die-leipziger-buchmesse"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Buchmarkt%20Bibliotheken%20Zensur%20Buchmesse&t=284"
