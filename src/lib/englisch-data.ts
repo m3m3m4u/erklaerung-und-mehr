@@ -304,16 +304,6 @@ export const englischTopics: Record<string, EnglischTopic> = {
         "folder": "more-2-364"
       },
       {
-        "id": "365",
-        "title": "More! 3 – Course Vocabulary & Exercises",
-        "folder": "more-3-365"
-      },
-      {
-        "id": "362",
-        "title": "More! 4 – Course Vocabulary & Exercises",
-        "folder": "more-4-362"
-      },
-      {
         "id": "366",
         "title": "More! 3 – Enriched Course Training",
         "folder": "more-3-enriched-course-366"
@@ -489,13 +479,8 @@ export const englischTopics: Record<string, EnglischTopic> = {
       },
       {
         "id": "629",
-        "title": "Music in the Baroque (Part 1)",
+        "title": "Music in the Baroque Period",
         "folder": "music-in-the-baroque-629"
-      },
-      {
-        "id": "637",
-        "title": "Music in the Baroque Period (Part 2)",
-        "folder": "music-in-the-baroque-2-637"
       },
       {
         "id": "642",
