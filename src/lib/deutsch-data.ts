@@ -1,18 +1,17 @@
-export interface H5PExercise {
+export interface DeutschExercise {
   id: string;
   title: string;
   folder: string;
 }
 
 export interface DeutschTopic {
-  id?: number;
   slug: string;
   title: string;
   category: string;
   shortDesc: string;
   longDesc: string;
   keyPoints: string[];
-  exercises: H5PExercise[];
+  exercises: DeutschExercise[];
   worksheetLink?: string;
 }
 
@@ -371,6 +370,16 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "de-texte-un-6-aben",
         "title": "Figurencharakterisierung – Direkte und indirekte Charakterisierung",
         "folder": "wie-man-charakterisierungen-schreibt-die-tiefe-haben"
+      },
+      {
+        "id": "de-zitieren-1",
+        "title": "Wissenschaftliches Arbeiten: Zitieren leicht gemacht",
+        "folder": "zitieren-leicht-gemacht-keine-angst-vor-quellen"
+      },
+      {
+        "id": "de-zitieren-2",
+        "title": "Zitieren ohne Fehler: Richtiges Belegen von Quellen",
+        "folder": "zitieren-ohne-fehler-so-gehts-richtig"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Aufsatz%20Inhaltsangabe%20Analyse%20Deutsch&t=284"
@@ -817,6 +826,26 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "anna-seghers-und-die-flucht-vor-den-nazis",
         "title": "Anna Seghers und die Flucht vor den Nazis",
         "folder": "anna-seghers-und-die-flucht-vor-den-nazis"
+      },
+      {
+        "id": "6170",
+        "title": "Irmgard Keun: Das kunstseidene Mädchen – Inhalt & Figuren",
+        "folder": "das-kunstseidene-madchen-von-irmgard-keun-6170"
+      },
+      {
+        "id": "6168",
+        "title": "Irmgard Keun: Das kunstseidene Mädchen – Historischer Kontext & Weimarer Republik",
+        "folder": "das-kunstseidene-madchen-von-irmgard-keun-historischer-kontext-6168"
+      },
+      {
+        "id": "6169",
+        "title": "Irmgard Keun: Das kunstseidene Mädchen – Literarische Bedeutung & Stil",
+        "folder": "das-kunstseidene-madchen-von-irmgard-keun-literarische-bedeutung-6169"
+      },
+      {
+        "id": "6167",
+        "title": "Irmgard Keun: Das kunstseidene Mädchen – Bezug zur Gegenwart & Frauenrolle",
+        "folder": "das-kunstseidene-madchen-von-irmgard-keun-bezug-zur-gegenwart-6167"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Expressionismus%20Exilliteratur%20Moderne&t=284"
@@ -1431,6 +1460,26 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "de-schweize-3-4560",
         "title": "Frisch: Montauk – Autobiographische Erzählung",
         "folder": "max-frisch-montauk-2-4560"
+      },
+      {
+        "id": "6176",
+        "title": "Friedrich Dürrenmatt: Der Besuch der alten Dame – Historischer Kontext",
+        "folder": "der-besuch-der-alten-dame-von-friedrich-durrenmatt-historischer-kontext-6176"
+      },
+      {
+        "id": "6177",
+        "title": "Friedrich Dürrenmatt: Der Besuch der alten Dame – Literarische Bedeutung & Motive",
+        "folder": "der-besuch-der-alten-dame-von-friedrich-durrenmatt-literarische-bedeutung-6177"
+      },
+      {
+        "id": "6175",
+        "title": "Friedrich Dürrenmatt: Der Besuch der alten Dame – Gegenwartsbezug & Moral",
+        "folder": "der-besuch-der-alten-dame-von-friedrich-durrenmatt-bezug-zur-gegenwart-6175"
+      },
+      {
+        "id": "3278",
+        "title": "Friedrich Dürrenmatt: Die Physiker – Verantwortung der Wissenschaft",
+        "folder": "friedrich-durrenmatt-die-physiker-3278"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Duerrenmatt%20Physiker%20Besuch%20alten%20Dame%20Frisch%20Biedermann&t=284"
@@ -2070,6 +2119,11 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "de-moderne--4-pass",
         "title": "Vom Sonett zum Poetry Slam – Formen moderner Dichtung",
         "folder": "von-sonetten-bis-poetry-slam-lyrik-macht-spass"
+      },
+      {
+        "id": "5186",
+        "title": "Kurt Tucholsky: Augen in der Großstadt (Großstadtlyrik)",
+        "folder": "augen-in-der-groesstadt-von-kurt-tucholsky-5186"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Gedichtanalyse%20Rilke%20Expressionismus%20Lyrik&t=284"
