@@ -1170,11 +1170,6 @@ export const musikTopics: Record<string, MusikTopic> = {
         "folder": "robert-schumann-video-mit-fragen-213"
       },
       {
-        "id": "933",
-        "title": "Clara Schumann",
-        "folder": "clara-schumann-933"
-      },
-      {
         "id": "1033",
         "title": "Felix Mendelssohn Bartholdy",
         "folder": "felix-mendelssohn-bartholdy-1033"
@@ -2961,6 +2956,11 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "3952",
         "title": "Hildegard von Bingen – Universalgelehrte & Komponistin",
         "folder": "hildegard-of-bingen-3952"
+      },
+      {
+        "id": "933",
+        "title": "Clara Schumann – Klaviervirtuosin & Komponistin",
+        "folder": "clara-schumann-933"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=frauen+musikgeschichte&t=3752"
