@@ -846,6 +846,26 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "6167",
         "title": "Irmgard Keun: Das kunstseidene Mädchen – Bezug zur Gegenwart & Frauenrolle",
         "folder": "das-kunstseidene-madchen-von-irmgard-keun-bezug-zur-gegenwart-6167"
+      },
+      {
+        "id": "6208",
+        "title": "Erich Kästner: Fabian – Die Geschichte eines Moralisten (Inhalt & Analyse)",
+        "folder": "fabian-geschichte-eines-moralisten-von-kastner-6208"
+      },
+      {
+        "id": "6206",
+        "title": "Erich Kästner: Fabian – Historischer Kontext & Endphase von Weimar",
+        "folder": "fabian-geschichte-eines-moralisten-von-kastner-historischer-kontext-6206"
+      },
+      {
+        "id": "6207",
+        "title": "Erich Kästner: Fabian – Literarische Bedeutung & Neue Sachlichkeit",
+        "folder": "fabian-geschichte-eines-moralisten-von-kastner-literarische-bedeutung-6207"
+      },
+      {
+        "id": "6205",
+        "title": "Erich Kästner: Fabian – Gegenwartsbezug & Moral in der Krise",
+        "folder": "fabian-geschichte-eines-moralisten-von-kastner-bezug-zur-gegenwart-6205"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Expressionismus%20Exilliteratur%20Moderne&t=284"
@@ -1392,6 +1412,11 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "3410",
         "title": "Bertolt Brecht – Mutter Courage und ihre Kinder",
         "folder": "bertolt-brecht-mutter-courage-und-ihre-kinder-3410"
+      },
+      {
+        "id": "4515",
+        "title": "Bertolt Brecht: Mutter Courage und ihre Kinder – Episches Theater & Kriegskritik",
+        "folder": "bertolt-brecht-mutter-courage-und-ihre-kinder-2-4515"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Brecht%20Episches%20Theater%20Galilei%20Mutter%20Courage&t=284"
@@ -2202,6 +2227,21 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "oliver-scherz-warum-vorlesebuecher-so-wichtig-sind",
         "title": "Oliver Scherz: Warum Vorlesebücher so wichtig sind",
         "folder": "oliver-scherz-warum-vorlesebuecher-so-wichtig-sind"
+      },
+      {
+        "id": "de-m-ende",
+        "title": "Michael Ende: Die unendliche Geschichte – Warum Lesen Rettung bedeutet",
+        "folder": "die-unendliche-geschichte-warum-lesen-rettung-bedeutet"
+      },
+      {
+        "id": "de-enid-blyton",
+        "title": "Enid Blyton: Die Fünf Freunde – Abenteuerlust & Freundschaft",
+        "folder": "enid-blyton-warum-wir-die-fuenf-freunde-immer-noch-lesen"
+      },
+      {
+        "id": "de-kaestner-autor",
+        "title": "Erich Kästner: Mehr als nur Kinderbücher – Zeitzeuge & Humorist",
+        "folder": "erich-kaestner-mehr-als-nur-kinderbuecher"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Kinderbuch%20Klassiker%20Kleiner%20Prinz%20Alice&t=284"
@@ -3394,6 +3434,26 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "6250",
         "title": "Leonce und Lena von Georg Büchner – Literarische Bedeutung",
         "folder": "leonce-und-lena-von-georg-buchner-literarische-bedeutung-6250"
+      },
+      {
+        "id": "6185",
+        "title": "Georg Büchner: Der hessische Landbote – Flugschrift & Aufruf zur Revolution",
+        "folder": "der-hessische-landbote-von-georg-buchner-6185"
+      },
+      {
+        "id": "6183",
+        "title": "Georg Büchner: Der hessische Landbote – Historischer Kontext & Vormärz",
+        "folder": "der-hessische-landbote-von-georg-buchner-historischer-kontext-6183"
+      },
+      {
+        "id": "6184",
+        "title": "Georg Büchner: Der hessische Landbote – Literarische Bedeutung & Rhetorik",
+        "folder": "der-hessische-landbote-von-georg-buchner-literarische-bedeutung-6184"
+      },
+      {
+        "id": "6182",
+        "title": "Georg Büchner: Der hessische Landbote – Gegenwartsbezug & soziale Gerechtigkeit",
+        "folder": "der-hessische-landbote-von-georg-buchner-bezug-zur-gegenwart-6182"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=buechner+woyzeck+danton&t=3752"

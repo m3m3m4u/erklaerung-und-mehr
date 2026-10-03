@@ -200,6 +200,11 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "id": "diedeutscheenergie",
         "title": "Die deutsche Energiewirtschaft",
         "folder": "die-deutsche-energiewirtschaft"
+      },
+      {
+        "id": "wirt-versicherung",
+        "title": "Das Solidaritäts- und Äquivalenzprinzip: Wie funktioniert eine Versicherung",
+        "folder": "wie-funktioniert-eine-versicherung"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=sozialversicherung&t=3752"

@@ -156,6 +156,11 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "id": "668",
         "title": "Grundlagen der Informatik – Hardware (Kurs)",
         "folder": "kurs-grundlagen-der-informatik-hardware-668"
+      },
+      {
+        "id": "info-moores-law",
+        "title": "Hardware-Entwicklung: Mooresches Gesetz und physikalische Grenzen",
+        "folder": "mooresches-gesetz-und-die-grenzen-der-geschwindigkeit"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=digitale+grundbildung&t=896"
@@ -791,6 +796,11 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "id": "1061",
         "title": "Kollaboratives Arbeiten im Netz",
         "folder": "online-zusammenarbeit-1061"
+      },
+      {
+        "id": "info-wikis",
+        "title": "Kollaborative Wissensgenerierung: Wikis und vernetzte Zusammenarbeit",
+        "folder": "entstehung-von-kollektivem-wissen-in-wikis"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=cloud+computing&t=896"
@@ -893,6 +903,11 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "id": "botnetze",
         "title": "Botnetze & DDoS-Angriffe",
         "folder": "zusammenschluss-gehackter-geraete-zu-botnetzen"
+      },
+      {
+        "id": "info-backup",
+        "title": "Datensicherung & IT-Resilienz: Die 3-2-1-Backup-Strategie",
+        "folder": "datensicherung-und-backup-strategien"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=it+sicherheit&t=896"
@@ -1001,6 +1016,16 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "id": "digitale-identitaet",
         "title": "Digitale Identität & Selbstdatenschutz",
         "folder": "ueberwachung-der-eigenen-digitalen-identitaet"
+      },
+      {
+        "id": "info-metadaten",
+        "title": "Bildforensik & Datenschutz: Analyse von Metadaten (EXIF) in Bilddateien",
+        "folder": "analyse-von-metadaten-in-bilddateien"
+      },
+      {
+        "id": "info-datenoekonomie",
+        "title": "Datenökonomie im Alltag: Wie Plattformen mit Nutzerdaten wirtschaften",
+        "folder": "datennutzung-und-datenoekonomie-im-alltag"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=datenschutz&t=896"
@@ -1377,6 +1402,16 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "id": "cms-funktionsweise",
         "title": "Funktionsweise von Content Management Systemen",
         "folder": "funktionsweise-von-content-management-systemen"
+      },
+      {
+        "id": "info-fitts-law",
+        "title": "UI/UX Design: Das Gesetz von Fitts und die Größe von Klickflächen",
+        "folder": "das-gesetz-von-fitts-und-die-groesse-von-klickflaechen"
+      },
+      {
+        "id": "info-affordanz",
+        "title": "UI Design & Affordanz: Warum ein Button klickbar aussieht",
+        "folder": "affordanz-und-warum-ein-knopf-drueckbar-aussieht"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=css+javascript&t=896"

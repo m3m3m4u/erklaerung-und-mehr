@@ -1,4 +1,4 @@
-export interface H5PExercise {
+export interface EthikExercise {
   id: string;
   title: string;
   folder: string;
@@ -11,7 +11,7 @@ export interface EthikTopic {
   shortDesc: string;
   longDesc: string;
   keyPoints: string[];
-  exercises: H5PExercise[];
+  exercises: EthikExercise[];
   worksheetLink?: string;
 }
 
@@ -675,6 +675,16 @@ export const ethikTopics: Record<string, EthikTopic> = {
         "id": "4458",
         "title": "Tierversuche – Ethische Debatte",
         "folder": "tierversuche-4458"
+      },
+      {
+        "id": "4420",
+        "title": "Designerbabys & CRISPR-Cas: Ethische Grenzen der Keimbahntherapie",
+        "folder": "designerbabys-und-ihre-folgen-4420"
+      },
+      {
+        "id": "eth-organspende",
+        "title": "Widerspruchslösung bei der Organspende: Ethik, Solidarität & Selbstbestimmung",
+        "folder": "organ-spende-per-gesetz-der-radikale-weg-der-widerspruchsloesung"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Medizinethik+Bioethik+Organspende&t=3752"

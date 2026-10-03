@@ -354,6 +354,11 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "id": "endorphine",
         "title": "Wie funktioniert die Schmerzunterdrückung (Endorphine)",
         "folder": "wie-funktioniert-die-schmerzunterdrueckung-endorphine"
+      },
+      {
+        "id": "bio-lesen-gehirn",
+        "title": "Neurobiologie: Wie Lesen das menschliche Gehirn trainiert & formt",
+        "folder": "warum-lesen-gut-fuer-das-gehirn-ist"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=nervensystem+und+gehirn&t=3752"

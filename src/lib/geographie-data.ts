@@ -1,17 +1,17 @@
-export interface GeoExercise {
+export interface GeographieExercise {
   id: string;
   title: string;
   folder: string;
 }
 
-export interface GeoTopic {
+export interface GeographieTopic {
   slug: string;
   title: string;
   category: string;
   shortDesc: string;
   longDesc: string;
   keyPoints: string[];
-  exercises: GeoExercise[];
+  exercises: GeographieExercise[];
   worksheetLink?: string;
 }
 
@@ -25,7 +25,7 @@ export const geographieCategories: string[] = [
   "Kultur-, Stadt- & Wirtschaftsgeographie"
 ];
 
-export const geographieTopics: Record<string, GeoTopic> = {
+export const geographieTopics: Record<string, GeographieTopic> = {
   "geographie-oesterreichs": {
     "slug": "geographie-oesterreichs",
     "title": "Geographie Österreichs: Topographie & Staat",
@@ -1769,6 +1769,11 @@ export const geographieTopics: Record<string, GeoTopic> = {
         "id": "geo-teutoburgerwald",
         "title": "Der Teutoburger Wald – Mittelgebirgszug, Naturpark & Hermannsdenkmal",
         "folder": "der-teutoburger-wald"
+      },
+      {
+        "id": "geo-insel-juist",
+        "title": "Insel Juist – Das Töwerland im Nationalpark Niedersächsisches Wattenmeer",
+        "folder": "die-insel-juist"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=nationalpark+deutschland&t=3752"
@@ -2838,6 +2843,11 @@ export const geographieTopics: Record<string, GeoTopic> = {
         "id": "6404",
         "title": "Tourismus in der Schweiz",
         "folder": "tourismus-in-der-schweiz-6404"
+      },
+      {
+        "id": "geo-alfred-escher",
+        "title": "Alfred Escher: Pionier des Schweizer Eisenbahnbaus, der Gotthardbahn & der ETH",
+        "folder": "alfred-escher-2290"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=schweiz+wirtschaft&t=3752"
@@ -6124,6 +6134,16 @@ export const geographieTopics: Record<string, GeoTopic> = {
         "id": "geo-stadt-bremerhaven",
         "title": "Bremerhaven – Seehafen, Container-Terminal & Klimahaus",
         "folder": "bremerhaven-eine-stadt-an-der-nordsee"
+      },
+      {
+        "id": "geo-stadt-duisburg",
+        "title": "Duisburg – Größter Binnenhafen der Welt, Stahlstandort & Logistikzentrum",
+        "folder": "duisburg-1511"
+      },
+      {
+        "id": "geo-stadt-gelsenkirchen",
+        "title": "Gelsenkirchen – Stadt der tausend Feuer im Wandel zur Zukunftsenergie",
+        "folder": "gelsenkirchen-eine-stadt-im-ruhrgebiet"
       }
     ]
   }
