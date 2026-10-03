@@ -1532,6 +1532,26 @@ export const geographieTopics: Record<string, GeoTopic> = {
         "id": "haefen-bremen",
         "title": "Die Häfen von Bremen und Bremerhaven",
         "folder": "die-haefen-von-bremen-und-bremerhaven"
+      },
+      {
+        "id": "geo-de-sylt",
+        "title": "Insel Sylt – Königin der Nordsee & Küstenschutz",
+        "folder": "die-insel-sylt"
+      },
+      {
+        "id": "geo-de-usedom",
+        "title": "Insel Usedom – Sonneninsel der Ostsee & Kaiserbäder",
+        "folder": "die-insel-usedom"
+      },
+      {
+        "id": "geo-de-baltrum",
+        "title": "Insel Baltrum – Autofreies Kleinod im ostfriesischen Wattenmeer",
+        "folder": "baltrum-die-kleine-insel-in-der-nordsee"
+      },
+      {
+        "id": "geo-de-mainau",
+        "title": "Insel Mainau – Die Blumeninsel im Bodensee",
+        "folder": "die-insel-mainau"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=deutschland+regionen&t=3752"
@@ -1739,6 +1759,16 @@ export const geographieTopics: Record<string, GeoTopic> = {
         "id": "wald-in-deutschland",
         "title": "Der Wald in Deutschland",
         "folder": "der-wald-in-deutschland"
+      },
+      {
+        "id": "geo-pfaelzerwald",
+        "title": "Der Pfälzerwald – Größtes zusammenhängendes Waldgebiet & Biosphärenreservat",
+        "folder": "der-pfaelzerwald-eine-besondere-landschaft"
+      },
+      {
+        "id": "geo-teutoburgerwald",
+        "title": "Der Teutoburger Wald – Mittelgebirgszug, Naturpark & Hermannsdenkmal",
+        "folder": "der-teutoburger-wald"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=nationalpark+deutschland&t=3752"
@@ -1795,6 +1825,36 @@ export const geographieTopics: Record<string, GeoTopic> = {
         "id": "kanal-rhein-herne",
         "title": "Der Rhein-Herne-Kanal",
         "folder": "der-rhein-herne-kanal"
+      },
+      {
+        "id": "geo-de-oder",
+        "title": "Die Oder – Grenzfluss und Naturlandschaft",
+        "folder": "die-oder-ein-wichtiger-fluss-in-europa"
+      },
+      {
+        "id": "geo-de-isar",
+        "title": "Die Isar – Vom Karwendelgebirge zur Donau",
+        "folder": "die-isar-ein-fluss-in-den-alpen"
+      },
+      {
+        "id": "geo-de-tegernsee",
+        "title": "Der Tegernsee – Glazialer Alpenrandsee in Oberbayern",
+        "folder": "der-tegernsee-ein-see-in-den-bayerischen-alpen"
+      },
+      {
+        "id": "geo-de-alpen",
+        "title": "Die Bayerischen Alpen – Gipfel, Täler und Tourismus",
+        "folder": "die-bayerischen-alpen"
+      },
+      {
+        "id": "geo-de-nordsee",
+        "title": "Die Nordsee – Wattenmeer, Gezeiten und Sturmfluten",
+        "folder": "die-nordsee-ein-besonderes-meer"
+      },
+      {
+        "id": "geo-de-nok",
+        "title": "Der Nord-Ostsee-Kanal – Die meistbefahrene künstliche Seeschifffahrtsstraße",
+        "folder": "der-nord-ostsee-kanal"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=fluesse+deutschland&t=3752"
@@ -6005,5 +6065,66 @@ export const geographieTopics: Record<string, GeoTopic> = {
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=wirtschaftsgeographie&t=3752"
+  },
+  "deutsche-metropolregionen-und-industriezentren": {
+    "slug": "deutsche-metropolregionen-und-industriezentren",
+    "title": "Deutsche Metropolregionen & Industriezentren",
+    "category": "Deutschland",
+    "shortDesc": "Rhein-Ruhr, Rhein-Neckar, Ruhrgebiet und moderne Wirtschaftscluster im Strukturwandel.",
+    "longDesc": "Deutschlands Wirtschaftskraft basiert auf vernetzten Ballungsräumen und Industriezentren. Dieses Modul behandelt die Metropolregionen Rhein-Ruhr und Rhein-Neckar, die historische Entwicklung und den Strukturwandel des Ruhrgebiets (Bochum, Bottrop, Castrop-Rauxel), das internationale Drehkreuz Flughafen Frankfurt am Main, die Hafenstadt Bremerhaven sowie postindustrielle Transformationslandschaften wie das Leipziger Neuseenland.",
+    "keyPoints": [
+      "Die Metropolregion Rhein-Ruhr als größter europäischer Ballungsraum",
+      "Metropolregion Rhein-Neckar: Dreiländereck von Industrie, Wissenschaft und IT",
+      "Der Frankfurter Flughafen als globale Verkehrsdrehscheibe und Wirtschaftsmotor",
+      "Strukturwandel im Ruhrgebiet: Vom Montanrevier zu Dienstleistung und Kultur",
+      "Das Leipziger Neuseenland: Von der Braunkohleförderung zur zukunftsfähigen Seenplatte"
+    ],
+    "exercises": [
+      {
+        "id": "geo-mr-rheinruhr",
+        "title": "Die Metropolregion Rhein-Ruhr",
+        "folder": "die-metropolregion-rhein-ruhr"
+      },
+      {
+        "id": "geo-mr-rheinneckar",
+        "title": "Die Metropolregion Rhein-Neckar",
+        "folder": "die-metropolregion-rhein-neckar"
+      },
+      {
+        "id": "geo-fra-flughafen",
+        "title": "Der Flughafen Frankfurt am Main – Internationales Luftfahrtdrehkreuz",
+        "folder": "der-flughafen-frankfurt-am-main"
+      },
+      {
+        "id": "geo-niederrhein",
+        "title": "Der Niederrhein – Industrie, Landwirtschaft & Rheinstrom",
+        "folder": "der-niederrhein-eine-besondere-region"
+      },
+      {
+        "id": "geo-leipziger-neuseenland",
+        "title": "Das Leipziger Neuseenland – Landschaftswandel nach der Braunkohle",
+        "folder": "das-leipziger-neuseenland"
+      },
+      {
+        "id": "geo-stadt-bochum",
+        "title": "Bochum – Zentrum des Ruhrgebiets, Bergbau und Universität",
+        "folder": "bochum-eine-stadt-im-ruhrgebiet"
+      },
+      {
+        "id": "geo-stadt-bottrop",
+        "title": "Bottrop – Vom Steinkohlebergbau zur Innovation City",
+        "folder": "bottrop-eine-stadt-im-ruhrgebiet"
+      },
+      {
+        "id": "geo-stadt-castrop",
+        "title": "Castrop-Rauxel – Europastadt im nördlichen Ruhrgebiet",
+        "folder": "castrop-rauxel-eine-stadt-im-ruhrgebiet"
+      },
+      {
+        "id": "geo-stadt-bremerhaven",
+        "title": "Bremerhaven – Seehafen, Container-Terminal & Klimahaus",
+        "folder": "bremerhaven-eine-stadt-an-der-nordsee"
+      }
+    ]
   }
 };
