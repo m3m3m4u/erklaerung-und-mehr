@@ -87,11 +87,6 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "romische-zahlen-schwer-172"
       },
       {
-        "id": "173",
-        "title": "Römische Zahlen schwer (Teil 2)",
-        "folder": "romische-zahlen-schwer-2-173"
-      },
-      {
         "id": "292",
         "title": "Römische Zahlen (Erklärvideo & Übungen)",
         "folder": "romische-zahlen-erklarvideo-und-bungen-292"
@@ -258,7 +253,7 @@ export const mathTopics: Record<string, MathTopic> = {
       },
       {
         "id": "751",
-        "title": "Dezimalzahlen ordnen",
+        "title": "Dezimalzahlen ordnen (Übung)",
         "folder": "dezimalzahlen-ordnen-751"
       },
       {
@@ -275,8 +270,7 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "811",
         "title": "Überschlagsrechnungen mit Komma",
         "folder": "berschlagsrechnungen-mit-komma-811"
-      }
-    ,
+      },
       {
         "id": "704",
         "title": "Dezimalzahlen Einführung (Level 1)",
@@ -314,7 +308,7 @@ export const mathTopics: Record<string, MathTopic> = {
       },
       {
         "id": "710",
-        "title": "Dezimalzahlen ordnen",
+        "title": "Kurs: Dezimalzahlen ordnen",
         "folder": "kurs-dezimalzahlen-ordnen-710"
       },
       {
@@ -561,6 +555,11 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "871",
         "title": "Teilbar oder nicht teilbar - Level 2",
         "folder": "teilbar-oder-nicht-teilbar-level-2-871"
+      },
+      {
+        "id": "3214",
+        "title": "Escape Room: Teilbarkeit",
+        "folder": "escape-room-quot-teilbarkeit-quot-3214"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=teilbarkeit&t=1118"
@@ -581,7 +580,7 @@ export const mathTopics: Record<string, MathTopic> = {
     "exercises": [
       {
         "id": "79",
-        "title": "Prozent: graphische Darstellung",
+        "title": "Prozent – Grafische Darstellung (Bildpaare)",
         "folder": "prozent-graphische-darstellung-79"
       },
       {
@@ -636,7 +635,7 @@ export const mathTopics: Record<string, MathTopic> = {
       },
       {
         "id": "958",
-        "title": "Prozent (graphische Darstellung)",
+        "title": "Prozent – Grafische Darstellung (Kurs)",
         "folder": "prozent-graphische-darstellung-2-958"
       }
     ],
@@ -983,9 +982,9 @@ export const mathTopics: Record<string, MathTopic> = {
   },
   "vierecke": {
     "slug": "vierecke",
-    "title": "Vierecke",
+    "title": "Ebene Geometrie: Vierecke & Kreis (Fläche und Umfang)",
     "category": "Geometrie",
-    "shortDesc": "Parallelogramm, Raute, Deltoid, Trapez – Eigenschaften, Umfang und Flächen.",
+    "shortDesc": "Eigenschaften, Umfang und Flächeninhalte von Parallelogramm, Raute, Trapez, Deltoid sowie dem Kreis.",
     "longDesc": "Vierecke haben 4 Ecken und eine Innenwinkelsumme von 360°. Je nach Symmetrie, parallelen Seiten und Seitenlängen unterscheidet man Rechteck, Quadrat, Parallelogramm, Raute (Rhombus), Drachenviereck (Deltoid) und Trapez.",
     "keyPoints": [
       "Innenwinkelsumme im Viereck: Immer 360°",
@@ -1034,36 +1033,14 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "267",
         "title": "Flächenenberechnungen (Rechteck, Quadrat, Dreieck, Parallelogramm, Trapez, Deltoid, Raute)",
         "folder": "flachenenberechnungen-rechteck-quadrat-dreieck-parallelogramm-trapez-deltoid-raute-267"
-      }
-    ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=vierecke&t=1118"
-  },
-  "kreis": {
-    "slug": "kreis",
-    "title": "Kreis & Runde Körper: Zylinder, Kegel & Kugel",
-    "category": "Geometrie",
-    "shortDesc": "Radius, Durchmesser, Kreiszahl Pi, Umfang, Kreisfläche, Zylinder, Kegel und Kugel.",
-    "longDesc": "Der Kreis ist die vollkommene geometrische Form. Mit der Kreiszahl Pi (π ≈ 3,14159) berechnest du Umfang und Fläche sowie das Volumen der runden Körper Zylinder, Kegel und Kugel.",
-    "keyPoints": [
-      "Kreisumfang: u = 2 · π · r = π · d",
-      "Kreisfläche: A = π · r² = (π · d²) / 4",
-      "Zylinder: Kreis als Grund- und Deckfläche; V = π · r² · h, O = 2·π·r² + 2·π·r·h",
-      "Kegel: Spitze über kreisförmiger Grundfläche; V = (1/3) · π · r² · h",
-      "Kugel: Vollkommene Symmetrie; V = (4/3) · π · r³, O = 4 · π · r²"
-    ],
-    "exercises": [
+      },
       {
         "id": "256",
         "title": "Der Kreis",
         "folder": "der-kreis-256"
-      },
-      {
-        "id": "385",
-        "title": "Zylinder - Kegel - Kugel",
-        "folder": "zylinder-kegel-kugel-385"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=kreis&t=1118"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=vierecke&t=1118"
   },
   "kopfgeometrie": {
     "slug": "kopfgeometrie",
@@ -1079,6 +1056,11 @@ export const mathTopics: Record<string, MathTopic> = {
       "Würfelnetze: Ein Würfel besitzt genau 11 verschiedene Abwicklungen (Netze) aus 6 Quadraten"
     ],
     "exercises": [
+      {
+        "id": "456",
+        "title": "Grundrisse erkennen",
+        "folder": "grundrisse-erkennen-456"
+      },
       {
         "id": "200",
         "title": "Aufrisse 1",
@@ -1142,33 +1124,6 @@ export const mathTopics: Record<string, MathTopic> = {
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=kopfgeometrie&t=1118"
   },
-  "symmetrie": {
-    "slug": "symmetrie",
-    "title": "Symmetrie & Spiegelungen",
-    "category": "Geometrie",
-    "shortDesc": "Achsensymmetrie, Punktsymmetrie, Symmetrieachsen und Spiegelungen.",
-    "longDesc": "Symmetrie beschreibt die Eigenschaft von Figuren, durch bestimmte geometrische Operationen (Spiegelung, Drehung, Verschiebung) wieder exakt mit sich selbst zur Deckung gebracht zu werden.",
-    "keyPoints": [
-      "Achsensymmetrie (Spiegelsymmetrie): Eine Gerade (Spiegelachse) teilt die Figur in zwei deckungsgleiche Hälften",
-      "Punktsymmetrie (Zentralsymmetrie): Drehung um 180° um ein Symmetriezentrum Z lässt die Figur unverändert",
-      "Verbindungslinie zwischen Original- und Bildpunkt: Steht senkrecht auf der Spiegelachse",
-      "Abstandstreue: Der Abstand des Originalpunkts zur Achse ist exakt gleich dem Abstand des Bildpunkts zur Achse",
-      "Längen- und Winkeltreue: Form und Größe der Figur bleiben bei einer Spiegelung vollständig erhalten"
-    ],
-    "exercises": [
-      {
-        "id": "665",
-        "title": "Spiegelungen (Achsensymmetrie)",
-        "folder": "spiegelungen-achsensymmetrie-665"
-      },
-      {
-        "id": "666",
-        "title": "Spiegelungen (Achsensymmetrie 2)",
-        "folder": "spiegelungen-achsensymmetrie-2-666"
-      }
-    ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=symmetrie&t=1118"
-  },
   "winkel": {
     "slug": "winkel",
     "title": "Winkel",
@@ -1230,8 +1185,7 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "943",
         "title": "Strecke, Strahl und Gerade (normale und parallele Linien)",
         "folder": "strecke-strahl-gerade-943"
-      }
-    ,
+      },
       {
         "id": "662",
         "title": "Winkel schätzen (Kurs)",
@@ -1242,9 +1196,9 @@ export const mathTopics: Record<string, MathTopic> = {
   },
   "koordinatensystem": {
     "slug": "koordinatensystem",
-    "title": "Koordinatensystem",
+    "title": "Koordinatensystem, Symmetrie & Spiegelungen",
     "category": "Geometrie",
-    "shortDesc": "Kartesisches Koordinatensystem, 4 Quadranten, Punkte eintragen und ablesen.",
+    "shortDesc": "Punkte im Koordinatensystem eintragen, Quadranten verstehen sowie Achsensymmetrie und Spiegelungen geometrisch konstruieren.",
     "longDesc": "Ein kartesisches 2D-Koordinatensystem besteht aus zwei senkrecht aufeinander stehenden Achsen: der horizontalen x-Achse (Rechtsachse / Abszisse) und der vertikalen y-Achse (Hochachse / Ordinate). Der Schnittpunkt ist der Koordinatenursprung (0|0).",
     "keyPoints": [
       "Punktbezeichnung: P(x | y) – erst der Wert auf der x-Achse, dann auf der y-Achse (\"Erst ins Haus, dann die Treppe rauf\")",
@@ -1262,6 +1216,16 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "266",
         "title": "Koordinatensystem (positiver und negativer Bereich)",
         "folder": "einfuhrung-und-teilbereiche-266"
+      },
+      {
+        "id": "665",
+        "title": "Spiegelungen (Achsensymmetrie)",
+        "folder": "spiegelungen-achsensymmetrie-665"
+      },
+      {
+        "id": "666",
+        "title": "Spiegelungen (Achsensymmetrie 2)",
+        "folder": "spiegelungen-achsensymmetrie-2-666"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=koordinatensystem&t=1118"
@@ -1394,9 +1358,9 @@ export const mathTopics: Record<string, MathTopic> = {
   },
   "prismen-und-pyramiden": {
     "slug": "prismen-und-pyramiden",
-    "title": "Pyramiden: Oberfläche & Volumen",
+    "title": "Geometrische Körper: Pyramiden, Prismen & Rundkörper",
     "category": "Geometrie",
-    "shortDesc": "Quadratische und rechteckige Pyramiden, Körperhöhe, Seitenhöhe, Mantelfläche und Pythagoras am Körper.",
+    "shortDesc": "Berechnung von Volumen und Oberfläche von Pyramiden, Prismen sowie Zylinder, Kegel und Kugel.",
     "longDesc": "Prismen und Pyramiden sind vielseitige geometrische Körper. Ein gerades Prisma hat zwei zueinander parallele und deckungsgleiche Grundflächen (Dreieck, Sechseck etc.) und Rechtecke als Mantelfläche. Eine Pyramide verjüngt sich von einer Grundfläche spitz zur Spitze S.",
     "keyPoints": [
       "Prisma Volumen: V = G · h (Grundfläche · Körperhöhe)",
@@ -1424,7 +1388,7 @@ export const mathTopics: Record<string, MathTopic> = {
       },
       {
         "id": "59",
-        "title": "Oberfläche der Pyramide",
+        "title": "Oberfläche der Pyramide (Video & Quiz)",
         "folder": "oberflache-der-pyramide-59"
       },
       {
@@ -1441,17 +1405,21 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "pyramide2",
         "title": "Oberfläche der Pyramide (Vertiefung)",
         "folder": "oberflache-der-pyramide-2-99"
-      }
-    ,
+      },
       {
         "id": "100",
-        "title": "Oberfläche der Pyramide",
+        "title": "Oberfläche der Pyramide (Drag & Drop)",
         "folder": "oberflache-der-pyramide-3-100"
       },
       {
         "id": "724",
         "title": "Berechnungen an der Pyramide",
         "folder": "studypoint-pyramide-724"
+      },
+      {
+        "id": "385",
+        "title": "Zylinder - Kegel - Kugel",
+        "folder": "zylinder-kegel-kugel-385"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=prisma&t=1118"
@@ -1491,7 +1459,7 @@ export const mathTopics: Record<string, MathTopic> = {
       },
       {
         "id": "161",
-        "title": "Längenmaße umwandeln und schätzen (Quiz)",
+        "title": "Übungen zu Längenmaßen (Quiz)",
         "folder": "textgleichungen-mittel-161"
       }
     ],
@@ -1678,9 +1646,9 @@ export const mathTopics: Record<string, MathTopic> = {
   },
   "massstab": {
     "slug": "massstab",
-    "title": "Maßstab",
+    "title": "Maßstab & Schlussrechnen (Dreisatz)",
     "category": "Größen und Maße",
-    "shortDesc": "Verkleinerung und Vergrößerung, Pläne, Landkarten und Originalgrößen berechnen.",
+    "shortDesc": "Maßstäbliche Vergrößerung und Verkleinerung sowie proportionale Schlussrechnungen und Dreisatz im Alltag.",
     "longDesc": "Ein Maßstab gibt das Verhältnis einer Zeichnung, eines Modells oder einer Karte zur tatsächlichen Wirklichkeit an. Ein Maßstab von 1 : 100 bedeutet: 1 cm auf dem Papier entspricht 100 cm (1 m) in der Realität.",
     "keyPoints": [
       "Verkleinerung (1 : n): Bild ist kleiner als Wirklichkeit (z. B. 1 : 50 000 bei Wanderkarten)",
@@ -1709,6 +1677,16 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "242",
         "title": "Übungen zum Maßstab (schwer)",
         "folder": "bungen-zum-maesstab-schwer-242"
+      },
+      {
+        "id": "243",
+        "title": "Schlussrechnungen im Kopf lösen",
+        "folder": "schlussrechnungen-im-kopf-losen-243"
+      },
+      {
+        "id": "245",
+        "title": "Schlussrechnungen",
+        "folder": "schlussrechnungen-245"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=ma%C3%9Fstab&t=1118"
@@ -1741,12 +1719,12 @@ export const mathTopics: Record<string, MathTopic> = {
       },
       {
         "id": "771",
-        "title": "Terme addieren und subtrahieren",
+        "title": "Terme addieren und subtrahieren (Kurs)",
         "folder": "terme-addieren-und-subtrahieren-2-771"
       },
       {
         "id": "772",
-        "title": "Terme multiplizieren",
+        "title": "Terme multiplizieren (Kurs)",
         "folder": "terme-multiplizieren-2-772"
       },
       {
@@ -1778,21 +1756,20 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "233",
         "title": "Terme multiplizieren (Binom mal Binom)",
         "folder": "terme-multiplizieren-binom-mal-binom-233"
-      }
-    ,
+      },
       {
         "id": "88",
-        "title": "Terme addieren und subtrahieren",
+        "title": "Terme addieren und subtrahieren (Quiz)",
         "folder": "terme-addieren-und-subtrahieren-88"
       },
       {
         "id": "89",
-        "title": "Terme mit Klammern addieren und subtrahieren",
+        "title": "Terme mit Klammern addieren und subtrahieren (Bildpaare)",
         "folder": "terme-mit-klammern-addieren-und-subtrahieren-89"
       },
       {
         "id": "97",
-        "title": "Terme multiplizieren",
+        "title": "Terme multiplizieren (Bildpaare)",
         "folder": "terme-multiplizieren-97"
       },
       {
@@ -1815,7 +1792,7 @@ export const mathTopics: Record<string, MathTopic> = {
     "shortDesc": "Bruchterme definieren, kürzen, erweitern, Definitionsmenge und Rechnen mit Wurzeltermen.",
     "longDesc": "Ein Bruchterm ist ein Term, bei dem im Nenner mindestens eine Variable (z. B. x) vorkommt. Da der Nenner eines Bruchs niemals 0 sein darf, muss bei Bruchtermen immer zuerst die Definitionsmenge bestimmt werden.",
     "keyPoints": [
-      "Definitionsmenge (D): Nenner gleich 0 setzen und diese Nullstellen aus der Grundmenge ausschließen (z. B. D = ℝ \ {3} bei 5 / (x - 3))",
+      "Definitionsmenge (D): Nenner gleich 0 setzen und diese Nullstellen aus der Grundmenge ausschließen (z. B. D = ℝ  {3} bei 5 / (x - 3))",
       "Kürzen von Bruchtermen: Nur Faktoren in Produkten kürzen (\"Aus Differenzen und Summen kürzen nur die Dummen!\")",
       "Faktorisieren vor dem Kürzen: Zuerst Ausklammern oder binomische Formeln anwenden",
       "Addition / Subtraktion: Bruchterme durch Faktorisieren auf den gemeinsamen Hauptnenner bringen",
@@ -1892,11 +1869,6 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "162",
         "title": "Textgleichungen (schwer)",
         "folder": "textgleichungen-schwer-162"
-      },
-      {
-        "id": "166",
-        "title": "Textgleichungen schwer",
-        "folder": "romische-zahlen-einfach-166"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=gleichungen&t=1118"
@@ -1943,36 +1915,11 @@ export const mathTopics: Record<string, MathTopic> = {
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=funktionen&t=1118"
   },
-  "schlussrechnen": {
-    "slug": "schlussrechnen",
-    "title": "Schlussrechnen, Dreisatz & Maßstab",
-    "category": "Algebra",
-    "shortDesc": "Proportionale und antiproportionale Zuordnungen sowie Dreisatz-Berechnungen.",
-    "longDesc": "Das Schlussrechnen (Dreisatz) ist eine der nützlichsten Methoden der Schulmathematik. Es dient dazu, aus drei bekannten Werten eines proportionalen oder antiproportionalen Verhältnisses den vierten gesuchten Wert zu berechnen.",
-    "keyPoints": [
-      "Direktes Verhältnis (je mehr, desto mehr / je weniger, desto weniger): Quotient ist konstant (y / x = const.) ➔ z. B. Menge und Preis von Äpfeln",
-      "Indirektes Verhältnis (je mehr, desto weniger / je weniger, desto mehr): Produkt ist konstant (x · y = const.) ➔ z. B. Anzahl der Arbeiter und Baudauer",
-      "Der klassische 3-Schritt beim Dreisatz: 1. Ausgangssatz notieren, 2. Auf die Einheit (1) herabrechnen, 3. Auf die gesuchte Vielheit hochrechnen"
-    ],
-    "exercises": [
-      {
-        "id": "245",
-        "title": "Schlussrechnungen",
-        "folder": "schlussrechnungen-245"
-      },
-      {
-        "id": "243",
-        "title": "Schlussrechnungen im Kopf lösen",
-        "folder": "schlussrechnungen-im-kopf-losen-243"
-      }
-    ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=schlussrechnung&t=1118"
-  },
   "kopfrechnen-und-kopfgeometrie": {
     "slug": "kopfrechnen-und-kopfgeometrie",
-    "title": "Kopfrechnen & 10-Minuten-Training",
+    "title": "Kopfrechnen & Zahlen runden",
     "category": "Tools & Spezialseiten",
-    "shortDesc": "10 Aufgaben in 10 Minuten – Tägliches Schnelltraining für Kopfrechnen und Raumvorstellung.",
+    "shortDesc": "Kopfrechnen mit den vier Grundrechenarten sowie Runden von Zahlen im Kopf.",
     "longDesc": "Regelmäßiges kurzes Kopfrechentraining stärkt das Zahlengespür, die Konzentration und die Rechensicherheit. Ob als Warm-Up zu Beginn der Schulstunde oder für das tägliche 10-Minuten-Selbststudium.",
     "keyPoints": [
       "Ziel: Schnelles Erkennen von Zahlenstrukturen und Rechenvorteilen",
@@ -2010,11 +1957,6 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "113",
         "title": "Zahlen runden",
         "folder": "dezimalzahlen-runden-113"
-      },
-      {
-        "id": "456",
-        "title": "Grundrisse erkennen",
-        "folder": "grundrisse-erkennen-456"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=kopfrechnen&t=1118"
@@ -2088,26 +2030,6 @@ export const mathTopics: Record<string, MathTopic> = {
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=mathematik+geschichte&t=1118"
   },
-  "escape-room-mathematik": {
-    "slug": "escape-room-mathematik",
-    "title": "Escape Room Mathematik",
-    "category": "Tools & Spezialseiten",
-    "shortDesc": "Spannende Rätsel und Rechencodes lösen, um aus dem Escape Room zu entkommen!",
-    "longDesc": "Mathematische Escape Rooms verbinden logisches Denken, Rechenfähigkeiten und Detektivarbeit zu einem motivierenden Spielerlebnis. Löse knifflige Mathe-Aufgaben, um Zahlencodes zu knacken und das Rätsel zu lüften.",
-    "keyPoints": [
-      "Löse jede Teilaufgabe sorgfältig auf einem Notizblatt",
-      "Achte genau auf Ziffernfolgen und Zwischenergebnisse für den finalen Lösungscode",
-      "Kombiniere mathematische Regeln aus Geometrie, Bruchrechnen und Algebra"
-    ],
-    "exercises": [
-      {
-        "id": "3214",
-        "title": "Escape Room: Teilbarkeit",
-        "folder": "escape-room-quot-teilbarkeit-quot-3214"
-      }
-    ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=escape+room+mathe&t=1118"
-  },
   "dezimalzahlen-grundrechenarten": {
     "slug": "dezimalzahlen-grundrechenarten",
     "title": "Grundrechenarten mit Dezimalzahlen",
@@ -2151,8 +2073,7 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "163",
         "title": "Multiplikation von Dezimalzahlen",
         "folder": "teiler-einer-zahl-finden-schwer-163"
-      }
-    ,
+      },
       {
         "id": "727",
         "title": "Dezimalzahlen addieren und subtrahieren (Level 1)",
@@ -2243,8 +2164,7 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "147",
         "title": "Gleitkommadarstellung Zuordnungsübung",
         "folder": "gleitkommadarstellung-zuordnungsubung-147"
-      }
-    ,
+      },
       {
         "id": "736",
         "title": "KlaPuStri mit Dezimalzahlen (Level 1)",
@@ -2284,7 +2204,7 @@ export const mathTopics: Record<string, MathTopic> = {
       },
       {
         "id": "774",
-        "title": "Terme mit Klammern addieren und subtrahieren",
+        "title": "Terme mit Klammern addieren und subtrahieren (Kurs)",
         "folder": "terme-mit-klammern-addieren-und-subtrahieren-2-774"
       },
       {
@@ -2331,8 +2251,7 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "91",
         "title": "Monom mal Binom",
         "folder": "monom-mal-binom-2-91"
-      }
-    ,
+      },
       {
         "id": "94",
         "title": "1. Binomische Formel",
@@ -2406,11 +2325,6 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "bruche-und-dezimalzahlen-memory-39"
       },
       {
-        "id": "40",
-        "title": "Brüche und Dezimalzahlen (Memory 2)",
-        "folder": "bruche-und-dezimalzahlen-memory-2-40"
-      },
-      {
         "id": "745",
         "title": "Brüche und Dezimalzahlen",
         "folder": "bruche-und-dezimalzahlen-3-745"
@@ -2424,8 +2338,7 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "386",
         "title": "Bruchrechnen",
         "folder": "bruchrechnen-386"
-      }
-    ,
+      },
       {
         "id": "38",
         "title": "Brüche und Dezimalzahlen (Übung 1)",
@@ -2562,17 +2475,11 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "859",
         "title": "kgV und ggT (Level 2)",
         "folder": "kgv-und-ggt-level-2-859"
-      }
-    ,
+      },
       {
         "id": "866",
         "title": "kgV und ggT (Level 3)",
         "folder": "kgv-und-ggt-level-3-866"
-      },
-      {
-        "id": "867",
-        "title": "kgV und ggT (Level 4)",
-        "folder": "kgv-und-ggt-level-4-867"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=primzahlen+ggt+kgv&t=1118"
