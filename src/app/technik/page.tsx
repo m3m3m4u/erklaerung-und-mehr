@@ -42,6 +42,7 @@ export const metadata: Metadata = {
 
 export default function TechnikOverviewPage() {
   const allTopics = Object.values(technikTopics);
+  const totalExercises = allTopics.reduce((sum, t) => sum + (t.exercises?.length || 0), 0);
 
   return (
     <div className="site-wrapper">
@@ -57,7 +58,7 @@ export default function TechnikOverviewPage() {
               Erfindungsgeist, Werkstoffe und ingenieurmäßiges Denken: Von Metall- und Kunststoffverarbeitung über Hebel, Getriebe und Verbrennungsmotoren bis hin zu Elektrotechnik, Sensoren, Kraftfahrzeugen, erneuerbaren Energien und moderner Haushaltstechnik.
             </p>
             <p className="math-page-note">
-              Mit praxisnahen Funktionsanalysen, technischen Zeichnungen, Sicherheitsregeln und 65 interaktiven H5P-Übungen.
+              Mit praxisnahen Funktionsanalysen, technischen Zeichnungen, Sicherheitsregeln und {totalExercises} interaktiven H5P-Übungen.
             </p>
           </div>
           <div className="math-mascot">

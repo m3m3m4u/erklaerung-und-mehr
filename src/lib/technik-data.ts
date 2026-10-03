@@ -60,39 +60,39 @@ export const technikTopics: Record<string, TechnikTopic> = {
         "folder": "die-metalltechnik-3401"
       },
       {
-        id: "1161",
-        title: "Aluminium",
-        folder: "aluminium-1161"
+        "id": "1161",
+        "title": "Aluminium",
+        "folder": "aluminium-1161"
       },
       {
-        id: "1171",
-        title: "Eisen",
-        folder: "eisen-1171"
+        "id": "1171",
+        "title": "Eisen",
+        "folder": "eisen-1171"
       },
       {
-        id: "1174",
-        title: "Kupfer",
-        folder: "kupfer-1174"
+        "id": "1174",
+        "title": "Kupfer",
+        "folder": "kupfer-1174"
       },
       {
-        id: "5146",
-        title: "Der baustoff aluminium",
-        folder: "der-baustoff-aluminium-5146"
+        "id": "5146",
+        "title": "Der baustoff aluminium",
+        "folder": "der-baustoff-aluminium-5146"
       },
       {
-        id: "5150",
-        title: "Der baustoff kupfer",
-        folder: "der-baustoff-kupfer-5150"
+        "id": "5150",
+        "title": "Der baustoff kupfer",
+        "folder": "der-baustoff-kupfer-5150"
       },
       {
-        id: "5156",
-        title: "Eisen stahl und edelstahl",
-        folder: "eisen-stahl-und-edelstahl-5156"
+        "id": "5156",
+        "title": "Eisen stahl und edelstahl",
+        "folder": "eisen-stahl-und-edelstahl-5156"
       },
       {
-        id: "571",
-        title: "Lerninhalt legierungs und begleitelemente 571",
-        folder: "lerninhalt-legierungs-und-begleitelemente-571"
+        "id": "571",
+        "title": "Lerninhalt legierungs und begleitelemente 571",
+        "folder": "lerninhalt-legierungs-und-begleitelemente-571"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Metalle+Werkstoffkunde+Technik&t=1251"
@@ -209,9 +209,19 @@ export const technikTopics: Record<string, TechnikTopic> = {
         "folder": "wie-eine-druckerei-heute-funktioniert"
       },
       {
-        id: "tech-fert-1",
-        title: "Grundlagen der 3D-Druck-Modellierung",
-        folder: "grundlagen-der-modellierung-fuer-3d-druck"
+        "id": "tech-fert-1",
+        "title": "Grundlagen der 3D-Druck-Modellierung",
+        "folder": "grundlagen-der-modellierung-fuer-3d-druck"
+      },
+      {
+        "id": "559",
+        "title": "Lerninhalt: Bohrer (Bohrwerkzeuge & Schneidengeometrie)",
+        "folder": "lerninhalt-bohrer-559"
+      },
+      {
+        "id": "558",
+        "title": "Lerninhalt: Gewindeschneider und Bohrer",
+        "folder": "lerninhalt-gewindeschneider-und-bohrer-558"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Fertigungstechnik+Werkzeuge&t=1251"
@@ -269,26 +279,6 @@ export const technikTopics: Record<string, TechnikTopic> = {
         "id": "wasserw",
         "title": "Wie funktioniert eine Wasserwaage",
         "folder": "wie-funktioniert-eine-wasserwaage"
-      },
-      {
-        id: "336",
-        title: "Dampfmaschine",
-        folder: "dampfmaschine-336"
-      },
-      {
-        id: "tech-khg-1",
-        title: "Wie funktioniert eine Dampfmaschine",
-        folder: "wie-funktioniert-eine-dampfmaschine"
-      },
-      {
-        id: "2518",
-        title: "Wie funktioniert ein Getriebe",
-        folder: "wie-funktioniert-ein-getriebe-2518"
-      },
-      {
-        id: "2496",
-        title: "Wie funktioniert ein Automatikgetriebe",
-        folder: "wie-funktioniert-ein-automatikgetriebe-2496"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Hebel+Getriebe+Mechanik+Technik&t=1251"
@@ -328,34 +318,9 @@ export const technikTopics: Record<string, TechnikTopic> = {
         "folder": "wie-funktioniert-ein-verbrennungsmotor-2572"
       },
       {
-        "id": "2524",
-        "title": "Wie funktioniert ein Heckmotor",
-        "folder": "wie-funktioniert-ein-heckmotor-2524"
-      },
-      {
         "id": "dampfm",
         "title": "Wie funktioniert eine Dampfmaschine",
         "folder": "wie-funktioniert-eine-dampfmaschine"
-      },
-      {
-        "id": "elmotor",
-        "title": "Wie funktioniert ein Elektromotor",
-        "folder": "wie-funktioniert-ein-elektromotor"
-      },
-      {
-        id: "579",
-        title: "Lerninhalt: Verbrennungsmotoren",
-        folder: "lerninhalt-verbrennungsmotoren-579"
-      },
-      {
-        id: "337",
-        title: "Verbrennungsmotoren",
-        folder: "verbrennungsmotoren-337"
-      },
-      {
-        id: "2572",
-        title: "Wie funktioniert ein Verbrennungsmotor",
-        folder: "wie-funktioniert-ein-verbrennungsmotor-2572"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Verbrennungsmotor+Motoren+Technik&t=1251"
@@ -380,29 +345,24 @@ export const technikTopics: Record<string, TechnikTopic> = {
         "folder": "wie-funktioniert-ein-pneumatiksystem-2552"
       },
       {
-        id: "583",
-        title: "Lerninhalt pneumatik und hydraulik 583",
-        folder: "lerninhalt-pneumatik-und-hydraulik-583"
+        "id": "583",
+        "title": "Lerninhalt pneumatik und hydraulik 583",
+        "folder": "lerninhalt-pneumatik-und-hydraulik-583"
       },
       {
-        id: "hydrauliksystem",
-        title: "Wie funktioniert ein Hydrauliksystem",
-        folder: "wie-funktioniert-ein-hydrauliksystem"
+        "id": "hydrauliksystem",
+        "title": "Wie funktioniert ein Hydrauliksystem",
+        "folder": "wie-funktioniert-ein-hydrauliksystem"
       },
       {
-        id: "luftpumpe",
-        title: "Wie funktioniert eine Luftpumpe",
-        folder: "wie-funktioniert-eine-luftpumpe"
+        "id": "luftpumpe",
+        "title": "Wie funktioniert eine Luftpumpe",
+        "folder": "wie-funktioniert-eine-luftpumpe"
       },
       {
-        id: "siphon",
-        title: "Wie funktioniert der Siphon-Effekt",
-        folder: "wie-funktioniert-der-siphon-effekt"
-      },
-      {
-        id: "2552",
-        title: "Wie funktioniert ein Pneumatiksystem",
-        folder: "wie-funktioniert-ein-pneumatiksystem-2552"
+        "id": "siphon",
+        "title": "Wie funktioniert der Siphon-Effekt",
+        "folder": "wie-funktioniert-der-siphon-effekt"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Pneumatik+Hydraulik+Technik&t=1251"
@@ -442,39 +402,39 @@ export const technikTopics: Record<string, TechnikTopic> = {
         "folder": "glasfasertechnik-5295"
       },
       {
-        id: "299",
-        title: "Der stromkreis",
-        folder: "der-stromkreis-299"
+        "id": "299",
+        "title": "Der stromkreis",
+        "folder": "der-stromkreis-299"
       },
       {
-        id: "300",
-        title: "Spannung stromstarke und widerstand",
-        folder: "spannung-stromstarke-und-widerstand-300"
+        "id": "300",
+        "title": "Spannung stromstarke und widerstand",
+        "folder": "spannung-stromstarke-und-widerstand-300"
       },
       {
-        id: "314",
-        title: "Das ohmsche gesetz",
-        folder: "das-ohmsche-gesetz-314"
+        "id": "314",
+        "title": "Das ohmsche gesetz",
+        "folder": "das-ohmsche-gesetz-314"
       },
       {
-        id: "5264",
-        title: "Der kondensator",
-        folder: "der-kondensator-5264"
+        "id": "5264",
+        "title": "Der kondensator",
+        "folder": "der-kondensator-5264"
       },
       {
-        id: "5273",
-        title: "Der transistor",
-        folder: "der-transistor-5273"
+        "id": "5273",
+        "title": "Der transistor",
+        "folder": "der-transistor-5273"
       },
       {
-        id: "5304",
-        title: "Led leuchtdioden",
-        folder: "led-leuchtdioden-5304"
+        "id": "5304",
+        "title": "Led leuchtdioden",
+        "folder": "led-leuchtdioden-5304"
       },
       {
-        id: "tech-el-1",
-        title: "Wie funktioniert ein Kondensator",
-        folder: "wie-funktioniert-ein-kondensator"
+        "id": "tech-el-1",
+        "title": "Wie funktioniert ein Kondensator",
+        "folder": "wie-funktioniert-ein-kondensator"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Elektrotechnik+Grundlagen+Technik&t=1251"
@@ -529,39 +489,14 @@ export const technikTopics: Record<string, TechnikTopic> = {
         "folder": "generatoren-stromerzeugende-maschinen-5294"
       },
       {
-        id: "2245",
-        title: "Der transformator",
-        folder: "der-transformator-2245"
+        "id": "2245",
+        "title": "Der transformator",
+        "folder": "der-transformator-2245"
       },
       {
-        id: "5260",
-        title: "Der Elektromotor",
-        folder: "der-elektromotor-5260"
-      },
-      {
-        id: "tech-em-1",
-        title: "Funktionsweise des Elektromotors",
-        folder: "wie-funktioniert-ein-elektromotor"
-      },
-      {
-        id: "2244",
-        title: "Der Gleichstrommotor",
-        folder: "der-gleichstrommotor-2244"
-      },
-      {
-        id: "2246",
-        title: "Der Wechselstrommotor",
-        folder: "der-wechselstrommotor-2246"
-      },
-      {
-        id: "2495",
-        title: "Wie funktioniert ein Asynchronmotor",
-        folder: "wie-funktioniert-ein-asynchronmotor-2495"
-      },
-      {
-        id: "2556",
-        title: "Wie funktioniert ein Schrittmotor",
-        folder: "wie-funktioniert-ein-schrittmotor-2556"
+        "id": "tech-em-1",
+        "title": "Funktionsweise des Elektromotors",
+        "folder": "wie-funktioniert-ein-elektromotor"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Elektromotor+Generator+Technik&t=1251"
@@ -611,94 +546,79 @@ export const technikTopics: Record<string, TechnikTopic> = {
         "folder": "wie-funktioniert-ein-seismograph-2559"
       },
       {
-        id: "2494",
-        title: "Wie funktioniert ein astrolabium",
-        folder: "wie-funktioniert-ein-astrolabium-2494"
+        "id": "2494",
+        "title": "Wie funktioniert ein astrolabium",
+        "folder": "wie-funktioniert-ein-astrolabium-2494"
       },
       {
-        id: "2515",
-        title: "Wie funktioniert ein elektronenmikroskop",
-        folder: "wie-funktioniert-ein-elektronenmikroskop-2515"
+        "id": "2515",
+        "title": "Wie funktioniert ein elektronenmikroskop",
+        "folder": "wie-funktioniert-ein-elektronenmikroskop-2515"
       },
       {
-        id: "2549",
-        title: "Wie funktioniert ein periskop",
-        folder: "wie-funktioniert-ein-periskop-2549"
+        "id": "2549",
+        "title": "Wie funktioniert ein periskop",
+        "folder": "wie-funktioniert-ein-periskop-2549"
       },
       {
-        id: "2562",
-        title: "Wie funktioniert ein spektrometer",
-        folder: "wie-funktioniert-ein-spektrometer-2562"
+        "id": "2562",
+        "title": "Wie funktioniert ein spektrometer",
+        "folder": "wie-funktioniert-ein-spektrometer-2562"
       },
       {
-        id: "2519",
-        title: "Wie funktioniert ein gps modul",
-        folder: "wie-funktioniert-ein-gps-modul-2519"
+        "id": "2519",
+        "title": "Wie funktioniert ein gps modul",
+        "folder": "wie-funktioniert-ein-gps-modul-2519"
       },
       {
-        id: "2547",
-        title: "Wie funktioniert ein parabolspiegel",
-        folder: "wie-funktioniert-ein-parabolspiegel-2547"
+        "id": "2547",
+        "title": "Wie funktioniert ein parabolspiegel",
+        "folder": "wie-funktioniert-ein-parabolspiegel-2547"
       },
       {
-        id: "2565",
-        title: "Wie funktioniert ein teleskop",
-        folder: "wie-funktioniert-ein-teleskop-2565"
+        "id": "2565",
+        "title": "Wie funktioniert ein teleskop",
+        "folder": "wie-funktioniert-ein-teleskop-2565"
       },
       {
-        id: "chronom",
-        title: "Wie funktioniert ein Chronometer",
-        folder: "wie-funktioniert-ein-chronometer"
+        "id": "chronom",
+        "title": "Wie funktioniert ein Chronometer",
+        "folder": "wie-funktioniert-ein-chronometer"
       },
       {
-        id: "kompass",
-        title: "Wie funktioniert ein Kompass",
-        folder: "wie-funktioniert-ein-kompass"
+        "id": "kompass",
+        "title": "Wie funktioniert ein Kompass",
+        "folder": "wie-funktioniert-ein-kompass"
       },
       {
-        id: "gpssys",
-        title: "Wie funktioniert das GPS-System",
-        folder: "wie-funktioniert-das-gps-system"
+        "id": "gpssys",
+        "title": "Wie funktioniert das GPS-System",
+        "folder": "wie-funktioniert-das-gps-system"
       },
       {
-        id: "ekg",
-        title: "Wie funktioniert ein EKG (Elektrokardiogramm)",
-        folder: "wie-funktioniert-ein-ekg-elektrokardiogramm"
+        "id": "ekg",
+        "title": "Wie funktioniert ein EKG (Elektrokardiogramm)",
+        "folder": "wie-funktioniert-ein-ekg-elektrokardiogramm"
       },
       {
-        id: "smart-home-sensoren",
-        title: "Sensoren und Vernetzung im Smart Home",
-        folder: "sensoren-und-vernetzung-im-smart-home"
+        "id": "smart-home-sensoren",
+        "title": "Sensoren und Vernetzung im Smart Home",
+        "folder": "sensoren-und-vernetzung-im-smart-home"
       },
       {
-        id: "nfc-kontaktlos",
-        title: "NFC Technik und das kontaktlose Bezahlen an der Kasse",
-        folder: "nfc-technik-und-das-kontaktlose-bezahlen-an-der-kasse"
+        "id": "nfc-kontaktlos",
+        "title": "NFC Technik und das kontaktlose Bezahlen an der Kasse",
+        "folder": "nfc-technik-und-das-kontaktlose-bezahlen-an-der-kasse"
       },
       {
-        id: "tech-sens-1",
-        title: "Beschleunigungssensoren im Smartphone",
-        folder: "beschleunigungssensoren-und-wie-das-handy-weiss-wo-oben-ist"
-      },
-      {
-        id: "2499",
-        title: "Wie funktioniert ein Beschleunigungssensor",
-        folder: "wie-funktioniert-ein-beschleunigungssensor-2499"
-      },
-      {
-        id: "2529",
-        title: "Wie funktioniert ein Infrarotsensor",
-        folder: "wie-funktioniert-ein-infrarotsensor-2529"
-      },
-      {
-        id: "2566",
-        title: "Wie funktioniert ein Temperatursensor",
-        folder: "wie-funktioniert-ein-temperatursensor-2566"
+        "id": "tech-sens-1",
+        "title": "Beschleunigungssensoren im Smartphone",
+        "folder": "beschleunigungssensoren-und-wie-das-handy-weiss-wo-oben-ist"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Sensoren+Messtechnik+Technik&t=1251"
   },
-    "computer-und-digitaltechnik": {
+  "computer-und-digitaltechnik": {
     "slug": "computer-und-digitaltechnik",
     "title": "Computer- & Digitaltechnik",
     "category": "Elektrotechnik & Messtechnik",
@@ -713,99 +633,99 @@ export const technikTopics: Record<string, TechnikTopic> = {
     ],
     "exercises": [
       {
-        id: "2516",
-        title: "Wie funktioniert ein fitnesstracker",
-        folder: "wie-funktioniert-ein-fitnesstracker-2516"
+        "id": "2516",
+        "title": "Wie funktioniert ein fitnesstracker",
+        "folder": "wie-funktioniert-ein-fitnesstracker-2516"
       },
       {
-        id: "2517",
-        title: "Wie funktioniert ein game controller",
-        folder: "wie-funktioniert-ein-game-controller-2517"
+        "id": "2517",
+        "title": "Wie funktioniert ein game controller",
+        "folder": "wie-funktioniert-ein-game-controller-2517"
       },
       {
-        id: "2527",
-        title: "Wie funktioniert ein hub",
-        folder: "wie-funktioniert-ein-hub-2527"
+        "id": "2527",
+        "title": "Wie funktioniert ein hub",
+        "folder": "wie-funktioniert-ein-hub-2527"
       },
       {
-        id: "2539",
-        title: "Wie funktioniert ein mechanische tastatur",
-        folder: "wie-funktioniert-ein-mechanische-tastatur-2539"
+        "id": "2539",
+        "title": "Wie funktioniert ein mechanische tastatur",
+        "folder": "wie-funktioniert-ein-mechanische-tastatur-2539"
       },
       {
-        id: "2545",
-        title: "Wie funktioniert ein oled",
-        folder: "wie-funktioniert-ein-oled-2545"
+        "id": "2545",
+        "title": "Wie funktioniert ein oled",
+        "folder": "wie-funktioniert-ein-oled-2545"
       },
       {
-        id: "2551",
-        title: "Wie funktioniert ein plasma display",
-        folder: "wie-funktioniert-ein-plasma-display-2551"
+        "id": "2551",
+        "title": "Wie funktioniert ein plasma display",
+        "folder": "wie-funktioniert-ein-plasma-display-2551"
       },
       {
-        id: "2557",
-        title: "Wie funktioniert ein sd karte",
-        folder: "wie-funktioniert-ein-sd-karte-2557"
+        "id": "2557",
+        "title": "Wie funktioniert ein sd karte",
+        "folder": "wie-funktioniert-ein-sd-karte-2557"
       },
       {
-        id: "2560",
-        title: "Wie funktioniert ein smartphone",
-        folder: "wie-funktioniert-ein-smartphone-2560"
+        "id": "2560",
+        "title": "Wie funktioniert ein smartphone",
+        "folder": "wie-funktioniert-ein-smartphone-2560"
       },
       {
-        id: "2561",
-        title: "Wie funktioniert ein solid state laufwerk ssd",
-        folder: "wie-funktioniert-ein-solid-state-laufwerk-ssd-2561"
+        "id": "2561",
+        "title": "Wie funktioniert ein solid state laufwerk ssd",
+        "folder": "wie-funktioniert-ein-solid-state-laufwerk-ssd-2561"
       },
       {
-        id: "2568",
-        title: "Wie funktioniert ein touchpad",
-        folder: "wie-funktioniert-ein-touchpad-2568"
+        "id": "2568",
+        "title": "Wie funktioniert ein touchpad",
+        "folder": "wie-funktioniert-ein-touchpad-2568"
       },
       {
-        id: "2574",
-        title: "Wie funktioniert ein virtual reality headset",
-        folder: "wie-funktioniert-ein-virtual-reality-headset-2574"
+        "id": "2574",
+        "title": "Wie funktioniert ein virtual reality headset",
+        "folder": "wie-funktioniert-ein-virtual-reality-headset-2574"
       },
       {
-        id: "4656",
-        title: "So funktioniert kunstliche intelligenz",
-        folder: "so-funktioniert-kunstliche-intelligenz-4656"
+        "id": "4656",
+        "title": "So funktioniert kunstliche intelligenz",
+        "folder": "so-funktioniert-kunstliche-intelligenz-4656"
       },
       {
-        id: "mikrochip",
-        title: "Wie funktioniert ein Mikrochip (Prozessor)",
-        folder: "wie-funktioniert-ein-mikrochip-prozessor"
+        "id": "mikrochip",
+        "title": "Wie funktioniert ein Mikrochip (Prozessor)",
+        "folder": "wie-funktioniert-ein-mikrochip-prozessor"
       },
       {
-        id: "touchscr",
-        title: "Wie funktioniert ein Touchscreen",
-        folder: "wie-funktioniert-ein-touchscreen"
+        "id": "touchscr",
+        "title": "Wie funktioniert ein Touchscreen",
+        "folder": "wie-funktioniert-ein-touchscreen"
       },
       {
-        id: "barcode",
-        title: "Wie funktioniert ein Barcode-Scanner",
-        folder: "wie-funktioniert-ein-barcode-scanner"
+        "id": "barcode",
+        "title": "Wie funktioniert ein Barcode-Scanner",
+        "folder": "wie-funktioniert-ein-barcode-scanner"
       },
       {
-        id: "blockch",
-        title: "Wie funktioniert die Blockchain",
-        folder: "wie-funktioniert-die-blockchain"
+        "id": "blockch",
+        "title": "Wie funktioniert die Blockchain",
+        "folder": "wie-funktioniert-die-blockchain"
       },
       {
-        id: "optmaus",
-        title: "Wie funktioniert die optische Maus",
-        folder: "wie-funktioniert-die-optische-maus"
+        "id": "optmaus",
+        "title": "Wie funktioniert die optische Maus",
+        "folder": "wie-funktioniert-die-optische-maus"
       },
       {
-        id: "roboter-steuerung",
-        title: "Steuerung von Robotern oder Microcontrollern",
-        folder: "steuerung-von-robotern-oder-microcontrollern"
+        "id": "roboter-steuerung",
+        "title": "Steuerung von Robotern oder Microcontrollern",
+        "folder": "steuerung-von-robotern-oder-microcontrollern"
       },
       {
-        id: "uncanny-valley",
-        title: "Das Uncanny Valley und warum fast echte Roboter gruselig wirken",
-        folder: "das-uncanny-valley-und-warum-fast-echte-roboter-gruselig-wirken"
+        "id": "uncanny-valley",
+        "title": "Das Uncanny Valley und warum fast echte Roboter gruselig wirken",
+        "folder": "das-uncanny-valley-und-warum-fast-echte-roboter-gruselig-wirken"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Computer+Digitaltechnik&t=1251"
@@ -850,44 +770,34 @@ export const technikTopics: Record<string, TechnikTopic> = {
         "folder": "tesla-revolution-in-der-autoindustrie-4657"
       },
       {
-        id: "2505",
-        title: "Wie funktioniert ein cabriolet",
-        folder: "wie-funktioniert-ein-cabriolet-2505"
+        "id": "2505",
+        "title": "Wie funktioniert ein cabriolet",
+        "folder": "wie-funktioniert-ein-cabriolet-2505"
       },
       {
-        id: "2512",
-        title: "Wie funktioniert ein dungerstreuer",
-        folder: "wie-funktioniert-ein-dungerstreuer-2512"
+        "id": "2512",
+        "title": "Wie funktioniert ein dungerstreuer",
+        "folder": "wie-funktioniert-ein-dungerstreuer-2512"
       },
       {
-        id: "2522",
-        title: "Wie funktioniert ein hardtop",
-        folder: "wie-funktioniert-ein-hardtop-2522"
+        "id": "2522",
+        "title": "Wie funktioniert ein hardtop",
+        "folder": "wie-funktioniert-ein-hardtop-2522"
       },
       {
-        id: "2538",
-        title: "Wie funktioniert ein mahdrescher",
-        folder: "wie-funktioniert-ein-mahdrescher-2538"
+        "id": "2538",
+        "title": "Wie funktioniert ein mahdrescher",
+        "folder": "wie-funktioniert-ein-mahdrescher-2538"
       },
       {
-        id: "2546",
-        title: "Wie funktioniert ein panoramadach",
-        folder: "wie-funktioniert-ein-panoramadach-2546"
+        "id": "2546",
+        "title": "Wie funktioniert ein panoramadach",
+        "folder": "wie-funktioniert-ein-panoramadach-2546"
       },
       {
-        id: "2492",
-        title: "Wie funktioniert ein Allradantrieb",
-        folder: "wie-funktioniert-ein-allradantrieb-2492"
-      },
-      {
-        id: "2523",
-        title: "Wie funktioniert ein Heckantrieb",
-        folder: "wie-funktioniert-ein-heckantrieb-2523"
-      },
-      {
-        id: "2524",
-        title: "Wie funktioniert ein Heckmotor",
-        folder: "wie-funktioniert-ein-heckmotor-2524"
+        "id": "2524",
+        "title": "Wie funktioniert ein Heckmotor",
+        "folder": "wie-funktioniert-ein-heckmotor-2524"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Kfz+Technik+Fahrzeugtechnik&t=1251"
@@ -922,9 +832,9 @@ export const technikTopics: Record<string, TechnikTopic> = {
         "folder": "wie-funktioniert-ein-partikelfilter-2548"
       },
       {
-        id: "5151",
-        title: "Der katalysator",
-        folder: "der-katalysator-5151"
+        "id": "5151",
+        "title": "Der katalysator",
+        "folder": "der-katalysator-5151"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Fahrzeugsicherheit+ABS+Abgas&t=1251"
@@ -974,44 +884,39 @@ export const technikTopics: Record<string, TechnikTopic> = {
         "folder": "wie-funktioniert-ein-segway-2558"
       },
       {
-        id: "2274",
-        title: "Raketenantrieb",
-        folder: "raketenantrieb-2274"
+        "id": "2274",
+        "title": "Raketenantrieb",
+        "folder": "raketenantrieb-2274"
       },
       {
-        id: "2275",
-        title: "Satelliten",
-        folder: "satelliten-2275"
+        "id": "2275",
+        "title": "Satelliten",
+        "folder": "satelliten-2275"
       },
       {
-        id: "2277",
-        title: "Umlaufbahnen von planeten und satelliten 2",
-        folder: "umlaufbahnen-von-planeten-und-satelliten-2-2277"
+        "id": "2277",
+        "title": "Umlaufbahnen von planeten und satelliten 2",
+        "folder": "umlaufbahnen-von-planeten-und-satelliten-2-2277"
       },
       {
-        id: "5292",
-        title: "Erdsatelliten",
-        folder: "erdsatelliten-5292"
+        "id": "5292",
+        "title": "Erdsatelliten",
+        "folder": "erdsatelliten-5292"
       },
       {
-        id: "duesentrieb",
-        title: "Wie funktioniert ein Düsentriebwerk",
-        folder: "wie-funktioniert-ein-duesentriebwerk"
+        "id": "duesentrieb",
+        "title": "Wie funktioniert ein Düsentriebwerk",
+        "folder": "wie-funktioniert-ein-duesentriebwerk"
       },
       {
-        id: "fallschirm",
-        title: "Wie funktioniert ein Fallschirm",
-        folder: "wie-funktioniert-ein-fallschirm"
+        "id": "fallschirm",
+        "title": "Wie funktioniert ein Fallschirm",
+        "folder": "wie-funktioniert-ein-fallschirm"
       },
       {
-        id: "bumerang",
-        title: "Wie funktioniert ein Bumerang",
-        folder: "wie-funktioniert-ein-bumerang"
-      },
-      {
-        id: "2530",
-        title: "Wie funktioniert ein Jetantrieb (Strahltriebwerk)",
-        folder: "wie-funktioniert-ein-jetantrieb-2530"
+        "id": "bumerang",
+        "title": "Wie funktioniert ein Bumerang",
+        "folder": "wie-funktioniert-ein-bumerang"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Luftfahrt+Schifffahrt+Technik&t=1251"
@@ -1051,79 +956,64 @@ export const technikTopics: Record<string, TechnikTopic> = {
         "folder": "wie-funktioniert-ein-kernreaktor-2533"
       },
       {
-        id: "2250",
-        title: "Photovoltaikanlagen",
-        folder: "photovoltaikanlagen-2250"
+        "id": "2250",
+        "title": "Photovoltaikanlagen",
+        "folder": "photovoltaikanlagen-2250"
       },
       {
-        id: "2500",
-        title: "Wie funktioniert ein bewasserungssystem",
-        folder: "wie-funktioniert-ein-bewasserungssystem-2500"
+        "id": "2500",
+        "title": "Wie funktioniert ein bewasserungssystem",
+        "folder": "wie-funktioniert-ein-bewasserungssystem-2500"
       },
       {
-        id: "2520",
-        title: "Wie funktioniert ein greenhouse",
-        folder: "wie-funktioniert-ein-greenhouse-2520"
+        "id": "2520",
+        "title": "Wie funktioniert ein greenhouse",
+        "folder": "wie-funktioniert-ein-greenhouse-2520"
       },
       {
-        id: "5311",
-        title: "Photovoltaik",
-        folder: "photovoltaik-5311"
+        "id": "5311",
+        "title": "Photovoltaik",
+        "folder": "photovoltaik-5311"
       },
       {
-        id: "5318",
-        title: "Sonnenkraftwerke",
-        folder: "sonnenkraftwerke-5318"
+        "id": "5318",
+        "title": "Sonnenkraftwerke",
+        "folder": "sonnenkraftwerke-5318"
       },
       {
-        id: "tech-ee-1",
-        title: "Wie funktioniert eine Windkraftanlage",
-        folder: "wie-funktioniert-eine-windkraftanlage"
+        "id": "tech-ee-1",
+        "title": "Wie funktioniert eine Windkraftanlage",
+        "folder": "wie-funktioniert-eine-windkraftanlage"
       },
       {
-        id: "5327",
-        title: "Windkraftwerke",
-        folder: "windkraftwerke-2-5327"
+        "id": "2249",
+        "title": "Wasserkraftwerke",
+        "folder": "wasserkraftwerke-2249"
       },
       {
-        id: "2249",
-        title: "Wasserkraftwerke",
-        folder: "wasserkraftwerke-2249"
+        "id": "5302",
+        "title": "Laufwasserkraftwerke",
+        "folder": "laufwasserkraftwerke-5302"
       },
       {
-        id: "5302",
-        title: "Laufwasserkraftwerke",
-        folder: "laufwasserkraftwerke-5302"
+        "id": "5319",
+        "title": "Speicherkraftwerke & Pumpspeicher",
+        "folder": "speicherkraftwerke-5319"
       },
       {
-        id: "5319",
-        title: "Speicherkraftwerke & Pumpspeicher",
-        folder: "speicherkraftwerke-5319"
+        "id": "tech-ee-2",
+        "title": "Wie funktioniert ein Geothermiekraftwerk",
+        "folder": "wie-funktioniert-ein-geothermiekraftwerk"
       },
       {
-        id: "tech-ee-2",
-        title: "Wie funktioniert ein Geothermiekraftwerk",
-        folder: "wie-funktioniert-ein-geothermiekraftwerk"
+        "id": "5326",
+        "title": "Wärmekraftwerke",
+        "folder": "warmekraftwerke-5326"
       },
       {
-        id: "2580",
-        title: "Wie funktioniert ein Wellenkraftwerk",
-        folder: "wie-funktioniert-ein-wellenkraftwerk-2580"
-      },
-      {
-        id: "5326",
-        title: "Wärmekraftwerke",
-        folder: "warmekraftwerke-5326"
-      },
-      {
-        id: "5242",
-        title: "Atomkraftwerke",
-        folder: "atomkraftwerke-2-5242"
-      },
-      {
-        id: "2533",
-        title: "Wie funktioniert ein Kernreaktor",
-        folder: "wie-funktioniert-ein-kernreaktor-2533"
+        "id": "5242",
+        "title": "Atomkraftwerke",
+        "folder": "atomkraftwerke-2-5242"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Erneuerbare+Energien+Windkraft+Technik&t=1251"
@@ -1166,11 +1056,6 @@ export const technikTopics: Record<string, TechnikTopic> = {
         "id": "5323",
         "title": "Umwandlung elektrischer Energie",
         "folder": "umwandlung-elektrischer-energie-5323"
-      },
-      {
-        id: "5246",
-        title: "Batterien und Akkumulatoren",
-        folder: "batterien-und-akkumulatoren-5246"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Akkus+Batterien+Energiespeicher&t=1251"
@@ -1256,44 +1141,44 @@ export const technikTopics: Record<string, TechnikTopic> = {
         "folder": "wie-funktioniert-ein-dampfbugeleisen-2507"
       },
       {
-        id: "2508",
-        title: "Wie funktioniert ein dampfkochtopf",
-        folder: "wie-funktioniert-ein-dampfkochtopf-2508"
+        "id": "2508",
+        "title": "Wie funktioniert ein dampfkochtopf",
+        "folder": "wie-funktioniert-ein-dampfkochtopf-2508"
       },
       {
-        id: "2567",
-        title: "Wie funktioniert ein thermostat",
-        folder: "wie-funktioniert-ein-thermostat-2567"
+        "id": "2567",
+        "title": "Wie funktioniert ein thermostat",
+        "folder": "wie-funktioniert-ein-thermostat-2567"
       },
       {
-        id: "5267",
-        title: "Der mikrowellenherd",
-        folder: "der-mikrowellenherd-5267"
+        "id": "5267",
+        "title": "Der mikrowellenherd",
+        "folder": "der-mikrowellenherd-5267"
       },
       {
-        id: "2521",
-        title: "Wie funktioniert ein grill",
-        folder: "wie-funktioniert-ein-grill-2521"
+        "id": "2521",
+        "title": "Wie funktioniert ein grill",
+        "folder": "wie-funktioniert-ein-grill-2521"
       },
       {
-        id: "kuehlschr",
-        title: "Wie funktioniert ein Kühlschrank?",
-        folder: "wie-funktioniert-ein-kuehlschrank"
+        "id": "kuehlschr",
+        "title": "Wie funktioniert ein Kühlschrank?",
+        "folder": "wie-funktioniert-ein-kuehlschrank"
       },
       {
-        id: "staubsaug",
-        title: "Wie funktioniert ein Staubsauger",
-        folder: "wie-funktioniert-ein-staubsauger"
+        "id": "staubsaug",
+        "title": "Wie funktioniert ein Staubsauger",
+        "folder": "wie-funktioniert-ein-staubsauger"
       },
       {
-        id: "heizung",
-        title: "Wie funktioniert eine Gas- und Ölheizung",
-        folder: "wie-funktioniert-eine-gas-und-oelheizung"
+        "id": "heizung",
+        "title": "Wie funktioniert eine Gas- und Ölheizung",
+        "folder": "wie-funktioniert-eine-gas-und-oelheizung"
       },
       {
-        id: "2554",
-        title: "Wie funktioniert ein Rasierapparat",
-        folder: "wie-funktioniert-ein-rasierapparat-2554"
+        "id": "2554",
+        "title": "Wie funktioniert ein Rasierapparat",
+        "folder": "wie-funktioniert-ein-rasierapparat-2554"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Haushaltsgeraete+Alltagstechnik&t=1251"
@@ -1327,84 +1212,84 @@ export const technikTopics: Record<string, TechnikTopic> = {
         "folder": "wie-funktioniert-eine-kamera-2581"
       },
       {
-        id: "2240",
-        title: "Der elektrodynamische lautsprecher",
-        folder: "der-elektrodynamische-lautsprecher-2240"
+        "id": "2240",
+        "title": "Der elektrodynamische lautsprecher",
+        "folder": "der-elektrodynamische-lautsprecher-2240"
       },
       {
-        id: "2498",
-        title: "Wie funktioniert ein beamer",
-        folder: "wie-funktioniert-ein-beamer-2498"
+        "id": "2498",
+        "title": "Wie funktioniert ein beamer",
+        "folder": "wie-funktioniert-ein-beamer-2498"
       },
       {
-        id: "2537",
-        title: "Wie funktioniert ein laserdrucker",
-        folder: "wie-funktioniert-ein-laserdrucker-2537"
+        "id": "2537",
+        "title": "Wie funktioniert ein laserdrucker",
+        "folder": "wie-funktioniert-ein-laserdrucker-2537"
       },
       {
-        id: "2541",
-        title: "Wie funktioniert ein mikrofon",
-        folder: "wie-funktioniert-ein-mikrofon-2541"
+        "id": "2541",
+        "title": "Wie funktioniert ein mikrofon",
+        "folder": "wie-funktioniert-ein-mikrofon-2541"
       },
       {
-        id: "2564",
-        title: "Wie funktioniert ein taschenrechner",
-        folder: "wie-funktioniert-ein-taschenrechner-2564"
+        "id": "2564",
+        "title": "Wie funktioniert ein taschenrechner",
+        "folder": "wie-funktioniert-ein-taschenrechner-2564"
       },
       {
-        id: "2579",
-        title: "Wie funktioniert ein wecker",
-        folder: "wie-funktioniert-ein-wecker-2579"
+        "id": "2579",
+        "title": "Wie funktioniert ein wecker",
+        "folder": "wie-funktioniert-ein-wecker-2579"
       },
       {
-        id: "2513",
-        title: "Wie funktioniert ein dvd player",
-        folder: "wie-funktioniert-ein-dvd-player-2513"
+        "id": "2513",
+        "title": "Wie funktioniert ein dvd player",
+        "folder": "wie-funktioniert-ein-dvd-player-2513"
       },
       {
-        id: "2553",
-        title: "Wie funktioniert ein radio",
-        folder: "wie-funktioniert-ein-radio-2553"
+        "id": "2553",
+        "title": "Wie funktioniert ein radio",
+        "folder": "wie-funktioniert-ein-radio-2553"
       },
       {
-        id: "2563",
-        title: "Wie funktioniert ein taschenlampe",
-        folder: "wie-funktioniert-ein-taschenlampe-2563"
+        "id": "2563",
+        "title": "Wie funktioniert ein taschenlampe",
+        "folder": "wie-funktioniert-ein-taschenlampe-2563"
       },
       {
-        id: "kugelschr",
-        title: "Wie funktioniert ein Kugelschreiber",
-        folder: "wie-funktioniert-ein-kugelschreiber"
+        "id": "kugelschr",
+        "title": "Wie funktioniert ein Kugelschreiber",
+        "folder": "wie-funktioniert-ein-kugelschreiber"
       },
       {
-        id: "kopierer",
-        title: "Wie funktioniert ein Kopierer",
-        folder: "wie-funktioniert-ein-kopierer"
+        "id": "kopierer",
+        "title": "Wie funktioniert ein Kopierer",
+        "folder": "wie-funktioniert-ein-kopierer"
       },
       {
-        id: "laserdruck",
-        title: "Wie funktioniert ein Laser-Drucker",
-        folder: "wie-funktioniert-ein-laser-drucker"
+        "id": "laserdruck",
+        "title": "Wie funktioniert ein Laser-Drucker",
+        "folder": "wie-funktioniert-ein-laser-drucker"
       },
       {
-        id: "digicam",
-        title: "Wie funktioniert eine Digitalkamera",
-        folder: "wie-funktioniert-eine-digitalkamera"
+        "id": "digicam",
+        "title": "Wie funktioniert eine Digitalkamera",
+        "folder": "wie-funktioniert-eine-digitalkamera"
       },
       {
-        id: "diaproj",
-        title: "Wie funktioniert ein Diaprojektor",
-        folder: "wie-funktioniert-ein-diaprojektor-2509"
+        "id": "diaproj",
+        "title": "Wie funktioniert ein Diaprojektor",
+        "folder": "wie-funktioniert-ein-diaprojektor-2509"
       },
       {
-        id: "lautspr",
-        title: "Wie funktioniert ein Lautsprecher",
-        folder: "wie-funktioniert-ein-lautsprecher"
+        "id": "lautspr",
+        "title": "Wie funktioniert ein Lautsprecher",
+        "folder": "wie-funktioniert-ein-lautsprecher"
       },
       {
-        id: "tech-farrad-1",
-        title: "Fahrrad-Kettenschaltung",
-        folder: "wie-funktioniert-ein-fahrrad-kettenschaltung"
+        "id": "tech-farrad-1",
+        "title": "Fahrrad-Kettenschaltung",
+        "folder": "wie-funktioniert-ein-fahrrad-kettenschaltung"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Werkzeuge+Technikunterricht&t=1251"
@@ -1424,64 +1309,64 @@ export const technikTopics: Record<string, TechnikTopic> = {
     ],
     "exercises": [
       {
-        id: "2489",
-        title: "Wie funktioniert ein additive synthese",
-        folder: "wie-funktioniert-ein-additive-synthese-2489"
+        "id": "2489",
+        "title": "Wie funktioniert ein additive synthese",
+        "folder": "wie-funktioniert-ein-additive-synthese-2489"
       },
       {
-        id: "2493",
-        title: "Wie funktioniert ein am synthese",
-        folder: "wie-funktioniert-ein-am-synthese-2493"
+        "id": "2493",
+        "title": "Wie funktioniert ein am synthese",
+        "folder": "wie-funktioniert-ein-am-synthese-2493"
       },
       {
-        id: "2503",
-        title: "Wie funktioniert ein bitcrusher",
-        folder: "wie-funktioniert-ein-bitcrusher-2503"
+        "id": "2503",
+        "title": "Wie funktioniert ein bitcrusher",
+        "folder": "wie-funktioniert-ein-bitcrusher-2503"
       },
       {
-        id: "2506",
-        title: "Wie funktioniert ein chorus",
-        folder: "wie-funktioniert-ein-chorus-2506"
+        "id": "2506",
+        "title": "Wie funktioniert ein chorus",
+        "folder": "wie-funktioniert-ein-chorus-2506"
       },
       {
-        id: "2511",
-        title: "Wie funktioniert ein distortion",
-        folder: "wie-funktioniert-ein-distortion-2511"
+        "id": "2511",
+        "title": "Wie funktioniert ein distortion",
+        "folder": "wie-funktioniert-ein-distortion-2511"
       },
       {
-        id: "2544",
-        title: "Wie funktioniert ein oktaver",
-        folder: "wie-funktioniert-ein-oktaver-2544"
+        "id": "2544",
+        "title": "Wie funktioniert ein oktaver",
+        "folder": "wie-funktioniert-ein-oktaver-2544"
       },
       {
-        id: "2550",
-        title: "Wie funktioniert ein phaser",
-        folder: "wie-funktioniert-ein-phaser-2550"
+        "id": "2550",
+        "title": "Wie funktioniert ein phaser",
+        "folder": "wie-funktioniert-ein-phaser-2550"
       },
       {
-        id: "2569",
-        title: "Wie funktioniert ein tuner",
-        folder: "wie-funktioniert-ein-tuner-2569"
+        "id": "2569",
+        "title": "Wie funktioniert ein tuner",
+        "folder": "wie-funktioniert-ein-tuner-2569"
       },
       {
-        id: "2571",
-        title: "Wie funktioniert ein vektor synthese",
-        folder: "wie-funktioniert-ein-vektor-synthese-2571"
+        "id": "2571",
+        "title": "Wie funktioniert ein vektor synthese",
+        "folder": "wie-funktioniert-ein-vektor-synthese-2571"
       },
       {
-        id: "2573",
-        title: "Wie funktioniert ein vibrato",
-        folder: "wie-funktioniert-ein-vibrato-2573"
+        "id": "2573",
+        "title": "Wie funktioniert ein vibrato",
+        "folder": "wie-funktioniert-ein-vibrato-2573"
       },
       {
-        id: "2575",
-        title: "Wie funktioniert ein wah wah",
-        folder: "wie-funktioniert-ein-wah-wah-2575"
+        "id": "2575",
+        "title": "Wie funktioniert ein wah wah",
+        "folder": "wie-funktioniert-ein-wah-wah-2575"
       },
       {
-        id: "2576",
-        title: "Wie funktioniert ein walkman",
-        folder: "wie-funktioniert-ein-walkman-2576"
+        "id": "2576",
+        "title": "Wie funktioniert ein walkman",
+        "folder": "wie-funktioniert-ein-walkman-2576"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Tontechnik+Musikproduktion&t=1251"
