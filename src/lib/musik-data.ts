@@ -47,7 +47,7 @@ export const musikTopics: Record<string, MusikTopic> = {
       },
       {
         "id": "253",
-        "title": "Notenwerte und Pausen",
+        "title": "Notenwerte und Pausen (Vertiefung)",
         "folder": "notenwerte-und-pausen-2-253"
       },
       {
@@ -121,11 +121,6 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "14",
         "title": "Tonhöhe-Memory - einfache Version",
         "folder": "tonhohe-memory-einfache-version-14"
-      },
-      {
-        "id": "15",
-        "title": "Tonhöhe-Memory - Variante 2",
-        "folder": "tonhohe-memory-einfache-version-2-15"
       },
       {
         "id": "16",
@@ -226,7 +221,7 @@ export const musikTopics: Record<string, MusikTopic> = {
       },
       {
         "id": "319",
-        "title": "Akkorde – Dur und Moll",
+        "title": "Akkorde – Dur und Moll (Teil 2)",
         "folder": "akkorde-dur-und-moll-2-319"
       }
     ,
@@ -530,11 +525,6 @@ export const musikTopics: Record<string, MusikTopic> = {
         "folder": "rhythm-exercise-1-461"
       },
       {
-        "id": "464",
-        "title": "Rhythm Exercise 2",
-        "folder": "rhythm-exercise-2-464"
-      },
-      {
         "id": "106",
         "title": "Rhythmus-Memory (Einfach)",
         "folder": "rhythmusmemory-einfach-106"
@@ -674,7 +664,7 @@ export const musikTopics: Record<string, MusikTopic> = {
       },
       {
         "id": "607",
-        "title": "Musikgeschichte – Steinzeit bis Antike",
+        "title": "Musikgeschichte – Steinzeit bis Antike (Teil 2)",
         "folder": "musikgeschichte-steinzeit-bis-antike-dsgvo-607"
       },
       {
@@ -693,11 +683,6 @@ export const musikTopics: Record<string, MusikTopic> = {
         "title": "Musikgeschichte im Überblick",
         "folder": "musikgeschichte-462"
       },
-      {
-        "id": "8206",
-        "title": "Musikgeschichte Epochen Vertiefung",
-        "folder": "musikgeschichte-2-465"
-      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=epochen+musikgeschichte&t=3752"
   },
@@ -781,11 +766,6 @@ export const musikTopics: Record<string, MusikTopic> = {
         "title": "Edvard Grieg: In der Halle des Bergkönigs",
         "folder": "in-der-halle-des-bergkonigs-von-edvard-grieg-451"
       },
-      {
-        "id": "8208",
-        "title": "Edvard Grieg: In der Halle des Bergkönigs (Vertiefung)",
-        "folder": "in-der-halle-des-bergkonigs-von-edvard-grieg-2-459"
-      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=bekannte+musikstuecke&t=3752"
   },
@@ -1124,7 +1104,7 @@ export const musikTopics: Record<string, MusikTopic> = {
     ,
       {
         "id": "3103",
-        "title": "Wolfgang Amadeus Mozart",
+        "title": "Wolfgang Amadeus Mozart (Steckbrief)",
         "folder": "wolfgang-amadeus-mozart-3-3103"
       },
       {
@@ -1242,7 +1222,7 @@ export const musikTopics: Record<string, MusikTopic> = {
     ,
       {
         "id": "223",
-        "title": "Franz Liszt",
+        "title": "Franz Liszt (Video mit Fragen)",
         "folder": "franz-liszt-video-mit-fragen-223"
       }],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=komponisten+romantik+schubert+schumann&t=3752"
@@ -1688,7 +1668,7 @@ export const musikTopics: Record<string, MusikTopic> = {
       },
       {
         "id": "3100",
-        "title": "Richard Wagner",
+        "title": "Richard Wagner (Biografie)",
         "folder": "richard-wagner-2-3100"
       },
       {
@@ -1859,11 +1839,6 @@ export const musikTopics: Record<string, MusikTopic> = {
       }
     ,
       {
-        "id": "3256",
-        "title": "Das Phantom der Oper (Andrew Lloyd Webber)",
-        "folder": "das-phantom-der-oper-2-3256"
-      },
-      {
         "id": "518",
         "title": "Die Operette",
         "folder": "die-operette-518"
@@ -1903,7 +1878,7 @@ export const musikTopics: Record<string, MusikTopic> = {
     "exercises": [
       {
         "id": "534phanto",
-        "title": "Das Phantom der Oper (Andrew Lloyd Webber)",
+        "title": "Das Musical: Das Phantom der Oper",
         "folder": "das-musical-das-phantom-der-oper-534"
       },
       {
@@ -1982,7 +1957,6 @@ export const musikTopics: Record<string, MusikTopic> = {
         "title": "Das Musical Maria Theresia",
         "folder": "das-musical-maria-theresia-544"
       }
-    
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=moderne+musicals+phantom+der+oper&t=3752"
   },
@@ -2014,11 +1988,6 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "436",
         "title": "Geschichte des Jazz – Teil 2",
         "folder": "geschichte-das-jazz-teil-2-436"
-      },
-      {
-        "id": "437",
-        "title": "Geschichte des Jazz – Teil 3",
-        "folder": "geschichte-das-jazz-teil-3-437"
       },
       {
         "id": "438",
@@ -2434,7 +2403,6 @@ export const musikTopics: Record<string, MusikTopic> = {
         "title": "John Lennons Friedensbotschaft – Happy Xmas (War Is Over)",
         "folder": "john-lennons-friedensbotschaft-happy-xmas-war-is-over-6677"
       }
-    
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=beatles+queen+rolling+stones&t=3752"
   },
@@ -2585,12 +2553,12 @@ export const musikTopics: Record<string, MusikTopic> = {
     ,
       {
         "id": "616",
-        "title": "ABBA: Dancing Queen",
+        "title": "ABBA: Dancing Queen (Teil 2)",
         "folder": "dancing-queen-abba-2-616"
       },
       {
         "id": "611",
-        "title": "Michael Jackson: Billie Jean",
+        "title": "Michael Jackson: Billie Jean (Teil 2)",
         "folder": "billie-jean-michael-jackson-2-611"
       },
       {
@@ -2688,7 +2656,7 @@ export const musikTopics: Record<string, MusikTopic> = {
     ,
       {
         "id": "622",
-        "title": "Elvis Presley: Jailhouse Rock",
+        "title": "Elvis Presley: Jailhouse Rock (Teil 2)",
         "folder": "jailhouse-rock-elvis-presley-2-622"
       }
     ],
@@ -2720,7 +2688,7 @@ export const musikTopics: Record<string, MusikTopic> = {
       },
       {
         "id": "8281",
-        "title": "Adele: Rolling In The Deep",
+        "title": "Adele: Rolling In The Deep (Teil 2)",
         "folder": "rolling-in-the-deep-adele-500"
       },
       {
@@ -2927,12 +2895,6 @@ export const musikTopics: Record<string, MusikTopic> = {
         "title": "Der harte Weg zum YouTube-Star",
         "folder": "der-harte-weg-zum-youtube-star-geld-verdienen-ist-schwierig-6494"
       },
-      {
-        "id": "6548",
-        "title": "Der harte Weg zum YouTube-Star (Teil 2)",
-        "folder": "der-harte-weg-zum-youtube-star-geld-verdienen-ist-schwierig-2-6548"
-      }
-    ,
       {
         "id": "841",
         "title": "Hip-Hop Grundlagen",
