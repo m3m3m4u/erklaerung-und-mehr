@@ -1,4 +1,4 @@
-export interface H5PExercise {
+export interface PhysikExercise {
   id: string;
   title: string;
   folder: string;
@@ -11,11 +11,11 @@ export interface PhysikTopic {
   shortDesc: string;
   longDesc: string;
   keyPoints: string[];
-  exercises: H5PExercise[];
+  exercises: PhysikExercise[];
   worksheetLink?: string;
 }
 
-export const physikCategories = [
+export const physikCategories: string[] = [
   "Mechanik & Dynamik",
   "Optik & Lichtlehre",
   "Elektrizität & Magnetismus",
@@ -79,8 +79,7 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "id": "587",
         "title": "Lerninhalt: Darstellung von Kräften",
         "folder": "lerninhalt-darstellung-von-kraften-587"
-      }
-    ,
+      },
       {
         "id": "8700",
         "title": "Wie funktioniert die Kugellagerung",
@@ -108,11 +107,6 @@ export const physikTopics: Record<string, PhysikTopic> = {
       "s-t- und v-t-Diagramme: Steigung im Weg-Zeit-Diagramm entspricht der Geschwindigkeit; Steigung im Geschwindigkeits-Zeit-Diagramm der Beschleunigung"
     ],
     "exercises": [
-      {
-        "id": "271",
-        "title": "Akustik",
-        "folder": "geschwindigkeit-271"
-      },
       {
         "id": "272",
         "title": "Geschwindigkeit",
@@ -142,8 +136,7 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "id": "beschleunigung-sensor",
         "title": "Beschleunigungssensoren und Bewegungsmessung",
         "folder": "beschleunigungssensoren-und-wie-das-handy-weiss-wo-oben-ist"
-      }
-    ,
+      },
       {
         "id": "3769",
         "title": "Daniel Bernoulli (Strömungsmechanik)",
@@ -307,8 +300,7 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "id": "laserstrahl",
         "title": "Wie funktioniert ein Laserstrahl",
         "folder": "wie-funktioniert-ein-laserstrahl"
-      }
-    ,
+      },
       {
         "id": "5310",
         "title": "Optische Datenspeicherung",
@@ -396,8 +388,7 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "id": "2549",
         "title": "Wie funktioniert ein Periskop",
         "folder": "wie-funktioniert-ein-periskop-2549"
-      }
-    ,
+      },
       {
         "id": "8705",
         "title": "Farbmischung und optische Farbmodelle",
@@ -495,8 +486,7 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "id": "holographie",
         "title": "Wie funktioniert die Holographie",
         "folder": "wie-funktioniert-die-holographie"
-      }
-    ,
+      },
       {
         "id": "5301",
         "title": "Laserstrahlen und kohärentes Licht",
@@ -583,8 +573,7 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "id": "blitz",
         "title": "Wie funktioniert der Blitz",
         "folder": "wie-funktioniert-der-blitz"
-      }
-    ,
+      },
       {
         "id": "301",
         "title": "Leiter, Halbleiter und Nichtleiter",
@@ -653,8 +642,7 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "id": "led",
         "title": "Wie funktioniert eine LED",
         "folder": "wie-funktioniert-eine-led"
-      }
-    ,
+      },
       {
         "id": "300",
         "title": "Spannung, Stromstärke und Widerstand",
@@ -751,8 +739,7 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "id": "7074",
         "title": "Wie funktioniert der Magnetismus",
         "folder": "wie-funktioniert-der-magnetismus"
-      }
-    ,
+      },
       {
         "id": "688",
         "title": "Magnetismus Grundbegriffe",
@@ -777,7 +764,7 @@ export const physikTopics: Record<string, PhysikTopic> = {
     "exercises": [
       {
         "id": "5259",
-        "title": "Der Elektromagnet",
+        "title": "Der Elektromagnet – Anwendungen & Funktionsweise",
         "folder": "der-elektromagnet-2-5259"
       },
       {
@@ -804,11 +791,10 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "id": "7060",
         "title": "Wie funktioniert ein Induktionskochfeld",
         "folder": "wie-funktioniert-ein-induktionskochfeld"
-      }
-    ,
+      },
       {
         "id": "2241",
-        "title": "Der Elektromagnet",
+        "title": "Der Elektromagnet – Grundlagen & Aufbau",
         "folder": "der-elektromagnet-2241"
       },
       {
@@ -887,8 +873,7 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "id": "2240",
         "title": "Der elektrodynamische Lautsprecher",
         "folder": "der-elektrodynamische-lautsprecher-2240"
-      }
-    ,
+      },
       {
         "id": "2514",
         "title": "Wie funktioniert ein Dynamo (Induktion)",
@@ -933,7 +918,7 @@ export const physikTopics: Record<string, PhysikTopic> = {
       },
       {
         "id": "5272",
-        "title": "Der Transformator",
+        "title": "Der Transformator – Hochspannung und Energieübertragung",
         "folder": "der-transformator-2-5272"
       },
       {
@@ -960,11 +945,10 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "id": "7116",
         "title": "Wie funktioniert ein Transformator",
         "folder": "wie-funktioniert-ein-transformator"
-      }
-    ,
+      },
       {
         "id": "2245",
-        "title": "Der Transformator",
+        "title": "Der Transformator – Aufbau und Induktionsprinzip",
         "folder": "der-transformator-2245"
       }
     ],
@@ -1044,8 +1028,7 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "id": "7154",
         "title": "Wie funktioniert die Energiespeicherung durch Pumpspeicherwerke",
         "folder": "wie-funktioniert-die-energiespeicherung-durch-pumpspeicherwerke"
-      }
-    ,
+      },
       {
         "id": "2252",
         "title": "Kernkraftwerke und Energieerzeugung",
@@ -1107,8 +1090,7 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "id": "barometer",
         "title": "Wie funktioniert ein Barometer",
         "folder": "wie-funktioniert-ein-barometer"
-      }
-    ,
+      },
       {
         "id": "2566",
         "title": "Wie funktioniert ein Temperatursensor",
@@ -1160,8 +1142,7 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "id": "2567",
         "title": "Wie funktioniert ein Thermostat",
         "folder": "wie-funktioniert-ein-thermostat-2567"
-      }
-    ,
+      },
       {
         "id": "8710",
         "title": "Wie funktioniert eine Dampfmaschine",
@@ -1201,11 +1182,6 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "folder": "ausbreitung-von-schall-schallwellen-5244"
       },
       {
-        "id": "5245",
-        "title": "Schall und Frequenzen",
-        "folder": "ausbreitung-von-schall-schallwellen-2-5245"
-      },
-      {
         "id": "5322",
         "title": "Ultraschall in Natur und Technik",
         "folder": "ultraschall-5322"
@@ -1229,8 +1205,7 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "id": "5317",
         "title": "Schwingungen und Wellen",
         "folder": "schwingungen-und-wellen-5317"
-      }
-    ,
+      },
       {
         "id": "8712",
         "title": "Wie funktioniert eine Schallplatte (Akustische Rillenspur)",
@@ -1293,8 +1268,7 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "id": "5313",
         "title": "Radioaktivität",
         "folder": "radioaktivitat-5313"
-      }
-    ,
+      },
       {
         "id": "5281",
         "title": "Die Kernspaltung",
@@ -1346,8 +1320,7 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "id": "kernfusion",
         "title": "Wie funktioniert die Kernfusion",
         "folder": "wie-funktioniert-die-kernfusion"
-      }
-    ,
+      },
       {
         "id": "8713",
         "title": "Quantenphysik und Quantencomputer",
@@ -1424,8 +1397,7 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "id": "5324",
         "title": "Unser Sonnensystem",
         "folder": "unser-sonnensystem-5324"
-      }
-    ,
+      },
       {
         "id": "2277",
         "title": "Umlaufbahnen von Planeten und Satelliten (Kepler-Gesetze)",
@@ -1466,8 +1438,7 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "id": "7077",
         "title": "Wie funktioniert das Polarlicht",
         "folder": "wie-funktioniert-das-polarlicht"
-      }
-    ,
+      },
       {
         "id": "2559",
         "title": "Wie funktioniert ein Seismograph (Erdbebenmessung)",
@@ -1633,8 +1604,7 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "id": "4076",
         "title": "Marie Curie",
         "folder": "marie-curie-4076"
-      }
-    ,
+      },
       {
         "id": "3938",
         "title": "Heinrich Hertz (Elektromagnetische Wellen)",
