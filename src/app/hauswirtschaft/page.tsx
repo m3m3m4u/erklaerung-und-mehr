@@ -42,6 +42,7 @@ export const metadata: Metadata = {
 
 export default function HauswirtschaftOverviewPage() {
   const allTopics = Object.values(hauswirtschaftTopics);
+  const totalExercises = allTopics.reduce((sum, t) => sum + (t.exercises?.length || 0), 0);
 
   return (
     <div className="site-wrapper">
@@ -57,7 +58,7 @@ export default function HauswirtschaftOverviewPage() {
               Praktisches Wissen fürs Leben: Von der gesunden Ernährungspyramide und Küchenhygiene über die Haushaltsbudgetierung und Vermeidung von Schuldenfallen bis hin zur nachhaltigen Haushaltsführung und Textilpflege.
             </p>
             <p className="math-page-note">
-              Mit über 20 praxisnahen H5P-Übungen zu Kochtechniken, Vorratshaltung, Haushaltsfinanzen, Textilpflege und Energiesparen.
+              Mit {totalExercises} praxisnahen H5P-Übungen zu Kochtechniken, Vorratshaltung, Haushaltsfinanzen, Textilpflege und Energiesparen.
             </p>
           </div>
           <div className="math-mascot">

@@ -71,6 +71,16 @@ export const hauswirtschaftTopics: Record<string, HauswirtschaftTopic> = {
         "id": "2673",
         "title": "Planung und Organisation von Mahlzeiten",
         "folder": "planung-und-organisation-von-mahlzeiten-2673"
+      },
+      {
+        "id": "5258",
+        "title": "Der Elektroherd – Funktion & Kochfeldtechnik",
+        "folder": "der-elektroherd-5258"
+      },
+      {
+        "id": "2508",
+        "title": "Wie funktioniert ein Dampfkochtopf (Schnellkochen & Gartechnik)",
+        "folder": "wie-funktioniert-ein-dampfkochtopf-2508"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=kochen+hauswirtschaft&t=3752"
@@ -166,6 +176,11 @@ export const hauswirtschaftTopics: Record<string, HauswirtschaftTopic> = {
         "id": "2674",
         "title": "Raumgestaltung und Inneneinrichtung im Haushalt",
         "folder": "raumgestaltung-und-inneneinrichtung-2674"
+      },
+      {
+        "id": "innenstadtsterben-konsumwandel",
+        "title": "Konsumwandel: Online-Shopping vs. Einzelhandel",
+        "folder": "geisterstaedte-statt-einkaufsmeilen-das-grosse-sterben-der-innenstadtgeschaefte"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=haushaltsbuch+finanzen&t=3752"
@@ -219,6 +234,11 @@ export const hauswirtschaftTopics: Record<string, HauswirtschaftTopic> = {
         "id": "2664",
         "title": "Handarbeitstechniken – Nähen, Stricken, Häkeln",
         "folder": "handarbeitstechniken-nahen-stricken-hakeln-2664"
+      },
+      {
+        "id": "5179",
+        "title": "Seifen und Waschmittel – Tenside & Wirkungsweise",
+        "folder": "seifen-und-waschmittel-5179"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=waeschepflege+reinigung+nachhaltigkeit&t=3752"
