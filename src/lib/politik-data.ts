@@ -1,4 +1,4 @@
-export interface H5PExercise {
+export interface PolitikExercise {
   id: string;
   title: string;
   folder: string;
@@ -11,7 +11,7 @@ export interface PolitikTopic {
   shortDesc: string;
   longDesc: string;
   keyPoints: string[];
-  exercises: H5PExercise[];
+  exercises: PolitikExercise[];
   worksheetLink?: string;
 }
 
@@ -76,8 +76,7 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "id": "5236",
         "title": "Athen und die attische Demokratie in Griechenland",
         "folder": "athen-und-die-attische-demokratie-in-griechenland-5236"
-      }
-    ,
+      },
       {
         "id": "3489",
         "title": "Das Demonstrationsrecht",
@@ -92,8 +91,7 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "id": "2357",
         "title": "Geschichte des Strafrechts & Rechtsstaatlichkeit",
         "folder": "die-nuklearkatastrophe-von-tschernobyl-11-2357"
-      }
-    ,
+      },
       {
         "id": "6488",
         "title": "Der globale Kampf zwischen Demokratie und Autokratie",
@@ -113,6 +111,16 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "id": "5882",
         "title": "Grundlagen der politischen Philosophie",
         "folder": "politische-philosophie-grundlagen-5882"
+      },
+      {
+        "id": "die-bundeswehr-streitkraefte-deutschlands",
+        "title": "Die Bundeswehr – Streitkräfte Deutschlands",
+        "folder": "die-bundeswehr-streitkraefte-deutschlands"
+      },
+      {
+        "id": "die-nachrichtendienste-des-bundes",
+        "title": "Die Nachrichtendienste des Bundes",
+        "folder": "die-nachrichtendienste-des-bundes"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=demokratie+grundgesetz&t=3752"
@@ -160,8 +168,7 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "id": "2783",
         "title": "Die Theorie der politischen Gerechtigkeit von Rawls",
         "folder": "die-theorie-der-politischen-gerechtigkeit-von-rawls-2783"
-      }
-    ,
+      },
       {
         "id": "2861",
         "title": "Menschenrechte und ihre universelle Bedeutung",
@@ -217,8 +224,7 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "id": "3559",
         "title": "Korruption",
         "folder": "korruption-3559"
-      }
-    ,
+      },
       {
         "id": "3591",
         "title": "Sozialismus",
@@ -243,8 +249,7 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "id": "2920",
         "title": "Der Islamische Gottesstaat Iran",
         "folder": "der-islamische-gottesstaat-iran-2920"
-      }
-    ,
+      },
       {
         "id": "2768",
         "title": "Moral und Gesetzgebung im demokratischen Staat",
@@ -282,11 +287,6 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "folder": "der-aufstieg-des-politischen-populismus-in-europa-2-6555"
       },
       {
-        "id": "6551",
-        "title": "Der globale Kampf zwischen Demokratie und Autokratie",
-        "folder": "der-globale-kampf-zwischen-demokratie-und-autokratie-2-6551"
-      },
-      {
         "id": "3579",
         "title": "Populismus",
         "folder": "populismus-3579"
@@ -305,8 +305,7 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "id": "2322",
         "title": "Der Islamische Staat",
         "folder": "der-islamische-staat-2322"
-      }
-    ,
+      },
       {
         "id": "demokratie-am-abgrund-die-kriterien-der-verfassungsfeindlichkeit",
         "title": "Demokratie am Abgrund – Kriterien der Verfassungsfeindlichkeit",
@@ -321,8 +320,7 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "id": "abwehrschlacht-gegen-radikale-strategien-gegen-extremismus-im-netz",
         "title": "Abwehrschlacht gegen Radikale – Strategien gegen Extremismus im Netz",
         "folder": "abwehrschlacht-gegen-radikale-strategien-gegen-extremismus-im-netz"
-      }
-    ,
+      },
       {
         "id": "6480",
         "title": "Der Aufstieg des Populismus in Europa",
@@ -384,14 +382,12 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "id": "3118",
         "title": "Landtagswahl 2024 in Thüringen",
         "folder": "landtagswahl-2024-in-thuringen-3118"
-      }
-    ,
+      },
       {
         "id": "die-bundesversammlung-in-deutschland",
         "title": "Die Bundesversammlung in Deutschland",
         "folder": "die-bundesversammlung-in-deutschland"
-      }
-    ,
+      },
       {
         "id": "3119",
         "title": "Die Nationalratswahl 2024 in Österreich",
@@ -457,8 +453,7 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "id": "3285",
         "title": "Sahra Wagenknecht",
         "folder": "sahra-wagenknecht-3285"
-      }
-    ,
+      },
       {
         "id": "3537",
         "title": "Geschichte der deutschen Parteienlandschaft",
@@ -468,8 +463,7 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "id": "das-manifest-der-rechten-ein-tiefer-blick-in-das-afd-programm",
         "title": "Das Manifest der Rechten – Ein tiefer Blick in das AfD-Programm",
         "folder": "das-manifest-der-rechten-ein-tiefer-blick-in-das-afd-programm"
-      }
-    ,
+      },
       {
         "id": "6391",
         "title": "Das Parteiensystem in der Schweiz",
@@ -546,12 +540,6 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "id": "3184",
         "title": "Escape Room \"Das politische System in Deutschland\"",
         "folder": "escape-room-quot-das-politische-system-in-deutschland-quot-3184"
-      }
-    ,
-      {
-        "id": "944",
-        "title": "Die Verfassungsorgane der Bundesrepublik Deutschland",
-        "folder": "verfassungsorgane-944"
       },
       {
         "id": "3581",
@@ -599,19 +587,8 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "folder": "der-kreistag-in-deutschland"
       },
       {
-        "id": "die-bundeswehr-streitkraefte-deutschlands",
-        "title": "Die Bundeswehr - Streitkräfte Deutschlands",
-        "folder": "die-bundeswehr-streitkraefte-deutschlands"
-      },
-      {
-        "id": "die-nachrichtendienste-des-bundes",
-        "title": "Die Nachrichtendienste des Bundes",
-        "folder": "die-nachrichtendienste-des-bundes"
-      }
-    ,
-      {
         "id": "9100",
-        "title": "Das Amt des Bundeskanzlers",
+        "title": "Der Bundeskanzler der Bundesrepublik Deutschland",
         "folder": "der-bundeskanzler-der-bundesrepublik-deutschland"
       }
     ],
@@ -701,8 +678,7 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "id": "305",
         "title": "Staaten Europas",
         "folder": "staaten-europas-305"
-      }
-    ,
+      },
       {
         "id": "4652",
         "title": "Das EU-Defizitverfahren",
@@ -722,8 +698,7 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "id": "abhaengigkeit-europas-von-auslaendischen-tech-konzernen",
         "title": "Abhängigkeit Europas von ausländischen Tech-Konzernen",
         "folder": "abhaengigkeit-europas-von-auslaendischen-tech-konzernen"
-      }
-    ,
+      },
       {
         "id": "308",
         "title": "Entwicklung und Erweiterung der Europäischen Union",
@@ -751,7 +726,6 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "title": "Die UNO",
         "folder": "die-uno-953"
       },
-      
       {
         "id": "3074",
         "title": "Die Blauhelmtruppen der UNO",
@@ -771,8 +745,7 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "id": "6613",
         "title": "Die Rolle Chinas in der Weltwirtschaft und Politik",
         "folder": "die-rolle-chinas-in-der-weltwirtschaft-und-politik-6613"
-      }
-    ,
+      },
       {
         "id": "aussenpolitik-der-bundesrepublik-deutschland",
         "title": "Außenpolitik der Bundesrepublik Deutschland",
@@ -822,8 +795,7 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "id": "2962",
         "title": "Die Krimkrise 2015",
         "folder": "die-krimkrise-2015-2962"
-      }
-    ,
+      },
       {
         "id": "5695",
         "title": "Die UNO-City Wien als internationales Zentrum",
@@ -890,14 +862,12 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "id": "6615",
         "title": "Die Rolle der sozialen Medien im Krieg",
         "folder": "die-rolle-der-sozialen-medien-im-krieg-6615"
-      }
-    ,
+      },
       {
         "id": "rechtliche-aspekte-biometrischer-ueberwachung",
         "title": "Rechtliche Aspekte biometrischer Überwachung",
         "folder": "rechtliche-aspekte-biometrischer-ueberwachung"
-      }
-    ,
+      },
       {
         "id": "9103",
         "title": "Deepfakes, Desinformation und digitale Wahlmanipulation",
@@ -956,16 +926,10 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "folder": "zuwanderung-und-integration-ein-weltweites-phanomen-5578"
       },
       {
-        "id": "5542",
-        "title": "Migration und ihre Auswirkungen auf die wirtschaftliche Entwicklung",
-        "folder": "migration-und-ihre-auswirkungen-auf-die-wirtschaftliche-entwicklung-2-5542"
-      },
-      {
         "id": "5550",
         "title": "Migration und ihre Rolle in der Globalisierung",
         "folder": "migration-und-ihre-rolle-in-der-globalisierung-5550"
-      }
-    ,
+      },
       {
         "id": "3487",
         "title": "Das Asylrecht",
@@ -991,12 +955,6 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "title": "Die Flüchtlingskrise",
         "folder": "die-fluchtlingskrise-1036"
       },
-      {
-        "id": "5543",
-        "title": "Migrationstrends und ihre Auswirkungen auf Gesellschaften",
-        "folder": "migrationstrends-und-ihre-auswirkungen-auf-gesellschaften-2-5543"
-      }
-    ,
       {
         "id": "9106",
         "title": "Migration und der globale Arbeitsmarkt",
@@ -1083,8 +1041,7 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "id": "4454",
         "title": "Respektvoller Umgang mit Vielfalt",
         "folder": "respektvoller-umgang-mit-vielfalt-4454"
-      }
-    ,
+      },
       {
         "id": "3491",
         "title": "Das Ehrenamt",
@@ -1178,8 +1135,7 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "id": "4659",
         "title": "Was ist ein Sondervermögen",
         "folder": "was-ist-ein-sondervermogen-4659"
-      }
-    ,
+      },
       {
         "id": "die-sozialversicherung-in-deutschland",
         "title": "Die Sozialversicherung in Deutschland",
@@ -1214,8 +1170,7 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "id": "auswirkungen-von-plattformkapitalismus-auf-arbeitsrechte",
         "title": "Auswirkungen von Plattformkapitalismus auf Arbeitsrechte",
         "folder": "auswirkungen-von-plattformkapitalismus-auf-arbeitsrechte"
-      }
-    ,
+      },
       {
         "id": "4655",
         "title": "Staatshaushalt und Staatsschulden",
@@ -1285,8 +1240,7 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "id": "2750",
         "title": "Der Konflikt zwischen Freiheit und Sicherheit",
         "folder": "der-konflikt-zwischen-freiheit-und-sicherheit-2750"
-      }
-    ,
+      },
       {
         "id": "lobbyismus-im-verborgenen-wie-einfluesterer-unsere-gesetze-diktieren",
         "title": "Lobbyismus im Verborgenen – Wie Einflüsterer unsere Gesetze diktieren",
@@ -1306,8 +1260,7 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "id": "1134",
         "title": "Verbraucherpolitik",
         "folder": "verbraucherpolitik-1134"
-      }
-    ,
+      },
       {
         "id": "3554",
         "title": "Klimapolitik und globale Herausforderungen",
