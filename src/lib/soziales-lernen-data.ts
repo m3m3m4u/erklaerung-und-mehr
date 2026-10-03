@@ -1,4 +1,4 @@
-export interface H5PExercise {
+export interface SozialesLernenExercise {
   id: string;
   title: string;
   folder: string;
@@ -11,7 +11,7 @@ export interface SozialesLernenTopic {
   shortDesc: string;
   longDesc: string;
   keyPoints: string[];
-  exercises: H5PExercise[];
+  exercises: SozialesLernenExercise[];
   worksheetLink?: string;
 }
 
@@ -77,6 +77,16 @@ export const sozialesLernenTopics: Record<string, SozialesLernenTopic> = {
         "id": "789",
         "title": "Emotionsarbeit im Alltag",
         "folder": "emotionsarbeit-789"
+      },
+      {
+        "id": "5741",
+        "title": "Aggression und Gewalt verstehen & abbauen",
+        "folder": "aggression-und-gewalt-5741"
+      },
+      {
+        "id": "796",
+        "title": "Gefühle erkennen und benennen",
+        "folder": "gefuhle-796"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Emotionen+Gefuehle+Soziales+Lernen&t=3752"
@@ -327,6 +337,11 @@ export const sozialesLernenTopics: Record<string, SozialesLernenTopic> = {
         "id": "2858",
         "title": "Konfliktlösung und gewaltfreie Kommunikation im Dialog",
         "folder": "konfliktlosung-und-gewaltfreie-kommunikation-2858"
+      },
+      {
+        "id": "3141",
+        "title": "Aktives Zuhören – Wie du anderen wirklich zuhörst",
+        "folder": "aktives-zuhoren-wie-du-anderen-wirklich-zuhorst-3141"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Gewaltfreie+Kommunikation+Feedback&t=3752"
@@ -374,6 +389,11 @@ export const sozialesLernenTopics: Record<string, SozialesLernenTopic> = {
         "id": "4435",
         "title": "Fair Play und Sportsgeist – Regeln des Miteinanders",
         "folder": "fair-play-und-sportsgeist-4435"
+      },
+      {
+        "id": "3147",
+        "title": "Die Kraft der Kompromisse – Gemeinsam Lösungen finden",
+        "folder": "die-kraft-der-kompromisse-wie-man-gemeinsam-losungen-findet-3147"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Konfliktloesung+Streitschlichtung+Fair+Play&t=3752"

@@ -810,6 +810,16 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "id": "9102",
         "title": "Rohstoffabhängigkeiten und Geopolitik",
         "folder": "rohstoffabhaengigkeiten-und-geopolitik"
+      },
+      {
+        "id": "3344",
+        "title": "Internationale Organisationen im Überblick",
+        "folder": "internationale-organisationen-3344"
+      },
+      {
+        "id": "3197",
+        "title": "Escape Room: Internationale Organisationen",
+        "folder": "escape-room-quot-internationale-organisationen-quot-3197"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=uno+voelkerrecht&t=3752"
@@ -1275,6 +1285,21 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "id": "6686",
         "title": "Verhältnis von Kirche und Staat",
         "folder": "kirche-und-politik-6686"
+      },
+      {
+        "id": "2886",
+        "title": "Al-Qaida und die Bedrohung durch internationalen Terrorismus",
+        "folder": "al-qaida-2886"
+      },
+      {
+        "id": "5427",
+        "title": "Die diplomatischen Beziehungen der USA zum Iran",
+        "folder": "die-beziehung-der-usa-zum-iran-5427"
+      },
+      {
+        "id": "pol-iran-atombombe",
+        "title": "Geopolitik & Non-Proliferation: Der Konflikt um das iranische Atomprogramm",
+        "folder": "warum-der-iran-keine-atombombe-haben-darf"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=ethik+widerstand&t=3752"

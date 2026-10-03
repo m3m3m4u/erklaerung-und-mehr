@@ -1,4 +1,4 @@
-export interface H5PExercise {
+export interface TechnikExercise {
   id: string;
   title: string;
   folder: string;
@@ -11,7 +11,7 @@ export interface TechnikTopic {
   shortDesc: string;
   longDesc: string;
   keyPoints: string[];
-  exercises: H5PExercise[];
+  exercises: TechnikExercise[];
   worksheetLink?: string;
 }
 
@@ -222,6 +222,11 @@ export const technikTopics: Record<string, TechnikTopic> = {
         "id": "558",
         "title": "Lerninhalt: Gewindeschneider und Bohrer",
         "folder": "lerninhalt-gewindeschneider-und-bohrer-558"
+      },
+      {
+        "id": "573",
+        "title": "Wärmebehandlung von Metallen (Härten & Glühen)",
+        "folder": "lerninhalt-warmebehandlung-573"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Fertigungstechnik+Werkzeuge&t=1251"
@@ -726,6 +731,11 @@ export const technikTopics: Record<string, TechnikTopic> = {
         "id": "uncanny-valley",
         "title": "Das Uncanny Valley und warum fast echte Roboter gruselig wirken",
         "folder": "das-uncanny-valley-und-warum-fast-echte-roboter-gruselig-wirken"
+      },
+      {
+        "id": "5390",
+        "title": "Geschichte der Telekommunikation",
+        "folder": "geschichte-der-telekommunikation-5390"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Computer+Digitaltechnik&t=1251"
@@ -917,6 +927,11 @@ export const technikTopics: Record<string, TechnikTopic> = {
         "id": "bumerang",
         "title": "Wie funktioniert ein Bumerang",
         "folder": "wie-funktioniert-ein-bumerang"
+      },
+      {
+        "id": "tech-hovercraft",
+        "title": "Funktionsweise: Das Hovercraft (Luftkissenboot)",
+        "folder": "wie-funktioniert-ein-hovercraft"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Luftfahrt+Schifffahrt+Technik&t=1251"
@@ -1179,6 +1194,11 @@ export const technikTopics: Record<string, TechnikTopic> = {
         "id": "2554",
         "title": "Wie funktioniert ein Rasierapparat",
         "folder": "wie-funktioniert-ein-rasierapparat-2554"
+      },
+      {
+        "id": "2536",
+        "title": "Funktionsweise: Der Kühlschrank",
+        "folder": "wie-funktioniert-ein-kuhlschrank-2536"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Haushaltsgeraete+Alltagstechnik&t=1251"
@@ -1367,6 +1387,11 @@ export const technikTopics: Record<string, TechnikTopic> = {
         "id": "2576",
         "title": "Wie funktioniert ein walkman",
         "folder": "wie-funktioniert-ein-walkman-2576"
+      },
+      {
+        "id": "tech-mikrofon",
+        "title": "Funktionsweise: Das Mikrofon",
+        "folder": "wie-funktioniert-ein-mikrofon"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Tontechnik+Musikproduktion&t=1251"

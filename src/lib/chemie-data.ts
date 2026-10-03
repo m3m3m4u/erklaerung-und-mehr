@@ -1,4 +1,4 @@
-export interface H5PExercise {
+export interface ChemieExercise {
   id: string;
   title: string;
   folder: string;
@@ -11,11 +11,11 @@ export interface ChemieTopic {
   shortDesc: string;
   longDesc: string;
   keyPoints: string[];
-  exercises: H5PExercise[];
+  exercises: ChemieExercise[];
   worksheetLink?: string;
 }
 
-export const chemieCategories = [
+export const chemieCategories: string[] = [
   "Allgemeine & Anorganische Chemie",
   "Reaktionslehre & Physikalische Chemie",
   "Metalle, Werkstoffe & Elektrochemie",
@@ -69,8 +69,7 @@ export const chemieTopics: Record<string, ChemieTopic> = {
         "id": "282",
         "title": "Atombindungen",
         "folder": "atombindungen-282"
-      }
-    ,
+      },
       {
         "id": "2237",
         "title": "Physik und Chemie: Gemeinsamkeiten und Unterschiede",
@@ -122,8 +121,7 @@ export const chemieTopics: Record<string, ChemieTopic> = {
         "id": "3639",
         "title": "Alfred Nobel - Chemische Innovationen und Dynamit",
         "folder": "alfred-nobel-3639"
-      }
-    ,
+      },
       {
         "id": "3867",
         "title": "Friedrich Wöhler (Harnstoffsynthese & Organische Chemie)",
@@ -143,6 +141,11 @@ export const chemieTopics: Record<string, ChemieTopic> = {
         "id": "4206",
         "title": "Robert Bunsen (Spektralanalyse & Bunsenbrenner)",
         "folder": "robert-bunsen-4206"
+      },
+      {
+        "id": "320",
+        "title": "Geschichte der Chemie: Von der Steinzeit zur Alchemie (Video & Quiz)",
+        "folder": "geschichte-der-chemie-320"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=geschichte+der+chemie&t=3752"
@@ -220,8 +223,7 @@ export const chemieTopics: Record<string, ChemieTopic> = {
         "id": "1195",
         "title": "Das Edelgas Radon",
         "folder": "schwefel-1195"
-      }
-    ,
+      },
       {
         "id": "1129",
         "title": "Helium – Eigenschaften und Vorkommen",
@@ -293,8 +295,7 @@ export const chemieTopics: Record<string, ChemieTopic> = {
         "id": "5181",
         "title": "Synthesen, Analysen und Austauschreaktionen",
         "folder": "synthesen-analysen-und-austauschreaktionen-5181"
-      }
-    ,
+      },
       {
         "id": "2532",
         "title": "Funktionsweise chemischer Katalysatoren",
@@ -450,8 +451,7 @@ export const chemieTopics: Record<string, ChemieTopic> = {
         "id": "1175",
         "title": "Zink",
         "folder": "zink-1175"
-      }
-    ,
+      },
       {
         "id": "699",
         "title": "Metalle und ihre Eigenschaften",
@@ -518,8 +518,7 @@ export const chemieTopics: Record<string, ChemieTopic> = {
         "id": "5156",
         "title": "Eisen, Stahl und Edelstahl",
         "folder": "eisen-stahl-und-edelstahl-5156"
-      }
-    ,
+      },
       {
         "id": "1189",
         "title": "Platin – Eigenschaften eines edlen Katalysatormetalls",
@@ -690,8 +689,7 @@ export const chemieTopics: Record<string, ChemieTopic> = {
         "id": "7147",
         "title": "Wie funktioniert die Seifenherstellung",
         "folder": "wie-funktioniert-die-seifenherstellung"
-      }
-    ,
+      },
       {
         "id": "5140",
         "title": "Arten von Kunststoffen (Thermoplaste, Duroplaste, Elastomere)",
@@ -794,8 +792,7 @@ export const chemieTopics: Record<string, ChemieTopic> = {
         "id": "gaerung",
         "title": "Wie funktioniert die Gärung",
         "folder": "wie-funktioniert-die-gaerung"
-      }
-    ,
+      },
       {
         "id": "9300",
         "title": "Biochemie der Photosynthese",
@@ -841,6 +838,11 @@ export const chemieTopics: Record<string, ChemieTopic> = {
         "id": "7170",
         "title": "Wie funktioniert die Herstellung von Papier",
         "folder": "wie-funktioniert-die-herstellung-von-papier"
+      },
+      {
+        "id": "5148",
+        "title": "Der Baustoff Beton – Zusammensetzung & Chemie",
+        "folder": "der-baustoff-beton-5148"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=glas+zement+werkstoffe&t=3752"
@@ -883,8 +885,7 @@ export const chemieTopics: Record<string, ChemieTopic> = {
         "id": "7155",
         "title": "Wie funktioniert die CO₂-Abscheidung (Carbon Capture)",
         "folder": "wie-funktioniert-die-co-abscheidung-carbon-capture"
-      }
-    ,
+      },
       {
         "id": "9302",
         "title": "Wasserstoffchemie und Brennstoffzellen-Mobilität",

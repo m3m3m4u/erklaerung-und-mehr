@@ -320,6 +320,11 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "id": "8704",
         "title": "Wie funktioniert ein optisches Glasfaserkabel",
         "folder": "wie-funktioniert-ein-optisches-kabel-glasfaser"
+      },
+      {
+        "id": "2254",
+        "title": "Lichtgeschwindigkeit & Lichtausbreitung",
+        "folder": "lichtgeschwindigkeit-2254"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=licht+schatten+optik&t=3752"
@@ -1043,6 +1048,11 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "id": "2533",
         "title": "Wie funktioniert ein Kernreaktor",
         "folder": "wie-funktioniert-ein-kernreaktor-2533"
+      },
+      {
+        "id": "2251",
+        "title": "Windkraftwerke & Windenergie",
+        "folder": "windkraftwerke-2251"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=kraftwerke+energie&t=3752"
@@ -1680,6 +1690,11 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "id": "3189",
         "title": "Escape Room \"Strom im Alltag\"",
         "folder": "escape-room-quot-strom-im-alltag-quot-3189"
+      },
+      {
+        "id": "3190",
+        "title": "Escape Room: Wärmelehre Grundlagen",
+        "folder": "escape-room-quot-warmelehre-grundlagen-quot-3190"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=escape+room+physik&t=3752"
