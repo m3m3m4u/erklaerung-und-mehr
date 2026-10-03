@@ -920,11 +920,6 @@ export const chemieTopics: Record<string, ChemieTopic> = {
         "id": "3233",
         "title": "Escape Room \"Nährstoffe & Biochemie\"",
         "folder": "escape-room-quot-nahrstoffe-quot-3233"
-      },
-      {
-        "id": "2238",
-        "title": "Physik und Chemie im Vergleich - Rätsel und Zuordnungen",
-        "folder": "physik-und-chemie-gemeinsamkeiten-und-unterschiede-2238"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=escape+room+chemie&t=3752"
