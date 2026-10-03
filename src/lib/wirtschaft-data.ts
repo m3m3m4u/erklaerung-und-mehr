@@ -2097,6 +2097,12 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "title": "Optimierung von Profilen auf Karriereplattformen",
         "folder": "optimierung-von-profilen-auf-karriereplattformen"
       }
+    ,
+      {
+        "id": "1204",
+        "title": "Amazon",
+        "folder": "amazon-1204"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=e-commerce+onlineshop&t=3752"
   },

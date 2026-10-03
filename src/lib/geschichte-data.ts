@@ -23,7 +23,8 @@ export const geschichteCategories: string[] = [
   "Erster Weltkrieg & Zwischenkriegszeit",
   "Nationalsozialismus & Zweiter Weltkrieg",
   "Kalter Krieg & Deutsche Teilung",
-  "Weltgeschichte & Länderporträts"
+  "Weltgeschichte & Länderporträts",
+  "Historische Chronik & Epochen-Zeitleisten"
 ];
 
 export const geschichteTopics: Record<string, GeschichteTopic> = {
@@ -3903,6 +3904,1977 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "5416",
         "title": "Was wäre, wenn es die DDR immer noch geben würde …?",
         "folder": "was-ware-wenn-es-die-ddr-immer-noch-geben-wurde-5416"
+      }
+    ]
+  },
+
+  "chronik-1500-bis-1590-renaissance-und-reformation": {
+    "slug": "chronik-1500-bis-1590-renaissance-und-reformation",
+    "title": "Chronik 1500–1590: Renaissance & Reformation",
+    "category": "Historische Chronik & Epochen-Zeitleisten",
+    "shortDesc": "Schlüsselereignisse der Reformation, Renaissance und des 16. Jahrhunderts im Jahrzehntüberblick.",
+    "longDesc": "Das 16. Jahrhundert war eine Zeit des radikalen Umbruchs in Europa: Martin Luthers Thesenanschlag 1517 leitete die Reformation ein, der Buchdruck revolutionierte die Verbreitung von Wissen, und die europäische Expansion veränderte das weltweite Machtgefüge.",
+    "keyPoints": [
+      "1517: Martin Luther und der Beginn der Reformation",
+      "Bauernkriege und gesellschaftliche Umbrüche im Heiligen Römischen Reich",
+      "Wissenschaftliche Entdeckungen der Renaissance und das kopernikanische Weltbild",
+      "Religionskriege und der Augsburger Religionsfrieden 1555"
+    ],
+    "exercises": [
+      {
+        "id": "4792",
+        "title": "Das Jahr 1500",
+        "folder": "1500-4792"
+      },
+      {
+        "id": "4793",
+        "title": "Das Jahr 1510",
+        "folder": "1510-4793"
+      },
+      {
+        "id": "4794",
+        "title": "Das Jahr 1520",
+        "folder": "1520-4794"
+      },
+      {
+        "id": "4795",
+        "title": "Das Jahr 1530",
+        "folder": "1530-4795"
+      },
+      {
+        "id": "4796",
+        "title": "Das Jahr 1540",
+        "folder": "1540-4796"
+      },
+      {
+        "id": "4797",
+        "title": "Das Jahr 1550",
+        "folder": "1550-4797"
+      },
+      {
+        "id": "4798",
+        "title": "Das Jahr 1560",
+        "folder": "1560-4798"
+      },
+      {
+        "id": "4799",
+        "title": "Das Jahr 1570",
+        "folder": "1570-4799"
+      },
+      {
+        "id": "4800",
+        "title": "Das Jahr 1580",
+        "folder": "1580-4800"
+      },
+      {
+        "id": "4801",
+        "title": "Das Jahr 1590",
+        "folder": "1590-4801"
+      }
+    ]
+  },
+
+  "chronik-1600-bis-1690-barock-und-dreissigjaehriger-krieg": {
+    "slug": "chronik-1600-bis-1690-barock-und-dreissigjaehriger-krieg",
+    "title": "Chronik 1600–1690: Barock & Dreißigjähriger Krieg",
+    "category": "Historische Chronik & Epochen-Zeitleisten",
+    "shortDesc": "Das 17. Jahrhundert: Dreißigjähriger Krieg, Westfälischer Friede und Zeitalter des Barock.",
+    "longDesc": "Zwischen 1618 und 1648 verwüstete der Dreißigjährige Krieg weite Teile Mitteleuropas. Mit dem Westfälischen Frieden von 1648 entstand die Basis des modernen Völkerrechts und souveräner Staaten, während am Hof von Versailles der französische Absolutismus erblühte.",
+    "keyPoints": [
+      "1618–1648: Der Dreißigjährige Krieg – Konfessionskrieg und europäischer Machtkampf",
+      "1648: Westfälischer Friede zu Münster und Osnabrück",
+      "Aufstieg des Absolutismus unter Ludwig XIV. in Frankreich",
+      "Wissenschaftliche Revolution: Galileo Galilei, Isaac Newton und René Descartes"
+    ],
+    "exercises": [
+      {
+        "id": "4802",
+        "title": "Das Jahr 1600",
+        "folder": "1600-4802"
+      },
+      {
+        "id": "4803",
+        "title": "Das Jahr 1610",
+        "folder": "1610-4803"
+      },
+      {
+        "id": "4804",
+        "title": "Das Jahr 1620",
+        "folder": "1620-4804"
+      },
+      {
+        "id": "4805",
+        "title": "Das Jahr 1630",
+        "folder": "1630-4805"
+      },
+      {
+        "id": "4806",
+        "title": "Das Jahr 1640",
+        "folder": "1640-4806"
+      },
+      {
+        "id": "4807",
+        "title": "Das Jahr 1650",
+        "folder": "1650-4807"
+      },
+      {
+        "id": "4808",
+        "title": "Das Jahr 1660",
+        "folder": "1660-4808"
+      },
+      {
+        "id": "4809",
+        "title": "Das Jahr 1670",
+        "folder": "1670-4809"
+      },
+      {
+        "id": "4810",
+        "title": "Das Jahr 1680",
+        "folder": "1680-4810"
+      },
+      {
+        "id": "4811",
+        "title": "Das Jahr 1690",
+        "folder": "1690-4811"
+      }
+    ]
+  },
+
+  "chronik-1701-bis-1720-fruehe-aufklaerung": {
+    "slug": "chronik-1701-bis-1720-fruehe-aufklaerung",
+    "title": "Chronik 1701–1720: Frühaufklärung & Großer Nordischer Krieg",
+    "category": "Historische Chronik & Epochen-Zeitleisten",
+    "shortDesc": "Europäische Mächteverschiebungen, Spanischer Erbfolgekrieg und Frühaufklärung.",
+    "longDesc": "Zu Beginn des 18. Jahrhunderts rangen die europäischen Großmächte im Spanischen Erbfolgekrieg und im Großen Nordischen Krieg um die Vorherrschaft. Zugleich gewannen die Ideen der Frühaufklärung an Einfluss.",
+    "keyPoints": [
+      "Spanischer Erbfolgekrieg (1701–1714) und Frieden von Utrecht",
+      "Großer Nordischer Krieg und der Aufstieg Russlands unter Peter dem Großen",
+      "Königskrönung Friedrichs I. in Preußen (1701)",
+      "Frühe Aufklärungsphilosophie: Vernunft und Naturrecht"
+    ],
+    "exercises": [
+      {
+        "id": "4813",
+        "title": "Das Jahr 1701",
+        "folder": "1701-4813"
+      },
+      {
+        "id": "4814",
+        "title": "Das Jahr 1702",
+        "folder": "1702-4814"
+      },
+      {
+        "id": "4815",
+        "title": "Das Jahr 1703",
+        "folder": "1703-4815"
+      },
+      {
+        "id": "4816",
+        "title": "Das Jahr 1704",
+        "folder": "1704-4816"
+      },
+      {
+        "id": "4817",
+        "title": "Das Jahr 1705",
+        "folder": "1705-4817"
+      },
+      {
+        "id": "4818",
+        "title": "Das Jahr 1706",
+        "folder": "1706-4818"
+      },
+      {
+        "id": "4819",
+        "title": "Das Jahr 1707",
+        "folder": "1707-4819"
+      },
+      {
+        "id": "4820",
+        "title": "Das Jahr 1708",
+        "folder": "1708-4820"
+      },
+      {
+        "id": "4821",
+        "title": "Das Jahr 1709",
+        "folder": "1709-4821"
+      },
+      {
+        "id": "4823",
+        "title": "Das Jahr 1711",
+        "folder": "1711-4823"
+      },
+      {
+        "id": "4824",
+        "title": "Das Jahr 1712",
+        "folder": "1712-4824"
+      },
+      {
+        "id": "4825",
+        "title": "Das Jahr 1713",
+        "folder": "1713-4825"
+      },
+      {
+        "id": "4826",
+        "title": "Das Jahr 1714",
+        "folder": "1714-4826"
+      },
+      {
+        "id": "4827",
+        "title": "Das Jahr 1715",
+        "folder": "1715-4827"
+      },
+      {
+        "id": "4828",
+        "title": "Das Jahr 1716",
+        "folder": "1716-4828"
+      },
+      {
+        "id": "4829",
+        "title": "Das Jahr 1717",
+        "folder": "1717-4829"
+      },
+      {
+        "id": "4830",
+        "title": "Das Jahr 1718",
+        "folder": "1718-4830"
+      },
+      {
+        "id": "4831",
+        "title": "Das Jahr 1719",
+        "folder": "1719-4831"
+      }
+    ]
+  },
+
+  "chronik-1721-bis-1740-absolutismus-in-europa": {
+    "slug": "chronik-1721-bis-1740-absolutismus-in-europa",
+    "title": "Chronik 1721–1740: Aufgeklärter Absolutismus & Barockzeit",
+    "category": "Historische Chronik & Epochen-Zeitleisten",
+    "shortDesc": "Pragmatische Sanktion, preußischer Militarismus und Kulturblüte des Spätbarock.",
+    "longDesc": "In den 1720er- und 1730er-Jahren festigte sich in Österreich die Erbfolge Maria Theresias durch die Pragmatische Sanktion, während der Soldatenkönig Friedrich Wilhelm I. in Preußen Heer und Verwaltung straff organisierte.",
+    "keyPoints": [
+      "Konsolidierung der mitteleuropäischen Monarchien Österreich und Preußen",
+      "Die Pragmatische Sanktion von 1713 und ihre Anerkennung",
+      "Spätbarock und Rokoko in Kunst, Musik und Architektur",
+      "Wirtschaftlicher Merkantilismus und Kameralismus"
+    ],
+    "exercises": [
+      {
+        "id": "4833",
+        "title": "Das Jahr 1721",
+        "folder": "1721-4833"
+      },
+      {
+        "id": "4834",
+        "title": "Das Jahr 1722",
+        "folder": "1722-4834"
+      },
+      {
+        "id": "4835",
+        "title": "Das Jahr 1723",
+        "folder": "1723-4835"
+      },
+      {
+        "id": "4836",
+        "title": "Das Jahr 1724",
+        "folder": "1724-4836"
+      },
+      {
+        "id": "4837",
+        "title": "Das Jahr 1725",
+        "folder": "1725-4837"
+      },
+      {
+        "id": "4838",
+        "title": "Das Jahr 1726",
+        "folder": "1726-4838"
+      },
+      {
+        "id": "4839",
+        "title": "Das Jahr 1727",
+        "folder": "1727-4839"
+      },
+      {
+        "id": "4840",
+        "title": "Das Jahr 1728",
+        "folder": "1728-4840"
+      },
+      {
+        "id": "4841",
+        "title": "Das Jahr 1729",
+        "folder": "1729-4841"
+      },
+      {
+        "id": "4843",
+        "title": "Das Jahr 1731",
+        "folder": "1731-4843"
+      },
+      {
+        "id": "4844",
+        "title": "Das Jahr 1732",
+        "folder": "1732-4844"
+      },
+      {
+        "id": "4845",
+        "title": "Das Jahr 1733",
+        "folder": "1733-4845"
+      },
+      {
+        "id": "4846",
+        "title": "Das Jahr 1734",
+        "folder": "1734-4846"
+      },
+      {
+        "id": "4847",
+        "title": "Das Jahr 1735",
+        "folder": "1735-4847"
+      },
+      {
+        "id": "4848",
+        "title": "Das Jahr 1736",
+        "folder": "1736-4848"
+      },
+      {
+        "id": "4849",
+        "title": "Das Jahr 1737",
+        "folder": "1737-4849"
+      },
+      {
+        "id": "4850",
+        "title": "Das Jahr 1738",
+        "folder": "1738-4850"
+      },
+      {
+        "id": "4851",
+        "title": "Das Jahr 1739",
+        "folder": "1739-4851"
+      }
+    ]
+  },
+
+  "chronik-1741-bis-1760-schlesische-kriege": {
+    "slug": "chronik-1741-bis-1760-schlesische-kriege",
+    "title": "Chronik 1741–1760: Schlesische Kriege & Siebenjähriger Krieg",
+    "category": "Historische Chronik & Epochen-Zeitleisten",
+    "shortDesc": "Der Dualismus zwischen Preußen und Österreich sowie der globale Siebenjährige Krieg.",
+    "longDesc": "Mit dem Regierungsantritt Friedrichs des Großen 1740 und dem Einmarsch in Schlesien begann der preußisch-österreichische Dualismus. Im Siebenjährigen Krieg (1756–1763) kämpften die Allianzen auch in Übersee um Kolonialmacht.",
+    "keyPoints": [
+      "Schlesische Kriege und Aufstieg Preußens zur fünften europäischen Großmacht",
+      "Maria Theresias Reformen in Österreich: Bildung, Steuern und Militär",
+      "Siebenjähriger Krieg (1756–1763): Erster weltweiter Konflikt mit Kriegsschauplätzen in Nordamerika und Indien",
+      "Die Enzyklopädie von Diderot und d’Alembert als Meilenstein der Aufklärung"
+    ],
+    "exercises": [
+      {
+        "id": "4853",
+        "title": "Das Jahr 1741",
+        "folder": "1741-4853"
+      },
+      {
+        "id": "4854",
+        "title": "Das Jahr 1742",
+        "folder": "1742-4854"
+      },
+      {
+        "id": "4855",
+        "title": "Das Jahr 1743",
+        "folder": "1743-4855"
+      },
+      {
+        "id": "4856",
+        "title": "Das Jahr 1744",
+        "folder": "1744-4856"
+      },
+      {
+        "id": "4857",
+        "title": "Das Jahr 1745",
+        "folder": "1745-4857"
+      },
+      {
+        "id": "4858",
+        "title": "Das Jahr 1746",
+        "folder": "1746-4858"
+      },
+      {
+        "id": "4859",
+        "title": "Das Jahr 1747",
+        "folder": "1747-4859"
+      },
+      {
+        "id": "4860",
+        "title": "Das Jahr 1748",
+        "folder": "1748-4860"
+      },
+      {
+        "id": "4861",
+        "title": "Das Jahr 1749",
+        "folder": "1749-4861"
+      },
+      {
+        "id": "4862",
+        "title": "Das Jahr 1751",
+        "folder": "1751-4862"
+      },
+      {
+        "id": "4863",
+        "title": "Das Jahr 1752",
+        "folder": "1752-4863"
+      },
+      {
+        "id": "4865",
+        "title": "Das Jahr 1754",
+        "folder": "1754-4865"
+      },
+      {
+        "id": "4866",
+        "title": "Das Jahr 1755",
+        "folder": "1755-4866"
+      },
+      {
+        "id": "4867",
+        "title": "Das Jahr 1756",
+        "folder": "1756-4867"
+      },
+      {
+        "id": "4869",
+        "title": "Das Jahr 1758",
+        "folder": "1758-4869"
+      },
+      {
+        "id": "4870",
+        "title": "Das Jahr 1759",
+        "folder": "1759-4870"
+      },
+      {
+        "id": "4871",
+        "title": "Das Jahr 1760",
+        "folder": "1760-4871"
+      }
+    ]
+  },
+
+  "chronik-1761-bis-1780-vorabend-der-revolutionen": {
+    "slug": "chronik-1761-bis-1780-vorabend-der-revolutionen",
+    "title": "Chronik 1761–1780: Sturm und Drang & Amerikanische Unabhängigkeit",
+    "category": "Historische Chronik & Epochen-Zeitleisten",
+    "shortDesc": "Erste Teilung Polens, Amerikanische Unabhängigkeitserklärung und literarischer Sturm und Drang.",
+    "longDesc": "Die 1760er- und 1770er-Jahre brachten welthistorische Zäsuren: 1776 erklärten die 13 nordamerikanischen Kolonien ihre Unabhängigkeit von Großbritannien. In Europa erlebten Literatur und Philosophie den Sturm und Drang.",
+    "keyPoints": [
+      "1776: Die Amerikanische Unabhängigkeitserklärung und Menschenrechte",
+      "1772: Erste Teilung Polens unter Russland, Preußen und Österreich",
+      "Sturm und Drang in der Literatur: Der junge Goethe und Schiller",
+      "James Watts Dampfmaschine (1769) als Startschuss der Industriellen Revolution"
+    ],
+    "exercises": [
+      {
+        "id": "4873",
+        "title": "Das Jahr 1762",
+        "folder": "1762-4873"
+      },
+      {
+        "id": "4874",
+        "title": "Das Jahr 1763",
+        "folder": "1763-4874"
+      },
+      {
+        "id": "4875",
+        "title": "Das Jahr 1764",
+        "folder": "1764-4875"
+      },
+      {
+        "id": "4877",
+        "title": "Das Jahr 1766",
+        "folder": "1766-4877"
+      },
+      {
+        "id": "4878",
+        "title": "Das Jahr 1767",
+        "folder": "1767-4878"
+      },
+      {
+        "id": "4879",
+        "title": "Das Jahr 1768",
+        "folder": "1768-4879"
+      },
+      {
+        "id": "4881",
+        "title": "Das Jahr 1770",
+        "folder": "1770-4881"
+      },
+      {
+        "id": "4882",
+        "title": "Das Jahr 1771",
+        "folder": "1771-4882"
+      },
+      {
+        "id": "4883",
+        "title": "Das Jahr 1772",
+        "folder": "1772-4883"
+      },
+      {
+        "id": "4884",
+        "title": "Das Jahr 1773",
+        "folder": "1773-4884"
+      },
+      {
+        "id": "4885",
+        "title": "Das Jahr 1774",
+        "folder": "1774-4885"
+      },
+      {
+        "id": "4886",
+        "title": "Das Jahr 1775",
+        "folder": "1775-4886"
+      },
+      {
+        "id": "4887",
+        "title": "Das Jahr 1776",
+        "folder": "1776-4887"
+      },
+      {
+        "id": "4889",
+        "title": "Das Jahr 1778",
+        "folder": "1778-4889"
+      },
+      {
+        "id": "4890",
+        "title": "Das Jahr 1779",
+        "folder": "1779-4890"
+      },
+      {
+        "id": "4891",
+        "title": "Das Jahr 1780",
+        "folder": "1780-4891"
+      }
+    ]
+  },
+
+  "chronik-1781-bis-1799-franzoesische-revolution": {
+    "slug": "chronik-1781-bis-1799-franzoesische-revolution",
+    "title": "Chronik 1781–1799: Französische Revolution & Koalitionskriege",
+    "category": "Historische Chronik & Epochen-Zeitleisten",
+    "shortDesc": "1789: Sturm auf die Bastille, Erklärung der Menschenrechte, Schreckensherrschaft und Aufstieg Napoleons.",
+    "longDesc": "Das Ende des Ancien Régime: 1789 stürzte die Französische Revolution die absolute Monarchie. Freiheit, Gleichheit, Brüderlichkeit wurden Leitparolen, gefolgt von der Jakobiner-Diktatur und den Koalitionskriegen bis zum Staatsstreich Napoleons 1799.",
+    "keyPoints": [
+      "1789: Sturm auf die Bastille und Erklärung der Menschen- und Bürgerrechte",
+      "1792–1794: Erste Französische Republik und Phase der Terrorherrschaft (Terreur)",
+      "Erster und Zweiter Koalitionskrieg gegen das revolutionäre Frankreich",
+      "1799: Staatsstreich des 18. Brumaire durch Napoleon Bonaparte"
+    ],
+    "exercises": [
+      {
+        "id": "4893",
+        "title": "Das Jahr 1782",
+        "folder": "1782-4893"
+      },
+      {
+        "id": "4894",
+        "title": "Das Jahr 1783",
+        "folder": "1783-4894"
+      },
+      {
+        "id": "4895",
+        "title": "Das Jahr 1784",
+        "folder": "1784-4895"
+      },
+      {
+        "id": "4896",
+        "title": "Das Jahr 1785",
+        "folder": "1785-4896"
+      },
+      {
+        "id": "4897",
+        "title": "Das Jahr 1786",
+        "folder": "1786-4897"
+      },
+      {
+        "id": "4898",
+        "title": "Das Jahr 1787",
+        "folder": "1787-4898"
+      },
+      {
+        "id": "4899",
+        "title": "Das Jahr 1788",
+        "folder": "1788-4899"
+      },
+      {
+        "id": "4900",
+        "title": "Das Jahr 1789",
+        "folder": "1789-4900"
+      },
+      {
+        "id": "4901",
+        "title": "Das Jahr 1790",
+        "folder": "1790-4901"
+      },
+      {
+        "id": "4902",
+        "title": "Das Jahr 1791",
+        "folder": "1791-4902"
+      },
+      {
+        "id": "5124",
+        "title": "Das Jahr 1792",
+        "folder": "1792-5124"
+      },
+      {
+        "id": "4903",
+        "title": "Das Jahr 1793",
+        "folder": "1793-4903"
+      },
+      {
+        "id": "4904",
+        "title": "Das Jahr 1794",
+        "folder": "1794-4904"
+      },
+      {
+        "id": "4905",
+        "title": "Das Jahr 1795",
+        "folder": "1795-4905"
+      },
+      {
+        "id": "4906",
+        "title": "Das Jahr 1796",
+        "folder": "1796-4906"
+      },
+      {
+        "id": "4907",
+        "title": "Das Jahr 1797",
+        "folder": "1797-4907"
+      },
+      {
+        "id": "4908",
+        "title": "Das Jahr 1798",
+        "folder": "1798-4908"
+      },
+      {
+        "id": "4909",
+        "title": "Das Jahr 1799",
+        "folder": "1799-4909"
+      }
+    ]
+  },
+
+  "chronik-1800-bis-1815-napoleonische-kriege": {
+    "slug": "chronik-1800-bis-1815-napoleonische-kriege",
+    "title": "Chronik 1800–1815: Napoleonische Kriege & Wiener Kongress",
+    "category": "Historische Chronik & Epochen-Zeitleisten",
+    "shortDesc": "Ende des Alten Reiches 1806, Befreiungskriege, Völkerschlacht bei Leipzig und Wiener Kongress 1815.",
+    "longDesc": "Napoleon ordnete die Landkarte Europas neu: 1806 erlosch das Heilige Römische Reich Deutscher Nation. Nach dem Russlandfeldzug 1812 und den Befreiungskriegen ordnete der Wiener Kongress 1814/15 unter Metternich Europa neu.",
+    "keyPoints": [
+      "1804: Krönung Napoleons zum Kaiser und Einführung des Code Civil",
+      "1806: Ende des Heiligen Römischen Reiches Deutscher Nation und Rheinbund",
+      "1813: Völkerschlacht bei Leipzig und Zusammenbruch der napoleonischen Hegemonie",
+      "1815: Wiener Kongress: Restauration, Gleichgewicht der Mächte und Gründung des Deutschen Bundes"
+    ],
+    "exercises": [
+      {
+        "id": "4910",
+        "title": "Das Jahr 1800",
+        "folder": "1800-4910"
+      },
+      {
+        "id": "4911",
+        "title": "Das Jahr 1801",
+        "folder": "1801-4911"
+      },
+      {
+        "id": "4912",
+        "title": "Das Jahr 1802",
+        "folder": "1802-4912"
+      },
+      {
+        "id": "4913",
+        "title": "Das Jahr 1803",
+        "folder": "1803-4913"
+      },
+      {
+        "id": "4914",
+        "title": "Das Jahr 1804",
+        "folder": "1804-4914"
+      },
+      {
+        "id": "4915",
+        "title": "Das Jahr 1805",
+        "folder": "1805-4915"
+      },
+      {
+        "id": "4916",
+        "title": "Das Jahr 1806",
+        "folder": "1806-4916"
+      },
+      {
+        "id": "4917",
+        "title": "Das Jahr 1807",
+        "folder": "1807-4917"
+      },
+      {
+        "id": "4918",
+        "title": "Das Jahr 1808",
+        "folder": "1808-4918"
+      },
+      {
+        "id": "4919",
+        "title": "Das Jahr 1809",
+        "folder": "1809-4919"
+      },
+      {
+        "id": "5125",
+        "title": "Das Jahr 1810",
+        "folder": "1810-5125"
+      },
+      {
+        "id": "4920",
+        "title": "Das Jahr 1811",
+        "folder": "1811-4920"
+      },
+      {
+        "id": "4921",
+        "title": "Das Jahr 1812",
+        "folder": "1812-4921"
+      },
+      {
+        "id": "4922",
+        "title": "Das Jahr 1813",
+        "folder": "1813-4922"
+      },
+      {
+        "id": "4923",
+        "title": "Das Jahr 1814",
+        "folder": "1814-4923"
+      },
+      {
+        "id": "4924",
+        "title": "Das Jahr 1815",
+        "folder": "1815-4924"
+      }
+    ]
+  },
+
+  "chronik-1816-bis-1835-restauration-und-vormaerz": {
+    "slug": "chronik-1816-bis-1835-restauration-und-vormaerz",
+    "title": "Chronik 1816–1835: Restauration & Deutscher Bund",
+    "category": "Historische Chronik & Epochen-Zeitleisten",
+    "shortDesc": "Karlsbader Beschlüsse, Hambacher Fest 1832 und die erste Eisenbahn in Deutschland 1835.",
+    "longDesc": "Die Epoche des Biedermeier und des beginnenden Vormärz war geprägt von Zensur und politischer Repression (Karlsbader Beschlüsse 1819), aber auch vom unaufhaltsamen Drang nach Freiheit, Einheit und der ersten deutschen Eisenbahnfahrt 1835.",
+    "keyPoints": [
+      "1819: Karlsbader Beschlüsse – Zensur, Demagogenverfolgung und Überwachung",
+      "1830: Julirevolution in Frankreich und ihre europaweiten Impulse",
+      "1832: Das Hambacher Fest – Forderung nach Freiheit, Einheit und Demokratie",
+      "1835: Erste Eisenbahnlinie Nürnberg–Fürth läutet das Eisenbahnzeitalter ein"
+    ],
+    "exercises": [
+      {
+        "id": "4925",
+        "title": "Das Jahr 1816",
+        "folder": "1816-4925"
+      },
+      {
+        "id": "4926",
+        "title": "Das Jahr 1817",
+        "folder": "1817-4926"
+      },
+      {
+        "id": "4927",
+        "title": "Das Jahr 1818",
+        "folder": "1818-4927"
+      },
+      {
+        "id": "4928",
+        "title": "Das Jahr 1819",
+        "folder": "1819-4928"
+      },
+      {
+        "id": "4929",
+        "title": "Das Jahr 1820",
+        "folder": "1820-4929"
+      },
+      {
+        "id": "4930",
+        "title": "Das Jahr 1821",
+        "folder": "1821-4930"
+      },
+      {
+        "id": "4931",
+        "title": "Das Jahr 1822",
+        "folder": "1822-4931"
+      },
+      {
+        "id": "4932",
+        "title": "Das Jahr 1823",
+        "folder": "1823-4932"
+      },
+      {
+        "id": "4933",
+        "title": "Das Jahr 1824",
+        "folder": "1824-4933"
+      },
+      {
+        "id": "4934",
+        "title": "Das Jahr 1825",
+        "folder": "1825-4934"
+      },
+      {
+        "id": "4935",
+        "title": "Das Jahr 1826",
+        "folder": "1826-4935"
+      },
+      {
+        "id": "4936",
+        "title": "Das Jahr 1827",
+        "folder": "1827-4936"
+      },
+      {
+        "id": "4937",
+        "title": "Das Jahr 1828",
+        "folder": "1828-4937"
+      },
+      {
+        "id": "4938",
+        "title": "Das Jahr 1829",
+        "folder": "1829-4938"
+      },
+      {
+        "id": "4939",
+        "title": "Das Jahr 1830",
+        "folder": "1830-4939"
+      },
+      {
+        "id": "4940",
+        "title": "Das Jahr 1831",
+        "folder": "1831-4940"
+      },
+      {
+        "id": "4941",
+        "title": "Das Jahr 1832",
+        "folder": "1832-4941"
+      },
+      {
+        "id": "4942",
+        "title": "Das Jahr 1833",
+        "folder": "1833-4942"
+      },
+      {
+        "id": "4943",
+        "title": "Das Jahr 1834",
+        "folder": "1834-4943"
+      },
+      {
+        "id": "4944",
+        "title": "Das Jahr 1835",
+        "folder": "1835-4944"
+      }
+    ]
+  },
+
+  "chronik-1836-bis-1850-fruehindustrialisierung-und-1848": {
+    "slug": "chronik-1836-bis-1850-fruehindustrialisierung-und-1848",
+    "title": "Chronik 1836–1850: Frühindustrialisierung & Revolution 1848",
+    "category": "Historische Chronik & Epochen-Zeitleisten",
+    "shortDesc": "Schlesischer Weberaufstand, Barrikadenkämpfe 1848 und Paulskirchenverfassung.",
+    "longDesc": "Soziale Not und Pauperismus führten 1844 zum Weberaufstand. Im März 1848 brachen in Deutschland und Österreich Revolutionen aus: Die Frankfurter Nationalversammlung erarbeitete die erste demokratische Verfassung mit Grundrechtekatalog.",
+    "keyPoints": [
+      "Pauperismus, soziale Frage und der Weberaufstand 1844",
+      "Märzrevolution 1848 in Berlin und Wien",
+      "Die Frankfurter Nationalversammlung in der Paulskirche und die Grundrechte von 1848/49",
+      "Ablehnung der Kaiserkrone durch Friedrich Wilhelm IV. und Scheitern der Revolution"
+    ],
+    "exercises": [
+      {
+        "id": "5126",
+        "title": "Das Jahr 1836",
+        "folder": "1836-5126"
+      },
+      {
+        "id": "4945",
+        "title": "Das Jahr 1837",
+        "folder": "1837-4945"
+      },
+      {
+        "id": "4946",
+        "title": "Das Jahr 1838",
+        "folder": "1838-4946"
+      },
+      {
+        "id": "4947",
+        "title": "Das Jahr 1839",
+        "folder": "1839-4947"
+      },
+      {
+        "id": "4948",
+        "title": "Das Jahr 1840",
+        "folder": "1840-4948"
+      },
+      {
+        "id": "4949",
+        "title": "Das Jahr 1841",
+        "folder": "1841-4949"
+      },
+      {
+        "id": "4950",
+        "title": "Das Jahr 1842",
+        "folder": "1842-4950"
+      },
+      {
+        "id": "4951",
+        "title": "Das Jahr 1843",
+        "folder": "1843-4951"
+      },
+      {
+        "id": "4952",
+        "title": "Das Jahr 1844",
+        "folder": "1844-4952"
+      },
+      {
+        "id": "4953",
+        "title": "Das Jahr 1845",
+        "folder": "1845-4953"
+      },
+      {
+        "id": "4954",
+        "title": "Das Jahr 1846",
+        "folder": "1846-4954"
+      },
+      {
+        "id": "4955",
+        "title": "Das Jahr 1847",
+        "folder": "1847-4955"
+      },
+      {
+        "id": "4957",
+        "title": "Das Jahr 1849",
+        "folder": "1849-4957"
+      },
+      {
+        "id": "4958",
+        "title": "Das Jahr 1850",
+        "folder": "1850-4958"
+      }
+    ]
+  },
+
+  "chronik-1851-bis-1870-hochindustrialisierung-und-reichsgruendung": {
+    "slug": "chronik-1851-bis-1870-hochindustrialisierung-und-reichsgruendung",
+    "title": "Chronik 1851–1870: Hochindustrialisierung & Einigungskriege",
+    "category": "Historische Chronik & Epochen-Zeitleisten",
+    "shortDesc": "Gründerzeit, Deutsch-Dänischer Krieg, Deutscher Krieg 1866 und Deutsch-Französischer Krieg 1870.",
+    "longDesc": "Wirtschaftlicher Boom der Schwerindustrie und Bismarcks Politik der „Blut und Eisen“-Strategie prägten die 1850er und 1860er Jahre. In drei Einigungskriegen setzte Preußen die kleindeutsche Lösung durch.",
+    "keyPoints": [
+      "Rasantes Wachstum von Kohle, Stahl und Eisenbahn im Ruhrgebiet und Schlesien",
+      "Otto von Bismarck wird 1862 preußischer Ministerpräsident",
+      "1866: Deutscher Krieg und Auflösung des Deutschen Bundes",
+      "1870/71: Deutsch-Französischer Krieg führt zur nationalen Einigung"
+    ],
+    "exercises": [
+      {
+        "id": "4959",
+        "title": "Das Jahr 1851",
+        "folder": "1851-4959"
+      },
+      {
+        "id": "4960",
+        "title": "Das Jahr 1852",
+        "folder": "1852-4960"
+      },
+      {
+        "id": "4961",
+        "title": "Das Jahr 1853",
+        "folder": "1853-4961"
+      },
+      {
+        "id": "4962",
+        "title": "Das Jahr 1854",
+        "folder": "1854-4962"
+      },
+      {
+        "id": "4963",
+        "title": "Das Jahr 1855",
+        "folder": "1855-4963"
+      },
+      {
+        "id": "4964",
+        "title": "Das Jahr 1856",
+        "folder": "1856-4964"
+      },
+      {
+        "id": "4965",
+        "title": "Das Jahr 1857",
+        "folder": "1857-4965"
+      },
+      {
+        "id": "4966",
+        "title": "Das Jahr 1858",
+        "folder": "1858-4966"
+      },
+      {
+        "id": "4967",
+        "title": "Das Jahr 1859",
+        "folder": "1859-4967"
+      },
+      {
+        "id": "4968",
+        "title": "Das Jahr 1860",
+        "folder": "1860-4968"
+      },
+      {
+        "id": "4969",
+        "title": "Das Jahr 1861",
+        "folder": "1861-4969"
+      },
+      {
+        "id": "4970",
+        "title": "Das Jahr 1862",
+        "folder": "1862-4970"
+      },
+      {
+        "id": "4971",
+        "title": "Das Jahr 1863",
+        "folder": "1863-4971"
+      },
+      {
+        "id": "4972",
+        "title": "Das Jahr 1864",
+        "folder": "1864-4972"
+      },
+      {
+        "id": "4973",
+        "title": "Das Jahr 1865",
+        "folder": "1865-4973"
+      },
+      {
+        "id": "4974",
+        "title": "Das Jahr 1866",
+        "folder": "1866-4974"
+      },
+      {
+        "id": "4975",
+        "title": "Das Jahr 1867",
+        "folder": "1867-4975"
+      },
+      {
+        "id": "4976",
+        "title": "Das Jahr 1868",
+        "folder": "1868-4976"
+      },
+      {
+        "id": "4977",
+        "title": "Das Jahr 1869",
+        "folder": "1869-4977"
+      },
+      {
+        "id": "4978",
+        "title": "Das Jahr 1870",
+        "folder": "1870-4978"
+      }
+    ]
+  },
+
+  "chronik-1871-bis-1885-deutsches-kaiserreich-und-bismarck-aera": {
+    "slug": "chronik-1871-bis-1885-deutsches-kaiserreich-und-bismarck-aera",
+    "title": "Chronik 1871–1885: Deutsches Kaiserreich & Bismarck-Ära",
+    "category": "Historische Chronik & Epochen-Zeitleisten",
+    "shortDesc": "Kaiserproklamation in Versailles 1871, Kulturkampf, Sozialistengesetze und Sozialgesetzgebung.",
+    "longDesc": "Am 18. Januar 1871 wurde Wilhelm I. im Spiegelsaal von Versailles zum deutschen Kaiser proklamiert. Reichskanzler Bismarck prägte die Innenpolitik durch Kulturkampf und Sozialistengesetze, schuf jedoch auch die weltweit erste moderne Sozialversicherung.",
+    "keyPoints": [
+      "1871: Gründung des Deutschen Kaiserreichs als konstitutionelle Monarchie",
+      "Kulturkampf gegen die katholische Kirche und Sozialistengesetze (1878)",
+      "Einführung der Sozialversicherung: Kranken-, Unfall- und Rentenversicherung (1883–1889)",
+      "Bismarcks komplexes Bündnissystem zur Friedenssicherung in Europa"
+    ],
+    "exercises": [
+      {
+        "id": "4980",
+        "title": "Das Jahr 1872",
+        "folder": "1872-4980"
+      },
+      {
+        "id": "4981",
+        "title": "Das Jahr 1873",
+        "folder": "1873-4981"
+      },
+      {
+        "id": "4982",
+        "title": "Das Jahr 1874",
+        "folder": "1874-4982"
+      },
+      {
+        "id": "4983",
+        "title": "Das Jahr 1875",
+        "folder": "1875-4983"
+      },
+      {
+        "id": "4984",
+        "title": "Das Jahr 1876",
+        "folder": "1876-4984"
+      },
+      {
+        "id": "4985",
+        "title": "Das Jahr 1877",
+        "folder": "1877-4985"
+      },
+      {
+        "id": "4986",
+        "title": "Das Jahr 1878",
+        "folder": "1878-4986"
+      },
+      {
+        "id": "4987",
+        "title": "Das Jahr 1879",
+        "folder": "1879-4987"
+      },
+      {
+        "id": "4988",
+        "title": "Das Jahr 1880",
+        "folder": "1880-4988"
+      },
+      {
+        "id": "4989",
+        "title": "Das Jahr 1881",
+        "folder": "1881-4989"
+      },
+      {
+        "id": "4990",
+        "title": "Das Jahr 1882",
+        "folder": "1882-4990"
+      },
+      {
+        "id": "4991",
+        "title": "Das Jahr 1883",
+        "folder": "1883-4991"
+      },
+      {
+        "id": "4992",
+        "title": "Das Jahr 1884",
+        "folder": "1884-4992"
+      },
+      {
+        "id": "4993",
+        "title": "Das Jahr 1885",
+        "folder": "1885-4993"
+      }
+    ]
+  },
+
+  "chronik-1886-bis-1899-wilhelminische-epoche-und-imperialismus": {
+    "slug": "chronik-1886-bis-1899-wilhelminische-epoche-und-imperialismus",
+    "title": "Chronik 1886–1899: Wilhelminische Epoche & Imperialismus",
+    "category": "Historische Chronik & Epochen-Zeitleisten",
+    "shortDesc": "Dreikaiserjahr 1888, Bismarcks Entlassung 1890, Kolonialpolitik und Flottenrüstung.",
+    "longDesc": "Im Dreikaiserjahr 1888 bestieg Wilhelm II. den Thron. 1890 entließ er Bismarck und steuerte das Kaiserreich auf einen expansionistischen „Neuen Kurs“ mit weltweiter Kolonialpolitik und fataler Flottenrüstung.",
+    "keyPoints": [
+      "1888: Das Dreikaiserjahr (Wilhelm I., Friedrich III., Wilhelm II.)",
+      "1890: Entlassung Otto von Bismarcks und Abkehr von der Defensivpolitik",
+      "Wettlauf um Afrika und deutscher Kolonialismus",
+      "Flottengesetze und imperiale Rivalitäten am Ende des 19. Jahrhunderts"
+    ],
+    "exercises": [
+      {
+        "id": "4994",
+        "title": "Das Jahr 1886",
+        "folder": "1886-4994"
+      },
+      {
+        "id": "4995",
+        "title": "Das Jahr 1887",
+        "folder": "1887-4995"
+      },
+      {
+        "id": "4996",
+        "title": "Das Jahr 1888",
+        "folder": "1888-4996"
+      },
+      {
+        "id": "4997",
+        "title": "Das Jahr 1889",
+        "folder": "1889-4997"
+      },
+      {
+        "id": "4998",
+        "title": "Das Jahr 1890",
+        "folder": "1890-4998"
+      },
+      {
+        "id": "4999",
+        "title": "Das Jahr 1891",
+        "folder": "1891-4999"
+      },
+      {
+        "id": "5000",
+        "title": "Das Jahr 1892",
+        "folder": "1892-5000"
+      },
+      {
+        "id": "5001",
+        "title": "Das Jahr 1893",
+        "folder": "1893-5001"
+      },
+      {
+        "id": "5002",
+        "title": "Das Jahr 1894",
+        "folder": "1894-5002"
+      },
+      {
+        "id": "5003",
+        "title": "Das Jahr 1895",
+        "folder": "1895-5003"
+      },
+      {
+        "id": "5004",
+        "title": "Das Jahr 1896",
+        "folder": "1896-5004"
+      },
+      {
+        "id": "5005",
+        "title": "Das Jahr 1897",
+        "folder": "1897-5005"
+      },
+      {
+        "id": "5006",
+        "title": "Das Jahr 1898",
+        "folder": "1898-5006"
+      },
+      {
+        "id": "5007",
+        "title": "Das Jahr 1899",
+        "folder": "1899-5007"
+      }
+    ]
+  },
+
+  "chronik-1900-bis-1918-jahrhundertwende-und-erster-weltkrieg": {
+    "slug": "chronik-1900-bis-1918-jahrhundertwende-und-erster-weltkrieg",
+    "title": "Chronik 1900–1918: Jahrhundertwende & Erster Weltkrieg",
+    "category": "Historische Chronik & Epochen-Zeitleisten",
+    "shortDesc": "Belle Époque, Balkankrisen, Julikrise 1914, industrialisierter Stellungskrieg und Revolution 1918.",
+    "longDesc": "Vom Fortschrittsoptimismus der Jahrhundertwende in die Urkatastrophe des 20. Jahrhunderts: Das Attentat von Sarajevo 1914 entfesselte den Ersten Weltkrieg mit Giftgas, Panzern und Grabenkämpfen. 1918 endete das Kaiserreich in der Novemberrevolution.",
+    "keyPoints": [
+      "1914: Attentat von Sarajevo und Ausbruch des Ersten Weltkriegs",
+      "Industrialisierter Abnutzungskrieg an West- und Ostfront (Verdun, Somme)",
+      "1917: Kriegseintritt der USA und Oktoberrevolution in Russland",
+      "Novemberrevolution 1918 in Deutschland und Ausrufung der Republik"
+    ],
+    "exercises": [
+      {
+        "id": "5008",
+        "title": "Das Jahr 1900",
+        "folder": "1900-5008"
+      },
+      {
+        "id": "5009",
+        "title": "Das Jahr 1901",
+        "folder": "1901-5009"
+      },
+      {
+        "id": "5010",
+        "title": "Das Jahr 1902",
+        "folder": "1902-5010"
+      },
+      {
+        "id": "5011",
+        "title": "Das Jahr 1903",
+        "folder": "1903-5011"
+      },
+      {
+        "id": "5012",
+        "title": "Das Jahr 1904",
+        "folder": "1904-5012"
+      },
+      {
+        "id": "5013",
+        "title": "Das Jahr 1905",
+        "folder": "1905-5013"
+      },
+      {
+        "id": "5014",
+        "title": "Das Jahr 1906",
+        "folder": "1906-5014"
+      },
+      {
+        "id": "5015",
+        "title": "Das Jahr 1907",
+        "folder": "1907-5015"
+      },
+      {
+        "id": "5016",
+        "title": "Das Jahr 1908",
+        "folder": "1908-5016"
+      },
+      {
+        "id": "5017",
+        "title": "Das Jahr 1909",
+        "folder": "1909-5017"
+      },
+      {
+        "id": "5018",
+        "title": "Das Jahr 1910",
+        "folder": "1910-5018"
+      },
+      {
+        "id": "5019",
+        "title": "Das Jahr 1911",
+        "folder": "1911-5019"
+      },
+      {
+        "id": "5020",
+        "title": "Das Jahr 1912",
+        "folder": "1912-5020"
+      },
+      {
+        "id": "5021",
+        "title": "Das Jahr 1913",
+        "folder": "1913-5021"
+      },
+      {
+        "id": "5022",
+        "title": "Das Jahr 1914",
+        "folder": "1914-5022"
+      },
+      {
+        "id": "5023",
+        "title": "Das Jahr 1915",
+        "folder": "1915-5023"
+      },
+      {
+        "id": "5024",
+        "title": "Das Jahr 1916",
+        "folder": "1916-5024"
+      },
+      {
+        "id": "5025",
+        "title": "Das Jahr 1917",
+        "folder": "1917-5025"
+      },
+      {
+        "id": "5026",
+        "title": "Das Jahr 1918",
+        "folder": "1918-5026"
+      }
+    ]
+  },
+
+  "chronik-1919-bis-1932-weimarer-republik": {
+    "slug": "chronik-1919-bis-1932-weimarer-republik",
+    "title": "Chronik 1919–1932: Weimarer Republik & Zwischenkriegszeit",
+    "category": "Historische Chronik & Epochen-Zeitleisten",
+    "shortDesc": "Versailler Vertrag, Hyperinflation 1923, Goldene Zwanziger und Weltwirtschaftskrise 1929.",
+    "longDesc": "Die erste deutsche Demokratie stand von Beginn an unter Druck: Versailler Vertrag, politische Morde und die Hyperinflation von 1923 erschütterten das Land. Nach den Goldenen Zwanzigern leitete der Börsencrash von 1929 den Niedergang ein.",
+    "keyPoints": [
+      "1919: Verfassung von Weimar und der Versailler Vertrag",
+      "1923: Krisenjahr mit Hyperinflation, Ruhrbesetzung und Hitler-Putsch",
+      "1924–1929: Phase relativer Stabilität und kulturelle Blüte der Goldenen Zwanziger",
+      "1929: Schwarzer Freitag und die Weltwirtschaftskrise mit Millionen Arbeitslosen"
+    ],
+    "exercises": [
+      {
+        "id": "5027",
+        "title": "Das Jahr 1919",
+        "folder": "1919-5027"
+      },
+      {
+        "id": "5028",
+        "title": "Das Jahr 1920",
+        "folder": "1920-5028"
+      },
+      {
+        "id": "5029",
+        "title": "Das Jahr 1921",
+        "folder": "1921-5029"
+      },
+      {
+        "id": "5030",
+        "title": "Das Jahr 1922",
+        "folder": "1922-5030"
+      },
+      {
+        "id": "5031",
+        "title": "Das Jahr 1923",
+        "folder": "1923-5031"
+      },
+      {
+        "id": "5032",
+        "title": "Das Jahr 1924",
+        "folder": "1924-5032"
+      },
+      {
+        "id": "5033",
+        "title": "Das Jahr 1925",
+        "folder": "1925-5033"
+      },
+      {
+        "id": "5034",
+        "title": "Das Jahr 1926",
+        "folder": "1926-5034"
+      },
+      {
+        "id": "5035",
+        "title": "Das Jahr 1927",
+        "folder": "1927-5035"
+      },
+      {
+        "id": "5036",
+        "title": "Das Jahr 1928",
+        "folder": "1928-5036"
+      },
+      {
+        "id": "5037",
+        "title": "Das Jahr 1929",
+        "folder": "1929-5037"
+      },
+      {
+        "id": "5038",
+        "title": "Das Jahr 1930",
+        "folder": "1930-5038"
+      },
+      {
+        "id": "5039",
+        "title": "Das Jahr 1931",
+        "folder": "1931-5039"
+      },
+      {
+        "id": "5040",
+        "title": "Das Jahr 1932",
+        "folder": "1932-5040"
+      }
+    ]
+  },
+
+  "chronik-1933-bis-1945-ns-herrschaft-und-zweiter-weltkrieg": {
+    "slug": "chronik-1933-bis-1945-ns-herrschaft-und-zweiter-weltkrieg",
+    "title": "Chronik 1933–1945: NS-Herrschaft & Zweiter Weltkrieg",
+    "category": "Historische Chronik & Epochen-Zeitleisten",
+    "shortDesc": "Machtergreifung 1933, Gleichschaltung, Holocaust, Zweiter Weltkrieg und Befreiung 1945.",
+    "longDesc": "Die dunkelste Epoche der deutschen Geschichte: Nach Hitlers Ernennung zum Reichskanzler 1933 folgten Gleichschaltung, Terror und die systematische Ermordung von sechs Millionen Juden im Holocaust. Der von Deutschland entfesselte Zweite Weltkrieg endete 1945 in der totalen Niederlage.",
+    "keyPoints": [
+      "1933: Machtübertragung an Adolf Hitler, Reichstagsbrand und Ermächtigungsgesetz",
+      "Nürnberger Rassegesetze 1935 und Novemberpogrome 1938",
+      "1939: Überfall auf Polen und Beginn des Zweiten Weltkriegs",
+      "Systematische Vernichtungslager, Holocaust (Shoah) und bedingungslose Kapitulation am 8. Mai 1945"
+    ],
+    "exercises": [
+      {
+        "id": "5041",
+        "title": "Das Jahr 1933",
+        "folder": "1933-5041"
+      },
+      {
+        "id": "5042",
+        "title": "Das Jahr 1934",
+        "folder": "1934-5042"
+      },
+      {
+        "id": "5043",
+        "title": "Das Jahr 1935",
+        "folder": "1935-5043"
+      },
+      {
+        "id": "5044",
+        "title": "Das Jahr 1936",
+        "folder": "1936-5044"
+      },
+      {
+        "id": "5045",
+        "title": "Das Jahr 1937",
+        "folder": "1937-5045"
+      },
+      {
+        "id": "5046",
+        "title": "Das Jahr 1938",
+        "folder": "1938-5046"
+      },
+      {
+        "id": "5047",
+        "title": "Das Jahr 1939",
+        "folder": "1939-5047"
+      },
+      {
+        "id": "5048",
+        "title": "Das Jahr 1940",
+        "folder": "1940-5048"
+      },
+      {
+        "id": "5049",
+        "title": "Das Jahr 1941",
+        "folder": "1941-5049"
+      },
+      {
+        "id": "5050",
+        "title": "Das Jahr 1942",
+        "folder": "1942-5050"
+      },
+      {
+        "id": "5051",
+        "title": "Das Jahr 1943",
+        "folder": "1943-5051"
+      },
+      {
+        "id": "5052",
+        "title": "Das Jahr 1944",
+        "folder": "1944-5052"
+      },
+      {
+        "id": "5053",
+        "title": "Das Jahr 1945",
+        "folder": "1945-5053"
+      }
+    ]
+  },
+
+  "chronik-1946-bis-1965-nachkriegszeit-und-wirtschaftswunder": {
+    "slug": "chronik-1946-bis-1965-nachkriegszeit-und-wirtschaftswunder",
+    "title": "Chronik 1946–1965: Nachkriegszeit & Wirtschaftswunder",
+    "category": "Historische Chronik & Epochen-Zeitleisten",
+    "shortDesc": "Besatzungszonen, Währungsreform 1948, doppelte Staatsgründung 1949, Mauerbau 1961.",
+    "longDesc": "Aus den Trümmern des Krieges entstanden im Kalten Krieg zwei deutsche Staaten: Die Bundesrepublik Deutschland und die DDR. Während im Westen das Wirtschaftswunder und die Westintegration unter Adenauer begannen, zementierte die DDR 1961 mit dem Mauerbau die Teilung.",
+    "keyPoints": [
+      "Nürnberger Prozesse und Entnazifizierung in den vier Besatzungszonen",
+      "1948/49: Berliner Luftbrücke und doppelte Staatsgründung (BRD und DDR)",
+      "Wirtschaftswunder und Soziale Marktwirtschaft unter Ludwig Erhard",
+      "13. August 1961: Bau der Berliner Mauer"
+    ],
+    "exercises": [
+      {
+        "id": "5054",
+        "title": "Das Jahr 1946",
+        "folder": "1946-5054"
+      },
+      {
+        "id": "5055",
+        "title": "Das Jahr 1947",
+        "folder": "1947-5055"
+      },
+      {
+        "id": "5056",
+        "title": "Das Jahr 1948",
+        "folder": "1948-5056"
+      },
+      {
+        "id": "5057",
+        "title": "Das Jahr 1949",
+        "folder": "1949-5057"
+      },
+      {
+        "id": "5058",
+        "title": "Das Jahr 1950",
+        "folder": "1950-5058"
+      },
+      {
+        "id": "5059",
+        "title": "Das Jahr 1951",
+        "folder": "1951-5059"
+      },
+      {
+        "id": "5060",
+        "title": "Das Jahr 1952",
+        "folder": "1952-5060"
+      },
+      {
+        "id": "5061",
+        "title": "Das Jahr 1953",
+        "folder": "1953-5061"
+      },
+      {
+        "id": "5062",
+        "title": "Das Jahr 1954",
+        "folder": "1954-5062"
+      },
+      {
+        "id": "5063",
+        "title": "Das Jahr 1955",
+        "folder": "1955-5063"
+      },
+      {
+        "id": "5064",
+        "title": "Das Jahr 1956",
+        "folder": "1956-5064"
+      },
+      {
+        "id": "5065",
+        "title": "Das Jahr 1957",
+        "folder": "1957-5065"
+      },
+      {
+        "id": "5066",
+        "title": "Das Jahr 1958",
+        "folder": "1958-5066"
+      },
+      {
+        "id": "5067",
+        "title": "Das Jahr 1959",
+        "folder": "1959-5067"
+      },
+      {
+        "id": "5068",
+        "title": "Das Jahr 1960",
+        "folder": "1960-5068"
+      },
+      {
+        "id": "5069",
+        "title": "Das Jahr 1961",
+        "folder": "1961-5069"
+      },
+      {
+        "id": "5070",
+        "title": "Das Jahr 1962",
+        "folder": "1962-5070"
+      },
+      {
+        "id": "5071",
+        "title": "Das Jahr 1963",
+        "folder": "1963-5071"
+      },
+      {
+        "id": "5072",
+        "title": "Das Jahr 1964",
+        "folder": "1964-5072"
+      },
+      {
+        "id": "5073",
+        "title": "Das Jahr 1965",
+        "folder": "1965-5073"
+      }
+    ]
+  },
+
+  "chronik-1966-bis-1982-kalter-krieg-und-gesellschaftswandel": {
+    "slug": "chronik-1966-bis-1982-kalter-krieg-und-gesellschaftswandel",
+    "title": "Chronik 1966–1982: Kalter Krieg & Gesellschaftswandel",
+    "category": "Historische Chronik & Epochen-Zeitleisten",
+    "shortDesc": "68er-Bewegung, Neue Ostpolitik von Willy Brandt, Mondlandung 1969 und Ölkrise 1973.",
+    "longDesc": "Eine Ära gesellschaftlicher Emanzipation und diplomatischer Entspannung: Die 68er-Bewegung veränderte Werte und Lebensstile nachhaltig. Bundeskanzler Willy Brandt leitete mit der Neuen Ostpolitik („Wandel durch Annäherung“) die Entspannung ein.",
+    "keyPoints": [
+      "Die Studenten- und 68er-Bewegung fordert Aufarbeitung der NS-Vergangenheit und Demokratisierung",
+      "1969: Mondlandung von Apollo 11",
+      "Kniefall von Warschau 1970 und die Ostverträge unter Willy Brandt",
+      "1973: Erste globale Ölkrise und der Deutsche Herbst 1977 (RAF-Terror)"
+    ],
+    "exercises": [
+      {
+        "id": "5074",
+        "title": "Das Jahr 1966",
+        "folder": "1966-5074"
+      },
+      {
+        "id": "5075",
+        "title": "Das Jahr 1967",
+        "folder": "1967-5075"
+      },
+      {
+        "id": "5076",
+        "title": "Das Jahr 1968",
+        "folder": "1968-5076"
+      },
+      {
+        "id": "5077",
+        "title": "Das Jahr 1969",
+        "folder": "1969-5077"
+      },
+      {
+        "id": "5078",
+        "title": "Das Jahr 1970",
+        "folder": "1970-5078"
+      },
+      {
+        "id": "5079",
+        "title": "Das Jahr 1971",
+        "folder": "1971-5079"
+      },
+      {
+        "id": "5080",
+        "title": "Das Jahr 1972",
+        "folder": "1972-5080"
+      },
+      {
+        "id": "5081",
+        "title": "Das Jahr 1973",
+        "folder": "1973-5081"
+      },
+      {
+        "id": "5082",
+        "title": "Das Jahr 1974",
+        "folder": "1974-5082"
+      },
+      {
+        "id": "5083",
+        "title": "Das Jahr 1975",
+        "folder": "1975-5083"
+      },
+      {
+        "id": "5084",
+        "title": "Das Jahr 1976",
+        "folder": "1976-5084"
+      },
+      {
+        "id": "5085",
+        "title": "Das Jahr 1977",
+        "folder": "1977-5085"
+      },
+      {
+        "id": "5086",
+        "title": "Das Jahr 1978",
+        "folder": "1978-5086"
+      },
+      {
+        "id": "5087",
+        "title": "Das Jahr 1979",
+        "folder": "1979-5087"
+      },
+      {
+        "id": "5088",
+        "title": "Das Jahr 1980",
+        "folder": "1980-5088"
+      },
+      {
+        "id": "5089",
+        "title": "Das Jahr 1981",
+        "folder": "1981-5089"
+      },
+      {
+        "id": "5090",
+        "title": "Das Jahr 1982",
+        "folder": "1982-5090"
+      }
+    ]
+  },
+
+  "chronik-1983-bis-1999-mauerfall-und-jahrtausendwende": {
+    "slug": "chronik-1983-bis-1999-mauerfall-und-jahrtausendwende",
+    "title": "Chronik 1983–1999: Mauerfall, Einheit & Jahrtausendwende",
+    "category": "Historische Chronik & Epochen-Zeitleisten",
+    "shortDesc": "Glasnost und Perestroika, Friedliche Revolution 1989, Wiedervereinigung 1990 und Euro-Einführung.",
+    "longDesc": "Michail Gorbatschows Reformpolitik leitete den Zusammenbruch des Ostblocks ein. Durch die Friedliche Revolution der DDR-Bürger fiel am 9. November 1989 die Berliner Mauer. Am 3. Oktober 1990 folgte die Deutsche Einheit.",
+    "keyPoints": [
+      "Gorbatschow, Glasnost und Perestroika in der Sowjetunion",
+      "9. November 1989: Fall der Berliner Mauer",
+      "3. Oktober 1990: Deutsche Wiedervereinigung und Zwei-plus-Vier-Vertrag",
+      "Vertrag von Maastricht 1992 und Vorbereitung der europäischen Gemeinschaftswährung Euro"
+    ],
+    "exercises": [
+      {
+        "id": "5091",
+        "title": "Das Jahr 1983",
+        "folder": "1983-5091"
+      },
+      {
+        "id": "5093",
+        "title": "Das Jahr 1985",
+        "folder": "1985-5093"
+      },
+      {
+        "id": "5094",
+        "title": "Das Jahr 1986",
+        "folder": "1986-5094"
+      },
+      {
+        "id": "5095",
+        "title": "Das Jahr 1987",
+        "folder": "1987-5095"
+      },
+      {
+        "id": "5096",
+        "title": "Das Jahr 1988",
+        "folder": "1988-5096"
+      },
+      {
+        "id": "5097",
+        "title": "Das Jahr 1989",
+        "folder": "1989-5097"
+      },
+      {
+        "id": "5098",
+        "title": "Das Jahr 1990",
+        "folder": "1990-5098"
+      },
+      {
+        "id": "5099",
+        "title": "Das Jahr 1991",
+        "folder": "1991-5099"
+      },
+      {
+        "id": "5100",
+        "title": "Das Jahr 1992",
+        "folder": "1992-5100"
+      },
+      {
+        "id": "5101",
+        "title": "Das Jahr 1993",
+        "folder": "1993-5101"
+      },
+      {
+        "id": "5102",
+        "title": "Das Jahr 1994",
+        "folder": "1994-5102"
+      },
+      {
+        "id": "5103",
+        "title": "Das Jahr 1995",
+        "folder": "1995-5103"
+      },
+      {
+        "id": "5104",
+        "title": "Das Jahr 1996",
+        "folder": "1996-5104"
+      },
+      {
+        "id": "5105",
+        "title": "Das Jahr 1997",
+        "folder": "1997-5105"
+      },
+      {
+        "id": "5106",
+        "title": "Das Jahr 1998",
+        "folder": "1998-5106"
+      },
+      {
+        "id": "5107",
+        "title": "Das Jahr 1999",
+        "folder": "1999-5107"
+      }
+    ]
+  },
+
+  "chronik-2000-bis-2010-das-neue-jahrtausend": {
+    "slug": "chronik-2000-bis-2010-das-neue-jahrtausend",
+    "title": "Chronik 2000–2010: Das neue Jahrtausend & Globalisierung",
+    "category": "Historische Chronik & Epochen-Zeitleisten",
+    "shortDesc": "11. September 2001, Euro-Bargeld 2002, EU-Osterweiterung 2004 und globale Finanzkrise 2008.",
+    "longDesc": "Das 21. Jahrhundert begann mit drastischen globalen Zäsuren: Die Terroranschläge vom 11. September 2001 veränderten die Weltpolitik. In Europa startete der Euro als Bargeld, während 2008 die weltweite Finanz- und Bankenkrise ausbrach.",
+    "keyPoints": [
+      "11. September 2001: Anschläge auf das World Trade Center und „Krieg gegen den Terror“",
+      "1. Januar 2002: Einführung des Euro als physisches Zahlungsmittel in 12 Ländern",
+      "2004: Große EU-Osterweiterung um 10 neue Mitgliedsstaaten",
+      "2008: Kollaps von Lehman Brothers und Ausbruch der weltweiten Finanz- und Staatsschuldenkrise"
+    ],
+    "exercises": [
+      {
+        "id": "5108",
+        "title": "Das Jahr 2000",
+        "folder": "2000-5108"
+      },
+      {
+        "id": "5109",
+        "title": "Das Jahr 2001",
+        "folder": "2001-5109"
+      },
+      {
+        "id": "5110",
+        "title": "Das Jahr 2002",
+        "folder": "2002-5110"
+      },
+      {
+        "id": "5111",
+        "title": "Das Jahr 2003",
+        "folder": "2003-5111"
+      },
+      {
+        "id": "5112",
+        "title": "Das Jahr 2004",
+        "folder": "2004-5112"
+      },
+      {
+        "id": "5113",
+        "title": "Das Jahr 2005",
+        "folder": "2005-5113"
+      },
+      {
+        "id": "5114",
+        "title": "Das Jahr 2006",
+        "folder": "2006-5114"
+      },
+      {
+        "id": "5115",
+        "title": "Das Jahr 2007",
+        "folder": "2007-5115"
+      },
+      {
+        "id": "5116",
+        "title": "Das Jahr 2008",
+        "folder": "2008-5116"
+      },
+      {
+        "id": "5117",
+        "title": "Das Jahr 2009",
+        "folder": "2009-5117"
+      },
+      {
+        "id": "5118",
+        "title": "Das Jahr 2010",
+        "folder": "2010-5118"
+      }
+    ]
+  },
+
+  "chronik-2011-bis-heute-digitale-welt-und-gegenwart": {
+    "slug": "chronik-2011-bis-heute-digitale-welt-und-gegenwart",
+    "title": "Chronik 2011–heute: Digitale Welt & Gegenwart",
+    "category": "Historische Chronik & Epochen-Zeitleisten",
+    "shortDesc": "Arabischer Frühling, Fukushima, Flüchtlingskrise 2015, Corona-Pandemie und Zeitenwende.",
+    "longDesc": "Gegenwart im Brennpunkt: Von der nuklearen Katastrophe in Fukushima über den Arabischen Frühling und die europäische Flüchtlingskrise bis hin zur weltweiten COVID-19-Pandemie und geopolitischen Umbrüchen der Gegenwart.",
+    "keyPoints": [
+      "2011: Nuklearkatastrophe von Fukushima und deutscher Atomausstiegsbeschluss",
+      "Arabischer Frühling und Beginn des syrischen Bürgerkriegs",
+      "2015: Große Fluchtmigration nach Europa und Pariser Klimaschutzabkommen",
+      "2020: Globale COVID-19-Pandemie, Lockdowns und weltweite Impfkampagnen"
+    ],
+    "exercises": [
+      {
+        "id": "5119",
+        "title": "Das Jahr 2011",
+        "folder": "2011-5119"
+      },
+      {
+        "id": "5120",
+        "title": "Das Jahr 2012",
+        "folder": "2012-5120"
+      },
+      {
+        "id": "5121",
+        "title": "Das Jahr 2013",
+        "folder": "2013-5121"
+      },
+      {
+        "id": "5122",
+        "title": "Das Jahr 2014",
+        "folder": "2014-5122"
+      },
+      {
+        "id": "5127",
+        "title": "Das Jahr 2015",
+        "folder": "2015-5127"
+      },
+      {
+        "id": "5128",
+        "title": "Das Jahr 2016",
+        "folder": "2016-5128"
+      },
+      {
+        "id": "5129",
+        "title": "Das Jahr 2017",
+        "folder": "2017-5129"
+      },
+      {
+        "id": "5130",
+        "title": "Das Jahr 2018",
+        "folder": "2018-5130"
+      },
+      {
+        "id": "5131",
+        "title": "Das Jahr 2019",
+        "folder": "2019-5131"
+      },
+      {
+        "id": "5132",
+        "title": "Das Jahr 2020",
+        "folder": "2020-5132"
+      },
+      {
+        "id": "5133",
+        "title": "Das Jahr 2021",
+        "folder": "2021-5133"
+      },
+      {
+        "id": "5134",
+        "title": "Das Jahr 2022",
+        "folder": "2022-5134"
       }
     ]
   }

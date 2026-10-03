@@ -5,19 +5,20 @@ import Image from 'next/image';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import TeacherHeroBanner from '@/components/TeacherHeroBanner';
+import SubjectGridWithSearch from '@/components/SubjectGridWithSearch';
 import { subjectCategories } from '@/lib/subject-categories';
 
 export const metadata: Metadata = {
   title: 'Erklärung und mehr – Kostenlose Lernplattform für Schule & Unterricht',
   description:
-    'Entdecke Erklärvideos mit passenden interaktiven Übungen, Arbeitsblättern und weiteren spannenden Lernmaterialien in über 25 Schulfächern!',
+    'Entdecke Erklärvideos mit passenden interaktiven Übungen, Arbeitsblättern und weiteren spannenden Lernmaterialien in 27 Schulfächern mit über 7.700 Online-Übungen!',
   alternates: {
     canonical: '/',
   },
   openGraph: {
     title: 'Erklärung und mehr – Kostenlose Lernplattform für Schule & Unterricht',
     description:
-      'Entdecke Erklärvideos mit passenden interaktiven Übungen, Arbeitsblättern und weiteren spannenden Lernmaterialien in über 25 Schulfächern!',
+      'Entdecke Erklärvideos mit passenden interaktiven Übungen, Arbeitsblättern und weiteren spannenden Lernmaterialien in 27 Schulfächern mit über 7.700 Online-Übungen!',
     url: '/',
     siteName: 'Erklärung und mehr',
     locale: 'de_AT',
@@ -193,35 +194,8 @@ export default function Home() {
         {/* Info-Banner für Lehrpersonen & Schulklassen */}
         <TeacherHeroBanner />
 
-        {/* 4. Themen und Lernfächer */}
-        <section className="section-block" style={{ marginTop: 24 }}>
-          <h2 className="section-main-heading">Themen und Lernfächer</h2>
-
-          {subjectCategories.map((cat, idx) => (
-            <div key={idx} className="category-group">
-              <h3 className="category-heading">{cat.category}</h3>
-              <div className="buttons-grid">
-                {cat.items.map((item, i) => (
-                  <Link
-                    key={i}
-                    href={item.link}
-                    className="subject-button-tile"
-                    title={item.title}
-                  >
-                    <Image
-                      src={item.image}
-                      alt={item.title}
-                      width={300}
-                      height={200}
-                      className="subject-button-img"
-                      unoptimized
-                    />
-                  </Link>
-                ))}
-              </div>
-            </div>
-          ))}
-        </section>
+        {/* 4. Themen und Lernfächer mit Live-Suche */}
+        <SubjectGridWithSearch categories={subjectCategories} />
 
         {/* 5. Spenden-Banner für Server- & Betriebskosten */}
         <section className="donation-banner" aria-label="Spende für Serverkosten" style={{ marginTop: 28, marginBottom: 0 }}>

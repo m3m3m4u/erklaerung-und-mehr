@@ -622,6 +622,12 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "title": "Religion in der modernen Welt",
         "folder": "religion-in-der-modernen-welt-2455"
       }
+    ,
+      {
+        "id": "2872",
+        "title": "Atheismus",
+        "folder": "atheismus-2872"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=glaube+gott+religion&t=3752"
   },

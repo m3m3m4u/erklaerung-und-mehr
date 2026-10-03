@@ -661,6 +661,12 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "title": "Die Gewaltenteilung im Verfassungsstaat",
         "folder": "die-gewaltenteilung-3512"
       }
+    ,
+      {
+        "id": "pol-chamenei",
+        "title": "Ali Chamenei - sein Tod und die Folgen",
+        "folder": "ali-chamenei-sein-tod-und-die-folgen"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=internationale+verfassungen&t=3752"
   },

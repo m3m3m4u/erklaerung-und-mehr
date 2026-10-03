@@ -999,6 +999,12 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "title": "Medea von Christa Wolf - literarische Bedeutung",
         "folder": "medea-von-christa-wolf-literarische-bedeutung-6264"
       }
+    ,
+      {
+        "id": "4509",
+        "title": "Anna Seghers – Das siebte Kreuz",
+        "folder": "anna-seghers-das-siebte-kreuz-2-4509"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Nachkriegsliteratur%20DDR%20Literatur%20Gegenwart&t=284"
   },
@@ -1859,6 +1865,12 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "3407",
         "title": "Arthur Schnitzler - Reigen",
         "folder": "arthur-schnitzler-reigen-3407"
+      }
+    ,
+      {
+        "id": "4598",
+        "title": "Arthur Schnitzler",
+        "folder": "arthur-schnitzler-4598"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Wiener%20Moderne%20Schnitzler%20Nestroy%20Hofmannsthal&t=284"
@@ -3349,6 +3361,12 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "de-gesellsc-1-chen",
         "title": "Der moderne Roman – Erzählperspektiven und Plots",
         "folder": "moderne-liebesromane-und-was-sie-heute-anders-machen"
+      }
+    ,
+      {
+        "id": "5185",
+        "title": "Auf der Terrasse des Café Josty von Paul Boldt",
+        "folder": "auf-der-terrasse-des-cafe-josty-von-paul-boldt-5185"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Gesellschaft%20Literatur%20Diversitaet%20Inklusion&t=284"

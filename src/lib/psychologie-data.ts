@@ -85,6 +85,12 @@ export const psychologieTopics: Record<string, PsychologieTopic> = {
         "title": "Wie funktioniert der Placebo-Effekt",
         "folder": "wie-funktioniert-der-placebo-effekt"
       }
+    ,
+      {
+        "id": "2712",
+        "title": "Ethnische und kulturelle Validität von Tests",
+        "folder": "ethnische-und-kulturelle-validitat-von-tests-2712"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Psychologie+Grundlagen+Forschungsmethoden&t=3752"
   },

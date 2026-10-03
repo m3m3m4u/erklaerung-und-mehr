@@ -3593,6 +3593,22 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "title": "Escape Room: 5 wichtige Länder Westeuropas",
         "folder": "escape-room-quot-5-wichtige-lander-westeuropas-quot-3229"
       }
+    ,
+      {
+        "id": "1532",
+        "title": "Amsterdam",
+        "folder": "amsterdam-1532"
+      },
+      {
+        "id": "1582",
+        "title": "Brüssel",
+        "folder": "brussel-1582"
+      },
+      {
+        "id": "1538",
+        "title": "Antwerpen",
+        "folder": "antwerpen-1538"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=westeuropa+nordeuropa&t=3752"
   },
@@ -3648,6 +3664,12 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "title": "Der europäische Norden - Lebensweise und Anpassung an extreme Klimabedingungen",
         "folder": "der-europaische-norden-lebensweise-und-anpassung-an-extreme-klimabedingungen-5576"
       }
+    ,
+      {
+        "id": "1962",
+        "title": "Aarhus",
+        "folder": "aarhus-1962"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=westeuropa+nordeuropa&t=3752"
   },
@@ -3697,6 +3719,17 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "1534",
         "title": "Andorra",
         "folder": "andorra-1534"
+      }
+    ,
+      {
+        "id": "1529",
+        "title": "Alicante",
+        "folder": "alicante-1529"
+      },
+      {
+        "id": "1572",
+        "title": "Bologna",
+        "folder": "bologna-1572"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=suedeuropa+mittelmeer&t=3752"
@@ -3798,6 +3831,27 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "title": "Posen (Poznań) – Polens historische Handelsmetropole",
         "folder": "wirtschaft-1944"
       }
+    ,
+      {
+        "id": "1577",
+        "title": "Bratislava",
+        "folder": "bratislava-1577"
+      },
+      {
+        "id": "1579",
+        "title": "Breslau",
+        "folder": "breslau-1579"
+      },
+      {
+        "id": "1581",
+        "title": "Brünn",
+        "folder": "brunn-1581"
+      },
+      {
+        "id": "1594",
+        "title": "Charkiw",
+        "folder": "charkiw-1594"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=osteuropa+baltikum&t=3752"
   },
@@ -3897,6 +3951,17 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "1527",
         "title": "Albanien",
         "folder": "albanien-1527"
+      }
+    ,
+      {
+        "id": "1565",
+        "title": "Belgrad",
+        "folder": "belgrad-1565"
+      },
+      {
+        "id": "1584",
+        "title": "Bukarest",
+        "folder": "bukarest-1584"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=balkan+suedosteuropa&t=3752"
@@ -4389,6 +4454,27 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "title": "Klimatische Herausforderungen in Mittelamerika und ihre Auswirkungen auf Migration",
         "folder": "klimatische-herausforderungen-in-mittelamerika-und-ihre-auswirkungen-auf-migration-5506"
       }
+    ,
+      {
+        "id": "6012",
+        "title": "Havanna",
+        "folder": "havanna-6012"
+      },
+      {
+        "id": "6105",
+        "title": "Santo Domingo",
+        "folder": "santo-domingo-6105"
+      },
+      {
+        "id": "6096",
+        "title": "Quito",
+        "folder": "quito-6096"
+      },
+      {
+        "id": "6004",
+        "title": "Guayaquil",
+        "folder": "guayaquil-6004"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=mittelamerika&t=3752"
   },
@@ -4449,6 +4535,43 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "title": "Spanien erobert Südamerika",
         "folder": "spanien-erobert-sudamerika-3061"
       }
+    ,
+      {
+        "id": "2065",
+        "title": "Armut und Reichtum auf der Erde",
+        "folder": "armut-und-reichtum-auf-der-erde-2065"
+      }
+    ,
+      {
+        "id": "5968",
+        "title": "Buenos Aires",
+        "folder": "buenos-aires-5968"
+      },
+      {
+        "id": "6104",
+        "title": "Santiago",
+        "folder": "santiago-6104"
+      },
+      {
+        "id": "6049",
+        "title": "Lima",
+        "folder": "lima-6049"
+      },
+      {
+        "id": "5965",
+        "title": "Bogotá",
+        "folder": "bogota-5965"
+      },
+      {
+        "id": "6066",
+        "title": "Medellín",
+        "folder": "medellin-6066"
+      },
+      {
+        "id": "5972",
+        "title": "Cali",
+        "folder": "cali-5972"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=suedamerika&t=3752"
   },
@@ -4498,6 +4621,33 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "3225",
         "title": "Escape Room: Länder Südamerikas",
         "folder": "escape-room-quot-lander-sudamerikas-quot-3225"
+      }
+    ,
+      {
+        "id": "2076",
+        "title": "Der Amazonas",
+        "folder": "der-amazonas-2076"
+      }
+    ,
+      {
+        "id": "5966",
+        "title": "Brasília",
+        "folder": "brasilia-5966"
+      },
+      {
+        "id": "6099",
+        "title": "Rio de Janeiro",
+        "folder": "rio-de-janeiro-6099"
+      },
+      {
+        "id": "6106",
+        "title": "São Paulo",
+        "folder": "sao-paulo-6106"
+      },
+      {
+        "id": "6101",
+        "title": "Salvador",
+        "folder": "salvador-6101"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=suedamerika&t=3752"
@@ -4549,6 +4699,27 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "title": "Die groesen regionen afrikas nord west ost zentral und sudafrika im vergleich",
         "folder": "die-groesen-regionen-afrikas-nord-west-ost-zentral-und-sudafrika-im-vergleich-5462"
       }
+    ,
+      {
+        "id": "6033",
+        "title": "Kairo",
+        "folder": "kairo-6033"
+      },
+      {
+        "id": "5950",
+        "title": "Alexandria",
+        "folder": "alexandria-5950"
+      },
+      {
+        "id": "5951",
+        "title": "Algier",
+        "folder": "algiers-5951"
+      },
+      {
+        "id": "5973",
+        "title": "Casablanca",
+        "folder": "casablanca-5973"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=nordafrika+westafrika&t=3752"
   },
@@ -4598,6 +4769,32 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "1695",
         "title": "Kap Verde",
         "folder": "kap-verde-1695"
+      }
+    ,
+      {
+        "id": "5944",
+        "title": "Abuja",
+        "folder": "abuja-5944"
+      },
+      {
+        "id": "5945",
+        "title": "Accra",
+        "folder": "accra-5945"
+      },
+      {
+        "id": "5943",
+        "title": "Abidjan",
+        "folder": "abidjan-5943"
+      },
+      {
+        "id": "5984",
+        "title": "Dakar",
+        "folder": "dakar-5984"
+      },
+      {
+        "id": "5955",
+        "title": "Bamako",
+        "folder": "bamako-5955"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=nordafrika+westafrika&t=3752"
@@ -4659,6 +4856,22 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "title": "Afrika und der Klimawandel - Ursachen, Auswirkungen, Anpassung",
         "folder": "afrika-und-der-klimawandel-ursachen-auswirkungen-anpassung-5430"
       }
+    ,
+      {
+        "id": "5947",
+        "title": "Addis Abeba",
+        "folder": "addis-abeba-5947"
+      },
+      {
+        "id": "5987",
+        "title": "Dar es Salaam",
+        "folder": "dar-es-salaam-5987"
+      },
+      {
+        "id": "6039",
+        "title": "Khartum",
+        "folder": "khartum-6039"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=ostafrika+zentralafrika&t=3752"
   },
@@ -4718,6 +4931,12 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "5561",
         "title": "Umweltprobleme in afrika wustenbildung abholzung wassermangel",
         "folder": "umweltprobleme-in-afrika-wustenbildung-abholzung-wassermangel-5561"
+      }
+    ,
+      {
+        "id": "5967",
+        "title": "Brazzaville",
+        "folder": "brazzaville-5967"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=ostafrika+zentralafrika&t=3752"
@@ -4800,6 +5019,17 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "title": "Kapstadt",
         "folder": "kapstadt-6036"
       }
+    ,
+      {
+        "id": "6031",
+        "title": "Johannesburg",
+        "folder": "johannesburg-6031"
+      },
+      {
+        "id": "5995",
+        "title": "Durban",
+        "folder": "durban-5995"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=suedliches+afrika&t=3752"
   },
@@ -4856,6 +5086,17 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "title": "Usbekistan",
         "folder": "usbekistan-1913"
       }
+    ,
+      {
+        "id": "6151",
+        "title": "Almaty",
+        "folder": "almaty-6151"
+      },
+      {
+        "id": "1555",
+        "title": "Baku",
+        "folder": "baku-1555"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=zentralasien+kaukasus&t=3752"
   },
@@ -4905,6 +5146,27 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "5478",
         "title": "Die Unterschiede zwischen dem Nahen Osten, Zentralasien und Fernost",
         "folder": "die-unterschiede-zwischen-dem-nahen-osten-zentralasien-und-fernost-5478"
+      }
+    ,
+      {
+        "id": "5953",
+        "title": "Bagdad",
+        "folder": "bagdad-5953"
+      },
+      {
+        "id": "6152",
+        "title": "Amman",
+        "folder": "amman-6152"
+      },
+      {
+        "id": "5986",
+        "title": "Damaskus",
+        "folder": "damaskus-5986"
+      },
+      {
+        "id": "1536",
+        "title": "Ankara",
+        "folder": "ankara-1536"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=naher+osten&t=3752"
@@ -5012,6 +5274,27 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "title": "Hyderabad (Indien)",
         "folder": "hyderabad-indien-6020"
       }
+    ,
+      {
+        "id": "5989",
+        "title": "Delhi",
+        "folder": "delhi-5989"
+      },
+      {
+        "id": "6037",
+        "title": "Karachi",
+        "folder": "karachi-6037"
+      },
+      {
+        "id": "5991",
+        "title": "Dhaka",
+        "folder": "dhaka-5991"
+      },
+      {
+        "id": "6032",
+        "title": "Kabul",
+        "folder": "kabul-6032"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=suedasien+indien&t=3752"
   },
@@ -5066,6 +5349,17 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "5432",
         "title": "Asiens Klimaextreme - Monsun, Trockenheit und arktische Bedingungen",
         "folder": "asiens-klimaextreme-monsun-trockenheit-und-arktische-bedingungen-5432"
+      }
+    ,
+      {
+        "id": "5957",
+        "title": "Bangkok",
+        "folder": "bangkok-5957"
+      },
+      {
+        "id": "6149",
+        "title": "Hanoi",
+        "folder": "hanoi-6149"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=suedostasien&t=3752"
@@ -5172,6 +5466,17 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "5573",
         "title": "Wirtschaftsmacht Asien - Von China bis Indien",
         "folder": "wirtschaftsmacht-asien-von-china-bis-indien-5573"
+      }
+    ,
+      {
+        "id": "6108",
+        "title": "Seoul",
+        "folder": "seoul-6108"
+      },
+      {
+        "id": "6016",
+        "title": "Hongkong",
+        "folder": "hongkong-6016"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=ostasien+china+japan&t=3752"

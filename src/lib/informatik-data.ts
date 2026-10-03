@@ -162,6 +162,12 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "title": "Hardware-Entwicklung: Mooresches Gesetz und physikalische Grenzen",
         "folder": "mooresches-gesetz-und-die-grenzen-der-geschwindigkeit"
       }
+    ,
+      {
+        "id": "6626",
+        "title": "Die Welt der Künstlichen Intelligenz – Die bekanntesten Modelle",
+        "folder": "die-welt-der-kunstlichen-intelligenz-die-bekanntesten-modelle-6626"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=digitale+grundbildung&t=896"
   },
