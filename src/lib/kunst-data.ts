@@ -87,7 +87,28 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "id": "2821",
         "title": "Die Venus von Milo (Alexandros von Antiochien)",
         "folder": "die-venus-von-milo-von-alexandros-von-antiochien-ca-130-100-v-chr-2821"
-      }],
+      },
+      {
+        "id": "3121",
+        "title": "Kunst in der Steinzeit",
+        "folder": "kunst-in-der-steinzeit-3121"
+      },
+      {
+        "id": "5218",
+        "title": "Kunst und Architektur im antiken Ägypten",
+        "folder": "kunst-architektur-und-alltag-im-antiken-gypten-5218"
+      },
+      {
+        "id": "5219",
+        "title": "Kunst und Architektur im antiken Griechenland",
+        "folder": "kunst-und-architektur-im-antiken-griechenland-5219"
+      },
+      {
+        "id": "3370",
+        "title": "Römische Kultur und Kunst",
+        "folder": "romische-kultur-und-kunst-3370"
+      }
+    ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Antike+Kunst+Skulptur&t=3752"
   },
   "mittelalter-romanik-und-gotik": {
@@ -144,7 +165,13 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "id": "2800",
         "title": "Der Engel der Verkündigung (Simone Martini)",
         "folder": "der-engel-der-verkundigung-von-simone-martini-1333-2800"
-      }],
+      },
+      {
+        "id": "2436",
+        "title": "Christliche Kunst und Symbole",
+        "folder": "christliche-kunst-und-symbole-2436"
+      }
+    ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Gotik+Romanik+Mittelalter&t=3752"
   },
   "renaissance-meister-und-florenz": {
@@ -263,7 +290,13 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "id": "2797",
         "title": "Das Abendmahl (Leonardo da Vinci)",
         "folder": "das-abendmahl-von-leonardo-da-vinci-ca-1495-1498-2797"
-      }],
+      },
+      {
+        "id": "4052",
+        "title": "Leonardo da Vinci – Meisterwerke und Universalgenie",
+        "folder": "leonardo-da-vinci-2-4052"
+      }
+    ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Leonardo+da+Vinci+Mona+Lisa&t=3752"
   },
   "michelangelo-raffael-und-hochrenaissance": {
@@ -335,7 +368,18 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "id": "2811",
         "title": "Die Erschaffung von Eva (Michelangelo)",
         "folder": "die-erschaffung-von-eva-von-michelangelo-1510-1512-2811"
-      }],
+      },
+      {
+        "id": "4104",
+        "title": "Michelangelo Buonarroti",
+        "folder": "michelangelo-2-4104"
+      },
+      {
+        "id": "6702",
+        "title": "Michelangelo und seine Werke im Vatikan",
+        "folder": "michelangelo-und-seine-werke-im-vatikan-6702"
+      }
+    ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Michelangelo+Raffael+Sixtinische+Kapelle&t=3752"
   },
   "venezianische-malerei-und-manierismus": {
@@ -376,6 +420,12 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "id": "4725",
         "title": "Madonna mit dem langen Hals – Parmigianino (1534)",
         "folder": "madonna-mit-dem-langen-hals-parmigianino-1534-4725"
+      }
+    ,
+      {
+        "id": "2803",
+        "title": "Der Garten der irdischen Freuden – Hieronymus Bosch (1510)",
+        "folder": "der-garten-der-irdischen-freuden-von-hieronymus-bosch-1490-1510-2803"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Tizian+Venedig+Manierismus&t=3752"
@@ -450,7 +500,13 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "id": "2819",
         "title": "Die Rettung der Andromeda (Pierre Mignard)",
         "folder": "die-rettung-der-andromeda-von-pierre-mignard-1679-2819"
-      }],
+      },
+      {
+        "id": "1408",
+        "title": "Caravaggio – Meister des Chiaroscuro",
+        "folder": "caravaggio-2-1408"
+      }
+    ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Barock+Caravaggio+Bernini&t=3752"
   },
   "goldenes-zeitalter-der-niederlande": {
@@ -527,7 +583,13 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "id": "2798",
         "title": "Das Mädchen mit dem Perlenohrring (Johannes Vermeer)",
         "folder": "das-madchen-mit-dem-perlenohrring-von-johannes-vermeer-ca-1665-2798"
-      }],
+      },
+      {
+        "id": "4194",
+        "title": "Rembrandt van Rijn – Radierung und Malerei",
+        "folder": "rembrandt-van-rijn-2-4194"
+      }
+    ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Rembrandt+Vermeer+Rokoko&t=3752"
   },
   "klassizismus-und-historienmalerei": {
@@ -630,6 +692,12 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "id": "4756",
         "title": "Ophelia – John Everett Millais (Präraffaeliten, 1851)",
         "folder": "a-sunday-afternoon-on-the-island-of-la-grande-jatte-georges-seurat-1887-4756"
+      }
+    ,
+      {
+        "id": "3734",
+        "title": "Caspar David Friedrich – Romantische Landschaftsmalerei",
+        "folder": "caspar-david-friedrich-3734"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Romantik+Caspar+David+Friedrich+Turner&t=3752"
@@ -754,6 +822,12 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "id": "2812",
         "title": "Die Erschießung des Kaisers Maximilian – Édouard Manet (1867)",
         "folder": "die-erschieesung-von-kaiser-maximilian-von-douard-manet-1867-2812"
+      }
+    ,
+      {
+        "id": "3757",
+        "title": "Claude Monet – Meister des Lichts",
+        "folder": "claude-monet-2-3757"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Impressionismus+Monet+Manet&t=3752"
@@ -968,7 +1042,18 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "id": "2820",
         "title": "Die traurige Göttin (Edvard Munch)",
         "folder": "die-traurige-gottin-von-edvard-munch-1894-2820"
-      }],
+      },
+      {
+        "id": "3801",
+        "title": "Edvard Munch – Vorreiter des Expressionismus",
+        "folder": "edvard-munch-3801"
+      },
+      {
+        "id": "3923",
+        "title": "Gustav Klimt – Hauptmeister des Jugendstils",
+        "folder": "gustav-klimt-3923"
+      }
+    ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Expressionismus+Klimt+Munch+Schiele&t=3752"
   },
   "der-blaue-reiter-und-abstraktion": {
@@ -1025,7 +1110,13 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "id": "2806",
         "title": "Der Tanz (Henri Matisse)",
         "folder": "der-tanz-von-henri-matisse-1910-2806"
-      }],
+      },
+      {
+        "id": "4171",
+        "title": "Piet Mondrian – Konstruktive Abstraktion",
+        "folder": "piet-mondrian-2-4171"
+      }
+    ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Kandinsky+Franz+Marc+Matisse&t=3752"
   },
   "pablo-picasso-und-kubismus": {
@@ -1311,7 +1402,13 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "id": "2824",
         "title": "Flag (Jasper Johns)",
         "folder": "flag-von-jasper-johns-1954-1955-2824"
-      }],
+      },
+      {
+        "id": "3985",
+        "title": "Jackson Pollock – Action Painting",
+        "folder": "jackson-pollock-2-3985"
+      }
+    ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Pop+Art+Warhol+Pollock+Basquiat&t=3752"
   },
   "zeitgenoessische-kunst-street-art-und-medien": {
@@ -1393,6 +1490,12 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "id": "code-kunst",
         "title": "Kreative Anwendungen von Code in Kunst, Musik und Bewegung",
         "folder": "kreative-anwendungen-von-code-in-kunst-und-musik-oder-bewegung"
+      }
+    ,
+      {
+        "id": "2594",
+        "title": "Die Rolle moderner Medien in der Kunst",
+        "folder": "die-rolle-von-medien-in-der-kunst-2594"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Street+Art+Digitale+Kunst+Medien&t=3752"
@@ -1489,6 +1592,22 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "title": "Vektorgrafiken vs. Pixelbilder in der Grafik",
         "folder": "unterschied-zwischen-vektorgrafiken-und-pixelbildern"
       }
+    ,
+      {
+        "id": "3682",
+        "title": "Auguste Rodin – Begründer der modernen Plastik",
+        "folder": "auguste-rodin-2-3682"
+      },
+      {
+        "id": "3618",
+        "title": "Alberto Giacometti – Bronzeskulpturen",
+        "folder": "alberto-giacometti-3618"
+      },
+      {
+        "id": "4239",
+        "title": "Santiago Calatrava – Organische Baukunst",
+        "folder": "santiago-calatrava-4239"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Architektur+Keramik+Plastik+Design&t=3752"
   },
@@ -1535,6 +1654,12 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "id": "das-germanische-nationalmuseum-in-nuernberg",
         "title": "Das Germanische Nationalmuseum in Nürnberg",
         "folder": "das-germanische-nationalmuseum-in-nuernberg"
+      }
+    ,
+      {
+        "id": "5744",
+        "title": "Ästhetik und Kunstphilosophie",
+        "folder": "sthetik-und-kunstphilosophie-5744"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Kunsttherapie+Museum+Kunsttheorie&t=3752"
