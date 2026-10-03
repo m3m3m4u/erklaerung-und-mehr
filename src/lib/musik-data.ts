@@ -290,6 +290,11 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "345",
         "title": "Dur- und Molltonleitern",
         "folder": "dur-und-molltonleitern-345"
+      },
+      {
+        "id": "344",
+        "title": "Der Quintenzirkel",
+        "folder": "der-quintenzirkel-344"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=klaviatur+vorzeichen+tonleiter&t=3752"
@@ -482,6 +487,11 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "512",
         "title": "Tanzmusik und Rhythmus",
         "folder": "tanzmusik-512"
+      },
+      {
+        "id": "628",
+        "title": "Boomwhacker Playalongs & Percussion-Ensemble",
+        "folder": "bommwhacker-playalongs-628"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=schlagzeug+percussion&t=3752"
@@ -848,6 +858,21 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "70",
         "title": "Werkformen der Wiener Klassik",
         "folder": "werkformen-der-wiener-klassik-70"
+      },
+      {
+        "id": "453muss",
+        "title": "Bilder einer Ausstellung: Der Gnom von Modest Mussorski",
+        "folder": "bilder-einer-ausstellung-der-gnom-von-modest-mussorski-453"
+      },
+      {
+        "id": "450muss",
+        "title": "Eine Nacht auf dem kahlen Berg von Modest Mussorski",
+        "folder": "eine-nacht-auf-dem-kahlen-berg-von-modest-mussorski-450"
+      },
+      {
+        "id": "723smet",
+        "title": "Die Moldau von Bedřich Smetana (Vertiefung)",
+        "folder": "studypint-die-moldau-von-bedrich-smetana-723"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=sinfonie+sonate+kammermusik&t=3752"
@@ -931,6 +956,11 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "2637",
         "title": "Jüdische Musik und Kunst",
         "folder": "buddhismus-in-der-modernen-welt-18-2637"
+      },
+      {
+        "id": "madrigal",
+        "title": "Madrigal und Motette in der Renaissance",
+        "folder": "madrigal-und-motette-in-der-renaissance"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=kirchenmusik+choral+messe&t=3752"
@@ -1098,11 +1128,6 @@ export const musikTopics: Record<string, MusikTopic> = {
         "folder": "wolfgang-amadeus-mozart-3-3103"
       },
       {
-        "id": "446",
-        "title": "Eine kleine Nachtmusik von Wolfgang Amadeus Mozart",
-        "folder": "eine-kleine-nachtmusik-von-wolfgang-amadeus-mozart-2-446"
-      },
-      {
         "id": "haydn-sinfonie",
         "title": "Joseph Haydn und die Entstehung der Sinfonie",
         "folder": "haydn-und-die-sinfonie"
@@ -1116,11 +1141,6 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "wien-musikstadt",
         "title": "Wien als Musikstadt",
         "folder": "wien-als-musikstadt"
-      },
-      {
-        "id": "3258",
-        "title": "Wolfgang Amadeus Mozart: Die Zauberflöte",
-        "folder": "die-zauberflote-3258"
       },
       {
         "id": "5650",
@@ -2183,6 +2203,11 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "1274",
         "title": "Herbie Hancock",
         "folder": "herbie-hancock-1274"
+      },
+      {
+        "id": "1314",
+        "title": "Sonny Rollins",
+        "folder": "sonny-rollins-1314"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=jazzmusiker+armstrong+miles+davis&t=3752"
@@ -2271,31 +2296,6 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "600",
         "title": "Nena: 99 Luftballons",
         "folder": "99-luftballons-nena-600"
-      },
-      {
-        "id": "601",
-        "title": "Nena: 99 Luftballons (Teil 2)",
-        "folder": "99-luftballons-nena-2-601"
-      },
-      {
-        "id": "602",
-        "title": "Nena: 99 Luftballons (Teil 3)",
-        "folder": "99-luftballons-nena-3-602"
-      },
-      {
-        "id": "603",
-        "title": "Nena: 99 Luftballons (Teil 4)",
-        "folder": "99-luftballons-nena-4-603"
-      },
-      {
-        "id": "604",
-        "title": "Nena: 99 Luftballons (Teil 5)",
-        "folder": "99-luftballons-nena-5-604"
-      },
-      {
-        "id": "605",
-        "title": "Nena: 99 Luftballons (Teil 6)",
-        "folder": "99-luftballons-nena-6-605"
       },
       {
         "id": "484",
@@ -2434,67 +2434,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "title": "John Lennons Friedensbotschaft – Happy Xmas (War Is Over)",
         "folder": "john-lennons-friedensbotschaft-happy-xmas-war-is-over-6677"
       }
-    ,
-      {
-        "id": "3101",
-        "title": "The Beatles",
-        "folder": "the-beatles-2-3101"
-      },
-      {
-        "id": "606",
-        "title": "The Beatles: A Day in the Life",
-        "folder": "a-day-in-the-life-the-beatles-606"
-      },
-      {
-        "id": "479",
-        "title": "The Beatles: Help!",
-        "folder": "help-the-beatles-479"
-      },
-      {
-        "id": "485",
-        "title": "The Beatles: I Want To Hold Your Hand",
-        "folder": "i-want-to-hold-your-hand-the-beatles-485"
-      },
-      {
-        "id": "491",
-        "title": "The Beatles: Lucy In The Sky With Diamonds",
-        "folder": "lucy-in-the-sky-with-diamonds-the-beatles-491"
-      },
-      {
-        "id": "183",
-        "title": "The Beatles",
-        "folder": "the-beatles-183"
-      },
-      {
-        "id": "613",
-        "title": "Queen: Bohemian Rhapsody",
-        "folder": "bohemian-rhapsody-queen-2-613"
-      },
-      {
-        "id": "469",
-        "title": "Queen: Don't Stop Me Now",
-        "folder": "don-039-t-stop-me-now-queen-469"
-      },
-      {
-        "id": "599",
-        "title": "The Rolling Stones: (I Can't Get No) Satisfaction",
-        "folder": "i-can-039-t-get-no-satisfaction-the-rolling-stones-2-599"
-      },
-      {
-        "id": "8200",
-        "title": "Pink Floyd: Wish You Were Here",
-        "folder": "wish-you-were-here-pink-floyd-522"
-      },
-      {
-        "id": "497",
-        "title": "David Bowie: Rebel Rebel",
-        "folder": "rebel-rebel-david-bowie-497"
-      },
-      {
-        "id": "8201",
-        "title": "David Bowie: Space Oddity",
-        "folder": "space-oddity-david-bowie-506"
-      }
+    
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=beatles+queen+rolling+stones&t=3752"
   },
@@ -2563,19 +2503,19 @@ export const musikTopics: Record<string, MusikTopic> = {
       }
     ,
       {
-        "id": "638",
-        "title": "Nirvana: Smells Like Teen Spirit",
-        "folder": "smells-like-teen-spirit-nirvana-2-638"
-      },
-      {
-        "id": "615",
-        "title": "Nirvana: Come As You Are",
-        "folder": "come-as-you-are-nirvana-2-615"
-      },
-      {
         "id": "477",
         "title": "Nirvana: Heart-Shaped Box",
         "folder": "heart-shaped-box-nirvana-477"
+      },
+      {
+        "id": "836",
+        "title": "Punk",
+        "folder": "punk-836"
+      },
+      {
+        "id": "842",
+        "title": "Heavy Metal",
+        "folder": "heavy-metal-842"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=hardrock+metal+nirvana+metallica&t=3752"
@@ -2924,6 +2864,11 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "schallp",
         "title": "Wie funktioniert eine Schallplatte",
         "folder": "wie-funktioniert-eine-schallplatte"
+      },
+      {
+        "id": "djing-club",
+        "title": "Die Entwicklung des modernen DJing und die Kultur des Clubs",
+        "folder": "die-entwicklung-des-modernen-djing-und-die-kultur-des-clubs"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=techno+elektronische+musik&t=3752"
@@ -3023,6 +2968,11 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "wagner-film",
         "title": "Der Einfluss Richard Wagners auf die Filmkomposition",
         "folder": "der-einfluss-von-richard-wagner-auf-die-filmkomposition"
+      },
+      {
+        "id": "audio-abmischung",
+        "title": "Aufnahme und Abmischung von Audiobeiträgen und Medien",
+        "folder": "aufnahme-und-abmischung-von-audiobeitraegen"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=filmmusik&t=3752"
@@ -3044,6 +2994,11 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "frauen-musik",
         "title": "Frauen in der Musikgeschichte",
         "folder": "frauen-in-der-musikgeschichte"
+      },
+      {
+        "id": "3952",
+        "title": "Hildegard von Bingen – Universalgelehrte & Komponistin",
+        "folder": "hildegard-of-bingen-3952"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=frauen+musikgeschichte&t=3752"
