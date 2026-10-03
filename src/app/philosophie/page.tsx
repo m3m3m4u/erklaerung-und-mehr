@@ -42,6 +42,7 @@ export const metadata: Metadata = {
 
 export default function PhilosophieOverviewPage() {
   const allTopics = Object.values(philosophieTopics);
+  const totalExercises = allTopics.reduce((sum, t) => sum + (t.exercises?.length || 0), 0);
 
   return (
     <div className="site-wrapper">
@@ -57,7 +58,7 @@ export default function PhilosophieOverviewPage() {
               Die Kunst des Fragens und vernünftigen Denkens: Von den antiken Meistern Sokrates, Platon und Aristoteles über Kants Aufklärung und Pflichtethik bis hin zu Existenzialismus, Utilitarismus, moderner Bio- und Medienethik sowie Staatsphilosophie.
             </p>
             <p className="math-page-note">
-              Mit prägnanten Erläuterungen, Grundbegriffen und interaktiven H5P-Übungsmodulen.
+              Mit prägnanten Erläuterungen, Grundbegriffen und {totalExercises} interaktiven H5P-Übungsmodulen.
             </p>
           </div>
           <div className="math-mascot">
