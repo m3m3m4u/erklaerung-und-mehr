@@ -283,11 +283,6 @@ export const medienTopics: Record<string, MedienTopic> = {
     ],
     "exercises": [
       {
-        "id": "6548",
-        "title": "Der harte Weg zum YouTube-Star – Geld verdienen ist schwierig",
-        "folder": "der-harte-weg-zum-youtube-star-geld-verdienen-ist-schwierig-2-6548"
-      },
-      {
         "id": "6494",
         "title": "Der Weg zum YouTube-Star – Realitätscheck und Monetarisierung",
         "folder": "der-harte-weg-zum-youtube-star-geld-verdienen-ist-schwierig-6494"
