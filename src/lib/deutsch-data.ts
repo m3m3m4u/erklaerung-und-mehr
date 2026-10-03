@@ -53,16 +53,6 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "folder": "nomen-541"
       },
       {
-        "id": "555",
-        "title": "Verb - Grundlagen",
-        "folder": "verb-grundlagen-2-555"
-      },
-      {
-        "id": "556",
-        "title": "Verb - Personalform",
-        "folder": "verb-personalform-2-556"
-      },
-      {
         "id": "554",
         "title": "Zeitformen des Verbs",
         "folder": "zeitformen-des-verbs-554"
@@ -81,8 +71,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "553",
         "title": "Adjektiv",
         "folder": "adjektiv-553"
-      }
-    ,
+      },
       {
         "id": "de-grammati-1--551",
         "title": "Verb Grundlagen & Konjugation",
@@ -97,6 +86,11 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "de-grammati-3--687",
         "title": "Der unbestimmte Artikel – Einsetzen und bestimmen",
         "folder": "studypoint-drag-the-words-der-unbestimmte-artikel-687"
+      },
+      {
+        "id": "696",
+        "title": "Grundwortarten erkennen und bestimmen",
+        "folder": "studypoint-multiple-choice-grundwortarten-696"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Deutsche%20Grammatik%20Wortarten&t=284"
@@ -178,11 +172,6 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "557",
         "title": "Wortarten im Satzkontext: Kasus, Satzgefüge & Konjunktiv",
         "folder": "wortarten-bersicht-557"
-      },
-      {
-        "id": "568",
-        "title": "Wortarten & Satzbausteine – Vertiefung & Training",
-        "folder": "wortarten-bersicht-2-568"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Satzglieder%20Satzbau%20Deutsch&t=284"
@@ -241,12 +230,16 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "alemannisch",
         "title": "Alemannische Dialekte",
         "folder": "alemannische-dialekte"
-      }
-    ,
+      },
       {
         "id": "de-sprache--1-ache",
         "title": "Digitale Sprache & Emojis – Sprachwandel im 21. Jahrhundert",
         "folder": "emojis-in-der-literatur-eine-neue-sprache"
+      },
+      {
+        "id": "slang-der-strasse-der-geheime-code-der-aktuellen-jugendsprache",
+        "title": "Slang der Straße – Jugendsprache im Wandel",
+        "folder": "slang-der-strasse-der-geheime-code-der-aktuellen-jugendsprache"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Sprachwandel%20Dialekte%20Deutsch%20Herder&t=284"
@@ -348,8 +341,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "vorbereitung-auf-das-deutsch-abitur-oder-den-abschluss",
         "title": "Vorbereitung auf das Deutsch-Abitur oder den Abschluss",
         "folder": "vorbereitung-auf-das-deutsch-abitur-oder-den-abschluss"
-      }
-    ,
+      },
       {
         "id": "de-texte-un-1-3254",
         "title": "Rhetorische Stilmittel in Texten erkennen",
@@ -427,8 +419,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "wie-man-mit-buechern-die-welt-verbessern-kann",
         "title": "Wie man mit Büchern die Welt verbessern kann",
         "folder": "wie-man-mit-buechern-die-welt-verbessern-kann"
-      }
-    ,
+      },
       {
         "id": "de-argument-1-egen",
         "title": "Die literarische Erörterung – Thesen und Argumente",
@@ -506,8 +497,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "6153",
         "title": "Antigone von Sophokles – Bezug zur Gegenwart",
         "folder": "antigone-von-sophokles-bezug-zur-gegenwart-6153"
-      }
-    ,
+      },
       {
         "id": "1406",
         "title": "Römische Literatur",
@@ -671,14 +661,12 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "6239",
         "title": "Joseph von Eichendorff",
         "folder": "joseph-von-eichendorff-6239"
-      }
-    ,
+      },
       {
         "id": "joseph-von-eichendorff-und-das-fernweh-der-romantiker",
         "title": "Joseph von Eichendorff und das Fernweh der Romantiker",
         "folder": "joseph-von-eichendorff-und-das-fernweh-der-romantiker"
-      }
-    ,
+      },
       {
         "id": "de-romantik-1-2374",
         "title": "Epoche der Romantik (1795–1835) – Sehnsucht und Natur",
@@ -698,6 +686,11 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "de-romantik-4-hlen",
         "title": "Heinrich Heine – Dichter des Vormärz und Exils",
         "folder": "heinrich-heine-ein-dichter-zwischen-den-stuehlen"
+      },
+      {
+        "id": "5195",
+        "title": "Clemens Brentano: Der Spinnerin Nachtlied",
+        "folder": "der-spinnerin-nachtlied-von-clemens-brentano-5195"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Romantik%20Vormaerz%20Biedermeier%20Literatur&t=284"
@@ -809,8 +802,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "3404",
         "title": "Anna Seghers – Das siebte Kreuz",
         "folder": "anna-seghers-das-siebte-kreuz-3404"
-      }
-    ,
+      },
       {
         "id": "de-moderne--1-2382",
         "title": "Ästhetizismus – L'art pour l'art und Dekadenz",
@@ -820,6 +812,11 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "de-moderne--2-2384",
         "title": "Futurismus – Maschinenkult und literarischer Aufbruch",
         "folder": "literaturepoche-futurismus-2384"
+      },
+      {
+        "id": "anna-seghers-und-die-flucht-vor-den-nazis",
+        "title": "Anna Seghers und die Flucht vor den Nazis",
+        "folder": "anna-seghers-und-die-flucht-vor-den-nazis"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Expressionismus%20Exilliteratur%20Moderne&t=284"
@@ -946,14 +943,12 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "6204",
         "title": "Emilia Galotti – Literarische Bedeutung",
         "folder": "emilia-galotti-von-g-e-lessing-literarische-bedeutung-6204"
-      }
-    ,
+      },
       {
         "id": "nathan-der-weise-und-die-lehre-vom-friedlichen-miteinander",
         "title": "Nathan der Weise und die Lehre vom friedlichen Miteinander",
         "folder": "nathan-der-weise-und-die-lehre-vom-friedlichen-miteinander"
-      }
-    ,
+      },
       {
         "id": "de-lessing--1-4613",
         "title": "Gotthold Ephraim Lessing – Vordenker der Aufklärung",
@@ -1037,7 +1032,6 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "title": "J.W. Goethe - Torquato Tasso",
         "folder": "j-w-goethe-torquato-tasso-2-4554"
       },
-
       {
         "id": "faust-und-der-pakt-mit-dem-teufel-einfach-erklaert",
         "title": "Faust und der Pakt mit dem Teufel einfach erklärt",
@@ -1067,8 +1061,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "goethe-und-warum-er-heute-noch-wichtig-ist",
         "title": "Goethe und warum er heute noch wichtig ist",
         "folder": "goethe-und-warum-er-heute-noch-wichtig-ist"
-      }
-    ,
+      },
       {
         "id": "de-goethe-f-1-4621",
         "title": "Johann Wolfgang von Goethe – Dichterleben und Epoche",
@@ -1091,136 +1084,6 @@ export const deutschTopics: Record<string, DeutschTopic> = {
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Goethe%20Faust%20Iphigenie%20Dramen&t=284"
-  },
-  "schiller-die-grossen-dramen": {
-    "slug": "schiller-die-grossen-dramen",
-    "title": "Schiller: Die großen Dramen",
-    "category": "Dramen & Meisterwerke der Klassik",
-    "shortDesc": "Die Räuber, Kabale und Liebe, Maria Stuart, Wilhelm Tell, Don Karlos und Wallenstein.",
-    "longDesc": "Friedrich Schillers dramatische Monumentalwerke: Vom rebellischen Freiheitskampf der Räuber über das bürgerliche Trauerspiel 'Kabale und Liebe' bis hin zu den meisterhaften Geschichtsdramen der Weimarer Klassik.",
-    "keyPoints": [
-      "Die Räuber (1781): Sturm-und-Drang-Rebellion – Karl Moor kämpft gegen heuchlerische Gesellschaft, Franz Moor intrgiert skrupellos",
-      "Kabale und Liebe (1784): Bürgerliche Tragödie über die verbotene Liebe zwischen Ferdinand von Walter und der Musikertochter Luise",
-      "Don Karlos (1787): Der Übergang zur Klassik – Marquis von Posa als Vorkämpfer für Gedankenfreiheit ('Geben Sie Gedankenfreiheit!')",
-      "Maria Stuart (1800): Psychologisches Duell zweier Königinnen (Maria Stuart vs. Elisabeth I.) über Macht, Würde und innere Freiheit",
-      "Wallenstein-Trilogie (1799): Feldherr Wallenstein im Dreißigjährigen Krieg zwischen Loyalität zum Kaiser und eigenem Machtanspruch",
-      "Wilhelm Tell (1804): Schweizer Freiheitskampf gegen habsburgische Tyrannei, Apfelschuss und Rütlischwur"
-    ],
-    "exercises": [
-      {
-        "id": "4527",
-        "title": "Friedrich Schiller - Die Räuber",
-        "folder": "friedrich-schiller-die-rauber-3-4527"
-      },
-      {
-        "id": "6199",
-        "title": "Die Räuber - Bezug zur Gegenwart",
-        "folder": "die-rauber-von-friedrich-schiller-bezug-zur-gegenwart-6199"
-      },
-      {
-        "id": "6200",
-        "title": "Die Räuber – Historischer Kontext",
-        "folder": "die-rauber-von-friedrich-schiller-historischer-kontext-6200"
-      },
-      {
-        "id": "6201",
-        "title": "Die Räuber – Literarische Bedeutung",
-        "folder": "die-rauber-von-friedrich-schiller-literarische-bedeutung-6201"
-      },
-      {
-        "id": "4530",
-        "title": "Friedrich Schiller - Maria Stuart",
-        "folder": "friedrich-schiller-maria-stuart-3-4530"
-      },
-      {
-        "id": "6252",
-        "title": "Maria Stuart - Bezug zur Gegenwart",
-        "folder": "maria-stuart-von-friedrich-schiller-bezug-zur-gegenwart-6252"
-      },
-      {
-        "id": "6253",
-        "title": "Maria Stuart – Historischer Kontext",
-        "folder": "maria-stuart-von-friedrich-schiller-historischer-kontext-6253"
-      },
-      {
-        "id": "6254",
-        "title": "Maria Stuart – Literarische Bedeutung",
-        "folder": "maria-stuart-von-friedrich-schiller-literarische-bedeutung-6254"
-      },
-      {
-        "id": "4529",
-        "title": "Friedrich Schiller - Kabale und Liebe",
-        "folder": "friedrich-schiller-kabale-und-liebe-4-4529"
-      },
-      {
-        "id": "4532",
-        "title": "Friedrich Schiller - Wilhelm Tell",
-        "folder": "friedrich-schiller-wilhelm-tell-3-4532"
-      },
-      {
-        "id": "4528",
-        "title": "Friedrich Schiller - Don Karlos",
-        "folder": "friedrich-schiller-don-karlos-2-4528"
-      },
-      {
-        "id": "6196",
-        "title": "Die Jungfrau von Orleans – Historischer Kontext",
-        "folder": "die-jungfrau-von-orleans-von-friedrich-schiller-historischer-kontext-6196"
-      },
-      {
-        "id": "6195",
-        "title": "Die Jungfrau von Orleans - Bezug zur Gegenwart",
-        "folder": "die-jungfrau-von-orleans-von-friedrich-schiller-bezug-zur-gegenwart-6195"
-      }
-    ,
-      {
-        "id": "3426",
-        "title": "Friedrich Schiller – Wallenstein",
-        "folder": "friedrich-schiller-wallenstein-3426"
-      },
-      {
-        "id": "kabale-und-liebe-eine-unmoegliche-romanze",
-        "title": "Kabale und Liebe - Eine unmögliche Romanze",
-        "folder": "kabale-und-liebe-eine-unmoegliche-romanze"
-      },
-      {
-        "id": "friedrich-schiller-und-die-kraft-der-freundschaft",
-        "title": "Friedrich Schiller und die Kraft der Freundschaft",
-        "folder": "friedrich-schiller-und-die-kraft-der-freundschaft"
-      }
-    ,
-      {
-        "id": "de-schiller-1-1258",
-        "title": "Friedrich Schiller – Dichter der Freiheit",
-        "folder": "friedrich-schiller-1258"
-      },
-      {
-        "id": "de-schiller-2-3281",
-        "title": "Schiller: Die Räuber – Rebellion gegen die Ordnung",
-        "folder": "friedrich-schiller-die-rauber-3281"
-      },
-      {
-        "id": "de-schiller-3-3272",
-        "title": "Schiller: Kabale und Liebe – Bürgerliches Trauerspiel",
-        "folder": "friedrich-schiller-kabale-und-liebe-3272"
-      },
-      {
-        "id": "de-schiller-4-3271",
-        "title": "Schiller: Maria Stuart – Drama zweier Königinnen",
-        "folder": "friedrich-schiller-maria-stuart-3271"
-      },
-      {
-        "id": "de-schiller-5-4531",
-        "title": "Schiller: Wallenstein – Historische Dramentrilogie",
-        "folder": "friedrich-schiller-wallenstein-2-4531"
-      },
-      {
-        "id": "de-schiller-6-3274",
-        "title": "Schiller: Wilhelm Tell – Schweizer Freiheitsmythos",
-        "folder": "friedrich-schiller-wilhelm-tell-3274"
-      }
-    ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Schiller%20Dramen%20Raeuber%20Maria%20Stuart&t=284"
   },
   "goethe-romane-und-erzaehlungen": {
     "slug": "goethe-romane-und-erzaehlungen",
@@ -1251,14 +1114,12 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "novellen-die-besondere-gattung-einfach-erklaert",
         "title": "Novellen – Die besondere Gattung einfach erklärt",
         "folder": "novellen-die-besondere-gattung-einfach-erklaert"
-      }
-    ,
+      },
       {
         "id": "3446",
         "title": "J.W. Goethe – Die Wahlverwandtschaften",
         "folder": "j-w-goethe-die-wahlverwandtschaften-3446"
-      }
-    ,
+      },
       {
         "id": "de-goethe-r-1-3275",
         "title": "Goethe: Die Leiden des jungen Werther – Sturm und Drang",
@@ -1321,8 +1182,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "4548",
         "title": "Heinrich von Kleist - Prinz Friedrich von Homburg",
         "folder": "heinrich-von-kleist-prinz-friedrich-von-homburg-2-4548"
-      }
-    ,
+      },
       {
         "id": "de-romantik-1-4618",
         "title": "Heinrich von Kleist – Zerrissenheit und dramatische Wucht",
@@ -1405,14 +1265,12 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "4538",
         "title": "Gotfried Keller – Der grüne Heinrich",
         "folder": "gotfried-keller-der-grune-heinrich-2-4538"
-      }
-    ,
+      },
       {
         "id": "3463",
         "title": "Theodor Fontane – Frau Jenny Treibel",
         "folder": "theodor-fontane-frau-jenny-treibel-3463"
-      }
-    ,
+      },
       {
         "id": "de-realismu-1-4612",
         "title": "Gottfried Keller – Schweizer Dichter des Realismus",
@@ -1450,292 +1308,6 @@ export const deutschTopics: Record<string, DeutschTopic> = {
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Fontane%20Effi%20Briest%20Keller%20Realismus&t=284"
-  },
-  "sozialkritisches-drama-und-vormaerz": {
-    "slug": "sozialkritisches-drama-und-vormaerz",
-    "title": "Sozialkritisches Drama: Büchner, Hauptmann & Wedekind",
-    "category": "Romane, Novellen & Erzählungen",
-    "shortDesc": "Woyzeck, Dantons Tod, Die Ratten, Vor Sonnenuntergang und Frühlings Erwachen.",
-    "longDesc": "Dramatischer Protest gegen Unterdrückung, Standesdünkel und Heuchelei: Von Georg Büchners genialem Dramenfragment 'Woyzeck' über Gerhart Hauptmanns naturalistische Milieustudien bis zu Frank Wedekinds Tabubruch der bürgerlichen Sexualmoral.",
-    "keyPoints": [
-      "Georg Büchner – 'Woyzeck' (1836): Der einfache Soldat als Spielball gesellschaftlicher Ausbeutung (Hauptmann, Doktor) bis zum Mord an Marie",
-      "Büchners Sprache: Fragmentarische Szenenfolge, offene Dramenform, elliptische Sprache und Volksliedmotive",
-      "Büchner – 'Dantons Tod': Die Zerreißprobe der Französischen Revolution zwischen Jakobinerterror (Robespierre) und Lebensüberdruss (Danton)",
-      "Gerhart Hauptmann – 'Die Ratten' (1911): Berliner Tragikomödie des Naturalismus über Kindesunterschiebung und Klassengegensätze",
-      "Frank Wedekind – 'Frühlings Erwachen' (1891): Kindertragödie über Pubertät, Sexualität, Prüderie und autoritäre Schulunterdrückung",
-      "Friedrich Hebbel – 'Maria Magdalene' & Grabbe: Tragik der bürgerlichen Enge und bissige literarische Satire"
-    ],
-    "exercises": [
-      {
-        "id": "4535",
-        "title": "Georg Büchner - Woyzeck",
-        "folder": "georg-buchner-woyzeck-3-4535"
-      },
-      {
-        "id": "6274",
-        "title": "Woyzeck – Historischer Kontext",
-        "folder": "woyzeck-von-georg-buchner-historischer-kontext-6274"
-      },
-      {
-        "id": "6275",
-        "title": "Woyzeck – Literarische Bedeutung",
-        "folder": "woyzeck-von-georg-buchner-literarische-bedeutung-6275"
-      },
-      {
-        "id": "6278",
-        "title": "Woyzeck - Bezug zur Gegenwart",
-        "folder": "woyzeck-von-georg-buchner-bezug-zur-gegenwart-6278"
-      },
-      {
-        "id": "4522",
-        "title": "Frank Wedekind - Frühlings Erwachen",
-        "folder": "frank-wedekind-fruhlings-erwachen-3-4522"
-      },
-      {
-        "id": "4526",
-        "title": "Friedrich Hebbel - Maria Magdalene",
-        "folder": "friedrich-hebbel-maria-magdalene-2-4526"
-      }
-    ,
-      {
-        "id": "3429",
-        "title": "Georg Büchner – Dantons Tod",
-        "folder": "georg-buchner-dantons-tod-3429"
-      },
-      {
-        "id": "georg-buechner-ein-rebell-der-deutschen-literatur",
-        "title": "Georg Büchner - Ein Rebell der deutschen Literatur",
-        "folder": "georg-buechner-ein-rebell-der-deutschen-literatur"
-      },
-      {
-        "id": "woyzeck-und-die-frage-was-macht-den-menschen-zum-tier",
-        "title": "Woyzeck und die Frage - Was macht den Menschen zum Tier",
-        "folder": "woyzeck-und-die-frage-was-macht-den-menschen-zum-tier"
-      },
-      {
-        "id": "6248",
-        "title": "Leonce und Lena von Georg Büchner - Bezug zur Gegenwart",
-        "folder": "leonce-und-lena-von-georg-buchner-bezug-zur-gegenwart-6248"
-      },
-      {
-        "id": "6249",
-        "title": "Leonce und Lena von Georg Büchner – Historischer Kontext",
-        "folder": "leonce-und-lena-von-georg-buchner-historischer-kontext-6249"
-      },
-      {
-        "id": "6250",
-        "title": "Leonce und Lena von Georg Büchner – Literarische Bedeutung",
-        "folder": "leonce-und-lena-von-georg-buchner-literarische-bedeutung-6250"
-      },
-      {
-        "id": "3431",
-        "title": "Gerhart Hauptmann – Die Ratten",
-        "folder": "gerhart-hauptmann-die-ratten-3431"
-      },
-      {
-        "id": "3432",
-        "title": "Gerhart Hauptmann – Vor Sonnenuntergang",
-        "folder": "gerhart-hauptmann-vor-sonnenuntergang-3432"
-      },
-      {
-        "id": "6161",
-        "title": "Bahnwärter Thiel von Gerhart Hauptmann",
-        "folder": "bahnwarter-thiel-von-gerhart-hauptmann-6161"
-      },
-      {
-        "id": "6158",
-        "title": "Bahnwärter Thiel von Gerhart Hauptmann - Bezug zur Gegenwart",
-        "folder": "bahnwarter-thiel-von-gerhart-hauptmann-bezug-zur-gegenwart-6158"
-      },
-      {
-        "id": "6159",
-        "title": "Bahnwärter Thiel von Gerhart Hauptmann – Historischer Kontext",
-        "folder": "bahnwarter-thiel-von-gerhart-hauptmann-historischer-kontext-6159"
-      },
-      {
-        "id": "6160",
-        "title": "Bahnwärter Thiel von Gerhart Hauptmann – Literarische Bedeutung",
-        "folder": "bahnwarter-thiel-von-gerhart-hauptmann-literarische-bedeutung-6160"
-      }
-    ,
-      {
-        "id": "de-sozialkr-1-4605",
-        "title": "Frank Wedekind – Provokateur des modernen Theaters",
-        "folder": "frank-wedekind-4605"
-      },
-      {
-        "id": "de-sozialkr-2-3248",
-        "title": "Wedekind: Frühlings Erwachen – Kindertragödie",
-        "folder": "frank-wedekind-fruhlings-erwachen-3248"
-      },
-      {
-        "id": "de-sozialkr-3-4611",
-        "title": "Gerhart Hauptmann – Nobelpreisträger des Naturalismus",
-        "folder": "gerhart-hauptmann-2-4611"
-      },
-      {
-        "id": "de-sozialkr-4-4536",
-        "title": "Hauptmann: Die Ratten – Berliner Tragikomödie",
-        "folder": "gerhart-hauptmann-die-ratten-2-4536"
-      },
-      {
-        "id": "de-sozialkr-5-4537",
-        "title": "Hauptmann: Vor Sonnenuntergang – Familiendrama",
-        "folder": "gerhart-hauptmann-vor-sonnenuntergang-2-4537"
-      }
-    ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Buechner%20Woyzeck%20Wedekind%20Hauptmann&t=284"
-  },
-  "klassische-moderne-kafka-und-mann": {
-    "slug": "klassische-moderne-kafka-und-mann",
-    "title": "Klassische Moderne: Kafka, Mann & Döblin",
-    "category": "Romane, Novellen & Erzählungen",
-    "shortDesc": "Der Prozess, In der Strafkolonie, Buddenbrooks, Der Zauberberg, Mario und der Zauberer und Berlin Alexanderplatz.",
-    "longDesc": "Die Jahrhundertautoren des 20. Jahrhunderts: Franz Kafkas existenzielle Labyrinthe anonymer Schuld und Bürokratie, Thomas Manns monumentale Gesellschaftspanoramen und Faschismuskritik sowie Alfred Döblins rasanter Großstadtroman.",
-    "keyPoints": [
-      "Franz Kafka – 'Der Prozess' (1925): Josef K. wird 'ohne dass er etwas Böses getan hätte, eines Morgens verhaftet' – Parabel moderner Entfremdung",
-      "Kafka – 'In der Strafkolonie' (1919): Die Hinrichtungsmaschine als Metapher für bürokratischen Sadismus und archaische Justizsysteme",
-      "Thomas Mann – 'Buddenbrooks' (1901): Vier Generationen einer Lübecker Kaufmannsfamilie zwischen bürgerlicher Pflicht und künstlerischem Verfall",
-      "Thomas Mann – 'Der Zauberberg' (1924): Das Davoser Sanatorium als Mikrokosmos des geistigen Europas vor dem Ersten Weltkrieg",
-      "Thomas Mann – 'Mario und der Zauberer' (1930): Der Magier Cipolla als düstere Parabel auf die Verführbarkeit der Massen durch den Faschismus",
-      "Alfred Döblin – 'Berlin Alexanderplatz' (1929): Franz Biberkopfs Kampf im Moloch Berlin – Montage-Technik, Werbeslogans und innere Monologe",
-      "Heinrich Mann – 'Professor Unrat' & Anna Seghers – 'Das siebte Kreuz': Satire auf den autoritären Untertanengeist und mutiger Antifaschismus"
-    ],
-    "exercises": [
-      {
-        "id": "4523",
-        "title": "Franz Kafka - Der Prozess",
-        "folder": "franz-kafka-der-prozess-3-4523"
-      },
-      {
-        "id": "6230",
-        "title": "In der Strafkolonie von Franz Kafka",
-        "folder": "in-der-strafkolonie-von-franz-kafka-6230"
-      },
-      {
-        "id": "6227",
-        "title": "In der Strafkolonie - Bezug zur Gegenwart",
-        "folder": "in-der-strafkolonie-von-franz-kafka-bezug-zur-gegenwart-6227"
-      },
-      {
-        "id": "6228",
-        "title": "In der Strafkolonie – Historischer Kontext",
-        "folder": "in-der-strafkolonie-von-franz-kafka-historischer-kontext-6228"
-      },
-      {
-        "id": "6229",
-        "title": "In der Strafkolonie – Literarische Bedeutung",
-        "folder": "in-der-strafkolonie-von-franz-kafka-literarische-bedeutung-6229"
-      },
-      {
-        "id": "4571",
-        "title": "Thomas Mann - Buddenbrooks",
-        "folder": "thomas-mann-buddenbrooks-3-4571"
-      },
-      {
-        "id": "thomas-mann-und-die-buddenbrooks-einfach-erklaert",
-        "title": "Thomas Mann und die Buddenbrooks einfach erklärt",
-        "folder": "thomas-mann-und-die-buddenbrooks-einfach-erklaert"
-      },
-      {
-        "id": "6258",
-        "title": "Mario und der Zauberer von Thomas Mann",
-        "folder": "mario-und-der-zauberer-von-thomas-mann-6258"
-      },
-      {
-        "id": "4509",
-        "title": "Anna Seghers – Das siebte Kreuz",
-        "folder": "anna-seghers-das-siebte-kreuz-2-4509"
-      },
-      {
-        "id": "anna-seghers-und-die-flucht-vor-den-nazis",
-        "title": "Anna Seghers und die Flucht vor den Nazis",
-        "folder": "anna-seghers-und-die-flucht-vor-den-nazis"
-      },
-      {
-        "id": "4596",
-        "title": "Alfred Döblin",
-        "folder": "alfred-doblin-4596"
-      },
-      {
-        "id": "3403",
-        "title": "Alfred Döblin – Berlin Alexanderplatz",
-        "folder": "alfred-doblin-berlin-alexanderplatz-3403"
-      }
-    ,
-      {
-        "id": "3472",
-        "title": "Thomas Mann – Der Zauberberg",
-        "folder": "thomas-mann-der-zauberberg-3472"
-      },
-      {
-        "id": "thomas-mann-und-wie-eine-reiche-familie-zerfaellt",
-        "title": "Thomas Mann und wie eine reiche Familie zerfällt",
-        "folder": "thomas-mann-und-wie-eine-reiche-familie-zerfaellt"
-      },
-      {
-        "id": "6255",
-        "title": "Mario und der Zauberer von Thomas Mann - Bezug zur Gegenwart",
-        "folder": "mario-und-der-zauberer-von-thomas-mann-bezug-zur-gegenwart-6255"
-      },
-      {
-        "id": "6256",
-        "title": "Mario und der Zauberer von Thomas Mann – Historischer Kontext",
-        "folder": "mario-und-der-zauberer-von-thomas-mann-historischer-kontext-6256"
-      },
-      {
-        "id": "6257",
-        "title": "Mario und der Zauberer von Thomas Mann – Literarische Bedeutung",
-        "folder": "mario-und-der-zauberer-von-thomas-mann-literarische-bedeutung-6257"
-      },
-      {
-        "id": "3438",
-        "title": "Heinrich Mann – Professor Unrat",
-        "folder": "heinrich-mann-professor-unrat-3438"
-      },
-      {
-        "id": "kafka-und-das-gefuehl-im-system-gefangen-zu-sein",
-        "title": "Kafka und das Gefühl im System gefangen zu sein",
-        "folder": "kafka-und-das-gefuehl-im-system-gefangen-zu-sein"
-      }
-    ,
-      {
-        "id": "de-klassisc-1-1256",
-        "title": "Franz Kafka – Das kafkaeske Universum",
-        "folder": "franz-kafka-1256"
-      },
-      {
-        "id": "de-klassisc-2-3093",
-        "title": "Kafka: Der Prozess – Schuld und unbegreifliche Macht",
-        "folder": "franz-kafka-der-prozess-3093"
-      },
-      {
-        "id": "de-klassisc-3-4631",
-        "title": "Thomas Mann – Monumentalität und Ironie",
-        "folder": "thomas-mann-2-4631"
-      },
-      {
-        "id": "de-klassisc-4-3283",
-        "title": "Thomas Mann: Buddenbrooks – Verfall einer Familie",
-        "folder": "thomas-mann-buddenbrooks-3283"
-      },
-      {
-        "id": "de-klassisc-5-4572",
-        "title": "Thomas Mann: Der Zauberberg – Sanatorium in Davos",
-        "folder": "thomas-mann-der-zauberberg-2-4572"
-      },
-      {
-        "id": "de-klassisc-6-4617",
-        "title": "Heinrich Mann – Scharfsinniger Kritiker des Kaiserreichs",
-        "folder": "heinrich-mann-4617"
-      },
-      {
-        "id": "de-klassisc-7-4544",
-        "title": "Heinrich Mann: Professor Unrat – Vorlage zum Blauen Engel",
-        "folder": "heinrich-mann-professor-unrat-2-4544"
-      }
-    ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Kafka%20Prozess%20Thomas%20Mann%20Buddenbrooks&t=284"
   },
   "brecht-und-das-epische-theater": {
     "slug": "brecht-und-das-epische-theater",
@@ -1830,7 +1402,6 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "title": "Max Frisch - Biedermann und die Brandstifter",
         "folder": "max-frisch-biedermann-und-die-brandstifter-2-4559"
       },
-
       {
         "id": "3455",
         "title": "Max Frisch – Montauk",
@@ -1845,8 +1416,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "friedrich-duerrenmatt-warum-zufaelle-alles-veraendern",
         "title": "Friedrich Dürrenmatt - Warum Zufälle alles verändern",
         "folder": "friedrich-duerrenmatt-warum-zufaelle-alles-veraendern"
-      }
-    ,
+      },
       {
         "id": "de-schweize-1-4623",
         "title": "Max Frisch – Identität und Tagebuchform",
@@ -1914,8 +1484,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "4564",
         "title": "Peter Weiss - Die Verfolgung und Ermordung Jean Paul Marats",
         "folder": "peter-weiss-die-verfolgung-und-ermordung-jean-paul-marats-2-4564"
-      }
-    ,
+      },
       {
         "id": "guenter-grass-und-die-blechtrommel-kurz-gefasst",
         "title": "Günter Grass und die Blechtrommel kurz gefasst",
@@ -1935,8 +1504,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "hermann-hesse-und-die-suche-nach-dem-sinn-des-lebens",
         "title": "Hermann Hesse und die Suche nach dem Sinn des Lebens",
         "folder": "hermann-hesse-und-die-suche-nach-dem-sinn-des-lebens"
-      }
-    ,
+      },
       {
         "id": "de-deutsche-1-4614",
         "title": "Günter Grass – Danziger Trilogie und Blechtrommel",
@@ -2024,8 +1592,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "3110",
         "title": "Die Heimsuchung - 2001 - Nachwendejahre und Erinnerungskultur",
         "folder": "die-heimsuchung-2001-nachwendejahre-erinnerungskultur-neues-jahrtausend-3110"
-      }
-    ,
+      },
       {
         "id": "6220",
         "title": "Heimsuchung von Jenny Erpenbeck - Bezug zur Gegenwart",
@@ -2040,8 +1607,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "6222",
         "title": "Heimsuchung von Jenny Erpenbeck – Literarische Bedeutung",
         "folder": "heimsuchung-von-jenny-erpenbeck-literarische-bedeutung-6222"
-      }
-    ,
+      },
       {
         "id": "de-die-heim-1-3105",
         "title": "Jenny Erpenbeck – Werk und historische Schichten",
@@ -2094,8 +1660,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "4556",
         "title": "Johann Nestroy - Der Talisman",
         "folder": "johann-nestroy-der-talisman-2-4556"
-      }
-    ,
+      },
       {
         "id": "3471",
         "title": "Hugo von Hofmannsthal – Der Schwierige",
@@ -2105,8 +1670,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "3443",
         "title": "Hugo von Hofmannsthal – Der Tor und der Tod",
         "folder": "hugo-von-hofmannsthal-der-tor-und-der-tod-3443"
-      }
-    ,
+      },
       {
         "id": "de-wiener-m-1-4604",
         "title": "Ferdinand Raimund – Meister des Alt-Wiener Zauberspiels",
@@ -2194,8 +1758,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "4570",
         "title": "Thomas Bernhard - Holzfällen",
         "folder": "thomas-bernhard-holzfallen-2-4570"
-      }
-    ,
+      },
       {
         "id": "de-oesterre-1-3456",
         "title": "Ödön von Horváth: Geschichten aus dem Wiener Wald – Volksstück",
@@ -2248,14 +1811,12 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "6191",
         "title": "Der Trafikant – Literarische Bedeutung",
         "folder": "der-trafikant-von-robert-seethaler-literarische-bedeutung-6191"
-      }
-    ,
+      },
       {
         "id": "3461",
         "title": "Robert Seethaler – Der Trafikant",
         "folder": "robert-seethaler-der-trafikant-3461"
-      }
-    ,
+      },
       {
         "id": "de-robert-s-1-4628",
         "title": "Robert Seethaler – Wiener Romancier und Erzähler",
@@ -2333,8 +1894,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "die-ballade-spannende-geschichten-in-reimform",
         "title": "Die Ballade – Spannende Geschichten in Reimform",
         "folder": "die-ballade-spannende-geschichten-in-reimform"
-      }
-    ,
+      },
       {
         "id": "haikus-die-kunst-der-japanischen-kurzgedichte",
         "title": "Haikus - Die Kunst der japanischen Kurzgedichte",
@@ -2402,8 +1962,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "5210",
         "title": "Prometheus von Johann Wolfgang von Goethe",
         "folder": "prometheus-von-johann-wolfgang-von-goethe-5210"
-      }
-    ,
+      },
       {
         "id": "naturgedichte-zwischen-idylle-und-zerstoerung",
         "title": "Naturgedichte - Zwischen Idylle und Zerstörung",
@@ -2481,8 +2040,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "visuelle-poesie-wenn-das-gedicht-ein-bild-ist",
         "title": "Visuelle Poesie – Wenn das Gedicht ein Bild ist",
         "folder": "visuelle-poesie-wenn-das-gedicht-ein-bild-ist"
-      }
-    ,
+      },
       {
         "id": "moderne-naturgedichte-im-21-jahrhundert",
         "title": "Moderne Naturgedichte im 21. Jahrhundert",
@@ -2492,8 +2050,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "moderne-songtexte-als-gedichte-analysieren",
         "title": "Moderne Songtexte als Gedichte analysieren",
         "folder": "moderne-songtexte-als-gedichte-analysieren"
-      }
-    ,
+      },
       {
         "id": "de-moderne--1-rsen",
         "title": "Großstadtlyrik – Der Lärm der Welt im Expressionismus",
@@ -2561,8 +2118,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "behinderung-und-inklusion-in-kinder-und-jugendbuechern",
         "title": "Behinderung und Inklusion in Kinder- und Jugendbüchern",
         "folder": "behinderung-und-inklusion-in-kinder-und-jugendbuechern"
-      }
-    ,
+      },
       {
         "id": "margit-auer-und-der-erfolg-der-schule-der-magischen-tiere",
         "title": "Margit Auer und der Erfolg der Schule der magischen Tiere",
@@ -2572,6 +2128,26 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "orientalische-erzaehlungen-und-ihre-magie",
         "title": "Orientalische Erzählungen und ihre Magie",
         "folder": "orientalische-erzaehlungen-und-ihre-magie"
+      },
+      {
+        "id": "paul-maar-und-das-geheimnis-der-wunschpunkte",
+        "title": "Paul Maar und das Geheimnis der Wunschpunkte (Das Sams)",
+        "folder": "paul-maar-und-das-geheimnis-der-wunschpunkte"
+      },
+      {
+        "id": "mary-pope-osborne-mit-dem-magischen-baumhaus-durch-die-zeit",
+        "title": "Mary Pope Osborne: Das magische Baumhaus",
+        "folder": "mary-pope-osborne-mit-dem-magischen-baumhaus-durch-die-zeit"
+      },
+      {
+        "id": "roald-dahl-und-sein-schraeger-humor-in-kinderbuechern",
+        "title": "Roald Dahl und sein schräger Humor in Kinderbüchern",
+        "folder": "roald-dahl-und-sein-schraeger-humor-in-kinderbuechern"
+      },
+      {
+        "id": "oliver-scherz-warum-vorlesebuecher-so-wichtig-sind",
+        "title": "Oliver Scherz: Warum Vorlesebücher so wichtig sind",
+        "folder": "oliver-scherz-warum-vorlesebuecher-so-wichtig-sind"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Kinderbuch%20Klassiker%20Kleiner%20Prinz%20Alice&t=284"
@@ -2620,8 +2196,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "streit-mit-den-eltern-in-der-literatur",
         "title": "Streit mit den Eltern in der Literatur",
         "folder": "streit-mit-den-eltern-in-der-literatur"
-      }
-    ,
+      },
       {
         "id": "warum-gregs-tagebuch-so-viele-lesemuffel-begeistert",
         "title": "Warum Gregs Tagebuch so viele Lesemuffel begeistert",
@@ -2641,8 +2216,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "mentale-gesundheit-in-modernen-jugendromanen",
         "title": "Mentale Gesundheit in modernen Jugendromanen",
         "folder": "mentale-gesundheit-in-modernen-jugendromanen"
-      }
-    ,
+      },
       {
         "id": "de-moderne--1-4633",
         "title": "Wolfgang Herrndorf – Leben und Werk",
@@ -2699,8 +2273,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "was-fantasy-literatur-fuer-jugendliche-so-attraktiv-macht",
         "title": "Was Fantasy-Literatur für Jugendliche so attraktiv macht",
         "folder": "was-fantasy-literatur-fuer-jugendliche-so-attraktiv-macht"
-      }
-    ,
+      },
       {
         "id": "joanne-k-rowling-wie-eine-idee-die-welt-veraenderte",
         "title": "Joanne K Rowling - Wie eine Idee die Welt veränderte",
@@ -2720,6 +2293,21 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "twilight-gegen-heute-wie-sich-romanzen-veraendert-haben",
         "title": "Twilight gegen heute - Wie sich Romanzen verändert haben",
         "folder": "twilight-gegen-heute-wie-sich-romanzen-veraendert-haben"
+      },
+      {
+        "id": "warrior-cats-warum-wir-geschichten-ueber-tiere-lieben",
+        "title": "Warrior Cats – Warum wir Tierfantasy lieben",
+        "folder": "warrior-cats-warum-wir-geschichten-ueber-tiere-lieben"
+      },
+      {
+        "id": "zeitreisen-in-jugendbuechern-wie-logisch-sind-sie",
+        "title": "Zeitreisen in Jugendbüchern – Logik und Erzählkunst",
+        "folder": "zeitreisen-in-jugendbuechern-wie-logisch-sind-sie"
+      },
+      {
+        "id": "worldbuilding-so-baut-man-eine-eigene-fantasy-welt",
+        "title": "Worldbuilding – So baut man eine eigene Fantasy-Welt",
+        "folder": "worldbuilding-so-baut-man-eine-eigene-fantasy-welt"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Cornelia%20Funke%20Eragon%20Fantasy%20Jugend&t=284"
@@ -2778,12 +2366,31 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "die-rolle-der-polizei-im-krimi-frueher-und-heute",
         "title": "Die Rolle der Polizei im Krimi früher und heute",
         "folder": "die-rolle-der-polizei-im-krimi-frueher-und-heute"
-      }
-    ,
+      },
       {
         "id": "krimidinner-wenn-literatur-zum-spiel-wird",
         "title": "Krimidinner - Wenn Literatur zum Spiel wird",
         "folder": "krimidinner-wenn-literatur-zum-spiel-wird"
+      },
+      {
+        "id": "nordic-noir-warum-krimis-aus-dem-norden-so-duester-sind",
+        "title": "Nordic Noir – Warum Krimis aus dem Norden so düster sind",
+        "folder": "nordic-noir-warum-krimis-aus-dem-norden-so-duester-sind"
+      },
+      {
+        "id": "psychothriller-warum-wir-uns-gerne-gruseln",
+        "title": "Psychothriller – Warum wir uns gerne gruseln",
+        "folder": "psychothriller-warum-wir-uns-gerne-gruseln"
+      },
+      {
+        "id": "psychologische-thriller-das-grauen-im-kopf",
+        "title": "Psychologische Thriller – Das Grauen im Kopf",
+        "folder": "psychologische-thriller-das-grauen-im-kopf"
+      },
+      {
+        "id": "rache-und-vergebung-in-spannenden-thrillern",
+        "title": "Rache und Vergebung in modernen Thrillern",
+        "folder": "rache-und-vergebung-in-spannenden-thrillern"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Krimi%20Thriller%20Sherlock%20Holmes%20Agatha%20Christie&t=284"
@@ -2832,14 +2439,12 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "das-multiversum-in-der-modernen-literatur",
         "title": "Das Multiversum in der modernen Literatur",
         "folder": "das-multiversum-in-der-modernen-literatur"
-      }
-    ,
+      },
       {
         "id": "monster-in-der-literatur-von-frankenstein-bis-heute",
         "title": "Monster in der Literatur - Von Frankenstein bis heute",
         "folder": "monster-in-der-literatur-von-frankenstein-bis-heute"
-      }
-    ,
+      },
       {
         "id": "de-fantasy--1-1262",
         "title": "George Orwell – 1984 und Animal Farm",
@@ -2892,14 +2497,12 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "das-dorf-gegen-die-stadt-gegensaetze-in-der-literatur",
         "title": "Das Dorf gegen die Stadt – Gegensätze in der Literatur",
         "folder": "das-dorf-gegen-die-stadt-gegensaetze-in-der-literatur"
-      }
-    ,
+      },
       {
         "id": "historische-romane-wie-viel-echte-geschichte-steckt-drin",
         "title": "Historische Romane - Wie viel echte Geschichte steckt drin",
         "folder": "historische-romane-wie-viel-echte-geschichte-steckt-drin"
-      }
-    ,
+      },
       {
         "id": "de-abenteue-1-sagt",
         "title": "Merkmale der Kurzgeschichte – Offener Anfang und Wendepunkt",
@@ -2967,8 +2570,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "warum-mangas-und-animes-die-literatur-beeinflussen",
         "title": "Warum Mangas und Animes die Literatur beeinflussen",
         "folder": "warum-mangas-und-animes-die-literatur-beeinflussen"
-      }
-    ,
+      },
       {
         "id": "graphic-novels-warum-comics-richtige-literatur-sind",
         "title": "Graphic Novels - Warum Comics richtige Literatur sind",
@@ -2978,6 +2580,16 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "one-piece-und-die-kunst-des-geschichtenerzaehlens",
         "title": "One Piece und die Kunst des Geschichtenerzählens",
         "folder": "one-piece-und-die-kunst-des-geschichtenerzaehlens"
+      },
+      {
+        "id": "volksmaerchen-gegen-kunstmaerchen-die-unterschiede",
+        "title": "Volksmärchen gegen Kunstmärchen – Die Unterschiede",
+        "folder": "volksmaerchen-gegen-kunstmaerchen-die-unterschiede"
+      },
+      {
+        "id": "moderne-maerchen-adaptionen-in-filmen-und-buechern",
+        "title": "Moderne Märchen-Adaptionen in Filmen und Büchern",
+        "folder": "moderne-maerchen-adaptionen-in-filmen-und-buechern"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Fabeln%20Maerchen%20Comics%20Manga%20Deutsch&t=284"
@@ -3036,8 +2648,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "das-passende-ende-finden-happy-end-oder-offen",
         "title": "Das passende Ende finden – Happy End oder offen",
         "folder": "das-passende-ende-finden-happy-end-oder-offen"
-      }
-    ,
+      },
       {
         "id": "ich-erzaehler-gegen-er-erzaehler-was-wirkt-besser",
         "title": "Ich-Erzähler gegen Er-Erzähler - Was wirkt besser",
@@ -3052,6 +2663,26 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "warum-der-ort-der-handlung-so-wichtig-ist",
         "title": "Warum der Ort der Handlung so wichtig ist",
         "folder": "warum-der-ort-der-handlung-so-wichtig-ist"
+      },
+      {
+        "id": "kreatives-schreiben-im-unterricht-tolle-methoden",
+        "title": "Kreatives Schreiben – Methoden und Übungen",
+        "folder": "kreatives-schreiben-im-unterricht-tolle-methoden"
+      },
+      {
+        "id": "show-dont-tell-anschaulich-schreiben-fuer-fortgeschrittene",
+        "title": "Show, don't tell – Anschaulich schreiben",
+        "folder": "show-dont-tell-anschaulich-schreiben-fuer-fortgeschrittene"
+      },
+      {
+        "id": "plot-twists-wie-man-den-leser-richtig-ueberrascht",
+        "title": "Plot-Twists – Überraschende Wendungen konstruieren",
+        "folder": "plot-twists-wie-man-den-leser-richtig-ueberrascht"
+      },
+      {
+        "id": "wie-man-einen-fesselnden-klappentext-schreibt",
+        "title": "Wie man einen fesselnden Klappentext schreibt",
+        "folder": "wie-man-einen-fesselnden-klappentext-schreibt"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Kreatives%20Schreiben%20Heldenreise%20Dialoge&t=284"
@@ -3110,8 +2741,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "recherche-tipps-wie-autoren-fakten-checken",
         "title": "Recherche-Tipps – Wie Autoren Fakten checken",
         "folder": "recherche-tipps-wie-autoren-fakten-checken"
-      }
-    ,
+      },
       {
         "id": "erzaehlen-von-geschichten-basierend-auf-datensaetzen",
         "title": "Erzählen von Geschichten basierend auf Datensätzen",
@@ -3121,8 +2751,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "geschichten-die-man-sich-frueher-nur-erzaehlt-hat",
         "title": "Geschichten, die man sich früher nur erzählt hat",
         "folder": "geschichten-die-man-sich-frueher-nur-erzaehlt-hat"
-      }
-    ,
+      },
       {
         "id": "de-erzaehlt-1-baut",
         "title": "Spannungstechniken und Vorausdeutungen",
@@ -3174,8 +2803,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "der-hype-um-signierte-sonderausgaben",
         "title": "Der Hype um signierte Sonderausgaben",
         "folder": "der-hype-um-signierte-sonderausgaben"
-      }
-    ,
+      },
       {
         "id": "wattpad-wo-die-bestseller-von-morgen-entstehen",
         "title": "Wattpad - Wo die Bestseller von morgen entstehen",
@@ -3258,8 +2886,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "pseudonyme-warum-autoren-sich-hinter-namen-verstecken",
         "title": "Pseudonyme – Warum Autoren sich hinter Namen verstecken",
         "folder": "pseudonyme-warum-autoren-sich-hinter-namen-verstecken"
-      }
-    ,
+      },
       {
         "id": "self-publishing-sein-eigenes-buch-ohne-verlag-rausbringen",
         "title": "Self-Publishing - Sein eigenes Buch ohne Verlag rausbringen",
@@ -3342,8 +2969,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "buch-gegen-film-warum-das-buch-meistens-besser-ist",
         "title": "Buch gegen Film – Warum das Buch meistens besser ist",
         "folder": "buch-gegen-film-warum-das-buch-meistens-besser-ist"
-      }
-    ,
+      },
       {
         "id": "wie-man-eine-gute-buchvorstellung-haelt",
         "title": "Wie man eine gute Buchvorstellung hält",
@@ -3378,8 +3004,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "nobelpreistraeger-fuer-literatur-muss-man-die-kennen",
         "title": "Nobelpreisträger für Literatur - Muss man die kennen",
         "folder": "nobelpreistraeger-fuer-literatur-muss-man-die-kennen"
-      }
-    ,
+      },
       {
         "id": "de-bedeutun-1-sind",
         "title": "Narrative Sachbücher & Dokumentarliteratur",
@@ -3447,8 +3072,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "demokratie-verstehen-durch-politische-romane",
         "title": "Demokratie verstehen durch politische Romane",
         "folder": "demokratie-verstehen-durch-politische-romane"
-      }
-    ,
+      },
       {
         "id": "feminismus-fuer-anfaenger-in-der-literatur",
         "title": "Feminismus für Anfänger in der Literatur",
@@ -3488,8 +3112,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "klimaschutz-in-romanen-die-angst-vor-der-katastrophe",
         "title": "Klimaschutz in Romanen - Die Angst vor der Katastrophe",
         "folder": "klimaschutz-in-romanen-die-angst-vor-der-katastrophe"
-      }
-    ,
+      },
       {
         "id": "de-gesellsc-1-chen",
         "title": "Der moderne Roman – Erzählperspektiven und Plots",
@@ -3497,5 +3120,502 @@ export const deutschTopics: Record<string, DeutschTopic> = {
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Gesellschaft%20Literatur%20Diversitaet%20Inklusion&t=284"
+  },
+  "schiller-sturm-und-drang-und-jugenddramen": {
+    "slug": "schiller-sturm-und-drang-und-jugenddramen",
+    "title": "Friedrich Schiller: Sturm und Drang & Jugenddramen",
+    "category": "Dramen & Meisterwerke der Klassik",
+    "shortDesc": "Die Räuber, Kabale und Liebe, Don Karlos, Dichter der Freiheit und Schillers Freiheitsideale.",
+    "longDesc": "Mit unbändiger Leidenschaft und radikaler Gesellschaftskritik revolutionierte der junge Friedrich Schiller das deutsche Drama. Vom Aufruhr Karl Moors in den \"Räubern\" über die Standesgrenzen in \"Kabale und Liebe\" bis zum Freiheitskampf in \"Don Karlos\".",
+    "keyPoints": [
+      "Die Räuber (1781): Sturm-und-Drang-Rebellion gegen heuchlerische Gesellschaftsordnungen und Vaterfiguren",
+      "Kabale und Liebe (1784): Bürgerliches Trauerspiel über zerstörerische Standesschranken und höfische Intrigen",
+      "Don Karlos (1787): Übergangsdrama zur Weimarer Klassik mit Marquis von Posa als Anwalt der Gedankenfreiheit",
+      "Schillers Freiheitsbegriff: Die lebenslange Sehnsucht nach politischer, seelischer und bürgerlicher Selbstbestimmung"
+    ],
+    "exercises": [
+      {
+        "id": "de-schiller-1-1258",
+        "title": "Friedrich Schiller – Dichter der Freiheit",
+        "folder": "friedrich-schiller-1258"
+      },
+      {
+        "id": "friedrich-schiller-und-die-kraft-der-freundschaft",
+        "title": "Friedrich Schiller und die Kraft der Freundschaft",
+        "folder": "friedrich-schiller-und-die-kraft-der-freundschaft"
+      },
+      {
+        "id": "4527",
+        "title": "Friedrich Schiller - Die Räuber",
+        "folder": "friedrich-schiller-die-rauber-3-4527"
+      },
+      {
+        "id": "de-schiller-2-3281",
+        "title": "Schiller: Die Räuber – Rebellion gegen die Ordnung",
+        "folder": "friedrich-schiller-die-rauber-3281"
+      },
+      {
+        "id": "6199",
+        "title": "Die Räuber - Bezug zur Gegenwart",
+        "folder": "die-rauber-von-friedrich-schiller-bezug-zur-gegenwart-6199"
+      },
+      {
+        "id": "6200",
+        "title": "Die Räuber – Historischer Kontext",
+        "folder": "die-rauber-von-friedrich-schiller-historischer-kontext-6200"
+      },
+      {
+        "id": "6201",
+        "title": "Die Räuber – Literarische Bedeutung",
+        "folder": "die-rauber-von-friedrich-schiller-literarische-bedeutung-6201"
+      },
+      {
+        "id": "4529",
+        "title": "Friedrich Schiller - Kabale und Liebe",
+        "folder": "friedrich-schiller-kabale-und-liebe-4-4529"
+      },
+      {
+        "id": "de-schiller-3-3272",
+        "title": "Schiller: Kabale und Liebe – Bürgerliches Trauerspiel",
+        "folder": "friedrich-schiller-kabale-und-liebe-3272"
+      },
+      {
+        "id": "kabale-und-liebe-eine-unmoegliche-romanze",
+        "title": "Kabale und Liebe - Eine unmögliche Romanze",
+        "folder": "kabale-und-liebe-eine-unmoegliche-romanze"
+      },
+      {
+        "id": "4528",
+        "title": "Friedrich Schiller - Don Karlos",
+        "folder": "friedrich-schiller-don-karlos-2-4528"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=schiller+raeuber+kabale&t=3752"
+  },
+  "schiller-klassische-dramen-und-spaetwerk": {
+    "slug": "schiller-klassische-dramen-und-spaetwerk",
+    "title": "Friedrich Schiller: Klassische Dramen & Spätwerk",
+    "category": "Dramen & Meisterwerke der Klassik",
+    "shortDesc": "Maria Stuart, Wallenstein, Wilhelm Tell und Die Jungfrau von Orleans in der Weimarer Klassik.",
+    "longDesc": "Im Zusammenwirken mit Goethe schuf Schiller in Weimar seine monumentalen historischen Dramen. Die Werke verbinden geschichtsphilosophische Reflexion, erhabene Sprache und psychologische Meisterschaft.",
+    "keyPoints": [
+      "Maria Stuart (1800): Meisterwerk über Macht, Gewissenskonflikte und das unausweichliche Aufeinandertreffen zweier Königinnen",
+      "Wallenstein-Trilogie (1799): Geschichtsphilosophisches Drama über den kaiserlichen Feldherrn im Dreißigjährigen Krieg",
+      "Wilhelm Tell (1804): Politisches Volksdrama und Schweizer Gründungsmythos über Tyrannenmord und Recht auf Widerstand",
+      "Die Jungfrau von Orleans (1801): Romantische Tragödie um Johanna von Orléans und ihren Glaubenskonflikt"
+    ],
+    "exercises": [
+      {
+        "id": "4530",
+        "title": "Friedrich Schiller - Maria Stuart",
+        "folder": "friedrich-schiller-maria-stuart-3-4530"
+      },
+      {
+        "id": "de-schiller-4-3271",
+        "title": "Schiller: Maria Stuart – Drama zweier Königinnen",
+        "folder": "friedrich-schiller-maria-stuart-3271"
+      },
+      {
+        "id": "6252",
+        "title": "Maria Stuart - Bezug zur Gegenwart",
+        "folder": "maria-stuart-von-friedrich-schiller-bezug-zur-gegenwart-6252"
+      },
+      {
+        "id": "6253",
+        "title": "Maria Stuart – Historischer Kontext",
+        "folder": "maria-stuart-von-friedrich-schiller-historischer-kontext-6253"
+      },
+      {
+        "id": "6254",
+        "title": "Maria Stuart – Literarische Bedeutung",
+        "folder": "maria-stuart-von-friedrich-schiller-literarische-bedeutung-6254"
+      },
+      {
+        "id": "3426",
+        "title": "Friedrich Schiller – Wallenstein",
+        "folder": "friedrich-schiller-wallenstein-3426"
+      },
+      {
+        "id": "de-schiller-5-4531",
+        "title": "Schiller: Wallenstein – Historische Dramentrilogie",
+        "folder": "friedrich-schiller-wallenstein-2-4531"
+      },
+      {
+        "id": "4532",
+        "title": "Friedrich Schiller - Wilhelm Tell",
+        "folder": "friedrich-schiller-wilhelm-tell-3-4532"
+      },
+      {
+        "id": "de-schiller-6-3274",
+        "title": "Schiller: Wilhelm Tell – Schweizer Freiheitsmythos",
+        "folder": "friedrich-schiller-wilhelm-tell-3274"
+      },
+      {
+        "id": "6196",
+        "title": "Die Jungfrau von Orleans – Historischer Kontext",
+        "folder": "die-jungfrau-von-orleans-von-friedrich-schiller-historischer-kontext-6196"
+      },
+      {
+        "id": "6195",
+        "title": "Die Jungfrau von Orleans - Bezug zur Gegenwart",
+        "folder": "die-jungfrau-von-orleans-von-friedrich-schiller-bezug-zur-gegenwart-6195"
+      },
+      {
+        "id": "6197",
+        "title": "Die Jungfrau von Orleans – Literarische Bedeutung",
+        "folder": "die-jungfrau-von-orleans-von-friedrich-schiller-literarische-bedeutung-6197"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=maria+stuart+wallenstein+tell&t=3752"
+  },
+  "georg-buechner-dramen-und-revolution": {
+    "slug": "georg-buechner-dramen-und-revolution",
+    "title": "Georg Büchner: Dramen, Revolution & Vormärz",
+    "category": "Moderne Dramatik & Gegenwartsliteratur",
+    "shortDesc": "Woyzeck, Dantons Tod, Leonce und Lena, Der Hessische Landbote und Büchners revolutionäres Schaffen.",
+    "longDesc": "Georg Büchner (1813–1837) war der radikalste Geist des Vormärz. Mit \"Woyzeck\" schuf er das erste soziale Drama der Weltliteratur, mit \"Dantons Tod\" die illusionslose Abrechnung mit der Französischen Revolution.",
+    "keyPoints": [
+      "Woyzeck: Erstes Drama mit einem Angehörigen der Unterschicht als tragischem Protagonisten; Determinismus und Entmenschlichung",
+      "Dantons Tod: Revolutionstheater über fatalistische Geschichtsabläufe, Machtkämpfe und persönliche Schuld",
+      "Leonce und Lena: Satirisches Lustspiel voller Melancholie und Sprachwitz über den Müßiggang der Duodezfürstentümer",
+      "Der Hessische Landbote: \"Friede den Hütten! Krieg den Palästen!\" – Legendäres revolutionäres Flugblatt"
+    ],
+    "exercises": [
+      {
+        "id": "georg-buechner-ein-rebell-der-deutschen-literatur",
+        "title": "Georg Büchner - Ein Rebell der deutschen Literatur",
+        "folder": "georg-buechner-ein-rebell-der-deutschen-literatur"
+      },
+      {
+        "id": "4535",
+        "title": "Georg Büchner - Woyzeck",
+        "folder": "georg-buchner-woyzeck-3-4535"
+      },
+      {
+        "id": "6274",
+        "title": "Woyzeck – Historischer Kontext",
+        "folder": "woyzeck-von-georg-buchner-historischer-kontext-6274"
+      },
+      {
+        "id": "6275",
+        "title": "Woyzeck – Literarische Bedeutung",
+        "folder": "woyzeck-von-georg-buchner-literarische-bedeutung-6275"
+      },
+      {
+        "id": "6278",
+        "title": "Woyzeck - Bezug zur Gegenwart",
+        "folder": "woyzeck-von-georg-buchner-bezug-zur-gegenwart-6278"
+      },
+      {
+        "id": "woyzeck-und-die-frage-was-macht-den-menschen-zum-tier",
+        "title": "Woyzeck und die Frage - Was macht den Menschen zum Tier",
+        "folder": "woyzeck-und-die-frage-was-macht-den-menschen-zum-tier"
+      },
+      {
+        "id": "3429",
+        "title": "Georg Büchner – Dantons Tod",
+        "folder": "georg-buchner-dantons-tod-3429"
+      },
+      {
+        "id": "4534",
+        "title": "Georg Büchner: Dantons Tod (Vertiefung)",
+        "folder": "georg-buchner-dantons-tod-2-4534"
+      },
+      {
+        "id": "6251",
+        "title": "Leonce und Lena von Georg Büchner",
+        "folder": "leonce-und-lena-von-georg-buchner-6251"
+      },
+      {
+        "id": "6248",
+        "title": "Leonce und Lena von Georg Büchner - Bezug zur Gegenwart",
+        "folder": "leonce-und-lena-von-georg-buchner-bezug-zur-gegenwart-6248"
+      },
+      {
+        "id": "6249",
+        "title": "Leonce und Lena von Georg Büchner – Historischer Kontext",
+        "folder": "leonce-und-lena-von-georg-buchner-historischer-kontext-6249"
+      },
+      {
+        "id": "6250",
+        "title": "Leonce und Lena von Georg Büchner – Literarische Bedeutung",
+        "folder": "leonce-und-lena-von-georg-buchner-literarische-bedeutung-6250"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=buechner+woyzeck+danton&t=3752"
+  },
+  "naturalismus-und-sozialkritisches-theater": {
+    "slug": "naturalismus-und-sozialkritisches-theater",
+    "title": "Naturalismus & Sozialkritisches Theater: Hauptmann & Wedekind",
+    "category": "Moderne Dramatik & Gegenwartsliteratur",
+    "shortDesc": "Gerhart Hauptmann, Frank Wedekind, Friedrich Hebbel: Bahnwärter Thiel, Die Ratten, Frühlings Erwachen.",
+    "longDesc": "Die Industrialisierung veränderte das Theater radikal: Im Naturalismus rückten Milieu, Milieusprache und Vererbung ins Zentrum. Frank Wedekind brach tabuisierte Themen wie Jugendsexualität und Bildungsdruck auf.",
+    "keyPoints": [
+      "Gerhart Hauptmann: Nobelpreisträger und Hauptvertreter des Naturalismus (Die Ratten, Vor Sonnenuntergang)",
+      "Bahnwärter Thiel: Meisterhafte novellistische Charakterstudie über seelischen Verfall und Techniktrauma",
+      "Frank Wedekind: Frühlings Erwachen als skandalumwitterte Abrechnung mit bürgerlicher Doppelmoral und Prüderie",
+      "Friedrich Hebbel: Maria Magdalene als bürgerliches Trauerspiel über sittliche Engstirnigkeit"
+    ],
+    "exercises": [
+      {
+        "id": "de-sozialkr-3-4611",
+        "title": "Gerhart Hauptmann – Nobelpreisträger des Naturalismus",
+        "folder": "gerhart-hauptmann-2-4611"
+      },
+      {
+        "id": "3431",
+        "title": "Gerhart Hauptmann – Die Ratten",
+        "folder": "gerhart-hauptmann-die-ratten-3431"
+      },
+      {
+        "id": "de-sozialkr-4-4536",
+        "title": "Hauptmann: Die Ratten – Berliner Tragikomödie",
+        "folder": "gerhart-hauptmann-die-ratten-2-4536"
+      },
+      {
+        "id": "3432",
+        "title": "Gerhart Hauptmann – Vor Sonnenuntergang",
+        "folder": "gerhart-hauptmann-vor-sonnenuntergang-3432"
+      },
+      {
+        "id": "de-sozialkr-5-4537",
+        "title": "Hauptmann: Vor Sonnenuntergang – Familiendrama",
+        "folder": "gerhart-hauptmann-vor-sonnenuntergang-2-4537"
+      },
+      {
+        "id": "6161",
+        "title": "Bahnwärter Thiel von Gerhart Hauptmann",
+        "folder": "bahnwarter-thiel-von-gerhart-hauptmann-6161"
+      },
+      {
+        "id": "6158",
+        "title": "Bahnwärter Thiel von Gerhart Hauptmann - Bezug zur Gegenwart",
+        "folder": "bahnwarter-thiel-von-gerhart-hauptmann-bezug-zur-gegenwart-6158"
+      },
+      {
+        "id": "6159",
+        "title": "Bahnwärter Thiel von Gerhart Hauptmann – Historischer Kontext",
+        "folder": "bahnwarter-thiel-von-gerhart-hauptmann-historischer-kontext-6159"
+      },
+      {
+        "id": "6160",
+        "title": "Bahnwärter Thiel von Gerhart Hauptmann – Literarische Bedeutung",
+        "folder": "bahnwarter-thiel-von-gerhart-hauptmann-literarische-bedeutung-6160"
+      },
+      {
+        "id": "de-sozialkr-1-4605",
+        "title": "Frank Wedekind – Provokateur des modernen Theaters",
+        "folder": "frank-wedekind-4605"
+      },
+      {
+        "id": "4522",
+        "title": "Frank Wedekind - Frühlings Erwachen",
+        "folder": "frank-wedekind-fruhlings-erwachen-3-4522"
+      },
+      {
+        "id": "de-sozialkr-2-3248",
+        "title": "Wedekind: Frühlings Erwachen – Kindertragödie",
+        "folder": "frank-wedekind-fruhlings-erwachen-3248"
+      },
+      {
+        "id": "4526",
+        "title": "Friedrich Hebbel - Maria Magdalene",
+        "folder": "friedrich-hebbel-maria-magdalene-2-4526"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=hauptmann+wedekind+naturalismus&t=3752"
+  },
+  "franz-kafka-parabeln-und-erzaehlungen": {
+    "slug": "franz-kafka-parabeln-und-erzaehlungen",
+    "title": "Franz Kafka: Der Prozess & Parabeln der Moderne",
+    "category": "Romane, Novellen & Erzählungen",
+    "shortDesc": "Der Prozess, In der Strafkolonie, kafkaeske Welten, Entfremdung, Schuld und moderne Machtstrukturen.",
+    "longDesc": "Franz Kafka (1883–1924) prägte wie kein Zweiter das Lebensgefühl der Moderne: Ausgeliefertsein an undurchschaubare Bürokratien, existenzielle Isolation und existenzielle Schuld. Lerne seine Romane, Erzählungen und Gleichnisse verstehen.",
+    "keyPoints": [
+      "Der Prozess: Josef K. wird verhaftet, \"ohne dass er etwas Böses getan hätte\" – Unfassbarkeit moderner Schuld",
+      "In der Strafkolonie: Grausame Parabel über Justizmechanismen, archaische Rituale und das Ende alter Ordnungen",
+      "Das Kafkaeske: Absurd-bedrohliche Situationen, in denen der Einzelne ohnmächtig gegen übermächtige Systeme ankämpft",
+      "Erzähltechnik: Einsinnige Erzählperspektive, nüchtern-präzise Sprache und mehrdeutige Traumbilder"
+    ],
+    "exercises": [
+      {
+        "id": "de-klassisc-1-1256",
+        "title": "Franz Kafka – Das kafkaeske Universum",
+        "folder": "franz-kafka-1256"
+      },
+      {
+        "id": "4523",
+        "title": "Franz Kafka - Der Prozess",
+        "folder": "franz-kafka-der-prozess-3-4523"
+      },
+      {
+        "id": "de-klassisc-2-3093",
+        "title": "Kafka: Der Prozess – Schuld und unbegreifliche Macht",
+        "folder": "franz-kafka-der-prozess-3093"
+      },
+      {
+        "id": "kafka-und-das-gefuehl-im-system-gefangen-zu-sein",
+        "title": "Kafka und das Gefühl im System gefangen zu sein",
+        "folder": "kafka-und-das-gefuehl-im-system-gefangen-zu-sein"
+      },
+      {
+        "id": "6230",
+        "title": "In der Strafkolonie von Franz Kafka",
+        "folder": "in-der-strafkolonie-von-franz-kafka-6230"
+      },
+      {
+        "id": "6227",
+        "title": "In der Strafkolonie - Bezug zur Gegenwart",
+        "folder": "in-der-strafkolonie-von-franz-kafka-bezug-zur-gegenwart-6227"
+      },
+      {
+        "id": "6228",
+        "title": "In der Strafkolonie – Historischer Kontext",
+        "folder": "in-der-strafkolonie-von-franz-kafka-historischer-kontext-6228"
+      },
+      {
+        "id": "6229",
+        "title": "In der Strafkolonie – Literarische Bedeutung",
+        "folder": "in-der-strafkolonie-von-franz-kafka-literarische-bedeutung-6229"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=kafka+prozess+verwandlung&t=3752"
+  },
+  "thomas-und-heinrich-mann-grossstadtroman": {
+    "slug": "thomas-und-heinrich-mann-grossstadtroman",
+    "title": "Thomas & Heinrich Mann: Meisterwerke der Moderne & Großstadtroman",
+    "category": "Romane, Novellen & Erzählungen",
+    "shortDesc": "Buddenbrooks, Der Zauberberg, Mario und der Zauberer, Heinrich Manns Professor Unrat und Döblins Berlin Alexanderplatz.",
+    "longDesc": "Vom Verfall des Lübecker Patriziats in den \"Buddenbrooks\" über die Zeitdiagnose im \"Zauberberg\" bis zur Großstadtmontage in \"Berlin Alexanderplatz\": Meisterwerke des 20. Jahrhunderts im kritischen Epochenumbruch.",
+    "keyPoints": [
+      "Thomas Mann: Nobelpreisträger 1929; Buddenbrooks, Der Zauberberg, Novellenkunst (\"Mario und der Zauberer\")",
+      "Heinrich Mann: Scharfer Gesellschaftskritiker; Professor Unrat (Vorlage zum Film \"Der blaue Engel\") und Der Untertan",
+      "Alfred Döblin: Berlin Alexanderplatz als Meilenstein der Montage- und Großstadtliteratur",
+      "Bürgerlichkeit und Krise: Dekadenz, Faschismuswarnung und künstlerische Selbstbefragung"
+    ],
+    "exercises": [
+      {
+        "id": "de-klassisc-3-4631",
+        "title": "Thomas Mann – Monumentalität und Ironie",
+        "folder": "thomas-mann-2-4631"
+      },
+      {
+        "id": "4571",
+        "title": "Thomas Mann - Buddenbrooks",
+        "folder": "thomas-mann-buddenbrooks-3-4571"
+      },
+      {
+        "id": "de-klassisc-4-3283",
+        "title": "Thomas Mann: Buddenbrooks – Verfall einer Familie",
+        "folder": "thomas-mann-buddenbrooks-3283"
+      },
+      {
+        "id": "thomas-mann-und-die-buddenbrooks-einfach-erklaert",
+        "title": "Thomas Mann und die Buddenbrooks einfach erklärt",
+        "folder": "thomas-mann-und-die-buddenbrooks-einfach-erklaert"
+      },
+      {
+        "id": "thomas-mann-und-wie-eine-reiche-familie-zerfaellt",
+        "title": "Thomas Mann und wie eine reiche Familie zerfällt",
+        "folder": "thomas-mann-und-wie-eine-reiche-familie-zerfaellt"
+      },
+      {
+        "id": "3472",
+        "title": "Thomas Mann – Der Zauberberg",
+        "folder": "thomas-mann-der-zauberberg-3472"
+      },
+      {
+        "id": "de-klassisc-5-4572",
+        "title": "Thomas Mann: Der Zauberberg – Sanatorium in Davos",
+        "folder": "thomas-mann-der-zauberberg-2-4572"
+      },
+      {
+        "id": "6258",
+        "title": "Mario und der Zauberer von Thomas Mann",
+        "folder": "mario-und-der-zauberer-von-thomas-mann-6258"
+      },
+      {
+        "id": "6255",
+        "title": "Mario und der Zauberer von Thomas Mann - Bezug zur Gegenwart",
+        "folder": "mario-und-der-zauberer-von-thomas-mann-bezug-zur-gegenwart-6255"
+      },
+      {
+        "id": "6256",
+        "title": "Mario und der Zauberer von Thomas Mann – Historischer Kontext",
+        "folder": "mario-und-der-zauberer-von-thomas-mann-historischer-kontext-6256"
+      },
+      {
+        "id": "6257",
+        "title": "Mario und der Zauberer von Thomas Mann – Literarische Bedeutung",
+        "folder": "mario-und-der-zauberer-von-thomas-mann-literarische-bedeutung-6257"
+      },
+      {
+        "id": "de-klassisc-6-4617",
+        "title": "Heinrich Mann – Scharfsinniger Kritiker des Kaiserreichs",
+        "folder": "heinrich-mann-4617"
+      },
+      {
+        "id": "3438",
+        "title": "Heinrich Mann – Professor Unrat",
+        "folder": "heinrich-mann-professor-unrat-3438"
+      },
+      {
+        "id": "de-klassisc-7-4544",
+        "title": "Heinrich Mann: Professor Unrat – Vorlage zum Blauen Engel",
+        "folder": "heinrich-mann-professor-unrat-2-4544"
+      },
+      {
+        "id": "4596",
+        "title": "Alfred Döblin",
+        "folder": "alfred-doblin-4596"
+      },
+      {
+        "id": "3403",
+        "title": "Alfred Döblin – Berlin Alexanderplatz",
+        "folder": "alfred-doblin-berlin-alexanderplatz-3403"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=thomas+mann+heinrich+mann&t=3752"
+  },
+  "arno-geiger-unter-der-drachenwand": {
+    "slug": "arno-geiger-unter-der-drachenwand",
+    "title": "Arno Geiger: Unter der Drachenwand",
+    "category": "Österreichische Literatur & Wiener Moderne",
+    "shortDesc": "Kriegsalltag 1944 am Mondsee, Veit Kolbe, Historischer Kontext, Gegenwart und literarische Bedeutung.",
+    "longDesc": "Arno Geigers preisgekrönter Roman \"Unter der Drachenwand\" schildert das Überleben im Schatten des Zweiten Weltkriegs. Durch Briefe, Tagebücher und persönliche Begegnungen entsteht ein vielstimmiges Panorama menschlicher Hoffnungen und Ängste.",
+    "keyPoints": [
+      "Veit Kolbe: Verwundeter Wehrmachtssoldat auf Genesungsurlaub am Mondsee; Trauma, Zweifel und Lebenshunger",
+      "Historischer Kontext: Das Jahr 1944 zwischen \"totalem Krieg\", Bombenangriffen und aufkeimender Resignation",
+      "Literarische Bedeutung: Polyphone Erzählstruktur aus Tagebucheinträgen, Liebesbriefen und Schicksalen",
+      "Bezug zur Gegenwart: Zeitlose Fragen nach Krieg, Menschlichkeit, Solidarität und individueller Verantwortung"
+    ],
+    "exercises": [
+      {
+        "id": "6157",
+        "title": "Arno Geiger – Porträt & Werk",
+        "folder": "arno-geiger-6157"
+      },
+      {
+        "id": "6273",
+        "title": "Unter der Drachenwand von Arno Geiger",
+        "folder": "unter-der-drachenwand-von-arno-geiger-6273"
+      },
+      {
+        "id": "6271",
+        "title": "Unter der Drachenwand – Historischer Kontext",
+        "folder": "unter-der-drachenwand-von-arno-geiger-historischer-kontext-6271"
+      },
+      {
+        "id": "6272",
+        "title": "Unter der Drachenwand – Literarische Bedeutung",
+        "folder": "unter-der-drachenwand-von-arno-geiger-literarische-bedeutung-6272"
+      },
+      {
+        "id": "6270",
+        "title": "Unter der Drachenwand – Bezug zur Gegenwart",
+        "folder": "unter-der-drachenwand-von-arno-geiger-bezug-zur-gegenwart-6270"
+      }
+    ],
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=arno+geiger+drachenwand&t=3752"
   }
 };
