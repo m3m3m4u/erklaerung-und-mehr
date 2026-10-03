@@ -70,6 +70,12 @@ export const chemieTopics: Record<string, ChemieTopic> = {
         "title": "Atombindungen",
         "folder": "atombindungen-282"
       }
+    ,
+      {
+        "id": "2237",
+        "title": "Physik und Chemie: Gemeinsamkeiten und Unterschiede",
+        "folder": "physik-und-chemie-gemeinsamkeiten-und-unterschiede-2237"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=chemie+grundlagen&t=3752"
   },
@@ -116,6 +122,27 @@ export const chemieTopics: Record<string, ChemieTopic> = {
         "id": "3639",
         "title": "Alfred Nobel - Chemische Innovationen und Dynamit",
         "folder": "alfred-nobel-3639"
+      }
+    ,
+      {
+        "id": "3867",
+        "title": "Friedrich Wöhler (Harnstoffsynthese & Organische Chemie)",
+        "folder": "friedrich-wohler-3867"
+      },
+      {
+        "id": "4038",
+        "title": "Jöns Jakob Berzelius (Elementsymbole & Stöchiometrie)",
+        "folder": "jons-jakob-berzelius-4038"
+      },
+      {
+        "id": "4366",
+        "title": "Justus von Liebig (Agrarchemie & Mineraldünger)",
+        "folder": "justus-von-liebig-4366"
+      },
+      {
+        "id": "4206",
+        "title": "Robert Bunsen (Spektralanalyse & Bunsenbrenner)",
+        "folder": "robert-bunsen-4206"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=geschichte+der+chemie&t=3752"
@@ -194,6 +221,22 @@ export const chemieTopics: Record<string, ChemieTopic> = {
         "title": "Das Edelgas Radon",
         "folder": "schwefel-1195"
       }
+    ,
+      {
+        "id": "1129",
+        "title": "Helium – Eigenschaften und Vorkommen",
+        "folder": "helium-1129"
+      },
+      {
+        "id": "1158",
+        "title": "Neon – Edelgas mit Leuchtwirkung",
+        "folder": "neon-1158"
+      },
+      {
+        "id": "1165",
+        "title": "Argon – Schutzgas in Industrie und Technik",
+        "folder": "argon-1165"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=nichtmetalle+halogene&t=3752"
   },
@@ -250,6 +293,12 @@ export const chemieTopics: Record<string, ChemieTopic> = {
         "id": "5181",
         "title": "Synthesen, Analysen und Austauschreaktionen",
         "folder": "synthesen-analysen-und-austauschreaktionen-5181"
+      }
+    ,
+      {
+        "id": "2532",
+        "title": "Funktionsweise chemischer Katalysatoren",
+        "folder": "wie-funktioniert-ein-katalysator-2532"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=chemische+reaktionen+katalysator&t=3752"
@@ -402,6 +451,22 @@ export const chemieTopics: Record<string, ChemieTopic> = {
         "title": "Zink",
         "folder": "zink-1175"
       }
+    ,
+      {
+        "id": "699",
+        "title": "Metalle und ihre Eigenschaften",
+        "folder": "studypoint-worter-markieren-metalle-699"
+      },
+      {
+        "id": "578",
+        "title": "Roheisenherstellung im Hochofen",
+        "folder": "lerninhalt-roheisenherstellung-578"
+      },
+      {
+        "id": "577",
+        "title": "Eisengusswerkstoffe und Stahl",
+        "folder": "lerninhalt-eisengusswerkstoffe-577"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=metalle+legierungen&t=3752"
   },
@@ -453,6 +518,12 @@ export const chemieTopics: Record<string, ChemieTopic> = {
         "id": "5156",
         "title": "Eisen, Stahl und Edelstahl",
         "folder": "eisen-stahl-und-edelstahl-5156"
+      }
+    ,
+      {
+        "id": "1189",
+        "title": "Platin – Eigenschaften eines edlen Katalysatormetalls",
+        "folder": "platin-1189"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=edelmetalle+stahl&t=3752"
@@ -620,6 +691,22 @@ export const chemieTopics: Record<string, ChemieTopic> = {
         "title": "Wie funktioniert die Seifenherstellung",
         "folder": "wie-funktioniert-die-seifenherstellung"
       }
+    ,
+      {
+        "id": "5140",
+        "title": "Arten von Kunststoffen (Thermoplaste, Duroplaste, Elastomere)",
+        "folder": "arten-von-kunststoffen-5140"
+      },
+      {
+        "id": "5166",
+        "title": "Herstellung von Kunststoffen (Polymerisation & Polykondensation)",
+        "folder": "herstellung-von-kunststoffen-5166"
+      },
+      {
+        "id": "595",
+        "title": "Kunststoffe: Aufbau und Eigenschaften",
+        "folder": "lerninhalt-kunststoffe-595"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=kunststoffe+polymere&t=3752"
   },
@@ -708,6 +795,17 @@ export const chemieTopics: Record<string, ChemieTopic> = {
         "title": "Wie funktioniert die Gärung",
         "folder": "wie-funktioniert-die-gaerung"
       }
+    ,
+      {
+        "id": "9300",
+        "title": "Biochemie der Photosynthese",
+        "folder": "wie-funktioniert-die-photosynthese"
+      },
+      {
+        "id": "9301",
+        "title": "Photosynthese in Pflanzen: Licht- und Dunkelreaktion",
+        "folder": "wie-funktioniert-die-photosynthese-in-pflanzen"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=gaerung+biochemie&t=3752"
   },
@@ -785,6 +883,12 @@ export const chemieTopics: Record<string, ChemieTopic> = {
         "id": "7155",
         "title": "Wie funktioniert die CO₂-Abscheidung (Carbon Capture)",
         "folder": "wie-funktioniert-die-co-abscheidung-carbon-capture"
+      }
+    ,
+      {
+        "id": "9302",
+        "title": "Wasserstoffchemie und Brennstoffzellen-Mobilität",
+        "folder": "mobilitaet-der-zukunft-e-autos-und-wasserstoff"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=umweltchemie+gefahrstoffe&t=3752"
