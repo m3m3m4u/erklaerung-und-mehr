@@ -42,6 +42,7 @@ export const metadata: Metadata = {
 
 export default function InformatikOverviewPage() {
   const allTopics = Object.values(informatikTopics);
+  const totalExercises = allTopics.reduce((sum, t) => sum + (t.exercises?.length || 0), 0);
 
   return (
     <div className="site-wrapper">
@@ -59,7 +60,7 @@ export default function InformatikOverviewPage() {
               Programmieren, Sicherheit im Netz und die Geschichte der IT.
             </p>
             <p className="math-page-note">
-              Mit anschaulichen Erklärungen, Merksätzen und interaktiven H5P-Übungen.
+              Mit anschaulichen Erklärungen, Merksätzen und {totalExercises} interaktiven H5P-Übungen.
             </p>
           </div>
           <div className="math-mascot">
