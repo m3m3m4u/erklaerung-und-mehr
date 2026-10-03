@@ -5206,11 +5206,6 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "wayne-gretzky-4333"
       },
       {
-        "id": "4358",
-        "title": "Babe Ruth",
-        "folder": "babe-ruth-2-4358"
-      },
-      {
         "id": "4383",
         "title": "Lance Armstrong",
         "folder": "lance-armstrong-4383"
@@ -5222,7 +5217,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
       },
       {
         "id": "3688",
-        "title": "Babe Ruth (Teil 1)",
+        "title": "Babe Ruth",
         "folder": "babe-ruth-3688"
       }
     ],
