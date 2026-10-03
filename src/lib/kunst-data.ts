@@ -1,18 +1,17 @@
-export interface H5PExercise {
+export interface KunstExercise {
   id: string;
   title: string;
   folder: string;
 }
 
 export interface KunstTopic {
-  id?: number;
   slug: string;
   title: string;
   category: string;
   shortDesc: string;
   longDesc: string;
   keyPoints: string[];
-  exercises: H5PExercise[];
+  exercises: KunstExercise[];
   worksheetLink?: string;
 }
 
@@ -76,8 +75,7 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "id": "4734",
         "title": "Reiterstandbild des Marcus Aurelius – Römische Plastik",
         "folder": "reiterstandbild-des-marcus-aurelius-unbekannter-kunstler-175-4734"
-      }
-    ,
+      },
       {
         "id": "2804",
         "title": "Der Sieg von Samothrake (Nike von Samothrake)",
@@ -159,8 +157,7 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "id": "2801",
         "title": "Der Fall des Ikarus – Pieter Bruegel der Ältere (ca. 1560)",
         "folder": "der-fall-des-ikarus-von-pieter-bruegel-der-ltere-ca-1560-2801"
-      }
-    ,
+      },
       {
         "id": "2800",
         "title": "Der Engel der Verkündigung (Simone Martini)",
@@ -170,6 +167,16 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "id": "2436",
         "title": "Christliche Kunst und Symbole",
         "folder": "christliche-kunst-und-symbole-2436"
+      },
+      {
+        "id": "kunst-freiburger-muenster",
+        "title": "Das Freiburger Münster – Meisterwerk der Gotik & schönster Turm der Christenheit",
+        "folder": "das-freiburger-muenster"
+      },
+      {
+        "id": "kunst-kraemerbruecke",
+        "title": "Die Krämerbrücke in Erfurt – Mittelalterliche Profanarchitektur & Fachwerkbau",
+        "folder": "die-kraemerbruecke-in-erfurt"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Gotik+Romanik+Mittelalter&t=3752"
@@ -222,8 +229,7 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "id": "4750",
         "title": "Venus und Mars – Sandro Botticelli (1480)",
         "folder": "venus-und-mars-sandro-botticelli-1480-4750"
-      }
-    ,
+      },
       {
         "id": "2813",
         "title": "Die Familie des Herzogs von Urbino (Piero della Francesca)",
@@ -238,7 +244,13 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "id": "2807",
         "title": "Der Triumph des Todes (Pieter Bruegel d. Ä.)",
         "folder": "der-triumph-des-todes-von-pieter-bruegel-der-ltere-1562-2807"
-      }],
+      },
+      {
+        "id": "kunst-fuggerei",
+        "title": "Die Fuggerei in Augsburg – Renaissance-Stiftung & älteste Sozialsiedlung der Welt",
+        "folder": "die-fuggerei-in-augsburg"
+      }
+    ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Renaissance+Duerer+Botticelli&t=3752"
   },
   "leonardo-da-vinci-und-universalgenies": {
@@ -279,8 +291,7 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "id": "4724",
         "title": "Madonna Litta – Leonardo da Vinci (1490)",
         "folder": "madonna-litta-leonardo-da-vinci-1490-4724"
-      }
-    ,
+      },
       {
         "id": "2828",
         "title": "Mona Lisa (Leonardo da Vinci)",
@@ -362,8 +373,7 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "id": "4723",
         "title": "Madonna della Seggiola – Raffael (1559)",
         "folder": "madonna-della-seggiola-raffael-1559-4723"
-      }
-    ,
+      },
       {
         "id": "2811",
         "title": "Die Erschaffung von Eva (Michelangelo)",
@@ -420,8 +430,7 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "id": "4725",
         "title": "Madonna mit dem langen Hals – Parmigianino (1534)",
         "folder": "madonna-mit-dem-langen-hals-parmigianino-1534-4725"
-      }
-    ,
+      },
       {
         "id": "2803",
         "title": "Der Garten der irdischen Freuden – Hieronymus Bosch (1510)",
@@ -489,8 +498,7 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "id": "4721",
         "title": "Las Meninas – Diego Velázquez (1656)",
         "folder": "las-meninas-diego-velazquez-1656-4721"
-      }
-    ,
+      },
       {
         "id": "2809",
         "title": "Die Entführung der Sabinerinnen (Nicolas Poussin)",
@@ -505,6 +513,11 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "id": "1408",
         "title": "Caravaggio – Meister des Chiaroscuro",
         "folder": "caravaggio-2-1408"
+      },
+      {
+        "id": "kunst-sanssouci",
+        "title": "Schloss Sanssouci in Potsdam – Friderizianisches Rokoko & Terrassenarchitektur",
+        "folder": "schloss-sanssouci"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Barock+Caravaggio+Bernini&t=3752"
@@ -572,8 +585,7 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "id": "schloss-nymphenburg-ein-barockes-meisterwerk",
         "title": "Schloss Nymphenburg – Barockes Gesamtkunstwerk",
         "folder": "schloss-nymphenburg-ein-barockes-meisterwerk"
-      }
-    ,
+      },
       {
         "id": "2808",
         "title": "Die Anatomie des Dr. Nicolaes Tulp (Rembrandt van Rijn)",
@@ -630,13 +642,13 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "id": "4701",
         "title": "Die Krönung Napoleons – Jacques-Louis David (1807)",
         "folder": "die-kronung-napoleons-jacques-louis-david-1807-4701"
-      }
-    ,
+      },
       {
         "id": "2805",
         "title": "Der Sturm auf die Bastille (Jean-Pierre Houël)",
         "folder": "der-sturm-auf-die-bastille-von-jean-pierre-houel-1789-2805"
-      }],
+      }
+    ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Klassizismus+Jacques-Louis+David&t=3752"
   },
   "romantik-und-landschaftsmalerei": {
@@ -692,8 +704,7 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "id": "4756",
         "title": "Ophelia – John Everett Millais (Präraffaeliten, 1851)",
         "folder": "a-sunday-afternoon-on-the-island-of-la-grande-jatte-georges-seurat-1887-4756"
-      }
-    ,
+      },
       {
         "id": "3734",
         "title": "Caspar David Friedrich – Romantische Landschaftsmalerei",
@@ -760,8 +771,7 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "id": "4790",
         "title": "Die Kunstepoche Symbolismus",
         "folder": "die-kunstepoche-symbolismus-4790"
-      }
-    ,
+      },
       {
         "id": "2815",
         "title": "Die Freiheit führt das Volk (Eugène Delacroix)",
@@ -771,7 +781,8 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "id": "2814",
         "title": "Die Felswand (Gustave Courbet)",
         "folder": "die-felswand-von-gustave-courbet-1864-2814"
-      }],
+      }
+    ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Realismus+Goya+Delacroix+Rodin&t=3752"
   },
   "impressionismus-und-lichtmalerei": {
@@ -822,8 +833,7 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "id": "2812",
         "title": "Die Erschießung des Kaisers Maximilian – Édouard Manet (1867)",
         "folder": "die-erschieesung-von-kaiser-maximilian-von-douard-manet-1867-2812"
-      }
-    ,
+      },
       {
         "id": "3757",
         "title": "Claude Monet – Meister des Lichts",
@@ -885,13 +895,13 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "id": "4782",
         "title": "Die Kunstepoche Postimpressionismus",
         "folder": "die-kunstepoche-postimpressionismus-4782"
-      }
-    ,
+      },
       {
         "id": "4664",
         "title": "A Sunday Afternoon on the Island of La Grande Jatte (Georges Seurat)",
         "folder": "a-sunday-afternoon-on-the-island-of-la-grande-jatte-georges-seurat-1886-4664"
-      }],
+      }
+    ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Pointillismus+Degas+Renoir+Seurat&t=3752"
   },
   "paul-cezanne-und-paul-gauguin": {
@@ -1036,8 +1046,7 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "id": "4743",
         "title": "Selbstbildnis mit Zauberhut – Ernst Ludwig Kirchner (1913)",
         "folder": "selbstbildnis-mit-zauberhut-ernst-ludwig-kirchner-1913-4743"
-      }
-    ,
+      },
       {
         "id": "2820",
         "title": "Die traurige Göttin (Edvard Munch)",
@@ -1104,8 +1113,7 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "id": "1355",
         "title": "Amedeo Modigliani – Porträts und Eleganz",
         "folder": "amedeo-modigliani-1355"
-      }
-    ,
+      },
       {
         "id": "2806",
         "title": "Der Tanz (Henri Matisse)",
@@ -1167,13 +1175,13 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "id": "4705",
         "title": "Die weinende Frau – Pablo Picasso (1937)",
         "folder": "die-weinende-frau-pablo-picasso-1937-4705"
-      }
-    ,
+      },
       {
         "id": "2825",
         "title": "Guernica (Pablo Picasso)",
         "folder": "guernica-von-pablo-picasso-1937-2825"
-      }],
+      }
+    ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Picasso+Kubismus+Guernica&t=3752"
   },
   "dada-und-surrealismus": {
@@ -1308,13 +1316,13 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "id": "4665",
         "title": "Amerikanische Gotik – Grant Wood (1930)",
         "folder": "amerikanische-gotik-grant-wood-1930-4665"
-      }
-    ,
+      },
       {
         "id": "2795",
         "title": "Amerikanische Gottheit / American Gothic (Grant Wood)",
         "folder": "amerikanische-gottheit-von-grant-wood-1930-2795"
-      }],
+      }
+    ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Bauhaus+Mondrian+Konstruktivismus&t=3752"
   },
   "abstrakter-expressionismus-und-pop-art": {
@@ -1386,8 +1394,7 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "id": "2831",
         "title": "Blue Divided by Blue – Ellsworth Kelly (1963)",
         "folder": "ohne-titel-blue-divided-by-blue-von-ellsworth-kelly-1963-2831"
-      }
-    ,
+      },
       {
         "id": "2823",
         "title": "Excavation (Willem de Kooning)",
@@ -1490,8 +1497,7 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "id": "code-kunst",
         "title": "Kreative Anwendungen von Code in Kunst, Musik und Bewegung",
         "folder": "kreative-anwendungen-von-code-in-kunst-und-musik-oder-bewegung"
-      }
-    ,
+      },
       {
         "id": "2594",
         "title": "Die Rolle moderner Medien in der Kunst",
@@ -1591,8 +1597,7 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "id": "unterschied-zwischen-vektorgrafiken-und-pixelbildern",
         "title": "Vektorgrafiken vs. Pixelbilder in der Grafik",
         "folder": "unterschied-zwischen-vektorgrafiken-und-pixelbildern"
-      }
-    ,
+      },
       {
         "id": "3682",
         "title": "Auguste Rodin – Begründer der modernen Plastik",
@@ -1607,6 +1612,16 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "id": "4239",
         "title": "Santiago Calatrava – Organische Baukunst",
         "folder": "santiago-calatrava-4239"
+      },
+      {
+        "id": "kunst-heidelberger-schloss",
+        "title": "Das Heidelberger Schloss – Renaissance-Palast, Romantik-Ruine & Baugeschichte",
+        "folder": "das-heidelberger-schloss"
+      },
+      {
+        "id": "kunst-schweriner-schloss",
+        "title": "Das Schweriner Schloss – Meisterwerk des romantischen Historismus im Schlossbau",
+        "folder": "das-schweriner-schloss"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Architektur+Keramik+Plastik+Design&t=3752"
@@ -1654,8 +1669,7 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "id": "das-germanische-nationalmuseum-in-nuernberg",
         "title": "Das Germanische Nationalmuseum in Nürnberg",
         "folder": "das-germanische-nationalmuseum-in-nuernberg"
-      }
-    ,
+      },
       {
         "id": "5744",
         "title": "Ästhetik und Kunstphilosophie",

@@ -84,8 +84,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "notenot",
         "title": "Die Geschichte der Musiknotation",
         "folder": "die-geschichte-der-musiknotation"
-      }
-    ,
+      },
       {
         "id": "9",
         "title": "Notenwerte und Pausen",
@@ -223,13 +222,13 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "319",
         "title": "Akkorde – Dur und Moll (Teil 2)",
         "folder": "akkorde-dur-und-moll-2-319"
-      }
-    ,
+      },
       {
         "id": "18",
         "title": "Akkorde – Dur und Moll",
         "folder": "akkorde-dur-und-moll-18"
-      }],
+      }
+    ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=harmonielehre+akkorde+intervalle&t=3752"
   },
   "tonleitern-klaviatur-und-vorzeichen": {
@@ -419,8 +418,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "514",
         "title": "Vokalmusik",
         "folder": "vokalmusik-514"
-      }
-    ,
+      },
       {
         "id": "8212",
         "title": "Die Wiener Philharmoniker und ihre Geschichte",
@@ -563,8 +561,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "441",
         "title": "Rhythmusübung 4",
         "folder": "die-unvollendete-von-franz-schubert-441"
-      }
-    ,
+      },
       {
         "id": "1",
         "title": "Rhythmusübung 1",
@@ -671,8 +668,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "pyth",
         "title": "Pythagoras und die mathematischen Grundlagen der Musik",
         "folder": "pythagoras-und-die-mathematischen-grundlagen-der-musik"
-      }
-    ,
+      },
       {
         "id": "71",
         "title": "Musik in der Romantik",
@@ -682,7 +678,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "462",
         "title": "Musikgeschichte im Überblick",
         "folder": "musikgeschichte-462"
-      },
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=epochen+musikgeschichte&t=3752"
   },
@@ -759,13 +755,12 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "460",
         "title": "Trauermarsch von Frederic Chopin",
         "folder": "trauermarsch-von-frederic-chopin-460"
-      }
-    ,
+      },
       {
         "id": "451",
         "title": "Edvard Grieg: In der Halle des Bergkönigs",
         "folder": "in-der-halle-des-bergkonigs-von-edvard-grieg-451"
-      },
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=bekannte+musikstuecke&t=3752"
   },
@@ -827,8 +822,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "ballet",
         "title": "Die Geschichte des Balletts und seine Musik",
         "folder": "die-geschichte-des-balletts-und-seine-musik"
-      }
-    ,
+      },
       {
         "id": "8207",
         "title": "Das Streichquartett",
@@ -910,8 +904,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "musauf",
         "title": "Die Rolle von Musik in der Aufklärung",
         "folder": "die-rolle-von-musik-in-der-aufklaerung"
-      }
-    ,
+      },
       {
         "id": "6652",
         "title": "Gottesbilder in Kunst und Musik",
@@ -1100,8 +1093,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "3220",
         "title": "Escape Room 'Komponisten der Wiener Klassik'",
         "folder": "escape-room-quot-komponisten-der-wiener-klassik-quot-3220"
-      }
-    ,
+      },
       {
         "id": "3103",
         "title": "Wolfgang Amadeus Mozart (Steckbrief)",
@@ -1213,13 +1205,13 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "214",
         "title": "Johannes Brahms (Video mit Fragen)",
         "folder": "johannes-brahms-video-mit-fragen-214"
-      }
-    ,
+      },
       {
         "id": "223",
         "title": "Franz Liszt (Video mit Fragen)",
         "folder": "franz-liszt-video-mit-fragen-223"
-      }],
+      }
+    ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=komponisten+romantik+schubert+schumann&t=3752"
   },
   "komponisten-der-spaetromantik-und-nationalen-schulen": {
@@ -1295,8 +1287,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "3216",
         "title": "Escape Room 'Komponisten der Romantik 2'",
         "folder": "escape-room-quot-komponisten-der-romantik-2-quot-3216"
-      }
-    ,
+      },
       {
         "id": "johann-strauss-walzer",
         "title": "Johann Strauss und der Walzer",
@@ -1373,8 +1364,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "3215",
         "title": "Escape Room 'Komponisten der Moderne'",
         "folder": "escape-room-quot-komponisten-der-moderne-quot-3215"
-      }
-    ,
+      },
       {
         "id": "impressionismus",
         "title": "Impressionistische Musik",
@@ -1475,8 +1465,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "gropen",
         "title": "Große Opernhäuser der Welt",
         "folder": "grosse-opernhaeuser"
-      }
-    ,
+      },
       {
         "id": "843",
         "title": "Giuseppe Verdi",
@@ -1491,7 +1480,8 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "569",
         "title": "Falstaff (Giuseppe Verdi)",
         "folder": "giuseppe-verdi-falstaff-569"
-      }],
+      }
+    ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=italienische+oper+verdi+belcanto&t=3752"
   },
   "verismo-puccini-und-franzoesische-opern": {
@@ -1561,8 +1551,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "589",
         "title": "Andrea Chénier (Umberto Giordano)",
         "folder": "umberto-giordano-andrea-chenier-589"
-      }
-    ,
+      },
       {
         "id": "932",
         "title": "Giacomo Puccini",
@@ -1654,8 +1643,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "5701",
         "title": "Die Wiener Staatsoper",
         "folder": "die-wiener-staatsoper-5701"
-      }
-    ,
+      },
       {
         "id": "wagner-gesamtkunstwerk",
         "title": "Wagner und das Gesamtkunstwerk",
@@ -1742,8 +1730,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "opbar",
         "title": "Die Oper im Barock",
         "folder": "die-oper-im-barock"
-      }
-    ,
+      },
       {
         "id": "582",
         "title": "Salome (Richard Strauss)",
@@ -1753,8 +1740,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "4513",
         "title": "Bertolt Brecht & Kurt Weill: Die Dreigroschenoper",
         "folder": "bertolt-brecht-die-dreigroschenoper-2-4513"
-      }
-    ,
+      },
       {
         "id": "5583",
         "title": "Das Burgtheater Wien",
@@ -1831,8 +1817,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "548rent",
         "title": "Rent (Jonathan Larson)",
         "folder": "das-musical-rent-548"
-      }
-    ,
+      },
       {
         "id": "518",
         "title": "Die Operette",
@@ -1842,8 +1827,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "3255",
         "title": "Das Phantom der Oper (Andrew Lloyd Webber)",
         "folder": "das-phantom-der-oper-3255"
-      }
-    ,
+      },
       {
         "id": "3257",
         "title": "Andrew Lloyd Webber – Komponist und Musical-Legende",
@@ -1930,8 +1914,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "553wewill",
         "title": "We Will Rock You (Queen & Ben Elton)",
         "folder": "das-musical-we-will-rock-you-553"
-      }
-    ,
+      },
       {
         "id": "8215",
         "title": "Das Musical Aida (Elton John & Tim Rice)",
@@ -1951,6 +1934,11 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "544",
         "title": "Das Musical Maria Theresia",
         "folder": "das-musical-maria-theresia-544"
+      },
+      {
+        "id": "musik-phantom-der-oper",
+        "title": "Das Phantom der Oper (Andrew Lloyd Webber)",
+        "folder": "das-phantom-der-oper-2-3256"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=moderne+musicals+phantom+der+oper&t=3752"
@@ -2239,8 +2227,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "831",
         "title": "Volksmusik",
         "folder": "volksmusik-831"
-      }
-    ,
+      },
       {
         "id": "8202",
         "title": "Toto: Africa",
@@ -2463,8 +2450,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "3205",
         "title": "Escape Room 'Rock, Pop und Jazz'",
         "folder": "escape-room-quot-rock-pop-und-jazz-quot-3205"
-      }
-    ,
+      },
       {
         "id": "477",
         "title": "Nirvana: Heart-Shaped Box",
@@ -2544,8 +2530,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "8289",
         "title": "Coldplay: Viva la Vida",
         "folder": "viva-la-vida-coldplay-647"
-      }
-    ,
+      },
       {
         "id": "616",
         "title": "ABBA: Dancing Queen (Teil 2)",
@@ -2647,8 +2632,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "70elton",
         "title": "Elton John (Künstlerporträt)",
         "folder": "elton-john-70"
-      }
-    ,
+      },
       {
         "id": "622",
         "title": "Elvis Presley: Jailhouse Rock (Teil 2)",
@@ -2725,8 +2709,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "6421",
         "title": "K-Pop-Formel - Das Geheimnis der Perfektion",
         "folder": "k-pop-formel-das-geheimnis-der-perfektion-6421"
-      }
-    ,
+      },
       {
         "id": "1000",
         "title": "Adele: Rolling In The Deep",
@@ -2736,6 +2719,11 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "8205",
         "title": "Adele: Set Fire To The Rain",
         "folder": "set-fire-to-the-rain-adele-501"
+      },
+      {
+        "id": "musik-ayliva",
+        "title": "Der Ayliva-Code – Wie Emotionen und Storytelling im Deutschpop viral gehen",
+        "folder": "der-ayliva-code-wie-emotionen-viral-gehen-6413"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=popstars+adele+sheeran+madonna&t=3752"
@@ -2982,8 +2970,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "japanische-musik",
         "title": "Japanische Musik – von der Gagaku-Musik bis zur J-Pop-Industrie",
         "folder": "japanische-musik-von-der-gagaku-musik-bis-zur-j-pop-industrie"
-      }
-    ,
+      },
       {
         "id": "8217",
         "title": "Die deutsche Nationalhymne",
@@ -2996,5 +2983,5 @@ export const musikTopics: Record<string, MusikTopic> = {
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=weltmusik&t=3752"
-  },
+  }
 };
