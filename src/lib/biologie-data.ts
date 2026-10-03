@@ -1,4 +1,4 @@
-export interface H5PExercise {
+export interface BiologieExercise {
   id: string;
   title: string;
   folder: string;
@@ -11,7 +11,7 @@ export interface BiologieTopic {
   shortDesc: string;
   longDesc: string;
   keyPoints: string[];
-  exercises: H5PExercise[];
+  exercises: BiologieExercise[];
   worksheetLink?: string;
 }
 
@@ -67,16 +67,6 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "id": "2104",
         "title": "Die Zunge - Geschmacksinn und -knospen",
         "folder": "die-zunge-geschmacksinn-und-knospen-2104"
-      },
-      {
-        "id": "2099",
-        "title": "Die Haut - Tastsinn und Rezeptoren",
-        "folder": "die-haut-tastsinn-und-rezeptoren-2099"
-      },
-      {
-        "id": "2098",
-        "title": "Die Haut - Schweiß- und Talgdrüsen",
-        "folder": "die-haut-schweies-und-talgdrusen-2098"
       },
       {
         "id": "5243",
@@ -139,11 +129,6 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "id": "blutgerinnung",
         "title": "Wie funktioniert die Blutgerinnung?",
         "folder": "wie-funktioniert-die-blutgerinnung"
-      },
-      {
-        "id": "2126-blut",
-        "title": "Blutbestandteile und Blutgruppen",
-        "folder": "blutbestandteile-und-blutgruppen-2126"
       },
       {
         "id": "bluttransfusion",
@@ -254,12 +239,12 @@ export const biologieTopics: Record<string, BiologieTopic> = {
       },
       {
         "id": "2122",
-        "title": "Der Gasaustausch in den Lungenbläschen",
+        "title": "Funktionen der Lunge und Gasaustausch",
         "folder": "funktionen-der-lunge-2122"
       },
       {
         "id": "2123",
-        "title": "Brust- und Bauchatmung - Funktionsweise",
+        "title": "Das Zwerchfell – Atmung und Bewegung",
         "folder": "das-zwerchfell-atmung-und-bewegung-2123"
       },
       {
@@ -315,7 +300,7 @@ export const biologieTopics: Record<string, BiologieTopic> = {
       },
       {
         "id": "4431",
-        "title": "Muskelaufbau, Substanzen und Leistungssteigerung",
+        "title": "Doping und Manipulation im Sport",
         "folder": "doping-und-manipulation-im-sport-4431"
       },
       {
@@ -342,12 +327,12 @@ export const biologieTopics: Record<string, BiologieTopic> = {
     "exercises": [
       {
         "id": "2087",
-        "title": "Das Nervensystem - Zentrales und peripheres",
+        "title": "Das menschliche Gehirn: Struktur und Funktion (Teil 1)",
         "folder": "das-menschliche-gehirn-struktur-und-funktion-2087"
       },
       {
         "id": "2088",
-        "title": "Nervenzellen (Neuronen) und Synapsen",
+        "title": "Das menschliche Gehirn: Struktur und Funktion (Teil 2)",
         "folder": "das-menschliche-gehirn-struktur-und-funktion-2-2088"
       },
       {
@@ -357,18 +342,13 @@ export const biologieTopics: Record<string, BiologieTopic> = {
       },
       {
         "id": "2090",
-        "title": "Reflexe und Reiz-Reaktions-Kette",
+        "title": "Das Nervensystem – Gehirn und Rückenmark",
         "folder": "das-nervensystem-gehirn-und-ruckenmark-2090"
       },
       {
         "id": "2091",
-        "title": "Vegetatives Nervensystem - Sympathikus und Parasympathikus",
+        "title": "Das Nervensystem – Nervenzellen und Synapsen",
         "folder": "das-nervensystem-nervenzellen-und-synapsen-2091"
-      },
-      {
-        "id": "2233",
-        "title": "Das Rückenmark und der Reflexbogen",
-        "folder": "drogen-im-straesenverkehr-alkohol-und-drogen-am-steuer-2233"
       },
       {
         "id": "endorphine",
@@ -393,22 +373,22 @@ export const biologieTopics: Record<string, BiologieTopic> = {
     "exercises": [
       {
         "id": "2080",
-        "title": "Das Immunsystem – Abwehrkräfte des Körpers",
+        "title": "Das Immunsystem – Lymphflüssigkeit und Abwehr",
         "folder": "lymphsystem-lymphflussigkeit-und-immunabwehr-2080"
       },
       {
         "id": "2081",
-        "title": "Die Rolle der weißen Blutkörperchen (Leukozyten)",
+        "title": "Die Rolle der Milz im Immunsystem (Teil 1)",
         "folder": "die-rolle-der-milz-im-immunsystem-2081"
       },
       {
         "id": "2082",
-        "title": "Antigen-Antikörper-Reaktion",
+        "title": "Immunsystem und Stress",
         "folder": "immunsystem-und-stress-2082"
       },
       {
         "id": "2083",
-        "title": "Aktive und passive Immunisierung",
+        "title": "Das Immunsystem und Ernährung",
         "folder": "das-immunsystem-und-ernahrung-2083"
       },
       {
@@ -443,7 +423,7 @@ export const biologieTopics: Record<string, BiologieTopic> = {
       },
       {
         "id": "2130",
-        "title": "Die Rolle der Milz im Immunsystem",
+        "title": "Die Rolle der Milz im Immunsystem (Teil 2)",
         "folder": "die-rolle-der-milz-im-immunsystem-2-2130"
       },
       {
@@ -470,11 +450,6 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "id": "2116",
         "title": "Das Lymphsystem – Lymphknoten und -gefäße",
         "folder": "das-lymphsystem-lymphknoten-und-gefaese-2116"
-      },
-      {
-        "id": "2118",
-        "title": "Lymphsystem – Lymphflüssigkeit und Immunabwehr",
-        "folder": "alkohol-und-seine-wirkung-auf-den-korper-2118"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=immunsystem+und+abwehr&t=3752"
@@ -500,7 +475,7 @@ export const biologieTopics: Record<string, BiologieTopic> = {
       },
       {
         "id": "2127",
-        "title": "Immunsystem und Stress",
+        "title": "Immunsystem und chronischer Stress (Vertiefung)",
         "folder": "immunsystem-und-stress-2-2127"
       },
       {
@@ -622,11 +597,6 @@ export const biologieTopics: Record<string, BiologieTopic> = {
     ],
     "exercises": [
       {
-        "id": "2109-haut",
-        "title": "Die Haut – Schichten und Funktionen",
-        "folder": "die-haut-schichten-und-funktionen-2109"
-      },
-      {
         "id": "2232",
         "title": "Die Haut - Schutz und Sinnesorgan",
         "folder": "die-haut-schutz-und-sinnesorgan-2232"
@@ -647,14 +617,19 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "folder": "wie-funktioniert-die-heilung-einer-wunde"
       },
       {
-        "id": "gaensehaut",
-        "title": "Gänsehaut und Hautreaktionen",
-        "folder": "horror-buecher-und-die-gaensehaut-beim-lesen"
-      },
-      {
         "id": "schwitzen",
         "title": "Wie funktioniert das Schwitzen",
         "folder": "wie-funktioniert-das-schwitzen"
+      },
+      {
+        "id": "2099",
+        "title": "Die Haut – Tastsinn und Rezeptoren",
+        "folder": "die-haut-tastsinn-und-rezeptoren-2099"
+      },
+      {
+        "id": "2098",
+        "title": "Die Haut – Schweiß- und Talgdrüsen",
+        "folder": "die-haut-schweies-und-talgdrusen-2098"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=die+haut+schutzfunktionen&t=3752"
@@ -695,12 +670,12 @@ export const biologieTopics: Record<string, BiologieTopic> = {
       },
       {
         "id": "2096",
-        "title": "Geschlechtsorgane und Fortpflanzung",
+        "title": "Geschlechtsbestimmung – Wie es funktioniert",
         "folder": "geschlechtsbestimmung-wie-es-funktioniert-2096"
       },
       {
         "id": "2097",
-        "title": "Der Menstruationszyklus",
+        "title": "Geschlechtschromosomen – XX und XY",
         "folder": "geschlechtschromosomen-xx-und-xy-2097"
       },
       {
@@ -2061,18 +2036,13 @@ export const biologieTopics: Record<string, BiologieTopic> = {
       },
       {
         "id": "2178",
-        "title": "Mutationen - Motor der Evolution",
+        "title": "Mutationen – Veränderungen im Erbgut",
         "folder": "mutationen-veranderungen-im-erbgut-2178"
       },
       {
         "id": "884",
         "title": "Der Neandertaler",
         "folder": "der-neandertaler-884"
-      },
-      {
-        "id": "885",
-        "title": "Der Neandertaler (Teil 2)",
-        "folder": "der-neandertaler-2-885"
       },
       {
         "id": "3088",
