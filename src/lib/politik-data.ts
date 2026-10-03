@@ -128,6 +128,17 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "title": "Das Bundesverfassungsgericht",
         "folder": "das-bundesverfassungsgericht"
       }
+    ,
+      {
+        "id": "das-bundeswappen-deutschlands",
+        "title": "Das Bundeswappen Deutschlands",
+        "folder": "das-bundeswappen-deutschlands"
+      },
+      {
+        "id": "die-flagge-deutschlands",
+        "title": "Die Flagge Deutschlands",
+        "folder": "die-flagge-deutschlands"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=demokratie+grundgesetz&t=3752"
   },
@@ -282,6 +293,28 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "id": "3474",
         "title": "Anarchismus",
         "folder": "anarchismus-3474"
+      }
+    ,
+      {
+        "id": "liberalismus-3562",
+        "title": "Liberalismus",
+        "folder": "liberalismus-3562"
+      },
+      {
+        "id": "deutsche-geheimdienste-3506",
+        "title": "Deutsche Geheimdienste",
+        "folder": "deutsche-geheimdienste-3506"
+      }
+    ,
+      {
+        "id": "richard-nixon-und-die-watergateaffaire-3054",
+        "title": "Richard Nixon und die Watergateaffaire",
+        "folder": "richard-nixon-und-die-watergateaffaire-3054"
+      },
+      {
+        "id": "us-election-system-3268",
+        "title": "US Election System",
+        "folder": "us-election-system-3268"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=politische+systeme&t=3752"
@@ -666,6 +699,17 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "id": "pol-chamenei",
         "title": "Ali Chamenei - sein Tod und die Folgen",
         "folder": "ali-chamenei-sein-tod-und-die-folgen"
+      }
+    ,
+      {
+        "id": "die-who-2992",
+        "title": "Die WHO",
+        "folder": "die-who-2992"
+      },
+      {
+        "id": "gemeindeverband-in-deutschland",
+        "title": "Gemeindeverband in Deutschland",
+        "folder": "gemeindeverband-in-deutschland"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=internationale+verfassungen&t=3752"
@@ -1133,6 +1177,18 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "id": "4466",
         "title": "Vorurteile und Diskriminierung überwinden",
         "folder": "vorurteile-und-diskriminierung-uberwinden-4466"
+      }
+    ,
+      {
+        "id": "black-life-matters-3484",
+        "title": "Black Life Matters",
+        "folder": "black-life-matters-3484"
+      }
+    ,
+      {
+        "id": "sinti-und-roma",
+        "title": "Sinti und Roma",
+        "folder": "sinti-und-roma"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=rassismus+antisemitismus&t=3752"

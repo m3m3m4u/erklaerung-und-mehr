@@ -2277,6 +2277,12 @@ export const mathTopics: Record<string, MathTopic> = {
         "title": "Binomische Formeln Single-Choice",
         "folder": "studypoint-single-choice-binomische-formeln-691"
       }
+    ,
+      {
+        "id": "binome-multiplizieren-93",
+        "title": "Binome multiplizieren",
+        "folder": "binome-multiplizieren-93"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=binomische+formeln&t=1118"
   },

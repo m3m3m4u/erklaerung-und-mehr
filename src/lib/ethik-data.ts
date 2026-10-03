@@ -1317,6 +1317,12 @@ export const ethikTopics: Record<string, EthikTopic> = {
         "title": "Unterschiedliche Erziehungsstile verstehen",
         "folder": "unterschiedliche-erziehungsstile-verstehen-5903"
       }
+    ,
+      {
+        "id": "neujahrsbrauche-weltweit-6707",
+        "title": "Neujahrsbräuche weltweit",
+        "folder": "neujahrsbrauche-weltweit-6707"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Toleranz+Vorurteile+Inklusion&t=3752"
   },
@@ -1418,6 +1424,12 @@ export const ethikTopics: Record<string, EthikTopic> = {
         "id": "6715",
         "title": "Religionsfreiheit als Menschenrecht",
         "folder": "religionsfreiheit-6715"
+      }
+    ,
+      {
+        "id": "die-todesstrafe-2983",
+        "title": "Die Todesstrafe",
+        "folder": "die-todesstrafe-2983"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Menschenrechte+Kinderrechte+Gerechtigkeit&t=3752"

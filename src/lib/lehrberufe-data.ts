@@ -472,6 +472,12 @@ export const lehrberufeTopics: Record<string, LehrberufeTopic> = {
         "title": "Homeoffice, Remote Work & Virtuelle Teams",
         "folder": "home-office-und-virtuelle-teams"
       }
+    ,
+      {
+        "id": "die-restaurantfachkraft-3402",
+        "title": "Die Restaurantfachkraft",
+        "folder": "die-restaurantfachkraft-3402"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=kaufleute+it+berufe&t=3752"
   }

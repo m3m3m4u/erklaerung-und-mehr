@@ -2557,6 +2557,18 @@ export const musikTopics: Record<string, MusikTopic> = {
         "title": "Janet Jackson",
         "folder": "janet-jackson-80"
       }
+    ,
+      {
+        "id": "wish-you-were-here-pink-floyd-522",
+        "title": "Wish You Were Here - Pink Floyd",
+        "folder": "wish-you-were-here-pink-floyd-522"
+      }
+    ,
+      {
+        "id": "i-can-039-t-get-no-satisfaction-the-rolling-stones-2-599",
+        "title": "(I Can't Get No) Satisfaction (The Rolling Stones)",
+        "folder": "i-can-039-t-get-no-satisfaction-the-rolling-stones-2-599"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=abba+u2+coldplay+pop&t=3752"
   },
@@ -2900,6 +2912,12 @@ export const musikTopics: Record<string, MusikTopic> = {
         "title": "Apache 207",
         "folder": "apache-207-6411"
       }
+    ,
+      {
+        "id": "raf-camora-6422",
+        "title": "RAF Camora",
+        "folder": "raf-camora-6422"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=hiphop+rap+deutschrap+streaming&t=3752"
   },
@@ -2962,6 +2980,12 @@ export const musikTopics: Record<string, MusikTopic> = {
         "title": "Clara Schumann – Klaviervirtuosin & Komponistin",
         "folder": "clara-schumann-933"
       }
+    ,
+      {
+        "id": "nina-simone-1295",
+        "title": "Nina Simone",
+        "folder": "nina-simone-1295"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=frauen+musikgeschichte&t=3752"
   },
@@ -2993,7 +3017,201 @@ export const musikTopics: Record<string, MusikTopic> = {
         "title": "Das Lied der Deutschen (Haydn/Hoffmann von Fallersleben)",
         "folder": "das-lied-der-deutschen"
       }
+    ,
+      {
+        "id": "charles-mingus-1220",
+        "title": "Charles Mingus",
+        "folder": "charles-mingus-1220"
+      },
+      {
+        "id": "chet-baker-1223",
+        "title": "Chet Baker",
+        "folder": "chet-baker-1223"
+      }
+    ,
+      {
+        "id": "chick-corea-1225",
+        "title": "Chick Corea",
+        "folder": "chick-corea-1225"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=weltmusik&t=3752"
+  }
+,
+  "kurs-tonhoehe-und-gehoerbildung": {
+    "slug": "kurs-tonhoehe-und-gehoerbildung",
+    "title": "Kurs Tonhöhe & Gehörbildung",
+    "category": "Musiktheorie, Notenlehre & Gehörbildung",
+    "shortDesc": "Stufenweises Hören, Erkennen und Bestimmen von Tonhöhen und Intervallen.",
+    "longDesc": "Ein systematischer Trainingskurs zur Gehörbildung: Vom Vergleichen einfacher Tonhöhenunterschiede über das Erkennen von Stammtonreihen bis hin zum sicheren Hören und Notieren musikalischer Intervalle.",
+    "keyPoints": [
+          "Tonhöhe (Frequenz): Hohe Töne entstehen durch schnelle Schwingungen, tiefe Töne durch langsame Schwingungen",
+          "Stammtonreihe: Die Töne C-D-E-F-G-A-H und ihre relativen Tonhöhenunterschiede",
+          "Intervallhören: Halb- und Ganztonschritte im direkten Hörvergleich",
+          "Gehörschulung: Melodische und harmonische Tonhöhenzuordnung"
+    ],
+    "exercises": [
+      {
+        "id": "kurs-tonhohe-1-649",
+        "title": "Kurs Tonhöhe 1",
+        "folder": "kurs-tonhohe-1-649"
+      },
+      {
+        "id": "kurs-tonhohe-2-650",
+        "title": "Kurs Tonhöhe 2",
+        "folder": "kurs-tonhohe-2-650"
+      },
+      {
+        "id": "kurs-tonhohe-4-652",
+        "title": "Kurs Tonhöhe 4",
+        "folder": "kurs-tonhohe-4-652"
+      },
+      {
+        "id": "kurs-tonhohe-5-653",
+        "title": "Kurs Tonhöhe 5",
+        "folder": "kurs-tonhohe-5-653"
+      },
+      {
+        "id": "kurs-tonhohe-6-654",
+        "title": "Kurs Tonhöhe 6",
+        "folder": "kurs-tonhohe-6-654"
+      },
+      {
+        "id": "kurs-tonhohe-7-655",
+        "title": "Kurs Tonhöhe 7",
+        "folder": "kurs-tonhohe-7-655"
+      },
+      {
+        "id": "kurs-tonhohe-8-656",
+        "title": "Kurs Tonhöhe 8",
+        "folder": "kurs-tonhohe-8-656"
+      },
+      {
+        "id": "kurs-tonhohe-9-657",
+        "title": "Kurs Tonhöhe 9",
+        "folder": "kurs-tonhohe-9-657"
+      },
+      {
+        "id": "kurs-tonhohe-10-658",
+        "title": "Kurs Tonhöhe 10",
+        "folder": "kurs-tonhohe-10-658"
+      }
+    ]
+  }
+,
+  "literarische-meisterwerke-in-lernsongs": {
+    "slug": "literarische-meisterwerke-in-lernsongs",
+    "title": "Literarische Meisterwerke in Lernsongs & Vertonungen",
+    "category": "Pop, Hip-Hop & Elektronische Musik",
+    "shortDesc": "Musikalische Zusammenfassungen und Ohrwurm-Lernsongs kanonischer Literaturwerke.",
+    "longDesc": "Musik als didaktisches Werkzeug zur Literaturvermittlung: Klassiker von Goethe, Schiller, Lessing, Büchner, Kleist, Kafka und modernen Autoren wie Herrndorf und Dürrenmatt in eingängigen musikalischen Bearbeitungen.",
+    "keyPoints": [
+          "Didaktische Musik: Wie Rhythmus, Melodie und Reime das Behalten komplexer Textinhalte fördern",
+          "Vertonung dramatischer Konflikte: Von Faust, Woyzeck und Emilia Galotti bis zu Kabale und Liebe",
+          "Moderne Lektüren im Songformat: Tschick, Die Physiker und Der Besuch der alten Dame",
+          "Verbindung von Literaturanalyse und Musikpädagogik"
+    ],
+    "exercises": [
+      {
+        "id": "botho-straues-groes-und-klein-3411",
+        "title": "Botho Strauß - Groß und klein",
+        "folder": "botho-straues-groes-und-klein-3411"
+      },
+      {
+        "id": "don-von-horvath-kasimir-und-karoline-3457",
+        "title": "Ödön von Horváth - Kasimir und Karoline",
+        "folder": "don-von-horvath-kasimir-und-karoline-3457"
+      },
+      {
+        "id": "e-t-a-hoffmann-der-sandmann-2-3415",
+        "title": "E.T.A. Hoffmann - Der Sandmann",
+        "folder": "e-t-a-hoffmann-der-sandmann-2-3415"
+      },
+      {
+        "id": "franz-kafka-der-prozess-2-3418",
+        "title": "Franz Kafka - Der Prozess",
+        "folder": "franz-kafka-der-prozess-2-3418"
+      },
+      {
+        "id": "friedrich-durrenmatt-die-physiker-2-3420",
+        "title": "Friedrich Dürrenmatt - Die Physiker",
+        "folder": "friedrich-durrenmatt-die-physiker-2-3420"
+      },
+      {
+        "id": "friedrich-hebbel-maria-magdalene-3421",
+        "title": "Friedrich Hebbel - Maria Magdalene",
+        "folder": "friedrich-hebbel-maria-magdalene-3421"
+      },
+      {
+        "id": "friedrich-schiller-die-rauber-2-3422",
+        "title": "Friedrich Schiller - Die Räuber",
+        "folder": "friedrich-schiller-die-rauber-2-3422"
+      },
+      {
+        "id": "friedrich-schiller-kabale-und-liebe-3-3424",
+        "title": "Friedrich Schiller - Kabale und Liebe",
+        "folder": "friedrich-schiller-kabale-und-liebe-3-3424"
+      },
+      {
+        "id": "friedrich-schiller-maria-stuart-2-3425",
+        "title": "Friedrich Schiller - Maria Stuart",
+        "folder": "friedrich-schiller-maria-stuart-2-3425"
+      },
+      {
+        "id": "friedrich-schiller-wilhelm-tell-2-3427",
+        "title": "Friedrich Schiller - Wilhelm Tell",
+        "folder": "friedrich-schiller-wilhelm-tell-2-3427"
+      },
+      {
+        "id": "g-e-lessing-emilia-galotti-2-3428",
+        "title": "G.E. Lessing - Emilia Galotti",
+        "folder": "g-e-lessing-emilia-galotti-2-3428"
+      },
+      {
+        "id": "georg-buchner-woyzeck-2-3430",
+        "title": "Georg Büchner - Woyzeck",
+        "folder": "georg-buchner-woyzeck-2-3430"
+      },
+      {
+        "id": "heimito-von-doderer-die-strudlhofstiege-3436",
+        "title": "Heimito von Doderer – Die Strudlhofstiege",
+        "folder": "heimito-von-doderer-die-strudlhofstiege-3436"
+      },
+      {
+        "id": "heinrich-von-kleist-marquise-von-o-2-3441",
+        "title": "Heinrich von Kleist - Marquise von O...",
+        "folder": "heinrich-von-kleist-marquise-von-o-2-3441"
+      },
+      {
+        "id": "j-w-goethe-die-leiden-des-jungen-werther-2-3445",
+        "title": "J.W. Goethe - Die Leiden des jungen Werther",
+        "folder": "j-w-goethe-die-leiden-des-jungen-werther-2-3445"
+      },
+      {
+        "id": "j-w-von-goethe-faust-i-2-3449",
+        "title": "J.W. von Goethe - Faust I",
+        "folder": "j-w-von-goethe-faust-i-2-3449"
+      },
+      {
+        "id": "peter-hacks-ein-gesprach-im-hause-stein-3458",
+        "title": "Peter Hacks - Ein Gespräch im Hause Stein",
+        "folder": "peter-hacks-ein-gesprach-im-hause-stein-3458"
+      },
+      {
+        "id": "peter-weiss-die-verfolgung-und-ermordung-jean-paul-marats-3459",
+        "title": "Peter Weiss - Die Verfolgung und Ermordung Jean Paul Marats",
+        "folder": "peter-weiss-die-verfolgung-und-ermordung-jean-paul-marats-3459"
+      },
+      {
+        "id": "theodor-fontane-effi-briest-2-3462",
+        "title": "Theodor Fontane - Effi Briest",
+        "folder": "theodor-fontane-effi-briest-2-3462"
+      },
+      {
+        "id": "wolfgang-herrndorf-tschick-2-3468",
+        "title": "Wolfgang Herrndorf - Tschick",
+        "folder": "wolfgang-herrndorf-tschick-2-3468"
+      }
+    ]
   }
 };

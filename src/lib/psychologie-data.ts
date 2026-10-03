@@ -91,6 +91,17 @@ export const psychologieTopics: Record<string, PsychologieTopic> = {
         "title": "Ethnische und kulturelle Validität von Tests",
         "folder": "ethnische-und-kulturelle-validitat-von-tests-2712"
       }
+    ,
+      {
+        "id": "experimentelles-design-und-kontrollgruppen-2713",
+        "title": "Experimentelles Design und Kontrollgruppen",
+        "folder": "experimentelles-design-und-kontrollgruppen-2713"
+      },
+      {
+        "id": "theorien-der-entwicklung-5899",
+        "title": "Theorien der Entwicklung",
+        "folder": "theorien-der-entwicklung-5899"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Psychologie+Grundlagen+Forschungsmethoden&t=3752"
   },
@@ -297,6 +308,17 @@ export const psychologieTopics: Record<string, PsychologieTopic> = {
         "id": "kognitive-verzerrungen-und-denkfehler-2722",
         "title": "Kognitive Verzerrungen und Denkfehler",
         "folder": "kognitive-verzerrungen-und-denkfehler-2722"
+      }
+    ,
+      {
+        "id": "die-auswirkungen-von-farben-auf-die-stimmung-2703",
+        "title": "Die Auswirkungen von Farben auf die Stimmung",
+        "folder": "die-auswirkungen-von-farben-auf-die-stimmung-2703"
+      },
+      {
+        "id": "handlungen-und-ihre-wirkungen-798",
+        "title": "Handlungen und ihre Wirkungen",
+        "folder": "handlungen-und-ihre-wirkungen-798"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Wahrnehmung+Denkfehler+Kognitive+Dissonanz&t=3752"

@@ -601,6 +601,12 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "title": "Rembrandt van Rijn – Radierung und Malerei",
         "folder": "rembrandt-van-rijn-2-4194"
       }
+    ,
+      {
+        "id": "hieronymus-bosch-1373",
+        "title": "Hieronymus Bosch",
+        "folder": "hieronymus-bosch-1373"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Rembrandt+Vermeer+Rokoko&t=3752"
   },
@@ -1674,6 +1680,12 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "id": "5744",
         "title": "Ästhetik und Kunstphilosophie",
         "folder": "sthetik-und-kunstphilosophie-5744"
+      }
+    ,
+      {
+        "id": "der-louvre-4763",
+        "title": "Der Louvre",
+        "folder": "der-louvre-4763"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Kunsttherapie+Museum+Kunsttheorie&t=3752"

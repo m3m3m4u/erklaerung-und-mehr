@@ -733,6 +733,12 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "title": "Clemens Brentano: Der Spinnerin Nachtlied",
         "folder": "der-spinnerin-nachtlied-von-clemens-brentano-5195"
       }
+    ,
+      {
+        "id": "friedrich-hebbel-4608",
+        "title": "Friedrich Hebbel",
+        "folder": "friedrich-hebbel-4608"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Romantik%20Vormaerz%20Biedermeier%20Literatur&t=284"
   },
@@ -791,6 +797,12 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "3417",
         "title": "Frank Wedekind - Frühlings Erwachen",
         "folder": "frank-wedekind-fruhlings-erwachen-2-3417"
+      }
+    ,
+      {
+        "id": "fjodor-dostojewski-1254",
+        "title": "Fjodor Dostojewski",
+        "folder": "fjodor-dostojewski-1254"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Realismus%20Naturalismus%20Literatur&t=284"
@@ -905,6 +917,12 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "title": "Erich Kästner: Fabian – Gegenwartsbezug & Moral in der Krise",
         "folder": "fabian-geschichte-eines-moralisten-von-kastner-bezug-zur-gegenwart-6205"
       }
+    ,
+      {
+        "id": "marcel-proust-1288",
+        "title": "Marcel Proust",
+        "folder": "marcel-proust-1288"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Expressionismus%20Exilliteratur%20Moderne&t=284"
   },
@@ -1004,6 +1022,17 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "4509",
         "title": "Anna Seghers – Das siebte Kreuz",
         "folder": "anna-seghers-das-siebte-kreuz-2-4509"
+      }
+    ,
+      {
+        "id": "berschrift-2-1226",
+        "title": "Christa Wolf",
+        "folder": "berschrift-2-1226"
+      },
+      {
+        "id": "medea-von-christa-wolf-bezug-zur-gegenwart-2-6277",
+        "title": "Medea von Christa Wolf - Bezug zur Gegenwart",
+        "folder": "medea-von-christa-wolf-bezug-zur-gegenwart-2-6277"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Nachkriegsliteratur%20DDR%20Literatur%20Gegenwart&t=284"
@@ -1488,6 +1517,12 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "title": "Bertolt Brecht: Mutter Courage und ihre Kinder – Episches Theater & Kriegskritik",
         "folder": "bertolt-brecht-mutter-courage-und-ihre-kinder-2-4515"
       }
+    ,
+      {
+        "id": "bertolt-brecht-3-4599",
+        "title": "Bertolt Brecht",
+        "folder": "bertolt-brecht-3-4599"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Brecht%20Episches%20Theater%20Galilei%20Mutter%20Courage&t=284"
   },
@@ -1575,6 +1610,12 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "3278",
         "title": "Friedrich Dürrenmatt: Die Physiker – Verantwortung der Wissenschaft",
         "folder": "friedrich-durrenmatt-die-physiker-3278"
+      }
+    ,
+      {
+        "id": "friedrich-durrenmatt-der-besuch-der-alten-dame-2-3419",
+        "title": "Friedrich Dürrenmatt - Der Besuch der alten Dame",
+        "folder": "friedrich-durrenmatt-der-besuch-der-alten-dame-2-3419"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Duerrenmatt%20Physiker%20Besuch%20alten%20Dame%20Frisch%20Biedermann&t=284"
@@ -1872,6 +1913,12 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "title": "Arthur Schnitzler",
         "folder": "arthur-schnitzler-4598"
       }
+    ,
+      {
+        "id": "stefan-zweig-und-der-abschied-vom-alten-europa",
+        "title": "Stefan Zweig und der Abschied vom alten Europa",
+        "folder": "stefan-zweig-und-der-abschied-vom-alten-europa"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Wiener%20Moderne%20Schnitzler%20Nestroy%20Hofmannsthal&t=284"
   },
@@ -1965,6 +2012,12 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "4627",
         "title": "Robert Musil",
         "folder": "robert-musil-4627"
+      }
+    ,
+      {
+        "id": "berschrift-3-1245",
+        "title": "Elfriede Jelinek",
+        "folder": "berschrift-3-1245"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Oesterreichische%20Literatur%20Roth%20Horvath%20Bernhard&t=284"
@@ -2532,6 +2585,27 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "worldbuilding-so-baut-man-eine-eigene-fantasy-welt",
         "title": "Worldbuilding – So baut man eine eigene Fantasy-Welt",
         "folder": "worldbuilding-so-baut-man-eine-eigene-fantasy-welt"
+      }
+    ,
+      {
+        "id": "katja-brandis-die-welt-der-woodwalkers-einfach-erklaert",
+        "title": "Katja Brandis - Die Welt der Woodwalkers einfach erklärt",
+        "folder": "katja-brandis-die-welt-der-woodwalkers-einfach-erklaert"
+      },
+      {
+        "id": "woodwalkers-die-faszination-der-gestaltwandler",
+        "title": "Woodwalkers - Die Faszination der Gestaltwandler",
+        "folder": "woodwalkers-die-faszination-der-gestaltwandler"
+      },
+      {
+        "id": "horror-buecher-und-die-gaensehaut-beim-lesen",
+        "title": "Horror-Bücher und die Gänsehaut beim Lesen",
+        "folder": "horror-buecher-und-die-gaensehaut-beim-lesen"
+      },
+      {
+        "id": "comic-con-und-buchmessen-wo-fans-sich-treffen",
+        "title": "Comic-Con und Buchmessen - Wo Fans sich treffen",
+        "folder": "comic-con-und-buchmessen-wo-fans-sich-treffen"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Cornelia%20Funke%20Eragon%20Fantasy%20Jugend&t=284"
@@ -3611,6 +3685,12 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "title": "Georg Büchner: Der hessische Landbote – Gegenwartsbezug & soziale Gerechtigkeit",
         "folder": "der-hessische-landbote-von-georg-buchner-bezug-zur-gegenwart-6182"
       }
+    ,
+      {
+        "id": "georg-buchner-4610",
+        "title": "Georg Büchner",
+        "folder": "georg-buchner-4610"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=buechner+woyzeck+danton&t=3752"
   },
@@ -3850,6 +3930,12 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "title": "Alfred Döblin – Berlin Alexanderplatz",
         "folder": "alfred-doblin-berlin-alexanderplatz-3403"
       }
+    ,
+      {
+        "id": "thomas-mann-buddenbrooks-2-3466",
+        "title": "Thomas Mann - Buddenbrooks",
+        "folder": "thomas-mann-buddenbrooks-2-3466"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=thomas+mann+heinrich+mann&t=3752"
   },
@@ -3893,5 +3979,357 @@ export const deutschTopics: Record<string, DeutschTopic> = {
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=arno+geiger+drachenwand&t=3752"
+  }
+,
+  "juli-zeh-corpus-delicti": {
+    "slug": "juli-zeh-corpus-delicti",
+    "title": "Juli Zeh – Corpus Delicti",
+    "category": "Moderne Dramatik & Gegenwartsliteratur",
+    "shortDesc": "Dystopischer Roman über Gesundheitssystem, staatliche Überwachung und Widerstand.",
+    "longDesc": "In Corpus Delicti zeichnet Juli Zeh eine düstere Zukunftsvision einer Gesundheitsdiktatur („Die METHODE“). Im Mittelpunkt steht Mia Holl, die nach dem Tod ihres Bruders das unfehlbare System hinterfragt und für persönliche Freiheit kämpft.",
+    "keyPoints": [
+          "Die METHODE: Staatlich verordnete Gesundheitsüberwachung und Optimierung aller Lebensbereiche",
+          "Figurenkonstellation: Mia Holl zwischen Systemkonformismus und Rebellion; Moritz Holl als Freigeist",
+          "Aktueller Bezug: Fragen nach Datenschutz, Pandemie-Maßnahmen, Eigenverantwortung und totalitärer Hygiene",
+          "Literarische Tradition: Einordnung in die Reihe großer Dystopien wie Orwell (1984) und Huxley (Schöne neue Welt)"
+    ],
+    "exercises": [
+      {
+        "id": "corpus-delicti-von-juli-zeh-6166",
+        "title": "Corpus Delicti von Juli Zeh",
+        "folder": "corpus-delicti-von-juli-zeh-6166"
+      },
+      {
+        "id": "corpus-delicti-von-juli-zeh-bezug-zur-gegenwart-6163",
+        "title": "Corpus Delicti von Juli Zeh - Bezug zur Gegenwart",
+        "folder": "corpus-delicti-von-juli-zeh-bezug-zur-gegenwart-6163"
+      },
+      {
+        "id": "corpus-delicti-von-juli-zeh-historischer-kontext-6164",
+        "title": "Corpus Delicti von Juli Zeh - historischer Kontext",
+        "folder": "corpus-delicti-von-juli-zeh-historischer-kontext-6164"
+      },
+      {
+        "id": "corpus-delicti-von-juli-zeh-literarische-bedeutung-6165",
+        "title": "Corpus Delicti von Juli Zeh - literarische Bedeutung",
+        "folder": "corpus-delicti-von-juli-zeh-literarische-bedeutung-6165"
+      }
+    ]
+  }
+,
+  "sasa-stanisic-herkunft": {
+    "slug": "sasa-stanisic-herkunft",
+    "title": "Saša Stanišić – Herkunft",
+    "category": "Moderne Dramatik & Gegenwartsliteratur",
+    "shortDesc": "Autobiografischer Roman über Heimat, Krieg, Flucht, Erinnerung und Identität.",
+    "longDesc": "Mit „Herkunft“ (Deutscher Buchpreis 2019) schuf Saša Stanišić ein Meisterwerk über die Flucht aus Višegrad während des Bosnienkrieges nach Heidelberg, das Erwachsenwerden in Deutschland und die Suche nach den eigenen Wurzeln.",
+    "keyPoints": [
+          "Autobiografie und Fiktion: Verschmelzung persönlicher Familiengeschichte mit poetischen Erzählebenen",
+          "Das Thema Herkunft: Herkunft als Zufall des Geburtsorts vs. selbstgewählte Identität",
+          "Erzählweise: Humorvoll, melancholisch, sprachgewandt mit spielerischen Brüchen und „Choose-your-own-adventure“-Elementen",
+          "Gesellschaftliche Relevanz: Einblicke in Fluchterfahrung, Integration und das Schicksal der Gastarbeiter-Generation"
+    ],
+    "exercises": [
+      {
+        "id": "sasa-stanisic-6269",
+        "title": "Saša Stanišić",
+        "folder": "sasa-stanisic-6269"
+      },
+      {
+        "id": "herkunft-von-sasa-stanisic-6226",
+        "title": "Herkunft von Saša Stanišić",
+        "folder": "herkunft-von-sasa-stanisic-6226"
+      },
+      {
+        "id": "herkunft-von-sasa-stanisic-bezug-zur-gegenwart-6223",
+        "title": "Herkunft von Saša Stanišić - Bezug zur Gegenwart",
+        "folder": "herkunft-von-sasa-stanisic-bezug-zur-gegenwart-6223"
+      },
+      {
+        "id": "herkunft-von-sasa-stanisic-historischer-kontext-6224",
+        "title": "Herkunft von Saša Stanišić - historischer Kontext",
+        "folder": "herkunft-von-sasa-stanisic-historischer-kontext-6224"
+      },
+      {
+        "id": "herkunft-von-sasa-stanisic-literarische-bedeutung-6225",
+        "title": "Herkunft von Saša Stanišić - literarische Bedeutung",
+        "folder": "herkunft-von-sasa-stanisic-literarische-bedeutung-6225"
+      }
+    ]
+  }
+,
+  "meistererzaehlungen-kleist-hoffmann-eichendorff": {
+    "slug": "meistererzaehlungen-kleist-hoffmann-eichendorff",
+    "title": "Meistererzählungen & Klassiker im Kontext",
+    "category": "Romane, Novellen & Erzählungen",
+    "shortDesc": "Schwerpunktanalysen zu Kleist, Hoffmann, Eichendorff, Horváth und Hein.",
+    "longDesc": "Tiefgehende literarische Analysen kanonischer Meisterwerke des 19. und 20. Jahrhunderts: Kleists „Der zerbrochne Krug“ und „Die Marquise von O...“, Hoffmanns „Der Sandmann“, Eichendorffs „Das Marmorbild“, Horváths „Der ewige Spießer“ und Christoph Heins zeitgeschichtliche Erzählung.",
+    "keyPoints": [
+          "Heinrich von Kleist: Psychologische Abgründe, Justizsatire und das Rätsel der Tugend in Novelle und Komödie",
+          "E.T.A. Hoffmann: Die Schwarze Romantik, das Unheimliche und der Konflikt zwischen Fantasie und bürgerlicher Vernunft",
+          "Joseph von Eichendorff: Romantische Sehnsucht, Verführung durch heidnische Antike und christliche Erlösung",
+          "Ödön von Horváth: Demaskierung des Kleinbürgertums und soziokultureller Konformismus der Zwischenkriegszeit",
+          "Christoph Hein: Erinnerungsarbeit und das Ringen um individuelle Freiheit in der DDR-Nachkriegsgesellschaft"
+    ],
+    "exercises": [
+      {
+        "id": "der-sandmann-von-e-t-a-hoffmann-bezug-zur-gegenwart-6186",
+        "title": "Der Sandmann von E.T.A. Hoffmann - Bezug zur Gegenwart",
+        "folder": "der-sandmann-von-e-t-a-hoffmann-bezug-zur-gegenwart-6186"
+      },
+      {
+        "id": "der-sandmann-von-e-t-a-hoffmann-historischer-kontext-6187",
+        "title": "Der Sandmann von E.T.A. Hoffmann - historischer Kontext",
+        "folder": "der-sandmann-von-e-t-a-hoffmann-historischer-kontext-6187"
+      },
+      {
+        "id": "der-sandmann-von-e-t-a-hoffmann-literarische-bedeutung-6188",
+        "title": "Der Sandmann von E.T.A. Hoffmann - literarische Bedeutung",
+        "folder": "der-sandmann-von-e-t-a-hoffmann-literarische-bedeutung-6188"
+      },
+      {
+        "id": "das-marmorbild-von-joseph-von-eichendorff-6174",
+        "title": "Das Marmorbild von Joseph von Eichendorff",
+        "folder": "das-marmorbild-von-joseph-von-eichendorff-6174"
+      },
+      {
+        "id": "das-marmorbild-von-joseph-von-eichendorff-bezug-zur-gegenwart-6171",
+        "title": "Das Marmorbild von Joseph von Eichendorff - Bezug zur Gegenwart",
+        "folder": "das-marmorbild-von-joseph-von-eichendorff-bezug-zur-gegenwart-6171"
+      },
+      {
+        "id": "das-marmorbild-von-joseph-von-eichendorff-historischer-kontext-6172",
+        "title": "Das Marmorbild von Joseph von Eichendorff - historischer Kontext",
+        "folder": "das-marmorbild-von-joseph-von-eichendorff-historischer-kontext-6172"
+      },
+      {
+        "id": "das-marmorbild-von-joseph-von-eichendorff-literarische-bedeutung-6173",
+        "title": "Das Marmorbild von Joseph von Eichendorff - literarische Bedeutung",
+        "folder": "das-marmorbild-von-joseph-von-eichendorff-literarische-bedeutung-6173"
+      },
+      {
+        "id": "der-zerbrochne-krug-von-heinrich-von-kleist-bezug-zur-gegenwart-6192",
+        "title": "Der zerbrochne Krug von Heinrich von Kleist - Bezug zur Gegenwart",
+        "folder": "der-zerbrochne-krug-von-heinrich-von-kleist-bezug-zur-gegenwart-6192"
+      },
+      {
+        "id": "der-zerbrochne-krug-von-heinrich-von-kleist-historischer-kontext-6193",
+        "title": "Der zerbrochne Krug von Heinrich von Kleist - historischer Kontext",
+        "folder": "der-zerbrochne-krug-von-heinrich-von-kleist-historischer-kontext-6193"
+      },
+      {
+        "id": "der-zerbrochne-krug-von-heinrich-von-kleist-literarische-bedeutung-6194",
+        "title": "Der zerbrochne Krug von Heinrich von Kleist - literarische Bedeutung",
+        "folder": "der-zerbrochne-krug-von-heinrich-von-kleist-literarische-bedeutung-6194"
+      },
+      {
+        "id": "marquise-von-o-von-heinrich-von-kleist-bezug-zur-gegenwart-6259",
+        "title": "Marquise von O... von Heinrich von Kleist - Bezug zur Gegenwart",
+        "folder": "marquise-von-o-von-heinrich-von-kleist-bezug-zur-gegenwart-6259"
+      },
+      {
+        "id": "marquise-von-o-von-heinrich-von-kleist-historischer-kontext-6260",
+        "title": "Marquise von O... von Heinrich von Kleist - historischer Kontext",
+        "folder": "marquise-von-o-von-heinrich-von-kleist-historischer-kontext-6260"
+      },
+      {
+        "id": "marquise-von-o-von-heinrich-von-kleist-literarische-bedeutung-6261",
+        "title": "Marquise von O... von Heinrich von Kleist - literarische Bedeutung",
+        "folder": "marquise-von-o-von-heinrich-von-kleist-literarische-bedeutung-6261"
+      },
+      {
+        "id": "der-ewige-spieeser-von-don-von-horvath-6181",
+        "title": "Der ewige Spießer von Ödön von Horváth",
+        "folder": "der-ewige-spieeser-von-don-von-horvath-6181"
+      },
+      {
+        "id": "der-ewige-spieeser-von-don-von-horvath-bezug-zur-gegenwart-6178",
+        "title": "Der ewige Spießer von Ödön von Horváth - Bezug zur Gegenwart",
+        "folder": "der-ewige-spieeser-von-don-von-horvath-bezug-zur-gegenwart-6178"
+      },
+      {
+        "id": "der-ewige-spieeser-von-don-von-horvath-historischer-kontext-6179",
+        "title": "Der ewige Spießer von Ödön von Horváth - historischer Kontext",
+        "folder": "der-ewige-spieeser-von-don-von-horvath-historischer-kontext-6179"
+      },
+      {
+        "id": "der-ewige-spieeser-von-don-von-horvath-literarische-bedeutung-6180",
+        "title": "Der ewige Spießer von Ödön von Horváth - literarische Bedeutung",
+        "folder": "der-ewige-spieeser-von-don-von-horvath-literarische-bedeutung-6180"
+      },
+      {
+        "id": "in-seiner-fruhen-kindheit-ein-garten-von-christoph-hein-6234",
+        "title": "In seiner frühen Kindheit ein Garten von Christoph Hein",
+        "folder": "in-seiner-fruhen-kindheit-ein-garten-von-christoph-hein-6234"
+      },
+      {
+        "id": "in-seiner-fruhen-kindheit-ein-garten-von-christoph-hein-bezug-zur-gegenwart-6231",
+        "title": "In seiner frühen Kindheit ein Garten von Christoph Hein - Bezug zur Gegenwart",
+        "folder": "in-seiner-fruhen-kindheit-ein-garten-von-christoph-hein-bezug-zur-gegenwart-6231"
+      },
+      {
+        "id": "in-seiner-fruhen-kindheit-ein-garten-von-christoph-hein-historischer-kontext-6232",
+        "title": "In seiner frühen Kindheit ein Garten von Christoph Hein - historischer Kontext",
+        "folder": "in-seiner-fruhen-kindheit-ein-garten-von-christoph-hein-historischer-kontext-6232"
+      }
+    ]
+  }
+,
+  "lesekultur-buchwelten-und-literaturphaenomene": {
+    "slug": "lesekultur-buchwelten-und-literaturphaenomene",
+    "title": "Lesekultur, Buchwelten & Literaturphänomene",
+    "category": "Lesekultur, Medien & Buchwelten",
+    "shortDesc": "Faszination des Lesens: Hörbücher, Buchherstellung, Kurzgeschichten und Lesepsychologie.",
+    "longDesc": "Wie entstehen Bücher, warum berühren uns Geschichten und wie verändert sich unsere Lesekultur im digitalen Zeitalter? Von der Kunst der Kurzgeschichte über Hörbücher, Buch-Merchandise und Crowdfunding bis hin zu Lesetechniken und der Bedeutung von Vielfalt in der Literatur.",
+    "keyPoints": [
+          "Die Kunst der Kurzgeschichte: Unvermittelter Einstieg, offener Schluss und Fokus auf existentielle Wendepunkte",
+          "Buchmarkt und Crowdfunding: Wie Fans zu Verlegern werden und unabhängige Autoren neue Wege gehen",
+          "Hörbuch- und Lesetrends: Warum Vorlesen und auditive Formate weltweit boomen",
+          "Lesepsychologie: Warum wir Tagebücher und emotionale Lebensgeschichten so gerne miterleben",
+          "Effektive Lesetechniken: Schneller lesen, Sinnschritte erfassen und Textinhalte nachhaltig behalten"
+    ],
+    "exercises": [
+      {
+        "id": "buch-merchandise-von-tassen-bis-zu-postern",
+        "title": "Buch-Merchandise - Von Tassen bis zu Postern",
+        "folder": "buch-merchandise-von-tassen-bis-zu-postern"
+      },
+      {
+        "id": "crowdfunding-fuer-buchprojekte-fans-als-verleger",
+        "title": "Crowdfunding für Buchprojekte - Fans als Verleger",
+        "folder": "crowdfunding-fuer-buchprojekte-fans-als-verleger"
+      },
+      {
+        "id": "die-groessten-raetsel-der-literaturgeschichte",
+        "title": "Die größten Rätsel der Literaturgeschichte",
+        "folder": "die-groessten-raetsel-der-literaturgeschichte"
+      },
+      {
+        "id": "die-kuerzesten-romane-der-welt",
+        "title": "Die kürzesten Romane der Welt",
+        "folder": "die-kuerzesten-romane-der-welt"
+      },
+      {
+        "id": "die-kunst-der-kurzgeschichte-weniger-ist-mehr",
+        "title": "Die Kunst der Kurzgeschichte - Weniger ist mehr",
+        "folder": "die-kunst-der-kurzgeschichte-weniger-ist-mehr"
+      },
+      {
+        "id": "die-rolle-von-tieren-in-der-literatur",
+        "title": "Die Rolle von Tieren in der Literatur",
+        "folder": "die-rolle-von-tieren-in-der-literatur"
+      },
+      {
+        "id": "dramen-lesen-warum-dialoge-so-spannend-sind",
+        "title": "Dramen lesen - Warum Dialoge so spannend sind",
+        "folder": "dramen-lesen-warum-dialoge-so-spannend-sind"
+      },
+      {
+        "id": "ein-plaedoyer-fuer-das-gedruckte-buch-im-digitalen-zeitalter",
+        "title": "Ein Plädoyer für das gedruckte Buch im digitalen Zeitalter",
+        "folder": "ein-plaedoyer-fuer-das-gedruckte-buch-im-digitalen-zeitalter"
+      },
+      {
+        "id": "hoerbuecher-warum-vorlesen-wieder-voll-im-trend-ist",
+        "title": "Hörbücher - Warum Vorlesen wieder voll im Trend ist",
+        "folder": "hoerbuecher-warum-vorlesen-wieder-voll-im-trend-ist"
+      },
+      {
+        "id": "illustratoren-die-menschen-die-bilder-zum-text-machen",
+        "title": "Illustratoren - Die Menschen die Bilder zum Text machen",
+        "folder": "illustratoren-die-menschen-die-bilder-zum-text-machen"
+      },
+      {
+        "id": "in-seiner-fruhen-kindheit-ein-garten-von-christoph-hein-literarische-bedeutung-6233",
+        "title": "In seiner frühen Kindheit ein Garten - literarische Bedeutung",
+        "folder": "in-seiner-fruhen-kindheit-ein-garten-von-christoph-hein-literarische-bedeutung-6233"
+      },
+      {
+        "id": "lautgedichte-wenn-nur-der-klang-zaehlt",
+        "title": "Lautgedichte - Wenn nur der Klang zählt",
+        "folder": "lautgedichte-wenn-nur-der-klang-zaehlt"
+      },
+      {
+        "id": "lesetechniken-schneller-lesen-und-mehr-behalten",
+        "title": "Lesetechniken - Schneller lesen und mehr behalten",
+        "folder": "lesetechniken-schneller-lesen-und-mehr-behalten"
+      },
+      {
+        "id": "lgbtq-plus-warum-vielfalt-in-buchregalen-wichtig-ist",
+        "title": "LGBTQ plus - Warum Vielfalt in Buchregalen wichtig ist",
+        "folder": "lgbtq-plus-warum-vielfalt-in-buchregalen-wichtig-ist"
+      },
+      {
+        "id": "literarische-wanderungen-wo-die-geschichten-spielen",
+        "title": "Literarische Wanderungen - Wo die Geschichten spielen",
+        "folder": "literarische-wanderungen-wo-die-geschichten-spielen"
+      },
+      {
+        "id": "motivvergleich-das-gleiche-thema-in-zwei-buechern",
+        "title": "Motivvergleich - Das gleiche Thema in zwei Büchern",
+        "folder": "motivvergleich-das-gleiche-thema-in-zwei-buechern"
+      },
+      {
+        "id": "warum-klassiker-lesen-keine-zeitverschwendung-ist",
+        "title": "Warum Klassiker lesen keine Zeitverschwendung ist",
+        "folder": "warum-klassiker-lesen-keine-zeitverschwendung-ist"
+      },
+      {
+        "id": "warum-vorlesen-fuer-kinder-so-wichtig-ist",
+        "title": "Warum Vorlesen für Kinder so wichtig ist",
+        "folder": "warum-vorlesen-fuer-kinder-so-wichtig-ist"
+      },
+      {
+        "id": "warum-wir-tagebuecher-so-gerne-lesen",
+        "title": "Warum wir Tagebücher so gerne lesen",
+        "folder": "warum-wir-tagebuecher-so-gerne-lesen"
+      },
+      {
+        "id": "wie-man-ein-schlechtes-buch-trotzdem-zu-ende-liest",
+        "title": "Wie man ein schlechtes Buch trotzdem zu Ende liest",
+        "folder": "wie-man-ein-schlechtes-buch-trotzdem-zu-ende-liest"
+      }
+    ]
+  }
+,
+  "literarisches-handwerk-und-erzaehlformen": {
+    "slug": "literarisches-handwerk-und-erzaehlformen",
+    "title": "Literarisches Handwerk & Erzählformen",
+    "category": "Kreatives Schreiben & Erzählhandwerk",
+    "shortDesc": "Perspektiven, Klischees vermeiden, Salons und Weltliteratur.",
+    "longDesc": "Wie entwickeln Autoren fesselnde Handlungen und lebendige Figuren? Von der Wahl der Erzählperspektive und dem bewussten Brechen von Klischees über lateinamerikanische Familiensagas bis hin zu historischen Literatursalons.",
+    "keyPoints": [
+          "Perspektivwechsel: Wie sich dieselbe Handlung durch verschiedene Erzählerfiguren völlig wandelt",
+          "Klischees überwinden: Überraschende Figurenzeichnung statt abgedroschener Stereotype",
+          "Familiensagas & Magischer Realismus: Epische Generationenromane in der lateinamerikanischen Literatur",
+          "Literatursalons: Wie früher in geselligen Runden über Neuerscheinungen und Philosophie debattiert wurde"
+    ],
+    "exercises": [
+      {
+        "id": "perspektivwechsel-eine-geschichte-aus-zwei-sichtweisen",
+        "title": "Perspektivwechsel - Eine Geschichte aus zwei Sichtweisen",
+        "folder": "perspektivwechsel-eine-geschichte-aus-zwei-sichtweisen"
+      },
+      {
+        "id": "klischees-vermeiden-neue-ideen-statt-alter-huete",
+        "title": "Klischees vermeiden - Neue Ideen statt alter Hüte",
+        "folder": "klischees-vermeiden-neue-ideen-statt-alter-huete"
+      },
+      {
+        "id": "lateinamerikanische-familiensagas",
+        "title": "Lateinamerikanische Familiensagas",
+        "folder": "lateinamerikanische-familiensagas"
+      },
+      {
+        "id": "wie-man-frueher-in-salons-ueber-buecher-diskutierte",
+        "title": "Wie man früher in Salons über Bücher diskutierte",
+        "folder": "wie-man-frueher-in-salons-ueber-buecher-diskutierte"
+      },
+      {
+        "id": "literarischer-adventskalender-lbv-3243",
+        "title": "Literarischer Adventskalender - LbV",
+        "folder": "literarischer-adventskalender-lbv-3243"
+      }
+    ]
   }
 };

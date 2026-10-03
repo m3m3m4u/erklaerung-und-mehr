@@ -120,6 +120,12 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "title": "Orientierung an der Tastatur (10-Finger-System)",
         "folder": "kurs-orientierung-an-der-tastatur-670"
       }
+    ,
+      {
+        "id": "geschichte-des-computers-354",
+        "title": "Geschichte des Computers",
+        "folder": "geschichte-des-computers-354"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=hardware&t=896"
   },
@@ -167,6 +173,17 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "id": "6626",
         "title": "Die Welt der Künstlichen Intelligenz – Die bekanntesten Modelle",
         "folder": "die-welt-der-kunstlichen-intelligenz-die-bekanntesten-modelle-6626"
+      }
+    ,
+      {
+        "id": "bedeutung-digitaler-teilhabe-in-schule-und-gesellschaft",
+        "title": "Bedeutung digitaler Teilhabe in Schule und Gesellschaft",
+        "folder": "bedeutung-digitaler-teilhabe-in-schule-und-gesellschaft"
+      },
+      {
+        "id": "berechtigungen-und-sicherheit-bei-mobilen-endgeraeten",
+        "title": "Berechtigungen und Sicherheit bei mobilen Endgeräten",
+        "folder": "berechtigungen-und-sicherheit-bei-mobilen-endgeraeten"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=digitale+grundbildung&t=896"
@@ -409,6 +426,27 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "title": "Troubleshooting: Häufige Computerfehler lösen",
         "folder": "umgang-mit-haeufigen-computerfehlern"
       }
+    ,
+      {
+        "id": "systematische-fehleranalyse-und-lesen-von-log-files",
+        "title": "Systematische Fehleranalyse und Lesen von Log Files",
+        "folder": "systematische-fehleranalyse-und-lesen-von-log-files"
+      },
+      {
+        "id": "einsatz-alter-software-in-modernen-bankensystemen",
+        "title": "Einsatz alter Software in modernen Bankensystemen",
+        "folder": "einsatz-alter-software-in-modernen-bankensystemen"
+      },
+      {
+        "id": "nutzung-von-fachdatenbanken-und-zitierverwaltung",
+        "title": "Nutzung von Fachdatenbanken und Zitierverwaltung",
+        "folder": "nutzung-von-fachdatenbanken-und-zitierverwaltung"
+      },
+      {
+        "id": "dateisysteme-und-partitionierung-verstehen",
+        "title": "Dateisysteme und Partitionierung verstehen",
+        "folder": "dateisysteme-und-partitionierung-verstehen"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=software&t=896"
   },
@@ -635,6 +673,22 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "title": "Smart Home, IoT & vernetzte Sensoren",
         "folder": "sensoren-und-vernetzung-im-smart-home"
       }
+    ,
+      {
+        "id": "ftp-1259",
+        "title": "FTP",
+        "folder": "ftp-1259"
+      },
+      {
+        "id": "kurs-netzwerke-672",
+        "title": "Kurs Netzwerke",
+        "folder": "kurs-netzwerke-672"
+      },
+      {
+        "id": "uebertragung-von-dateien-zwischen-geraeten-und-systemen",
+        "title": "Übertragung von Dateien zwischen Geräten und Systemen",
+        "folder": "uebertragung-von-dateien-zwischen-geraeten-und-systemen"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=netzwerke&t=896"
   },
@@ -748,6 +802,27 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "title": "Entstehung und Entwicklung des Internets",
         "folder": "entstehung-und-entwicklung-des-internets"
       }
+    ,
+      {
+        "id": "microsoft-edge-2-1389",
+        "title": "Microsoft Edge",
+        "folder": "microsoft-edge-2-1389"
+      },
+      {
+        "id": "kurs-suchen-und-finden-im-internet-674",
+        "title": "Kurs Suchen und Finden im Internet",
+        "folder": "kurs-suchen-und-finden-im-internet-674"
+      },
+      {
+        "id": "blogs-1218",
+        "title": "Blogs",
+        "folder": "blogs-1218"
+      },
+      {
+        "id": "nutzung-von-messengern-im-unternehmenskontext",
+        "title": "Nutzung von Messengern im Unternehmenskontext",
+        "folder": "nutzung-von-messengern-im-unternehmenskontext"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=browser+email&t=896"
   },
@@ -829,6 +904,17 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "id": "info-kanban-scrum",
         "title": "Arbeiten mit Kanban Boards und Scrum Grundlagen",
         "folder": "arbeiten-mit-kanban-boards-und-scrum-grundlagen"
+      }
+    ,
+      {
+        "id": "ms-teams-1060",
+        "title": "MS Teams",
+        "folder": "ms-teams-1060"
+      },
+      {
+        "id": "onedrive-1052",
+        "title": "OneDrive",
+        "folder": "onedrive-1052"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=cloud+computing&t=896"
@@ -1162,6 +1248,22 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "id": "logische-strukturierung",
         "title": "Logische Strukturierung komplexer Informationen",
         "folder": "logische-strukturierung-komplexer-informationen"
+      }
+    ,
+      {
+        "id": "grenzen-der-zufallsgenerierung-durch-computer",
+        "title": "Grenzen der Zufallsgenerierung durch Computer",
+        "folder": "grenzen-der-zufallsgenerierung-durch-computer"
+      },
+      {
+        "id": "problematik-der-zeitrechnung-bei-computern-im-jahr-2038",
+        "title": "Problematik der Zeitrechnung bei Computern im Jahr 2038",
+        "folder": "problematik-der-zeitrechnung-bei-computern-im-jahr-2038"
+      },
+      {
+        "id": "psychologie-hinter-social-engineering-angriffen",
+        "title": "Psychologie hinter Social Engineering Angriffen",
+        "folder": "psychologie-hinter-social-engineering-angriffen"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=algorithmen&t=896"
@@ -1540,6 +1642,17 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "title": "Frames per Second und der Daumenkino Effekt bei Spielen",
         "folder": "frames-per-second-und-der-daumenkino-effekt-bei-spielen"
       }
+    ,
+      {
+        "id": "erstellung-eines-stop-motion-videos",
+        "title": "Erstellung eines Stop Motion Videos",
+        "folder": "erstellung-eines-stop-motion-videos"
+      },
+      {
+        "id": "grundlagen-von-user-experience-und-interface-design",
+        "title": "Grundlagen von User Experience und Interface Design",
+        "folder": "grundlagen-von-user-experience-und-interface-design"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=computergrafik+vektor&t=896"
   },
@@ -1626,6 +1739,12 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "id": "5851",
         "title": "Online-Verhalten in sozialen Netzwerken",
         "folder": "online-verhalten-in-sozialen-netzwerken-5851"
+      }
+    ,
+      {
+        "id": "kurs-soziale-netzwerke-676",
+        "title": "Kurs Soziale Netzwerke",
+        "folder": "kurs-soziale-netzwerke-676"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=soziale+netzwerke&t=896"

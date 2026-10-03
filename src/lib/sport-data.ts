@@ -410,6 +410,12 @@ export const sportTopics: Record<string, SportTopic> = {
         title: "Kommerzialisierung des Sports",
         folder: "kommerzialisierung-des-sports-4446"
       }
+    ,
+      {
+        "id": "das-olympiastadion-berlin",
+        "title": "Das Olympiastadion Berlin",
+        "folder": "das-olympiastadion-berlin"
+      }
     ]
   }
 };

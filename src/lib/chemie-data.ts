@@ -649,6 +649,12 @@ export const chemieTopics: Record<string, ChemieTopic> = {
         "title": "Kohlenstoffmonoxid",
         "folder": "kohlenstoffmonoxid-5169"
       }
+    ,
+      {
+        "id": "methan-5172",
+        "title": "Methan",
+        "folder": "methan-5172"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=kohlenwasserstoffe+erdoel&t=3752"
   },
@@ -935,5 +941,127 @@ export const chemieTopics: Record<string, ChemieTopic> = {
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=escape+room+chemie&t=3752"
+  }
+,
+  "alkali-erdalkalimetalle-und-weitere-elemente": {
+    "slug": "alkali-erdalkalimetalle-und-weitere-elemente",
+    "title": "Alkali-, Erdalkalimetalle & Hauptgruppenelemente",
+    "category": "Allgemeine & Anorganische Chemie",
+    "shortDesc": "Reaktive Leichtmetalle, Erdalkalimetalle und Halbmetalle des Periodensystems.",
+    "longDesc": "Die Hauptgruppen des Periodensystems umfassen elementare Bausteine der Materie: von den hochreaktiven Alkalimetallen (Lithium, Natrium, Kalium, Caesium) über die Erdalkalimetalle (Beryllium, Strontium) bis hin zu wichtigen Halb- und Nichtmetallen wie Bor und Silicium.",
+    "keyPoints": [
+          "Alkalimetalle (1. Hauptgruppe): Ein Valenzelektron, sehr reaktiv mit Wasser unter Bildung von Laugen und Wasserstoff",
+          "Erdalkalimetalle (2. Hauptgruppe): Zwei Valenzelektronen, härter als Alkalimetalle, typische Flammenfärbungen",
+          "Halbmetalle (Bor, Silicium): Elektrische Leitfähigkeit zwischen Metallen und Nichtmetallen, Grundlage der Halbleitertechnik",
+          "Selen: Wichtiges Spurenelement und Chalcogen der Sauerstoff-Gruppe"
+    ],
+    "exercises": [
+      {
+        "id": "lithium-1151",
+        "title": "Lithium",
+        "folder": "lithium-1151"
+      },
+      {
+        "id": "natrium-1159",
+        "title": "Natrium",
+        "folder": "natrium-1159"
+      },
+      {
+        "id": "kalium-1166",
+        "title": "Kalium",
+        "folder": "kalium-1166"
+      },
+      {
+        "id": "caesium-1186",
+        "title": "Caesium",
+        "folder": "caesium-1186"
+      },
+      {
+        "id": "beryllium-1152",
+        "title": "Beryllium",
+        "folder": "beryllium-1152"
+      },
+      {
+        "id": "strontium-1180",
+        "title": "Strontium",
+        "folder": "strontium-1180"
+      },
+      {
+        "id": "bor-1153",
+        "title": "Bor",
+        "folder": "bor-1153"
+      },
+      {
+        "id": "silicium-1162",
+        "title": "Silicium",
+        "folder": "silicium-1162"
+      },
+      {
+        "id": "selen-1177",
+        "title": "Selen",
+        "folder": "selen-1177"
+      }
+    ]
+  }
+,
+  "uebergangsmetalle-edelgase-und-aktinoide": {
+    "slug": "uebergangsmetalle-edelgase-und-aktinoide",
+    "title": "Übergangsmetalle, Edelgase & Schwermetalle",
+    "category": "Metalle, Werkstoffe & Elektrochemie",
+    "shortDesc": "Nebengruppenelemente, Platinmetalle, Edelgase und radioaktive Aktinoide.",
+    "longDesc": "Von technisch unverzichtbaren Legierungsmetallen (Chrom, Mangan, Nickel) über Edelmetalle der Platingruppe (Palladium, Iridium) bis hin zu den Edelgasen (Helium, Krypton, Xenon) und Schwermetallen wie Uran deckt dieser Bereich faszinierende physikalische und chemische Eigenschaften ab.",
+    "keyPoints": [
+          "Übergangsmetalle (d-Block): Vielfältige Oxidationsstufen, farbige Verbindungen und katalytische Aktivität",
+          "Platinmetalle (Palladium, Iridium): Hohe Korrosionsbeständigkeit, Einsatz in Katalysatoren und Präzisionselektronik",
+          "Edelgase: Vollbesetzte Valenzschalen (Edelgaskonfiguration), extrem reaktionsträge",
+          "Uran (Aktinoide): Radioaktives Schwermetall mit Bedeutung für Kernphysik und Altersbestimmung"
+    ],
+    "exercises": [
+      {
+        "id": "chrom-1169",
+        "title": "Chrom",
+        "folder": "chrom-1169"
+      },
+      {
+        "id": "mangan-1170",
+        "title": "Mangan",
+        "folder": "mangan-1170"
+      },
+      {
+        "id": "nickel-1173",
+        "title": "Nickel",
+        "folder": "nickel-1173"
+      },
+      {
+        "id": "palladium-1194",
+        "title": "Palladium",
+        "folder": "palladium-1194"
+      },
+      {
+        "id": "iridium-1188",
+        "title": "Iridium",
+        "folder": "iridium-1188"
+      },
+      {
+        "id": "uran-1196",
+        "title": "Uran",
+        "folder": "uran-1196"
+      },
+      {
+        "id": "helium-2-1150",
+        "title": "Helium",
+        "folder": "helium-2-1150"
+      },
+      {
+        "id": "krypton-1179",
+        "title": "Krypton",
+        "folder": "krypton-1179"
+      },
+      {
+        "id": "xenon-1185",
+        "title": "Xenon",
+        "folder": "xenon-1185"
+      }
+    ]
   }
 };

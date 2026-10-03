@@ -6578,4 +6578,5970 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       }
     ]
   }
+,
+  "de-nrw-panoramawelten-teil-1": {
+    "slug": "de-nrw-panoramawelten-teil-1",
+    "title": "Deutschland: Städte & Regionen in Nordrhein-Westfalen (Teil 1)",
+    "category": "Deutschland",
+    "shortDesc": "Städte, Wirtschaftsräume und Kulturzentren in Nordrhein-Westfalen und dem Ruhrgebiet.",
+    "longDesc": "Städte, Wirtschaftsräume und Kulturzentren in Nordrhein-Westfalen und dem Ruhrgebiet. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
+    "keyPoints": [
+          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+    ],
+    "exercises": [
+      {
+        "id": "ahlen-1525",
+        "title": "Ahlen",
+        "folder": "ahlen-1525"
+      },
+      {
+        "id": "alsdorf-1531",
+        "title": "Alsdorf",
+        "folder": "alsdorf-1531"
+      },
+      {
+        "id": "arnsberg-eine-stadt-im-sauerland",
+        "title": "Arnsberg - Eine Stadt im Sauerland",
+        "folder": "arnsberg-eine-stadt-im-sauerland"
+      },
+      {
+        "id": "bocholt-eine-stadt-im-muensterland",
+        "title": "Bocholt - Eine Stadt im Münsterland",
+        "folder": "bocholt-eine-stadt-im-muensterland"
+      },
+      {
+        "id": "bottrop-1466",
+        "title": "Bottrop",
+        "folder": "bottrop-1466"
+      },
+      {
+        "id": "castrop-rauxel-1592",
+        "title": "Castrop-Rauxel",
+        "folder": "castrop-rauxel-1592"
+      },
+      {
+        "id": "detmold-1608",
+        "title": "Detmold",
+        "folder": "detmold-1608"
+      },
+      {
+        "id": "die-hansestadt-dinslaken",
+        "title": "Die Hansestadt Dinslaken",
+        "folder": "die-hansestadt-dinslaken"
+      },
+      {
+        "id": "die-hansestadt-herford",
+        "title": "Die Hansestadt Herford",
+        "folder": "die-hansestadt-herford"
+      },
+      {
+        "id": "die-stadt-dorsten",
+        "title": "Die Stadt Dorsten",
+        "folder": "die-stadt-dorsten"
+      },
+      {
+        "id": "die-stadt-witten",
+        "title": "Die Stadt Witten",
+        "folder": "die-stadt-witten"
+      },
+      {
+        "id": "dorsten-1612",
+        "title": "Dorsten",
+        "folder": "dorsten-1612"
+      },
+      {
+        "id": "gelsenkirchen-1501",
+        "title": "Gelsenkirchen",
+        "folder": "gelsenkirchen-1501"
+      },
+      {
+        "id": "grevenbroich-eine-stadt-mit-geschichte-und-natur",
+        "title": "Grevenbroich - Eine Stadt mit Geschichte und Natur",
+        "folder": "grevenbroich-eine-stadt-mit-geschichte-und-natur"
+      }
+    ]
+  },
+  "de-nrw-panoramawelten-teil-2": {
+    "slug": "de-nrw-panoramawelten-teil-2",
+    "title": "Deutschland: Städte & Regionen in Nordrhein-Westfalen (Teil 2)",
+    "category": "Deutschland",
+    "shortDesc": "Städte, Wirtschaftsräume und Kulturzentren in Nordrhein-Westfalen und dem Ruhrgebiet.",
+    "longDesc": "Städte, Wirtschaftsräume und Kulturzentren in Nordrhein-Westfalen und dem Ruhrgebiet. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
+    "keyPoints": [
+          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+    ],
+    "exercises": [
+      {
+        "id": "gutersloh-1660",
+        "title": "Gütersloh",
+        "folder": "gutersloh-1660"
+      },
+      {
+        "id": "herne-1483",
+        "title": "Herne",
+        "folder": "herne-1483"
+      },
+      {
+        "id": "kerpen-eine-stadt-mit-geschichte-und-kultur",
+        "title": "Kerpen - Eine Stadt mit Geschichte und Kultur",
+        "folder": "kerpen-eine-stadt-mit-geschichte-und-kultur"
+      },
+      {
+        "id": "kopfrechnen-mit-10-114",
+        "title": "Dezimalzahlen runden",
+        "folder": "kopfrechnen-mit-10-114"
+      },
+      {
+        "id": "leverkusen-1478",
+        "title": "Leverkusen",
+        "folder": "leverkusen-1478"
+      },
+      {
+        "id": "lippstadt-eine-stadt-mit-geschichte-und-leben",
+        "title": "Lippstadt - Eine Stadt mit Geschichte und Leben",
+        "folder": "lippstadt-eine-stadt-mit-geschichte-und-leben"
+      },
+      {
+        "id": "ludenscheid-1748",
+        "title": "Lüdenscheid",
+        "folder": "ludenscheid-1748"
+      },
+      {
+        "id": "luenen-eine-stadt-mit-geschichte-und-vielfalt",
+        "title": "Lünen - Eine Stadt mit Geschichte und Vielfalt",
+        "folder": "luenen-eine-stadt-mit-geschichte-und-vielfalt"
+      },
+      {
+        "id": "marl-1767",
+        "title": "Marl",
+        "folder": "marl-1767"
+      },
+      {
+        "id": "minden-eine-stadt-mit-geschichte-und-kultur",
+        "title": "Minden - Eine Stadt mit Geschichte und Kultur",
+        "folder": "minden-eine-stadt-mit-geschichte-und-kultur"
+      },
+      {
+        "id": "moers-1460",
+        "title": "Moers",
+        "folder": "moers-1460"
+      },
+      {
+        "id": "monchengladbach-1500",
+        "title": "Mönchengladbach",
+        "folder": "monchengladbach-1500"
+      },
+      {
+        "id": "neuss-eine-stadt-mit-geschichte",
+        "title": "Neuss - Eine Stadt mit Geschichte",
+        "folder": "neuss-eine-stadt-mit-geschichte"
+      },
+      {
+        "id": "neuwied-1801",
+        "title": "Neuwied",
+        "folder": "neuwied-1801"
+      }
+    ]
+  },
+  "de-nrw-panoramawelten-teil-3": {
+    "slug": "de-nrw-panoramawelten-teil-3",
+    "title": "Deutschland: Städte & Regionen in Nordrhein-Westfalen (Teil 3)",
+    "category": "Deutschland",
+    "shortDesc": "Städte, Wirtschaftsräume und Kulturzentren in Nordrhein-Westfalen und dem Ruhrgebiet.",
+    "longDesc": "Städte, Wirtschaftsräume und Kulturzentren in Nordrhein-Westfalen und dem Ruhrgebiet. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
+    "keyPoints": [
+          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+    ],
+    "exercises": [
+      {
+        "id": "oberhausen-1490",
+        "title": "Oberhausen",
+        "folder": "oberhausen-1490"
+      },
+      {
+        "id": "ratingen-eine-stadt-mit-geschichte-und-kultur",
+        "title": "Ratingen - Eine Stadt mit Geschichte und Kultur",
+        "folder": "ratingen-eine-stadt-mit-geschichte-und-kultur"
+      },
+      {
+        "id": "recklinghausen-1463",
+        "title": "Recklinghausen",
+        "folder": "recklinghausen-1463"
+      },
+      {
+        "id": "remscheid-1465",
+        "title": "Remscheid",
+        "folder": "remscheid-1465"
+      },
+      {
+        "id": "siegen-1457",
+        "title": "Siegen",
+        "folder": "siegen-1457"
+      },
+      {
+        "id": "studypoint-drag-the-words-jahreszahlen-zuordnen-689",
+        "title": "studypoint - drag the words - Jahreszahlen zuordnen",
+        "folder": "studypoint-drag-the-words-jahreszahlen-zuordnen-689"
+      },
+      {
+        "id": "troisdorf-1900",
+        "title": "Troisdorf",
+        "folder": "troisdorf-1900"
+      },
+      {
+        "id": "viersen-1926",
+        "title": "Viersen",
+        "folder": "viersen-1926"
+      },
+      {
+        "id": "walter-moers-und-die-fantastische-welt-von-zamonien",
+        "title": "Walter Moers und die fantastische Welt von Zamonien",
+        "folder": "walter-moers-und-die-fantastische-welt-von-zamonien"
+      },
+      {
+        "id": "wesel-1938",
+        "title": "Wesel",
+        "folder": "wesel-1938"
+      },
+      {
+        "id": "witten-1947",
+        "title": "Witten",
+        "folder": "witten-1947"
+      },
+      {
+        "id": "wuppertal-1509",
+        "title": "Wuppertal",
+        "folder": "wuppertal-1509"
+      }
+    ]
+  },
+  "de-south-panoramawelten-teil-1": {
+    "slug": "de-south-panoramawelten-teil-1",
+    "title": "Deutschland: Städte & Regionen in Bayern & Baden-Württemberg (Teil 1)",
+    "category": "Deutschland",
+    "shortDesc": "Historische Handelsstädte, Residenzen und moderne Zentren im Süden Deutschlands.",
+    "longDesc": "Historische Handelsstädte, Residenzen und moderne Zentren im Süden Deutschlands. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
+    "keyPoints": [
+          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+    ],
+    "exercises": [
+      {
+        "id": "aalen-eine-stadt-mit-geschichte-und-kultur",
+        "title": "Aalen - Eine Stadt mit Geschichte und Kultur",
+        "folder": "aalen-eine-stadt-mit-geschichte-und-kultur"
+      },
+      {
+        "id": "augsburg-1503",
+        "title": "Augsburg",
+        "folder": "augsburg-1503"
+      },
+      {
+        "id": "bamberg-1556",
+        "title": "Bamberg",
+        "folder": "bamberg-1556"
+      },
+      {
+        "id": "der-koenigssee-ein-besonderer-see-in-bayern",
+        "title": "Der Königssee - Ein besonderer See in Bayern",
+        "folder": "der-koenigssee-ein-besonderer-see-in-bayern"
+      },
+      {
+        "id": "die-wuerzburger-residenz",
+        "title": "Die Würzburger Residenz",
+        "folder": "die-wuerzburger-residenz"
+      },
+      {
+        "id": "goppingen-1649",
+        "title": "Göppingen",
+        "folder": "goppingen-1649"
+      },
+      {
+        "id": "heidenheim-an-der-brenz-1666",
+        "title": "Heidenheim an der Brenz",
+        "folder": "heidenheim-an-der-brenz-1666"
+      },
+      {
+        "id": "heilbronn-eine-stadt-mit-geschichte-und-wein",
+        "title": "Heilbronn - Eine Stadt mit Geschichte und Wein",
+        "folder": "heilbronn-eine-stadt-mit-geschichte-und-wein"
+      },
+      {
+        "id": "karlsruhe-1505",
+        "title": "Karlsruhe",
+        "folder": "karlsruhe-1505"
+      },
+      {
+        "id": "kempten-1702",
+        "title": "Kempten",
+        "folder": "kempten-1702"
+      },
+      {
+        "id": "konstanz-1716",
+        "title": "Konstanz",
+        "folder": "konstanz-1716"
+      }
+    ]
+  },
+  "de-south-panoramawelten-teil-2": {
+    "slug": "de-south-panoramawelten-teil-2",
+    "title": "Deutschland: Städte & Regionen in Bayern & Baden-Württemberg (Teil 2)",
+    "category": "Deutschland",
+    "shortDesc": "Historische Handelsstädte, Residenzen und moderne Zentren im Süden Deutschlands.",
+    "longDesc": "Historische Handelsstädte, Residenzen und moderne Zentren im Süden Deutschlands. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
+    "keyPoints": [
+          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+    ],
+    "exercises": [
+      {
+        "id": "landshut-1728",
+        "title": "Landshut",
+        "folder": "landshut-1728"
+      },
+      {
+        "id": "offenburg-eine-stadt-mit-geschichte-und-kultur",
+        "title": "Offenburg - Eine Stadt mit Geschichte und Kultur",
+        "folder": "offenburg-eine-stadt-mit-geschichte-und-kultur"
+      },
+      {
+        "id": "pforzheim-eine-stadt-mit-geschichte-und-schmuck",
+        "title": "Pforzheim - Eine Stadt mit Geschichte und Schmuck",
+        "folder": "pforzheim-eine-stadt-mit-geschichte-und-schmuck"
+      },
+      {
+        "id": "reutlingen-1452",
+        "title": "Reutlingen",
+        "folder": "reutlingen-1452"
+      },
+      {
+        "id": "rosenheim-1834",
+        "title": "Rosenheim",
+        "folder": "rosenheim-1834"
+      },
+      {
+        "id": "schweinfurt-1855",
+        "title": "Schweinfurt",
+        "folder": "schweinfurt-1855"
+      },
+      {
+        "id": "sindelfingen-1867",
+        "title": "Sindelfingen",
+        "folder": "sindelfingen-1867"
+      },
+      {
+        "id": "tubingen-1902",
+        "title": "Tübingen",
+        "folder": "tubingen-1902"
+      },
+      {
+        "id": "villingen-schwenningen-1928",
+        "title": "Villingen-Schwenningen",
+        "folder": "villingen-schwenningen-1928"
+      },
+      {
+        "id": "waiblingen-1932",
+        "title": "Waiblingen",
+        "folder": "waiblingen-1932"
+      },
+      {
+        "id": "wurzburg-1470",
+        "title": "Würzburg",
+        "folder": "wurzburg-1470"
+      }
+    ]
+  },
+  "de-north-east-panoramawelten-teil-1": {
+    "slug": "de-north-east-panoramawelten-teil-1",
+    "title": "Deutschland: Städte & Regionen in Nord- & Ostdeutschland (Teil 1)",
+    "category": "Deutschland",
+    "shortDesc": "Hansestädte, Kulturorte und urbane Zentren in Nord- und Ostdeutschland.",
+    "longDesc": "Hansestädte, Kulturorte und urbane Zentren in Nord- und Ostdeutschland. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
+    "keyPoints": [
+          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+    ],
+    "exercises": [
+      {
+        "id": "bautzen-eine-stadt-mit-geschichte-und-kultur",
+        "title": "Bautzen - Eine Stadt mit Geschichte und Kultur",
+        "folder": "bautzen-eine-stadt-mit-geschichte-und-kultur"
+      },
+      {
+        "id": "boblingen-1570",
+        "title": "Böblingen",
+        "folder": "boblingen-1570"
+      },
+      {
+        "id": "celle-1593",
+        "title": "Celle",
+        "folder": "celle-1593"
+      },
+      {
+        "id": "cottbus-1454",
+        "title": "Cottbus",
+        "folder": "cottbus-1454"
+      },
+      {
+        "id": "das-brandenburger-tor",
+        "title": "Das Brandenburger Tor",
+        "folder": "das-brandenburger-tor"
+      },
+      {
+        "id": "das-wendland-eine-besondere-region-in-niedersachsen",
+        "title": "Das Wendland - Eine besondere Region in Niedersachsen",
+        "folder": "das-wendland-eine-besondere-region-in-niedersachsen"
+      },
+      {
+        "id": "delmenhorst-1606",
+        "title": "Delmenhorst",
+        "folder": "delmenhorst-1606"
+      },
+      {
+        "id": "der-flughafen-berlin-brandenburg",
+        "title": "Der Flughafen Berlin Brandenburg",
+        "folder": "der-flughafen-berlin-brandenburg"
+      },
+      {
+        "id": "dessau-roeslau-1607",
+        "title": "Dessau-Roßlau",
+        "folder": "dessau-roeslau-1607"
+      },
+      {
+        "id": "die-hansestadt-wismar",
+        "title": "Die Hansestadt Wismar",
+        "folder": "die-hansestadt-wismar"
+      },
+      {
+        "id": "emden-1623",
+        "title": "Emden",
+        "folder": "emden-1623"
+      },
+      {
+        "id": "flensburg-1633",
+        "title": "Flensburg",
+        "folder": "flensburg-1633"
+      }
+    ]
+  },
+  "de-north-east-panoramawelten-teil-2": {
+    "slug": "de-north-east-panoramawelten-teil-2",
+    "title": "Deutschland: Städte & Regionen in Nord- & Ostdeutschland (Teil 2)",
+    "category": "Deutschland",
+    "shortDesc": "Hansestädte, Kulturorte und urbane Zentren in Nord- und Ostdeutschland.",
+    "longDesc": "Hansestädte, Kulturorte und urbane Zentren in Nord- und Ostdeutschland. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
+    "keyPoints": [
+          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+    ],
+    "exercises": [
+      {
+        "id": "garbsen-1642",
+        "title": "Garbsen",
+        "folder": "garbsen-1642"
+      },
+      {
+        "id": "gera-1453",
+        "title": "Gera",
+        "folder": "gera-1453"
+      },
+      {
+        "id": "gorlitz-1650",
+        "title": "Görlitz",
+        "folder": "gorlitz-1650"
+      },
+      {
+        "id": "greifswald-1654",
+        "title": "Greifswald",
+        "folder": "greifswald-1654"
+      },
+      {
+        "id": "hildesheim-1456",
+        "title": "Hildesheim",
+        "folder": "hildesheim-1456"
+      },
+      {
+        "id": "jena-1458",
+        "title": "Jena",
+        "folder": "jena-1458"
+      },
+      {
+        "id": "lingen-1743",
+        "title": "Lingen",
+        "folder": "lingen-1743"
+      },
+      {
+        "id": "neumuenster-eine-stadt-mit-geschichte",
+        "title": "Neumünster - Eine Stadt mit Geschichte",
+        "folder": "neumuenster-eine-stadt-mit-geschichte"
+      },
+      {
+        "id": "neumunster-1798",
+        "title": "Neumünster",
+        "folder": "neumunster-1798"
+      },
+      {
+        "id": "norderstedt-eine-junge-stadt-mit-geschichte",
+        "title": "Norderstedt - Eine junge Stadt mit Geschichte",
+        "folder": "norderstedt-eine-junge-stadt-mit-geschichte"
+      },
+      {
+        "id": "peine-1824",
+        "title": "Peine",
+        "folder": "peine-1824"
+      },
+      {
+        "id": "plauen-1828",
+        "title": "Plauen",
+        "folder": "plauen-1828"
+      }
+    ]
+  },
+  "de-north-east-panoramawelten-teil-3": {
+    "slug": "de-north-east-panoramawelten-teil-3",
+    "title": "Deutschland: Städte & Regionen in Nord- & Ostdeutschland (Teil 3)",
+    "category": "Deutschland",
+    "shortDesc": "Hansestädte, Kulturorte und urbane Zentren in Nord- und Ostdeutschland.",
+    "longDesc": "Hansestädte, Kulturorte und urbane Zentren in Nord- und Ostdeutschland. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
+    "keyPoints": [
+          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+    ],
+    "exercises": [
+      {
+        "id": "salzgitter-1455",
+        "title": "Salzgitter",
+        "folder": "salzgitter-1455"
+      },
+      {
+        "id": "schwerin-1857",
+        "title": "Schwerin",
+        "folder": "schwerin-1857"
+      },
+      {
+        "id": "sicheres-ein-und-ausschalten-digitaler-geraete",
+        "title": "Sicheres Ein und Ausschalten digitaler Geräte",
+        "folder": "sicheres-ein-und-ausschalten-digitaler-geraete"
+      },
+      {
+        "id": "stralsund-1880",
+        "title": "Stralsund",
+        "folder": "stralsund-1880"
+      },
+      {
+        "id": "tangerang-6123",
+        "title": "Tangerang",
+        "folder": "tangerang-6123"
+      },
+      {
+        "id": "veraenderungen-des-alltags-durch-digitale-geraete",
+        "title": "Veränderungen des Alltags durch digitale Geräte",
+        "folder": "veraenderungen-des-alltags-durch-digitale-geraete"
+      },
+      {
+        "id": "weimar-1936",
+        "title": "Weimar",
+        "folder": "weimar-1936"
+      },
+      {
+        "id": "wismar-1946",
+        "title": "Wismar",
+        "folder": "wismar-1946"
+      },
+      {
+        "id": "wolfsburg-1469",
+        "title": "Wolfsburg",
+        "folder": "wolfsburg-1469"
+      },
+      {
+        "id": "zwickau-1521",
+        "title": "Zwickau",
+        "folder": "zwickau-1521"
+      }
+    ]
+  },
+  "de-hessen-rp-panoramawelten": {
+    "slug": "de-hessen-rp-panoramawelten",
+    "title": "Deutschland: Städte in Hessen, Rheinland-Pfalz & Saarland",
+    "category": "Deutschland",
+    "shortDesc": "Historische Dom- und Universitätsstädte sowie Zentren an Rhein, Main und Saar.",
+    "longDesc": "Historische Dom- und Universitätsstädte sowie Zentren an Rhein, Main und Saar. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
+    "keyPoints": [
+          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+    ],
+    "exercises": [
+      {
+        "id": "die-porta-nigra-in-trier",
+        "title": "Die Porta Nigra in Trier",
+        "folder": "die-porta-nigra-in-trier"
+      },
+      {
+        "id": "gieesen-1647",
+        "title": "Gießen",
+        "folder": "gieesen-1647"
+      },
+      {
+        "id": "giessen-eine-universitaetsstadt-in-hessen",
+        "title": "Gießen - Eine Universitätsstadt in Hessen",
+        "folder": "giessen-eine-universitaetsstadt-in-hessen"
+      },
+      {
+        "id": "hanau-eine-stadt-mit-geschichte-und-kultur",
+        "title": "Hanau - Eine Stadt mit Geschichte und Kultur",
+        "folder": "hanau-eine-stadt-mit-geschichte-und-kultur"
+      },
+      {
+        "id": "kaiserslautern-eine-stadt-mit-geschichte-und-kultur",
+        "title": "Kaiserslautern - Eine Stadt mit Geschichte und Kultur",
+        "folder": "kaiserslautern-eine-stadt-mit-geschichte-und-kultur"
+      },
+      {
+        "id": "marburg-1766",
+        "title": "Marburg",
+        "folder": "marburg-1766"
+      },
+      {
+        "id": "speyer-1875",
+        "title": "Speyer",
+        "folder": "speyer-1875"
+      },
+      {
+        "id": "trier-1459",
+        "title": "Trier",
+        "folder": "trier-1459"
+      },
+      {
+        "id": "wiesbaden-1502",
+        "title": "Wiesbaden",
+        "folder": "wiesbaden-1502"
+      },
+      {
+        "id": "worms-1949",
+        "title": "Worms",
+        "folder": "worms-1949"
+      }
+    ]
+  },
+  "de-nature-panoramawelten-teil-1": {
+    "slug": "de-nature-panoramawelten-teil-1",
+    "title": "Deutschland: Naturräume, Flüsse, Seen & Gebirge (Teil 1)",
+    "category": "Deutschland",
+    "shortDesc": "Mittelgebirge, Flusstäler, Inseln, Seenlandschaften und Naturdenkmäler Deutschlands.",
+    "longDesc": "Mittelgebirge, Flusstäler, Inseln, Seenlandschaften und Naturdenkmäler Deutschlands. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
+    "keyPoints": [
+          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+    ],
+    "exercises": [
+      {
+        "id": "brandenburg-an-der-havel",
+        "title": "Brandenburg an der Havel",
+        "folder": "brandenburg-an-der-havel"
+      },
+      {
+        "id": "buddhismus-in-der-modernen-welt-21-2640",
+        "title": "Buddhismus in der modernen Welt",
+        "folder": "buddhismus-in-der-modernen-welt-21-2640"
+      },
+      {
+        "id": "das-allgaeu-eine-besondere-region-in-deutschland",
+        "title": "Das Allgäu - Eine besondere Region in Deutschland",
+        "folder": "das-allgaeu-eine-besondere-region-in-deutschland"
+      },
+      {
+        "id": "das-knuellgebirge",
+        "title": "Das Knüllgebirge",
+        "folder": "das-knuellgebirge"
+      },
+      {
+        "id": "das-weserbergland",
+        "title": "Das Weserbergland",
+        "folder": "das-weserbergland"
+      },
+      {
+        "id": "der-hochwanner-deutschlands-zweithoechster-berg",
+        "title": "Der Hochwanner - Deutschlands zweithöchster Berg",
+        "folder": "der-hochwanner-deutschlands-zweithoechster-berg"
+      },
+      {
+        "id": "der-kampf-um-die-arktis-machtpoker-um-die-insel-groenland",
+        "title": "Der Kampf um die Arktis – Machtpoker um die Insel Grönland",
+        "folder": "der-kampf-um-die-arktis-machtpoker-um-die-insel-groenland"
+      },
+      {
+        "id": "der-konflikt-zwischen-tradition-und-innovation-2753",
+        "title": "Der Konflikt zwischen Tradition und Innovation",
+        "folder": "der-konflikt-zwischen-tradition-und-innovation-2753"
+      },
+      {
+        "id": "der-mittellandkanal",
+        "title": "Der Mittellandkanal",
+        "folder": "der-mittellandkanal"
+      },
+      {
+        "id": "der-schneeberg-im-fichtelgebirge",
+        "title": "Der Schneeberg im Fichtelgebirge",
+        "folder": "der-schneeberg-im-fichtelgebirge"
+      },
+      {
+        "id": "der-spessart-ein-mittelgebirge-in-deutschland",
+        "title": "Der Spessart - Ein Mittelgebirge in Deutschland",
+        "folder": "der-spessart-ein-mittelgebirge-in-deutschland"
+      },
+      {
+        "id": "der-vogelsberg-ein-mittelgebirge-in-hessen",
+        "title": "Der Vogelsberg - Ein Mittelgebirge in Hessen",
+        "folder": "der-vogelsberg-ein-mittelgebirge-in-hessen"
+      },
+      {
+        "id": "der-watzmann-ein-berg-voller-geschichten",
+        "title": "Der Watzmann - Ein Berg voller Geschichten",
+        "folder": "der-watzmann-ein-berg-voller-geschichten"
+      },
+      {
+        "id": "der-westerwald-ein-mittelgebirge-in-deutschland",
+        "title": "Der Westerwald - Ein Mittelgebirge in Deutschland",
+        "folder": "der-westerwald-ein-mittelgebirge-in-deutschland"
+      },
+      {
+        "id": "deutsche-inseln",
+        "title": "Deutsche Inseln",
+        "folder": "deutsche-inseln"
+      }
+    ]
+  },
+  "de-nature-panoramawelten-teil-2": {
+    "slug": "de-nature-panoramawelten-teil-2",
+    "title": "Deutschland: Naturräume, Flüsse, Seen & Gebirge (Teil 2)",
+    "category": "Deutschland",
+    "shortDesc": "Mittelgebirge, Flusstäler, Inseln, Seenlandschaften und Naturdenkmäler Deutschlands.",
+    "longDesc": "Mittelgebirge, Flusstäler, Inseln, Seenlandschaften und Naturdenkmäler Deutschlands. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
+    "keyPoints": [
+          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+    ],
+    "exercises": [
+      {
+        "id": "die-fulda-ein-wichtiger-fluss-in-deutschland",
+        "title": "Die Fulda - Ein wichtiger Fluss in Deutschland",
+        "folder": "die-fulda-ein-wichtiger-fluss-in-deutschland"
+      },
+      {
+        "id": "die-groessten-seen-in-deutschland",
+        "title": "Die größten Seen in Deutschland",
+        "folder": "die-groessten-seen-in-deutschland"
+      },
+      {
+        "id": "die-havel-ein-fluss-in-norddeutschland",
+        "title": "Die Havel - Ein Fluss in Norddeutschland",
+        "folder": "die-havel-ein-fluss-in-norddeutschland"
+      },
+      {
+        "id": "die-iller-ein-fluss-in-sueddeutschland",
+        "title": "Die Iller - Ein Fluss in Süddeutschland",
+        "folder": "die-iller-ein-fluss-in-sueddeutschland"
+      },
+      {
+        "id": "die-insel-amrum",
+        "title": "Die Insel Amrum",
+        "folder": "die-insel-amrum"
+      },
+      {
+        "id": "die-insel-borkum",
+        "title": "Die Insel Borkum",
+        "folder": "die-insel-borkum"
+      },
+      {
+        "id": "die-insel-fehmarn",
+        "title": "Die Insel Fehmarn",
+        "folder": "die-insel-fehmarn"
+      },
+      {
+        "id": "die-insel-foehr",
+        "title": "Die Insel Föhr",
+        "folder": "die-insel-foehr"
+      },
+      {
+        "id": "die-insel-hiddensee",
+        "title": "Die Insel Hiddensee",
+        "folder": "die-insel-hiddensee"
+      },
+      {
+        "id": "die-lahn-ein-fluss-in-deutschland",
+        "title": "Die Lahn - Ein Fluss in Deutschland",
+        "folder": "die-lahn-ein-fluss-in-deutschland"
+      },
+      {
+        "id": "die-mecklenburgische-seenplatte",
+        "title": "Die Mecklenburgische Seenplatte",
+        "folder": "die-mecklenburgische-seenplatte"
+      },
+      {
+        "id": "die-mittelgebirgsschwelle",
+        "title": "Die Mittelgebirgsschwelle",
+        "folder": "die-mittelgebirgsschwelle"
+      },
+      {
+        "id": "die-nordfriesischen-inseln",
+        "title": "Die Nordfriesischen Inseln",
+        "folder": "die-nordfriesischen-inseln"
+      },
+      {
+        "id": "die-nuklearkatastrophe-von-tschernobyl-13-2359",
+        "title": "Hauptgötter und Göttinnen",
+        "folder": "die-nuklearkatastrophe-von-tschernobyl-13-2359"
+      },
+      {
+        "id": "die-ostfriesischen-inseln",
+        "title": "Die Ostfriesischen Inseln",
+        "folder": "die-ostfriesischen-inseln"
+      }
+    ]
+  },
+  "de-nature-panoramawelten-teil-3": {
+    "slug": "de-nature-panoramawelten-teil-3",
+    "title": "Deutschland: Naturräume, Flüsse, Seen & Gebirge (Teil 3)",
+    "category": "Deutschland",
+    "shortDesc": "Mittelgebirge, Flusstäler, Inseln, Seenlandschaften und Naturdenkmäler Deutschlands.",
+    "longDesc": "Mittelgebirge, Flusstäler, Inseln, Seenlandschaften und Naturdenkmäler Deutschlands. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
+    "keyPoints": [
+          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+    ],
+    "exercises": [
+      {
+        "id": "die-pfalz-eine-region-mit-geschichte-und-natur",
+        "title": "Die Pfalz - Eine Region mit Geschichte und Natur",
+        "folder": "die-pfalz-eine-region-mit-geschichte-und-natur"
+      },
+      {
+        "id": "die-pinakothek-der-moderne",
+        "title": "Die Pinakothek der Moderne",
+        "folder": "die-pinakothek-der-moderne"
+      },
+      {
+        "id": "die-ruhr-ein-wichtiger-fluss-in-deutschland",
+        "title": "Die Ruhr - Ein wichtiger Fluss in Deutschland",
+        "folder": "die-ruhr-ein-wichtiger-fluss-in-deutschland"
+      },
+      {
+        "id": "die-saale-ein-fluss-durch-drei-bundeslaender",
+        "title": "Die Saale - Ein Fluss durch drei Bundesländer",
+        "folder": "die-saale-ein-fluss-durch-drei-bundeslaender"
+      },
+      {
+        "id": "die-stadt-als-labyrinth-in-modernen-krimis",
+        "title": "Die Stadt als Labyrinth in modernen Krimis",
+        "folder": "die-stadt-als-labyrinth-in-modernen-krimis"
+      },
+      {
+        "id": "die-stadt-mainz",
+        "title": "Die Stadt Mainz",
+        "folder": "die-stadt-mainz"
+      },
+      {
+        "id": "die-uckermark-eine-historische-region-in-deutschland",
+        "title": "Die Uckermark - Eine historische Region in Deutschland",
+        "folder": "die-uckermark-eine-historische-region-in-deutschland"
+      },
+      {
+        "id": "direktes-verhaltnis-indirektes-verhaltnis-oder-kein-verhaltnis-244",
+        "title": "direktes Verhältnis, indirektes Verhältnis oder kein Verhältnis",
+        "folder": "direktes-verhaltnis-indirektes-verhaltnis-oder-kein-verhaltnis-244"
+      },
+      {
+        "id": "erstellung-und-praesentation-eigener-inhalte-mit-powerpoint-oder-slides",
+        "title": "Erstellung und Präsentation eigener Inhalte mit PowerPoint oder Slides",
+        "folder": "erstellung-und-praesentation-eigener-inhalte-mit-powerpoint-oder-slides"
+      },
+      {
+        "id": "esslingen-am-neckar",
+        "title": "Esslingen am Neckar",
+        "folder": "esslingen-am-neckar"
+      },
+      {
+        "id": "frankfurt-am-main-1431",
+        "title": "Frankfurt am Main",
+        "folder": "frankfurt-am-main-1431"
+      },
+      {
+        "id": "frankfurt-oder-eine-stadt-an-der-grenze",
+        "title": "Frankfurt (Oder) - Eine Stadt an der Grenze",
+        "folder": "frankfurt-oder-eine-stadt-an-der-grenze"
+      },
+      {
+        "id": "friedrich-schiller-3-4609",
+        "title": "Friedrich Schiller",
+        "folder": "friedrich-schiller-3-4609"
+      },
+      {
+        "id": "friedrich-schiller-kabale-und-liebe-2-3273",
+        "title": "Friedrich Schiller - Kabale und Liebe",
+        "folder": "friedrich-schiller-kabale-und-liebe-2-3273"
+      },
+      {
+        "id": "fulda-1639",
+        "title": "Fulda",
+        "folder": "fulda-1639"
+      }
+    ]
+  },
+  "de-nature-panoramawelten-teil-4": {
+    "slug": "de-nature-panoramawelten-teil-4",
+    "title": "Deutschland: Naturräume, Flüsse, Seen & Gebirge (Teil 4)",
+    "category": "Deutschland",
+    "shortDesc": "Mittelgebirge, Flusstäler, Inseln, Seenlandschaften und Naturdenkmäler Deutschlands.",
+    "longDesc": "Mittelgebirge, Flusstäler, Inseln, Seenlandschaften und Naturdenkmäler Deutschlands. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
+    "keyPoints": [
+          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+    ],
+    "exercises": [
+      {
+        "id": "gebirge-und-hoehenzuege-in-deutschland",
+        "title": "Gebirge und Höhenzüge in Deutschland",
+        "folder": "gebirge-und-hoehenzuege-in-deutschland"
+      },
+      {
+        "id": "gestaltung-digitaler-buecher-und-comics-oder-magazine",
+        "title": "Gestaltung digitaler Bücher und Comics oder Magazine",
+        "folder": "gestaltung-digitaler-buecher-und-comics-oder-magazine"
+      },
+      {
+        "id": "gladbeck-eine-stadt-im-ruhrgebiet",
+        "title": "Gladbeck - Eine Stadt im Ruhrgebiet",
+        "folder": "gladbeck-eine-stadt-im-ruhrgebiet"
+      },
+      {
+        "id": "guetersloh-eine-stadt-in-nordrhein-westfalen",
+        "title": "Gütersloh - Eine Stadt in Nordrhein-Westfalen",
+        "folder": "guetersloh-eine-stadt-in-nordrhein-westfalen"
+      },
+      {
+        "id": "halle-saale-1495",
+        "title": "Halle (Saale)",
+        "folder": "halle-saale-1495"
+      },
+      {
+        "id": "hase-und-igel-wer-gewinnt-das-rennen-4492",
+        "title": "Hase und Igel – Wer gewinnt das Rennen",
+        "folder": "hase-und-igel-wer-gewinnt-das-rennen-4492"
+      },
+      {
+        "id": "heidelberg-1475",
+        "title": "Heidelberg",
+        "folder": "heidelberg-1475"
+      },
+      {
+        "id": "heimito-von-doderer-4615",
+        "title": "Heimito von Doderer",
+        "folder": "heimito-von-doderer-4615"
+      },
+      {
+        "id": "japanische-buecher-zwischen-tradition-und-moderne",
+        "title": "Japanische Bücher zwischen Tradition und Moderne",
+        "folder": "japanische-buecher-zwischen-tradition-und-moderne"
+      },
+      {
+        "id": "konstanz-am-bodensee",
+        "title": "Konstanz am Bodensee",
+        "folder": "konstanz-am-bodensee"
+      },
+      {
+        "id": "kritik-moderner-gesellschaft-5829",
+        "title": "Kritik moderner Gesellschaft",
+        "folder": "kritik-moderner-gesellschaft-5829"
+      },
+      {
+        "id": "langeoog-eine-ostfriesische-insel",
+        "title": "Langeoog - Eine Ostfriesische Insel",
+        "folder": "langeoog-eine-ostfriesische-insel"
+      },
+      {
+        "id": "limburg-an-der-lahn-1742",
+        "title": "Limburg an der Lahn",
+        "folder": "limburg-an-der-lahn-1742"
+      },
+      {
+        "id": "muelheim-an-der-ruhr",
+        "title": "Mülheim an der Ruhr",
+        "folder": "muelheim-an-der-ruhr"
+      },
+      {
+        "id": "museen-in-deutschland",
+        "title": "Museen in Deutschland",
+        "folder": "museen-in-deutschland"
+      }
+    ]
+  },
+  "de-nature-panoramawelten-teil-5": {
+    "slug": "de-nature-panoramawelten-teil-5",
+    "title": "Deutschland: Naturräume, Flüsse, Seen & Gebirge (Teil 5)",
+    "category": "Deutschland",
+    "shortDesc": "Mittelgebirge, Flusstäler, Inseln, Seenlandschaften und Naturdenkmäler Deutschlands.",
+    "longDesc": "Mittelgebirge, Flusstäler, Inseln, Seenlandschaften und Naturdenkmäler Deutschlands. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
+    "keyPoints": [
+          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+    ],
+    "exercises": [
+      {
+        "id": "norderney-eine-ostfriesische-insel",
+        "title": "Norderney - Eine Ostfriesische Insel",
+        "folder": "norderney-eine-ostfriesische-insel"
+      },
+      {
+        "id": "offenbach-am-main",
+        "title": "Offenbach am Main",
+        "folder": "offenbach-am-main"
+      },
+      {
+        "id": "reime-gegen-freie-rhythmen-was-wirkt-moderner",
+        "title": "Reime gegen freie Rhythmen - Was wirkt moderner",
+        "folder": "reime-gegen-freie-rhythmen-was-wirkt-moderner"
+      },
+      {
+        "id": "rheine-eine-stadt-mit-geschichte-und-natur",
+        "title": "Rheine - Eine Stadt mit Geschichte und Natur",
+        "folder": "rheine-eine-stadt-mit-geschichte-und-natur"
+      },
+      {
+        "id": "rick-riordan-und-wie-man-goetter-modern-macht",
+        "title": "Rick Riordan und wie man Götter modern macht",
+        "folder": "rick-riordan-und-wie-man-goetter-modern-macht"
+      },
+      {
+        "id": "ruesselsheim-am-main-eine-stadt-mit-geschichte-und-industrie",
+        "title": "Rüsselsheim am Main - Eine Stadt mit Geschichte und Industrie",
+        "folder": "ruesselsheim-am-main-eine-stadt-mit-geschichte-und-industrie"
+      },
+      {
+        "id": "strukturwandel-der-moderne-5897",
+        "title": "Strukturwandel der Moderne",
+        "folder": "strukturwandel-der-moderne-5897"
+      },
+      {
+        "id": "virtual-reality-und-die-taeuschung-des-gleichgewichtssinns",
+        "title": "Virtual Reality und die Täuschung des Gleichgewichtssinns",
+        "folder": "virtual-reality-und-die-taeuschung-des-gleichgewichtssinns"
+      },
+      {
+        "id": "wangerooge-eine-insel-in-der-nordsee",
+        "title": "Wangerooge - Eine Insel in der Nordsee",
+        "folder": "wangerooge-eine-insel-in-der-nordsee"
+      },
+      {
+        "id": "wege-zur-inneren-verbundenheit-2442",
+        "title": "Wege zur inneren Verbundenheit",
+        "folder": "wege-zur-inneren-verbundenheit-2442"
+      },
+      {
+        "id": "wie-wird-man-eigentlich-lektor-oder-verleger",
+        "title": "Wie wird man eigentlich Lektor oder Verleger",
+        "folder": "wie-wird-man-eigentlich-lektor-oder-verleger"
+      },
+      {
+        "id": "zukunft-und-technische-innovationen-in-der-digitalen-welt",
+        "title": "Zukunft und technische Innovationen in der digitalen Welt",
+        "folder": "zukunft-und-technische-innovationen-in-der-digitalen-welt"
+      }
+    ]
+  },
+  "at-panoramawelten": {
+    "slug": "at-panoramawelten",
+    "title": "Österreich: Städte, Zentralräume & Alpentäler",
+    "category": "Österreich & Alpenraum",
+    "shortDesc": "Landeshauptstädte, historische Bezirkshauptstädte und alpine Wirtschaftsräume Österreichs.",
+    "longDesc": "Landeshauptstädte, historische Bezirkshauptstädte und alpine Wirtschaftsräume Österreichs. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
+    "keyPoints": [
+          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+    ],
+    "exercises": [
+      {
+        "id": "amstetten-1533",
+        "title": "Amstetten",
+        "folder": "amstetten-1533"
+      },
+      {
+        "id": "baar-1549",
+        "title": "Baar",
+        "folder": "baar-1549"
+      },
+      {
+        "id": "josef-haydn-2-25",
+        "title": "Städte in Österreich",
+        "folder": "josef-haydn-2-25"
+      },
+      {
+        "id": "krems-1720",
+        "title": "Krems",
+        "folder": "krems-1720"
+      },
+      {
+        "id": "leoben-1735",
+        "title": "Leoben",
+        "folder": "leoben-1735"
+      },
+      {
+        "id": "leonding-1436",
+        "title": "Leonding",
+        "folder": "leonding-1436"
+      },
+      {
+        "id": "saalfelden-1838",
+        "title": "Saalfelden",
+        "folder": "saalfelden-1838"
+      },
+      {
+        "id": "salzburg-2-1448",
+        "title": "Salzburg",
+        "folder": "salzburg-2-1448"
+      },
+      {
+        "id": "steyr-1439",
+        "title": "Steyr",
+        "folder": "steyr-1439"
+      },
+      {
+        "id": "wels-1443",
+        "title": "Wels",
+        "folder": "wels-1443"
+      },
+      {
+        "id": "wiener-neustadt-10-5736",
+        "title": "Wiener Neustadt",
+        "folder": "wiener-neustadt-10-5736"
+      }
+    ]
+  },
+  "ch-panoramawelten": {
+    "slug": "ch-panoramawelten",
+    "title": "Die Schweiz: Städte, Kantonszentren & Seen",
+    "category": "Die Schweiz",
+    "shortDesc": "Urbane Zentren, historische Städte und wirtschaftliche Knotenpunkte der Eidgenossenschaft.",
+    "longDesc": "Urbane Zentren, historische Städte und wirtschaftliche Knotenpunkte der Eidgenossenschaft. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
+    "keyPoints": [
+          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+    ],
+    "exercises": [
+      {
+        "id": "bielefeld-1508",
+        "title": "Bielefeld",
+        "folder": "bielefeld-1508"
+      },
+      {
+        "id": "die-bastei-in-der-saechsischen-schweiz",
+        "title": "Die Bastei in der Sächsischen Schweiz",
+        "folder": "die-bastei-in-der-saechsischen-schweiz"
+      },
+      {
+        "id": "die-haefen-von-wilhelmshaven",
+        "title": "Die Häfen von Wilhelmshaven",
+        "folder": "die-haefen-von-wilhelmshaven"
+      },
+      {
+        "id": "die-holsteinische-schweiz",
+        "title": "Die Holsteinische Schweiz",
+        "folder": "die-holsteinische-schweiz"
+      },
+      {
+        "id": "die-saechsische-schweiz",
+        "title": "Die Sächsische Schweiz",
+        "folder": "die-saechsische-schweiz"
+      },
+      {
+        "id": "digitale-teilhabe-und-ungleicher-zugang-zu-technik",
+        "title": "Digitale Teilhabe und ungleicher Zugang zu Technik",
+        "folder": "digitale-teilhabe-und-ungleicher-zugang-zu-technik"
+      },
+      {
+        "id": "dubendorf-1614",
+        "title": "Dübendorf",
+        "folder": "dubendorf-1614"
+      },
+      {
+        "id": "emmen-1624",
+        "title": "Emmen",
+        "folder": "emmen-1624"
+      },
+      {
+        "id": "lancy-1727",
+        "title": "Lancy",
+        "folder": "lancy-1727"
+      },
+      {
+        "id": "montreux-1789",
+        "title": "Montreux",
+        "folder": "montreux-1789"
+      },
+      {
+        "id": "sankt-polten-1442",
+        "title": "Sankt Pölten",
+        "folder": "sankt-polten-1442"
+      },
+      {
+        "id": "survival-buecher-wie-charaktere-in-der-wildnis-ueberleben",
+        "title": "Survival-Bücher - Wie Charaktere in der Wildnis überleben",
+        "folder": "survival-buecher-wie-charaktere-in-der-wildnis-ueberleben"
+      },
+      {
+        "id": "was-passiert-mit-buechern-die-keiner-mehr-will",
+        "title": "Was passiert mit Büchern, die keiner mehr will",
+        "folder": "was-passiert-mit-buechern-die-keiner-mehr-will"
+      },
+      {
+        "id": "wetzikon-1940",
+        "title": "Wetzikon",
+        "folder": "wetzikon-1940"
+      },
+      {
+        "id": "wil-1941",
+        "title": "Wil",
+        "folder": "wil-1941"
+      },
+      {
+        "id": "wilhelmshaven-1942",
+        "title": "Wilhelmshaven",
+        "folder": "wilhelmshaven-1942"
+      },
+      {
+        "id": "yverdon-les-bains-1951",
+        "title": "Yverdon-les-Bains",
+        "folder": "yverdon-les-bains-1951"
+      },
+      {
+        "id": "zug-2-1967",
+        "title": "Zug",
+        "folder": "zug-2-1967"
+      }
+    ]
+  },
+  "asia-panoramawelten-teil-1": {
+    "slug": "asia-panoramawelten-teil-1",
+    "title": "Asien & Orient: Metropolen & Urbane Räume (Teil 1)",
+    "category": "Kontinente & Weltregionen",
+    "shortDesc": "Megastädte, Wirtschaftszentren und historische Metropolen in Ost-, Süd- und Westasien.",
+    "longDesc": "Megastädte, Wirtschaftszentren und historische Metropolen in Ost-, Süd- und Westasien. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
+    "keyPoints": [
+          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+    ],
+    "exercises": [
+      {
+        "id": "adana-5946",
+        "title": "Adana",
+        "folder": "adana-5946"
+      },
+      {
+        "id": "ahmedabad-5948",
+        "title": "Ahmedabad",
+        "folder": "ahmedabad-5948"
+      },
+      {
+        "id": "aleppo-5949",
+        "title": "Aleppo",
+        "folder": "aleppo-5949"
+      },
+      {
+        "id": "bandung-5956",
+        "title": "Bandung",
+        "folder": "bandung-5956"
+      },
+      {
+        "id": "baoding-5958",
+        "title": "Baoding",
+        "folder": "baoding-5958"
+      },
+      {
+        "id": "baotou-5959",
+        "title": "Baotou",
+        "folder": "baotou-5959"
+      },
+      {
+        "id": "bekasi-5960",
+        "title": "Bekasi",
+        "folder": "bekasi-5960"
+      },
+      {
+        "id": "bengaluru-5961",
+        "title": "Bengaluru",
+        "folder": "bengaluru-5961"
+      },
+      {
+        "id": "bhopal-5964",
+        "title": "Bhopal",
+        "folder": "bhopal-5964"
+      },
+      {
+        "id": "changzhou-5976",
+        "title": "Changzhou",
+        "folder": "changzhou-5976"
+      },
+      {
+        "id": "chengdu-5977",
+        "title": "Chengdu",
+        "folder": "chengdu-5977"
+      },
+      {
+        "id": "chennai-5978",
+        "title": "Chennai",
+        "folder": "chennai-5978"
+      },
+      {
+        "id": "chittagong-5980",
+        "title": "Chittagong",
+        "folder": "chittagong-5980"
+      }
+    ]
+  },
+  "asia-panoramawelten-teil-2": {
+    "slug": "asia-panoramawelten-teil-2",
+    "title": "Asien & Orient: Metropolen & Urbane Räume (Teil 2)",
+    "category": "Kontinente & Weltregionen",
+    "shortDesc": "Megastädte, Wirtschaftszentren und historische Metropolen in Ost-, Süd- und Westasien.",
+    "longDesc": "Megastädte, Wirtschaftszentren und historische Metropolen in Ost-, Süd- und Westasien. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
+    "keyPoints": [
+          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+    ],
+    "exercises": [
+      {
+        "id": "chongqing-5981",
+        "title": "Chongqing",
+        "folder": "chongqing-5981"
+      },
+      {
+        "id": "daegu-5983",
+        "title": "Daegu",
+        "folder": "daegu-5983"
+      },
+      {
+        "id": "datong-5988",
+        "title": "Datong",
+        "folder": "datong-5988"
+      },
+      {
+        "id": "depok-5990",
+        "title": "Depok",
+        "folder": "depok-5990"
+      },
+      {
+        "id": "dongguan-5992",
+        "title": "Dongguan",
+        "folder": "dongguan-5992"
+      },
+      {
+        "id": "dubai-5994",
+        "title": "Dubai",
+        "folder": "dubai-5994"
+      },
+      {
+        "id": "faisalabad-6148",
+        "title": "Faisalabad",
+        "folder": "faisalabad-6148"
+      },
+      {
+        "id": "foshan-5998",
+        "title": "Foshan",
+        "folder": "foshan-5998"
+      },
+      {
+        "id": "guangzhou-6003",
+        "title": "Guangzhou",
+        "folder": "guangzhou-6003"
+      },
+      {
+        "id": "gujranwala-6006",
+        "title": "Gujranwala",
+        "folder": "gujranwala-6006"
+      },
+      {
+        "id": "hangzhou-6010",
+        "title": "Hangzhou",
+        "folder": "hangzhou-6010"
+      },
+      {
+        "id": "harbin-6011",
+        "title": "Harbin",
+        "folder": "harbin-6011"
+      },
+      {
+        "id": "hefei-6013",
+        "title": "Hefei",
+        "folder": "hefei-6013"
+      }
+    ]
+  },
+  "asia-panoramawelten-teil-3": {
+    "slug": "asia-panoramawelten-teil-3",
+    "title": "Asien & Orient: Metropolen & Urbane Räume (Teil 3)",
+    "category": "Kontinente & Weltregionen",
+    "shortDesc": "Megastädte, Wirtschaftszentren und historische Metropolen in Ost-, Süd- und Westasien.",
+    "longDesc": "Megastädte, Wirtschaftszentren und historische Metropolen in Ost-, Süd- und Westasien. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
+    "keyPoints": [
+          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+    ],
+    "exercises": [
+      {
+        "id": "incheon-6022",
+        "title": "Incheon",
+        "folder": "incheon-6022"
+      },
+      {
+        "id": "isfahan-6024",
+        "title": "Isfahan",
+        "folder": "isfahan-6024"
+      },
+      {
+        "id": "istanbul-1683",
+        "title": "Istanbul",
+        "folder": "istanbul-1683"
+      },
+      {
+        "id": "jaipur-6027",
+        "title": "Jaipur",
+        "folder": "jaipur-6027"
+      },
+      {
+        "id": "jeddah-6028",
+        "title": "Jeddah",
+        "folder": "jeddah-6028"
+      },
+      {
+        "id": "jinan-6030",
+        "title": "Jinan",
+        "folder": "jinan-6030"
+      },
+      {
+        "id": "kanpur-6034",
+        "title": "Kanpur",
+        "folder": "kanpur-6034"
+      },
+      {
+        "id": "kaohsiung-6035",
+        "title": "Kaohsiung",
+        "folder": "kaohsiung-6035"
+      },
+      {
+        "id": "kolkata-6042",
+        "title": "Kolkata",
+        "folder": "kolkata-6042"
+      },
+      {
+        "id": "kuala-lumpur-6043",
+        "title": "Kuala Lumpur",
+        "folder": "kuala-lumpur-6043"
+      },
+      {
+        "id": "kunming-6045",
+        "title": "Kunming",
+        "folder": "kunming-6045"
+      },
+      {
+        "id": "lahore-6047",
+        "title": "Lahore",
+        "folder": "lahore-6047"
+      },
+      {
+        "id": "manila-6062",
+        "title": "Manila",
+        "folder": "manila-6062"
+      }
+    ]
+  },
+  "asia-panoramawelten-teil-4": {
+    "slug": "asia-panoramawelten-teil-4",
+    "title": "Asien & Orient: Metropolen & Urbane Räume (Teil 4)",
+    "category": "Kontinente & Weltregionen",
+    "shortDesc": "Megastädte, Wirtschaftszentren und historische Metropolen in Ost-, Süd- und Westasien.",
+    "longDesc": "Megastädte, Wirtschaftszentren und historische Metropolen in Ost-, Süd- und Westasien. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
+    "keyPoints": [
+          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+    ],
+    "exercises": [
+      {
+        "id": "mashhad-6064",
+        "title": "Mashhad",
+        "folder": "mashhad-6064"
+      },
+      {
+        "id": "medan-6065",
+        "title": "Medan",
+        "folder": "medan-6065"
+      },
+      {
+        "id": "multan-6073",
+        "title": "Multan",
+        "folder": "multan-6073"
+      },
+      {
+        "id": "mumbai-6074",
+        "title": "Mumbai",
+        "folder": "mumbai-6074"
+      },
+      {
+        "id": "nagoya-6075",
+        "title": "Nagoya",
+        "folder": "nagoya-6075"
+      },
+      {
+        "id": "nanchang-6078",
+        "title": "Nanchang",
+        "folder": "nanchang-6078"
+      },
+      {
+        "id": "nanjing-6079",
+        "title": "Nanjing",
+        "folder": "nanjing-6079"
+      },
+      {
+        "id": "nanning-6080",
+        "title": "Nanning",
+        "folder": "nanning-6080"
+      },
+      {
+        "id": "neues-taipeh-6082",
+        "title": "Neues Taipeh",
+        "folder": "neues-taipeh-6082"
+      },
+      {
+        "id": "ningbo-6084",
+        "title": "Ningbo",
+        "folder": "ningbo-6084"
+      },
+      {
+        "id": "osaka-6086",
+        "title": "Osaka",
+        "folder": "osaka-6086"
+      },
+      {
+        "id": "peshawar-6091",
+        "title": "Peshawar",
+        "folder": "peshawar-6091"
+      },
+      {
+        "id": "pune-6094",
+        "title": "Pune",
+        "folder": "pune-6094"
+      }
+    ]
+  },
+  "asia-panoramawelten-teil-5": {
+    "slug": "asia-panoramawelten-teil-5",
+    "title": "Asien & Orient: Metropolen & Urbane Räume (Teil 5)",
+    "category": "Kontinente & Weltregionen",
+    "shortDesc": "Megastädte, Wirtschaftszentren und historische Metropolen in Ost-, Süd- und Westasien.",
+    "longDesc": "Megastädte, Wirtschaftszentren und historische Metropolen in Ost-, Süd- und Westasien. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
+    "keyPoints": [
+          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+    ],
+    "exercises": [
+      {
+        "id": "qingdao-6095",
+        "title": "Qingdao",
+        "folder": "qingdao-6095"
+      },
+      {
+        "id": "raumplanung-als-teil-des-risikomanagements-5553",
+        "title": "Raumplanung als Teil des Risikomanagements",
+        "folder": "raumplanung-als-teil-des-risikomanagements-5553"
+      },
+      {
+        "id": "rawalpindi-6097",
+        "title": "Rawalpindi",
+        "folder": "rawalpindi-6097"
+      },
+      {
+        "id": "riad-6098",
+        "title": "Riad",
+        "folder": "riad-6098"
+      },
+      {
+        "id": "sapporo-6107",
+        "title": "Sapporo",
+        "folder": "sapporo-6107"
+      },
+      {
+        "id": "shantou-6109",
+        "title": "Shantou",
+        "folder": "shantou-6109"
+      },
+      {
+        "id": "shenyang-6111",
+        "title": "Shenyang",
+        "folder": "shenyang-6111"
+      },
+      {
+        "id": "shenzhen-6112",
+        "title": "Shenzhen",
+        "folder": "shenzhen-6112"
+      },
+      {
+        "id": "shijiazhuang-6113",
+        "title": "Shijiazhuang",
+        "folder": "shijiazhuang-6113"
+      },
+      {
+        "id": "surabaya-6115",
+        "title": "Surabaya",
+        "folder": "surabaya-6115"
+      },
+      {
+        "id": "surat-6116",
+        "title": "Surat",
+        "folder": "surat-6116"
+      },
+      {
+        "id": "suzhou-6117",
+        "title": "Suzhou",
+        "folder": "suzhou-6117"
+      },
+      {
+        "id": "tainan-6120",
+        "title": "Tainan",
+        "folder": "tainan-6120"
+      }
+    ]
+  },
+  "asia-panoramawelten-teil-6": {
+    "slug": "asia-panoramawelten-teil-6",
+    "title": "Asien & Orient: Metropolen & Urbane Räume (Teil 6)",
+    "category": "Kontinente & Weltregionen",
+    "shortDesc": "Megastädte, Wirtschaftszentren und historische Metropolen in Ost-, Süd- und Westasien.",
+    "longDesc": "Megastädte, Wirtschaftszentren und historische Metropolen in Ost-, Süd- und Westasien. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
+    "keyPoints": [
+          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+    ],
+    "exercises": [
+      {
+        "id": "teheran-6127",
+        "title": "Teheran",
+        "folder": "teheran-6127"
+      },
+      {
+        "id": "tianjin-6128",
+        "title": "Tianjin",
+        "folder": "tianjin-6128"
+      },
+      {
+        "id": "wenzhou-6133",
+        "title": "Wenzhou",
+        "folder": "wenzhou-6133"
+      },
+      {
+        "id": "wuhan-6135",
+        "title": "Wuhan",
+        "folder": "wuhan-6135"
+      },
+      {
+        "id": "wuxi-6136",
+        "title": "Wuxi",
+        "folder": "wuxi-6136"
+      },
+      {
+        "id": "xiamen-6137",
+        "title": "Xiamen",
+        "folder": "xiamen-6137"
+      },
+      {
+        "id": "xuzhou-6139",
+        "title": "Xuzhou",
+        "folder": "xuzhou-6139"
+      },
+      {
+        "id": "yantai-6140",
+        "title": "Yantai",
+        "folder": "yantai-6140"
+      },
+      {
+        "id": "yokohama-6142",
+        "title": "Yokohama",
+        "folder": "yokohama-6142"
+      },
+      {
+        "id": "zhengzhou-6150",
+        "title": "Zhengzhou",
+        "folder": "zhengzhou-6150"
+      },
+      {
+        "id": "zhongshan-6147",
+        "title": "Zhongshan",
+        "folder": "zhongshan-6147"
+      },
+      {
+        "id": "zhuhai-6143",
+        "title": "Zhuhai",
+        "folder": "zhuhai-6143"
+      },
+      {
+        "id": "zibo-6144",
+        "title": "Zibo",
+        "folder": "zibo-6144"
+      }
+    ]
+  },
+  "africa-panoramawelten-teil-1": {
+    "slug": "africa-panoramawelten-teil-1",
+    "title": "Afrika: Metropolen, Staaten & Flusstäler (Teil 1)",
+    "category": "Kontinente & Weltregionen",
+    "shortDesc": "Wirtschaftsmetropolen, historische Hauptstädte und Flusssysteme des afrikanischen Kontinents.",
+    "longDesc": "Wirtschaftsmetropolen, historische Hauptstädte und Flusssysteme des afrikanischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
+    "keyPoints": [
+          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+    ],
+    "exercises": [
+      {
+        "id": "benin-city-5962",
+        "title": "Benin City",
+        "folder": "benin-city-5962"
+      },
+      {
+        "id": "botswana-1574",
+        "title": "Botswana",
+        "folder": "botswana-1574"
+      },
+      {
+        "id": "burkina-faso-1588",
+        "title": "Burkina Faso",
+        "folder": "burkina-faso-1588"
+      },
+      {
+        "id": "der-nil-und-seine-bedeutung-fur-wirtschaft-und-kultur-5449",
+        "title": "Der Nil und seine Bedeutung für Wirtschaft und Kultur",
+        "folder": "der-nil-und-seine-bedeutung-fur-wirtschaft-und-kultur-5449"
+      },
+      {
+        "id": "der-schwere-krieg-im-sudan-6572",
+        "title": "Der schwere Krieg im Sudan",
+        "folder": "der-schwere-krieg-im-sudan-6572"
+      },
+      {
+        "id": "die-erste-zwischenzeit-in-gypten-5228",
+        "title": "Die Erste Zwischenzeit in Ägypten",
+        "folder": "die-erste-zwischenzeit-in-gypten-5228"
+      },
+      {
+        "id": "guinea-1658",
+        "title": "Guinea",
+        "folder": "guinea-1658"
+      },
+      {
+        "id": "ibadan-6021",
+        "title": "Ibadan",
+        "folder": "ibadan-6021"
+      },
+      {
+        "id": "kinshasa-6041",
+        "title": "Kinshasa",
+        "folder": "kinshasa-6041"
+      },
+      {
+        "id": "lagos-6046",
+        "title": "Lagos",
+        "folder": "lagos-6046"
+      },
+      {
+        "id": "liberia-1740",
+        "title": "Liberia",
+        "folder": "liberia-1740"
+      },
+      {
+        "id": "luanda-6055",
+        "title": "Luanda",
+        "folder": "luanda-6055"
+      }
+    ]
+  },
+  "africa-panoramawelten-teil-2": {
+    "slug": "africa-panoramawelten-teil-2",
+    "title": "Afrika: Metropolen, Staaten & Flusstäler (Teil 2)",
+    "category": "Kontinente & Weltregionen",
+    "shortDesc": "Wirtschaftsmetropolen, historische Hauptstädte und Flusssysteme des afrikanischen Kontinents.",
+    "longDesc": "Wirtschaftsmetropolen, historische Hauptstädte und Flusssysteme des afrikanischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
+    "keyPoints": [
+          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+    ],
+    "exercises": [
+      {
+        "id": "lusaka-6059",
+        "title": "Lusaka",
+        "folder": "lusaka-6059"
+      },
+      {
+        "id": "mali-1763",
+        "title": "Mali",
+        "folder": "mali-1763"
+      },
+      {
+        "id": "mogadischu-6071",
+        "title": "Mogadischu",
+        "folder": "mogadischu-6071"
+      },
+      {
+        "id": "mosambik-1973",
+        "title": "Mosambik",
+        "folder": "mosambik-1973"
+      },
+      {
+        "id": "nairobi-6077",
+        "title": "Nairobi",
+        "folder": "nairobi-6077"
+      },
+      {
+        "id": "namibia-1793",
+        "title": "Namibia",
+        "folder": "namibia-1793"
+      },
+      {
+        "id": "niger-1974",
+        "title": "Niger",
+        "folder": "niger-1974"
+      },
+      {
+        "id": "nigeria-1975",
+        "title": "Nigeria",
+        "folder": "nigeria-1975"
+      },
+      {
+        "id": "ouagadougou-6087",
+        "title": "Ouagadougou",
+        "folder": "ouagadougou-6087"
+      },
+      {
+        "id": "pretoria-6093",
+        "title": "Pretoria",
+        "folder": "pretoria-6093"
+      },
+      {
+        "id": "yaounde-6141",
+        "title": "Yaoundé",
+        "folder": "yaounde-6141"
+      }
+    ]
+  },
+  "americas-panoramawelten-teil-1": {
+    "slug": "americas-panoramawelten-teil-1",
+    "title": "Amerika & Karibik: Metropolen & Inselstaaten (Teil 1)",
+    "category": "Kontinente & Weltregionen",
+    "shortDesc": "Großstädte, Hauptstädte und Inselstaaten in Nord-, Mittel- und Südamerika sowie der Karibik.",
+    "longDesc": "Großstädte, Hauptstädte und Inselstaaten in Nord-, Mittel- und Südamerika sowie der Karibik. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
+    "keyPoints": [
+          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+    ],
+    "exercises": [
+      {
+        "id": "antigua-und-barbuda-1537",
+        "title": "Antigua und Barbuda",
+        "folder": "antigua-und-barbuda-1537"
+      },
+      {
+        "id": "bahamas-1553",
+        "title": "Bahamas",
+        "folder": "bahamas-1553"
+      },
+      {
+        "id": "barbados-1558",
+        "title": "Barbados",
+        "folder": "barbados-1558"
+      },
+      {
+        "id": "belo-horizonte-6146",
+        "title": "Belo Horizonte",
+        "folder": "belo-horizonte-6146"
+      },
+      {
+        "id": "busan-5971",
+        "title": "Busan",
+        "folder": "busan-5971"
+      },
+      {
+        "id": "curitiba-5982",
+        "title": "Curitiba",
+        "folder": "curitiba-5982"
+      },
+      {
+        "id": "der-streit-zwischen-den-usa-und-venezuela-6573",
+        "title": "Der Streit zwischen den USA und Venezuela",
+        "folder": "der-streit-zwischen-den-usa-und-venezuela-6573"
+      },
+      {
+        "id": "dominica-1610",
+        "title": "Dominica",
+        "folder": "dominica-1610"
+      },
+      {
+        "id": "dominikanische-republik-1611",
+        "title": "Dominikanische Republik",
+        "folder": "dominikanische-republik-1611"
+      },
+      {
+        "id": "fortaleza-5997",
+        "title": "Fortaleza",
+        "folder": "fortaleza-5997"
+      },
+      {
+        "id": "grenada-1655",
+        "title": "Grenada",
+        "folder": "grenada-1655"
+      }
+    ]
+  },
+  "americas-panoramawelten-teil-2": {
+    "slug": "americas-panoramawelten-teil-2",
+    "title": "Amerika & Karibik: Metropolen & Inselstaaten (Teil 2)",
+    "category": "Kontinente & Weltregionen",
+    "shortDesc": "Großstädte, Hauptstädte und Inselstaaten in Nord-, Mittel- und Südamerika sowie der Karibik.",
+    "longDesc": "Großstädte, Hauptstädte und Inselstaaten in Nord-, Mittel- und Südamerika sowie der Karibik. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
+    "keyPoints": [
+          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+    ],
+    "exercises": [
+      {
+        "id": "haiti-1663",
+        "title": "Haiti",
+        "folder": "haiti-1663"
+      },
+      {
+        "id": "internationale-zusammenarbeit-im-katastrophenschutz-5536",
+        "title": "Internationale Zusammenarbeit im Katastrophenschutz",
+        "folder": "internationale-zusammenarbeit-im-katastrophenschutz-5536"
+      },
+      {
+        "id": "jamaika-1685",
+        "title": "Jamaika",
+        "folder": "jamaika-1685"
+      },
+      {
+        "id": "kuba-1723",
+        "title": "Kuba",
+        "folder": "kuba-1723"
+      },
+      {
+        "id": "manaus-6061",
+        "title": "Manaus",
+        "folder": "manaus-6061"
+      },
+      {
+        "id": "maracaibo-6063",
+        "title": "Maracaibo",
+        "folder": "maracaibo-6063"
+      },
+      {
+        "id": "migranten-in-den-usa-4654",
+        "title": "Migranten in den USA",
+        "folder": "migranten-in-den-usa-4654"
+      },
+      {
+        "id": "saint-lucia-1840",
+        "title": "Saint Lucia",
+        "folder": "saint-lucia-1840"
+      },
+      {
+        "id": "tijuana-6129",
+        "title": "Tijuana",
+        "folder": "tijuana-6129"
+      },
+      {
+        "id": "trinidad-und-tobago-1899",
+        "title": "Trinidad und Tobago",
+        "folder": "trinidad-und-tobago-1899"
+      },
+      {
+        "id": "zusammenfassung-720",
+        "title": "Zusammenfassung",
+        "folder": "zusammenfassung-720"
+      }
+    ]
+  },
+  "culture-physical-panoramawelten": {
+    "slug": "culture-physical-panoramawelten",
+    "title": "Urbane Entwicklung, Verkehrsnetze & Demografie",
+    "category": "Kultur-, Stadt- & Wirtschaftsgeographie",
+    "shortDesc": "Transportkorridore, Metropolregionen, Stadtentwicklung und demografische Dynamiken.",
+    "longDesc": "Transportkorridore, Metropolregionen, Stadtentwicklung und demografische Dynamiken. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
+    "keyPoints": [
+          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+    ],
+    "exercises": [
+      {
+        "id": "bevolkerungswachstum-im-21-jahrhundert-herausforderungen-und-chancen-5436",
+        "title": "Bevölkerungswachstum im 21. Jahrhundert - Herausforderungen und Chancen",
+        "folder": "bevolkerungswachstum-im-21-jahrhundert-herausforderungen-und-chancen-5436"
+      },
+      {
+        "id": "der-einfluss-von-technologie-auf-die-wirtschaftliche-geographie-5444",
+        "title": "Der Einfluss von Technologie auf die wirtschaftliche Geographie",
+        "folder": "der-einfluss-von-technologie-auf-die-wirtschaftliche-geographie-5444"
+      },
+      {
+        "id": "der-einfluss-von-transportnetzen-auf-urbane-entwicklung-5445",
+        "title": "Der Einfluss von Transportnetzen auf urbane Entwicklung",
+        "folder": "der-einfluss-von-transportnetzen-auf-urbane-entwicklung-5445"
+      },
+      {
+        "id": "die-demografie-deutschlands",
+        "title": "Die Demografie Deutschlands",
+        "folder": "die-demografie-deutschlands"
+      },
+      {
+        "id": "die-metropolregion-mitteldeutschland",
+        "title": "Die Metropolregion Mitteldeutschland",
+        "folder": "die-metropolregion-mitteldeutschland"
+      },
+      {
+        "id": "hoch-und-tiefdruckgebiete-2266",
+        "title": "Hoch- und Tiefdruckgebiete",
+        "folder": "hoch-und-tiefdruckgebiete-2266"
+      },
+      {
+        "id": "stau-in-metropolregionen-ursachen-folgen-losungen-5558",
+        "title": "Stau in Metropolregionen - Ursachen, Folgen, Lösungen",
+        "folder": "stau-in-metropolregionen-ursachen-folgen-losungen-5558"
+      },
+      {
+        "id": "verteilung-der-erdbevolkerung-2070",
+        "title": "Verteilung der Erdbevölkerung",
+        "folder": "verteilung-der-erdbevolkerung-2070"
+      },
+      {
+        "id": "wie-wetter-in-buechern-die-stimmung-beeinflusst",
+        "title": "Wie Wetter in Büchern die Stimmung beeinflusst",
+        "folder": "wie-wetter-in-buechern-die-stimmung-beeinflusst"
+      }
+    ]
+  },
+  "europe-general-panoramawelten-teil-1": {
+    "slug": "europe-general-panoramawelten-teil-1",
+    "title": "Europa: Städte, Metropolen & Landschaften (Teil 1)",
+    "category": "Europa & Die EU",
+    "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
+    "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
+    "keyPoints": [
+          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+    ],
+    "exercises": [
+      {
+        "id": "a-or-an-der-unbestimmte-artikel-2-371",
+        "title": "A or An - der unbestimmte Artikel",
+        "folder": "a-or-an-der-unbestimmte-artikel-2-371"
+      },
+      {
+        "id": "aussagen-zur-gefuhlsarbeit-792",
+        "title": "Aussagen zur Gefühlsarbeit",
+        "folder": "aussagen-zur-gefuhlsarbeit-792"
+      },
+      {
+        "id": "barcelona-1559",
+        "title": "Barcelona",
+        "folder": "barcelona-1559"
+      },
+      {
+        "id": "begriffe-1563",
+        "title": "Begriffe",
+        "folder": "begriffe-1563"
+      },
+      {
+        "id": "bertolt-brecht-leben-des-galilei-2-4514",
+        "title": "Bertolt Brecht - Leben des Galilei",
+        "folder": "bertolt-brecht-leben-des-galilei-2-4514"
+      },
+      {
+        "id": "bier-in-deutschland",
+        "title": "Bier in Deutschland",
+        "folder": "bier-in-deutschland"
+      },
+      {
+        "id": "biografien-von-stars-was-wir-von-ihnen-lernen-koennen",
+        "title": "Biografien von Stars - Was wir von ihnen lernen können",
+        "folder": "biografien-von-stars-was-wir-von-ihnen-lernen-koennen"
+      },
+      {
+        "id": "bochum-1510",
+        "title": "Bochum",
+        "folder": "bochum-1510"
+      },
+      {
+        "id": "body-positivity-wie-koerper-in-buechern-beschrieben-werden",
+        "title": "Body Positivity - Wie Körper in Büchern beschrieben werden",
+        "folder": "body-positivity-wie-koerper-in-buechern-beschrieben-werden"
+      },
+      {
+        "id": "bonn-1507",
+        "title": "Bonn",
+        "folder": "bonn-1507"
+      },
+      {
+        "id": "bradford-1575",
+        "title": "Bradford",
+        "folder": "bradford-1575"
+      },
+      {
+        "id": "braunschweig-1499",
+        "title": "Braunschweig",
+        "folder": "braunschweig-1499"
+      },
+      {
+        "id": "bremerhaven-1464",
+        "title": "Bremerhaven",
+        "folder": "bremerhaven-1464"
+      },
+      {
+        "id": "bulle-1586",
+        "title": "Bulle",
+        "folder": "bulle-1586"
+      },
+      {
+        "id": "bunde-1587",
+        "title": "Bünde",
+        "folder": "bunde-1587"
+      }
+    ]
+  },
+  "europe-general-panoramawelten-teil-2": {
+    "slug": "europe-general-panoramawelten-teil-2",
+    "title": "Europa: Städte, Metropolen & Landschaften (Teil 2)",
+    "category": "Europa & Die EU",
+    "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
+    "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
+    "keyPoints": [
+          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+    ],
+    "exercises": [
+      {
+        "id": "bungen-zu-flachenmaesen-155",
+        "title": "Übungen zu Flächenmaßen",
+        "folder": "bungen-zu-flachenmaesen-155"
+      },
+      {
+        "id": "bursa-5970",
+        "title": "Bursa",
+        "folder": "bursa-5970"
+      },
+      {
+        "id": "buxtehude-1590",
+        "title": "Buxtehude",
+        "folder": "buxtehude-1590"
+      },
+      {
+        "id": "carl-sternheim-4601",
+        "title": "Carl Sternheim",
+        "folder": "carl-sternheim-4601"
+      },
+      {
+        "id": "carl-sternheim-der-snob-3412",
+        "title": "Carl Sternheim - Der Snob",
+        "folder": "carl-sternheim-der-snob-3412"
+      },
+      {
+        "id": "carouge-1591",
+        "title": "Carouge",
+        "folder": "carouge-1591"
+      },
+      {
+        "id": "cellulose-und-die-herstellung-von-papier-5143",
+        "title": "Cellulose und die Herstellung von Papier",
+        "folder": "cellulose-und-die-herstellung-von-papier-5143"
+      },
+      {
+        "id": "chancengleichheit-1130",
+        "title": "Chancengleichheit",
+        "folder": "chancengleichheit-1130"
+      },
+      {
+        "id": "changchun-5974",
+        "title": "Changchun",
+        "folder": "changchun-5974"
+      },
+      {
+        "id": "changsha-5975",
+        "title": "Changsha",
+        "folder": "changsha-5975"
+      },
+      {
+        "id": "charleroi-1595",
+        "title": "Charleroi",
+        "folder": "charleroi-1595"
+      },
+      {
+        "id": "charles-de-gaulle-2301",
+        "title": "Charles de Gaulle",
+        "folder": "charles-de-gaulle-2301"
+      },
+      {
+        "id": "chemnitz-1498",
+        "title": "Chemnitz",
+        "folder": "chemnitz-1498"
+      },
+      {
+        "id": "christian-dietrich-grabbe-4602",
+        "title": "Christian Dietrich Grabbe",
+        "folder": "christian-dietrich-grabbe-4602"
+      },
+      {
+        "id": "christian-dietrich-grabbe-scherz-satire-ironie-und-tiefere-bedeutung-2-4518",
+        "title": "Christian Dietrich Grabbe - Scherz, Satire, Ironie und tiefere Bedeutung",
+        "folder": "christian-dietrich-grabbe-scherz-satire-ironie-und-tiefere-bedeutung-2-4518"
+      }
+    ]
+  },
+  "europe-general-panoramawelten-teil-3": {
+    "slug": "europe-general-panoramawelten-teil-3",
+    "title": "Europa: Städte, Metropolen & Landschaften (Teil 3)",
+    "category": "Europa & Die EU",
+    "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
+    "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
+    "keyPoints": [
+          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+    ],
+    "exercises": [
+      {
+        "id": "christoph-hein-6281",
+        "title": "Christoph Hein",
+        "folder": "christoph-hein-6281"
+      },
+      {
+        "id": "cloppenburg-1599",
+        "title": "Cloppenburg",
+        "folder": "cloppenburg-1599"
+      },
+      {
+        "id": "cobalt-1172",
+        "title": "Cobalt",
+        "folder": "cobalt-1172"
+      },
+      {
+        "id": "coesfeld-1600",
+        "title": "Coesfeld",
+        "folder": "coesfeld-1600"
+      },
+      {
+        "id": "come-as-you-are-nirvana-2-615",
+        "title": "Come as You Are (Nirvana)",
+        "folder": "come-as-you-are-nirvana-2-615"
+      },
+      {
+        "id": "coming-of-age-der-schwierige-weg-zum-erwachsensein",
+        "title": "Coming-of-Age - Der schwierige Weg zum Erwachsensein",
+        "folder": "coming-of-age-der-schwierige-weg-zum-erwachsensein"
+      },
+      {
+        "id": "computer-und-gesundheit-469",
+        "title": "Computer und Gesundheit",
+        "folder": "computer-und-gesundheit-469"
+      },
+      {
+        "id": "computerspiele-2-1361",
+        "title": "Computerspiele",
+        "folder": "computerspiele-2-1361"
+      },
+      {
+        "id": "cupid-1333",
+        "title": "Cupid",
+        "folder": "cupid-1333"
+      },
+      {
+        "id": "dalian-5985",
+        "title": "Dalian",
+        "folder": "dalian-5985"
+      },
+      {
+        "id": "darlehen-grundlagenwissen-2880",
+        "title": "Darlehen Grundlagenwissen",
+        "folder": "darlehen-grundlagenwissen-2880"
+      },
+      {
+        "id": "darmstadt-1474",
+        "title": "Darmstadt",
+        "folder": "darmstadt-1474"
+      },
+      {
+        "id": "das-bairische-eine-besondere-sprache",
+        "title": "Das Bairische - Eine besondere Sprache",
+        "folder": "das-bairische-eine-besondere-sprache"
+      },
+      {
+        "id": "das-binarsystem-467",
+        "title": "Das Binärsystem",
+        "folder": "das-binarsystem-467"
+      },
+      {
+        "id": "das-bremer-rathaus",
+        "title": "Das Bremer Rathaus",
+        "folder": "das-bremer-rathaus"
+      }
+    ]
+  },
+  "europe-general-panoramawelten-teil-4": {
+    "slug": "europe-general-panoramawelten-teil-4",
+    "title": "Europa: Städte, Metropolen & Landschaften (Teil 4)",
+    "category": "Europa & Die EU",
+    "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
+    "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
+    "keyPoints": [
+          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+    ],
+    "exercises": [
+      {
+        "id": "das-buro-3397",
+        "title": "Das Büro",
+        "folder": "das-buro-3397"
+      },
+      {
+        "id": "das-christentum-2-848",
+        "title": "Das Christentum",
+        "folder": "das-christentum-2-848"
+      },
+      {
+        "id": "das-deutsche-museum-in-muenchen",
+        "title": "Das Deutsche Museum in München",
+        "folder": "das-deutsche-museum-in-muenchen"
+      },
+      {
+        "id": "das-deutsche-schulsystem-3490",
+        "title": "Das deutsche Schulsystem",
+        "folder": "das-deutsche-schulsystem-3490"
+      },
+      {
+        "id": "das-gesundheitssystem-in-deutschland",
+        "title": "Das Gesundheitssystem in Deutschland",
+        "folder": "das-gesundheitssystem-in-deutschland"
+      },
+      {
+        "id": "das-goldene-zeitalter-der-niederlande-2306",
+        "title": "Das Goldene Zeitalter der Niederlande",
+        "folder": "das-goldene-zeitalter-der-niederlande-2306"
+      },
+      {
+        "id": "das-gruselige-in-alten-geistergeschichten",
+        "title": "Das Gruselige in alten Geistergeschichten",
+        "folder": "das-gruselige-in-alten-geistergeschichten"
+      },
+      {
+        "id": "das-halteproblem-und-die-grenzen-des-wissens",
+        "title": "Das Halteproblem und die Grenzen des Wissens",
+        "folder": "das-halteproblem-und-die-grenzen-des-wissens"
+      },
+      {
+        "id": "das-jahr-ohne-sommer-2308",
+        "title": "Das Jahr ohne Sommer",
+        "folder": "das-jahr-ohne-sommer-2308"
+      },
+      {
+        "id": "das-konklave-4791",
+        "title": "Das Konklave",
+        "folder": "das-konklave-4791"
+      },
+      {
+        "id": "das-kreuz-mehr-als-ein-zeichen-2-6566",
+        "title": "Das Kreuz - mehr als ein Zeichen",
+        "folder": "das-kreuz-mehr-als-ein-zeichen-2-6566"
+      },
+      {
+        "id": "das-leben-jesu-2-6460",
+        "title": "Das Leben Jesu",
+        "folder": "das-leben-jesu-2-6460"
+      },
+      {
+        "id": "das-meer-als-ort-fuer-freiheit-und-abenteuer",
+        "title": "Das Meer als Ort für Freiheit und Abenteuer",
+        "folder": "das-meer-als-ort-fuer-freiheit-und-abenteuer"
+      },
+      {
+        "id": "das-moma-4762",
+        "title": "Das MoMA",
+        "folder": "das-moma-4762"
+      },
+      {
+        "id": "das-museum-der-unschuld-von-orhan-pamuk-2008-2799",
+        "title": "Das Museum der Unschuld von Orhan Pamuk (2008)",
+        "folder": "das-museum-der-unschuld-von-orhan-pamuk-2008-2799"
+      }
+    ]
+  },
+  "europe-general-panoramawelten-teil-5": {
+    "slug": "europe-general-panoramawelten-teil-5",
+    "title": "Europa: Städte, Metropolen & Landschaften (Teil 5)",
+    "category": "Europa & Die EU",
+    "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
+    "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
+    "keyPoints": [
+          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+    ],
+    "exercises": [
+      {
+        "id": "das-museumsufer-in-frankfurt",
+        "title": "Das Museumsufer in Frankfurt",
+        "folder": "das-museumsufer-in-frankfurt"
+      },
+      {
+        "id": "das-norddeutsche-tiefland",
+        "title": "Das Norddeutsche Tiefland",
+        "folder": "das-norddeutsche-tiefland"
+      },
+      {
+        "id": "das-oktoberfest-in-muenchen",
+        "title": "Das Oktoberfest in München",
+        "folder": "das-oktoberfest-in-muenchen"
+      },
+      {
+        "id": "das-pfingstfest-2-6563",
+        "title": "Das Pfingstfest",
+        "folder": "das-pfingstfest-2-6563"
+      },
+      {
+        "id": "das-politische-system-deutschlands",
+        "title": "Das politische System Deutschlands",
+        "folder": "das-politische-system-deutschlands"
+      },
+      {
+        "id": "das-reichstagsgebaeude-in-berlin",
+        "title": "Das Reichstagsgebäude in Berlin",
+        "folder": "das-reichstagsgebaeude-in-berlin"
+      },
+      {
+        "id": "das-vogtland-eine-region-mit-geschichte-und-natur",
+        "title": "Das Vogtland - Eine Region mit Geschichte und Natur",
+        "folder": "das-vogtland-eine-region-mit-geschichte-und-natur"
+      },
+      {
+        "id": "das-werdenfelser-land",
+        "title": "Das Werdenfelser Land",
+        "folder": "das-werdenfelser-land"
+      },
+      {
+        "id": "david-livingstone-2314",
+        "title": "David Livingstone",
+        "folder": "david-livingstone-2314"
+      },
+      {
+        "id": "deadlocks-als-stillstand-in-computersystemen",
+        "title": "Deadlocks als Stillstand in Computersystemen",
+        "folder": "deadlocks-als-stillstand-in-computersystemen"
+      },
+      {
+        "id": "deeskalationsstrategien-in-foren-und-kommentaren",
+        "title": "Deeskalationsstrategien in Foren und Kommentaren",
+        "folder": "deeskalationsstrategien-in-foren-und-kommentaren"
+      },
+      {
+        "id": "demons-imagine-dragons-996",
+        "title": "Demons (Imagine Dragons)",
+        "folder": "demons-imagine-dragons-996"
+      },
+      {
+        "id": "der-ammersee",
+        "title": "Der Ammersee",
+        "folder": "der-ammersee"
+      },
+      {
+        "id": "der-arabische-fruhling-2317",
+        "title": "Der Arabische Frühling",
+        "folder": "der-arabische-fruhling-2317"
+      },
+      {
+        "id": "der-aschermittwoch-2-6556",
+        "title": "Der Aschermittwoch",
+        "folder": "der-aschermittwoch-2-6556"
+      }
+    ]
+  },
+  "europe-general-panoramawelten-teil-6": {
+    "slug": "europe-general-panoramawelten-teil-6",
+    "title": "Europa: Städte, Metropolen & Landschaften (Teil 6)",
+    "category": "Europa & Die EU",
+    "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
+    "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
+    "keyPoints": [
+          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+    ],
+    "exercises": [
+      {
+        "id": "der-bischof-hirtendienst-in-der-diozese-2-6554",
+        "title": "Der Bischof - Hirtendienst in der Diözese",
+        "folder": "der-bischof-hirtendienst-in-der-diozese-2-6554"
+      },
+      {
+        "id": "der-bolschewismus-2318",
+        "title": "Der Bolschewismus",
+        "folder": "der-bolschewismus-2318"
+      },
+      {
+        "id": "der-botanische-garten-berlin",
+        "title": "Der Botanische Garten Berlin",
+        "folder": "der-botanische-garten-berlin"
+      },
+      {
+        "id": "der-deutsche-fussball-bund-dfb",
+        "title": "Der Deutsche Fußball-Bund (DFB)",
+        "folder": "der-deutsche-fussball-bund-dfb"
+      },
+      {
+        "id": "der-diakon-dienst-am-nachsten-2-6553",
+        "title": "Der Diakon - Dienst am Nächsten",
+        "folder": "der-diakon-dienst-am-nachsten-2-6553"
+      },
+      {
+        "id": "der-dortmund-ems-kanal",
+        "title": "Der Dortmund-Ems-Kanal",
+        "folder": "der-dortmund-ems-kanal"
+      },
+      {
+        "id": "der-dresdner-zwinger",
+        "title": "Der Dresdner Zwinger",
+        "folder": "der-dresdner-zwinger"
+      },
+      {
+        "id": "der-einfluss-indigener-kulturen-auf-die-geographie-amerikas-5441",
+        "title": "Der Einfluss indigener Kulturen auf die Geographie Amerikas",
+        "folder": "der-einfluss-indigener-kulturen-auf-die-geographie-amerikas-5441"
+      },
+      {
+        "id": "der-einfluss-von-himalaya-und-wusten-auf-die-asiatische-geographie-5443",
+        "title": "Der Einfluss von Himalaya und Wüsten auf die asiatische Geographie",
+        "folder": "der-einfluss-von-himalaya-und-wusten-auf-die-asiatische-geographie-5443"
+      },
+      {
+        "id": "der-einfluss-von-musik-auf-schriftsteller",
+        "title": "Der Einfluss von Musik auf Schriftsteller",
+        "folder": "der-einfluss-von-musik-auf-schriftsteller"
+      },
+      {
+        "id": "der-eurotunnel-2024",
+        "title": "Der Eurotunnel",
+        "folder": "der-eurotunnel-2024"
+      },
+      {
+        "id": "der-flughafen-muenchen",
+        "title": "Der Flughafen München",
+        "folder": "der-flughafen-muenchen"
+      },
+      {
+        "id": "der-fotoapparat-5262",
+        "title": "Der Fotoapparat",
+        "folder": "der-fotoapparat-5262"
+      },
+      {
+        "id": "der-gregorianische-und-der-julianische-kalender-2-6550",
+        "title": "Der gregorianische und der julianische Kalender",
+        "folder": "der-gregorianische-und-der-julianische-kalender-2-6550"
+      },
+      {
+        "id": "der-grosse-arber",
+        "title": "Der Große Arber",
+        "folder": "der-grosse-arber"
+      }
+    ]
+  },
+  "europe-general-panoramawelten-teil-7": {
+    "slug": "europe-general-panoramawelten-teil-7",
+    "title": "Europa: Städte, Metropolen & Landschaften (Teil 7)",
+    "category": "Europa & Die EU",
+    "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
+    "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
+    "keyPoints": [
+          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+    ],
+    "exercises": [
+      {
+        "id": "der-hamburger-hafen",
+        "title": "Der Hamburger Hafen",
+        "folder": "der-hamburger-hafen"
+      },
+      {
+        "id": "der-internationale-strafgerichtshof-3502",
+        "title": "Der internationale Strafgerichtshof",
+        "folder": "der-internationale-strafgerichtshof-3502"
+      },
+      {
+        "id": "der-jupiter-5263",
+        "title": "Der Jupiter",
+        "folder": "der-jupiter-5263"
+      },
+      {
+        "id": "der-kreuzweg-jesu-opfer-fur-die-menschheit-2421",
+        "title": "Der Kreuzweg - Jesu Opfer für die Menschheit",
+        "folder": "der-kreuzweg-jesu-opfer-fur-die-menschheit-2421"
+      },
+      {
+        "id": "der-mars-5265",
+        "title": "Der Mars",
+        "folder": "der-mars-5265"
+      },
+      {
+        "id": "der-mensch-im-zentrum-technologischer-entwicklung",
+        "title": "Der Mensch im Zentrum technologischer Entwicklung",
+        "folder": "der-mensch-im-zentrum-technologischer-entwicklung"
+      },
+      {
+        "id": "der-merkantilismus-744",
+        "title": "Der Merkantilismus",
+        "folder": "der-merkantilismus-744"
+      },
+      {
+        "id": "der-merkur-5266",
+        "title": "Der Merkur",
+        "folder": "der-merkur-5266"
+      },
+      {
+        "id": "der-mond-2-5268",
+        "title": "Der Mond",
+        "folder": "der-mond-2-5268"
+      },
+      {
+        "id": "der-mond-und-die-monate-2044",
+        "title": "Der Mond und die Monate",
+        "folder": "der-mond-und-die-monate-2044"
+      },
+      {
+        "id": "der-nationalismus-2922",
+        "title": "Der Nationalismus",
+        "folder": "der-nationalismus-2922"
+      },
+      {
+        "id": "der-neptun-5269",
+        "title": "Der Neptun",
+        "folder": "der-neptun-5269"
+      },
+      {
+        "id": "der-pazifische-feuerring-2036",
+        "title": "Der Pazifische Feuerring",
+        "folder": "der-pazifische-feuerring-2036"
+      },
+      {
+        "id": "der-phoenix-see-in-dortmund",
+        "title": "Der Phoenix-See in Dortmund",
+        "folder": "der-phoenix-see-in-dortmund"
+      },
+      {
+        "id": "der-saturn-5270",
+        "title": "Der Saturn",
+        "folder": "der-saturn-5270"
+      }
+    ]
+  },
+  "europe-general-panoramawelten-teil-8": {
+    "slug": "europe-general-panoramawelten-teil-8",
+    "title": "Europa: Städte, Metropolen & Landschaften (Teil 8)",
+    "category": "Europa & Die EU",
+    "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
+    "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
+    "keyPoints": [
+          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+    ],
+    "exercises": [
+      {
+        "id": "der-signal-iduna-park-in-dortmund",
+        "title": "Der Signal Iduna Park in Dortmund",
+        "folder": "der-signal-iduna-park-in-dortmund"
+      },
+      {
+        "id": "der-starnberger-see",
+        "title": "Der Starnberger See",
+        "folder": "der-starnberger-see"
+      },
+      {
+        "id": "der-tag-der-deutschen-einheit",
+        "title": "Der Tag der Deutschen Einheit",
+        "folder": "der-tag-der-deutschen-einheit"
+      },
+      {
+        "id": "der-tertiaere-bildungsbereich-in-deutschland",
+        "title": "Der tertiäre Bildungsbereich in Deutschland",
+        "folder": "der-tertiaere-bildungsbereich-in-deutschland"
+      },
+      {
+        "id": "der-traum-vom-fliegen-5340",
+        "title": "Der Traum vom Fliegen",
+        "folder": "der-traum-vom-fliegen-5340"
+      },
+      {
+        "id": "der-un-sicherheitsrat-3505",
+        "title": "Der UN-Sicherheitsrat",
+        "folder": "der-un-sicherheitsrat-3505"
+      },
+      {
+        "id": "der-uranus-5274",
+        "title": "Der Uranus",
+        "folder": "der-uranus-5274"
+      },
+      {
+        "id": "der-weg-einer-e-mail-um-die-ganze-welt",
+        "title": "Der Weg einer E Mail um die ganze Welt",
+        "folder": "der-weg-einer-e-mail-um-die-ganze-welt"
+      },
+      {
+        "id": "detektiv-spiele-und-ihre-literarischen-vorbilder",
+        "title": "Detektiv-Spiele und ihre literarischen Vorbilder",
+        "folder": "detektiv-spiele-und-ihre-literarischen-vorbilder"
+      },
+      {
+        "id": "deutsche-dialekte",
+        "title": "Deutsche Dialekte",
+        "folder": "deutsche-dialekte"
+      },
+      {
+        "id": "deutsche-gebaerdensprache",
+        "title": "Deutsche Gebärdensprache",
+        "folder": "deutsche-gebaerdensprache"
+      },
+      {
+        "id": "dexter-gordon-1239",
+        "title": "Dexter Gordon",
+        "folder": "dexter-gordon-1239"
+      },
+      {
+        "id": "diakonie-und-caritas-6582",
+        "title": "Diakonie und Caritas",
+        "folder": "diakonie-und-caritas-6582"
+      },
+      {
+        "id": "dialog-und-verstandigung-zwischen-kulturen-4421",
+        "title": "Dialog und Verständigung zwischen Kulturen",
+        "folder": "dialog-und-verstandigung-zwischen-kulturen-4421"
+      },
+      {
+        "id": "diana-1334",
+        "title": "Diana",
+        "folder": "diana-1334"
+      }
+    ]
+  },
+  "europe-general-panoramawelten-teil-9": {
+    "slug": "europe-general-panoramawelten-teil-9",
+    "title": "Europa: Städte, Metropolen & Landschaften (Teil 9)",
+    "category": "Europa & Die EU",
+    "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
+    "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
+    "keyPoints": [
+          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+    ],
+    "exercises": [
+      {
+        "id": "die-aborogines-2066",
+        "title": "Die Aborogines",
+        "folder": "die-aborogines-2066"
+      },
+      {
+        "id": "die-althochdeutsche-sprache",
+        "title": "Die althochdeutsche Sprache",
+        "folder": "die-althochdeutsche-sprache"
+      },
+      {
+        "id": "die-bedeutung-von-integritat-in-der-fuhrung-2765",
+        "title": "Die Bedeutung von Integrität in der Führung",
+        "folder": "die-bedeutung-von-integritat-in-der-fuhrung-2765"
+      },
+      {
+        "id": "die-berlinale-ein-grosses-filmfestival",
+        "title": "Die Berlinale - Ein großes Filmfestival",
+        "folder": "die-berlinale-ein-grosses-filmfestival"
+      },
+      {
+        "id": "die-blaue-banane",
+        "title": "Die Blaue Banane",
+        "folder": "die-blaue-banane"
+      },
+      {
+        "id": "die-chroniken-von-narnia-glaube-und-abenteuer",
+        "title": "Die Chroniken von Narnia - Glaube und Abenteuer",
+        "folder": "die-chroniken-von-narnia-glaube-und-abenteuer"
+      },
+      {
+        "id": "die-daenische-minderheit-in-deutschland",
+        "title": "Die dänische Minderheit in Deutschland",
+        "folder": "die-daenische-minderheit-in-deutschland"
+      },
+      {
+        "id": "die-darstellung-von-flucht-und-heimatlosigkeit",
+        "title": "Die Darstellung von Flucht und Heimatlosigkeit",
+        "folder": "die-darstellung-von-flucht-und-heimatlosigkeit"
+      },
+      {
+        "id": "die-debatte-um-natur-vs-kultur-2769",
+        "title": "Die Debatte um Natur vs. Kultur",
+        "folder": "die-debatte-um-natur-vs-kultur-2769"
+      },
+      {
+        "id": "die-deutsche-maerchenstrasse",
+        "title": "Die Deutsche Märchenstraße",
+        "folder": "die-deutsche-maerchenstrasse"
+      },
+      {
+        "id": "die-deutsche-sprache",
+        "title": "Die deutsche Sprache",
+        "folder": "die-deutsche-sprache"
+      },
+      {
+        "id": "die-entstehung-der-erde-5343",
+        "title": "Die Entstehung der Erde",
+        "folder": "die-entstehung-der-erde-5343"
+      },
+      {
+        "id": "die-erde-5277",
+        "title": "Die Erde",
+        "folder": "die-erde-5277"
+      },
+      {
+        "id": "die-erde-dreht-sich-2045",
+        "title": "Die Erde dreht sich",
+        "folder": "die-erde-dreht-sich-2045"
+      },
+      {
+        "id": "die-festung-ehrenbreitstein",
+        "title": "Die Festung Ehrenbreitstein",
+        "folder": "die-festung-ehrenbreitstein"
+      }
+    ]
+  },
+  "europe-general-panoramawelten-teil-10": {
+    "slug": "europe-general-panoramawelten-teil-10",
+    "title": "Europa: Städte, Metropolen & Landschaften (Teil 10)",
+    "category": "Europa & Die EU",
+    "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
+    "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
+    "keyPoints": [
+          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+    ],
+    "exercises": [
+      {
+        "id": "die-frage-nach-der-natur-des-guten-2778",
+        "title": "Die Frage nach der Natur des Guten",
+        "folder": "die-frage-nach-der-natur-des-guten-2778"
+      },
+      {
+        "id": "die-funktion-der-lymphknoten-2117",
+        "title": "Die Funktion der Lymphknoten",
+        "folder": "die-funktion-der-lymphknoten-2117"
+      },
+      {
+        "id": "die-geburt-jesu-jesu-geburt-in-bethlehem-4587",
+        "title": "Die Geburt Jesu - Jesu Geburt in Bethlehem",
+        "folder": "die-geburt-jesu-jesu-geburt-in-bethlehem-4587"
+      },
+      {
+        "id": "die-geschichte-des-deutschen-films",
+        "title": "Die Geschichte des deutschen Films",
+        "folder": "die-geschichte-des-deutschen-films"
+      },
+      {
+        "id": "die-heldenreise-schritt-fuer-schritt-erklaert",
+        "title": "Die Heldenreise - Schritt für Schritt erklärt",
+        "folder": "die-heldenreise-schritt-fuer-schritt-erklaert"
+      },
+      {
+        "id": "die-herrenhaeuser-gaerten-in-hannover",
+        "title": "Die Herrenhäuser Gärten in Hannover",
+        "folder": "die-herrenhaeuser-gaerten-in-hannover"
+      },
+      {
+        "id": "die-inuit-2067",
+        "title": "Die Inuit",
+        "folder": "die-inuit-2067"
+      },
+      {
+        "id": "die-klaranlage-5154",
+        "title": "Die Kläranlage",
+        "folder": "die-klaranlage-5154"
+      },
+      {
+        "id": "die-kunst-der-uebersetzung-wenn-witze-verloren-gehen",
+        "title": "Die Kunst der Übersetzung - Wenn Witze verloren gehen",
+        "folder": "die-kunst-der-uebersetzung-wenn-witze-verloren-gehen"
+      },
+      {
+        "id": "die-lausitzer-neisse",
+        "title": "Die Lausitzer Neiße",
+        "folder": "die-lausitzer-neisse"
+      },
+      {
+        "id": "die-leiden-des-jungen-werther-der-erste-echte-hype",
+        "title": "Die Leiden des jungen Werther - Der erste echte Hype",
+        "folder": "die-leiden-des-jungen-werther-der-erste-echte-hype"
+      },
+      {
+        "id": "die-loreley-ein-felsen-mit-geschichte-und-sage",
+        "title": "Die Loreley - Ein Felsen mit Geschichte und Sage",
+        "folder": "die-loreley-ein-felsen-mit-geschichte-und-sage"
+      },
+      {
+        "id": "die-maga-bewegung-make-america-great-again-6606",
+        "title": "Die MAGA-Bewegung. Make America Great Again.",
+        "folder": "die-maga-bewegung-make-america-great-again-6606"
+      },
+      {
+        "id": "die-max-planck-gesellschaft",
+        "title": "Die Max-Planck-Gesellschaft",
+        "folder": "die-max-planck-gesellschaft"
+      },
+      {
+        "id": "die-natur-als-freund-und-feind",
+        "title": "Die Natur als Freund und Feind",
+        "folder": "die-natur-als-freund-und-feind"
+      }
+    ]
+  },
+  "europe-general-panoramawelten-teil-11": {
+    "slug": "europe-general-panoramawelten-teil-11",
+    "title": "Europa: Städte, Metropolen & Landschaften (Teil 11)",
+    "category": "Europa & Die EU",
+    "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
+    "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
+    "keyPoints": [
+          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+    ],
+    "exercises": [
+      {
+        "id": "die-nuernberger-burg",
+        "title": "Die Nürnberger Burg",
+        "folder": "die-nuernberger-burg"
+      },
+      {
+        "id": "die-oberlausitz-eine-besondere-region",
+        "title": "Die Oberlausitz - Eine besondere Region",
+        "folder": "die-oberlausitz-eine-besondere-region"
+      },
+      {
+        "id": "die-oecd-3516",
+        "title": "Die OECD",
+        "folder": "die-oecd-3516"
+      },
+      {
+        "id": "die-ostsee-ein-besonderes-meer",
+        "title": "Die Ostsee - Ein besonderes Meer",
+        "folder": "die-ostsee-ein-besonderes-meer"
+      },
+      {
+        "id": "die-polizei-in-deutschland",
+        "title": "Die Polizei in Deutschland",
+        "folder": "die-polizei-in-deutschland"
+      },
+      {
+        "id": "die-probe-399",
+        "title": "Die Probe",
+        "folder": "die-probe-399"
+      },
+      {
+        "id": "die-rolle-des-mentors-in-abenteuergeschichten",
+        "title": "Die Rolle des Mentors in Abenteuergeschichten",
+        "folder": "die-rolle-des-mentors-in-abenteuergeschichten"
+      },
+      {
+        "id": "die-rolle-von-smart-cities-in-der-urbanisierung-der-zukunft-5471",
+        "title": "Die Rolle von Smart Cities in der Urbanisierung der Zukunft",
+        "folder": "die-rolle-von-smart-cities-in-der-urbanisierung-der-zukunft-5471"
+      },
+      {
+        "id": "die-schule-der-magischen-tiere-das-erfolgsrezept",
+        "title": "Die Schule der magischen Tiere - Das Erfolgsrezept",
+        "folder": "die-schule-der-magischen-tiere-das-erfolgsrezept"
+      },
+      {
+        "id": "die-sonne-2278",
+        "title": "Die Sonne",
+        "folder": "die-sonne-2278"
+      },
+      {
+        "id": "die-sorben-ein-slawisches-volk-in-deutschland",
+        "title": "Die Sorben - ein slawisches Volk in Deutschland",
+        "folder": "die-sorben-ein-slawisches-volk-in-deutschland"
+      },
+      {
+        "id": "die-stadt-fuerth",
+        "title": "Die Stadt Fürth",
+        "folder": "die-stadt-fuerth"
+      },
+      {
+        "id": "die-stadt-hamm",
+        "title": "Die Stadt Hamm",
+        "folder": "die-stadt-hamm"
+      },
+      {
+        "id": "die-staedteregion-aachen",
+        "title": "Die Städteregion Aachen",
+        "folder": "die-staedteregion-aachen"
+      },
+      {
+        "id": "die-steinerne-bruecke-in-regensburg",
+        "title": "Die Steinerne Brücke in Regensburg",
+        "folder": "die-steinerne-bruecke-in-regensburg"
+      }
+    ]
+  },
+  "europe-general-panoramawelten-teil-12": {
+    "slug": "europe-general-panoramawelten-teil-12",
+    "title": "Europa: Städte, Metropolen & Landschaften (Teil 12)",
+    "category": "Europa & Die EU",
+    "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
+    "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
+    "keyPoints": [
+          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+    ],
+    "exercises": [
+      {
+        "id": "die-teuersten-buecher-der-welt",
+        "title": "Die teuersten Bücher der Welt",
+        "folder": "die-teuersten-buecher-der-welt"
+      },
+      {
+        "id": "die-titanic-2042",
+        "title": "Die Titanic",
+        "folder": "die-titanic-2042"
+      },
+      {
+        "id": "die-todesstrafe-2-3519",
+        "title": "Die Todesstrafe",
+        "folder": "die-todesstrafe-2-3519"
+      },
+      {
+        "id": "die-tribute-von-panem-wie-viel-realitaet-steckt-darin",
+        "title": "Die Tribute von Panem - Wie viel Realität steckt darin",
+        "folder": "die-tribute-von-panem-wie-viel-realitaet-steckt-darin"
+      },
+      {
+        "id": "die-venus-5286",
+        "title": "Die Venus",
+        "folder": "die-venus-5286"
+      },
+      {
+        "id": "die-vor-und-nachteile-einer-gesamtschule-3521",
+        "title": "Die Vor- und Nachteile einer Gesamtschule",
+        "folder": "die-vor-und-nachteile-einer-gesamtschule-3521"
+      },
+      {
+        "id": "die-walhalla-ein-besonderes-denkmal",
+        "title": "Die Walhalla - Ein besonderes Denkmal",
+        "folder": "die-walhalla-ein-besonderes-denkmal"
+      },
+      {
+        "id": "die-wandlung-das-ist-mein-leib-6625",
+        "title": "Die Wandlung - „Das ist mein Leib…“",
+        "folder": "die-wandlung-das-ist-mein-leib-6625"
+      },
+      {
+        "id": "die-werra-ein-fluss-in-deutschland",
+        "title": "Die Werra - Ein Fluss in Deutschland",
+        "folder": "die-werra-ein-fluss-in-deutschland"
+      },
+      {
+        "id": "die-wto-3523",
+        "title": "Die WTO",
+        "folder": "die-wto-3523"
+      },
+      {
+        "id": "die-zauberflote-3258",
+        "title": "Die Zauberflöte",
+        "folder": "die-zauberflote-3258"
+      },
+      {
+        "id": "die-zeitzonen-der-erde-2048",
+        "title": "Die Zeitzonen der Erde",
+        "folder": "die-zeitzonen-der-erde-2048"
+      },
+      {
+        "id": "die-zerlegung-von-wasser-5155",
+        "title": "Die Zerlegung von Wasser",
+        "folder": "die-zerlegung-von-wasser-5155"
+      },
+      {
+        "id": "die-zitadelle-petersberg-in-erfurt",
+        "title": "Die Zitadelle Petersberg in Erfurt",
+        "folder": "die-zitadelle-petersberg-in-erfurt"
+      },
+      {
+        "id": "digital-detox-warum-papierbuecher-beim-entspannen-helfen",
+        "title": "Digital Detox - Warum Papierbücher beim Entspannen helfen",
+        "folder": "digital-detox-warum-papierbuecher-beim-entspannen-helfen"
+      }
+    ]
+  },
+  "europe-general-panoramawelten-teil-13": {
+    "slug": "europe-general-panoramawelten-teil-13",
+    "title": "Europa: Städte, Metropolen & Landschaften (Teil 13)",
+    "category": "Europa & Die EU",
+    "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
+    "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
+    "keyPoints": [
+          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+    ],
+    "exercises": [
+      {
+        "id": "digitale-bibliotheken-alle-buecher-in-einer-app",
+        "title": "Digitale Bibliotheken - Alle Bücher in einer App",
+        "folder": "digitale-bibliotheken-alle-buecher-in-einer-app"
+      },
+      {
+        "id": "digitale-infrastruktur-und-ihre-bedeutung-fur-globale-logistik-5481",
+        "title": "Digitale Infrastruktur und ihre Bedeutung für globale Logistik",
+        "folder": "digitale-infrastruktur-und-ihre-bedeutung-fur-globale-logistik-5481"
+      },
+      {
+        "id": "digitalisierung-982",
+        "title": "Digitalisierung",
+        "folder": "digitalisierung-982"
+      },
+      {
+        "id": "diplomatische-beziehungen-3525",
+        "title": "Diplomatische Beziehungen",
+        "folder": "diplomatische-beziehungen-3525"
+      },
+      {
+        "id": "divergent-muss-man-sich-immer-fuer-eine-gruppe-entscheiden",
+        "title": "Divergent - Muss man sich immer für eine Gruppe entscheiden",
+        "folder": "divergent-muss-man-sich-immer-fuer-eine-gruppe-entscheiden"
+      },
+      {
+        "id": "don-von-horvath-4624",
+        "title": "Ödön von Horváth",
+        "folder": "don-von-horvath-4624"
+      },
+      {
+        "id": "dortmund-1518",
+        "title": "Dortmund",
+        "folder": "dortmund-1518"
+      },
+      {
+        "id": "doula-5993",
+        "title": "Doula",
+        "folder": "doula-5993"
+      },
+      {
+        "id": "dresden-1514",
+        "title": "Dresden",
+        "folder": "dresden-1514"
+      },
+      {
+        "id": "dueren-eine-stadt-mit-geschichte-und-kultur",
+        "title": "Düren - Eine Stadt mit Geschichte und Kultur",
+        "folder": "dueren-eine-stadt-mit-geschichte-und-kultur"
+      },
+      {
+        "id": "duisburg-2-1615",
+        "title": "Duisburg",
+        "folder": "duisburg-2-1615"
+      },
+      {
+        "id": "duren-1616",
+        "title": "Düren",
+        "folder": "duren-1616"
+      },
+      {
+        "id": "dusseldorf-1433",
+        "title": "Düsseldorf",
+        "folder": "dusseldorf-1433"
+      },
+      {
+        "id": "e-t-a-hoffmann-2-4603",
+        "title": "E. T. A. Hoffmann",
+        "folder": "e-t-a-hoffmann-2-4603"
+      },
+      {
+        "id": "e-t-a-hoffmann-der-sandmann-3251",
+        "title": "E.T.A. Hoffmann - Der Sandmann",
+        "folder": "e-t-a-hoffmann-der-sandmann-3251"
+      }
+    ]
+  },
+  "europe-general-panoramawelten-teil-14": {
+    "slug": "europe-general-panoramawelten-teil-14",
+    "title": "Europa: Städte, Metropolen & Landschaften (Teil 14)",
+    "category": "Europa & Die EU",
+    "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
+    "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
+    "keyPoints": [
+          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+    ],
+    "exercises": [
+      {
+        "id": "e-t-a-hoffmann-die-elixiere-des-teufels-2-3414",
+        "title": "E. T. A. Hoffmann - Die Elixiere des Teufels",
+        "folder": "e-t-a-hoffmann-die-elixiere-des-teufels-2-3414"
+      },
+      {
+        "id": "eberswalde-1617",
+        "title": "Eberswalde",
+        "folder": "eberswalde-1617"
+      },
+      {
+        "id": "effi-briest-und-die-strengen-regeln-der-gesellschaft",
+        "title": "Effi Briest und die strengen Regeln der Gesellschaft",
+        "folder": "effi-briest-und-die-strengen-regeln-der-gesellschaft"
+      },
+      {
+        "id": "einfluss-des-sputnik-schocks-auf-die-entstehung-des-arpanet",
+        "title": "Einfluss des Sputnik Schocks auf die Entstehung des ARPANET",
+        "folder": "einfluss-des-sputnik-schocks-auf-die-entstehung-des-arpanet"
+      },
+      {
+        "id": "einsamkeit-als-thema-in-neuen-buechern",
+        "title": "Einsamkeit als Thema in neuen Büchern",
+        "folder": "einsamkeit-als-thema-in-neuen-buechern"
+      },
+      {
+        "id": "eisberge-2041",
+        "title": "Eisberge",
+        "folder": "eisberge-2041"
+      },
+      {
+        "id": "eisenach-1620",
+        "title": "Eisenach",
+        "folder": "eisenach-1620"
+      },
+      {
+        "id": "ekurhuleni-5996",
+        "title": "Ekurhuleni",
+        "folder": "ekurhuleni-5996"
+      },
+      {
+        "id": "elmshorn-1622",
+        "title": "Elmshorn",
+        "folder": "elmshorn-1622"
+      },
+      {
+        "id": "elternschaft-und-erziehung-2710",
+        "title": "Elternschaft und Erziehung",
+        "folder": "elternschaft-und-erziehung-2710"
+      },
+      {
+        "id": "emilia-galotti-und-die-macht-der-fuersten",
+        "title": "Emilia Galotti und die Macht der Fürsten",
+        "folder": "emilia-galotti-und-die-macht-der-fuersten"
+      },
+      {
+        "id": "emotionen-2-3240",
+        "title": "Emotionen",
+        "folder": "emotionen-2-3240"
+      },
+      {
+        "id": "entwicklungshilfe-3529",
+        "title": "Entwicklungshilfe",
+        "folder": "entwicklungshilfe-3529"
+      },
+      {
+        "id": "entwicklungslander-3530",
+        "title": "Entwicklungsländer",
+        "folder": "entwicklungslander-3530"
+      },
+      {
+        "id": "erfurt-1489",
+        "title": "Erfurt",
+        "folder": "erfurt-1489"
+      }
+    ]
+  },
+  "europe-general-panoramawelten-teil-15": {
+    "slug": "europe-general-panoramawelten-teil-15",
+    "title": "Europa: Städte, Metropolen & Landschaften (Teil 15)",
+    "category": "Europa & Die EU",
+    "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
+    "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
+    "keyPoints": [
+          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+    ],
+    "exercises": [
+      {
+        "id": "erich-kaestner-warum-seine-geschichten-zeitlos-sind",
+        "title": "Erich Kästner - Warum seine Geschichten zeitlos sind",
+        "folder": "erich-kaestner-warum-seine-geschichten-zeitlos-sind"
+      },
+      {
+        "id": "erkennen-gefaehrlicher-websites-und-e-mails",
+        "title": "Erkennen gefährlicher Websites und E Mails",
+        "folder": "erkennen-gefaehrlicher-websites-und-e-mails"
+      },
+      {
+        "id": "erkennen-und-beheben-einfacher-technischer-probleme",
+        "title": "Erkennen und Beheben einfacher technischer Probleme",
+        "folder": "erkennen-und-beheben-einfacher-technischer-probleme"
+      },
+      {
+        "id": "erklarvideo-statistik-mittelwerte-und-boxplot-mit-fragen-186",
+        "title": "Hauptstädte Europas Auswahlübung",
+        "folder": "erklarvideo-statistik-mittelwerte-und-boxplot-mit-fragen-186"
+      },
+      {
+        "id": "erlangen-1461",
+        "title": "Erlangen",
+        "folder": "erlangen-1461"
+      },
+      {
+        "id": "eros-1250",
+        "title": "Eros",
+        "folder": "eros-1250"
+      },
+      {
+        "id": "erstellen-einfacher-augmented-reality-erlebnisse",
+        "title": "Erstellen einfacher Augmented Reality Erlebnisse",
+        "folder": "erstellen-einfacher-augmented-reality-erlebnisse"
+      },
+      {
+        "id": "erstellung-und-verwaltung-sicherer-passwoerter",
+        "title": "Erstellung und Verwaltung sicherer Passwörter",
+        "folder": "erstellung-und-verwaltung-sicherer-passwoerter"
+      },
+      {
+        "id": "erstellung-von-nicht-linearen-geschichten",
+        "title": "Erstellung von nicht linearen Geschichten",
+        "folder": "erstellung-von-nicht-linearen-geschichten"
+      },
+      {
+        "id": "esim-und-die-abloesung-der-physischen-plastikkarte",
+        "title": "eSIM und die Ablösung der physischen Plastikkarte",
+        "folder": "esim-und-die-abloesung-der-physischen-plastikkarte"
+      },
+      {
+        "id": "essen-1517",
+        "title": "Essen",
+        "folder": "essen-1517"
+      },
+      {
+        "id": "faded-alan-walker-997",
+        "title": "Faded (Alan Walker)",
+        "folder": "faded-alan-walker-997"
+      },
+      {
+        "id": "falligkeitsdarlehen-2881",
+        "title": "Fälligkeitsdarlehen",
+        "folder": "falligkeitsdarlehen-2881"
+      },
+      {
+        "id": "farben-2-808",
+        "title": "Farben",
+        "folder": "farben-2-808"
+      },
+      {
+        "id": "farbmischung-5293",
+        "title": "Farbmischung",
+        "folder": "farbmischung-5293"
+      }
+    ]
+  },
+  "europe-general-panoramawelten-teil-16": {
+    "slug": "europe-general-panoramawelten-teil-16",
+    "title": "Europa: Städte, Metropolen & Landschaften (Teil 16)",
+    "category": "Europa & Die EU",
+    "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
+    "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
+    "keyPoints": [
+          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+    ],
+    "exercises": [
+      {
+        "id": "faunus-1335",
+        "title": "Faunus",
+        "folder": "faunus-1335"
+      },
+      {
+        "id": "feedback-3181",
+        "title": "Feedback",
+        "folder": "feedback-3181"
+      },
+      {
+        "id": "fehler-sind-okay-warum-scheitern-zum-lernen-gehort-3149",
+        "title": "Fehler sind okay - Warum Scheitern zum Lernen gehört",
+        "folder": "fehler-sind-okay-warum-scheitern-zum-lernen-gehort-3149"
+      },
+      {
+        "id": "feminismus-in-maerchen-alte-rollen-neu-gedacht",
+        "title": "Feminismus in Märchen - Alte Rollen neu gedacht",
+        "folder": "feminismus-in-maerchen-alte-rollen-neu-gedacht"
+      },
+      {
+        "id": "forderung-der-gesundheit-5795",
+        "title": "Förderung der Gesundheit",
+        "folder": "forderung-der-gesundheit-5795"
+      },
+      {
+        "id": "franz-kafka-3-4606",
+        "title": "Franz Kafka",
+        "folder": "franz-kafka-3-4606"
+      },
+      {
+        "id": "freiburg-1637",
+        "title": "Freiburg",
+        "folder": "freiburg-1637"
+      },
+      {
+        "id": "freiburg-im-breisgau",
+        "title": "Freiburg im Breisgau",
+        "folder": "freiburg-im-breisgau"
+      },
+      {
+        "id": "friedrich-durrenmatt-2-4607",
+        "title": "Friedrich Dürrenmatt",
+        "folder": "friedrich-durrenmatt-2-4607"
+      },
+      {
+        "id": "friedrich-durrenmatt-der-besuch-der-alten-dame-3279",
+        "title": "Friedrich Dürrenmatt - Der Besuch der alten Dame",
+        "folder": "friedrich-durrenmatt-der-besuch-der-alten-dame-3279"
+      },
+      {
+        "id": "friedrichshafen-1638",
+        "title": "Friedrichshafen",
+        "folder": "friedrichshafen-1638"
+      },
+      {
+        "id": "fruhwarnsysteme-technologien-zur-katastrophenvorhersage-5492",
+        "title": "Frühwarnsysteme - Technologien zur Katastrophenvorhersage",
+        "folder": "fruhwarnsysteme-technologien-zur-katastrophenvorhersage-5492"
+      },
+      {
+        "id": "frustration-3179",
+        "title": "Frustration",
+        "folder": "frustration-3179"
+      },
+      {
+        "id": "fuhrung-und-management-2715",
+        "title": "Führung und Management",
+        "folder": "fuhrung-und-management-2715"
+      },
+      {
+        "id": "fuzhou-5999",
+        "title": "Fuzhou",
+        "folder": "fuzhou-5999"
+      }
+    ]
+  },
+  "europe-general-panoramawelten-teil-17": {
+    "slug": "europe-general-panoramawelten-teil-17",
+    "title": "Europa: Städte, Metropolen & Landschaften (Teil 17)",
+    "category": "Europa & Die EU",
+    "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
+    "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
+    "keyPoints": [
+          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+    ],
+    "exercises": [
+      {
+        "id": "gabenbereitung-zeichen-der-hingabe-6642",
+        "title": "Gabenbereitung - Zeichen der Hingabe",
+        "folder": "gabenbereitung-zeichen-der-hingabe-6642"
+      },
+      {
+        "id": "gamification-und-die-nutzung-von-spielelementen-im-alltag",
+        "title": "Gamification und die Nutzung von Spielelementen im Alltag",
+        "folder": "gamification-und-die-nutzung-von-spielelementen-im-alltag"
+      },
+      {
+        "id": "ganzhou-6000",
+        "title": "Ganzhou",
+        "folder": "ganzhou-6000"
+      },
+      {
+        "id": "gausssche-normalverteilung-3269",
+        "title": "Gausssche Normalverteilung",
+        "folder": "gausssche-normalverteilung-3269"
+      },
+      {
+        "id": "gazipur-6001",
+        "title": "Gazipur",
+        "folder": "gazipur-6001"
+      },
+      {
+        "id": "gdynia-1643",
+        "title": "Gdynia",
+        "folder": "gdynia-1643"
+      },
+      {
+        "id": "geb-1261",
+        "title": "Geb",
+        "folder": "geb-1261"
+      },
+      {
+        "id": "gebetsgesten-2-6759",
+        "title": "Gebetsgesten",
+        "folder": "gebetsgesten-2-6759"
+      },
+      {
+        "id": "gemeinden-in-deutschland",
+        "title": "Gemeinden in Deutschland",
+        "folder": "gemeinden-in-deutschland"
+      },
+      {
+        "id": "gemeinwohl-oekonomie-als-alternatives-modell",
+        "title": "Gemeinwohl Ökonomie als alternatives Modell",
+        "folder": "gemeinwohl-oekonomie-als-alternatives-modell"
+      },
+      {
+        "id": "georg-buchner-woyzeck-3096",
+        "title": "Georg Büchner - Woyzeck",
+        "folder": "georg-buchner-woyzeck-3096"
+      },
+      {
+        "id": "geschaeftsmodelle-der-verhaltensvorhersage",
+        "title": "Geschäftsmodelle der Verhaltensvorhersage",
+        "folder": "geschaeftsmodelle-der-verhaltensvorhersage"
+      },
+      {
+        "id": "geschichte-des-film-5394",
+        "title": "Geschichte des Film",
+        "folder": "geschichte-des-film-5394"
+      },
+      {
+        "id": "gesichtserkennung-durch-infrarotpunkte-und-3d-scans",
+        "title": "Gesichtserkennung durch Infrarotpunkte und 3D Scans",
+        "folder": "gesichtserkennung-durch-infrarotpunkte-und-3d-scans"
+      },
+      {
+        "id": "gestaltung-von-e-mails-und-digitalen-nachrichten",
+        "title": "Gestaltung von E Mails und digitalen Nachrichten",
+        "folder": "gestaltung-von-e-mails-und-digitalen-nachrichten"
+      }
+    ]
+  },
+  "europe-general-panoramawelten-teil-18": {
+    "slug": "europe-general-panoramawelten-teil-18",
+    "title": "Europa: Städte, Metropolen & Landschaften (Teil 18)",
+    "category": "Europa & Die EU",
+    "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
+    "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
+    "keyPoints": [
+          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+    ],
+    "exercises": [
+      {
+        "id": "gestaltung-von-fehlermeldungen-die-dem-nutzer-helfen",
+        "title": "Gestaltung von Fehlermeldungen die dem Nutzer helfen",
+        "folder": "gestaltung-von-fehlermeldungen-die-dem-nutzer-helfen"
+      },
+      {
+        "id": "gestaltung-von-informationsgrafiken-und-mindmaps",
+        "title": "Gestaltung von Informationsgrafiken und Mindmaps",
+        "folder": "gestaltung-von-informationsgrafiken-und-mindmaps"
+      },
+      {
+        "id": "gewasser-1005",
+        "title": "Gewässer",
+        "folder": "gewasser-1005"
+      },
+      {
+        "id": "giza-6002",
+        "title": "Giza",
+        "folder": "giza-6002"
+      },
+      {
+        "id": "goettingen-eine-stadt-mit-geschichte-und-wissenschaft",
+        "title": "Göttingen - Eine Stadt mit Geschichte und Wissenschaft",
+        "folder": "goettingen-eine-stadt-mit-geschichte-und-wissenschaft"
+      },
+      {
+        "id": "gossau-1651",
+        "title": "Gossau",
+        "folder": "gossau-1651"
+      },
+      {
+        "id": "gottingen-1652",
+        "title": "Göttingen",
+        "folder": "gottingen-1652"
+      },
+      {
+        "id": "graphic-novels-ueber-ernste-geschichtliche-themen",
+        "title": "Graphic Novels über ernste geschichtliche Themen",
+        "folder": "graphic-novels-ueber-ernste-geschichtliche-themen"
+      },
+      {
+        "id": "green-it-1264",
+        "title": "Green IT",
+        "folder": "green-it-1264"
+      },
+      {
+        "id": "groesbritannien-1006",
+        "title": "Großbritannien",
+        "folder": "groesbritannien-1006"
+      },
+      {
+        "id": "groese-personlichkeiten-der-geschichte-4415",
+        "title": "Große Persönlichkeiten der Geschichte",
+        "folder": "groese-personlichkeiten-der-geschichte-4415"
+      },
+      {
+        "id": "gronland-2-4653",
+        "title": "Grönland",
+        "folder": "gronland-2-4653"
+      },
+      {
+        "id": "grosse-skandale-um-beruehmte-buecher",
+        "title": "Große Skandale um berühmte Bücher",
+        "folder": "grosse-skandale-um-beruehmte-buecher"
+      },
+      {
+        "id": "grundlagen-der-app-entwicklung-fuer-smartphones",
+        "title": "Grundlagen der App Entwicklung für Smartphones",
+        "folder": "grundlagen-der-app-entwicklung-fuer-smartphones"
+      },
+      {
+        "id": "grundlagen-der-ptbs-5926",
+        "title": "Grundlagen der PTBS",
+        "folder": "grundlagen-der-ptbs-5926"
+      }
+    ]
+  },
+  "europe-general-panoramawelten-teil-19": {
+    "slug": "europe-general-panoramawelten-teil-19",
+    "title": "Europa: Städte, Metropolen & Landschaften (Teil 19)",
+    "category": "Europa & Die EU",
+    "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
+    "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
+    "keyPoints": [
+          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+    ],
+    "exercises": [
+      {
+        "id": "grundlagen-der-spurensuche-auf-datentraegern",
+        "title": "Grundlagen der Spurensuche auf Datenträgern",
+        "folder": "grundlagen-der-spurensuche-auf-datentraegern"
+      },
+      {
+        "id": "grundlagen-des-behaviorismus-5931",
+        "title": "Grundlagen des Behaviorismus",
+        "folder": "grundlagen-des-behaviorismus-5931"
+      },
+      {
+        "id": "guiyang-6005",
+        "title": "Guiyang",
+        "folder": "guiyang-6005"
+      },
+      {
+        "id": "gyroskope-und-die-stabilisierung-von-bildern-und-videos",
+        "title": "Gyroskope und die Stabilisierung von Bildern und Videos",
+        "folder": "gyroskope-und-die-stabilisierung-von-bildern-und-videos"
+      },
+      {
+        "id": "hagen-1662",
+        "title": "Hagen",
+        "folder": "hagen-1662"
+      },
+      {
+        "id": "haikou-6007",
+        "title": "Haikou",
+        "folder": "haikou-6007"
+      },
+      {
+        "id": "hamburg-2-1428",
+        "title": "zu bearbeiten",
+        "folder": "hamburg-2-1428"
+      },
+      {
+        "id": "hamm-1485",
+        "title": "Hamm",
+        "folder": "hamm-1485"
+      },
+      {
+        "id": "handan-6009",
+        "title": "Handan",
+        "folder": "handan-6009"
+      },
+      {
+        "id": "hannover-1513",
+        "title": "Hannover",
+        "folder": "hannover-1513"
+      },
+      {
+        "id": "haptisches-feedback-und-die-simulation-von-tasten-durch-vibration",
+        "title": "Haptisches Feedback und die Simulation von Tasten durch Vibration",
+        "folder": "haptisches-feedback-und-die-simulation-von-tasten-durch-vibration"
+      },
+      {
+        "id": "hathor-1269",
+        "title": "Hathor",
+        "folder": "hathor-1269"
+      },
+      {
+        "id": "haus-der-erorterung-3295",
+        "title": "Haus der Erörterung",
+        "folder": "haus-der-erorterung-3295"
+      },
+      {
+        "id": "helden-und-antihelden-wen-wir-lieber-moegen",
+        "title": "Helden und Antihelden - Wen wir lieber mögen",
+        "folder": "helden-und-antihelden-wen-wir-lieber-moegen"
+      },
+      {
+        "id": "helsinki-1667",
+        "title": "Helsinki",
+        "folder": "helsinki-1667"
+      }
+    ]
+  },
+  "europe-general-panoramawelten-teil-20": {
+    "slug": "europe-general-panoramawelten-teil-20",
+    "title": "Europa: Städte, Metropolen & Landschaften (Teil 20)",
+    "category": "Europa & Die EU",
+    "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
+    "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
+    "keyPoints": [
+          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+    ],
+    "exercises": [
+      {
+        "id": "hennef-1668",
+        "title": "Hennef",
+        "folder": "hennef-1668"
+      },
+      {
+        "id": "hephaistos-1272",
+        "title": "Hephaistos",
+        "folder": "hephaistos-1272"
+      },
+      {
+        "id": "hera-1273",
+        "title": "Hera",
+        "folder": "hera-1273"
+      },
+      {
+        "id": "herausforderung-der-optimalen-routenplanung",
+        "title": "Herausforderung der optimalen Routenplanung",
+        "folder": "herausforderung-der-optimalen-routenplanung"
+      },
+      {
+        "id": "herausforderungen-bei-der-leitung-von-remote-teams",
+        "title": "Herausforderungen bei der Leitung von Remote Teams",
+        "folder": "herausforderungen-bei-der-leitung-von-remote-teams"
+      },
+      {
+        "id": "herausheben-gemeinsamer-faktoren-92",
+        "title": "Herausheben gemeinsamer Faktoren",
+        "folder": "herausheben-gemeinsamer-faktoren-92"
+      },
+      {
+        "id": "herkunft-des-begriffs-bug-durch-eine-echte-motte",
+        "title": "Herkunft des Begriffs Bug durch eine echte Motte",
+        "folder": "herkunft-des-begriffs-bug-durch-eine-echte-motte"
+      },
+      {
+        "id": "herstellungsprozess-vom-sand-zum-mikrochip",
+        "title": "Herstellungsprozess vom Sand zum Mikrochip",
+        "folder": "herstellungsprozess-vom-sand-zum-mikrochip"
+      },
+      {
+        "id": "herzogenaurach-1669",
+        "title": "Herzogenaurach",
+        "folder": "herzogenaurach-1669"
+      },
+      {
+        "id": "hestia-1276",
+        "title": "Hestia",
+        "folder": "hestia-1276"
+      },
+      {
+        "id": "hieronimus-bosch-1372",
+        "title": "Hieronimus Bosch",
+        "folder": "hieronimus-bosch-1372"
+      },
+      {
+        "id": "hochkulturen-3368",
+        "title": "Hochkulturen",
+        "folder": "hochkulturen-3368"
+      },
+      {
+        "id": "hochwasserschutz-technische-und-naturliche-maesnahmen-5500",
+        "title": "Hochwasserschutz - Technische und natürliche Maßnahmen",
+        "folder": "hochwasserschutz-technische-und-naturliche-maesnahmen-5500"
+      },
+      {
+        "id": "hof-1670",
+        "title": "Hof",
+        "folder": "hof-1670"
+      },
+      {
+        "id": "hohhot-6015",
+        "title": "Hohhot",
+        "folder": "hohhot-6015"
+      }
+    ]
+  },
+  "europe-general-panoramawelten-teil-21": {
+    "slug": "europe-general-panoramawelten-teil-21",
+    "title": "Europa: Städte, Metropolen & Landschaften (Teil 21)",
+    "category": "Europa & Die EU",
+    "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
+    "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
+    "keyPoints": [
+          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+    ],
+    "exercises": [
+      {
+        "id": "horus-1277",
+        "title": "Horus",
+        "folder": "horus-1277"
+      },
+      {
+        "id": "html-grundlagen-2-3129",
+        "title": "HTML Grundlagen",
+        "folder": "html-grundlagen-2-3129"
+      },
+      {
+        "id": "huaiyin-6018",
+        "title": "Huaiyin",
+        "folder": "huaiyin-6018"
+      },
+      {
+        "id": "huizhou-6019",
+        "title": "Huizhou",
+        "folder": "huizhou-6019"
+      },
+      {
+        "id": "hungarian-dance-no-5-609",
+        "title": "Hungarian Dance No. 5",
+        "folder": "hungarian-dance-no-5-609"
+      },
+      {
+        "id": "identitaet-wer-bin-ich-eigentlich",
+        "title": "Identität - Wer bin ich eigentlich",
+        "folder": "identitaet-wer-bin-ich-eigentlich"
+      },
+      {
+        "id": "immunsystem-aufbau-und-bestandteile-2078",
+        "title": "Immunsystem - Aufbau und Bestandteile",
+        "folder": "immunsystem-aufbau-und-bestandteile-2078"
+      },
+      {
+        "id": "immunsystem-leukozyten-und-antikorper-2079",
+        "title": "Immunsystem - Leukozyten und Antikörper",
+        "folder": "immunsystem-leukozyten-und-antikorper-2079"
+      },
+      {
+        "id": "indore-6023",
+        "title": "Indore",
+        "folder": "indore-6023"
+      },
+      {
+        "id": "industrialisierung-und-ihre-auswirkungen-auf-das-umweltmanagement-5502",
+        "title": "Industrialisierung und ihre Auswirkungen auf das Umweltmanagement",
+        "folder": "industrialisierung-und-ihre-auswirkungen-auf-das-umweltmanagement-5502"
+      },
+      {
+        "id": "infrastruktur-im-wandel-der-ausbau-von-hochgeschwindigkeitsstrecken-5503",
+        "title": "Infrastruktur im Wandel - Der Ausbau von Hochgeschwindigkeitsstrecken",
+        "folder": "infrastruktur-im-wandel-der-ausbau-von-hochgeschwindigkeitsstrecken-5503"
+      },
+      {
+        "id": "irmgard-keun-2-6238",
+        "title": "Irmgard Keun",
+        "folder": "irmgard-keun-2-6238"
+      },
+      {
+        "id": "isotope-5300",
+        "title": "Isotope",
+        "folder": "isotope-5300"
+      },
+      {
+        "id": "ist-die-4-tage-woche-die-zukunft-6661",
+        "title": "Ist die 4-Tage-Woche die Zukunft",
+        "folder": "ist-die-4-tage-woche-die-zukunft-6661"
+      },
+      {
+        "id": "izmir-6026",
+        "title": "Izmir",
+        "folder": "izmir-6026"
+      }
+    ]
+  },
+  "europe-general-panoramawelten-teil-22": {
+    "slug": "europe-general-panoramawelten-teil-22",
+    "title": "Europa: Städte, Metropolen & Landschaften (Teil 22)",
+    "category": "Europa & Die EU",
+    "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
+    "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
+    "keyPoints": [
+          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+    ],
+    "exercises": [
+      {
+        "id": "jesu-umgang-mit-ausgegrenzten-6667",
+        "title": "Jesu Umgang mit Ausgegrenzten",
+        "folder": "jesu-umgang-mit-ausgegrenzten-6667"
+      },
+      {
+        "id": "jesu-wunder-6669",
+        "title": "Jesu Wunder",
+        "folder": "jesu-wunder-6669"
+      },
+      {
+        "id": "jiangmen-6029",
+        "title": "Jiangmen",
+        "folder": "jiangmen-6029"
+      },
+      {
+        "id": "johannes-die-offenbarung-4586",
+        "title": "Johannes – Die Offenbarung",
+        "folder": "johannes-die-offenbarung-4586"
+      },
+      {
+        "id": "john-green-warum-seine-jugendbuecher-so-emotional-sind",
+        "title": "John Green - Warum seine Jugendbücher so emotional sind",
+        "folder": "john-green-warum-seine-jugendbuecher-so-emotional-sind"
+      },
+      {
+        "id": "judische-feiertage-wie-pessach-jom-kippur-und-chanukka-6678",
+        "title": "Jüdische Feiertage wie Pessach, Jom Kippur und Chanukka",
+        "folder": "judische-feiertage-wie-pessach-jom-kippur-und-chanukka-6678"
+      },
+      {
+        "id": "jugendkriminalitat-3550",
+        "title": "Jugendkriminalität",
+        "folder": "jugendkriminalitat-3550"
+      },
+      {
+        "id": "jugendweihe-ein-uebergangsritual",
+        "title": "Jugendweihe - Ein Übergangsritual",
+        "folder": "jugendweihe-ein-uebergangsritual"
+      },
+      {
+        "id": "juli-zeh-6240",
+        "title": "Juli Zeh",
+        "folder": "juli-zeh-6240"
+      },
+      {
+        "id": "just-in-time-produktion-und-die-anforderungen-an-logistische-systeme-5505",
+        "title": "Just-in-Time-Produktion und die Anforderungen an logistische Systeme",
+        "folder": "just-in-time-produktion-und-die-anforderungen-an-logistische-systeme-5505"
+      },
+      {
+        "id": "kapfenberg-1696",
+        "title": "Kapfenberg",
+        "folder": "kapfenberg-1696"
+      },
+      {
+        "id": "karneval-fastnacht-und-fasching",
+        "title": "Karneval, Fastnacht und Fasching",
+        "folder": "karneval-fastnacht-und-fasching"
+      },
+      {
+        "id": "karneval-und-fasching-6682",
+        "title": "Karneval und Fasching",
+        "folder": "karneval-und-fasching-6682"
+      },
+      {
+        "id": "kassel-eine-stadt-mit-geschichte-und-kultur",
+        "title": "Kassel - Eine Stadt mit Geschichte und Kultur",
+        "folder": "kassel-eine-stadt-mit-geschichte-und-kultur"
+      },
+      {
+        "id": "katastrophenvorsorge-in-entwicklungslandern-strategien-und-herausforderungen-5537",
+        "title": "Katastrophenvorsorge in Entwicklungsländern - Strategien und Herausforderungen",
+        "folder": "katastrophenvorsorge-in-entwicklungslandern-strategien-und-herausforderungen-5537"
+      }
+    ]
+  },
+  "europe-general-panoramawelten-teil-23": {
+    "slug": "europe-general-panoramawelten-teil-23",
+    "title": "Europa: Städte, Metropolen & Landschaften (Teil 23)",
+    "category": "Europa & Die EU",
+    "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
+    "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
+    "keyPoints": [
+          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+    ],
+    "exercises": [
+      {
+        "id": "katharina-von-siena-2466",
+        "title": "Katharina von Siena",
+        "folder": "katharina-von-siena-2466"
+      },
+      {
+        "id": "katowice-1699",
+        "title": "Katowice",
+        "folder": "katowice-1699"
+      },
+      {
+        "id": "kattowitz-1700",
+        "title": "Kattowitz",
+        "folder": "kattowitz-1700"
+      },
+      {
+        "id": "kaufbeuren-1701",
+        "title": "Kaufbeuren",
+        "folder": "kaufbeuren-1701"
+      },
+      {
+        "id": "kennzeichnungspflichten-und-recht-fuer-content-creator",
+        "title": "Kennzeichnungspflichten und Recht für Content Creator",
+        "folder": "kennzeichnungspflichten-und-recht-fuer-content-creator"
+      },
+      {
+        "id": "khartum-nord-6038",
+        "title": "Khartum Nord",
+        "folder": "khartum-nord-6038"
+      },
+      {
+        "id": "kiel-1497",
+        "title": "Kiel",
+        "folder": "kiel-1497"
+      },
+      {
+        "id": "kiew-1705",
+        "title": "Kiew",
+        "folder": "kiew-1705"
+      },
+      {
+        "id": "kirchheim-unter-teck-1706",
+        "title": "Kirchheim unter Teck",
+        "folder": "kirchheim-unter-teck-1706"
+      },
+      {
+        "id": "kirsten-boie-geschichten-aus-der-moewenweg-welt",
+        "title": "Kirsten Boie - Geschichten aus der Möwenweg-Welt",
+        "folder": "kirsten-boie-geschichten-aus-der-moewenweg-welt"
+      },
+      {
+        "id": "klassik-67",
+        "title": "Klassik",
+        "folder": "klassik-67"
+      },
+      {
+        "id": "klosterneuburg-1435",
+        "title": "Klosterneuburg",
+        "folder": "klosterneuburg-1435"
+      },
+      {
+        "id": "kloten-1709",
+        "title": "Kloten",
+        "folder": "kloten-1709"
+      },
+      {
+        "id": "koln-1430",
+        "title": "Köln",
+        "folder": "koln-1430"
+      },
+      {
+        "id": "koniz-1715",
+        "title": "Köniz",
+        "folder": "koniz-1715"
+      }
+    ]
+  },
+  "europe-general-panoramawelten-teil-24": {
+    "slug": "europe-general-panoramawelten-teil-24",
+    "title": "Europa: Städte, Metropolen & Landschaften (Teil 24)",
+    "category": "Europa & Die EU",
+    "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
+    "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
+    "keyPoints": [
+          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+    ],
+    "exercises": [
+      {
+        "id": "konsequenzen-von-schnellen-aber-unsauberen-loesungen",
+        "title": "Konsequenzen von schnellen aber unsauberen Lösungen",
+        "folder": "konsequenzen-von-schnellen-aber-unsauberen-loesungen"
+      },
+      {
+        "id": "konzepte-vernetzter-staedte-und-privatsphaere",
+        "title": "Konzepte vernetzter Städte und Privatsphäre",
+        "folder": "konzepte-vernetzter-staedte-und-privatsphaere"
+      },
+      {
+        "id": "kopenhagen-1717",
+        "title": "Kopenhagen",
+        "folder": "kopenhagen-1717"
+      },
+      {
+        "id": "korperbild-und-schonheitsideale-3558",
+        "title": "Körperbild und Schönheitsideale",
+        "folder": "korperbild-und-schonheitsideale-3558"
+      },
+      {
+        "id": "krakau-1719",
+        "title": "Krakau",
+        "folder": "krakau-1719"
+      },
+      {
+        "id": "kreativitat-und-problemlosung-5824",
+        "title": "Kreativität und Problemlösung",
+        "folder": "kreativitat-und-problemlosung-5824"
+      },
+      {
+        "id": "krefeld-1492",
+        "title": "Krefeld",
+        "folder": "krefeld-1492"
+      },
+      {
+        "id": "kriens-1721",
+        "title": "Kriens",
+        "folder": "kriens-1721"
+      },
+      {
+        "id": "kriminalitaet-in-deutschland",
+        "title": "Kriminalität in Deutschland",
+        "folder": "kriminalitaet-in-deutschland"
+      },
+      {
+        "id": "kritische-theorie-frankfurter-schule-3560",
+        "title": "Kritische Theorie (Frankfurter Schule)",
+        "folder": "kritische-theorie-frankfurter-schule-3560"
+      },
+      {
+        "id": "kufstein-1724",
+        "title": "Kufstein",
+        "folder": "kufstein-1724"
+      },
+      {
+        "id": "kulturelle-aneignung-4449",
+        "title": "Kulturelle Aneignung",
+        "folder": "kulturelle-aneignung-4449"
+      },
+      {
+        "id": "kulturelle-barrieren-und-ihre-auswirkungen-auf-gesellschaften-5546",
+        "title": "Kulturelle Barrieren und ihre Auswirkungen auf Gesellschaften",
+        "folder": "kulturelle-barrieren-und-ihre-auswirkungen-auf-gesellschaften-5546"
+      },
+      {
+        "id": "kumasi-6044",
+        "title": "Kumasi",
+        "folder": "kumasi-6044"
+      },
+      {
+        "id": "kurs-betriebssysteme-680",
+        "title": "Kurs Betriebssysteme",
+        "folder": "kurs-betriebssysteme-680"
+      }
+    ]
+  },
+  "europe-general-panoramawelten-teil-25": {
+    "slug": "europe-general-panoramawelten-teil-25",
+    "title": "Europa: Städte, Metropolen & Landschaften (Teil 25)",
+    "category": "Europa & Die EU",
+    "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
+    "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
+    "keyPoints": [
+          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+    ],
+    "exercises": [
+      {
+        "id": "kurs-das-binarsystem-682",
+        "title": "Kurs Das Binärsystem",
+        "folder": "kurs-das-binarsystem-682"
+      },
+      {
+        "id": "kurs-e-mail-675",
+        "title": "Kurs E-Mail",
+        "folder": "kurs-e-mail-675"
+      },
+      {
+        "id": "kurs-geschichte-der-internets-bungen-671",
+        "title": "Kurs Geschichte der Internets (Übungen)",
+        "folder": "kurs-geschichte-der-internets-bungen-671"
+      },
+      {
+        "id": "kurs-geschichte-des-computers-667",
+        "title": "Kurs Geschichte des Computers",
+        "folder": "kurs-geschichte-des-computers-667"
+      },
+      {
+        "id": "kurs-grundlagen-der-informatik-software-669",
+        "title": "Kurs Grundlagen der Informatik - Software",
+        "folder": "kurs-grundlagen-der-informatik-software-669"
+      },
+      {
+        "id": "kurs-internetbrowser-673",
+        "title": "Kurs Internetbrowser",
+        "folder": "kurs-internetbrowser-673"
+      },
+      {
+        "id": "kurs-klaviatur-660",
+        "title": "kurs Klaviatur",
+        "folder": "kurs-klaviatur-660"
+      },
+      {
+        "id": "kurs-sicherheit-im-umgang-mit-dem-computer-677",
+        "title": "Kurs Sicherheit im Umgang mit dem Computer",
+        "folder": "kurs-sicherheit-im-umgang-mit-dem-computer-677"
+      },
+      {
+        "id": "kurs-urheberrechte-679",
+        "title": "Kurs Urheberrechte",
+        "folder": "kurs-urheberrechte-679"
+      },
+      {
+        "id": "kurs-vorzeichen-659",
+        "title": "kurs vorzeichen",
+        "folder": "kurs-vorzeichen-659"
+      },
+      {
+        "id": "kyrie-und-gloria-lob-und-bitte-6694",
+        "title": "Kyrie und Gloria - Lob und Bitte",
+        "folder": "kyrie-und-gloria-lob-und-bitte-6694"
+      },
+      {
+        "id": "la-chaux-de-fonds-1726",
+        "title": "La Chaux-de-Fonds",
+        "folder": "la-chaux-de-fonds-1726"
+      },
+      {
+        "id": "lander-memory-einfach-132",
+        "title": "Länder Memory einfach",
+        "folder": "lander-memory-einfach-132"
+      },
+      {
+        "id": "lander-memory-mittel-128",
+        "title": "Länder Memory mittel",
+        "folder": "lander-memory-mittel-128"
+      },
+      {
+        "id": "lander-memory-schwer-129",
+        "title": "Länder Memory schwer",
+        "folder": "lander-memory-schwer-129"
+      }
+    ]
+  },
+  "europe-general-panoramawelten-teil-26": {
+    "slug": "europe-general-panoramawelten-teil-26",
+    "title": "Europa: Städte, Metropolen & Landschaften (Teil 26)",
+    "category": "Europa & Die EU",
+    "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
+    "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
+    "keyPoints": [
+          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+    ],
+    "exercises": [
+      {
+        "id": "lanzhou-6048",
+        "title": "Lanzhou",
+        "folder": "lanzhou-6048"
+      },
+      {
+        "id": "lautsprecher-und-mikrophon-5303",
+        "title": "Lautsprecher und Mikrophon",
+        "folder": "lautsprecher-und-mikrophon-5303"
+      },
+      {
+        "id": "leben-und-lehren-jesu-2418",
+        "title": "Leben und Lehren Jesu",
+        "folder": "leben-und-lehren-jesu-2418"
+      },
+      {
+        "id": "leer-1733",
+        "title": "Leer",
+        "folder": "leer-1733"
+      },
+      {
+        "id": "leipzig-1516",
+        "title": "Leipzig",
+        "folder": "leipzig-1516"
+      },
+      {
+        "id": "leo-tolstoi-1285",
+        "title": "Leo Tolstoi",
+        "folder": "leo-tolstoi-1285"
+      },
+      {
+        "id": "leonberg-1736",
+        "title": "Leonberg",
+        "folder": "leonberg-1736"
+      },
+      {
+        "id": "lerninhalt-aufbau-der-materie-597",
+        "title": "Lerninhalt: Aufbau der Materie",
+        "folder": "lerninhalt-aufbau-der-materie-597"
+      },
+      {
+        "id": "lerninhalt-der-schraubstock-563",
+        "title": "Lerninhalt: Der Schraubstock",
+        "folder": "lerninhalt-der-schraubstock-563"
+      },
+      {
+        "id": "lerninhalt-die-feile-562",
+        "title": "Lerninhalt: Die Feile",
+        "folder": "lerninhalt-die-feile-562"
+      },
+      {
+        "id": "lerninhalt-die-sage-564",
+        "title": "Lerninhalt: Die Säge",
+        "folder": "lerninhalt-die-sage-564"
+      },
+      {
+        "id": "lerninhalt-produktions-und-standortfaktoren-604",
+        "title": "Lerninhalt: Produktions- und Standortfaktoren",
+        "folder": "lerninhalt-produktions-und-standortfaktoren-604"
+      },
+      {
+        "id": "lgbtiq-1132",
+        "title": "LGBTIQ",
+        "folder": "lgbtiq-1132"
+      },
+      {
+        "id": "linyi-6050",
+        "title": "Linyi",
+        "folder": "linyi-6050"
+      },
+      {
+        "id": "lissabon-1744",
+        "title": "Lissabon",
+        "folder": "lissabon-1744"
+      }
+    ]
+  },
+  "europe-general-panoramawelten-teil-27": {
+    "slug": "europe-general-panoramawelten-teil-27",
+    "title": "Europa: Städte, Metropolen & Landschaften (Teil 27)",
+    "category": "Europa & Die EU",
+    "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
+    "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
+    "keyPoints": [
+          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+    ],
+    "exercises": [
+      {
+        "id": "literarische-wanderwege-in-deutschland-entdecken",
+        "title": "Literarische Wanderwege in Deutschland entdecken",
+        "folder": "literarische-wanderwege-in-deutschland-entdecken"
+      },
+      {
+        "id": "literatuerpoche-surrealismus-2385",
+        "title": "Literatuerpoche Surrealismus",
+        "folder": "literatuerpoche-surrealismus-2385"
+      },
+      {
+        "id": "little-talks-of-monsters-and-men-998",
+        "title": "Little Talks (Of Monsters And Men)",
+        "folder": "little-talks-of-monsters-and-men-998"
+      },
+      {
+        "id": "liuzhou-6051",
+        "title": "Liuzhou",
+        "folder": "liuzhou-6051"
+      },
+      {
+        "id": "lizenzmodelle-und-creative-commons-verstehen-und-anwenden",
+        "title": "Lizenzmodelle und Creative Commons verstehen und anwenden",
+        "folder": "lizenzmodelle-und-creative-commons-verstehen-und-anwenden"
+      },
+      {
+        "id": "logistikzentren-und-ihre-lage-warum-sie-dort-entstehen-wo-sie-sind-5549",
+        "title": "Logistikzentren und ihre Lage - Warum sie dort entstehen, wo sie sind",
+        "folder": "logistikzentren-und-ihre-lage-warum-sie-dort-entstehen-wo-sie-sind-5549"
+      },
+      {
+        "id": "lome-6052",
+        "title": "Lomé",
+        "folder": "lome-6052"
+      },
+      {
+        "id": "lubeck-1491",
+        "title": "Lübeck",
+        "folder": "lubeck-1491"
+      },
+      {
+        "id": "lubumbashi-6056",
+        "title": "Lubumbashi",
+        "folder": "lubumbashi-6056"
+      },
+      {
+        "id": "luciano-6419",
+        "title": "Luciano",
+        "folder": "luciano-6419"
+      },
+      {
+        "id": "lucknow-6057",
+        "title": "Lucknow",
+        "folder": "lucknow-6057"
+      },
+      {
+        "id": "ludwigsburg-eine-stadt-mit-geschichte",
+        "title": "Ludwigsburg - Eine Stadt mit Geschichte",
+        "folder": "ludwigsburg-eine-stadt-mit-geschichte"
+      },
+      {
+        "id": "lueneburg-eine-stadt-mit-geschichte",
+        "title": "Lüneburg - Eine Stadt mit Geschichte",
+        "folder": "lueneburg-eine-stadt-mit-geschichte"
+      },
+      {
+        "id": "luna-1337",
+        "title": "Luna",
+        "folder": "luna-1337"
+      },
+      {
+        "id": "luneburg-1750",
+        "title": "Lüneburg",
+        "folder": "luneburg-1750"
+      }
+    ]
+  },
+  "europe-general-panoramawelten-teil-28": {
+    "slug": "europe-general-panoramawelten-teil-28",
+    "title": "Europa: Städte, Metropolen & Landschaften (Teil 28)",
+    "category": "Europa & Die EU",
+    "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
+    "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
+    "keyPoints": [
+          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+    ],
+    "exercises": [
+      {
+        "id": "luoyang-6058",
+        "title": "Luoyang",
+        "folder": "luoyang-6058"
+      },
+      {
+        "id": "luttich-1752",
+        "title": "Lüttich",
+        "folder": "luttich-1752"
+      },
+      {
+        "id": "lwiw-1754",
+        "title": "Lwiw",
+        "folder": "lwiw-1754"
+      },
+      {
+        "id": "madrid-1755",
+        "title": "Madrid",
+        "folder": "madrid-1755"
+      },
+      {
+        "id": "magdeburg-1494",
+        "title": "Magdeburg",
+        "folder": "magdeburg-1494"
+      },
+      {
+        "id": "magische-schulen-warum-wir-dort-gerne-schueler-waeren",
+        "title": "Magische Schulen - Warum wir dort gerne Schüler wären",
+        "folder": "magische-schulen-warum-wir-dort-gerne-schueler-waeren"
+      },
+      {
+        "id": "magischer-realismus-wenn-wunder-ganz-normal-sind",
+        "title": "Magischer Realismus - Wenn Wunder ganz normal sind",
+        "folder": "magischer-realismus-wenn-wunder-ganz-normal-sind"
+      },
+      {
+        "id": "mailand-1756",
+        "title": "Mailand",
+        "folder": "mailand-1756"
+      },
+      {
+        "id": "malatya-1759",
+        "title": "Malatya",
+        "folder": "malatya-1759"
+      },
+      {
+        "id": "malmo-1764",
+        "title": "Malmö",
+        "folder": "malmo-1764"
+      },
+      {
+        "id": "manipulation-durch-dark-patterns-im-webdesign",
+        "title": "Manipulation durch Dark Patterns im Webdesign",
+        "folder": "manipulation-durch-dark-patterns-im-webdesign"
+      },
+      {
+        "id": "mannheim-1504",
+        "title": "Mannheim",
+        "folder": "mannheim-1504"
+      },
+      {
+        "id": "maple-leaf-rag-von-scott-joplin-443",
+        "title": "Maple Leaf Rag von Scott Joplin",
+        "folder": "maple-leaf-rag-von-scott-joplin-443"
+      },
+      {
+        "id": "marc-uwe-kling-humor-fuer-kinder-und-erwachsene",
+        "title": "Marc-Uwe Kling - Humor für Kinder und Erwachsene",
+        "folder": "marc-uwe-kling-humor-fuer-kinder-und-erwachsene"
+      },
+      {
+        "id": "maria-empfangnis-der-8-dezember-6699",
+        "title": "Mariä Empfängnis - der 8. Dezember",
+        "folder": "maria-empfangnis-der-8-dezember-6699"
+      }
+    ]
+  },
+  "europe-general-panoramawelten-teil-29": {
+    "slug": "europe-general-panoramawelten-teil-29",
+    "title": "Europa: Städte, Metropolen & Landschaften (Teil 29)",
+    "category": "Europa & Die EU",
+    "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
+    "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
+    "keyPoints": [
+          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+    ],
+    "exercises": [
+      {
+        "id": "mars-1338",
+        "title": "Mars",
+        "folder": "mars-1338"
+      },
+      {
+        "id": "marseille-1769",
+        "title": "Marseille",
+        "folder": "marseille-1769"
+      },
+      {
+        "id": "maximilian-kolbe-2465",
+        "title": "Maximilian Kolbe",
+        "folder": "maximilian-kolbe-2465"
+      },
+      {
+        "id": "melle-1775",
+        "title": "Melle",
+        "folder": "melle-1775"
+      },
+      {
+        "id": "memmingen-1776",
+        "title": "Memmingen",
+        "folder": "memmingen-1776"
+      },
+      {
+        "id": "methoden-der-krisenintervention-5839",
+        "title": "Methoden der Krisenintervention",
+        "folder": "methoden-der-krisenintervention-5839"
+      },
+      {
+        "id": "michael-ende-und-die-reise-in-die-unendliche-geschichte",
+        "title": "Michael Ende und die Reise in die Unendliche Geschichte",
+        "folder": "michael-ende-und-die-reise-in-die-unendliche-geschichte"
+      },
+      {
+        "id": "minerva-1339",
+        "title": "Minerva",
+        "folder": "minerva-1339"
+      },
+      {
+        "id": "minsk-6070",
+        "title": "Minsk",
+        "folder": "minsk-6070"
+      },
+      {
+        "id": "missverstaendnisse-in-globalen-teams-vermeiden",
+        "title": "Missverständnisse in globalen Teams vermeiden",
+        "folder": "missverstaendnisse-in-globalen-teams-vermeiden"
+      },
+      {
+        "id": "mobilfunk-1055",
+        "title": "Mobilfunk",
+        "folder": "mobilfunk-1055"
+      },
+      {
+        "id": "modling-1783",
+        "title": "Mödling",
+        "folder": "modling-1783"
+      },
+      {
+        "id": "monom-mal-binom-87",
+        "title": "Monom mal Binom",
+        "folder": "monom-mal-binom-87"
+      },
+      {
+        "id": "moskau-1790",
+        "title": "Moskau",
+        "folder": "moskau-1790"
+      },
+      {
+        "id": "motion-capture-und-wie-echte-schauspieler-zu-digitalen-monstern-werden",
+        "title": "Motion Capture und wie echte Schauspieler zu digitalen Monstern werden",
+        "folder": "motion-capture-und-wie-echte-schauspieler-zu-digitalen-monstern-werden"
+      }
+    ]
+  },
+  "europe-general-panoramawelten-teil-30": {
+    "slug": "europe-general-panoramawelten-teil-30",
+    "title": "Europa: Städte, Metropolen & Landschaften (Teil 30)",
+    "category": "Europa & Die EU",
+    "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
+    "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
+    "keyPoints": [
+          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+    ],
+    "exercises": [
+      {
+        "id": "munchen-1429",
+        "title": "München",
+        "folder": "munchen-1429"
+      },
+      {
+        "id": "munster-1506",
+        "title": "Münster",
+        "folder": "munster-1506"
+      },
+      {
+        "id": "mutproben-und-ihre-folgen-in-erzaehlungen",
+        "title": "Mutproben und ihre Folgen in Erzählungen",
+        "folder": "mutproben-und-ihre-folgen-in-erzaehlungen"
+      },
+      {
+        "id": "nachstenliebe-in-der-praxis-2451",
+        "title": "Nächstenliebe in der Praxis",
+        "folder": "nachstenliebe-in-der-praxis-2451"
+      },
+      {
+        "id": "nagpur-6076",
+        "title": "Nagpur",
+        "folder": "nagpur-6076"
+      },
+      {
+        "id": "nantong-6081",
+        "title": "Nantong",
+        "folder": "nantong-6081"
+      },
+      {
+        "id": "neptun-1340",
+        "title": "Neptun",
+        "folder": "neptun-1340"
+      },
+      {
+        "id": "netflix-serien-die-auf-buechern-basieren-ein-vergleich",
+        "title": "Netflix-Serien, die auf Büchern basieren - Ein Vergleich",
+        "folder": "netflix-serien-die-auf-buechern-basieren-ein-vergleich"
+      },
+      {
+        "id": "new-adult-geschichten-ueber-das-erwachsenwerden",
+        "title": "New Adult - Geschichten über das Erwachsenwerden",
+        "folder": "new-adult-geschichten-ueber-das-erwachsenwerden"
+      },
+      {
+        "id": "nike-1294",
+        "title": "Nike",
+        "folder": "nike-1294"
+      },
+      {
+        "id": "nomaden-2069",
+        "title": "Nomaden",
+        "folder": "nomaden-2069"
+      },
+      {
+        "id": "nurnberg-1512",
+        "title": "Nürnberg",
+        "folder": "nurnberg-1512"
+      },
+      {
+        "id": "nut-1296",
+        "title": "Nut",
+        "folder": "nut-1296"
+      },
+      {
+        "id": "nutzung-von-tabellenkalkulationen-zur-datenauswertung",
+        "title": "Nutzung von Tabellenkalkulationen zur Datenauswertung",
+        "folder": "nutzung-von-tabellenkalkulationen-zur-datenauswertung"
+      },
+      {
+        "id": "nutzung-von-videoanrufen-und-online-meetings",
+        "title": "Nutzung von Videoanrufen und Online Meetings",
+        "folder": "nutzung-von-videoanrufen-und-online-meetings"
+      }
+    ]
+  },
+  "europe-general-panoramawelten-teil-31": {
+    "slug": "europe-general-panoramawelten-teil-31",
+    "title": "Europa: Städte, Metropolen & Landschaften (Teil 31)",
+    "category": "Europa & Die EU",
+    "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
+    "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
+    "keyPoints": [
+          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+    ],
+    "exercises": [
+      {
+        "id": "obdachlosigkeit-und-wege-der-hilfe-3572",
+        "title": "Obdachlosigkeit und Wege der Hilfe",
+        "folder": "obdachlosigkeit-und-wege-der-hilfe-3572"
+      },
+      {
+        "id": "odessa-1811",
+        "title": "Odessa",
+        "folder": "odessa-1811"
+      },
+      {
+        "id": "omdurman-6085",
+        "title": "Omdurman",
+        "folder": "omdurman-6085"
+      },
+      {
+        "id": "online-lexika-und-quellen-richtig-fuer-die-schule-nutzen",
+        "title": "Online-Lexika und Quellen richtig für die Schule nutzen",
+        "folder": "online-lexika-und-quellen-richtig-fuer-die-schule-nutzen"
+      },
+      {
+        "id": "osiris-1300",
+        "title": "Osiris",
+        "folder": "osiris-1300"
+      },
+      {
+        "id": "oslo-1812",
+        "title": "Oslo",
+        "folder": "oslo-1812"
+      },
+      {
+        "id": "osnabruck-1481",
+        "title": "Osnabrück",
+        "folder": "osnabruck-1481"
+      },
+      {
+        "id": "ostrava-1814",
+        "title": "Ostrava",
+        "folder": "ostrava-1814"
+      },
+      {
+        "id": "otfried-preussler-von-kleinen-gespenstern-und-raeubern",
+        "title": "Otfried Preußler - Von kleinen Gespenstern und Räubern",
+        "folder": "otfried-preussler-von-kleinen-gespenstern-und-raeubern"
+      },
+      {
+        "id": "paderborn-1473",
+        "title": "Paderborn",
+        "folder": "paderborn-1473"
+      },
+      {
+        "id": "palermo-1818",
+        "title": "Palermo",
+        "folder": "palermo-1818"
+      },
+      {
+        "id": "pan-1301",
+        "title": "Pan",
+        "folder": "pan-1301"
+      },
+      {
+        "id": "paris-1822",
+        "title": "Paris",
+        "folder": "paris-1822"
+      },
+      {
+        "id": "parodien-wenn-buecher-sich-ueber-andere-lustig-machen",
+        "title": "Parodien - Wenn Bücher sich über andere lustig machen",
+        "folder": "parodien-wenn-buecher-sich-ueber-andere-lustig-machen"
+      },
+      {
+        "id": "patente-und-markenrechte-3574",
+        "title": "Patente und Markenrechte",
+        "folder": "patente-und-markenrechte-3574"
+      }
+    ]
+  },
+  "europe-general-panoramawelten-teil-32": {
+    "slug": "europe-general-panoramawelten-teil-32",
+    "title": "Europa: Städte, Metropolen & Landschaften (Teil 32)",
+    "category": "Europa & Die EU",
+    "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
+    "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
+    "keyPoints": [
+          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+    ],
+    "exercises": [
+      {
+        "id": "patronatsfeste-und-ihre-bedeutung-2449",
+        "title": "Patronatsfeste und ihre Bedeutung",
+        "folder": "patronatsfeste-und-ihre-bedeutung-2449"
+      },
+      {
+        "id": "pearup-e-mail-812",
+        "title": "PearUp E-Mail",
+        "folder": "pearup-e-mail-812"
+      },
+      {
+        "id": "peer-gruppen-und-gruppenzwang-3576",
+        "title": "Peer-Gruppen und Gruppenzwang",
+        "folder": "peer-gruppen-und-gruppenzwang-3576"
+      },
+      {
+        "id": "peking-6089",
+        "title": "Peking",
+        "folder": "peking-6089"
+      },
+      {
+        "id": "percy-jackson-wie-man-mythologie-cool-macht",
+        "title": "Percy Jackson - Wie man Mythologie cool macht",
+        "folder": "percy-jackson-wie-man-mythologie-cool-macht"
+      },
+      {
+        "id": "personalentwicklung-und-weiterbildung-2734",
+        "title": "Personalentwicklung und Weiterbildung",
+        "folder": "personalentwicklung-und-weiterbildung-2734"
+      },
+      {
+        "id": "peter-hacks-4625",
+        "title": "Peter Hacks",
+        "folder": "peter-hacks-4625"
+      },
+      {
+        "id": "peter-weiss-4626",
+        "title": "Peter Weiss",
+        "folder": "peter-weiss-4626"
+      },
+      {
+        "id": "phaenomen-der-schwarmintelligenz-bei-computern",
+        "title": "Phänomen der Schwarmintelligenz bei Computern",
+        "folder": "phaenomen-der-schwarmintelligenz-bei-computern"
+      },
+      {
+        "id": "philip-pullman-und-die-goldenen-kompasse-seiner-welten",
+        "title": "Philip Pullman und die goldenen Kompasse seiner Welten",
+        "folder": "philip-pullman-und-die-goldenen-kompasse-seiner-welten"
+      },
+      {
+        "id": "pilgerreisen-6709",
+        "title": "Pilgerreisen",
+        "folder": "pilgerreisen-6709"
+      },
+      {
+        "id": "pippi-langstrumpf-ein-vorbild-fuer-starke-maedchen",
+        "title": "Pippi Langstrumpf - Ein Vorbild für starke Mädchen",
+        "folder": "pippi-langstrumpf-ein-vorbild-fuer-starke-maedchen"
+      },
+      {
+        "id": "platzen-der-dotcom-blase-im-jahr-2000",
+        "title": "Platzen der Dotcom Blase im Jahr 2000",
+        "folder": "platzen-der-dotcom-blase-im-jahr-2000"
+      },
+      {
+        "id": "pluto-1341",
+        "title": "Pluto",
+        "folder": "pluto-1341"
+      },
+      {
+        "id": "polartag-und-polarnacht-2040",
+        "title": "Polartag und Polarnacht",
+        "folder": "polartag-und-polarnacht-2040"
+      }
+    ]
+  },
+  "europe-general-panoramawelten-teil-33": {
+    "slug": "europe-general-panoramawelten-teil-33",
+    "title": "Europa: Städte, Metropolen & Landschaften (Teil 33)",
+    "category": "Europa & Die EU",
+    "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
+    "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
+    "keyPoints": [
+          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+    ],
+    "exercises": [
+      {
+        "id": "polonium-1193",
+        "title": "Polonium",
+        "folder": "polonium-1193"
+      },
+      {
+        "id": "port-harcourt-6092",
+        "title": "Port Harcourt",
+        "folder": "port-harcourt-6092"
+      },
+      {
+        "id": "posen-1830",
+        "title": "Posen",
+        "folder": "posen-1830"
+      },
+      {
+        "id": "potsdam-1476",
+        "title": "Potsdam",
+        "folder": "potsdam-1476"
+      },
+      {
+        "id": "praesentation-von-ergebnissen-mit-ansprechendem-design-und-layout",
+        "title": "Präsentation von Ergebnissen mit ansprechendem Design und Layout",
+        "folder": "praesentation-von-ergebnissen-mit-ansprechendem-design-und-layout"
+      },
+      {
+        "id": "prag-1831",
+        "title": "Prag",
+        "folder": "prag-1831"
+      },
+      {
+        "id": "proserpina-1342",
+        "title": "Proserpina",
+        "folder": "proserpina-1342"
+      },
+      {
+        "id": "prozesse-der-entscheidungsfindung-5885",
+        "title": "Prozesse der Entscheidungsfindung",
+        "folder": "prozesse-der-entscheidungsfindung-5885"
+      },
+      {
+        "id": "psychische-krise-der-jugend-der-stille-hilferuf-einer-ganzen-generation",
+        "title": "Psychische Krise der Jugend – Der stille Hilferuf einer ganzen Generation",
+        "folder": "psychische-krise-der-jugend-der-stille-hilferuf-einer-ganzen-generation"
+      },
+      {
+        "id": "psychologische-aspekte-bei-der-gestaltung-von-apps",
+        "title": "Psychologische Aspekte bei der Gestaltung von Apps",
+        "folder": "psychologische-aspekte-bei-der-gestaltung-von-apps"
+      },
+      {
+        "id": "push-und-pullfaktoren-2071",
+        "title": "Push- und Pullfaktoren",
+        "folder": "push-und-pullfaktoren-2071"
+      },
+      {
+        "id": "qr-codes-und-barcodes",
+        "title": "QR Codes und Barcodes",
+        "folder": "qr-codes-und-barcodes"
+      },
+      {
+        "id": "ra-1307",
+        "title": "Ra",
+        "folder": "ra-1307"
+      },
+      {
+        "id": "ragtime",
+        "title": "Ragtime",
+        "folder": "ragtime"
+      },
+      {
+        "id": "ransom-riggs-die-welt-der-besonderen-kinder",
+        "title": "Ransom Riggs - Die Welt der besonderen Kinder",
+        "folder": "ransom-riggs-die-welt-der-besonderen-kinder"
+      }
+    ]
+  },
+  "europe-general-panoramawelten-teil-34": {
+    "slug": "europe-general-panoramawelten-teil-34",
+    "title": "Europa: Städte, Metropolen & Landschaften (Teil 34)",
+    "category": "Europa & Die EU",
+    "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
+    "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
+    "keyPoints": [
+          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+    ],
+    "exercises": [
+      {
+        "id": "rassismus-und-vorurteile-in-klassikern-erkennen",
+        "title": "Rassismus und Vorurteile in Klassikern erkennen",
+        "folder": "rassismus-und-vorurteile-in-klassikern-erkennen"
+      },
+      {
+        "id": "rebel-rebel-david-bowie-497",
+        "title": "Rebel Rebel - David Bowie",
+        "folder": "rebel-rebel-david-bowie-497"
+      },
+      {
+        "id": "regensburg-1472",
+        "title": "Regensburg",
+        "folder": "regensburg-1472"
+      },
+      {
+        "id": "regulierung-von-kuenstlicher-intelligenz-durch-die-eu",
+        "title": "Regulierung von Künstlicher Intelligenz durch die EU",
+        "folder": "regulierung-von-kuenstlicher-intelligenz-durch-die-eu"
+      },
+      {
+        "id": "reiche-kinder-arme-kinder-soziale-kluft-in-buechern",
+        "title": "Reiche Kinder arme Kinder - Soziale Kluft in Büchern",
+        "folder": "reiche-kinder-arme-kinder-soziale-kluft-in-buechern"
+      },
+      {
+        "id": "reinhard-mey-6414",
+        "title": "Reinhard Mey",
+        "folder": "reinhard-mey-6414"
+      },
+      {
+        "id": "reiseberichte-die-welt-entdecken-ohne-wegzufliegen",
+        "title": "Reiseberichte - Die Welt entdecken ohne wegzufliegen",
+        "folder": "reiseberichte-die-welt-entdecken-ohne-wegzufliegen"
+      },
+      {
+        "id": "rendering-und-die-berechnung-fertiger-bilder-aus-rohdaten",
+        "title": "Rendering und die Berechnung fertiger Bilder aus Rohdaten",
+        "folder": "rendering-und-die-berechnung-fertiger-bilder-aus-rohdaten"
+      },
+      {
+        "id": "rick-riordan-wie-man-alte-goetter-in-die-schule-schickt",
+        "title": "Rick Riordan - Wie man alte Götter in die Schule schickt",
+        "folder": "rick-riordan-wie-man-alte-goetter-in-die-schule-schickt"
+      },
+      {
+        "id": "riga-1832",
+        "title": "Riga",
+        "folder": "riga-1832"
+      },
+      {
+        "id": "risiko-des-verlusts-von-schluesselpersonen-im-team",
+        "title": "Risiko des Verlusts von Schlüsselpersonen im Team",
+        "folder": "risiko-des-verlusts-von-schluesselpersonen-im-team"
+      },
+      {
+        "id": "rituale-des-abschieds-6719",
+        "title": "Rituale des Abschieds",
+        "folder": "rituale-des-abschieds-6719"
+      },
+      {
+        "id": "rituale-im-alltag-6720",
+        "title": "Rituale im Alltag",
+        "folder": "rituale-im-alltag-6720"
+      },
+      {
+        "id": "roadtrips-mit-dem-auto-zu-sich-selbst-finden",
+        "title": "Roadtrips - Mit dem Auto zu sich selbst finden",
+        "folder": "roadtrips-mit-dem-auto-zu-sich-selbst-finden"
+      },
+      {
+        "id": "robin-hood-und-die-wahrheit-hinter-der-legende",
+        "title": "Robin Hood und die Wahrheit hinter der Legende",
+        "folder": "robin-hood-und-die-wahrheit-hinter-der-legende"
+      }
+    ]
+  },
+  "europe-general-panoramawelten-teil-35": {
+    "slug": "europe-general-panoramawelten-teil-35",
+    "title": "Europa: Städte, Metropolen & Landschaften (Teil 35)",
+    "category": "Europa & Die EU",
+    "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
+    "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
+    "keyPoints": [
+          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+    ],
+    "exercises": [
+      {
+        "id": "rom-1833",
+        "title": "Rom",
+        "folder": "rom-1833"
+      },
+      {
+        "id": "rostock-1487",
+        "title": "Rostock",
+        "folder": "rostock-1487"
+      },
+      {
+        "id": "rotterdam-1835",
+        "title": "Rotterdam",
+        "folder": "rotterdam-1835"
+      },
+      {
+        "id": "russische-klassiker-einfach-erklaert",
+        "title": "Russische Klassiker einfach erklärt",
+        "folder": "russische-klassiker-einfach-erklaert"
+      },
+      {
+        "id": "ruth-treue-zu-naomi-4585",
+        "title": "Ruth – Treue zu Naomi",
+        "folder": "ruth-treue-zu-naomi-4585"
+      },
+      {
+        "id": "saarbrucken-1484",
+        "title": "Saarbrücken",
+        "folder": "saarbrucken-1484"
+      },
+      {
+        "id": "sachbuecher-fuer-jugendliche-wissen-spannend-verpackt",
+        "title": "Sachbücher für Jugendliche - Wissen spannend verpackt",
+        "folder": "sachbuecher-fuer-jugendliche-wissen-spannend-verpackt"
+      },
+      {
+        "id": "saint-kitts-und-nevis-1839",
+        "title": "Saint Kitts und Nevis",
+        "folder": "saint-kitts-und-nevis-1839"
+      },
+      {
+        "id": "saint-vincent-und-die-grenadinen-1841",
+        "title": "Saint Vincent und die Grenadinen",
+        "folder": "saint-vincent-und-die-grenadinen-1841"
+      },
+      {
+        "id": "salbung-l-als-zeichen-6722",
+        "title": "Salbung - Öl als Zeichen",
+        "folder": "salbung-l-als-zeichen-6722"
+      },
+      {
+        "id": "samara-1843",
+        "title": "Samara",
+        "folder": "samara-1843"
+      },
+      {
+        "id": "sana-039-a-6102",
+        "title": "Sana'a",
+        "folder": "sana-039-a-6102"
+      },
+      {
+        "id": "sankt-augustin-1847",
+        "title": "Sankt Augustin",
+        "folder": "sankt-augustin-1847"
+      },
+      {
+        "id": "sankt-etienne-1848",
+        "title": "Sankt Etienne",
+        "folder": "sankt-etienne-1848"
+      },
+      {
+        "id": "sankt-petersburg-1849",
+        "title": "Sankt Petersburg",
+        "folder": "sankt-petersburg-1849"
+      }
+    ]
+  },
+  "europe-general-panoramawelten-teil-36": {
+    "slug": "europe-general-panoramawelten-teil-36",
+    "title": "Europa: Städte, Metropolen & Landschaften (Teil 36)",
+    "category": "Europa & Die EU",
+    "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
+    "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
+    "keyPoints": [
+          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+    ],
+    "exercises": [
+      {
+        "id": "santa-cruz-de-la-sierra-6103",
+        "title": "Santa Cruz de la Sierra",
+        "folder": "santa-cruz-de-la-sierra-6103"
+      },
+      {
+        "id": "sarah-vaughan-1309",
+        "title": "Sarah Vaughan",
+        "folder": "sarah-vaughan-1309"
+      },
+      {
+        "id": "schichten-klassen-und-milieus-3586",
+        "title": "Schichten, Klassen und Milieus",
+        "folder": "schichten-klassen-und-milieus-3586"
+      },
+      {
+        "id": "schlager-834",
+        "title": "Schlager",
+        "folder": "schlager-834"
+      },
+      {
+        "id": "schreibblockaden-loesen-die-besten-tricks",
+        "title": "Schreibblockaden lösen - Die besten Tricks",
+        "folder": "schreibblockaden-loesen-die-besten-tricks"
+      },
+      {
+        "id": "schulsachen-809",
+        "title": "Schulsachen",
+        "folder": "schulsachen-809"
+      },
+      {
+        "id": "schulstart-um-neun-die-biologische-notwendigkeit-fuer-einen-spaeteren-unterricht",
+        "title": "Schulstart um Neun – Die biologische Notwendigkeit für einen späteren Unterricht",
+        "folder": "schulstart-um-neun-die-biologische-notwendigkeit-fuer-einen-spaeteren-unterricht"
+      },
+      {
+        "id": "schutz-und-sichere-loeschung-von-daten",
+        "title": "Schutz und sichere Löschung von Daten",
+        "folder": "schutz-und-sichere-loeschung-von-daten"
+      },
+      {
+        "id": "schwabisch-gmund-1852",
+        "title": "Schwäbisch Gmünd",
+        "folder": "schwabisch-gmund-1852"
+      },
+      {
+        "id": "schwefel-3-1310",
+        "title": "Schwefel",
+        "folder": "schwefel-3-1310"
+      },
+      {
+        "id": "science-fiction-werden-roboter-jemals-fuehlen-koennen",
+        "title": "Science-Fiction - Werden Roboter jemals fühlen können",
+        "folder": "science-fiction-werden-roboter-jemals-fuehlen-koennen"
+      },
+      {
+        "id": "selbstakzeptanz-und-korpergefuhl-4456",
+        "title": "Selbstakzeptanz und Körpergefühl",
+        "folder": "selbstakzeptanz-und-korpergefuhl-4456"
+      },
+      {
+        "id": "selbstinstruktion-und-schauspieltechnik-793",
+        "title": "Selbstinstruktion und Schauspieltechnik",
+        "folder": "selbstinstruktion-und-schauspieltechnik-793"
+      },
+      {
+        "id": "selbststaendige-nutzung-von-hilfesystemen-und-support-angeboten",
+        "title": "Selbstständige Nutzung von Hilfesystemen und Support Angeboten",
+        "folder": "selbststaendige-nutzung-von-hilfesystemen-und-support-angeboten"
+      },
+      {
+        "id": "selene-1311",
+        "title": "Selene",
+        "folder": "selene-1311"
+      }
+    ]
+  },
+  "europe-general-panoramawelten-teil-37": {
+    "slug": "europe-general-panoramawelten-teil-37",
+    "title": "Europa: Städte, Metropolen & Landschaften (Teil 37)",
+    "category": "Europa & Die EU",
+    "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
+    "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
+    "keyPoints": [
+          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+    ],
+    "exercises": [
+      {
+        "id": "seltene-erden-6726",
+        "title": "Seltene Erden",
+        "folder": "seltene-erden-6726"
+      },
+      {
+        "id": "sensibler-umgang-mit-persoenlichen-informationen",
+        "title": "Sensibler Umgang mit persönlichen Informationen",
+        "folder": "sensibler-umgang-mit-persoenlichen-informationen"
+      },
+      {
+        "id": "seth-1312",
+        "title": "Seth",
+        "folder": "seth-1312"
+      },
+      {
+        "id": "sevilla-1861",
+        "title": "Sevilla",
+        "folder": "sevilla-1861"
+      },
+      {
+        "id": "shaoxing-6110",
+        "title": "Shaoxing",
+        "folder": "shaoxing-6110"
+      },
+      {
+        "id": "shirin-david-6423",
+        "title": "Shirin David",
+        "folder": "shirin-david-6423"
+      },
+      {
+        "id": "shut-up-and-dance-walk-the-moon-1001",
+        "title": "Shut Up and Dance (Walk the Moon)",
+        "folder": "shut-up-and-dance-walk-the-moon-1001"
+      },
+      {
+        "id": "sicher-chatten-mit-whatsapp-und-alternativen",
+        "title": "Sicher chatten mit WhatsApp und Alternativen",
+        "folder": "sicher-chatten-mit-whatsapp-und-alternativen"
+      },
+      {
+        "id": "sichere-und-bewusste-gestaltung-der-digitalen-identitaet",
+        "title": "Sichere und bewusste Gestaltung der digitalen Identität",
+        "folder": "sichere-und-bewusste-gestaltung-der-digitalen-identitaet"
+      },
+      {
+        "id": "sicherer-umgang-mit-identitaetsdiebstahl-und-datenmissbrauch",
+        "title": "Sicherer Umgang mit Identitätsdiebstahl und Datenmissbrauch",
+        "folder": "sicherer-umgang-mit-identitaetsdiebstahl-und-datenmissbrauch"
+      },
+      {
+        "id": "siegburg-1864",
+        "title": "Siegburg",
+        "folder": "siegburg-1864"
+      },
+      {
+        "id": "skeuomorphismus-und-warum-digitale-notizbloecke-gelb-waren",
+        "title": "Skeuomorphismus und warum digitale Notizblöcke gelb waren",
+        "folder": "skeuomorphismus-und-warum-digitale-notizbloecke-gelb-waren"
+      },
+      {
+        "id": "smells-like-teen-spirit-nirvana-2-638",
+        "title": "Smells Like Teen Spirit (Nirvana)",
+        "folder": "smells-like-teen-spirit-nirvana-2-638"
+      },
+      {
+        "id": "so-wohnten-die-menschen-5399",
+        "title": "So wohnten die Menschen",
+        "folder": "so-wohnten-die-menschen-5399"
+      },
+      {
+        "id": "sol-1343",
+        "title": "Sol",
+        "folder": "sol-1343"
+      }
+    ]
+  },
+  "europe-general-panoramawelten-teil-38": {
+    "slug": "europe-general-panoramawelten-teil-38",
+    "title": "Europa: Städte, Metropolen & Landschaften (Teil 38)",
+    "category": "Europa & Die EU",
+    "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
+    "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
+    "keyPoints": [
+          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+    ],
+    "exercises": [
+      {
+        "id": "sophokles-6279",
+        "title": "Sophokles",
+        "folder": "sophokles-6279"
+      },
+      {
+        "id": "southampton-1874",
+        "title": "Southampton",
+        "folder": "southampton-1874"
+      },
+      {
+        "id": "space-oddity-david-bowie-506",
+        "title": "Space Oddity - David Bowie",
+        "folder": "space-oddity-david-bowie-506"
+      },
+      {
+        "id": "spannende-geschichten-aus-afrika",
+        "title": "Spannende Geschichten aus Afrika",
+        "folder": "spannende-geschichten-aus-afrika"
+      },
+      {
+        "id": "spirits-the-strumbellas-1002",
+        "title": "Spirits (The Strumbellas)",
+        "folder": "spirits-the-strumbellas-1002"
+      },
+      {
+        "id": "spoiler-kultur-warum-wir-das-ende-nicht-wissen-wollen",
+        "title": "Spoiler-Kultur - Warum wir das Ende nicht wissen wollen",
+        "folder": "spoiler-kultur-warum-wir-das-ende-nicht-wissen-wollen"
+      },
+      {
+        "id": "sprachsteuerung-und-die-schwierigkeit-ironie-zu-verstehen",
+        "title": "Sprachsteuerung und die Schwierigkeit Ironie zu verstehen",
+        "folder": "sprachsteuerung-und-die-schwierigkeit-ironie-zu-verstehen"
+      },
+      {
+        "id": "sprechende-gallenblase-632",
+        "title": "Sprechende Gallenblase",
+        "folder": "sprechende-gallenblase-632"
+      },
+      {
+        "id": "stan-getz-1315",
+        "title": "Stan Getz",
+        "folder": "stan-getz-1315"
+      },
+      {
+        "id": "starke-frauen-in-alten-buechern-des-19-jahrhunderts",
+        "title": "Starke Frauen in alten Büchern des 19. Jahrhunderts",
+        "folder": "starke-frauen-in-alten-buechern-des-19-jahrhunderts"
+      },
+      {
+        "id": "starken-und-schwachen-erkennen-ein-leitfaden-fur-dich-3133",
+        "title": "Stärken und Schwächen erkennen - Ein Leitfaden für dich",
+        "folder": "starken-und-schwachen-erkennen-ein-leitfaden-fur-dich-3133"
+      },
+      {
+        "id": "steampunk-wenn-die-vergangenheit-hightech-haette",
+        "title": "Steampunk - Wenn die Vergangenheit Hightech hätte",
+        "folder": "steampunk-wenn-die-vergangenheit-hightech-haette"
+      },
+      {
+        "id": "sternzeichen-6727",
+        "title": "Sternzeichen",
+        "folder": "sternzeichen-6727"
+      },
+      {
+        "id": "stille-und-kontemplation-2471",
+        "title": "Stille und Kontemplation",
+        "folder": "stille-und-kontemplation-2471"
+      },
+      {
+        "id": "stockholm-1878",
+        "title": "Stockholm",
+        "folder": "stockholm-1878"
+      }
+    ]
+  },
+  "europe-general-panoramawelten-teil-39": {
+    "slug": "europe-general-panoramawelten-teil-39",
+    "title": "Europa: Städte, Metropolen & Landschaften (Teil 39)",
+    "category": "Europa & Die EU",
+    "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
+    "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
+    "keyPoints": [
+          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+    ],
+    "exercises": [
+      {
+        "id": "studypoint-luckentext-stadte-685",
+        "title": "studypoint - lückentext - städte",
+        "folder": "studypoint-luckentext-stadte-685"
+      },
+      {
+        "id": "studypoint-multiple-choice-winkel-695",
+        "title": "studypoint - multiple choice - winkel",
+        "folder": "studypoint-multiple-choice-winkel-695"
+      },
+      {
+        "id": "studypoint-virtuelle-tour-718",
+        "title": "studypoint - virtuelle Tour",
+        "folder": "studypoint-virtuelle-tour-718"
+      },
+      {
+        "id": "sturm-und-drang-als-die-jugend-rebellierte",
+        "title": "Sturm und Drang - Als die Jugend rebellierte",
+        "folder": "sturm-und-drang-als-die-jugend-rebellierte"
+      },
+      {
+        "id": "sturme-und-wirbelsturme-wo-naturgewalten-am-haufigsten-zuschlagen-5520",
+        "title": "Stürme und Wirbelstürme - Wo Naturgewalten am häufigsten zuschlagen",
+        "folder": "sturme-und-wirbelsturme-wo-naturgewalten-am-haufigsten-zuschlagen-5520"
+      },
+      {
+        "id": "stuttgart-1432",
+        "title": "Stuttgart",
+        "folder": "stuttgart-1432"
+      },
+      {
+        "id": "subsidiaritatsprinzip-3593",
+        "title": "Subsidiaritätsprinzip",
+        "folder": "subsidiaritatsprinzip-3593"
+      },
+      {
+        "id": "symbole-in-buechern-erkennen-und-verstehen",
+        "title": "Symbole in Büchern erkennen und verstehen",
+        "folder": "symbole-in-buechern-erkennen-und-verstehen"
+      },
+      {
+        "id": "symbole-in-der-eigenen-geschichte-verstecken",
+        "title": "Symbole in der eigenen Geschichte verstecken",
+        "folder": "symbole-in-der-eigenen-geschichte-verstecken"
+      },
+      {
+        "id": "taichung-6119",
+        "title": "Taichung",
+        "folder": "taichung-6119"
+      },
+      {
+        "id": "taiga-2030",
+        "title": "Taiga",
+        "folder": "taiga-2030"
+      },
+      {
+        "id": "taipei-6121",
+        "title": "Taipei",
+        "folder": "taipei-6121"
+      },
+      {
+        "id": "taiyuan-6122",
+        "title": "Taiyuan",
+        "folder": "taiyuan-6122"
+      },
+      {
+        "id": "tangshan-6124",
+        "title": "Tangshan",
+        "folder": "tangshan-6124"
+      },
+      {
+        "id": "taoyuan-6125",
+        "title": "Taoyuan",
+        "folder": "taoyuan-6125"
+      }
+    ]
+  },
+  "europe-general-panoramawelten-teil-40": {
+    "slug": "europe-general-panoramawelten-teil-40",
+    "title": "Europa: Städte, Metropolen & Landschaften (Teil 40)",
+    "category": "Europa & Die EU",
+    "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
+    "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
+    "keyPoints": [
+          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+    ],
+    "exercises": [
+      {
+        "id": "tashkent-6126",
+        "title": "Tashkent",
+        "folder": "tashkent-6126"
+      },
+      {
+        "id": "technische-analyse-von-ransomware-und-botnetzen",
+        "title": "Technische Analyse von Ransomware und Botnetzen",
+        "folder": "technische-analyse-von-ransomware-und-botnetzen"
+      },
+      {
+        "id": "teilbarkeit-2-390",
+        "title": "Teilbarkeit",
+        "folder": "teilbarkeit-2-390"
+      },
+      {
+        "id": "tellur-1183",
+        "title": "Tellur",
+        "folder": "tellur-1183"
+      },
+      {
+        "id": "test-2-130",
+        "title": "Hauptstädte der EU-Staaten",
+        "folder": "test-2-130"
+      },
+      {
+        "id": "the-beatles-183",
+        "title": "The Beatles",
+        "folder": "the-beatles-183"
+      },
+      {
+        "id": "theorie-der-sechs-ecken-und-globale-vernetzung",
+        "title": "Theorie der sechs Ecken und globale Vernetzung",
+        "folder": "theorie-der-sechs-ecken-und-globale-vernetzung"
+      },
+      {
+        "id": "theorien-zur-substanzabhangigkeit-5900",
+        "title": "Theorien zur Substanzabhängigkeit",
+        "folder": "theorien-zur-substanzabhangigkeit-5900"
+      },
+      {
+        "id": "thomas-der-zweifler-6730",
+        "title": "Thomas - der Zweifler",
+        "folder": "thomas-der-zweifler-6730"
+      },
+      {
+        "id": "thot-1322",
+        "title": "Thot",
+        "folder": "thot-1322"
+      },
+      {
+        "id": "tiflis-1895",
+        "title": "Tiflis",
+        "folder": "tiflis-1895"
+      },
+      {
+        "id": "tipps-fuer-das-kreative-schreiben-von-eigenen-storys",
+        "title": "Tipps für das kreative Schreiben von eigenen Storys",
+        "folder": "tipps-fuer-das-kreative-schreiben-von-eigenen-storys"
+      },
+      {
+        "id": "titan-1168",
+        "title": "Titan",
+        "folder": "titan-1168"
+      },
+      {
+        "id": "tokyo-6130",
+        "title": "Tokyo",
+        "folder": "tokyo-6130"
+      },
+      {
+        "id": "toulouse-1897",
+        "title": "Toulouse",
+        "folder": "toulouse-1897"
+      }
+    ]
+  },
+  "europe-general-panoramawelten-teil-41": {
+    "slug": "europe-general-panoramawelten-teil-41",
+    "title": "Europa: Städte, Metropolen & Landschaften (Teil 41)",
+    "category": "Europa & Die EU",
+    "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
+    "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
+    "keyPoints": [
+          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+    ],
+    "exercises": [
+      {
+        "id": "tove-jansson-und-die-wunderbare-welt-der-mumins",
+        "title": "Tove Jansson und die wunderbare Welt der Mumins",
+        "folder": "tove-jansson-und-die-wunderbare-welt-der-mumins"
+      },
+      {
+        "id": "turin-1904",
+        "title": "Turin",
+        "folder": "turin-1904"
+      },
+      {
+        "id": "ueberarbeiten-warum-das-zweite-schreiben-das-wichtigste-ist",
+        "title": "Überarbeiten - Warum das zweite Schreiben das wichtigste ist",
+        "folder": "ueberarbeiten-warum-das-zweite-schreiben-das-wichtigste-ist"
+      },
+      {
+        "id": "ufa-1908",
+        "title": "Ufa",
+        "folder": "ufa-1908"
+      },
+      {
+        "id": "ulm-1467",
+        "title": "Ulm",
+        "folder": "ulm-1467"
+      },
+      {
+        "id": "unterschied-zwischen-pruefen-und-loesen-komplexer-probleme",
+        "title": "Unterschied zwischen Prüfen und Lösen komplexer Probleme",
+        "folder": "unterschied-zwischen-pruefen-und-loesen-komplexer-probleme"
+      },
+      {
+        "id": "unterschiede-zwischen-nationalismus-und-patriotismus-3598",
+        "title": "Unterschiede zwischen Nationalismus und Patriotismus",
+        "folder": "unterschiede-zwischen-nationalismus-und-patriotismus-3598"
+      },
+      {
+        "id": "unterschiede-zwischen-zentralen-und-dezentralen-systemen",
+        "title": "Unterschiede zwischen zentralen und dezentralen Systemen",
+        "folder": "unterschiede-zwischen-zentralen-und-dezentralen-systemen"
+      },
+      {
+        "id": "urban-fantasy-wenn-mitten-in-der-stadt-magie-passiert",
+        "title": "Urban Fantasy - Wenn mitten in der Stadt Magie passiert",
+        "folder": "urban-fantasy-wenn-mitten-in-der-stadt-magie-passiert"
+      },
+      {
+        "id": "utopien-die-suche-nach-der-perfekten-welt",
+        "title": "Utopien - Die Suche nach der perfekten Welt",
+        "folder": "utopien-die-suche-nach-der-perfekten-welt"
+      },
+      {
+        "id": "valencia-1916",
+        "title": "Valencia",
+        "folder": "valencia-1916"
+      },
+      {
+        "id": "venus-1344",
+        "title": "Venus",
+        "folder": "venus-1344"
+      },
+      {
+        "id": "verifikation-von-bildern-und-videos-mit-osint-methoden",
+        "title": "Verifikation von Bildern und Videos mit OSINT Methoden",
+        "folder": "verifikation-von-bildern-und-videos-mit-osint-methoden"
+      },
+      {
+        "id": "verlorene-jugend-einsamkeit-als-unterschaetztes-gesellschaftliches-gift",
+        "title": "Verlorene Jugend – Einsamkeit als unterschätztes gesellschaftliches Gift",
+        "folder": "verlorene-jugend-einsamkeit-als-unterschaetztes-gesellschaftliches-gift"
+      },
+      {
+        "id": "verschiedene-tthische-theorien-4465",
+        "title": "Verschiedene tthische Theorien",
+        "folder": "verschiedene-tthische-theorien-4465"
+      }
+    ]
+  },
+  "europe-general-panoramawelten-teil-42": {
+    "slug": "europe-general-panoramawelten-teil-42",
+    "title": "Europa: Städte, Metropolen & Landschaften (Teil 42)",
+    "category": "Europa & Die EU",
+    "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
+    "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
+    "keyPoints": [
+          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+    ],
+    "exercises": [
+      {
+        "id": "verstandnis-von-geschlechterrollen-5905",
+        "title": "Verständnis von Geschlechterrollen",
+        "folder": "verstandnis-von-geschlechterrollen-5905"
+      },
+      {
+        "id": "vesta-1345",
+        "title": "Vesta",
+        "folder": "vesta-1345"
+      },
+      {
+        "id": "victoria-1346",
+        "title": "Victoria",
+        "folder": "victoria-1346"
+      },
+      {
+        "id": "vilnius-1929",
+        "title": "Vilnius",
+        "folder": "vilnius-1929"
+      },
+      {
+        "id": "virtuose-pianisten",
+        "title": "Virtuose Pianisten",
+        "folder": "virtuose-pianisten"
+      },
+      {
+        "id": "voip-1325",
+        "title": "VoIP",
+        "folder": "voip-1325"
+      },
+      {
+        "id": "vom-wattpad-hit-zum-kinofilm-der-neue-weg",
+        "title": "Vom Wattpad-Hit zum Kinofilm - Der neue Weg",
+        "folder": "vom-wattpad-hit-zum-kinofilm-der-neue-weg"
+      },
+      {
+        "id": "wallfahrten-im-christlichen-glauben-2475",
+        "title": "Wallfahrten im christlichen Glauben",
+        "folder": "wallfahrten-im-christlichen-glauben-2475"
+      },
+      {
+        "id": "warschau-1934",
+        "title": "Warschau",
+        "folder": "warschau-1934"
+      },
+      {
+        "id": "warum-manche-buecher-generationen-praegen",
+        "title": "Warum manche Bücher Generationen prägen",
+        "folder": "warum-manche-buecher-generationen-praegen"
+      },
+      {
+        "id": "warum-manche-buecher-nie-zu-ende-geschrieben-wurden",
+        "title": "Warum manche Bücher nie zu Ende geschrieben wurden",
+        "folder": "warum-manche-buecher-nie-zu-ende-geschrieben-wurden"
+      },
+      {
+        "id": "warum-namen-in-buechern-oft-eine-bedeutung-haben",
+        "title": "Warum Namen in Büchern oft eine Bedeutung haben",
+        "folder": "warum-namen-in-buechern-oft-eine-bedeutung-haben"
+      },
+      {
+        "id": "warum-vorurteile-in-buechern-oft-abgebaut-werden",
+        "title": "Warum Vorurteile in Büchern oft abgebaut werden",
+        "folder": "warum-vorurteile-in-buechern-oft-abgebaut-werden"
+      },
+      {
+        "id": "warum-wir-liebeskummer-in-buechern-gerne-miterleben",
+        "title": "Warum wir Liebeskummer in Büchern gerne miterleben",
+        "folder": "warum-wir-liebeskummer-in-buechern-gerne-miterleben"
+      },
+      {
+        "id": "warum-wir-superhelden-geschichten-brauchen",
+        "title": "Warum wir Superhelden-Geschichten brauchen",
+        "folder": "warum-wir-superhelden-geschichten-brauchen"
+      }
+    ]
+  },
+  "europe-general-panoramawelten-teil-43": {
+    "slug": "europe-general-panoramawelten-teil-43",
+    "title": "Europa: Städte, Metropolen & Landschaften (Teil 43)",
+    "category": "Europa & Die EU",
+    "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
+    "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
+    "keyPoints": [
+          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+    ],
+    "exercises": [
+      {
+        "id": "was-ist-glaube-2-6742",
+        "title": "Was ist Glaube",
+        "folder": "was-ist-glaube-2-6742"
+      },
+      {
+        "id": "was-ist-mitteldeutschland",
+        "title": "Was ist Mitteldeutschland",
+        "folder": "was-ist-mitteldeutschland"
+      },
+      {
+        "id": "was-ware-wenn-der-euro-nie-eingefuhrt-worden-ware-5404",
+        "title": "Was wäre, wenn der Euro nie eingeführt worden wäre …",
+        "folder": "was-ware-wenn-der-euro-nie-eingefuhrt-worden-ware-5404"
+      },
+      {
+        "id": "wie-der-demografische-wandel-das-gesundheitswesen-verandert-5568",
+        "title": "Wie der demografische Wandel das Gesundheitswesen verändert",
+        "folder": "wie-der-demografische-wandel-das-gesundheitswesen-verandert-5568"
+      },
+      {
+        "id": "wie-du-aus-deinen-fehlern-lernst-tipps-fur-die-personliche-entwicklung-3150",
+        "title": "Wie du aus deinen Fehlern lernst - Tipps für die persönliche Entwicklung",
+        "folder": "wie-du-aus-deinen-fehlern-lernst-tipps-fur-die-personliche-entwicklung-3150"
+      },
+      {
+        "id": "wie-illustrationen-eine-geschichte-veraendern",
+        "title": "Wie Illustrationen eine Geschichte verändern",
+        "folder": "wie-illustrationen-eine-geschichte-veraendern"
+      },
+      {
+        "id": "wie-man-eine-bibliothek-zu-hause-ordnet",
+        "title": "Wie man eine Bibliothek zu Hause ordnet",
+        "folder": "wie-man-eine-bibliothek-zu-hause-ordnet"
+      },
+      {
+        "id": "wie-man-eine-eigene-kleine-bibliothek-aufbaut",
+        "title": "Wie man eine eigene kleine Bibliothek aufbaut",
+        "folder": "wie-man-eine-eigene-kleine-bibliothek-aufbaut"
+      },
+      {
+        "id": "wie-man-heute-ein-buch-bekannt-macht",
+        "title": "Wie man heute ein Buch bekannt macht",
+        "folder": "wie-man-heute-ein-buch-bekannt-macht"
+      },
+      {
+        "id": "wie-man-interessante-boesewichte-erschafft",
+        "title": "Wie man interessante Bösewichte erschafft",
+        "folder": "wie-man-interessante-boesewichte-erschafft"
+      },
+      {
+        "id": "wikipedia-1327",
+        "title": "Wikipedia",
+        "folder": "wikipedia-1327"
+      },
+      {
+        "id": "xi-039-an-6138",
+        "title": "Xi'an",
+        "folder": "xi-039-an-6138"
+      },
+      {
+        "id": "zagreb-1952",
+        "title": "Zagreb",
+        "folder": "zagreb-1952"
+      },
+      {
+        "id": "zahlung-der-bevolklerung-2064",
+        "title": "Zählung der Bevölklerung",
+        "folder": "zahlung-der-bevolklerung-2064"
+      }
+    ]
+  }
 };

@@ -11,14 +11,14 @@ import { subjectCategories } from '@/lib/subject-categories';
 export const metadata: Metadata = {
   title: 'Erklärung und mehr – Kostenlose Lernplattform für Schule & Unterricht',
   description:
-    'Entdecke Erklärvideos mit passenden interaktiven Übungen, Arbeitsblättern und weiteren spannenden Lernmaterialien in 27 Schulfächern mit über 7.700 Online-Übungen!',
+    'Entdecke Erklärvideos mit passenden interaktiven Übungen, Arbeitsblättern und weiteren spannenden Lernmaterialien in 27 Schulfächern mit über 8.800 Online-Übungen!',
   alternates: {
     canonical: '/',
   },
   openGraph: {
     title: 'Erklärung und mehr – Kostenlose Lernplattform für Schule & Unterricht',
     description:
-      'Entdecke Erklärvideos mit passenden interaktiven Übungen, Arbeitsblättern und weiteren spannenden Lernmaterialien in 27 Schulfächern mit über 7.700 Online-Übungen!',
+      'Entdecke Erklärvideos mit passenden interaktiven Übungen, Arbeitsblättern und weiteren spannenden Lernmaterialien in 27 Schulfächern mit über 8.800 Online-Übungen!',
     url: '/',
     siteName: 'Erklärung und mehr',
     locale: 'de_AT',

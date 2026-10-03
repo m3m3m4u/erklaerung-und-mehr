@@ -823,6 +823,12 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "title": "Moses (Figur aus der Bibel)",
         "folder": "moses-figur-aus-der-bibel-4112"
       }
+    ,
+      {
+        "id": "zehn-gebote-damals-und-heute-7-6755",
+        "title": "Zehn Gebote - damals und heute",
+        "folder": "zehn-gebote-damals-und-heute-7-6755"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=mose+zehn+gebote&t=3752"
   },
@@ -1025,6 +1031,12 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "title": "Daniel (Figur aus der Bibel)",
         "folder": "daniel-figur-aus-der-bibel-3768"
       }
+    ,
+      {
+        "id": "daniel-in-der-lowengrube-4584",
+        "title": "Daniel – In der Löwengrube",
+        "folder": "daniel-in-der-lowengrube-4584"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=altes+testament+propheten&t=3752"
   },
@@ -1117,6 +1129,12 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "title": "Jesu Verkündigung vom Reich Gottes",
         "folder": "jesu-verkundigung-reich-gottes-6668"
       }
+    ,
+      {
+        "id": "das-leben-jesu-5332",
+        "title": "Das Leben Jesu",
+        "folder": "das-leben-jesu-5332"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=jesus+von+nazaret&t=3752"
   },
@@ -1178,6 +1196,12 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "id": "2417",
         "title": "Jesu Heilungen - Zeichen seiner Liebe und Macht",
         "folder": "jesu-heilungen-zeichen-seiner-liebe-und-macht-2417"
+      }
+    ,
+      {
+        "id": "die-wunder-jesu-wunder-wie-die-sturmstillung-4590",
+        "title": "Die Wunder Jesu - Wunder wie die Sturmstillung",
+        "folder": "die-wunder-jesu-wunder-wie-die-sturmstillung-4590"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=bergpredigt+gleichnisse&t=3752"
@@ -1352,6 +1376,12 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "title": "Das Christentum breitet sich aus",
         "folder": "das-christentum-breitet-sich-aus-2432"
       }
+    ,
+      {
+        "id": "bekenntnisse-und-ihre-bedeutung-6428",
+        "title": "Bekenntnisse und ihre Bedeutung",
+        "folder": "bekenntnisse-und-ihre-bedeutung-6428"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=evangelien+apostel&t=3752"
   },
@@ -1465,6 +1495,12 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "id": "6502",
         "title": "Der Karfreitag",
         "folder": "der-karfreitag-6502"
+      }
+    ,
+      {
+        "id": "der-schlusssegen-und-die-sendung-6530",
+        "title": "Der Schlusssegen und die Sendung",
+        "folder": "der-schlusssegen-und-die-sendung-6530"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=fastenzeit+karwoche&t=3752"
@@ -1590,6 +1626,12 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "title": "Der Glaube als Quelle von Trost und Hoffnung",
         "folder": "der-glaube-als-quelle-von-trost-und-hoffnung-2423"
       }
+    ,
+      {
+        "id": "beerdigungsrituale-6435",
+        "title": "Beerdigungsrituale",
+        "folder": "beerdigungsrituale-6435"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=tod+trauer+seelsorge&t=3752"
   },
@@ -1692,6 +1734,12 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "id": "2479",
         "title": "Die Wassertaufe – Aufnahme in die Gemeinschaft Christi",
         "folder": "die-wassertaufe-aufnahme-in-die-gemeinschaft-christi-2479"
+      }
+    ,
+      {
+        "id": "wasser-als-taufsymbol-6743",
+        "title": "Wasser als Taufsymbol",
+        "folder": "wasser-als-taufsymbol-6743"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=taufe+firmung+sakramente&t=3752"

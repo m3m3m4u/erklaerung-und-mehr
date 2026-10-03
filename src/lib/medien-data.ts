@@ -323,6 +323,12 @@ export const medienTopics: Record<string, MedienTopic> = {
         "title": "Warum wir Fan-Theorien im Internet so lieben",
         "folder": "warum-wir-fan-theorien-im-internet-so-lieben"
       }
+    ,
+      {
+        "id": "wie-man-online-eine-eigene-schreib-community-findet",
+        "title": "Wie man online eine eigene Schreib-Community findet",
+        "folder": "wie-man-online-eine-eigene-schreib-community-findet"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=YouTube+Content+Creation+Video&t=1721"
   },

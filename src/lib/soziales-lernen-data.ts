@@ -343,6 +343,12 @@ export const sozialesLernenTopics: Record<string, SozialesLernenTopic> = {
         "title": "Aktives Zuhören – Wie du anderen wirklich zuhörst",
         "folder": "aktives-zuhoren-wie-du-anderen-wirklich-zuhorst-3141"
       }
+    ,
+      {
+        "id": "feedback-und-fehler-machen-2-3299",
+        "title": "Feedback und Fehler machen",
+        "folder": "feedback-und-fehler-machen-2-3299"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Gewaltfreie+Kommunikation+Feedback&t=3752"
   },

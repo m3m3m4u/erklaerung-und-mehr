@@ -5878,4 +5878,246 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
       }
     ]
   }
+,
+  "urgeschichte-voelker-und-entdecker": {
+    "slug": "urgeschichte-voelker-und-entdecker",
+    "title": "Urgeschichte, frühe Völker & Entdecker",
+    "category": "Frühgeschichte, Antike & Mittelalter",
+    "shortDesc": "Vom Neandertaler und den Eiszeiten über Völkerwanderungen bis zu großen Entdeckungen.",
+    "longDesc": "Die Frühphase der Menschheitsgeschichte und die formativen Epochen von Völkerwanderung und Entdeckungsreisen: Neandertaler, Eiszeiten, die Hunnen, germanische Stämme und Pioniere der Pol- und Weltumsegelung.",
+    "keyPoints": [
+          "Evolution des Menschen: Neandertaler, Homo sapiens und Anpassung an die eiszeitlichen Lebensräume",
+          "Erdzeitalter und Paläoanthropologie: Chronologie der Urgeschichte der Erde",
+          "Völkerwanderung: Der Ansturm der Hunnen und die Rolle germanischer Stämme (Markomannen, Thüringer)",
+          "Entdeckungsfahrten: Vasco da Gama und die Erschließung der Seewege nach Indien sowie spätere Polarexpeditionen"
+    ],
+    "exercises": [
+      {
+        "id": "der-neandertaler-2-885",
+        "title": "Der Neandertaler",
+        "folder": "der-neandertaler-2-885"
+      },
+      {
+        "id": "die-eiszeiten-2329",
+        "title": "Die Eiszeiten",
+        "folder": "die-eiszeiten-2329"
+      },
+      {
+        "id": "die-erdzeitalter-2331",
+        "title": "Die Erdzeitalter",
+        "folder": "die-erdzeitalter-2331"
+      },
+      {
+        "id": "entstehung-der-erde-3174",
+        "title": "Entstehung der Erde",
+        "folder": "entstehung-der-erde-3174"
+      },
+      {
+        "id": "die-hunnen-2341",
+        "title": "Die Hunnen",
+        "folder": "die-hunnen-2341"
+      },
+      {
+        "id": "die-markomannen-3168",
+        "title": "Die Markomannen",
+        "folder": "die-markomannen-3168"
+      },
+      {
+        "id": "die-thuringer-3170",
+        "title": "Die Thüringer",
+        "folder": "die-thuringer-3170"
+      },
+      {
+        "id": "vasco-da-gama-894",
+        "title": "Vasco da Gama",
+        "folder": "vasco-da-gama-894"
+      },
+      {
+        "id": "die-nuklearkatastrophe-von-tschernobyl-9-2355",
+        "title": "Erforschung des Nordpols",
+        "folder": "die-nuklearkatastrophe-von-tschernobyl-9-2355"
+      },
+      {
+        "id": "die-nuklearkatastrophe-von-tschernobyl-10-2356",
+        "title": "Erforschung des Südpols",
+        "folder": "die-nuklearkatastrophe-von-tschernobyl-10-2356"
+      }
+    ]
+  }
+,
+  "ordnung-recht-und-kultur-in-mittelalter-und-neuzeit": {
+    "slug": "ordnung-recht-und-kultur-in-mittelalter-und-neuzeit",
+    "title": "Ordnung, Recht & Kultur in Mittelalter & Neuzeit",
+    "category": "Neuzeit, Aufklärung & Revolutionen",
+    "shortDesc": "Rechtstraditionen, Reformation, Aufklärung und Gesellschaftsordnung.",
+    "longDesc": "Schlüsselmomente europäischer und globaler Verfassungs- und Sozialgeschichte: Die Goldene Bulle als Grundgesetz des Heiligen Römischen Reiches, die Leibeigenschaft, Glaubensflüchtlinge wie die Hugenotten, die Philosophie der Aufklärung und transatlantische Entwicklungen wie der Wilde Westen.",
+    "keyPoints": [
+          "Die Goldene Bulle von 1356: Wahlordnung der deutschen Könige und Kaiser durch die Kurfürsten",
+          "Sozialordnung: Leibeigenschaft und feudale Abhängigkeitsverhältnisse in Stadt und Land",
+          "Konfessionelle Konflikte: Die Hugenottenkriege und das Edikt von Nantes",
+          "Das Zeitalter der Aufklärung: Vernunft, Menschenrechte, Gewaltenteilung und Religionsfreiheit",
+          "Kulturelle Mythen: Die Erschließung Nordamerikas und der historische Wilde Westen"
+    ],
+    "exercises": [
+      {
+        "id": "die-goldene-bulle-2339",
+        "title": "Die Goldene Bulle",
+        "folder": "die-goldene-bulle-2339"
+      },
+      {
+        "id": "die-leibeigenschaft-2346",
+        "title": "Die Leibeigenschaft",
+        "folder": "die-leibeigenschaft-2346"
+      },
+      {
+        "id": "die-hugenotten-2340",
+        "title": "Die Hugenotten",
+        "folder": "die-hugenotten-2340"
+      },
+      {
+        "id": "die-aufklarung-2327",
+        "title": "Die Aufklärung",
+        "folder": "die-aufklarung-2327"
+      },
+      {
+        "id": "der-panslawismus-2923",
+        "title": "Der Panslawismus",
+        "folder": "der-panslawismus-2923"
+      },
+      {
+        "id": "vielvolkerstaat-sterreich-2361",
+        "title": "Vielvölkerstaat Österreich",
+        "folder": "vielvolkerstaat-sterreich-2361"
+      },
+      {
+        "id": "der-wilde-westen-2326",
+        "title": "Der Wilde Westen",
+        "folder": "der-wilde-westen-2326"
+      },
+      {
+        "id": "geschichte-von-hollywood-3004",
+        "title": "Geschichte von Hollywood",
+        "folder": "geschichte-von-hollywood-3004"
+      },
+      {
+        "id": "geschichte-von-walt-disney-3005",
+        "title": "Geschichte von Walt Disney",
+        "folder": "geschichte-von-walt-disney-3005"
+      }
+    ]
+  }
+,
+  "terrorismus-widerstand-und-organisationen-des-20-jahrhunderts": {
+    "slug": "terrorismus-widerstand-und-organisationen-des-20-jahrhunderts",
+    "title": "Terrorismus, Krisen & Organisationen des 20. Jahrhunderts",
+    "category": "Kalter Krieg, Geteiltes Deutschland & Zeitgeschichte",
+    "shortDesc": "RAF, IRA, ETA, Olympia 1972, 11. September und UN-Organisationen.",
+    "longDesc": "Politische Gewalt, Terrorismus und internationale Reaktionen in der zweiten Hälfte des 20. und zu Beginn des 21. Jahrhunderts: Vom Deutschen Herbst über den Nordirland- und Baskenland-Konflikt bis zu 9/11 und der Rolle internationaler Organisationen wie UNESCO und UNICEF.",
+    "keyPoints": [
+          "Terrorismus in Europa: RAF in Deutschland, IRA in Nordirland und ETA in Spanien",
+          "Das Olympia-Attentat von München 1972: Schwarzer September und die Folgen für Sicherheitsbehörden",
+          "Die Terroranschläge vom 11. September 2001: Zäsur der Weltpolitik und Beginn des „War on Terror“",
+          "Internationale Institutionen: Aufgaben und Errungenschaften von UNESCO (Kulturerbe) und UNICEF (Kinderrechte)",
+          "Technologische Katastrophen: Fukushima und weltweite Konsequenzen für die Kernenergienutzung"
+    ],
+    "exercises": [
+      {
+        "id": "die-raf-2972",
+        "title": "Die RAF",
+        "folder": "die-raf-2972"
+      },
+      {
+        "id": "die-ira-2961",
+        "title": "Die IRA",
+        "folder": "die-ira-2961"
+      },
+      {
+        "id": "die-eta-2951",
+        "title": "Die ETA",
+        "folder": "die-eta-2951"
+      },
+      {
+        "id": "der-schwarze-september-1972-2928",
+        "title": "Der Schwarze September 1972",
+        "folder": "der-schwarze-september-1972-2928"
+      },
+      {
+        "id": "terroranschlage-vom-11-september-908",
+        "title": "Terroranschläge vom 11. September",
+        "folder": "terroranschlage-vom-11-september-908"
+      },
+      {
+        "id": "die-unesco-2985",
+        "title": "Die UNESCO",
+        "folder": "die-unesco-2985"
+      },
+      {
+        "id": "die-unicef-2986",
+        "title": "Die UNICEF",
+        "folder": "die-unicef-2986"
+      },
+      {
+        "id": "die-nuklearkatastrophe-von-tschernobyl-3-2349",
+        "title": "Die Nuklearkatastrophe von Fukushima",
+        "folder": "die-nuklearkatastrophe-von-tschernobyl-3-2349"
+      }
+    ]
+  }
+,
+  "fuehrende-politiker-und-staatsmaenner-der-zeitgeschichte": {
+    "slug": "fuehrende-politiker-und-staatsmaenner-der-zeitgeschichte",
+    "title": "Führende Politiker & Staatsmänner der Zeitgeschichte",
+    "category": "Kalter Krieg, Geteiltes Deutschland & Zeitgeschichte",
+    "shortDesc": "Stalin, JFK, Schmidt, Schröder, Mandela, Castro und weltpolitische Führer.",
+    "longDesc": "Persönlichkeiten, die den Lauf der Weltgeschichte im 20. und 21. Jahrhundert maßgeblich beeinflussten: Vom totalitären Stalinismus über die Präsidentschaft John F. Kennedys und die deutsche Kanzlerschaft von Helmut Schmidt und Gerhard Schröder bis hin zu Nelson Mandelas historischem Kampf gegen die Apartheid.",
+    "keyPoints": [
+          "Josef Stalin: Herrschaftsapparat der Sowjetunion, Großer Terror und Rolle im Zweiten Weltkrieg und Kalten Krieg",
+          "John F. Kennedy: Kubakrise, Bürgerrechtsbewegung und das Versprechen der Mondlandung",
+          "Deutsche Bundeskanzler: Helmut Schmidt (Krisenmanager im Deutschen Herbst) und Gerhard Schröder (Agenda 2010 und Nein zum Irakkrieg)",
+          "Nelson Mandela: Widerstand gegen das Apartheid-Regime, 27 Jahre Haft und Versöhnungspolitik in Südafrika",
+          "Fidel Castro und Saddam Hussein: Autoritäre Herrschaft und geopolitische Konflikte"
+    ],
+    "exercises": [
+      {
+        "id": "josef-stalin-3015",
+        "title": "Josef Stalin",
+        "folder": "josef-stalin-3015"
+      },
+      {
+        "id": "john-f-kennedy-3013",
+        "title": "John F. Kennedy",
+        "folder": "john-f-kennedy-3013"
+      },
+      {
+        "id": "helmut-schmidt-890",
+        "title": "Helmut Schmidt",
+        "folder": "helmut-schmidt-890"
+      },
+      {
+        "id": "gerhard-schroder-897",
+        "title": "Gerhard Schröder",
+        "folder": "gerhard-schroder-897"
+      },
+      {
+        "id": "nelson-mandela-3038",
+        "title": "Nelson Mandela",
+        "folder": "nelson-mandela-3038"
+      },
+      {
+        "id": "fidel-castro-2999",
+        "title": "Fidel Castro",
+        "folder": "fidel-castro-2999"
+      },
+      {
+        "id": "saddam-hussein-3056",
+        "title": "Saddam Hussein",
+        "folder": "saddam-hussein-3056"
+      },
+      {
+        "id": "osama-bin-laden-3043",
+        "title": "Osama Bin Laden",
+        "folder": "osama-bin-laden-3043"
+      }
+    ]
+  }
 };

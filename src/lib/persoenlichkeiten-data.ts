@@ -2050,6 +2050,12 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "title": "Lucy Parsons",
         "folder": "lucy-parsons-4406"
       }
+    ,
+      {
+        "id": "bertha-von-suttner-2298",
+        "title": "Bertha von Suttner",
+        "folder": "bertha-von-suttner-2298"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Frauenrechtler+biografie&t=3752"
   },
@@ -2429,6 +2435,12 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "id": "4391",
         "title": "Leonardo Torres Quevedo",
         "folder": "leonardo-torres-quevedo-4391"
+      }
+    ,
+      {
+        "id": "die-fraunhofer-gesellschaft",
+        "title": "Die Fraunhofer-Gesellschaft",
+        "folder": "die-fraunhofer-gesellschaft"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Ingenieure+biografie&t=3752"
@@ -4291,6 +4303,37 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "title": "Julius Caesar",
         "folder": "julius-caesar-4364"
       }
+    ,
+      {
+        "id": "bill-clinton-2299",
+        "title": "Bill Clinton",
+        "folder": "bill-clinton-2299"
+      },
+      {
+        "id": "benjamin-netanjahu-5425",
+        "title": "Benjamin Netanjahu",
+        "folder": "benjamin-netanjahu-5425"
+      },
+      {
+        "id": "wladimir-putin-3069",
+        "title": "Wladimir Putin",
+        "folder": "wladimir-putin-3069"
+      },
+      {
+        "id": "wolodymyr-selenskyj-4660",
+        "title": "Wolodymyr Selenskyj",
+        "folder": "wolodymyr-selenskyj-4660"
+      },
+      {
+        "id": "trump-und-putin-freunde-oder-feinde-6732",
+        "title": "Trump und Putin - Freunde oder Feinde",
+        "folder": "trump-und-putin-freunde-oder-feinde-6732"
+      },
+      {
+        "id": "juan-und-evita-peron-3016",
+        "title": "Juan und Evita Perón",
+        "folder": "juan-und-evita-peron-3016"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Politiker+biografie&t=3752"
   },
@@ -5428,6 +5471,63 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Unternehmer+biografie&t=3752"
+  }
+,
+  "antike-mythologie-und-goetterwelt": {
+    "slug": "antike-mythologie-und-goetterwelt",
+    "title": "Antike Mythologie & Götterwelt",
+    "category": "Religiöse Führer",
+    "shortDesc": "Götter, Kulte und Sagengestalten der griechischen und römischen Mythologie.",
+    "longDesc": "Die Götterwelt der Antike prägte Kultur, Philosophie, Kunst und Sprache des Abendlandes. Von Dionysos (Bacchus) und Helios über Demeter (Ceres) bis hin zur Sage um Persephone spiegeln die antiken Mythen Naturphänomene, Jahreszeiten und menschliche Schicksale wider.",
+    "keyPoints": [
+          "Dionysos / Bacchus: Gott des Weines, der Fruchtbarkeit, des Theaters und der Ekstase",
+          "Demeter / Ceres: Göttin des Ackerbaus, des Getreides und der mütterlichen Fürsorge",
+          "Persephone: Tochter der Demeter und Königin der Unterwelt, mythologische Erklärung der Jahreszeiten",
+          "Helios: Sonnengott, der täglich mit seinem Sonnenwagen über das Himmelsgewölbe zieht"
+    ],
+    "exercises": [
+      {
+        "id": "bacchus-1331",
+        "title": "Bacchus",
+        "folder": "bacchus-1331"
+      },
+      {
+        "id": "ceres-1332",
+        "title": "Ceres",
+        "folder": "ceres-1332"
+      },
+      {
+        "id": "demeter-1238",
+        "title": "Demeter",
+        "folder": "demeter-1238"
+      },
+      {
+        "id": "persephone-1303",
+        "title": "Persephone",
+        "folder": "persephone-1303"
+      },
+      {
+        "id": "helios-1271",
+        "title": "Helios",
+        "folder": "helios-1271"
+      },
+      {
+        "id": "dionysos-1240",
+        "title": "Dionysos",
+        "folder": "dionysos-1240"
+      }
+    ,
+      {
+        "id": "isis-1280",
+        "title": "Isis",
+        "folder": "isis-1280"
+      },
+      {
+        "id": "vulcan-1347",
+        "title": "Vulcan",
+        "folder": "vulcan-1347"
+      }
+    ]
   }
 };
 

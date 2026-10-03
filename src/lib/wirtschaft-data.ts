@@ -206,6 +206,17 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "title": "Das Solidaritäts- und Äquivalenzprinzip: Wie funktioniert eine Versicherung",
         "folder": "wie-funktioniert-eine-versicherung"
       }
+    ,
+      {
+        "id": "der-demographische-wandel-3499",
+        "title": "Der demographische Wandel",
+        "folder": "der-demographische-wandel-3499"
+      },
+      {
+        "id": "der-tag-der-arbeit-6574",
+        "title": "Der Tag der Arbeit",
+        "folder": "der-tag-der-arbeit-6574"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=sozialversicherung&t=3752"
   },
@@ -297,6 +308,12 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "title": "Wirtschaft der Weimarer Republik",
         "folder": "wirtschaft-der-weimarer-republik-3067"
       }
+    ,
+      {
+        "id": "der-konflikt-zwischen-tradition-und-fortschritt-2752",
+        "title": "Der Konflikt zwischen Tradition und Fortschritt",
+        "folder": "der-konflikt-zwischen-tradition-und-fortschritt-2752"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=marktwirtschaft+planwirtschaft&t=3752"
   },
@@ -373,6 +390,12 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "id": "698",
         "title": "Generationenvertrag",
         "folder": "studypoint-multiple-choice-generationenvertrag-698"
+      }
+    ,
+      {
+        "id": "bedingungsloses-grundeinkommen-3482",
+        "title": "Bedingungsloses Grundeinkommen",
+        "folder": "bedingungsloses-grundeinkommen-3482"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Die%20Soziale%20Marktwirtschaft%20in%20Deutschland+wirtschaft&t=3752"
@@ -587,6 +610,12 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "title": "Krypto-Falle für Anfänger – Risiken digitaler Währungen",
         "folder": "krypto-falle-fuer-anfaenger-das-riskante-spiel-junger-anleger-mit-digitalem-gold"
       }
+    ,
+      {
+        "id": "zahlungsformen-951",
+        "title": "Zahlungsformen",
+        "folder": "zahlungsformen-951"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Geld%2C%20Bankensystem%20%26%20Zahlungsverkehr+wirtschaft&t=3752"
   },
@@ -674,6 +703,12 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "title": "Inflation & Geldwert",
         "folder": "inflation-1136"
       }
+    ,
+      {
+        "id": "studypoint-worter-markieren-lander-der-wahrungsunion-700",
+        "title": "Länder der Währungsunion",
+        "folder": "studypoint-worter-markieren-lander-der-wahrungsunion-700"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=EZB%2C%20Geldpolitik%2C%20Inflation%20%26%20Deflation+wirtschaft&t=3752"
   },
@@ -754,6 +789,12 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "id": "906",
         "title": "Aktien & Wertpapiere",
         "folder": "aktien-906"
+      }
+    ,
+      {
+        "id": "die-borse-905",
+        "title": "Die Börse",
+        "folder": "die-borse-905"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Wertpapiere%2C%20Aktien%2C%20ETFs%20%26%20B%C3%B6rsenhandel+wirtschaft&t=3752"
@@ -927,6 +968,12 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "id": "5451",
         "title": "Auswirkungen der Globalisierung auf lokale Kulturen",
         "folder": "die-auswirkungen-der-globalisierung-auf-lokale-kulturen-5451"
+      }
+    ,
+      {
+        "id": "import-und-export-990",
+        "title": "Import und Export",
+        "folder": "import-und-export-990"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Globalisierung%2C%20Welthandel%20%26%20Globale%20Lieferketten+wirtschaft&t=3752"
@@ -1700,6 +1747,12 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "title": "Unternehmensfinanzierung",
         "folder": "unternehmensfinanzierung-993"
       }
+    ,
+      {
+        "id": "der-mittelstand-in-deutschland",
+        "title": "Der Mittelstand in Deutschland",
+        "folder": "der-mittelstand-in-deutschland"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Rechtsformen%20von%20Unternehmen%3A%20Einzelunternehmen%2C%20GmbH%20%26%20AG+wirtschaft&t=3752"
   },
@@ -1780,6 +1833,17 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "id": "optimale-bestellmenge-nach-der-andler-formel",
         "title": "Optimale Bestellmenge nach der Andler Formel",
         "folder": "optimale-bestellmenge-nach-der-andler-formel"
+      }
+    ,
+      {
+        "id": "entwickeln-von-geschaftsideen-995",
+        "title": "Entwickeln von Geschäftsideen",
+        "folder": "entwickeln-von-geschaftsideen-995"
+      },
+      {
+        "id": "vertrieb-994",
+        "title": "Vertrieb",
+        "folder": "vertrieb-994"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Unternehmensorganisation%3A%20Aufbau-%20%26%20Ablauforganisation+wirtschaft&t=3752"
@@ -2103,6 +2167,12 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "title": "Amazon",
         "folder": "amazon-1204"
       }
+    ,
+      {
+        "id": "billig-schrott-aus-fernost-die-dunkle-seite-der-asiatischen-online-giganten",
+        "title": "Billig-Schrott aus Fernost – Die dunkle Seite der asiatischen Online-Giganten",
+        "folder": "billig-schrott-aus-fernost-die-dunkle-seite-der-asiatischen-online-giganten"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=e-commerce+onlineshop&t=3752"
   },
@@ -2321,6 +2391,12 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "id": "3231",
         "title": "Escape Room: Statische Investitionsrechnung",
         "folder": "escape-room-quot-statische-investitionsrechnung-quot-3231"
+      }
+    ,
+      {
+        "id": "buchfuhrung-992",
+        "title": "Buchführung",
+        "folder": "buchfuhrung-992"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Rechnungswesen%3A%20Inventur%2C%20Bilanz%20%26%20GuV+wirtschaft&t=3752"

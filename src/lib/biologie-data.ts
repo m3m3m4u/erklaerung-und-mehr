@@ -2013,6 +2013,12 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "title": "Eingriffe in das menschliche Erbgut mit Gentechnik",
         "folder": "eingriffe-in-das-menschliche-erbgut-mit-gentechnik-4432"
       }
+    ,
+      {
+        "id": "genmanipulation-und-designer-babys-2854",
+        "title": "Genmanipulation und Designer-Babys",
+        "folder": "genmanipulation-und-designer-babys-2854"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=gentechnik+biotechnologie+und+medizin&t=3752"
   },

@@ -326,6 +326,17 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "title": "Lichtgeschwindigkeit & Lichtausbreitung",
         "folder": "lichtgeschwindigkeit-2254"
       }
+    ,
+      {
+        "id": "interferenz-und-beugung-5299",
+        "title": "Interferenz und Beugung",
+        "folder": "interferenz-und-beugung-5299"
+      },
+      {
+        "id": "beta-effekt-stroboskop-3094",
+        "title": "Beta-Effekt - Stroboskop",
+        "folder": "beta-effekt-stroboskop-3094"
+      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=licht+schatten+optik&t=3752"
   },
@@ -1521,6 +1532,22 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "id": "2494",
         "title": "Wie funktioniert ein Astrolabium",
         "folder": "wie-funktioniert-ein-astrolabium-2494"
+      }
+    ,
+      {
+        "id": "die-sonne-2-5284",
+        "title": "Die Sonne",
+        "folder": "die-sonne-2-5284"
+      },
+      {
+        "id": "schwarze-locher-5316",
+        "title": "Schwarze Löcher",
+        "folder": "schwarze-locher-5316"
+      },
+      {
+        "id": "die-frage-nach-dem-ursprung-des-universums-2774",
+        "title": "Die Frage nach dem Ursprung des Universums",
+        "folder": "die-frage-nach-dem-ursprung-des-universums-2774"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=kosmologie+urknall+sterne&t=3752"
