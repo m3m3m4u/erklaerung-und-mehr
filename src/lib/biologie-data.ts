@@ -16,7 +16,8 @@ export interface BiologieTopic {
 }
 
 export const biologieCategories: string[] = [
-  "Der menschliche Körper",
+  "Anatomie & Menschlicher Körper",
+  "Gesundheit, Immunologie & Prävention",
   "Pflanzen & Botanik",
   "Tiere & Zoologie",
   "Zelle, Genetik & Evolution"
@@ -26,7 +27,7 @@ export const biologieTopics: Record<string, BiologieTopic> = {
   "sinnesorgane-des-menschen": {
     "slug": "sinnesorgane-des-menschen",
     "title": "Die Sinnesorgane des Menschen",
-    "category": "Der menschliche Körper",
+    "category": "Anatomie & Menschlicher Körper",
     "shortDesc": "Auge, Ohr, Nase, Zunge und Tastsinn – Aufbau, Funktion und optische Sehfehler.",
     "longDesc": "Unsere Sinnesorgane erfassen Reize aus der Umwelt (Licht, Schall, chemische Stoffe, Druck, Temperatur) und wandeln sie in elektrische Nervenimpulse um, die im Gehirn verarbeitet werden. Optische Korrekturen helfen bei Fehlsichtigkeiten wie Kurz- und Weitsichtigkeit.",
     "keyPoints": [
@@ -103,7 +104,7 @@ export const biologieTopics: Record<string, BiologieTopic> = {
   "herz-und-blutkreislauf": {
     "slug": "herz-und-blutkreislauf",
     "title": "Herz, Blut & Kreislaufsystem",
-    "category": "Der menschliche Körper",
+    "category": "Anatomie & Menschlicher Körper",
     "shortDesc": "Großer und kleiner Kreislauf, Herzanatomie, Blutbestandteile und Blutgerinnung.",
     "longDesc": "Das Herz-Kreislauf-System transportiert Sauerstoff, Nährstoffe, Hormone und Abfallstoffe durch den Körper. Das Herz arbeitet als rhythmische Doppelpumpe mit Vorhöfen und Herzkammern.",
     "keyPoints": [
@@ -160,7 +161,7 @@ export const biologieTopics: Record<string, BiologieTopic> = {
   "verdauung-und-stoffwechsel": {
     "slug": "verdauung-und-stoffwechsel",
     "title": "Verdauungssystem & Stoffwechsel",
-    "category": "Der menschliche Körper",
+    "category": "Anatomie & Menschlicher Körper",
     "shortDesc": "Magen, Dünndarm, Dickdarm, Leber, Nieren, Verdauungsenzyme und Gärungsprozesse.",
     "longDesc": "Die Verdauung zerlegt Nahrung mechanisch und biochemisch in verwertbare Nährstoffe. Leber und Bauchspeicheldrüse liefern Enzyme, während die Nieren das Blut filtern und Stoffwechselendprodukte ausscheiden.",
     "keyPoints": [
@@ -224,6 +225,11 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "id": "5138",
         "title": "Alkoholische Gärung",
         "folder": "alkoholische-garung-5138"
+      },
+      {
+        "id": "631",
+        "title": "Die Bauchspeicheldrüse – Funktion & Insulin",
+        "folder": "sprechende-bauchspeicheldruse-631"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=verdauung+und+stoffwechsel&t=3752"
@@ -231,7 +237,7 @@ export const biologieTopics: Record<string, BiologieTopic> = {
   "atmung-und-lunge": {
     "slug": "atmung-und-lunge",
     "title": "Atmungssystem & Gasaustausch",
-    "category": "Der menschliche Körper",
+    "category": "Anatomie & Menschlicher Körper",
     "shortDesc": "Atemwege, Lungenbläschen, Gasaustausch und die Mechanik von Brust- und Bauchatmung.",
     "longDesc": "Das Atmungssystem versorgt den Organismus mit lebensnotwendigem Sauerstoff für die Zellatmung und gibt das Stoffwechselabfallprodukt Kohlendioxid an die Umgebung ab.",
     "keyPoints": [
@@ -277,7 +283,7 @@ export const biologieTopics: Record<string, BiologieTopic> = {
   "skelett-und-muskeln": {
     "slug": "skelett-und-muskeln",
     "title": "Skelett, Knochen & Muskelsystem",
-    "category": "Der menschliche Körper",
+    "category": "Anatomie & Menschlicher Körper",
     "shortDesc": "Knochenaufbau, Gelenkarten, Wirbelsäule und das Zusammenspiel von Beuger und Strecker.",
     "longDesc": "Das menschliche Skelett verleiht dem Körper Stabilität, schützt innere Organe und bildet zusammen mit Muskeln, Sehnen und Bändern den aktiven und passiven Bewegungsapparat.",
     "keyPoints": [
@@ -323,7 +329,7 @@ export const biologieTopics: Record<string, BiologieTopic> = {
   "nervensystem-und-gehirn": {
     "slug": "nervensystem-und-gehirn",
     "title": "Nervensystem & Gehirn",
-    "category": "Der menschliche Körper",
+    "category": "Anatomie & Menschlicher Körper",
     "shortDesc": "Zentrales und peripheres Nervensystem, Gehirnareale, Neuronen, Synapsen und Reflexbögen.",
     "longDesc": "Das Nervensystem steuert und koordiniert alle Körperfunktionen, Wahrnehmungen, Gedanken und Reaktionen. Es gliedert sich in das zentrale Nervensystem (Gehirn, Rückenmark) und das periphere Nervensystem.",
     "keyPoints": [
@@ -375,7 +381,7 @@ export const biologieTopics: Record<string, BiologieTopic> = {
   "immunsystem-und-abwehr": {
     "slug": "immunsystem-und-abwehr",
     "title": "Immunsystem, Antikörper & Impfung",
-    "category": "Der menschliche Körper",
+    "category": "Gesundheit, Immunologie & Prävention",
     "shortDesc": "Unspezifische und spezifische Abwehr, Leukozyten, Antikörper, Milz und Impfschutz.",
     "longDesc": "Das körpereigene Immunsystem schützt vor Krankheitserregern. Während Fresszellen Erreger unspezifisch beseitigen, bilden T- und B-Lymphozyten maßgeschneiderte Antikörper und langlebige Gedächtniszellen.",
     "keyPoints": [
@@ -476,7 +482,7 @@ export const biologieTopics: Record<string, BiologieTopic> = {
   "allergien-und-autoimmunitaet": {
     "slug": "allergien-und-autoimmunitaet",
     "title": "Allergien, Autoimmunität & Entzündungen",
-    "category": "Der menschliche Körper",
+    "category": "Gesundheit, Immunologie & Prävention",
     "shortDesc": "Fehlsteuerungen des Immunsystems: Allergien, Histaminausschüttung, Autoimmunerkrankungen und chronische Entzündungen.",
     "longDesc": "Manchmal richtet sich das Immunsystem gegen harmlose Umweltstoffe (Allergien) oder sogar gegen körpereigenes Gewebe (Autoimmunerkrankungen). Auch Dauerstress schwächt die Immunbalance.",
     "keyPoints": [
@@ -528,7 +534,7 @@ export const biologieTopics: Record<string, BiologieTopic> = {
   "infektionskrankheiten-und-medizin": {
     "slug": "infektionskrankheiten-und-medizin",
     "title": "Infektionskrankheiten, Erreger & Medizin",
-    "category": "Der menschliche Körper",
+    "category": "Gesundheit, Immunologie & Prävention",
     "shortDesc": "Viren, Bakterien, Übertragungswege, Grippe, Kinderkrankheiten, Tuberkulose, Sepsis und HIV.",
     "longDesc": "Infektionskrankheiten werden durch pathogene Mikroorganismen hervorgerufen. Das Verständnis von Übertragungswegen (Tröpfchen-, Schmier-, Vektorinfektion) und Abwehrmechanismen ist der Schlüssel zu Hygiene und moderner Medizin.",
     "keyPoints": [
@@ -605,7 +611,7 @@ export const biologieTopics: Record<string, BiologieTopic> = {
   "die-haut": {
     "slug": "die-haut",
     "title": "Die Haut & Schutzfunktionen",
-    "category": "Der menschliche Körper",
+    "category": "Anatomie & Menschlicher Körper",
     "shortDesc": "Oberhaut, Lederhaut, Unterhaut, Thermoregulation und der Säureschutzmantel des Körpers.",
     "longDesc": "Die Haut ist das flächenmäßig größte Organ des Menschen. Sie schützt vor mechanischen Einwirkungen, UV-Strahlung, Austrocknung und Erregern und reguliert die Körpertemperatur.",
     "keyPoints": [
@@ -616,7 +622,7 @@ export const biologieTopics: Record<string, BiologieTopic> = {
     ],
     "exercises": [
       {
-        "id": "2109",
+        "id": "2109-haut",
         "title": "Die Haut – Schichten und Funktionen",
         "folder": "die-haut-schichten-und-funktionen-2109"
       },
@@ -656,7 +662,7 @@ export const biologieTopics: Record<string, BiologieTopic> = {
   "fortpflanzung-und-entwicklung": {
     "slug": "fortpflanzung-und-entwicklung",
     "title": "Fortpflanzung, Hormone & Sexualität",
-    "category": "Der menschliche Körper",
+    "category": "Gesundheit, Immunologie & Prävention",
     "shortDesc": "Geschlechtsorgane, Menstruationszyklus, Schwangerschaft, Fötusentwicklung, Hormone und Vielfalt.",
     "longDesc": "Die menschliche Fortpflanzung basiert auf der Verschmelzung von Ei- und Samenzelle. Hormonelle Regelkreise steuern die Pubertät, den Monatszyklus und die Entwicklung des ungeborenen Lebens.",
     "keyPoints": [
@@ -723,7 +729,7 @@ export const biologieTopics: Record<string, BiologieTopic> = {
   "sucht-und-drogen": {
     "slug": "sucht-und-drogen",
     "title": "Suchtmittel & Drogenwirkungen",
-    "category": "Der menschliche Körper",
+    "category": "Gesundheit, Immunologie & Prävention",
     "shortDesc": "Wirkung von Alkohol, Nikotin, Cannabis, Opiaten und Stimulanzien auf Gehirn und Nervensystem.",
     "longDesc": "Suchtstoffe greifen direkt in die neuronale Signalübertragung des Gehirns ein. Durch Veränderungen im Belohnungssystem kommt es zu Gewöhnung, Toleranzentwicklung und physischer sowie psychischer Abhängigkeit.",
     "keyPoints": [
@@ -778,6 +784,11 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "id": "2158",
         "title": "Drogen und das Nervensystem",
         "folder": "drogen-und-das-nervensystem-2158"
+      },
+      {
+        "id": "vaping-e-zigarette",
+        "title": "E-Zigaretten & Vaping – Unterschätzte Risiken",
+        "folder": "drogenfalle-e-zigarette-die-unterschaetzten-schaeden-durch-vaping"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=sucht+und+drogen&t=3752"
@@ -785,7 +796,7 @@ export const biologieTopics: Record<string, BiologieTopic> = {
   "suchtpraevention-und-gesellschaft": {
     "slug": "suchtpraevention-und-gesellschaft",
     "title": "Suchtprävention, Verkehr & Gesellschaft",
-    "category": "Der menschliche Körper",
+    "category": "Gesundheit, Immunologie & Prävention",
     "shortDesc": "Drogen im Straßenverkehr, Einfluss auf Schulleistung, Dopamin-Regulation und Verhaltenssüchte.",
     "longDesc": "Sucht betrifft nicht nur den Einzelnen, sondern hat weitreichende soziale, rechtliche und gesundheitspolitische Dimensionen. Präventionsarbeit zielt darauf ab, Lebenskompetenzen zu stärken und Risikoverhalten zu verhindern.",
     "keyPoints": [
@@ -2082,6 +2093,11 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "id": "5760",
         "title": "Einführung in die Evolutionspsychologie",
         "folder": "einfuhrung-in-evolutionspsychologie-5760"
+      },
+      {
+        "id": "5387",
+        "title": "Dinosaurier – Urzeitriesen & Erdzeitalter",
+        "folder": "dinosaurier-5387"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=evolution+und+stammesgeschichte&t=3752"

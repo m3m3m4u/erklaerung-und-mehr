@@ -42,6 +42,7 @@ export const metadata: Metadata = {
 
 export default function BiologieOverviewPage() {
   const allTopics = Object.values(biologieTopics);
+  const totalExercises = allTopics.reduce((sum, t) => sum + (t.exercises?.length || 0), 0);
 
   return (
     <div className="site-wrapper">
@@ -55,7 +56,7 @@ export default function BiologieOverviewPage() {
             <h1 className="math-page-title">Biologie</h1>
             <p className="math-page-desc">Erforsche das Leben: Von den Bausteinen der Zelle über den menschlichen Körper, das Immunsystem und die Sinnesorgane bis hin zur faszinierenden Pflanzen-, Tier- und Genetikwelt.</p>
             <p className="math-page-note">
-              Mit anschaulichen Erklärungen, Merksätzen und interaktiven H5P-Übungsmodulen.
+              Mit anschaulichen Erklärungen, Merksätzen und {totalExercises} interaktiven H5P-Übungsmodulen.
             </p>
           </div>
           <div className="math-mascot">
