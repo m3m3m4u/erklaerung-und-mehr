@@ -325,8 +325,7 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "id": "2254",
         "title": "Lichtgeschwindigkeit & Lichtausbreitung",
         "folder": "lichtgeschwindigkeit-2254"
-      }
-    ,
+      },
       {
         "id": "interferenz-und-beugung-5299",
         "title": "Interferenz und Beugung",
@@ -708,8 +707,7 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "id": "8707",
         "title": "Kapazitiver Stromfluss bei Touchscreens",
         "folder": "kapazitive-touchscreens-und-der-stromfluss-durch-den-finger"
-      }
-    ,
+      },
       {
         "id": "5249",
         "title": "Coulomb'sches Gesetz",
@@ -1489,11 +1487,6 @@ export const physikTopics: Record<string, PhysikTopic> = {
     ],
     "exercises": [
       {
-        "id": "2276",
-        "title": "Umlaufbahnen von Planeten und Satelliten",
-        "folder": "umlaufbahnen-von-planeten-und-satelliten-2276"
-      },
-      {
         "id": "3155",
         "title": "Der Urknall",
         "folder": "der-urknall-3155"
@@ -1532,8 +1525,7 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "id": "2494",
         "title": "Wie funktioniert ein Astrolabium",
         "folder": "wie-funktioniert-ein-astrolabium-2494"
-      }
-    ,
+      },
       {
         "id": "die-sonne-2-5284",
         "title": "Die Sonne",

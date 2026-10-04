@@ -324,11 +324,6 @@ export const sozialesLernenTopics: Record<string, SozialesLernenTopic> = {
         "folder": "gesprache-fuhren-so-kommunizierst-du-effektiv-in-konfliktsituationen-3146"
       },
       {
-        "id": "4438",
-        "title": "Gewaltfreie Kommunikation – Grundlagen und Haltung",
-        "folder": "gewaltfreie-kommunikation-2-4438"
-      },
-      {
         "id": "3539",
         "title": "Gewaltfreie Kommunikation in der Alltagspraxis",
         "folder": "gewaltfreie-kommunikation-3539"
@@ -342,12 +337,6 @@ export const sozialesLernenTopics: Record<string, SozialesLernenTopic> = {
         "id": "3141",
         "title": "Aktives Zuhören – Wie du anderen wirklich zuhörst",
         "folder": "aktives-zuhoren-wie-du-anderen-wirklich-zuhorst-3141"
-      }
-    ,
-      {
-        "id": "feedback-und-fehler-machen-2-3299",
-        "title": "Feedback und Fehler machen",
-        "folder": "feedback-und-fehler-machen-2-3299"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Gewaltfreie+Kommunikation+Feedback&t=3752"
@@ -499,11 +488,6 @@ export const sozialesLernenTopics: Record<string, SozialesLernenTopic> = {
         "id": "3237",
         "title": "Songs zum sozialemotionalen Lernen (Teil 1)",
         "folder": "songs-quot-sozialemotionales-lernen-quot-3237"
-      },
-      {
-        "id": "3298",
-        "title": "Songs zum sozialemotionalen Lernen (Teil 2)",
-        "folder": "songs-quot-sozialemotionales-lernen-quot-2-3298"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Inklusion+Klassenrat+Soziale+Projekte&t=3752"

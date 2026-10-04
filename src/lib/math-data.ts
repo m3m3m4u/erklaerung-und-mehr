@@ -47,11 +47,6 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "794",
         "title": "Begriffe zuordnen",
         "folder": "begriffe-zuordnen-794"
-      },
-      {
-        "id": "160",
-        "title": "Begriffe der Grundrechnungsarten (Quiz)",
-        "folder": "textgleichungen-einfach-160"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=grundrechenarten&t=1118"
@@ -895,11 +890,6 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "rechteck-und-quadrat-flacheninhalt-und-umfang-umkehraufgaben-mit-groesen-zahlen-786"
       },
       {
-        "id": "159",
-        "title": "Rechteck und Quadrat: Flächeninhalt und Umfang (Quiz)",
-        "folder": "multiplikation-von-dezimalzahlen-159"
-      },
-      {
         "id": "72",
         "title": "Rechteck und Quadrat (Zuordnungsübung)",
         "folder": "rechteck-und-quadrat-72"
@@ -1635,11 +1625,6 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "263",
         "title": "Uhrzeit (Viertelstunden)",
         "folder": "uhrzeit-ganze-stunden-2-263"
-      },
-      {
-        "id": "264",
-        "title": "Uhrzeit (volle Stunden)",
-        "folder": "koordinatensystem-positiver-bereich-264"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=zeit&t=1118"
@@ -2276,8 +2261,7 @@ export const mathTopics: Record<string, MathTopic> = {
         "id": "691",
         "title": "Binomische Formeln Single-Choice",
         "folder": "studypoint-single-choice-binomische-formeln-691"
-      }
-    ,
+      },
       {
         "id": "binome-multiplizieren-93",
         "title": "Binome multiplizieren",

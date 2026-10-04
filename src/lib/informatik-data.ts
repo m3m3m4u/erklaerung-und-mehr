@@ -119,8 +119,7 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "id": "670",
         "title": "Orientierung an der Tastatur (10-Finger-System)",
         "folder": "kurs-orientierung-an-der-tastatur-670"
-      }
-    ,
+      },
       {
         "id": "geschichte-des-computers-354",
         "title": "Geschichte des Computers",
@@ -167,14 +166,12 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "id": "info-moores-law",
         "title": "Hardware-Entwicklung: Mooresches Gesetz und physikalische Grenzen",
         "folder": "mooresches-gesetz-und-die-grenzen-der-geschwindigkeit"
-      }
-    ,
+      },
       {
         "id": "6626",
         "title": "Die Welt der Künstlichen Intelligenz – Die bekanntesten Modelle",
         "folder": "die-welt-der-kunstlichen-intelligenz-die-bekanntesten-modelle-6626"
-      }
-    ,
+      },
       {
         "id": "bedeutung-digitaler-teilhabe-in-schule-und-gesellschaft",
         "title": "Bedeutung digitaler Teilhabe in Schule und Gesellschaft",
@@ -425,8 +422,7 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "id": "troubleshooting-fehler",
         "title": "Troubleshooting: Häufige Computerfehler lösen",
         "folder": "umgang-mit-haeufigen-computerfehlern"
-      }
-    ,
+      },
       {
         "id": "systematische-fehleranalyse-und-lesen-von-log-files",
         "title": "Systematische Fehleranalyse und Lesen von Log Files",
@@ -672,8 +668,7 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "id": "smart-home-iot",
         "title": "Smart Home, IoT & vernetzte Sensoren",
         "folder": "sensoren-und-vernetzung-im-smart-home"
-      }
-    ,
+      },
       {
         "id": "ftp-1259",
         "title": "FTP",
@@ -790,8 +785,7 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "id": "7120",
         "title": "Wie funktioniert ein QR-Code",
         "folder": "wie-funktioniert-ein-qr-code"
-      }
-    ,
+      },
       {
         "id": "info-browserkrieg",
         "title": "Konkurrenzkampf zwischen Netscape und Internet Explorer",
@@ -801,12 +795,6 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "id": "info-internet-entstehung",
         "title": "Entstehung und Entwicklung des Internets",
         "folder": "entstehung-und-entwicklung-des-internets"
-      }
-    ,
-      {
-        "id": "microsoft-edge-2-1389",
-        "title": "Microsoft Edge",
-        "folder": "microsoft-edge-2-1389"
       },
       {
         "id": "kurs-suchen-und-finden-im-internet-674",
@@ -898,14 +886,12 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "id": "info-wikis",
         "title": "Kollaborative Wissensgenerierung: Wikis und vernetzte Zusammenarbeit",
         "folder": "entstehung-von-kollektivem-wissen-in-wikis"
-      }
-    ,
+      },
       {
         "id": "info-kanban-scrum",
         "title": "Arbeiten mit Kanban Boards und Scrum Grundlagen",
         "folder": "arbeiten-mit-kanban-boards-und-scrum-grundlagen"
-      }
-    ,
+      },
       {
         "id": "ms-teams-1060",
         "title": "MS Teams",
@@ -1022,8 +1008,7 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "id": "info-backup",
         "title": "Datensicherung & IT-Resilienz: Die 3-2-1-Backup-Strategie",
         "folder": "datensicherung-und-backup-strategien"
-      }
-    ,
+      },
       {
         "id": "info-ethisches-hacken",
         "title": "Suchen von Sicherheitslücken durch ethisches Hacken",
@@ -1146,8 +1131,7 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "id": "info-datenoekonomie",
         "title": "Datenökonomie im Alltag: Wie Plattformen mit Nutzerdaten wirtschaften",
         "folder": "datennutzung-und-datenoekonomie-im-alltag"
-      }
-    ,
+      },
       {
         "id": "info-phishing",
         "title": "Erkennen und Vermeiden von Online Betrug und Phishing",
@@ -1248,8 +1232,7 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "id": "logische-strukturierung",
         "title": "Logische Strukturierung komplexer Informationen",
         "folder": "logische-strukturierung-komplexer-informationen"
-      }
-    ,
+      },
       {
         "id": "grenzen-der-zufallsgenerierung-durch-computer",
         "title": "Grenzen der Zufallsgenerierung durch Computer",
@@ -1635,14 +1618,12 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "id": "info-farbkorrektur",
         "title": "Digitale Bildbearbeitung: Wie funktioniert die Farbkorrektur",
         "folder": "wie-funktioniert-die-farbkorrektur"
-      }
-    ,
+      },
       {
         "id": "info-fps",
         "title": "Frames per Second und der Daumenkino Effekt bei Spielen",
         "folder": "frames-per-second-und-der-daumenkino-effekt-bei-spielen"
-      }
-    ,
+      },
       {
         "id": "erstellung-eines-stop-motion-videos",
         "title": "Erstellung eines Stop Motion Videos",
@@ -1739,8 +1720,7 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "id": "5851",
         "title": "Online-Verhalten in sozialen Netzwerken",
         "folder": "online-verhalten-in-sozialen-netzwerken-5851"
-      }
-    ,
+      },
       {
         "id": "kurs-soziale-netzwerke-676",
         "title": "Kurs Soziale Netzwerke",

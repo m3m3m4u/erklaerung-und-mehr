@@ -588,8 +588,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "5655",
         "title": "Der Wolfgangsee",
         "folder": "der-wolfgangsee-5655"
-      }
-    ,
+      },
       {
         "id": "1664",
         "title": "Hallein",
@@ -622,7 +621,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "5706",
-        "title": "Innsbruck",
+        "title": "Innsbruck (Kompakt & Video)",
         "folder": "innsbruck-2-5706"
       },
       {
@@ -704,11 +703,10 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "aut-ot-1",
         "title": "Osttirol – Zwischen Hohen Tauern und Karnischen Alpen",
         "folder": "das-osttirol-5610"
-      }
-    ,
+      },
       {
         "id": "1446",
-        "title": "Innsbruck",
+        "title": "Innsbruck (Vertiefung & Textanalyse)",
         "folder": "innsbruck-1446"
       }
     ],
@@ -944,7 +942,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
       },
       {
         "id": "5709",
-        "title": "Klagenfurt",
+        "title": "Klagenfurt (Kompakt & Video)",
         "folder": "klagenfurt-2-5709"
       },
       {
@@ -1001,11 +999,10 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "5679",
         "title": "Die Karnischen Alpen",
         "folder": "die-karnischen-alpen-5679"
-      }
-    ,
+      },
       {
         "id": "1445",
-        "title": "Klagenfurt",
+        "title": "Klagenfurt (Vertiefung & Textanalyse)",
         "folder": "klagenfurt-1445"
       },
       {
@@ -1293,11 +1290,6 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "311",
         "title": "Bundesländer Deutschlands",
         "folder": "bundeslander-deutschlands-311"
-      },
-      {
-        "id": "403",
-        "title": "Städte Deutschlands",
-        "folder": "stadte-deutschlands-2-403"
       },
       {
         "id": "2059",
@@ -1686,8 +1678,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "zugspitze",
         "title": "Die Zugspitze - Deutschlands höchster Berg",
         "folder": "die-zugspitze-deutschlands-hoechster-berg"
-      }
-    ,
+      },
       {
         "id": "geo-rothaar",
         "title": "Das Rothaargebirge",
@@ -2967,8 +2958,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "ch-wint-1",
         "title": "Winterthur – Sechstgrößte Stadt der Schweiz",
         "folder": "winterthur-1943"
-      }
-    ,
+      },
       {
         "id": "1954",
         "title": "Zürich",
@@ -3592,8 +3582,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "3229",
         "title": "Escape Room: 5 wichtige Länder Westeuropas",
         "folder": "escape-room-quot-5-wichtige-lander-westeuropas-quot-3229"
-      }
-    ,
+      },
       {
         "id": "1532",
         "title": "Amsterdam",
@@ -3663,8 +3652,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "5576",
         "title": "Der europäische Norden - Lebensweise und Anpassung an extreme Klimabedingungen",
         "folder": "der-europaische-norden-lebensweise-und-anpassung-an-extreme-klimabedingungen-5576"
-      }
-    ,
+      },
       {
         "id": "1962",
         "title": "Aarhus",
@@ -3719,8 +3707,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "1534",
         "title": "Andorra",
         "folder": "andorra-1534"
-      }
-    ,
+      },
       {
         "id": "1529",
         "title": "Alicante",
@@ -3830,8 +3817,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "1944",
         "title": "Posen (Poznań) – Polens historische Handelsmetropole",
         "folder": "wirtschaft-1944"
-      }
-    ,
+      },
       {
         "id": "1577",
         "title": "Bratislava",
@@ -3951,8 +3937,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "1527",
         "title": "Albanien",
         "folder": "albanien-1527"
-      }
-    ,
+      },
       {
         "id": "1565",
         "title": "Belgrad",
@@ -4453,8 +4438,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "5506",
         "title": "Klimatische Herausforderungen in Mittelamerika und ihre Auswirkungen auf Migration",
         "folder": "klimatische-herausforderungen-in-mittelamerika-und-ihre-auswirkungen-auf-migration-5506"
-      }
-    ,
+      },
       {
         "id": "6012",
         "title": "Havanna",
@@ -4534,14 +4518,12 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "3061",
         "title": "Spanien erobert Südamerika",
         "folder": "spanien-erobert-sudamerika-3061"
-      }
-    ,
+      },
       {
         "id": "2065",
         "title": "Armut und Reichtum auf der Erde",
         "folder": "armut-und-reichtum-auf-der-erde-2065"
-      }
-    ,
+      },
       {
         "id": "5968",
         "title": "Buenos Aires",
@@ -4621,14 +4603,12 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "3225",
         "title": "Escape Room: Länder Südamerikas",
         "folder": "escape-room-quot-lander-sudamerikas-quot-3225"
-      }
-    ,
+      },
       {
         "id": "2076",
         "title": "Der Amazonas",
         "folder": "der-amazonas-2076"
-      }
-    ,
+      },
       {
         "id": "5966",
         "title": "Brasília",
@@ -4698,8 +4678,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "5462",
         "title": "Die groesen regionen afrikas nord west ost zentral und sudafrika im vergleich",
         "folder": "die-groesen-regionen-afrikas-nord-west-ost-zentral-und-sudafrika-im-vergleich-5462"
-      }
-    ,
+      },
       {
         "id": "6033",
         "title": "Kairo",
@@ -4769,8 +4748,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "1695",
         "title": "Kap Verde",
         "folder": "kap-verde-1695"
-      }
-    ,
+      },
       {
         "id": "5944",
         "title": "Abuja",
@@ -4855,8 +4833,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "5430",
         "title": "Afrika und der Klimawandel - Ursachen, Auswirkungen, Anpassung",
         "folder": "afrika-und-der-klimawandel-ursachen-auswirkungen-anpassung-5430"
-      }
-    ,
+      },
       {
         "id": "5947",
         "title": "Addis Abeba",
@@ -4931,8 +4908,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "5561",
         "title": "Umweltprobleme in afrika wustenbildung abholzung wassermangel",
         "folder": "umweltprobleme-in-afrika-wustenbildung-abholzung-wassermangel-5561"
-      }
-    ,
+      },
       {
         "id": "5967",
         "title": "Brazzaville",
@@ -5018,8 +4994,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "6036",
         "title": "Kapstadt",
         "folder": "kapstadt-6036"
-      }
-    ,
+      },
       {
         "id": "6031",
         "title": "Johannesburg",
@@ -5085,8 +5060,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "1913",
         "title": "Usbekistan",
         "folder": "usbekistan-1913"
-      }
-    ,
+      },
       {
         "id": "6151",
         "title": "Almaty",
@@ -5146,8 +5120,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "5478",
         "title": "Die Unterschiede zwischen dem Nahen Osten, Zentralasien und Fernost",
         "folder": "die-unterschiede-zwischen-dem-nahen-osten-zentralasien-und-fernost-5478"
-      }
-    ,
+      },
       {
         "id": "5953",
         "title": "Bagdad",
@@ -5273,8 +5246,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "6020",
         "title": "Hyderabad (Indien)",
         "folder": "hyderabad-indien-6020"
-      }
-    ,
+      },
       {
         "id": "5989",
         "title": "Delhi",
@@ -5349,8 +5321,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "5432",
         "title": "Asiens Klimaextreme - Monsun, Trockenheit und arktische Bedingungen",
         "folder": "asiens-klimaextreme-monsun-trockenheit-und-arktische-bedingungen-5432"
-      }
-    ,
+      },
       {
         "id": "5957",
         "title": "Bangkok",
@@ -5466,8 +5437,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "5573",
         "title": "Wirtschaftsmacht Asien - Von China bis Indien",
         "folder": "wirtschaftsmacht-asien-von-china-bis-indien-5573"
-      }
-    ,
+      },
       {
         "id": "6108",
         "title": "Seoul",
@@ -6549,8 +6519,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "geo-stadt-iserlohn",
         "title": "Iserlohn – Waldstadt und traditionsreiches Industriezentrum im Sauerland",
         "folder": "iserlohn-eine-spannende-stadt-in-nordrhein-westfalen"
-      }
-    ,
+      },
       {
         "id": "1496",
         "title": "Aachen",
@@ -6577,8 +6546,7 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "folder": "bergisch-gladbach-1462"
       }
     ]
-  }
-,
+  },
   "de-nrw-panoramawelten-teil-1": {
     "slug": "de-nrw-panoramawelten-teil-1",
     "title": "Deutschland: Städte & Regionen in Nordrhein-Westfalen (Teil 1)",
@@ -6586,10 +6554,10 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "shortDesc": "Städte, Wirtschaftsräume und Kulturzentren in Nordrhein-Westfalen und dem Ruhrgebiet.",
     "longDesc": "Städte, Wirtschaftsräume und Kulturzentren in Nordrhein-Westfalen und dem Ruhrgebiet. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
     "keyPoints": [
-          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
-          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
-          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
-          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+      "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+      "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+      "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+      "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
     ],
     "exercises": [
       {
@@ -6671,10 +6639,10 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "shortDesc": "Städte, Wirtschaftsräume und Kulturzentren in Nordrhein-Westfalen und dem Ruhrgebiet.",
     "longDesc": "Städte, Wirtschaftsräume und Kulturzentren in Nordrhein-Westfalen und dem Ruhrgebiet. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
     "keyPoints": [
-          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
-          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
-          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
-          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+      "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+      "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+      "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+      "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
     ],
     "exercises": [
       {
@@ -6756,10 +6724,10 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "shortDesc": "Städte, Wirtschaftsräume und Kulturzentren in Nordrhein-Westfalen und dem Ruhrgebiet.",
     "longDesc": "Städte, Wirtschaftsräume und Kulturzentren in Nordrhein-Westfalen und dem Ruhrgebiet. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
     "keyPoints": [
-          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
-          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
-          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
-          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+      "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+      "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+      "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+      "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
     ],
     "exercises": [
       {
@@ -6831,10 +6799,10 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "shortDesc": "Historische Handelsstädte, Residenzen und moderne Zentren im Süden Deutschlands.",
     "longDesc": "Historische Handelsstädte, Residenzen und moderne Zentren im Süden Deutschlands. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
     "keyPoints": [
-          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
-          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
-          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
-          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+      "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+      "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+      "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+      "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
     ],
     "exercises": [
       {
@@ -6901,10 +6869,10 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "shortDesc": "Historische Handelsstädte, Residenzen und moderne Zentren im Süden Deutschlands.",
     "longDesc": "Historische Handelsstädte, Residenzen und moderne Zentren im Süden Deutschlands. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
     "keyPoints": [
-          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
-          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
-          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
-          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+      "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+      "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+      "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+      "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
     ],
     "exercises": [
       {
@@ -6971,10 +6939,10 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "shortDesc": "Hansestädte, Kulturorte und urbane Zentren in Nord- und Ostdeutschland.",
     "longDesc": "Hansestädte, Kulturorte und urbane Zentren in Nord- und Ostdeutschland. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
     "keyPoints": [
-          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
-          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
-          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
-          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+      "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+      "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+      "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+      "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
     ],
     "exercises": [
       {
@@ -7046,10 +7014,10 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "shortDesc": "Hansestädte, Kulturorte und urbane Zentren in Nord- und Ostdeutschland.",
     "longDesc": "Hansestädte, Kulturorte und urbane Zentren in Nord- und Ostdeutschland. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
     "keyPoints": [
-          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
-          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
-          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
-          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+      "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+      "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+      "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+      "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
     ],
     "exercises": [
       {
@@ -7121,10 +7089,10 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "shortDesc": "Hansestädte, Kulturorte und urbane Zentren in Nord- und Ostdeutschland.",
     "longDesc": "Hansestädte, Kulturorte und urbane Zentren in Nord- und Ostdeutschland. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
     "keyPoints": [
-          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
-          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
-          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
-          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+      "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+      "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+      "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+      "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
     ],
     "exercises": [
       {
@@ -7186,10 +7154,10 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "shortDesc": "Historische Dom- und Universitätsstädte sowie Zentren an Rhein, Main und Saar.",
     "longDesc": "Historische Dom- und Universitätsstädte sowie Zentren an Rhein, Main und Saar. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
     "keyPoints": [
-          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
-          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
-          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
-          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+      "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+      "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+      "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+      "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
     ],
     "exercises": [
       {
@@ -7251,10 +7219,10 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "shortDesc": "Mittelgebirge, Flusstäler, Inseln, Seenlandschaften und Naturdenkmäler Deutschlands.",
     "longDesc": "Mittelgebirge, Flusstäler, Inseln, Seenlandschaften und Naturdenkmäler Deutschlands. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
     "keyPoints": [
-          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
-          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
-          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
-          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+      "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+      "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+      "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+      "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
     ],
     "exercises": [
       {
@@ -7341,10 +7309,10 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "shortDesc": "Mittelgebirge, Flusstäler, Inseln, Seenlandschaften und Naturdenkmäler Deutschlands.",
     "longDesc": "Mittelgebirge, Flusstäler, Inseln, Seenlandschaften und Naturdenkmäler Deutschlands. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
     "keyPoints": [
-          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
-          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
-          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
-          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+      "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+      "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+      "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+      "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
     ],
     "exercises": [
       {
@@ -7431,10 +7399,10 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "shortDesc": "Mittelgebirge, Flusstäler, Inseln, Seenlandschaften und Naturdenkmäler Deutschlands.",
     "longDesc": "Mittelgebirge, Flusstäler, Inseln, Seenlandschaften und Naturdenkmäler Deutschlands. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
     "keyPoints": [
-          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
-          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
-          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
-          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+      "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+      "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+      "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+      "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
     ],
     "exercises": [
       {
@@ -7521,10 +7489,10 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "shortDesc": "Mittelgebirge, Flusstäler, Inseln, Seenlandschaften und Naturdenkmäler Deutschlands.",
     "longDesc": "Mittelgebirge, Flusstäler, Inseln, Seenlandschaften und Naturdenkmäler Deutschlands. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
     "keyPoints": [
-          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
-          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
-          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
-          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+      "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+      "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+      "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+      "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
     ],
     "exercises": [
       {
@@ -7611,10 +7579,10 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "shortDesc": "Mittelgebirge, Flusstäler, Inseln, Seenlandschaften und Naturdenkmäler Deutschlands.",
     "longDesc": "Mittelgebirge, Flusstäler, Inseln, Seenlandschaften und Naturdenkmäler Deutschlands. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
     "keyPoints": [
-          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
-          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
-          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
-          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+      "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+      "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+      "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+      "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
     ],
     "exercises": [
       {
@@ -7686,10 +7654,10 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "shortDesc": "Landeshauptstädte, historische Bezirkshauptstädte und alpine Wirtschaftsräume Österreichs.",
     "longDesc": "Landeshauptstädte, historische Bezirkshauptstädte und alpine Wirtschaftsräume Österreichs. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
     "keyPoints": [
-          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
-          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
-          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
-          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+      "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+      "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+      "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+      "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
     ],
     "exercises": [
       {
@@ -7756,10 +7724,10 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "shortDesc": "Urbane Zentren, historische Städte und wirtschaftliche Knotenpunkte der Eidgenossenschaft.",
     "longDesc": "Urbane Zentren, historische Städte und wirtschaftliche Knotenpunkte der Eidgenossenschaft. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
     "keyPoints": [
-          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
-          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
-          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
-          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+      "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+      "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+      "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+      "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
     ],
     "exercises": [
       {
@@ -7846,11 +7814,6 @@ export const geographieTopics: Record<string, GeographieTopic> = {
         "id": "yverdon-les-bains-1951",
         "title": "Yverdon-les-Bains",
         "folder": "yverdon-les-bains-1951"
-      },
-      {
-        "id": "zug-2-1967",
-        "title": "Zug",
-        "folder": "zug-2-1967"
       }
     ]
   },
@@ -7861,10 +7824,10 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "shortDesc": "Megastädte, Wirtschaftszentren und historische Metropolen in Ost-, Süd- und Westasien.",
     "longDesc": "Megastädte, Wirtschaftszentren und historische Metropolen in Ost-, Süd- und Westasien. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
     "keyPoints": [
-          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
-          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
-          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
-          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+      "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+      "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+      "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+      "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
     ],
     "exercises": [
       {
@@ -7941,10 +7904,10 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "shortDesc": "Megastädte, Wirtschaftszentren und historische Metropolen in Ost-, Süd- und Westasien.",
     "longDesc": "Megastädte, Wirtschaftszentren und historische Metropolen in Ost-, Süd- und Westasien. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
     "keyPoints": [
-          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
-          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
-          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
-          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+      "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+      "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+      "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+      "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
     ],
     "exercises": [
       {
@@ -8021,10 +7984,10 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "shortDesc": "Megastädte, Wirtschaftszentren und historische Metropolen in Ost-, Süd- und Westasien.",
     "longDesc": "Megastädte, Wirtschaftszentren und historische Metropolen in Ost-, Süd- und Westasien. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
     "keyPoints": [
-          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
-          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
-          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
-          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+      "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+      "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+      "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+      "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
     ],
     "exercises": [
       {
@@ -8101,10 +8064,10 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "shortDesc": "Megastädte, Wirtschaftszentren und historische Metropolen in Ost-, Süd- und Westasien.",
     "longDesc": "Megastädte, Wirtschaftszentren und historische Metropolen in Ost-, Süd- und Westasien. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
     "keyPoints": [
-          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
-          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
-          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
-          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+      "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+      "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+      "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+      "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
     ],
     "exercises": [
       {
@@ -8181,10 +8144,10 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "shortDesc": "Megastädte, Wirtschaftszentren und historische Metropolen in Ost-, Süd- und Westasien.",
     "longDesc": "Megastädte, Wirtschaftszentren und historische Metropolen in Ost-, Süd- und Westasien. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
     "keyPoints": [
-          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
-          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
-          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
-          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+      "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+      "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+      "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+      "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
     ],
     "exercises": [
       {
@@ -8261,10 +8224,10 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "shortDesc": "Megastädte, Wirtschaftszentren und historische Metropolen in Ost-, Süd- und Westasien.",
     "longDesc": "Megastädte, Wirtschaftszentren und historische Metropolen in Ost-, Süd- und Westasien. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
     "keyPoints": [
-          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
-          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
-          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
-          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+      "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+      "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+      "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+      "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
     ],
     "exercises": [
       {
@@ -8341,10 +8304,10 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "shortDesc": "Wirtschaftsmetropolen, historische Hauptstädte und Flusssysteme des afrikanischen Kontinents.",
     "longDesc": "Wirtschaftsmetropolen, historische Hauptstädte und Flusssysteme des afrikanischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
     "keyPoints": [
-          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
-          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
-          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
-          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+      "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+      "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+      "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+      "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
     ],
     "exercises": [
       {
@@ -8416,10 +8379,10 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "shortDesc": "Wirtschaftsmetropolen, historische Hauptstädte und Flusssysteme des afrikanischen Kontinents.",
     "longDesc": "Wirtschaftsmetropolen, historische Hauptstädte und Flusssysteme des afrikanischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
     "keyPoints": [
-          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
-          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
-          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
-          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+      "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+      "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+      "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+      "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
     ],
     "exercises": [
       {
@@ -8486,10 +8449,10 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "shortDesc": "Großstädte, Hauptstädte und Inselstaaten in Nord-, Mittel- und Südamerika sowie der Karibik.",
     "longDesc": "Großstädte, Hauptstädte und Inselstaaten in Nord-, Mittel- und Südamerika sowie der Karibik. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
     "keyPoints": [
-          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
-          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
-          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
-          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+      "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+      "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+      "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+      "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
     ],
     "exercises": [
       {
@@ -8556,10 +8519,10 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "shortDesc": "Großstädte, Hauptstädte und Inselstaaten in Nord-, Mittel- und Südamerika sowie der Karibik.",
     "longDesc": "Großstädte, Hauptstädte und Inselstaaten in Nord-, Mittel- und Südamerika sowie der Karibik. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
     "keyPoints": [
-          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
-          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
-          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
-          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+      "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+      "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+      "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+      "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
     ],
     "exercises": [
       {
@@ -8626,10 +8589,10 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "shortDesc": "Transportkorridore, Metropolregionen, Stadtentwicklung und demografische Dynamiken.",
     "longDesc": "Transportkorridore, Metropolregionen, Stadtentwicklung und demografische Dynamiken. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
     "keyPoints": [
-          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
-          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
-          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
-          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+      "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+      "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+      "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+      "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
     ],
     "exercises": [
       {
@@ -8686,10 +8649,10 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
     "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
     "keyPoints": [
-          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
-          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
-          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
-          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+      "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+      "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+      "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+      "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
     ],
     "exercises": [
       {
@@ -8776,10 +8739,10 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
     "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
     "keyPoints": [
-          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
-          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
-          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
-          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+      "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+      "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+      "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+      "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
     ],
     "exercises": [
       {
@@ -8866,10 +8829,10 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
     "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
     "keyPoints": [
-          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
-          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
-          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
-          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+      "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+      "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+      "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+      "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
     ],
     "exercises": [
       {
@@ -8956,10 +8919,10 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
     "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
     "keyPoints": [
-          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
-          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
-          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
-          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+      "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+      "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+      "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+      "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
     ],
     "exercises": [
       {
@@ -9046,10 +9009,10 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
     "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
     "keyPoints": [
-          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
-          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
-          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
-          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+      "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+      "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+      "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+      "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
     ],
     "exercises": [
       {
@@ -9136,10 +9099,10 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
     "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
     "keyPoints": [
-          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
-          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
-          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
-          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+      "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+      "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+      "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+      "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
     ],
     "exercises": [
       {
@@ -9226,10 +9189,10 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
     "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
     "keyPoints": [
-          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
-          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
-          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
-          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+      "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+      "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+      "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+      "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
     ],
     "exercises": [
       {
@@ -9316,10 +9279,10 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
     "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
     "keyPoints": [
-          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
-          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
-          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
-          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+      "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+      "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+      "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+      "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
     ],
     "exercises": [
       {
@@ -9406,10 +9369,10 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
     "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
     "keyPoints": [
-          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
-          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
-          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
-          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+      "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+      "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+      "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+      "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
     ],
     "exercises": [
       {
@@ -9496,10 +9459,10 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
     "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
     "keyPoints": [
-          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
-          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
-          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
-          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+      "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+      "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+      "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+      "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
     ],
     "exercises": [
       {
@@ -9586,10 +9549,10 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
     "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
     "keyPoints": [
-          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
-          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
-          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
-          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+      "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+      "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+      "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+      "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
     ],
     "exercises": [
       {
@@ -9676,10 +9639,10 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
     "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
     "keyPoints": [
-          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
-          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
-          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
-          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+      "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+      "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+      "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+      "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
     ],
     "exercises": [
       {
@@ -9766,10 +9729,10 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
     "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
     "keyPoints": [
-          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
-          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
-          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
-          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+      "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+      "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+      "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+      "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
     ],
     "exercises": [
       {
@@ -9856,10 +9819,10 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
     "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
     "keyPoints": [
-          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
-          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
-          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
-          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+      "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+      "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+      "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+      "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
     ],
     "exercises": [
       {
@@ -9946,10 +9909,10 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
     "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
     "keyPoints": [
-          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
-          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
-          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
-          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+      "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+      "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+      "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+      "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
     ],
     "exercises": [
       {
@@ -10036,10 +9999,10 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
     "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
     "keyPoints": [
-          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
-          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
-          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
-          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+      "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+      "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+      "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+      "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
     ],
     "exercises": [
       {
@@ -10126,10 +10089,10 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
     "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
     "keyPoints": [
-          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
-          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
-          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
-          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+      "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+      "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+      "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+      "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
     ],
     "exercises": [
       {
@@ -10216,10 +10179,10 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
     "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
     "keyPoints": [
-          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
-          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
-          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
-          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+      "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+      "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+      "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+      "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
     ],
     "exercises": [
       {
@@ -10306,10 +10269,10 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
     "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
     "keyPoints": [
-          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
-          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
-          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
-          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+      "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+      "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+      "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+      "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
     ],
     "exercises": [
       {
@@ -10396,10 +10359,10 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
     "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
     "keyPoints": [
-          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
-          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
-          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
-          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+      "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+      "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+      "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+      "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
     ],
     "exercises": [
       {
@@ -10486,10 +10449,10 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
     "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
     "keyPoints": [
-          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
-          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
-          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
-          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+      "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+      "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+      "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+      "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
     ],
     "exercises": [
       {
@@ -10576,10 +10539,10 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
     "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
     "keyPoints": [
-          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
-          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
-          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
-          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+      "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+      "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+      "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+      "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
     ],
     "exercises": [
       {
@@ -10666,10 +10629,10 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
     "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
     "keyPoints": [
-          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
-          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
-          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
-          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+      "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+      "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+      "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+      "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
     ],
     "exercises": [
       {
@@ -10756,10 +10719,10 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
     "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
     "keyPoints": [
-          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
-          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
-          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
-          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+      "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+      "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+      "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+      "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
     ],
     "exercises": [
       {
@@ -10846,10 +10809,10 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
     "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
     "keyPoints": [
-          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
-          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
-          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
-          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+      "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+      "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+      "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+      "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
     ],
     "exercises": [
       {
@@ -10936,10 +10899,10 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
     "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
     "keyPoints": [
-          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
-          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
-          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
-          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+      "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+      "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+      "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+      "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
     ],
     "exercises": [
       {
@@ -11026,10 +10989,10 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
     "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
     "keyPoints": [
-          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
-          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
-          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
-          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+      "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+      "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+      "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+      "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
     ],
     "exercises": [
       {
@@ -11116,10 +11079,10 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
     "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
     "keyPoints": [
-          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
-          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
-          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
-          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+      "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+      "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+      "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+      "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
     ],
     "exercises": [
       {
@@ -11206,10 +11169,10 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
     "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
     "keyPoints": [
-          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
-          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
-          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
-          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+      "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+      "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+      "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+      "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
     ],
     "exercises": [
       {
@@ -11296,10 +11259,10 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
     "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
     "keyPoints": [
-          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
-          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
-          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
-          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+      "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+      "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+      "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+      "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
     ],
     "exercises": [
       {
@@ -11386,10 +11349,10 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
     "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
     "keyPoints": [
-          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
-          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
-          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
-          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+      "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+      "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+      "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+      "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
     ],
     "exercises": [
       {
@@ -11476,10 +11439,10 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
     "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
     "keyPoints": [
-          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
-          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
-          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
-          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+      "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+      "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+      "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+      "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
     ],
     "exercises": [
       {
@@ -11566,10 +11529,10 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
     "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
     "keyPoints": [
-          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
-          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
-          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
-          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+      "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+      "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+      "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+      "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
     ],
     "exercises": [
       {
@@ -11656,10 +11619,10 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
     "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
     "keyPoints": [
-          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
-          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
-          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
-          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+      "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+      "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+      "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+      "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
     ],
     "exercises": [
       {
@@ -11746,10 +11709,10 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
     "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
     "keyPoints": [
-          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
-          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
-          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
-          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+      "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+      "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+      "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+      "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
     ],
     "exercises": [
       {
@@ -11836,10 +11799,10 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
     "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
     "keyPoints": [
-          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
-          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
-          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
-          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+      "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+      "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+      "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+      "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
     ],
     "exercises": [
       {
@@ -11926,10 +11889,10 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
     "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
     "keyPoints": [
-          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
-          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
-          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
-          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+      "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+      "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+      "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+      "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
     ],
     "exercises": [
       {
@@ -12016,10 +11979,10 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
     "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
     "keyPoints": [
-          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
-          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
-          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
-          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+      "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+      "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+      "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+      "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
     ],
     "exercises": [
       {
@@ -12106,10 +12069,10 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
     "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
     "keyPoints": [
-          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
-          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
-          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
-          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+      "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+      "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+      "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+      "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
     ],
     "exercises": [
       {
@@ -12196,10 +12159,10 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
     "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
     "keyPoints": [
-          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
-          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
-          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
-          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+      "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+      "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+      "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+      "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
     ],
     "exercises": [
       {
@@ -12286,10 +12249,10 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
     "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
     "keyPoints": [
-          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
-          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
-          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
-          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+      "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+      "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+      "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+      "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
     ],
     "exercises": [
       {
@@ -12376,10 +12339,10 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
     "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
     "keyPoints": [
-          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
-          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
-          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
-          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+      "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+      "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+      "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+      "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
     ],
     "exercises": [
       {
@@ -12466,10 +12429,10 @@ export const geographieTopics: Record<string, GeographieTopic> = {
     "shortDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents.",
     "longDesc": "Städte, Hauptstädte, historische Zentren und Kulturlandschaften des europäischen Kontinents. Interaktive Übungen zu Lage, Geschichte, Geographie und Besonderheiten dieser Regionen und Orte.",
     "keyPoints": [
-          "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
-          "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
-          "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
-          "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
+      "Geografische Lage, topografische Besonderheiten und naturräumliche Einbettung",
+      "Siedlungsgeschichte, Stadtentwicklung und denkmalgeschützte Baudenkmäler",
+      "Wirtschaftliche Struktur, Verkehrsanbindung und regionale Bedeutung",
+      "Kulturelle Traditionen, Lebensräume und moderne Herausforderungen"
     ],
     "exercises": [
       {

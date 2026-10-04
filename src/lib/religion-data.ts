@@ -142,11 +142,6 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "folder": "das-judentum-819"
       },
       {
-        "id": "849",
-        "title": "Das Judentum (Vertiefung)",
-        "folder": "das-judentum-2-849"
-      },
-      {
         "id": "2629",
         "title": "Die Rolle der Synagoge",
         "folder": "buddhismus-in-der-modernen-welt-10-2629"
@@ -190,11 +185,6 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "id": "6562",
         "title": "Der Talmud und rabbinische Schriften",
         "folder": "das-talmud-und-andere-wichtige-religiose-schriften-2-6562"
-      },
-      {
-        "id": "6531",
-        "title": "Der Sabbat: Bräuche, Gebote und Bedeutung",
-        "folder": "der-sabbat-und-seine-bedeutung-2-6531"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=judentum+tora&t=3752"
@@ -264,11 +254,6 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "id": "821",
         "title": "Der Islam",
         "folder": "der-islam-821"
-      },
-      {
-        "id": "851",
-        "title": "Der Islam (Vertiefung)",
-        "folder": "der-islam-2-851"
       },
       {
         "id": "2641",
@@ -395,21 +380,6 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "folder": "buddhismus-in-der-modernen-welt-2620"
       },
       {
-        "id": "2621",
-        "title": "Buddhismus in der modernen Welt (Teil 2)",
-        "folder": "buddhismus-in-der-modernen-welt-2-2621"
-      },
-      {
-        "id": "2622",
-        "title": "Buddhismus in der modernen Welt (Teil 3)",
-        "folder": "buddhismus-in-der-modernen-welt-3-2622"
-      },
-      {
-        "id": "2623",
-        "title": "Buddhismus in der modernen Welt (Teil 4)",
-        "folder": "buddhismus-in-der-modernen-welt-4-2623"
-      },
-      {
         "id": "3720",
         "title": "Buddha",
         "folder": "buddha-3720"
@@ -420,59 +390,14 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "folder": "buddhistische-feiertage-6441"
       },
       {
-        "id": "2624",
-        "title": "Buddhismus in der modernen Welt (Teil 5)",
-        "folder": "buddhismus-in-der-modernen-welt-5-2624"
-      },
-      {
         "id": "buddhd",
         "title": "Buddhismus in Deutschland",
         "folder": "buddhismus-in-deutschland"
       },
       {
-        "id": "2625",
-        "title": "Buddhismus in der modernen Welt (Teil 6)",
-        "folder": "buddhismus-in-der-modernen-welt-6-2625"
-      },
-      {
         "id": "5835",
         "title": "Meditation und spirituelle Achtsamkeit",
         "folder": "meditation-und-entspannung-5835"
-      },
-      {
-        "id": "2626",
-        "title": "Buddhismus in der modernen Welt (Teil 7)",
-        "folder": "buddhismus-in-der-modernen-welt-7-2626"
-      },
-      {
-        "id": "2627",
-        "title": "Buddhismus in der modernen Welt (Teil 8)",
-        "folder": "buddhismus-in-der-modernen-welt-8-2627"
-      },
-      {
-        "id": "2628",
-        "title": "Buddhismus in der modernen Welt (Teil 9)",
-        "folder": "buddhismus-in-der-modernen-welt-9-2628"
-      },
-      {
-        "id": "2631",
-        "title": "Buddhismus in der Praxis (Teil 12)",
-        "folder": "buddhismus-in-der-modernen-welt-12-2631"
-      },
-      {
-        "id": "2632",
-        "title": "Buddhismus und Achtsamkeit (Teil 13)",
-        "folder": "buddhismus-in-der-modernen-welt-13-2632"
-      },
-      {
-        "id": "2633",
-        "title": "Buddhistische Werte (Teil 14)",
-        "folder": "buddhismus-in-der-modernen-welt-14-2633"
-      },
-      {
-        "id": "2634",
-        "title": "Buddhismus und Meditation (Teil 15)",
-        "folder": "buddhismus-in-der-modernen-welt-15-2634"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=buddhismus&t=3752"
@@ -495,11 +420,6 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "id": "820",
         "title": "Der Hinduismus",
         "folder": "der-hinduismus-820"
-      },
-      {
-        "id": "850",
-        "title": "Der Hinduismus (Vertiefung)",
-        "folder": "der-hinduismus-2-850"
       },
       {
         "id": "6657",
@@ -621,8 +541,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "id": "2455",
         "title": "Religion in der modernen Welt",
         "folder": "religion-in-der-modernen-welt-2455"
-      }
-    ,
+      },
       {
         "id": "2872",
         "title": "Atheismus",
@@ -822,12 +741,6 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "id": "4112",
         "title": "Moses (Figur aus der Bibel)",
         "folder": "moses-figur-aus-der-bibel-4112"
-      }
-    ,
-      {
-        "id": "zehn-gebote-damals-und-heute-7-6755",
-        "title": "Zehn Gebote - damals und heute",
-        "folder": "zehn-gebote-damals-und-heute-7-6755"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=mose+zehn+gebote&t=3752"
@@ -1030,8 +943,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "id": "3768",
         "title": "Daniel (Figur aus der Bibel)",
         "folder": "daniel-figur-aus-der-bibel-3768"
-      }
-    ,
+      },
       {
         "id": "daniel-in-der-lowengrube-4584",
         "title": "Daniel – In der Löwengrube",
@@ -1105,11 +1017,6 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "folder": "jesus-in-der-kunst-6675"
       },
       {
-        "id": "6758",
-        "title": "Jesus im Film",
-        "folder": "jesus-im-film-2-6758"
-      },
-      {
         "id": "6676",
         "title": "Jesusbilder im Wandel der Zeit",
         "folder": "jesusbilder-im-wandel-der-zeit-6676"
@@ -1128,8 +1035,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "id": "6668",
         "title": "Jesu Verkündigung vom Reich Gottes",
         "folder": "jesu-verkundigung-reich-gottes-6668"
-      }
-    ,
+      },
       {
         "id": "das-leben-jesu-5332",
         "title": "Das Leben Jesu",
@@ -1196,8 +1102,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "id": "2417",
         "title": "Jesu Heilungen - Zeichen seiner Liebe und Macht",
         "folder": "jesu-heilungen-zeichen-seiner-liebe-und-macht-2417"
-      }
-    ,
+      },
       {
         "id": "die-wunder-jesu-wunder-wie-die-sturmstillung-4590",
         "title": "Die Wunder Jesu - Wunder wie die Sturmstillung",
@@ -1375,8 +1280,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "id": "2432",
         "title": "Das Christentum breitet sich aus",
         "folder": "das-christentum-breitet-sich-aus-2432"
-      }
-    ,
+      },
       {
         "id": "bekenntnisse-und-ihre-bedeutung-6428",
         "title": "Bekenntnisse und ihre Bedeutung",
@@ -1435,11 +1339,6 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "folder": "die-legende-der-heiligen-barbara-6603"
       },
       {
-        "id": "6557",
-        "title": "Der Advent – Zeit der Erwartung",
-        "folder": "der-advent-2-6557"
-      },
-      {
         "id": "630",
         "title": "Sankt Nikolaus von Myra",
         "folder": "sankt-nikolaus-von-myra-630"
@@ -1495,8 +1394,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "id": "6502",
         "title": "Der Karfreitag",
         "folder": "der-karfreitag-6502"
-      }
-    ,
+      },
       {
         "id": "der-schlusssegen-und-die-sendung-6530",
         "title": "Der Schlusssegen und die Sendung",
@@ -1625,8 +1523,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "id": "2423",
         "title": "Der Glaube als Quelle von Trost und Hoffnung",
         "folder": "der-glaube-als-quelle-von-trost-und-hoffnung-2423"
-      }
-    ,
+      },
       {
         "id": "beerdigungsrituale-6435",
         "title": "Beerdigungsrituale",
@@ -1734,8 +1631,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "id": "2479",
         "title": "Die Wassertaufe – Aufnahme in die Gemeinschaft Christi",
         "folder": "die-wassertaufe-aufnahme-in-die-gemeinschaft-christi-2479"
-      }
-    ,
+      },
       {
         "id": "wasser-als-taufsymbol-6743",
         "title": "Wasser als Taufsymbol",
@@ -2028,11 +1924,6 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "folder": "die-bedeutung-von-pilgerstatten-im-christentum-2474"
       },
       {
-        "id": "2470",
-        "title": "Mutter Teresa – Nächstenliebe und soziales Engagement",
-        "folder": "die-heilige-teresa-von-kalkutta-2-2470"
-      },
-      {
         "id": "643",
         "title": "Martin Luther und der Beginn der Reformation",
         "folder": "martin-luther-643"
@@ -2041,8 +1932,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "id": "3034",
         "title": "Martin Luther King – Glaube und Bürgerrechte",
         "folder": "martin-luther-king-3034"
-      }
-    ,
+      },
       {
         "id": "2434",
         "title": "Augustinus von Hippo",
@@ -2250,8 +2140,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "id": "2433",
         "title": "Päpste und Klerus im Wandel der Zeit",
         "folder": "papste-und-klerus-im-wandel-der-zeit-2433"
-      }
-    ,
+      },
       {
         "id": "6681",
         "title": "Kardinäle und das Konklave",

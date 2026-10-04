@@ -1379,8 +1379,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "8211",
         "title": "Die Wiener Schule der Moderne (Zweite Wiener Schule)",
         "folder": "die-wiener-schule-der-moderne"
-      }
-    ,
+      },
       {
         "id": "mus-minimal",
         "title": "Minimal Music",
@@ -1940,11 +1939,6 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "544",
         "title": "Das Musical Maria Theresia",
         "folder": "das-musical-maria-theresia-544"
-      },
-      {
-        "id": "musik-phantom-der-oper",
-        "title": "Das Phantom der Oper (Andrew Lloyd Webber)",
-        "folder": "das-phantom-der-oper-2-3256"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=moderne+musicals+phantom+der+oper&t=3752"
@@ -2233,11 +2227,6 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "831",
         "title": "Volksmusik",
         "folder": "volksmusik-831"
-      },
-      {
-        "id": "8202",
-        "title": "Toto: Africa",
-        "folder": "africa-toto-2-607"
       },
       {
         "id": "459",
@@ -2556,14 +2545,12 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "80",
         "title": "Janet Jackson",
         "folder": "janet-jackson-80"
-      }
-    ,
+      },
       {
         "id": "wish-you-were-here-pink-floyd-522",
         "title": "Wish You Were Here - Pink Floyd",
         "folder": "wish-you-were-here-pink-floyd-522"
-      }
-    ,
+      },
       {
         "id": "i-can-039-t-get-no-satisfaction-the-rolling-stones-2-599",
         "title": "(I Can't Get No) Satisfaction (The Rolling Stones)",
@@ -2882,11 +2869,6 @@ export const musikTopics: Record<string, MusikTopic> = {
         "folder": "die-rolle-von-frauen-im-deutschrap-6420"
       },
       {
-        "id": "6424",
-        "title": "Wie Spotify die Musik verändert (Teil 2)",
-        "folder": "wie-spotify-die-musik-verandert-2-6424"
-      },
-      {
         "id": "2597",
         "title": "Die Rolle von Medien in der Popkultur",
         "folder": "die-rolle-von-medien-in-der-popkultur-2597"
@@ -2905,14 +2887,12 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "937",
         "title": "Liedtexte und Lyrics analysieren",
         "folder": "liedtexte-937"
-      }
-    ,
+      },
       {
         "id": "6411",
         "title": "Apache 207",
         "folder": "apache-207-6411"
-      }
-    ,
+      },
       {
         "id": "raf-camora-6422",
         "title": "RAF Camora",
@@ -2979,8 +2959,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "933",
         "title": "Clara Schumann – Klaviervirtuosin & Komponistin",
         "folder": "clara-schumann-933"
-      }
-    ,
+      },
       {
         "id": "nina-simone-1295",
         "title": "Nina Simone",
@@ -3016,8 +2995,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "8218",
         "title": "Das Lied der Deutschen (Haydn/Hoffmann von Fallersleben)",
         "folder": "das-lied-der-deutschen"
-      }
-    ,
+      },
       {
         "id": "charles-mingus-1220",
         "title": "Charles Mingus",
@@ -3027,8 +3005,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "id": "chet-baker-1223",
         "title": "Chet Baker",
         "folder": "chet-baker-1223"
-      }
-    ,
+      },
       {
         "id": "chick-corea-1225",
         "title": "Chick Corea",
@@ -3036,8 +3013,7 @@ export const musikTopics: Record<string, MusikTopic> = {
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=weltmusik&t=3752"
-  }
-,
+  },
   "kurs-tonhoehe-und-gehoerbildung": {
     "slug": "kurs-tonhoehe-und-gehoerbildung",
     "title": "Kurs Tonhöhe & Gehörbildung",
@@ -3045,10 +3021,10 @@ export const musikTopics: Record<string, MusikTopic> = {
     "shortDesc": "Stufenweises Hören, Erkennen und Bestimmen von Tonhöhen und Intervallen.",
     "longDesc": "Ein systematischer Trainingskurs zur Gehörbildung: Vom Vergleichen einfacher Tonhöhenunterschiede über das Erkennen von Stammtonreihen bis hin zum sicheren Hören und Notieren musikalischer Intervalle.",
     "keyPoints": [
-          "Tonhöhe (Frequenz): Hohe Töne entstehen durch schnelle Schwingungen, tiefe Töne durch langsame Schwingungen",
-          "Stammtonreihe: Die Töne C-D-E-F-G-A-H und ihre relativen Tonhöhenunterschiede",
-          "Intervallhören: Halb- und Ganztonschritte im direkten Hörvergleich",
-          "Gehörschulung: Melodische und harmonische Tonhöhenzuordnung"
+      "Tonhöhe (Frequenz): Hohe Töne entstehen durch schnelle Schwingungen, tiefe Töne durch langsame Schwingungen",
+      "Stammtonreihe: Die Töne C-D-E-F-G-A-H und ihre relativen Tonhöhenunterschiede",
+      "Intervallhören: Halb- und Ganztonschritte im direkten Hörvergleich",
+      "Gehörschulung: Melodische und harmonische Tonhöhenzuordnung"
     ],
     "exercises": [
       {
@@ -3097,8 +3073,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "folder": "kurs-tonhohe-10-658"
       }
     ]
-  }
-,
+  },
   "literarische-meisterwerke-in-lernsongs": {
     "slug": "literarische-meisterwerke-in-lernsongs",
     "title": "Literarische Meisterwerke in Lernsongs & Vertonungen",
@@ -3106,10 +3081,10 @@ export const musikTopics: Record<string, MusikTopic> = {
     "shortDesc": "Musikalische Zusammenfassungen und Ohrwurm-Lernsongs kanonischer Literaturwerke.",
     "longDesc": "Musik als didaktisches Werkzeug zur Literaturvermittlung: Klassiker von Goethe, Schiller, Lessing, Büchner, Kleist, Kafka und modernen Autoren wie Herrndorf und Dürrenmatt in eingängigen musikalischen Bearbeitungen.",
     "keyPoints": [
-          "Didaktische Musik: Wie Rhythmus, Melodie und Reime das Behalten komplexer Textinhalte fördern",
-          "Vertonung dramatischer Konflikte: Von Faust, Woyzeck und Emilia Galotti bis zu Kabale und Liebe",
-          "Moderne Lektüren im Songformat: Tschick, Die Physiker und Der Besuch der alten Dame",
-          "Verbindung von Literaturanalyse und Musikpädagogik"
+      "Didaktische Musik: Wie Rhythmus, Melodie und Reime das Behalten komplexer Textinhalte fördern",
+      "Vertonung dramatischer Konflikte: Von Faust, Woyzeck und Emilia Galotti bis zu Kabale und Liebe",
+      "Moderne Lektüren im Songformat: Tschick, Die Physiker und Der Besuch der alten Dame",
+      "Verbindung von Literaturanalyse und Musikpädagogik"
     ],
     "exercises": [
       {

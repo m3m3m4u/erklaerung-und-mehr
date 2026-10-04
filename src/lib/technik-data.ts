@@ -91,7 +91,7 @@ export const technikTopics: Record<string, TechnikTopic> = {
       },
       {
         "id": "571",
-        "title": "Lerninhalt legierungs und begleitelemente 571",
+        "title": "Lerninhalt: Legierungs- und Begleitelemente",
         "folder": "lerninhalt-legierungs-und-begleitelemente-571"
       }
     ],
@@ -351,7 +351,7 @@ export const technikTopics: Record<string, TechnikTopic> = {
       },
       {
         "id": "583",
-        "title": "Lerninhalt pneumatik und hydraulik 583",
+        "title": "Lerninhalt: Pneumatik und Hydraulik",
         "folder": "lerninhalt-pneumatik-und-hydraulik-583"
       },
       {
@@ -388,7 +388,7 @@ export const technikTopics: Record<string, TechnikTopic> = {
     "exercises": [
       {
         "id": "1981",
-        "title": "Die Elektrotechnik - VIDEO FEHLT!",
+        "title": "Die Elektrotechnik (Einführung & Video)",
         "folder": "die-elektrotechnik-1981"
       },
       {

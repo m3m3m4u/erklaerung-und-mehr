@@ -45,11 +45,6 @@ export const psychologieTopics: Record<string, PsychologieTopic> = {
         "folder": "grundlagen-der-psychologie-5818"
       },
       {
-        "id": "grundlagen-der-psychologie-2-5923",
-        "title": "Grundlagen der Psychologie (Teil 2)",
-        "folder": "grundlagen-der-psychologie-2-5923"
-      },
-      {
         "id": "grundlagen-der-forschungsmethoden-in-der-psychologie-2719",
         "title": "Forschungsmethoden in der Psychologie",
         "folder": "grundlagen-der-forschungsmethoden-in-der-psychologie-2719"
@@ -68,8 +63,7 @@ export const psychologieTopics: Record<string, PsychologieTopic> = {
         "id": "psychologische-forschungsethik-2744",
         "title": "Psychologische Forschungsethik",
         "folder": "psychologische-forschungsethik-2744"
-      }
-    ,
+      },
       {
         "id": "2700",
         "title": "Der Placebo-Effekt und seine Mechanismen",
@@ -84,14 +78,12 @@ export const psychologieTopics: Record<string, PsychologieTopic> = {
         "id": "9200",
         "title": "Wie funktioniert der Placebo-Effekt",
         "folder": "wie-funktioniert-der-placebo-effekt"
-      }
-    ,
+      },
       {
         "id": "2712",
         "title": "Ethnische und kulturelle Validität von Tests",
         "folder": "ethnische-und-kulturelle-validitat-von-tests-2712"
-      }
-    ,
+      },
       {
         "id": "experimentelles-design-und-kontrollgruppen-2713",
         "title": "Experimentelles Design und Kontrollgruppen",
@@ -105,7 +97,6 @@ export const psychologieTopics: Record<string, PsychologieTopic> = {
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Psychologie+Grundlagen+Forschungsmethoden&t=3752"
   },
-
   "biopsychologie-und-neuropsychologie": {
     "slug": "biopsychologie-und-neuropsychologie",
     "title": "Biopsychologie, Neuropsychologie & Psychosomatik",
@@ -154,8 +145,7 @@ export const psychologieTopics: Record<string, PsychologieTopic> = {
         "id": "einfuhrung-in-evolutionspsychologie-5760",
         "title": "Einführung in die Evolutionspsychologie",
         "folder": "einfuhrung-in-evolutionspsychologie-5760"
-      }
-    ,
+      },
       {
         "id": "2161",
         "title": "Neurobiologie der Sucht: Dopamin-Regulation",
@@ -169,7 +159,6 @@ export const psychologieTopics: Record<string, PsychologieTopic> = {
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Biopsychologie+Neuropsychologie&t=3752"
   },
-
   "schlaf-traeume-und-chronobiologie": {
     "slug": "schlaf-traeume-und-chronobiologie",
     "title": "Schlaf, Träume & Chronobiologie",
@@ -206,7 +195,6 @@ export const psychologieTopics: Record<string, PsychologieTopic> = {
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Schlaf+Traeume+Psychologie&t=3752"
   },
-
   "kognitive-psychologie-lernen-und-gedaechtnis": {
     "slug": "kognitive-psychologie-lernen-und-gedaechtnis",
     "title": "Kognitive Psychologie, Lernen & Gedächtnis",
@@ -250,8 +238,7 @@ export const psychologieTopics: Record<string, PsychologieTopic> = {
         "id": "grundlagen-padagogischer-psychologie-5937",
         "title": "Grundlagen pädagogischer Psychologie",
         "folder": "grundlagen-padagogischer-psychologie-5937"
-      }
-    ,
+      },
       {
         "id": "3977",
         "title": "Iwan Pawlow (Klassische Konditionierung)",
@@ -265,7 +252,6 @@ export const psychologieTopics: Record<string, PsychologieTopic> = {
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Kognitive+Psychologie+Lernen+Gedaechtnis&t=3752"
   },
-
   "wahrnehmung-denkfehler-und-dissonanz": {
     "slug": "wahrnehmung-denkfehler-und-dissonanz",
     "title": "Wahrnehmung, kognitive Dissonanz & Denkfehler",
@@ -308,8 +294,7 @@ export const psychologieTopics: Record<string, PsychologieTopic> = {
         "id": "kognitive-verzerrungen-und-denkfehler-2722",
         "title": "Kognitive Verzerrungen und Denkfehler",
         "folder": "kognitive-verzerrungen-und-denkfehler-2722"
-      }
-    ,
+      },
       {
         "id": "die-auswirkungen-von-farben-auf-die-stimmung-2703",
         "title": "Die Auswirkungen von Farben auf die Stimmung",
@@ -323,7 +308,6 @@ export const psychologieTopics: Record<string, PsychologieTopic> = {
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Wahrnehmung+Denkfehler+Kognitive+Dissonanz&t=3752"
   },
-
   "motivation-emotion-und-intelligenz": {
     "slug": "motivation-emotion-und-intelligenz",
     "title": "Motivation, Emotion & Intelligenztheorien",
@@ -371,8 +355,7 @@ export const psychologieTopics: Record<string, PsychologieTopic> = {
         "id": "forderung-der-selbstwirksamkeit-5796",
         "title": "Förderung der Selbstwirksamkeit",
         "folder": "forderung-der-selbstwirksamkeit-5796"
-      }
-    ,
+      },
       {
         "id": "5847",
         "title": "Motivation und emotionale Prozesse",
@@ -397,8 +380,7 @@ export const psychologieTopics: Record<string, PsychologieTopic> = {
         "id": "799",
         "title": "Techniken der Emotionsarbeit",
         "folder": "techniken-der-emotionsarbeit-799"
-      }
-    ,
+      },
       {
         "id": "790",
         "title": "Emotionen in verschiedenen Berufen",
@@ -407,7 +389,6 @@ export const psychologieTopics: Record<string, PsychologieTopic> = {
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Motivation+Emotion+Intelligenz+Psychologie&t=3752"
   },
-
   "sigmund-freud-und-die-psychoanalyse": {
     "slug": "sigmund-freud-und-die-psychoanalyse",
     "title": "Sigmund Freud, Psychoanalyse & Unbewusstes",
@@ -450,7 +431,6 @@ export const psychologieTopics: Record<string, PsychologieTopic> = {
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Sigmund+Freud+Psychoanalyse&t=3752"
   },
-
   "persoenlichkeitspsychologie-und-humanismus": {
     "slug": "persoenlichkeitspsychologie-und-humanismus",
     "title": "Persönlichkeitspsychologie & humanistische Ansätze",
@@ -499,8 +479,7 @@ export const psychologieTopics: Record<string, PsychologieTopic> = {
         "id": "feministische-psychologie-2714",
         "title": "Feministische Psychologieansätze",
         "folder": "feministische-psychologie-2714"
-      }
-    ,
+      },
       {
         "id": "3183",
         "title": "Selbstreflexion und Selbstwahrnehmung",
@@ -519,7 +498,6 @@ export const psychologieTopics: Record<string, PsychologieTopic> = {
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Persoenlichkeitspsychologie+Big+Five&t=3752"
   },
-
   "entwicklungspsychologie-und-lebensspanne": {
     "slug": "entwicklungspsychologie-und-lebensspanne",
     "title": "Entwicklungspsychologie über die Lebensspanne",
@@ -558,8 +536,7 @@ export const psychologieTopics: Record<string, PsychologieTopic> = {
         "id": "einfuhrung-in-generationenpsychologie-5762",
         "title": "Einführung in die Generationenpsychologie",
         "folder": "einfuhrung-in-generationenpsychologie-5762"
-      }
-    ,
+      },
       {
         "id": "5757",
         "title": "Einführung in die Bindungstheorie (Bowlby & Ainsworth)",
@@ -568,7 +545,6 @@ export const psychologieTopics: Record<string, PsychologieTopic> = {
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Entwicklungspsychologie+Piaget+Erikson&t=3752"
   },
-
   "sozialpsychologie-und-gruppenverhalten": {
     "slug": "sozialpsychologie-und-gruppenverhalten",
     "title": "Sozialpsychologie, Konformität & Gruppen",
@@ -616,7 +592,6 @@ export const psychologieTopics: Record<string, PsychologieTopic> = {
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Sozialpsychologie+Milgram+Zimbardo&t=3752"
   },
-
   "grundlagen-und-kommunikationstheorien": {
     "slug": "grundlagen-und-kommunikationstheorien",
     "title": "Kommunikationstheorien & Körpersprache",
@@ -659,7 +634,6 @@ export const psychologieTopics: Record<string, PsychologieTopic> = {
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Kommunikationspsychologie+Schulz+von+Thun&t=3752"
   },
-
   "kommunikationspsychologie-und-arbeitswelt": {
     "slug": "kommunikationspsychologie-und-arbeitswelt",
     "title": "Arbeits-, Organisations- & Werbepsychologie",
@@ -706,7 +680,6 @@ export const psychologieTopics: Record<string, PsychologieTopic> = {
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Arbeitspsychologie+Werbepsychologie&t=3752"
   },
-
   "angewandte-psychologie-sport-und-rehabilitation": {
     "slug": "angewandte-psychologie-sport-und-rehabilitation",
     "title": "Angewandte Psychologie: Sport, Reha & Verhaltensforschung",
@@ -739,8 +712,7 @@ export const psychologieTopics: Record<string, PsychologieTopic> = {
         "id": "einfuhrung-in-vergleichende-psychologie-5779",
         "title": "Vergleichende Psychologie & Tierverhalten",
         "folder": "einfuhrung-in-vergleichende-psychologie-5779"
-      }
-    ,
+      },
       {
         "id": "5778",
         "title": "Einführung in die Umweltpsychologie",
@@ -754,7 +726,6 @@ export const psychologieTopics: Record<string, PsychologieTopic> = {
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Sportpsychologie+Rehabilitation+Psychologie&t=3752"
   },
-
   "klinische-psychologie-und-psychische-stoerungen": {
     "slug": "klinische-psychologie-und-psychische-stoerungen",
     "title": "Klinische Psychologie: Depression, Angst, Psychose & Sucht",
@@ -803,8 +774,7 @@ export const psychologieTopics: Record<string, PsychologieTopic> = {
         "id": "sucht-und-drogen-die-abschreckende-wirkung-von-buechern",
         "title": "Sucht, Drogen & Abhängigkeit",
         "folder": "sucht-und-drogen-die-abschreckende-wirkung-von-buechern"
-      }
-    ,
+      },
       {
         "id": "2157",
         "title": "Sucht und Abhängigkeit: Mechanismen und Symptome",
@@ -829,8 +799,7 @@ export const psychologieTopics: Record<string, PsychologieTopic> = {
         "id": "5894",
         "title": "Strategien zur Suchtprävention",
         "folder": "strategien-zur-suchtpravention-5894"
-      }
-    ,
+      },
       {
         "id": "5747",
         "title": "Bipolare Störung verstehen",
@@ -839,7 +808,6 @@ export const psychologieTopics: Record<string, PsychologieTopic> = {
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Klinische+Psychologie+Stoerungen+Therapie&t=3752"
   },
-
   "persoenlichkeitsstoerungen-und-neurodivergenz": {
     "slug": "persoenlichkeitsstoerungen-und-neurodivergenz",
     "title": "Persönlichkeitsstörungen, ADHS & Neurodivergenz",
@@ -881,7 +849,6 @@ export const psychologieTopics: Record<string, PsychologieTopic> = {
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Persoenlichkeitsstoerungen+ADHS+Autismus&t=3752"
   },
-
   "notfallpsychologie-trauma-und-krisen": {
     "slug": "notfallpsychologie-trauma-und-krisen",
     "title": "Notfallpsychologie, Trauma & Krisenintervention",
@@ -918,7 +885,6 @@ export const psychologieTopics: Record<string, PsychologieTopic> = {
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Trauma+Notfallpsychologie+PTBS&t=3752"
   },
-
   "psychotherapieverfahren-und-beratung": {
     "slug": "psychotherapieverfahren-und-beratung",
     "title": "Psychotherapieverfahren & kreative Methoden",
@@ -972,8 +938,7 @@ export const psychologieTopics: Record<string, PsychologieTopic> = {
         "id": "grundlagen-der-paartherapie-5816",
         "title": "Grundlagen der Paartherapie",
         "folder": "grundlagen-der-paartherapie-5816"
-      }
-    ,
+      },
       {
         "id": "5812",
         "title": "Grundlagen der Kunsttherapie",
@@ -982,7 +947,6 @@ export const psychologieTopics: Record<string, PsychologieTopic> = {
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Psychotherapie+Systemisch+Beratung&t=3752"
   },
-
   "positive-psychologie-gesundheit-und-digitalisierung": {
     "slug": "positive-psychologie-gesundheit-und-digitalisierung",
     "title": "Positive Psychologie, Gesundheit & Digitalisierung",
@@ -1036,8 +1000,7 @@ export const psychologieTopics: Record<string, PsychologieTopic> = {
         "id": "virtuelle-realitat-in-psychologie-5909",
         "title": "Virtuelle Realität in der Psychologie",
         "folder": "virtuelle-realitat-in-psychologie-5909"
-      }
-    ,
+      },
       {
         "id": "5919",
         "title": "Einführung in Achtsamkeit (Mindfulness)",
@@ -1056,7 +1019,6 @@ export const psychologieTopics: Record<string, PsychologieTopic> = {
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Positive+Psychologie+Resilienz+Cyberpsychologie&t=3752"
   },
-
   "stress-resilienz-und-burnout-praevention": {
     "slug": "stress-resilienz-und-burnout-praevention",
     "title": "Stress, Resilienz & Burnout-Prävention",
@@ -1091,12 +1053,6 @@ export const psychologieTopics: Record<string, PsychologieTopic> = {
         "title": "Digitale Reizüberflutung & Konzentration",
         "folder": "warum-das-handy-beim-lernen-stort-4658"
       },
-      {
-        "id": "selbstwahrnehmung-2-3302",
-        "title": "Selbstreflexion & Mentale Balance",
-        "folder": "selbstwahrnehmung-2-3302"
-      }
-    ,
       {
         "id": "5798",
         "title": "Förderung von Resilienz",

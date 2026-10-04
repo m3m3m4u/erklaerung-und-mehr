@@ -1291,11 +1291,6 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "agatha-christie-4356"
       },
       {
-        "id": "4412",
-        "title": "Virginia Woolf",
-        "folder": "virginia-woolf-2-4412"
-      },
-      {
         "id": "4413",
         "title": "W.B. Yeats",
         "folder": "w-b-yeats-4413"
@@ -2049,8 +2044,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "id": "4406",
         "title": "Lucy Parsons",
         "folder": "lucy-parsons-4406"
-      }
-    ,
+      },
       {
         "id": "bertha-von-suttner-2298",
         "title": "Bertha von Suttner",
@@ -2435,8 +2429,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "id": "4391",
         "title": "Leonardo Torres Quevedo",
         "folder": "leonardo-torres-quevedo-4391"
-      }
-    ,
+      },
       {
         "id": "die-fraunhofer-gesellschaft",
         "title": "Die Fraunhofer-Gesellschaft",
@@ -4181,8 +4174,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "id": "3762",
         "title": "Confucius",
         "folder": "confucius-3762"
-      }
-    ,
+      },
       {
         "id": "2296",
         "title": "Barack Obama",
@@ -4302,8 +4294,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "id": "4364",
         "title": "Julius Caesar",
         "folder": "julius-caesar-4364"
-      }
-    ,
+      },
       {
         "id": "bill-clinton-2299",
         "title": "Bill Clinton",
@@ -5471,8 +5462,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Unternehmer+biografie&t=3752"
-  }
-,
+  },
   "antike-mythologie-und-goetterwelt": {
     "slug": "antike-mythologie-und-goetterwelt",
     "title": "Antike Mythologie & Götterwelt",
@@ -5480,10 +5470,10 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
     "shortDesc": "Götter, Kulte und Sagengestalten der griechischen und römischen Mythologie.",
     "longDesc": "Die Götterwelt der Antike prägte Kultur, Philosophie, Kunst und Sprache des Abendlandes. Von Dionysos (Bacchus) und Helios über Demeter (Ceres) bis hin zur Sage um Persephone spiegeln die antiken Mythen Naturphänomene, Jahreszeiten und menschliche Schicksale wider.",
     "keyPoints": [
-          "Dionysos / Bacchus: Gott des Weines, der Fruchtbarkeit, des Theaters und der Ekstase",
-          "Demeter / Ceres: Göttin des Ackerbaus, des Getreides und der mütterlichen Fürsorge",
-          "Persephone: Tochter der Demeter und Königin der Unterwelt, mythologische Erklärung der Jahreszeiten",
-          "Helios: Sonnengott, der täglich mit seinem Sonnenwagen über das Himmelsgewölbe zieht"
+      "Dionysos / Bacchus: Gott des Weines, der Fruchtbarkeit, des Theaters und der Ekstase",
+      "Demeter / Ceres: Göttin des Ackerbaus, des Getreides und der mütterlichen Fürsorge",
+      "Persephone: Tochter der Demeter und Königin der Unterwelt, mythologische Erklärung der Jahreszeiten",
+      "Helios: Sonnengott, der täglich mit seinem Sonnenwagen über das Himmelsgewölbe zieht"
     ],
     "exercises": [
       {
@@ -5515,8 +5505,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "id": "dionysos-1240",
         "title": "Dionysos",
         "folder": "dionysos-1240"
-      }
-    ,
+      },
       {
         "id": "isis-1280",
         "title": "Isis",
@@ -5530,4 +5519,3 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
     ]
   }
 };
-

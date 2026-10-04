@@ -54,11 +54,6 @@ export const ethikTopics: Record<string, EthikTopic> = {
         "folder": "moral-und-ethik-5844"
       },
       {
-        "id": "5921",
-        "title": "Moral und Ethik Vertiefung",
-        "folder": "moral-und-ethik-2-5921"
-      },
-      {
         "id": "4471",
         "title": "Werte und Überzeugungen",
         "folder": "werte-und-berzeugungen-4471"
@@ -117,8 +112,7 @@ export const ethikTopics: Record<string, EthikTopic> = {
         "id": "5942",
         "title": "Identität und Selbstbewusstsein",
         "folder": "identitat-und-selbstbewusstsein-5942"
-      }
-    ,
+      },
       {
         "id": "795",
         "title": "Faking bad oder good faith",
@@ -242,8 +236,7 @@ export const ethikTopics: Record<string, EthikTopic> = {
         "id": "2758",
         "title": "Utilitarismus und der Wert von Kunst",
         "folder": "der-utilitarismus-und-die-frage-nach-dem-wert-von-kunst-2758"
-      }
-    ,
+      },
       {
         "id": "797",
         "title": "Handlungen und ihre Folgen",
@@ -1182,16 +1175,6 @@ export const ethikTopics: Record<string, EthikTopic> = {
         "folder": "ethische-fragen-in-der-jugendkultur-2848"
       },
       {
-        "id": "3303",
-        "title": "Empathie – Verständnis für andere entwickeln",
-        "folder": "empathie-2-3303"
-      },
-      {
-        "id": "4438",
-        "title": "Gewaltfreie Kommunikation",
-        "folder": "gewaltfreie-kommunikation-2-4438"
-      },
-      {
         "id": "3539",
         "title": "Gewaltfreie Kommunikation – Einführung",
         "folder": "gewaltfreie-kommunikation-3539"
@@ -1205,11 +1188,6 @@ export const ethikTopics: Record<string, EthikTopic> = {
         "id": "3241",
         "title": "Konfliktlösung",
         "folder": "konfliktlosung-3241"
-      },
-      {
-        "id": "3300",
-        "title": "Konfliktlösung – Vertiefung",
-        "folder": "konfliktlosung-2-3300"
       },
       {
         "id": "5892",
@@ -1316,8 +1294,7 @@ export const ethikTopics: Record<string, EthikTopic> = {
         "id": "5903",
         "title": "Unterschiedliche Erziehungsstile verstehen",
         "folder": "unterschiedliche-erziehungsstile-verstehen-5903"
-      }
-    ,
+      },
       {
         "id": "neujahrsbrauche-weltweit-6707",
         "title": "Neujahrsbräuche weltweit",
@@ -1424,8 +1401,7 @@ export const ethikTopics: Record<string, EthikTopic> = {
         "id": "6715",
         "title": "Religionsfreiheit als Menschenrecht",
         "folder": "religionsfreiheit-6715"
-      }
-    ,
+      },
       {
         "id": "die-todesstrafe-2983",
         "title": "Die Todesstrafe",

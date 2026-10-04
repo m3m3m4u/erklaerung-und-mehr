@@ -262,19 +262,9 @@ export const ernaehrungTopics: Record<string, ErnaehrungTopic> = {
         "folder": "diaten-912"
       },
       {
-        "id": "diaten-2-918",
-        "title": "Diäten im wissenschaftlichen Vergleich",
-        "folder": "diaten-2-918"
-      },
-      {
         "id": "essstorungen-913",
         "title": "Essstörungen – Magersucht, Bulimie & Ursachen (Teil 1)",
         "folder": "essstorungen-913"
-      },
-      {
-        "id": "essstorungen-2-919",
-        "title": "Essstörungen – Symptome & Therapieansätze (Teil 2)",
-        "folder": "essstorungen-2-919"
       },
       {
         "id": "erkennen-von-essstorungen-5920",
@@ -322,11 +312,6 @@ export const ernaehrungTopics: Record<string, ErnaehrungTopic> = {
         "id": "das-immunsystem-und-ernahrung-2083",
         "title": "Das Immunsystem und Ernährung (Teil 1)",
         "folder": "das-immunsystem-und-ernahrung-2083"
-      },
-      {
-        "id": "das-immunsystem-und-ernahrung-2-2131",
-        "title": "Das Immunsystem und Ernährung (Teil 2)",
-        "folder": "das-immunsystem-und-ernahrung-2-2131"
       },
       {
         "id": "der-zusammenhang-zwischen-ernahrung-und-psychischer-gesundheit-2701",

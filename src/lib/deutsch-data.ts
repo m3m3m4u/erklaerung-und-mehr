@@ -62,11 +62,6 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "folder": "die-wortarten-3249"
       },
       {
-        "id": "3252",
-        "title": "Die Wortarten - Vertiefung",
-        "folder": "die-wortarten-2-3252"
-      },
-      {
         "id": "553",
         "title": "Adjektiv",
         "folder": "adjektiv-553"
@@ -239,8 +234,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "slang-der-strasse-der-geheime-code-der-aktuellen-jugendsprache",
         "title": "Slang der Straße – Jugendsprache im Wandel",
         "folder": "slang-der-strasse-der-geheime-code-der-aktuellen-jugendsprache"
-      }
-    ,
+      },
       {
         "id": "de-amtssprachen",
         "title": "Amtssprachen in Deutschland",
@@ -401,8 +395,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "de-rezension",
         "title": "Textformen: Wie man eine überzeugende Literatur- und Buchrezension verfasst",
         "folder": "wie-man-eine-rezension-schreibt-die-andere-ueberzeugt"
-      }
-    ,
+      },
       {
         "id": "de-manuskript",
         "title": "Die Reise eines Manuskripts bis zum fertigen Buch",
@@ -732,8 +725,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "5195",
         "title": "Clemens Brentano: Der Spinnerin Nachtlied",
         "folder": "der-spinnerin-nachtlied-von-clemens-brentano-5195"
-      }
-    ,
+      },
       {
         "id": "friedrich-hebbel-4608",
         "title": "Friedrich Hebbel",
@@ -791,14 +783,12 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "2381",
         "title": "Literaturepoche Symbolismus",
         "folder": "literaturepoche-symbolismus-2381"
-      }
-    ,
+      },
       {
         "id": "3417",
         "title": "Frank Wedekind - Frühlings Erwachen",
         "folder": "frank-wedekind-fruhlings-erwachen-2-3417"
-      }
-    ,
+      },
       {
         "id": "fjodor-dostojewski-1254",
         "title": "Fjodor Dostojewski",
@@ -916,8 +906,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "6205",
         "title": "Erich Kästner: Fabian – Gegenwartsbezug & Moral in der Krise",
         "folder": "fabian-geschichte-eines-moralisten-von-kastner-bezug-zur-gegenwart-6205"
-      }
-    ,
+      },
       {
         "id": "marcel-proust-1288",
         "title": "Marcel Proust",
@@ -990,8 +979,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "6392",
         "title": "Schweizer Literatur",
         "folder": "schweizer-literatur-6392"
-      }
-    ,
+      },
       {
         "id": "3469",
         "title": "Wolfgang Koeppen - Tauben im Gras",
@@ -999,7 +987,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
       },
       {
         "id": "6162",
-        "title": "Christa Wolf",
+        "title": "Christa Wolf (Lernsong & Video)",
         "folder": "christa-wolf-6162"
       },
       {
@@ -1016,17 +1004,15 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "6264",
         "title": "Medea von Christa Wolf - literarische Bedeutung",
         "folder": "medea-von-christa-wolf-literarische-bedeutung-6264"
-      }
-    ,
+      },
       {
         "id": "4509",
         "title": "Anna Seghers – Das siebte Kreuz",
         "folder": "anna-seghers-das-siebte-kreuz-2-4509"
-      }
-    ,
+      },
       {
         "id": "berschrift-2-1226",
-        "title": "Christa Wolf",
+        "title": "Christa Wolf (Video & Quiz)",
         "folder": "berschrift-2-1226"
       },
       {
@@ -1499,7 +1485,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
       },
       {
         "id": "1215",
-        "title": "Bertolt Brecht",
+        "title": "Bertolt Brecht (Video & Quiz)",
         "folder": "bertolt-brecht-1215"
       },
       {
@@ -1516,11 +1502,10 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "4515",
         "title": "Bertolt Brecht: Mutter Courage und ihre Kinder – Episches Theater & Kriegskritik",
         "folder": "bertolt-brecht-mutter-courage-und-ihre-kinder-2-4515"
-      }
-    ,
+      },
       {
         "id": "bertolt-brecht-3-4599",
-        "title": "Bertolt Brecht",
+        "title": "Bertolt Brecht (Textanalyse & Übungen)",
         "folder": "bertolt-brecht-3-4599"
       }
     ],
@@ -1543,7 +1528,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
     "exercises": [
       {
         "id": "4524",
-        "title": "Friedrich Dürrenmatt - Der Besuch der alten Dame",
+        "title": "Friedrich Dürrenmatt - Der Besuch der alten Dame (Textanalyse & Übungen)",
         "folder": "friedrich-durrenmatt-der-besuch-der-alten-dame-3-4524"
       },
       {
@@ -1610,11 +1595,10 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "3278",
         "title": "Friedrich Dürrenmatt: Die Physiker – Verantwortung der Wissenschaft",
         "folder": "friedrich-durrenmatt-die-physiker-3278"
-      }
-    ,
+      },
       {
         "id": "friedrich-durrenmatt-der-besuch-der-alten-dame-2-3419",
-        "title": "Friedrich Dürrenmatt - Der Besuch der alten Dame",
+        "title": "Friedrich Dürrenmatt - Der Besuch der alten Dame (Lernsong & Video)",
         "folder": "friedrich-durrenmatt-der-besuch-der-alten-dame-2-3419"
       }
     ],
@@ -1711,11 +1695,6 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "folder": "wolfgang-koeppen-4634"
       },
       {
-        "id": "de-deutsche-5-3276",
-        "title": "Koeppen: Tauben im Gras – Roman eines Nachkriegstages",
-        "folder": "wolfgang-koeppen-tauben-im-gras-3276"
-      },
-      {
         "id": "de-deutsche-6-4616",
         "title": "Heiner Müller – Dramatiker der DDR und Moderne",
         "folder": "heiner-muller-4616"
@@ -1797,11 +1776,6 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "de-die-heim-1-3105",
         "title": "Jenny Erpenbeck – Werk und historische Schichten",
         "folder": "jenny-erpenbeck-3105"
-      },
-      {
-        "id": "de-die-heim-2-3450",
-        "title": "Jenny Erpenbeck: Heimsuchung – Figurenkonstellation & Raum",
-        "folder": "jenny-erpenbeck-heimsuchung-2-3450"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Jenny%20Erpenbeck%20Heimsuchung%20Abitur&t=284"
@@ -1823,17 +1797,17 @@ export const deutschTopics: Record<string, DeutschTopic> = {
     "exercises": [
       {
         "id": "4510",
-        "title": "Arthur Schnitzler - Liebelei",
+        "title": "Arthur Schnitzler - Liebelei (Textanalyse & Übungen)",
         "folder": "arthur-schnitzler-liebelei-2-4510"
       },
       {
         "id": "4511",
-        "title": "Arthur Schnitzler - Professor Bernhardi",
+        "title": "Arthur Schnitzler - Professor Bernhardi (Textanalyse & Übungen)",
         "folder": "arthur-schnitzler-professor-bernhardi-2-4511"
       },
       {
         "id": "4512",
-        "title": "Arthur Schnitzler - Reigen",
+        "title": "Arthur Schnitzler - Reigen (Textanalyse & Übungen)",
         "folder": "arthur-schnitzler-reigen-2-4512"
       },
       {
@@ -1890,30 +1864,27 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "de-wiener-m-7-4549",
         "title": "Hofmannsthal: Der Schwierige – Gesellschaftskomödie",
         "folder": "hugo-von-hofmannsthal-der-schwierige-2-4549"
-      }
-    ,
+      },
       {
         "id": "3405",
-        "title": "Arthur Schnitzler - Liebelei",
+        "title": "Arthur Schnitzler - Liebelei (Lernsong & Video)",
         "folder": "arthur-schnitzler-liebelei-3405"
       },
       {
         "id": "3406",
-        "title": "Arthur Schnitzler - Professor Bernhardi",
+        "title": "Arthur Schnitzler - Professor Bernhardi (Lernsong & Video)",
         "folder": "arthur-schnitzler-professor-bernhardi-3406"
       },
       {
         "id": "3407",
-        "title": "Arthur Schnitzler - Reigen",
+        "title": "Arthur Schnitzler - Reigen (Lernsong & Video)",
         "folder": "arthur-schnitzler-reigen-3407"
-      }
-    ,
+      },
       {
         "id": "4598",
         "title": "Arthur Schnitzler",
         "folder": "arthur-schnitzler-4598"
-      }
-    ,
+      },
       {
         "id": "stefan-zweig-und-der-abschied-vom-alten-europa",
         "title": "Stefan Zweig und der Abschied vom alten Europa",
@@ -1939,7 +1910,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
     "exercises": [
       {
         "id": "4558",
-        "title": "Joseph Roth - Radetzkymarsch",
+        "title": "Joseph Roth - Radetzkymarsch (Textanalyse & Übungen)",
         "folder": "joseph-roth-radetzkymarsch-2-4558"
       },
       {
@@ -1954,7 +1925,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
       },
       {
         "id": "4565",
-        "title": "Robert Musil – Die Verwirrungen des Zöglings Törleß",
+        "title": "Robert Musil – Die Verwirrungen des Zöglings Törleß (Textanalyse & Übungen)",
         "folder": "robert-musil-die-verwirrungen-des-zoglings-torlees-2-4565"
       },
       {
@@ -1991,11 +1962,10 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "de-oesterre-4-3465",
         "title": "Thomas Bernhard: Holzfällen – Eine Erregung",
         "folder": "thomas-bernhard-holzfallen-3465"
-      }
-    ,
+      },
       {
         "id": "3453",
-        "title": "Joseph Roth - Radetzkymarsch",
+        "title": "Joseph Roth - Radetzkymarsch (Lernsong & Video)",
         "folder": "joseph-roth-radetzkymarsch-3453"
       },
       {
@@ -2005,15 +1975,14 @@ export const deutschTopics: Record<string, DeutschTopic> = {
       },
       {
         "id": "3460",
-        "title": "Robert Musil – Die Verwirrungen des Zöglings Törleß",
+        "title": "Robert Musil – Die Verwirrungen des Zöglings Törleß (Lernsong & Video)",
         "folder": "robert-musil-die-verwirrungen-des-zoglings-torlees-3460"
       },
       {
         "id": "4627",
         "title": "Robert Musil",
         "folder": "robert-musil-4627"
-      }
-    ,
+      },
       {
         "id": "berschrift-3-1245",
         "title": "Elfriede Jelinek",
@@ -2207,8 +2176,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "naturgedichte-zwischen-idylle-und-zerstoerung",
         "title": "Naturgedichte - Zwischen Idylle und Zerstörung",
         "folder": "naturgedichte-zwischen-idylle-und-zerstoerung"
-      }
-    ,
+      },
       {
         "id": "de-droste",
         "title": "Die Droste-Hülshoff und das Unheimliche in der Heide",
@@ -2321,8 +2289,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "5186",
         "title": "Kurt Tucholsky: Augen in der Großstadt (Großstadtlyrik)",
         "folder": "augen-in-der-groesstadt-von-kurt-tucholsky-5186"
-      }
-    ,
+      },
       {
         "id": "5199",
         "title": "Die drei Spatzen von Christian Morgenstern",
@@ -2585,8 +2552,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "worldbuilding-so-baut-man-eine-eigene-fantasy-welt",
         "title": "Worldbuilding – So baut man eine eigene Fantasy-Welt",
         "folder": "worldbuilding-so-baut-man-eine-eigene-fantasy-welt"
-      }
-    ,
+      },
       {
         "id": "katja-brandis-die-welt-der-woodwalkers-einfach-erklaert",
         "title": "Katja Brandis - Die Welt der Woodwalkers einfach erklärt",
@@ -3435,8 +3401,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "de-gesellsc-1-chen",
         "title": "Der moderne Roman – Erzählperspektiven und Plots",
         "folder": "moderne-liebesromane-und-was-sie-heute-anders-machen"
-      }
-    ,
+      },
       {
         "id": "5185",
         "title": "Auf der Terrasse des Café Josty von Paul Boldt",
@@ -3684,8 +3649,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "6182",
         "title": "Georg Büchner: Der hessische Landbote – Gegenwartsbezug & soziale Gerechtigkeit",
         "folder": "der-hessische-landbote-von-georg-buchner-bezug-zur-gegenwart-6182"
-      }
-    ,
+      },
       {
         "id": "georg-buchner-4610",
         "title": "Georg Büchner",
@@ -3763,11 +3727,6 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "folder": "frank-wedekind-fruhlings-erwachen-3-4522"
       },
       {
-        "id": "de-sozialkr-2-3248",
-        "title": "Wedekind: Frühlings Erwachen – Kindertragödie",
-        "folder": "frank-wedekind-fruhlings-erwachen-3248"
-      },
-      {
         "id": "4526",
         "title": "Friedrich Hebbel - Maria Magdalene",
         "folder": "friedrich-hebbel-maria-magdalene-2-4526"
@@ -3827,8 +3786,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "id": "6229",
         "title": "In der Strafkolonie – Literarische Bedeutung",
         "folder": "in-der-strafkolonie-von-franz-kafka-literarische-bedeutung-6229"
-      }
-    ,
+      },
       {
         "id": "de-kafka-comic",
         "title": "Die Verwandlung von Kafka als Comic-Analyse",
@@ -3930,12 +3888,6 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "title": "Alfred Döblin – Berlin Alexanderplatz",
         "folder": "alfred-doblin-berlin-alexanderplatz-3403"
       }
-    ,
-      {
-        "id": "thomas-mann-buddenbrooks-2-3466",
-        "title": "Thomas Mann - Buddenbrooks",
-        "folder": "thomas-mann-buddenbrooks-2-3466"
-      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=thomas+mann+heinrich+mann&t=3752"
   },
@@ -3979,8 +3931,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=arno+geiger+drachenwand&t=3752"
-  }
-,
+  },
   "juli-zeh-corpus-delicti": {
     "slug": "juli-zeh-corpus-delicti",
     "title": "Juli Zeh – Corpus Delicti",
@@ -3988,10 +3939,10 @@ export const deutschTopics: Record<string, DeutschTopic> = {
     "shortDesc": "Dystopischer Roman über Gesundheitssystem, staatliche Überwachung und Widerstand.",
     "longDesc": "In Corpus Delicti zeichnet Juli Zeh eine düstere Zukunftsvision einer Gesundheitsdiktatur („Die METHODE“). Im Mittelpunkt steht Mia Holl, die nach dem Tod ihres Bruders das unfehlbare System hinterfragt und für persönliche Freiheit kämpft.",
     "keyPoints": [
-          "Die METHODE: Staatlich verordnete Gesundheitsüberwachung und Optimierung aller Lebensbereiche",
-          "Figurenkonstellation: Mia Holl zwischen Systemkonformismus und Rebellion; Moritz Holl als Freigeist",
-          "Aktueller Bezug: Fragen nach Datenschutz, Pandemie-Maßnahmen, Eigenverantwortung und totalitärer Hygiene",
-          "Literarische Tradition: Einordnung in die Reihe großer Dystopien wie Orwell (1984) und Huxley (Schöne neue Welt)"
+      "Die METHODE: Staatlich verordnete Gesundheitsüberwachung und Optimierung aller Lebensbereiche",
+      "Figurenkonstellation: Mia Holl zwischen Systemkonformismus und Rebellion; Moritz Holl als Freigeist",
+      "Aktueller Bezug: Fragen nach Datenschutz, Pandemie-Maßnahmen, Eigenverantwortung und totalitärer Hygiene",
+      "Literarische Tradition: Einordnung in die Reihe großer Dystopien wie Orwell (1984) und Huxley (Schöne neue Welt)"
     ],
     "exercises": [
       {
@@ -4015,8 +3966,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "folder": "corpus-delicti-von-juli-zeh-literarische-bedeutung-6165"
       }
     ]
-  }
-,
+  },
   "sasa-stanisic-herkunft": {
     "slug": "sasa-stanisic-herkunft",
     "title": "Saša Stanišić – Herkunft",
@@ -4024,10 +3974,10 @@ export const deutschTopics: Record<string, DeutschTopic> = {
     "shortDesc": "Autobiografischer Roman über Heimat, Krieg, Flucht, Erinnerung und Identität.",
     "longDesc": "Mit „Herkunft“ (Deutscher Buchpreis 2019) schuf Saša Stanišić ein Meisterwerk über die Flucht aus Višegrad während des Bosnienkrieges nach Heidelberg, das Erwachsenwerden in Deutschland und die Suche nach den eigenen Wurzeln.",
     "keyPoints": [
-          "Autobiografie und Fiktion: Verschmelzung persönlicher Familiengeschichte mit poetischen Erzählebenen",
-          "Das Thema Herkunft: Herkunft als Zufall des Geburtsorts vs. selbstgewählte Identität",
-          "Erzählweise: Humorvoll, melancholisch, sprachgewandt mit spielerischen Brüchen und „Choose-your-own-adventure“-Elementen",
-          "Gesellschaftliche Relevanz: Einblicke in Fluchterfahrung, Integration und das Schicksal der Gastarbeiter-Generation"
+      "Autobiografie und Fiktion: Verschmelzung persönlicher Familiengeschichte mit poetischen Erzählebenen",
+      "Das Thema Herkunft: Herkunft als Zufall des Geburtsorts vs. selbstgewählte Identität",
+      "Erzählweise: Humorvoll, melancholisch, sprachgewandt mit spielerischen Brüchen und „Choose-your-own-adventure“-Elementen",
+      "Gesellschaftliche Relevanz: Einblicke in Fluchterfahrung, Integration und das Schicksal der Gastarbeiter-Generation"
     ],
     "exercises": [
       {
@@ -4056,8 +4006,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "folder": "herkunft-von-sasa-stanisic-literarische-bedeutung-6225"
       }
     ]
-  }
-,
+  },
   "meistererzaehlungen-kleist-hoffmann-eichendorff": {
     "slug": "meistererzaehlungen-kleist-hoffmann-eichendorff",
     "title": "Meistererzählungen & Klassiker im Kontext",
@@ -4065,11 +4014,11 @@ export const deutschTopics: Record<string, DeutschTopic> = {
     "shortDesc": "Schwerpunktanalysen zu Kleist, Hoffmann, Eichendorff, Horváth und Hein.",
     "longDesc": "Tiefgehende literarische Analysen kanonischer Meisterwerke des 19. und 20. Jahrhunderts: Kleists „Der zerbrochne Krug“ und „Die Marquise von O...“, Hoffmanns „Der Sandmann“, Eichendorffs „Das Marmorbild“, Horváths „Der ewige Spießer“ und Christoph Heins zeitgeschichtliche Erzählung.",
     "keyPoints": [
-          "Heinrich von Kleist: Psychologische Abgründe, Justizsatire und das Rätsel der Tugend in Novelle und Komödie",
-          "E.T.A. Hoffmann: Die Schwarze Romantik, das Unheimliche und der Konflikt zwischen Fantasie und bürgerlicher Vernunft",
-          "Joseph von Eichendorff: Romantische Sehnsucht, Verführung durch heidnische Antike und christliche Erlösung",
-          "Ödön von Horváth: Demaskierung des Kleinbürgertums und soziokultureller Konformismus der Zwischenkriegszeit",
-          "Christoph Hein: Erinnerungsarbeit und das Ringen um individuelle Freiheit in der DDR-Nachkriegsgesellschaft"
+      "Heinrich von Kleist: Psychologische Abgründe, Justizsatire und das Rätsel der Tugend in Novelle und Komödie",
+      "E.T.A. Hoffmann: Die Schwarze Romantik, das Unheimliche und der Konflikt zwischen Fantasie und bürgerlicher Vernunft",
+      "Joseph von Eichendorff: Romantische Sehnsucht, Verführung durch heidnische Antike und christliche Erlösung",
+      "Ödön von Horváth: Demaskierung des Kleinbürgertums und soziokultureller Konformismus der Zwischenkriegszeit",
+      "Christoph Hein: Erinnerungsarbeit und das Ringen um individuelle Freiheit in der DDR-Nachkriegsgesellschaft"
     ],
     "exercises": [
       {
@@ -4173,8 +4122,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "folder": "in-seiner-fruhen-kindheit-ein-garten-von-christoph-hein-historischer-kontext-6232"
       }
     ]
-  }
-,
+  },
   "lesekultur-buchwelten-und-literaturphaenomene": {
     "slug": "lesekultur-buchwelten-und-literaturphaenomene",
     "title": "Lesekultur, Buchwelten & Literaturphänomene",
@@ -4182,11 +4130,11 @@ export const deutschTopics: Record<string, DeutschTopic> = {
     "shortDesc": "Faszination des Lesens: Hörbücher, Buchherstellung, Kurzgeschichten und Lesepsychologie.",
     "longDesc": "Wie entstehen Bücher, warum berühren uns Geschichten und wie verändert sich unsere Lesekultur im digitalen Zeitalter? Von der Kunst der Kurzgeschichte über Hörbücher, Buch-Merchandise und Crowdfunding bis hin zu Lesetechniken und der Bedeutung von Vielfalt in der Literatur.",
     "keyPoints": [
-          "Die Kunst der Kurzgeschichte: Unvermittelter Einstieg, offener Schluss und Fokus auf existentielle Wendepunkte",
-          "Buchmarkt und Crowdfunding: Wie Fans zu Verlegern werden und unabhängige Autoren neue Wege gehen",
-          "Hörbuch- und Lesetrends: Warum Vorlesen und auditive Formate weltweit boomen",
-          "Lesepsychologie: Warum wir Tagebücher und emotionale Lebensgeschichten so gerne miterleben",
-          "Effektive Lesetechniken: Schneller lesen, Sinnschritte erfassen und Textinhalte nachhaltig behalten"
+      "Die Kunst der Kurzgeschichte: Unvermittelter Einstieg, offener Schluss und Fokus auf existentielle Wendepunkte",
+      "Buchmarkt und Crowdfunding: Wie Fans zu Verlegern werden und unabhängige Autoren neue Wege gehen",
+      "Hörbuch- und Lesetrends: Warum Vorlesen und auditive Formate weltweit boomen",
+      "Lesepsychologie: Warum wir Tagebücher und emotionale Lebensgeschichten so gerne miterleben",
+      "Effektive Lesetechniken: Schneller lesen, Sinnschritte erfassen und Textinhalte nachhaltig behalten"
     ],
     "exercises": [
       {
@@ -4290,8 +4238,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "folder": "wie-man-ein-schlechtes-buch-trotzdem-zu-ende-liest"
       }
     ]
-  }
-,
+  },
   "literarisches-handwerk-und-erzaehlformen": {
     "slug": "literarisches-handwerk-und-erzaehlformen",
     "title": "Literarisches Handwerk & Erzählformen",
@@ -4299,10 +4246,10 @@ export const deutschTopics: Record<string, DeutschTopic> = {
     "shortDesc": "Perspektiven, Klischees vermeiden, Salons und Weltliteratur.",
     "longDesc": "Wie entwickeln Autoren fesselnde Handlungen und lebendige Figuren? Von der Wahl der Erzählperspektive und dem bewussten Brechen von Klischees über lateinamerikanische Familiensagas bis hin zu historischen Literatursalons.",
     "keyPoints": [
-          "Perspektivwechsel: Wie sich dieselbe Handlung durch verschiedene Erzählerfiguren völlig wandelt",
-          "Klischees überwinden: Überraschende Figurenzeichnung statt abgedroschener Stereotype",
-          "Familiensagas & Magischer Realismus: Epische Generationenromane in der lateinamerikanischen Literatur",
-          "Literatursalons: Wie früher in geselligen Runden über Neuerscheinungen und Philosophie debattiert wurde"
+      "Perspektivwechsel: Wie sich dieselbe Handlung durch verschiedene Erzählerfiguren völlig wandelt",
+      "Klischees überwinden: Überraschende Figurenzeichnung statt abgedroschener Stereotype",
+      "Familiensagas & Magischer Realismus: Epische Generationenromane in der lateinamerikanischen Literatur",
+      "Literatursalons: Wie früher in geselligen Runden über Neuerscheinungen und Philosophie debattiert wurde"
     ],
     "exercises": [
       {

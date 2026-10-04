@@ -510,11 +510,6 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "folder": "die-rettung-der-andromeda-von-pierre-mignard-1679-2819"
       },
       {
-        "id": "1408",
-        "title": "Caravaggio – Meister des Chiaroscuro",
-        "folder": "caravaggio-2-1408"
-      },
-      {
         "id": "kunst-sanssouci",
         "title": "Schloss Sanssouci in Potsdam – Friderizianisches Rokoko & Terrassenarchitektur",
         "folder": "schloss-sanssouci"
@@ -545,11 +540,6 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "id": "4702",
         "title": "Die Nachtwache – Rembrandt (1642)",
         "folder": "die-nachtwache-rembrandt-1642-4702"
-      },
-      {
-        "id": "4759",
-        "title": "Die Anatomie des Dr. Tulp – Rembrandt (1632)",
-        "folder": "die-anatomie-des-dr-tulp-rembrandt-1633-4759"
       },
       {
         "id": "4692",
@@ -600,8 +590,7 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "id": "4194",
         "title": "Rembrandt van Rijn – Radierung und Malerei",
         "folder": "rembrandt-van-rijn-2-4194"
-      }
-    ,
+      },
       {
         "id": "hieronymus-bosch-1373",
         "title": "Hieronymus Bosch",
@@ -1680,8 +1669,7 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "id": "5744",
         "title": "Ästhetik und Kunstphilosophie",
         "folder": "sthetik-und-kunstphilosophie-5744"
-      }
-    ,
+      },
       {
         "id": "der-louvre-4763",
         "title": "Der Louvre",

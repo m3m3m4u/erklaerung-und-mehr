@@ -121,14 +121,12 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "id": "die-nachrichtendienste-des-bundes",
         "title": "Die Nachrichtendienste des Bundes",
         "folder": "die-nachrichtendienste-des-bundes"
-      }
-    ,
+      },
       {
         "id": "pol-bverfg",
         "title": "Das Bundesverfassungsgericht",
         "folder": "das-bundesverfassungsgericht"
-      }
-    ,
+      },
       {
         "id": "das-bundeswappen-deutschlands",
         "title": "Das Bundeswappen Deutschlands",
@@ -195,8 +193,7 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "id": "3597",
         "title": "Die UN-Kinderrechtskonvention",
         "folder": "un-kinderrechtskonvention-3597"
-      }
-    ,
+      },
       {
         "id": "2291",
         "title": "Amnesty International",
@@ -287,14 +284,12 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "id": "5874",
         "title": "Philosophie und politische Ordnung",
         "folder": "philosophie-und-politik-5874"
-      }
-    ,
+      },
       {
         "id": "3474",
         "title": "Anarchismus",
         "folder": "anarchismus-3474"
-      }
-    ,
+      },
       {
         "id": "liberalismus-3562",
         "title": "Liberalismus",
@@ -304,8 +299,7 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "id": "deutsche-geheimdienste-3506",
         "title": "Deutsche Geheimdienste",
         "folder": "deutsche-geheimdienste-3506"
-      }
-    ,
+      },
       {
         "id": "richard-nixon-und-die-watergateaffaire-3054",
         "title": "Richard Nixon und die Watergateaffaire",
@@ -332,11 +326,6 @@ export const politikTopics: Record<string, PolitikTopic> = {
       "Wehrhafte Instrumente: Vereinsverbote, Parteiverbotsverfahren, Beobachtung durch den Verfassungsschutz"
     ],
     "exercises": [
-      {
-        "id": "6555",
-        "title": "Der Aufstieg des politischen Populismus in Europa",
-        "folder": "der-aufstieg-des-politischen-populismus-in-europa-2-6555"
-      },
       {
         "id": "3579",
         "title": "Populismus",
@@ -524,8 +513,7 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "id": "2742",
         "title": "Körpersprache und Rhetorik von Politikern",
         "folder": "psychologische-aspekte-der-korpersprache-in-der-politik-2742"
-      }
-    ,
+      },
       {
         "id": "3286",
         "title": "Heidi Reichinnek und Jan van Aken",
@@ -693,14 +681,12 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "id": "3512",
         "title": "Die Gewaltenteilung im Verfassungsstaat",
         "folder": "die-gewaltenteilung-3512"
-      }
-    ,
+      },
       {
         "id": "pol-chamenei",
         "title": "Ali Chamenei - sein Tod und die Folgen",
         "folder": "ali-chamenei-sein-tod-und-die-folgen"
-      }
-    ,
+      },
       {
         "id": "die-who-2992",
         "title": "Die WHO",
@@ -1177,14 +1163,12 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "id": "4466",
         "title": "Vorurteile und Diskriminierung überwinden",
         "folder": "vorurteile-und-diskriminierung-uberwinden-4466"
-      }
-    ,
+      },
       {
         "id": "black-life-matters-3484",
         "title": "Black Life Matters",
         "folder": "black-life-matters-3484"
-      }
-    ,
+      },
       {
         "id": "sinti-und-roma",
         "title": "Sinti und Roma",
@@ -1286,8 +1270,7 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "id": "9108",
         "title": "Zielkonflikte in der staatlichen Wirtschaftspolitik",
         "folder": "zielkonflikte-in-der-wirtschaftspolitik"
-      }
-    ,
+      },
       {
         "id": "942",
         "title": "Armut in Deutschland",
@@ -1397,8 +1380,7 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "id": "pol-iran-atombombe",
         "title": "Geopolitik & Non-Proliferation: Der Konflikt um das iranische Atomprogramm",
         "folder": "warum-der-iran-keine-atombombe-haben-darf"
-      }
-    ,
+      },
       {
         "id": "pol-feiertage",
         "title": "Gesetzliche Feiertage in Deutschland",

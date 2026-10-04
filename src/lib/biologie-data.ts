@@ -326,11 +326,6 @@ export const biologieTopics: Record<string, BiologieTopic> = {
     ],
     "exercises": [
       {
-        "id": "2087",
-        "title": "Das menschliche Gehirn: Struktur und Funktion (Teil 1)",
-        "folder": "das-menschliche-gehirn-struktur-und-funktion-2087"
-      },
-      {
         "id": "2088",
         "title": "Das menschliche Gehirn: Struktur und Funktion (Teil 2)",
         "folder": "das-menschliche-gehirn-struktur-und-funktion-2-2088"
@@ -422,21 +417,6 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "folder": "immunsystem-aufbau-und-bestandteile-2-2128"
       },
       {
-        "id": "2129",
-        "title": "Wie Antikörper funktionieren (Vertiefung)",
-        "folder": "wie-antikorper-funktionieren-2-2129"
-      },
-      {
-        "id": "2130",
-        "title": "Die Rolle der Milz im Immunsystem (Teil 2)",
-        "folder": "die-rolle-der-milz-im-immunsystem-2-2130"
-      },
-      {
-        "id": "2133",
-        "title": "Wie Impfungen funktionieren (Erweiterung)",
-        "folder": "wie-impfungen-funktionieren-2-2133"
-      },
-      {
         "id": "2134",
         "title": "Impfkalender - Wichtige Impfungen",
         "folder": "impfkalender-wichtige-impfungen-2134"
@@ -477,11 +457,6 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "id": "938",
         "title": "Allergien – Grundlagen",
         "folder": "allergien-938"
-      },
-      {
-        "id": "2127",
-        "title": "Immunsystem und chronischer Stress (Vertiefung)",
-        "folder": "immunsystem-und-stress-2-2127"
       },
       {
         "id": "2135",
@@ -529,11 +504,6 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "id": "2084",
         "title": "Kinderkrankheiten und Immunsystem",
         "folder": "kinderkrankheiten-und-immunsystem-2084"
-      },
-      {
-        "id": "2132",
-        "title": "Kinderkrankheiten und Immunsystem (Vertiefung)",
-        "folder": "kinderkrankheiten-und-immunsystem-2-2132"
       },
       {
         "id": "2137",
@@ -816,11 +786,6 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "id": "2234",
         "title": "Drogen im Straßenverkehr - Alkohol und Drogen am Steuer",
         "folder": "drogen-im-straesenverkehr-alkohol-und-drogen-am-steuer-2234"
-      },
-      {
-        "id": "2235",
-        "title": "Drogen im Straßenverkehr - Alkohol und Drogen am Steuer (Teil 2)",
-        "folder": "drogen-im-straesenverkehr-alkohol-und-drogen-am-steuer-2-2235"
       },
       {
         "id": "3527",
@@ -1236,11 +1201,6 @@ export const biologieTopics: Record<string, BiologieTopic> = {
       "Paarhufer des Waldes: Wildschwein (Bache, Frischlinge, Allesfresser) und Elch"
     ],
     "exercises": [
-      {
-        "id": "1043",
-        "title": "Der Fuchs",
-        "folder": "der-fuchs-1043"
-      },
       {
         "id": "1072",
         "title": "Der Fuchs (Vertiefung)",
@@ -2012,8 +1972,7 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "id": "4432",
         "title": "Eingriffe in das menschliche Erbgut mit Gentechnik",
         "folder": "eingriffe-in-das-menschliche-erbgut-mit-gentechnik-4432"
-      }
-    ,
+      },
       {
         "id": "genmanipulation-und-designer-babys-2854",
         "title": "Genmanipulation und Designer-Babys",

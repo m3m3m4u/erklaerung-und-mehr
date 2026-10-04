@@ -8,6 +8,7 @@ import Footer from '@/components/Footer';
 import H5PPlayer from '@/components/H5PPlayer';
 import MathText from '@/components/MathText';
 import type { GenericTopic, ResolveCatchAllResult } from '@/lib/catchall-resolver';
+import { topicCrossLinks } from '@/lib/cross-links';
 
 interface SubjectCatchAllViewProps<T extends GenericTopic> {
   result: ResolveCatchAllResult<T>;
@@ -38,6 +39,10 @@ export default function SubjectCatchAllView<T extends GenericTopic>({
       : null;
 
   const worksheetLink = topic?.worksheetLink || defaultWorksheetLink;
+
+  // Fächerübergreifende Querverweise
+  const crossLinksKey = isTopic && topic ? `${subjectPath.replace(/^\//, '')}:${topic.slug}` : '';
+  const crossLinks = crossLinksKey ? (topicCrossLinks[crossLinksKey] || []) : [];
 
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://erklaerung-und-mehr.org';
 
@@ -258,6 +263,120 @@ export default function SubjectCatchAllView<T extends GenericTopic>({
                         Download
                       </span>
                     </a>
+                  ))}
+                </div>
+              </section>
+            )}
+
+            {/* Fächerübergreifende Querverweise */}
+            {crossLinks.length > 0 && (
+              <section
+                className="info-box-section"
+                style={{
+                  marginTop: '32px',
+                  background: 'var(--bg-white)',
+                  border: '1.5px solid var(--border-light, #e2e8f0)',
+                  borderRadius: '12px',
+                  padding: '24px',
+                }}
+              >
+                <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '8px' }}>
+                  <span style={{ fontSize: '20px' }}>🔗</span>
+                  <h3 style={{ margin: 0, fontSize: '18px', color: 'var(--text-main, #1e293b)' }}>
+                    Fächerübergreifende Querverweise
+                  </h3>
+                </div>
+                <p style={{ color: 'var(--text-muted, #64748b)', fontSize: '14px', marginBottom: '18px' }}>
+                  Entdecke verwandte Themen und spannende Verknüpfungen in anderen Schulfächern:
+                </p>
+                <div
+                  style={{
+                    display: 'grid',
+                    gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))',
+                    gap: '14px',
+                  }}
+                >
+                  {crossLinks.map((link, idx) => (
+                    <Link
+                      key={idx}
+                      href={`${link.subjectPath}/${link.slug}`}
+                      style={{
+                        display: 'flex',
+                        flexDirection: 'column',
+                        justifyContent: 'space-between',
+                        padding: '14px 16px',
+                        background: 'var(--bg-surface, #f8fafc)',
+                        border: '1px solid var(--border-light, #e2e8f0)',
+                        borderRadius: '8px',
+                        textDecoration: 'none',
+                        transition: 'transform 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease',
+                      }}
+                      onMouseEnter={(e) => {
+                        e.currentTarget.style.borderColor = 'var(--accent-primary, #059669)';
+                        e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.05)';
+                      }}
+                      onMouseLeave={(e) => {
+                        e.currentTarget.style.borderColor = 'var(--border-light, #e2e8f0)';
+                        e.currentTarget.style.boxShadow = 'none';
+                      }}
+                    >
+                      <div>
+                        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '6px' }}>
+                          <span
+                            style={{
+                              fontSize: '11px',
+                              fontWeight: 700,
+                              textTransform: 'uppercase',
+                              letterSpacing: '0.5px',
+                              padding: '2px 8px',
+                              borderRadius: '4px',
+                              background: 'var(--green-light, #e6f4ea)',
+                              color: 'var(--green-dark, #137333)',
+                            }}
+                          >
+                            {link.subjectName}
+                          </span>
+                        </div>
+                        <h4
+                          style={{
+                            margin: '4px 0 6px',
+                            fontSize: '14px',
+                            fontWeight: 600,
+                            color: 'var(--text-main, #1e293b)',
+                            lineHeight: 1.35,
+                          }}
+                        >
+                          {link.title}
+                        </h4>
+                        <p
+                          style={{
+                            margin: 0,
+                            fontSize: '12px',
+                            color: 'var(--text-muted, #64748b)',
+                            lineHeight: 1.45,
+                            display: '-webkit-box',
+                            WebkitLineClamp: 2,
+                            WebkitBoxOrient: 'vertical',
+                            overflow: 'hidden',
+                          }}
+                        >
+                          {link.shortDesc}
+                        </p>
+                      </div>
+                      <div
+                        style={{
+                          marginTop: '12px',
+                          fontSize: '12px',
+                          fontWeight: 600,
+                          color: 'var(--accent-primary, #059669)',
+                          display: 'flex',
+                          alignItems: 'center',
+                          gap: '4px',
+                        }}
+                      >
+                        Zum Thema ➔
+                      </div>
+                    </Link>
                   ))}
                 </div>
               </section>

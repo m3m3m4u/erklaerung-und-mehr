@@ -1007,11 +1007,6 @@ export const philosophieTopics: Record<string, PhilosophieTopic> = {
         "id": "5842",
         "title": "Mittelalterliche Theologie und Philosophie",
         "folder": "mittelalterliche-theologie-und-philosophie-5842"
-      },
-      {
-        "id": "2772",
-        "title": "Die Existenz Gottes und Gottesbeweise",
-        "folder": "die-existenz-gottes-und-gottesbeweise-2-2772"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Religionsphilosophie+Gottesbeweise+Theodizee&t=3752"

@@ -202,8 +202,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "hist-hk-2",
         "title": "Die Indus-Kultur – Frühe Hochkultur in Südasien",
         "folder": "die-indus-kultur-3164"
-      }
-    ,
+      },
       {
         "id": "1205",
         "title": "Anubis",
@@ -352,8 +351,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "5237",
         "title": "Alltag und Gesellschaft im antiken Griechenland",
         "folder": "alltag-und-gesellschaft-im-antiken-griechenland-5237"
-      }
-    ,
+      },
       {
         "id": "1328",
         "title": "Zeus",
@@ -470,8 +468,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "3754",
         "title": "Cicero",
         "folder": "cicero-3754"
-      }
-    ,
+      },
       {
         "id": "1336",
         "title": "Juno",
@@ -594,11 +591,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "3159",
         "title": "Die Burgunden",
         "folder": "die-burgunden-3159"
-      },
-      {
-        "id": "hist-kelt-1",
-        "title": "Die Kelten – Stammesgesellschaft und Kunst",
-        "folder": "die-kelten-2-3166"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=kelten&t=3752"
@@ -1372,11 +1364,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "701",
         "title": "Ablauf der Französischen Revolution",
         "folder": "studypoint-zusammenfassung-ablauf-der-revolution-701"
-      },
-      {
-        "id": "hist-rev-1",
-        "title": "Der Sturm auf die Bastille (14. Juli 1789)",
-        "folder": "die-franzosische-revolution-2-bastille-2-3261"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Franzoesische+Revolution+1789&t=3752"
@@ -1910,11 +1897,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "was-ware-wenn-das-deutsche-kaiserreich-zur-demokratie-reformiert-worden-ware-5401"
       },
       {
-        "id": "4152",
-        "title": "Otto von Bismarck (2)",
-        "folder": "otto-von-bismarck-2-4152"
-      },
-      {
         "id": "hist-kg-1",
         "title": "Schlacht bei Königgrätz 1866 – Deutscher Krieg",
         "folder": "schlacht-bei-koniggratz-ursachen-verlauf-und-folgen-3057"
@@ -2026,8 +2008,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "hist-bemp-1",
         "title": "Das Britische Empire – Weltreich des Imperialismus",
         "folder": "das-britische-empire-2-5330"
-      }
-    ,
+      },
       {
         "id": "2293",
         "title": "Ausbeutung Amerikas",
@@ -2517,11 +2498,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "hist-wr-2",
         "title": "Massenarbeitslosigkeit und soziale Krisen nach 1918",
         "folder": "arbeitslosigkeit-nach-dem-ersten-weltkrieg-2889"
-      },
-      {
-        "id": "hist-wr-3",
-        "title": "Arbeitslosigkeit nach dem Ersten Weltkrieg – Vertiefung",
-        "folder": "arbeitslosigkeit-nach-dem-ersten-weltkrieg-9-3078"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=weimarer+republik&t=3752"
@@ -2906,8 +2882,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "id": "3006",
         "title": "Gewaltherrschaft Stalins",
         "folder": "gewaltherrschaft-stalins-3006"
-      }
-    ,
+      },
       {
         "id": "ges-reichsparteitag",
         "title": "Das Dokumentationszentrum Reichsparteitagsgelände",
@@ -3907,7 +3882,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
       }
     ]
   },
-
   "chronik-1500-bis-1590-renaissance-und-reformation": {
     "slug": "chronik-1500-bis-1590-renaissance-und-reformation",
     "title": "Chronik 1500–1590: Renaissance & Reformation",
@@ -3973,7 +3947,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
       }
     ]
   },
-
   "chronik-1600-bis-1690-barock-und-dreissigjaehriger-krieg": {
     "slug": "chronik-1600-bis-1690-barock-und-dreissigjaehriger-krieg",
     "title": "Chronik 1600–1690: Barock & Dreißigjähriger Krieg",
@@ -4039,7 +4012,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
       }
     ]
   },
-
   "chronik-1701-bis-1720-fruehe-aufklaerung": {
     "slug": "chronik-1701-bis-1720-fruehe-aufklaerung",
     "title": "Chronik 1701–1720: Frühaufklärung & Großer Nordischer Krieg",
@@ -4145,7 +4117,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
       }
     ]
   },
-
   "chronik-1721-bis-1740-absolutismus-in-europa": {
     "slug": "chronik-1721-bis-1740-absolutismus-in-europa",
     "title": "Chronik 1721–1740: Aufgeklärter Absolutismus & Barockzeit",
@@ -4251,7 +4222,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
       }
     ]
   },
-
   "chronik-1741-bis-1760-schlesische-kriege": {
     "slug": "chronik-1741-bis-1760-schlesische-kriege",
     "title": "Chronik 1741–1760: Schlesische Kriege & Siebenjähriger Krieg",
@@ -4352,7 +4322,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
       }
     ]
   },
-
   "chronik-1761-bis-1780-vorabend-der-revolutionen": {
     "slug": "chronik-1761-bis-1780-vorabend-der-revolutionen",
     "title": "Chronik 1761–1780: Sturm und Drang & Amerikanische Unabhängigkeit",
@@ -4448,7 +4417,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
       }
     ]
   },
-
   "chronik-1781-bis-1799-franzoesische-revolution": {
     "slug": "chronik-1781-bis-1799-franzoesische-revolution",
     "title": "Chronik 1781–1799: Französische Revolution & Koalitionskriege",
@@ -4554,7 +4522,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
       }
     ]
   },
-
   "chronik-1800-bis-1815-napoleonische-kriege": {
     "slug": "chronik-1800-bis-1815-napoleonische-kriege",
     "title": "Chronik 1800–1815: Napoleonische Kriege & Wiener Kongress",
@@ -4650,7 +4617,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
       }
     ]
   },
-
   "chronik-1816-bis-1835-restauration-und-vormaerz": {
     "slug": "chronik-1816-bis-1835-restauration-und-vormaerz",
     "title": "Chronik 1816–1835: Restauration & Deutscher Bund",
@@ -4766,7 +4732,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
       }
     ]
   },
-
   "chronik-1836-bis-1850-fruehindustrialisierung-und-1848": {
     "slug": "chronik-1836-bis-1850-fruehindustrialisierung-und-1848",
     "title": "Chronik 1836–1850: Frühindustrialisierung & Revolution 1848",
@@ -4852,7 +4817,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
       }
     ]
   },
-
   "chronik-1851-bis-1870-hochindustrialisierung-und-reichsgruendung": {
     "slug": "chronik-1851-bis-1870-hochindustrialisierung-und-reichsgruendung",
     "title": "Chronik 1851–1870: Hochindustrialisierung & Einigungskriege",
@@ -4968,7 +4932,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
       }
     ]
   },
-
   "chronik-1871-bis-1885-deutsches-kaiserreich-und-bismarck-aera": {
     "slug": "chronik-1871-bis-1885-deutsches-kaiserreich-und-bismarck-aera",
     "title": "Chronik 1871–1885: Deutsches Kaiserreich & Bismarck-Ära",
@@ -5054,7 +5017,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
       }
     ]
   },
-
   "chronik-1886-bis-1899-wilhelminische-epoche-und-imperialismus": {
     "slug": "chronik-1886-bis-1899-wilhelminische-epoche-und-imperialismus",
     "title": "Chronik 1886–1899: Wilhelminische Epoche & Imperialismus",
@@ -5140,7 +5102,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
       }
     ]
   },
-
   "chronik-1900-bis-1918-jahrhundertwende-und-erster-weltkrieg": {
     "slug": "chronik-1900-bis-1918-jahrhundertwende-und-erster-weltkrieg",
     "title": "Chronik 1900–1918: Jahrhundertwende & Erster Weltkrieg",
@@ -5251,7 +5212,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
       }
     ]
   },
-
   "chronik-1919-bis-1932-weimarer-republik": {
     "slug": "chronik-1919-bis-1932-weimarer-republik",
     "title": "Chronik 1919–1932: Weimarer Republik & Zwischenkriegszeit",
@@ -5337,7 +5297,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
       }
     ]
   },
-
   "chronik-1933-bis-1945-ns-herrschaft-und-zweiter-weltkrieg": {
     "slug": "chronik-1933-bis-1945-ns-herrschaft-und-zweiter-weltkrieg",
     "title": "Chronik 1933–1945: NS-Herrschaft & Zweiter Weltkrieg",
@@ -5418,7 +5377,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
       }
     ]
   },
-
   "chronik-1946-bis-1965-nachkriegszeit-und-wirtschaftswunder": {
     "slug": "chronik-1946-bis-1965-nachkriegszeit-und-wirtschaftswunder",
     "title": "Chronik 1946–1965: Nachkriegszeit & Wirtschaftswunder",
@@ -5534,7 +5492,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
       }
     ]
   },
-
   "chronik-1966-bis-1982-kalter-krieg-und-gesellschaftswandel": {
     "slug": "chronik-1966-bis-1982-kalter-krieg-und-gesellschaftswandel",
     "title": "Chronik 1966–1982: Kalter Krieg & Gesellschaftswandel",
@@ -5635,7 +5592,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
       }
     ]
   },
-
   "chronik-1983-bis-1999-mauerfall-und-jahrtausendwende": {
     "slug": "chronik-1983-bis-1999-mauerfall-und-jahrtausendwende",
     "title": "Chronik 1983–1999: Mauerfall, Einheit & Jahrtausendwende",
@@ -5731,7 +5687,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
       }
     ]
   },
-
   "chronik-2000-bis-2010-das-neue-jahrtausend": {
     "slug": "chronik-2000-bis-2010-das-neue-jahrtausend",
     "title": "Chronik 2000–2010: Das neue Jahrtausend & Globalisierung",
@@ -5802,7 +5757,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
       }
     ]
   },
-
   "chronik-2011-bis-heute-digitale-welt-und-gegenwart": {
     "slug": "chronik-2011-bis-heute-digitale-welt-und-gegenwart",
     "title": "Chronik 2011–heute: Digitale Welt & Gegenwart",
@@ -5877,8 +5831,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "2022-5134"
       }
     ]
-  }
-,
+  },
   "urgeschichte-voelker-und-entdecker": {
     "slug": "urgeschichte-voelker-und-entdecker",
     "title": "Urgeschichte, frühe Völker & Entdecker",
@@ -5886,10 +5839,10 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
     "shortDesc": "Vom Neandertaler und den Eiszeiten über Völkerwanderungen bis zu großen Entdeckungen.",
     "longDesc": "Die Frühphase der Menschheitsgeschichte und die formativen Epochen von Völkerwanderung und Entdeckungsreisen: Neandertaler, Eiszeiten, die Hunnen, germanische Stämme und Pioniere der Pol- und Weltumsegelung.",
     "keyPoints": [
-          "Evolution des Menschen: Neandertaler, Homo sapiens und Anpassung an die eiszeitlichen Lebensräume",
-          "Erdzeitalter und Paläoanthropologie: Chronologie der Urgeschichte der Erde",
-          "Völkerwanderung: Der Ansturm der Hunnen und die Rolle germanischer Stämme (Markomannen, Thüringer)",
-          "Entdeckungsfahrten: Vasco da Gama und die Erschließung der Seewege nach Indien sowie spätere Polarexpeditionen"
+      "Evolution des Menschen: Neandertaler, Homo sapiens und Anpassung an die eiszeitlichen Lebensräume",
+      "Erdzeitalter und Paläoanthropologie: Chronologie der Urgeschichte der Erde",
+      "Völkerwanderung: Der Ansturm der Hunnen und die Rolle germanischer Stämme (Markomannen, Thüringer)",
+      "Entdeckungsfahrten: Vasco da Gama und die Erschließung der Seewege nach Indien sowie spätere Polarexpeditionen"
     ],
     "exercises": [
       {
@@ -5943,8 +5896,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "die-nuklearkatastrophe-von-tschernobyl-10-2356"
       }
     ]
-  }
-,
+  },
   "ordnung-recht-und-kultur-in-mittelalter-und-neuzeit": {
     "slug": "ordnung-recht-und-kultur-in-mittelalter-und-neuzeit",
     "title": "Ordnung, Recht & Kultur in Mittelalter & Neuzeit",
@@ -5952,11 +5904,11 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
     "shortDesc": "Rechtstraditionen, Reformation, Aufklärung und Gesellschaftsordnung.",
     "longDesc": "Schlüsselmomente europäischer und globaler Verfassungs- und Sozialgeschichte: Die Goldene Bulle als Grundgesetz des Heiligen Römischen Reiches, die Leibeigenschaft, Glaubensflüchtlinge wie die Hugenotten, die Philosophie der Aufklärung und transatlantische Entwicklungen wie der Wilde Westen.",
     "keyPoints": [
-          "Die Goldene Bulle von 1356: Wahlordnung der deutschen Könige und Kaiser durch die Kurfürsten",
-          "Sozialordnung: Leibeigenschaft und feudale Abhängigkeitsverhältnisse in Stadt und Land",
-          "Konfessionelle Konflikte: Die Hugenottenkriege und das Edikt von Nantes",
-          "Das Zeitalter der Aufklärung: Vernunft, Menschenrechte, Gewaltenteilung und Religionsfreiheit",
-          "Kulturelle Mythen: Die Erschließung Nordamerikas und der historische Wilde Westen"
+      "Die Goldene Bulle von 1356: Wahlordnung der deutschen Könige und Kaiser durch die Kurfürsten",
+      "Sozialordnung: Leibeigenschaft und feudale Abhängigkeitsverhältnisse in Stadt und Land",
+      "Konfessionelle Konflikte: Die Hugenottenkriege und das Edikt von Nantes",
+      "Das Zeitalter der Aufklärung: Vernunft, Menschenrechte, Gewaltenteilung und Religionsfreiheit",
+      "Kulturelle Mythen: Die Erschließung Nordamerikas und der historische Wilde Westen"
     ],
     "exercises": [
       {
@@ -5985,11 +5937,6 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "der-panslawismus-2923"
       },
       {
-        "id": "vielvolkerstaat-sterreich-2361",
-        "title": "Vielvölkerstaat Österreich",
-        "folder": "vielvolkerstaat-sterreich-2361"
-      },
-      {
         "id": "der-wilde-westen-2326",
         "title": "Der Wilde Westen",
         "folder": "der-wilde-westen-2326"
@@ -6005,8 +5952,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "geschichte-von-walt-disney-3005"
       }
     ]
-  }
-,
+  },
   "terrorismus-widerstand-und-organisationen-des-20-jahrhunderts": {
     "slug": "terrorismus-widerstand-und-organisationen-des-20-jahrhunderts",
     "title": "Terrorismus, Krisen & Organisationen des 20. Jahrhunderts",
@@ -6014,11 +5960,11 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
     "shortDesc": "RAF, IRA, ETA, Olympia 1972, 11. September und UN-Organisationen.",
     "longDesc": "Politische Gewalt, Terrorismus und internationale Reaktionen in der zweiten Hälfte des 20. und zu Beginn des 21. Jahrhunderts: Vom Deutschen Herbst über den Nordirland- und Baskenland-Konflikt bis zu 9/11 und der Rolle internationaler Organisationen wie UNESCO und UNICEF.",
     "keyPoints": [
-          "Terrorismus in Europa: RAF in Deutschland, IRA in Nordirland und ETA in Spanien",
-          "Das Olympia-Attentat von München 1972: Schwarzer September und die Folgen für Sicherheitsbehörden",
-          "Die Terroranschläge vom 11. September 2001: Zäsur der Weltpolitik und Beginn des „War on Terror“",
-          "Internationale Institutionen: Aufgaben und Errungenschaften von UNESCO (Kulturerbe) und UNICEF (Kinderrechte)",
-          "Technologische Katastrophen: Fukushima und weltweite Konsequenzen für die Kernenergienutzung"
+      "Terrorismus in Europa: RAF in Deutschland, IRA in Nordirland und ETA in Spanien",
+      "Das Olympia-Attentat von München 1972: Schwarzer September und die Folgen für Sicherheitsbehörden",
+      "Die Terroranschläge vom 11. September 2001: Zäsur der Weltpolitik und Beginn des „War on Terror“",
+      "Internationale Institutionen: Aufgaben und Errungenschaften von UNESCO (Kulturerbe) und UNICEF (Kinderrechte)",
+      "Technologische Katastrophen: Fukushima und weltweite Konsequenzen für die Kernenergienutzung"
     ],
     "exercises": [
       {
@@ -6062,8 +6008,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "die-nuklearkatastrophe-von-tschernobyl-3-2349"
       }
     ]
-  }
-,
+  },
   "fuehrende-politiker-und-staatsmaenner-der-zeitgeschichte": {
     "slug": "fuehrende-politiker-und-staatsmaenner-der-zeitgeschichte",
     "title": "Führende Politiker & Staatsmänner der Zeitgeschichte",
@@ -6071,11 +6016,11 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
     "shortDesc": "Stalin, JFK, Schmidt, Schröder, Mandela, Castro und weltpolitische Führer.",
     "longDesc": "Persönlichkeiten, die den Lauf der Weltgeschichte im 20. und 21. Jahrhundert maßgeblich beeinflussten: Vom totalitären Stalinismus über die Präsidentschaft John F. Kennedys und die deutsche Kanzlerschaft von Helmut Schmidt und Gerhard Schröder bis hin zu Nelson Mandelas historischem Kampf gegen die Apartheid.",
     "keyPoints": [
-          "Josef Stalin: Herrschaftsapparat der Sowjetunion, Großer Terror und Rolle im Zweiten Weltkrieg und Kalten Krieg",
-          "John F. Kennedy: Kubakrise, Bürgerrechtsbewegung und das Versprechen der Mondlandung",
-          "Deutsche Bundeskanzler: Helmut Schmidt (Krisenmanager im Deutschen Herbst) und Gerhard Schröder (Agenda 2010 und Nein zum Irakkrieg)",
-          "Nelson Mandela: Widerstand gegen das Apartheid-Regime, 27 Jahre Haft und Versöhnungspolitik in Südafrika",
-          "Fidel Castro und Saddam Hussein: Autoritäre Herrschaft und geopolitische Konflikte"
+      "Josef Stalin: Herrschaftsapparat der Sowjetunion, Großer Terror und Rolle im Zweiten Weltkrieg und Kalten Krieg",
+      "John F. Kennedy: Kubakrise, Bürgerrechtsbewegung und das Versprechen der Mondlandung",
+      "Deutsche Bundeskanzler: Helmut Schmidt (Krisenmanager im Deutschen Herbst) und Gerhard Schröder (Agenda 2010 und Nein zum Irakkrieg)",
+      "Nelson Mandela: Widerstand gegen das Apartheid-Regime, 27 Jahre Haft und Versöhnungspolitik in Südafrika",
+      "Fidel Castro und Saddam Hussein: Autoritäre Herrschaft und geopolitische Konflikte"
     ],
     "exercises": [
       {

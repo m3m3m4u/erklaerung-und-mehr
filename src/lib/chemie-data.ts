@@ -75,17 +75,6 @@ export const chemieTopics: Record<string, ChemieTopic> = {
         "title": "Physik und Chemie: Gemeinsamkeiten und Unterschiede",
         "folder": "physik-und-chemie-gemeinsamkeiten-und-unterschiede-2237"
       }
-    ,
-      {
-        "id": "1176",
-        "title": "Arsen",
-        "folder": "arsen-1176"
-      },
-      {
-        "id": "1187",
-        "title": "Wolfram",
-        "folder": "wolfram-1187"
-      }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=chemie+grundlagen&t=3752"
   },
@@ -249,6 +238,21 @@ export const chemieTopics: Record<string, ChemieTopic> = {
         "id": "1165",
         "title": "Argon – Schutzgas in Industrie und Technik",
         "folder": "argon-1165"
+      },
+      {
+        "id": "krypton-1179",
+        "title": "Krypton",
+        "folder": "krypton-1179"
+      },
+      {
+        "id": "xenon-1185",
+        "title": "Xenon",
+        "folder": "xenon-1185"
+      },
+      {
+        "id": "5182",
+        "title": "Wasserstoffgas",
+        "folder": "wasserstoffgas-5182"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=nichtmetalle+halogene&t=3752"
@@ -367,16 +371,6 @@ export const chemieTopics: Record<string, ChemieTopic> = {
     ],
     "exercises": [
       {
-        "id": "1149",
-        "title": "Wasserstoff und Reaktionen",
-        "folder": "wasserstoff-2-1149"
-      },
-      {
-        "id": "5182",
-        "title": "Wasserstoffgas",
-        "folder": "wasserstoffgas-5182"
-      },
-      {
         "id": "5275",
         "title": "Die Anomalie des Wassers",
         "folder": "die-anomalie-des-wassers-5275"
@@ -477,22 +471,36 @@ export const chemieTopics: Record<string, ChemieTopic> = {
         "id": "577",
         "title": "Eisengusswerkstoffe und Stahl",
         "folder": "lerninhalt-eisengusswerkstoffe-577"
+      },
+      {
+        "id": "5156",
+        "title": "Eisen, Stahl und Edelstahl",
+        "folder": "eisen-stahl-und-edelstahl-5156"
+      },
+      {
+        "id": "5146",
+        "title": "Der Baustoff Aluminium",
+        "folder": "der-baustoff-aluminium-5146"
+      },
+      {
+        "id": "5150",
+        "title": "Der Baustoff Kupfer",
+        "folder": "der-baustoff-kupfer-5150"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=metalle+legierungen&t=3752"
   },
   "edelmetalle-und-weitere-metalle": {
     "slug": "edelmetalle-und-weitere-metalle",
-    "title": "Edelmetalle, Schwermetalle & Baustoffe",
+    "title": "Edelmetalle, Schwermetalle & Platinmetalle",
     "category": "Metalle, Werkstoffe & Elektrochemie",
-    "shortDesc": "Gold, Zinn, Quecksilber, Blei, Stahl, Edelstahl und metallische Baustoffe.",
-    "longDesc": "Von edlen Metallen wie Gold, die chemisch äußerst beständig sind, über toxische Schwermetalle wie Quecksilber und Blei bis hin zu modernen Verbundwerkstoffen und Edelstahl prägen diese Metalle Industrie, Technik und Architektur.",
+    "shortDesc": "Gold, Platin, Palladium, Iridium sowie Zinn, Quecksilber und Blei.",
+    "longDesc": "Von edlen Metallen wie Gold und den Platinmetallen Palladium und Iridium, die chemisch äußerst beständig sind, bis hin zu toxischen Schwermetallen wie Quecksilber und Blei.",
     "keyPoints": [
-      "Edelmetalle (Gold, Silber, Platin): Sehr hohe Standardpotenziale; oxidieren an Luft und in Wasser nicht; hohe chemische Beständigkeit",
+      "Edelmetalle (Gold, Platin): Sehr hohe Standardpotenziale; oxidieren an Luft und in Wasser nicht; hohe chemische Beständigkeit",
+      "Platinmetalle (Palladium, Iridium): Hohe Korrosionsbeständigkeit, Einsatz in Katalysatoren und Präzisionselektronik",
       "Quecksilber (Hg): Einziges bei Raumtemperatur flüssiges Metall; giftig durch Dampfbildung; Amalgam-Legierungen",
-      "Schwermetalle (Blei, Cadmium, Quecksilber): Dichte > 5 g/cm³; toxisch durch Anreicherung in Nahrungsketten und Blockade von Enzymen",
-      "Eisen, Stahl & Edelstahl: Kohlenstoffanteil unter 2 % macht Eisen zu schmiedbarem Stahl; Chrom- und Nickelzusatz erzeugen rostfreien Edelstahl",
-      "Metallische Baustoffe: Aluminiumprofile, Kupferbleche und Stahlträger als tragende Säulen moderner Bauwerke"
+      "Schwermetalle (Blei, Zinn, Quecksilber): Dichte > 5 g/cm³; toxisch durch Anreicherung in Nahrungsketten und Blockade von Enzymen"
     ],
     "exercises": [
       {
@@ -516,24 +524,19 @@ export const chemieTopics: Record<string, ChemieTopic> = {
         "folder": "blei-1192"
       },
       {
-        "id": "5146",
-        "title": "Der Baustoff Aluminium",
-        "folder": "der-baustoff-aluminium-5146"
-      },
-      {
-        "id": "5150",
-        "title": "Der Baustoff Kupfer",
-        "folder": "der-baustoff-kupfer-5150"
-      },
-      {
-        "id": "5156",
-        "title": "Eisen, Stahl und Edelstahl",
-        "folder": "eisen-stahl-und-edelstahl-5156"
-      },
-      {
         "id": "1189",
         "title": "Platin – Eigenschaften eines edlen Katalysatormetalls",
         "folder": "platin-1189"
+      },
+      {
+        "id": "palladium-1194",
+        "title": "Palladium",
+        "folder": "palladium-1194"
+      },
+      {
+        "id": "iridium-1188",
+        "title": "Iridium",
+        "folder": "iridium-1188"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=edelmetalle+stahl&t=3752"
@@ -639,17 +642,6 @@ export const chemieTopics: Record<string, ChemieTopic> = {
         "title": "Alternative Treibstoffe",
         "folder": "alternative-treibstoffe-5139"
       },
-      {
-        "id": "5168",
-        "title": "Kohlenstoffdioxid",
-        "folder": "kohlenstoffdioxid-5168"
-      },
-      {
-        "id": "5169",
-        "title": "Kohlenstoffmonoxid",
-        "folder": "kohlenstoffmonoxid-5169"
-      }
-    ,
       {
         "id": "methan-5172",
         "title": "Methan",
@@ -814,11 +806,6 @@ export const chemieTopics: Record<string, ChemieTopic> = {
         "id": "9300",
         "title": "Biochemie der Photosynthese",
         "folder": "wie-funktioniert-die-photosynthese"
-      },
-      {
-        "id": "9301",
-        "title": "Photosynthese in Pflanzen: Licht- und Dunkelreaktion",
-        "folder": "wie-funktioniert-die-photosynthese-in-pflanzen"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=gaerung+biochemie&t=3752"
@@ -907,6 +894,16 @@ export const chemieTopics: Record<string, ChemieTopic> = {
         "id": "9302",
         "title": "Wasserstoffchemie und Brennstoffzellen-Mobilität",
         "folder": "mobilitaet-der-zukunft-e-autos-und-wasserstoff"
+      },
+      {
+        "id": "5168",
+        "title": "Kohlenstoffdioxid",
+        "folder": "kohlenstoffdioxid-5168"
+      },
+      {
+        "id": "5169",
+        "title": "Kohlenstoffmonoxid",
+        "folder": "kohlenstoffmonoxid-5169"
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=umweltchemie+gefahrstoffe&t=3752"
@@ -941,8 +938,7 @@ export const chemieTopics: Record<string, ChemieTopic> = {
       }
     ],
     "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=escape+room+chemie&t=3752"
-  }
-,
+  },
   "alkali-erdalkalimetalle-und-weitere-elemente": {
     "slug": "alkali-erdalkalimetalle-und-weitere-elemente",
     "title": "Alkali-, Erdalkalimetalle & Hauptgruppenelemente",
@@ -950,10 +946,10 @@ export const chemieTopics: Record<string, ChemieTopic> = {
     "shortDesc": "Reaktive Leichtmetalle, Erdalkalimetalle und Halbmetalle des Periodensystems.",
     "longDesc": "Die Hauptgruppen des Periodensystems umfassen elementare Bausteine der Materie: von den hochreaktiven Alkalimetallen (Lithium, Natrium, Kalium, Caesium) über die Erdalkalimetalle (Beryllium, Strontium) bis hin zu wichtigen Halb- und Nichtmetallen wie Bor und Silicium.",
     "keyPoints": [
-          "Alkalimetalle (1. Hauptgruppe): Ein Valenzelektron, sehr reaktiv mit Wasser unter Bildung von Laugen und Wasserstoff",
-          "Erdalkalimetalle (2. Hauptgruppe): Zwei Valenzelektronen, härter als Alkalimetalle, typische Flammenfärbungen",
-          "Halbmetalle (Bor, Silicium): Elektrische Leitfähigkeit zwischen Metallen und Nichtmetallen, Grundlage der Halbleitertechnik",
-          "Selen: Wichtiges Spurenelement und Chalcogen der Sauerstoff-Gruppe"
+      "Alkalimetalle (1. Hauptgruppe): Ein Valenzelektron, sehr reaktiv mit Wasser unter Bildung von Laugen und Wasserstoff",
+      "Erdalkalimetalle (2. Hauptgruppe): Zwei Valenzelektronen, härter als Alkalimetalle, typische Flammenfärbungen",
+      "Halbmetalle (Bor, Silicium): Elektrische Leitfähigkeit zwischen Metallen und Nichtmetallen, Grundlage der Halbleitertechnik",
+      "Selen: Wichtiges Spurenelement und Chalcogen der Sauerstoff-Gruppe"
     ],
     "exercises": [
       {
@@ -1000,21 +996,24 @@ export const chemieTopics: Record<string, ChemieTopic> = {
         "id": "selen-1177",
         "title": "Selen",
         "folder": "selen-1177"
+      },
+      {
+        "id": "1176",
+        "title": "Arsen",
+        "folder": "arsen-1176"
       }
     ]
-  }
-,
+  },
   "uebergangsmetalle-edelgase-und-aktinoide": {
     "slug": "uebergangsmetalle-edelgase-und-aktinoide",
-    "title": "Übergangsmetalle, Edelgase & Schwermetalle",
+    "title": "Übergangsmetalle & Aktinoide",
     "category": "Metalle, Werkstoffe & Elektrochemie",
-    "shortDesc": "Nebengruppenelemente, Platinmetalle, Edelgase und radioaktive Aktinoide.",
-    "longDesc": "Von technisch unverzichtbaren Legierungsmetallen (Chrom, Mangan, Nickel) über Edelmetalle der Platingruppe (Palladium, Iridium) bis hin zu den Edelgasen (Helium, Krypton, Xenon) und Schwermetallen wie Uran deckt dieser Bereich faszinierende physikalische und chemische Eigenschaften ab.",
+    "shortDesc": "Nebengruppenelemente und radioaktive Aktinoide.",
+    "longDesc": "Von technisch unverzichtbaren Legierungsmetallen (Chrom, Mangan, Nickel, Wolfram) bis zum radioaktiven Schwermetall Uran deckt dieser Bereich faszinierende physikalische und chemische Eigenschaften ab.",
     "keyPoints": [
-          "Übergangsmetalle (d-Block): Vielfältige Oxidationsstufen, farbige Verbindungen und katalytische Aktivität",
-          "Platinmetalle (Palladium, Iridium): Hohe Korrosionsbeständigkeit, Einsatz in Katalysatoren und Präzisionselektronik",
-          "Edelgase: Vollbesetzte Valenzschalen (Edelgaskonfiguration), extrem reaktionsträge",
-          "Uran (Aktinoide): Radioaktives Schwermetall mit Bedeutung für Kernphysik und Altersbestimmung"
+      "Übergangsmetalle (d-Block): Vielfältige Oxidationsstufen, farbige Verbindungen und katalytische Aktivität",
+      "Wolfram: Höchster Schmelzpunkt aller Metalle, Einsatz in Glühdrähten und Hartmetallen",
+      "Uran (Aktinoide): Radioaktives Schwermetall mit Bedeutung für Kernphysik und Altersbestimmung"
     ],
     "exercises": [
       {
@@ -1033,34 +1032,14 @@ export const chemieTopics: Record<string, ChemieTopic> = {
         "folder": "nickel-1173"
       },
       {
-        "id": "palladium-1194",
-        "title": "Palladium",
-        "folder": "palladium-1194"
-      },
-      {
-        "id": "iridium-1188",
-        "title": "Iridium",
-        "folder": "iridium-1188"
-      },
-      {
         "id": "uran-1196",
         "title": "Uran",
         "folder": "uran-1196"
       },
       {
-        "id": "helium-2-1150",
-        "title": "Helium",
-        "folder": "helium-2-1150"
-      },
-      {
-        "id": "krypton-1179",
-        "title": "Krypton",
-        "folder": "krypton-1179"
-      },
-      {
-        "id": "xenon-1185",
-        "title": "Xenon",
-        "folder": "xenon-1185"
+        "id": "1187",
+        "title": "Wolfram",
+        "folder": "wolfram-1187"
       }
     ]
   }
