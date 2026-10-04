@@ -38,7 +38,10 @@ export default function SubjectCatchAllView<T extends GenericTopic>({
       ? topic.exercises[activeExerciseIndex] || topic.exercises[0]
       : null;
 
-  const worksheetLink = topic?.worksheetLink || defaultWorksheetLink;
+  const worksheetLink =
+    topic?.worksheetLink ||
+    defaultWorksheetLink ||
+    (topic ? `https://eduki.com/de/autor/1430402/about-the-world-org?query=${encodeURIComponent(topic.title)}` : undefined);
 
   // Fächerübergreifende Querverweise
   const crossLinksKey = isTopic && topic ? `${subjectPath.replace(/^\//, '')}:${topic.slug}` : '';
