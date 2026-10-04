@@ -38,13 +38,27 @@ export default function SubjectCatchAllView<T extends GenericTopic>({
       ? topic.exercises[activeExerciseIndex] || topic.exercises[0]
       : null;
 
-  const worksheetLink =
-    topic?.worksheetLink ||
-    defaultWorksheetLink ||
-    (topic ? `https://eduki.com/de/autor/1430402/about-the-world-org?query=${encodeURIComponent(topic.title)}` : undefined);
+  // Eduki Fach-Filter Konfiguration (Autoren-Slug und Fach-Tag &t=...)
+  const edukiConfigBySubject: Record<string, { slug: string; t?: string }> = {
+    'informatik': { slug: 'erklaerung-und-mehr-org', t: '896' },
+    'mathematik': { slug: 'erklaerung-und-mehr-org', t: '1118' },
+    'math': { slug: 'erklaerung-und-mehr-org', t: '1118' },
+    'deutsch': { slug: 'about-the-world-org', t: '284' },
+    'englisch': { slug: 'about-the-world-org', t: '468' },
+    'medien': { slug: 'about-the-world-org', t: '1721' },
+    'technik': { slug: 'about-the-world-org', t: '1251' },
+  };
+
+  const subjectKey = subjectPath.replace(/^\//, '');
+  const edukiConfig = edukiConfigBySubject[subjectKey] || { slug: 'about-the-world-org', t: '3752' };
+  const fallbackEdukiUrl = topic
+    ? `https://eduki.com/de/autor/1430402/${edukiConfig.slug}?query=${encodeURIComponent(topic.title)}${edukiConfig.t ? `&t=${edukiConfig.t}` : ''}`
+    : undefined;
+
+  const worksheetLink = topic?.worksheetLink || defaultWorksheetLink || fallbackEdukiUrl;
 
   // Fächerübergreifende Querverweise
-  const crossLinksKey = isTopic && topic ? `${subjectPath.replace(/^\//, '')}:${topic.slug}` : '';
+  const crossLinksKey = isTopic && topic ? `${subjectKey}:${topic.slug}` : '';
   const crossLinks = crossLinksKey ? (topicCrossLinks[crossLinksKey] || []) : [];
 
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://erklaerung-und-mehr.org';
