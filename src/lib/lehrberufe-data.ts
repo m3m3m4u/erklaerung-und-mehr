@@ -74,7 +74,7 @@ export const lehrberufeTopics: Record<string, LehrberufeTopic> = {
         "folder": "das-duale-studium-modell-und-vorteile"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=duale+ausbildung+berufsorientierung&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=duale+ausbildung+berufsorientierung&t=158"
   },
 
   "arbeitsplatz-sicherheit-und-zeugnis": {
@@ -122,7 +122,7 @@ export const lehrberufeTopics: Record<string, LehrberufeTopic> = {
         "folder": "work-life-balance-im-berufsstart"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Arbeitssicherheit+Arbeitszeugnis+Ausbildung&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Arbeitssicherheit+Arbeitszeugnis+Ausbildung&t=158"
   },
 
   "berufsorientierung-und-staerkenanalyse": {
@@ -175,7 +175,7 @@ export const lehrberufeTopics: Record<string, LehrberufeTopic> = {
         "folder": "studium-oder-ausbildung-vergleich"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Berufsorientierung+Staerkenanalyse+BIZ&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Berufsorientierung+Staerkenanalyse+BIZ&t=158"
   },
 
   "schuelerpraktikum-und-orientierung": {
@@ -217,7 +217,7 @@ export const lehrberufeTopics: Record<string, LehrberufeTopic> = {
         "folder": "arbeit-der-tafel-in-deutschland-3476"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Schuelerpraktikum+Praktikumsbericht+FSJ&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Schuelerpraktikum+Praktikumsbericht+FSJ&t=158"
   },
 
   "bewerbung-lebenslauf-und-rechte": {
@@ -270,7 +270,7 @@ export const lehrberufeTopics: Record<string, LehrberufeTopic> = {
         "folder": "fristen-und-termine-bei-der-bewerbung"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=bewerbung+lebenslauf+ausbildung&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=bewerbung+lebenslauf+ausbildung&t=158"
   },
 
   "online-bewerbung-und-vorstellungsgespraech": {
@@ -324,7 +324,7 @@ export const lehrberufeTopics: Record<string, LehrberufeTopic> = {
         "folder": "kleidung-und-dresscode-beim-interview"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Vorstellungsgespraech+Online+Bewerbung&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Vorstellungsgespraech+Online+Bewerbung&t=158"
   },
 
   "assessment-center-und-einstellungstests": {
@@ -372,7 +372,7 @@ export const lehrberufeTopics: Record<string, LehrberufeTopic> = {
         "folder": "einstellungstests-mathematik-und-logik"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Assessment+Center+Einstellungstest&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Assessment+Center+Einstellungstest&t=158"
   },
 
   "handwerk-technik-und-industrie": {
@@ -420,7 +420,7 @@ export const lehrberufeTopics: Record<string, LehrberufeTopic> = {
         "folder": "zeitmanagement-und-selbstorganisation"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=handwerk+technik+berufe&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=handwerk+technik+berufe&t=158"
   },
 
   "dienstleistung-wirtschaft-und-it": {
@@ -479,6 +479,6 @@ export const lehrberufeTopics: Record<string, LehrberufeTopic> = {
         "folder": "die-restaurantfachkraft-3402"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=kaufleute+it+berufe&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=kaufleute+it+berufe&t=158"
   }
 };

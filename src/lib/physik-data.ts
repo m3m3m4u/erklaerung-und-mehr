@@ -91,7 +91,7 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "folder": "lerninhalt-drehmoment-und-hebel-585"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=hebel+mechanik&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=hebel+mechanik&t=150"
   },
   "kinematik-geschwindigkeit-und-beschleunigung": {
     "slug": "kinematik-geschwindigkeit-und-beschleunigung",
@@ -148,7 +148,7 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "folder": "wie-funktioniert-der-siphon-effekt"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=geschwindigkeit+kinematik&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=geschwindigkeit+kinematik&t=150"
   },
   "dynamik-newtonsche-gesetze-und-gravitation": {
     "slug": "dynamik-newtonsche-gesetze-und-gravitation",
@@ -217,7 +217,7 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "folder": "lerninhalt-gewichtskraft-584"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=newton+gravitation&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=newton+gravitation&t=150"
   },
   "arbeit-leistung-energie-und-impuls": {
     "slug": "arbeit-leistung-energie-und-impuls",
@@ -260,7 +260,7 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "folder": "lerninhalt-energie-580"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=arbeit+energie+leistung&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=arbeit+energie+leistung&t=150"
   },
   "optik-licht-und-schatten": {
     "slug": "optik-licht-und-schatten",
@@ -337,7 +337,7 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "folder": "beta-effekt-stroboskop-3094"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=licht+schatten+optik&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=licht+schatten+optik&t=150"
   },
   "reflexion-spiegel-und-farben": {
     "slug": "reflexion-spiegel-und-farben",
@@ -415,7 +415,7 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "folder": "polarisation-5312"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=spiegel+farben+optik&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=spiegel+farben+optik&t=150"
   },
   "lichtbrechung-und-linsen": {
     "slug": "lichtbrechung-und-linsen",
@@ -528,7 +528,7 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "folder": "wie-funktioniert-ein-diodenlaser-2510"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=linsen+brechung+optik&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=linsen+brechung+optik&t=150"
   },
   "elektrostatik-und-stromkreise": {
     "slug": "elektrostatik-und-stromkreise",
@@ -600,7 +600,7 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "folder": "wie-funktioniert-ein-blitzableiter-2504"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=elektrostatik+stromkreis&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=elektrostatik+stromkreis&t=150"
   },
   "elektrische-groessen-und-schaltungen": {
     "slug": "elektrische-groessen-und-schaltungen",
@@ -714,7 +714,7 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "folder": "coulomb-039-sches-gesetz-5249"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=ohmsches+gesetz+widerstand&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=ohmsches+gesetz+widerstand&t=150"
   },
   "magnetismus-und-erdmagnetfeld": {
     "slug": "magnetismus-und-erdmagnetfeld",
@@ -766,7 +766,7 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "folder": "studypoint-drag-the-words-magnetismus-688"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=magnetismus+erdmagnetfeld&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=magnetismus+erdmagnetfeld&t=150"
   },
   "elektromagnetismus-und-induktion": {
     "slug": "elektromagnetismus-und-induktion",
@@ -828,7 +828,7 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "folder": "wie-funktioniert-die-elektrolyse"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=induktion+elektromagnetismus&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=induktion+elektromagnetismus&t=150"
   },
   "elektromotoren-wellen-und-magnettechnik": {
     "slug": "elektromotoren-wellen-und-magnettechnik",
@@ -910,7 +910,7 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "folder": "wie-funktioniert-ein-akkuschrauber-2491"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=elektromotor+wellen&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=elektromotor+wellen&t=150"
   },
   "transformatoren-stromnetze-und-energieuebertragung": {
     "slug": "transformatoren-stromnetze-und-energieuebertragung",
@@ -972,7 +972,7 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "folder": "der-transformator-2245"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=transformator+stromnetz&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=transformator+stromnetz&t=150"
   },
   "energieerzeugung-und-kraftwerke": {
     "slug": "energieerzeugung-und-kraftwerke",
@@ -1070,7 +1070,7 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "folder": "windkraftwerke-2251"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=kraftwerke+energie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=kraftwerke+energie&t=150"
   },
   "waermelehre-temperatur-und-aggregatzustaende": {
     "slug": "waermelehre-temperatur-und-aggregatzustaende",
@@ -1122,7 +1122,7 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "folder": "wie-funktioniert-ein-temperatursensor-2566"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=waermelehre+temperatur&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=waermelehre+temperatur&t=150"
   },
   "waermeausbreitung-und-waermetechnik": {
     "slug": "waermeausbreitung-und-waermetechnik",
@@ -1179,7 +1179,7 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "folder": "wie-funktioniert-ein-kuehlschrank"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=waermepumpe+waermetransport&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=waermepumpe+waermetransport&t=150"
   },
   "akustik-schall-und-wellen": {
     "slug": "akustik-schall-und-wellen",
@@ -1237,7 +1237,7 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "folder": "wie-funktioniert-eine-schallplatte"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=akustik+schall&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=akustik+schall&t=150"
   },
   "atommodelle-und-strahlung": {
     "slug": "atommodelle-und-strahlung",
@@ -1305,7 +1305,7 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "folder": "die-kernfusion-5280"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=radioaktivitaet+atomphysik&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=radioaktivitaet+atomphysik&t=150"
   },
   "kernenergie-und-quantenphysik": {
     "slug": "kernenergie-und-quantenphysik",
@@ -1352,7 +1352,7 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "folder": "quantencomputer-im-vormarsch-der-quantensprung-in-eine-neue-dimension"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=kernenergie+quantenphysik&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=kernenergie+quantenphysik&t=150"
   },
   "sonnensystem-und-planeten": {
     "slug": "sonnensystem-und-planeten",
@@ -1429,7 +1429,7 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "folder": "umlaufbahnen-von-planeten-und-satelliten-2-2277"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=planeten+sonnensystem&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=planeten+sonnensystem&t=150"
   },
   "geophysik-und-himmelsphaenomene": {
     "slug": "geophysik-und-himmelsphaenomene",
@@ -1470,7 +1470,7 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "folder": "wie-funktioniert-ein-seismograph-2559"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=geophysik+erdbeben&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=geophysik+erdbeben&t=150"
   },
   "kosmologie-sterne-und-raumfahrt": {
     "slug": "kosmologie-sterne-und-raumfahrt",
@@ -1542,7 +1542,7 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "folder": "die-frage-nach-dem-ursprung-des-universums-2774"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=kosmologie+urknall+sterne&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=kosmologie+urknall+sterne&t=150"
   },
   "grundlagen-der-physik-und-materie": {
     "slug": "grundlagen-der-physik-und-materie",
@@ -1599,7 +1599,7 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "folder": "wie-funktioniert-das-vakuum"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=grundlagen+der+physik&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=grundlagen+der+physik&t=150"
   },
   "bedeutende-physiker-der-geschichte": {
     "slug": "bedeutende-physiker-der-geschichte",
@@ -1681,7 +1681,7 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "folder": "richard-feynman-4197"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=bedeutende+physiker&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=bedeutende+physiker&t=150"
   },
   "escape-rooms-und-physikraetsel": {
     "slug": "escape-rooms-und-physikraetsel",
@@ -1722,6 +1722,6 @@ export const physikTopics: Record<string, PhysikTopic> = {
         "folder": "escape-room-quot-warmelehre-grundlagen-quot-3190"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=escape+room+physik&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=escape+room+physik&t=150"
   }
 };

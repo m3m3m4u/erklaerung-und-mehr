@@ -100,7 +100,7 @@ export const medienTopics: Record<string, MedienTopic> = {
         "folder": "interaktive-buecher-wenn-der-leser-die-story-bestimmt"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Mediengeschichte&t=1721"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Mediengeschichte&t=159"
   },
   "presse-zeitungen-und-journalismus": {
     "slug": "presse-zeitungen-und-journalismus",
@@ -157,7 +157,7 @@ export const medienTopics: Record<string, MedienTopic> = {
         "folder": "enthuellungen-zur-globalen-ueberwachung-durch-edward-snowden"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Journalismus+Presse+Zeitung&t=1721"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Journalismus+Presse+Zeitung&t=159"
   },
   "fake-news-desinformation-und-deepfakes": {
     "slug": "fake-news-desinformation-und-deepfakes",
@@ -209,7 +209,7 @@ export const medienTopics: Record<string, MedienTopic> = {
         "folder": "manipulation-durch-grafische-darstellungen-erkennen"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Fake+News+Desinformation+Deepfakes&t=1721"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Fake+News+Desinformation+Deepfakes&t=159"
   },
   "filterblasen-meinungsbildung-und-medienpsychologie": {
     "slug": "filterblasen-meinungsbildung-und-medienpsychologie",
@@ -266,7 +266,7 @@ export const medienTopics: Record<string, MedienTopic> = {
         "folder": "verbreitung-von-inhalten-durch-super-spreader"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Filterblasen+Medienpsychologie+Werbung&t=1721"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Filterblasen+Medienpsychologie+Werbung&t=159"
   },
   "youtube-und-content-creation": {
     "slug": "youtube-und-content-creation",
@@ -330,7 +330,7 @@ export const medienTopics: Record<string, MedienTopic> = {
         "folder": "wie-man-online-eine-eigene-schreib-community-findet"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=YouTube+Content+Creation+Video&t=1721"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=YouTube+Content+Creation+Video&t=159"
   },
   "social-media-tiktok-und-digitale-suchtdynamik": {
     "slug": "social-media-tiktok-und-digitale-suchtdynamik",
@@ -393,7 +393,7 @@ export const medienTopics: Record<string, MedienTopic> = {
         "folder": "angemessenes-verhalten-in-chats-und-gruppen"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=TikTok+Social+Media+Streaming&t=1721"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=TikTok+Social+Media+Streaming&t=159"
   },
   "gaming-videospiele-und-esports": {
     "slug": "gaming-videospiele-und-esports",
@@ -445,7 +445,7 @@ export const medienTopics: Record<string, MedienTopic> = {
         "folder": "transmedia-storytelling-geschichten-auf-vielen-kanaelen"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Gaming+Videospiele+Esports&t=1721"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Gaming+Videospiele+Esports&t=159"
   },
   "datenschutz-privatsphaere-und-medienrecht": {
     "slug": "datenschutz-privatsphaere-und-medienrecht",
@@ -513,7 +513,7 @@ export const medienTopics: Record<string, MedienTopic> = {
         "folder": "handlungsmoeglichkeiten-bei-problemen-oder-vorfaellen-im-internet"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Datenschutz+Medienrecht+Urheberrecht&t=1721"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Datenschutz+Medienrecht+Urheberrecht&t=159"
   },
   "medien-in-wissenschaft-und-technik": {
     "slug": "medien-in-wissenschaft-und-technik",
@@ -565,7 +565,7 @@ export const medienTopics: Record<string, MedienTopic> = {
         "folder": "die-rolle-von-medien-in-der-physik-2596"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Wissenschaftskommunikation+Medien&t=1721"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Wissenschaftskommunikation+Medien&t=159"
   },
   "medien-in-fachbereichen-und-wirtschaft": {
     "slug": "medien-in-fachbereichen-und-wirtschaft",
@@ -617,7 +617,7 @@ export const medienTopics: Record<string, MedienTopic> = {
         "folder": "die-rolle-von-medien-in-der-augmented-reality-2590"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Medien+Fachbereiche&t=1721"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Medien+Fachbereiche&t=159"
   },
   "medien-und-gesellschaft": {
     "slug": "medien-und-gesellschaft",
@@ -669,7 +669,7 @@ export const medienTopics: Record<string, MedienTopic> = {
         "folder": "handy-verbot-im-klassenzimmer-die-radikale-loesung-fuer-bessere-noten"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Medien+und+Gesellschaft&t=1721"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Medien+und+Gesellschaft&t=159"
   },
   "medien-in-krisen-und-industrie": {
     "slug": "medien-in-krisen-und-industrie",
@@ -721,6 +721,6 @@ export const medienTopics: Record<string, MedienTopic> = {
         "folder": "medien-und-raumfahrt-2613"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Medien+Krisen+Konflikte&t=1721"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Medien+Krisen+Konflikte&t=159"
   }
 };

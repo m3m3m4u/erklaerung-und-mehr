@@ -87,7 +87,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "folder": "studypoint-multiple-choice-grundwortarten-696"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Deutsche%20Grammatik%20Wortarten&t=284"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Deutsche+Grammatik+Wortarten&t=143"
   },
   "zeitformen": {
     "slug": "zeitformen",
@@ -130,7 +130,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "folder": "zeitformen-futur-1-und-futur-2-1015"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Zeitformen%20Verben%20Deutsch&t=284"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Zeitformen+Verben+Deutsch&t=143"
   },
   "satzbau-und-satzglieder": {
     "slug": "satzbau-und-satzglieder",
@@ -168,7 +168,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "folder": "wortarten-bersicht-557"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Satzglieder%20Satzbau%20Deutsch&t=284"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Satzglieder+Satzbau+Deutsch&t=143"
   },
   "sprache-und-sprachwandel": {
     "slug": "sprache-und-sprachwandel",
@@ -251,7 +251,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "folder": "metaphern-im-deutschunterricht-einfach-erklaert"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Sprachwandel%20Dialekte%20Deutsch%20Herder&t=284"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Sprachwandel+Dialekte+Deutsch+Herder&t=143"
   },
   "rechtschreibung": {
     "slug": "rechtschreibung",
@@ -304,7 +304,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "folder": "warum-rechtschreibung-auch-beim-tippen-wichtig-ist"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Rechtschreibung%20Dass%20Regeln%20Deutsch&t=284"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Rechtschreibung+Dass+Regeln+Deutsch&t=143"
   },
   "texte-und-schreibformen": {
     "slug": "texte-und-schreibformen",
@@ -407,7 +407,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "folder": "erfolgreich-in-der-buchvorstellung-tipps-fuer-schueler"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Aufsatz%20Inhaltsangabe%20Analyse%20Deutsch&t=284"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Aufsatz+Inhaltsangabe+Analyse+Deutsch&t=143"
   },
   "argumentation-und-eroerterung": {
     "slug": "argumentation-und-eroerterung",
@@ -460,7 +460,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "folder": "literarische-eroerterung-pro-und-contra-abwaegen"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Eroerterung%20Argumentation%20Deutsch%20Schule&t=284"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Eroerterung+Argumentation+Deutsch+Schule&t=143"
   },
   "literatur-antike-bis-barock": {
     "slug": "literatur-antike-bis-barock",
@@ -558,7 +558,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "folder": "konig-dipus-von-sophokles-literarische-bedeutung-6243"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Literaturepochen%20Barock%20Mittelalter%20Deutsch&t=284"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Literaturepochen+Barock+Mittelalter+Deutsch&t=143"
   },
   "aufklaerung-und-sturm-und-drang": {
     "slug": "aufklaerung-und-sturm-und-drang",
@@ -601,7 +601,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "folder": "literaturepoche-sturm-und-drang-2373"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Aufklaerung%20Sturm%20und%20Drang%20Deutsch&t=284"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Aufklaerung+Sturm+und+Drang+Deutsch&t=143"
   },
   "weimarer-klassik": {
     "slug": "weimarer-klassik",
@@ -649,7 +649,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "folder": "die-jungfrau-von-orleans-von-friedrich-schiller-6198"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Weimarer%20Klassik%20Goethe%20Schiller&t=284"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Weimarer+Klassik+Goethe+Schiller&t=143"
   },
   "romantik-und-vormaerz": {
     "slug": "romantik-und-vormaerz",
@@ -732,7 +732,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "folder": "friedrich-hebbel-4608"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Romantik%20Vormaerz%20Biedermeier%20Literatur&t=284"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Romantik+Vormaerz+Biedermeier+Literatur&t=143"
   },
   "realismus-und-naturalismus": {
     "slug": "realismus-und-naturalismus",
@@ -795,7 +795,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "folder": "fjodor-dostojewski-1254"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Realismus%20Naturalismus%20Literatur&t=284"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Realismus+Naturalismus+Literatur&t=143"
   },
   "moderne-und-exilliteratur": {
     "slug": "moderne-und-exilliteratur",
@@ -913,7 +913,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "folder": "marcel-proust-1288"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Expressionismus%20Exilliteratur%20Moderne&t=284"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Expressionismus+Exilliteratur+Moderne&t=143"
   },
   "nachkriegsliteratur-und-ddr": {
     "slug": "nachkriegsliteratur-und-ddr",
@@ -1021,7 +1021,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "folder": "medea-von-christa-wolf-bezug-zur-gegenwart-2-6277"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Nachkriegsliteratur%20DDR%20Literatur%20Gegenwart&t=284"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Nachkriegsliteratur+DDR+Literatur+Gegenwart&t=143"
   },
   "lessing-nathan-und-emilia": {
     "slug": "lessing-nathan-und-emilia",
@@ -1099,7 +1099,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "folder": "g-e-lessing-emilia-galotti-3095"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Lessing%20Nathan%20der%20Weise%20Emilia%20Galotti&t=284"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Lessing+Nathan+der+Weise+Emilia+Galotti&t=143"
   },
   "goethe-faust-und-dramen": {
     "slug": "goethe-faust-und-dramen",
@@ -1217,7 +1217,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "folder": "j-w-goethe-iphigenie-auf-tauris-2-3447"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Goethe%20Faust%20Iphigenie%20Dramen&t=284"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Goethe+Faust+Iphigenie+Dramen&t=143"
   },
   "goethe-romane-und-erzaehlungen": {
     "slug": "goethe-romane-und-erzaehlungen",
@@ -1265,7 +1265,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "folder": "j-w-goethe-die-wahlverwandtschaften-2-4552"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Goethe%20Werther%20Wahlverwandtschaften%20Novelle&t=284"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Goethe+Werther+Wahlverwandtschaften+Novelle&t=143"
   },
   "romantik-und-novellenkunst": {
     "slug": "romantik-und-novellenkunst",
@@ -1353,7 +1353,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "folder": "e-t-a-hoffmann-die-elixiere-des-teufels-3282"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Hoffmann%20Sandmann%20Kleist%20Novellen&t=284"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Hoffmann+Sandmann+Kleist+Novellen&t=143"
   },
   "realismus-fontane-und-keller": {
     "slug": "realismus-fontane-und-keller",
@@ -1441,7 +1441,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "folder": "theodor-fontane-frau-jenny-treibel-2-4568"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Fontane%20Effi%20Briest%20Keller%20Realismus&t=284"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Fontane+Effi+Briest+Keller+Realismus&t=143"
   },
   "brecht-und-das-epische-theater": {
     "slug": "brecht-und-das-epische-theater",
@@ -1509,7 +1509,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "folder": "bertolt-brecht-3-4599"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Brecht%20Episches%20Theater%20Galilei%20Mutter%20Courage&t=284"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Brecht+Episches+Theater+Galilei+Mutter+Courage&t=143"
   },
   "schweizer-dramatik-duerrenmatt-und-frisch": {
     "slug": "schweizer-dramatik-duerrenmatt-und-frisch",
@@ -1602,7 +1602,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "folder": "friedrich-durrenmatt-der-besuch-der-alten-dame-2-3419"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Duerrenmatt%20Physiker%20Besuch%20alten%20Dame%20Frisch%20Biedermann&t=284"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Duerrenmatt+Physiker+Besuch+alten+Dame+Frisch+Biedermann&t=143"
   },
   "deutsche-nachkriegs-und-gegenwartsliteratur": {
     "slug": "deutsche-nachkriegs-und-gegenwartsliteratur",
@@ -1705,7 +1705,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "folder": "heiner-muller-der-auftrag-3437"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Blechtrommel%20Grass%20Koeppen%20Nachkriegsliteratur&t=284"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Blechtrommel+Grass+Koeppen+Nachkriegsliteratur&t=143"
   },
   "die-heimsuchung": {
     "slug": "die-heimsuchung",
@@ -1778,7 +1778,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "folder": "jenny-erpenbeck-3105"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Jenny%20Erpenbeck%20Heimsuchung%20Abitur&t=284"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Jenny+Erpenbeck+Heimsuchung+Abitur&t=143"
   },
   "wiener-moderne-und-schnitzler": {
     "slug": "wiener-moderne-und-schnitzler",
@@ -1891,7 +1891,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "folder": "stefan-zweig-und-der-abschied-vom-alten-europa"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Wiener%20Moderne%20Schnitzler%20Nestroy%20Hofmannsthal&t=284"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Wiener+Moderne+Schnitzler+Nestroy+Hofmannsthal&t=143"
   },
   "oesterreichische-literatur-des-20-jahrhunderts": {
     "slug": "oesterreichische-literatur-des-20-jahrhunderts",
@@ -1989,7 +1989,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "folder": "berschrift-3-1245"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Oesterreichische%20Literatur%20Roth%20Horvath%20Bernhard&t=284"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Oesterreichische+Literatur+Roth+Horvath+Bernhard&t=143"
   },
   "robert-seethaler-der-trafikant": {
     "slug": "robert-seethaler-der-trafikant",
@@ -2037,7 +2037,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "folder": "robert-seethaler-der-trafikant-2-4566"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Robert%20Seethaler%20Der%20Trafikant%20Abitur&t=284"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Robert+Seethaler+Der+Trafikant+Abitur&t=143"
   },
   "balladen-der-klassik-und-romantik": {
     "slug": "balladen-der-klassik-und-romantik",
@@ -2110,7 +2110,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "folder": "haikus-die-kunst-der-japanischen-kurzgedichte"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Balladen%20Goethe%20Schiller%20Fontane%20Deutsch&t=284"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Balladen+Goethe+Schiller+Fontane+Deutsch&t=143"
   },
   "natur-und-stimmungslyrik-der-romantik": {
     "slug": "natur-und-stimmungslyrik-der-romantik",
@@ -2183,7 +2183,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "folder": "die-droste-huelshoff-und-das-unheimliche-in-der-heide"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Romantik%20Lyrik%20Eichendorff%20Heine%20Goethe&t=284"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Romantik+Lyrik+Eichendorff+Heine+Goethe&t=143"
   },
   "moderne-lyrik-und-gedichtanalyse": {
     "slug": "moderne-lyrik-und-gedichtanalyse",
@@ -2301,7 +2301,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "folder": "die-unmogliche-tatsache-von-christian-morgenstern-5201"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Gedichtanalyse%20Rilke%20Expressionismus%20Lyrik&t=284"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Gedichtanalyse+Rilke+Expressionismus+Lyrik&t=143"
   },
   "kinderbuch-klassiker-und-welterfolge": {
     "slug": "kinderbuch-klassiker-und-welterfolge",
@@ -2394,7 +2394,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "folder": "erich-kaestner-mehr-als-nur-kinderbuecher"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Kinderbuch%20Klassiker%20Kleiner%20Prinz%20Alice&t=284"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Kinderbuch+Klassiker+Kleiner+Prinz+Alice&t=143"
   },
   "moderne-jugendbuecher-und-schullektuere": {
     "slug": "moderne-jugendbuecher-und-schullektuere",
@@ -2477,7 +2477,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "folder": "erich-maria-remarque-1248"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Tschick%20Rico%20Oskar%20Jugendliteratur%20Herrndorf&t=284"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Tschick+Rico+Oskar+Jugendliteratur+Herrndorf&t=143"
   },
   "fantasy-und-jugend-bestseller": {
     "slug": "fantasy-und-jugend-bestseller",
@@ -2574,7 +2574,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "folder": "comic-con-und-buchmessen-wo-fans-sich-treffen"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Cornelia%20Funke%20Eragon%20Fantasy%20Jugend&t=284"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Cornelia+Funke+Eragon+Fantasy+Jugend&t=143"
   },
   "krimi-thriller-und-whodunit": {
     "slug": "krimi-thriller-und-whodunit",
@@ -2657,7 +2657,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "folder": "rache-und-vergebung-in-spannenden-thrillern"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Krimi%20Thriller%20Sherlock%20Holmes%20Agatha%20Christie&t=284"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Krimi+Thriller+Sherlock+Holmes+Agatha+Christie&t=143"
   },
   "fantasy-science-fiction-und-dystopien": {
     "slug": "fantasy-science-fiction-und-dystopien",
@@ -2725,7 +2725,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "folder": "science-fiction-was-unsere-zukunftsvisionen-verraten"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Fantasy%20Science%20Fiction%20Dystopie%20Cyberpunk&t=284"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Fantasy+Science+Fiction+Dystopie+Cyberpunk&t=143"
   },
   "abenteuerromane-und-reisegeschichten": {
     "slug": "abenteuerromane-und-reisegeschichten",
@@ -2793,7 +2793,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "folder": "das-tagebuch-als-literarische-form"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Abenteuerromane%20Reiseliteratur%20Gothic%20Dark%20Academia&t=284"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Abenteuerromane+Reiseliteratur+Gothic+Dark+Academia&t=143"
   },
   "fabeln-maerchen-und-comics": {
     "slug": "fabeln-maerchen-und-comics",
@@ -2866,7 +2866,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "folder": "moderne-maerchen-adaptionen-in-filmen-und-buechern"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Fabeln%20Maerchen%20Comics%20Manga%20Deutsch&t=284"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Fabeln+Maerchen+Comics+Manga+Deutsch&t=143"
   },
   "kreatives-schreiben-und-figurenentwicklung": {
     "slug": "kreatives-schreiben-und-figurenentwicklung",
@@ -2959,7 +2959,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "folder": "wie-man-einen-fesselnden-klappentext-schreibt"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Kreatives%20Schreiben%20Heldenreise%20Dialoge&t=284"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Kreatives+Schreiben+Heldenreise+Dialoge&t=143"
   },
   "erzaehltechniken-und-ideenfindung": {
     "slug": "erzaehltechniken-und-ideenfindung",
@@ -3032,7 +3032,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "folder": "wie-man-spannung-in-einer-kurzgeschichte-aufbaut"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Erzaehltechniken%20Kreativ%20Schreiben%20Deutsch&t=284"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Erzaehltechniken+Kreativ+Schreiben+Deutsch&t=143"
   },
   "booktok-social-media-und-digitale-lesewelten": {
     "slug": "booktok-social-media-und-digitale-lesewelten",
@@ -3099,7 +3099,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "folder": "memes-ueber-klassische-schullektuere"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=BookTok%20Lesekultur%20Social%20Media%20Buecher&t=284"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=BookTok+Lesekultur+Social+Media+Buecher&t=143"
   },
   "buchmarkt-bibliotheken-und-zensur": {
     "slug": "buchmarkt-bibliotheken-und-zensur",
@@ -3197,7 +3197,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "folder": "die-leipziger-buchmesse"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Buchmarkt%20Bibliotheken%20Zensur%20Buchmesse&t=284"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Buchmarkt+Bibliotheken+Zensur+Buchmesse&t=143"
   },
   "bedeutung-der-literatur-und-buchkultur": {
     "slug": "bedeutung-der-literatur-und-buchkultur",
@@ -3300,7 +3300,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "folder": "franzoesische-literatur-mehr-als-nur-liebe"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Literaturgeschichte%20Buchkultur%20Klassiker%20Lesen&t=284"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Literaturgeschichte+Buchkultur+Klassiker+Lesen&t=143"
   },
   "gesellschaft-und-menschen-in-der-literatur": {
     "slug": "gesellschaft-und-menschen-in-der-literatur",
@@ -3408,7 +3408,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "folder": "auf-der-terrasse-des-cafe-josty-von-paul-boldt-5185"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Gesellschaft%20Literatur%20Diversitaet%20Inklusion&t=284"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Gesellschaft+Literatur+Diversitaet+Inklusion&t=143"
   },
   "schiller-sturm-und-drang-und-jugenddramen": {
     "slug": "schiller-sturm-und-drang-und-jugenddramen",
@@ -3479,7 +3479,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "folder": "friedrich-schiller-don-karlos-2-4528"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=schiller+raeuber+kabale&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=schiller+raeuber+kabale&t=143"
   },
   "schiller-klassische-dramen-und-spaetwerk": {
     "slug": "schiller-klassische-dramen-und-spaetwerk",
@@ -3555,7 +3555,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "folder": "die-jungfrau-von-orleans-von-friedrich-schiller-literarische-bedeutung-6197"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=maria+stuart+wallenstein+tell&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=maria+stuart+wallenstein+tell&t=143"
   },
   "georg-buechner-dramen-und-revolution": {
     "slug": "georg-buechner-dramen-und-revolution",
@@ -3656,7 +3656,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "folder": "georg-buchner-4610"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=buechner+woyzeck+danton&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=buechner+woyzeck+danton&t=143"
   },
   "naturalismus-und-sozialkritisches-theater": {
     "slug": "naturalismus-und-sozialkritisches-theater",
@@ -3732,7 +3732,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "folder": "friedrich-hebbel-maria-magdalene-2-4526"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=hauptmann+wedekind+naturalismus&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=hauptmann+wedekind+naturalismus&t=143"
   },
   "franz-kafka-parabeln-und-erzaehlungen": {
     "slug": "franz-kafka-parabeln-und-erzaehlungen",
@@ -3793,7 +3793,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "folder": "die-verwandlung-von-kafka-als-comic-analyse"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=kafka+prozess+verwandlung&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=kafka+prozess+verwandlung&t=143"
   },
   "thomas-und-heinrich-mann-grossstadtroman": {
     "slug": "thomas-und-heinrich-mann-grossstadtroman",
@@ -3889,7 +3889,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "folder": "alfred-doblin-berlin-alexanderplatz-3403"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=thomas+mann+heinrich+mann&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=thomas+mann+heinrich+mann&t=143"
   },
   "arno-geiger-unter-der-drachenwand": {
     "slug": "arno-geiger-unter-der-drachenwand",
@@ -3930,7 +3930,7 @@ export const deutschTopics: Record<string, DeutschTopic> = {
         "folder": "unter-der-drachenwand-von-arno-geiger-bezug-zur-gegenwart-6270"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=arno+geiger+drachenwand&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=arno+geiger+drachenwand&t=143"
   },
   "juli-zeh-corpus-delicti": {
     "slug": "juli-zeh-corpus-delicti",

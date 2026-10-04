@@ -95,7 +95,7 @@ export const psychologieTopics: Record<string, PsychologieTopic> = {
         "folder": "theorien-der-entwicklung-5899"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Psychologie+Grundlagen+Forschungsmethoden&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Psychologie+Grundlagen+Forschungsmethoden&t=155"
   },
   "biopsychologie-und-neuropsychologie": {
     "slug": "biopsychologie-und-neuropsychologie",
@@ -157,7 +157,7 @@ export const psychologieTopics: Record<string, PsychologieTopic> = {
         "folder": "immunsystem-und-stress-2082"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Biopsychologie+Neuropsychologie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Biopsychologie+Neuropsychologie&t=155"
   },
   "schlaf-traeume-und-chronobiologie": {
     "slug": "schlaf-traeume-und-chronobiologie",
@@ -193,7 +193,7 @@ export const psychologieTopics: Record<string, PsychologieTopic> = {
         "folder": "psychologische-auswirkungen-von-larm-und-stille-2743"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Schlaf+Traeume+Psychologie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Schlaf+Traeume+Psychologie&t=155"
   },
   "kognitive-psychologie-lernen-und-gedaechtnis": {
     "slug": "kognitive-psychologie-lernen-und-gedaechtnis",
@@ -250,7 +250,7 @@ export const psychologieTopics: Record<string, PsychologieTopic> = {
         "folder": "die-psychologie-des-lesens-was-im-kopf-passiert"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Kognitive+Psychologie+Lernen+Gedaechtnis&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Kognitive+Psychologie+Lernen+Gedaechtnis&t=155"
   },
   "wahrnehmung-denkfehler-und-dissonanz": {
     "slug": "wahrnehmung-denkfehler-und-dissonanz",
@@ -306,7 +306,7 @@ export const psychologieTopics: Record<string, PsychologieTopic> = {
         "folder": "handlungen-und-ihre-wirkungen-798"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Wahrnehmung+Denkfehler+Kognitive+Dissonanz&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Wahrnehmung+Denkfehler+Kognitive+Dissonanz&t=155"
   },
   "motivation-emotion-und-intelligenz": {
     "slug": "motivation-emotion-und-intelligenz",
@@ -387,7 +387,7 @@ export const psychologieTopics: Record<string, PsychologieTopic> = {
         "folder": "emotionen-in-verschiedenen-berufen-790"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Motivation+Emotion+Intelligenz+Psychologie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Motivation+Emotion+Intelligenz+Psychologie&t=155"
   },
   "sigmund-freud-und-die-psychoanalyse": {
     "slug": "sigmund-freud-und-die-psychoanalyse",
@@ -429,7 +429,7 @@ export const psychologieTopics: Record<string, PsychologieTopic> = {
         "folder": "psychologie-der-traumdeutung-2740"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Sigmund+Freud+Psychoanalyse&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Sigmund+Freud+Psychoanalyse&t=155"
   },
   "persoenlichkeitspsychologie-und-humanismus": {
     "slug": "persoenlichkeitspsychologie-und-humanismus",
@@ -496,7 +496,7 @@ export const psychologieTopics: Record<string, PsychologieTopic> = {
         "folder": "wer-bin-ich-die-kunst-der-selbstreflexion-3132"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Persoenlichkeitspsychologie+Big+Five&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Persoenlichkeitspsychologie+Big+Five&t=155"
   },
   "entwicklungspsychologie-und-lebensspanne": {
     "slug": "entwicklungspsychologie-und-lebensspanne",
@@ -543,7 +543,7 @@ export const psychologieTopics: Record<string, PsychologieTopic> = {
         "folder": "einfuhrung-in-bindungstheorie-5757"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Entwicklungspsychologie+Piaget+Erikson&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Entwicklungspsychologie+Piaget+Erikson&t=155"
   },
   "sozialpsychologie-und-gruppenverhalten": {
     "slug": "sozialpsychologie-und-gruppenverhalten",
@@ -590,7 +590,7 @@ export const psychologieTopics: Record<string, PsychologieTopic> = {
         "folder": "die-psychologie-des-glaubens-und-der-religion-2707"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Sozialpsychologie+Milgram+Zimbardo&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Sozialpsychologie+Milgram+Zimbardo&t=155"
   },
   "grundlagen-und-kommunikationstheorien": {
     "slug": "grundlagen-und-kommunikationstheorien",
@@ -632,7 +632,7 @@ export const psychologieTopics: Record<string, PsychologieTopic> = {
         "folder": "selbstwahrnehmung-3239"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Kommunikationspsychologie+Schulz+von+Thun&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Kommunikationspsychologie+Schulz+von+Thun&t=155"
   },
   "kommunikationspsychologie-und-arbeitswelt": {
     "slug": "kommunikationspsychologie-und-arbeitswelt",
@@ -678,7 +678,7 @@ export const psychologieTopics: Record<string, PsychologieTopic> = {
         "folder": "verstandnis-von-risikoverhalten-5906"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Arbeitspsychologie+Werbepsychologie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Arbeitspsychologie+Werbepsychologie&t=155"
   },
   "angewandte-psychologie-sport-und-rehabilitation": {
     "slug": "angewandte-psychologie-sport-und-rehabilitation",
@@ -724,7 +724,7 @@ export const psychologieTopics: Record<string, PsychologieTopic> = {
         "folder": "preispsychologie-und-schwellenpreise"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Sportpsychologie+Rehabilitation+Psychologie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Sportpsychologie+Rehabilitation+Psychologie&t=155"
   },
   "klinische-psychologie-und-psychische-stoerungen": {
     "slug": "klinische-psychologie-und-psychische-stoerungen",
@@ -806,7 +806,7 @@ export const psychologieTopics: Record<string, PsychologieTopic> = {
         "folder": "bipolare-storung-verstehen-5747"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Klinische+Psychologie+Stoerungen+Therapie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Klinische+Psychologie+Stoerungen+Therapie&t=155"
   },
   "persoenlichkeitsstoerungen-und-neurodivergenz": {
     "slug": "persoenlichkeitsstoerungen-und-neurodivergenz",
@@ -847,7 +847,7 @@ export const psychologieTopics: Record<string, PsychologieTopic> = {
         "folder": "grundlagen-forensischer-psychologie-5933"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Persoenlichkeitsstoerungen+ADHS+Autismus&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Persoenlichkeitsstoerungen+ADHS+Autismus&t=155"
   },
   "notfallpsychologie-trauma-und-krisen": {
     "slug": "notfallpsychologie-trauma-und-krisen",
@@ -883,7 +883,7 @@ export const psychologieTopics: Record<string, PsychologieTopic> = {
         "folder": "opfer-und-tater-psychologische-aspekte-2733"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Trauma+Notfallpsychologie+PTBS&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Trauma+Notfallpsychologie+PTBS&t=155"
   },
   "psychotherapieverfahren-und-beratung": {
     "slug": "psychotherapieverfahren-und-beratung",
@@ -945,7 +945,7 @@ export const psychologieTopics: Record<string, PsychologieTopic> = {
         "folder": "grundlagen-der-kunsttherapie-5812"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Psychotherapie+Systemisch+Beratung&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Psychotherapie+Systemisch+Beratung&t=155"
   },
   "positive-psychologie-gesundheit-und-digitalisierung": {
     "slug": "positive-psychologie-gesundheit-und-digitalisierung",
@@ -1017,7 +1017,7 @@ export const psychologieTopics: Record<string, PsychologieTopic> = {
         "folder": "meditation-und-entspannung-5835"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Positive+Psychologie+Resilienz+Cyberpsychologie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Positive+Psychologie+Resilienz+Cyberpsychologie&t=155"
   },
   "stress-resilienz-und-burnout-praevention": {
     "slug": "stress-resilienz-und-burnout-praevention",
@@ -1064,6 +1064,6 @@ export const psychologieTopics: Record<string, PsychologieTopic> = {
         "folder": "reflexion-und-resilienztraining-791"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Stress+Resilienz+Burnout+Psychologie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Stress+Resilienz+Burnout+Psychologie&t=155"
   }
 };

@@ -76,7 +76,7 @@ export const klimaTopics: Record<string, KlimaTopic> = {
         "folder": "global-goal-17-partnerschaften-starken-gemeinsam-fur-nachhaltige-zukunft-4491"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=nachhaltigkeitsziele+menschenrechte&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=nachhaltigkeitsziele+menschenrechte&t=146"
   },
   "sdgs-planet-und-nachhaltigkeit": {
     "slug": "sdgs-planet-und-nachhaltigkeit",
@@ -134,7 +134,7 @@ export const klimaTopics: Record<string, KlimaTopic> = {
         "folder": "nachhaltigkeit-und-faire-produktion-2862"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=SDG+Klimaschutz+Oekosysteme&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=SDG+Klimaschutz+Oekosysteme&t=146"
   },
   "klimawandel-und-klimazonen": {
     "slug": "klimawandel-und-klimazonen",
@@ -207,7 +207,7 @@ export const klimaTopics: Record<string, KlimaTopic> = {
         "folder": "schneefreie-alpen-der-bittere-untergang-des-wintersports"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Treibhauseffekt+Klimazonen&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Treibhauseffekt+Klimazonen&t=146"
   },
   "klimaschutz-politik-und-ethik": {
     "slug": "klimaschutz-politik-und-ethik",
@@ -265,7 +265,7 @@ export const klimaTopics: Record<string, KlimaTopic> = {
         "folder": "einfuhrung-in-umweltpsychologie-5778"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Klimapolitik+Pariser+Abkommen&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Klimapolitik+Pariser+Abkommen&t=146"
   },
   "erneuerbare-energien-und-energiewende": {
     "slug": "erneuerbare-energien-und-energiewende",
@@ -313,7 +313,7 @@ export const klimaTopics: Record<string, KlimaTopic> = {
         "folder": "russlands-energie-im-wandel-6721"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Erneuerbare+Energien+Windkraft&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Erneuerbare+Energien+Windkraft&t=146"
   },
   "kreislaufwirtschaft-und-recycling": {
     "slug": "kreislaufwirtschaft-und-recycling",
@@ -366,7 +366,7 @@ export const klimaTopics: Record<string, KlimaTopic> = {
         "folder": "umweltaspekte-und-nachhaltigkeitsaspekte-digitaler-technologien"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Recycling+Muell+Kreislaufwirtschaft&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Recycling+Muell+Kreislaufwirtschaft&t=146"
   },
   "ressourcen-konsum-und-fussabdruck": {
     "slug": "ressourcen-konsum-und-fussabdruck",
@@ -419,7 +419,7 @@ export const klimaTopics: Record<string, KlimaTopic> = {
         "folder": "nachhaltiger-tourismus-und-seine-vorteile-3570"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Oekologischer+Fussabdruck+Konsum&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Oekologischer+Fussabdruck+Konsum&t=146"
   },
   "globale-oekosysteme-und-ressourcenkonflikte": {
     "slug": "globale-oekosysteme-und-ressourcenkonflikte",
@@ -483,6 +483,6 @@ export const klimaTopics: Record<string, KlimaTopic> = {
         "folder": "zukunft-der-logistik-automatisierung-drohnen-und-nachhaltige-lieferketten-5577"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Regenwald+Wasserknappheit+Ressourcen&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Regenwald+Wasserknappheit+Ressourcen&t=146"
   }
 };

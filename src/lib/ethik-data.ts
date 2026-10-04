@@ -119,7 +119,7 @@ export const ethikTopics: Record<string, EthikTopic> = {
         "folder": "faking-bad-oder-good-faith-795"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Ethik+Werte+Normen&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Ethik+Werte+Normen&t=155"
   },
   "pflichtethik-und-deontologie": {
     "slug": "pflichtethik-und-deontologie",
@@ -191,7 +191,7 @@ export const ethikTopics: Record<string, EthikTopic> = {
         "folder": "sokrates-und-die-sokratische-methode-2794"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Pflichtethik+Kant+Deontologie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Pflichtethik+Kant+Deontologie&t=155"
   },
   "utilitarismus-und-folgenethik": {
     "slug": "utilitarismus-und-folgenethik",
@@ -243,7 +243,7 @@ export const ethikTopics: Record<string, EthikTopic> = {
         "folder": "handlungen-und-ihre-folgen-797"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Utilitarismus+Folgenethik&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Utilitarismus+Folgenethik&t=155"
   },
   "tugendethik-diskursethik-und-dilemmata": {
     "slug": "tugendethik-diskursethik-und-dilemmata",
@@ -340,7 +340,7 @@ export const ethikTopics: Record<string, EthikTopic> = {
         "folder": "gott-in-der-philosophie-6649"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Tugendethik+Diskursethik+Dilemmata&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Tugendethik+Diskursethik+Dilemmata&t=155"
   },
   "glueck-und-gelingendes-leben": {
     "slug": "glueck-und-gelingendes-leben",
@@ -406,7 +406,7 @@ export const ethikTopics: Record<string, EthikTopic> = {
         "folder": "philosophie-der-geschichte-5857"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Glück+Lebenssinn+Ethik&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Gl%C3%BCck+Lebenssinn+Ethik&t=155"
   },
   "freiheit-wille-und-determinismus": {
     "slug": "freiheit-wille-und-determinismus",
@@ -478,7 +478,7 @@ export const ethikTopics: Record<string, EthikTopic> = {
         "folder": "philosophie-und-bewusstsein-5870"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Freier+Wille+Freiheit+Determinismus&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Freier+Wille+Freiheit+Determinismus&t=155"
   },
   "selbstbild-identitaet-und-jugend": {
     "slug": "selbstbild-identitaet-und-jugend",
@@ -529,7 +529,7 @@ export const ethikTopics: Record<string, EthikTopic> = {
         "folder": "religion-und-personliche-identitat-6714"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=identitaet+selbstbild+jugend&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=identitaet+selbstbild+jugend&t=155"
   },
   "lebenssinn-und-verantwortung": {
     "slug": "lebenssinn-und-verantwortung",
@@ -615,7 +615,7 @@ export const ethikTopics: Record<string, EthikTopic> = {
         "folder": "philosophie-und-mythologie-5873"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Sinn+des+Lebens+Verantwortung&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Sinn+des+Lebens+Verantwortung&t=155"
   },
   "medizin-und-bioethik": {
     "slug": "medizin-und-bioethik",
@@ -692,7 +692,7 @@ export const ethikTopics: Record<string, EthikTopic> = {
         "folder": "organ-spende-per-gesetz-der-radikale-weg-der-widerspruchsloesung"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Medizinethik+Bioethik+Organspende&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Medizinethik+Bioethik+Organspende&t=155"
   },
   "sterbehilfe-suizidpravention-und-hospiz": {
     "slug": "sterbehilfe-suizidpravention-und-hospiz",
@@ -754,7 +754,7 @@ export const ethikTopics: Record<string, EthikTopic> = {
         "folder": "umgang-mit-dem-tod-6733"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Sterbehilfe+Hospiz+Trauer&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Sterbehilfe+Hospiz+Trauer&t=155"
   },
   "umweltethik-und-klimagerechtigkeit": {
     "slug": "umweltethik-und-klimagerechtigkeit",
@@ -825,7 +825,7 @@ export const ethikTopics: Record<string, EthikTopic> = {
         "folder": "global-goal-17-partnerschaften-starken-gemeinsam-fur-nachhaltige-zukunft-4491"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Umweltethik+Klimagerechtigkeit&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Umweltethik+Klimagerechtigkeit&t=155"
   },
   "konsumethik-und-fairer-handel": {
     "slug": "konsumethik-und-fairer-handel",
@@ -897,7 +897,7 @@ export const ethikTopics: Record<string, EthikTopic> = {
         "folder": "nachhaltiger-konsum-2672"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Konsumethik+Fairtrade+Tierethik&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Konsumethik+Fairtrade+Tierethik&t=155"
   },
   "ki-ethik-und-automatisierung": {
     "slug": "ki-ethik-und-automatisierung",
@@ -959,7 +959,7 @@ export const ethikTopics: Record<string, EthikTopic> = {
         "folder": "philosophie-und-wissenschaftstheorie-5876"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=KI+Ethik+Kuenstliche+Intelligenz&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=KI+Ethik+Kuenstliche+Intelligenz&t=155"
   },
   "medienethik-desinformation-und-verantwortung": {
     "slug": "medienethik-desinformation-und-verantwortung",
@@ -1041,7 +1041,7 @@ export const ethikTopics: Record<string, EthikTopic> = {
         "folder": "politische-philosophie-grundlagen-5882"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Medienethik+Fake+News+Datenschutz&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Medienethik+Fake+News+Datenschutz&t=155"
   },
   "cybermobbing-hate-speech-und-respekt": {
     "slug": "cybermobbing-hate-speech-und-respekt",
@@ -1118,7 +1118,7 @@ export const ethikTopics: Record<string, EthikTopic> = {
         "folder": "zwangsheirat-und-ihre-gesellschaftlichen-folgen-3601"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Cybermobbing+Hate+Speech+Respekt&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Cybermobbing+Hate+Speech+Respekt&t=155"
   },
   "freundschaft-empathie-und-respekt": {
     "slug": "freundschaft-empathie-und-respekt",
@@ -1195,7 +1195,7 @@ export const ethikTopics: Record<string, EthikTopic> = {
         "folder": "strategien-zur-konfliktlosung-5892"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Freundschaft+Empathie+Respekt+Ethik&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Freundschaft+Empathie+Respekt+Ethik&t=155"
   },
   "toleranz-vorurteile-und-inklusion": {
     "slug": "toleranz-vorurteile-und-inklusion",
@@ -1301,7 +1301,7 @@ export const ethikTopics: Record<string, EthikTopic> = {
         "folder": "neujahrsbrauche-weltweit-6707"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Toleranz+Vorurteile+Inklusion&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Toleranz+Vorurteile+Inklusion&t=155"
   },
   "menschenrechte-und-globale-gerechtigkeit": {
     "slug": "menschenrechte-und-globale-gerechtigkeit",
@@ -1408,7 +1408,7 @@ export const ethikTopics: Record<string, EthikTopic> = {
         "folder": "die-todesstrafe-2983"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Menschenrechte+Kinderrechte+Gerechtigkeit&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Menschenrechte+Kinderrechte+Gerechtigkeit&t=155"
   },
   "friedensethik-konflikte-und-versoehnung": {
     "slug": "friedensethik-konflikte-und-versoehnung",
@@ -1505,7 +1505,7 @@ export const ethikTopics: Record<string, EthikTopic> = {
         "folder": "philosophie-der-sprache-5861"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Friedensethik+Krieg+Versoehnung&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Friedensethik+Krieg+Versoehnung&t=155"
   },
   "berufsethik-wirtschaft-und-wissenschaft": {
     "slug": "berufsethik-wirtschaft-und-wissenschaft",
@@ -1582,6 +1582,6 @@ export const ethikTopics: Record<string, EthikTopic> = {
         "folder": "kulturphilosophie-und-identitat-5834"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Berufsethik+Wirtschaftsethik+Sportethik&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Berufsethik+Wirtschaftsethik+Sportethik&t=155"
   }
 };

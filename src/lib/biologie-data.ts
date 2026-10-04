@@ -89,7 +89,7 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "folder": "wie-funktioniert-die-geschmackswahrnehmung"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=sinnesorgane+des+menschen&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=sinnesorgane+des+menschen&t=148"
   },
   "herz-und-blutkreislauf": {
     "slug": "herz-und-blutkreislauf",
@@ -141,7 +141,7 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "folder": "wie-funktioniert-ein-herzschrittmacher"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=herz+und+blutkreislauf&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=herz+und+blutkreislauf&t=148"
   },
   "verdauung-und-stoffwechsel": {
     "slug": "verdauung-und-stoffwechsel",
@@ -217,7 +217,7 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "folder": "sprechende-bauchspeicheldruse-631"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=verdauung+und+stoffwechsel&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=verdauung+und+stoffwechsel&t=148"
   },
   "atmung-und-lunge": {
     "slug": "atmung-und-lunge",
@@ -263,7 +263,7 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "folder": "luftschadstoffe-5171"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=atmung+und+lunge&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=atmung+und+lunge&t=148"
   },
   "skelett-und-muskeln": {
     "slug": "skelett-und-muskeln",
@@ -309,7 +309,7 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "folder": "ethik-im-sport-doping-und-fair-play-2841"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=skelett+und+muskeln&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=skelett+und+muskeln&t=148"
   },
   "nervensystem-und-gehirn": {
     "slug": "nervensystem-und-gehirn",
@@ -356,7 +356,7 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "folder": "warum-lesen-gut-fuer-das-gehirn-ist"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=nervensystem+und+gehirn&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=nervensystem+und+gehirn&t=148"
   },
   "immunsystem-und-abwehr": {
     "slug": "immunsystem-und-abwehr",
@@ -437,7 +437,7 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "folder": "das-lymphsystem-lymphknoten-und-gefaese-2116"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=immunsystem+und+abwehr&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=immunsystem+und+abwehr&t=148"
   },
   "allergien-und-autoimmunitaet": {
     "slug": "allergien-und-autoimmunitaet",
@@ -484,7 +484,7 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "folder": "entzundungen-symptome-und-ursachen-2149"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=allergien+und+autoimmunitaet&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=allergien+und+autoimmunitaet&t=148"
   },
   "infektionskrankheiten-und-medizin": {
     "slug": "infektionskrankheiten-und-medizin",
@@ -556,7 +556,7 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "folder": "hepatitis-a-b-und-c-2148"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=infektionskrankheiten+und+medizin&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=infektionskrankheiten+und+medizin&t=148"
   },
   "die-haut": {
     "slug": "die-haut",
@@ -607,7 +607,7 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "folder": "die-haut-schweies-und-talgdrusen-2098"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=die+haut+schutzfunktionen&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=die+haut+schutzfunktionen&t=148"
   },
   "fortpflanzung-und-entwicklung": {
     "slug": "fortpflanzung-und-entwicklung",
@@ -674,7 +674,7 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "folder": "sexuelle-orientierung-und-identitat-2747"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=fortpflanzung+und+entwicklung&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=fortpflanzung+und+entwicklung&t=148"
   },
   "sucht-und-drogen": {
     "slug": "sucht-und-drogen",
@@ -741,7 +741,7 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "folder": "drogenfalle-e-zigarette-die-unterschaetzten-schaeden-durch-vaping"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=sucht+und+drogen&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=sucht+und+drogen&t=148"
   },
   "suchtpraevention-und-gesellschaft": {
     "slug": "suchtpraevention-und-gesellschaft",
@@ -798,7 +798,7 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "folder": "strategien-zur-suchtpravention-5894"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=suchtpraevention+und+gesellschaft&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=suchtpraevention+und+gesellschaft&t=148"
   },
   "pflanzen-grundlagen-und-aufbau": {
     "slug": "pflanzen-grundlagen-und-aufbau",
@@ -860,7 +860,7 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "folder": "wie-funktioniert-die-photosynthese"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=pflanzen+grundlagen+und+aufbau&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=pflanzen+grundlagen+und+aufbau&t=148"
   },
   "baeume-laub-und-nadelbaeume": {
     "slug": "baeume-laub-und-nadelbaeume",
@@ -921,7 +921,7 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "folder": "der-olivenbaum-symbol-des-mittelmeers-2199"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=baeume+laub+und+nadelbaeume&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=baeume+laub+und+nadelbaeume&t=148"
   },
   "nutzpflanzen-und-landwirtschaft": {
     "slug": "nutzpflanzen-und-landwirtschaft",
@@ -1002,7 +1002,7 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "folder": "der-buchsbaum-ein-klassiker-im-garten-2189"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=nutzpflanzen+und+landwirtschaft&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=nutzpflanzen+und+landwirtschaft&t=148"
   },
   "kraeuter-und-heilpflanzen": {
     "slug": "kraeuter-und-heilpflanzen",
@@ -1078,7 +1078,7 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "folder": "das-basilikum-3396"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=kraeuter+und+heilpflanzen&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=kraeuter+und+heilpflanzen&t=148"
   },
   "bluetenpflanzen-und-blumen": {
     "slug": "bluetenpflanzen-und-blumen",
@@ -1144,7 +1144,7 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "folder": "einkeimblattrige-und-zweikeimblattrige-pflanzen-2223"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=bluetenpflanzen+und+blumen&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=bluetenpflanzen+und+blumen&t=148"
   },
   "pilze-moose-und-farne": {
     "slug": "pilze-moose-und-farne",
@@ -1186,7 +1186,7 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "folder": "der-farn-ein-berlebenskunstler-der-walder-2217"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=pilze+moose+und+farne&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=pilze+moose+und+farne&t=148"
   },
   "waldtiere-und-raubtiere": {
     "slug": "waldtiere-und-raubtiere",
@@ -1247,7 +1247,7 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "folder": "der-dachs-3393"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=waldtiere+und+raubtiere&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=waldtiere+und+raubtiere&t=148"
   },
   "kleinsaeuger-und-alpentierwelt": {
     "slug": "kleinsaeuger-und-alpentierwelt",
@@ -1303,7 +1303,7 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "folder": "der-hase-3389"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=kleinsaeuger+und+alpentierwelt&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=kleinsaeuger+und+alpentierwelt&t=148"
   },
   "exotische-saeugetiere-und-savanne": {
     "slug": "exotische-saeugetiere-und-savanne",
@@ -1385,7 +1385,7 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "folder": "das-nashorn-3395"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=exotische+saeugetiere+und+savanne&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=exotische+saeugetiere+und+savanne&t=148"
   },
   "nutztiere-und-landwirtschaft": {
     "slug": "nutztiere-und-landwirtschaft",
@@ -1442,7 +1442,7 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "folder": "tierversuche-4458"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=nutztiere+und+landwirtschaft&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=nutztiere+und+landwirtschaft&t=148"
   },
   "haustiere-und-heimtiere": {
     "slug": "haustiere-und-heimtiere",
@@ -1493,7 +1493,7 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "folder": "grundlagen-des-tierverhaltens-5932"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=haustiere+und+heimtiere&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=haustiere+und+heimtiere&t=148"
   },
   "fische-und-leben-im-wasser": {
     "slug": "fische-und-leben-im-wasser",
@@ -1549,7 +1549,7 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "folder": "internationale-abkommen-zum-schutz-der-meere-3545"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=fische+und+leben+im+wasser&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=fische+und+leben+im+wasser&t=148"
   },
   "heimische-singvoegel-und-greifvoegel": {
     "slug": "heimische-singvoegel-und-greifvoegel",
@@ -1605,7 +1605,7 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "folder": "die-eule-3378"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=heimische+singvoegel+und+greifvoegel&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=heimische+singvoegel+und+greifvoegel&t=148"
   },
   "zugvoegel-und-exotische-voegel": {
     "slug": "zugvoegel-und-exotische-voegel",
@@ -1656,7 +1656,7 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "folder": "der-emu-3388"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=zugvoegel+und+exotische+voegel&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=zugvoegel+und+exotische+voegel&t=148"
   },
   "reptilien-und-amphibien": {
     "slug": "reptilien-und-amphibien",
@@ -1702,7 +1702,7 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "folder": "das-reptil-1108"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=reptilien+und+amphibien&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=reptilien+und+amphibien&t=148"
   },
   "insekten-und-staatenbildner": {
     "slug": "insekten-und-staatenbildner",
@@ -1763,7 +1763,7 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "folder": "verwandlung-in-der-natur-vom-ei-zum-schmetterling-4496"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=insekten+und+staatenbildner&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=insekten+und+staatenbildner&t=148"
   },
   "spinnentiere-krebse-und-wirbellose": {
     "slug": "spinnentiere-krebse-und-wirbellose",
@@ -1824,7 +1824,7 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "folder": "der-krebs-video-fehlt-1145"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=spinnentiere+krebse+und+wirbellose&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=spinnentiere+krebse+und+wirbellose&t=148"
   },
   "zellbiologie-und-mikroskopie": {
     "slug": "zellbiologie-und-mikroskopie",
@@ -1860,7 +1860,7 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "folder": "wie-funktioniert-die-dna-replikation"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=zellbiologie+und+mikroskopie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=zellbiologie+und+mikroskopie&t=148"
   },
   "genetik-dna-und-vererbung": {
     "slug": "genetik-dna-und-vererbung",
@@ -1922,7 +1922,7 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "folder": "die-geschichte-der-genetik-5357"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=genetik+dna+und+vererbung&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=genetik+dna+und+vererbung&t=148"
   },
   "gentechnik-biotechnologie-und-medizin": {
     "slug": "gentechnik-biotechnologie-und-medizin",
@@ -1979,7 +1979,7 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "folder": "genmanipulation-und-designer-babys-2854"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=gentechnik+biotechnologie+und+medizin&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=gentechnik+biotechnologie+und+medizin&t=148"
   },
   "evolution-und-stammesgeschichte": {
     "slug": "evolution-und-stammesgeschichte",
@@ -2040,7 +2040,7 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "folder": "dinosaurier-5387"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=evolution+und+stammesgeschichte&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=evolution+und+stammesgeschichte&t=148"
   },
   "oekologie-und-lebensraeume": {
     "slug": "oekologie-und-lebensraeume",
@@ -2117,6 +2117,6 @@ export const biologieTopics: Record<string, BiologieTopic> = {
         "folder": "der-tropische-regenwald-2027"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=oekologie+und+lebensraeume&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=oekologie+und+lebensraeume&t=148"
   }
 };

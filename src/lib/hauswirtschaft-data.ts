@@ -83,7 +83,7 @@ export const hauswirtschaftTopics: Record<string, HauswirtschaftTopic> = {
         "folder": "wie-funktioniert-ein-dampfkochtopf-2508"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=kochen+hauswirtschaft&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=kochen+hauswirtschaft&t=141"
   },
   "ernaehrungspyramide-und-naehrstoffe": {
     "slug": "ernaehrungspyramide-und-naehrstoffe",
@@ -125,7 +125,7 @@ export const hauswirtschaftTopics: Record<string, HauswirtschaftTopic> = {
         "folder": "escape-room-quot-ernahrung-grundlagen-quot-3234"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=vorratshaltung+lagerung+hauswirtschaft&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=vorratshaltung+lagerung+hauswirtschaft&t=141"
   },
   "haushaltsbudget-und-finanzen": {
     "slug": "haushaltsbudget-und-finanzen",
@@ -183,7 +183,7 @@ export const hauswirtschaftTopics: Record<string, HauswirtschaftTopic> = {
         "folder": "geisterstaedte-statt-einkaufsmeilen-das-grosse-sterben-der-innenstadtgeschaefte"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=haushaltsbuch+finanzen&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=haushaltsbuch+finanzen&t=141"
   },
   "nachhaltiger-haushalt-und-textilpflege": {
     "slug": "nachhaltiger-haushalt-und-textilpflege",
@@ -241,6 +241,6 @@ export const hauswirtschaftTopics: Record<string, HauswirtschaftTopic> = {
         "folder": "seifen-und-waschmittel-5179"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=waeschepflege+reinigung+nachhaltigkeit&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=waeschepflege+reinigung+nachhaltigkeit&t=141"
   }
 };

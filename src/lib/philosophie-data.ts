@@ -59,7 +59,7 @@ export const philosophieTopics: Record<string, PhilosophieTopic> = {
         "folder": "wissen-und-weisheit-5914"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Sokrates+Philosophie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Sokrates+Philosophie&t=155"
   },
   "platon-und-die-ideenlehre": {
     "slug": "platon-und-die-ideenlehre",
@@ -95,7 +95,7 @@ export const philosophieTopics: Record<string, PhilosophieTopic> = {
         "folder": "die-frage-nach-der-natur-der-realitat-2777"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Platon+Ideenlehre+Hoehlengleichnis&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Platon+Ideenlehre+Hoehlengleichnis&t=155"
   },
   "aristoteles-und-die-antike-philosophie": {
     "slug": "aristoteles-und-die-antike-philosophie",
@@ -132,7 +132,7 @@ export const philosophieTopics: Record<string, PhilosophieTopic> = {
         "folder": "philosophie-und-wissenschaft-im-antiken-griechenland-5217"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Aristoteles+Ethik+Philosophie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Aristoteles+Ethik+Philosophie&t=155"
   },
   "descartes-rationalismus-und-erkenntniskritik": {
     "slug": "descartes-rationalismus-und-erkenntniskritik",
@@ -173,7 +173,7 @@ export const philosophieTopics: Record<string, PhilosophieTopic> = {
         "folder": "gottfried-wilhelm-leibniz-3909"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Descartes+Cogito+Rationalismus&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Descartes+Cogito+Rationalismus&t=155"
   },
   "immanuel-kant-und-die-aufklaerung": {
     "slug": "immanuel-kant-und-die-aufklaerung",
@@ -215,7 +215,7 @@ export const philosophieTopics: Record<string, PhilosophieTopic> = {
         "folder": "transzendentale-bedingungen-der-erfahrung-5901"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Immanuel+Kant+Aufklaerung&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Immanuel+Kant+Aufklaerung&t=155"
   },
   "deutscher-idealismus-und-dialektik": {
     "slug": "deutscher-idealismus-und-dialektik",
@@ -252,7 +252,7 @@ export const philosophieTopics: Record<string, PhilosophieTopic> = {
         "folder": "kritische-theorie-verstehen-5832"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Hegel+Dialektik+Idealismus&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Hegel+Dialektik+Idealismus&t=155"
   },
   "friedrich-nietzsche-und-der-uebermensch": {
     "slug": "friedrich-nietzsche-und-der-uebermensch",
@@ -289,7 +289,7 @@ export const philosophieTopics: Record<string, PhilosophieTopic> = {
         "folder": "der-zusammenhang-zwischen-wissen-und-macht-2761"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Friedrich+Nietzsche+Philosophie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Friedrich+Nietzsche+Philosophie&t=155"
   },
   "existenzialismus-camus-und-sartre": {
     "slug": "existenzialismus-camus-und-sartre",
@@ -336,7 +336,7 @@ export const philosophieTopics: Record<string, PhilosophieTopic> = {
         "folder": "jean-paul-sartre-4009"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Existenzialismus+Sartre+Camus&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Existenzialismus+Sartre+Camus&t=155"
   },
   "existenzphilosophie-zeit-und-endlichkeit": {
     "slug": "existenzphilosophie-zeit-und-endlichkeit",
@@ -372,7 +372,7 @@ export const philosophieTopics: Record<string, PhilosophieTopic> = {
         "folder": "philosophie-der-existenz-5854"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Heidegger+Zeit+Endlichkeit+Philosophie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Heidegger+Zeit+Endlichkeit+Philosophie&t=155"
   },
   "philosophische-anthropologie-geist-und-bewusstsein": {
     "slug": "philosophische-anthropologie-geist-und-bewusstsein",
@@ -414,7 +414,7 @@ export const philosophieTopics: Record<string, PhilosophieTopic> = {
         "folder": "menschliche-existenz-analysieren-5836"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Philosophische+Anthropologie+Geist+Bewusstsein&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Philosophische+Anthropologie+Geist+Bewusstsein&t=155"
   },
   "erkenntnistheorie-und-konstruktivismus": {
     "slug": "erkenntnistheorie-und-konstruktivismus",
@@ -466,7 +466,7 @@ export const philosophieTopics: Record<string, PhilosophieTopic> = {
         "folder": "pragmatismus-und-wahrheit-5884"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Erkenntnistheorie+Konstruktivismus&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Erkenntnistheorie+Konstruktivismus&t=155"
   },
   "philosophische-logik-und-analytische-philosophie": {
     "slug": "philosophische-logik-und-analytische-philosophie",
@@ -508,7 +508,7 @@ export const philosophieTopics: Record<string, PhilosophieTopic> = {
         "folder": "unendlichkeit-und-unendliches-5902"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Philosophische+Logik+Analytische+Philosophie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Philosophische+Logik+Analytische+Philosophie&t=155"
   },
   "wissenschaftstheorie-und-technikphilosophie": {
     "slug": "wissenschaftstheorie-und-technikphilosophie",
@@ -560,7 +560,7 @@ export const philosophieTopics: Record<string, PhilosophieTopic> = {
         "folder": "wissenschaftliche-revolutionen-3355"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Wissenschaftstheorie+Popper+Technikphilosophie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Wissenschaftstheorie+Popper+Technikphilosophie&t=155"
   },
   "moralphilosophie-und-ethische-theorien": {
     "slug": "moralphilosophie-und-ethische-theorien",
@@ -647,7 +647,7 @@ export const philosophieTopics: Record<string, PhilosophieTopic> = {
         "folder": "wahrheit-notlugen-und-lugen-4468"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Moralphilosophie+Normative+Ethik&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Moralphilosophie+Normative+Ethik&t=155"
   },
   "angewandte-philosophische-ethik": {
     "slug": "angewandte-philosophische-ethik",
@@ -704,7 +704,7 @@ export const philosophieTopics: Record<string, PhilosophieTopic> = {
         "folder": "psychologische-forschungsethik-2744"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Angewandte+Ethik+Verantwortung&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Angewandte+Ethik+Verantwortung&t=155"
   },
   "staatsphilosophie-und-vertragstheorien": {
     "slug": "staatsphilosophie-und-vertragstheorien",
@@ -781,7 +781,7 @@ export const philosophieTopics: Record<string, PhilosophieTopic> = {
         "folder": "john-locke-4029"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Staatsphilosophie+Gesellschaftsvertrag+Rawls&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Staatsphilosophie+Gesellschaftsvertrag+Rawls&t=155"
   },
   "sozialphilosophie-und-gesellschaftskritik": {
     "slug": "sozialphilosophie-und-gesellschaftskritik",
@@ -843,7 +843,7 @@ export const philosophieTopics: Record<string, PhilosophieTopic> = {
         "folder": "gender-gerechtigkeit-und-gleichstellung-2853"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Gesellschaftskritik+Feminismus+Philosophie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Gesellschaftskritik+Feminismus+Philosophie&t=155"
   },
   "sprachphilosophie-hermeneutik-und-postmoderne": {
     "slug": "sprachphilosophie-hermeneutik-und-postmoderne",
@@ -895,7 +895,7 @@ export const philosophieTopics: Record<string, PhilosophieTopic> = {
         "folder": "ludwig-wittgenstein-4053"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Sprachphilosophie+Wittgenstein+Hermeneutik&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Sprachphilosophie+Wittgenstein+Hermeneutik&t=155"
   },
   "aesthetik-kunst-und-kulturphilosophie": {
     "slug": "aesthetik-kunst-und-kulturphilosophie",
@@ -962,7 +962,7 @@ export const philosophieTopics: Record<string, PhilosophieTopic> = {
         "folder": "kulturelle-philosophie-perspektiven-5833"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Aesthetik+Kunstphilosophie+Kulturphilosophie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Aesthetik+Kunstphilosophie+Kulturphilosophie&t=155"
   },
   "religionsphilosophie-und-metaphysik": {
     "slug": "religionsphilosophie-und-metaphysik",
@@ -1009,7 +1009,7 @@ export const philosophieTopics: Record<string, PhilosophieTopic> = {
         "folder": "mittelalterliche-theologie-und-philosophie-5842"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Religionsphilosophie+Gottesbeweise+Theodizee&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Religionsphilosophie+Gottesbeweise+Theodizee&t=155"
   },
   "philosophische-lebenskunst-und-methodik": {
     "slug": "philosophische-lebenskunst-und-methodik",
@@ -1071,6 +1071,6 @@ export const philosophieTopics: Record<string, PhilosophieTopic> = {
         "folder": "philosophie-in-der-schweiz-6390"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Philosophische+Lebenskunst+Methodik&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Philosophische+Lebenskunst+Methodik&t=155"
   }
 };

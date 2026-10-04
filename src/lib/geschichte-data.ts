@@ -106,7 +106,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "fruhe-kulturen-und-metallzeiten-3361"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Steinzeit%20%26%20Fr%C3%BChe%20Menschheitsentwicklung+geschichte&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Steinzeit+%26+Fr%C3%BChe+Menschheitsentwicklung+geschichte&t=147"
   },
   "altes-aegypten-und-fruehe-hochkulturen": {
     "slug": "altes-aegypten-und-fruehe-hochkulturen",
@@ -209,7 +209,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "anubis-1205"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Das%20alte%20%C3%84gypten%20%26%20Fr%C3%BChe%20Hochkulturen+geschichte&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Das+alte+%C3%84gypten+%26+Fr%C3%BChe+Hochkulturen+geschichte&t=147"
   },
   "antikes-griechenland-demokratie-und-kriege": {
     "slug": "antikes-griechenland-demokratie-und-kriege",
@@ -286,7 +286,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "die-geschichte-der-olympischen-spiele-5361"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Antikes+Griechenland+Demokratie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Antikes+Griechenland+Demokratie&t=147"
   },
   "griechische-antike-kultur-und-mythologie": {
     "slug": "griechische-antike-kultur-und-mythologie",
@@ -398,7 +398,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "antigone-von-sophokles-bezug-zur-gegenwart-2-6280"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Griechische+Mythologie+Kultur&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Griechische+Mythologie+Kultur&t=147"
   },
   "roemische-republik-und-expansion": {
     "slug": "roemische-republik-und-expansion",
@@ -475,7 +475,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "juno-1336"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Roemische+Republik+Caesar&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Roemische+Republik+Caesar&t=147"
   },
   "roemische-kaiserzeit-und-alltag": {
     "slug": "roemische-kaiserzeit-und-alltag",
@@ -562,7 +562,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "die-romische-armee-1367"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Roemisches+Kaiserreich+Limes&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Roemisches+Kaiserreich+Limes&t=147"
   },
   "die-kelten-in-europa": {
     "slug": "die-kelten-in-europa",
@@ -593,7 +593,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "die-burgunden-3159"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=kelten&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=kelten&t=147"
   },
   "staendegesellschaft-und-alltag-im-mittelalter": {
     "slug": "staendegesellschaft-und-alltag-im-mittelalter",
@@ -698,7 +698,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "deutschland-im-mittelalter"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=St%C3%A4ndegesellschaft%20%26%20Alltag%20im%20Mittelalter+geschichte&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=St%C3%A4ndegesellschaft+%26+Alltag+im+Mittelalter+geschichte&t=147"
   },
   "ritter-burgen-und-ritterausbildung": {
     "slug": "ritter-burgen-und-ritterausbildung",
@@ -741,7 +741,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "die-wikinger-2993"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Rittertum%2C%20Burgen%20%26%20Ritterausbildung+geschichte&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Rittertum%2C+Burgen+%26+Ritterausbildung+geschichte&t=147"
   },
   "staedte-und-die-hanse": {
     "slug": "staedte-und-die-hanse",
@@ -801,7 +801,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "die-entwicklung-von-stadten-vom-antiken-zentrum-bis-zur-megastadt-5459"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Mittelalterliche%20St%C3%A4dte%20%26%20Die%20Hanse+geschichte&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Mittelalterliche+St%C3%A4dte+%26+Die+Hanse+geschichte&t=147"
   },
   "kirche-kloester-und-kreuzzuege": {
     "slug": "kirche-kloester-und-kreuzzuege",
@@ -891,7 +891,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "die-babenberger-3089"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Kirche%2C%20Kl%C3%B6ster%2C%20Kaiser%20%26%20Kreuzz%C3%BCge+geschichte&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Kirche%2C+Kl%C3%B6ster%2C+Kaiser+%26+Kreuzz%C3%BCge+geschichte&t=147"
   },
   "schwarzer-tod-die-pest": {
     "slug": "schwarzer-tod-die-pest",
@@ -938,7 +938,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "die-inquisition-2342"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Die%20Deutschen%20Bauernkriege+geschichte&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Die+Deutschen+Bauernkriege+geschichte&t=147"
   },
   "renaissance-humanismus-und-buchdruck": {
     "slug": "renaissance-humanismus-und-buchdruck",
@@ -1028,7 +1028,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "weltbilder-3339"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Renaissance%2C%20Humanismus%20%26%20Buchdruck+geschichte&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Renaissance%2C+Humanismus+%26+Buchdruck+geschichte&t=147"
   },
   "zeitalter-der-entdeckungen": {
     "slug": "zeitalter-der-entdeckungen",
@@ -1115,7 +1115,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "die-erste-weltumsegelung-2-5344"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Zeitalter+der+Entdeckungen+Kolumbus&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Zeitalter+der+Entdeckungen+Kolumbus&t=147"
   },
   "reformation-und-dreissigjaehriger-krieg": {
     "slug": "reformation-und-dreissigjaehriger-krieg",
@@ -1200,7 +1200,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "der-dreiesigjahrige-krieg-883"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Reformation%2C%20Glaubensspaltung%20%26%20Drei%C3%9Figj%C3%A4hriger%20Krieg+geschichte&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Reformation%2C+Glaubensspaltung+%26+Drei%C3%9Figj%C3%A4hriger+Krieg+geschichte&t=147"
   },
   "absolutismus-und-ludwig-xiv": {
     "slug": "absolutismus-und-ludwig-xiv",
@@ -1247,7 +1247,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "absolutismus-2-3374"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Absolutismus%20Ludwig%20XIV+geschichte&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Absolutismus+Ludwig+XIV+geschichte&t=147"
   },
   "die-aufklaerung-ideen-und-denker": {
     "slug": "die-aufklaerung-ideen-und-denker",
@@ -1294,7 +1294,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "john-locke-4029"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Die+Aufklaerung+Kant+Rousseau&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Die+Aufklaerung+Kant+Rousseau&t=147"
   },
   "die-franzoesische-revolution-1789": {
     "slug": "die-franzoesische-revolution-1789",
@@ -1366,7 +1366,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "studypoint-zusammenfassung-ablauf-der-revolution-701"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Franzoesische+Revolution+1789&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Franzoesische+Revolution+1789&t=147"
   },
   "napoleon-bonaparte-und-wiener-kongress": {
     "slug": "napoleon-bonaparte-und-wiener-kongress",
@@ -1426,7 +1426,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "was-ware-wenn-napoleon-in-russland-gesiegt-hatte-5421"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Napoleon%20Bonaparte%20%26%20Der%20Wiener%20Kongress+geschichte&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Napoleon+Bonaparte+%26+Der+Wiener+Kongress+geschichte&t=147"
   },
   "aufklaerung-schulpflicht-und-reformen": {
     "slug": "aufklaerung-schulpflicht-und-reformen",
@@ -1467,7 +1467,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "die-rolle-von-musik-in-der-aufklaerung"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=schulpflicht+aufklaerung&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=schulpflicht+aufklaerung&t=147"
   },
   "chronik-des-18-jahrhunderts": {
     "slug": "chronik-des-18-jahrhunderts",
@@ -1547,7 +1547,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "1750-5123"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=18+jahrhundert&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=18+jahrhundert&t=147"
   },
   "die-schweizer-eidgenossenschaft-und-bundesstaat": {
     "slug": "die-schweizer-eidgenossenschaft-und-bundesstaat",
@@ -1598,7 +1598,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "die-geschichte-der-schweiz-2954"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=schweizer+geschichte&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=schweizer+geschichte&t=147"
   },
   "geschichte-der-usa": {
     "slug": "geschichte-der-usa",
@@ -1665,7 +1665,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "die-prohibition-in-den-usa-1920-2971"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=geschichte+usa&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=geschichte+usa&t=147"
   },
   "industrielle-revolution-und-soziale-frage": {
     "slug": "industrielle-revolution-und-soziale-frage",
@@ -1755,7 +1755,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "industrialisierung-und-die-folgen-3367"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Industrielle%20Revolution%20%26%20Die%20Soziale%20Frage+geschichte&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Industrielle+Revolution+%26+Die+Soziale+Frage+geschichte&t=147"
   },
   "vormaerz-und-revolution-1848": {
     "slug": "vormaerz-und-revolution-1848",
@@ -1825,7 +1825,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "deutschland-im-19-jahrhundert-3373"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Vorm%C3%A4rz%20%26%20Die%20Revolution%20von%201848%2F49+geschichte&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Vorm%C3%A4rz+%26+Die+Revolution+von+1848%2F49+geschichte&t=147"
   },
   "otto-von-bismarck-und-deutsches-kaiserreich": {
     "slug": "otto-von-bismarck-und-deutsches-kaiserreich",
@@ -1912,7 +1912,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "die-nationale-einigung-italiens-2966"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Otto%20von%20Bismarck%20%26%20Das%20Deutsche%20Kaiserreich+geschichte&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Otto+von+Bismarck+%26+Das+Deutsche+Kaiserreich+geschichte&t=147"
   },
   "kolonialismus-und-imperialismus": {
     "slug": "kolonialismus-und-imperialismus",
@@ -2015,7 +2015,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "ausbeutung-amerikas-2293"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Kolonialismus+Imperialismus&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Kolonialismus+Imperialismus&t=147"
   },
   "das-kaisertum-oesterreich-und-die-habsburger": {
     "slug": "das-kaisertum-oesterreich-und-die-habsburger",
@@ -2087,7 +2087,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "das-sterreichische-kaiserreich-5334"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Habsburger+Kaisertum+Oesterreich&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Habsburger+Kaisertum+Oesterreich&t=147"
   },
   "oesterreich-ungarn-vielvoelkerstaat-und-regionalgeschichte": {
     "slug": "oesterreich-ungarn-vielvoelkerstaat-und-regionalgeschichte",
@@ -2144,7 +2144,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "kaiser-karl-i-von-sterreich-ungarn-3019"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Oesterreich-Ungarn+Vielvoelkerstaat&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Oesterreich-Ungarn+Vielvoelkerstaat&t=147"
   },
   "der-erste-weltkrieg-ursachen-und-ausbruch": {
     "slug": "der-erste-weltkrieg-ursachen-und-ausbruch",
@@ -2206,7 +2206,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "was-ware-wenn-deutschland-den-ersten-weltkrieg-gewonnen-hatte-5406"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Erster+Weltkrieg+Ursachen+1914&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Erster+Weltkrieg+Ursachen+1914&t=147"
   },
   "der-erste-weltkrieg-verlauf-und-folgen": {
     "slug": "der-erste-weltkrieg-verlauf-und-folgen",
@@ -2294,7 +2294,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "arbeitslosigkeit-nach-dem-ersten-weltkrieg-6-3075"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Erster+Weltkrieg+Verlauf+Versailles&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Erster+Weltkrieg+Verlauf+Versailles&t=147"
   },
   "die-weimarer-republik-1918-1933": {
     "slug": "die-weimarer-republik-1918-1933",
@@ -2354,7 +2354,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "ausrufung-der-republik-1918-3266"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Die%20Weimarer%20Republik%20%26%20Krisenjahre+geschichte&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Die+Weimarer+Republik+%26+Krisenjahre+geschichte&t=147"
   },
   "zwischenkriegszeit-und-diktaturen-in-europa": {
     "slug": "zwischenkriegszeit-und-diktaturen-in-europa",
@@ -2464,7 +2464,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "kurt-schuschnigg-3027"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Zwischenkriegszeit%20%26%20Faschismus%20in%20Europa+geschichte&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Zwischenkriegszeit+%26+Faschismus+in+Europa+geschichte&t=147"
   },
   "weimarer-republik-und-grossstadtkrisen": {
     "slug": "weimarer-republik-und-grossstadtkrisen",
@@ -2500,7 +2500,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "arbeitslosigkeit-nach-dem-ersten-weltkrieg-2889"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=weimarer+republik&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=weimarer+republik&t=147"
   },
   "machtergreifung-und-ns-ideologie": {
     "slug": "machtergreifung-und-ns-ideologie",
@@ -2585,7 +2585,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "ns-organisationen-3309"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Machtergreifung%2C%20NS-Ideologie%20%26%20F%C3%BChrerstaat+geschichte&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Machtergreifung%2C+NS-Ideologie+%26+F%C3%BChrerstaat+geschichte&t=147"
   },
   "der-zweite-weltkrieg-weg-in-den-krieg-und-blitzkriege": {
     "slug": "der-zweite-weltkrieg-weg-in-den-krieg-und-blitzkriege",
@@ -2673,7 +2673,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "der-weg-in-den-zweiten-weltkrieg-2-3307"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Zweiter+Weltkrieg+Blitzkrieg+1939&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Zweiter+Weltkrieg+Blitzkrieg+1939&t=147"
   },
   "der-zweite-weltkrieg-wendepunkte-und-kriegsende": {
     "slug": "der-zweite-weltkrieg-wendepunkte-und-kriegsende",
@@ -2776,7 +2776,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "ende-und-folgen-des-zweiten-weltkriegs-3320"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Zweiter+Weltkrieg+Stalingrad+DDay&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Zweiter+Weltkrieg+Stalingrad+DDay&t=147"
   },
   "der-holocaust-und-die-judenverfolgung": {
     "slug": "der-holocaust-und-die-judenverfolgung",
@@ -2836,7 +2836,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "konzentrationslager-im-nationalsozialismus-3176"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Der%20Holocaust%20%26%20Die%20Verfolgung%20der%20Juden+geschichte&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Der+Holocaust+%26+Die+Verfolgung+der+Juden+geschichte&t=147"
   },
   "widerstand-im-nationalsozialismus": {
     "slug": "widerstand-im-nationalsozialismus",
@@ -2889,7 +2889,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "das-dokumentationszentrum-reichsparteitagsgelaende"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Widerstand%20im%20Nationalsozialismus+geschichte&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Widerstand+im+Nationalsozialismus+geschichte&t=147"
   },
   "nachkriegszeit-und-besatzungszonen": {
     "slug": "nachkriegszeit-und-besatzungszonen",
@@ -2949,7 +2949,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "deutschland-nach-dem-2-wk-3328"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Nachkriegszeit%2C%20Stunde%20Null%20%26%20Besatzungszonen+geschichte&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Nachkriegszeit%2C+Stunde+Null+%26+Besatzungszonen+geschichte&t=147"
   },
   "der-kalte-krieg-ost-west-konflikt": {
     "slug": "der-kalte-krieg-ost-west-konflikt",
@@ -3052,7 +3052,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "usa-gegen-sowjetunion-3340"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Kalter+Krieg+Kubakrise+NATO&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Kalter+Krieg+Kubakrise+NATO&t=147"
   },
   "globale-stellvertreterkriege-und-brennpunkte": {
     "slug": "globale-stellvertreterkriege-und-brennpunkte",
@@ -3144,7 +3144,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "terrorismus-im-20-jahrhundert-3362"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Stellvertreterkriege+Vietnam+Korea&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Stellvertreterkriege+Vietnam+Korea&t=147"
   },
   "leben-in-der-ddr-und-der-mauerbau": {
     "slug": "leben-in-der-ddr-und-der-mauerbau",
@@ -3234,7 +3234,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "ostalgie-nostalgie-fuer-die-ddr"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Leben%20in%20der%20DDR%2C%20Mauerbau%201961%20%26%20Stasi+geschichte&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Leben+in+der+DDR%2C+Mauerbau+1961+%26+Stasi+geschichte&t=147"
   },
   "friedliche-revolution-und-deutsche-einheit": {
     "slug": "friedliche-revolution-und-deutsche-einheit",
@@ -3294,7 +3294,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "der-fall-des-eisernen-vorhangs-2-5338"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Friedliche%20Revolution%20%26%20Wiedervereinigung%201989%2F90+geschichte&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Friedliche+Revolution+%26+Wiedervereinigung+1989%2F90+geschichte&t=147"
   },
   "islamische-revolution-und-nahostkonflikte": {
     "slug": "islamische-revolution-und-nahostkonflikte",
@@ -3380,7 +3380,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "ali-chamenei-5424"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=nahostkonflikt&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=nahostkonflikt&t=147"
   },
   "oesterreich-nachkriegszeit-und-nationalfeiertag": {
     "slug": "oesterreich-nachkriegszeit-und-nationalfeiertag",
@@ -3426,7 +3426,7 @@ export const geschichteTopics: Record<string, GeschichteTopic> = {
         "folder": "sterreich-nach-dem-zweiten-weltkrieg-3317"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=staatsvertrag+oesterreich&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=staatsvertrag+oesterreich&t=147"
   },
   "alltag-und-propaganda-im-ns-staat": {
     "slug": "alltag-und-propaganda-im-ns-staat",

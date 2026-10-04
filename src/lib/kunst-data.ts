@@ -107,7 +107,7 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "folder": "romische-kultur-und-kunst-3370"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Antike+Kunst+Skulptur&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Antike+Kunst+Skulptur&t=151"
   },
   "mittelalter-romanik-und-gotik": {
     "slug": "mittelalter-romanik-und-gotik",
@@ -179,7 +179,7 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "folder": "die-kraemerbruecke-in-erfurt"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Gotik+Romanik+Mittelalter&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Gotik+Romanik+Mittelalter&t=151"
   },
   "renaissance-meister-und-florenz": {
     "slug": "renaissance-meister-und-florenz",
@@ -251,7 +251,7 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "folder": "die-fuggerei-in-augsburg"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Renaissance+Duerer+Botticelli&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Renaissance+Duerer+Botticelli&t=151"
   },
   "leonardo-da-vinci-und-universalgenies": {
     "slug": "leonardo-da-vinci-und-universalgenies",
@@ -308,7 +308,7 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "folder": "leonardo-da-vinci-2-4052"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Leonardo+da+Vinci+Mona+Lisa&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Leonardo+da+Vinci+Mona+Lisa&t=151"
   },
   "michelangelo-raffael-und-hochrenaissance": {
     "slug": "michelangelo-raffael-und-hochrenaissance",
@@ -390,7 +390,7 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "folder": "michelangelo-und-seine-werke-im-vatikan-6702"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Michelangelo+Raffael+Sixtinische+Kapelle&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Michelangelo+Raffael+Sixtinische+Kapelle&t=151"
   },
   "venezianische-malerei-und-manierismus": {
     "slug": "venezianische-malerei-und-manierismus",
@@ -437,7 +437,7 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "folder": "der-garten-der-irdischen-freuden-von-hieronymus-bosch-1490-1510-2803"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Tizian+Venedig+Manierismus&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Tizian+Venedig+Manierismus&t=151"
   },
   "barock-und-chiaroscuro": {
     "slug": "barock-und-chiaroscuro",
@@ -515,7 +515,7 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "folder": "schloss-sanssouci"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Barock+Caravaggio+Bernini&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Barock+Caravaggio+Bernini&t=151"
   },
   "goldenes-zeitalter-der-niederlande": {
     "slug": "goldenes-zeitalter-der-niederlande",
@@ -597,7 +597,7 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "folder": "hieronymus-bosch-1373"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Rembrandt+Vermeer+Rokoko&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Rembrandt+Vermeer+Rokoko&t=151"
   },
   "klassizismus-und-historienmalerei": {
     "slug": "klassizismus-und-historienmalerei",
@@ -644,7 +644,7 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "folder": "der-sturm-auf-die-bastille-von-jean-pierre-houel-1789-2805"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Klassizismus+Jacques-Louis+David&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Klassizismus+Jacques-Louis+David&t=151"
   },
   "romantik-und-landschaftsmalerei": {
     "slug": "romantik-und-landschaftsmalerei",
@@ -706,7 +706,7 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "folder": "caspar-david-friedrich-3734"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Romantik+Caspar+David+Friedrich+Turner&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Romantik+Caspar+David+Friedrich+Turner&t=151"
   },
   "revolution-realismus-und-goya": {
     "slug": "revolution-realismus-und-goya",
@@ -778,7 +778,7 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "folder": "die-felswand-von-gustave-courbet-1864-2814"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Realismus+Goya+Delacroix+Rodin&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Realismus+Goya+Delacroix+Rodin&t=151"
   },
   "impressionismus-und-lichtmalerei": {
     "slug": "impressionismus-und-lichtmalerei",
@@ -835,7 +835,7 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "folder": "claude-monet-2-3757"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Impressionismus+Monet+Manet&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Impressionismus+Monet+Manet&t=151"
   },
   "spaetimpressionismus-und-pointillismus": {
     "slug": "spaetimpressionismus-und-pointillismus",
@@ -897,7 +897,7 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "folder": "a-sunday-afternoon-on-the-island-of-la-grande-jatte-georges-seurat-1886-4664"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Pointillismus+Degas+Renoir+Seurat&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Pointillismus+Degas+Renoir+Seurat&t=151"
   },
   "paul-cezanne-und-paul-gauguin": {
     "slug": "paul-cezanne-und-paul-gauguin",
@@ -939,7 +939,7 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "folder": "lucian-freud-1385"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Cezanne+Gauguin+Postimpressionismus&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Cezanne+Gauguin+Postimpressionismus&t=151"
   },
   "vincent-van-gogh-leben-und-werk": {
     "slug": "vincent-van-gogh-leben-und-werk",
@@ -991,7 +991,7 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "folder": "muhle-in-auvers-vincent-van-gogh-1890-4727"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Vincent+van+Gogh+Sternennacht&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Vincent+van+Gogh+Sternennacht&t=151"
   },
   "expressionismus-und-wiener-moderne": {
     "slug": "expressionismus-und-wiener-moderne",
@@ -1058,7 +1058,7 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "folder": "gustav-klimt-3923"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Expressionismus+Klimt+Munch+Schiele&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Expressionismus+Klimt+Munch+Schiele&t=151"
   },
   "der-blaue-reiter-und-abstraktion": {
     "slug": "der-blaue-reiter-und-abstraktion",
@@ -1120,7 +1120,7 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "folder": "piet-mondrian-2-4171"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Kandinsky+Franz+Marc+Matisse&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Kandinsky+Franz+Marc+Matisse&t=151"
   },
   "pablo-picasso-und-kubismus": {
     "slug": "pablo-picasso-und-kubismus",
@@ -1177,7 +1177,7 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "folder": "guernica-von-pablo-picasso-1937-2825"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Picasso+Kubismus+Guernica&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Picasso+Kubismus+Guernica&t=151"
   },
   "dada-und-surrealismus": {
     "slug": "dada-und-surrealismus",
@@ -1250,7 +1250,7 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "folder": "die-zwei-fridas-frida-kahlo-1939-4706"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Dada+Surrealismus+Dali+Magritte&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Dada+Surrealismus+Dali+Magritte&t=151"
   },
   "bauhaus-konstruktivismus-und-de-stijl": {
     "slug": "bauhaus-konstruktivismus-und-de-stijl",
@@ -1318,7 +1318,7 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "folder": "amerikanische-gottheit-von-grant-wood-1930-2795"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Bauhaus+Mondrian+Konstruktivismus&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Bauhaus+Mondrian+Konstruktivismus&t=151"
   },
   "abstrakter-expressionismus-und-pop-art": {
     "slug": "abstrakter-expressionismus-und-pop-art",
@@ -1411,7 +1411,7 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "folder": "jackson-pollock-2-3985"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Pop+Art+Warhol+Pollock+Basquiat&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Pop+Art+Warhol+Pollock+Basquiat&t=151"
   },
   "zeitgenoessische-kunst-street-art-und-medien": {
     "slug": "zeitgenoessische-kunst-street-art-und-medien",
@@ -1499,7 +1499,7 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "folder": "die-rolle-von-medien-in-der-kunst-2594"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Street+Art+Digitale+Kunst+Medien&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Street+Art+Digitale+Kunst+Medien&t=151"
   },
   "bildanalyse-gattungen-und-darstellungsformen": {
     "slug": "bildanalyse-gattungen-und-darstellungsformen",
@@ -1547,7 +1547,7 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "folder": "linien-und-formen-2684"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Bildanalyse+Perspektive+Stillleben&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Bildanalyse+Perspektive+Stillleben&t=151"
   },
   "werkstoffe-plastik-und-architektur": {
     "slug": "werkstoffe-plastik-und-architektur",
@@ -1619,7 +1619,7 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "folder": "das-schweriner-schloss"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Architektur+Keramik+Plastik+Design&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Architektur+Keramik+Plastik+Design&t=151"
   },
   "kunstreflexion-museen-und-therapie": {
     "slug": "kunstreflexion-museen-und-therapie",
@@ -1676,6 +1676,6 @@ export const kunstTopics: Record<string, KunstTopic> = {
         "folder": "der-louvre-4763"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Kunsttherapie+Museum+Kunsttheorie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Kunsttherapie+Museum+Kunsttheorie&t=151"
   }
 };

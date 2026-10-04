@@ -49,7 +49,7 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "begriffe-zuordnen-794"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=grundrechenarten&t=1118"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=grundrechenarten&t=145"
   },
   "zahlen-und-zahlenmengen": {
     "slug": "zahlen-und-zahlenmengen",
@@ -97,7 +97,7 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "zahlenmengen-388"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=zahlenmengen&t=1118"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=zahlenmengen&t=145"
   },
   "natuerliche-zahlen": {
     "slug": "natuerliche-zahlen",
@@ -153,7 +153,7 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "kopfrechnen-multiplikation-und-division-mit-zehnerzahlen-ohne-komma-283"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=nat%C3%BCrliche+zahlen&t=1118"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=nat%C3%BCrliche+zahlen&t=145"
   },
   "schriftliches-rechnen": {
     "slug": "schriftliches-rechnen",
@@ -194,7 +194,7 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "subtraktionen-im-kopf-losen-626"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=schriftliches+rechnen&t=1118"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=schriftliches+rechnen&t=145"
   },
   "das-kleine-einmaleins": {
     "slug": "das-kleine-einmaleins",
@@ -225,7 +225,7 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "das-kleine-1x1-2-415"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=einmaleins&t=1118"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=einmaleins&t=145"
   },
   "dezimalzahlen": {
     "slug": "dezimalzahlen",
@@ -327,7 +327,7 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "studypoint-luckentext-dezimalzahlen-686"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=dezimalzahlen&t=1118"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=dezimalzahlen&t=145"
   },
   "negative-zahlen": {
     "slug": "negative-zahlen",
@@ -394,7 +394,7 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "zusammengesetzte-aufgaben-mit-negativen-zahlen-770"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=negative+zahlen&t=1118"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=negative+zahlen&t=145"
   },
   "brueche": {
     "slug": "brueche",
@@ -473,7 +473,7 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "bruchrechnen-bruche-erweitern-und-kurzen-924"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=br%C3%BCche&t=1118"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=br%C3%BCche&t=145"
   },
   "teilbarkeit": {
     "slug": "teilbarkeit",
@@ -557,7 +557,7 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "escape-room-quot-teilbarkeit-quot-3214"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=teilbarkeit&t=1118"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=teilbarkeit&t=145"
   },
   "prozentrechnung": {
     "slug": "prozentrechnung",
@@ -634,7 +634,7 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "prozent-graphische-darstellung-2-958"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=prozent&t=1118"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=prozent&t=145"
   },
   "zinsrechnung": {
     "slug": "zinsrechnung",
@@ -701,7 +701,7 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "inflation-und-kaufkraftverlust-berechnen"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=zinsrechnung&t=1118"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=zinsrechnung&t=145"
   },
   "potenzen-und-wurzeln": {
     "slug": "potenzen-und-wurzeln",
@@ -749,7 +749,7 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "teilweise-wurzel-ziehen-mit-variablen-194"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=potenzen&t=1118"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=potenzen&t=145"
   },
   "statistik": {
     "slug": "statistik",
@@ -812,7 +812,7 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "fragen-zu-statistischen-grundbegriffen-und-zur-kastengrafik-boxplot-7"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=statistik&t=1118"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=statistik&t=145"
   },
   "rechteck-und-quadrat": {
     "slug": "rechteck-und-quadrat",
@@ -895,7 +895,7 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "rechteck-und-quadrat-72"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=rechteck&t=1118"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=rechteck&t=145"
   },
   "dreiecke": {
     "slug": "dreiecke",
@@ -968,7 +968,7 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "warum-fast-alle-3d-figuren-aus-dreiecken-bestehen"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=dreiecke&t=1118"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=dreiecke&t=145"
   },
   "vierecke": {
     "slug": "vierecke",
@@ -1030,7 +1030,7 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "der-kreis-256"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=vierecke&t=1118"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=vierecke&t=145"
   },
   "kopfgeometrie": {
     "slug": "kopfgeometrie",
@@ -1112,7 +1112,7 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "kreuzrisse-erkennen-458"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=kopfgeometrie&t=1118"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=kopfgeometrie&t=145"
   },
   "winkel": {
     "slug": "winkel",
@@ -1182,7 +1182,7 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "kurs-winkel-schatzen-662"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=winkel&t=1118"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=winkel&t=145"
   },
   "koordinatensystem": {
     "slug": "koordinatensystem",
@@ -1218,7 +1218,7 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "spiegelungen-achsensymmetrie-2-666"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=koordinatensystem&t=1118"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=koordinatensystem&t=145"
   },
   "satz-von-pythagoras": {
     "slug": "satz-von-pythagoras",
@@ -1277,7 +1277,7 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "satz-von-pythagoras-im-deltoid-video-mit-fragen-183"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=pythagoras&t=1118"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=pythagoras&t=145"
   },
   "wuerfel-und-quader": {
     "slug": "wuerfel-und-quader",
@@ -1344,7 +1344,7 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "volumen-von-prismen-video-mit-fragen-142"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=quader&t=1118"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=quader&t=145"
   },
   "prismen-und-pyramiden": {
     "slug": "prismen-und-pyramiden",
@@ -1412,7 +1412,7 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "zylinder-kegel-kugel-385"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=prisma&t=1118"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=prisma&t=145"
   },
   "laengenmasse": {
     "slug": "laengenmasse",
@@ -1453,7 +1453,7 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "textgleichungen-mittel-161"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=l%C3%A4ngenma%C3%9Fe&t=1118"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=l%C3%A4ngenma%C3%9Fe&t=145"
   },
   "flaechenmasse": {
     "slug": "flaechenmasse",
@@ -1516,7 +1516,7 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "flachenformeln-2-221"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=fl%C3%A4chenma%C3%9Fe&t=1118"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=fl%C3%A4chenma%C3%9Fe&t=145"
   },
   "raum-und-hohlmasse": {
     "slug": "raum-und-hohlmasse",
@@ -1552,7 +1552,7 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "raum-und-hohlmaese-umwandeln-56"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=raumma%C3%9Fe&t=1118"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=raumma%C3%9Fe&t=145"
   },
   "massenmasse": {
     "slug": "massenmasse",
@@ -1590,7 +1590,7 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "massenmaese-umwandeln-g-mg-49"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=massenma%C3%9Fe&t=1118"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=massenma%C3%9Fe&t=145"
   },
   "zeit": {
     "slug": "zeit",
@@ -1627,7 +1627,7 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "uhrzeit-ganze-stunden-2-263"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=zeit&t=1118"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=zeit&t=145"
   },
   "massstab": {
     "slug": "massstab",
@@ -1674,7 +1674,7 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "schlussrechnungen-245"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=ma%C3%9Fstab&t=1118"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=ma%C3%9Fstab&t=145"
   },
   "terme": {
     "slug": "terme",
@@ -1768,7 +1768,7 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "studypoint-drag-the-words-terme-mit-potenzen-690"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=terme&t=1118"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=terme&t=145"
   },
   "bruchterme": {
     "slug": "bruchterme",
@@ -1805,7 +1805,7 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "binomische-formeln-erklarvideo-und-bungen-237"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=bruchterme&t=1118"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=bruchterme&t=145"
   },
   "gleichungen": {
     "slug": "gleichungen",
@@ -1856,7 +1856,7 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "textgleichungen-schwer-162"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=gleichungen&t=1118"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=gleichungen&t=145"
   },
   "funktionen": {
     "slug": "funktionen",
@@ -1898,7 +1898,7 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "sinus-cosinus-und-tangens-3270"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=funktionen&t=1118"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=funktionen&t=145"
   },
   "kopfrechnen-und-kopfgeometrie": {
     "slug": "kopfrechnen-und-kopfgeometrie",
@@ -1944,7 +1944,7 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "dezimalzahlen-runden-113"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=kopfrechnen&t=1118"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=kopfrechnen&t=145"
   },
   "die-groessten-mathematiker": {
     "slug": "die-groessten-mathematiker",
@@ -2013,7 +2013,7 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "albert-einstein-3617"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=mathematik+geschichte&t=1118"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=mathematik+geschichte&t=145"
   },
   "dezimalzahlen-grundrechenarten": {
     "slug": "dezimalzahlen-grundrechenarten",
@@ -2105,7 +2105,7 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "kurs-dezimalzahlen-dividieren-level-3-735"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=dezimalzahlen+rechnen&t=1118"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=dezimalzahlen+rechnen&t=145"
   },
   "klapustri-und-vorrangregeln": {
     "slug": "klapustri-und-vorrangregeln",
@@ -2166,7 +2166,7 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "kurs-klapustri-mit-dezimalzahlen-level-3-738"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=klapustri+vorrangregeln&t=1118"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=klapustri+vorrangregeln&t=145"
   },
   "binomische-formeln-und-klammern": {
     "slug": "binomische-formeln-und-klammern",
@@ -2268,7 +2268,7 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "binome-multiplizieren-93"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=binomische+formeln&t=1118"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=binomische+formeln&t=145"
   },
   "brueche-grundrechenarten-und-dezimalbrueche": {
     "slug": "brueche-grundrechenarten-und-dezimalbrueche",
@@ -2360,7 +2360,7 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "studypoint-bruchrechnen-725"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=brueche+grundrechenarten&t=1118"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=brueche+grundrechenarten&t=145"
   },
   "primzahlen-ggt-und-kgv": {
     "slug": "primzahlen-ggt-und-kgv",
@@ -2472,6 +2472,6 @@ export const mathTopics: Record<string, MathTopic> = {
         "folder": "kgv-und-ggt-level-3-866"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=primzahlen+ggt+kgv&t=1118"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=primzahlen+ggt+kgv&t=145"
   }
 };

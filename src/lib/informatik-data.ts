@@ -126,7 +126,7 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "folder": "geschichte-des-computers-354"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=hardware&t=896"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=hardware&t=159"
   },
   "digitale-grundlagen": {
     "slug": "digitale-grundlagen",
@@ -183,7 +183,7 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "folder": "berechtigungen-und-sicherheit-bei-mobilen-endgeraeten"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=digitale+grundbildung&t=896"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=digitale+grundbildung&t=159"
   },
   "datenspeicherung-und-medien": {
     "slug": "datenspeicherung-und-medien",
@@ -235,7 +235,7 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "folder": "studypoint-luckentext-datentrager-683"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=datenspeicherung&t=896"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=datenspeicherung&t=159"
   },
   "arbeitsheft-digitale-grundbildung-hardware": {
     "slug": "arbeitsheft-digitale-grundbildung-hardware",
@@ -276,7 +276,7 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "folder": "suchen-und-finden-im-internet-475"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=arbeitsheft+digitale+grundbildung&t=896"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=arbeitsheft+digitale+grundbildung&t=159"
   },
   "betriebssysteme": {
     "slug": "betriebssysteme",
@@ -348,7 +348,7 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "folder": "nutzung-von-virtuellen-maschinen-und-containern"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=betriebssysteme&t=896"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=betriebssysteme&t=159"
   },
   "sonstige-software": {
     "slug": "sonstige-software",
@@ -444,7 +444,7 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "folder": "dateisysteme-und-partitionierung-verstehen"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=software&t=896"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=software&t=159"
   },
   "bueroprogramme": {
     "slug": "bueroprogramme",
@@ -506,7 +506,7 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "folder": "professioneller-satz-von-abschlussarbeiten"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=excel+word&t=896"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=excel+word&t=159"
   },
   "ms-word-grundkurs": {
     "slug": "ms-word-grundkurs",
@@ -583,7 +583,7 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "folder": "textgestaltung-und-formatierung-in-digitalen-dokumenten"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=word+grundkurs&t=896"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=word+grundkurs&t=159"
   },
   "netzwerke": {
     "slug": "netzwerke",
@@ -685,7 +685,7 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "folder": "uebertragung-von-dateien-zwischen-geraeten-und-systemen"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=netzwerke&t=896"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=netzwerke&t=159"
   },
   "internet-grundlagen": {
     "slug": "internet-grundlagen",
@@ -741,7 +741,7 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "folder": "nutzung-verschiedener-suchmaschinen-und-recherchestrategien"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=internet+protokolle&t=896"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=internet+protokolle&t=159"
   },
   "browser-und-online-kommunikation": {
     "slug": "browser-und-online-kommunikation",
@@ -812,7 +812,7 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "folder": "nutzung-von-messengern-im-unternehmenskontext"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=browser+email&t=896"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=browser+email&t=159"
   },
   "online-zusammenarbeit": {
     "slug": "online-zusammenarbeit",
@@ -903,7 +903,7 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "folder": "onedrive-1052"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=cloud+computing&t=896"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=cloud+computing&t=159"
   },
   "it-security": {
     "slug": "it-security",
@@ -1015,7 +1015,7 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "folder": "suchen-von-sicherheitsluecken-durch-ethisches-hacken"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=it+sicherheit&t=896"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=it+sicherheit&t=159"
   },
   "kryptographie-und-authentifizierung": {
     "slug": "kryptographie-und-authentifizierung",
@@ -1076,7 +1076,7 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "folder": "wie-funktioniert-die-blockchain"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=kryptographie&t=896"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=kryptographie&t=159"
   },
   "datenschutz-ueberwachung-und-recht": {
     "slug": "datenschutz-ueberwachung-und-recht",
@@ -1143,7 +1143,7 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "folder": "fesseln-fuer-die-technik-die-dringende-notwendigkeit-einer-ki-regulierung"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=datenschutz&t=896"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=datenschutz&t=159"
   },
   "algorithmen-und-logik": {
     "slug": "algorithmen-und-logik",
@@ -1249,7 +1249,7 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "folder": "psychologie-hinter-social-engineering-angriffen"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=algorithmen&t=896"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=algorithmen&t=159"
   },
   "programmiersprachen": {
     "slug": "programmiersprachen",
@@ -1325,7 +1325,7 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "folder": "grundlagen-von-versionskontrolle-mit-git"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=programmieren+scratch&t=896"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=programmieren+scratch&t=159"
   },
   "kuenstliche-intelligenz-und-zukunft": {
     "slug": "kuenstliche-intelligenz-und-zukunft",
@@ -1442,7 +1442,7 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "folder": "wie-funktioniert-die-spracherkennung-voice-assistant"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=kuenstliche+intelligenz&t=896"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=kuenstliche+intelligenz&t=159"
   },
   "html-grundkurs": {
     "slug": "html-grundkurs",
@@ -1498,7 +1498,7 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "folder": "coden-von-webseiten-mit-html-und-css"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=html+grundkurs&t=896"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=html+grundkurs&t=159"
   },
   "css-javascript-und-frontend": {
     "slug": "css-javascript-und-frontend",
@@ -1554,7 +1554,7 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "folder": "affordanz-und-warum-ein-knopf-drueckbar-aussieht"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=css+javascript&t=896"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=css+javascript&t=159"
   },
   "computergrafik-und-digitale-medien": {
     "slug": "computergrafik-und-digitale-medien",
@@ -1635,7 +1635,7 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "folder": "grundlagen-von-user-experience-und-interface-design"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=computergrafik+vektor&t=896"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=computergrafik+vektor&t=159"
   },
   "soziale-netzwerke": {
     "slug": "soziale-netzwerke",
@@ -1727,7 +1727,7 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "folder": "kurs-soziale-netzwerke-676"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=soziale+netzwerke&t=896"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=soziale+netzwerke&t=159"
   },
   "medien-und-gesundheit": {
     "slug": "medien-und-gesundheit",
@@ -1762,7 +1762,7 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "folder": "gesundheit-und-ergonomie-bei-der-arbeit-am-computer"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=medien+gesundheit&t=896"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=medien+gesundheit&t=159"
   },
   "persoenlichkeiten-der-it": {
     "slug": "persoenlichkeiten-der-it",
@@ -1829,7 +1829,7 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "folder": "urspruenge-des-personal-computers-in-garagen"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=pioniere+informatik&t=896"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=pioniere+informatik&t=159"
   },
   "escape-room-informatik": {
     "slug": "escape-room-informatik",
@@ -1875,6 +1875,6 @@ export const informatikTopics: Record<string, InformatikTopic> = {
         "folder": "escape-room-quot-soziale-netzwerke-quot-3207"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=escape+room+informatik&t=896"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org?query=escape+room+informatik&t=159"
   }
 };

@@ -120,7 +120,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "folder": "religion-in-der-eu-6713"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=weltreligionen&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=weltreligionen&t=154"
   },
   "judentum-glaube-tora-und-synagoge": {
     "slug": "judentum-glaube-tora-und-synagoge",
@@ -187,7 +187,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "folder": "das-talmud-und-andere-wichtige-religiose-schriften-2-6562"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=judentum+tora&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=judentum+tora&t=154"
   },
   "judentum-feste-lebenskreis-und-kultur": {
     "slug": "judentum-feste-lebenskreis-und-kultur",
@@ -234,7 +234,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "folder": "der-zentralrat-der-juden-in-deutschland"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=judentum+feste&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=judentum+feste&t=154"
   },
   "islam-glaube-koran-und-fuenf-saeulen": {
     "slug": "islam-glaube-koran-und-fuenf-saeulen",
@@ -296,7 +296,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "folder": "der-koordinationsrat-der-muslime-in-deutschland"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=islam+fuenf+saeulen&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=islam+fuenf+saeulen&t=154"
   },
   "islam-prophet-ramadan-und-traditionen": {
     "slug": "islam-prophet-ramadan-und-traditionen",
@@ -353,7 +353,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "folder": "islamische-feiertage-6659"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=islam+ramadan&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=islam+ramadan&t=154"
   },
   "buddhismus-lehre-und-praxis": {
     "slug": "buddhismus-lehre-und-praxis",
@@ -400,7 +400,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "folder": "meditation-und-entspannung-5835"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=buddhismus&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=buddhismus&t=154"
   },
   "hinduismus-goetter-und-reinkarnation": {
     "slug": "hinduismus-goetter-und-reinkarnation",
@@ -447,7 +447,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "folder": "ruhe-und-besinnung-meditative-praktiken-2472"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=hinduismus&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=hinduismus&t=154"
   },
   "glaube-gott-und-religionskritik": {
     "slug": "glaube-gott-und-religionskritik",
@@ -548,7 +548,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "folder": "atheismus-2872"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=glaube+gott+religion&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=glaube+gott+religion&t=154"
   },
   "die-bibel-entstehung-und-aufbau": {
     "slug": "die-bibel-entstehung-und-aufbau",
@@ -610,7 +610,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "folder": "unterschiede-des-alten-und-neuen-testamentes-6736"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=bibel+aufbau&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=bibel+aufbau&t=154"
   },
   "altes-testament-urgeschichte-und-schoepfung": {
     "slug": "altes-testament-urgeschichte-und-schoepfung",
@@ -697,7 +697,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "folder": "noah-und-die-arche-2399"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=schoepfung+urgeschichte&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=schoepfung+urgeschichte&t=154"
   },
   "altes-testament-mose-und-zehn-gebote": {
     "slug": "altes-testament-mose-und-zehn-gebote",
@@ -743,7 +743,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "folder": "moses-figur-aus-der-bibel-4112"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=mose+zehn+gebote&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=mose+zehn+gebote&t=154"
   },
   "altes-testament-erzvaeter-richter-und-koenige": {
     "slug": "altes-testament-erzvaeter-richter-und-koenige",
@@ -854,7 +854,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "folder": "schlusselgestalten-des-alten-testaments-2397"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=altes+testament+koenige&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=altes+testament+koenige&t=154"
   },
   "altes-testament-propheten-und-weisheit": {
     "slug": "altes-testament-propheten-und-weisheit",
@@ -950,7 +950,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "folder": "daniel-in-der-lowengrube-4584"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=altes+testament+propheten&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=altes+testament+propheten&t=154"
   },
   "jesus-von-nazaret-leben-und-botschaft": {
     "slug": "jesus-von-nazaret-leben-und-botschaft",
@@ -1042,7 +1042,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "folder": "das-leben-jesu-5332"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=jesus+von+nazaret&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=jesus+von+nazaret&t=154"
   },
   "jesu-gleichnisse-und-bergpredigt": {
     "slug": "jesu-gleichnisse-und-bergpredigt",
@@ -1109,7 +1109,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "folder": "die-wunder-jesu-wunder-wie-die-sturmstillung-4590"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=bergpredigt+gleichnisse&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=bergpredigt+gleichnisse&t=154"
   },
   "passion-und-auferstehung-jesu": {
     "slug": "passion-und-auferstehung-jesu",
@@ -1181,7 +1181,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "folder": "die-passion-christi-6610"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=passion+auferstehung&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=passion+auferstehung&t=154"
   },
   "apostel-evangelien-und-urkirche": {
     "slug": "apostel-evangelien-und-urkirche",
@@ -1287,7 +1287,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "folder": "bekenntnisse-und-ihre-bedeutung-6428"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=evangelien+apostel&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=evangelien+apostel&t=154"
   },
   "advent-weihnachten-und-epiphanias": {
     "slug": "advent-weihnachten-und-epiphanias",
@@ -1349,7 +1349,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "folder": "die-geburtsgeschichte-jesu-2409"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=advent+weihnachten&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=advent+weihnachten&t=154"
   },
   "fastenzeit-und-karwoche": {
     "slug": "fastenzeit-und-karwoche",
@@ -1401,7 +1401,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "folder": "der-schlusssegen-und-die-sendung-6530"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=fastenzeit+karwoche&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=fastenzeit+karwoche&t=154"
   },
   "ostern-pfingsten-und-kirchenjahr": {
     "slug": "ostern-pfingsten-und-kirchenjahr",
@@ -1468,7 +1468,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "folder": "christi-himmelfahrt-6443"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=kirchenjahr+ostern&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=kirchenjahr+ostern&t=154"
   },
   "tod-trauer-und-seelsorge": {
     "slug": "tod-trauer-und-seelsorge",
@@ -1530,7 +1530,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "folder": "beerdigungsrituale-6435"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=tod+trauer+seelsorge&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=tod+trauer+seelsorge&t=154"
   },
   "jenseits-himmel-und-ewiges-leben": {
     "slug": "jenseits-himmel-und-ewiges-leben",
@@ -1566,7 +1566,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "folder": "christliche-hoffnung-auf-auferstehung-6446"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=jenseits+ewiges+leben&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=jenseits+ewiges+leben&t=154"
   },
   "sakramente-der-initiation": {
     "slug": "sakramente-der-initiation",
@@ -1638,7 +1638,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "folder": "wasser-als-taufsymbol-6743"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=taufe+firmung+sakramente&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=taufe+firmung+sakramente&t=154"
   },
   "eucharistie-kommunion-und-heilsdienste": {
     "slug": "eucharistie-kommunion-und-heilsdienste",
@@ -1740,7 +1740,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "folder": "ehe-und-berufung-partnerschaft-im-glauben-2484"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=eucharistie+kommunion&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=eucharistie+kommunion&t=154"
   },
   "liturgie-gottesdienst-und-gebet": {
     "slug": "liturgie-gottesdienst-und-gebet",
@@ -1857,7 +1857,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "folder": "der-dreieinige-gott-6486"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=liturgie+gottesdienst&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=liturgie+gottesdienst&t=154"
   },
   "heilige-und-vorbilder-des-glaubens": {
     "slug": "heilige-und-vorbilder-des-glaubens",
@@ -1939,7 +1939,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "folder": "augustinus-von-hippo-2434"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=heilige+vorbilder&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=heilige+vorbilder&t=154"
   },
   "papst-vatikan-und-konzilien": {
     "slug": "papst-vatikan-und-konzilien",
@@ -2056,7 +2056,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "folder": "konzile-und-meilensteine-des-glaubens-2435"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=papst+vatikan&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=papst+vatikan&t=154"
   },
   "kirchliche-aemter-gemeinde-und-engagement": {
     "slug": "kirchliche-aemter-gemeinde-und-engagement",
@@ -2147,7 +2147,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "folder": "kardinale-und-das-konklave-6681"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=kirche+aemter+gemeinde&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=kirche+aemter+gemeinde&t=154"
   },
   "oekumene-konfessionen-und-kirche-in-der-gesellschaft": {
     "slug": "oekumene-konfessionen-und-kirche-in-der-gesellschaft",
@@ -2258,7 +2258,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "folder": "kritik-an-der-kirche-6693"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=oekumene+reformation+kirche&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=oekumene+reformation+kirche&t=154"
   },
   "sakralbauten-und-kathedralen": {
     "slug": "sakralbauten-und-kathedralen",
@@ -2359,7 +2359,7 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "folder": "die-paulskirche-in-frankfurt"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=kirchen+sakralbauten&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=kirchen+sakralbauten&t=154"
   },
   "kirchliche-kunst-und-architektur": {
     "slug": "kirchliche-kunst-und-architektur",
@@ -2420,6 +2420,6 @@ export const religionTopics: Record<string, ReligionTopic> = {
         "folder": "gottesbilder-in-kunst-und-musik-6652"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=kirchliche+kunst+architektur&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=kirchliche+kunst+architektur&t=154"
   }
 };

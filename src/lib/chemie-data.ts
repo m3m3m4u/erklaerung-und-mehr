@@ -76,7 +76,7 @@ export const chemieTopics: Record<string, ChemieTopic> = {
         "folder": "physik-und-chemie-gemeinsamkeiten-und-unterschiede-2237"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=chemie+grundlagen&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=chemie+grundlagen&t=149"
   },
   "geschichte-der-chemie-und-alchemie": {
     "slug": "geschichte-der-chemie-und-alchemie",
@@ -148,7 +148,7 @@ export const chemieTopics: Record<string, ChemieTopic> = {
         "folder": "geschichte-der-chemie-320"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=geschichte+der+chemie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=geschichte+der+chemie&t=149"
   },
   "nichtmetalle-halogene-und-edelgase": {
     "slug": "nichtmetalle-halogene-und-edelgase",
@@ -255,7 +255,7 @@ export const chemieTopics: Record<string, ChemieTopic> = {
         "folder": "wasserstoffgas-5182"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=nichtmetalle+halogene&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=nichtmetalle+halogene&t=149"
   },
   "chemische-reaktionen-und-katalyse": {
     "slug": "chemische-reaktionen-und-katalyse",
@@ -317,7 +317,7 @@ export const chemieTopics: Record<string, ChemieTopic> = {
         "folder": "wie-funktioniert-ein-katalysator-2532"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=chemische+reaktionen+katalysator&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=chemische+reaktionen+katalysator&t=149"
   },
   "saeuren-basen-und-salze": {
     "slug": "saeuren-basen-und-salze",
@@ -354,7 +354,7 @@ export const chemieTopics: Record<string, ChemieTopic> = {
         "folder": "bodenversauerung-und-kalkung-2181"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=saeuren+basen+salze&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=saeuren+basen+salze&t=149"
   },
   "wasser-loesungen-und-trennverfahren": {
     "slug": "wasser-loesungen-und-trennverfahren",
@@ -406,7 +406,7 @@ export const chemieTopics: Record<string, ChemieTopic> = {
         "folder": "wie-funktioniert-eine-zentrifuge"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=wasser+trennverfahren&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=wasser+trennverfahren&t=149"
   },
   "metalle-und-legierungen": {
     "slug": "metalle-und-legierungen",
@@ -488,7 +488,7 @@ export const chemieTopics: Record<string, ChemieTopic> = {
         "folder": "der-baustoff-kupfer-5150"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=metalle+legierungen&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=metalle+legierungen&t=149"
   },
   "edelmetalle-und-weitere-metalle": {
     "slug": "edelmetalle-und-weitere-metalle",
@@ -539,7 +539,7 @@ export const chemieTopics: Record<string, ChemieTopic> = {
         "folder": "iridium-1188"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=edelmetalle+stahl&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=edelmetalle+stahl&t=149"
   },
   "elektrochemie-korrosion-und-brennstoffzellen": {
     "slug": "elektrochemie-korrosion-und-brennstoffzellen",
@@ -591,7 +591,7 @@ export const chemieTopics: Record<string, ChemieTopic> = {
         "folder": "lerninhalt-korrosionsschutz-569"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=elektrochemie+korrosion&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=elektrochemie+korrosion&t=149"
   },
   "kohlenwasserstoffe-erdoel-und-erdgas": {
     "slug": "kohlenwasserstoffe-erdoel-und-erdgas",
@@ -648,7 +648,7 @@ export const chemieTopics: Record<string, ChemieTopic> = {
         "folder": "methan-5172"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=kohlenwasserstoffe+erdoel&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=kohlenwasserstoffe+erdoel&t=149"
   },
   "organische-verbindungen-und-kunststoffe": {
     "slug": "organische-verbindungen-und-kunststoffe",
@@ -715,7 +715,7 @@ export const chemieTopics: Record<string, ChemieTopic> = {
         "folder": "lerninhalt-kunststoffe-595"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=kunststoffe+polymere&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=kunststoffe+polymere&t=149"
   },
   "biochemie-und-makromolekuele": {
     "slug": "biochemie-und-makromolekuele",
@@ -762,7 +762,7 @@ export const chemieTopics: Record<string, ChemieTopic> = {
         "folder": "gesattigte-und-ungesattigte-fettsauren-5164"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=biochemie+proteine+fette&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=biochemie+proteine+fette&t=149"
   },
   "chemische-prozesse-in-natur-und-ernaehrung": {
     "slug": "chemische-prozesse-in-natur-und-ernaehrung",
@@ -808,7 +808,7 @@ export const chemieTopics: Record<string, ChemieTopic> = {
         "folder": "wie-funktioniert-die-photosynthese"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=gaerung+biochemie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=gaerung+biochemie&t=149"
   },
   "werkstoffe-und-industrielle-chemie": {
     "slug": "werkstoffe-und-industrielle-chemie",
@@ -849,7 +849,7 @@ export const chemieTopics: Record<string, ChemieTopic> = {
         "folder": "der-baustoff-beton-5148"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=glas+zement+werkstoffe&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=glas+zement+werkstoffe&t=149"
   },
   "umweltchemie-schadstoffe-und-laborsicherheit": {
     "slug": "umweltchemie-schadstoffe-und-laborsicherheit",
@@ -906,7 +906,7 @@ export const chemieTopics: Record<string, ChemieTopic> = {
         "folder": "kohlenstoffmonoxid-5169"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=umweltchemie+gefahrstoffe&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=umweltchemie+gefahrstoffe&t=149"
   },
   "escape-rooms-und-chemieraetsel": {
     "slug": "escape-rooms-und-chemieraetsel",
@@ -937,7 +937,7 @@ export const chemieTopics: Record<string, ChemieTopic> = {
         "folder": "escape-room-quot-nahrstoffe-quot-3233"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=escape+room+chemie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=escape+room+chemie&t=149"
   },
   "alkali-erdalkalimetalle-und-weitere-elemente": {
     "slug": "alkali-erdalkalimetalle-und-weitere-elemente",

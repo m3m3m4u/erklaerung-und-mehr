@@ -138,7 +138,7 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "folder": "die-flagge-deutschlands"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=demokratie+grundgesetz&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=demokratie+grundgesetz&t=157"
   },
   "menschenrechte-und-grundwerte": {
     "slug": "menschenrechte-und-grundwerte",
@@ -200,7 +200,7 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "folder": "amnesty-international-2291"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=menschenrechte&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=menschenrechte&t=157"
   },
   "politische-systeme-und-ideologien": {
     "slug": "politische-systeme-und-ideologien",
@@ -311,7 +311,7 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "folder": "us-election-system-3268"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=politische+systeme&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=politische+systeme&t=157"
   },
   "demokratie-unter-druck-populismus-und-extremismus": {
     "slug": "demokratie-unter-druck-populismus-und-extremismus",
@@ -367,7 +367,7 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "folder": "der-aufstieg-des-politischen-populismus-in-europa-6480"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=populismus+extremismus&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=populismus+extremismus&t=157"
   },
   "wahlsystem-und-bundestagswahl": {
     "slug": "wahlsystem-und-bundestagswahl",
@@ -434,7 +434,7 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "folder": "die-nationalratswahl-2024-in-sterreich-3119"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=wahlsystem+bundestagswahl&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=wahlsystem+bundestagswahl&t=157"
   },
   "parteien-und-spitzenpolitiker": {
     "slug": "parteien-und-spitzenpolitiker",
@@ -520,7 +520,7 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "folder": "heidi-reichinnek-und-jan-van-aken-3286"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=parteien+politiker&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=parteien+politiker&t=157"
   },
   "staatsorgane-regierung-und-gesetzgebung": {
     "slug": "staatsorgane-regierung-und-gesetzgebung",
@@ -637,7 +637,7 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "folder": "der-bundeskanzler-der-bundesrepublik-deutschland"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=staatsorgane+foederalismus&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=staatsorgane+foederalismus&t=157"
   },
   "internationale-verfassungen-und-parlamente": {
     "slug": "internationale-verfassungen-und-parlamente",
@@ -698,7 +698,7 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "folder": "gemeindeverband-in-deutschland"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=internationale+verfassungen&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=internationale+verfassungen&t=157"
   },
   "europaeische-union-und-binnenmarkt": {
     "slug": "europaeische-union-und-binnenmarkt",
@@ -765,7 +765,7 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "folder": "entwicklung-der-eu-308"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=europaeische+union&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=europaeische+union&t=157"
   },
   "uno-voelkerrecht-und-globale-ordnung": {
     "slug": "uno-voelkerrecht-und-globale-ordnung",
@@ -882,7 +882,7 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "folder": "escape-room-quot-internationale-organisationen-quot-3197"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=uno+voelkerrecht&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=uno+voelkerrecht&t=157"
   },
   "medien-pressefreiheit-und-desinformation": {
     "slug": "medien-pressefreiheit-und-desinformation",
@@ -964,7 +964,7 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "folder": "internetfreiheit-und-staatliche-kontrolle-weltweit"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=pressefreiheit+medien&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=pressefreiheit+medien&t=157"
   },
   "migration-asyl-und-integration": {
     "slug": "migration-asyl-und-integration",
@@ -1046,7 +1046,7 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "folder": "die-ursachen-und-folgen-von-landflucht-und-stadtischer-migration-5479"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=migration+integration&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=migration+integration&t=157"
   },
   "vielfalt-gleichberechtigung-und-zivilcourage": {
     "slug": "vielfalt-gleichberechtigung-und-zivilcourage",
@@ -1123,7 +1123,7 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "folder": "nichtregierungsorganisationen-3571"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=gleichberechtigung+vielfalt&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=gleichberechtigung+vielfalt&t=157"
   },
   "diskriminierung-rassismus-und-antisemitismus": {
     "slug": "diskriminierung-rassismus-und-antisemitismus",
@@ -1175,7 +1175,7 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "folder": "sinti-und-roma"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=rassismus+antisemitismus&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=rassismus+antisemitismus&t=157"
   },
   "sozialstaat-steuern-und-arbeitswelt": {
     "slug": "sozialstaat-steuern-und-arbeitswelt",
@@ -1282,7 +1282,7 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "folder": "wenn-die-erde-bebt-warum-sie-wackelt-4-4502"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=sozialstaat+steuern&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=sozialstaat+steuern&t=157"
   },
   "gesellschaftliche-konflikte-widerstand-und-zeitkritik": {
     "slug": "gesellschaftliche-konflikte-widerstand-und-zeitkritik",
@@ -1392,6 +1392,6 @@ export const politikTopics: Record<string, PolitikTopic> = {
         "folder": "zeitumstellung-im-check-der-unnoetige-stress-mit-der-sommerzeit"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=ethik+widerstand&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=ethik+widerstand&t=157"
   }
 };

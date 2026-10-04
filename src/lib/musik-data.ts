@@ -101,7 +101,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "folder": "musikphilosophie-und-klang-5848"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=noten+lesen+musik&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=noten+lesen+musik&t=152"
   },
   "gehoerbildung-und-tonhoehe": {
     "slug": "gehoerbildung-und-tonhoehe",
@@ -147,7 +147,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "folder": "ordne-die-tone-richtig-zu-651"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=gehoerbildung+tonhoehe&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=gehoerbildung+tonhoehe&t=152"
   },
   "harmonielehre-akkorde-und-intervalle": {
     "slug": "harmonielehre-akkorde-und-intervalle",
@@ -229,7 +229,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "folder": "akkorde-dur-und-moll-18"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=harmonielehre+akkorde+intervalle&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=harmonielehre+akkorde+intervalle&t=152"
   },
   "tonleitern-klaviatur-und-vorzeichen": {
     "slug": "tonleitern-klaviatur-und-vorzeichen",
@@ -291,7 +291,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "folder": "der-quintenzirkel-344"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=klaviatur+vorzeichen+tonleiter&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=klaviatur+vorzeichen+tonleiter&t=152"
   },
   "saiten-und-tasteninstrumente": {
     "slug": "saiten-und-tasteninstrumente",
@@ -358,7 +358,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "folder": "horubungen-533"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=saiteninstrumente+klavier+gitarre&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=saiteninstrumente+klavier+gitarre&t=152"
   },
   "blasinstrumente-orchester-und-stimme": {
     "slug": "blasinstrumente-orchester-und-stimme",
@@ -430,7 +430,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "folder": "die-berliner-philharmoniker"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=blasinstrumente+orchester+stimme&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=blasinstrumente+orchester+stimme&t=152"
   },
   "schlagzeug-und-drums": {
     "slug": "schlagzeug-und-drums",
@@ -487,7 +487,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "folder": "bommwhacker-playalongs-628"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=schlagzeug+percussion&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=schlagzeug+percussion&t=152"
   },
   "rhythmusuebungen": {
     "slug": "rhythmusuebungen",
@@ -568,7 +568,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "folder": "test-1"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=rhythmusuebungen+taktarten&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=rhythmusuebungen+taktarten&t=152"
   },
   "epochen-der-musikgeschichte": {
     "slug": "epochen-der-musikgeschichte",
@@ -680,7 +680,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "folder": "musikgeschichte-462"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=epochen+musikgeschichte&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=epochen+musikgeschichte&t=152"
   },
   "bekannte-musikstuecke": {
     "slug": "bekannte-musikstuecke",
@@ -762,7 +762,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "folder": "in-der-halle-des-bergkonigs-von-edvard-grieg-451"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=bekannte+musikstuecke&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=bekannte+musikstuecke&t=152"
   },
   "formen-und-gattungen-der-klassischen-musik": {
     "slug": "formen-und-gattungen-der-klassischen-musik",
@@ -849,7 +849,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "folder": "studypint-die-moldau-von-bedrich-smetana-723"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=sinfonie+sonate+kammermusik&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=sinfonie+sonate+kammermusik&t=152"
   },
   "kirchenmusik-und-geistliche-vokalmusik": {
     "slug": "kirchenmusik-und-geistliche-vokalmusik",
@@ -936,7 +936,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "folder": "madrigal-und-motette-in-der-renaissance"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=kirchenmusik+choral+messe&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=kirchenmusik+choral+messe&t=152"
   },
   "komponisten-des-barocks": {
     "slug": "komponisten-des-barocks",
@@ -1008,7 +1008,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "folder": "escape-room-quot-komponisten-barock-quot-3221"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=komponisten+barock&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=komponisten+barock&t=152"
   },
   "komponisten-der-klassik": {
     "slug": "komponisten-der-klassik",
@@ -1125,7 +1125,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "folder": "die-salzburger-festspiele"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=komponisten+wiener+klassik&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=komponisten+wiener+klassik&t=152"
   },
   "komponisten-der-frueh-und-hochromantik": {
     "slug": "komponisten-der-frueh-und-hochromantik",
@@ -1212,7 +1212,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "folder": "franz-liszt-video-mit-fragen-223"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=komponisten+romantik+schubert+schumann&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=komponisten+romantik+schubert+schumann&t=152"
   },
   "komponisten-der-spaetromantik-und-nationalen-schulen": {
     "slug": "komponisten-der-spaetromantik-und-nationalen-schulen",
@@ -1299,7 +1299,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "folder": "richard-wagner-928"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=komponisten+spaetromantik+brahms+tschaikowski&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=komponisten+spaetromantik+brahms+tschaikowski&t=152"
   },
   "komponisten-der-moderne": {
     "slug": "komponisten-der-moderne",
@@ -1386,7 +1386,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "folder": "minimal-music"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=komponisten+moderne+strawinsky+schoenberg&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=komponisten+moderne+strawinsky+schoenberg&t=152"
   },
   "italienische-opern-belcanto-und-verdi": {
     "slug": "italienische-opern-belcanto-und-verdi",
@@ -1487,7 +1487,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "folder": "giuseppe-verdi-falstaff-569"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=italienische+oper+verdi+belcanto&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=italienische+oper+verdi+belcanto&t=152"
   },
   "verismo-puccini-und-franzoesische-opern": {
     "slug": "verismo-puccini-und-franzoesische-opern",
@@ -1573,7 +1573,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "folder": "giacomo-meyerbeer-les-huguenots-561"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=puccini+verismo+carmen&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=puccini+verismo+carmen&t=152"
   },
   "deutsche-opern-und-richard-wagner": {
     "slug": "deutsche-opern-und-richard-wagner",
@@ -1680,7 +1680,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "folder": "engelbert-humperdinck-konigskinder-557"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=deutsche+oper+wagner+mozart&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=deutsche+oper+wagner+mozart&t=152"
   },
   "opern-der-moderne-und-europaeische-meisterwerke": {
     "slug": "opern-der-moderne-und-europaeische-meisterwerke",
@@ -1752,7 +1752,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "folder": "das-burgtheater-5583"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=moderne+opern+wozzeck+rusalka&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=moderne+opern+wozzeck+rusalka&t=152"
   },
   "musicals-broadway-und-klassiker": {
     "slug": "musicals-broadway-und-klassiker",
@@ -1844,7 +1844,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "folder": "chicago-5979"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=broadway+musicals+west+side+story&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=broadway+musicals+west+side+story&t=152"
   },
   "moderne-musicals-und-welterfolge": {
     "slug": "moderne-musicals-und-welterfolge",
@@ -1941,7 +1941,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "folder": "das-musical-maria-theresia-544"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=moderne+musicals+phantom+der+oper&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=moderne+musicals+phantom+der+oper&t=152"
   },
   "jazzgeschichte-und-traditioneller-jazz": {
     "slug": "jazzgeschichte-und-traditioneller-jazz",
@@ -2013,7 +2013,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "folder": "der-einfluss-der-afroamerikanischen-musiktradition-auf-die-westliche-musik"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=jazzgeschichte+swing+blues&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=jazzgeschichte+swing+blues&t=152"
   },
   "moderner-jazz-bebop-bis-fusion": {
     "slug": "moderner-jazz-bebop-bis-fusion",
@@ -2080,7 +2080,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "folder": "acid-jazz-1200"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=moderner+jazz+bebop+fusion&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=moderner+jazz+bebop+fusion&t=152"
   },
   "jazzmusiker": {
     "slug": "jazzmusiker",
@@ -2162,7 +2162,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "folder": "sonny-rollins-1314"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=jazzmusiker+armstrong+miles+davis&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=jazzmusiker+armstrong+miles+davis&t=152"
   },
   "rock-und-pop": {
     "slug": "rock-und-pop",
@@ -2269,7 +2269,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "folder": "sparks-coldplay-507"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=geschichte+rockmusik+popmusik&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=geschichte+rockmusik+popmusik&t=152"
   },
   "rocklegenden-der-60er-und-70er": {
     "slug": "rocklegenden-der-60er-und-70er",
@@ -2381,7 +2381,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "folder": "john-lennons-friedensbotschaft-happy-xmas-war-is-over-6677"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=beatles+queen+rolling+stones&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=beatles+queen+rolling+stones&t=152"
   },
   "hardrock-grunge-und-metal": {
     "slug": "hardrock-grunge-und-metal",
@@ -2462,7 +2462,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "folder": "heavy-metal-842"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=hardrock+metal+nirvana+metallica&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=hardrock+metal+nirvana+metallica&t=152"
   },
   "pop-und-rock-ikonen": {
     "slug": "pop-und-rock-ikonen",
@@ -2557,7 +2557,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "folder": "i-can-039-t-get-no-satisfaction-the-rolling-stones-2-599"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=abba+u2+coldplay+pop&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=abba+u2+coldplay+pop&t=152"
   },
   "pop-und-rock-pioniere": {
     "slug": "pop-und-rock-pioniere",
@@ -2644,7 +2644,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "folder": "jailhouse-rock-elvis-presley-2-622"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=elvis+michael+jackson+david+bowie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=elvis+michael+jackson+david+bowie&t=152"
   },
   "moderne-popstars-und-stimmen": {
     "slug": "moderne-popstars-und-stimmen",
@@ -2731,7 +2731,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "folder": "der-ayliva-code-wie-emotionen-viral-gehen-6413"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=popstars+adele+sheeran+madonna&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=popstars+adele+sheeran+madonna&t=152"
   },
   "elektronische-musik-und-tanzmusik": {
     "slug": "elektronische-musik-und-tanzmusik",
@@ -2827,7 +2827,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "folder": "die-entwicklung-des-modernen-djing-und-die-kultur-des-clubs"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=techno+elektronische+musik&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=techno+elektronische+musik&t=152"
   },
   "hiphop-rap-und-streaming": {
     "slug": "hiphop-rap-und-streaming",
@@ -2899,7 +2899,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "folder": "raf-camora-6422"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=hiphop+rap+deutschrap+streaming&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=hiphop+rap+deutschrap+streaming&t=152"
   },
   "filmmusik-soundtracks-und-medienkomposition": {
     "slug": "filmmusik-soundtracks-und-medienkomposition",
@@ -2930,7 +2930,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "folder": "aufnahme-und-abmischung-von-audiobeitraegen"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=filmmusik&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=filmmusik&t=152"
   },
   "frauen-in-der-musikgeschichte": {
     "slug": "frauen-in-der-musikgeschichte",
@@ -2966,7 +2966,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "folder": "nina-simone-1295"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=frauen+musikgeschichte&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=frauen+musikgeschichte&t=152"
   },
   "traditionelle-musikkulturen-und-weltmusik": {
     "slug": "traditionelle-musikkulturen-und-weltmusik",
@@ -3012,7 +3012,7 @@ export const musikTopics: Record<string, MusikTopic> = {
         "folder": "chick-corea-1225"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=weltmusik&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=weltmusik&t=152"
   },
   "kurs-tonhoehe-und-gehoerbildung": {
     "slug": "kurs-tonhoehe-und-gehoerbildung",

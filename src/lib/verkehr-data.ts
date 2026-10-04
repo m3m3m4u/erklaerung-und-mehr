@@ -54,7 +54,7 @@ export const verkehrTopics: Record<string, VerkehrTopic> = {
         "folder": "fahrradfreundliche-stadte-geographische-bedingungen-fur-erfolgreiche-konzepte-5490"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=fahrradpruefung+ausstattung&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=fahrradpruefung+ausstattung&t=141"
   },
   "verkehrsflaechen-und-radwege": {
     "slug": "verkehrsflaechen-und-radwege",
@@ -86,7 +86,7 @@ export const verkehrTopics: Record<string, VerkehrTopic> = {
         "folder": "verkehrsgeographie-in-urbanen-raumen-herausforderungen-und-losungen-5564"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=verkehrsflaechen+radweg&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=verkehrsflaechen+radweg&t=141"
   },
   "verkehrsregeln-schilder-und-vorfahrt": {
     "slug": "verkehrsregeln-schilder-und-vorfahrt",
@@ -133,7 +133,7 @@ export const verkehrTopics: Record<string, VerkehrTopic> = {
         "folder": "der-einfluss-topografischer-gegebenheiten-auf-verkehrswege-5442"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=verkehrsregeln+vorfahrt+fahrrad&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=verkehrsregeln+vorfahrt+fahrrad&t=141"
   },
   "gefaehrliche-situationen-und-toter-winkel": {
     "slug": "gefaehrliche-situationen-und-toter-winkel",
@@ -164,7 +164,7 @@ export const verkehrTopics: Record<string, VerkehrTopic> = {
         "folder": "drogen-im-straesenverkehr-alkohol-und-drogen-am-steuer-2233"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=toter+winkel+fahrrad&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=toter+winkel+fahrrad&t=141"
   },
   "schienenverkehr-und-bahnnetze": {
     "slug": "schienenverkehr-und-bahnnetze",
@@ -216,7 +216,7 @@ export const verkehrTopics: Record<string, VerkehrTopic> = {
         "folder": "die-schweizerischen-bundesbahnen-sbb-6365"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Eisenbahn+Schienenverkehr+Mobilitaet&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Eisenbahn+Schienenverkehr+Mobilitaet&t=141"
   },
   "automobil-und-elektromobilitaet": {
     "slug": "automobil-und-elektromobilitaet",
@@ -252,7 +252,7 @@ export const verkehrTopics: Record<string, VerkehrTopic> = {
         "folder": "die-automobilindustrie-in-deutschland"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Elektromobilitaet+Autoindustrie+Verkehr&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Elektromobilitaet+Autoindustrie+Verkehr&t=141"
   },
   "nachhaltige-mobilitaet-und-logistik": {
     "slug": "nachhaltige-mobilitaet-und-logistik",
@@ -309,6 +309,6 @@ export const verkehrTopics: Record<string, VerkehrTopic> = {
         "folder": "wie-globalisierung-die-verkehrsstrome-verandert-5532"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Nachhaltige+Mobilitaet+Logistik+Verkehr&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Nachhaltige+Mobilitaet+Logistik+Verkehr&t=141"
   }
 };

@@ -93,7 +93,7 @@ export const englischTopics: Record<string, EnglischTopic> = {
         "folder": "revision-forms-of-be-simple-present-and-simple-past-396"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=English+Tenses+Grammar&t=468"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=English+Tenses+Grammar&t=144"
   },
 
   "mixed-tenses": {
@@ -142,7 +142,7 @@ export const englischTopics: Record<string, EnglischTopic> = {
         "folder": "studypoint-simple-present-oder-present-progressive-722"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Mixed+Tenses+Englisch&t=468"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Mixed+Tenses+Englisch&t=144"
   },
 
   "grammar-sonstiges": {
@@ -187,7 +187,7 @@ export const englischTopics: Record<string, EnglischTopic> = {
         "folder": "a-or-an-der-unbestimmte-artikel-370"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=English+Articles+Quantifiers&t=468"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=English+Articles+Quantifiers&t=144"
   },
 
   "passive-voice-and-modifiers": {
@@ -230,7 +230,7 @@ export const englischTopics: Record<string, EnglischTopic> = {
         "folder": "groes-und-kleinschreibung-405"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=English+Passive+Adjectives+Adverbs&t=468"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=English+Passive+Adjectives+Adverbs&t=144"
   },
 
   "whats-the-time": {
@@ -276,7 +276,7 @@ export const englischTopics: Record<string, EnglischTopic> = {
         "folder": "studypoint-numbers-721"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Telling+the+Time+English&t=468"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Telling+the+Time+English&t=144"
   },
 
   "vokabeln-more": {
@@ -314,7 +314,7 @@ export const englischTopics: Record<string, EnglischTopic> = {
         "folder": "more-4-enriched-course-367"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=English+Vocabulary+More&t=468"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=English+Vocabulary+More&t=144"
   },
 
   "uk-and-usa-culture-and-cities": {
@@ -401,7 +401,7 @@ export const englischTopics: Record<string, EnglischTopic> = {
         "folder": "30-wichtige-stadte-der-usa-404"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=London+New+York+USA+English&t=468"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=London+New+York+USA+English&t=144"
   },
 
   "commonwealth-and-world": {
@@ -443,7 +443,7 @@ export const englischTopics: Record<string, EnglischTopic> = {
         "folder": "toronto-6131"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Australia+Canada+English+Commonwealth&t=468"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Australia+Canada+English+Commonwealth&t=144"
   },
 
   "history-of-music": {
@@ -543,7 +543,7 @@ export const englischTopics: Record<string, EnglischTopic> = {
         "folder": "hold-the-line-toto-480"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=History+of+Music+English&t=468"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=History+of+Music+English&t=144"
   },
 
   "william-shakespeare-and-drama": {
@@ -600,7 +600,7 @@ export const englischTopics: Record<string, EnglischTopic> = {
         "folder": "william-shakespeare-romeo-und-julia-2-4573"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Shakespeare+Hamlet+Drama+English&t=468"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Shakespeare+Hamlet+Drama+English&t=144"
   },
 
   "british-literature-and-classics": {
@@ -677,7 +677,7 @@ export const englischTopics: Record<string, EnglischTopic> = {
         "folder": "britischer-humor-in-englischen-romanen"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=British+Literature+Classics+English&t=468"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=British+Literature+Classics+English&t=144"
   },
 
   "american-literature": {
@@ -726,6 +726,6 @@ export const englischTopics: Record<string, EnglischTopic> = {
         "folder": "warum-stephen-king-der-meister-des-horrors-bleibt"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=American+Literature+Classics+English&t=468"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=American+Literature+Classics+English&t=144"
   }
 };

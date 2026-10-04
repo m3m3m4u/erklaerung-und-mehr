@@ -95,7 +95,7 @@ export const technikTopics: Record<string, TechnikTopic> = {
         "folder": "lerninhalt-legierungs-und-begleitelemente-571"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Metalle+Werkstoffkunde+Technik&t=1251"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Metalle+Werkstoffkunde+Technik&t=156"
   },
   "kunststoffe-und-polymere": {
     "slug": "kunststoffe-und-polymere",
@@ -132,7 +132,7 @@ export const technikTopics: Record<string, TechnikTopic> = {
         "folder": "wie-funktioniert-die-polymerisation-herstellung-von-kunststoff"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Kunststoffe+Technikunterricht&t=1251"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Kunststoffe+Technikunterricht&t=156"
   },
   "fertigungsverfahren-und-werkzeuge": {
     "slug": "fertigungsverfahren-und-werkzeuge",
@@ -229,7 +229,7 @@ export const technikTopics: Record<string, TechnikTopic> = {
         "folder": "lerninhalt-warmebehandlung-573"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Fertigungstechnik+Werkzeuge&t=1251"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Fertigungstechnik+Werkzeuge&t=156"
   },
   "kraefte-hebel-und-getriebe": {
     "slug": "kraefte-hebel-und-getriebe",
@@ -286,7 +286,7 @@ export const technikTopics: Record<string, TechnikTopic> = {
         "folder": "wie-funktioniert-eine-wasserwaage"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Hebel+Getriebe+Mechanik+Technik&t=1251"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Hebel+Getriebe+Mechanik+Technik&t=156"
   },
   "motoren-und-verbrennungskraftmaschinen": {
     "slug": "motoren-und-verbrennungskraftmaschinen",
@@ -328,7 +328,7 @@ export const technikTopics: Record<string, TechnikTopic> = {
         "folder": "wie-funktioniert-eine-dampfmaschine"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Verbrennungsmotor+Motoren+Technik&t=1251"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Verbrennungsmotor+Motoren+Technik&t=156"
   },
   "pneumatik-und-hydraulik": {
     "slug": "pneumatik-und-hydraulik",
@@ -370,7 +370,7 @@ export const technikTopics: Record<string, TechnikTopic> = {
         "folder": "wie-funktioniert-der-siphon-effekt"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Pneumatik+Hydraulik+Technik&t=1251"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Pneumatik+Hydraulik+Technik&t=156"
   },
   "grundlagen-der-elektrotechnik": {
     "slug": "grundlagen-der-elektrotechnik",
@@ -442,7 +442,7 @@ export const technikTopics: Record<string, TechnikTopic> = {
         "folder": "wie-funktioniert-ein-kondensator"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Elektrotechnik+Grundlagen+Technik&t=1251"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Elektrotechnik+Grundlagen+Technik&t=156"
   },
   "elektrische-maschinen-und-generatoren": {
     "slug": "elektrische-maschinen-und-generatoren",
@@ -504,7 +504,7 @@ export const technikTopics: Record<string, TechnikTopic> = {
         "folder": "wie-funktioniert-ein-elektromotor"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Elektromotor+Generator+Technik&t=1251"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Elektromotor+Generator+Technik&t=156"
   },
   "sensorik-und-messgeraete": {
     "slug": "sensorik-und-messgeraete",
@@ -621,7 +621,7 @@ export const technikTopics: Record<string, TechnikTopic> = {
         "folder": "beschleunigungssensoren-und-wie-das-handy-weiss-wo-oben-ist"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Sensoren+Messtechnik+Technik&t=1251"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Sensoren+Messtechnik+Technik&t=156"
   },
   "computer-und-digitaltechnik": {
     "slug": "computer-und-digitaltechnik",
@@ -738,7 +738,7 @@ export const technikTopics: Record<string, TechnikTopic> = {
         "folder": "geschichte-der-telekommunikation-5390"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Computer+Digitaltechnik&t=1251"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Computer+Digitaltechnik&t=156"
   },
   "kfz-technik-und-antrieb": {
     "slug": "kfz-technik-und-antrieb",
@@ -810,7 +810,7 @@ export const technikTopics: Record<string, TechnikTopic> = {
         "folder": "wie-funktioniert-ein-heckmotor-2524"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Kfz+Technik+Fahrzeugtechnik&t=1251"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Kfz+Technik+Fahrzeugtechnik&t=156"
   },
   "sicherheitssysteme-und-abgasreinigung": {
     "slug": "sicherheitssysteme-und-abgasreinigung",
@@ -847,7 +847,7 @@ export const technikTopics: Record<string, TechnikTopic> = {
         "folder": "der-katalysator-5151"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Fahrzeugsicherheit+ABS+Abgas&t=1251"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Fahrzeugsicherheit+ABS+Abgas&t=156"
   },
   "luft-und-schifffahrtstechnik": {
     "slug": "luft-und-schifffahrtstechnik",
@@ -934,7 +934,7 @@ export const technikTopics: Record<string, TechnikTopic> = {
         "folder": "wie-funktioniert-ein-hovercraft"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Luftfahrt+Schifffahrt+Technik&t=1251"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Luftfahrt+Schifffahrt+Technik&t=156"
   },
   "erneuerbare-energien-und-kraftwerke": {
     "slug": "erneuerbare-energien-und-kraftwerke",
@@ -1031,7 +1031,7 @@ export const technikTopics: Record<string, TechnikTopic> = {
         "folder": "atomkraftwerke-2-5242"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Erneuerbare+Energien+Windkraft+Technik&t=1251"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Erneuerbare+Energien+Windkraft+Technik&t=156"
   },
   "energiespeicher-und-akkumulatoren": {
     "slug": "energiespeicher-und-akkumulatoren",
@@ -1073,7 +1073,7 @@ export const technikTopics: Record<string, TechnikTopic> = {
         "folder": "umwandlung-elektrischer-energie-5323"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Akkus+Batterien+Energiespeicher&t=1251"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Akkus+Batterien+Energiespeicher&t=156"
   },
   "umwelttechnik-und-recycling": {
     "slug": "umwelttechnik-und-recycling",
@@ -1114,7 +1114,7 @@ export const technikTopics: Record<string, TechnikTopic> = {
         "folder": "wie-funktioniert-die-muellverbrennung-und-energiegewinnung"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Klaerwerk+Umwelttechnik&t=1251"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Klaerwerk+Umwelttechnik&t=156"
   },
   "haushaltsgeraete-und-klimatechnik": {
     "slug": "haushaltsgeraete-und-klimatechnik",
@@ -1201,7 +1201,7 @@ export const technikTopics: Record<string, TechnikTopic> = {
         "folder": "wie-funktioniert-ein-kuhlschrank-2536"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Haushaltsgeraete+Alltagstechnik&t=1251"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Haushaltsgeraete+Alltagstechnik&t=156"
   },
   "werkzeuge-und-alltagstechnik": {
     "slug": "werkzeuge-und-alltagstechnik",
@@ -1312,7 +1312,7 @@ export const technikTopics: Record<string, TechnikTopic> = {
         "folder": "wie-funktioniert-ein-fahrrad-kettenschaltung"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Werkzeuge+Technikunterricht&t=1251"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Werkzeuge+Technikunterricht&t=156"
   },
   "audio-und-studiotechnik": {
     "slug": "audio-und-studiotechnik",
@@ -1394,6 +1394,6 @@ export const technikTopics: Record<string, TechnikTopic> = {
         "folder": "wie-funktioniert-ein-mikrofon"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Tontechnik+Musikproduktion&t=1251"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Tontechnik+Musikproduktion&t=156"
   }
 };

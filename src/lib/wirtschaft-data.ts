@@ -111,7 +111,7 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "folder": "lerninhalt-produkte-der-wirtschaft-606"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=ökonomisches+prinzip+bedürfnisse&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=%C3%B6konomisches+prinzip+bed%C3%BCrfnisse&t=158"
   },
   "sozialversicherungen-und-soziale-sicherung": {
     "slug": "sozialversicherungen-und-soziale-sicherung",
@@ -218,7 +218,7 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "folder": "der-tag-der-arbeit-6574"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=sozialversicherung&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=sozialversicherung&t=158"
   },
   "wirtschaftsordnungen-marktwirtschaft-und-planwirtschaft": {
     "slug": "wirtschaftsordnungen-marktwirtschaft-und-planwirtschaft",
@@ -315,7 +315,7 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "folder": "der-konflikt-zwischen-tradition-und-fortschritt-2752"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=marktwirtschaft+planwirtschaft&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=marktwirtschaft+planwirtschaft&t=158"
   },
   "soziale-marktwirtschaft-in-deutschland": {
     "slug": "soziale-marktwirtschaft-in-deutschland",
@@ -398,7 +398,7 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "folder": "bedingungsloses-grundeinkommen-3482"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Die%20Soziale%20Marktwirtschaft%20in%20Deutschland+wirtschaft&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Die+Soziale+Marktwirtschaft+in+Deutschland+wirtschaft&t=158"
   },
   "markt-angebot-nachfrage-und-preisbildung": {
     "slug": "markt-angebot-nachfrage-und-preisbildung",
@@ -515,7 +515,7 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "folder": "die-goldenen-20er-jahre-und-die-weltwirtschaftskrise-1929-418"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Markt%2C%20Angebot%2C%20Nachfrage%20%26%20Preisbildung+wirtschaft&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Markt%2C+Angebot%2C+Nachfrage+%26+Preisbildung+wirtschaft&t=158"
   },
   "geld-funktionen-und-zahlungssysteme": {
     "slug": "geld-funktionen-und-zahlungssysteme",
@@ -617,7 +617,7 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "folder": "zahlungsformen-951"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Geld%2C%20Bankensystem%20%26%20Zahlungsverkehr+wirtschaft&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Geld%2C+Bankensystem+%26+Zahlungsverkehr+wirtschaft&t=158"
   },
   "ezb-bundesbank-und-geldpolitik": {
     "slug": "ezb-bundesbank-und-geldpolitik",
@@ -710,7 +710,7 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "folder": "studypoint-worter-markieren-lander-der-wahrungsunion-700"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=EZB%2C%20Geldpolitik%2C%20Inflation%20%26%20Deflation+wirtschaft&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=EZB%2C+Geldpolitik%2C+Inflation+%26+Deflation+wirtschaft&t=158"
   },
   "aktien-fonds-etfs-und-boerse": {
     "slug": "aktien-fonds-etfs-und-boerse",
@@ -797,7 +797,7 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "folder": "die-borse-905"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Wertpapiere%2C%20Aktien%2C%20ETFs%20%26%20B%C3%B6rsenhandel+wirtschaft&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Wertpapiere%2C+Aktien%2C+ETFs+%26+B%C3%B6rsenhandel+wirtschaft&t=158"
   },
   "kredite-schulden-und-verbraucherfinanzen": {
     "slug": "kredite-schulden-und-verbraucherfinanzen",
@@ -879,7 +879,7 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "folder": "steuerrecht-einfach-erklaert"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Kredite%2C%20Verschuldung%20%26%20Privatinsolvenz+wirtschaft&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Kredite%2C+Verschuldung+%26+Privatinsolvenz+wirtschaft&t=158"
   },
   "globalisierung-welthandel-und-lieferketten": {
     "slug": "globalisierung-welthandel-und-lieferketten",
@@ -976,7 +976,7 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "folder": "import-und-export-990"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Globalisierung%2C%20Welthandel%20%26%20Globale%20Lieferketten+wirtschaft&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Globalisierung%2C+Welthandel+%26+Globale+Lieferketten+wirtschaft&t=158"
   },
   "freihandel-protektionismus-und-organisationen": {
     "slug": "freihandel-protektionismus-und-organisationen",
@@ -1088,7 +1088,7 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "folder": "internationaler-wahrungsfonds-3549"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Freihandel%2C%20Protektionismus%20%26%20WTO%2C%20IWF%2C%20Weltbank+wirtschaft&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Freihandel%2C+Protektionismus+%26+WTO%2C+IWF%2C+Weltbank+wirtschaft&t=158"
   },
   "nachhaltige-unternehmen-und-kreislaufwirtschaft": {
     "slug": "nachhaltige-unternehmen-und-kreislaufwirtschaft",
@@ -1309,7 +1309,7 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "folder": "sudostasien-geographische-vielfalt-und-wirtschaftlicher-aufstieg-5521"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=migration+wirtschaft&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=migration+wirtschaft&t=158"
   },
   "globale-landwirtschaft-im-21-jahrhundert": {
     "slug": "globale-landwirtschaft-im-21-jahrhundert",
@@ -1365,7 +1365,7 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "folder": "industrialisierung-der-weg-von-der-agrar-zur-industriegesellschaft-5501"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=landwirtschaft+wirtschaft&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=landwirtschaft+wirtschaft&t=158"
   },
   "rechtsgeschaefte-und-geschaeftsfaehigkeit": {
     "slug": "rechtsgeschaefte-und-geschaeftsfaehigkeit",
@@ -1417,7 +1417,7 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "folder": "zivilprozess-versus-strafprozess"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Rechtsgesch%C3%A4fte%2C%20Gesch%C3%A4ftsf%C3%A4higkeit%20%26%20Willenserkl%C3%A4rungen+wirtschaft&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Rechtsgesch%C3%A4fte%2C+Gesch%C3%A4ftsf%C3%A4higkeit+%26+Willenserkl%C3%A4rungen+wirtschaft&t=158"
   },
   "kaufvertrag-und-vertragsstoerungen": {
     "slug": "kaufvertrag-und-vertragsstoerungen",
@@ -1469,7 +1469,7 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "folder": "produkthaftungsgesetz-und-garantien"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=kaufvertrag+mängel&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=kaufvertrag+m%C3%A4ngel&t=158"
   },
   "vertragsstoerungen-und-mahnverfahren": {
     "slug": "vertragsstoerungen-und-mahnverfahren",
@@ -1517,7 +1517,7 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "folder": "verjaehrungsfristen-bei-forderungen"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=vertragsstörungen+mahnverfahren&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=vertragsst%C3%B6rungen+mahnverfahren&t=158"
   },
   "arbeitsrecht-und-verbraucherschutz": {
     "slug": "arbeitsrecht-und-verbraucherschutz",
@@ -1580,7 +1580,7 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "folder": "spannungsfeld-zwischen-whistleblowing-und-geheimhaltung"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=arbeitsrecht+kündigungsschutz&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=arbeitsrecht+k%C3%BCndigungsschutz&t=158"
   },
   "vertragsarten-und-verbraucherrechte": {
     "slug": "vertragsarten-und-verbraucherrechte",
@@ -1646,7 +1646,7 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "folder": "vertrage-939"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=verbraucherschutz+vertragsarten&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=verbraucherschutz+vertragsarten&t=158"
   },
   "rechtsformen-von-unternehmen": {
     "slug": "rechtsformen-von-unternehmen",
@@ -1754,7 +1754,7 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "folder": "der-mittelstand-in-deutschland"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Rechtsformen%20von%20Unternehmen%3A%20Einzelunternehmen%2C%20GmbH%20%26%20AG+wirtschaft&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Rechtsformen+von+Unternehmen%3A+Einzelunternehmen%2C+GmbH+%26+AG+wirtschaft&t=158"
   },
   "aufbau-und-ablauforganisation-im-betrieb": {
     "slug": "aufbau-und-ablauforganisation-im-betrieb",
@@ -1846,7 +1846,7 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "folder": "vertrieb-994"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Unternehmensorganisation%3A%20Aufbau-%20%26%20Ablauforganisation+wirtschaft&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Unternehmensorganisation%3A+Aufbau-+%26+Ablauforganisation+wirtschaft&t=158"
   },
   "marketing-mix-und-marktforschung": {
     "slug": "marketing-mix-und-marktforschung",
@@ -1927,7 +1927,7 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "folder": "marketing-950"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=marktforschung+marketing+mix&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=marktforschung+marketing+mix&t=158"
   },
   "produkt-und-preispolitik-im-marketing": {
     "slug": "produkt-und-preispolitik-im-marketing",
@@ -1999,7 +1999,7 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "folder": "wie-buchcover-unser-kaufverhalten-steuern"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=produktpolitik+preispolitik&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=produktpolitik+preispolitik&t=158"
   },
   "kommunikationspolitik-und-werbung": {
     "slug": "kommunikationspolitik-und-werbung",
@@ -2080,7 +2080,7 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "folder": "einfluss-der-werbung-auf-das-verhalten-2709"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=werbung+social+media+marketing&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=werbung+social+media+marketing&t=158"
   },
   "digitale-wirtschaft-e-commerce-und-plattformen": {
     "slug": "digitale-wirtschaft-e-commerce-und-plattformen",
@@ -2174,7 +2174,7 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "folder": "billig-schrott-aus-fernost-die-dunkle-seite-der-asiatischen-online-giganten"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=e-commerce+onlineshop&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=e-commerce+onlineshop&t=158"
   },
   "plattformoekonomie-ki-und-sharing-economy": {
     "slug": "plattformoekonomie-ki-und-sharing-economy",
@@ -2245,7 +2245,7 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "folder": "mobilitaet-der-zukunft-e-autos-und-wasserstoff"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=plattformökonomie+künstliche+intelligenz&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=plattform%C3%B6konomie+k%C3%BCnstliche+intelligenz&t=158"
   },
   "personalwirtschaft-und-mitarbeiterfuehrung": {
     "slug": "personalwirtschaft-und-mitarbeiterfuehrung",
@@ -2316,7 +2316,7 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "folder": "zwei-faktoren-theorie-nach-herzberg"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Personalwirtschaft%2C%20F%C3%BChrung%20%26%20Unternehmenskultur+wirtschaft&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Personalwirtschaft%2C+F%C3%BChrung+%26+Unternehmenskultur+wirtschaft&t=158"
   },
   "rechnungswesen-inventur-bilanz-und-guv": {
     "slug": "rechnungswesen-inventur-bilanz-und-guv",
@@ -2399,7 +2399,7 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "folder": "buchfuhrung-992"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Rechnungswesen%3A%20Inventur%2C%20Bilanz%20%26%20GuV+wirtschaft&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Rechnungswesen%3A+Inventur%2C+Bilanz+%26+GuV+wirtschaft&t=158"
   },
   "das-deutsche-steuersystem": {
     "slug": "das-deutsche-steuersystem",
@@ -2470,7 +2470,7 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "folder": "die-verschiednen-steuern-in-deutschland-3520"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Das%20deutsche%20Steuersystem%3A%20Einkommen-%2C%20Umsatz-%20%26%20Gewerbesteuer+wirtschaft&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Das+deutsche+Steuersystem%3A+Einkommen-%2C+Umsatz-+%26+Gewerbesteuer+wirtschaft&t=158"
   },
   "berufsorientierung-und-berufswahl": {
     "slug": "berufsorientierung-und-berufswahl",
@@ -2531,7 +2531,7 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "folder": "berufe-im-wandel-der-digitalisierung"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=berufsorientierung+berufswahl&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=berufsorientierung+berufswahl&t=158"
   },
   "praktikum-fsj-und-karriereplanung": {
     "slug": "praktikum-fsj-und-karriereplanung",
@@ -2587,7 +2587,7 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "folder": "fachkraeftemangel-und-zuwanderung"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=praktikum+karriereplanung&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=praktikum+karriereplanung&t=158"
   },
   "die-erfolgreiche-bewerbung-und-vorstellungsgespraech": {
     "slug": "die-erfolgreiche-bewerbung-und-vorstellungsgespraech",
@@ -2664,7 +2664,7 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "folder": "einstellungstests-mathematik-und-logik"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=bewerbung+lebenslauf&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=bewerbung+lebenslauf&t=158"
   },
   "vorstellungsgespraech-und-assessment-center": {
     "slug": "vorstellungsgespraech-und-assessment-center",
@@ -2736,7 +2736,7 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "folder": "gruppendiskussionen-erfolgreich-meistern"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=vorstellungsgespräch+assessment+center&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=vorstellungsgespr%C3%A4ch+assessment+center&t=158"
   },
   "der-ausbildungsvertrag-und-arbeitsalltag": {
     "slug": "der-ausbildungsvertrag-und-arbeitsalltag",
@@ -2813,7 +2813,7 @@ export const wirtschaftTopics: Record<string, WirtschaftTopic> = {
         "folder": "zeitmanagement-und-selbstorganisation"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Der%20Ausbildungsvertrag%2C%20Rechte%2C%20Pflichten%20%26%20Arbeitsalltag+wirtschaft&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Der+Ausbildungsvertrag%2C+Rechte%2C+Pflichten+%26+Arbeitsalltag+wirtschaft&t=158"
   },
   "globale-logistik-verkehr-und-handelsrouten": {
     "slug": "globale-logistik-verkehr-und-handelsrouten",

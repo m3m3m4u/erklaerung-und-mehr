@@ -55,7 +55,7 @@ export const ernaehrungTopics: Record<string, ErnaehrungTopic> = {
         "folder": "global-goal-2-kein-hunger-ernahrung-sichern-hunger-stoppen-4478"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Ernährungspyramide+ernaehrung&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Ern%C3%A4hrungspyramide+ernaehrung&t=148"
   },
   "makronaehrstoffe-kohlenhydrate-fette-proteine": {
     "slug": "makronaehrstoffe-kohlenhydrate-fette-proteine",
@@ -111,7 +111,7 @@ export const ernaehrungTopics: Record<string, ErnaehrungTopic> = {
         "folder": "escape-room-quot-nahrstoffe-quot-3233"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Nährstoffe+Kohlenhydrate+Fette+Proteine&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=N%C3%A4hrstoffe+Kohlenhydrate+Fette+Proteine&t=148"
   },
   "mikronaehrstoffe-vitamine-und-mineralstoffe": {
     "slug": "mikronaehrstoffe-vitamine-und-mineralstoffe",
@@ -147,7 +147,7 @@ export const ernaehrungTopics: Record<string, ErnaehrungTopic> = {
         "folder": "magnesium-1160"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Vitamine+Mineralstoffe&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Vitamine+Mineralstoffe&t=148"
   },
   "lebensmittelkunde-obst-gemuese-getreide": {
     "slug": "lebensmittelkunde-obst-gemuese-getreide",
@@ -193,7 +193,7 @@ export const ernaehrungTopics: Record<string, ErnaehrungTopic> = {
         "folder": "der-apfelbaum-von-der-blute-zur-frucht-2193"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Lebensmittelkunde+Obst+Gemüse+Getreide&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Lebensmittelkunde+Obst+Gem%C3%BCse+Getreide&t=148"
   },
   "ernaehrungsformen-vegetarisch-vegan-kulturen": {
     "slug": "ernaehrungsformen-vegetarisch-vegan-kulturen",
@@ -240,7 +240,7 @@ export const ernaehrungTopics: Record<string, ErnaehrungTopic> = {
         "folder": "tierschutz-und-fleischkonsum-als-thema-in-romanen"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Vegetarisch+Vegan+Ernährung&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Vegetarisch+Vegan+Ern%C3%A4hrung&t=148"
   },
   "diaeten-essstoerungen-und-ernaehrungsverhalten": {
     "slug": "diaeten-essstoerungen-und-ernaehrungsverhalten",
@@ -277,7 +277,7 @@ export const ernaehrungTopics: Record<string, ErnaehrungTopic> = {
         "folder": "fast-food-als-krankmacher-der-langsame-gifttod-durch-ungesunde-ernaehrung"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Essstörungen+Diäten+Ernährung&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Essst%C3%B6rungen+Di%C3%A4ten+Ern%C3%A4hrung&t=148"
   },
   "ernaehrung-gesundheit-allergien-lebensphasen": {
     "slug": "ernaehrung-gesundheit-allergien-lebensphasen",
@@ -319,7 +319,7 @@ export const ernaehrungTopics: Record<string, ErnaehrungTopic> = {
         "folder": "der-zusammenhang-zwischen-ernahrung-und-psychischer-gesundheit-2701"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Ernährung+Allergien+Gesundheit&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Ern%C3%A4hrung+Allergien+Gesundheit&t=148"
   },
   "verdauungstrakt-und-stoffwechsel": {
     "slug": "verdauungstrakt-und-stoffwechsel",
@@ -362,6 +362,6 @@ export const ernaehrungTopics: Record<string, ErnaehrungTopic> = {
         "folder": "die-schilddruse-und-stoffwechselregulation-2101"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Verdauungstrakt+Verdauung+Magen+Darm&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Verdauungstrakt+Verdauung+Magen+Darm&t=148"
   }
 };

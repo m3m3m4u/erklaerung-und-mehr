@@ -40,17 +40,43 @@ export default function SubjectCatchAllView<T extends GenericTopic>({
 
   // Eduki Fach-Filter Konfiguration (Autoren-Slug und Fach-Tag &t=...)
   const edukiConfigBySubject: Record<string, { slug: string; t?: string }> = {
-    'informatik': { slug: 'erklaerung-und-mehr-org', t: '896' },
-    'mathematik': { slug: 'erklaerung-und-mehr-org', t: '1118' },
-    'math': { slug: 'erklaerung-und-mehr-org', t: '1118' },
-    'deutsch': { slug: 'about-the-world-org', t: '284' },
-    'englisch': { slug: 'about-the-world-org', t: '468' },
-    'medien': { slug: 'about-the-world-org', t: '1721' },
-    'technik': { slug: 'about-the-world-org', t: '1251' },
+    'biologie': { slug: 'about-the-world-org', t: '148' },
+    'chemie': { slug: 'about-the-world-org', t: '149' },
+    'physik': { slug: 'about-the-world-org', t: '150' },
+    'geschichte': { slug: 'about-the-world-org', t: '147' },
+    'geographie': { slug: 'about-the-world-org', t: '146' },
+    'mathematik': { slug: 'erklaerung-und-mehr-org', t: '145' },
+    'math': { slug: 'erklaerung-und-mehr-org', t: '145' },
+    'deutsch': { slug: 'about-the-world-org', t: '143' },
+    'englisch': { slug: 'about-the-world-org', t: '144' },
+    'musik': { slug: 'about-the-world-org', t: '152' },
+    'kunst': { slug: 'about-the-world-org', t: '151' },
+    'religion': { slug: 'about-the-world-org', t: '154' },
+    'ethik': { slug: 'about-the-world-org', t: '155' },
+    'philosophie': { slug: 'about-the-world-org', t: '155' },
+    'psychologie': { slug: 'about-the-world-org', t: '155' },
+    'soziales-und-emotionales-lernen': { slug: 'about-the-world-org', t: '155' },
+    'soziales-lernen': { slug: 'about-the-world-org', t: '155' },
+    'politik-und-gesellschaft': { slug: 'about-the-world-org', t: '157' },
+    'politik': { slug: 'about-the-world-org', t: '157' },
+    'wirtschaft': { slug: 'about-the-world-org', t: '158' },
+    'lehrberufe': { slug: 'about-the-world-org', t: '158' },
+    'informatik': { slug: 'erklaerung-und-mehr-org', t: '159' },
+    'medien': { slug: 'about-the-world-org', t: '159' },
+    'sport': { slug: 'about-the-world-org', t: '153' },
+    'technik': { slug: 'about-the-world-org', t: '156' },
+    'hauswirtschaft': { slug: 'about-the-world-org', t: '141' },
+    'die-freiwillige-fahrradpruefung': { slug: 'about-the-world-org', t: '141' },
+    'verkehr': { slug: 'about-the-world-org', t: '141' },
+    'ernaehrung': { slug: 'about-the-world-org', t: '148' },
+    'sustainable-development-goals': { slug: 'about-the-world-org', t: '146' },
+    'klima': { slug: 'about-the-world-org', t: '146' },
+    'wichtige-persoenlichkeiten-der-geschichte': { slug: 'about-the-world-org', t: '147' },
+    'persoenlichkeiten': { slug: 'about-the-world-org', t: '147' },
   };
 
   const subjectKey = subjectPath.replace(/^\//, '');
-  const edukiConfig = edukiConfigBySubject[subjectKey] || { slug: 'about-the-world-org', t: '3752' };
+  const edukiConfig = edukiConfigBySubject[subjectKey] || { slug: 'about-the-world-org', t: '146' };
   const fallbackEdukiUrl = topic
     ? `https://eduki.com/de/autor/1430402/${edukiConfig.slug}?query=${encodeURIComponent(topic.title)}${edukiConfig.t ? `&t=${edukiConfig.t}` : ''}`
     : undefined;

@@ -89,7 +89,7 @@ export const sozialesLernenTopics: Record<string, SozialesLernenTopic> = {
         "folder": "gefuhle-796"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Emotionen+Gefuehle+Soziales+Lernen&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Emotionen+Gefuehle+Soziales+Lernen&t=155"
   },
   "achtsamkeit-resilienz-und-selbstreflexion": {
     "slug": "achtsamkeit-resilienz-und-selbstreflexion",
@@ -146,7 +146,7 @@ export const sozialesLernenTopics: Record<string, SozialesLernenTopic> = {
         "folder": "umgang-mit-schuldgefuhlen-4460"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Achtsamkeit+Resilienz+Selbstwert&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Achtsamkeit+Resilienz+Selbstwert&t=155"
   },
   "identitaet-selbstbild-und-jugend": {
     "slug": "identitaet-selbstbild-und-jugend",
@@ -198,7 +198,7 @@ export const sozialesLernenTopics: Record<string, SozialesLernenTopic> = {
         "folder": "freundschaft-und-verrat-in-der-clique"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Identitaet+Selbstbild+Pubertaet&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Identitaet+Selbstbild+Pubertaet&t=155"
   },
   "empathie-freundschaft-und-beziehungen": {
     "slug": "empathie-freundschaft-und-beziehungen",
@@ -245,7 +245,7 @@ export const sozialesLernenTopics: Record<string, SozialesLernenTopic> = {
         "folder": "konflikte-unter-freunden-losen-4447"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Empathie+Freundschaft+Vertrauen&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Empathie+Freundschaft+Vertrauen&t=155"
   },
   "familie-geschwister-und-generationen": {
     "slug": "familie-geschwister-und-generationen",
@@ -287,7 +287,7 @@ export const sozialesLernenTopics: Record<string, SozialesLernenTopic> = {
         "folder": "generationenkonflikte-wenn-jung-auf-alt-trifft"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Familie+Geschwister+Generationen&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Familie+Geschwister+Generationen&t=155"
   },
   "kommunikation-feedback-und-fehlerkultur": {
     "slug": "kommunikation-feedback-und-fehlerkultur",
@@ -339,7 +339,7 @@ export const sozialesLernenTopics: Record<string, SozialesLernenTopic> = {
         "folder": "aktives-zuhoren-wie-du-anderen-wirklich-zuhorst-3141"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Gewaltfreie+Kommunikation+Feedback&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Gewaltfreie+Kommunikation+Feedback&t=155"
   },
   "konfliktloesung-streitkultur-und-fair-play": {
     "slug": "konfliktloesung-streitkultur-und-fair-play",
@@ -391,7 +391,7 @@ export const sozialesLernenTopics: Record<string, SozialesLernenTopic> = {
         "folder": "die-kraft-der-kompromisse-wie-man-gemeinsam-losungen-findet-3147"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Konfliktloesung+Streitschlichtung+Fair+Play&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Konfliktloesung+Streitschlichtung+Fair+Play&t=155"
   },
   "mobbingpraevention-cybermobbing-und-digitale-zivilcourage": {
     "slug": "mobbingpraevention-cybermobbing-und-digitale-zivilcourage",
@@ -453,7 +453,7 @@ export const sozialesLernenTopics: Record<string, SozialesLernenTopic> = {
         "folder": "konstruktive-kommunikation-in-sozialen-medien"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Cybermobbing+Zivilcourage+Mobbing&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Cybermobbing+Zivilcourage+Mobbing&t=155"
   },
   "inklusion-gemeinschaft-und-soziale-projekte": {
     "slug": "inklusion-gemeinschaft-und-soziale-projekte",
@@ -490,6 +490,6 @@ export const sozialesLernenTopics: Record<string, SozialesLernenTopic> = {
         "folder": "songs-quot-sozialemotionales-lernen-quot-3237"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Inklusion+Klassenrat+Soziale+Projekte&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Inklusion+Klassenrat+Soziale+Projekte&t=155"
   }
 };

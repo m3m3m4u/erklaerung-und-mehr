@@ -101,7 +101,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "harold-garfinkel-3932"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Antrophologen%20und%20Soziologen+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Antrophologen+und+Soziologen+biografie&t=147"
   },
   "antrophologen-und-soziologen-teil-2": {
     "slug": "antrophologen-und-soziologen-teil-2",
@@ -156,7 +156,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "pierre-bourdieu-4169"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Antrophologen%20und%20Soziologen+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Antrophologen+und+Soziologen+biografie&t=147"
   },
   "antrophologen-und-soziologen-teil-3": {
     "slug": "antrophologen-und-soziologen-teil-3",
@@ -206,7 +206,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "jurgen-habermas-4365"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Antrophologen%20und%20Soziologen+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Antrophologen+und+Soziologen+biografie&t=147"
   },
   "architekten": {
     "slug": "architekten",
@@ -266,7 +266,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "jean-nouvel-4003"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Architekten+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Architekten+biografie&t=147"
   },
   "architekten-teil-2": {
     "slug": "architekten-teil-2",
@@ -326,7 +326,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "robert-venturi-4217"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Architekten+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Architekten+biografie&t=147"
   },
   "architekten-teil-3": {
     "slug": "architekten-teil-3",
@@ -386,7 +386,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "ludwig-mies-van-der-rohe-4408"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Architekten+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Architekten+biografie&t=147"
   },
   "biologen": {
     "slug": "biologen",
@@ -446,7 +446,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "ernst-mayr-3830"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Biologen+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Biologen+biografie&t=147"
   },
   "biologen-teil-2": {
     "slug": "biologen-teil-2",
@@ -506,7 +506,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "niko-tinbergen-4131"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Biologen+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Biologen+biografie&t=147"
   },
   "biologen-teil-3": {
     "slug": "biologen-teil-3",
@@ -561,7 +561,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "konrad-lorenz-4378"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Biologen+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Biologen+biografie&t=147"
   },
   "chemiker": {
     "slug": "chemiker",
@@ -626,7 +626,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "fritz-haber-3868"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Chemiker+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Chemiker+biografie&t=147"
   },
   "chemiker-teil-2": {
     "slug": "chemiker-teil-2",
@@ -691,7 +691,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "marie-curie-4076"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Chemiker+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Chemiker+biografie&t=147"
   },
   "chemiker-teil-3": {
     "slug": "chemiker-teil-3",
@@ -756,7 +756,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "lise-meitner-4401"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Chemiker+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Chemiker+biografie&t=147"
   },
   "computerwissenschaftler": {
     "slug": "computerwissenschaftler",
@@ -821,7 +821,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "donald-knuth-3790"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Computerwissenschaftler+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Computerwissenschaftler+biografie&t=147"
   },
   "computerwissenschaftler-teil-2": {
     "slug": "computerwissenschaftler-teil-2",
@@ -886,7 +886,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "richard-stallman-4200"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Computerwissenschaftler+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Computerwissenschaftler+biografie&t=147"
   },
   "computerwissenschaftler-teil-3": {
     "slug": "computerwissenschaftler-teil-3",
@@ -946,7 +946,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "linus-torvalds-4399"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Computerwissenschaftler+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Computerwissenschaftler+biografie&t=147"
   },
   "deutsche-schriftsteller": {
     "slug": "deutsche-schriftsteller",
@@ -1001,7 +1001,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "franz-werfel-3858"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Deutsche%20Schriftsteller+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Deutsche+Schriftsteller+biografie&t=147"
   },
   "deutsche-schriftsteller-teil-2": {
     "slug": "deutsche-schriftsteller-teil-2",
@@ -1056,7 +1056,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "heinrich-heine-3937"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Deutsche%20Schriftsteller+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Deutsche+Schriftsteller+biografie&t=147"
   },
   "deutsche-schriftsteller-teil-3": {
     "slug": "deutsche-schriftsteller-teil-3",
@@ -1116,7 +1116,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "faust-ii-von-j-w-von-goethe-6215"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Deutsche%20Schriftsteller+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Deutsche+Schriftsteller+biografie&t=147"
   },
   "englischsprachige-schriftsteller": {
     "slug": "englischsprachige-schriftsteller",
@@ -1181,7 +1181,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "graham-greene-3913"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Englischsprachige%20Schriftsteller+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Englischsprachige+Schriftsteller+biografie&t=147"
   },
   "englischsprachige-schriftsteller-teil-2": {
     "slug": "englischsprachige-schriftsteller-teil-2",
@@ -1241,7 +1241,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "p-g-wodehouse-4153"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Englischsprachige%20Schriftsteller+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Englischsprachige+Schriftsteller+biografie&t=147"
   },
   "englischsprachige-schriftsteller-teil-3": {
     "slug": "englischsprachige-schriftsteller-teil-3",
@@ -1301,7 +1301,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "virginia-woolf-4322"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Englischsprachige%20Schriftsteller+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Englischsprachige+Schriftsteller+biografie&t=147"
   },
   "entdecker": {
     "slug": "entdecker",
@@ -1366,7 +1366,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "giovanni-da-verrazzano-3901"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Entdecker+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Entdecker+biografie&t=147"
   },
   "entdecker-teil-2": {
     "slug": "entdecker-teil-2",
@@ -1431,7 +1431,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "marco-polo-4070"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Entdecker+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Entdecker+biografie&t=147"
   },
   "entdecker-teil-3": {
     "slug": "entdecker-teil-3",
@@ -1491,7 +1491,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "leif-erikson-4389"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Entdecker+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Entdecker+biografie&t=147"
   },
   "feldherren": {
     "slug": "feldherren",
@@ -1556,7 +1556,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "georgy-zhukov-3893"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Feldherren+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Feldherren+biografie&t=147"
   },
   "feldherren-teil-2": {
     "slug": "feldherren-teil-2",
@@ -1616,7 +1616,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "saladin-4231"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Feldherren+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Feldherren+biografie&t=147"
   },
   "feldherren-teil-3": {
     "slug": "feldherren-teil-3",
@@ -1676,7 +1676,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "leonidas-i-4394"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Feldherren+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Feldherren+biografie&t=147"
   },
   "franzoesische-schriftsteller": {
     "slug": "franzoesische-schriftsteller",
@@ -1736,7 +1736,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "colette-3761"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Franz%C3%B6sische%20Schriftsteller+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Franz%C3%B6sische+Schriftsteller+biografie&t=147"
   },
   "franzoesische-schriftsteller-teil-2": {
     "slug": "franzoesische-schriftsteller-teil-2",
@@ -1796,7 +1796,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "marcel-proust-2-4069"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Franz%C3%B6sische%20Schriftsteller+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Franz%C3%B6sische+Schriftsteller+biografie&t=147"
   },
   "franzoesische-schriftsteller-teil-3": {
     "slug": "franzoesische-schriftsteller-teil-3",
@@ -1856,7 +1856,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "victor-hugo-4411"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Franz%C3%B6sische%20Schriftsteller+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Franz%C3%B6sische+Schriftsteller+biografie&t=147"
   },
   "frauenrechtler": {
     "slug": "frauenrechtler",
@@ -1921,7 +1921,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "clara-zetkin-3755"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Frauenrechtler+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Frauenrechtler+biografie&t=147"
   },
   "frauenrechtler-teil-2": {
     "slug": "frauenrechtler-teil-2",
@@ -1986,7 +1986,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "matilda-joslyn-gage-4091"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Frauenrechtler+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Frauenrechtler+biografie&t=147"
   },
   "frauenrechtler-teil-3": {
     "slug": "frauenrechtler-teil-3",
@@ -2051,7 +2051,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "bertha-von-suttner-2298"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Frauenrechtler+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Frauenrechtler+biografie&t=147"
   },
   "historiker": {
     "slug": "historiker",
@@ -2116,7 +2116,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "fernand-braudel-3844"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Historiker+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Historiker+biografie&t=147"
   },
   "historiker-teil-2": {
     "slug": "historiker-teil-2",
@@ -2181,7 +2181,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "orlando-figes-4144"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Historiker+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Historiker+biografie&t=147"
   },
   "historiker-teil-3": {
     "slug": "historiker-teil-3",
@@ -2246,7 +2246,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "tony-judt-4410"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Historiker+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Historiker+biografie&t=147"
   },
   "ingenieure": {
     "slug": "ingenieure",
@@ -2311,7 +2311,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "guglielmo-marconi-3917"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Ingenieure+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Ingenieure+biografie&t=147"
   },
   "ingenieure-teil-2": {
     "slug": "ingenieure-teil-2",
@@ -2371,7 +2371,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "robert-fulton-4212"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Ingenieure+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Ingenieure+biografie&t=147"
   },
   "ingenieure-teil-3": {
     "slug": "ingenieure-teil-3",
@@ -2436,7 +2436,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "die-fraunhofer-gesellschaft"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Ingenieure+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Ingenieure+biografie&t=147"
   },
   "italienische-schriftsteller": {
     "slug": "italienische-schriftsteller",
@@ -2501,7 +2501,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "dino-buzzati-3784"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Italienische%20Schriftsteller+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Italienische+Schriftsteller+biografie&t=147"
   },
   "italienische-schriftsteller-teil-2": {
     "slug": "italienische-schriftsteller-teil-2",
@@ -2566,7 +2566,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "giuseppe-ungaretti-3904"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Italienische%20Schriftsteller+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Italienische+Schriftsteller+biografie&t=147"
   },
   "italienische-schriftsteller-teil-3": {
     "slug": "italienische-schriftsteller-teil-3",
@@ -2626,7 +2626,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "umberto-eco-4312"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Italienische%20Schriftsteller+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Italienische+Schriftsteller+biografie&t=147"
   },
   "journalisten": {
     "slug": "journalisten",
@@ -2691,7 +2691,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "glenn-greenwald-3905"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Journalisten+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Journalisten+biografie&t=147"
   },
   "journalisten-teil-2": {
     "slug": "journalisten-teil-2",
@@ -2756,7 +2756,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "peter-jennings-4161"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Journalisten+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Journalisten+biografie&t=147"
   },
   "journalisten-teil-3": {
     "slug": "journalisten-teil-3",
@@ -2816,7 +2816,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "tom-brokaw-4409"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Journalisten+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Journalisten+biografie&t=147"
   },
   "maler-und-bildhauer": {
     "slug": "maler-und-bildhauer",
@@ -2876,7 +2876,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "el-greco-3807"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Maler%20und%20Bildhauer+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Maler+und+Bildhauer+biografie&t=147"
   },
   "maler-und-bildhauer-teil-2": {
     "slug": "maler-und-bildhauer-teil-2",
@@ -2936,7 +2936,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "jan-van-eyck-3998"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Maler%20und%20Bildhauer+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Maler+und+Bildhauer+biografie&t=147"
   },
   "maler-und-bildhauer-teil-3": {
     "slug": "maler-und-bildhauer-teil-3",
@@ -2996,7 +2996,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "sandro-botticelli-2-4238"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Maler%20und%20Bildhauer+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Maler+und+Bildhauer+biografie&t=147"
   },
   "mathematiker": {
     "slug": "mathematiker",
@@ -3056,7 +3056,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "bernhard-riemann-3703"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Mathematiker+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Mathematiker+biografie&t=147"
   },
   "mathematiker-teil-2": {
     "slug": "mathematiker-teil-2",
@@ -3116,7 +3116,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "grigori-perelman-3915"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Mathematiker+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Mathematiker+biografie&t=147"
   },
   "mathematiker-teil-3": {
     "slug": "mathematiker-teil-3",
@@ -3176,7 +3176,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "leonhard-euler-4392"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Mathematiker+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Mathematiker+biografie&t=147"
   },
   "menschenrechtler": {
     "slug": "menschenrechtler",
@@ -3241,7 +3241,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "frantz-fanon-3855"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Menschenrechtler+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Menschenrechtler+biografie&t=147"
   },
   "menschenrechtler-teil-2": {
     "slug": "menschenrechtler-teil-2",
@@ -3301,7 +3301,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "rosa-parks-4224"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Menschenrechtler+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Menschenrechtler+biografie&t=147"
   },
   "menschenrechtler-teil-3": {
     "slug": "menschenrechtler-teil-3",
@@ -3361,7 +3361,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "rigoberta-menchu-4202"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Menschenrechtler+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Menschenrechtler+biografie&t=147"
   },
   "modedesigner": {
     "slug": "modedesigner",
@@ -3426,7 +3426,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "giorgio-armani-3897"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Modedesigner+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Modedesigner+biografie&t=147"
   },
   "modedesigner-teil-2": {
     "slug": "modedesigner-teil-2",
@@ -3491,7 +3491,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "ralph-lauren-4185"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Modedesigner+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Modedesigner+biografie&t=147"
   },
   "modedesigner-teil-3": {
     "slug": "modedesigner-teil-3",
@@ -3551,7 +3551,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "karl-lagerfeld-4368"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Modedesigner+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Modedesigner+biografie&t=147"
   },
   "personen-aus-der-bibel": {
     "slug": "personen-aus-der-bibel",
@@ -3616,7 +3616,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "samson-figur-aus-der-bibel-4235"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Personen%20aus%20der%20Bibel+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Personen+aus+der+Bibel+biografie&t=147"
   },
   "personen-aus-der-bibel-teil-2": {
     "slug": "personen-aus-der-bibel-teil-2",
@@ -3681,7 +3681,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "isaac-figur-aus-der-bibel-3970"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Personen%20aus%20der%20Bibel+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Personen+aus+der+Bibel+biografie&t=147"
   },
   "personen-aus-der-bibel-teil-3": {
     "slug": "personen-aus-der-bibel-teil-3",
@@ -3746,7 +3746,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "saul-figur-aus-der-bibel-4242"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Personen%20aus%20der%20Bibel+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Personen+aus+der+Bibel+biografie&t=147"
   },
   "philosophen": {
     "slug": "philosophen",
@@ -3806,7 +3806,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "epicurus-3824"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Philosophen+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Philosophen+biografie&t=147"
   },
   "philosophen-teil-2": {
     "slug": "philosophen-teil-2",
@@ -3866,7 +3866,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "nicholas-of-cusa-4126"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Philosophen+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Philosophen+biografie&t=147"
   },
   "philosophen-teil-3": {
     "slug": "philosophen-teil-3",
@@ -3926,7 +3926,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "karl-marx-2-4414"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Philosophen+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Philosophen+biografie&t=147"
   },
   "physiker": {
     "slug": "physiker",
@@ -3991,7 +3991,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "hans-christian-rsted-3930"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Physiker+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Physiker+biografie&t=147"
   },
   "physiker-teil-2": {
     "slug": "physiker-teil-2",
@@ -4056,7 +4056,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "ole-roemer-4140"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Physiker+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Physiker+biografie&t=147"
   },
   "physiker-teil-3": {
     "slug": "physiker-teil-3",
@@ -4116,7 +4116,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "ludwig-boltzmann-4407"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Physiker+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Physiker+biografie&t=147"
   },
   "politiker": {
     "slug": "politiker",
@@ -4186,7 +4186,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "angela-merkel-882"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Politiker+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Politiker+biografie&t=147"
   },
   "politiker-teil-2": {
     "slug": "politiker-teil-2",
@@ -4241,7 +4241,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "otto-von-bismarck-2-4152"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Politiker+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Politiker+biografie&t=147"
   },
   "politiker-teil-3": {
     "slug": "politiker-teil-3",
@@ -4326,7 +4326,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "juan-und-evita-peron-3016"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Politiker+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Politiker+biografie&t=147"
   },
   "psychologen": {
     "slug": "psychologen",
@@ -4391,7 +4391,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "erik-erikson-3828"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Psychologen+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Psychologen+biografie&t=147"
   },
   "psychologen-teil-2": {
     "slug": "psychologen-teil-2",
@@ -4456,7 +4456,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "sigmund-freud-4254"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Psychologen+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Psychologen+biografie&t=147"
   },
   "psychologen-teil-3": {
     "slug": "psychologen-teil-3",
@@ -4516,7 +4516,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "lev-vygotsky-4397"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Psychologen+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Psychologen+biografie&t=147"
   },
   "religioese-fuehrer": {
     "slug": "religioese-fuehrer",
@@ -4576,7 +4576,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "john-paul-ii-4031"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Religi%C3%B6se%20F%C3%BChrer+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Religi%C3%B6se+F%C3%BChrer+biografie&t=147"
   },
   "religioese-fuehrer-teil-2": {
     "slug": "religioese-fuehrer-teil-2",
@@ -4636,7 +4636,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "rumi-4227"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Religi%C3%B6se%20F%C3%BChrer+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Religi%C3%B6se+F%C3%BChrer+biografie&t=147"
   },
   "religioese-fuehrer-teil-3": {
     "slug": "religioese-fuehrer-teil-3",
@@ -4696,7 +4696,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "apollo-1207"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Religi%C3%B6se%20F%C3%BChrer+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Religi%C3%B6se+F%C3%BChrer+biografie&t=147"
   },
   "russische-schriftsteller": {
     "slug": "russische-schriftsteller",
@@ -4761,7 +4761,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "daniil-kharms-3771"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Russische%20Schriftsteller+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Russische+Schriftsteller+biografie&t=147"
   },
   "russische-schriftsteller-teil-2": {
     "slug": "russische-schriftsteller-teil-2",
@@ -4826,7 +4826,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "mikhail-lermontov-4109"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Russische%20Schriftsteller+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Russische+Schriftsteller+biografie&t=147"
   },
   "russische-schriftsteller-teil-3": {
     "slug": "russische-schriftsteller-teil-3",
@@ -4886,7 +4886,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "leonid-andreev-4393"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Russische%20Schriftsteller+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Russische+Schriftsteller+biografie&t=147"
   },
   "spanische-schriftsteller": {
     "slug": "spanische-schriftsteller",
@@ -4951,7 +4951,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "emilia-pardo-bazan-3819"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Spanische%20Schriftsteller+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Spanische+Schriftsteller+biografie&t=147"
   },
   "spanische-schriftsteller-teil-2": {
     "slug": "spanische-schriftsteller-teil-2",
@@ -5016,7 +5016,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "mario-vargas-llosa-4078"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Spanische%20Schriftsteller+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Spanische+Schriftsteller+biografie&t=147"
   },
   "spanische-schriftsteller-teil-3": {
     "slug": "spanische-schriftsteller-teil-3",
@@ -5076,7 +5076,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "lope-de-vega-4402"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Spanische%20Schriftsteller+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Spanische+Schriftsteller+biografie&t=147"
   },
   "sportler": {
     "slug": "sportler",
@@ -5141,7 +5141,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "joe-louis-4018"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Sportler+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Sportler+biografie&t=147"
   },
   "sportler-teil-2": {
     "slug": "sportler-teil-2",
@@ -5206,7 +5206,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "serena-williams-4244"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Sportler+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Sportler+biografie&t=147"
   },
   "sportler-teil-3": {
     "slug": "sportler-teil-3",
@@ -5266,7 +5266,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "babe-ruth-3688"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Sportler+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Sportler+biografie&t=147"
   },
   "unternehmer": {
     "slug": "unternehmer",
@@ -5331,7 +5331,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "j-p-morgan-3980"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Unternehmer+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Unternehmer+biografie&t=147"
   },
   "unternehmer-teil-2": {
     "slug": "unternehmer-teil-2",
@@ -5396,7 +5396,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "ray-kroc-4189"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Unternehmer+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Unternehmer+biografie&t=147"
   },
   "unternehmer-teil-3": {
     "slug": "unternehmer-teil-3",
@@ -5461,7 +5461,7 @@ export const persoenlichkeitenTopics: Record<string, PersoenlichkeitTopic> = {
         "folder": "larry-ellison-4386"
       }
     ],
-    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Unternehmer+biografie&t=3752"
+    "worksheetLink": "https://eduki.com/de/autor/1430402/about-the-world-org?query=Unternehmer+biografie&t=147"
   },
   "antike-mythologie-und-goetterwelt": {
     "slug": "antike-mythologie-und-goetterwelt",
