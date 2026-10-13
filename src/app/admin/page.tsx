@@ -7,6 +7,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ConfirmModal from '@/components/ConfirmModal';
 import { AnalyticsReport, Timeframe } from '@/lib/analytics';
+import DailyViewsChart from '@/components/DailyViewsChart';
 
 interface Teacher {
   id: string;
@@ -368,41 +369,7 @@ export default function AdminPage() {
               {(analytics?.daily || []).length === 0 ? (
                 <div className="analytics-section-subtitle">Keine Daten vorhanden.</div>
               ) : (
-                <div style={{ maxHeight: 360, overflowY: 'auto' }}>
-                  <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: 14 }}>
-                    <thead>
-                      <tr style={{ textAlign: 'left', borderBottom: '1px solid var(--green-border)' }}>
-                        <th style={{ padding: '6px 8px' }}>Tag</th>
-                        <th style={{ padding: '6px 8px' }}>Aufrufe</th>
-                        <th style={{ padding: '6px 8px' }}>Besucher</th>
-                        <th style={{ padding: '6px 8px', width: '50%' }}></th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      {[...(analytics?.daily || [])].reverse().map((d) => {
-                        const maxDaily = Math.max(...(analytics?.daily || []).map((x) => x.views), 1);
-                        return (
-                          <tr key={d.date} style={{ borderBottom: '1px solid var(--green-border)' }}>
-                            <td style={{ padding: '6px 8px', whiteSpace: 'nowrap' }}>{d.label}</td>
-                            <td style={{ padding: '6px 8px', fontWeight: 600 }}>{d.views}</td>
-                            <td style={{ padding: '6px 8px' }}>{d.uniqueVisitors}</td>
-                            <td style={{ padding: '6px 8px' }}>
-                              <div
-                                style={{
-                                  height: 10,
-                                  width: `${(d.views / maxDaily) * 100}%`,
-                                  minWidth: d.views > 0 ? 3 : 0,
-                                  background: 'var(--green-dark)',
-                                  borderRadius: 4,
-                                }}
-                              />
-                            </td>
-                          </tr>
-                        );
-                      })}
-                    </tbody>
-                  </table>
-                </div>
+                <DailyViewsChart data={analytics?.daily || []} />
               )}
             </div>
 
