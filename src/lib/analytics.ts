@@ -1,6 +1,6 @@
 import { getDatabase } from './mongodb';
 
-export type Timeframe = 'today' | '7d' | '30d' | 'all';
+export type Timeframe = 'today' | '7d' | '30d' | '90d' | 'all';
 
 export interface PageViewEvent {
   viewId: string;
@@ -112,6 +112,11 @@ export function getTimeframeFilter(timeframe: Timeframe): { $gte: Date } | Recor
   if (timeframe === '7d') {
     const d = new Date();
     d.setDate(d.getDate() - 7);
+    return { $gte: d };
+  }
+  if (timeframe === '90d') {
+    const d = new Date();
+    d.setDate(d.getDate() - 90);
     return { $gte: d };
   }
   if (timeframe === '30d') {
@@ -271,6 +276,12 @@ export interface AnalyticsReport {
     label: string;
     views: number;
     percentage: number;
+  }[];
+  daily: {
+    date: string;
+    label: string;
+    views: number;
+    uniqueVisitors: number;
   }[];
   daySegments: {
     name: string;
@@ -541,6 +552,51 @@ export async function getAnalyticsReport(timeframe: Timeframe = '7d'): Promise<A
     },
   ];
 
+  // 6b. Daily views (per Vienna calendar day, gaps filled with 0)
+  const dailyAgg = await collection.aggregate([
+    { $match: matchFilter },
+    {
+      $group: {
+        _id: '$dateStr',
+        views: { $sum: 1 },
+        uniqueSessions: { $addToSet: '$sessionId' },
+      },
+    },
+    { $sort: { _id: 1 } },
+  ]).toArray();
+
+  const dailyMap: Record<string, { views: number; visitors: number }> = {};
+  dailyAgg.forEach((d) => {
+    if (typeof d._id === 'string') {
+      dailyMap[d._id] = { views: d.views, visitors: d.uniqueSessions.length };
+    }
+  });
+
+  const daily: AnalyticsReport['daily'] = [];
+  const dayKeys = Object.keys(dailyMap).sort();
+  if (dayKeys.length > 0) {
+    const todayStr = getLocalTimeInfo().dateStr;
+    const cursor = new Date(`${dayKeys[0]}T12:00:00Z`);
+    const end = new Date(`${todayStr}T12:00:00Z`);
+    while (cursor <= end && daily.length < 400) {
+      const key = cursor.toISOString().slice(0, 10);
+      const entry = dailyMap[key];
+      daily.push({
+        date: key,
+        label: new Intl.DateTimeFormat('de-AT', {
+          weekday: 'short',
+          day: '2-digit',
+          month: '2-digit',
+          year: 'numeric',
+          timeZone: 'UTC',
+        }).format(cursor),
+        views: entry?.views || 0,
+        uniqueVisitors: entry?.visitors || 0,
+      });
+      cursor.setUTCDate(cursor.getUTCDate() + 1);
+    }
+  }
+
   // 7. Devices
   const devicesAgg = await collection.aggregate([
     { $match: matchFilter },
@@ -588,6 +644,7 @@ export async function getAnalyticsReport(timeframe: Timeframe = '7d'): Promise<A
       buckets,
     },
     hourly,
+    daily,
     daySegments,
     devices,
   };

@@ -10,7 +10,7 @@ export async function GET(request: Request) {
   try {
     const { searchParams } = new URL(request.url);
     const rawTimeframe = searchParams.get('timeframe') || '7d';
-    const validTimeframes: Timeframe[] = ['today', '7d', '30d', 'all'];
+    const validTimeframes: Timeframe[] = ['today', '7d', '30d', '90d', 'all'];
     const timeframe: Timeframe = validTimeframes.includes(rawTimeframe as Timeframe)
       ? (rawTimeframe as Timeframe)
       : '7d';

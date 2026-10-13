@@ -273,6 +273,13 @@ export default function AdminPage() {
                   </button>
                   <button
                     type="button"
+                    className={`analytics-filter-btn ${timeframe === '90d' ? 'active' : ''}`}
+                    onClick={() => setTimeframe('90d')}
+                  >
+                    Letzte 90 Tage
+                  </button>
+                  <button
+                    type="button"
                     className={`analytics-filter-btn ${timeframe === 'all' ? 'active' : ''}`}
                     onClick={() => setTimeframe('all')}
                   >
@@ -307,7 +314,7 @@ export default function AdminPage() {
                   {analytics?.summary.totalViews.toLocaleString('de-AT') ?? 0}
                 </div>
                 <div className="analytics-kpi-sub">
-                  Seitenaufrufe ({timeframe === 'today' ? 'Heute' : timeframe === '7d' ? '7 Tage' : timeframe === '30d' ? '30 Tage' : 'Gesamt'})
+                  Seitenaufrufe ({timeframe === 'today' ? 'Heute' : timeframe === '7d' ? '7 Tage' : timeframe === '30d' ? '30 Tage' : timeframe === '90d' ? '90 Tage' : 'Gesamt'})
                 </div>
               </div>
 
@@ -346,6 +353,57 @@ export default function AdminPage() {
                   Spitze: {analytics?.summary.peakHour.views ?? 0} Aufrufe
                 </div>
               </div>
+            </div>
+
+            {/* SECTION: Aufrufe pro Tag */}
+            <div className="analytics-section-card">
+              <div className="analytics-section-header">
+                <div>
+                  <h2 className="analytics-section-title">Aufrufe pro Tag</h2>
+                  <div className="analytics-section-subtitle">
+                    Anzahl der Seitenaufrufe je Kalendertag im gewählten Zeitraum.
+                  </div>
+                </div>
+              </div>
+              {(analytics?.daily || []).length === 0 ? (
+                <div className="analytics-section-subtitle">Keine Daten vorhanden.</div>
+              ) : (
+                <div style={{ maxHeight: 360, overflowY: 'auto' }}>
+                  <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: 14 }}>
+                    <thead>
+                      <tr style={{ textAlign: 'left', borderBottom: '1px solid var(--green-border)' }}>
+                        <th style={{ padding: '6px 8px' }}>Tag</th>
+                        <th style={{ padding: '6px 8px' }}>Aufrufe</th>
+                        <th style={{ padding: '6px 8px' }}>Besucher</th>
+                        <th style={{ padding: '6px 8px', width: '50%' }}></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {[...(analytics?.daily || [])].reverse().map((d) => {
+                        const maxDaily = Math.max(...(analytics?.daily || []).map((x) => x.views), 1);
+                        return (
+                          <tr key={d.date} style={{ borderBottom: '1px solid var(--green-border)' }}>
+                            <td style={{ padding: '6px 8px', whiteSpace: 'nowrap' }}>{d.label}</td>
+                            <td style={{ padding: '6px 8px', fontWeight: 600 }}>{d.views}</td>
+                            <td style={{ padding: '6px 8px' }}>{d.uniqueVisitors}</td>
+                            <td style={{ padding: '6px 8px' }}>
+                              <div
+                                style={{
+                                  height: 10,
+                                  width: `${(d.views / maxDaily) * 100}%`,
+                                  minWidth: d.views > 0 ? 3 : 0,
+                                  background: 'var(--green-dark)',
+                                  borderRadius: 4,
+                                }}
+                              />
+                            </td>
+                          </tr>
+                        );
+                      })}
+                    </tbody>
+                  </table>
+                </div>
+              )}
             </div>
 
             {/* SECTION: 24h-Verteilung auf den Tag */}
