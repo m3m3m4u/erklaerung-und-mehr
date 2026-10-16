@@ -212,10 +212,23 @@ export default function DashboardPage() {
     new Set(students.map((s) => s.className || 'Ohne Klasse'))
   ).sort();
 
+  const focusAddForm = (cls: string) => {
+    setClassNameInput(cls);
+    document.getElementById('add-students-section')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    setTimeout(() => document.getElementById('student-class')?.focus(), 400);
+  };
+
+  const [inlineAddClass, setInlineAddClass] = useState<string | null>(null);
+
   const handleAddStudents = async (e: React.FormEvent) => {
     e.preventDefault();
+    const fallbackClass =
+      selectedClassFilter !== 'all' && selectedClassFilter !== 'Ohne Klasse' ? selectedClassFilter : 'Klasse 1';
+    await addStudentsToClass(classNameInput.trim() || fallbackClass);
+  };
+
+  const addStudentsToClass = async (targetClass: string) => {
     const finalCount = Math.min(30, Math.max(1, count));
-    const targetClass = classNameInput.trim() || 'Klasse 1';
 
     setAddLoading(true);
     setError('');
@@ -960,6 +973,20 @@ export default function DashboardPage() {
                       </button>
                       <button
                         type="button"
+                        onClick={() => setInlineAddClass(inlineAddClass === cls ? null : cls)}
+                        className="admin-action-btn"
+                        style={{
+                          fontSize: 12,
+                          padding: '4px 8px',
+                          background: inlineAddClass === cls ? 'var(--green-primary)' : undefined,
+                          color: inlineAddClass === cls ? '#ffffff' : undefined,
+                        }}
+                        title={`Schüler zu Klasse „${cls}“ hinzufügen`}
+                      >
+                        + Schüler
+                      </button>
+                      <button
+                        type="button"
                         onClick={() => openAssignmentModal(cls)}
                         className="admin-action-btn"
                         style={{ fontSize: 12, padding: '4px 8px', flex: 1 }}
@@ -976,6 +1003,51 @@ export default function DashboardPage() {
                         Umbenennen
                       </button>
                     </div>
+
+                    {inlineAddClass === cls && (
+                      <div style={{ borderTop: '1px solid var(--border-light)', paddingTop: 10 }}>
+                        <div style={{ fontSize: 12, fontWeight: 600, marginBottom: 6 }}>Anzahl (max. 30)</div>
+                        <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap', alignItems: 'center', marginBottom: 8 }}>
+                          <input
+                            type="number"
+                            min={1}
+                            max={30}
+                            className="login-input"
+                            value={count}
+                            onChange={(e) => setCount(Math.max(1, Math.min(30, parseInt(e.target.value, 10) || 1)))}
+                            style={{ width: 64 }}
+                          />
+                          {[5, 10, 15, 20, 25, 30].map((n) => (
+                            <button
+                              key={n}
+                              type="button"
+                              onClick={() => setCount(n)}
+                              className="admin-action-btn"
+                              style={{
+                                fontSize: 12,
+                                padding: '3px 7px',
+                                background: count === n ? 'var(--green-primary)' : 'var(--green-light)',
+                                color: count === n ? '#ffffff' : 'var(--green-dark)',
+                              }}
+                            >
+                              {n}
+                            </button>
+                          ))}
+                        </div>
+                        <button
+                          type="button"
+                          className="dashboard-add-btn"
+                          disabled={addLoading}
+                          style={{ width: '100%', padding: '8px 12px' }}
+                          onClick={async () => {
+                            await addStudentsToClass(cls === 'Ohne Klasse' ? 'Standardklasse' : cls);
+                            setInlineAddClass(null);
+                          }}
+                        >
+                          {addLoading ? 'Erstelle...' : `+ ${count} Accounts anlegen`}
+                        </button>
+                      </div>
+                    )}
                   </div>
                 );
               })}
@@ -1059,9 +1131,17 @@ export default function DashboardPage() {
         )}
 
         {/* Add students by count and class */}
-        <section className="dashboard-section">
+        <section className="dashboard-section" id="add-students-section">
           <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: 8, marginBottom: 4 }}>
             <h2 style={{ margin: 0 }}>Schüleraccounts anlegen</h2>
+            <button
+              type="button"
+              onClick={() => focusAddForm('')}
+              className="admin-action-btn"
+              style={{ fontSize: 13, fontWeight: 600 }}
+            >
+              + Neue Klasse anlegen
+            </button>
             <span
               style={{
                 fontSize: 12,
