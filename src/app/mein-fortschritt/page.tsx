@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, Fragment } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import Header from '@/components/Header';
@@ -15,6 +15,8 @@ interface ProgressEntry {
 
 interface AssignedExercise {
   id: string;
+  sectionTitle?: string;
+  personal?: boolean;
   title: string;
   subject: string;
   subjectSlug: string;
@@ -147,8 +149,13 @@ export default function MeinFortschrittPage() {
               ) : (
                 <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
                   {assignments.map((item, idx) => (
+                    <Fragment key={item.id}>
+                    {item.sectionTitle && item.sectionTitle !== (assignments[idx - 1]?.sectionTitle ?? '') && (
+                      <h3 style={{ margin: idx === 0 ? '0 0 2px' : '14px 0 2px', fontSize: 15, color: 'var(--green-dark)', display: 'flex', alignItems: 'center', gap: 6 }}>
+                        <span aria-hidden>📁</span> {item.sectionTitle}
+                      </h3>
+                    )}
                     <div
-                      key={item.id}
                       style={{
                         display: 'flex',
                         alignItems: 'center',
@@ -233,6 +240,7 @@ export default function MeinFortschrittPage() {
                         </Link>
                       </div>
                     </div>
+                    </Fragment>
                   ))}
                 </div>
               )}

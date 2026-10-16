@@ -1,6 +1,7 @@
 import { getSession } from '@/lib/auth';
 import { getDatabase } from '@/lib/mongodb';
 import { ObjectId } from 'mongodb';
+import { normalizeSections } from '@/lib/assignment-sections';
 
 // GET /api/teacher/assign-exercise?exerciseId=... — Klassen und Zuweisungsstatus für eine Übung abrufen
 export async function GET(request: Request) {
@@ -125,6 +126,21 @@ export async function POST(request: Request) {
       currentH5pIds = currentH5pIds.filter((id) => id !== pureId && id !== exerciseId);
     }
 
+    const sections = normalizeSections(existing).map((s) => ({
+      ...s,
+      h5pIds: s.h5pIds.filter((id) => id !== pureId && id !== exerciseId),
+    }));
+    if (shouldAssign) {
+      // Zuweisung: ursprüngliche Position beibehalten, sonst ans Ende des ersten Bereichs
+      const wasThere = normalizeSections(existing).some((s) => s.h5pIds.includes(pureId) || s.h5pIds.includes(exerciseId));
+      if (wasThere) {
+        sections.length = 0;
+        sections.push(...normalizeSections(existing));
+      } else {
+        sections[0].h5pIds.push(pureId);
+      }
+    }
+
     await db.collection('class_assignments').updateOne(
       { teacherId, className: cls },
       {
@@ -132,6 +148,7 @@ export async function POST(request: Request) {
           teacherId,
           className: cls,
           h5pIds: currentH5pIds,
+          sections,
           updatedAt: now,
         },
         $setOnInsert: {

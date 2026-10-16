@@ -1,11 +1,12 @@
 'use client';
 
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useEffect, useCallback, useMemo } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ConfirmModal from '@/components/ConfirmModal';
+import type { AssignmentSection } from '@/lib/assignment-sections';
 
 interface Student {
   id: string;
@@ -65,7 +66,9 @@ export default function DashboardPage() {
   // Assignment state
   const [showAssignmentModal, setShowAssignmentModal] = useState(false);
   const [assignmentTargetClass, setAssignmentTargetClass] = useState('');
-  const [selectedH5pIds, setSelectedH5pIds] = useState<Set<string>>(new Set());
+  const [assignmentTargetStudent, setAssignmentTargetStudent] = useState<Student | null>(null);
+  const [assignmentSections, setAssignmentSections] = useState<AssignmentSection[]>([{ id: 'general', title: '', h5pIds: [] }]);
+  const [assignmentTab, setAssignmentTab] = useState<'select' | 'order'>('select');
   const [catalog, setCatalog] = useState<{ id: string; title: string; subject: string; subjectSlug: string; topicTitle: string; topicSlug: string; url: string }[]>([]);
   const [catalogLoading, setCatalogLoading] = useState(false);
   const [assignmentSearch, setAssignmentSearch] = useState('');
@@ -161,42 +164,114 @@ export default function DashboardPage() {
     }
   };
 
-  const openAssignmentModal = async (targetClass: string) => {
+  const openAssignmentModal = async (targetClass: string, student?: Student) => {
     setAssignmentTargetClass(targetClass);
+    setAssignmentTargetStudent(student || null);
+    setAssignmentTab('select');
     setAssignmentSearch('');
     setAssignmentSubjectFilter('all');
+    setAssignmentSections([{ id: 'general', title: '', h5pIds: [] }]);
     setShowAssignmentModal(true);
     await ensureCatalog();
 
     try {
-      const res = await fetch(`/api/teacher/assignments?className=${encodeURIComponent(targetClass)}`);
+      const url = student
+        ? `/api/teacher/assignments?studentId=${encodeURIComponent(student.id)}`
+        : `/api/teacher/assignments?className=${encodeURIComponent(targetClass)}`;
+      const res = await fetch(url);
       const data = await res.json();
-      const ids: string[] = data.h5pIds || [];
-      setSelectedH5pIds(new Set(ids));
+      const loaded: AssignmentSection[] =
+        Array.isArray(data.sections) && data.sections.length > 0
+          ? data.sections
+          : [{ id: 'general', title: '', h5pIds: data.h5pIds || [] }];
+      setAssignmentSections(loaded);
     } catch {
-      setSelectedH5pIds(new Set(assignmentsByClass[targetClass] || []));
+      if (!student) {
+        setAssignmentSections([{ id: 'general', title: '', h5pIds: assignmentsByClass[targetClass] || [] }]);
+      }
     }
+  };
+
+  // Abgeleitete Auswahl aus den geordneten Bereichen
+  const selectedH5pIds = useMemo(
+    () => new Set(assignmentSections.flatMap((s) => s.h5pIds)),
+    [assignmentSections]
+  );
+
+  // Auswahl setzen: Entfernte Übungen fliegen raus, neue landen im ersten Bereich (Reihenfolge bleibt erhalten)
+  const setSelectedH5pIds = (next: Set<string>) => {
+    setAssignmentSections((prev) => {
+      const kept = prev.map((s) => ({ ...s, h5pIds: s.h5pIds.filter((id) => next.has(id)) }));
+      const have = new Set(kept.flatMap((s) => s.h5pIds));
+      const added = Array.from(next).filter((id) => !have.has(id));
+      if (added.length > 0) kept[0] = { ...kept[0], h5pIds: [...kept[0].h5pIds, ...added] };
+      return kept;
+    });
+  };
+
+  const moveSection = (index: number, dir: -1 | 1) => {
+    setAssignmentSections((prev) => {
+      const target = index + dir;
+      if (target < 0 || target >= prev.length) return prev;
+      const next = [...prev];
+      [next[index], next[target]] = [next[target], next[index]];
+      return next;
+    });
+  };
+
+  // Übung innerhalb der Gesamtreihenfolge verschieben (wandert bei Bedarf in den Nachbarbereich)
+  const moveExercise = (secIdx: number, itemIdx: number, dir: -1 | 1) => {
+    setAssignmentSections((prev) => {
+      const next = prev.map((s) => ({ ...s, h5pIds: [...s.h5pIds] }));
+      const id = next[secIdx].h5pIds[itemIdx];
+      const targetIdx = itemIdx + dir;
+      if (targetIdx >= 0 && targetIdx < next[secIdx].h5pIds.length) {
+        [next[secIdx].h5pIds[itemIdx], next[secIdx].h5pIds[targetIdx]] = [next[secIdx].h5pIds[targetIdx], id];
+      } else {
+        const neighbor = secIdx + dir;
+        if (neighbor < 0 || neighbor >= next.length) return prev;
+        next[secIdx].h5pIds.splice(itemIdx, 1);
+        if (dir === 1) next[neighbor].h5pIds.unshift(id);
+        else next[neighbor].h5pIds.push(id);
+      }
+      return next;
+    });
+  };
+
+  const moveExerciseToSection = (id: string, sectionId: string) => {
+    setAssignmentSections((prev) =>
+      prev.map((s) => {
+        const without = s.h5pIds.filter((x) => x !== id);
+        return s.id === sectionId ? { ...s, h5pIds: [...without, id] } : { ...s, h5pIds: without };
+      })
+    );
   };
 
   const handleSaveAssignments = async () => {
     setAssignmentSaving(true);
     setError('');
     try {
-      const ids = Array.from(selectedH5pIds);
+      const sections = assignmentSections.map((s) => ({ ...s, title: s.title.trim() }));
+      const ids = sections.flatMap((s) => s.h5pIds);
       const res = await fetch('/api/teacher/assignments', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          className: assignmentTargetClass,
-          h5pIds: ids,
-        }),
+        body: JSON.stringify(
+          assignmentTargetStudent
+            ? { studentId: assignmentTargetStudent.id, sections }
+            : { className: assignmentTargetClass, sections }
+        ),
       });
       const data = await res.json();
       if (!res.ok) {
         setError(data.error || 'Fehler beim Speichern der Übungszuordnung.');
       } else {
-        setAssignmentsByClass((prev) => ({ ...prev, [assignmentTargetClass]: ids }));
-        setSuccessMsg(`Übungsaufträge für Klasse „${assignmentTargetClass}“ gespeichert (${ids.length} Übungen).`);
+        if (assignmentTargetStudent) {
+          setSuccessMsg(`Übungen für Schüler ${assignmentTargetStudent.code} gespeichert (${ids.length} Übungen).`);
+        } else {
+          setAssignmentsByClass((prev) => ({ ...prev, [assignmentTargetClass]: ids }));
+          setSuccessMsg(`Übungsaufträge für Klasse „${assignmentTargetClass}“ gespeichert (${ids.length} Übungen).`);
+        }
         setTimeout(() => setSuccessMsg(''), 4000);
         setShowAssignmentModal(false);
       }
@@ -1479,6 +1554,15 @@ export default function DashboardPage() {
                     )}
                   </div>
                   <button
+                    type="button"
+                    className="admin-action-btn"
+                    onClick={() => openAssignmentModal(s.className || 'Ohne Klasse', s)}
+                    title="Übungen nur für diesen Schüler zuweisen"
+                    style={{ fontSize: 12, padding: '3px 7px', flexShrink: 0, whiteSpace: 'nowrap' }}
+                  >
+                    Übungen
+                  </button>
+                  <button
                     className="dashboard-delete-btn"
                     onClick={() => promptDeleteStudent(s)}
                     title="Account löschen"
@@ -1758,12 +1842,53 @@ export default function DashboardPage() {
 
               <div className="login-modal-body" style={{ padding: '24px 24px 20px', display: 'flex', flexDirection: 'column', overflow: 'hidden', height: '100%' }}>
                 <h2 className="login-modal-title" style={{ fontSize: 19, marginBottom: 4 }}>
-                  Übungen zuweisen für Klasse „{assignmentTargetClass}“
+                  {assignmentTargetStudent
+                    ? <>Übungen zuweisen für Schüler <span style={{ fontFamily: 'monospace' }}>{assignmentTargetStudent.code}</span></>
+                    : <>Übungen zuweisen für Klasse „{assignmentTargetClass}“</>}
                 </h2>
                 <p className="login-modal-subtitle" style={{ fontSize: 13, marginBottom: 14 }}>
-                  Wähle die Übungen aus, die Schüler:innen dieser Klasse bearbeiten sollen.
+                  {assignmentTargetStudent
+                    ? 'Diese Übungen erhält nur dieser Schüler zusätzlich zu den Übungen seiner Klasse.'
+                    : 'Wähle die Übungen aus, die Schüler:innen dieser Klasse bearbeiten sollen.'}
                 </p>
 
+                {/* Schritt-Tabs */}
+                <div style={{ display: 'flex', gap: 6, marginBottom: 12, borderBottom: '2px solid var(--border-light)' }}>
+                  {([
+                    { key: 'select', label: '1 · Übungen auswählen', badge: selectedH5pIds.size },
+                    { key: 'order', label: '2 · Ordnen & Bereiche', badge: null },
+                  ] as const).map((t) => (
+                    <button
+                      key={t.key}
+                      type="button"
+                      onClick={() => setAssignmentTab(t.key)}
+                      style={{
+                        padding: '8px 14px',
+                        fontSize: 13,
+                        fontWeight: 700,
+                        border: 'none',
+                        background: 'transparent',
+                        cursor: 'pointer',
+                        color: assignmentTab === t.key ? 'var(--green-dark)' : 'var(--text-muted)',
+                        borderBottom: `3px solid ${assignmentTab === t.key ? 'var(--green-primary)' : 'transparent'}`,
+                        marginBottom: -2,
+                      }}
+                    >
+                      {t.label}
+                      {t.badge !== null && t.badge > 0 && (
+                        <span style={{ marginLeft: 6, fontSize: 11, background: 'var(--green-primary)', color: '#fff', borderRadius: 10, padding: '1px 7px' }}>
+                          {t.badge}
+                        </span>
+                      )}
+                    </button>
+                  ))}
+                </div>
+
+                {assignmentTab === 'select' && (
+                <>
+                <p style={{ fontSize: 12.5, color: 'var(--text-muted)', margin: '0 0 10px' }}>
+                  Hake alle Übungen an, die zugewiesen werden sollen. Reihenfolge und Ordner stellst du im nächsten Schritt ein.
+                </p>
                 {/* Filter controls */}
                 <div style={{ display: 'flex', gap: 10, flexWrap: 'wrap', marginBottom: 12 }}>
                   <input
@@ -1834,7 +1959,7 @@ export default function DashboardPage() {
                 ) : (
                   <div
                     style={{
-                      maxHeight: 320,
+                      maxHeight: 340,
                       overflowY: 'auto',
                       border: '1px solid var(--border-light)',
                       borderRadius: 6,
@@ -1921,6 +2046,112 @@ export default function DashboardPage() {
                           </label>
                         );
                       })}
+                  </div>
+                )}
+                </>
+                )}
+
+                {/* Schritt 2: Reihenfolge & Bereiche */}
+                {assignmentTab === 'order' && (
+                  <div style={{ flex: 1, minHeight: 0, overflowY: 'auto', paddingRight: 2 }}>
+                    <div style={{ background: '#f4f8ef', border: '1px solid #c8e4b6', borderRadius: 6, padding: '10px 12px', fontSize: 12.5, lineHeight: 1.55, marginBottom: 12, color: 'var(--text-color)' }}>
+                      <strong>So funktioniert’s:</strong>
+                      <ul style={{ margin: '4px 0 0', paddingLeft: 18 }}>
+                        <li><strong>Reihenfolge:</strong> Mit ▲ ▼ legst du fest, in welcher Reihenfolge die Übungen bei den Schülern erscheinen.</li>
+                        <li><strong>Bereiche (Ordner):</strong> Mit „+ Neuer Bereich“ gruppierst du Übungen, z. B. „Woche 1“ oder „Zusatzaufgaben“. Schüler sehen die Bereiche als Überschriften.</li>
+                        <li><strong>Verschieben:</strong> Über das Auswahlfeld rechts neben einer Übung schiebst du sie in einen anderen Bereich.</li>
+                      </ul>
+                    </div>
+                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 8, gap: 8, flexWrap: 'wrap' }}>
+                      <strong style={{ fontSize: 13, color: 'var(--green-dark)' }}>{selectedH5pIds.size} Übung(en) in {assignmentSections.length} Bereich(en)</strong>
+                      <button
+                        type="button"
+                        className="admin-action-btn"
+                        style={{ fontSize: 12, padding: '3px 9px', fontWeight: 600 }}
+                        onClick={() =>
+                          setAssignmentSections((prev) => [
+                            ...prev,
+                            { id: `sec-${Date.now()}`, title: `Bereich ${prev.length}`, h5pIds: [] },
+                          ])
+                        }
+                      >
+                        + Neuer Bereich
+                      </button>
+                    </div>
+                    {selectedH5pIds.size === 0 && assignmentSections.length === 1 ? (
+                      <p style={{ fontSize: 13, color: 'var(--text-muted)', textAlign: 'center', padding: '20px 0' }}>
+                        Noch keine Übungen ausgewählt. Wechsle zu „1 · Übungen auswählen“.
+                      </p>
+                    ) : (
+                    <>
+                    {assignmentSections.map((sec, si) => (
+                      <div key={sec.id} style={{ marginBottom: 10, border: '1px solid var(--border-light)', borderRadius: 6, background: '#fafcf8' }}>
+                        <div style={{ display: 'flex', alignItems: 'center', gap: 6, padding: '6px 8px', borderBottom: sec.h5pIds.length ? '1px solid var(--border-light)' : 'none' }}>
+                          <span aria-hidden>{si === 0 && !sec.title ? '📄' : '📁'}</span>
+                          <input
+                            type="text"
+                            className="login-input"
+                            value={sec.title}
+                            placeholder={si === 0 ? 'Ohne Bereich (kein Ordner)' : 'Name des Bereichs'}
+                            onChange={(e) =>
+                              setAssignmentSections((prev) => prev.map((s, i) => (i === si ? { ...s, title: e.target.value } : s)))
+                            }
+                            style={{ flex: 1, padding: '4px 8px', fontSize: 13 }}
+                          />
+                          <button type="button" className="admin-action-btn" style={{ fontSize: 12, padding: '2px 7px' }} disabled={si === 0} title="Bereich nach oben" onClick={() => moveSection(si, -1)}>▲</button>
+                          <button type="button" className="admin-action-btn" style={{ fontSize: 12, padding: '2px 7px' }} disabled={si === assignmentSections.length - 1} title="Bereich nach unten" onClick={() => moveSection(si, 1)}>▼</button>
+                          {si > 0 && (
+                            <button
+                              type="button"
+                              className="dashboard-delete-btn"
+                              style={{ fontSize: 12, padding: '2px 7px' }}
+                              title="Bereich löschen (Übungen wandern in den ersten Bereich)"
+                              onClick={() =>
+                                setAssignmentSections((prev) => {
+                                  const next = prev.filter((_, i) => i !== si);
+                                  next[0] = { ...next[0], h5pIds: [...next[0].h5pIds, ...sec.h5pIds] };
+                                  return next;
+                                })
+                              }
+                            >
+                              ×
+                            </button>
+                          )}
+                        </div>
+                        {sec.h5pIds.length === 0 && (
+                          <div style={{ padding: '6px 10px', fontSize: 12, color: 'var(--text-muted)' }}>
+                            Leer – verschiebe Übungen aus einem anderen Bereich hierher.
+                          </div>
+                        )}
+                        {sec.h5pIds.map((id, ii) => {
+                          const meta = catalog.find((c) => c.id === id);
+                          return (
+                            <div key={id} style={{ display: 'flex', alignItems: 'center', gap: 6, padding: '4px 8px', fontSize: 12 }}>
+                              <span style={{ flex: 1, minWidth: 0, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }} title={meta?.title || id}>
+                                {meta?.title || `Übung ${id}`}
+                              </span>
+                              {assignmentSections.length > 1 && (
+                                <select
+                                  className="login-input"
+                                  value={sec.id}
+                                  onChange={(e) => moveExerciseToSection(id, e.target.value)}
+                                  style={{ width: 'auto', maxWidth: 130, padding: '2px 4px', fontSize: 11 }}
+                                  title="In Bereich verschieben"
+                                >
+                                  {assignmentSections.map((o, oi) => (
+                                    <option key={o.id} value={o.id}>{o.title || (oi === 0 ? 'Ohne Bereich' : `Bereich ${oi}`)}</option>
+                                  ))}
+                                </select>
+                              )}
+                              <button type="button" className="admin-action-btn" style={{ fontSize: 11, padding: '1px 6px' }} disabled={si === 0 && ii === 0} onClick={() => moveExercise(si, ii, -1)} title="Nach oben">▲</button>
+                              <button type="button" className="admin-action-btn" style={{ fontSize: 11, padding: '1px 6px' }} disabled={si === assignmentSections.length - 1 && ii === sec.h5pIds.length - 1} onClick={() => moveExercise(si, ii, 1)} title="Nach unten">▼</button>
+                            </div>
+                          );
+                        })}
+                      </div>
+                    ))}
+                    </>
+                    )}
                   </div>
                 )}
 
