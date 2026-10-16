@@ -62,3 +62,17 @@ rclone*
 /scripts/upload_ftp.mjs
 /scripts/upload_to_hetzner.ps1
 /scripts/upload_webdav.ps1
+
+# Alte WordPress-Bilder (lokal behalten, nicht im Repo/Deployment)
+/bilder/**/*.jpg
+/bilder/**/*.jpeg
+/bilder/**/*.png
+/bilder/**/*.gif
+/bilder/**/*.webp
+/bilder/**/*.svg
+/bilder/*.jpg
+/bilder/*.jpeg
+/bilder/*.png
+/bilder/*.gif
+/bilder/*.webp
+/bilder/*.svg
