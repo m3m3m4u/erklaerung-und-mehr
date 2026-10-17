@@ -1,12 +1,11 @@
 'use client';
 
-import React, { useState, useEffect, useCallback, useMemo } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ConfirmModal from '@/components/ConfirmModal';
-import type { AssignmentSection } from '@/lib/assignment-sections';
 
 interface Student {
   id: string;
@@ -22,30 +21,16 @@ interface ProgressEntry {
   updatedAt: string;
 }
 
-function downloadBlob(content: string, filename: string, mimeType: string) {
-  const blob = new Blob([content], { type: mimeType });
-  const url = URL.createObjectURL(blob);
-  const a = document.createElement('a');
-  a.href = url;
-  a.download = filename;
-  document.body.appendChild(a);
-  a.click();
-  document.body.removeChild(a);
-  URL.revokeObjectURL(url);
-}
-
 export default function DashboardPage() {
   const router = useRouter();
   const [students, setStudents] = useState<Student[]>([]);
   const [progress, setProgress] = useState<ProgressEntry[]>([]);
   const [count, setCount] = useState<number>(20);
   const [classNameInput, setClassNameInput] = useState<string>('');
-  const [selectedClassFilter, setSelectedClassFilter] = useState<string>('all');
   const [loading, setLoading] = useState(true);
   const [addLoading, setAddLoading] = useState(false);
   const [error, setError] = useState('');
   const [successMsg, setSuccessMsg] = useState('');
-  const [copied, setCopied] = useState(false);
   const [teacherEmail, setTeacherEmail] = useState('');
 
   // Password change modal state
@@ -63,8 +48,7 @@ export default function DashboardPage() {
   const [renameLoading, setRenameLoading] = useState(false);
   const [renameError, setRenameError] = useState('');
 
-  // Assignments & catalog state
-  const [catalog, setCatalog] = useState<{ id: string; title: string; subject: string; subjectSlug: string; topicTitle: string; topicSlug: string; url: string }[]>([]);
+  // Assignments count per class
   const [assignmentsByClass, setAssignmentsByClass] = useState<Record<string, string[]>>({});
 
   // Team-Teaching / Klasse teilen state
@@ -226,16 +210,6 @@ export default function DashboardPage() {
     }
   };
 
-  const openAssignmentModal = (targetClass: string, student?: Student) => {
-    if (student) {
-      router.push(
-        `/dashboard/uebungen?studentId=${encodeURIComponent(student.id)}&studentCode=${encodeURIComponent(student.code)}`
-      );
-    } else {
-      router.push(`/dashboard/uebungen?className=${encodeURIComponent(targetClass)}`);
-    }
-  };
-
   // Collect distinct existing classes
   const existingClasses = Array.from(
     new Set(students.map((s) => s.className || 'Ohne Klasse'))
@@ -251,9 +225,7 @@ export default function DashboardPage() {
 
   const handleAddStudents = async (e: React.FormEvent) => {
     e.preventDefault();
-    const fallbackClass =
-      selectedClassFilter !== 'all' && selectedClassFilter !== 'Ohne Klasse' ? selectedClassFilter : 'Klasse 1';
-    await addStudentsToClass(classNameInput.trim() || fallbackClass);
+    await addStudentsToClass(classNameInput.trim() || 'Klasse 1');
   };
 
   const addStudentsToClass = async (targetClass: string) => {
@@ -271,9 +243,9 @@ export default function DashboardPage() {
       if (!res.ok) {
         setError(data.error || 'Fehler beim Anlegen.');
       } else {
-        setSelectedClassFilter(targetClass);
         setSuccessMsg(`${finalCount} Schüleraccounts für „${targetClass}“ erfolgreich angelegt.`);
         setTimeout(() => setSuccessMsg(''), 4000);
+        setClassNameInput('');
         await loadData();
       }
     } catch {
@@ -281,39 +253,6 @@ export default function DashboardPage() {
     } finally {
       setAddLoading(false);
     }
-  };
-
-  const promptDeleteStudent = (student: Student) => {
-    setError('');
-    setConfirmModal({
-      isOpen: true,
-      title: 'Schüleraccount löschen?',
-      message: (
-        <>
-          Möchtest du den Schüleraccount mit Code <strong style={{ fontFamily: 'monospace', fontSize: 15, background: '#f0f7eb', padding: '2px 6px', borderRadius: 4 }}>{student.code}</strong> {student.className ? `(Klasse ${student.className})` : ''} und alle zugehörigen Fortschrittsdaten wirklich löschen?
-        </>
-      ),
-      confirmLabel: 'Account löschen',
-      loading: false,
-      onConfirm: async () => {
-        setConfirmModal((prev) => ({ ...prev, loading: true }));
-        try {
-          const res = await fetch(`/api/teacher/students/${student.id}`, { method: 'DELETE' });
-          if (!res.ok) {
-            const d = await res.json();
-            setError(d.error || 'Fehler beim Löschen.');
-          } else {
-            setSuccessMsg(`Schüleraccount ${student.code} wurde gelöscht.`);
-            setTimeout(() => setSuccessMsg(''), 4000);
-            await loadData();
-          }
-        } catch {
-          setError('Fehler beim Löschen.');
-        } finally {
-          setConfirmModal((prev) => ({ ...prev, isOpen: false, loading: false }));
-        }
-      },
-    });
   };
 
   const promptDeleteClass = (className: string) => {
@@ -343,9 +282,6 @@ export default function DashboardPage() {
           if (!res.ok) {
             setError(data.error || 'Fehler beim Löschen der Klasse.');
           } else {
-            if (selectedClassFilter === className) {
-              setSelectedClassFilter('all');
-            }
             setSuccessMsg(`Klasse „${className}“ mit ${data.deletedCount || countInClass} Schüleraccounts wurde gelöscht.`);
             setTimeout(() => setSuccessMsg(''), 4000);
             await loadData();
@@ -396,9 +332,6 @@ export default function DashboardPage() {
         setSuccessMsg(`Klasse „${renameTargetClass}“ wurde erfolgreich in „${cleanNewName}“ umbenannt.`);
         setTimeout(() => setSuccessMsg(''), 4000);
         setShowRenameModal(false);
-        if (selectedClassFilter === renameTargetClass) {
-          setSelectedClassFilter(cleanNewName);
-        }
         await loadData();
       }
     } catch {
@@ -449,337 +382,10 @@ export default function DashboardPage() {
     }
   };
 
-  // Filter students by selected class
-  const filteredStudents =
-    selectedClassFilter === 'all'
-      ? students
-      : students.filter((s) => (s.className || 'Ohne Klasse') === selectedClassFilter);
-
-  const currentClassLabel = selectedClassFilter === 'all' ? 'Alle Klassen' : `Klasse ${selectedClassFilter}`;
-  const currentDateStr = new Date().toLocaleDateString('de-AT');
-
-  // Copy codes
-  const handleCopyCodes = () => {
-    if (filteredStudents.length === 0) return;
-    const text = `Schülercodes (${currentClassLabel}):\n` + filteredStudents.map((s, idx) => `${idx + 1}. ${s.code} (${s.className})`).join('\n');
-    navigator.clipboard.writeText(text).then(() => {
-      setCopied(true);
-      setTimeout(() => setCopied(false), 2500);
-    });
-  };
-
-  // Progress lookups
-  const progressMap: Record<string, Record<string, number>> = {};
-  for (const p of progress) {
-    if (!progressMap[p.studentId]) progressMap[p.studentId] = {};
-    progressMap[p.studentId][p.h5pId] = p.score;
-  }
-
-  const filteredStudentIds = new Set(filteredStudents.map((s) => s.id));
-  const relevantProgress = progress.filter((p) => filteredStudentIds.has(p.studentId));
-
-  const h5pMap: Record<string, string> = {};
-  for (const p of relevantProgress) {
-    h5pMap[p.h5pId] = p.h5pTitle || p.h5pId;
-  }
-  const h5pIds = Object.keys(h5pMap);
-
-  // =========================================================================
-  // 1. CODES EXPORT (PDF/Druck, Word, Excel)
-  // =========================================================================
-
-  const handlePrintCodes = () => {
-    if (filteredStudents.length === 0) return;
-    const printWindow = window.open('', '_blank');
-    if (!printWindow) return;
-
-    const rowsHtml = filteredStudents
-      .map(
-        (s, idx) => `
-        <tr>
-          <td style="text-align:center; width:40px;">${idx + 1}</td>
-          <td style="font-family:monospace; font-weight:bold; font-size:15px; width:130px; text-align:center; letter-spacing:1px;">${s.code}</td>
-          <td style="width:100px; text-align:center;">${s.className}</td>
-          <td style="border-bottom: 1px solid #777; min-width:220px;">&nbsp;</td>
-        </tr>`
-      )
-      .join('');
-
-    printWindow.document.write(`
-      <!DOCTYPE html>
-      <html lang="de">
-      <head>
-        <meta charset="utf-8">
-        <title>Schülerliste - Zugangs-Codes</title>
-        <style>
-          body { font-family: Arial, sans-serif; padding: 24px; color: #111; }
-          h1 { font-size: 20px; color: #2e6b0e; margin-bottom: 4px; }
-          .meta { font-size: 13px; color: #555; margin-bottom: 20px; border-bottom: 2px solid #2e6b0e; padding-bottom: 8px; }
-          table { width: 100%; border-collapse: collapse; margin-top: 10px; }
-          th, td { border: 1px solid #aaa; padding: 8px 12px; font-size: 13px; }
-          th { background: #f0f7eb; font-weight: bold; text-align: left; }
-          @media print {
-            body { padding: 0; }
-            @page { margin: 1.5cm; }
-          }
-        </style>
-      </head>
-      <body>
-        <h1>Schülerliste – Zugangs-Codes</h1>
-        <div class="meta">
-          <strong>Auswahl:</strong> ${currentClassLabel} &nbsp;|&nbsp;
-          <strong>Anzahl Schüler:</strong> ${filteredStudents.length} &nbsp;|&nbsp;
-          <strong>Datum:</strong> ${currentDateStr}
-        </div>
-        <table>
-          <thead>
-            <tr>
-              <th style="text-align:center; width:40px;">Nr.</th>
-              <th style="width:130px; text-align:center;">Schüler-Code</th>
-              <th style="width:100px; text-align:center;">Klasse</th>
-              <th>Name der Schülerin / des Schülers (handschriftlich)</th>
-            </tr>
-          </thead>
-          <tbody>
-            ${rowsHtml}
-          </tbody>
-        </table>
-      </body>
-      </html>
-    `);
-    printWindow.document.close();
-    printWindow.focus();
-    setTimeout(() => {
-      printWindow.print();
-    }, 250);
-  };
-
-  const handleExportCodesExcel = () => {
-    if (filteredStudents.length === 0) return;
-    let csv = '\uFEFFNr.;Schüler-Code;Klasse;Name (handschriftlich)\r\n';
-    filteredStudents.forEach((s, idx) => {
-      csv += `${idx + 1};${s.code};${s.className};\r\n`;
-    });
-    const filename = `Schuelerliste_Codes_${selectedClassFilter === 'all' ? 'Alle_Klassen' : selectedClassFilter}_${new Date().toISOString().slice(0, 10)}.csv`;
-    downloadBlob(csv, filename, 'text/csv;charset=utf-8;');
-  };
-
-  const handleExportCodesWord = () => {
-    if (filteredStudents.length === 0) return;
-    const rowsHtml = filteredStudents
-      .map(
-        (s, idx) => `
-        <tr>
-          <td style="border:1px solid #999; padding:6px 10px; text-align:center;">${idx + 1}</td>
-          <td style="border:1px solid #999; padding:6px 10px; font-family:monospace; font-weight:bold; font-size:12pt; text-align:center;">${s.code}</td>
-          <td style="border:1px solid #999; padding:6px 10px; text-align:center;">${s.className}</td>
-          <td style="border:1px solid #999; border-bottom:1.5pt solid #333; min-width:200px;">&nbsp;</td>
-        </tr>`
-      )
-      .join('');
-
-    const html = `
-      <html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'>
-      <head>
-        <meta charset='utf-8'>
-        <title>Schülerliste - Codes</title>
-        <style>
-          body { font-family: Arial, sans-serif; font-size: 11pt; color: #222; }
-          h1 { font-size: 16pt; color: #2e6b0e; }
-          p { font-size: 10pt; color: #555; }
-          table { border-collapse: collapse; width: 100%; margin-top: 15px; }
-          th { border: 1px solid #999; background: #f0f7eb; font-weight: bold; padding: 8px 10px; }
-        </style>
-      </head>
-      <body>
-        <h1>Schülerliste – Zugangs-Codes</h1>
-        <p><strong>Auswahl:</strong> ${currentClassLabel} | <strong>Anzahl:</strong> ${filteredStudents.length} | <strong>Datum:</strong> ${currentDateStr}</p>
-        <table>
-          <thead>
-            <tr>
-              <th style="width:40px; text-align:center;">Nr.</th>
-              <th style="width:130px; text-align:center;">Schüler-Code</th>
-              <th style="width:100px; text-align:center;">Klasse</th>
-              <th style="text-align:left;">Name der Schülerin / des Schülers</th>
-            </tr>
-          </thead>
-          <tbody>
-            ${rowsHtml}
-          </tbody>
-        </table>
-      </body>
-      </html>
-    `;
-    const filename = `Schuelerliste_Codes_${selectedClassFilter === 'all' ? 'Alle_Klassen' : selectedClassFilter}_${new Date().toISOString().slice(0, 10)}.doc`;
-    downloadBlob(html, filename, 'application/msword;charset=utf-8');
-  };
-
-  // =========================================================================
-  // 2. ERGEBNISLISTE EXPORT (PDF/Druck, Word, Excel)
-  // =========================================================================
-
-  const handlePrintProgress = () => {
-    if (filteredStudents.length === 0 || h5pIds.length === 0) return;
-    const printWindow = window.open('', '_blank');
-    if (!printWindow) return;
-
-    const ths = h5pIds.map((id) => `<th style="text-align:center; font-size:11px;">${h5pMap[id]}</th>`).join('');
-
-    const trs = filteredStudents
-      .map((s, idx) => {
-        const scoreCells = h5pIds
-          .map((id) => {
-            const sc = progressMap[s.id]?.[id];
-            const display = sc !== undefined ? `${sc} %` : '-';
-            const bg = sc !== undefined ? (sc >= 80 ? '#e6f4d7' : sc >= 50 ? '#fff8e1' : '#fdecea') : 'transparent';
-            const col = sc !== undefined ? (sc >= 80 ? '#4a7c2e' : sc >= 50 ? '#8a6000' : '#c62828') : '#999';
-            return `<td style="text-align:center; font-size:11px; background:${bg}; color:${col}; font-weight:bold;">${display}</td>`;
-          })
-          .join('');
-
-        return `
-          <tr>
-            <td style="text-align:center; width:35px; font-size:11px;">${idx + 1}</td>
-            <td style="font-family:monospace; font-weight:bold; font-size:12px; text-align:center;">${s.code}</td>
-            <td style="text-align:center; font-size:11px;">${s.className}</td>
-            <td style="border-bottom:1px solid #777; min-width:120px;">&nbsp;</td>
-            ${scoreCells}
-          </tr>`;
-      })
-      .join('');
-
-    printWindow.document.write(`
-      <!DOCTYPE html>
-      <html lang="de">
-      <head>
-        <meta charset="utf-8">
-        <title>Ergebnisliste</title>
-        <style>
-          body { font-family: Arial, sans-serif; padding: 20px; color: #111; }
-          h1 { font-size: 18px; color: #2e6b0e; margin-bottom: 4px; }
-          .meta { font-size: 12px; color: #555; margin-bottom: 16px; border-bottom: 2px solid #2e6b0e; padding-bottom: 6px; }
-          table { width: 100%; border-collapse: collapse; margin-top: 8px; }
-          th, td { border: 1px solid #bbb; padding: 6px 8px; font-size: 11px; }
-          th { background: #f0f7eb; font-weight: bold; }
-          @media print {
-            body { padding: 0; }
-            @page { size: landscape; margin: 1cm; }
-          }
-        </style>
-      </head>
-      <body>
-        <h1>Ergebnis- & Fortschrittsübersicht</h1>
-        <div class="meta">
-          <strong>Auswahl:</strong> ${currentClassLabel} &nbsp;|&nbsp;
-          <strong>Schüleranzahl:</strong> ${filteredStudents.length} &nbsp;|&nbsp;
-          <strong>Datum:</strong> ${currentDateStr}
-        </div>
-        <table>
-          <thead>
-            <tr>
-              <th style="width:35px; text-align:center;">Nr.</th>
-              <th style="width:80px; text-align:center;">Code</th>
-              <th style="width:70px; text-align:center;">Klasse</th>
-              <th style="text-align:left; min-width:120px;">Name</th>
-              ${ths}
-            </tr>
-          </thead>
-          <tbody>
-            ${trs}
-          </tbody>
-        </table>
-      </body>
-      </html>
-    `);
-    printWindow.document.close();
-    printWindow.focus();
-    setTimeout(() => {
-      printWindow.print();
-    }, 250);
-  };
-
-  const handleExportProgressExcel = () => {
-    if (filteredStudents.length === 0 || h5pIds.length === 0) return;
-    const headerCols = ['Nr.', 'Schüler-Code', 'Klasse', 'Name (handschriftlich)', ...h5pIds.map((id) => `"${h5pMap[id].replace(/"/g, '""')}"`)];
-    let csv = '\uFEFF' + headerCols.join(';') + '\r\n';
-
-    filteredStudents.forEach((s, idx) => {
-      const scores = h5pIds.map((id) => {
-        const sc = progressMap[s.id]?.[id];
-        return sc !== undefined ? `${sc}%` : '';
-      });
-      csv += [idx + 1, s.code, s.className, '', ...scores].join(';') + '\r\n';
-    });
-
-    const filename = `Ergebnisliste_${selectedClassFilter === 'all' ? 'Alle_Klassen' : selectedClassFilter}_${new Date().toISOString().slice(0, 10)}.csv`;
-    downloadBlob(csv, filename, 'text/csv;charset=utf-8;');
-  };
-
-  const handleExportProgressWord = () => {
-    if (filteredStudents.length === 0 || h5pIds.length === 0) return;
-    const ths = h5pIds.map((id) => `<th style="border:1px solid #999; background:#f0f7eb; padding:6px; font-size:9pt;">${h5pMap[id]}</th>`).join('');
-
-    const trs = filteredStudents
-      .map((s, idx) => {
-        const scoreCells = h5pIds
-          .map((id) => {
-            const sc = progressMap[s.id]?.[id];
-            const display = sc !== undefined ? `${sc} %` : '-';
-            return `<td style="border:1px solid #999; text-align:center; padding:5px; font-size:9pt;">${display}</td>`;
-          })
-          .join('');
-
-        return `
-          <tr>
-            <td style="border:1px solid #999; text-align:center; padding:5px; font-size:9pt;">${idx + 1}</td>
-            <td style="border:1px solid #999; font-family:monospace; font-weight:bold; text-align:center; padding:5px; font-size:10pt;">${s.code}</td>
-            <td style="border:1px solid #999; text-align:center; padding:5px; font-size:9pt;">${s.className}</td>
-            <td style="border:1px solid #999; border-bottom:1.5pt solid #333; min-width:100px;">&nbsp;</td>
-            ${scoreCells}
-          </tr>`;
-      })
-      .join('');
-
-    const html = `
-      <html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'>
-      <head>
-        <meta charset='utf-8'>
-        <title>Ergebnisliste</title>
-        <style>
-          body { font-family: Arial, sans-serif; font-size: 10pt; color: #222; }
-          h1 { font-size: 14pt; color: #2e6b0e; }
-          p { font-size: 9pt; color: #555; }
-          table { border-collapse: collapse; width: 100%; margin-top: 10px; }
-        </style>
-      </head>
-      <body>
-        <h1>Ergebnis- & Fortschrittsübersicht</h1>
-        <p><strong>Auswahl:</strong> ${currentClassLabel} | <strong>Datum:</strong> ${currentDateStr}</p>
-        <table>
-          <thead>
-            <tr>
-              <th style="border:1px solid #999; background:#f0f7eb; width:30px; font-size:9pt;">Nr.</th>
-              <th style="border:1px solid #999; background:#f0f7eb; width:80px; font-size:9pt;">Code</th>
-              <th style="border:1px solid #999; background:#f0f7eb; width:60px; font-size:9pt;">Klasse</th>
-              <th style="border:1px solid #999; background:#f0f7eb; text-align:left; font-size:9pt;">Name</th>
-              ${ths}
-            </tr>
-          </thead>
-          <tbody>
-            ${trs}
-          </tbody>
-        </table>
-      </body>
-      </html>
-    `;
-    const filename = `Ergebnisliste_${selectedClassFilter === 'all' ? 'Alle_Klassen' : selectedClassFilter}_${new Date().toISOString().slice(0, 10)}.doc`;
-    downloadBlob(html, filename, 'application/msword;charset=utf-8');
-  };
-
   return (
     <div className="site-wrapper">
       <Header />
-      <main className="content-main" style={{ padding: '32px 24px', maxWidth: 1100, margin: '0 auto', width: '100%' }}>
+      <main className="content-main" style={{ padding: '28px 24px', maxWidth: 1020, margin: '0 auto', width: '100%' }}>
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: 12, marginBottom: 20 }}>
           <div>
             <h1 style={{ marginBottom: 4 }}>Lehrperson-Dashboard</h1>
@@ -789,20 +395,36 @@ export default function DashboardPage() {
               </p>
             )}
           </div>
-          <button
-            type="button"
-            className="admin-action-btn"
-            onClick={() => {
-              setShowPasswordModal(true);
-              setPasswordError('');
-              setCurrentPassword('');
-              setNewPassword('');
-              setConfirmNewPassword('');
-            }}
-            style={{ fontSize: 13, padding: '7px 14px' }}
-          >
-            Passwort ändern
-          </button>
+          <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
+            <Link
+              href="/dashboard/schueler"
+              className="admin-action-btn"
+              style={{ fontSize: 13, padding: '7px 14px', textDecoration: 'none' }}
+            >
+              Alle Schüler-Codes
+            </Link>
+            <Link
+              href="/dashboard/fortschritt"
+              className="admin-action-btn"
+              style={{ fontSize: 13, padding: '7px 14px', textDecoration: 'none' }}
+            >
+              Fortschrittsübersicht
+            </Link>
+            <button
+              type="button"
+              className="admin-action-btn"
+              onClick={() => {
+                setShowPasswordModal(true);
+                setPasswordError('');
+                setCurrentPassword('');
+                setNewPassword('');
+                setConfirmNewPassword('');
+              }}
+              style={{ fontSize: 13, padding: '7px 14px' }}
+            >
+              Passwort ändern
+            </button>
+          </div>
         </div>
 
         {successMsg && (
@@ -832,13 +454,13 @@ export default function DashboardPage() {
           </div>
         )}
 
-        {/* KPI Statistics Summary Bar */}
+        {/* Compact KPI Statistics Summary Bar */}
         <div
           style={{
             display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))',
-            gap: 14,
-            marginBottom: 24,
+            gridTemplateColumns: 'repeat(auto-fit, minmax(170px, 1fr))',
+            gap: 12,
+            marginBottom: 22,
           }}
         >
           <div
@@ -846,14 +468,14 @@ export default function DashboardPage() {
               background: 'var(--bg-white)',
               border: '1.5px solid var(--green-primary)',
               borderRadius: 8,
-              padding: '16px 18px',
+              padding: '14px 16px',
               boxShadow: '0 1px 3px rgba(0, 0, 0, 0.04)',
             }}
           >
             <div style={{ fontSize: 11, color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: '0.5px', marginBottom: 4 }}>
               Klassen
             </div>
-            <div style={{ fontSize: 24, fontWeight: 700, color: 'var(--green-dark)' }}>
+            <div style={{ fontSize: 22, fontWeight: 700, color: 'var(--green-dark)' }}>
               {existingClasses.length}
             </div>
             <div style={{ fontSize: 12, color: 'var(--text-muted)', marginTop: 2 }}>
@@ -861,39 +483,42 @@ export default function DashboardPage() {
             </div>
           </div>
 
-          <div
+          <Link
+            href="/dashboard/schueler"
             style={{
               background: 'var(--bg-white)',
               border: '1.5px solid var(--green-primary)',
               borderRadius: 8,
-              padding: '16px 18px',
+              padding: '14px 16px',
               boxShadow: '0 1px 3px rgba(0, 0, 0, 0.04)',
+              textDecoration: 'none',
+              display: 'block',
             }}
           >
             <div style={{ fontSize: 11, color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: '0.5px', marginBottom: 4 }}>
               Schüler-Accounts
             </div>
-            <div style={{ fontSize: 24, fontWeight: 700, color: 'var(--green-dark)' }}>
+            <div style={{ fontSize: 22, fontWeight: 700, color: 'var(--green-dark)' }}>
               {students.length}
             </div>
-            <div style={{ fontSize: 12, color: 'var(--text-muted)', marginTop: 2 }}>
-              aktiv
+            <div style={{ fontSize: 12, color: 'var(--green-primary)', marginTop: 2, fontWeight: 600 }}>
+              Zur Schülerliste &rarr;
             </div>
-          </div>
+          </Link>
 
           <div
             style={{
               background: 'var(--bg-white)',
               border: '1.5px solid var(--green-primary)',
               borderRadius: 8,
-              padding: '16px 18px',
+              padding: '14px 16px',
               boxShadow: '0 1px 3px rgba(0, 0, 0, 0.04)',
             }}
           >
             <div style={{ fontSize: 11, color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: '0.5px', marginBottom: 4 }}>
               Zugewiesene Übungen
             </div>
-            <div style={{ fontSize: 24, fontWeight: 700, color: 'var(--green-dark)' }}>
+            <div style={{ fontSize: 22, fontWeight: 700, color: 'var(--green-dark)' }}>
               {Array.from(new Set(Object.values(assignmentsByClass).flat())).length}
             </div>
             <div style={{ fontSize: 12, color: 'var(--text-muted)', marginTop: 2 }}>
@@ -901,59 +526,75 @@ export default function DashboardPage() {
             </div>
           </div>
 
-          <div
+          <Link
+            href="/dashboard/fortschritt"
             style={{
               background: 'var(--bg-white)',
               border: '1.5px solid var(--green-primary)',
               borderRadius: 8,
-              padding: '16px 18px',
+              padding: '14px 16px',
               boxShadow: '0 1px 3px rgba(0, 0, 0, 0.04)',
+              textDecoration: 'none',
+              display: 'block',
             }}
           >
             <div style={{ fontSize: 11, color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: '0.5px', marginBottom: 4 }}>
               Erledigte Aufgaben
             </div>
-            <div style={{ fontSize: 24, fontWeight: 700, color: 'var(--green-dark)' }}>
+            <div style={{ fontSize: 22, fontWeight: 700, color: 'var(--green-dark)' }}>
               {progress.length}
             </div>
-            <div style={{ fontSize: 12, color: 'var(--text-muted)', marginTop: 2 }}>
+            <div style={{ fontSize: 12, color: 'var(--green-primary)', marginTop: 2, fontWeight: 600 }}>
               {progress.length > 0
-                ? `Ø Score: ${Math.round(progress.reduce((sum, p) => sum + (p.score || 0), 0) / progress.length)} %`
-                : 'Noch keine'}
+                ? `Ø ${Math.round(progress.reduce((sum, p) => sum + (p.score || 0), 0) / progress.length)} % • Fortschritt →`
+                : 'Zum Fortschritt →'}
             </div>
-          </div>
+          </Link>
         </div>
 
-        {/* Quick Classes Overview Grid (if classes exist) */}
-        {existingClasses.length > 0 && (
-          <section className="dashboard-section" style={{ marginBottom: 24 }}>
+        {/* Classes Overview Grid */}
+        {loading ? (
+          <section className="dashboard-section" style={{ marginBottom: 22 }}>
+            <p style={{ color: 'var(--text-muted)', margin: 0 }}>Lade Klassenübersicht...</p>
+          </section>
+        ) : existingClasses.length > 0 ? (
+          <section className="dashboard-section" style={{ marginBottom: 22 }}>
             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: 10, marginBottom: 14 }}>
-              <h2 style={{ margin: 0, fontSize: 18 }}>Meine Klassen ({existingClasses.length})</h2>
-              <span style={{ fontSize: 13, color: 'var(--text-muted)' }}>
-                Klicke auf eine Klasse für Details oder weise direkt Übungen zu.
-              </span>
+              <div>
+                <h2 style={{ margin: 0, fontSize: 18 }}>Meine Klassen ({existingClasses.length})</h2>
+                <span style={{ fontSize: 13, color: 'var(--text-muted)' }}>
+                  Wähle pro Klasse direkt Schüler-Codes, Übungsverwaltung oder Fortschrittsübersicht.
+                </span>
+              </div>
+              <button
+                type="button"
+                onClick={() => focusAddForm('')}
+                className="admin-action-btn"
+                style={{ fontSize: 13, fontWeight: 600 }}
+              >
+                + Neue Klasse anlegen
+              </button>
             </div>
 
             <div
               style={{
                 display: 'grid',
-                gridTemplateColumns: 'repeat(auto-fill, minmax(240px, 1fr))',
-                gap: 12,
+                gridTemplateColumns: 'repeat(auto-fill, minmax(290px, 1fr))',
+                gap: 14,
               }}
             >
               {existingClasses.map((cls) => {
                 const clsStudents = students.filter((s) => (s.className || 'Ohne Klasse') === cls);
                 const assignedIds = assignmentsByClass[cls] || [];
-                const isSelected = selectedClassFilter === cls;
 
                 return (
                   <div
                     key={cls}
                     style={{
-                      background: isSelected ? '#f0f7eb' : 'var(--bg-white)',
-                      border: `1.5px solid ${isSelected ? 'var(--green-primary)' : 'var(--border-light)'}`,
+                      background: 'var(--bg-white)',
+                      border: '1.5px solid var(--border-light)',
                       borderRadius: 8,
-                      padding: '14px 16px',
+                      padding: '15px 16px',
                       display: 'flex',
                       flexDirection: 'column',
                       justifyContent: 'space-between',
@@ -962,15 +603,15 @@ export default function DashboardPage() {
                   >
                     <div>
                       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 6 }}>
-                        <strong style={{ fontSize: 16, color: 'var(--green-dark)' }}>
+                        <strong style={{ fontSize: 17, color: 'var(--green-dark)' }}>
                           Klasse {cls}
                         </strong>
                         <span
                           style={{
-                            fontSize: 11,
+                            fontSize: 12,
                             background: 'var(--green-light)',
                             color: 'var(--green-dark)',
-                            padding: '2px 7px',
+                            padding: '2px 8px',
                             borderRadius: 4,
                             fontWeight: 700,
                           }}
@@ -992,21 +633,57 @@ export default function DashboardPage() {
                       )}
                     </div>
 
-                    <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap' }}>
-                      <button
-                        type="button"
-                        onClick={() => setSelectedClassFilter(cls)}
+                    {/* Main navigation links for this class */}
+                    <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: 6 }}>
+                      <Link
+                        href={`/dashboard/schueler?className=${encodeURIComponent(cls)}`}
                         className="admin-action-btn"
                         style={{
-                          fontSize: 12,
-                          padding: '4px 8px',
-                          background: isSelected ? 'var(--green-primary)' : 'var(--green-light)',
-                          color: isSelected ? '#ffffff' : 'var(--green-dark)',
-                          flex: 1,
+                          fontSize: 12.5,
+                          padding: '6px 8px',
+                          textAlign: 'center',
+                          textDecoration: 'none',
+                          fontWeight: 600,
+                          background: 'var(--green-light)',
+                          color: 'var(--green-dark)',
                         }}
                       >
-                        {isSelected ? 'Ausgewählt' : 'Anzeigen'}
-                      </button>
+                        Schüler
+                      </Link>
+                      <Link
+                        href={`/dashboard/uebungen?className=${encodeURIComponent(cls)}`}
+                        className="admin-action-btn"
+                        style={{
+                          fontSize: 12.5,
+                          padding: '6px 8px',
+                          textAlign: 'center',
+                          textDecoration: 'none',
+                          fontWeight: 600,
+                          background: 'var(--green-light)',
+                          color: 'var(--green-dark)',
+                        }}
+                      >
+                        Übungen
+                      </Link>
+                      <Link
+                        href={`/dashboard/fortschritt?className=${encodeURIComponent(cls)}`}
+                        className="admin-action-btn"
+                        style={{
+                          fontSize: 12.5,
+                          padding: '6px 8px',
+                          textAlign: 'center',
+                          textDecoration: 'none',
+                          fontWeight: 600,
+                          background: 'var(--green-light)',
+                          color: 'var(--green-dark)',
+                        }}
+                      >
+                        Fortschritt
+                      </Link>
+                    </div>
+
+                    {/* Secondary management actions */}
+                    <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap', borderTop: '1px solid var(--border-light)', paddingTop: 10 }}>
                       <button
                         type="button"
                         onClick={() => setInlineAddClass(inlineAddClass === cls ? null : cls)}
@@ -1020,14 +697,6 @@ export default function DashboardPage() {
                         title={`Schüler zu Klasse „${cls}“ hinzufügen`}
                       >
                         + Schüler
-                      </button>
-                      <button
-                        type="button"
-                        onClick={() => openAssignmentModal(cls)}
-                        className="admin-action-btn"
-                        style={{ fontSize: 12, padding: '4px 8px', flex: 1 }}
-                      >
-                        Übungen
                       </button>
                       <button
                         type="button"
@@ -1046,6 +715,15 @@ export default function DashboardPage() {
                         title={`Klasse „${cls}“ umbenennen`}
                       >
                         Umbenennen
+                      </button>
+                      <button
+                        type="button"
+                        onClick={() => promptDeleteClass(cls)}
+                        className="dashboard-delete-btn"
+                        style={{ fontSize: 12, padding: '4px 8px', marginLeft: 'auto' }}
+                        title={`Klasse „${cls}“ löschen`}
+                      >
+                        Löschen
                       </button>
                     </div>
 
@@ -1098,17 +776,15 @@ export default function DashboardPage() {
               })}
             </div>
           </section>
-        )}
-
-        {/* Onboarding Guide for Teachers with 0 students */}
-        {students.length === 0 && (
+        ) : (
+          /* Onboarding Guide for Teachers with 0 students */
           <div
             style={{
               background: 'linear-gradient(135deg, #f0f7eb 0%, #ffffff 100%)',
               border: '1.5px solid var(--green-primary)',
               borderRadius: 8,
               padding: '20px 24px',
-              marginBottom: 24,
+              marginBottom: 22,
               boxShadow: '0 2px 8px rgba(46, 107, 14, 0.06)',
             }}
           >
@@ -1164,28 +840,17 @@ export default function DashboardPage() {
                   3. Liste drucken &amp; austeilen
                 </div>
                 <div style={{ fontSize: 12, color: 'var(--text-muted)' }}>
-                  Drucke die Liste als PDF oder Word aus. Schüler loggen sich direkt mit ihrem Code ein – ohne E-Mail oder Passwort.
+                  Öffne die Schülerliste deiner Klasse und drucke sie als PDF oder Word aus. Schüler loggen sich direkt mit ihrem Code ein.
                 </div>
               </div>
-            </div>
-            <div style={{ fontSize: 12, color: 'var(--green-dark)', fontWeight: 600 }}>
-              Datensparsam &amp; rechtssicher: Die Zuordnung von Schüler zu Code bleibt allein auf deiner ausgedruckten Liste.
             </div>
           </div>
         )}
 
-        {/* Add students by count and class */}
+        {/* Add new class / students section */}
         <section className="dashboard-section" id="add-students-section">
           <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: 8, marginBottom: 4 }}>
-            <h2 style={{ margin: 0 }}>Schüleraccounts anlegen</h2>
-            <button
-              type="button"
-              onClick={() => focusAddForm('')}
-              className="admin-action-btn"
-              style={{ fontSize: 13, fontWeight: 600 }}
-            >
-              + Neue Klasse anlegen
-            </button>
+            <h2 style={{ margin: 0, fontSize: 18 }}>Neue Klasse oder Schüleraccounts anlegen</h2>
             <span
               style={{
                 fontSize: 12,
@@ -1200,8 +865,8 @@ export default function DashboardPage() {
               ✓ Keine Schülernamen oder E-Mails erforderlich
             </span>
           </div>
-          <p style={{ color: 'var(--text-muted)', fontSize: 14, marginBottom: 16 }}>
-            Trage die Klasse ein (z. B. 4A, 3B oder Mathe-Gruppe) und wähle die Anzahl. Jeder Account erhält automatisch einen 5-stelligen Code.
+          <p style={{ color: 'var(--text-muted)', fontSize: 13.5, marginBottom: 14 }}>
+            Trage eine neue oder bestehende Klasse ein (z. B. 4A, 3B oder Mathe-Gruppe) und wähle die gewünschte Anzahl an Schüler-Codes.
           </p>
           <form onSubmit={handleAddStudents} className="dashboard-add-form" style={{ alignItems: 'flex-end', gap: 12 }}>
             <div style={{ flex: '1 1 180px', minWidth: 140 }}>
@@ -1268,406 +933,7 @@ export default function DashboardPage() {
           {error && <p className="login-error" style={{ marginTop: 12 }}>{error}</p>}
         </section>
 
-        {/* Class Filter Tabs & Class Delete Action */}
-        {existingClasses.length > 0 && (
-          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 12, marginBottom: 16, flexWrap: 'wrap' }}>
-            <div style={{ display: 'flex', alignItems: 'center', gap: 8, flexWrap: 'wrap' }}>
-              <span style={{ fontSize: 13, fontWeight: 600, color: 'var(--text-color)', marginRight: 4 }}>
-                Klasse anzeigen:
-              </span>
-              <button
-                type="button"
-                onClick={() => setSelectedClassFilter('all')}
-                className="admin-action-btn"
-                style={{
-                  fontSize: 13,
-                  background: selectedClassFilter === 'all' ? 'var(--green-primary)' : 'var(--green-light)',
-                  color: selectedClassFilter === 'all' ? '#ffffff' : 'var(--green-dark)',
-                  borderColor: selectedClassFilter === 'all' ? 'var(--green-primary)' : 'var(--green-border)',
-                }}
-              >
-                Alle Klassen ({students.length})
-              </button>
-              {existingClasses.map((cls) => {
-                const classCount = students.filter((s) => (s.className || 'Ohne Klasse') === cls).length;
-                return (
-                  <button
-                    key={cls}
-                    type="button"
-                    onClick={() => setSelectedClassFilter(cls)}
-                    className="admin-action-btn"
-                    style={{
-                      fontSize: 13,
-                      background: selectedClassFilter === cls ? 'var(--green-primary)' : 'var(--green-light)',
-                      color: selectedClassFilter === cls ? '#ffffff' : 'var(--green-dark)',
-                      borderColor: selectedClassFilter === cls ? 'var(--green-primary)' : 'var(--green-border)',
-                    }}
-                  >
-                    {cls} ({classCount})
-                  </button>
-                );
-              })}
-            </div>
-
-            {selectedClassFilter !== 'all' && (
-              <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
-                <button
-                  type="button"
-                  onClick={() => openAssignmentModal(selectedClassFilter)}
-                  className="admin-action-btn"
-                  style={{
-                    fontSize: 13,
-                    padding: '6px 14px',
-                    background: (assignmentsByClass[selectedClassFilter] || []).length > 0 ? 'var(--green-primary)' : 'var(--green-light)',
-                    color: (assignmentsByClass[selectedClassFilter] || []).length > 0 ? '#ffffff' : 'var(--green-dark)',
-                    borderColor: 'var(--green-primary)',
-                    fontWeight: 600,
-                  }}
-                >
-                  Übungen zuweisen ({(assignmentsByClass[selectedClassFilter] || []).length})
-                </button>
-                <button
-                  type="button"
-                  onClick={() => openRenameModal(selectedClassFilter)}
-                  className="admin-action-btn"
-                  style={{
-                    fontSize: 13,
-                    padding: '6px 12px',
-                    fontWeight: 600,
-                  }}
-                  title={`Klasse „${selectedClassFilter}“ umbenennen`}
-                >
-                  Klasse umbenennen
-                </button>
-                <button
-                  type="button"
-                  onClick={() => openShareModal(selectedClassFilter)}
-                  className="admin-action-btn"
-                  style={{
-                    fontSize: 13,
-                    padding: '6px 12px',
-                    fontWeight: 600,
-                  }}
-                  title={`Klasse „${selectedClassFilter}“ mit anderer Lehrperson teilen (Team-Teaching)`}
-                >
-                  Klasse teilen
-                </button>
-                <button
-                  type="button"
-                  onClick={() => promptDeleteClass(selectedClassFilter)}
-                  className="dashboard-delete-btn"
-                  style={{
-                    fontSize: 13,
-                    padding: '6px 12px',
-                    border: '1px solid #f5c2c7',
-                    background: '#fff5f5',
-                    borderRadius: 6,
-                    fontWeight: 600,
-                  }}
-                  title={`Gesamte Klasse „${selectedClassFilter}“ und alle Schüleraccounts darin löschen`}
-                >
-                  Klasse „{selectedClassFilter}“ komplett löschen
-                </button>
-              </div>
-            )}
-          </div>
-        )}
-
-        {/* Assigned Exercises for Selected Class */}
-        {selectedClassFilter !== 'all' && (
-          <div
-            style={{
-              background: (assignmentsByClass[selectedClassFilter] || []).length > 0 ? '#f0f7eb' : '#f8fafc',
-              border: `1px solid ${(assignmentsByClass[selectedClassFilter] || []).length > 0 ? '#c8e4b6' : 'var(--border-light)'}`,
-              borderRadius: 8,
-              padding: '14px 18px',
-              marginBottom: 16,
-            }}
-          >
-            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: 10, marginBottom: (assignmentsByClass[selectedClassFilter] || []).length > 0 ? 10 : 0 }}>
-              <div>
-                <strong style={{ fontSize: 14, color: 'var(--green-dark)' }}>
-                  Zugewiesene Übungen für Klasse „{selectedClassFilter}“:
-                </strong>{' '}
-                <span style={{ fontSize: 13, color: 'var(--text-muted)' }}>
-                  {(assignmentsByClass[selectedClassFilter] || []).length === 0
-                    ? 'Noch keine Übungen zugewiesen. Schüler sehen auf „Mein Fortschritt“ die von dir zugeordneten Aufgaben.'
-                    : `${(assignmentsByClass[selectedClassFilter] || []).length} Übung(en) ausgewählt`}
-                </span>
-              </div>
-              <button
-                type="button"
-                className="admin-action-btn"
-                onClick={() => openAssignmentModal(selectedClassFilter)}
-                style={{ fontSize: 12, padding: '4px 12px' }}
-              >
-                {(assignmentsByClass[selectedClassFilter] || []).length > 0 ? 'Zuordnung bearbeiten' : 'Jetzt Übungen auswählen'}
-              </button>
-            </div>
-
-            {(assignmentsByClass[selectedClassFilter] || []).length > 0 && (
-              <div style={{ display: 'flex', flexWrap: 'wrap', gap: 6 }}>
-                {(assignmentsByClass[selectedClassFilter] || []).map((id) => {
-                  const ex = catalog.find((c) => c.id === id);
-                  return (
-                    <span
-                      key={id}
-                      style={{
-                        fontSize: 12,
-                        background: '#ffffff',
-                        border: '1px solid #c8e4b6',
-                        color: 'var(--green-dark)',
-                        padding: '3px 8px',
-                        borderRadius: 4,
-                        fontWeight: 600,
-                        display: 'inline-flex',
-                        alignItems: 'center',
-                        gap: 4,
-                      }}
-                    >
-                      <span style={{ fontSize: 10, color: 'var(--text-muted)' }}>{ex?.subject || 'ID:'}</span>
-                      <span>{ex?.title || id}</span>
-                    </span>
-                  );
-                })}
-              </div>
-            )}
-          </div>
-        )}
-
-        {/* Student list */}
-        <section className="dashboard-section">
-          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: 12, marginBottom: 16 }}>
-            <h2 style={{ margin: 0 }}>
-              Schüler-Codes {selectedClassFilter !== 'all' ? `(Klasse ${selectedClassFilter})` : `(Gesamt ${filteredStudents.length})`}
-            </h2>
-            {filteredStudents.length > 0 && (
-              <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
-                <button
-                  type="button"
-                  onClick={handlePrintCodes}
-                  className="admin-action-btn"
-                  style={{ fontSize: 13 }}
-                  title="Druckbare Liste zum handschriftlichen Eintragen der Namen"
-                >
-                  PDF / Drucken
-                </button>
-                <button
-                  type="button"
-                  onClick={handleExportCodesWord}
-                  className="admin-action-btn"
-                  style={{ fontSize: 13 }}
-                  title="Word-Dokument herunterladen"
-                >
-                  Word (.doc)
-                </button>
-                <button
-                  type="button"
-                  onClick={handleExportCodesExcel}
-                  className="admin-action-btn"
-                  style={{ fontSize: 13 }}
-                  title="Excel-Tabelle herunterladen"
-                >
-                  Excel (.csv)
-                </button>
-                <button
-                  type="button"
-                  onClick={handleCopyCodes}
-                  className="admin-action-btn"
-                  style={{ fontSize: 13 }}
-                >
-                  {copied ? 'Codes kopiert' : 'Codes kopieren'}
-                </button>
-              </div>
-            )}
-          </div>
-
-          {loading ? (
-            <p style={{ color: 'var(--text-muted)' }}>Lädt...</p>
-          ) : filteredStudents.length === 0 ? (
-            <p style={{ color: 'var(--text-muted)' }}>Keine Schüleraccounts für diesen Filter vorhanden.</p>
-          ) : (
-            <div
-              style={{
-                display: 'grid',
-                gridTemplateColumns: 'repeat(auto-fill, minmax(230px, 1fr))',
-                gap: 10,
-              }}
-            >
-              {filteredStudents.map((s, idx) => (
-                <div
-                  key={s.id}
-                  className="dashboard-student-card"
-                  style={{
-                    padding: '8px 12px',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'space-between',
-                    gap: 8,
-                    minWidth: 0,
-                  }}
-                >
-                  <div
-                    style={{
-                      display: 'flex',
-                      alignItems: 'center',
-                      gap: 6,
-                      minWidth: 0,
-                      flex: 1,
-                      overflow: 'hidden',
-                    }}
-                  >
-                    <span style={{ fontSize: 12, color: 'var(--text-muted)', minWidth: 22, flexShrink: 0 }}>#{idx + 1}</span>
-                    <span className="dashboard-student-code" style={{ fontSize: 14, flexShrink: 0 }}>{s.code}</span>
-                    {selectedClassFilter === 'all' && (
-                      <span
-                        style={{
-                          fontSize: 11,
-                          color: 'var(--text-muted)',
-                          whiteSpace: 'nowrap',
-                          overflow: 'hidden',
-                          textOverflow: 'ellipsis',
-                          flexShrink: 1,
-                        }}
-                        title={s.className}
-                      >
-                        ({s.className})
-                      </span>
-                    )}
-                  </div>
-                  <button
-                    type="button"
-                    className="admin-action-btn"
-                    onClick={() => openAssignmentModal(s.className || 'Ohne Klasse', s)}
-                    title="Übungen nur für diesen Schüler zuweisen"
-                    style={{ fontSize: 12, padding: '3px 7px', flexShrink: 0, whiteSpace: 'nowrap' }}
-                  >
-                    Übungen
-                  </button>
-                  <button
-                    className="dashboard-delete-btn"
-                    onClick={() => promptDeleteStudent(s)}
-                    title="Account löschen"
-                    style={{ fontSize: 12, padding: '3px 7px', flexShrink: 0, whiteSpace: 'nowrap' }}
-                  >
-                    Löschen
-                  </button>
-                </div>
-              ))}
-            </div>
-          )}
-        </section>
-
-        {/* Progress table */}
-        {h5pIds.length > 0 && filteredStudents.length > 0 && (
-          <section className="dashboard-section">
-            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: 12, marginBottom: 12 }}>
-              <h2 style={{ margin: 0 }}>
-                Fortschrittsübersicht {selectedClassFilter !== 'all' ? `(Klasse ${selectedClassFilter})` : ''}
-              </h2>
-              <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
-                <button
-                  type="button"
-                  onClick={handlePrintProgress}
-                  className="admin-action-btn"
-                  style={{ fontSize: 13 }}
-                  title="Ergebnisliste drucken oder als PDF speichern"
-                >
-                  PDF / Drucken
-                </button>
-                <button
-                  type="button"
-                  onClick={handleExportProgressWord}
-                  className="admin-action-btn"
-                  style={{ fontSize: 13 }}
-                  title="Ergebnisliste als Word-Dokument"
-                >
-                  Word (.doc)
-                </button>
-                <button
-                  type="button"
-                  onClick={handleExportProgressExcel}
-                  className="admin-action-btn"
-                  style={{ fontSize: 13 }}
-                  title="Ergebnisliste als Excel-Tabelle"
-                >
-                  Excel (.csv)
-                </button>
-              </div>
-            </div>
-            <div style={{ overflowX: 'auto', marginTop: 12 }}>
-              <table className="dashboard-progress-table">
-                <thead>
-                  <tr>
-                    <th style={{ textAlign: 'left' }}>Schüler-Code</th>
-                    {selectedClassFilter === 'all' && <th>Klasse</th>}
-                    {h5pIds.map((id) => {
-                      const match = id.match(/(\d+)(?:\/?$)/);
-                      const idTarget = match ? match[1] : id.replace(/^\/h5p-content\//, '').replace(/^\//, '');
-                      return (
-                        <th key={id} title={id}>
-                          <Link
-                            href={`/${idTarget}`}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            style={{ color: 'inherit', textDecoration: 'underline' }}
-                          >
-                            {h5pMap[id]}
-                          </Link>
-                        </th>
-                      );
-                    })}
-                  </tr>
-                </thead>
-                <tbody>
-                  {filteredStudents.map((s, idx) => (
-                    <tr key={s.id}>
-                      <td className="dashboard-table-student">
-                        <span style={{ fontSize: 11, color: 'var(--text-muted)', marginRight: 6 }}>#{idx + 1}</span>
-                        <span className="dashboard-student-code" style={{ fontSize: 13 }}>{s.code}</span>
-                      </td>
-                      {selectedClassFilter === 'all' && (
-                        <td style={{ textAlign: 'center', fontSize: 12, color: 'var(--text-muted)' }}>
-                          {s.className}
-                        </td>
-                      )}
-                      {h5pIds.map((hId) => {
-                        const score = progressMap[s.id]?.[hId];
-                        return (
-                          <td key={hId} className="dashboard-score-cell">
-                            {score !== undefined ? (
-                              <span
-                                className="dashboard-score-badge"
-                                style={{
-                                  background: score >= 80 ? '#e6f4d7' : score >= 50 ? '#fff8e1' : '#fdecea',
-                                  color: score >= 80 ? '#4a7c2e' : score >= 50 ? '#8a6000' : '#c62828',
-                                }}
-                              >
-                                {score} %
-                              </span>
-                            ) : (
-                              <span className="dashboard-score-empty">-</span>
-                            )}
-                          </td>
-                        );
-                      })}
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-          </section>
-        )}
-
-        {h5pIds.length === 0 && filteredStudents.length > 0 && !loading && (
-          <section className="dashboard-section">
-            <p style={{ color: 'var(--text-muted)' }}>
-              Noch kein H5P-Fortschritt für diese Schüleraccounts vorhanden.
-            </p>
-          </section>
-        )}
-
-        <div style={{ marginTop: 24 }}>
+        <div style={{ marginTop: 20 }}>
           <Link href="/" className="dashboard-back-link">&larr; Zurück zur Startseite</Link>
         </div>
 
@@ -1794,7 +1060,6 @@ export default function DashboardPage() {
             </div>
           </div>
         )}
-
 
         {/* Rename Class Modal Overlay */}
         {showRenameModal && (
