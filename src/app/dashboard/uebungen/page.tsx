@@ -242,8 +242,8 @@ function UebungenPageInner() {
       if (!res.ok) {
         setError(data.error || 'Fehler beim Speichern.');
       } else {
-        setSuccessMsg(`Gespeichert (${ids.length} Übungen).`);
-        setTimeout(() => router.push('/dashboard'), 700);
+        setSuccessMsg(`Zuordnung gespeichert (${ids.length} ${ids.length === 1 ? 'Übung' : 'Übungen'}).`);
+        setTimeout(() => setSuccessMsg(''), 4000);
       }
     } catch {
       setError('Netzwerkfehler beim Speichern.');
@@ -542,7 +542,6 @@ function UebungenPageInner() {
                         }}
                       >
                         <span style={{ color: 'var(--text-muted)', fontSize: 15, cursor: 'grab' }} title="Bereich ziehen zum Verschieben">⠿</span>
-                        <span aria-hidden>{si === 0 && !sec.title ? '📄' : '📁'}</span>
                         <input
                           type="text"
                           className="login-input"

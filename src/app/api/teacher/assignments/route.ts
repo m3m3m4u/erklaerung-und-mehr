@@ -2,6 +2,7 @@ import { getSession } from '@/lib/auth';
 import { getDatabase } from '@/lib/mongodb';
 import { ObjectId } from 'mongodb';
 import { normalizeSections, type AssignmentSection } from '@/lib/assignment-sections';
+import { findAccessibleStudent, resolveClassOwnerId } from '@/lib/class-sharing';
 
 // GET /api/teacher/assignments?className=... oder ?studentId=... – Zugewiesene Übungen abrufen
 export async function GET(request: Request) {
@@ -15,15 +16,21 @@ export async function GET(request: Request) {
   const studentId = searchParams.get('studentId')?.trim();
 
   const db = await getDatabase();
-  const teacherId = new ObjectId(session.id);
+  const sessionTeacherId = new ObjectId(session.id);
 
   if (studentId) {
     if (!ObjectId.isValid(studentId)) {
       return Response.json({ error: 'Ungültige Schüler-ID.' }, { status: 400 });
     }
+    const studentOid = new ObjectId(studentId);
+    const student = await findAccessibleStudent(db, sessionTeacherId, studentOid);
+    if (!student) {
+      return Response.json({ error: 'Schüler nicht gefunden.' }, { status: 404 });
+    }
+    const ownerId = student.teacherId as ObjectId;
     const doc = await db.collection('student_assignments').findOne({
-      teacherId,
-      studentId: new ObjectId(studentId),
+      teacherId: ownerId,
+      studentId: studentOid,
     });
     const sections = normalizeSections(doc);
     return Response.json({
@@ -38,7 +45,8 @@ export async function GET(request: Request) {
     return Response.json({ error: 'Klassenname ist erforderlich.' }, { status: 400 });
   }
 
-  const doc = await db.collection('class_assignments').findOne({ teacherId, className });
+  const { ownerId } = await resolveClassOwnerId(db, sessionTeacherId, className);
+  const doc = await db.collection('class_assignments').findOne({ teacherId: ownerId, className });
   const sections = normalizeSections(doc);
 
   return Response.json({
@@ -78,7 +86,7 @@ export async function POST(request: Request) {
   const h5pIds = sections.flatMap((s) => s.h5pIds);
 
   const db = await getDatabase();
-  const teacherId = new ObjectId(session.id);
+  const sessionTeacherId = new ObjectId(session.id);
   const now = new Date();
 
   if (studentId) {
@@ -86,14 +94,15 @@ export async function POST(request: Request) {
       return Response.json({ error: 'Ungültige Schüler-ID.' }, { status: 400 });
     }
     const studentOid = new ObjectId(studentId);
-    const student = await db.collection('students').findOne({ _id: studentOid, teacherId });
+    const student = await findAccessibleStudent(db, sessionTeacherId, studentOid);
     if (!student) {
       return Response.json({ error: 'Schüler nicht gefunden.' }, { status: 404 });
     }
+    const ownerId = student.teacherId as ObjectId;
     await db.collection('student_assignments').updateOne(
-      { teacherId, studentId: studentOid },
+      { teacherId: ownerId, studentId: studentOid },
       {
-        $set: { teacherId, studentId: studentOid, h5pIds, sections, updatedAt: now },
+        $set: { teacherId: ownerId, studentId: studentOid, h5pIds, sections, updatedAt: now },
         $setOnInsert: { createdAt: now },
       },
       { upsert: true }
@@ -105,10 +114,11 @@ export async function POST(request: Request) {
     return Response.json({ error: 'Klassenname ist erforderlich.' }, { status: 400 });
   }
 
+  const { ownerId } = await resolveClassOwnerId(db, sessionTeacherId, className);
   await db.collection('class_assignments').updateOne(
-    { teacherId, className },
+    { teacherId: ownerId, className },
     {
-      $set: { teacherId, className, h5pIds, sections, updatedAt: now },
+      $set: { teacherId: ownerId, className, h5pIds, sections, updatedAt: now },
       $setOnInsert: { createdAt: now },
     },
     { upsert: true }

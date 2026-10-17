@@ -63,18 +63,20 @@ export default function DashboardPage() {
   const [renameLoading, setRenameLoading] = useState(false);
   const [renameError, setRenameError] = useState('');
 
-  // Assignment state
-  const [showAssignmentModal, setShowAssignmentModal] = useState(false);
-  const [assignmentTargetClass, setAssignmentTargetClass] = useState('');
-  const [assignmentTargetStudent, setAssignmentTargetStudent] = useState<Student | null>(null);
-  const [assignmentSections, setAssignmentSections] = useState<AssignmentSection[]>([{ id: 'general', title: '', h5pIds: [] }]);
-  const [assignmentTab, setAssignmentTab] = useState<'select' | 'order'>('select');
+  // Assignments & catalog state
   const [catalog, setCatalog] = useState<{ id: string; title: string; subject: string; subjectSlug: string; topicTitle: string; topicSlug: string; url: string }[]>([]);
-  const [catalogLoading, setCatalogLoading] = useState(false);
-  const [assignmentSearch, setAssignmentSearch] = useState('');
-  const [assignmentSubjectFilter, setAssignmentSubjectFilter] = useState('all');
-  const [assignmentSaving, setAssignmentSaving] = useState(false);
   const [assignmentsByClass, setAssignmentsByClass] = useState<Record<string, string[]>>({});
+
+  // Team-Teaching / Klasse teilen state
+  const [showShareModal, setShowShareModal] = useState(false);
+  const [shareTargetClass, setShareTargetClass] = useState('');
+  const [shareEmailInput, setShareEmailInput] = useState('');
+  const [shareLoading, setShareLoading] = useState(false);
+  const [shareError, setShareError] = useState('');
+  const [shareList, setShareList] = useState<{ email: string }[]>([]);
+  const [shareOwnerEmail, setShareOwnerEmail] = useState('');
+  const [sharedClassesMap, setSharedClassesMap] = useState<Record<string, string[]>>({});
+  const [sharedWithMeMap, setSharedWithMeMap] = useState<Record<string, string>>({});
 
   // Confirmation overlay modal state
   const [confirmModal, setConfirmModal] = useState<{
@@ -110,15 +112,29 @@ export default function DashboardPage() {
   const loadData = useCallback(async () => {
     setLoading(true);
     try {
-      const [studentsRes, progressRes] = await Promise.all([
+      const [studentsRes, progressRes, sharesRes] = await Promise.all([
         fetch('/api/teacher/students'),
         fetch('/api/teacher/progress'),
+        fetch('/api/teacher/classes/share'),
       ]);
       const studentsData = await studentsRes.json();
       const progressData = await progressRes.json();
+      const sharesData = await sharesRes.json().catch(() => ({}));
       const loadedStudents: Student[] = studentsData.students || [];
       setStudents(loadedStudents);
       setProgress(progressData.progress || []);
+
+      const myMap: Record<string, string[]> = {};
+      for (const s of sharesData.myShares || []) {
+        myMap[s.className] = [...(myMap[s.className] || []), s.email];
+      }
+      setSharedClassesMap(myMap);
+
+      const withMeMap: Record<string, string> = {};
+      for (const s of sharesData.sharedWithMe || []) {
+        withMeMap[s.className] = s.ownerEmail || 'Team-Teaching';
+      }
+      setSharedWithMeMap(withMeMap);
 
       // Load assignments for all classes
       const distinctClasses = Array.from(new Set(loadedStudents.map((s) => s.className || 'Ohne Klasse')));
@@ -146,21 +162,67 @@ export default function DashboardPage() {
     loadData();
   }, [loadData]);
 
-  // Load catalog eagerly or when needed
-  const ensureCatalog = async () => {
-    if (catalog.length > 0) return catalog;
-    setCatalogLoading(true);
+  const openShareModal = async (targetClass: string) => {
+    setShareTargetClass(targetClass);
+    setShareEmailInput('');
+    setShareError('');
+    setShareList([]);
+    setShareOwnerEmail('');
+    setShowShareModal(true);
     try {
-      const res = await fetch('/api/h5p/catalog');
+      const res = await fetch(`/api/teacher/classes/share?className=${encodeURIComponent(targetClass)}`);
       const data = await res.json();
-      const list = data.exercises || [];
-      setCatalog(list);
-      return list;
+      setShareList(data.sharedWith || []);
+      setShareOwnerEmail(data.ownerEmail || '');
     } catch {
-      setError('Fehler beim Laden des Übungskatalogs.');
-      return [];
+      setShareError('Fehler beim Laden der Team-Teacher.');
+    }
+  };
+
+  const handleAddShare = async (e: React.FormEvent) => {
+    e.preventDefault();
+    const email = shareEmailInput.trim().toLowerCase();
+    if (!email) return;
+    setShareLoading(true);
+    setShareError('');
+    try {
+      const res = await fetch('/api/teacher/classes/share', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ className: shareTargetClass, email }),
+      });
+      const data = await res.json();
+      if (!res.ok) {
+        setShareError(data.error || 'Fehler beim Teilen der Klasse.');
+      } else {
+        setShareEmailInput('');
+        setShareList((prev) => (prev.some((x) => x.email === email) ? prev : [...prev, { email }]));
+        setSuccessMsg(`Klasse „${shareTargetClass}“ mit ${email} geteilt.`);
+        setTimeout(() => setSuccessMsg(''), 4000);
+        await loadData();
+      }
+    } catch {
+      setShareError('Netzwerkfehler.');
     } finally {
-      setCatalogLoading(false);
+      setShareLoading(false);
+    }
+  };
+
+  const handleRemoveShare = async (email: string) => {
+    setShareLoading(true);
+    setShareError('');
+    try {
+      const res = await fetch('/api/teacher/classes/share', {
+        method: 'DELETE',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ className: shareTargetClass, email }),
+      });
+      if (res.ok) {
+        setShareList((prev) => prev.filter((x) => x.email !== email));
+        await loadData();
+      }
+    } finally {
+      setShareLoading(false);
     }
   };
 
@@ -921,6 +983,13 @@ export default function DashboardPage() {
                           ? `${assignedIds.length} Übung(en) zugewiesen`
                           : 'Noch keine Übungen zugewiesen'}
                       </div>
+                      {(sharedWithMeMap[cls] || (sharedClassesMap[cls] && sharedClassesMap[cls].length > 0)) && (
+                        <div style={{ fontSize: 11.5, color: 'var(--green-dark)', marginTop: 4, fontWeight: 600 }}>
+                          {sharedWithMeMap[cls]
+                            ? `Geteilt von ${sharedWithMeMap[cls]}`
+                            : `Team-Teaching (${sharedClassesMap[cls].length})`}
+                        </div>
+                      )}
                     </div>
 
                     <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap' }}>
@@ -959,6 +1028,15 @@ export default function DashboardPage() {
                         style={{ fontSize: 12, padding: '4px 8px', flex: 1 }}
                       >
                         Übungen
+                      </button>
+                      <button
+                        type="button"
+                        onClick={() => openShareModal(cls)}
+                        className="admin-action-btn"
+                        style={{ fontSize: 12, padding: '4px 8px' }}
+                        title={`Klasse „${cls}“ mit anderer Lehrperson teilen (Team-Teaching)`}
+                      >
+                        Teilen
                       </button>
                       <button
                         type="button"
@@ -1035,7 +1113,6 @@ export default function DashboardPage() {
             }}
           >
             <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 8, flexWrap: 'wrap' }}>
-              <span style={{ fontSize: 22 }}>💡</span>
               <h2 style={{ fontSize: 18, margin: 0, color: 'var(--green-dark)' }}>
                 Erste Schritte: So startest du in weniger als 1 Minute
               </h2>
@@ -1092,7 +1169,7 @@ export default function DashboardPage() {
               </div>
             </div>
             <div style={{ fontSize: 12, color: 'var(--green-dark)', fontWeight: 600 }}>
-              🔒 Datensparsam &amp; rechtssicher: Die Zuordnung von Schüler zu Code bleibt allein auf deiner ausgedruckten Liste.
+              Datensparsam &amp; rechtssicher: Die Zuordnung von Schüler zu Code bleibt allein auf deiner ausgedruckten Liste.
             </div>
           </div>
         )}
@@ -1261,6 +1338,19 @@ export default function DashboardPage() {
                   title={`Klasse „${selectedClassFilter}“ umbenennen`}
                 >
                   Klasse umbenennen
+                </button>
+                <button
+                  type="button"
+                  onClick={() => openShareModal(selectedClassFilter)}
+                  className="admin-action-btn"
+                  style={{
+                    fontSize: 13,
+                    padding: '6px 12px',
+                    fontWeight: 600,
+                  }}
+                  title={`Klasse „${selectedClassFilter}“ mit anderer Lehrperson teilen (Team-Teaching)`}
+                >
+                  Klasse teilen
                 </button>
                 <button
                   type="button"
@@ -1784,6 +1874,126 @@ export default function DashboardPage() {
                     </button>
                   </div>
                 </form>
+              </div>
+            </div>
+          </div>
+        )}
+
+        {/* Share Class (Team-Teaching) Modal Overlay */}
+        {showShareModal && (
+          <div
+            className="login-modal-overlay"
+            onClick={() => {
+              if (!shareLoading) setShowShareModal(false);
+            }}
+            style={{ zIndex: 9999 }}
+          >
+            <div
+              className="login-modal"
+              style={{ maxWidth: 480 }}
+              onClick={(e) => e.stopPropagation()}
+              role="dialog"
+              aria-modal="true"
+            >
+              <button
+                className="login-modal-close"
+                onClick={() => {
+                  if (!shareLoading) setShowShareModal(false);
+                }}
+                aria-label="Schließen"
+                disabled={shareLoading}
+              >
+                &times;
+              </button>
+
+              <div className="login-modal-body" style={{ padding: '28px 24px 22px' }}>
+                <h2 className="login-modal-title" style={{ fontSize: 19, marginBottom: 4 }}>
+                  Klasse „{shareTargetClass}“ teilen (Team-Teaching)
+                </h2>
+                <p className="login-modal-subtitle" style={{ fontSize: 13, marginBottom: 14 }}>
+                  Gib die E-Mail-Adresse einer anderen registrierten Lehrperson ein. Sie erhält vollen Zugriff auf die Schüler, Übungszuweisungen und den Fortschritt dieser Klasse.
+                </p>
+
+                {shareOwnerEmail && shareOwnerEmail !== teacherEmail && (
+                  <div style={{ fontSize: 12.5, background: '#f0f7eb', border: '1px solid #c8e4b6', borderRadius: 6, padding: '8px 10px', marginBottom: 12, color: 'var(--green-dark)' }}>
+                    Erstellt von: <strong>{shareOwnerEmail}</strong>
+                  </div>
+                )}
+
+                {shareError && (
+                  <p className="login-error" style={{ marginBottom: 12 }}>{shareError}</p>
+                )}
+
+                <form onSubmit={handleAddShare} style={{ display: 'flex', gap: 8, marginBottom: 16 }}>
+                  <input
+                    type="email"
+                    className="login-input"
+                    value={shareEmailInput}
+                    onChange={(e) => setShareEmailInput(e.target.value)}
+                    placeholder="E-Mail-Adresse der Lehrperson..."
+                    required
+                    style={{ flex: 1 }}
+                  />
+                  <button
+                    type="submit"
+                    className="dashboard-add-btn"
+                    disabled={shareLoading}
+                    style={{ padding: '8px 14px', fontSize: 13, whiteSpace: 'nowrap' }}
+                  >
+                    {shareLoading ? '...' : '+ Freigeben'}
+                  </button>
+                </form>
+
+                <div style={{ borderTop: '1px solid var(--border-light)', paddingTop: 12 }}>
+                  <strong style={{ fontSize: 13, color: 'var(--text-color)', display: 'block', marginBottom: 8 }}>
+                    Aktuell geteilt mit ({shareList.length}):
+                  </strong>
+                  {shareList.length === 0 ? (
+                    <p style={{ fontSize: 13, color: 'var(--text-muted)', margin: 0 }}>
+                      Noch mit keiner anderen Lehrperson geteilt.
+                    </p>
+                  ) : (
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
+                      {shareList.map((item) => (
+                        <div
+                          key={item.email}
+                          style={{
+                            display: 'flex',
+                            alignItems: 'center',
+                            justifyContent: 'space-between',
+                            padding: '6px 10px',
+                            background: '#fafcf8',
+                            border: '1px solid var(--border-light)',
+                            borderRadius: 6,
+                            fontSize: 13,
+                          }}
+                        >
+                          <span>{item.email}</span>
+                          <button
+                            type="button"
+                            className="dashboard-delete-btn"
+                            disabled={shareLoading}
+                            onClick={() => handleRemoveShare(item.email)}
+                            style={{ fontSize: 12, padding: '2px 8px' }}
+                          >
+                            Entfernen
+                          </button>
+                        </div>
+                      ))}
+                    </div>
+                  )}
+                </div>
+
+                <div style={{ display: 'flex', justifyContent: 'flex-end', marginTop: 18 }}>
+                  <button
+                    type="button"
+                    className="admin-action-btn"
+                    onClick={() => setShowShareModal(false)}
+                    style={{ padding: '8px 16px', fontSize: 13 }}
+                  >
+                    Schließen
+                  </button>
+                </div>
               </div>
             </div>
           </div>

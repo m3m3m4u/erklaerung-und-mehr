@@ -151,8 +151,8 @@ export default function MeinFortschrittPage() {
                   {assignments.map((item, idx) => (
                     <Fragment key={item.id}>
                     {item.sectionTitle && item.sectionTitle !== (assignments[idx - 1]?.sectionTitle ?? '') && (
-                      <h3 style={{ margin: idx === 0 ? '0 0 2px' : '14px 0 2px', fontSize: 15, color: 'var(--green-dark)', display: 'flex', alignItems: 'center', gap: 6 }}>
-                        <span aria-hidden>📁</span> {item.sectionTitle}
+                      <h3 style={{ margin: idx === 0 ? '0 0 2px' : '14px 0 2px', fontSize: 15, color: 'var(--green-dark)' }}>
+                        {item.sectionTitle}
                       </h3>
                     )}
                     <div
