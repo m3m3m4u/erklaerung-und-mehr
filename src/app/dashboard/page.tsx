@@ -40,6 +40,8 @@ export default function DashboardPage() {
   const [confirmNewPassword, setConfirmNewPassword] = useState('');
   const [passwordError, setPasswordError] = useState('');
   const [passwordLoading, setPasswordLoading] = useState(false);
+  const [resetEmailSent, setResetEmailSent] = useState(false);
+  const [resetEmailLoading, setResetEmailLoading] = useState(false);
 
   // Rename class state
   const [showRenameModal, setShowRenameModal] = useState(false);
@@ -81,6 +83,12 @@ export default function DashboardPage() {
 
   // Check auth
   useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const params = new URLSearchParams(window.location.search);
+      if (params.get('password') === '1') {
+        setShowPasswordModal(true);
+      }
+    }
     fetch('/api/auth/me')
       .then((r) => r.json())
       .then((data) => {
@@ -416,13 +424,14 @@ export default function DashboardPage() {
               onClick={() => {
                 setShowPasswordModal(true);
                 setPasswordError('');
+                setResetEmailSent(false);
                 setCurrentPassword('');
                 setNewPassword('');
                 setConfirmNewPassword('');
               }}
               style={{ fontSize: 13, padding: '7px 14px' }}
             >
-              Passwort ändern
+              Passwort ändern / zurücksetzen
             </button>
           </div>
         </div>
@@ -982,10 +991,10 @@ export default function DashboardPage() {
 
               <div className="login-modal-body" style={{ padding: '28px 26px 24px' }}>
                 <h2 className="login-modal-title" style={{ fontSize: 20, marginBottom: 6 }}>
-                  Passwort ändern
+                  Passwort ändern / zurücksetzen
                 </h2>
                 <p className="login-modal-subtitle" style={{ fontSize: 13, marginBottom: 20 }}>
-                  Gib dein bisheriges Passwort und ein neues Passwort ein.
+                  Gib dein bisheriges Passwort und ein neues Passwort ein – oder fordere einen Zurücksetzen-Link per E-Mail an.
                 </p>
 
                 {passwordError && (
@@ -1056,6 +1065,65 @@ export default function DashboardPage() {
                     </button>
                   </div>
                 </form>
+
+                {teacherEmail && (
+                  <div
+                    style={{
+                      marginTop: 20,
+                      paddingTop: 16,
+                      borderTop: '1px solid var(--border-light)',
+                      fontSize: 13,
+                    }}
+                  >
+                    {resetEmailSent ? (
+                      <div
+                        style={{
+                          background: '#e6f4d7',
+                          color: '#2e6b0e',
+                          border: '1px solid #c3e6a4',
+                          borderRadius: 6,
+                          padding: '10px 12px',
+                          fontSize: 13,
+                        }}
+                      >
+                        ✓ Wir haben einen Link zum Zurücksetzen des Passworts an <strong>{teacherEmail}</strong> gesendet.
+                      </div>
+                    ) : (
+                      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 10, flexWrap: 'wrap' }}>
+                        <span style={{ color: 'var(--text-muted)' }}>Aktuelles Passwort nicht mehr bekannt?</span>
+                        <button
+                          type="button"
+                          className="login-link-btn"
+                          disabled={resetEmailLoading}
+                          onClick={async () => {
+                            setResetEmailLoading(true);
+                            setPasswordError('');
+                            try {
+                              const res = await fetch('/api/auth/password-reset/request', {
+                                method: 'POST',
+                                headers: { 'Content-Type': 'application/json' },
+                                body: JSON.stringify({ identifier: teacherEmail }),
+                              });
+                              const data = await res.json();
+                              if (data.ok) {
+                                setResetEmailSent(true);
+                              } else {
+                                setPasswordError(data.error || 'Fehler beim Senden der E-Mail.');
+                              }
+                            } catch {
+                              setPasswordError('Netzwerkfehler beim Senden der E-Mail.');
+                            } finally {
+                              setResetEmailLoading(false);
+                            }
+                          }}
+                          style={{ fontWeight: 600 }}
+                        >
+                          {resetEmailLoading ? 'Sende E-Mail …' : 'Zurücksetzen-Link per E-Mail senden'}
+                        </button>
+                      </div>
+                    )}
+                  </div>
+                )}
               </div>
             </div>
           </div>

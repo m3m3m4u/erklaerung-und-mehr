@@ -232,6 +232,9 @@ export default function LoginButton() {
                 <Link href="/dashboard" className="login-user-menu-item" onClick={() => setMenuOpen(false)}>
                   Mein Dashboard &amp; Klassen
                 </Link>
+                <Link href="/dashboard?password=1" className="login-user-menu-item" onClick={() => setMenuOpen(false)}>
+                  Passwort ändern / zurücksetzen
+                </Link>
               </>
             )}
 

@@ -18,7 +18,7 @@ interface LoginModalProps {
   initialStep?: 'choose' | 'teacher-login' | 'teacher-register' | 'student-login';
 }
 
-type Step = 'choose' | 'teacher-login' | 'teacher-register' | 'student-login';
+type Step = 'choose' | 'teacher-login' | 'teacher-register' | 'teacher-forgot' | 'student-login';
 
 export default function LoginModal({ isOpen, onClose, onLoginSuccess, initialStep }: LoginModalProps) {
   const router = useRouter();
@@ -27,6 +27,8 @@ export default function LoginModal({ isOpen, onClose, onLoginSuccess, initialSte
   const [password, setPassword] = useState('');
   const [code, setCode] = useState('');
   const [error, setError] = useState('');
+  const [forgotStatus, setForgotStatus] = useState('');
+  const [devLinks, setDevLinks] = useState<string[]>([]);
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
@@ -41,6 +43,8 @@ export default function LoginModal({ isOpen, onClose, onLoginSuccess, initialSte
     setPassword('');
     setCode('');
     setError('');
+    setForgotStatus('');
+    setDevLinks([]);
     setLoading(false);
   }, [initialStep]);
 
@@ -186,7 +190,22 @@ export default function LoginModal({ isOpen, onClose, onLoginSuccess, initialSte
                 />
               </label>
               <label className="login-label">
-                Passwort
+                <span style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                  <span>Passwort</span>
+                  <button
+                    type="button"
+                    className="login-link-btn"
+                    style={{ fontSize: 12, fontWeight: 500 }}
+                    onClick={() => {
+                      setStep('teacher-forgot');
+                      setError('');
+                      setForgotStatus('');
+                      setDevLinks([]);
+                    }}
+                  >
+                    Passwort vergessen?
+                  </button>
+                </span>
                 <input
                   type="password"
                   className="login-input"
@@ -210,6 +229,113 @@ export default function LoginModal({ isOpen, onClose, onLoginSuccess, initialSte
                 Jetzt registrieren
               </button>
             </p>
+          </div>
+        )}
+
+        {/* STEP: Teacher Forgot Password */}
+        {step === 'teacher-forgot' && (
+          <div className="login-modal-body">
+            <button
+              className="login-back-btn"
+              onClick={() => {
+                setStep('teacher-login');
+                setError('');
+                setForgotStatus('');
+                setDevLinks([]);
+              }}
+            >
+              ← Zurück zum Login
+            </button>
+            <h2 className="login-modal-title">Passwort zurücksetzen</h2>
+            <p className="login-modal-subtitle" style={{ marginBottom: 16 }}>
+              Gib deine E-Mail-Adresse ein und wir senden dir einen Link zum Zurücksetzen deines Passworts.
+            </p>
+            <form
+              onSubmit={async (e) => {
+                e.preventDefault();
+                setError('');
+                setForgotStatus('');
+                setDevLinks([]);
+                setLoading(true);
+                try {
+                  const res = await fetch('/api/auth/password-reset/request', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ identifier: email }),
+                  });
+                  const data = await res.json();
+                  if (data.ok) {
+                    setForgotStatus(
+                      'Falls deine E-Mail-Adresse existiert, haben wir dir einen Link zum Zurücksetzen deines Passworts gesendet. Bitte überprüfe dein Postfach.'
+                    );
+                    if (data.resetLinks && Array.isArray(data.resetLinks)) {
+                      setDevLinks(data.resetLinks);
+                    }
+                  } else {
+                    setError(data.error || 'Ein Fehler ist aufgetreten.');
+                  }
+                } catch {
+                  setError('Netzwerkfehler. Bitte erneut versuchen.');
+                } finally {
+                  setLoading(false);
+                }
+              }}
+              className="login-form"
+            >
+              <label className="login-label">
+                E-Mail-Adresse
+                <input
+                  type="email"
+                  className="login-input"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  required
+                  autoFocus
+                  placeholder="ihre@email.at"
+                  autoCapitalize="none"
+                  autoCorrect="off"
+                />
+              </label>
+              {error && <p className="login-error">{error}</p>}
+              {forgotStatus && (
+                <div
+                  style={{
+                    background: '#e6f4d7',
+                    color: '#2e6b0e',
+                    border: '1px solid #c3e6a4',
+                    borderRadius: 6,
+                    padding: '10px 12px',
+                    fontSize: 13,
+                    lineHeight: 1.45,
+                  }}
+                >
+                  {forgotStatus}
+                </div>
+              )}
+              {devLinks.length > 0 && (
+                <div
+                  style={{
+                    padding: '10px 12px',
+                    background: '#fff8e1',
+                    border: '1px solid #ffe082',
+                    borderRadius: 6,
+                    fontSize: 12,
+                  }}
+                >
+                  <strong style={{ color: '#856404' }}>Dev-Modus:</strong>
+                  {devLinks.map((link, idx) => (
+                    <div key={idx} style={{ marginTop: 4 }}>
+                      <a href={link} style={{ color: 'var(--green-dark)', wordBreak: 'break-all', textDecoration: 'underline' }}>
+                        {link}
+                      </a>
+                    </div>
+                  ))}
+                </div>
+              )}
+              <button type="submit" className="login-submit-btn" disabled={loading}>
+                {loading ? 'Wird gesendet …' : 'Link anfordern'}
+              </button>
+            </form>
           </div>
         )}
 
