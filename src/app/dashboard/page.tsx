@@ -6,6 +6,7 @@ import { useRouter } from 'next/navigation';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ConfirmModal from '@/components/ConfirmModal';
+import TeacherTipBanner from '@/components/TeacherTipBanner';
 
 interface Student {
   id: string;
@@ -462,6 +463,9 @@ export default function DashboardPage() {
             </button>
           </div>
         )}
+
+        {/* Rotierender, unaufdringlicher Tipp für Lehrkräfte (KI-Schulgenie Affiliate & Lernarena) */}
+        <TeacherTipBanner />
 
         {/* Compact KPI Statistics Summary Bar */}
         <div

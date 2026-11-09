@@ -235,6 +235,39 @@ export default function LoginButton() {
                 <Link href="/dashboard?password=1" className="login-user-menu-item" onClick={() => setMenuOpen(false)}>
                   Passwort ändern / zurücksetzen
                 </Link>
+                <div style={{ margin: '6px 0', borderTop: '1px solid var(--border-light)' }} />
+                <div style={{ padding: '4px 16px', fontSize: 10, fontWeight: 700, color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: '0.5px' }}>
+                  Tools für Lehrkräfte
+                </div>
+                <a
+                  href="https://lernarena.org"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="login-user-menu-item"
+                  onClick={() => setMenuOpen(false)}
+                  style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 8 }}
+                >
+                  <span>Lernarena.org</span>
+                  <span style={{ fontSize: 10, color: 'var(--text-muted)', background: '#f0f4ec', padding: '1px 6px', borderRadius: 4, whiteSpace: 'nowrap' }}>
+                    Onlinekurse
+                  </span>
+                </a>
+                <a
+                  href="https://kischulgenie.com/erklaerungundmehr?via=eum"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="login-user-menu-item"
+                  onClick={() => setMenuOpen(false)}
+                  style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 8 }}
+                  title="KI-Schulgenie – Spare 10 % mit Gutscheincode erklaerung10 (Partnerangebot)"
+                >
+                  <span style={{ display: 'inline-flex', alignItems: 'center', gap: 6 }}>
+                    KI-Schulgenie
+                  </span>
+                  <span style={{ fontSize: 10, color: '#2e6b0e', background: '#eaf4e2', fontWeight: 700, padding: '1px 6px', borderRadius: 4, whiteSpace: 'nowrap', border: '1px solid #c8e4b4' }}>
+                    -10% Code
+                  </span>
+                </a>
               </>
             )}
 

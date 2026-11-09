@@ -4,6 +4,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import VoucherCopyButton from '@/components/VoucherCopyButton';
 
 export const metadata: Metadata = {
   title: 'KI-Schulgenie – KI-Tools für Lehrkräfte & Unterricht',
@@ -116,20 +117,22 @@ export default function KiSchulgeniePage() {
         <section className="info-box-section" style={{ marginTop: '24px' }}>
           <h3>Gutscheincode und Registrierung</h3>
           <p>
-            Mit dem Gutscheincode <strong>erklaerung10</strong> erhalten Nutzer bei der Registrierung einen Rabatt von <strong>10 %</strong>.
+            Mit unserem Partner-Gutscheincode sparst du dauerhaft <strong>10 %</strong> auf alle Tarife von KI-Schulgenie:
           </p>
-          <div style={{ marginTop: '16px' }}>
+          <VoucherCopyButton code="erklaerung10" label="Code kopieren" />
+          <div style={{ marginTop: '12px' }}>
             <a
               href={partnerLink}
               target="_blank"
               rel="noopener noreferrer"
               className="button-link"
+              style={{ display: 'inline-block' }}
             >
-              Hier zum KI-Schulgenie (14 Tage kostenlos testen)*
+              Hier zum KI-Schulgenie (14 Tage kostenlos testen &amp; 10 % Rabatt sichern)* ↗
             </a>
           </div>
           <p style={{ marginTop: '14px', fontSize: '12px', color: 'var(--text-muted)', lineHeight: 1.4 }}>
-            * Hinweis: Bei diesem Link handelt es sich um einen Affiliate-Link / Partnerlink. Wenn du dich über diesen Link registrierst, erhalten wir eine kleine Provision zur Unterstützung unserer Plattform. Für dich entstehen dabei keine zusätzlichen Kosten – mit dem Code „erklaerung10“ sparst du 10 %.
+            * Hinweis: Bei diesem Link handelt es sich um einen Affiliate-Link / Partnerlink. Wenn du dich über diesen Link registrierst, erhalten wir eine kleine Provision zur Unterstützung unserer Server- und Entwicklungskosten. Für dich entstehen dabei keinerlei Mehrkosten – mit dem Code „erklaerung10“ sparst du 10 %.
           </p>
         </section>
       </main>
