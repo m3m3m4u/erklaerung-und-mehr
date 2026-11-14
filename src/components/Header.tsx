@@ -79,6 +79,7 @@ const megaMenuColumns: MenuColumn[] = [
           { title: 'Mathematik', href: '/mathematik' },
           { title: 'Informatik', href: '/informatik' },
           { title: 'Medien', href: '/medien' },
+          { title: 'Buchtipps für Lehrkräfte', href: '/buchtipps' },
         ],
       },
       {

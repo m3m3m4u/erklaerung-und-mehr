@@ -9,6 +9,13 @@ const nextConfig: NextConfig = {
     'localhost',
     '127.0.0.1',
   ],
+  images: {
+    remotePatterns: [
+      { protocol: 'https', hostname: 'covers.openlibrary.org' },
+      { protocol: 'https', hostname: 'images-na.ssl-images-amazon.com' },
+      { protocol: 'https', hostname: 'm.media-amazon.com' },
+    ],
+  },
   async headers() {
     return [
       {

@@ -189,6 +189,43 @@ export default function Home() {
               </div>
             </div>
           </div>
+
+          <div className="banner-card">
+            <div className="banner-inner">
+              <Link
+                href="/buchtipps"
+                className="banner-img-wrapper"
+              >
+                <Image
+                  src="/images/buchtippsup.png"
+                  alt="Buchtipps für Lehrkräfte"
+                  width={85}
+                  height={85}
+                  className="banner-img"
+                  style={{ objectFit: 'contain' }}
+                />
+              </Link>
+              <div className="banner-text">
+                <h3>
+                  <Link href="/buchtipps" style={{ textDecoration: 'none', color: 'inherit' }}>
+                    Buchtipps: Digitales Lernen &amp; KI
+                  </Link>
+                </h3>
+                <p>
+                  Kuratierte Buchempfehlungen &amp; Praxistipps für Lehrkräfte.
+                </p>
+                <p style={{ fontSize: '11px', color: 'var(--text-muted)', margin: '4px 0 10px 0' }}>
+                  (Fachbücher &amp; Unterrichtspraxis)
+                </p>
+                <Link
+                  href="/buchtipps"
+                  className="button-link"
+                >
+                  Bücher ansehen
+                </Link>
+              </div>
+            </div>
+          </div>
         </section>
 
         {/* Info-Banner für Lehrpersonen & Schulklassen */}

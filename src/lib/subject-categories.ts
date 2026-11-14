@@ -184,6 +184,12 @@ export const subjectCategories: CategorySection[] = [
         link: '/medien',
         keywords: ['medien', 'zeitung', 'fernsehen', 'social media', 'nachrichten', 'werbung'],
       },
+      {
+        title: 'Buchtipps',
+        image: '/images/buchtippsup.png',
+        link: '/buchtipps',
+        keywords: ['buchtipps', 'bücher', 'buchempfehlungen', 'lesen', 'lehrkräfte', 'pädagogik', 'digitales lernen', 'medienerziehung', 'ki', 'fachbücher', 'schulbücher'],
+      },
     ],
   },
   {

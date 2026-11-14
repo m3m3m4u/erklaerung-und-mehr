@@ -35,6 +35,7 @@ export default function Footer({ activePath }: FooterProps) {
           </a>
         </div>
         <div className="footer-links">
+          <Link href="/buchtipps">Buchtipps</Link>
           <Link href="/datenschutz">Datenschutz</Link>
           <Link href="/impressum">Impressum</Link>
           <button
