@@ -1,5 +1,6 @@
 import type { MetadataRoute } from 'next';
 import { allSubjectDatasets } from '@/lib/exercise-catalog';
+import { getAllBuchTipps } from '@/lib/buchtipps/data';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://erklaerung-und-mehr.org';
@@ -17,6 +18,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified,
       changeFrequency: 'monthly',
       priority: 0.5,
+    },
+    {
+      url: `${baseUrl}/buchtipps`,
+      lastModified,
+      changeFrequency: 'weekly',
+      priority: 0.85,
     },
     {
       url: `${baseUrl}/impressum`,
@@ -60,6 +67,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
           priority: 0.8,
         });
       }
+    }
+  }
+
+  // Buchtipps Detailseiten
+  for (const book of getAllBuchTipps()) {
+    const bookUrl = `${baseUrl}/buchtipps/${book.id}`;
+    if (!seenUrls.has(bookUrl)) {
+      seenUrls.add(bookUrl);
+      routes.push({
+        url: bookUrl,
+        lastModified,
+        changeFrequency: 'monthly',
+        priority: 0.75,
+      });
     }
   }
 

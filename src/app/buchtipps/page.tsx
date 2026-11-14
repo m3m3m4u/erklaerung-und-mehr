@@ -5,6 +5,7 @@ import Image from 'next/image';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import BuchtippsExplorer from '@/components/buchtipps/BuchtippsExplorer';
+import { getAllBuchTipps } from '@/lib/buchtipps/data';
 
 export const metadata: Metadata = {
   title: 'Buchtipps: Digitales Lernen, KI & Medienerziehung für Lehrkräfte',
@@ -40,8 +41,58 @@ export const metadata: Metadata = {
 };
 
 export default function BuchtippsPage() {
+  const books = getAllBuchTipps();
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://erklaerung-und-mehr.org';
+
+  const breadcrumbsJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'Startseite',
+        item: baseUrl,
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: 'Buchtipps',
+        item: `${baseUrl}/buchtipps`,
+      },
+    ],
+  };
+
+  const collectionJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: 'Buchtipps: Digitales Lernen & Medienerziehung für Lehrkräfte',
+    description:
+      'Kuratierte Buchempfehlungen für Lehrkräfte, Schulleitungen und Pädagogen zu digitaler Bildung, KI im Unterricht und Medienerziehung.',
+    url: `${baseUrl}/buchtipps`,
+    inLanguage: 'de-AT',
+    mainEntity: {
+      '@type': 'ItemList',
+      numberOfItems: books.length,
+      itemListElement: books.map((b, idx) => ({
+        '@type': 'ListItem',
+        position: idx + 1,
+        url: `${baseUrl}/buchtipps/${b.id}`,
+        name: b.title,
+      })),
+    },
+  };
+
   return (
     <div className="site-wrapper">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbsJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionJsonLd) }}
+      />
       <Header activePath="/buchtipps" />
 
       <main className="content-container">

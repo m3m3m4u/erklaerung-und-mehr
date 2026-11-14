@@ -23,9 +23,13 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   if (!book) {
     return { title: 'Buch nicht gefunden | Erklärung und mehr' };
   }
+  const asin = isbn13ToIsbn10(book.isbn) || book.isbn;
+  const coverUrl = `https://images-na.ssl-images-amazon.com/images/P/${asin}.01.LZZZZZZZ.jpg`;
+
   return {
     title: `${book.title} – Buchtipp für Lehrkräfte`,
     description: book.subtitle || book.summary.slice(0, 160),
+    keywords: [...book.topics, 'Buchtipp', 'Lehrkräfte', 'Unterricht', 'Schule', book.authorName],
     alternates: {
       canonical: `/buchtipps/${book.id}`,
     },
@@ -35,7 +39,19 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       url: `/buchtipps/${book.id}`,
       siteName: 'Erklärung und mehr',
       locale: 'de_AT',
-      type: 'article',
+      type: 'book',
+      images: [
+        {
+          url: coverUrl,
+          alt: `Cover von ${book.title}`,
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${book.title} – Buchtipp für Lehrkräfte`,
+      description: book.subtitle || book.summary.slice(0, 160),
+      images: [coverUrl],
     },
   };
 }
@@ -57,8 +73,67 @@ export default async function BuchtippDetailPage({ params }: PageProps) {
     .filter((b) => b.id !== book.id)
     .slice(0, 2);
 
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://erklaerung-und-mehr.org';
+
+  const breadcrumbsJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'Startseite',
+        item: baseUrl,
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: 'Buchtipps',
+        item: `${baseUrl}/buchtipps`,
+      },
+      {
+        '@type': 'ListItem',
+        position: 3,
+        name: book.title,
+        item: `${baseUrl}/buchtipps/${book.id}`,
+      },
+    ],
+  };
+
+  const bookJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Book',
+    name: book.title,
+    headline: book.subtitle || book.title,
+    author: {
+      '@type': 'Person',
+      name: book.authorName,
+    },
+    isbn: book.isbn,
+    inLanguage: 'de',
+    publisher: {
+      '@type': 'Organization',
+      name: book.publisher || 'Fachbuch',
+    },
+    datePublished: book.publishYear ? String(book.publishYear) : undefined,
+    numberOfPages: book.pages,
+    description: book.summary.slice(0, 300),
+    image: coverUrl,
+    url: `${baseUrl}/buchtipps/${book.id}`,
+    genre: book.category,
+    keywords: book.topics.join(', '),
+  };
+
   return (
     <div className="site-wrapper">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbsJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(bookJsonLd) }}
+      />
       <Header activePath="/buchtipps" />
 
       <main className="content-container" style={{ maxWidth: '960px' }}>
