@@ -189,42 +189,58 @@ export default function Home() {
               </div>
             </div>
           </div>
+        </section>
 
-          <div className="banner-card">
-            <div className="banner-inner">
-              <Link
-                href="/buchtipps"
-                className="banner-img-wrapper"
-              >
-                <Image
-                  src="/images/buchtippsup.png"
-                  alt="Buchtipps für Lehrkräfte"
-                  width={85}
-                  height={85}
-                  className="banner-img"
-                  style={{ objectFit: 'contain' }}
-                />
-              </Link>
-              <div className="banner-text">
-                <h3>
-                  <Link href="/buchtipps" style={{ textDecoration: 'none', color: 'inherit' }}>
-                    Buchtipps: Digitales Lernen &amp; KI
-                  </Link>
-                </h3>
-                <p>
-                  Kuratierte Buchempfehlungen &amp; Praxistipps für Lehrkräfte.
-                </p>
-                <p style={{ fontSize: '11px', color: 'var(--text-muted)', margin: '4px 0 10px 0' }}>
-                  (Fachbücher &amp; Unterrichtspraxis)
-                </p>
-                <Link
-                  href="/buchtipps"
-                  className="button-link"
-                >
-                  Bücher ansehen
+        {/* Buchtipps Banner in eigener Zeile mit "Neu"-Badge */}
+        <section
+          className="banner-card"
+          style={{
+            marginBottom: 24,
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'space-between',
+            gap: 16,
+            flexWrap: 'wrap',
+          }}
+        >
+          <div style={{ display: 'flex', alignItems: 'center', gap: 14, flex: '1 1 340px' }}>
+            <span
+              style={{
+                background: 'var(--green-primary)',
+                color: '#ffffff',
+                fontSize: 12,
+                fontWeight: 700,
+                textTransform: 'uppercase',
+                letterSpacing: '0.8px',
+                padding: '6px 12px',
+                borderRadius: 4,
+                display: 'inline-flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                flexShrink: 0,
+              }}
+            >
+              Neu
+            </span>
+            <div className="banner-text">
+              <h3 style={{ margin: '0 0 4px 0', fontSize: 16 }}>
+                <Link href="/buchtipps" style={{ textDecoration: 'none', color: 'inherit' }}>
+                  Buchtipps für Lehrkräfte: Digitales Lernen, KI &amp; Medienerziehung
                 </Link>
-              </div>
+              </h3>
+              <p style={{ margin: 0, fontSize: 13, color: 'var(--text-color)', lineHeight: 1.45 }}>
+                Kuratierte Buchempfehlungen &amp; Praxistipps zu KI im Unterricht, Klassen-Chat-Prävention, gesunder Bildschirmnutzung und zeitgemäßer Prüfungskultur.
+              </p>
             </div>
+          </div>
+          <div style={{ flexShrink: 0 }}>
+            <Link
+              href="/buchtipps"
+              className="button-link"
+              style={{ whiteSpace: 'nowrap' }}
+            >
+              Bücher ansehen
+            </Link>
           </div>
         </section>
 
