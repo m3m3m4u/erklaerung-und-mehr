@@ -11,7 +11,7 @@ const FOURTEEN_DAYS_MS = 14 * 24 * 60 * 60 * 1000;
 export default function TeacherTipBanner() {
   const [mounted, setMounted] = useState(false);
   const [isDismissed, setIsDismissed] = useState(false);
-  const [activeTab, setActiveTab] = useState<'kischulgenie' | 'lernarena'>('kischulgenie');
+  const [activeTab, setActiveTab] = useState<'kischulgenie' | 'lernarena' | 'buchtipps'>('kischulgenie');
   const [codeCopied, setCodeCopied] = useState(false);
 
   useEffect(() => {
@@ -23,7 +23,7 @@ export default function TeacherTipBanner() {
       }
 
       const savedTab = localStorage.getItem(ACTIVE_TIP_KEY);
-      if (savedTab === 'lernarena' || savedTab === 'kischulgenie') {
+      if (savedTab === 'lernarena' || savedTab === 'kischulgenie' || savedTab === 'buchtipps') {
         setActiveTab(savedTab);
       }
     } catch {
@@ -40,7 +40,7 @@ export default function TeacherTipBanner() {
     }
   };
 
-  const handleSelectTab = (tab: 'kischulgenie' | 'lernarena') => {
+  const handleSelectTab = (tab: 'kischulgenie' | 'lernarena' | 'buchtipps') => {
     setActiveTab(tab);
     try {
       localStorage.setItem(ACTIVE_TIP_KEY, tab);
@@ -148,6 +148,24 @@ export default function TeacherTipBanner() {
               }}
             >
               Lernarena.org
+            </button>
+            <button
+              type="button"
+              onClick={() => handleSelectTab('buchtipps')}
+              style={{
+                border: 'none',
+                background: activeTab === 'buchtipps' ? '#ffffff' : 'transparent',
+                color: activeTab === 'buchtipps' ? '#1f4f09' : '#556644',
+                fontWeight: activeTab === 'buchtipps' ? 700 : 500,
+                fontSize: 12,
+                padding: '4px 10px',
+                borderRadius: 4,
+                cursor: 'pointer',
+                boxShadow: activeTab === 'buchtipps' ? '0 1px 3px rgba(0,0,0,0.1)' : 'none',
+                transition: 'all 0.15s ease',
+              }}
+            >
+              Buchtipps (Neu)
             </button>
           </div>
         </div>
@@ -348,6 +366,74 @@ export default function TeacherTipBanner() {
             >
               <span>Zu Lernarena.org ↗</span>
             </a>
+          </div>
+        </div>
+      )}
+
+      {/* TAB 3: Buchtipps */}
+      {activeTab === 'buchtipps' && (
+        <div
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'space-between',
+            flexWrap: 'wrap',
+            gap: 16,
+          }}
+        >
+          <div style={{ display: 'flex', alignItems: 'center', gap: 14, flex: '1 1 360px' }}>
+            <div
+              style={{
+                width: 50,
+                height: 50,
+                borderRadius: 8,
+                background: '#ffffff',
+                border: '1.5px solid #c2dfae',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                fontSize: 24,
+                flexShrink: 0,
+              }}
+            >
+              📚
+            </div>
+            <div>
+              <h3 style={{ margin: '0 0 4px 0', fontSize: 15, color: '#1f4f09', fontWeight: 700 }}>
+                Kuratierte Buchempfehlungen &amp; Praxistipps für Lehrkräfte
+              </h3>
+              <p style={{ margin: 0, fontSize: 13, color: '#445533', lineHeight: 1.45 }}>
+                Entdecke lesenswerte Fachliteratur zu <strong>KI im Unterricht</strong>, <strong>Klassen-Chat-Prävention</strong>, gesunder <strong>Bildschirmzeit</strong> und neuen Prüfungskulturen.
+              </p>
+              <div style={{ marginTop: 4, fontSize: 11, color: '#778866' }}>
+                Mit Praxistipps, Zusammenfassungen &bull;{' '}
+                <Link href="/buchtipps" style={{ color: '#2e6b0e', textDecoration: 'underline' }}>
+                  Alle 17 Buchtipps ansehen
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <Link
+              href="/buchtipps"
+              style={{
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: 6,
+                background: '#2e6b0e',
+                color: '#ffffff',
+                textDecoration: 'none',
+                fontWeight: 700,
+                fontSize: 13,
+                padding: '9px 16px',
+                borderRadius: 6,
+                boxShadow: '0 2px 6px rgba(46, 107, 14, 0.25)',
+                whiteSpace: 'nowrap',
+              }}
+            >
+              <span>Zu den Buchtipps ➔</span>
+            </Link>
           </div>
         </div>
       )}

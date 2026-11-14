@@ -103,6 +103,7 @@ export default function TeacherBuchtippsModal() {
         onClick={(e) => e.stopPropagation()}
         style={{
           maxWidth: 520,
+          width: '100%',
           border: '2px solid var(--green-primary)',
           borderRadius: 12,
           padding: 0,
