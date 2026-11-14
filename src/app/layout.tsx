@@ -5,6 +5,7 @@ import 'katex/dist/katex.min.css';
 import { Suspense } from 'react';
 import CookieBanner from '@/components/CookieBanner';
 import AnalyticsTracker from '@/components/AnalyticsTracker';
+import TeacherBuchtippsModal from '@/components/TeacherBuchtippsModal';
 
 const questrial = Questrial({
   weight: '400',
@@ -151,6 +152,7 @@ export default function RootLayout({
         </Suspense>
         {children}
         <CookieBanner />
+        <TeacherBuchtippsModal />
       </body>
     </html>
   );
