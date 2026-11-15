@@ -1,0 +1,35 @@
+# Erklärung und mehr – Kostenlose Lernplattform für Schule & Unterricht
+
+> Erklärung und mehr (https://erklaerung-und-mehr.org) ist eine kostenlose, werbefreie Bildungsplattform für Schüler:innen, Lehrkräfte und Schulen im deutschsprachigen Raum (Österreich, Deutschland, Schweiz). Sie bietet über 7.700 interaktive H5P-Lernübungen, strukturierte Erklärvideos, Merksätze und Arbeitsblätter in über 25 Schulfächern.
+
+## Kerninformationen
+- **Website**: https://erklaerung-und-mehr.org
+- **Zielgruppe**: Schüler:innen (Primarstufe, Sekundarstufe 1 & 2), Lehrkräfte, Schulleitungen, Eltern
+- **Geografischer Fokus**: DACH-Region (Österreich, Deutschland, Schweiz)
+- **Lehrplanbezug**: Orientiert an den österreichischen Lehrplänen (Volksschule, Mittelschule, AHS), deutschen KMK-Bildungsstandards und dem Schweizer Lehrplan 21
+- **Kosten**: Vollständig kostenlos und werbefrei nutzbar – ohne Registrierungspflicht
+- **Urheber & Betreiber**: Matthias Gmeiner e.U. und Thomas Felzmann
+
+## Hauptangebote
+
+### 1. Interaktive Schulfächer (über 7.700 Übungen)
+- **Mathematik**: Grundrechenarten, Bruchrechnen, Geometrie, Prozentrechnung, Gleichungen, Funktionen
+- **Deutsch**: Rechtschreibung, Grammatik, Zeichensetzung, Wortarten, Textverständnis
+- **Fremdsprachen**: Englisch, Französisch, Spanisch (Vokabeln, Grammatik, Hörverstehen)
+- **Naturwissenschaften**: Biologie (Ökologie, Genetik, Anatomie), Physik (Mechanik, Elektrizitätslehre, Optik), Chemie (Periodensystem, Bindungen)
+- **Geistes- & Sozialwissenschaften**: Geschichte, Geographie & Wirtschaftskunde, Politik, Philosophie, Psychologie
+- **Informatik & Medien**: Grundlagen der Informatik, Internetsicherheit, Medienerziehung, Digitale Grundbildung
+- **Weitere Fächer**: Musik, Kunst, Sachunterricht, Religion, Ethik, Ernährung, Technik, Verkehr & Umwelt
+
+### 2. Buchtipps für Lehrkräfte
+- [Buchtipps](https://erklaerung-und-mehr.org/buchtipps): Kuratierte Buchempfehlungen zu KI im Unterricht, digitalem Lernen, Klassen-Chats, gesunder Bildschirmnutzung und zeitgemäßer Prüfungskultur.
+
+### 3. Didaktisches Konzept
+- Sofortige Selbstkontrolle durch interaktive H5P-Module
+- Kombination aus visuellen Erklärvideos und strukturierten Merksätzen
+- Differenziertes Üben im eigenen Tempo für Schule und Nachhilfe zu Hause
+
+### 4. Rechtliches & Kontakt
+- [Impressum](https://erklaerung-und-mehr.org/impressum)
+- [Datenschutzerklärung](https://erklaerung-und-mehr.org/datenschutz)
+- Kontakt: m3m3m4u@gmail.com

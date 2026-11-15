@@ -51,6 +51,12 @@ export const metadata: Metadata = {
   publisher: 'Matthias Gmeiner e.U.',
   alternates: {
     canonical: '/',
+    languages: {
+      'de-AT': 'https://erklaerung-und-mehr.org',
+      'de-DE': 'https://erklaerung-und-mehr.org',
+      'de-CH': 'https://erklaerung-und-mehr.org',
+      'de': 'https://erklaerung-und-mehr.org',
+    },
   },
   openGraph: {
     title: 'Erklärung und mehr – Kostenlose Lernplattform für Schule & Unterricht',
@@ -59,6 +65,7 @@ export const metadata: Metadata = {
     url: '/',
     siteName: 'Erklärung und mehr',
     locale: 'de_AT',
+    alternateLocale: ['de_DE', 'de_CH'],
     type: 'website',
     images: [
       {
@@ -109,11 +116,31 @@ const organizationJsonLd = {
   url: 'https://erklaerung-und-mehr.org',
   logo: 'https://erklaerung-und-mehr.org/icon.png',
   description:
-    'Kostenlose digitale Lehr- und Lernmaterialien, Erklärvideos und interaktive H5P-Übungen für Schule und Unterricht.',
+    'Kostenlose digitale Lehr- und Lernmaterialien, Erklärvideos und interaktive H5P-Übungen für Schule und Unterricht im DACH-Raum.',
   founder: [
     { '@type': 'Person', name: 'Matthias Gmeiner' },
     { '@type': 'Person', name: 'Thomas Felzmann' },
   ],
+  areaServed: [
+    { '@type': 'Country', name: 'Austria', identifier: 'AT' },
+    { '@type': 'Country', name: 'Germany', identifier: 'DE' },
+    { '@type': 'Country', name: 'Switzerland', identifier: 'CH' },
+  ],
+  knowsAbout: [
+    'Mathematik',
+    'Deutsch',
+    'Biologie',
+    'Physik',
+    'Chemie',
+    'Informatik',
+    'Geographie',
+    'Geschichte',
+    'H5P Übungen',
+    'Digitale Grundbildung',
+    'Österreichischer Lehrplan',
+    'KMK Bildungsstandards',
+  ],
+  isAccessibleForFree: true,
   sameAs: [
     'https://eduki.com/de/autor/1430402/erklaerung-und-mehr-org',
     'https://thomasfelzmann.at/',
@@ -126,6 +153,14 @@ const websiteJsonLd = {
   name: 'Erklärung und mehr',
   url: 'https://erklaerung-und-mehr.org',
   inLanguage: 'de-AT',
+  potentialAction: {
+    '@type': 'SearchAction',
+    target: {
+      '@type': 'EntryPoint',
+      urlTemplate: 'https://erklaerung-und-mehr.org/mathematik?q={search_term_string}',
+    },
+    'query-input': 'required name=search_term_string',
+  },
 };
 
 export default function RootLayout({
@@ -137,6 +172,10 @@ export default function RootLayout({
     <html lang="de" className={questrial.variable}>
       <head>
         <meta name="referrer" content="strict-origin-when-cross-origin" />
+        {/* Geo-Targeting: DACH-Region (Österreich, Deutschland, Schweiz) */}
+        <meta name="geo.region" content="AT;DE;CH" />
+        <meta name="geo.placename" content="Österreich; Deutschland; Schweiz" />
+        <meta name="target" content="all" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}

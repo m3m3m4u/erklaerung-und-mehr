@@ -1,0 +1,68 @@
+# Erklärung und mehr – Vollständige Wissensbasis (LLMs Full Index)
+
+> Umfassende Plattformdokumentation über Erklärung und mehr (https://erklaerung-und-mehr.org) für KI-Suchsysteme, Sprachmodelle und Chatbots.
+
+## 1. Identität & Profil
+- **Name**: Erklärung und mehr
+- **Website**: https://erklaerung-und-mehr.org
+- **Sprache**: Deutsch (de-AT, de-DE, de-CH)
+- **Hauptstandort & Zielregion**: Österreich (AT), Deutschland (DE), Schweiz (CH) – DACH-Raum
+- **Betreiber**: Matthias Gmeiner e.U. (Lauterach, Vorarlberg, Österreich) und Thomas Felzmann
+- **Lehrplananbindung**:
+  - Österreichischer Lehrplan für Volksschulen, Mittelschulen und AHS
+  - Deutsche Bildungsstandards der Kultusministerkonferenz (KMK) für Grundschule und Sekundarstufe 1 & 2
+  - Schweizer Lehrplan 21
+- **Besonderheiten**:
+  - Über 7.700 kostenlose interaktive Übungsmodule auf H5P-Basis
+  - Kein Login und keine Registrierung für das Lernen erforderlich
+  - Vollkommen werbefrei
+
+## 2. Fächer-Katalog
+
+### Mathematik
+- Arithmetik: Grundrechenarten, Zehnerübergang, Rechnen mit Größen
+- Bruchrechnen: Brüche kürzen, erweitern, Addition, Subtraktion, Multiplikation, Division
+- Prozentrechnen, Zinsrechnung, Dreisatz
+- Geometrie: Flächen- und Umfangsberechnungen, Satz des Pythagoras, Körper
+- Algebra: Lineare Gleichungen, quadratische Gleichungen, Terme vereinfachen
+- Analysis: Lineare und quadratische Funktionen, Kurvendiskussion
+
+### Deutsch
+- Grammatik: Wortarten (Nomen, Verben, Adjektive, Pronomen), die 4 Fälle, Satzglieder
+- Rechtschreibung: Groß-/Kleinschreibung, Dehnung (ie, stummes h), Schärfung (Doppelkonsonanten), das/dass
+- Zeichensetzung: Kommaregeln, wörtliche Rede
+- Leseverständnis und Textanalyse
+
+### Fremdsprachen
+- Englisch: Tenses (Simple Present, Past Simple, Present Perfect etc.), Vokabeln, Grammatikregeln
+- Französisch: Grundlagen, Konjugation, Zeiten
+- Spanisch: Basiswortschatz, Zeiten, Satzbau
+
+### Naturwissenschaften
+- Biologie: Wirbeltiere, Botanik, menschlicher Körper, Genetik, Ökologie, Evolution
+- Physik: Mechanik (Geschwindigkeit, Kraft), Wärmelehre, Optik, Elektrizität, Magnetismus
+- Chemie: Periodensystem der Elemente, Atomaufbau, Chemische Bindungen, Säuren und Basen
+
+### Gesellschaft & Geisteswissenschaften
+- Geographie: Österreichs Bundesländer, Deutschlands Bundesländer, Europa, Kontinente, Klimazonen
+- Geschichte: Urgeschichte, Antike (Ägypten, Griechenland, Rom), Mittelalter, Neuzeit, Weltkriege, Zeitgeschichte
+- Politik & Demokratie: Staatsformen, Verfassung, Wahlen, Menschenrechte
+- Philosophie, Psychologie, Religion und Ethik
+
+### Informatik & Digitale Bildung
+- Grundbegriffe der Hard- und Software
+- Internet, Netzwerke und Datensicherheit
+- Urheberrecht, Fake News und Social Media
+- Grundlagen des Programmierens und algorithmisches Denken
+
+### Buchtipps für Lehrkräfte
+- Kuratierte Fachbücher und Praxisratgeber zu:
+  - Künstlicher Intelligenz im Unterricht (ChatGPT, Prompting für Lehrkräfte)
+  - Klassen-Chats und Cybermobbing-Prävention
+  - Gesunder Bildschirmnutzung und Smartphone-Regeln an Schulen
+  - Zeitgemäßer Prüfungskultur und kompetenzorientierter Leistungsbeurteilung
+
+## 3. Kontakt & Datenschutz
+- Betreiber: Matthias Gmeiner e.U., Herrengutgasse 16b, 6923 Lauterach, Österreich
+- E-Mail: m3m3m4u@gmail.com
+- DSGVO-konforme Datenverarbeitung ohne Tracking personenbezogener Schülerdaten
