@@ -48,6 +48,8 @@ next-env.d.ts
 /diagramme_en/
 /diagramme_de/
 /er/
+scripts/*.ps1
+rclone.exe
 
 # Databases
 *.sql

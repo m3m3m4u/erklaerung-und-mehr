@@ -9,27 +9,21 @@ console.log(`Found ${files.length} HTML files to inspect and patch.`);
 const oldJs = ')).g.style="position:absolute;top:0;left:0;width:100%;height:100%;"';
 const newJs = ')),(function(){var fix=function(){try{var el=(r&&r.getIframe&&r.getIframe())||document.getElementById(c);if(el&&el.style){el.style.position="absolute";el.style.top="0";el.style.left="0";el.style.width="100%";el.style.height="100%"}}catch(e){}};fix();setTimeout(fix,50);setTimeout(fix,200);setTimeout(fix,500)})()';
 
-const targetStyleRegex = /<style>\s*(\/\*[\s\S]*?\*\/)?\s*(\.h5p-slide[\s\S]*?)?iframe\[id\^="h5p-youtube-"\][\s\S]*?<\/style>/i;
+const targetStyleRegex = /<style>[\s\S]*?iframe\[id\^="h5p-youtube-"\][\s\S]*?<\/style>/i;
 
-const updatedStyleTag = `<style>
-        .h5p-slide .h5p-video > div {
+const responsiveStyleTag = `<style>
+        .h5p-slide .h5p-video,
+        .h5p-slide .h5p-video > div,
+        .h5p-slide .h5p-video div[style*="56.25%"] {
             width: 100% !important;
             height: 100% !important;
             max-width: 100% !important;
             max-height: 100% !important;
-            display: flex !important;
-            align-items: center !important;
-            justify-content: center !important;
-        }
-        .h5p-slide .h5p-video div[style*="56.25%"] {
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
             padding: 0 !important;
-            width: 780px !important;
-            height: 438px !important;
-            max-width: 100% !important;
-            max-height: 100% !important;
-            aspect-ratio: 16 / 9 !important;
-            position: relative !important;
-            margin: auto !important;
+            margin: 0 !important;
         }
         .h5p-slide iframe[id^="h5p-youtube-"] {
             position: absolute !important;
@@ -37,6 +31,7 @@ const updatedStyleTag = `<style>
             left: 0 !important;
             width: 100% !important;
             height: 100% !important;
+            border: 0 !important;
         }
     </style>`;
 
@@ -53,13 +48,13 @@ for (const file of files) {
   }
 
   if (targetStyleRegex.test(content)) {
-    content = content.replace(targetStyleRegex, updatedStyleTag);
+    content = content.replace(targetStyleRegex, responsiveStyleTag);
     changed = true;
-  } else if (!content.includes('.h5p-slide .h5p-video div[style*="56.25%"]')) {
+  } else if (!content.includes('position: absolute !important; top: 0 !important; left: 0 !important; border: 0 !important;')) {
     if (content.includes('<meta name="viewport" content="width=device-width, initial-scale=1">')) {
       content = content.replace(
         '<meta name="viewport" content="width=device-width, initial-scale=1">',
-        '<meta name="viewport" content="width=device-width, initial-scale=1">\n    ' + updatedStyleTag
+        '<meta name="viewport" content="width=device-width, initial-scale=1">\n    ' + responsiveStyleTag
       );
       changed = true;
     }
