@@ -31,9 +31,11 @@ export function proxy(request: NextRequest) {
     ['/h5p/core/', '/h5p-core/'],
     ['/h5p/bucharena/', '/html/bucharena/'],
   ];
+  let legacyRewritten = false;
   for (const [from, to] of legacyH5pPrefixes) {
     if (url.pathname.startsWith(from)) {
       url.pathname = to + url.pathname.slice(from.length);
+      legacyRewritten = true;
       break;
     }
   }
@@ -66,6 +68,11 @@ export function proxy(request: NextRequest) {
     return NextResponse.rewrite(url, {
       request: { headers: requestHeaders },
     });
+  }
+
+  // Rewritten to a local static path (e.g. /h5p-core/ in public/)
+  if (legacyRewritten) {
+    return NextResponse.rewrite(url);
   }
 
   // Protect dashboard, student progress, and admin pages
