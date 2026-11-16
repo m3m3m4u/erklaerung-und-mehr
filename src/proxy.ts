@@ -2,6 +2,7 @@ import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
 import crypto from 'crypto';
 import { resolveLegacyRedirect } from './lib/redirect-resolver';
+import bucharenaMap from './lib/bucharena-map.json';
 
 const AUTH_SECRET = process.env.AUTH_SECRET || 'eum-secret-k7p2xN8wLqR3mT5vY9uJ4sA6bC1dE0fG';
 const SESSION_COOKIE = 'eum_session';
@@ -22,6 +23,27 @@ function verifySessionCookie(token: string): boolean {
 
 export function proxy(request: NextRequest) {
   const url = request.nextUrl.clone();
+
+  // Legacy WordPress H5P paths -> new Storage Box paths
+  // (bucharena HTML files still reference /h5p/libraries/... and /h5p/core/...)
+  const legacyH5pPrefixes: Array<[string, string]> = [
+    ['/h5p/libraries/', '/h5p-libraries/'],
+    ['/h5p/core/', '/h5p-core/'],
+    ['/h5p/bucharena/', '/html/bucharena/'],
+  ];
+  for (const [from, to] of legacyH5pPrefixes) {
+    if (url.pathname.startsWith(from)) {
+      url.pathname = to + url.pathname.slice(from.length);
+      break;
+    }
+  }
+
+  // Legacy post URLs /h5p-NNNN -> bucharena HTML file
+  const h5pPost = url.pathname.match(/^\/h5p-(\d+)\/?$/);
+  if (h5pPost) {
+    const file = (bucharenaMap as Record<string, string>)[h5pPost[1]];
+    if (file) url.pathname = '/html/bucharena/' + file;
+  }
 
   // WebDAV / Hetzner Storage Box rewrites (H5P, html, diagramme_en, diagramme_de, er)
   const webdavPrefixes = [
